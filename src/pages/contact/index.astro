@@ -1,0 +1,72 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Contact"
+  description="Contact Australian Home Collective about corrections, brand information, guide suggestions and website feedback."
+>
+  <header class="page-intro">
+    <div class="narrow">
+      <p class="eyebrow">Contact</p>
+      <h1>Contact Australian Home Collective.</h1>
+      <p class="lead">
+        Use this page to contact Australian Home Collective about corrections, brand
+        information, guide suggestions or general website enquiries.
+      </p>
+    </div>
+  </header>
+  <section class="content narrow">
+    <h2>Contact form</h2>
+    <p>
+      Send a message about corrections, Australian status labels, guide suggestions, general
+      website feedback or brand submissions.
+    </p>
+    <form class="contact-form" action="https://formspree.io/f/mgojdyjw" method="POST">
+      <input type="hidden" name="_subject" value="Australian Home Collective enquiry" />
+      <div class="form-field honeypot" aria-hidden="true">
+        <label for="contact-website">Website</label>
+        <input id="contact-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off" />
+      </div>
+      <div class="form-field">
+        <label for="contact-name">Name</label>
+        <input id="contact-name" name="name" type="text" autocomplete="name" required />
+      </div>
+      <div class="form-field">
+        <label for="contact-email">Your email</label>
+        <input id="contact-email" name="email" type="email" autocomplete="email" required />
+      </div>
+      <div class="form-field">
+        <label for="contact-enquiry">Enquiry type</label>
+        <select id="contact-enquiry" name="enquiry_type" required>
+          <option value="">Select an enquiry type</option>
+          <option>Correction to product or brand information</option>
+          <option>Australian status label update</option>
+          <option>Guide suggestion</option>
+          <option>General website feedback</option>
+          <option>Brand submission</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" rows="7" required></textarea>
+      </div>
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAADwCb4FVfJonE8-N"></div>
+      <button class="button" type="submit">Send message</button>
+    </form>
+
+    <h2>Suitable enquiries</h2>
+    <ul class="feature-list">
+      <li>Corrections to product or brand information.</li>
+      <li>Australian status label updates.</li>
+      <li>Guide suggestions.</li>
+      <li>General website feedback.</li>
+      <li>Brand submissions.</li>
+    </ul>
+    <p>
+      Please keep submissions factual and relevant to Australian households. Inclusion is not
+      guaranteed, and we choose what to cover based on usefulness for readers.
+    </p>
+  </section>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</BaseLayout>

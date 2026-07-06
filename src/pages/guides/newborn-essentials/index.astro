@@ -1,0 +1,169 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ProductCard from "../../../components/ProductCard.astro";
+import ComparisonTable from "../../../components/ComparisonTable.astro";
+import FAQBlock from "../../../components/FAQBlock.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
+
+const comparisonRows = [
+  {
+    item: "Bassinet or cot",
+    usefulFor: "A dedicated sleep space that meets current safety expectations.",
+    consider: "Room size, mattress fit, ventilation, age and weight limits, and whether it suits overnight sleep.",
+  },
+  {
+    item: "Change mat or change table",
+    usefulFor: "Nappy changes with supplies close to hand.",
+    consider: "Stability, wipe-clean surfaces, storage, height and whether it works in a small bedroom or bathroom.",
+  },
+  {
+    item: "Pram or carrier",
+    usefulFor: "Getting out for appointments, walks and everyday errands.",
+    consider: "Car boot space, footpaths, stairs, public transport and how heavy it feels when folded.",
+  },
+  {
+    item: "Swaddles or sleep suits",
+    usefulFor: "Helping some newborns settle while keeping bedding minimal.",
+    consider: "Fabric weight for the season, sizing, hip-friendly design and when to stop swaddling.",
+  },
+];
+
+const faqs = [
+  {
+    question: "How many newborn clothes are useful?",
+    answer: "Enough for frequent changes and laundry gaps, but not so many that your baby grows out of them unworn. A small mix of newborn and 0-3 month sizes is often more practical.",
+  },
+  {
+    question: "Should everything be ready before the baby arrives?",
+    answer: "No. It is sensible to prepare the safety and care basics, then wait on items that depend on your baby, your feeding plan or your home routine.",
+  },
+  {
+    question: "Are expensive nursery items always better?",
+    answer: "Not automatically. Fit, safety, cleanability, durability and everyday use matter more than price or nursery styling.",
+  },
+];
+
+const relatedGuides = [
+  {
+    href: "/categories/nursery-kids/",
+    title: "Nursery & Kids",
+    description: "More practical guides for setting up a baby space.",
+  },
+  {
+    href: "/guides/bassinet-vs-cot/",
+    title: "Bassinet vs Cot: Which Should You Buy First?",
+    description: "Compare sleep-space options before deciding what suits your home.",
+  },
+  {
+    href: "/guides/baby-monitors-australia/",
+    title: "Baby Monitors for Australian Homes",
+    description: "Compare monitor types, privacy settings, range and placement.",
+  },
+  {
+    href: "/guides/nursery-storage-small-rooms/",
+    title: "Nursery Storage for Small Rooms",
+    description: "Plan practical storage for compact rooms, rentals and shared spaces.",
+  },
+  {
+    href: "/how-we-select-products/",
+    title: "How We Select Products and Brands",
+    description: "Our criteria for including examples in guides.",
+  },
+];
+---
+
+<ArticleLayout
+  title="Newborn Essentials for First-Time Parents"
+  description="A practical Australian guide to the items that tend to matter most in the first few months, with notes on what can wait."
+  category="Nursery & Kids"
+  date="Updated July 2026"
+  readingTime="8 minute read"
+  image="/images/Nursery-kids.webp"
+  imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
+>
+  <p>
+    Preparing for a newborn can feel like being handed a very long list at the exact moment
+    your brain would prefer a cup of tea and a lie down. The useful starting point is simpler:
+    focus on safe sleep, feeding, nappies, washing, transport and a few comfortable clothes.
+  </p>
+  <p>
+    This guide is not a checklist to finish in one weekend. It is a way to sort essentials
+    from nice-to-haves so you can prepare your home without overfilling the nursery.
+  </p>
+
+  <h2>The core newborn essentials</h2>
+  <div class="grid two">
+    <ProductCard
+      label="Sleep"
+      title="A safe sleep space"
+      description="Choose a cot or bassinet that suits your room, has a firm mattress and uses fitted sheets made for that exact size."
+      note="Keep pillows, loose blankets and decorative soft items out of the sleep space."
+    />
+    <ProductCard
+      label="Changing"
+      title="Nappies and a practical change setup"
+      description="You can use a dedicated change table, a secure mat on a dresser or another stable surface that keeps supplies within reach."
+    />
+    <ProductCard
+      label="Clothing"
+      title="Simple layers"
+      description="Zip suits, singlets, socks and season-appropriate layers are usually easier than fussy outfits in the early weeks."
+    />
+    <ProductCard
+      label="Outings"
+      title="A way to travel safely"
+      description="Plan for a correctly fitted car restraint and a pram or carrier that suits your home, transport and local footpaths."
+    />
+  </div>
+
+  <h2>What can usually wait</h2>
+  <p>
+    Many nursery extras are lovely but not urgent. Monitors, bottle warmers, wipe warmers,
+    large toy collections, decorative bedding and specialist organisers may become useful,
+    but they are rarely the difference between prepared and unprepared.
+  </p>
+  <p>
+    If you are considering a monitor, compare whether you need audio, video or app access,
+    and check camera placement, cord safety, range, battery life and privacy settings.
+  </p>
+
+  <ComparisonTable rows={comparisonRows} />
+
+  <h2>Australian home considerations</h2>
+  <p>
+    Think about summer heat, winter room temperature, rental limitations, storage space and
+    how often you will need to move items between rooms. A compact, washable setup can be
+    more useful than a picture-perfect nursery that only works in one corner.
+  </p>
+  <p>
+    For safety-sensitive items such as sleep spaces and car restraints, check current advice
+    from recognised Australian authorities and follow the product instructions carefully.
+    Second-hand can be practical for some items, but avoid anything with missing labels,
+    unknown history, damage or incomplete parts.
+  </p>
+
+  <h2>Helpful Australian safety references</h2>
+  <p>
+    For current guidance, start with{" "}
+    <ExternalLink href="https://rednose.org.au/safe-sleep-and-safer-pregnancy/overview/">Red Nose safe sleep advice</ExternalLink>,{" "}
+    <ExternalLink href="https://www.productsafety.gov.au/">Product Safety Australia</ExternalLink>{" "}
+    and{" "}
+    <ExternalLink href="https://www.childcarseats.com.au/">Child Car Seats Australia</ExternalLink>.
+    Use these resources alongside product instructions and professional fitting support where
+    relevant.
+  </p>
+
+  <h2>A calmer first list</h2>
+  <ul class="feature-list">
+    <li>Safe sleep space, fitted sheets and season-appropriate sleepwear.</li>
+    <li>Nappies, wipes, barrier cream and a stable changing surface.</li>
+    <li>Several easy-change outfits in practical sizes.</li>
+    <li>Feeding supplies that match your planned approach, with room to adjust later.</li>
+    <li>Baby bath basics, soft towels and gentle laundry planning.</li>
+    <li>Correctly fitted car restraint before the first trip home.</li>
+  </ul>
+
+  <FAQBlock items={faqs} />
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>

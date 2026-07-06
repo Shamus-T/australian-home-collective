@@ -1,0 +1,42 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  intro: string;
+  image?: string;
+  imageAlt?: string;
+  imagePosition?: string;
+}
+
+const {
+  title,
+  description,
+  intro,
+  image = "/images/living-room.webp",
+  imageAlt = "A warm, tidy Australian home interior",
+  imagePosition = "center",
+} = Astro.props;
+---
+
+<BaseLayout title={title} description={description}>
+  <header class="category-header image-header">
+    <img
+      class="header-image"
+      src={image}
+      alt={imageAlt}
+      width="1600"
+      height="720"
+      loading="eager"
+      draggable="false"
+      style={`object-position: ${imagePosition};`}
+    />
+    <div class="container">
+      <p class="eyebrow">Category Guide</p>
+      <h1>{title}</h1>
+      <p class="lead">{intro}</p>
+    </div>
+  </header>
+  <slot />
+</BaseLayout>

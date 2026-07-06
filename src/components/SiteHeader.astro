@@ -1,0 +1,22 @@
+---
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/categories/", label: "Categories" },
+  { href: "/guides/", label: "Guides" },
+  { href: "/how-we-select-products/", label: "How We Select" },
+  { href: "/about/", label: "About" },
+  { href: "/contact/", label: "Contact" },
+];
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Australian Home Collective home">
+      Australian Home Collective
+      <span>Home & lifestyle guide</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+    </nav>
+  </div>
+</header>

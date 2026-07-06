@@ -1,0 +1,147 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ComparisonTable from "../../../components/ComparisonTable.astro";
+import FAQBlock from "../../../components/FAQBlock.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const comparisonRows = [
+  {
+    item: "Bassinet",
+    usefulFor: "Keeping a newborn sleep space close by in the early months.",
+    consider: "Shorter use period, age and weight limits, mattress fit, stability, ventilation and whether it is approved for the way you plan to use it.",
+  },
+  {
+    item: "Cot",
+    usefulFor: "A longer-term sleep space that can suit babies beyond the earliest months.",
+    consider: "Room size, assembly, mattress fit, clearances, Australian safety guidance and whether it can be placed safely in your room.",
+  },
+  {
+    item: "Both",
+    usefulFor: "Families who want a compact early sleep option plus a longer-term nursery setup.",
+    consider: "Budget, storage, timing, duplicate linen needs and whether both items will genuinely suit your home.",
+  },
+];
+
+const faqs = [
+  {
+    question: "Is a bassinet essential?",
+    answer: "Not always. A bassinet can be useful in the early months, but some families start with a cot if it fits safely in the room and suits their routine.",
+  },
+  {
+    question: "Can a newborn use a cot?",
+    answer: "Many families use a cot from the beginning, provided it is assembled correctly, has a suitable firm mattress and is used according to current guidance and manufacturer instructions.",
+  },
+  {
+    question: "What should I check before using second-hand items?",
+    answer: "Check labels, instructions, age, condition, missing parts, mattress fit, recalls and safety notices. Avoid any item with an unknown history or damage.",
+  },
+];
+
+const relatedGuides = [
+  {
+    href: "/guides/newborn-essentials/",
+    title: "Newborn Essentials for First-Time Parents",
+    description: "A practical guide to the first few months at home.",
+  },
+  {
+    href: "/categories/nursery-kids/",
+    title: "Nursery & Kids",
+    description: "More nursery and kids guides for Australian homes.",
+  },
+  {
+    href: "/guides/nursery-storage-small-rooms/",
+    title: "Nursery Storage for Small Rooms",
+    description: "Plan storage before the room feels crowded.",
+  },
+  {
+    href: "/guides/baby-monitors-australia/",
+    title: "Baby Monitors for Australian Homes",
+    description: "Compare monitor features, privacy and safe placement.",
+  },
+];
+---
+
+<ArticleLayout
+  title="Bassinet vs Cot: Which Should You Buy First?"
+  description="A practical Australian guide comparing bassinets and cots, including space, budget, safety checks, mattress fit, age suitability and what to consider before buying."
+  category="Nursery & Kids"
+  date="Updated July 2026"
+  readingTime="7 minute read"
+  image="/images/Nursery-kids.webp"
+  imageAlt="A tidy nursery with a cot, change area and practical baby storage"
+>
+  <p>
+    Choosing between a bassinet and a cot is really a question about your home, your budget,
+    the early weeks and how long you want each item to be useful. Both can make sense, but
+    neither is automatically the right first choice for every family.
+  </p>
+
+  <h2>Quick comparison</h2>
+  <ComparisonTable rows={comparisonRows} caption="Bassinet, cot and both-option comparison" />
+
+  <h2>What is a bassinet?</h2>
+  <p>
+    A bassinet is a smaller sleep space usually intended for younger babies. Families often
+    consider one because it can be easier to place near an adult bed or move within the home,
+    depending on the design.
+  </p>
+
+  <h2>What is a cot?</h2>
+  <p>
+    A cot is a larger sleep space that can usually be used for longer. It takes more room,
+    but it may reduce the need to change sleep setups after the first few months.
+  </p>
+
+  <h2>When a bassinet may suit</h2>
+  <p>
+    A bassinet may suit if you have limited bedroom space, want a compact early setup or need
+    something easier to place close by. Check age, weight and size limits carefully because
+    bassinets are generally outgrown sooner than cots.
+  </p>
+
+  <h2>When a cot may suit</h2>
+  <p>
+    A cot may suit if you have enough room for safe placement and want a longer-term sleep
+    space from the start. Check mattress fit, assembly, clearances, ventilation and current
+    Australian safety guidance before use.
+  </p>
+
+  <h2>When using both may make sense</h2>
+  <p>
+    Some families use a bassinet in the early weeks and set up a cot for the nursery. This can
+    be practical, but it means planning for storage, extra sheets and a transition later.
+  </p>
+
+  <h2>Space and budget considerations</h2>
+  <p>
+    Measure your room before comparing options. Include door swings, bedside access, windows,
+    heaters, curtains, power points and walking space. A compact item is only useful if it can
+    be used safely and comfortably in your actual room.
+  </p>
+  <p>
+    Budget should include linen, mattress compatibility, replacement parts if needed and the
+    likely length of use. A cot can cost more up front, while a bassinet may have a shorter
+    useful life.
+  </p>
+
+  <h2>Safety checks before buying</h2>
+  <ul class="feature-list">
+    <li>Check current Australian safety guidance before choosing a sleep space.</li>
+    <li>Follow manufacturer instructions for assembly, use, cleaning and age limits.</li>
+    <li>Check mattress fit. Gaps, soft surfaces or incorrect sizing can create risks.</li>
+    <li>Check age, weight and size suitability before first use and as the baby grows.</li>
+    <li>Check recalls and safety notices where relevant, especially for second-hand items.</li>
+  </ul>
+
+  <h2>Common mistakes to avoid</h2>
+  <ul class="feature-list">
+    <li>Choosing an item before measuring the room.</li>
+    <li>Assuming every bassinet is suitable for overnight sleep.</li>
+    <li>Using a mattress that does not fit the exact sleep space.</li>
+    <li>Forgetting that babies can outgrow compact sleep spaces quickly.</li>
+    <li>Keeping instructions, labels or safety information separate from the item.</li>
+  </ul>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+  <FAQBlock items={faqs} />
+</ArticleLayout>

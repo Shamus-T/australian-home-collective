@@ -1,0 +1,201 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ComparisonTable from "../../../components/ComparisonTable.astro";
+import FAQBlock from "../../../components/FAQBlock.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const comparisonRows = [
+  {
+    item: "Audio-only monitor",
+    usefulFor: "Smaller homes or families who mainly want sound alerts.",
+    consider: "Sound clarity, range, battery life, volume controls and whether alerts are easy to hear overnight.",
+  },
+  {
+    item: "Video monitor",
+    usefulFor: "Visual checks during naps, overnight sleep or settling.",
+    consider: "Screen size, night vision, camera angle, battery life, range and whether extra cameras are supported.",
+  },
+  {
+    item: "Wi-Fi baby monitor",
+    usefulFor: "Families who want app access or remote viewing through home internet.",
+    consider: "App requirements, privacy settings, account security, update support, internet reliability and outage behaviour.",
+  },
+  {
+    item: "Non-Wi-Fi baby monitor",
+    usefulFor: "Parents who prefer a direct camera-to-parent-unit setup without app access.",
+    consider: "Range, signal reliability, screen quality, interference and whether it suits the layout of your home.",
+  },
+  {
+    item: "Movement or breathing-style monitor",
+    usefulFor: "Families who want extra alert features and understand the limitations.",
+    consider: "Manufacturer instructions, age suitability, alert settings and current safety information. Do not treat alerts as medical advice.",
+  },
+  {
+    item: "Travel monitor",
+    usefulFor: "Holidays, grandparents' homes or temporary sleep spaces.",
+    consider: "Portability, charging, mounting, range, privacy settings and whether it works reliably away from home.",
+  },
+];
+
+const faqs = [
+  {
+    question: "Do I need a baby monitor?",
+    answer: "Not always. A baby monitor may be useful if your baby sleeps in another room during naps, your home is larger, or you want audio or video alerts. Some families are comfortable without one, especially in smaller homes.",
+  },
+  {
+    question: "Is a Wi-Fi baby monitor better than a non-Wi-Fi monitor?",
+    answer: "Not automatically. Wi-Fi monitors may offer app access and remote viewing, while non-Wi-Fi monitors may suit parents who prefer a direct camera-to-parent-unit setup. Compare privacy, reliability, range and how you plan to use it.",
+  },
+  {
+    question: "What features matter most in a baby monitor?",
+    answer: "The most useful features are usually clear sound, reliable range, night vision, decent battery life, easy controls and safe camera placement. Extra features are only useful if they suit your home and routine.",
+  },
+  {
+    question: "Where should a baby monitor camera be placed?",
+    answer: "Place the camera where it gives a clear view while keeping cords, mounts and accessories safely away from the baby's sleep space. Always follow the manufacturer's setup instructions.",
+  },
+  {
+    question: "Are expensive baby monitors always better?",
+    answer: "No. More expensive models may include extra features, but the best monitor is the one that suits your home layout, privacy preferences, budget and daily routine.",
+  },
+];
+
+const relatedGuides = [
+  {
+    href: "/categories/nursery-kids/",
+    title: "Nursery & Kids",
+    description: "More nursery and kids guides for Australian homes.",
+  },
+  {
+    href: "/guides/newborn-essentials/",
+    title: "Newborn Essentials for First-Time Parents",
+    description: "A practical first-months guide for new parents.",
+  },
+  {
+    href: "/guides/bassinet-vs-cot/",
+    title: "Bassinet vs Cot: Which Should You Buy First?",
+    description: "Compare sleep-space options before deciding what suits your home.",
+  },
+  {
+    href: "/guides/nursery-storage-small-rooms/",
+    title: "Nursery Storage for Small Rooms",
+    description: "Plan a nursery that works in compact spaces.",
+  },
+  {
+    href: "/guides/nappy-change-station-checklist/",
+    title: "Nappy Change Station Checklist",
+    description: "Set up a simple, practical changing area.",
+  },
+];
+---
+
+<ArticleLayout
+  title="Baby Monitors for Australian Homes: What to Check Before Buying"
+  description="A practical Australian guide to baby monitors, including video, audio, Wi-Fi and non-Wi-Fi options, range, battery life, privacy, night vision and what to check before buying."
+  category="Nursery & Kids"
+  date="Updated July 2026"
+  readingTime="8 minute read"
+  image="/images/Nursery-kids.webp"
+  imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
+>
+  <p>
+    Baby monitors can help parents and carers check on a baby during naps, overnight sleep or
+    from another room. They can be useful, but not every Australian household needs the same
+    type. A compact home, a two-storey house, shared bedrooms and app preferences can all lead
+    to different choices.
+  </p>
+  <p>
+    This guide explains the main monitor types and the features worth comparing before deciding
+    what suits your room layout, comfort level, privacy preferences and budget.
+  </p>
+
+  <h2>Quick comparison</h2>
+  <ComparisonTable rows={comparisonRows} caption="Baby monitor type comparison" />
+
+  <h2>What is a baby monitor?</h2>
+  <p>
+    A baby monitor is a device that helps parents or carers hear, see or receive alerts from a
+    baby's sleep space or room. Some are audio-only, some include video, and some connect
+    through Wi-Fi or an app.
+  </p>
+
+  <h2>Audio-only baby monitors</h2>
+  <p>
+    Audio-only monitors are a simple option. They are usually less expensive and may suit
+    smaller homes or parents who only want sound alerts rather than a video feed. Check sound
+    clarity, range, battery life and volume controls before deciding whether one is enough.
+  </p>
+
+  <h2>Video baby monitors</h2>
+  <p>
+    Video monitors are useful for visual checks. They may help parents see whether a baby is
+    awake, settled or moving without entering the room. Compare screen size, night vision,
+    camera angle, battery life, range and whether extra cameras are supported if you may use
+    the monitor across more than one room.
+  </p>
+
+  <h2>Wi-Fi baby monitors</h2>
+  <p>
+    Wi-Fi baby monitors connect through home internet and usually an app. They can be useful
+    when parents want remote viewing or access from a phone. Check app requirements, privacy
+    settings, account security, update support, internet reliability and whether the device
+    still works during outages.
+  </p>
+
+  <h2>Non-Wi-Fi baby monitors</h2>
+  <p>
+    Non-Wi-Fi monitors usually connect directly between a camera and a parent unit. They may
+    suit parents who prefer not to use an app. Check range, signal reliability, screen quality
+    and whether walls or other devices may cause interference.
+  </p>
+
+  <h2>Features worth comparing</h2>
+  <ul class="feature-list">
+    <li><strong>Range:</strong> check the distance between the baby's room and the areas where adults spend time.</li>
+    <li><strong>Battery life:</strong> compare parent-unit battery life, charging time and low-battery alerts.</li>
+    <li><strong>Night vision:</strong> check image clarity in low light and whether the picture is easy to understand.</li>
+    <li><strong>Two-way audio:</strong> useful for some families, unnecessary for others.</li>
+    <li><strong>Temperature display:</strong> helpful as a room reference, but not a substitute for safe sleep guidance.</li>
+    <li><strong>Multiple camera support:</strong> useful for more than one child or room.</li>
+    <li><strong>Wall mounting or stand options:</strong> check safe placement and follow manufacturer instructions.</li>
+    <li><strong>App access:</strong> compare account setup, notifications and who can access the feed.</li>
+    <li><strong>Privacy and security settings:</strong> check passwords, updates, encryption information and app permissions.</li>
+    <li><strong>Warranty and support:</strong> look for clear support information and current product details.</li>
+    <li><strong>Replacement parts or chargers:</strong> check whether parts are easy to identify and replace.</li>
+  </ul>
+
+  <h2>Things to check before buying</h2>
+  <ul class="feature-list">
+    <li>Room size and distance from the parent area.</li>
+    <li>Whether walls, floors or outdoor spaces may affect signal.</li>
+    <li>Whether you want Wi-Fi or app access.</li>
+    <li>Whether the monitor works without internet.</li>
+    <li>Battery life for the parent unit or portable screen.</li>
+    <li>Camera placement and cable safety near the baby's sleep space.</li>
+    <li>Mounting options and whether they suit your room.</li>
+    <li>Warranty, return policy and support availability.</li>
+    <li>Current product information, manufacturer instructions and privacy information.</li>
+  </ul>
+
+  <h2>Common mistakes to avoid</h2>
+  <ul class="feature-list">
+    <li>Choosing based only on screen size.</li>
+    <li>Ignoring Wi-Fi and privacy settings.</li>
+    <li>Forgetting to check battery life.</li>
+    <li>Placing cords too close to the baby's sleep space.</li>
+    <li>Assuming expensive means better.</li>
+    <li>Choosing more features than needed.</li>
+    <li>Not checking whether the app requires a subscription.</li>
+    <li>Not checking whether spare chargers or replacement parts are available.</li>
+  </ul>
+
+  <h2>Practical starting point</h2>
+  <p>
+    For many Australian homes, a simple video monitor or audio monitor may be enough. Larger
+    homes, two-storey homes or households that want app access may prefer different features.
+    The best choice depends on room layout, comfort level, privacy preferences and budget.
+  </p>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+  <FAQBlock items={faqs} />
+</ArticleLayout>

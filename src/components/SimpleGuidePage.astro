@@ -1,0 +1,42 @@
+---
+import ArticleLayout from "../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "./RelatedGuidesBlock.astro";
+
+interface Guide {
+  href: string;
+  title: string;
+  description: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  category: string;
+  intro: string;
+  points: string[];
+  related?: Guide[];
+}
+
+const { title, description, category, intro, points, related = [] } = Astro.props;
+const image = category.includes("Nursery") ? "/images/Nursery-kids.webp" : "/images/living-room.webp";
+const imageAlt = category.includes("Nursery")
+  ? "A tidy nursery room with timber furniture, soft lighting and practical baby storage"
+  : "A warm Australian home interior with practical everyday organisation";
+---
+
+<ArticleLayout
+  title={title}
+  description={description}
+  category={category}
+  date="Updated July 2026"
+  readingTime="4 minute read"
+  image={image}
+  imageAlt={imageAlt}
+>
+  <p>{intro}</p>
+  <h2>What to consider</h2>
+  <ul class="feature-list">
+    {points.map((point) => <li>{point}</li>)}
+  </ul>
+  {related.length > 0 && <RelatedGuidesBlock guides={related} />}
+</ArticleLayout>

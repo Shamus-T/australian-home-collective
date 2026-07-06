@@ -1,0 +1,29 @@
+---
+const links = [
+  { href: "/about/", label: "About" },
+  { href: "/how-we-select-products/", label: "How We Select" },
+  { href: "/australian-status-labels/", label: "Australian Status Labels" },
+  { href: "/affiliate-disclosure/", label: "Affiliate Disclosure" },
+  { href: "/privacy-policy/", label: "Privacy Policy" },
+  { href: "/contact/", label: "Contact" },
+];
+---
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a class="brand" href="/">Australian Home Collective</a>
+      <p>
+        Practical home and lifestyle guides for Australian households.
+      </p>
+      <p class="footer-copyright">
+        © Australian Home Collective. All rights reserved.
+      </p>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      {links.map((link) => (
+        <a href={link.href}>{link.label}</a>
+      ))}
+    </nav>
+  </div>
+</footer>

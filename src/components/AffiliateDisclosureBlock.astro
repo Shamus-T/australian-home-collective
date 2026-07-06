@@ -1,0 +1,15 @@
+---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+const disclosureText =
+  " This guide may include affiliate links. We may receive a commission at no extra cost to you.";
+---
+
+<aside class:list={["disclosure-block", compact && "compact"]} aria-label="Affiliate disclosure">
+  <p>
+    <strong>Disclosure:</strong>{disclosureText}
+  </p>
+</aside>

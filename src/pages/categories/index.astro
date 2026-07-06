@@ -1,0 +1,106 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import GuideCard from "../../components/GuideCard.astro";
+
+const categories = [
+  {
+    href: "/categories/nursery-kids/",
+    title: "Nursery & Kids",
+    description: "Newborn, baby care, sleep, storage and kids room planning.",
+    image: "/images/Nursery-kids.webp",
+    imageAlt: "A tidy nursery room with timber furniture, soft lighting and practical baby storage.",
+  },
+  {
+    href: "/categories/kitchen/",
+    title: "Kitchen",
+    description: "Practical kitchen routines, storage, cleaning and everyday setup notes.",
+    image: "/images/kitchen.webp",
+    imageAlt: "A tidy kitchen bench with greenery, timber details and warm natural light.",
+  },
+  {
+    href: "/categories/pets/",
+    title: "Pets",
+    description: "Household guides for pets, care routines and pet-friendly spaces.",
+    image: "/images/pet.webp",
+    imageAlt: "A tidy pet-friendly room with warm timber storage and soft natural light.",
+  },
+  {
+    href: "/categories/laundry/",
+    title: "Laundry",
+    description: "Laundry routines, lower-waste habits, washing basics and home care.",
+    image: "/images/laundry.webp",
+    imageAlt: "A practical laundry room with warm finishes and tidy storage.",
+  },
+  {
+    href: "/categories/bathroom/",
+    title: "Bathroom",
+    description: "Bathroom organisation, bath routines and practical family setup ideas.",
+    image: "/images/bathroom.webp",
+    imageAlt: "A warm bathroom with natural finishes and tidy everyday storage.",
+  },
+  {
+    href: "/categories/bedroom/",
+    title: "Bedroom",
+    description: "Bedroom planning, linen, sleep spaces and calm everyday routines.",
+    image: "/images/bedroom.webp",
+    imageAlt: "A calm bedroom with soft bedding and warm natural light.",
+  },
+  {
+    href: "/categories/living-spaces/",
+    title: "Living Spaces",
+    description: "Useful ideas for lounge rooms, shared spaces and family living areas.",
+    image: "/images/living-room.webp",
+    imageAlt: "A warm living room with timber furniture, soft linen and indoor greenery.",
+  },
+  {
+    href: "/categories/garage-storage/",
+    title: "Garage & Storage",
+    description: "Home organisation, utility areas and practical storage planning.",
+    image: "/images/garage.webp",
+    imageAlt: "An organised garage with wall storage, cabinets and clear floor space.",
+  },
+  {
+    href: "/categories/home-office/",
+    title: "Home Office",
+    description: "Work-from-home setup, desk planning and household office routines.",
+    image: "/images/home-office.webp",
+    imageAlt: "A warm home office with a timber desk, greenery and soft natural light.",
+  },
+  {
+    href: "/categories/outdoor-garden/",
+    title: "Outdoor & Garden",
+    description: "Outdoor living, garden basics and practical home maintenance ideas.",
+    image: "/images/outdoor-garden.webp",
+    imageAlt: "A warm Australian patio garden with timber seating, native greenery and soft afternoon light.",
+  },
+];
+---
+
+<BaseLayout
+  title="Categories"
+  description="Browse Australian Home Collective categories for practical Australian home and lifestyle guides."
+>
+  <header class="page-intro">
+    <div class="narrow">
+      <p class="eyebrow">Explore by topic</p>
+      <h1>Categories</h1>
+      <p class="lead">
+        Browse practical home and lifestyle guides by room, routine and household priority.
+      </p>
+    </div>
+  </header>
+  <section class="section">
+    <div class="container grid three">
+      {categories.map((category) => (
+        <GuideCard
+          href={category.href}
+          title={category.title}
+          description={category.description}
+          meta="Category"
+          image={category.image}
+          imageAlt={category.imageAlt}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

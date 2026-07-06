@@ -1,0 +1,167 @@
+---
+import CategoryHubLayout from "../../../layouts/CategoryHubLayout.astro";
+import GuideCard from "../../../components/GuideCard.astro";
+import ProductCard from "../../../components/ProductCard.astro";
+import FAQBlock from "../../../components/FAQBlock.astro";
+
+const faqs = [
+  {
+    question: "What should be ready before a newborn arrives?",
+    answer: "Prioritise a safe sleep space, nappies, feeding basics, simple clothing, changing supplies and a correctly fitted car restraint. Styling and extra storage can wait.",
+  },
+  {
+    question: "How should Australian families approach safety checks?",
+    answer: "Check current Australian safety guidance, follow manufacturer instructions, check age, weight and size suitability, and review recalls or safety notices where relevant.",
+  },
+  {
+    question: "What is worth comparing before choosing nursery items?",
+    answer: "Compare fit in your room, cleanability, storage, adjustability, mattress compatibility, portability, return policies and whether the item still suits your routine after the first few weeks.",
+  },
+];
+---
+
+<CategoryHubLayout
+  title="Nursery & Kids"
+  description="Practical Australian nursery and kids guides covering newborn essentials, sleep, storage, bath time, outings and safety checks."
+  intro="A practical hub for Australian families preparing baby and kids spaces, with clear guides on what matters, what can wait and what to check carefully."
+  image="/images/Nursery-kids.webp"
+  imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
+>
+  <section class="section">
+    <div class="container section-heading">
+      <div>
+        <p class="eyebrow">Start here</p>
+        <h2>Core nursery guides</h2>
+      </div>
+      <p>
+        Begin with the decisions that shape everyday routines: sleep, changing, washing,
+        storage, getting out of the house and choosing items that suit your real room.
+      </p>
+    </div>
+    <div class="container grid three">
+      <GuideCard
+        href="/guides/newborn-essentials/"
+        title="Newborn Essentials for First-Time Parents"
+        description="A grounded guide to the items that tend to earn their place in the first few months."
+        meta="Guide"
+      />
+      <GuideCard
+        href="/guides/bassinet-vs-cot/"
+        title="Bassinet vs Cot: Which Should You Buy First?"
+        description="Compare space, budget, safety checks, mattress fit and age suitability."
+        meta="Guide"
+      />
+      <GuideCard
+        href="/guides/baby-monitors-australia/"
+        title="Baby Monitors for Australian Homes"
+        description="Compare video, audio, Wi-Fi, non-Wi-Fi, range, privacy and placement features."
+        meta="Guide"
+      />
+      <GuideCard
+        href="/guides/nursery-storage-small-rooms/"
+        title="Nursery Storage for Small Rooms"
+        description="Ideas for compact rooms, rentals and shared spaces without overfilling the nursery."
+        meta="Guide"
+      />
+      <GuideCard
+        href="/guides/baby-bath-time-essentials/"
+        title="Baby Bath Time Essentials"
+        description="What to prepare for safer, calmer bath routines at home."
+        meta="Guide"
+      />
+      <GuideCard
+        href="/guides/nappy-change-station-checklist/"
+        title="Nappy Change Station Checklist"
+        description="A simple changing setup for nappies, wipes, creams, storage and clean-up."
+        meta="Guide"
+      />
+    </div>
+  </section>
+
+  <section class="section soft">
+    <div class="container">
+      <p class="eyebrow">Areas to compare</p>
+      <h2>Nursery and kids priorities</h2>
+      <div class="grid three">
+        <ProductCard
+          label="Newborn essentials"
+          title="Start with daily care"
+          description="Focus on safe sleep, feeding, nappies, washing, simple clothing and transport before adding nice-to-have extras."
+        />
+        <ProductCard
+          label="Baby sleep"
+          title="Fit and safety matter"
+          description="Check mattress fit, ventilation, age suitability, room space and current Australian safety guidance before choosing a sleep setup."
+        />
+        <ProductCard
+          label="Nursery furniture"
+          title="Choose stable, practical pieces"
+          description="Look at stability, clearances, cleanability, storage and whether the furniture works safely in the room you actually have."
+        />
+        <ProductCard
+          label="Nursery storage"
+          title="Keep essentials reachable"
+          description="Prioritise washable storage, low clutter and easy access for nappies, clothes, wraps, towels and everyday care items."
+        />
+        <ProductCard
+          label="Baby monitors"
+          title="Match features to your home"
+          description="Consider camera placement, signal, audio quality, privacy settings, charging and whether your home layout really needs one."
+        />
+        <ProductCard
+          label="Bath time"
+          title="Prepare before water is involved"
+          description="Have towels, clean clothes and wash items ready, and follow manufacturer instructions for supports or accessories."
+        />
+        <ProductCard
+          label="Nappy changing"
+          title="Build a simple station"
+          description="A stable surface, stocked supplies and easy clean-up usually matter more than a dedicated piece of furniture."
+        />
+        <ProductCard
+          label="Prams and outings"
+          title="Think beyond the first walk"
+          description="Compare car boot space, footpaths, stairs, public transport, storage and how heavy items feel when folded or carried."
+        />
+        <ProductCard
+          label="Kids play and learning"
+          title="Leave room for growth"
+          description="Choose storage and play items that can adapt as interests, skills and room layouts change."
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid two">
+      <div>
+        <p class="eyebrow">Before deciding</p>
+        <h2>What to compare first</h2>
+        <ul class="feature-list">
+          <li>Age, weight and size suitability for the child using the item.</li>
+          <li>Current Australian safety guidance, recalls and safety notices where relevant.</li>
+          <li>Manufacturer instructions for assembly, use, care and ongoing checks.</li>
+          <li>Room measurements, storage, ventilation, traffic flow and rental limitations.</li>
+          <li>Cleaning needs, fabric weight, replacement parts and everyday durability.</li>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow">Common mistakes</p>
+        <h2>Easy traps to avoid</h2>
+        <ul class="feature-list">
+          <li>Choosing furniture before measuring doors, walls and safe clearances.</li>
+          <li>Assuming a popular item suits every room or every baby.</li>
+          <li>Keeping packaging or instructions separate from safety-sensitive items.</li>
+          <li>Adding decorative extras before the core care routine is sorted.</li>
+          <li>Overlooking recalls, second-hand condition or missing parts.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft">
+    <div class="narrow">
+      <FAQBlock items={faqs} />
+    </div>
+  </section>
+</CategoryHubLayout>

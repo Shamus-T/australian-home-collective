@@ -1,0 +1,33 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  meta?: string;
+  image?: string;
+  imageAlt?: string;
+  imagePosition?: string;
+}
+
+const { href, title, description, meta, image, imageAlt = "", imagePosition = "center" } = Astro.props;
+---
+
+<article class:list={["guide-card", image && "has-image"]}>
+  <a href={href}>
+    {image && (
+      <img
+        class="card-image"
+        src={image}
+        alt={imageAlt}
+        width="900"
+        height="620"
+        loading="lazy"
+        draggable="false"
+        style={`object-position: ${imagePosition};`}
+      />
+    )}
+    {meta && <p class="meta">{meta}</p>}
+    <h3>{title}</h3>
+    <p>{description}</p>
+  </a>
+</article>

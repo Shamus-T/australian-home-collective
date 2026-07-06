@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://australianhomecollective.com.au/sitemap.xml

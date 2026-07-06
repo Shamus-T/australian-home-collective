@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import GuideCard from "../components/GuideCard.astro";
+---
+
+<BaseLayout
+  title="Australian Home Collective"
+  description="A practical Australian home and lifestyle guide for considered everyday choices."
+>
+  <section class="hero image-hero">
+    <img
+      class="hero-bg"
+      src="/images/home-lifestyle-hero.jpg"
+      alt="A warm Australian home interior with timber furniture, greenery, kitchen and living spaces"
+      width="1800"
+      height="1100"
+      loading="eager"
+      draggable="false"
+    />
+    <div class="container hero-content">
+      <div class="hero-copy">
+        <p class="eyebrow">Australian home and lifestyle guide</p>
+        <h1>Considered help for calmer home decisions.</h1>
+        <p class="lead">
+          Australian Home Collective helps Australian households make practical choices for
+          everyday living at home, from organisation and family essentials to pets, laundry,
+          kitchen and nursery needs.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/guides/newborn-essentials/">Read the newborn guide</a>
+          <a class="button secondary" href="/how-we-select-products/">How we select</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft">
+    <div class="container section-heading">
+      <div>
+        <p class="eyebrow">Featured guide</p>
+        <h2>Nursery & Kids</h2>
+      </div>
+      <p>
+        Useful notes for first-time parents, gift-givers and households preparing a safer,
+        simpler space for a new baby.
+      </p>
+    </div>
+    <div class="container grid three">
+      <GuideCard
+        href="/categories/"
+        title="Browse Categories"
+        description="Find practical guides by room, routine and household topic."
+        meta="Start here"
+        image="/images/living-room.webp"
+        imageAlt="A warm living room with timber shelving, soft furnishings and natural light"
+      />
+      <GuideCard
+        href="/guides/newborn-essentials/"
+        title="Newborn Essentials for First-Time Parents"
+        description="A practical checklist of what is genuinely useful in the first few months."
+        meta="Guide"
+        image="/images/Nursery-kids.webp"
+        imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
+      />
+      <GuideCard
+        href="/guides/bassinet-vs-cot/"
+        title="Bassinet vs Cot: Which Should You Buy First?"
+        description="A practical comparison of sleep-space options for Australian families."
+        meta="Guide"
+        image="/images/Nursery-kids.webp"
+        imageAlt="A tidy nursery with a cot, change area and practical baby storage"
+      />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid two">
+      <div>
+        <p class="eyebrow">Our approach</p>
+        <h2>Helpful before persuasive.</h2>
+        <p>
+          We focus on everyday use, clear trade-offs and Australian context. Guides are written
+          for readers who want to understand what matters before comparing their options.
+        </p>
+        <ul class="feature-list">
+          <li>Clear explanations of features, materials and everyday use.</li>
+          <li>Preference for safer claims over unsupported marketing language.</li>
+          <li>Practical context for Australian homes, rooms and routines.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <p class="eyebrow">Our promise</p>
+        <h2>Clear, practical and selective.</h2>
+        <p>
+          We keep the focus on useful household decisions, not endless recommendations. The aim
+          is to help you compare what matters and ignore what does not.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

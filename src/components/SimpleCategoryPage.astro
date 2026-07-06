@@ -1,0 +1,102 @@
+---
+import CategoryHubLayout from "../layouts/CategoryHubLayout.astro";
+import GuideCard from "./GuideCard.astro";
+
+interface LinkItem {
+  href: string;
+  title: string;
+  description: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  intro: string;
+  areas: string[];
+  guides?: LinkItem[];
+}
+
+const { title, description, intro, areas, guides = [] } = Astro.props;
+const categoryImages: Record<string, { image: string; alt: string }> = {
+  "Nursery & Kids": {
+    image: "/images/Nursery-kids.webp",
+    alt: "A tidy nursery room with timber furniture, soft lighting and practical baby storage",
+  },
+  Kitchen: {
+    image: "/images/kitchen.webp",
+    alt: "A warm kitchen with timber cabinetry, green accents and a tidy benchtop",
+  },
+  Pets: {
+    image: "/images/pet.webp",
+    alt: "A tidy pet-friendly room with warm timber storage and soft natural light",
+  },
+  Laundry: {
+    image: "/images/laundry.webp",
+    alt: "A practical laundry room with warm finishes and tidy storage",
+  },
+  Bathroom: {
+    image: "/images/bathroom.webp",
+    alt: "A warm bathroom with natural finishes and tidy everyday storage",
+  },
+  Bedroom: {
+    image: "/images/bedroom.webp",
+    alt: "A calm bedroom with soft bedding and warm natural light",
+  },
+  "Living Spaces": {
+    image: "/images/living-room.webp",
+    alt: "A warm living room with timber shelving, soft furnishings and natural light",
+  },
+  "Garage & Storage": {
+    image: "/images/garage.webp",
+    alt: "An organised garage with wall storage, cabinets and clear floor space",
+  },
+  "Home Office": {
+    image: "/images/home-office.webp",
+    alt: "A warm home office with a timber desk, greenery and soft natural light",
+  },
+  "Outdoor & Garden": {
+    image: "/images/outdoor-garden.webp",
+    alt: "A warm Australian patio garden with timber seating, native greenery and soft afternoon light",
+  },
+};
+const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
+---
+
+<CategoryHubLayout title={title} description={description} intro={intro} image={selectedImage.image} imageAlt={selectedImage.alt}>
+  <section class="section">
+    <div class="container section-heading">
+      <div>
+        <p class="eyebrow">Guide focus</p>
+        <h2>What this category will cover</h2>
+      </div>
+      <p>
+        Browse practical Australian home guides for everyday rooms, routines and household
+        decisions.
+      </p>
+    </div>
+    <div class="container grid three">
+      {areas.map((area) => (
+        <article class="card">
+          <h3>{area}</h3>
+          <p>Practical notes, comparison points and safety-aware context for everyday homes.</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  {guides.length > 0 && (
+    <section class="section soft">
+      <div class="container section-heading">
+        <div>
+          <p class="eyebrow">Related guides</p>
+          <h2>Start with these guides</h2>
+        </div>
+      </div>
+      <div class="container grid three">
+        {guides.map((guide) => (
+          <GuideCard href={guide.href} title={guide.title} description={guide.description} meta="Guide" />
+        ))}
+      </div>
+    </section>
+  )}
+</CategoryHubLayout>

@@ -1,0 +1,37 @@
+---
+interface Row {
+  item: string;
+  usefulFor: string;
+  consider: string;
+}
+
+interface Props {
+  rows: Row[];
+  caption?: string;
+}
+
+const { rows, caption = "Comparison table" } = Astro.props;
+---
+
+<p class="table-hint">Swipe sideways to compare the full table.</p>
+<div class="comparison-wrap">
+  <table class="comparison-table">
+    <caption>{caption}</caption>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Useful for</th>
+        <th>What to consider</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row) => (
+        <tr>
+          <td>{row.item}</td>
+          <td>{row.usefulFor}</td>
+          <td>{row.consider}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

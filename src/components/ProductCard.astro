@@ -1,0 +1,17 @@
+---
+interface Props {
+  label: string;
+  title: string;
+  description: string;
+  note?: string;
+}
+
+const { label, title, description, note } = Astro.props;
+---
+
+<article class="product-card">
+  <div class="label">{label}</div>
+  <h3>{title}</h3>
+  <p>{description}</p>
+  {note && <p class="note">{note}</p>}
+</article>
