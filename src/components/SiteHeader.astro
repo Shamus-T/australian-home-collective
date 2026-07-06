@@ -11,9 +11,15 @@ const navItems = [
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="/" aria-label="Australian Home Collective home">
-      Australian Home Collective
-      <span>Home & lifestyle guide</span>
+    <a class="brand brand-logo" href="/" aria-label="Australian Home Collective home">
+      <img
+        src="/images/header-title.png"
+        alt="Australian Home Collective"
+        width="2508"
+        height="627"
+        loading="eager"
+        draggable="false"
+      />
     </a>
     <nav class="site-nav" aria-label="Main navigation">
       {navItems.map((item) => <a href={item.href}>{item.label}</a>)}

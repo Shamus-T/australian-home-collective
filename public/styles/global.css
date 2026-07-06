@@ -138,6 +138,18 @@ main:focus-visible {
   color: var(--color-wattle);
 }
 
+.brand-logo {
+  flex: 0 1 330px;
+  min-height: 0;
+}
+
+.brand-logo img {
+  width: min(330px, 46vw);
+  max-height: 78px;
+  object-fit: contain;
+  object-position: left center;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -371,10 +383,12 @@ h3 {
   min-height: 100%;
   overflow: hidden;
   padding: 0;
+  height: 100%;
 }
 
 .guide-card a {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 12px;
   height: 100%;
   padding: 22px;
@@ -387,6 +401,10 @@ h3 {
   overflow: hidden;
   isolation: isolate;
   padding: 24px;
+}
+
+.guide-card h3 {
+  min-height: 2.7em;
 }
 
 .guide-card.has-image a::before {
@@ -867,6 +885,15 @@ h3 {
     padding: 18px 0;
   }
 
+  .brand-logo {
+    flex-basis: auto;
+  }
+
+  .brand-logo img {
+    width: min(300px, 74vw);
+    max-height: 64px;
+  }
+
   .site-nav {
     gap: 8px 10px;
     justify-content: flex-start;
@@ -1021,6 +1048,11 @@ h3 {
     font-size: 1.25rem;
   }
 
+  .brand-logo img {
+    width: min(260px, 78vw);
+    max-height: 56px;
+  }
+
   .lead {
     font-size: 1.12rem;
     line-height: 1.68;
@@ -1073,6 +1105,10 @@ h3 {
   .product-card h3,
   .faq-item h3 {
     font-size: 1.3rem;
+  }
+
+  .guide-card h3 {
+    min-height: 0;
   }
 
   .footer-links {
