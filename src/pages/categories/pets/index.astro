@@ -4,9 +4,9 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
 
 <SimpleCategoryPage
   title="Pets"
-  description="Practical Australian pet guides for new pets, home routines, cleaning, storage and everyday care."
-  intro="Pet guides for households preparing for a new animal, managing daily routines and keeping the home practical."
-  areas={["New pet setup", "Cleaning and laundry", "Storage", "Feeding areas", "Travel and outings", "Home safety"]}
+  description="Practical Australian pet guides for feeding, bedding, cleaning, storage, grooming, travel and home comfort."
+  intro="Pet feeding, bedding, cleaning, storage, grooming, travel and comfort for Australian homes."
+  focusIntro="Pet-friendly homes need washable, practical choices that suit the animal, the flooring, the climate and the way the household actually lives."
   guides={[
     {
       href: "/guides/pet-essentials-for-australian-homes/",
@@ -25,8 +25,52 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
     },
     {
       href: "/guides/lower-waste-laundry-essentials/",
-      title: "Lower-waste Laundry Essentials",
+      title: "Lower-Waste Laundry Essentials",
       description: "Laundry notes that can help busy households manage frequent washing.",
     },
+  ]}
+  compare={[
+    "Pet size, breed, age and daily behaviour before choosing beds or bowls.",
+    "Indoor versus outdoor routines and where the pet actually spends time.",
+    "Washability for bedding, mats, rugs and soft items.",
+    "Flooring type, scratching risk, slipping and pet hair management.",
+    "Climate, shade, warmth and airflow for rest areas.",
+    "Travel needs for car trips, vet visits and holidays.",
+    "Rental restrictions, body corporate rules and cleaning expectations.",
+  ]}
+  mistakes={[
+    "Buying beds that are hard to wash or slow to dry.",
+    "Choosing bowls that slide around on tiles or timber floors.",
+    "Not planning safe, sealed food storage.",
+    "Ignoring pet hair, odour and muddy-paw routines.",
+    "Scattering leads, toys and cleaning supplies across the house.",
+  ]}
+  productTypes={[
+    { label: "Rest", title: "Pet beds", description: "Look for washable covers, suitable sizing and fabrics that suit your pet and climate." },
+    { label: "Feeding", title: "Feeding mats", description: "Help contain spills and protect floors around water and food bowls." },
+    { label: "Bowls", title: "Pet bowls", description: "Compare stability, cleaning ease, size and whether the bowl suits your pet's eating style." },
+    { label: "Food", title: "Food storage containers", description: "Keep dry food sealed, tidy and away from heat, moisture and pests." },
+    { label: "Grooming", title: "Grooming brushes", description: "Match the brush to coat type and how often grooming is realistic." },
+    { label: "Cats", title: "Litter trays", description: "Consider size, cleaning access, odour control and where the tray can sit privately." },
+    { label: "Floors", title: "Washable rugs", description: "Useful in pet zones if they are easy to wash, dry and reset." },
+    { label: "Travel", title: "Car restraints", description: "Choose restraints that suit the pet and vehicle, and follow product instructions carefully." },
+  ]}
+  faqs={[
+    {
+      question: "What pet products are most useful at home?",
+      answer: "Start with washable bedding, stable bowls, food storage, cleaning supplies, grooming basics and a simple place for leads and toys.",
+    },
+    {
+      question: "How do I keep pet areas cleaner?",
+      answer: "Use washable mats, keep cleaning cloths nearby, store food properly and create one or two clear pet zones instead of spreading items everywhere.",
+    },
+    {
+      question: "What should renters consider before buying pet gear?",
+      answer: "Prioritise washable, movable items and check lease or body corporate rules before adding doors, outdoor fixtures or permanent changes.",
+    },
+  ]}
+  relatedCategories={[
+    { href: "/categories/living-spaces/", title: "Living Spaces", description: "Storage, flooring and comfort ideas for shared pet-friendly rooms." },
+    { href: "/categories/outdoor-garden/", title: "Outdoor & Garden", description: "Outdoor storage, shade and practical setup for yards, patios and balconies." },
   ]}
 />

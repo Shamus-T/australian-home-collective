@@ -4,9 +4,9 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
 
 <SimpleCategoryPage
   title="Laundry"
-  description="Practical Australian laundry guides for washing routines, storage, lower-waste choices and household cleaning."
-  intro="Laundry guides for Australian households looking for practical routines, better storage and careful product comparisons."
-  areas={["Washing routines", "Lower-waste swaps", "Storage", "Drying in Australian climates", "Pet laundry", "Family laundry systems"]}
+  description="Practical Australian laundry guides for drying, sorting, cleaning supplies, linen overflow and narrow-room storage."
+  intro="Laundry setup, drying, sorting, cleaning supplies, linen overflow, narrow-room storage and practical routines for Australian homes."
+  focusIntro="A practical laundry needs to manage wet washing, dry storage, cleaning products and household overflow without becoming a dumping zone."
   guides={[
     {
       href: "/guides/laundry-essentials-australian-homes/",
@@ -20,8 +20,51 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
     },
     {
       href: "/guides/lower-waste-laundry-essentials/",
-      title: "Lower-waste Laundry Essentials",
+      title: "Lower-Waste Laundry Essentials",
       description: "Compare practical laundry basics with less waste in mind.",
     },
+  ]}
+  compare={[
+    "Room width, cupboard depth and the swing of doors or appliance lids.",
+    "Washing machine and dryer layout, including stacking or side-by-side access.",
+    "Ventilation and moisture control, especially in internal laundries.",
+    "Drying space for wet weather, apartments or busy family weeks.",
+    "Storage for detergents, sprays, cloths and cleaning products.",
+    "Child and pet safety around chemicals, cords, buckets and appliances.",
+  ]}
+  mistakes={[
+    "Not measuring the narrow gaps between appliances, walls and doors.",
+    "Choosing bulky hampers that block movement in a small laundry.",
+    "Storing cleaning products too low or within easy reach of children or pets.",
+    "Relying only on outdoor drying when weather or strata rules make it difficult.",
+    "Ignoring moisture, airflow and musty smells around wet items.",
+  ]}
+  productTypes={[
+    { label: "Sorting", title: "Laundry hampers", description: "Choose sizes that suit your household without blocking doors or walkways." },
+    { label: "Drying", title: "Drying racks", description: "Helpful for wet weather, delicate items and apartments without reliable outdoor drying." },
+    { label: "Walls", title: "Wall hooks", description: "Useful for bags, brushes and airers when fixed safely and within weight limits." },
+    { label: "Cleaning", title: "Cleaning caddies", description: "Keep sprays, cloths and brushes together so they can move between rooms." },
+    { label: "Storage", title: "Shelving", description: "Adds vertical storage for linen, detergents and overflow items when safely placed." },
+    { label: "Small items", title: "Peg baskets", description: "Keep pegs, clips and small laundry items contained and easy to grab." },
+    { label: "Ironing", title: "Ironing storage", description: "Wall brackets or slim storage can keep boards out of the walkway." },
+    { label: "Tools", title: "Mop and broom holders", description: "Help keep tall cleaning tools off the floor and easier to access." },
+  ]}
+  faqs={[
+    {
+      question: "What helps most in a small laundry?",
+      answer: "Wall hooks, slim hampers, vertical shelving and a drying plan usually make the biggest difference before adding more containers.",
+    },
+    {
+      question: "Are drying racks worth it in Australian homes?",
+      answer: "They can be very useful for wet weather, apartments, delicate clothes and homes where outdoor drying is not always reliable.",
+    },
+    {
+      question: "How should I store cleaning products safely?",
+      answer: "Keep them high, closed or otherwise out of reach of children and pets, and follow the storage instructions on the product label.",
+    },
+  ]}
+  relatedCategories={[
+    { href: "/categories/bathroom/", title: "Bathroom", description: "Towel, cleaning and moisture-control ideas for nearby wet areas." },
+    { href: "/categories/garage-storage/", title: "Garage Storage", description: "Overflow storage for bulk supplies, tools and seasonal household items." },
   ]}
 />

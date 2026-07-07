@@ -1,6 +1,8 @@
 ---
 import CategoryHubLayout from "../layouts/CategoryHubLayout.astro";
 import GuideCard from "./GuideCard.astro";
+import ProductCard from "./ProductCard.astro";
+import FAQBlock from "./FAQBlock.astro";
 
 interface LinkItem {
   href: string;
@@ -8,15 +10,42 @@ interface LinkItem {
   description: string;
 }
 
+interface ProductType {
+  label: string;
+  title: string;
+  description: string;
+}
+
+interface FAQ {
+  question: string;
+  answer: string;
+}
+
 interface Props {
   title: string;
   description: string;
   intro: string;
-  areas: string[];
+  focusIntro: string;
   guides?: LinkItem[];
+  compare: string[];
+  mistakes: string[];
+  productTypes: ProductType[];
+  faqs: FAQ[];
+  relatedCategories?: LinkItem[];
 }
 
-const { title, description, intro, areas, guides = [] } = Astro.props;
+const {
+  title,
+  description,
+  intro,
+  focusIntro,
+  guides = [],
+  compare,
+  mistakes,
+  productTypes,
+  faqs,
+  relatedCategories = [],
+} = Astro.props;
 const categoryImages: Record<string, { image: string; alt: string }> = {
   "Nursery & Kids": {
     image: "/images/Nursery-kids.webp",
@@ -50,6 +79,10 @@ const categoryImages: Record<string, { image: string; alt: string }> = {
     image: "/images/garage.webp",
     alt: "An organised garage with wall storage, cabinets and clear floor space",
   },
+  "Garage Storage": {
+    image: "/images/garage.webp",
+    alt: "An organised garage with wall storage, cabinets and clear floor space",
+  },
   "Home Office": {
     image: "/images/home-office.webp",
     alt: "A warm home office with a timber desk, greenery and soft natural light",
@@ -63,34 +96,16 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
 ---
 
 <CategoryHubLayout title={title} description={description} intro={intro} image={selectedImage.image} imageAlt={selectedImage.alt}>
-  <section class="section">
-    <div class="container section-heading">
-      <div>
-        <p class="eyebrow">Guide focus</p>
-        <h2>What this category will cover</h2>
-      </div>
-      <p>
-        Browse practical Australian home guides for everyday rooms, routines and household
-        decisions.
-      </p>
-    </div>
-    <div class="container grid three">
-      {areas.map((area) => (
-        <article class="card">
-          <h3>{area}</h3>
-          <p>Practical notes, comparison points and safety-aware context for everyday homes.</p>
-        </article>
-      ))}
-    </div>
-  </section>
-
   {guides.length > 0 && (
-    <section class="section soft">
+    <section class="section">
       <div class="container section-heading">
         <div>
-          <p class="eyebrow">Related guides</p>
-          <h2>Start with these guides</h2>
+          <p class="eyebrow">Start here</p>
+          <h2>Popular guides</h2>
         </div>
+        <p>
+          Begin with the published guides most relevant to this area of the home.
+        </p>
       </div>
       <div class="container grid three">
         {guides.map((guide) => (
@@ -99,4 +114,69 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
       </div>
     </section>
   )}
+
+  <section class:list={["section", guides.length > 0 && "soft"]}>
+    <div class="container section-heading">
+      <div>
+        <p class="eyebrow">Category focus</p>
+        <h2>What belongs in this category</h2>
+      </div>
+      <p>{focusIntro}</p>
+    </div>
+    <div class="container grid three">
+      {productTypes.map((item) => (
+        <ProductCard label={item.label} title={item.title} description={item.description} />
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid two">
+      <div>
+        <p class="eyebrow">Before buying</p>
+        <h2>What to compare first</h2>
+        <ul class="feature-list">
+          {compare.map((item) => <li>{item}</li>)}
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow">Common mistakes</p>
+        <h2>Easy traps to avoid</h2>
+        <ul class="feature-list">
+          {mistakes.map((item) => <li>{item}</li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  {relatedCategories.length > 0 && (
+    <section class="section soft">
+      <div class="container section-heading">
+        <div>
+          <p class="eyebrow">Related areas</p>
+          <h2>Explore nearby categories</h2>
+        </div>
+        <p>
+          Household routines often overlap, so these related areas may help with the same
+          planning or storage problem.
+        </p>
+      </div>
+      <div class="container grid two">
+        {relatedCategories.map((category) => (
+          <GuideCard
+            href={category.href}
+            title={category.title}
+            description={category.description}
+            meta="Category"
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="narrow">
+      <FAQBlock items={faqs} />
+    </div>
+  </section>
 </CategoryHubLayout>

@@ -4,14 +4,58 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
 
 <SimpleCategoryPage
   title="Outdoor & Garden"
-  description="Practical Australian outdoor and garden guides for storage, family spaces, shade and everyday maintenance."
-  intro="Outdoor and garden guides for Australian homes, with attention to climate, storage, shade and family routines."
-  areas={["Outdoor storage", "Shade", "Family spaces", "Pet areas", "Garden basics", "Maintenance"]}
+  description="Practical Australian outdoor and garden guides for storage, patio setup, garden tools, shade and weather protection."
+  intro="Outdoor storage, patio setup, garden tools, shade, weather protection and useful outdoor home basics."
+  focusIntro="Outdoor areas need products that can handle sun, rain, wind, dust and everyday use without creating bulky clutter."
   guides={[
     {
       href: "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
       title: "Outdoor Storage Ideas for Australian Patios, Balconies and Gardens",
       description: "Practical storage ideas for cushions, tools, barbecue gear, toys and outdoor clutter.",
     },
+  ]}
+  compare={[
+    "Weather exposure, including direct sun, rain and salty air where relevant.",
+    "UV resistance for plastics, fabrics and outdoor covers.",
+    "Rust resistance for metal frames, hardware and storage units.",
+    "Available patio, balcony or garden space before buying bulky items.",
+    "Tool storage needs for hoses, secateurs, gloves and garden supplies.",
+    "Cleaning and maintenance needs across seasons.",
+    "Wind and storm conditions, especially for lightweight items.",
+  ]}
+  mistakes={[
+    "Buying indoor products and expecting them to last outside.",
+    "Ignoring UV and rain exposure when choosing cushions, storage or covers.",
+    "Not securing lightweight items in windy areas.",
+    "Choosing storage without drainage or ventilation.",
+    "Buying bulky furniture before measuring the patio, balcony or pathway.",
+  ]}
+  productTypes={[
+    { label: "Storage", title: "Outdoor storage boxes", description: "Useful for cushions, toys and small tools when they suit the weather exposure." },
+    { label: "Tools", title: "Garden tool racks", description: "Keep long-handled tools upright, visible and away from walkways." },
+    { label: "Watering", title: "Hose reels", description: "Help control hoses and reduce trip hazards around paths and taps." },
+    { label: "Patio", title: "Patio storage", description: "Choose storage that fits outdoor furniture, barbecue gear and cleaning needs." },
+    { label: "Entry", title: "Outdoor mats", description: "Help reduce dirt entering the home when they drain and dry properly." },
+    { label: "Shade", title: "Shade products", description: "Compare coverage, wind suitability, fixing points and everyday setup effort." },
+    { label: "Garden", title: "Planters", description: "Consider weight, drainage, sunlight and balcony or courtyard rules." },
+    { label: "Waste", title: "Bins and compost storage", description: "Plan odour, pests, ventilation and access before adding outdoor waste storage." },
+  ]}
+  faqs={[
+    {
+      question: "What outdoor storage works best in Australian weather?",
+      answer: "Look for weather-resistant storage with drainage or ventilation, UV-aware materials and enough weight or fixing to handle windy conditions.",
+    },
+    {
+      question: "How do I protect outdoor items from sun and rain?",
+      answer: "Use suitable covers, shaded positions, weather-aware storage and regular cleaning, and avoid leaving indoor-only items outside.",
+    },
+    {
+      question: "What garden tools should a basic household keep?",
+      answer: "A simple set may include gloves, secateurs, a trowel, hose or watering can, broom and a safe place to store them.",
+    },
+  ]}
+  relatedCategories={[
+    { href: "/categories/garage-storage/", title: "Garage Storage", description: "Shelving, tubs and tool storage for garden and outdoor overflow." },
+    { href: "/categories/pets/", title: "Pets", description: "Outdoor pet comfort, cleaning and storage ideas for pet-friendly homes." },
   ]}
 />

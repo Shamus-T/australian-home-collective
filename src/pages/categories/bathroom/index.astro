@@ -4,9 +4,9 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
 
 <SimpleCategoryPage
   title="Bathroom"
-  description="Practical Australian bathroom guides for storage, cleaning, bath time and everyday household routines."
-  intro="Bathroom guides for compact storage, safer routines, cleaning and family-friendly spaces."
-  areas={["Storage", "Cleaning", "Baby bath time", "Towels and linen", "Small bathrooms", "Everyday routines"]}
+  description="Practical Australian bathroom guides for storage, cleaning, towels, family essentials and renter-friendly organisation."
+  intro="Bathroom storage, cleaning, towels, family essentials, renter-friendly organisation and everyday practical setup."
+  focusIntro="Bathrooms need storage that handles moisture, daily use and cleaning without making the vanity, shower or floor harder to maintain."
   guides={[
     {
       href: "/guides/bathroom-essentials-australian-homes/",
@@ -23,5 +23,48 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
       title: "Baby Bath Time Essentials",
       description: "Prepare a calmer bath routine for babies.",
     },
+  ]}
+  compare={[
+    "Moisture resistance and whether the material is suitable for wet areas.",
+    "Available wall, vanity, shower and towel space.",
+    "How easy the item is to clean around or move for cleaning.",
+    "Towel storage needs for the number of people in the home.",
+    "Household size, guest use and children's bath routines.",
+    "Rental restrictions before drilling, mounting or using adhesive products.",
+  ]}
+  mistakes={[
+    "Using storage that is not suited to humid or splash-prone spaces.",
+    "Overcrowding the vanity with items that are not used daily.",
+    "Mixing daily items with backup supplies until nothing is easy to find.",
+    "Ignoring mould-prone corners, wet floors and poor ventilation.",
+    "Buying suction products for items heavier than they can safely hold.",
+  ]}
+  productTypes={[
+    { label: "Shower", title: "Shower caddies", description: "Keep daily wash items contained if they drain well and suit the shower surface." },
+    { label: "Vanity", title: "Vanity organisers", description: "Separate daily grooming items from backup products and medicines." },
+    { label: "Towels", title: "Towel hooks", description: "Useful when rails are limited, especially for shared or family bathrooms." },
+    { label: "Laundry", title: "Laundry hampers", description: "A slim hamper can stop towels and clothes collecting on the floor." },
+    { label: "Toilet", title: "Toilet roll storage", description: "Keep backup rolls dry, visible and away from wet zones." },
+    { label: "Cleaning", title: "Cleaning brushes", description: "Choose easy-clean items that have a sensible place to dry between uses." },
+    { label: "Floor", title: "Bath mats", description: "Prioritise washable mats that dry properly in your bathroom's airflow." },
+    { label: "Safety", title: "Medicine storage", description: "Keep medicines high, closed and away from heat and moisture where appropriate." },
+  ]}
+  faqs={[
+    {
+      question: "What storage works best in a small bathroom?",
+      answer: "Use vanity dividers, towel hooks, narrow shelves and a simple split between daily items and backup supplies.",
+    },
+    {
+      question: "How can I reduce bathroom clutter?",
+      answer: "Keep only daily-use products near the sink or shower, move backups elsewhere and remove expired or unused items regularly.",
+    },
+    {
+      question: "What bathroom items are worth replacing regularly?",
+      answer: "Replace worn bath mats, tired towels, old toothbrushes, damaged toilet brushes and expired products as needed.",
+    },
+  ]}
+  relatedCategories={[
+    { href: "/categories/laundry/", title: "Laundry", description: "Washing, towel overflow and cleaning-product storage ideas." },
+    { href: "/categories/nursery-kids/", title: "Nursery & Kids", description: "Baby bath routines, family storage and kid-friendly basics." },
   ]}
 />

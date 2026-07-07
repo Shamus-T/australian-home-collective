@@ -6,16 +6,16 @@ import FAQBlock from "../../../components/FAQBlock.astro";
 
 const faqs = [
   {
-    question: "What should be ready before a newborn arrives?",
-    answer: "Prioritise a safe sleep space, nappies, feeding basics, simple clothing, changing supplies and a correctly fitted car restraint. Styling and extra storage can wait.",
+    question: "What nursery items should I buy first?",
+    answer: "Prioritise a safe sleep space, nappies, wipes, feeding basics, simple clothing, changing supplies, baby linen and a practical laundry plan. Styling and decorative extras can wait.",
   },
   {
-    question: "How should Australian families approach safety checks?",
-    answer: "Check current Australian safety guidance, follow manufacturer instructions, check age, weight and size suitability, and review recalls or safety notices where relevant.",
+    question: "How do I organise a small nursery?",
+    answer: "Keep daily-use items close to the routine that needs them. Store nappies near the change area, clothing in simple drawer zones and bulk supplies or next-size clothes elsewhere if space is tight.",
   },
   {
-    question: "What is worth comparing before choosing nursery items?",
-    answer: "Compare fit in your room, cleanability, storage, adjustability, mattress compatibility, portability, return policies and whether the item still suits your routine after the first few weeks.",
+    question: "What kids' storage is most useful?",
+    answer: "Baskets, low shelves, drawer dividers and labelled tubs are often more useful than large decorative storage because they are easier to reset as toys, books and clothing change.",
   },
 ];
 ---
@@ -148,7 +148,7 @@ const faqs = [
           <li>Current Australian safety guidance, recalls and safety notices where relevant.</li>
           <li>Manufacturer instructions for assembly, use, care and ongoing checks.</li>
           <li>Room measurements, storage, ventilation, traffic flow and rental limitations.</li>
-          <li>Cleaning needs, fabric weight, replacement parts and everyday durability.</li>
+          <li>Washability, age suitability, storage flexibility and how long the item is likely to be useful.</li>
         </ul>
       </div>
       <div>
@@ -156,16 +156,44 @@ const faqs = [
         <h2>Easy traps to avoid</h2>
         <ul class="feature-list">
           <li>Choosing furniture before measuring doors, walls and safe clearances.</li>
+          <li>Buying too many newborn-only items before knowing your actual routine.</li>
           <li>Assuming a popular item suits every room or every baby.</li>
           <li>Keeping packaging or instructions separate from safety-sensitive items.</li>
+          <li>Ignoring washable surfaces for clothes, linen, mats and storage.</li>
           <li>Adding decorative extras before the core care routine is sorted.</li>
-          <li>Overlooking recalls, second-hand condition or missing parts.</li>
         </ul>
       </div>
     </div>
   </section>
 
   <section class="section soft">
+    <div class="container section-heading">
+      <div>
+        <p class="eyebrow">Related areas</p>
+        <h2>Explore nearby categories</h2>
+      </div>
+      <p>
+        Nursery and kids spaces often overlap with bedrooms, bathrooms and family storage
+        routines.
+      </p>
+    </div>
+    <div class="container grid two">
+      <GuideCard
+        href="/categories/bedroom/"
+        title="Bedroom"
+        description="Storage, bedding, wardrobe organisation and small-room ideas."
+        meta="Category"
+      />
+      <GuideCard
+        href="/categories/bathroom/"
+        title="Bathroom"
+        description="Bath routines, towel storage, cleaning and family-friendly setup ideas."
+        meta="Category"
+      />
+    </div>
+  </section>
+
+  <section class="section">
     <div class="narrow">
       <FAQBlock items={faqs} />
     </div>

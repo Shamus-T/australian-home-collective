@@ -4,9 +4,9 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
 
 <SimpleCategoryPage
   title="Bedroom"
-  description="Practical Australian bedroom guides for sleep spaces, storage, linen and everyday comfort."
-  intro="Bedroom guides for practical sleep spaces, storage and linen choices in Australian homes."
-  areas={["Sleep spaces", "Linen", "Storage", "Kids rooms", "Guest rooms", "Seasonal comfort"]}
+  description="Practical Australian bedroom guides for storage, wardrobe organisation, bedding, bedside essentials and small-room ideas."
+  intro="Bedroom storage, wardrobe organisation, bedding, bedside essentials and small-room ideas for calmer Australian homes."
+  focusIntro="Bedrooms work best when the bed, wardrobe, lighting and everyday storage fit the room rather than fighting it."
   guides={[
     {
       href: "/guides/bedroom-essentials-for-a-more-comfortable-home/",
@@ -18,5 +18,48 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
       title: "Bedroom Storage Ideas for Small Australian Rooms",
       description: "Practical wardrobe, under-bed, bedside and everyday clutter storage ideas.",
     },
+  ]}
+  compare={[
+    "Bed size and walking space around the room.",
+    "Wardrobe layout, hanging space, shelves and drawer access.",
+    "Under-bed clearance for tubs, drawers or seasonal linen.",
+    "Seasonal clothing and spare bedding storage needs.",
+    "Lighting needs for reading, dressing and winding down.",
+    "Rental-friendly storage that can move with you.",
+  ]}
+  mistakes={[
+    "Buying furniture that is too large for the room.",
+    "Wasting under-bed space while wardrobes stay crowded.",
+    "Skipping drawer dividers for small clothing and accessories.",
+    "Keeping too many items on bedside tables.",
+    "Ignoring airflow around bedding, mattresses and stored linen.",
+  ]}
+  productTypes={[
+    { label: "Under bed", title: "Under-bed tubs", description: "Useful for spare linen, seasonal clothes and less-used items when clearance allows." },
+    { label: "Drawers", title: "Drawer dividers", description: "Help stop socks, underwear and small accessories turning into one mixed pile." },
+    { label: "Bedside", title: "Bedside tables", description: "Choose enough surface and drawer space without crowding the bed." },
+    { label: "Bed frame", title: "Storage beds", description: "Can add useful storage if the room still has space to open drawers or lift panels." },
+    { label: "Wardrobe", title: "Wardrobe organisers", description: "Make shelves, rails and awkward robe spaces easier to use." },
+    { label: "Comfort", title: "Bedding basics", description: "Prioritise breathable, washable bedding that suits the season and your laundry routine." },
+    { label: "Laundry", title: "Laundry baskets", description: "A small, reachable basket can stop clothes building up on chairs or floors." },
+    { label: "Lighting", title: "Compact lamps", description: "Bedside lighting helps with reading and evenings without relying on bright overhead light." },
+  ]}
+  faqs={[
+    {
+      question: "How do I add storage to a small bedroom?",
+      answer: "Start with under-bed storage, wardrobe organisers, drawer dividers and a bedside table with closed storage before adding extra furniture.",
+    },
+    {
+      question: "Are storage beds worth considering?",
+      answer: "They can be useful when wardrobe space is limited, but check access, weight, ventilation and whether the room has clearance to use them easily.",
+    },
+    {
+      question: "What bedroom items should I prioritise first?",
+      answer: "Prioritise a bed that fits, breathable bedding, usable wardrobe storage, bedside lighting and a laundry or clutter plan.",
+    },
+  ]}
+  relatedCategories={[
+    { href: "/categories/living-spaces/", title: "Living Spaces", description: "Storage and comfort ideas for shared relaxation areas." },
+    { href: "/categories/home-office/", title: "Home Office", description: "Helpful if the bedroom also needs to support work or study." },
   ]}
 />

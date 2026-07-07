@@ -4,9 +4,9 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
 
 <SimpleCategoryPage
   title="Kitchen"
-  description="Practical Australian kitchen guides for everyday cooking, storage, cleaning and appliance decisions."
-  intro="Kitchen guides for Australian homes, with a focus on useful features, storage, cleaning, durability and daily routines."
-  areas={["Cooking basics", "Food storage", "Small appliances", "Cleaning routines", "Bench and cupboard organisation", "Family meal prep"]}
+  description="Practical Australian kitchen guides for storage, pantry setup, everyday cooking essentials and small-space organisation."
+  intro="Practical kitchen storage, pantry setup, everyday cooking essentials, small-space organisation and useful product types for Australian homes."
+  focusIntro="A useful kitchen setup starts with the space you actually have: cupboard sizes, pantry depth, bench space, cleaning routines and how often your household cooks."
   guides={[
     {
       href: "/guides/best-kitchen-storage-ideas-small-australian-homes/",
@@ -25,8 +25,51 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
     },
     {
       href: "/guides/australian-made-gift-ideas-under-100/",
-      title: "Australian Made Gift Ideas Under $100",
+      title: "Australian-Made Gift Ideas Under $100",
       description: "A practical guide to thoughtful home and lifestyle gifts.",
     },
+  ]}
+  compare={[
+    "Cupboard, drawer and pantry dimensions before choosing organisers.",
+    "How much bench space should stay clear for everyday cooking.",
+    "Cleaning ease, especially around food, oil, crumbs and moisture.",
+    "Food storage needs for dry goods, leftovers, school lunches or bulk buys.",
+    "Appliance size, weight and where each item will live when not in use.",
+    "Rental-friendly options that do not require drilling or permanent changes.",
+  ]}
+  mistakes={[
+    "Buying organisers before measuring shelves, drawers and pantry height.",
+    "Choosing containers that do not stack cleanly in the space you have.",
+    "Letting small appliances crowd the benchtop when they are not used daily.",
+    "Ignoring cleaning, ventilation and moisture around cupboards and bins.",
+    "Buying an appliance without planning storage, access and power points.",
+  ]}
+  productTypes={[
+    { label: "Pantry", title: "Pantry containers", description: "Useful for dry goods when they stack well, seal properly and suit your shelf height." },
+    { label: "Drawers", title: "Drawer organisers", description: "Help separate utensils, wraps, tea towels and small kitchen tools." },
+    { label: "Cupboards", title: "Shelf risers", description: "Make better use of tall cupboard space for plates, mugs and pantry items." },
+    { label: "Cleaning", title: "Kitchen bins", description: "Compare size, liners, odour control and where the bin fits without blocking paths." },
+    { label: "Prep", title: "Chopping boards", description: "Choose boards that suit your prep space, washing routine and storage setup." },
+    { label: "Cooking", title: "Cookware basics", description: "Prioritise pieces that suit your cooktop, household size and available storage." },
+    { label: "Appliances", title: "Small appliance storage", description: "Keep occasional appliances reachable without giving up everyday bench space." },
+    { label: "Under sink", title: "Under-sink organisers", description: "Useful for cloths and cleaning items when they fit around pipes and stay easy to wipe clean." },
+  ]}
+  faqs={[
+    {
+      question: "What kitchen organisers are most useful in a small Australian kitchen?",
+      answer: "Shelf risers, drawer dividers, pull-out baskets and a few well-sized pantry containers usually help more than a large matching set.",
+    },
+    {
+      question: "Should I buy matching pantry containers?",
+      answer: "Only if they suit your shelf height, stack well and are easy to clean. Mixed baskets and original packaging can still work well.",
+    },
+    {
+      question: "How do I reduce kitchen bench clutter?",
+      answer: "Keep only daily-use items on the bench, move occasional appliances into cupboards and group cooking staples on one small tray.",
+    },
+  ]}
+  relatedCategories={[
+    { href: "/categories/laundry/", title: "Laundry", description: "Storage and cleaning setup ideas that often overlap with kitchen routines." },
+    { href: "/categories/outdoor-garden/", title: "Outdoor & Garden", description: "Outdoor storage, entertaining and garden basics for nearby household zones." },
   ]}
 />

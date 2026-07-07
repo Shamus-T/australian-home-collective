@@ -4,14 +4,58 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
 
 <SimpleCategoryPage
   title="Living Spaces"
-  description="Practical Australian living space guides for storage, family routines, furniture and everyday comfort."
-  intro="Living space guides for practical furniture, storage and family-friendly home decisions."
-  areas={["Family storage", "Furniture fit", "Play zones", "Pet-friendly spaces", "Cleaning", "Everyday comfort"]}
+  description="Practical Australian living space guides for lounge room comfort, storage, lighting, media organisation and family clutter control."
+  intro="Lounge room comfort, storage, lighting, media organisation, family clutter control and everyday living room setup."
+  focusIntro="Living spaces need to handle relaxing, visitors, pets, children, screens and everyday clutter while still feeling easy to reset."
   guides={[
     {
       href: "/guides/living-room-storage-ideas-everyday-australian-homes/",
       title: "Living Room Storage Ideas for Everyday Australian Homes",
       description: "Practical storage ideas for baskets, media units, toys, blankets, books and everyday clutter.",
     },
+  ]}
+  compare={[
+    "Room layout, walkways and where people naturally sit or move.",
+    "Seating needs for everyday household use and visitors.",
+    "Storage capacity for toys, blankets, remotes, books and media items.",
+    "Lighting for evenings, reading, screens and shared activities.",
+    "Cable management around TVs, chargers and gaming equipment.",
+    "Pet or child use, including washable surfaces and safer corners.",
+    "Cleaning ease for rugs, cushions, floors and open shelving.",
+  ]}
+  mistakes={[
+    "Choosing furniture that is too large for the room.",
+    "Ignoring hidden storage in favour of too many open shelves.",
+    "Overloading open shelves until the room feels visually busy.",
+    "Not planning cable control before setting up media furniture.",
+    "Buying rugs or covers that are hard to clean in a busy household.",
+  ]}
+  productTypes={[
+    { label: "Hidden storage", title: "Storage ottomans", description: "Useful for blankets, toys and quick resets when they still suit the seating layout." },
+    { label: "Everyday use", title: "Side tables", description: "Add landing spots for drinks, remotes and lamps without taking over the room." },
+    { label: "Media", title: "TV units", description: "Compare cable access, ventilation, drawer space and the width of your screen." },
+    { label: "Quick reset", title: "Baskets", description: "Useful for toys, blankets and pet items when they are easy to carry and clean." },
+    { label: "Floors", title: "Rugs", description: "Choose rugs that suit pets, kids, cleaning routines and the size of the seating area." },
+    { label: "Lighting", title: "Lamps", description: "Layered lighting can make a living room more useful than one bright ceiling light." },
+    { label: "Soft items", title: "Cushion covers", description: "Washable covers can help with pets, children and everyday spills." },
+    { label: "Cables", title: "Cable organisers", description: "Keep chargers, TV cables and power boards neater and easier to clean around." },
+  ]}
+  faqs={[
+    {
+      question: "How do I make a living room feel less cluttered?",
+      answer: "Use a few closed storage points, keep daily-use items grouped and give toys, blankets, remotes and pet items a clear home.",
+    },
+    {
+      question: "What storage works best in a lounge room?",
+      answer: "A mix of baskets, closed media storage, side tables and one larger storage piece usually works better than open shelving alone.",
+    },
+    {
+      question: "How can I make a living space more practical for families?",
+      answer: "Choose washable fabrics, rounded or stable pieces where needed, easy toy storage and lighting that works for both play and evenings.",
+    },
+  ]}
+  relatedCategories={[
+    { href: "/categories/bedroom/", title: "Bedroom", description: "Storage, linen and comfort ideas for quieter rooms." },
+    { href: "/categories/pets/", title: "Pets", description: "Pet-friendly bedding, cleaning and storage ideas for shared living zones." },
   ]}
 />

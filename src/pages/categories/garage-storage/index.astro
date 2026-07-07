@@ -3,15 +3,59 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
 ---
 
 <SimpleCategoryPage
-  title="Garage & Storage"
-  description="Practical Australian garage and storage guides for household organisation, tools, seasonal items and family gear."
-  intro="Garage and storage guides for households trying to keep bulky items organised and easy to access."
-  areas={["Garage zones", "Tool storage", "Baby and kids gear", "Pet supplies", "Seasonal storage", "Safety checks"]}
+  title="Garage Storage"
+  description="Practical Australian garage storage guides for shelving, tubs, hooks, tools, sports gear and household overflow."
+  intro="Shelving, tubs, hooks, tool storage, sports gear, household overflow and practical garage organisation."
+  focusIntro="Garage storage needs to handle weight, dust, moisture, tools, seasonal gear and vehicle clearance without becoming unsafe or impossible to find things in."
   guides={[
     {
       href: "/guides/garage-storage-ideas-busy-australian-homes/",
       title: "Garage Storage Ideas for Busy Australian Homes",
       description: "Practical shelving, wall hook, tool, sports gear and seasonal storage ideas.",
     },
+  ]}
+  compare={[
+    "Wall space, door clearance and where shelving can sit safely.",
+    "Ceiling height and whether overhead storage is realistic.",
+    "Weight capacity for shelving, hooks and tubs.",
+    "Moisture, heat and dust exposure in the garage.",
+    "Vehicle clearance, walking paths and access to bins or tools.",
+    "Tool, sports gear and equipment size before buying storage.",
+    "Labelling and whether items can be found quickly later.",
+  ]}
+  mistakes={[
+    "Buying weak shelving for heavy tubs, tools or household overflow.",
+    "Not leaving enough space for the car, doors or walking paths.",
+    "Storing items directly on the floor where moisture and pests can be an issue.",
+    "Mixing tools, chemicals and household items without clear zones.",
+    "Failing to label tubs before everything looks the same.",
+  ]}
+  productTypes={[
+    { label: "Shelving", title: "Heavy-duty shelving", description: "Compare load ratings, shelf depth and whether the frame suits garage conditions." },
+    { label: "Tubs", title: "Storage tubs", description: "Useful for seasonal items when they stack safely and are clearly labelled." },
+    { label: "Walls", title: "Wall hooks", description: "Keep bikes, hoses and tools off the floor when fixed according to instructions." },
+    { label: "Tools", title: "Pegboards", description: "Make frequently used hand tools visible and easier to return." },
+    { label: "Tool storage", title: "Tool chests", description: "Useful for heavier tools, sharp items and parts that need closed storage." },
+    { label: "Bikes", title: "Bike racks", description: "Check wall strength, lifting height and clearance before choosing a rack." },
+    { label: "Garden", title: "Garden tool holders", description: "Keep rakes, brooms and shovels upright and away from car doors." },
+    { label: "Labels", title: "Labelled containers", description: "Simple labels can save repeated searching and duplicated purchases." },
+  ]}
+  faqs={[
+    {
+      question: "What is the best way to organise a garage?",
+      answer: "Create zones for tools, sports gear, garden items, seasonal storage and household overflow, then use shelving and labels to keep items off the floor.",
+    },
+    {
+      question: "Are garage storage tubs better than open shelves?",
+      answer: "Tubs protect items from dust and make categories easier to group, while open shelves are better for larger or frequently used items.",
+    },
+    {
+      question: "How do I store tools safely?",
+      answer: "Keep sharp, heavy or chemical-related items in secure storage, follow product instructions and avoid mixing them with kids' or household gear.",
+    },
+  ]}
+  relatedCategories={[
+    { href: "/categories/laundry/", title: "Laundry", description: "Cleaning supply, overflow and household routine storage ideas." },
+    { href: "/categories/outdoor-garden/", title: "Outdoor & Garden", description: "Garden tools, outdoor storage and weather-aware setup ideas." },
   ]}
 />

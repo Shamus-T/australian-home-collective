@@ -4,14 +4,58 @@ import SimpleCategoryPage from "../../../components/SimpleCategoryPage.astro";
 
 <SimpleCategoryPage
   title="Home Office"
-  description="Practical Australian home office guides for desks, storage, lighting and work-from-home routines."
-  intro="Home office guides for comfortable, practical workspaces in spare rooms, shared rooms and small homes."
-  areas={["Desk setup", "Lighting", "Storage", "Shared spaces", "Cables", "Daily routines"]}
+  description="Practical Australian home office guides for desk setup, storage, lighting, cable control and work-from-home organisation."
+  intro="Desk setup, storage, lighting, cable control, ergonomic basics and work-from-home organisation."
+  focusIntro="A useful home office does not need to be large, but it does need a sensible desk surface, comfortable seating, lighting and a plan for cables and paperwork."
   guides={[
     {
       href: "/guides/home-office-setup-ideas-small-spaces/",
       title: "Home Office Setup Ideas for Small Spaces",
       description: "Practical desk, storage, lighting and cable ideas for compact workspaces.",
     },
+  ]}
+  compare={[
+    "Desk size, depth and whether it fits the available wall or corner.",
+    "Chair support and whether the seat works for longer sessions.",
+    "Monitor placement, laptop height and viewing distance.",
+    "Lighting for daytime, evening and video calls.",
+    "Power access and whether cords can run safely.",
+    "Cable management for chargers, monitors and power boards.",
+    "Storage needs for documents, stationery and accessories.",
+  ]}
+  mistakes={[
+    "Buying a desk before measuring the actual space.",
+    "Ignoring chair comfort and using a setup that becomes tiring quickly.",
+    "Relying only on overhead lighting for detailed work.",
+    "Letting cables build up underfoot or across walkways.",
+    "Not planning document and accessory storage from the start.",
+  ]}
+  productTypes={[
+    { label: "Desk", title: "Desks", description: "Choose a size that fits the room while leaving space for a chair and movement." },
+    { label: "Seating", title: "Office chairs", description: "Prioritise comfort, support and fit before decorative style." },
+    { label: "Screen", title: "Monitor stands", description: "Can improve screen height while adding a small storage zone underneath." },
+    { label: "Lighting", title: "Desk lamps", description: "Useful for evening work, shared rooms and reducing reliance on overhead light." },
+    { label: "Cables", title: "Cable trays", description: "Keep power boards and cords off the floor where the desk allows." },
+    { label: "Drawers", title: "Drawer organisers", description: "Help stop stationery, chargers and small office items spreading across the desk." },
+    { label: "Paperwork", title: "Filing storage", description: "Keep important documents easy to find without turning the desk into storage." },
+    { label: "Laptop", title: "Laptop stands", description: "Useful when paired with a separate keyboard and mouse for longer sessions." },
+  ]}
+  faqs={[
+    {
+      question: "What does a basic home office need?",
+      answer: "A desk that fits, a comfortable chair, good lighting, power access, cable control and simple storage for everyday work items.",
+    },
+    {
+      question: "How do I reduce cable clutter?",
+      answer: "Group cables by device, use a tray or clips where suitable and keep power boards off walkways and away from feet.",
+    },
+    {
+      question: "Is a proper office chair worth prioritising?",
+      answer: "If you work for long periods, chair comfort and support are usually worth prioritising before decorative extras.",
+    },
+  ]}
+  relatedCategories={[
+    { href: "/categories/bedroom/", title: "Bedroom", description: "Helpful when a desk shares space with sleep, storage or wardrobes." },
+    { href: "/categories/living-spaces/", title: "Living Spaces", description: "Ideas for shared rooms, lighting and everyday clutter control." },
   ]}
 />
