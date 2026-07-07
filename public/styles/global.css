@@ -36,6 +36,9 @@ body {
   font-size: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem);
   line-height: 1.65;
   font-family: var(--font-body);
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 img {
@@ -407,6 +410,7 @@ h3 {
   overflow: hidden;
   isolation: isolate;
   padding: 24px;
+  justify-content: flex-end;
 }
 
 .guide-card h3 {
@@ -749,6 +753,7 @@ h3 {
 
 .comparison-wrap {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .table-hint {
@@ -881,7 +886,6 @@ h3 {
     line-height: 1.7;
   }
 
-  .header-inner,
   .section-heading {
     align-items: start;
     flex-direction: column;
@@ -889,19 +893,28 @@ h3 {
 
   .header-inner {
     min-height: 0;
-    padding: 16px 0;
+    padding: 12px 0 14px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 18px;
   }
 
   .brand-logo img {
-    max-width: min(380px, 76vw);
-    max-height: 66px;
+    max-width: min(390px, 58vw);
+    max-height: 64px;
   }
 
   .site-nav {
-    gap: 8px 10px;
-    justify-content: flex-start;
-    font-size: 1.02rem;
+    flex: 1 1 320px;
+    gap: 6px 8px;
+    justify-content: flex-end;
+    font-size: 1rem;
     line-height: 1.35;
+  }
+
+  .site-nav a {
+    min-height: 42px;
+    padding: 8px 9px;
   }
 
   .hero-grid,
@@ -917,7 +930,7 @@ h3 {
 
   .image-hero {
     min-height: auto;
-    padding: 72px 0 54px;
+    padding: 64px 0 50px;
   }
 
   .image-hero::before,
@@ -928,7 +941,7 @@ h3 {
   }
 
   .image-header {
-    min-height: 400px;
+    min-height: 340px;
   }
 
   .section {
@@ -943,7 +956,7 @@ h3 {
   .faq-block,
   .related-guides,
   .contact-form {
-    padding: 24px;
+    padding: 22px;
   }
 
   .card p,
@@ -972,7 +985,7 @@ h3 {
   }
 
   .guide-card.has-image a {
-    min-height: 360px;
+    min-height: 320px;
   }
 
   .content {
@@ -1003,7 +1016,7 @@ h3 {
   }
 
   .comparison-table {
-    min-width: 720px;
+    min-width: 680px;
   }
 
   .comparison-table th,
@@ -1033,6 +1046,42 @@ h3 {
   }
 }
 
+@media (max-width: 700px) {
+  .header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 0 12px;
+  }
+
+  .brand-logo img {
+    max-width: min(420px, 82vw);
+    max-height: 58px;
+  }
+
+  .site-nav {
+    flex: none;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 6px 8px;
+  }
+
+  .site-nav a {
+    min-height: 42px;
+    padding: 7px 9px;
+  }
+
+  .page-intro,
+  .article-header,
+  .category-header {
+    padding: 48px 0 32px;
+  }
+
+  .section-heading {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 560px) {
   .container,
   .narrow {
@@ -1040,11 +1089,13 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(2.25rem, 12vw, 3.2rem);
+    font-size: clamp(2rem, 10.5vw, 2.85rem);
+    line-height: 1.08;
   }
 
   h2 {
-    font-size: clamp(1.75rem, 9vw, 2.35rem);
+    font-size: clamp(1.65rem, 8.4vw, 2.15rem);
+    line-height: 1.14;
   }
 
   h3 {
@@ -1052,8 +1103,8 @@ h3 {
   }
 
   .brand-logo img {
-    max-width: 76vw;
-    max-height: 56px;
+    max-width: 82vw;
+    max-height: 52px;
   }
 
   .lead {
@@ -1062,14 +1113,14 @@ h3 {
   }
 
   .site-nav {
-    gap: 6px 8px;
-    font-size: 1rem;
+    gap: 5px 7px;
+    font-size: 0.98rem;
   }
 
   .site-nav a,
   .footer-links a {
     min-height: 44px;
-    padding-inline: 9px;
+    padding-inline: 8px;
   }
 
   .brand span,
@@ -1081,6 +1132,10 @@ h3 {
   .content li {
     font-size: 1.075rem;
     line-height: 1.76;
+  }
+
+  .content {
+    padding: 34px 0 54px;
   }
 
   .feature-list {
@@ -1108,6 +1163,7 @@ h3 {
   .product-card h3,
   .faq-item h3 {
     font-size: 1.3rem;
+    line-height: 1.18;
   }
 
   .guide-card h3 {
@@ -1115,7 +1171,7 @@ h3 {
   }
 
   .footer-links {
-    gap: 6px 12px;
+    gap: 4px 12px;
   }
 
   .table-hint {
@@ -1123,7 +1179,7 @@ h3 {
   }
 
   .comparison-table {
-    min-width: 700px;
+    min-width: 660px;
   }
 
   .button,
@@ -1137,5 +1193,87 @@ h3 {
   .hero-actions .button,
   .button-row .button {
     width: 100%;
+  }
+
+  .image-hero {
+    padding: 54px 0 42px;
+  }
+
+  .image-header {
+    min-height: 300px;
+  }
+
+  .guide-card.has-image a {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container,
+  .narrow {
+    width: min(100% - 20px, 1120px);
+  }
+
+  .header-inner {
+    padding-block: 8px 10px;
+  }
+
+  .brand-logo img {
+    max-width: 84vw;
+    max-height: 48px;
+  }
+
+  .site-nav {
+    font-size: 0.95rem;
+    gap: 4px 6px;
+  }
+
+  .site-nav a {
+    min-height: 40px;
+    padding: 6px 7px;
+  }
+
+  h1 {
+    font-size: clamp(1.85rem, 11vw, 2.45rem);
+  }
+
+  h2 {
+    font-size: clamp(1.48rem, 8.8vw, 1.95rem);
+  }
+
+  .lead {
+    font-size: 1.06rem;
+  }
+
+  .eyebrow {
+    font-size: 0.82rem;
+    letter-spacing: 0.14em;
+  }
+
+  .section {
+    padding: 36px 0;
+  }
+
+  .card,
+  .product-card,
+  .guide-card a,
+  .guide-card.has-image a,
+  .guide-library-group,
+  .faq-block,
+  .related-guides,
+  .contact-form {
+    padding: 20px;
+  }
+
+  .content p,
+  .content li {
+    font-size: 1.0625rem;
+    line-height: 1.74;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    font-size: 1rem;
+    padding: 14px;
   }
 }
