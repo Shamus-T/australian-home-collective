@@ -8,6 +8,7 @@ interface Props {
   category: string;
   date: string;
   readingTime: string;
+  showAffiliateDisclosure?: boolean;
   showDisclosure?: boolean;
   image?: string;
   imageAlt?: string;
@@ -20,11 +21,14 @@ const {
   category,
   date,
   readingTime,
-  showDisclosure = true,
+  showAffiliateDisclosure,
+  showDisclosure,
   image,
   imageAlt = "",
   imagePosition = "center",
 } = Astro.props;
+
+const shouldShowDisclosure = showAffiliateDisclosure ?? showDisclosure ?? false;
 ---
 
 <BaseLayout title={title} description={description}>
@@ -46,7 +50,7 @@ const {
       <h1>{title}</h1>
       <p class="lead">{description}</p>
       <p class="article-meta">{date} - {readingTime}</p>
-      {showDisclosure && <AffiliateDisclosureBlock compact />}
+      {shouldShowDisclosure && <AffiliateDisclosureBlock compact />}
     </div>
   </header>
   <article class="content narrow">
