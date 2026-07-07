@@ -1,11 +1,143 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GuideCard from "../components/GuideCard.astro";
+
+const categories = [
+  {
+    href: "/categories/kitchen/",
+    title: "Kitchen",
+    description: "Pantry storage, kitchen essentials, appliance considerations and everyday organisation.",
+    image: "/images/kitchen.webp",
+    imageAlt: "A warm kitchen with timber cabinetry, green accents and a tidy benchtop.",
+  },
+  {
+    href: "/categories/laundry/",
+    title: "Laundry",
+    description: "Drying, sorting, cleaning, storage and practical laundry setup ideas.",
+    image: "/images/laundry.webp",
+    imageAlt: "A practical laundry room with warm finishes and tidy storage.",
+  },
+  {
+    href: "/categories/bedroom/",
+    title: "Bedroom",
+    description: "Storage, bedding, wardrobe organisation and small-room ideas.",
+    image: "/images/bedroom.webp",
+    imageAlt: "A calm bedroom with soft bedding, warm light and practical storage.",
+  },
+  {
+    href: "/categories/bathroom/",
+    title: "Bathroom",
+    description: "Everyday bathroom essentials, storage, cleaning and family-friendly setup ideas.",
+    image: "/images/bathroom.webp",
+    imageAlt: "A tidy bathroom with warm finishes, practical storage and soft natural light.",
+  },
+  {
+    href: "/categories/pets/",
+    title: "Pets",
+    description: "Pet bedding, feeding, cleaning, travel, storage and indoor comfort.",
+    image: "/images/pet.webp",
+    imageAlt: "A relaxed living room with warm timber, soft textiles and a pet-friendly setup.",
+  },
+  {
+    href: "/categories/nursery-kids/",
+    title: "Nursery & Kids",
+    description: "Nursery setup, baby essentials, kids' storage and family home basics.",
+    image: "/images/Nursery-kids.webp",
+    imageAlt: "A tidy nursery room with timber furniture, soft lighting and practical baby storage.",
+  },
+  {
+    href: "/categories/living-spaces/",
+    title: "Living Spaces",
+    description: "Lounge room comfort, storage, lighting and everyday living room organisation.",
+    image: "/images/living-room.webp",
+    imageAlt: "A warm living room with tidy storage, soft seating and natural light.",
+  },
+  {
+    href: "/categories/home-office/",
+    title: "Home Office",
+    description: "Desk setup, storage, lighting, cable control and work-from-home basics.",
+    image: "/images/home-office.webp",
+    imageAlt: "A compact home office setup with a tidy desk, warm light and practical storage.",
+  },
+  {
+    href: "/categories/garage-storage/",
+    title: "Garage Storage",
+    description: "Shelving, tubs, tool storage, hooks and practical household overflow storage.",
+    image: "/images/garage.webp",
+    imageAlt: "An organised garage with wall storage, shelves and clear floor space.",
+  },
+  {
+    href: "/categories/outdoor-garden/",
+    title: "Outdoor & Garden",
+    description: "Outdoor storage, patio basics, garden tools and weather-aware setup ideas.",
+    image: "/images/outdoor-garden.webp",
+    imageAlt: "A warm Australian patio garden with outdoor seating, greenery and practical storage.",
+  },
+];
+
+const featuredGuides = [
+  {
+    href: "/guides/pantry-storage-ideas-australian-kitchens/",
+    title: "Pantry Storage Ideas for Australian Kitchens",
+    description: "Practical pantry organisation ideas for containers, baskets, labels and shelf planning.",
+    meta: "Kitchen",
+    image: "/images/kitchen.webp",
+    imageAlt: "A warm kitchen with timber cabinetry, green accents and tidy pantry-style storage.",
+  },
+  {
+    href: "/guides/everyday-kitchen-essentials-australian-homes/",
+    title: "Everyday Kitchen Essentials for Australian Homes",
+    description: "Practical cookware, food storage, utensil and cleaning basics for daily kitchen use.",
+    meta: "Kitchen",
+    image: "/images/kitchen.webp",
+    imageAlt: "A warm kitchen with timber cabinetry, green accents and practical everyday kitchen storage.",
+  },
+  {
+    href: "/guides/bedroom-storage-ideas-small-australian-rooms/",
+    title: "Bedroom Storage Ideas for Small Australian Rooms",
+    description: "Practical wardrobe, under-bed, bedside and everyday clutter storage ideas.",
+    meta: "Bedroom",
+    image: "/images/bedroom.webp",
+    imageAlt: "A calm small bedroom with soft bedding, warm light and practical storage.",
+  },
+  {
+    href: "/guides/bathroom-essentials-australian-homes/",
+    title: "Bathroom Essentials for Australian Homes",
+    description: "Practical towel, shower, vanity, toilet and cleaning basics for everyday bathrooms.",
+    meta: "Bathroom",
+    image: "/images/bathroom.webp",
+    imageAlt: "A tidy bathroom with warm finishes, soft light and practical everyday storage.",
+  },
+  {
+    href: "/guides/laundry-essentials-australian-homes/",
+    title: "Laundry Essentials for Australian Homes",
+    description: "Practical hamper, basket, drying, cleaning and small laundry setup ideas.",
+    meta: "Laundry",
+    image: "/images/laundry.webp",
+    imageAlt: "A practical laundry room with warm finishes, baskets and tidy everyday storage.",
+  },
+  {
+    href: "/guides/pet-essentials-for-australian-homes/",
+    title: "Pet Essentials for Australian Homes",
+    description: "Feeding, bedding, cleaning, grooming, travel and storage basics for pet-friendly homes.",
+    meta: "Pets",
+    image: "/images/pet.webp",
+    imageAlt: "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage.",
+  },
+  {
+    href: "/guides/nursery-essentials-for-australian-homes/",
+    title: "Nursery Essentials for Australian Homes",
+    description: "A practical nursery setup guide covering sleep, feeding, changing, storage and comfort.",
+    meta: "Nursery & Kids",
+    image: "/images/Nursery-kids.webp",
+    imageAlt: "A tidy nursery room with timber furniture, soft lighting and practical baby storage.",
+  },
+];
 ---
 
 <BaseLayout
   title="Australian Home Collective"
-  description="A practical Australian home and lifestyle guide for considered everyday choices."
+  description="Practical buying guides for Australian homes, covering kitchens, laundries, bedrooms, bathrooms, pets, nurseries, living spaces, home offices, garages and outdoor areas."
 >
   <section class="hero image-hero">
     <img
@@ -20,56 +152,95 @@ import GuideCard from "../components/GuideCard.astro";
     <div class="container hero-content">
       <div class="hero-copy">
         <p class="eyebrow">Product guides for Australian homes</p>
-        <h1>Product guides, curated for Australian homes.</h1>
+        <h1>Practical buying guides for Australian homes</h1>
         <p class="lead">
-          Australian Home Collective helps Australian households make practical choices for
-          everyday living at home, from organisation and family essentials to pets, laundry,
-          kitchen and nursery needs.
+          Australian Home Collective helps you compare useful product types, storage ideas
+          and everyday home essentials across kitchens, laundries, bedrooms, bathrooms, pets,
+          nurseries, living spaces, home offices, garages and outdoor areas.
         </p>
         <div class="hero-actions">
-          <a class="button" href="/guides/newborn-essentials/">Read the newborn guide</a>
-          <a class="button secondary" href="/how-we-select-products/">How we select</a>
+          <a class="button" href="/guides/">Browse Guides</a>
+          <a class="button secondary" href="/categories/">Browse Categories</a>
         </div>
       </div>
     </div>
   </section>
 
   <section class="section soft">
+    <div class="container grid three">
+      <article class="card">
+        <p class="eyebrow">Australian homes</p>
+        <h2>Australian-focused home guidance</h2>
+        <p>
+          Guides are written around local rooms, routines, weather, storage limits and family
+          needs.
+        </p>
+      </article>
+      <article class="card">
+        <p class="eyebrow">Practical comparisons</p>
+        <h2>Useful product types</h2>
+        <p>
+          We explain practical options and trade-offs without pretending every item has been
+          hands-on tested.
+        </p>
+      </article>
+      <article class="card">
+        <p class="eyebrow">Clear disclosure</p>
+        <h2>Transparent where relevant</h2>
+        <p>
+          Affiliate links are disclosed where relevant, while guides stay useful before any
+          product links are added.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
     <div class="container section-heading">
       <div>
-        <p class="eyebrow">Featured guide</p>
-        <h2>Nursery & Kids</h2>
+        <p class="eyebrow">Browse by category</p>
+        <h2>Explore by area of the home</h2>
       </div>
       <p>
-        Useful notes for first-time parents, gift-givers and households preparing a safer,
-        simpler space for a new baby.
+        Start with the room, routine or household setup you are working on now.
       </p>
     </div>
     <div class="container grid three">
-      <GuideCard
-        href="/categories/"
-        title="Browse Categories"
-        description="Find practical guides by room, routine and household topic."
-        meta="Start here"
-        image="/images/living-room.webp"
-        imageAlt="A warm living room with timber shelving, soft furnishings and natural light"
-      />
-      <GuideCard
-        href="/guides/newborn-essentials/"
-        title="Newborn Essentials for First-Time Parents"
-        description="A practical checklist of what is genuinely useful in the first few months."
-        meta="Guide"
-        image="/images/Nursery-kids.webp"
-        imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
-      />
-      <GuideCard
-        href="/guides/bassinet-vs-cot/"
-        title="Bassinet vs Cot: Which Should You Buy First?"
-        description="A practical comparison of sleep-space options for Australian families."
-        meta="Guide"
-        image="/images/Nursery-kids.webp"
-        imageAlt="A tidy nursery with a cot, change area and practical baby storage"
-      />
+      {categories.map((category) => (
+        <GuideCard
+          href={category.href}
+          title={category.title}
+          description={category.description}
+          meta="Category"
+          image={category.image}
+          imageAlt={category.imageAlt}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="section soft">
+    <div class="container section-heading">
+      <div>
+        <p class="eyebrow">Guide library</p>
+        <h2>Start with these guides</h2>
+      </div>
+      <p>
+        A balanced set of practical guides across storage, family essentials, pets, laundry,
+        kitchen and everyday home setup.
+      </p>
+    </div>
+    <div class="container grid three">
+      {featuredGuides.map((guide) => (
+        <GuideCard
+          href={guide.href}
+          title={guide.title}
+          description={guide.description}
+          meta={guide.meta}
+          image={guide.image}
+          imageAlt={guide.imageAlt}
+        />
+      ))}
     </div>
   </section>
 
@@ -77,24 +248,24 @@ import GuideCard from "../components/GuideCard.astro";
     <div class="container grid two">
       <div>
         <p class="eyebrow">Our approach</p>
-        <h2>Helpful before persuasive.</h2>
+        <h2>How we approach recommendations</h2>
         <p>
-          We focus on everyday use, clear trade-offs and Australian context. Guides are written
-          for readers who want to understand what matters before comparing their options.
+          We focus on practical product types, everyday use cases, storage needs, space
+          limits and Australian home conditions. Some links may be affiliate links, but guides
+          should stay useful even before any product links are added.
         </p>
-        <ul class="feature-list">
-          <li>Clear explanations of features, materials and everyday use.</li>
-          <li>Preference for safer claims over unsupported marketing language.</li>
-          <li>Practical context for Australian homes, rooms and routines.</li>
-        </ul>
       </div>
       <div class="card">
-        <p class="eyebrow">Our promise</p>
+        <p class="eyebrow">Learn more</p>
         <h2>Clear, practical and selective.</h2>
         <p>
-          We keep the focus on useful household decisions, not endless recommendations. The aim
-          is to help you compare what matters and ignore what does not.
+          Read more about how we choose what to include and how affiliate disclosure works
+          across the site.
         </p>
+        <div class="button-row">
+          <a class="button" href="/how-we-select-products/">How We Select</a>
+          <a class="button secondary" href="/affiliate-disclosure/">Affiliate Disclosure</a>
+        </div>
       </div>
     </div>
   </section>
