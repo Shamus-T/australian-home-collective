@@ -1,0 +1,109 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+export function getStaticPaths() {
+  const redirects = [
+    {
+      slug: "kitchen",
+      categoryName: "Kitchen",
+      target: "/categories/kitchen/",
+    },
+    {
+      slug: "laundry",
+      categoryName: "Laundry",
+      target: "/categories/laundry/",
+    },
+    {
+      slug: "bedroom",
+      categoryName: "Bedroom",
+      target: "/categories/bedroom/",
+    },
+    {
+      slug: "bathroom",
+      categoryName: "Bathroom",
+      target: "/categories/bathroom/",
+    },
+    {
+      slug: "pet",
+      categoryName: "Pets",
+      target: "/categories/pets/",
+    },
+    {
+      slug: "pets",
+      categoryName: "Pets",
+      target: "/categories/pets/",
+    },
+    {
+      slug: "nursery-kids",
+      categoryName: "Nursery & Kids",
+      target: "/categories/nursery-kids/",
+    },
+    {
+      slug: "living-room",
+      categoryName: "Living Spaces",
+      target: "/categories/living-spaces/",
+    },
+    {
+      slug: "living-spaces",
+      categoryName: "Living Spaces",
+      target: "/categories/living-spaces/",
+    },
+    {
+      slug: "home-office",
+      categoryName: "Home Office",
+      target: "/categories/home-office/",
+    },
+    {
+      slug: "storage-organisation",
+      categoryName: "Garage & Storage",
+      target: "/categories/garage-storage/",
+    },
+    {
+      slug: "garage-storage",
+      categoryName: "Garage & Storage",
+      target: "/categories/garage-storage/",
+    },
+    {
+      slug: "outdoors",
+      categoryName: "Outdoor & Garden",
+      target: "/categories/outdoor-garden/",
+    },
+    {
+      slug: "outdoor-garden",
+      categoryName: "Outdoor & Garden",
+      target: "/categories/outdoor-garden/",
+    },
+  ];
+
+  return redirects.map(({ slug, ...props }) => ({
+    params: { slug },
+    props,
+  }));
+}
+
+const { categoryName, target } = Astro.props;
+const title = `${categoryName} has moved`;
+const description = `This Australian Home Collective category has moved to ${categoryName}.`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={target}
+  refreshPath={target}
+  robots="noindex,follow"
+>
+  <header class="page-intro">
+    <div class="narrow">
+      <p class="eyebrow">Page moved</p>
+      <h1>This page has moved to {categoryName}.</h1>
+      <p class="lead">
+        Australian Home Collective now uses category pages for this guide hub.
+      </p>
+      <div class="button-row">
+        <a class="button" href={target}>Open {categoryName}</a>
+        <a class="button secondary" href="/categories/">Browse categories</a>
+      </div>
+    </div>
+  </header>
+</BaseLayout>

@@ -7,15 +7,25 @@ interface Props {
   description: string;
   canonicalPath?: string;
   image?: string;
+  robots?: string;
+  refreshPath?: string;
 }
 
-const { title, description, canonicalPath, image = "/images/social-sharing.png" } = Astro.props;
+const {
+  title,
+  description,
+  canonicalPath,
+  image = "/images/social-sharing.png",
+  robots,
+  refreshPath,
+} = Astro.props;
 const siteTitle = "Australian Home Collective";
 const pageTitle = title === siteTitle ? title : `${title} | ${siteTitle}`;
 const siteUrl = "https://australianhomecollective.com.au";
 const pagePath = canonicalPath ?? Astro.url.pathname;
 const canonicalUrl = new URL(pagePath, siteUrl).toString();
 const ogImageUrl = new URL(image, siteUrl).toString();
+const refreshUrl = refreshPath ? new URL(refreshPath, siteUrl).toString() : undefined;
 ---
 
 <!doctype html>
@@ -25,6 +35,8 @@ const ogImageUrl = new URL(image, siteUrl).toString();
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
+    {robots && <meta name="robots" content={robots} />}
+    {refreshUrl && <meta http-equiv="refresh" content={`0;url=${refreshUrl}`} />}
     <link rel="canonical" href={canonicalUrl} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
