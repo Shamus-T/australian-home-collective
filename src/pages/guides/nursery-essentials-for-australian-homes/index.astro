@@ -1,0 +1,340 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ComparisonTable from "../../../components/ComparisonTable.astro";
+import FAQBlock from "../../../components/FAQBlock.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const comparisonRows = [
+  {
+    item: "Safe sleep space",
+    usefulFor: "A cot, bassinet or bedside sleeper that suits the baby's age and your room layout.",
+    consider: "Mattress fit, firmness, ventilation, assembly instructions and keeping loose soft items out of the sleep area.",
+  },
+  {
+    item: "Changing setup",
+    usefulFor: "Daily nappy changes with nappies, wipes, creams and spare clothes close to hand.",
+    consider: "Stable surface, wipe-clean materials, reachable supplies and keeping small or messy items safely out of reach.",
+  },
+  {
+    item: "Nursery storage",
+    usefulFor: "Clothes, wraps, nappies, linen, toys, books and grooming items.",
+    consider: "Drawer dividers, baskets, labelled tubs, wardrobe space and whether the setup still works in a small room.",
+  },
+  {
+    item: "Feeding support",
+    usefulFor: "Comfortable feeds and easy access to burp cloths, water, bottles or other feeding supplies.",
+    consider: "Chair comfort, side table space, washable covers and whether supplies belong in the nursery or kitchen.",
+  },
+  {
+    item: "Lighting and window coverings",
+    usefulFor: "Day naps, overnight changes and calmer feeding routines.",
+    consider: "Soft night lighting, blackout or blockout coverage, heat, airflow and blind cord safety.",
+  },
+];
+
+const faqs = [
+  {
+    question: "What are the most important nursery essentials?",
+    answer: "Start with a safe sleep space, fitted sheets, mattress protection, nappies, wipes, basic clothing, a practical change area, burp cloths, laundry storage and simple nursery storage.",
+  },
+  {
+    question: "Do I need a separate nursery before the baby arrives?",
+    answer: "No. Many Australian families begin with a sleep space in the parents' room and a small changing setup. A full nursery can be built gradually around the space and routine you actually use.",
+  },
+  {
+    question: "How can I avoid buying too much nursery gear?",
+    answer: "Buy the safety and daily-care basics first, then wait before adding extras. If an item does not solve a real sleep, feeding, changing, storage or comfort problem, it can usually wait.",
+  },
+  {
+    question: "What should renters consider when setting up a nursery?",
+    answer: "Choose freestanding storage, removable organisers and furniture that can move rooms later. Check lease rules before fixing shelves, hooks or blind-safety hardware to walls.",
+  },
+];
+
+const relatedGuides = [
+  {
+    href: "/categories/nursery-kids/",
+    title: "Nursery & Kids",
+    description: "More practical nursery and kids guides for Australian homes.",
+  },
+  {
+    href: "/guides/newborn-essentials/",
+    title: "Newborn Essentials for First-Time Parents",
+    description: "A focused checklist for the first few months at home.",
+  },
+  {
+    href: "/guides/nursery-storage-small-rooms/",
+    title: "Nursery Storage for Small Rooms",
+    description: "Plan practical storage for compact rooms, rentals and shared spaces.",
+  },
+  {
+    href: "/guides/bassinet-vs-cot/",
+    title: "Bassinet vs Cot: Which Should You Buy First?",
+    description: "Compare sleep-space choices before arranging the room.",
+  },
+  {
+    href: "/guides/baby-monitors-australia/",
+    title: "Baby Monitors for Australian Homes",
+    description: "Compare monitor types, placement, range and privacy.",
+  },
+];
+---
+
+<ArticleLayout
+  title="Nursery Essentials for Australian Homes"
+  description="A practical guide to useful nursery essentials for Australian homes, covering sleep, feeding, changing, storage, safety, comfort and everyday organisation."
+  category="Nursery & Kids"
+  date="Updated July 2026"
+  readingTime="9 minute read"
+  image="/images/Nursery-kids.webp"
+  imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
+>
+  <p>
+    Setting up a nursery can feel overwhelming, especially when every product seems to be
+    marketed as essential. In reality, most Australian households only need a practical, safe
+    and easy-to-manage setup that supports sleeping, changing, feeding, storage and everyday
+    care.
+  </p>
+  <p>
+    A good nursery does not need to be large or expensive. It needs to work for the space you
+    have, suit your climate and make daily routines easier. For many homes, that might mean a
+    compact cot, a well-organised change station, breathable bedding, blackout curtains and
+    storage that keeps nappies, wipes, clothes, wraps and small items within reach.
+  </p>
+  <p>
+    This guide covers practical nursery essentials for Australian homes, with a focus on
+    useful product types rather than unnecessary extras.
+  </p>
+
+  <h2>Quick nursery essentials comparison</h2>
+  <ComparisonTable rows={comparisonRows} caption="Nursery essentials comparison" />
+
+  <h2>A safe sleep setup</h2>
+  <p>
+    The sleep area is the most important part of a nursery. Most families start with a cot,
+    bassinet or bedside sleeper depending on the baby's age, room layout and personal
+    preference.
+  </p>
+  <p>
+    A cot should be sturdy, properly assembled and matched with the correct mattress size. The
+    mattress should fit firmly with no large gaps around the edges. A firm, flat sleep surface
+    is important, and soft loose items should not be placed in the sleep area for babies. Avoid
+    filling the cot with pillows, doonas, loose blankets, toys, bumpers or decorative cushions.
+  </p>
+  <p>
+    For bedding, fitted cot sheets are usually the most practical option. Choose breathable,
+    washable materials that suit your climate. In warmer parts of Australia, lightweight cotton
+    or bamboo-blend sheets may be useful, while cooler homes may need warmer sleepwear or sleep
+    suits rather than heavy loose bedding.
+  </p>
+  <p>
+    A waterproof mattress protector is worth considering. It helps protect the mattress from
+    leaks, spills and accidents, and it makes clean-up easier. Having at least two fitted sheets
+    and two mattress protectors can reduce stress when changes are needed overnight.
+  </p>
+
+  <h2>Changing station basics</h2>
+  <p>
+    A dedicated changing area makes daily care much easier. This does not have to be a large
+    change table. Some families use a change mat on top of a dresser, while others prefer a
+    separate change table with shelves underneath.
+  </p>
+  <p>
+    The key is to keep frequently used items close without creating clutter or safety risks.
+    Nappies, wipes, barrier cream, hand sanitiser, spare clothes, nappy bags and burp cloths
+    should be easy to reach. However, anything unsafe or messy should be kept out of the baby's
+    reach.
+  </p>
+  <p>
+    A wipeable change mat is one of the most useful nursery items. Look for a surface that is
+    easy to clean and comfortable enough for regular use. Washable change mat covers can be
+    useful, but they add more laundry, so some parents prefer a simple wipe-clean option.
+  </p>
+  <p>
+    A nappy caddy can also be useful, especially if you change the baby in more than one room.
+    It allows you to move nappies, wipes, creams and small essentials between the nursery,
+    bedroom, lounge room or car.
+  </p>
+
+  <h2>Nursery storage</h2>
+  <p>
+    Babies come with a surprising amount of small gear. Clothes, wraps, bibs, towels, nappies,
+    wipes, blankets, toys, books, bottles and grooming items can quickly take over a room if
+    there is no storage plan.
+  </p>
+  <p>A practical nursery storage setup may include:</p>
+  <ul class="feature-list">
+    <li>Drawer dividers for small clothes.</li>
+    <li>Baskets for wraps, blankets and towels.</li>
+    <li>Labelled tubs for larger sizes.</li>
+    <li>A compact bookshelf.</li>
+    <li>Hanging organisers for wardrobe space.</li>
+    <li>A caddy for changing supplies.</li>
+    <li>A laundry hamper for baby clothes and linen.</li>
+  </ul>
+  <p>
+    Drawer dividers are especially useful because baby clothes are small and easy to lose in
+    larger drawers. Sorting clothes by size and type can save time, particularly during the
+    newborn stage when changes are frequent.
+  </p>
+  <p>
+    If space is limited, think vertically. Wall shelves, wardrobe organisers, under-cot storage
+    tubs and tall narrow shelving can help keep the nursery functional without crowding the
+    floor. For renters, freestanding shelves and over-door organisers may be more practical
+    than permanent wall fixtures.
+  </p>
+
+  <h2>Feeding support</h2>
+  <p>
+    Feeding needs vary depending on whether the baby is breastfed, bottle-fed, mixed-fed or
+    starting solids later on. However, most households benefit from a comfortable feeding chair
+    or feeding spot.
+  </p>
+  <p>
+    A nursery chair does not need to be a specialist nursing chair, but it should be supportive,
+    comfortable and easy to get in and out of. A small side table can also help hold water, burp
+    cloths, a phone, a book or feeding supplies during longer feeds.
+  </p>
+  <p>
+    Useful feeding-related nursery items may include burp cloths, bibs, bottle storage, a drying
+    rack, feeding pillows and washable covers. For bottle feeding, a neat storage area for
+    bottles, teats, formula containers and sterilising items can help keep the kitchen or
+    nursery more organised.
+  </p>
+  <p>
+    Burp cloths are worth having in several locations around the home. They are useful for
+    feeds, spills, reflux, dribble and quick clean-ups. Choose washable cloths that can handle
+    frequent use.
+  </p>
+
+  <h2>Lighting and window coverings</h2>
+  <p>
+    Good lighting makes a nursery more comfortable for both day and night routines. A bright
+    ceiling light may be useful during the day, but softer lighting is usually better for
+    overnight changes and feeds.
+  </p>
+  <p>
+    A dimmable lamp or night light can make it easier to move around the room without fully
+    waking the baby. Choose lighting that is stable, safely placed and not within reach of the
+    cot or change area.
+  </p>
+  <p>
+    Window coverings are also important in many Australian homes, especially in rooms that
+    receive strong sun. Blackout curtains or blockout blinds can help with daytime naps and may
+    reduce heat entering the room. In warmer climates, pairing curtains with ventilation,
+    ceiling fans or air conditioning can make the room more manageable.
+  </p>
+  <p>
+    Always consider cord safety with blinds and curtains. Loose cords should be secured and kept
+    well away from cots, beds and play areas.
+  </p>
+
+  <h2>Temperature and comfort</h2>
+  <p>
+    Australian homes vary widely in temperature. A nursery in Queensland may need good airflow
+    and heat management, while homes in cooler regions may need warmer sleepwear and better
+    insulation.
+  </p>
+  <p>
+    A room thermometer can help parents understand whether the nursery is too hot or too cold.
+    Fans, breathable sleepwear, light layers and suitable window coverings may all help manage
+    comfort. Avoid placing the cot directly in front of heaters, air conditioners, strong drafts
+    or direct sunlight.
+  </p>
+  <p>
+    Rugs can make hard floors more comfortable, especially in rooms with tiles, vinyl or timber.
+    Choose washable or easy-clean rugs where possible, as nursery floors are likely to deal with
+    spills, dust and everyday mess.
+  </p>
+
+  <h2>Baby clothing and linen</h2>
+  <p>
+    It is easy to buy too many baby clothes, especially in newborn sizes. A more practical
+    approach is to start with a manageable set of basics and add more once you know what suits
+    your baby, laundry routine and local climate.
+  </p>
+  <p>Useful clothing and linen basics may include:</p>
+  <ul class="feature-list">
+    <li>Singlets or bodysuits.</li>
+    <li>Zip-up onesies.</li>
+    <li>Lightweight wraps.</li>
+    <li>Sleep suits.</li>
+    <li>Bibs.</li>
+    <li>Burp cloths.</li>
+    <li>Cot sheets.</li>
+    <li>Towels and washcloths.</li>
+    <li>Spare blankets for supervised use outside the cot.</li>
+  </ul>
+  <p>
+    Zip-up clothing can be easier for overnight changes than outfits with many buttons. In
+    warmer regions, lightweight layers are useful, while cooler homes may need warmer sleepwear.
+    Avoid buying too heavily in one size, as babies can grow quickly and sizing varies between
+    brands.
+  </p>
+
+  <h2>Bathing and grooming items</h2>
+  <p>
+    A few simple bathing and grooming items are enough for most nurseries. Baby towels, soft
+    washcloths, a baby bath or bath support, gentle baby wash, a soft brush, nail clippers or a
+    baby nail file, and a thermometer can all be useful.
+  </p>
+  <p>
+    Storage matters here too. Keeping bath items together in a basket or caddy can make it
+    easier to move between the nursery, bathroom and laundry. Washcloths and towels should be
+    easy to dry between uses to reduce musty smells.
+  </p>
+  <p>
+    Baby nail care is one of those small tasks that becomes much easier when the right tool is
+    available. Some parents prefer baby nail scissors, while others prefer files or electric
+    nail trimmers. Choose the option you feel confident using safely.
+  </p>
+
+  <h2>Practical laundry setup</h2>
+  <p>
+    Babies create a lot of laundry. A dedicated hamper in or near the nursery helps keep
+    clothes, wraps, sheets, towels and bibs contained. A separate small basket for heavily
+    soiled items may also be useful.
+  </p>
+  <p>
+    Stain remover suitable for baby clothes, mesh wash bags for tiny socks or mittens, and
+    enough spare sheets can make the laundry routine easier. If you have limited drying space,
+    quick-drying fabrics and a sensible number of duplicates can help.
+  </p>
+  <p>
+    In humid parts of Australia, make sure washed items dry properly before being packed away.
+    Damp linen stored in drawers can quickly develop unpleasant smells.
+  </p>
+
+  <h2>What to prioritise first</h2>
+  <p>
+    If you are setting up a nursery from scratch, focus on the essentials before buying
+    decorative extras. The highest-priority items are usually a safe sleep space, fitted sheets,
+    mattress protection, changing supplies, nappies, wipes, basic clothing, burp cloths, a
+    laundry hamper and practical storage.
+  </p>
+  <p>
+    After that, add items based on your space and routine. Some families will benefit from a
+    nursery chair, blackout curtains, a nappy caddy, extra storage baskets or a compact
+    bookshelf. Others may need more wardrobe storage, better airflow or a more portable changing
+    setup.
+  </p>
+
+  <h2>Final thoughts</h2>
+  <p>
+    A useful nursery is not about having every product available. It is about creating a safe,
+    calm and practical space that supports everyday care.
+  </p>
+  <p>
+    For Australian homes, focus on breathable materials, washable surfaces, safe sleep, good
+    storage, temperature control and products that suit your home layout. A nursery that is easy
+    to clean and simple to use will usually be more valuable than one filled with items that
+    rarely get used.
+  </p>
+  <p>
+    Start with the basics, keep the setup flexible and add extra products only when they solve a
+    real problem in your daily routine.
+  </p>
+
+  <FAQBlock items={faqs} />
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
