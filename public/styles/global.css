@@ -542,12 +542,15 @@ h3 {
 }
 
 .feature-list {
-  padding-left: 1.15rem;
+  border-left: 3px solid rgba(212, 160, 23, 0.44);
+  border-radius: 0 8px 8px 0;
+  background: rgba(255, 253, 247, 0.54);
   margin: 18px 0 0;
+  padding: 16px 18px 16px 34px;
 }
 
 .feature-list li + li {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .advice-stack {
@@ -837,8 +840,25 @@ h3 {
 }
 
 .related-guides ul {
-  margin: 12px 0 0;
-  padding-left: 1.1rem;
+  display: grid;
+  gap: 10px;
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+}
+
+.related-guides li {
+  border-top: 1px solid rgba(63, 77, 63, 0.14);
+  padding-top: 10px;
+}
+
+.related-guides li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.related-guides a {
+  font-weight: 800;
 }
 
 .site-footer {
