@@ -27,6 +27,11 @@ interface Props {
   intro: string;
   focusIntro: string;
   guides?: LinkItem[];
+  guideHeading?: string;
+  guideIntro?: string;
+  secondaryGuides?: LinkItem[];
+  secondaryGuideHeading?: string;
+  secondaryGuideIntro?: string;
   compare: string[];
   mistakes: string[];
   productTypes: ProductType[];
@@ -40,6 +45,11 @@ const {
   intro,
   focusIntro,
   guides = [],
+  guideHeading = "Useful guides",
+  guideIntro = "Start with guides that help you plan the room before choosing storage or home products.",
+  secondaryGuides = [],
+  secondaryGuideHeading = "More guides",
+  secondaryGuideIntro = "Broader guides that may help with related household routines.",
   compare,
   mistakes,
   productTypes,
@@ -101,12 +111,9 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
       <div class="container section-heading">
         <div>
           <p class="eyebrow">Start here</p>
-          <h2>Useful guides</h2>
+          <h2>{guideHeading}</h2>
         </div>
-        <p>
-          Start with guides that help you plan the room before choosing storage or home
-          products.
-        </p>
+        <p>{guideIntro}</p>
       </div>
       <div class="container grid three">
         {guides.map((guide) => (
@@ -116,7 +123,24 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
     </section>
   )}
 
-  <section class:list={["section", guides.length > 0 && "soft"]}>
+  {secondaryGuides.length > 0 && (
+    <section class="section soft">
+      <div class="container section-heading">
+        <div>
+          <p class="eyebrow">Also useful</p>
+          <h2>{secondaryGuideHeading}</h2>
+        </div>
+        <p>{secondaryGuideIntro}</p>
+      </div>
+      <div class="container grid three">
+        {secondaryGuides.map((guide) => (
+          <GuideCard href={guide.href} title={guide.title} description={guide.description} meta="Guide" />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class:list={["section", (guides.length > 0 || secondaryGuides.length > 0) && "soft"]}>
     <div class="container section-heading">
       <div>
         <p class="eyebrow">Category focus</p>
