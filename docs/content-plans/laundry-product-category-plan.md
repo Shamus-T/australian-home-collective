@@ -10,6 +10,10 @@ The site's current strength is practical before-you-buy guidance. Future Laundry
 
 Future product sections should support the guide content rather than replace it. Australian homes, rentals, apartments and small laundries should be assumed unless a page clearly says otherwise.
 
+Use `docs/content-plans/product-section-templates.md` as the reusable structure before adding future product-category blocks. Public product blocks should not be added until the Laundry cluster review is complete and the commercial setup, disclosure placement and update process are ready.
+
+Higher-risk categories such as heated airers, chemical storage, appliance storage, dryer placement and washing-machine clearance require cautious wording and a clear update process before any public product links or comparison sections are added.
+
 ## 2. Commercial principles
 
 - Product sections should come after useful buying guidance, not before it.
