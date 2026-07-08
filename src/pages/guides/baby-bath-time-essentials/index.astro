@@ -1,12 +1,318 @@
 ---
-import SimpleGuidePage from "../../../components/SimpleGuidePage.astro";
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  {
+    href: "/categories/nursery-kids/",
+    title: "Nursery & Kids",
+    description: "More practical nursery and baby care guides for Australian homes.",
+  },
+  {
+    href: "/guides/nursery-essentials-for-australian-homes/",
+    title: "Nursery Essentials for Australian Homes",
+    description: "Plan sleep, feeding, changing, storage, safety and everyday nursery setup.",
+  },
+  {
+    href: "/guides/newborn-essentials/",
+    title: "Newborn Essentials for First-Time Parents",
+    description: "A grounded guide to the items that tend to earn their place in the first few months.",
+  },
+  {
+    href: "/guides/nappy-change-station-checklist/",
+    title: "Nappy Change Station Checklist",
+    description: "Set up nappies, wipes, creams, spare clothes and clean-up items within reach.",
+  },
+  {
+    href: "/guides/nursery-storage-small-rooms/",
+    title: "Nursery Storage for Small Rooms",
+    description: "Plan storage for compact nurseries, rentals and shared spaces.",
+  },
+  {
+    href: "/categories/bathroom/",
+    title: "Bathroom",
+    description: "Bathroom storage, towel drying and family routine guides.",
+  },
+];
 ---
 
-<SimpleGuidePage
-  title="Baby Bath Time Essentials"
-  description="A practical Australian guide to baby bath time basics, including towels, supports, storage, water safety and preparation."
+<ArticleLayout
+  title="Baby Bath Time Essentials for a Calmer Routine"
+  description="Prepare for baby bath time with practical notes on towels, wash items, water safety, storage, room setup and what to keep within reach."
   category="Nursery & Kids"
-  intro="Bath time is easier when everything is ready before water is involved and the setup suits your bathroom."
-  points={["Prepare towels, clean clothes, nappies and wash items before starting.", "Follow manufacturer instructions for any bath support or accessory.", "Check age, weight and size suitability for bath items.", "Keep storage simple and easy to dry between uses."]}
-  related={[{ href: "/categories/nursery-kids/", title: "Nursery & Kids", description: "More baby care guides." }, { href: "/categories/bathroom/", title: "Bathroom", description: "Practical bathroom routines and storage." }]}
-/>
+  date="Updated July 2026"
+  readingTime="8 minute read"
+  showAffiliateDisclosure={false}
+  image="/images/Nursery-kids.webp"
+  imageAlt="A tidy nursery with soft light, baby storage and everyday care items"
+>
+  <p>
+    Baby bath time is easier when the room is prepared before water is involved. Once a baby
+    is in or near the bath, you do not want to be searching for a towel, clean nappy, wash
+    cloth or fresh clothes.
+  </p>
+  <p>
+    A calm bath-time setup is not about buying every baby bath product. It is about having
+    the right items within reach, keeping the area simple, and understanding what needs to
+    happen before, during and after the bath.
+  </p>
+  <p>
+    This guide covers what to prepare and check before buying baby bath-time items for your
+    home. For the broader baby setup, start with the <a href="/categories/nursery-kids/">Nursery & Kids</a>
+    category or the <a href="/guides/nursery-essentials-for-australian-homes/">nursery essentials guide</a>.
+  </p>
+
+  <h2>A quick safety note before you start</h2>
+  <p>
+    Bath time needs active adult supervision from start to finish. Babies and young children
+    should never be left unattended in or near water, even briefly.
+  </p>
+  <p>
+    Before using any baby bath, bath support, seat, thermometer, mat or accessory, read and
+    follow the manufacturer's instructions and check current Australian safety guidance where
+    relevant. Products can help with setup, but they do not replace supervision.
+  </p>
+  <p>
+    If you are unsure about bathing a newborn or caring for a baby's skin, ask your midwife,
+    child health nurse, GP or another qualified health professional.
+  </p>
+
+  <h2>Start with the routine, not the product</h2>
+  <p>
+    Before buying more bath-time items, think through how bath time will actually work in
+    your home.
+  </p>
+  <p>Ask:</p>
+  <ul class="feature-list">
+    <li>Where will the baby be bathed?</li>
+    <li>Who will usually handle bath time?</li>
+    <li>Where will the towel sit?</li>
+    <li>Where will clean clothes and a nappy be ready?</li>
+    <li>Where will wet cloths and towels go afterwards?</li>
+    <li>Is the bathroom warm enough?</li>
+    <li>Is there enough bench, floor or change-table space nearby?</li>
+    <li>Can everything be reached without stepping away?</li>
+  </ul>
+  <p>
+    A simple routine usually matters more than a large collection of bath products. The aim is
+    to move from washing to drying to dressing without stress or clutter.
+  </p>
+
+  <h2>Choose the bathing location carefully</h2>
+  <p>
+    Not every household uses a full bathroom for baby bath time. Some families use a baby
+    bath in the bathroom, laundry, shower area or another safe flat space. Others use a sink
+    for very early baths if it is suitable and easy to manage.
+  </p>
+  <p>Before deciding where bath time will happen, check:</p>
+  <ul class="feature-list">
+    <li>whether the surface or floor area is stable</li>
+    <li>whether the room is warm enough</li>
+    <li>whether water can be filled and emptied safely</li>
+    <li>whether towels and clean clothes can be kept close</li>
+    <li>whether there is good lighting</li>
+    <li>whether the area is easy to clean afterwards</li>
+    <li>whether older children, pets or household traffic will get in the way</li>
+  </ul>
+  <p>
+    The best location is not always the prettiest one. It is the place where the routine can
+    happen calmly, safely and without rushing.
+  </p>
+
+  <h2>Keep the essentials within reach</h2>
+  <p>
+    Bath time becomes harder when important items are scattered across the bathroom, nursery
+    and laundry. Before starting, keep the basic items ready and close enough to reach without
+    leaving the baby.
+  </p>
+  <p>Useful bath-time essentials may include:</p>
+  <ul class="feature-list">
+    <li>a towel or hooded towel</li>
+    <li>clean nappy</li>
+    <li>clean clothes or pyjamas</li>
+    <li>wash cloths</li>
+    <li>gentle baby wash if used</li>
+    <li>cotton pads or soft cloths if needed</li>
+    <li>nappy cream if part of the routine</li>
+    <li>a small basket or caddy for bath items</li>
+    <li>a laundry basket or place for wet towels</li>
+    <li>any items recommended by your health professional</li>
+  </ul>
+  <p>
+    Keep the setup simple. If too many products sit near the bath, the area becomes harder to
+    clean and easier to knock over. A simple <a href="/guides/nappy-change-station-checklist/">nappy change setup</a>
+    nearby can also make dressing after the bath easier.
+  </p>
+
+  <h2>Think about drying before bathing</h2>
+  <p>
+    Drying and dressing often cause more stress than the bath itself, especially with newborns.
+    A baby can become cold quickly after a bath, so the towel, nappy and clothes should be
+    ready before bathing starts.
+  </p>
+  <p>Before bath time, check:</p>
+  <ul class="feature-list">
+    <li>where the towel will be placed</li>
+    <li>whether the towel is warm and dry</li>
+    <li>whether clean clothes are open and ready</li>
+    <li>whether the change surface is clear</li>
+    <li>whether creams or nappies are within reach</li>
+    <li>whether wet towels have somewhere to go afterwards</li>
+  </ul>
+  <p>
+    A prepared drying area can make bath time feel much calmer. For towel drying and bathroom
+    space planning, the <a href="/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/">towel storage guide</a>
+    may also help.
+  </p>
+
+  <h2>Do not overbuy baby bath products</h2>
+  <p>
+    Many bath-time products look useful, but not all of them suit every home or routine. A
+    product that works in a large bathroom may be awkward in a small rental bathroom, shared
+    laundry or compact ensuite.
+  </p>
+  <p>Before buying bath-time items, check:</p>
+  <ul class="feature-list">
+    <li>how much space the item needs</li>
+    <li>whether it can dry between uses</li>
+    <li>whether it is easy to clean</li>
+    <li>whether it needs storage when not in use</li>
+    <li>whether it suits the baby's age, size and stage</li>
+    <li>whether it has clear manufacturer instructions</li>
+    <li>whether it creates more clutter than it solves</li>
+  </ul>
+  <p>
+    If you are unsure, start with fewer items and add only what solves a real problem.
+  </p>
+
+  <h2>Check storage and drying space</h2>
+  <p>
+    Baby bath items need somewhere to dry. Wet towels, cloths, bath toys and supports can
+    become messy if there is no drying plan.
+  </p>
+  <p>Before buying bath storage, check:</p>
+  <ul class="feature-list">
+    <li>where wet cloths will go</li>
+    <li>whether towels can dry properly</li>
+    <li>whether bath items can drain</li>
+    <li>whether the bathroom has enough ventilation</li>
+    <li>whether storage will sit in a splash zone</li>
+    <li>whether items can be removed for cleaning</li>
+    <li>whether the setup will block adult bathroom use</li>
+  </ul>
+  <p>
+    A small caddy, hook, basket or shelf can be useful, but only if it helps the area dry and
+    reset. If the room is rented, also check the <a href="/guides/renter-friendly-bathroom-storage-what-to-check-before-you-buy/">renter-friendly bathroom storage guide</a>.
+  </p>
+
+  <h2>Be careful with bath toys and extras</h2>
+  <p>
+    Bath toys and extras are not always needed, especially for very young babies. As babies
+    grow, bath toys may become part of the routine, but they need to drain and dry properly.
+  </p>
+  <p>Before buying bath toys or extras, check:</p>
+  <ul class="feature-list">
+    <li>whether they suit the child's age</li>
+    <li>whether they can be cleaned and dried</li>
+    <li>whether water can get trapped inside</li>
+    <li>whether they create clutter around the bath</li>
+    <li>whether they are easy to store out of the way</li>
+    <li>whether they distract from the main bathing routine</li>
+  </ul>
+  <p>
+    Simple, washable and easy-to-dry items are usually more practical than large collections
+    of toys.
+  </p>
+
+  <h2>Plan for laundry</h2>
+  <p>
+    Baby bath time creates washing: towels, cloths, clothes, wraps and sometimes bedding. If
+    the laundry routine is already stretched, bath-time items can pile up quickly.
+  </p>
+  <p>Before buying extra towels or cloths, think about:</p>
+  <ul class="feature-list">
+    <li>how often you wash baby items</li>
+    <li>where wet towels will dry</li>
+    <li>whether you have enough spare towels between washes</li>
+    <li>whether cloths are easy to rinse and dry</li>
+    <li>whether the laundry basket is close enough</li>
+    <li>whether damp items will sit too long before washing</li>
+  </ul>
+  <p>
+    The right number of towels depends on your washing routine, drying space and how often
+    bath time happens.
+  </p>
+
+  <h2>Shared bathrooms need a reset plan</h2>
+  <p>
+    In many Australian homes, the baby bath routine happens in a bathroom used by the rest of
+    the household. That means bath-time items need to be easy to pack away.
+  </p>
+  <p>If the bathroom is shared, check:</p>
+  <ul class="feature-list">
+    <li>where baby bath items live between baths</li>
+    <li>whether they block the shower, basin or toilet</li>
+    <li>whether towels can dry without crowding other towels</li>
+    <li>whether older children can still use the bathroom safely</li>
+    <li>whether bath items can be carried in and out easily</li>
+  </ul>
+  <p>
+    A small bath caddy or basket can be useful if baby items do not need to stay in the
+    bathroom all day. The <a href="/categories/bathroom/">Bathroom</a> category has more
+    bathroom storage and towel setup guides.
+  </p>
+
+  <h2>Renter-friendly bath-time setup</h2>
+  <p>
+    Renters may not be able to add hooks, shelves or fixed storage. That can make baby bath
+    time trickier, especially in small bathrooms.
+  </p>
+  <p>Renter-friendly options may include:</p>
+  <ul class="feature-list">
+    <li>a removable caddy</li>
+    <li>a freestanding towel rack</li>
+    <li>over-door hooks where suitable</li>
+    <li>a laundry basket for wet items</li>
+    <li>a compact baby bath that can be stored elsewhere</li>
+    <li>a simple basket that moves between nursery and bathroom</li>
+  </ul>
+  <p>
+    Before using adhesive hooks or suction storage, check the surface, moisture exposure and
+    removal risk. Avoid anything that may damage tiles, paint or cabinetry.
+  </p>
+
+  <h2>A simple before-bath checklist</h2>
+  <p>Before bath time starts, check:</p>
+  <ul class="feature-list">
+    <li>Is an adult ready to supervise the whole time?</li>
+    <li>Is the bath area safe, stable and clear?</li>
+    <li>Is the water prepared according to safe bathing guidance?</li>
+    <li>Is the towel ready?</li>
+    <li>Are clean clothes and a nappy ready?</li>
+    <li>Are wash cloths and bath items within reach?</li>
+    <li>Is the room warm enough?</li>
+    <li>Is there somewhere for wet towels and cloths?</li>
+    <li>Can everything be cleaned and dried afterwards?</li>
+  </ul>
+  <p>
+    A short checklist can prevent the most common bath-time problems.
+  </p>
+
+  <h2>The practical takeaway</h2>
+  <p>
+    Baby bath time does not need a complicated setup. It needs preparation, supervision and a
+    simple routine that works in your actual home.
+  </p>
+  <p>
+    Before buying baby bath items, think through the whole process: where bathing happens,
+    where the towel sits, how the baby will be dried and dressed, where wet items go, and how
+    the area resets afterwards.
+  </p>
+  <p>
+    The best bath-time setup is calm, simple, easy to clean and prepared before water is
+    involved. For first-month basics, the <a href="/guides/newborn-essentials/">Newborn Essentials</a>
+    guide can help you keep the wider setup grounded.
+  </p>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
