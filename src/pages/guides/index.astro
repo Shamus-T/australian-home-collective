@@ -84,7 +84,6 @@ const guideGroups = [
       { href: "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/", title: "Under-Sink Kitchen Storage: What to Check Before You Buy" },
       { href: "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/", title: "Kitchen Bench Space: What to Clear Before Buying More Storage" },
       { href: "/guides/everyday-kitchen-essentials-australian-homes/", title: "Everyday Kitchen Essentials for Australian Homes" },
-      { href: "/guides/australian-made-gift-ideas-under-100/", title: "Australian-Made Gift Ideas Under $100" },
     ],
   },
   {
@@ -172,6 +171,13 @@ const guideGroups = [
       { href: "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/", title: "Outdoor Storage Ideas for Australian Patios, Balconies and Gardens" },
     ],
   },
+  {
+    title: "Home & Lifestyle",
+    description: "Broader Australian home and lifestyle guides that do not sit neatly inside one room.",
+    links: [
+      { href: "/guides/australian-made-gift-ideas-under-100/", title: "Australian-Made Gift Ideas Under $100" },
+    ],
+  },
 ];
 ---
 
@@ -241,9 +247,11 @@ const guideGroups = [
               </li>
             ))}
           </ul>
-          <p>
-            <a href={group.categoryHref}>View {group.title} category</a>
-          </p>
+          {group.categoryHref && (
+            <p>
+              <a href={group.categoryHref}>View {group.title} category</a>
+            </p>
+          )}
         </section>
       ))}
     </div>
