@@ -2,6 +2,8 @@
 
 Purpose: create reusable future product-section templates for Australian Home Collective guide articles.
 
+Before drafting article content or future product sections, use `docs/content-plans/editorial-blueprint.md` as the reader-first editorial standard. The article should help readers decide whether to buy, delay, reuse, repair, choose a lower-cost option, or avoid buying altogether where appropriate.
+
 Product sections may be added later only when the commercial setup is ready. No affiliate links are being added now, no product recommendations are being published now, and no product prices should be used unless there is a reliable update process.
 
 Do not make "tested by us" claims unless genuine testing has happened and can be explained clearly. Product sections should support the guide content, not replace practical advice. Readers should still get value from the article even if they do not click product links.
@@ -21,6 +23,10 @@ Do not make "tested by us" claims unless genuine testing has happened and can be
 - If affiliate links are added later, the disclosure should be visible before or near commercial links according to the site's disclosure approach.
 - Use Australian English.
 - Use product categories and use cases before specific product recommendations.
+- Recommend products based on suitability rather than commission potential.
+- Present advantages and disadvantages honestly.
+- Recommend against unnecessary purchases where appropriate.
+- External links should be used only where they add genuine editorial value and must follow the editorial blueprint's ABC rule and new-tab behaviour.
 
 ## Standard product-category block
 
