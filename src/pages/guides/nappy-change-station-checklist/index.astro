@@ -1,18 +1,197 @@
 ---
-import SimpleGuidePage from "../../../components/SimpleGuidePage.astro";
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  {
+    href: "/categories/nursery-kids/",
+    title: "Nursery & Kids",
+    description: "More nursery setup guides for Australian homes.",
+  },
+  {
+    href: "/guides/newborn-essentials/",
+    title: "Newborn Essentials",
+    description: "A practical first-time parent checklist.",
+  },
+  {
+    href: "/guides/baby-change-station-setup-what-to-check-before-you-buy/",
+    title: "Baby Change Station Setup: What to Check Before You Buy",
+    description: "A fuller guide to change tables, mats, bins, cleaning, rentals and room flow.",
+  },
+  {
+    href: "/guides/baby-bath-time-essentials/",
+    title: "Baby Bath Time Essentials for a Calmer Routine",
+    description: "Prepare towels, wash items and clean clothes before water is involved.",
+  },
+  {
+    href: "/guides/baby-outing-essentials-what-to-pack-before-leaving-the-house/",
+    title: "Baby Outing Essentials That Make Leaving the House Easier",
+    description: "Plan nappies, wipes, spare clothes and clean-up items for everyday outings.",
+  },
+];
 ---
 
-<SimpleGuidePage
+<ArticleLayout
   title="Nappy Change Station Checklist"
   description="A practical Australian checklist for setting up a simple nappy changing area at home."
   category="Nursery & Kids"
-  intro="A nappy changing station does not need to be elaborate. It needs to be stable, stocked and easy to clean."
-  points={["Keep nappies, wipes, barrier cream, spare clothes and bags within easy reach.", "Use a stable surface and follow manufacturer instructions for mats or furniture.", "Plan a clean-up routine for frequent changes.", "Keep small items and cords away from babies and toddlers."]}
-  related={[
-    { href: "/categories/nursery-kids/", title: "Nursery & Kids", description: "More nursery setup guides." },
-    { href: "/guides/newborn-essentials/", title: "Newborn Essentials", description: "A practical first-time parent checklist." },
-    { href: "/guides/baby-change-station-setup-what-to-check-before-you-buy/", title: "Baby Change Station Setup: What to Check Before You Buy", description: "A fuller guide to change tables, mats, bins, cleaning, rentals and room flow." },
-    { href: "/guides/baby-bath-time-essentials/", title: "Baby Bath Time Essentials for a Calmer Routine", description: "Prepare towels, wash items and clean clothes before water is involved." },
-    { href: "/guides/baby-outing-essentials-what-to-pack-before-leaving-the-house/", title: "Baby Outing Essentials That Make Leaving the House Easier", description: "Plan nappies, wipes, spare clothes and clean-up items for everyday outings." },
-  ]}
-/>
+  date="Updated July 2026"
+  readingTime="6 minute read"
+  showAffiliateDisclosure={false}
+  image="/images/Nursery-kids.webp"
+  imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
+>
+  <p>
+    A nappy change station does not need to look like a display nursery. It needs to work
+    during normal household moments: overnight changes, rushed mornings, laundry days, after a
+    bath, or when you are changing the baby in a bedroom, nursery or living room.
+  </p>
+  <p>
+    The most useful setup is usually simple. Keep the daily supplies close, leave enough room
+    to change a nappy without moving five things first, and make clean-up easy enough that the
+    area can be reset after each change.
+  </p>
+  <p>
+    This checklist is for Australian families planning a practical nappy changing area at
+    home, whether that is a dedicated change table, a dresser with a change mat, or a portable
+    caddy used across more than one room.
+  </p>
+
+  <h2>Our take</h2>
+  <p>
+    Buy for the routine you have now, not the perfect nursery layout you imagined before the
+    baby arrived.
+  </p>
+  <p>
+    Some households use one fixed change area. Others keep nappies in a caddy and change the
+    baby wherever the day is happening. A good setup should support frequent changes, spare
+    clothes, wipes, creams, clean-up and laundry without turning the room into a pile of baby
+    supplies.
+  </p>
+  <p>
+    Start small, then add storage only when you know what keeps running out, getting lost or
+    ending up in the wrong room.
+  </p>
+
+  <h2>Choose the change spot first</h2>
+  <p>
+    The change spot should suit the room and the person doing most of the changing. In some
+    homes that means a change table in the nursery. In others, it means a change mat on a
+    dresser, a portable mat in the bedroom, or a small caddy near the lounge during the day.
+  </p>
+  <p>Before buying furniture or storage, check:</p>
+  <ul class="feature-list">
+    <li>Where most changes are likely to happen.</li>
+    <li>Whether nappies and wipes can sit within adult reach.</li>
+    <li>Whether there is room for spare clothes.</li>
+    <li>Whether the surface is easy to wipe or cover.</li>
+    <li>Whether dirty clothes and linen have somewhere to go.</li>
+    <li>Whether the setup blocks drawers, wardrobes or walkways.</li>
+  </ul>
+  <p>
+    If the nursery is small, a portable caddy may be more useful than another piece of
+    furniture. For a fuller room-planning guide, see{" "}
+    <a href="/guides/baby-change-station-setup-what-to-check-before-you-buy/">Baby Change Station Setup</a>.
+  </p>
+
+  <h2>Keep daily supplies close</h2>
+  <p>
+    The change area is most useful when the most-used supplies are easy to grab without searching
+    through drawers.
+  </p>
+  <p>Useful everyday items include:</p>
+  <ul class="feature-list">
+    <li>Nappies.</li>
+    <li>Wipes.</li>
+    <li>Barrier cream if used.</li>
+    <li>Spare clothes.</li>
+    <li>Small bags or a bin system for dirty items.</li>
+    <li>Burp cloths or small towels.</li>
+    <li>A wipeable mat or washable cover.</li>
+    <li>A nearby laundry basket or hamper.</li>
+  </ul>
+  <p>
+    Store bulk nappies, next-size clothes and spare wipes nearby but not necessarily on the
+    changing surface. Keeping the immediate area clear makes the routine easier to repeat.
+  </p>
+
+  <h2>Plan the clean-up routine</h2>
+  <p>
+    Nappy changes create small mess often. The setup should make it obvious where dirty
+    clothes, used wipes, empty packaging and washable covers go next.
+  </p>
+  <p>Think about:</p>
+  <ul class="feature-list">
+    <li>Where dirty clothes will go.</li>
+    <li>Where washable covers or towels will dry or be washed.</li>
+    <li>How often nappies and wipes need restocking.</li>
+    <li>Whether the bin or bag system is easy to empty.</li>
+    <li>Whether creams, bags and small items have a contained place.</li>
+  </ul>
+  <p>
+    A small basket for laundry and a simple restock habit can be more useful than extra
+    drawers. The aim is to reset the area quickly, not build a complicated system.
+  </p>
+
+  <h2>If space is tight</h2>
+  <p>
+    Small bedrooms, shared nurseries and rentals may not have room for a full change table.
+    In those cases, focus on portable and compact storage.
+  </p>
+  <ul class="feature-list">
+    <li>Use a nappy caddy for supplies that move between rooms.</li>
+    <li>Keep spare clothes in one drawer or basket.</li>
+    <li>Use drawer dividers for small clothing and creams.</li>
+    <li>Store bulk supplies in a wardrobe, laundry or nearby cupboard.</li>
+    <li>Choose washable, removable storage that can move as the room changes.</li>
+  </ul>
+  <p>
+    For compact room ideas, the{" "}
+    <a href="/guides/nursery-storage-small-rooms/">nursery storage guide</a> covers small-room
+    storage, rentals, wardrobes and change-area supplies in more detail.
+  </p>
+
+  <h2>When a dedicated change table can wait</h2>
+  <p>
+    A dedicated change table can be helpful, but it is not the only way to create a practical
+    change station.
+  </p>
+  <p>It may be worth waiting if:</p>
+  <ul class="feature-list">
+    <li>The nursery layout is still changing.</li>
+    <li>The baby is mostly changed in another room.</li>
+    <li>You already have a suitable dresser or surface.</li>
+    <li>There is not enough room to move around extra furniture.</li>
+    <li>A portable caddy would suit the household better.</li>
+  </ul>
+  <p>
+    If you do use a mat, dresser or furniture item for changing, follow the manufacturer's
+    setup and use instructions.
+  </p>
+
+  <h2>Simple nappy change station checklist</h2>
+  <p>Before buying or setting up extra change-area storage, check:</p>
+  <ul class="feature-list">
+    <li>Where most changes happen during the day and overnight.</li>
+    <li>Whether nappies and wipes are easy for adults to reach.</li>
+    <li>Whether spare clothes are close enough.</li>
+    <li>Whether the changing surface is easy to wipe or cover.</li>
+    <li>Whether dirty clothes and covers have a laundry spot.</li>
+    <li>Whether bulk supplies can live somewhere else.</li>
+    <li>Whether the room still has clear movement around furniture.</li>
+    <li>Whether the setup can be reset quickly after each change.</li>
+  </ul>
+
+  <h2>Final thoughts</h2>
+  <p>
+    A good nappy change station is less about matching nursery furniture and more about
+    making a repeated routine easier.
+  </p>
+  <p>
+    Start with nappies, wipes, spare clothes, clean-up and laundry. Keep the setup flexible,
+    especially in the first months, and only add furniture or organisers when they solve a
+    real problem in the room you actually use.
+  </p>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
