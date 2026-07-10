@@ -1,4 +1,4 @@
-# Phase 2 merge audit: laundry and bathroom
+# Phase 2 merge audit
 
 Updated 10 July 2026 after the Phase 1 editorial pass.
 
@@ -72,6 +72,25 @@ The products route appears in the bathroom hub and a small number of related
 guides. Replace those references with the canonical route in the same change as
 any redirect so the hub and related-guide blocks do not point at a retiring URL.
 
+## Nursery change area
+
+### Recommended canonical
+
+Keep `/guides/nappy-change-station-checklist/` as the canonical change-area guide.
+
+Reasons:
+
+- Its title and shorter route match the reader's immediate task.
+- It already has the broader set of inbound links from nursery and baby-routine guides.
+- The longer setup article's useful surface, height, stability, night-time and shared-room
+  material can be incorporated without maintaining two near-identical checklists.
+
+### Merge implementation
+
+The canonical checklist now includes the stronger room-planning and safety material. Category
+cards, the guide index and related links point to it. The retiring baby-change-setup route remains
+available as a `noindex,follow` moved page, while its URL is removed from the sitemap.
+
 ## Safe next implementation step
 
 1. Confirm these two canonical routes.
@@ -85,7 +104,7 @@ any redirect so the hub and related-guide blocks do not point at a retiring URL.
 
 ## Implementation update
 
-The laundry and bathroom recommendations have now been applied:
+The laundry, bathroom and nursery recommendations have now been applied:
 
 - Category cards, the guides index and related-guide links point to the two canonical routes.
 - The two retiring routes remain available as `noindex,follow` moved pages with immediate refresh
