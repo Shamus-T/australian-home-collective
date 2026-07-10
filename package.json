@@ -8,6 +8,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "audit:commercial": "node scripts/audit-commercial-data.mjs",
+    "audit:commercial:dist": "node scripts/audit-commercial-data.mjs --dist",
     "preview": "astro preview",
     "astro": "astro"
   },

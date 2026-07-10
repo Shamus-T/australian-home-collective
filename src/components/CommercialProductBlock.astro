@@ -1,0 +1,63 @@
+---
+import AffiliateDisclosureBlock from "./AffiliateDisclosureBlock.astro";
+import { getApprovedProductsForGuide } from "../lib/commercial-products";
+
+interface Props {
+  guidePath: string;
+  title?: string;
+  intro?: string;
+}
+
+const {
+  guidePath,
+  title = "Products currently worth comparing",
+  intro = "These options have been checked against the measurements and buying questions in this guide.",
+} = Astro.props;
+
+const products = getApprovedProductsForGuide(guidePath);
+const hasAffiliateLinks = products.some((product) => product.affiliate);
+const sectionId = `commercial-products-${guidePath
+  .replace(/^\/guides\//, "")
+  .replace(/\/$/, "")}`;
+
+const formatDate = (date: string) =>
+  new Intl.DateTimeFormat("en-AU", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "Australia/Brisbane",
+  }).format(new Date(`${date}T00:00:00+10:00`));
+---
+
+{products.length > 0 && (
+  <section
+    class="commercial-product-block"
+    aria-labelledby={sectionId}
+    data-commercial-product-block
+  >
+    <h2 id={sectionId}>{title}</h2>
+    <p>{intro}</p>
+    {hasAffiliateLinks && <AffiliateDisclosureBlock />}
+    <div class="commercial-product-grid">
+      {products.map((product) => (
+        <article class="commercial-product-card">
+          <p class="commercial-product-type">{product.productType}</p>
+          <h3>{product.name}</h3>
+          <p>{product.summary}</p>
+          <p class="commercial-product-merchant">Available from {product.merchant}</p>
+          <a
+            href={product.destinationUrl}
+            target="_blank"
+            rel={product.affiliate ? "sponsored noopener noreferrer" : "noopener noreferrer"}
+            data-commercial-link={product.affiliate ? "affiliate" : "retailer"}
+          >
+            {product.linkLabel}
+          </a>
+          <p class="commercial-product-reviewed">
+            Product details checked {formatDate(product.verifiedOn)}. Review due {formatDate(product.reviewDueOn)}.
+          </p>
+        </article>
+      ))}
+    </div>
+  </section>
+)}

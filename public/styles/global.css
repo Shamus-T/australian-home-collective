@@ -820,6 +820,49 @@ h3 {
   line-height: 1.58;
 }
 
+.commercial-product-block {
+  margin: 42px 0;
+}
+
+.commercial-product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0 34px;
+}
+
+.commercial-product-card {
+  border: 1px solid rgba(63, 77, 63, 0.16);
+  border-top: 4px solid var(--gold);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: var(--shadow-soft);
+  padding: 20px;
+}
+
+.commercial-product-card h3,
+.commercial-product-card p {
+  margin-top: 0;
+}
+
+.commercial-product-type {
+  color: #6f570f;
+  font-size: 0.875rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.commercial-product-merchant {
+  font-weight: 700;
+}
+
+.commercial-product-reviewed {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 16px 0 0;
+}
+
 .comparison-wrap {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -1008,6 +1051,10 @@ h3 {
   .grid.three,
   .guide-library-grid,
   .product-decision-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .commercial-product-grid {
     grid-template-columns: 1fr;
   }
 
