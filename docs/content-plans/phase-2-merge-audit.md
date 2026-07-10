@@ -124,6 +124,17 @@ ideas route remains available as a `noindex,follow` moved page and is removed fr
 5. Build, inspect generated routes and check canonical/sitemap output before
    publishing.
 
+## Coverage expansion
+
+The three category gaps identified in the Phase 1 triage are now covered with focused guides:
+
+- Nursery & Kids adds a play, toy, craft and school-item storage guide, extending the hub beyond
+  infant equipment while linking current ACCC furniture-stability guidance.
+- Outdoor & Garden adds garden-tool care and seasonal outdoor resetting before any further
+  furniture or storage variant.
+- Pets adds a cat litter-tray planning guide, balancing the dog-heavy set with RSPCA-sourced cat
+  advice on tray number, placement, size, cleaning and multi-cat access.
+
 ## Implementation update
 
 The laundry, bathroom, nursery and garage recommendations have now been applied:
