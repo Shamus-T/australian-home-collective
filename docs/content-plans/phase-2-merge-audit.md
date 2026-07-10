@@ -91,6 +91,28 @@ The canonical checklist now includes the stronger room-planning and safety mater
 cards, the guide index and related links point to it. The retiring baby-change-setup route remains
 available as a `noindex,follow` moved page, while its URL is removed from the sitemap.
 
+## Garage storage
+
+### Recommended canonical
+
+Keep `/guides/garage-storage-what-to-measure-and-check-before-you-buy/` as the canonical general
+garage-storage guide.
+
+Reasons:
+
+- It is the more complete guide to sorting, measurement, vehicle clearance, loads, wall types,
+  moisture, hazardous items and rental limits.
+- The garage category hub already leads with this route.
+- Most garage subtopic guides already use it as their general cross-link target.
+- Its planning promise supports readers before they choose shelving, tubs, hooks or wall systems.
+
+### Merge implementation
+
+The canonical guide now includes the retiring article's strongest routine-led material: a hand-off
+zone near the household entry, frequency-based placement and simpler sports and everyday-gear
+resetting. Category cards, the guide index and related links point to the canonical route. The old
+ideas route remains available as a `noindex,follow` moved page and is removed from the sitemap.
+
 ## Safe next implementation step
 
 1. Confirm these two canonical routes.
@@ -104,7 +126,7 @@ available as a `noindex,follow` moved page, while its URL is removed from the si
 
 ## Implementation update
 
-The laundry, bathroom and nursery recommendations have now been applied:
+The laundry, bathroom, nursery and garage recommendations have now been applied:
 
 - Category cards, the guides index and related-guide links point to the two canonical routes.
 - The two retiring routes remain available as `noindex,follow` moved pages with immediate refresh
