@@ -1,0 +1,29 @@
+RewriteEngine On
+
+# Use one canonical origin for visitors and crawlers.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^australianhomecollective\.com\.au$ [NC]
+RewriteRule ^ https://australianhomecollective.com.au%{REQUEST_URI} [R=301,L,NE]
+
+RedirectMatch 301 ^/categories/nursery-baby/?$ /categories/nursery-kids/
+
+RedirectMatch 301 ^/collections/nursery-kids/?$ /categories/nursery-kids/
+RedirectMatch 301 ^/collections/kitchen/?$ /categories/kitchen/
+RedirectMatch 301 ^/collections/pet/?$ /categories/pets/
+RedirectMatch 301 ^/collections/pets/?$ /categories/pets/
+RedirectMatch 301 ^/collections/laundry/?$ /categories/laundry/
+RedirectMatch 301 ^/collections/bathroom/?$ /categories/bathroom/
+RedirectMatch 301 ^/collections/bedroom/?$ /categories/bedroom/
+RedirectMatch 301 ^/collections/living-spaces/?$ /categories/living-spaces/
+RedirectMatch 301 ^/collections/garage-storage/?$ /categories/garage-storage/
+RedirectMatch 301 ^/collections/home-office/?$ /categories/home-office/
+RedirectMatch 301 ^/collections/outdoor-garden/?$ /categories/outdoor-garden/
+
+RedirectMatch 301 ^/pages/new-puppy-essentials/?$ /guides/new-puppy-essentials/
+RedirectMatch 301 ^/pages/australian-made-gift-ideas-under-100/?$ /guides/australian-made-gift-ideas-under-100/
+RedirectMatch 301 ^/pages/lower-waste-laundry-essentials/?$ /guides/lower-waste-laundry-essentials/
+RedirectMatch 301 ^/pages/how-we-select-our-products-brands/?$ /how-we-select-products/
+RedirectMatch 301 ^/pages/australian-status-labels/?$ /australian-status-labels/
+RedirectMatch 301 ^/pages/affiliate-disclosure/?$ /affiliate-disclosure/
+RedirectMatch 301 ^/pages/privacy-policy/?$ /privacy-policy/
+RedirectMatch 301 ^/pages/contact/?$ /contact/
