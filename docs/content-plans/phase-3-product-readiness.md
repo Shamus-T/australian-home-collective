@@ -77,6 +77,8 @@ of scope.
 - Product-decision blocks contain no retailer links, affiliate links, prices or named products.
 - None of the eight guides shows affiliate disclosure because none contains an affiliate link.
 - The two-column desktop layout collapses to one column below the existing 820-pixel breakpoint.
+- The global stylesheet reference is versioned so the new card layout is not masked by a cached
+  pre-Phase 3 stylesheet after deployment.
 - Electrical, heated, chemical, structural, wall-mounted and wet-area installation recommendations
   remain outside the Phase 3 comparison scope.
 
