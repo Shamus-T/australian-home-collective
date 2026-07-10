@@ -60,6 +60,14 @@ const refreshUrl = refreshPath ? new URL(refreshPath, siteUrl).toString() : unde
     <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=5" />
     <link rel="manifest" href="/site.webmanifest?v=5" />
     <link rel="stylesheet" href="/styles/global.css?v=7" />
+    <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-NHVS6YBB8J"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NHVS6YBB8J');
+    </script>
     <title>{pageTitle}</title>
   </head>
   <body>
