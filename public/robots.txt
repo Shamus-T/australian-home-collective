@@ -1,3 +1,7 @@
+User-agent: facebookexternalhit
+Allow: /
+Allow: /images/social-sharing.png?v=2
+
 User-agent: *
 Allow: /
 
