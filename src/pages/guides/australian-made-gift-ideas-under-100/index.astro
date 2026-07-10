@@ -1,12 +1,122 @@
 ---
-import SimpleGuidePage from "../../../components/SimpleGuidePage.astro";
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  {
+    href: "/australian-status-labels/",
+    title: "Australian Status Labels",
+    description: "How this site distinguishes made, owned, designed and stocked in Australia.",
+  },
+  {
+    href: "/how-we-select-products/",
+    title: "How We Select Products and Brands",
+    description: "The checks used before a product or brand is included editorially.",
+  },
+  {
+    href: "/guides/bedding-and-linen-basics-for-australian-bedrooms/",
+    title: "Bedding and Linen Basics for Australian Bedrooms",
+    description: "Choose washable linen that fits the recipient's real home and routine.",
+  },
+];
 ---
 
-<SimpleGuidePage
+<ArticleLayout
   title="Australian Made Gift Ideas Under $100"
-  description="A practical guide to thoughtful Australian home and lifestyle gift ideas under $100, with notes on claims, usefulness and presentation."
+  description="Choose an Australian made home or lifestyle gift under $100 by checking the origin claim, total delivered price, care needs and the recipient's routine."
   category="Home & Lifestyle"
-  intro="This guide is a prepared destination for Australian-made gift ideas with a practical home and lifestyle focus."
-  points={["Check Australian-made claims carefully and look for clear brand information.", "Choose useful items that suit the recipient's home, routine and storage space.", "Consider materials, care instructions, delivery timing and return policies.", "Avoid relying on vague origin or sustainability claims without support."]}
-  related={[{ href: "/how-we-select-products/", title: "How We Select Products and Brands", description: "How we choose what to include." }, { href: "/australian-status-labels/", title: "Australian Status Labels", description: "How we describe Australian relevance." }]}
-/>
+  date="Updated July 2026"
+  readingTime="5 minute read"
+  image="/images/living-room.webp"
+  imageAlt="A small home and lifestyle gift wrapped on a timber table in warm natural light"
+>
+  <p>
+    A useful Australian made gift begins with two separate questions: is the origin claim clear,
+    and will the recipient actually use the item? A local-sounding brand name cannot answer the
+    first, and an attractive product photo cannot answer the second.
+  </p>
+  <p>
+    Treat $100 as the delivered budget, not only the ticket price. Shipping, gift wrapping and
+    delivery to regional areas can change the total quickly. Then choose from a category that fits
+    the person's home, habits and willingness to wash, store or maintain the item.
+  </p>
+
+  <h2>Check what “Australian made” means for the product</h2>
+  <p>
+    Australian made, Australian owned, Australian designed and sold by an Australian retailer are
+    different claims. Do not swap one for another because the broader connection sounds appealing.
+  </p>
+  <p>
+    The <a href="https://www.accc.gov.au/consumers/advertising-and-promotions/country-of-origin-claims" rel="noopener noreferrer">ACCC country of origin guidance</a>{" "}
+    explains that origin claims must be accurate and based on reasonable grounds. For manufactured
+    goods, “made in” generally concerns where the last substantial transformation occurred; it does
+    not necessarily mean every component came from that country.
+  </p>
+  <p>
+    If a product carries the green-and-gold kangaroo certification mark, check the descriptor shown
+    with it. The <a href="https://australianmade.com.au/why-buy-australian-made/about-the-logo/" rel="noopener noreferrer">Australian Made Campaign</a>{" "}
+    explains the registered logo and its origin descriptors. A flag, map outline or vague “local”
+    wording is not the same evidence.
+  </p>
+
+  <h2>Let the recipient narrow the category</h2>
+  <p>
+    Begin with a routine you know rather than a general list of gift products. Someone who cooks
+    often may use a board, tea towel or serving piece. A person who enjoys a slow morning may value
+    a mug or small textile. A gardener may prefer a durable hand tool or pot made for the conditions
+    at their home.
+  </p>
+  <p>
+    Avoid categories that create guesswork. Scent, skincare, fitted linen, clothing sizes and
+    highly decorative objects depend on personal preferences you may not know. Food also brings
+    ingredient, allergy, storage and delivery considerations.
+  </p>
+
+  <h2>Home gifts should earn their storage space</h2>
+  <p>
+    Small homes do not need another item that exists only when guests visit. Check dimensions,
+    weight and care instructions. A serving board that does not fit the kitchen cupboard or a vase
+    that requires hand washing may become work rather than a gift.
+  </p>
+  <p>
+    Consumables can reduce long-term storage, while a durable object may suit someone who has
+    mentioned that exact need. Neither is universally better. The useful distinction is whether
+    the item has a clear place in the recipient's life.
+  </p>
+
+  <h2>Keep the price comparison honest</h2>
+  <ul>
+    <li>Check the current product price rather than relying on a previous promotion.</li>
+    <li>Add delivery, wrapping and any required accessories to the total.</li>
+    <li>Read dispatch estimates and the delivery policy before choosing for a fixed date.</li>
+    <li>Check return and exchange terms, especially for personalised goods.</li>
+    <li>Confirm the origin claim on the exact product, not only the brand's general story.</li>
+  </ul>
+
+  <h2>Gift categories that can work under $100</h2>
+  <p>
+    Depending on the maker, size and delivery cost, the budget may suit a small ceramic piece,
+    tea towel, table linen, candle, serving utensil, gardening accessory, print, pantry item or
+    compact personal accessory. This is a category guide rather than a fixed product list because
+    prices, stock and origin details change.
+  </p>
+  <p>
+    Check every candidate on the day of purchase. A product should not remain in an “Australian
+    made under $100” list after its claim, price or availability has changed.
+  </p>
+
+  <h2>A final five-question check</h2>
+  <ol>
+    <li>Is the Australian made claim specific and supported for this exact item?</li>
+    <li>Does the delivered total remain below $100?</li>
+    <li>Does the gift suit a routine or preference you genuinely know?</li>
+    <li>Can the recipient store, use and care for it without difficulty?</li>
+    <li>Will it arrive in time, and are the return terms acceptable?</li>
+  </ol>
+  <p>
+    If one answer is uncertain, keep looking. The strongest gift is not the one with the most
+    patriotic packaging; it is the one whose origin and usefulness both hold up when checked.
+  </p>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
