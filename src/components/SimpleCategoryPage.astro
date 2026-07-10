@@ -46,10 +46,10 @@ const {
   focusIntro,
   guides = [],
   guideHeading = "Useful guides",
-  guideIntro = "Start with guides that help you plan the room before choosing storage or home products.",
+  guideIntro = "Choose the guide that matches the part of the room or routine you are working on.",
   secondaryGuides = [],
   secondaryGuideHeading = "More guides",
-  secondaryGuideIntro = "Broader guides that may help with related household routines.",
+  secondaryGuideIntro = "These guides cover nearby household routines that may be part of the same job.",
   compare,
   mistakes,
   productTypes,
@@ -144,7 +144,7 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
     <div class="container section-heading">
       <div>
         <p class="eyebrow">Category focus</p>
-        <h2>Plan around the real room</h2>
+        <h2>What matters in this part of the home</h2>
       </div>
       <p>{focusIntro}</p>
     </div>
@@ -159,14 +159,14 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
     <div class="container grid two">
       <div>
         <p class="eyebrow">Plan first</p>
-        <h2>What to compare before choosing</h2>
+        <h2>Questions worth asking</h2>
         <ul class="feature-list">
           {compare.map((item) => <li>{item}</li>)}
         </ul>
       </div>
       <div>
         <p class="eyebrow">Common mistakes</p>
-        <h2>Easy traps to avoid</h2>
+        <h2>Where plans often come unstuck</h2>
         <ul class="feature-list">
           {mistakes.map((item) => <li>{item}</li>)}
         </ul>
@@ -182,8 +182,8 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
           <h2>Explore nearby categories</h2>
         </div>
         <p>
-          Household routines often overlap, so nearby categories can help with the same
-          storage, cleaning or setup problem.
+          Rooms rarely work in isolation. These nearby categories may help with another
+          part of the same job.
         </p>
       </div>
       <div class="container grid two">
