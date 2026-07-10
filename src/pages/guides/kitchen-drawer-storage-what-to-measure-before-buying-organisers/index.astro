@@ -1,6 +1,38 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
+
+const productDecisions = [
+  {
+    name: "Fixed cutlery trays",
+    usefulFor: "Keeping a stable set of everyday cutlery in one drawer.",
+    measureFirst: "Internal drawer width, depth and height, including any curved sides or raised screw heads.",
+    checkBeforeBuying: "Compartment length, cleaning access and whether the tray leaves a useful strip of drawer space.",
+    avoidIf: "Long utensils must be forced into short compartments or the tray wastes much of an irregular drawer.",
+  },
+  {
+    name: "Expandable organisers",
+    usefulFor: "Using more of a standard drawer when the final width is known.",
+    measureFirst: "Drawer width at the base and top, plus the organiser's closed and fully expanded dimensions.",
+    checkBeforeBuying: "Whether the expanded sections stay stable and whether the drawer still closes at its narrowest point.",
+    avoidIf: "Expansion covers useful compartments, creates hard-to-clean gaps or relies on pressure against delicate sides.",
+  },
+  {
+    name: "Adjustable dividers",
+    usefulFor: "Separating larger utensils, wraps or lunchbox parts whose sizes do not suit fixed trays.",
+    measureFirst: "Drawer depth and height, item length and the space needed to lift each item out.",
+    checkBeforeBuying: "How the divider is held in place and whether its ends suit the drawer surface.",
+    avoidIf: "The drawer contains too many unrelated items or the dividers will shift whenever a heavy utensil is returned.",
+  },
+  {
+    name: "Small removable trays",
+    usefulFor: "Grouping clips, measuring spoons or other small items inside a broader drawer zone.",
+    measureFirst: "The remaining space after everyday tools are laid out and the height of the smallest loose items.",
+    checkBeforeBuying: "Whether each tray has one clear job and can be removed for cleaning.",
+    avoidIf: "Several tiny trays would make the drawer more fragmented or conceal duplicates that should be removed.",
+  },
+];
 
 const relatedGuides = [
   {
@@ -420,6 +452,12 @@ const relatedGuides = [
   <p>
     Sometimes the best drawer upgrade is simply giving the drawer one clear job.
   </p>
+
+  <ProductDecisionBlock
+    title="Drawer organiser types to compare"
+    intro="Choose the organiser style only after the drawer has one main job and the items have been laid out. Fit, compartment shape and cleaning matter more than the organiser's packaged dimensions."
+    items={productDecisions}
+  />
 
   <h2>Measurements to note</h2>
   <p>Before buying a kitchen drawer organiser, measure and check:</p>

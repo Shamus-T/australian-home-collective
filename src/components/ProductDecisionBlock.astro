@@ -1,0 +1,48 @@
+---
+export interface ProductDecision {
+  name: string;
+  usefulFor: string;
+  measureFirst: string;
+  checkBeforeBuying: string;
+  avoidIf: string;
+}
+
+interface Props {
+  title?: string;
+  intro: string;
+  items: ProductDecision[];
+}
+
+const {
+  title = "Product types to compare after you measure",
+  intro,
+  items,
+} = Astro.props;
+
+const sectionId = `product-decisions-${title
+  .toLowerCase()
+  .replace(/[^a-z0-9]+/g, "-")
+  .replace(/(^-|-$)/g, "")}`;
+---
+
+<section class="product-decision-block" aria-labelledby={sectionId}>
+  <h2 id={sectionId}>{title}</h2>
+  <p>{intro}</p>
+  <div class="product-decision-grid">
+    {items.map((item) => (
+      <article class="product-decision-card">
+        <h3>{item.name}</h3>
+        <dl>
+          <dt>May help with</dt>
+          <dd>{item.usefulFor}</dd>
+          <dt>Measure first</dt>
+          <dd>{item.measureFirst}</dd>
+          <dt>Check before buying</dt>
+          <dd>{item.checkBeforeBuying}</dd>
+          <dt>Avoid if</dt>
+          <dd>{item.avoidIf}</dd>
+        </dl>
+      </article>
+    ))}
+  </div>
+</section>

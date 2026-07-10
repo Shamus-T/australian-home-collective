@@ -778,6 +778,48 @@ h3 {
   font-size: 0.95rem;
 }
 
+.product-decision-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0 34px;
+}
+
+.product-decision-card {
+  border: 1px solid rgba(63, 77, 63, 0.16);
+  border-top: 4px solid var(--green);
+  border-radius: 8px;
+  background: linear-gradient(180deg, var(--paper), #fbf4e8);
+  box-shadow: var(--shadow-soft);
+  padding: 20px;
+}
+
+.product-decision-card h3 {
+  margin: 0 0 16px;
+  color: var(--color-eucalyptus);
+  font-size: 1.25rem;
+}
+
+.product-decision-card dl {
+  margin: 0;
+}
+
+.product-decision-card dt {
+  color: #6f570f;
+  font-weight: 800;
+}
+
+.product-decision-card dt:not(:first-child) {
+  margin-top: 13px;
+}
+
+.product-decision-card dd {
+  margin: 4px 0 0;
+  color: #3f463e;
+  font-size: 0.98rem;
+  line-height: 1.58;
+}
+
 .comparison-wrap {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -964,7 +1006,8 @@ h3 {
   .hero-grid,
   .grid.two,
   .grid.three,
-  .guide-library-grid {
+  .guide-library-grid,
+  .product-decision-grid {
     grid-template-columns: 1fr;
   }
 

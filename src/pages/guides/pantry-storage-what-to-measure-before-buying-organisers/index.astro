@@ -1,6 +1,38 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
+
+const productDecisions = [
+  {
+    name: "Shallow pantry baskets",
+    usefulFor: "Grouping packets used for one routine, such as breakfast, baking or lunchboxes.",
+    measureFirst: "Shelf depth and width, opening width and the height of the packets that need to stand inside.",
+    checkBeforeBuying: "Whether the basket can slide out past hinges and whether labels remain visible from the aisle.",
+    avoidIf: "The basket will hide expiry dates, hold unrelated food or occupy more depth than the packets need.",
+  },
+  {
+    name: "Shelf risers",
+    usefulFor: "Making shorter cans and jars visible at the back of a tall shelf.",
+    measureFirst: "Usable shelf height, riser width and the height of items on both levels.",
+    checkBeforeBuying: "Whether items can be lifted from the lower level without removing the front row.",
+    avoidIf: "The shelf is already low, the riser blocks tall staples or the back row will still be hard to reach.",
+  },
+  {
+    name: "Turntables",
+    usefulFor: "Keeping a small group of bottles or jars accessible in a deep corner.",
+    measureFirst: "The full rotating diameter, shelf depth and clearance around hinges and side walls.",
+    checkBeforeBuying: "Whether the regular bottles fit without catching and remain stable when the tray turns.",
+    avoidIf: "A rectangular shelf would lose too much usable space or tall bottles would be crowded together.",
+  },
+  {
+    name: "Decanted pantry containers",
+    usefulFor: "A limited group of dry staples the household reliably refills and labels.",
+    measureFirst: "Packet volume, container footprint, lid clearance and the shelf height available when stacked.",
+    checkBeforeBuying: "Food-contact directions, cleaning, label space and whether the original cooking information must be retained.",
+    avoidIf: "Original packaging already fits, refilling is unlikely or a matching set would create unused sizes.",
+  },
+];
 
 const relatedGuides = [
   {
@@ -386,6 +418,12 @@ const relatedGuides = [
     A pantry with fewer items and clearer zones may work better than a pantry full of new
     organisers.
   </p>
+
+  <ProductDecisionBlock
+    title="Pantry organiser types to compare"
+    intro="Compare an organiser only after one shelf has been sorted and measured. The useful option is the one that improves visibility or access without creating another decanting or cleaning job."
+    items={productDecisions}
+  />
 
   <h2>Measurements to write down</h2>
   <p>Before buying pantry organisers, measure and check:</p>
