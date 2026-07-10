@@ -1,10 +1,9 @@
-# Phase 2 merge audit
+# Phase 2 merge and coverage audit
 
-Updated 10 July 2026 after the Phase 1 editorial pass.
+Completed 10 July 2026 after the Phase 1 editorial pass.
 
-This audit compares the first two merge candidates without changing routes,
-deleting pages or adding redirects. A redirect and canonical decision should be
-approved before any route is retired.
+This audit records the canonical decisions, content merges, moved-page handoffs,
+coverage additions and final validation completed during Phase 2.
 
 ## Laundry
 
@@ -113,16 +112,14 @@ zone near the household entry, frequency-based placement and simpler sports and 
 resetting. Category cards, the guide index and related links point to the canonical route. The old
 ideas route remains available as a `noindex,follow` moved page and is removed from the sitemap.
 
-## Safe next implementation step
+## Implementation process
 
-1. Confirm these two canonical routes.
-2. Draft a content merge map section by section, keeping the canonical page's
-   strongest wording and removing repeated sections rather than concatenating
-   both articles.
-3. Update category cards, related-guide arrays and inline links together.
-4. Add redirects only through the site's approved hosting/configuration path.
-5. Build, inspect generated routes and check canonical/sitemap output before
-   publishing.
+1. Confirm the canonical route from article depth, intent and inbound links.
+2. Merge the strongest distinct material into the canonical article without
+   concatenating repeated sections.
+3. Update category cards, the guides index, related-guide arrays and inline links together.
+4. Keep the retiring route as a `noindex,follow` moved page with an immediate refresh link.
+5. Remove the retiring URL from the sitemap, build and validate generated output before publishing.
 
 ## Coverage expansion
 
@@ -137,10 +134,14 @@ The three category gaps identified in the Phase 1 triage are now covered with fo
 
 ## Implementation update
 
-The laundry, bathroom, nursery and garage recommendations have now been applied:
+The laundry, bathroom, nursery and garage recommendations have been applied:
 
-- Category cards, the guides index and related-guide links point to the two canonical routes.
-- The two retiring routes remain available as `noindex,follow` moved pages with immediate refresh
+- Category cards, the guides index and related-guide links point to the four canonical routes.
+- The four retiring routes remain available as `noindex,follow` moved pages with immediate refresh
   links, so existing bookmarks have a path to the canonical guide.
 - The canonical articles remain the source pages; no duplicate article content is maintained.
-- The Astro build and generated route list must be checked before this implementation is published.
+- The final Astro build produces 131 pages.
+- The generated-output audit checked 4,183 internal links with no broken targets.
+- The sitemap contains 112 unique canonical URLs with no missing pages, canonical mismatches,
+  `noindex` entries or duplicate canonical titles.
+- All four retired routes pass their sitemap exclusion, `noindex,follow` and canonical-target checks.
