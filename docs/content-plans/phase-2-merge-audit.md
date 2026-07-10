@@ -83,4 +83,12 @@ any redirect so the hub and related-guide blocks do not point at a retiring URL.
 5. Build, inspect generated routes and check canonical/sitemap output before
    publishing.
 
-No route or page has been changed by this audit.
+## Implementation update
+
+The laundry and bathroom recommendations have now been applied:
+
+- Category cards, the guides index and related-guide links point to the two canonical routes.
+- The two retiring routes remain available as `noindex,follow` moved pages with immediate refresh
+  links, so existing bookmarks have a path to the canonical guide.
+- The canonical articles remain the source pages; no duplicate article content is maintained.
+- The Astro build and generated route list must be checked before this implementation is published.
