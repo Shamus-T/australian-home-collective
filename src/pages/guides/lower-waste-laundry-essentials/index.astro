@@ -1,12 +1,176 @@
 ---
-import SimpleGuidePage from "../../../components/SimpleGuidePage.astro";
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  {
+    href: "/categories/laundry/",
+    title: "Laundry",
+    description: "Guides to washing, drying and making a small laundry work better.",
+  },
+  {
+    href: "/guides/laundry-essentials-australian-homes/",
+    title: "Laundry Essentials for Australian Homes",
+    description: "The equipment and routines that earn their place in a working laundry.",
+  },
+  {
+    href: "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+    title: "Drying Space That Works in Real Weather",
+    description: "Plan indoor and outdoor drying space before choosing an airer or rack.",
+  },
+  {
+    href: "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
+    title: "Cleaning Product Storage That Keeps Supplies Under Control",
+    description: "Sort bottles, refills and cleaning tools before adding another organiser.",
+  },
+];
 ---
 
-<SimpleGuidePage
-  title="Lower-waste Laundry Essentials"
-  description="A practical Australian guide to lower-waste laundry basics, including routines, storage, refills, durability and claim checks."
+<ArticleLayout
+  title="A Lower-Waste Laundry Routine"
+  description="A grounded guide to reducing laundry waste through careful dosing, sensible washing, line drying, durable equipment and realistic refill choices."
   category="Laundry"
-  intro="Lower-waste laundry choices only help if they still suit the way your household washes, dries and stores laundry products."
-  points={["Compare formats, refills, packaging, dosing and where the product will actually live.", "Check care labels and machine instructions before changing products or routines.", "Look for specific, supportable claims rather than broad environmental language.", "Think about pet bedding, baby clothing, work clothes and frequent towel washing separately."]}
-  related={[{ href: "/categories/laundry/", title: "Laundry", description: "More practical laundry guides." }, { href: "/guides/new-puppy-essentials/", title: "New Puppy Essentials", description: "Home setup notes for new puppy routines." }]}
-/>
+  date="Updated July 2026"
+  readingTime="6 minute read"
+  image="/images/laundry.webp"
+  imageAlt="Laundry baskets and washing supplies arranged in a compact Australian laundry"
+>
+  <p>
+    The least wasteful laundry purchase is often the one you do not need to make. Using the
+    detergent already in the cupboard, repairing a sound drying rack and washing clothes in a
+    way that helps them last can matter more than replacing everything with products carrying
+    greener-looking labels.
+  </p>
+  <p>
+    A better routine also has to survive a normal week. School uniforms, work clothes, pet
+    bedding, damp towels and sudden rain all place different demands on the laundry. Changes
+    that create extra mess or take too much time are unlikely to last.
+  </p>
+  <p>
+    Focus on the repeat decisions: how much product goes into each load, when the machine runs,
+    where clothes dry and what gets replaced. Those are the points where a household can cut
+    avoidable waste without turning washing day into a project.
+  </p>
+
+  <h2>Use what is already in the cupboard</h2>
+  <p>
+    Finish suitable detergent and stain products before changing formats. Disposing of a usable
+    product to buy a supposedly better one simply brings the replacement purchase forward.
+    Check the label first, particularly if the product has been stored for a long time or its
+    container is damaged.
+  </p>
+  <p>
+    Pull everything into view and note the duplicates. A half-used bottle at the back of the
+    tub is easy to forget. Keeping one active detergent and one backup, where the household
+    genuinely needs a backup, makes it easier to see what is on hand.
+  </p>
+
+  <h2>Measure detergent instead of pouring by eye</h2>
+  <p>
+    More detergent does not automatically mean cleaner clothes. Follow the product directions
+    and the washing-machine instructions, taking account of load size, water conditions and how
+    soiled the washing is. The correct amount varies, so a single rule for every household is
+    not helpful.
+  </p>
+  <p>
+    Keep the supplied scoop or use a clearly marked measure. If several people do the washing,
+    agree on where it lives and how the label directions are read. This is less glamorous than
+    decanting products into matching jars, but it reduces guesswork and keeps important
+    instructions close to the product.
+  </p>
+
+  <h2>Run loads that suit the machine</h2>
+  <p>
+    Combining tiny loads can reduce how often the machine runs, but overloading causes its own
+    problems. Clothes need enough room to move, and bulky towels or bedding may reach the
+    machine's limit before the drum looks full. Use the appliance guidance rather than forcing
+    everything into one cycle.
+  </p>
+  <p>
+    Separate loads when colour, hygiene, fabric care or heavy soiling calls for it. A
+    lower-waste routine should not override care labels or sensible washing practices. It should
+    remove unnecessary cycles, not necessary ones.
+  </p>
+
+  <h2>Choose the cycle from the washing, not a slogan</h2>
+  <p>
+    Cooler or shorter cycles can suit many ordinary loads, but the right setting depends on the
+    fabric, the soil level, the detergent and the machine. Read garment labels and the appliance
+    manual before changing an established routine. Workwear, illness-related washing, nappies
+    and pet items may need different treatment from lightly worn clothes.
+  </p>
+  <p>
+    If a favourite setting is being used for every load, check what the other cycles actually
+    do. A cycle that matches the contents is more useful than treating one program as the
+    responsible choice in every situation.
+  </p>
+
+  <h2>Make line drying the convenient option</h2>
+  <p>
+    Outdoor line drying works well when the weather, space and fabric allow it. The barrier is
+    often not the line itself but the trip between the machine, basket, pegs and backyard or
+    balcony. Keep pegs near the exit, use a basket that is comfortable to carry and leave the
+    line clear enough to use.
+  </p>
+  <p>
+    Indoor drying needs more care. Give damp washing room and airflow, avoid blocking exits or
+    heaters, and pay attention to condensation or musty smells. A rack that folds away into a
+    known spot is usually easier to live with than a large airer that stays in the walkway.
+  </p>
+
+  <h2>Help clothes and linen last</h2>
+  <p>
+    Deal with stains promptly, close fasteners that may catch, use mesh bags where the garment
+    calls for one and follow drying instructions. Small repairs can keep otherwise sound clothes,
+    towels and linen in use. A visible mending container is more likely to be acted on than a
+    large pile hidden in a cupboard.
+  </p>
+  <p>
+    Avoid buying a specialised laundry accessory for every fabric problem. Begin with the care
+    instructions and the equipment already available. Add something only when the same problem
+    keeps recurring and the product has a clear storage place.
+  </p>
+
+  <h2>Assess refills and concentrates on their details</h2>
+  <p>
+    Refills and concentrates may reduce the amount of packaging brought home, but formats differ.
+    Compare the quantity of usable product, dose per load, packaging, price and whether the
+    refill works with a container you already own. A format that spills, is hard to measure or
+    requires frequent special trips may not suit the household.
+  </p>
+  <p>
+    Broad words such as <em>eco</em>, <em>natural</em> or <em>green</em> do not explain a product's
+    full impact. Look for specific information that can be checked and read the use and safety
+    directions as carefully as you would for any other laundry product.
+  </p>
+
+  <h2>Replace equipment when it has stopped doing the job</h2>
+  <p>
+    A stable basket, peg bag, airer or ironing board can serve for years. Tighten accessible
+    fasteners, clean the item and see whether a small repair is sensible before replacing it.
+    Retire equipment that is unstable, has sharp damage or cannot be used safely.
+  </p>
+  <p>
+    When replacement is justified, look at the failure point. Strong handles matter if a basket
+    carries heavy towels. A rack needs a reliable folding mechanism if it is opened several times
+    a week. Buying for the real workload is more convincing than choosing from a list of
+    fashionable laundry essentials.
+  </p>
+
+  <h2>A routine worth keeping</h2>
+  <ul>
+    <li>Use suitable products already on hand before buying replacements.</li>
+    <li>Measure each dose according to the product and appliance directions.</li>
+    <li>Match the load and cycle to the washing rather than relying on one setting.</li>
+    <li>Keep the basket, pegs and drying space ready for use.</li>
+    <li>Repair clothes and sound equipment when it is reasonable to do so.</li>
+    <li>Compare refill and environmental claims using specific information.</li>
+  </ul>
+  <p>
+    The most credible lower-waste laundry is not a shelf of newly purchased products. It is a
+    routine that uses sensible amounts, looks after what the household owns and remains workable
+    when the washing pile is at its worst.
+  </p>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
