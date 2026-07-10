@@ -1,6 +1,38 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
+
+const productDecisions = [
+  {
+    name: "Open carry baskets",
+    usefulFor: "Moving one load between bedrooms, the washing machine and the drying area.",
+    measureFirst: "The basket footprint, handle width and the route through doors, hallways and around appliances.",
+    checkBeforeBuying: "Grip comfort, basket weight when full and whether the shape can be cleaned and stored easily.",
+    avoidIf: "The basket will become permanent floor storage or is too wide to carry through the normal route.",
+  },
+  {
+    name: "Collapsible baskets",
+    usefulFor: "Homes that need a carry basket but have very little space to store it empty.",
+    measureFirst: "Open capacity and dimensions, plus the folded thickness and intended storage gap.",
+    checkBeforeBuying: "How the sides lock open, whether folding areas trap lint and how the handles feel when loaded.",
+    avoidIf: "The basket will stay full most of the week or repeated folding adds effort without saving usable space.",
+  },
+  {
+    name: "Divided laundry sorters",
+    usefulFor: "Households that already separate repeat wash groups before laundry day.",
+    measureFirst: "The complete footprint and height, compartment capacity and clearance for lifting bags or opening lids.",
+    checkBeforeBuying: "Whether labels match the real routine and whether each section can be emptied without moving the whole unit.",
+    avoidIf: "The household does not sort in advance or one compartment will overflow while the others remain empty.",
+  },
+  {
+    name: "Rolling baskets or sorters",
+    usefulFor: "Moving heavier loads across one level where a clear, hard-floor route already exists.",
+    measureFirst: "Total width, wheel clearance and the route past thresholds, rugs, doors and appliance corners.",
+    checkBeforeBuying: "Whether wheels remain controlled when loading and whether the basket has a parking place outside the walkway.",
+    avoidIf: "The route includes stairs, uneven thresholds or soft flooring that makes carrying simpler than rolling.",
+  },
+];
 
 const relatedGuides = [
   {
@@ -385,6 +417,12 @@ const relatedGuides = [
     clearer routine.
   </p>
   <p>A new hamper will not fix a laundry system that no one uses.</p>
+
+  <ProductDecisionBlock
+    title="Laundry basket and sorter types to compare"
+    intro="Compare the basket against the whole trip from collection to washing, drying and putting away. Capacity matters, but so do carrying, parking the basket and whether the household will use the sorting system."
+    items={productDecisions}
+  />
 
   <h2>Test the trip before choosing</h2>
   <p>Before buying laundry hampers, baskets or sorters, check:</p>

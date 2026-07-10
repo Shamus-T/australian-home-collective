@@ -1,6 +1,38 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
+
+const productDecisions = [
+  {
+    name: "Folding winged airers",
+    usefulFor: "Mixed everyday loads that need a combination of long rails and smaller hanging spaces.",
+    measureFirst: "The full open width and depth, the height of raised wings and the storage size when folded.",
+    checkBeforeBuying: "Whether doors and machines remain accessible and whether the loaded frame stays stable on the intended floor.",
+    avoidIf: "The open airer would consume the only walkway or the folded frame has no realistic storage position.",
+  },
+  {
+    name: "Vertical or tower airers",
+    usefulFor: "Using height where floor width is limited and the household dries many smaller items.",
+    measureFirst: "The full footprint, total height, shelf spacing and clearance from cupboards or door swings.",
+    checkBeforeBuying: "Whether garments can hang without crowding and whether every level can be loaded without awkward reaching.",
+    avoidIf: "Long items will overlap several levels, airflow is restricted or the tall frame would be unstable in the chosen spot.",
+  },
+  {
+    name: "Flat drying racks",
+    usefulFor: "A small number of items that are intended to dry flat rather than hang from rails.",
+    measureFirst: "The rack surface, supporting footprint and the thickness of the folded rack.",
+    checkBeforeBuying: "Where drips will go, how air can move around the item and whether the rack can be cleaned and stored.",
+    avoidIf: "The household rarely dries items flat or the rack would occupy a bench, bath or floor needed for another routine.",
+  },
+  {
+    name: "Peg hangers for small items",
+    usefulFor: "Keeping socks and other small pieces together while freeing longer rails for larger garments.",
+    measureFirst: "The hanger width and hanging height, including the longest item clipped underneath.",
+    checkBeforeBuying: "Clip spacing, total loaded weight and whether the hanger can sit where air circulates without dripping onto unsuitable surfaces.",
+    avoidIf: "The hanger will crowd a doorway, overload one rail or create more handling than placing small items directly on the airer.",
+  },
+];
 
 const relatedGuides = [
   {
@@ -385,6 +417,12 @@ const relatedGuides = [
     Sometimes the answer is not a bigger rack. It may be better spacing, better airflow,
     fewer wet items at once, or a more practical drying location.
   </p>
+
+  <ProductDecisionBlock
+    title="Portable drying products to compare"
+    intro="Use a real wet-weather load and the fully open dimensions when comparing portable drying products. Heated products and fixed wall systems need separate electrical, installation and manufacturer checks and are not covered by this comparison."
+    items={productDecisions}
+  />
 
   <h2>Picture a wet-weather load in the space</h2>
   <p>Before buying a laundry drying rack or airer, check:</p>
