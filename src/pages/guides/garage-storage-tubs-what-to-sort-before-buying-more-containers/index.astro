@@ -1,6 +1,38 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
+
+const productDecisions = [
+  {
+    name: "Clear lidded boxes",
+    usefulFor: "Light, dry categories that need visual identification before a box is pulled from the shelf.",
+    measureFirst: "Shelf depth and height, box width and the extra clearance needed to remove the lid.",
+    checkBeforeBuying: "Loaded weight, handle access, label position and whether the plastic suits the garage conditions.",
+    avoidIf: "Sun or heat exposure is unsuitable, the contents are sensitive or visibility will replace proper labels.",
+  },
+  {
+    name: "Opaque lidded tubs",
+    usefulFor: "Clearly labelled seasonal groups that do not need to be seen every week.",
+    measureFirst: "External tub and lid dimensions, shelf clearance and the weight of the full category.",
+    checkBeforeBuying: "Whether lids close without forcing, labels face the aisle and the tub can be lifted from its planned height.",
+    avoidIf: "The label will be vague, several unrelated categories will be mixed or the full tub will be too heavy.",
+  },
+  {
+    name: "Open bins",
+    usefulFor: "Frequently returned items such as balls, shoes or light outdoor gear that should not require opening a lid.",
+    measureFirst: "The largest item, bin opening and the floor or shelf area available without narrowing access.",
+    checkBeforeBuying: "Whether contents need airflow, whether dust is acceptable and whether the bin is easy to empty and clean.",
+    avoidIf: "The items need protection from dust, moisture or pests, or the bin will become a mixed dumping zone.",
+  },
+  {
+    name: "Small-parts cases",
+    usefulFor: "Keeping a defined set of light fittings, fasteners or hobby parts separated inside a larger storage zone.",
+    measureFirst: "The largest part, compartment depth and the shelf or drawer where the closed case will live.",
+    checkBeforeBuying: "Latch operation, label space and whether compartments remain separated when the case is carried.",
+    avoidIf: "The contents are heavy, sharp, hazardous or too varied for the compartment sizes.",
+  },
+];
 
 const relatedGuides = [
   {
@@ -569,6 +601,12 @@ const relatedGuides = [
     Take these notes before shopping. They will usually prevent buying the wrong container
     size or too many containers.
   </p>
+
+  <ProductDecisionBlock
+    title="Garage container types to compare"
+    intro="Choose a container only after deciding whether the category needs visibility, a lid, airflow or smaller compartments. Hazardous products, fuels, batteries and chemicals are outside this ordinary container comparison and must follow their labels and specific storage guidance."
+    items={productDecisions}
+  />
 
   <h2>A container is only useful when its contents return</h2>
   <p>

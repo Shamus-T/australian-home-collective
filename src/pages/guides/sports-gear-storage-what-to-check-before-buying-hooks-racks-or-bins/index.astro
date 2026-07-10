@@ -1,6 +1,38 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
+
+const productDecisions = [
+  {
+    name: "Open floor bins",
+    usefulFor: "Balls and light everyday gear that several household members need to return quickly.",
+    measureFirst: "The largest ball or item, bin opening and the floor area outside car doors and walking routes.",
+    checkBeforeBuying: "Whether users can reach the bottom and whether the bin can be emptied and cleaned after dirty gear.",
+    avoidIf: "Wet equipment will be trapped, small accessories will disappear underneath or the bin will block access.",
+  },
+  {
+    name: "Ventilated baskets or mesh bags",
+    usefulFor: "A limited group of light gear that may return damp and needs to remain visible.",
+    measureFirst: "The full bag or basket dimensions and the space needed around it for air movement.",
+    checkBeforeBuying: "Loaded weight, handle strength and where sand, grass or drips will collect.",
+    avoidIf: "The gear is heavy, sharp or likely to damage the mesh, or the storage position has poor airflow.",
+  },
+  {
+    name: "Freestanding ball racks",
+    usefulFor: "Separating several regularly used balls without a deep mixed bin.",
+    measureFirst: "Ball diameters, rack footprint and clearance needed to remove a ball from each level.",
+    checkBeforeBuying: "Stability on the intended floor and whether the rack protrudes into the vehicle or walking zone.",
+    avoidIf: "The household owns only a few balls or the rack creates more floor obstruction than an existing basket.",
+  },
+  {
+    name: "Small accessory trays",
+    usefulFor: "Pairing pumps, guards, goggles, tape or other small items with one sport or routine.",
+    measureFirst: "The grouped items, tray dimensions and the shelf height available above them.",
+    checkBeforeBuying: "Whether the tray has one clear label and can be carried to the packing area.",
+    avoidIf: "It will mix accessories from several sports or be placed where children cannot return their own gear.",
+  },
+];
 
 const relatedGuides = [
   {
@@ -544,6 +576,12 @@ const relatedGuides = [
     Take these notes before shopping. Sports gear varies too much to choose storage by
     appearance alone.
   </p>
+
+  <ProductDecisionBlock
+    title="Freestanding sports-storage types to compare"
+    intro="Start with freestanding options that suit the real gear and reset routine. Wall hooks, rails and ceiling systems need separate checks for fixing, loads and installation and are not covered by this comparison."
+    items={productDecisions}
+  />
 
   <h2>The easiest system to reset usually wins</h2>
   <p>

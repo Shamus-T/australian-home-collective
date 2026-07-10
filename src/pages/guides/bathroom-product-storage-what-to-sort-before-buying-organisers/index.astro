@@ -1,6 +1,38 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
+
+const productDecisions = [
+  {
+    name: "Daily-use trays",
+    usefulFor: "Keeping a small morning or evening routine together in a drawer or dry cabinet area.",
+    measureFirst: "The tray footprint, product heights and the clearance needed to lift each item out.",
+    checkBeforeBuying: "Whether the tray can be removed for cleaning and whether every item genuinely belongs in the daily group.",
+    avoidIf: "The tray will sit in a wet splash zone or become a place for products used only occasionally.",
+  },
+  {
+    name: "Open backup baskets",
+    usefulFor: "Grouping unopened replacement toiletries so the household can see what is already available.",
+    measureFirst: "Shelf depth, opening width and the height of the largest package kept as a backup.",
+    checkBeforeBuying: "Label visibility, loaded weight and whether the basket remains separate from cleaning products.",
+    avoidIf: "The bathroom is being used for bulk stock that would stay drier and clearer elsewhere.",
+  },
+  {
+    name: "Tall bottle bins",
+    usefulFor: "Keeping a limited group of upright bottles together on a deep cabinet shelf.",
+    measureFirst: "Bottle height and width, bin depth and clearance above the tallest pump or cap.",
+    checkBeforeBuying: "Whether bottles remain upright and whether spills can be seen and cleaned promptly.",
+    avoidIf: "The bin would conceal expiry dates, leaks or products behind several rows.",
+  },
+  {
+    name: "Divided drawer inserts",
+    usefulFor: "Separating small grooming items that otherwise roll or mix together.",
+    measureFirst: "Internal drawer dimensions and the length, height and quantity of the items being separated.",
+    checkBeforeBuying: "Compartment size, cleaning access and whether items can be returned without rearranging neighbours.",
+    avoidIf: "The insert is being used for medicines, blades or other items that require more controlled access.",
+  },
+];
 
 const relatedGuides = [
   {
@@ -399,6 +431,12 @@ const relatedGuides = [
     If the answer is unclear, sort and measure first. Buying organisers before sorting
     usually just makes clutter look tidier for a short time.
   </p>
+
+  <ProductDecisionBlock
+    title="Bathroom product organiser types to compare"
+    intro="The active collection should stay visible and easy to clean around. Compare organisers for ordinary toiletries only after expiry, backup quantities and items that should be stored elsewhere have been resolved."
+    items={productDecisions}
+  />
 
   <h2>Keep the active collection visible</h2>
   <p>

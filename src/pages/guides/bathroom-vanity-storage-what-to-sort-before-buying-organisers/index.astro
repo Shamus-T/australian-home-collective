@@ -1,6 +1,38 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
+
+const productDecisions = [
+  {
+    name: "Shallow drawer trays",
+    usefulFor: "Keeping a small daily routine visible without stacking products on top of each other.",
+    measureFirst: "Internal drawer width, depth and height, plus the tallest item intended for each tray.",
+    checkBeforeBuying: "Whether trays can be lifted out for cleaning and leave enough finger space to remove products.",
+    avoidIf: "The drawer still contains expired products, duplicates or tall bottles that prevent it closing.",
+  },
+  {
+    name: "Adjustable drawer dividers",
+    usefulFor: "Separating broader groups such as skincare, grooming and spare items in a wide drawer.",
+    measureFirst: "Drawer width and height at the divider position and the length of the products in each zone.",
+    checkBeforeBuying: "How the divider stays in place and whether its ends suit the vanity surface.",
+    avoidIf: "Several small categories would create more shuffling or the divider would press against delicate drawer sides.",
+  },
+  {
+    name: "Handled cabinet baskets",
+    usefulFor: "Grouping backup toiletries on a shelf where the whole group needs to pull forward.",
+    measureFirst: "Shelf depth, opening width, bottle height and clearance around hinges or plumbing.",
+    checkBeforeBuying: "Whether the loaded basket remains easy to lift and whether labels can be read without emptying it.",
+    avoidIf: "The basket would hide leaks, block pipe access or become too heavy when filled with large bottles.",
+  },
+  {
+    name: "Small benchtop trays",
+    usefulFor: "Containing the few products used every day while keeping the rest of the vanity clear.",
+    measureFirst: "The usable benchtop area after allowing for taps, basins, doors and normal cleaning.",
+    checkBeforeBuying: "Whether the tray and the surface underneath can be wiped and dried easily.",
+    avoidIf: "It will become a holding area for backups, medicines, sharp items or products rarely used at the basin.",
+  },
+];
 
 const relatedGuides = [
   {
@@ -640,6 +672,12 @@ const relatedGuides = [
     Take these notes before choosing anything. Vanity storage usually fails when the products are not
     sorted first.
   </p>
+
+  <ProductDecisionBlock
+    title="Vanity organiser types to compare"
+    intro="Compare organisers only after expired products and duplicates are removed. Medicines, sharp items, electrical tools and cleaning products need their own controlled storage decisions rather than an ordinary vanity organiser."
+    items={productDecisions}
+  />
 
   <h2>Keep the quickest routine closest</h2>
   <p>
