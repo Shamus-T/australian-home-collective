@@ -1,20 +1,181 @@
 ---
-import SimpleGuidePage from "../../../components/SimpleGuidePage.astro";
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  {
+    href: "/categories/pets/",
+    title: "Pets",
+    description: "Guides to feeding, cleaning, travel and setting up the home for animals.",
+  },
+  {
+    href: "/guides/pet-feeding-station-ideas-for-australian-homes/",
+    title: "Pet Feeding Station Ideas for Australian Homes",
+    description: "Plan bowls, water, spills and cleaning around the individual animal.",
+  },
+  {
+    href: "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+    title: "Pet Gates and Barriers That Suit the Opening and the Animal",
+    description: "Measure the opening and consider the animal before choosing a barrier.",
+  },
+  {
+    href: "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+    title: "Pet Travel Essentials for Cars, Vet Visits and Short Trips",
+    description: "Prepare suitable travel gear for veterinary visits and ordinary outings.",
+  },
+];
 ---
 
-<SimpleGuidePage
-  title="New Puppy Essentials"
-  description="A practical Australian guide to preparing your home for a new puppy, including sleep, feeding, cleaning, storage and first-week routines."
+<ArticleLayout
+  title="New Puppy Essentials for the First Weeks at Home"
+  description="Prepare for a new puppy with a safe resting area, veterinary plan, familiar food, cleaning kit and calm first-week routine."
   category="Pets"
-  intro="A new puppy changes the rhythm of a home quickly. Start with a calm setup for sleeping, feeding, cleaning and safe supervision, then adjust as you learn the puppy's routine."
-  points={["Prepare a washable sleep area and keep bedding simple.", "Set up food, water, cleaning supplies and storage before the first night.", "Plan for frequent laundry, accidents and outdoor trips.", "Check sizing and suitability for collars, harnesses, crates, gates and toys.", "Ask your vet or trainer for advice where health, behaviour or safety questions are specific to your puppy."]}
-  related={[
-    { href: "/categories/pets/", title: "Pets", description: "More pet guides for Australian homes." },
-    { href: "/guides/pet-food-storage-what-to-check-before-buying-containers/", title: "Pet Food Storage That Keeps Feeding Areas Cleaner", description: "Plan food, treats, bowls and feeding areas before buying storage." },
-    { href: "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/", title: "Pet Cleaning Supplies That Help With Hair, Mud and Odour", description: "Plan cleaning supplies around hair, mud, odour, bedding and everyday mess." },
-    { href: "/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/", title: "Rental-Friendly Pet Setup That Protects the Home", description: "Plan removable, washable pet gear around floors, doors, odour and inspections." },
-    { href: "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/", title: "Pet Travel Essentials for Cars, Vet Visits and Short Trips", description: "Plan short car trips, vet visits, carriers, restraints, towels and cleaning." },
-    { href: "/categories/laundry/", title: "Laundry", description: "Practical laundry guides for frequent household washing." },
-    { href: "/guides/lower-waste-laundry-essentials/", title: "A Lower-Waste Laundry Routine", description: "Useful laundry context for busy households." },
-  ]}
-/>
+  date="Updated July 2026"
+  readingTime="7 minute read"
+  image="/images/pet.webp"
+  imageAlt="A new puppy resting in a calm living area with washable bedding and a water bowl"
+>
+  <p>
+    The first week with a puppy is less about having every product and more about making the next
+    few hours predictable. The puppy needs a safe place to rest, clean water, suitable food,
+    supervised toilet opportunities and people who know what happens when the puppy wakes, cries,
+    chews or has an accident.
+  </p>
+  <p>
+    Prepare those routines before bringing the puppy home. Keep the initial area modest and easy
+    to supervise, then expand access as the household learns the puppy's behaviour. A room full of
+    beds, toys and organisers cannot replace time, veterinary care and patient reward-based
+    training.
+  </p>
+
+  <h2>Book veterinary care before the first week fills up</h2>
+  <p>
+    Arrange a veterinary appointment and bring the health, vaccination, microchip and feeding
+    information supplied by the breeder, rescue or previous carer. The veterinarian can advise on
+    nutrition, vaccination, parasite control, desexing, identification and any health concerns for
+    the individual puppy.
+  </p>
+  <p>
+    Registration and identification requirements vary by state, territory and local council.
+    Check the rules where the puppy lives and make sure contact details associated with the
+    microchip are current. Do not rely on a collar tag as the only form of identification.
+  </p>
+
+  <h2>Create one calm, supervised home base</h2>
+  <p>
+    Choose an area away from household hazards and constant foot traffic but close enough that the
+    puppy is not simply isolated. Check cords, medicines, cleaning products, plants, dropped food,
+    children's toys and small objects that could be reached or chewed. Secure bins and make sure
+    doors, gates and balcony access are managed.
+  </p>
+  <p>
+    A pen, gate or crate may form part of the setup when it suits the puppy and is introduced and
+    used appropriately. Follow the product instructions and seek guidance from a veterinarian or
+    qualified reward-based trainer rather than treating confinement as a way to avoid supervision.
+  </p>
+
+  <h2>Give sleep a simple, washable place</h2>
+  <p>
+    Puppies sleep frequently. Use bedding that is dry, comfortable, easy to access and suited to
+    the temperature of the room. A washable cover and a second basic layer for laundry day are
+    generally more manageable than several decorative beds bought before the puppy's sleeping
+    habits are known.
+  </p>
+  <p>
+    Place the bed where the puppy can settle without blocking a walkway. Watch for chewing and
+    inspect bedding for damage. Ask the veterinarian about bedding if mobility, temperature,
+    allergy or another health issue affects the puppy.
+  </p>
+
+  <h2>Keep the first food familiar</h2>
+  <p>
+    Find out what and how the puppy has been eating and keep that information with the food. Sudden
+    dietary changes may not suit the puppy, so discuss any transition with the veterinarian and
+    follow the food directions for life stage, storage and feeding.
+  </p>
+  <p>
+    Provide constant access to clean fresh water in a stable bowl made from a suitable material.
+    Put bowls on a surface that can be cleaned and check how far water and food travel during an
+    actual meal before buying a large feeding station.
+  </p>
+
+  <h2>Prepare for accidents without building a cleaning warehouse</h2>
+  <p>
+    Keep a small cleaning kit where accidents are most likely. Include washable cloths or paper,
+    bags and a product suitable for the surface, used according to its label. Store cleaning
+    products where the puppy and children cannot reach them.
+  </p>
+  <p>
+    Protecting every floor with loose mats can introduce chewing, slipping or trapped moisture.
+    Begin with the feeding, sleeping and entry zones, then respond to the mess that actually
+    occurs.
+  </p>
+
+  <h2>Plan the toilet route</h2>
+  <p>
+    Decide who takes the puppy to the appropriate toilet area after waking, eating, drinking and
+    play, and how that route works at night or in bad weather. Apartment and rental households may
+    need extra planning around lifts, shared areas, balconies and property rules.
+  </p>
+  <p>
+    Keep the routine calm and use reward-based guidance. If toileting changes suddenly, seems
+    painful or remains concerning, speak with the veterinarian rather than assuming it is simply a
+    training problem.
+  </p>
+
+  <h2>Choose a few toys for different jobs</h2>
+  <p>
+    Begin with a small selection suited to the puppy's size and stage: something for supervised
+    play, an appropriate item for chewing and a simple enrichment activity. Inspect toys often and
+    remove damaged items. No toy is indestructible, and supervision still matters.
+  </p>
+  <p>
+    Rotate the selection instead of leaving everything out. This keeps the floor clearer and makes
+    it easier to notice which materials, shapes and activities the puppy actually uses.
+  </p>
+
+  <h2>Fit walking and travel gear to the puppy now</h2>
+  <p>
+    Collars, harnesses, carriers and restraints need to fit the puppy at its current size and be
+    checked as the puppy grows. Follow product and vehicle instructions and seek qualified advice
+    if fit or use is uncertain. Buying a much larger item for the puppy to grow into can compromise
+    the fit now.
+  </p>
+  <p>
+    Prepare the carrier or vehicle setup before the first veterinary trip. A towel, waste bags and
+    a small clean-up kit are often more useful than a bag of travel accessories intended for long
+    holidays.
+  </p>
+
+  <h2>Socialisation is not forced exposure</h2>
+  <p>
+    Puppies benefit from carefully managed, positive experiences, but the balance between disease
+    risk and socialisation depends on the individual puppy and local circumstances. Discuss the
+    plan and vaccination status with the veterinarian. Do not force the puppy towards people,
+    animals, sounds or places when it is fearful or overwhelmed.
+  </p>
+  <p>
+    The <a href="https://www.ava.com.au/policy/puppy-and-kitten-socialisation-and-habituation/" rel="noopener noreferrer">Australian Veterinary Association</a>{" "}
+    explains the role of positive early experiences and veterinary guidance. The{" "}
+    <a href="https://kb.rspca.org.au/categories/companion-animals/dogs/puppies/what-should-i-do-when-i-bring-home-a-new-puppy" rel="noopener noreferrer">RSPCA Knowledgebase</a>{" "}
+    also covers safe living space, nutrition, water, training, identification and preventive
+    health care.
+  </p>
+
+  <h2>What should be ready on day one</h2>
+  <ul>
+    <li>a veterinary appointment and the puppy's existing records</li>
+    <li>a checked home base with comfortable washable bedding</li>
+    <li>the familiar food, feeding information and a stable water bowl</li>
+    <li>a planned toilet route and people responsible for it</li>
+    <li>a small labelled cleaning kit stored out of reach</li>
+    <li>a few size-appropriate toys inspected before use</li>
+    <li>suitably fitted identification and travel equipment</li>
+  </ul>
+  <p>
+    Wait on duplicate beds, elaborate feeding furniture and a cupboard of specialised products.
+    The first weeks will show what the puppy, veterinarian and household routine genuinely require.
+  </p>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
