@@ -7,6 +7,8 @@ interface Props {
   description: string;
   canonicalPath?: string;
   image?: string;
+  imageAlt?: string;
+  ogType?: "website" | "article";
   robots?: string;
   refreshPath?: string;
 }
@@ -15,7 +17,9 @@ const {
   title,
   description,
   canonicalPath,
-  image = "/images/social-sharing.png?v=2",
+  image = "/images/social-sharing.png?v=3",
+  imageAlt = "Australian Home Collective - practical guidance before you buy",
+  ogType = "website",
   robots,
   refreshPath,
 } = Astro.props;
@@ -26,6 +30,9 @@ const pagePath = canonicalPath ?? Astro.url.pathname;
 const canonicalUrl = new URL(pagePath, siteUrl).toString();
 const ogImageUrl = new URL(image, siteUrl).toString();
 const refreshUrl = refreshPath ? new URL(refreshPath, siteUrl).toString() : undefined;
+const imageExtension = new URL(ogImageUrl).pathname.toLowerCase();
+const ogImageType = imageExtension.endsWith(".jpg") || imageExtension.endsWith(".jpeg")
+  ? "image/jpeg" : "image/png";
 ---
 
 <!doctype html>
@@ -42,18 +49,18 @@ const refreshUrl = refreshPath ? new URL(refreshPath, siteUrl).toString() : unde
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImageUrl} />
     <meta property="og:image:secure_url" content={ogImageUrl} />
-    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:type" content={ogImageType} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Australian Home Collective" />
+    <meta property="og:image:alt" content={imageAlt} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:site_name" content={siteTitle} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
-    <meta name="twitter:image:alt" content="Australian Home Collective" />
+    <meta name="twitter:image:alt" content={imageAlt} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

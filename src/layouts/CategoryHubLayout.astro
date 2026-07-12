@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import { getCategorySocialImage } from "../data/socialImages";
 
 interface Props {
   title: string;
@@ -8,6 +9,8 @@ interface Props {
   image?: string;
   imageAlt?: string;
   imagePosition?: string;
+  socialImage?: string;
+  socialImageAlt?: string;
 }
 
 const {
@@ -17,10 +20,17 @@ const {
   image = "/images/living-room.webp",
   imageAlt = "A warm, tidy Australian home interior",
   imagePosition = "center",
+  socialImage,
+  socialImageAlt,
 } = Astro.props;
+
+const categorySocialImage = getCategorySocialImage(title);
+const resolvedSocialImage = socialImage ?? categorySocialImage.src;
+const resolvedSocialImageAlt = socialImageAlt
+  ?? (socialImage ? `${title} guides - Australian Home Collective` : categorySocialImage.alt);
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt}>
   <header class="category-header image-header">
     <img
       class="header-image"

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import AffiliateDisclosureBlock from "../components/AffiliateDisclosureBlock.astro";
+import { getCategorySocialImage } from "../data/socialImages";
 
 interface Props {
   title: string;
@@ -12,6 +13,8 @@ interface Props {
   showDisclosure?: boolean;
   image?: string;
   imageAlt?: string;
+  socialImage?: string;
+  socialImageAlt?: string;
   imagePosition?: string;
 }
 
@@ -25,13 +28,19 @@ const {
   showDisclosure,
   image,
   imageAlt = "",
+  socialImage,
+  socialImageAlt,
   imagePosition = "center",
 } = Astro.props;
 
 const shouldShowDisclosure = showAffiliateDisclosure ?? showDisclosure ?? false;
+const categorySocialImage = getCategorySocialImage(category);
+const resolvedSocialImage = socialImage ?? categorySocialImage.src;
+const resolvedSocialImageAlt = socialImageAlt
+  ?? (socialImage ? `${title} - Australian Home Collective` : categorySocialImage.alt);
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt} ogType="article">
   <header class:list={["article-header", image && "image-header"]}>
     {image && (
       <img
