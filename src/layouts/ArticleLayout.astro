@@ -5,6 +5,7 @@ import { getCategorySocialImage } from "../data/socialImages";
 
 interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
   category: string;
   date: string;
@@ -20,6 +21,7 @@ interface Props {
 
 const {
   title,
+  seoTitle,
   description,
   category,
   date,
@@ -40,7 +42,7 @@ const resolvedSocialImageAlt = socialImageAlt
   ?? (socialImage ? `${title} - Australian Home Collective` : categorySocialImage.alt);
 ---
 
-<BaseLayout title={title} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt} ogType="article">
+<BaseLayout title={seoTitle ?? title} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt} ogType="article">
   <header class:list={["article-header", image && "image-header"]}>
     {image && (
       <img
