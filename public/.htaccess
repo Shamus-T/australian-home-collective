@@ -7,6 +7,8 @@ RewriteRule ^ https://australianhomecollective.com.au%{REQUEST_URI} [R=301,L,NE]
 
 RedirectMatch 301 ^/categories/nursery-baby/?$ /categories/nursery-kids/
 
+RedirectMatch 301 ^/guides/laundry-organisation-ideas-that-save-space/?$ /guides/laundry-storage-what-to-measure-and-check-before-you-buy/
+
 RedirectMatch 301 ^/collections/nursery-kids/?$ /categories/nursery-kids/
 RedirectMatch 301 ^/collections/kitchen/?$ /categories/kitchen/
 RedirectMatch 301 ^/collections/pet/?$ /categories/pets/
