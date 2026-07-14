@@ -4,6 +4,7 @@ import Footer from "../components/Footer.astro";
 
 interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
   canonicalPath?: string;
   image?: string;
@@ -15,6 +16,7 @@ interface Props {
 
 const {
   title,
+  seoTitle,
   description,
   canonicalPath,
   image = "/images/social-sharing.png?v=3",
@@ -24,7 +26,7 @@ const {
   refreshPath,
 } = Astro.props;
 const siteTitle = "Australian Home Collective";
-const pageTitle = title === siteTitle ? title : `${title} | ${siteTitle}`;
+const pageTitle = seoTitle ?? (title === siteTitle ? title : `${title} | ${siteTitle}`);
 const siteUrl = "https://australianhomecollective.com.au";
 const pagePath = canonicalPath ?? Astro.url.pathname;
 const canonicalUrl = new URL(pagePath, siteUrl).toString();

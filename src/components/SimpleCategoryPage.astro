@@ -7,6 +7,7 @@ import FAQBlock from "./FAQBlock.astro";
 interface LinkItem {
   href: string;
   title: string;
+  seoTitle?: string;
   description: string;
 }
 
@@ -41,6 +42,7 @@ interface Props {
 
 const {
   title,
+  seoTitle,
   description,
   intro,
   focusIntro,
@@ -105,7 +107,7 @@ const categoryImages: Record<string, { image: string; alt: string }> = {
 const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
 ---
 
-<CategoryHubLayout title={title} description={description} intro={intro} image={selectedImage.image} imageAlt={selectedImage.alt}>
+<CategoryHubLayout title={title} seoTitle={seoTitle} description={description} intro={intro} image={selectedImage.image} imageAlt={selectedImage.alt}>
   {guides.length > 0 && (
     <section class="section">
       <div class="container section-heading">

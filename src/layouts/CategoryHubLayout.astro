@@ -4,6 +4,7 @@ import { getCategorySocialImage } from "../data/socialImages";
 
 interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
   intro: string;
   image?: string;
@@ -15,6 +16,7 @@ interface Props {
 
 const {
   title,
+  seoTitle,
   description,
   intro,
   image = "/images/living-room.webp",
@@ -30,7 +32,7 @@ const resolvedSocialImageAlt = socialImageAlt
   ?? (socialImage ? `${title} guides - Australian Home Collective` : categorySocialImage.alt);
 ---
 
-<BaseLayout title={title} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt}>
+<BaseLayout title={title} seoTitle={seoTitle} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt}>
   <header class="category-header image-header">
     <img
       class="header-image"
