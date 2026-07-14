@@ -42,7 +42,7 @@ const resolvedSocialImageAlt = socialImageAlt
   ?? (socialImage ? `${title} - Australian Home Collective` : categorySocialImage.alt);
 ---
 
-<BaseLayout title={seoTitle ?? title} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt} ogType="article">
+<BaseLayout title={title} seoTitle={seoTitle} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt} ogType="article">
   <header class:list={["article-header", image && "image-header"]}>
     {image && (
       <img

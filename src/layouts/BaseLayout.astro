@@ -26,7 +26,12 @@ const {
   refreshPath,
 } = Astro.props;
 const siteTitle = "Australian Home Collective";
-const pageTitle = seoTitle ?? (title === siteTitle ? title : `${title} | ${siteTitle}`);
+const brandedPageTitle = `${title} | ${siteTitle}`;
+const pageTitle = seoTitle ?? (
+  title === siteTitle || brandedPageTitle.length > 60
+    ? title
+    : brandedPageTitle
+);
 const siteUrl = "https://australianhomecollective.com.au";
 const pagePath = canonicalPath ?? Astro.url.pathname;
 const canonicalUrl = new URL(pagePath, siteUrl).toString();
