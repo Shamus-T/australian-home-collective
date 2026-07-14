@@ -12,7 +12,7 @@ interface Props {
 const { href, title, description, meta, image, imageAlt = "", imagePosition = "center" } = Astro.props;
 ---
 
-<article class:list={["guide-card", image && "has-image"]}>
+<article class:list={["guide-card", image && "has-image", meta === "Category" && "category-card"]}>
   <a href={href}>
     {image && (
       <img
