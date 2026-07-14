@@ -388,6 +388,14 @@ h3 {
   box-shadow: var(--shadow-soft);
 }
 
+.feature-card h2 {
+  min-height: 2.4em;
+}
+
+.feature-card p:last-child {
+  min-height: 5.1em;
+}
+
 .guide-card {
   min-height: 100%;
   overflow: hidden;
