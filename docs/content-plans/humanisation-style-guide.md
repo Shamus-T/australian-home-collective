@@ -79,3 +79,20 @@ Before publishing, ask:
 6. Does the ending give the reader a useful conclusion rather than repeat the article?
 
 If the copy could belong anywhere on the site, make it more specific.
+
+## Required publication edit
+
+Treat drafted copy as unfinished until it has received a separate publication edit. This gate
+applies to every new article and every substantial revision.
+
+The editor should:
+
+1. Remove repeated claims, cautions and conclusions.
+2. Improve pacing by varying sentence, paragraph and section structure.
+3. Replace generic transitions and filler with observations specific to the room or routine.
+4. Check Australian English, terminology and tone across the full article.
+5. Preserve factual meaning, safety context, SEO intent, internal links and commercial disclosures.
+6. Read the opening, heading sequence and ending as one continuous article rather than isolated blocks.
+7. Confirm that each section earns its place and gives the reader new information.
+
+The purpose is publication-quality writing. It is not an attempt to influence AI-detection scores.

@@ -1,14 +1,20 @@
-name: Deploy website to VentraIP
+name: Build and audit website
 
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  build-and-deploy:
-    name: Build Astro and deploy by FTPS
+  build-and-audit:
+    name: Build and audit Astro site
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -20,6 +26,7 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: 22
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
@@ -30,16 +37,8 @@ jobs:
       - name: Build website
         run: npm run build
 
+      - name: Audit rendered site quality
+        run: npm run audit:site:dist
+
       - name: Audit rendered commercial links
         run: npm run audit:commercial:dist
-
-      - name: Deploy dist folder to VentraIP
-        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          port: 21
-          local-dir: ./dist/
-          server-dir: ./

@@ -66,7 +66,7 @@ no public HTML.
 6. Add the record as `draft` and run `npm run audit:commercial`.
 7. Review the reader-facing wording and change the status to `approved` only after sign-off.
 8. Build and run `npm run audit:commercial:dist` before publishing.
-9. Verify GitHub Actions and the live VentraIP page after the push.
+9. Verify GitHub Actions and the live Cloudflare Pages site after the push.
 
 Prices should not be added during the pilot. Availability and product details can change and must
 not be presented as current after the review-due date.
@@ -85,5 +85,6 @@ The commercial-data audit checks:
 - disclosure presence only when an approved affiliate link is rendered
 - `target` and `rel` safety on built affiliate links
 
-GitHub Actions runs the catalogue audit before the Astro build and the rendered-output audit after
-the build. A failure stops deployment before the VentraIP upload step.
+GitHub Actions runs the catalogue audit before the Astro build and the rendered-output audits after
+the build. A failure blocks the quality check; Cloudflare Pages deployment remains managed through
+the connected GitHub repository.

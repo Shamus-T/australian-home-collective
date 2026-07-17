@@ -68,7 +68,7 @@ of scope.
 - no page gains disclosure unless it contains a real affiliate link
 - layouts work on desktop and mobile
 - internal links, canonical URLs and sitemap entries remain valid
-- every push is verified through GitHub Actions and on the live VentraIP site
+- every push is verified through GitHub Actions and on the live Cloudflare Pages site
 
 ## Implementation result
 

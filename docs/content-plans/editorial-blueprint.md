@@ -112,3 +112,9 @@ Before drafting or publishing the next article:
 - make sure any external links open in a new tab with `rel="noopener noreferrer"`
 - avoid fake testing, fake reviews, fake urgency, current prices and unsupported best-product claims
 - add affiliate disclosure only when actual affiliate links are present
+- complete the required publication edit in `humanisation-style-guide.md`
+- confirm the page title, description and heading still match the intended search question
+- check that the canonical URL and sitemap entry are correct after route or content changes
+- preserve useful internal links and add a next-step guide only where it genuinely helps
+- keep future product pathways editorial until verified commercial links are ready
+- run the built-site and commercial audits before deployment

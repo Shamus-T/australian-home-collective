@@ -1,43 +1,38 @@
-# Astro Starter Kit: Minimal
+# Australian Home Collective
+
+Australian Home Collective is an Astro site with practical home and lifestyle guides for Australian households.
+
+## Local development
 
 ```sh
-npm create astro@latest -- --template minimal
+npm ci
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The production build and audits are:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+npm run audit:commercial
+npm run build
+npm run audit:site:dist
+npm run audit:commercial:dist
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Production deployment
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Production hosting is provided by Cloudflare Pages through its connected GitHub repository.
 
-Any static assets, like images, can be placed in the `public/` directory.
+- Production branch: `main`
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Node.js: 22
 
-## 🧞 Commands
+The GitHub Actions workflow builds and audits each change, but it does not deploy the site. Cloudflare Pages handles deployment from the connected repository. The previous VentraIP FTPS deployment is retired and must not be restored without an explicit deployment decision.
 
-All commands are run from the root of the project, from a terminal:
+Cloudflare-specific redirects are maintained in `public/_redirects`.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Content and quality checks
 
-## 👀 Want to learn more?
+Editorial planning and publication standards are in `docs/content-plans`. Every substantial article revision requires a separate publication edit that preserves factual meaning, safety context, SEO intent, Australian English and useful links.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Use `npm run sitemap:update -- --commit <commit> --date YYYY-MM-DD` after a content commit to update the affected sitemap entries.
