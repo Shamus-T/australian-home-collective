@@ -1,52 +1,74 @@
 ---
+import ExternalLink from "../../components/ExternalLink.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout
-  title="Editorial Standards"
-  description="How Australian Home Collective writes, handles product claims and keeps commercial considerations separate from editorial judgement."
+  title="Editorial Policy and Standards"
+  seoTitle="Editorial Policy | Australian Home Collective"
+  description="How Australian Home Collective develops, reviews and corrects independent home-planning and buying guidance for Australian households."
 >
   <header class="page-intro">
     <div class="narrow">
-      <p class="eyebrow">How we write</p>
-      <h1>Editorial Standards</h1>
+      <p class="eyebrow">How we publish</p>
+      <h1>Editorial Policy and Standards</h1>
       <p class="lead">
-        These standards set out what readers should be able to expect from the site.
+        These commitments explain how we develop practical guidance, protect editorial
+        independence and take responsibility for what we publish.
       </p>
     </div>
   </header>
 
   <section class="content narrow">
+    <h2>Our approach</h2>
     <p>
-      Our aim is to help readers make sound decisions about products and problems around
-      the home, including the decision not to buy.
+      Australian Home Collective exists to help Australians make informed home-planning and
+      buying decisions before they spend money.
+    </p>
+    <p>
+      Our guides focus on practical considerations such as measurements, planning,
+      compatibility, delivery, installation, ownership and long-term suitability. Rather than
+      telling readers what to buy, we explain what to consider so they can choose products that
+      suit their homes, circumstances and budgets.
     </p>
 
-    <h2>How guides are written</h2>
+    <h2>Editorial independence</h2>
     <p>
-      A guide should answer the questions that could change the decision, such as:
+      Editorial decisions are made independently. Commercial relationships, affiliate
+      partnerships and advertising opportunities do not determine the topics we cover or the
+      conclusions we reach.
     </p>
+    <p>
+      If a product, category or approach may not suit a particular situation, we will say so,
+      even when that means suggesting readers delay a purchase or consider another approach.
+      Maintaining reader trust is more important than maximising short-term revenue.
+    </p>
+
+    <h2>How we develop guides</h2>
+    <p>
+      Our articles draw on practical planning principles, published specifications,
+      authoritative guidance where appropriate and common buying considerations relevant to
+      Australian households.
+    </p>
+    <p>Many guides focus on details that are easy to overlook, including:</p>
     <ul class="feature-list">
-      <li>What should I measure first?</li>
-      <li>What could stop this product from fitting?</li>
-      <li>Will this suit a rental?</li>
-      <li>What will cleaning involve?</li>
-      <li>Will people actually use it?</li>
-      <li>What common mistakes should I avoid?</li>
-      <li>Do I need to buy anything yet?</li>
+      <li>measurements and clearances</li>
+      <li>delivery access</li>
+      <li>installation requirements</li>
+      <li>room layout and compatibility</li>
+      <li>maintenance and service access</li>
+      <li>after-sales support considerations</li>
+      <li>long-term usability</li>
     </ul>
     <p>
-      The focus is on fit, function and household use.
+      Where requirements vary between products, manufacturers, installers or homes, we explain
+      that variation rather than presenting one answer as universal.
     </p>
 
     <h2>Publication edit before publishing</h2>
     <p>
-      Every new guide and every substantial update receives a publication edit before it
-      is considered finished. This is a separate pass after the facts and structure are in
-      place.
-    </p>
-    <p>
-      The publication edit should:
+      Every new guide and every substantial update receives a publication edit after the facts
+      and structure are in place. This separate pass should:
     </p>
     <ul class="feature-list">
       <li>remove repeated ideas and formulaic wording</li>
@@ -54,7 +76,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
       <li>use specific household observations instead of generic filler</li>
       <li>vary headings and section patterns where the subject allows</li>
       <li>apply Australian English and consistent terminology</li>
-      <li>preserve factual accuracy, search intent and useful internal links</li>
+      <li>preserve factual accuracy, search intent and useful links</li>
       <li>keep safety cautions, disclosures and commercial boundaries intact</li>
     </ul>
     <p>
@@ -62,61 +84,95 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
       designed to influence automated detection tools.
     </p>
 
-    <h2>Product claims</h2>
+    <h2>Accuracy, sources and editorial responsibility</h2>
     <p>
-      We do not claim to personally test products unless that testing has actually happened
-      and the article clearly explains it.
+      We make every reasonable effort to publish accurate, clear and current information. Every
+      article is reviewed before publication, and Australian Home Collective accepts
+      responsibility for the content it publishes.
     </p>
     <p>
-      We avoid:
+      We prefer primary, current and authoritative sources for factual, legal, safety and
+      product-specific information. These may include Australian government agencies,
+      recognised authorities and manufacturer documentation.
     </p>
+    <p>
+      Products, specifications, standards and manufacturer requirements can change. Readers
+      should confirm critical measurements, current specifications and installation
+      requirements before buying or installing a product.
+    </p>
+
+    <h2>Product guidance and claims</h2>
+    <p>
+      Australian Home Collective is not a product-testing laboratory unless a specific article
+      clearly states what testing was performed. We do not claim to have tested, owned or
+      inspected a product when we have not.
+    </p>
+    <p>Our usual role is to help readers understand:</p>
     <ul class="feature-list">
-      <li>made-up reviews or personal experience</li>
-      <li>testing that did not happen</li>
-      <li>prices presented as current when they have not been checked</li>
-      <li>unsupported best-product claims</li>
-      <li>claims that one product is right for every household</li>
+      <li>what to measure and compare</li>
+      <li>what questions to ask</li>
+      <li>which features matter in different circumstances</li>
+      <li>what ownership and support considerations may apply</li>
+      <li>which common mistakes can be avoided before purchase</li>
     </ul>
     <p>
-      If a guide discusses a product type, it should explain what that type of product may
-      help with, what to check before buying, and when it may not be suitable.
+      Different homes, budgets and priorities can lead to different reasonable choices. We
+      avoid unsupported best-product claims and claims that one product is right for every
+      household.
     </p>
 
-    <h2>Affiliate links and commercial content</h2>
+    <h2>Commercial relationships and sponsored content</h2>
     <p>
-      Some future pages may include affiliate links or commercial links. When affiliate
-      links are added, the site should clearly disclose that relationship according to the
-      site disclosure approach.
+      Australian Home Collective may participate in affiliate or referral programs. If a reader
+      purchases through a qualifying link, Australian Home Collective may receive a commission.
+      These commissions help fund the publication, but they do not determine our editorial
+      standards or conclusions.
     </p>
     <p>
-      Guides should still remain useful without requiring the reader to click a shopping
-      link. We do not add affiliate disclaimers to articles that do not contain affiliate
-      links.
-    </p>
-
-    <h2>Updating guides</h2>
-    <p>
-      Home products, retailers and household needs can change over time. Guides should be
-      reviewed when information becomes outdated, when site structure changes, or when a
-      guide needs clearer wording, better internal links or stronger practical checks.
+      Material commercial relationships will be disclosed clearly. If sponsored content is
+      accepted, it will be identified and will still be required to meet our editorial
+      standards. Sponsored material will not be presented as independent editorial without
+      appropriate disclosure. Read our <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.
     </p>
 
-    <h2>The reader comes first</h2>
+    <h2>Interactive planning tools</h2>
     <p>
-      A guide should help the reader decide what is suitable for their home. That means it
-      is acceptable for a guide to say:
+      Our planning tools assist with planning and decision-making. They do not replace current
+      manufacturer information, a site-specific assessment, delivery-provider requirements,
+      qualified tradespeople or professional advice where required.
     </p>
-    <ul class="feature-list">
-      <li>measure first</li>
-      <li>check the space</li>
-      <li>consider cleaning</li>
-      <li>check rental limits</li>
-      <li>avoid buying too much</li>
-      <li>remove duplicates first</li>
-      <li>do not buy yet if the problem is clutter</li>
-    </ul>
     <p>
-      The guide should serve the reader, not create a reason to spend.
+      Results depend on the information entered and the assumptions explained within each tool.
+      Users should independently verify important measurements and requirements before
+      purchasing, delivering or installing a product.
     </p>
+
+    <h2>Consumer information</h2>
+    <p>
+      Where relevant, we may explain in general terms that automatic consumer guarantees under
+      Australian Consumer Law are separate from voluntary warranties. We do not provide legal
+      advice or interpret individual disputes.
+    </p>
+    <p>
+      For authoritative information, refer to the ACCC's
+      <ExternalLink href="https://www.accc.gov.au/consumers/buying-products-and-services/consumer-rights-and-guarantees">
+        consumer rights and guarantees guidance
+      </ExternalLink>.
+    </p>
+
+    <h2>Corrections and feedback</h2>
+    <p>
+      We welcome reports of inaccurate, outdated or unclear information. Every substantive
+      report will be reviewed, and appropriate corrections or clarifications will be made.
+      Read our <a href="/corrections-content-review-policy/">Corrections &amp; Content Review Policy</a>
+      or use the <a href="/contact/">contact page</a> to report an issue.
+    </p>
+
+    <h2>Our commitment</h2>
+    <p>
+      Australian Home Collective is committed to practical, trustworthy and independent
+      guidance that helps Australians make better decisions for their homes.
+    </p>
+    <p><strong>Every article has one objective: help readers avoid expensive mistakes before they happen.</strong></p>
   </section>
 </BaseLayout>

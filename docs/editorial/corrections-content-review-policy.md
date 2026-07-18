@@ -3,10 +3,11 @@
 | Field | Value |
 | --- | --- |
 | Version | 1.0 |
-| Status | Approved draft; website publication pending |
+| Status | Published on website |
 | Document type | Public policy |
 | Owner | Australian Home Collective |
 | Version date | 18 July 2026 |
+| Published route | https://australianhomecollective.com.au/corrections-content-review-policy/ |
 
 ## Our commitment
 
@@ -27,7 +28,7 @@ We welcome reports about:
 - accessibility barriers; and
 - unexpected behaviour in a planning tool.
 
-**Contact link or email:** `[Insert the final published contact route]`
+Reports can be submitted through the [Australian Home Collective contact page](https://australianhomecollective.com.au/contact/).
 
 Please include the page address and enough detail for us to understand the issue. Every substantive report will be reviewed, although we may not be able to respond individually to every message.
 

@@ -1,62 +1,170 @@
 ---
+import ExternalLink from "../../components/ExternalLink.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout
   title="How We Select Products and Guide Topics"
-  description="How Australian Home Collective decides which household problems, product types and guide topics are worth covering."
+  seoTitle="How We Select Products and Guide Topics"
+  description="The practical criteria Australian Home Collective uses to assess product suitability, guide topics and recommendations for Australian homes."
 >
   <header class="page-intro">
     <div class="narrow">
-      <p class="eyebrow">How we choose what to include</p>
+      <p class="eyebrow">Our recommendation methodology</p>
       <h1>How We Select Products and Guide Topics</h1>
       <p class="lead">
-        A topic starts with a household decision, not a product we want to feature.
+        A recommendation begins with a household decision, not a product we want to feature.
       </p>
     </div>
   </header>
+
   <section class="content narrow">
+    <h2>How we develop recommendations</h2>
     <p>
-      We look at where an item would go, how often it would be used, what it takes to clean
-      and whether it is likely to last.
+      Our recommendations are based on practical suitability rather than product popularity,
+      marketing claims, sales rankings or commission rates.
+    </p>
+    <p>Instead of asking only which product is best, we ask:</p>
+    <ul class="feature-list">
+      <li>Will it suit the reader's home and intended use?</li>
+      <li>Will it fit the available space and delivery route?</li>
+      <li>What is required to install and use it properly?</li>
+      <li>What trade-offs should the buyer understand?</li>
+      <li>What may matter during ownership and after-sales support?</li>
+      <li>What commonly overlooked problems can be avoided?</li>
+    </ul>
+    <p>Our goal is to give readers a useful framework for their own circumstances.</p>
+
+    <h2>Planning comes first</h2>
+    <p>
+      Every guide begins with the decision and the setting in which a product will be used.
+      Before discussing brands or models, we encourage readers to understand the available
+      space, access, installation requirements, compatibility, maintenance, future needs and
+      practical constraints.
+    </p>
+    <p>A well-planned purchase is more valuable than an impulse purchase.</p>
+
+    <h2>What we may consider</h2>
+    <p>The factors below are used when relevant. Not every factor applies to every category.</p>
+
+    <h3>Practical suitability</h3>
+    <p>Does the option suit the intended room, household, layout and purpose?</p>
+
+    <h3>Dimensions and fit</h3>
+    <p>
+      Will the product fit the installation space? Have operating clearances, delivery access,
+      packaged dimensions and full door or drawer movement been considered?
     </p>
 
-    <h2>What we consider</h2>
+    <h3>Compatibility</h3>
+    <p>
+      Will it work with existing furniture, appliances, services, fittings, systems and room
+      layouts?
+    </p>
+
+    <h3>Installation requirements</h3>
+    <p>
+      Does the product require ventilation, plumbing, electrical work, structural fixing,
+      specialised access or professional installation?
+    </p>
+
+    <h3>Usability</h3>
+    <p>
+      Can the product be opened, adjusted, loaded, cleaned and used as intended in the proposed
+      position?
+    </p>
+
+    <h3>Long-term ownership</h3>
+    <p>
+      What should readers consider about running costs, maintenance access, durability
+      indicators, consumables, repairability, replacement costs and future household needs?
+    </p>
+
+    <h3>After-sales support</h3>
+    <p>
+      What should readers investigate about written warranty terms, local service coverage,
+      support channels, spare-parts availability and the party responsible for support? We
+      teach readers what to check rather than making broad, unsupported claims about a brand's
+      service.
+    </p>
+
+    <h3>Safety and authoritative requirements</h3>
+    <p>
+      Where relevant, we highlight manufacturer instructions, recognised Australian guidance
+      and situations in which a qualified professional should be consulted.
+    </p>
+
+    <h2>Evidence and sources</h2>
+    <p>We may use:</p>
     <ul class="feature-list">
-      <li>How the item would be used at home.</li>
-      <li>Room size and storage limits.</li>
-      <li>Cleaning and maintenance.</li>
-      <li>Materials and durability.</li>
-      <li>Safety and suitability.</li>
-      <li>Australian availability where relevant.</li>
-      <li>Clear product information from retailers or brands.</li>
-      <li>Whether the item solves a real household problem.</li>
+      <li>current manufacturer specifications and manuals</li>
+      <li>Australian government and regulator information</li>
+      <li>recognised safety or efficiency guidance</li>
+      <li>clearly described first-hand observations where available</li>
+      <li>practical planning principles</li>
+    </ul>
+    <p>We prefer primary sources and qualify information that varies or cannot be fully verified.</p>
+
+    <h2>What we do not do</h2>
+    <p>
+      Australian Home Collective is not a product-testing laboratory unless a specific article
+      clearly describes the testing conducted. We do not:
+    </p>
+    <ul class="feature-list">
+      <li>claim to have tested, owned or inspected products when we have not</li>
+      <li>rank products solely by commission, popularity or advertising relationships</li>
+      <li>declare a product suitable without considering context</li>
+      <li>treat marketing claims as independent evidence</li>
+      <li>reduce a complex decision to an unexplained numerical score</li>
     </ul>
 
-    <h2>How we handle product claims</h2>
+    <h2>How recommendations are expressed</h2>
     <p>
-      We avoid making claims that cannot be reasonably supported. If a guide discusses a
-      product type, feature or home setup detail, the wording should make clear whether it is
-      general guidance, public product information or hands-on experience.
+      Different homes, budgets and priorities often produce different reasonable choices. We
+      explain which circumstances an option may suit and what trade-offs come with it. Where
+      products are named, selection should be connected to transparent criteria. A named
+      product is not automatically suitable for every reader.
     </p>
 
-    <h2>Hands-on testing</h2>
+    <h2>Ratings and scores</h2>
     <p>
-      We do not claim hands-on testing unless it has actually happened and is clearly stated.
-      Most guides compare product types and features using public information, room planning
-      and the needs of different households.
+      Australian Home Collective does not assign arbitrary scores or Editor's Choice labels.
+      If a structured score or comparison system is introduced in future, its criteria,
+      weighting, evidence and limitations will be published clearly.
     </p>
 
-    <h2>Prices and availability</h2>
+    <h2>Commercial relationships</h2>
     <p>
-      Prices, availability, shipping terms and retailer details can change. Readers should
-      check the retailer's current product page before buying.
+      Affiliate or commercial relationships do not determine our methodology or conclusions.
+      Material relationships are disclosed, and useful guidance must remain useful even if a
+      reader does not purchase through a link. Read our
+      <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.
     </p>
 
-    <h2>Affiliate links</h2>
+    <h2>Interactive planning tools</h2>
     <p>
-      Some pages may contain affiliate links. The link does not decide what the guide says or
-      whether an item is worth recommending. You can read the full <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.
+      Our tools help readers identify potential considerations and measurement conflicts. They
+      do not provide engineering, installation, safety or delivery approval. Each tool should
+      explain what it assesses, which information it needs, the assumptions it makes, what it
+      cannot determine and when further verification is recommended.
     </p>
+
+    <h2>Consumer rights information</h2>
+    <p>
+      Where ownership and warranty considerations are relevant, we may direct readers to
+      authoritative information about Australian Consumer Law. We do not provide legal advice
+      or decide how the law applies to an individual situation. See the ACCC's
+      <ExternalLink href="https://www.accc.gov.au/consumers/buying-products-and-services/consumer-rights-and-guarantees">
+        consumer rights and guarantees guidance
+      </ExternalLink>.
+    </p>
+
+    <h2>Continuous improvement</h2>
+    <p>
+      We review and update content when products, guidance, standards, reader needs or our own
+      practical understanding change. Substantive improvements may update the editorial review
+      date.
+    </p>
+    <p><strong>Our guiding question is simple: will this help someone make a better decision for their home?</strong></p>
   </section>
 </BaseLayout>

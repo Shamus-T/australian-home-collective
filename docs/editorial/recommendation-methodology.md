@@ -3,10 +3,11 @@
 | Field | Value |
 | --- | --- |
 | Version | 1.0 |
-| Status | Approved draft; website publication pending |
+| Status | Published on website |
 | Document type | Public methodology |
 | Owner | Australian Home Collective |
 | Version date | 18 July 2026 |
+| Published route | https://australianhomecollective.com.au/how-we-select-products/ |
 
 ## How we develop recommendations
 

@@ -3,10 +3,11 @@
 | Field | Value |
 | --- | --- |
 | Version | 1.0 |
-| Status | Approved draft; website publication pending |
+| Status | Published on website |
 | Document type | Public policy |
 | Owner | Australian Home Collective |
 | Version date | 18 July 2026 |
+| Published route | https://australianhomecollective.com.au/editorial-standards/ |
 
 ## Our approach
 
@@ -99,7 +100,7 @@ For authoritative information, readers should refer to the ACCC's [consumer righ
 
 We welcome reports of inaccurate, outdated or unclear information. Every substantive report will be reviewed, and appropriate corrections or clarifications will be made.
 
-**Contact link or email:** `[Insert the final published contact route]`
+Reports can be submitted through the [Australian Home Collective contact page](https://australianhomecollective.com.au/contact/).
 
 ## Our commitment
 

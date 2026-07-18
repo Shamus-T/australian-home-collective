@@ -11,7 +11,7 @@ This directory is the version-controlled source of truth for Australian Home Col
 - `tools/` — planning-tool standards and functional specifications
 - `roadmap/` — publication and Planning Centre roadmaps
 
-Public-facing documents in this directory are approved drafts until they are implemented on the website. Internal documents are operating standards and should be reviewed when the publication's scope, commercial model or risk profile changes.
+Public-facing documents record their publication status and live route in their document-control table. Internal documents are operating standards and should be reviewed when the publication's scope, commercial model or risk profile changes.
 
 ## Document control
 
