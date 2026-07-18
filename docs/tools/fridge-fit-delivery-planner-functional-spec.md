@@ -2,14 +2,16 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
-| Status | Approved for prototype; public launch gates remain |
+| Version | 1.1 |
+| Status | Parked reference; no prototype or public route planned |
 | Document type | Internal functional specification |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
-| Proposed public route | `/planning-centre/fridge-fit-delivery-planner/` |
+| Version date | 19 July 2026 |
+| Formerly proposed public route | `/planning-centre/fridge-fit-delivery-planner/` |
 
-## Product summary
+> **Parking note — 19 July 2026:** This specification is retained only as historical research. The prototype was discarded, the route was never published and implementation is not an active priority. A future proposal must be reconsidered from first principles rather than treating this specification as approved work.
+
+## Original product summary
 
 The Fridge Fit & Delivery Planner helps an Australian household compare a refrigerator's dimensions and model-specific clearances with the intended cavity and the measurable parts of the delivery route.
 

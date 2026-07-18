@@ -2,19 +2,27 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
-| Status | Specification complete; prototype ready to begin |
+| Version | 1.1 |
+| Status | Parked; not an active priority |
 | Document type | Internal delivery roadmap |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
+| Version date | 19 July 2026 |
 
-## Objective
+## Parking decision
+
+This project was parked on 19 July 2026 before public release. The prototype was discarded and no public route exists.
+
+The proposed planner asked readers to complete too much technical and delivery-assessment work for a narrow purchase decision. A fridge-specific feature is also a lower priority than improving existing content using actual search and visitor performance.
+
+The remaining document is historical reference, not approved work. Do not resume implementation unless new evidence demonstrates a clear reader need, the scope can be materially simpler and the proposal passes the Editorial Decision Framework again.
+
+## Original objective
 
 Deliver a trustworthy, accessible first version of the Fridge Fit & Delivery Planner at `/planning-centre/fridge-fit-delivery-planner/` without introducing a product database, false delivery certainty or collection of household measurement data.
 
 The delivery sequence follows the [Functional Specification](../tools/fridge-fit-delivery-planner-functional-spec.md), [Test Plan](../tools/fridge-fit-delivery-planner-test-plan.md) and [Tool Development Standard](../tools/tool-development-standard.md).
 
-## Current status
+## Status when parked
 
 | Area | Status |
 | --- | --- |
@@ -27,6 +35,8 @@ The delivery sequence follows the [Functional Specification](../tools/fridge-fit
 | Accessibility review | Not started |
 | Public route and Planning Centre | Not started |
 | Launch and monitoring | Not started |
+
+The phases below are preserved as historical planning only. Their individual status labels do not authorise implementation.
 
 ## Phase 0 — Foundation and release boundaries
 

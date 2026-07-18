@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Active foundation |
 | Document type | Internal governance manual |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
+| Version date | 19 July 2026 |
 
 ## Authority and scope
 
@@ -200,9 +200,9 @@ If not, it does not belong in the Planning Centre.
 | Corrections & Content Review Policy | 1.0 | Published |
 | Retail Knowledge Base | 1.0 | Active; expandable |
 | Tool Development Standard | 1.0 | Active foundation |
-| Fridge Fit & Delivery Planner functional specification | 1.0 | Approved for prototype |
-| Fridge Fit & Delivery Planner test plan | 1.0 | Approved for prototype |
-| Fridge Fit & Delivery Planner delivery plan | 1.0 | Prototype ready to begin |
+| Fridge Fit & Delivery Planner functional specification | 1.1 | Parked reference |
+| Fridge Fit & Delivery Planner test plan | 1.1 | Parked reference |
+| Fridge Fit & Delivery Planner delivery plan | 1.1 | Parked; not an active priority |
 | Tool Disclaimer Standard | — | Pending legal review |
 | Terms of Use update | — | Pending legal review |
 | Privacy Standard update | — | Pending legal review |
@@ -212,4 +212,5 @@ If not, it does not belong in the Planning Centre.
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| 1.1 | 19 July 2026 | Parked the fridge-planner initiative and returned priority to evidence-led editorial work. |
 | 1.0 | 18 July 2026 | Initial publishing governance framework established. |

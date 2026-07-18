@@ -2,12 +2,14 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
-| Status | Approved for prototype |
+| Version | 1.1 |
+| Status | Parked reference; no implementation under test |
 | Document type | Internal quality-assurance plan |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
-| Specification under test | [Functional Specification v1.0](fridge-fit-delivery-planner-functional-spec.md) |
+| Version date | 19 July 2026 |
+| Specification under test | [Parked Functional Specification v1.1](fridge-fit-delivery-planner-functional-spec.md) |
+
+> **Parking note — 19 July 2026:** No fridge-planner implementation or automated test suite exists. This plan is retained only with the parked specification and must not be treated as an active release requirement.
 
 ## Purpose
 
