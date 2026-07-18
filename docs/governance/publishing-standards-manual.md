@@ -44,13 +44,13 @@ The [Brand Style Guide](../editorial/brand-style-guide.md) defines the publicati
 
 ### Public editorial commitments
 
-The following approved drafts are to be adapted into website pages:
+The following approved documents are published as website pages:
 
 - [Editorial Policy](../editorial/editorial-policy.md)
 - [Recommendation Methodology](../editorial/recommendation-methodology.md)
 - [Corrections & Content Review Policy](../editorial/corrections-content-review-policy.md)
 
-**Status:** Approved foundation drafts; website implementation pending.
+**Status:** Published foundation policies.
 
 ## 3. Publication standards
 
@@ -88,7 +88,7 @@ Every planning tool must:
 - be tested before release and after material changes; and
 - provide a printable or saveable summary where useful.
 
-**Detailed Tool Development Standard:** Pending in `docs/tools/`.
+**Detailed Tool Development Standard:** [Active, version 1.0](../tools/tool-development-standard.md).
 
 ### Buying-framework standard
 
@@ -195,11 +195,14 @@ If not, it does not belong in the Planning Centre.
 | Editorial Decision Framework | 1.0 | Active |
 | Editorial Style Guide | 1.0 | Active |
 | Brand Style Guide | 1.0 | Active |
-| Editorial Policy | 1.0 | Approved draft |
-| Recommendation Methodology | 1.0 | Approved draft |
-| Corrections & Content Review Policy | 1.0 | Approved draft |
+| Editorial Policy | 1.0 | Published |
+| Recommendation Methodology | 1.0 | Published |
+| Corrections & Content Review Policy | 1.0 | Published |
 | Retail Knowledge Base | 1.0 | Active; expandable |
-| Tool Development Standard | — | Pending |
+| Tool Development Standard | 1.0 | Active foundation |
+| Fridge Fit & Delivery Planner functional specification | 1.0 | Approved for prototype |
+| Fridge Fit & Delivery Planner test plan | 1.0 | Approved for prototype |
+| Fridge Fit & Delivery Planner delivery plan | 1.0 | Prototype ready to begin |
 | Tool Disclaimer Standard | — | Pending legal review |
 | Terms of Use update | — | Pending legal review |
 | Privacy Standard update | — | Pending legal review |

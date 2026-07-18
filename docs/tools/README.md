@@ -3,17 +3,21 @@
 | Field | Value |
 | --- | --- |
 | Version | 1.0 |
-| Status | Structure created; specifications pending |
+| Status | Active foundation; first tool specified |
 | Owner | Australian Home Collective |
 | Version date | 18 July 2026 |
 
 This folder will contain standards, specifications, test plans and release records for Australian Home Collective planning tools.
 
+## Active documents
+
+- [Tool Development Standard](tool-development-standard.md)
+- [Fridge Fit & Delivery Planner functional specification](fridge-fit-delivery-planner-functional-spec.md)
+- [Fridge Fit & Delivery Planner test plan](fridge-fit-delivery-planner-test-plan.md)
+- [Fridge Fit & Delivery Planner delivery plan](../roadmap/fridge-fit-delivery-planner-delivery-plan.md)
+
 ## Pending documents
 
-- Tool Development Standard
-- Fridge Fit & Delivery Planner functional specification
-- Fridge Fit & Delivery Planner test plan
 - TV Wall-Mount Planner functional specification
 - Shared result-language and accessibility patterns
 
