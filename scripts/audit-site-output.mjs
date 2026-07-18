@@ -50,6 +50,21 @@ for (const file of htmlFiles) {
   const robots = firstMatch(html, /<meta name="robots" content="([^"]*)"/i);
   const h1Count = html.match(/<h1(?:\s[^>]*)?>/gi)?.length ?? 0;
   const indexable = !robots.toLowerCase().includes("noindex");
+  const structuredDataBlocks = [...html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];
+  const structuredDataTypes = new Set();
+
+  for (const [, value] of structuredDataBlocks) {
+    try {
+      const data = JSON.parse(value);
+      const nodes = Array.isArray(data?.["@graph"]) ? data["@graph"] : [data];
+      for (const node of nodes) {
+        const types = Array.isArray(node?.["@type"]) ? node["@type"] : [node?.["@type"]];
+        for (const type of types.filter(Boolean)) structuredDataTypes.add(type);
+      }
+    } catch {
+      addError(`${relativePath} contains invalid JSON-LD.`);
+    }
+  }
 
   if (!title) addError(`${relativePath} has no title.`);
   if (title.length > 60) addError(`${relativePath} has a title longer than 60 characters (${title.length}).`);
@@ -59,6 +74,25 @@ for (const file of htmlFiles) {
   }
   if (!canonical) addError(`${relativePath} has no canonical URL.`);
   if (h1Count !== 1) addError(`${relativePath} has ${h1Count} H1 elements; expected 1.`);
+  if (indexable && structuredDataBlocks.length === 0) {
+    addError(`${relativePath} is indexable but has no JSON-LD.`);
+  }
+  for (const requiredType of ["Organization", "WebSite", "WebPage"]) {
+    if (indexable && !structuredDataTypes.has(requiredType)) {
+      addError(`${relativePath} is missing ${requiredType} structured data.`);
+    }
+  }
+  if (indexable && /^guides\/.+\/index\.html$/.test(relativePath)) {
+    for (const requiredType of ["Article", "BreadcrumbList"]) {
+      if (!structuredDataTypes.has(requiredType)) {
+        addError(`${relativePath} is missing ${requiredType} structured data.`);
+      }
+    }
+  }
+  if (indexable && /^categories\/.+\/index\.html$/.test(relativePath) && !structuredDataTypes.has("BreadcrumbList")) {
+    addError(`${relativePath} is missing BreadcrumbList structured data.`);
+  }
+  if (relativePath === "404.html" && indexable) addError("404.html must be noindex.");
 
   for (const match of html.matchAll(/<a\s+[^>]*href="([^"]+)"[^>]*>/gi)) {
     const [anchor, href] = match;

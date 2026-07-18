@@ -12,6 +12,7 @@ interface Props {
   ogType?: "website" | "article";
   robots?: string;
   refreshPath?: string;
+  structuredData?: Record<string, unknown>[];
 }
 
 const {
@@ -24,6 +25,7 @@ const {
   ogType = "website",
   robots,
   refreshPath,
+  structuredData = [],
 } = Astro.props;
 const siteTitle = "Australian Home Collective";
 const brandedPageTitle = `${title} | ${siteTitle}`;
@@ -40,6 +42,44 @@ const refreshUrl = refreshPath ? new URL(refreshPath, siteUrl).toString() : unde
 const imageExtension = new URL(ogImageUrl).pathname.toLowerCase();
 const ogImageType = imageExtension.endsWith(".jpg") || imageExtension.endsWith(".jpeg")
   ? "image/jpeg" : "image/png";
+const organizationId = `${siteUrl}/#organization`;
+const websiteId = `${siteUrl}/#website`;
+const webpageId = `${canonicalUrl}#webpage`;
+const isIndexable = !robots?.toLowerCase().includes("noindex");
+const jsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": organizationId,
+      name: siteTitle,
+      url: `${siteUrl}/`,
+      description: "Straightforward Australian guides for choosing home products, planning rooms and avoiding purchases that do not suit the household.",
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/android-chrome-512x512.png`,
+        width: 512,
+        height: 512,
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": websiteId,
+      url: `${siteUrl}/`,
+      name: siteTitle,
+      publisher: { "@id": organizationId },
+    },
+    {
+      "@type": "WebPage",
+      "@id": webpageId,
+      url: canonicalUrl,
+      name: pageTitle,
+      description,
+      isPartOf: { "@id": websiteId },
+    },
+    ...structuredData,
+  ],
+}).replace(/</g, "\\u003c");
 ---
 
 <!doctype html>
@@ -79,7 +119,8 @@ const ogImageType = imageExtension.endsWith(".jpg") || imageExtension.endsWith("
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=5" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=5" />
     <link rel="manifest" href="/site.webmanifest?v=5" />
-    <link rel="stylesheet" href="/styles/global.css?v=7" />
+    <link rel="stylesheet" href="/styles/global.css?v=8" />
+    {isIndexable && <script is:inline type="application/ld+json" set:html={jsonLd} />}
     <!-- Google tag (gtag.js) -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-NHVS6YBB8J"></script>
     <script is:inline>

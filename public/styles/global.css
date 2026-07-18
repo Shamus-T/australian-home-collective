@@ -481,6 +481,44 @@ h3 {
   font-size: 0.95rem;
 }
 
+.breadcrumbs {
+  margin: 0 0 18px;
+  font-size: 0.9rem;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs li {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.breadcrumbs a,
+.breadcrumbs span {
+  color: var(--muted);
+}
+
+.breadcrumbs a {
+  font-weight: 600;
+}
+
+.breadcrumb-separator {
+  opacity: 0.62;
+}
+
+.article-author {
+  color: inherit;
+  font-weight: 700;
+}
+
 .guide-card a {
   color: var(--ink);
   text-decoration: none;
@@ -683,6 +721,17 @@ h3 {
 .image-header .article-meta {
   color: var(--color-cream);
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.22);
+}
+
+.image-header .breadcrumbs a,
+.image-header .breadcrumbs span {
+  color: var(--color-cream);
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.22);
+}
+
+.image-header .breadcrumbs a:hover,
+.image-header .article-author:hover {
+  color: var(--color-wattle);
 }
 
 .image-header .eyebrow {
