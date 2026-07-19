@@ -11,6 +11,8 @@ interface Props {
   description: string;
   category: string;
   date: string;
+  datePublished?: string;
+  dateModified?: string;
   readingTime: string;
   showAffiliateDisclosure?: boolean;
   showDisclosure?: boolean;
@@ -27,6 +29,8 @@ const {
   description,
   category,
   date,
+  datePublished,
+  dateModified,
   readingTime,
   showAffiliateDisclosure,
   showDisclosure,
@@ -76,9 +80,12 @@ const articleSchema = {
   description,
   image: new URL(resolvedSocialImage, siteUrl).toString(),
   articleSection: category,
+  ...(datePublished ? { datePublished } : {}),
+  ...(dateModified ? { dateModified } : {}),
   author: { "@id": organizationId },
   publisher: { "@id": organizationId },
 };
+const machineReadableDate = dateModified ?? datePublished;
 ---
 
 <BaseLayout title={title} seoTitle={seoTitle} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt} ogType="article" structuredData={[breadcrumbSchema, articleSchema]}>
@@ -102,7 +109,8 @@ const articleSchema = {
       <p class="lead">{description}</p>
       <p class="article-meta">
         By <a class="article-author" href="/about/">Australian Home Collective</a>
-        <span aria-hidden="true"> · </span>{date}
+        <span aria-hidden="true"> · </span>
+        {machineReadableDate ? <time datetime={machineReadableDate}>{date}</time> : date}
         <span aria-hidden="true"> · </span>{readingTime}
       </p>
       {shouldShowDisclosure && <AffiliateDisclosureBlock compact />}
