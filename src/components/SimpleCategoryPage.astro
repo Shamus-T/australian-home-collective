@@ -24,6 +24,7 @@ interface FAQ {
 
 interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
   intro: string;
   focusIntro: string;
@@ -92,6 +93,10 @@ const categoryImages: Record<string, { image: string; alt: string }> = {
     alt: "An organised garage with wall storage, cabinets and clear floor space",
   },
   "Garage Storage": {
+    image: "/images/garage.webp",
+    alt: "An organised garage with wall storage, cabinets and clear floor space",
+  },
+  "Garage Storage Ideas": {
     image: "/images/garage.webp",
     alt: "An organised garage with wall storage, cabinets and clear floor space",
   },
