@@ -12,14 +12,19 @@ const navItems = [
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand brand-logo" href="/" aria-label="Australian Home Collective home">
-      <img
-        src="/images/header-title.png"
-        alt="Australian Home Collective"
-        width="2508"
-        height="627"
-        loading="eager"
-        draggable="false"
-      />
+      <picture>
+        <source srcset="/images/header-title.webp?v=1" type="image/webp" />
+        <img
+          src="/images/header-title.png?v=6"
+          alt="Australian Home Collective"
+          width="1200"
+          height="300"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+          draggable="false"
+        />
+      </picture>
     </a>
     <nav class="site-nav" aria-label="Main navigation">
       {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
