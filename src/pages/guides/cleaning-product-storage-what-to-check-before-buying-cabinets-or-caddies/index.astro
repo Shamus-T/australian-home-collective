@@ -34,13 +34,30 @@ const relatedGuides = [
     description: "More practical laundry guides for Australian homes.",
   },
 ];
+
+const faqs = [
+  {
+    question: "Where should cleaning products be stored at home?",
+    answer: "Follow each product's label and keep hazardous products secured out of children's reach and sight, while also accounting for pets. Bottles should remain upright, readable and easy to inspect for leaks. Separate chemicals from clean cloths and unrelated supplies, and avoid packing the cupboard so tightly that damaged packaging disappears behind refills.",
+  },
+  {
+    question: "Is a cleaning caddy better than a cupboard?",
+    answer: "A caddy suits a small group that genuinely moves from room to room, while a cupboard suits stationary supplies and reserves. Choose from the routine rather than appearance. A portable caddy should remain comfortable to carry when loaded, and a cabinet still needs visibility, spill control and enough room to remove bottles without tipping them.",
+  },
+  {
+    question: "How can cleaning-product leaks be contained without hiding them?",
+    answer: "Stand bottles in a shallow washable tray or open basket that makes drips visible and can be removed for cleaning. Keep labels facing out and inspect the base regularly. Deep opaque tubs may contain a spill, but they can also conceal damp packaging and duplicate bottles if the contents are packed beyond easy view.",
+  },
+];
 ---
 
 <ArticleLayout
   title="Cleaning Product Storage That Keeps Supplies Under Control"
   description="Bring half-used bottles, refills and cleaning tools under control while keeping labels visible, leaks contained and hazardous products out of reach."
   category="Laundry"
+  faqs={faqs}
   date="Updated July 2026"
+  dateModified="2026-07-19"
   readingTime="6 minute read"
   showAffiliateDisclosure={false}
   image="/images/laundry.webp"

@@ -2,6 +2,7 @@
 import BaseLayout from "./BaseLayout.astro";
 import AffiliateDisclosureBlock from "../components/AffiliateDisclosureBlock.astro";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
+import FAQBlock from "../components/FAQBlock.astro";
 import { getCategoryPath } from "../data/categories";
 import { getCategorySocialImage } from "../data/socialImages";
 
@@ -21,6 +22,10 @@ interface Props {
   socialImage?: string;
   socialImageAlt?: string;
   imagePosition?: string;
+  faqs?: Array<{
+    question: string;
+    answer: string;
+  }>;
 }
 
 const {
@@ -39,6 +44,7 @@ const {
   socialImage,
   socialImageAlt,
   imagePosition = "center",
+  faqs = [],
 } = Astro.props;
 
 const shouldShowDisclosure = showAffiliateDisclosure ?? showDisclosure ?? false;
@@ -118,5 +124,6 @@ const machineReadableDate = dateModified ?? datePublished;
   </header>
   <article class="content narrow">
     <slot />
+    {faqs.length > 0 && <FAQBlock items={faqs} />}
   </article>
 </BaseLayout>

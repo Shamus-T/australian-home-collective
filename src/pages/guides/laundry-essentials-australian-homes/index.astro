@@ -24,13 +24,30 @@ const relatedGuides = [
     description: "Practical towel, shower, vanity, toilet and cleaning basics.",
   },
 ];
+
+const faqs = [
+  {
+    question: "What are the basic essentials for a home laundry?",
+    answer: "Most routines need a collection point, a basket that manages the full route, suitable washing products, a stain-treatment spot and a workable drying plan. Pegs, mesh bags, ironing equipment and special tools are useful only when the household actually uses them. Start by following one load rather than copying a long product checklist.",
+  },
+  {
+    question: "How do you organise laundry essentials in a small space?",
+    answer: "Keep the everyday washing products controlled and readable near the task, move bulk refills out of the active zone and protect one surface for folding or sorting. Give baskets, pegs and the folded airer specific parking places. Vertical storage helps only when items remain easy to lift and appliance access stays clear.",
+  },
+  {
+    question: "Are mesh laundry bags necessary?",
+    answer: "They are useful when they support a real category, such as keeping small items together or separating pieces that the care instructions allow to be washed that way. They are not an essential purchase for every household. Keep only the sizes that enter the routine and give empty bags one visible return point.",
+  },
+];
 ---
 
 <ArticleLayout
   title="Laundry Essentials for Australian Homes"
   description="The laundry equipment that earns its place, from baskets and drying space to stain care, pegs and a clear area for folding."
   category="Laundry"
+  faqs={faqs}
   date="Updated July 2026"
+  dateModified="2026-07-19"
   readingTime="6 minute read"
   image="/images/laundry.webp"
   imageAlt="A practical laundry room with warm finishes, baskets and tidy everyday storage"

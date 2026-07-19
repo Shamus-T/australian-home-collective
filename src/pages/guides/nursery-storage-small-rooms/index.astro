@@ -1,7 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import ComparisonTable from "../../../components/ComparisonTable.astro";
-import FAQBlock from "../../../components/FAQBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const comparisonRows = [
@@ -40,23 +39,15 @@ const comparisonRows = [
 const faqs = [
   {
     question: "How do you organise a small nursery?",
-    answer: "Think about sleep, changing, feeding, dressing and laundry. Keep the things used most often near those routines, then move spare linen, larger clothes and occasional items to storage that is less convenient.",
+    answer: "Map sleep, changing, feeding, dressing and laundry before placing storage. Keep a small working supply beside each routine, rotate clothing by current size and move spare linen, larger clothes and occasional items to less convenient positions. Measure the room with doors, drawers and the sleep space fully in use.",
   },
   {
     question: "What storage is useful in a rental nursery?",
-    answer: "Freestanding low shelves, drawer dividers, baskets, wardrobe organisers and removable hooks can be useful in rentals. Check lease rules before fixing anything to walls, and make sure furniture is stable and used according to the manufacturer's instructions.",
+    answer: "Suitable freestanding storage, drawer dividers, baskets and wardrobe organisers can adapt as the room changes. Check the lease before fixing anything to walls, and do not assume a removable product cannot mark a surface. Furniture must remain stable and be assembled, secured and used according to its instructions.",
   },
   {
     question: "Should nursery storage be open or closed?",
-    answer: "A mix usually works well. Open baskets can make daily items easy to grab, while closed tubs or drawers can reduce visual clutter and keep spare clothing, linen and seasonal items out of the way.",
-  },
-  {
-    question: "Where should nappies and wipes be kept?",
-    answer: "Keep a small daily supply within reach of the change area, with bulk supplies elsewhere. Avoid placing creams, bags or small items where a baby or toddler can reach them.",
-  },
-  {
-    question: "How can I stop a small nursery feeling crowded?",
-    answer: "Measure before adding furniture, keep walking paths clear, use vertical space carefully and avoid keeping every baby item in the nursery. A compact room works best when each item has a clear job.",
+    answer: "A mix can support different routines. Open baskets may keep a limited daily supply visible to an adult, while drawers or closed tubs can contain spare clothes, linen and occasional items. Choose each position for access and stability, and reconsider the arrangement as the baby becomes mobile and can reach more of the room.",
   },
 ];
 
@@ -99,6 +90,8 @@ const relatedGuides = [
   description="Plan nursery storage in a small, rented or shared room, including wardrobes, drawers, changing supplies, toys and books."
   category="Nursery & Kids"
   date="Updated July 2026"
+  dateModified="2026-07-19"
+  faqs={faqs}
   readingTime="6 minute read"
   image="/images/Nursery-kids.webp"
   imageAlt="A tidy nursery room with timber storage, soft lighting and baby essentials"
@@ -243,5 +236,4 @@ const relatedGuides = [
   </p>
 
   <RelatedGuidesBlock guides={relatedGuides} />
-  <FAQBlock items={faqs} />
 </ArticleLayout>

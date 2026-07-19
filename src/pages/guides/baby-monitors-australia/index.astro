@@ -1,7 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import ComparisonTable from "../../../components/ComparisonTable.astro";
-import FAQBlock from "../../../components/FAQBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const comparisonRows = [
@@ -40,23 +39,15 @@ const comparisonRows = [
 const faqs = [
   {
     question: "Do I need a baby monitor?",
-    answer: "Not always. A baby monitor may be useful if your baby sleeps in another room during naps, your home is larger, or you want audio or video alerts. Some families are comfortable without one, especially in smaller homes.",
+    answer: "Not always. A monitor may help when a baby sleeps in another room during naps, the home is larger or a carer needs audio or video alerts. In a smaller home, some families may find they can hear what they need without adding another device, so begin with the actual routine.",
   },
   {
     question: "Is a Wi-Fi baby monitor better than a non-Wi-Fi monitor?",
-    answer: "Not automatically. Wi-Fi monitors may offer app access and remote viewing, while non-Wi-Fi monitors may suit parents who prefer a direct camera-to-parent-unit setup. Compare privacy, reliability, range and how you plan to use it.",
+    answer: "Not automatically. Wi-Fi models may offer app access and remote viewing, while non-Wi-Fi models may suit families who prefer a direct camera-to-parent-unit connection. Compare privacy, reliability, range and the way the monitor will be used, then test the signal through the rooms and walls in your home.",
   },
   {
     question: "What features matter most in a baby monitor?",
-    answer: "The most useful features are usually clear sound, reliable range, night vision, decent battery life, easy controls and safe camera placement. Extra features are only useful if they suit your home and routine.",
-  },
-  {
-    question: "Where should a baby monitor camera be placed?",
-    answer: "Place the camera where it gives a clear view while keeping cords, mounts and accessories safely away from the baby's sleep space. Always follow the manufacturer's setup instructions.",
-  },
-  {
-    question: "Are expensive baby monitors always better?",
-    answer: "No. More expensive models may include extra features, but the best monitor is the one that suits your home layout, privacy preferences, budget and daily routine.",
+    answer: "Clear sound, reliable range, useful night vision, manageable battery life and controls that are easy to understand usually matter most. Camera placement must also work while following the product instructions and keeping cords and accessories away from the sleep space. Extra features only earn their place when they support the household's routine.",
   },
 ];
 
@@ -94,6 +85,8 @@ const relatedGuides = [
   description="Compare audio and video baby monitors, with or without Wi-Fi, including range, battery life, privacy and night vision."
   category="Nursery & Kids"
   date="Updated July 2026"
+  dateModified="2026-07-19"
+  faqs={faqs}
   readingTime="6 minute read"
   image="/images/Nursery-kids.webp"
   imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
@@ -210,5 +203,4 @@ const relatedGuides = [
   </p>
 
   <RelatedGuidesBlock guides={relatedGuides} />
-  <FAQBlock items={faqs} />
 </ArticleLayout>

@@ -1,7 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import ComparisonTable from "../../../components/ComparisonTable.astro";
-import FAQBlock from "../../../components/FAQBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const comparisonRows = [
@@ -25,15 +24,15 @@ const comparisonRows = [
 const faqs = [
   {
     question: "Is a bassinet essential?",
-    answer: "Not always. A bassinet can be useful in the early months, but some families start with a cot if it fits safely in the room and suits their routine.",
+    answer: "Not always. A bassinet can be convenient during the early months because it has a smaller footprint, but its useful stage may be brief. Some families begin with a cot when it fits the room, works for the current routine and can be set up according to current guidance and its instructions.",
   },
   {
     question: "Can a newborn use a cot?",
-    answer: "Many families use a cot from the beginning, provided it is assembled correctly, has a suitable firm mattress and is used according to current guidance and manufacturer instructions.",
+    answer: "Many families use a cot from the beginning. The decision should follow current safe-sleep guidance and the manufacturer's instructions, with the cot assembled correctly and a suitable firm mattress that fits as intended. The cot also needs to fit the room without blocking the adult's route or daily care tasks.",
   },
   {
     question: "What should I check before using second-hand items?",
-    answer: "Check labels, instructions, age, condition, missing parts, mattress fit, recalls and safety notices. Avoid any item with an unknown history or damage.",
+    answer: "Check the label and instructions, the item's age and condition, every required part, mattress fit, current recalls and safety notices. A lower price does not make missing hardware, damage or an unknown history acceptable. If the item cannot be identified, checked and assembled exactly as intended, leave it out of the sleep setup.",
   },
 ];
 
@@ -66,6 +65,8 @@ const relatedGuides = [
   description="Compare bassinets and cots for space, budget, mattress fit and age suitability, with Australian safety checks to make before buying."
   category="Nursery & Kids"
   date="Updated July 2026"
+  dateModified="2026-07-19"
+  faqs={faqs}
   readingTime="5 minute read"
   image="/images/Nursery-kids.webp"
   imageAlt="A tidy nursery with a cot, change area and practical baby storage"
@@ -157,5 +158,4 @@ const relatedGuides = [
   </p>
 
   <RelatedGuidesBlock guides={relatedGuides} />
-  <FAQBlock items={faqs} />
 </ArticleLayout>

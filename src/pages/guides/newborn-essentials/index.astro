@@ -2,7 +2,6 @@
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import ProductCard from "../../../components/ProductCard.astro";
 import ComparisonTable from "../../../components/ComparisonTable.astro";
-import FAQBlock from "../../../components/FAQBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
 
@@ -32,15 +31,15 @@ const comparisonRows = [
 const faqs = [
   {
     question: "How many newborn clothes are useful?",
-    answer: "Enough for frequent changes and laundry gaps, but not so many that your baby grows out of them unworn. A small mix of newborn and 0-3 month sizes is often more practical.",
+    answer: "Keep enough simple layers for frequent changes and the gap between laundry loads, without filling drawers with one size. A small mix of newborn and the next size is often more practical because fit, season and growth are uncertain. Start modestly, then add what the real washing routine shows is missing.",
   },
   {
     question: "Should everything be ready before the baby arrives?",
-    answer: "No. It is sensible to prepare the safety and care basics, then wait on items that depend on your baby, your feeding plan or your home routine.",
+    answer: "No. Prepare the current safe-sleep, travel, changing, clothing and basic care needs, then leave room for the baby and household routine to shape the rest. Items tied to feeding preferences, room layout or an imagined future routine can usually wait until there is a repeated need to solve.",
   },
   {
     question: "Are expensive nursery items always better?",
-    answer: "Not automatically. Fit, safety, cleanability, durability and everyday use matter more than price or nursery styling.",
+    answer: "Not automatically. Price and styling do not replace checks for fit, current guidance, product instructions, cleanability, durability and everyday use. A modest item that fits the room and routine can be more useful than an elaborate one that crowds the space, creates extra washing or solves a problem the household does not have.",
   },
 ];
 
@@ -88,6 +87,8 @@ const relatedGuides = [
   description="A practical Australian guide to the items that tend to matter most in the first few months, with notes on what can wait."
   category="Nursery & Kids"
   date="Updated July 2026"
+  dateModified="2026-07-19"
+  faqs={faqs}
   readingTime="6 minute read"
   image="/images/Nursery-kids.webp"
   imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
@@ -202,6 +203,5 @@ const relatedGuides = [
     a generic newborn list before the baby arrives.
   </p>
 
-  <FAQBlock items={faqs} />
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>

@@ -7,6 +7,7 @@ const distRoot = path.join(root, "dist");
 const sitemapPath = path.join(distRoot, "sitemap.xml");
 const siteOrigin = "https://australianhomecollective.com.au";
 const errors = [];
+const faqQuestions = new Map();
 
 function addError(message) {
   errors.push(message);
@@ -21,6 +22,14 @@ function walk(directory) {
 
 function firstMatch(html, pattern) {
   return html.match(pattern)?.[1]?.trim() ?? "";
+}
+
+function plainText(html) {
+  return html
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&(?:[a-z]+|#\d+|#x[a-f\d]+);/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function outputPathForUrl(urlValue) {
@@ -88,6 +97,26 @@ for (const file of htmlFiles) {
         addError(`${relativePath} is missing ${requiredType} structured data.`);
       }
     }
+
+    const faqItems = [...html.matchAll(/<div class="faq-item">\s*<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>\s*<\/div>/gi)];
+    if (faqItems.length !== 3) {
+      addError(`${relativePath} has ${faqItems.length} FAQ answers; expected exactly 3.`);
+    }
+    for (const [, questionHtml, answerHtml] of faqItems) {
+      const question = plainText(questionHtml);
+      const answer = plainText(answerHtml);
+      const answerWordCount = answer.split(/\s+/).filter(Boolean).length;
+      if (!question.endsWith("?")) {
+        addError(`${relativePath} has an FAQ heading that is not a question: ${question}`);
+      }
+      if (answerWordCount < 25 || answerWordCount > 100) {
+        addError(`${relativePath} FAQ answer has ${answerWordCount} words; expected 25–100: ${question}`);
+      }
+      const normalizedQuestion = question.toLowerCase();
+      const matches = faqQuestions.get(normalizedQuestion) ?? [];
+      matches.push(relativePath);
+      faqQuestions.set(normalizedQuestion, matches);
+    }
   }
   if (indexable && /^categories\/.+\/index\.html$/.test(relativePath) && !structuredDataTypes.has("BreadcrumbList")) {
     addError(`${relativePath} is missing BreadcrumbList structured data.`);
@@ -120,6 +149,12 @@ for (const file of htmlFiles) {
   }
 
   pages.push({ relativePath, title, description, canonical, indexable });
+}
+
+for (const [question, matches] of faqQuestions) {
+  if (matches.length > 1) {
+    addError(`FAQ question is duplicated across pages "${question}": ${matches.join(", ")}`);
+  }
 }
 
 for (const field of ["title", "description", "canonical"]) {
@@ -170,4 +205,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Site output audit passed: ${htmlFiles.length} pages checked with unique indexable metadata, valid canonicals, internal links and sitemap coverage.`);
+console.log(`Site output audit passed: ${htmlFiles.length} pages checked with unique metadata, canonicals, links, sitemap coverage and article FAQs.`);

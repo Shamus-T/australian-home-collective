@@ -1,7 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import ComparisonTable from "../../../components/ComparisonTable.astro";
-import FAQBlock from "../../../components/FAQBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const comparisonRows = [
@@ -35,19 +34,15 @@ const comparisonRows = [
 const faqs = [
   {
     question: "What are the most important nursery essentials?",
-    answer: "Start with a safe sleep space that follows current guidance, fitted sheets, nappies, wipes, basic clothing, a stable change area, feeding cloths, laundry storage and a simple place for daily supplies.",
+    answer: "Start with a safe sleep space that follows current guidance, fitted sheets made for it, nappies, wipes, basic clothing, a stable change setup, feeding cloths and a simple place for daily supplies and laundry. These support the first care routines without requiring a fully furnished or decorated nursery before the baby arrives.",
   },
   {
     question: "Do I need a separate nursery before the baby arrives?",
-    answer: "No. Many families begin with the baby's own safe sleep space in the parent or caregiver's room and a small changing setup. A separate nursery can develop gradually around the home's space and routines.",
+    answer: "No. Many families begin with the baby's own safe sleep space in a parent or caregiver's room and a compact changing supply setup. A separate nursery can develop gradually once the household understands where feeding, changing, sleep, laundry and storage work best within the space that is actually available.",
   },
   {
     question: "How can I avoid buying too much nursery gear?",
-    answer: "Buy the current safety and daily-care basics first, then wait. If an item does not solve a repeated sleep, feeding, changing, storage or comfort problem, it can usually stay off the first list.",
-  },
-  {
-    question: "What should renters consider when setting up a nursery?",
-    answer: "Use suitable freestanding storage and furniture that can move rooms later. Check the lease and product instructions before fixing shelves, hooks or blind-safety hardware to walls.",
+    answer: "Buy the current safety and daily-care basics first, then wait. Let repeated sleep, feeding, changing, laundry, storage or comfort problems reveal the next useful purchase. Count the full footprint, cleaning work and useful life of an item rather than treating a styled nursery checklist as something every household must complete.",
   },
 ];
 
@@ -100,6 +95,8 @@ const relatedGuides = [
   description="A guide to the nursery basics Australian families may need for sleep, feeding, changing, storage and comfort."
   category="Nursery & Kids"
   date="Updated July 2026"
+  dateModified="2026-07-19"
+  faqs={faqs}
   readingTime="7 minute read"
   image="/images/Nursery-kids.webp"
   imageAlt="A tidy nursery room with timber furniture, soft lighting and practical baby storage"
@@ -263,7 +260,6 @@ const relatedGuides = [
     that actually exist rather than the nursery imagined before birth.
   </p>
 
-  <FAQBlock items={faqs} />
 
   <h2>Keep safety guidance ahead of product trends</h2>
   <p>
