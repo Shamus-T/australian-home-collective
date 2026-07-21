@@ -32,6 +32,65 @@ function plainText(html) {
     .trim();
 }
 
+function renderedText(html) {
+  return html
+    .replace(/<[^>]*>/g, "")
+    .replace(/&nbsp;|&#0*32;|&#x0*20;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;|&#0*39;|&#x0*27;/gi, "'")
+    .replace(/&(?:lsquo|rsquo);/gi, "’")
+    .replace(/&(?:ldquo|rdquo);/gi, "”")
+    .replace(/&(?:ndash|mdash);/gi, "—")
+    .replace(/&#(?:x[\da-f]+|\d+);/gi, "x")
+    .replace(/&[a-z]+;/gi, "x");
+}
+
+function inlineLinkSpacingErrors(html) {
+  const issues = [];
+  const linkPattern = /<a\b[^>]*>([\s\S]*?)<\/a>/gi;
+
+  for (const match of html.matchAll(linkPattern)) {
+    const linkText = renderedText(match[1]);
+    if (!linkText) continue;
+
+    const start = match.index;
+    const end = start + match[0].length;
+    const precedingTextStart = html.lastIndexOf(">", start - 1) + 1;
+    const followingTagStart = html.indexOf("<", end);
+    const precedingText = renderedText(html.slice(precedingTextStart, start));
+    const followingText = renderedText(html.slice(end, followingTagStart === -1 ? html.length : followingTagStart));
+    const previousCharacter = precedingText.at(-1) ?? "";
+    const firstLinkCharacter = linkText[0];
+    const lastLinkCharacter = linkText.at(-1);
+    const nextTextToken = followingText.match(/^\S+/u)?.[0] ?? "";
+    const openingPunctuation = new Set(["(", "[", "{", "“", "‘", "-", "–", "—", "/"]);
+
+    if (
+      previousCharacter &&
+      !/\s/u.test(previousCharacter) &&
+      !/\s/u.test(firstLinkCharacter) &&
+      !openingPunctuation.has(previousCharacter)
+    ) {
+      issues.push({ position: start, side: "before" });
+    }
+
+    if (/^[\p{L}\p{N}]/u.test(nextTextToken)) {
+      issues.push({ position: end, side: "after" });
+    } else if (
+      /^[.,;:!?\])}”]+[\p{L}\p{N}]/u.test(nextTextToken) &&
+      /[\p{L}\p{N}’'"]$/u.test(lastLinkCharacter)
+    ) {
+      issues.push({ position: end, side: "after" });
+    }
+  }
+
+  return issues.map(({ position, side }) => {
+    const context = plainText(html.slice(Math.max(0, position - 80), Math.min(html.length, position + 120)));
+    return `missing whitespace ${side} an inline link near “${context}”`;
+  });
+}
+
 function outputPathForUrl(urlValue) {
   const url = new URL(urlValue, siteOrigin);
   if (url.origin !== siteOrigin) return null;
@@ -61,6 +120,10 @@ for (const file of htmlFiles) {
   const indexable = !robots.toLowerCase().includes("noindex");
   const structuredDataBlocks = [...html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];
   const structuredDataTypes = new Set();
+
+  for (const issue of inlineLinkSpacingErrors(html)) {
+    addError(`${relativePath} has ${issue}.`);
+  }
 
   for (const [, value] of structuredDataBlocks) {
     try {
@@ -205,4 +268,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Site output audit passed: ${htmlFiles.length} pages checked with unique metadata, canonicals, links, sitemap coverage and article FAQs.`);
+console.log(`Site output audit passed: ${htmlFiles.length} pages checked with valid inline-link spacing, unique metadata, canonicals, links, sitemap coverage and article FAQs.`);

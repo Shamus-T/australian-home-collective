@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/audit-site-output.mjs",
     "audit:site:dist": "node scripts/audit-site-output.mjs",
     "audit:commercial": "node scripts/audit-commercial-data.mjs",
     "audit:commercial:dist": "node scripts/audit-commercial-data.mjs --dist",
