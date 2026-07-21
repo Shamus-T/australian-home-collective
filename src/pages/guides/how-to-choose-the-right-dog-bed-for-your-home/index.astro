@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -10,38 +11,47 @@ const relatedGuides = [
   },
   {
     href: "/guides/pet-essentials-for-australian-homes/",
-    title: "Pet Essentials for Australian Homes",
-    description: "Feeding, bedding, cleaning, grooming, travel and storage basics.",
+    title: "Pet Essentials for Australian Homes: What to Buy First",
+    description: "Build a short first list around feeding, rest, cleaning and necessary travel.",
   },
   {
-    href: "/guides/pet-friendly-home-products-for-australian-households/",
-    title: "A Home That Works for Pets and People",
-    description: "Practical bedding, cleaning, storage and flooring-protection ideas.",
-  },
-  {
-    href: "/guides/pet-feeding-station-ideas-for-australian-homes/",
-    title: "Pet Feeding Station Ideas for Australian Homes",
-    description: "Plan bowls, mats, water spills, ants, flooring and cleaning around daily feeding.",
+    href: "/guides/new-puppy-essentials/",
+    title: "New Puppy Essentials Australia: What You Need for the First Weeks",
+    description: "Prepare a simple first sleeping place and wait for the puppy's habits to become clearer.",
   },
   {
     href: "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
-    title: "Pet Gates and Barriers That Suit the Opening and the Animal",
-    description: "Measure openings, compare mounting options and plan room separation before buying a barrier.",
+    title: "Dog Gates and Pet Barriers: What to Measure Before You Buy",
+    description: "Plan a room boundary around the opening, animal and route people use.",
   },
   {
     href: "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
     title: "Pet Cleaning Supplies That Help With Hair, Mud and Odour",
     description: "Plan cleaning supplies around hair, mud, odour, bedding, floors and everyday mess.",
   },
+];
+
+const bedTypes = [
   {
-    href: "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
-    title: "Pet Travel Essentials for Cars, Vet Visits and Short Trips",
-    description: "Plan car trips, vet visits, carriers, restraints, towels and cleaning before buying travel gear.",
+    name: "Flat mats and rectangular beds",
+    usefulFor: "Dogs that stretch out, compact rooms and households that need a bed that is straightforward to move.",
+    measureFirst: "The dog's usual stretched sleeping length and width, plus the full outside footprint in the room.",
+    checkBeforeBuying: "Usable sleeping area, cover and insert care, base grip, thickness under the dog's weight and drying space.",
+    avoidIf: "The dog consistently seeks an edge to lean against or the proposed bed offers too little support for an individual need.",
   },
   {
-    href: "/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/",
-    title: "A Pet Setup for Rentals That Protects the Home",
-    description: "Plan removable, washable pet gear around floors, doors, odour and inspections.",
+    name: "Bolster beds",
+    usefulFor: "Dogs that curl or regularly rest their head and body against a raised edge.",
+    measureFirst: "The internal sleeping surface; thick sides can remove much of the space inside the outside dimensions.",
+    checkBeforeBuying: "Entry height, firmness of the sides, removable parts, seam access and whether the cover and filling can be cleaned separately.",
+    avoidIf: "The sides restrict a dog that sprawls, make access awkward or create more washing than the household can manage.",
+  },
+  {
+    name: "Raised frame beds",
+    usefulFor: "Airflow, sweeping beneath the bed and dogs that prefer a taut surface.",
+    measureFirst: "Frame length and width, sleeping surface, step-up height and clearance around the assembled frame.",
+    checkBeforeBuying: "Stated size and weight limits, frame stability, fabric tension, assembly instructions and replacement-cover availability.",
+    avoidIf: "Step-up height, movement or a taut surface does not suit the individual dog, particularly where mobility has changed.",
   },
 ];
 
@@ -62,13 +72,14 @@ const faqs = [
 ---
 
 <ArticleLayout
-  title="How to Choose the Right Dog Bed for Your Home"
-  description="Choose a dog bed by watching how the dog sleeps, measuring the resting position and planning for washing, climate and the floor space it will occupy."
+  title="Dog Beds in Australia: How to Choose the Right Size and Style"
+  seoTitle="Dog Beds Australia: Size, Style and Washability"
+  description="Compare dog beds by usable sleeping space, style, washability, life stage and the floor area the complete bed will occupy."
   category="Pets"
   date="Updated July 2026"
-  dateModified="2026-07-19"
+  dateModified="2026-07-20"
   faqs={faqs}
-  readingTime="9 minute read"
+  readingTime="10 minute read"
   image="/images/pet.webp"
   imageAlt="A calm pet-friendly living room with a washable dog bed near warm natural light"
 >
@@ -81,6 +92,12 @@ const faqs = [
     Watch how and where the dog sleeps before comparing shapes or fabrics. Then measure the usable
     sleeping area, decide how the bed will be washed and mark its full footprint on the floor. The
     best bed is one the dog chooses and the household can maintain.
+  </p>
+  <p>
+    If the bed is part of a first setup, start with the{" "}
+    <a href="/guides/pet-essentials-for-australian-homes/">pet essentials guide</a> or the{" "}
+    <a href="/guides/new-puppy-essentials/">new puppy checklist</a>. This guide is for the narrower
+    buying decision: which bed type fits the dog, the room and the laundry routine.
   </p>
 
   <h2>Let Sleeping Habits Lead the Choice</h2>
@@ -210,6 +227,12 @@ const faqs = [
     posture, the room and the cleaning routine. If the dog already sleeps happily on a washable mat,
     a new bed may not solve a problem.
   </p>
+
+  <ProductDecisionBlock
+    title="Dog-bed styles to compare after you measure"
+    intro="These are product types, not ranked recommendations. Compare the exact model's internal dimensions, care instructions and stated limits before buying."
+    items={bedTypes}
+  />
 
   <h2>Check the Bed in Context</h2>
   <ul class="feature-list">

@@ -767,6 +767,73 @@ h3 {
   margin-top: 28px;
 }
 
+.article-figure {
+  margin: 30px 0 36px;
+}
+
+.article-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: var(--shadow-soft);
+}
+
+.article-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.article-before-after {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.article-before-after__label {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--green-dark);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.article-before-after__panel img {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.article-figure--diagram {
+  width: min(1120px, calc(100vw - 24px));
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.article-diagram-scroll {
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  border-radius: 10px;
+  background: var(--color-cream);
+  box-shadow: var(--shadow-soft);
+}
+
+.article-diagram-scroll:focus-visible {
+  outline: 3px solid var(--green-dark);
+  outline-offset: 3px;
+}
+
+.article-diagram-scroll img {
+  width: 100%;
+  min-width: 960px;
+  max-width: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 .disclosure-block,
 .faq-block,
 .related-guides,
@@ -1246,6 +1313,10 @@ h3 {
 }
 
 @media (max-width: 700px) {
+  .article-before-after {
+    grid-template-columns: 1fr;
+  }
+
   .header-inner {
     align-items: flex-start;
     flex-direction: column;

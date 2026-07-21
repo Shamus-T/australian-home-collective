@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960" role="img" aria-labelledby="office-plan-title office-plan-desc">
+  <title id="office-plan-title">Keep current work close &#8212; keep movement clear</title>
+  <desc id="office-plan-desc">A two-panel home-office planning diagram. The left panel places daily work at the desk, occasional supplies in a nearby divided drawer, and archive items in closed storage farther away. The right panel is a top-down room plan showing the desk and storage footprint, a seated chair and its pull-back path, a fully extended side drawer, a clear walking route, and cable and printer service access.</desc>
+  <defs>
+    <style>
+      .heading { font: 700 44px Inter, Arial, sans-serif; fill: #1f302b; }
+      .subheading { font: 400 23px Inter, Arial, sans-serif; fill: #526159; }
+      .panel-title { font: 700 23px Inter, Arial, sans-serif; fill: #1f302b; letter-spacing: .055em; }
+      .zone-title { font: 700 20px Inter, Arial, sans-serif; fill: #1f302b; letter-spacing: .025em; }
+      .label { font: 700 17px Inter, Arial, sans-serif; fill: #1f302b; }
+      .small { font: 500 16px Inter, Arial, sans-serif; fill: #526159; }
+      .micro { font: 700 14px Inter, Arial, sans-serif; fill: #526159; letter-spacing: .035em; }
+      .measure { stroke: #27758a; stroke-width: 3.5; fill: none; stroke-linecap: round; }
+      .guide { stroke: #9fb8be; stroke-width: 2; stroke-dasharray: 6 6; }
+      .structure { stroke: #526159; stroke-width: 3; fill: none; }
+      .item { fill: #ffffff; stroke: #526159; stroke-width: 2.5; }
+    </style>
+    <marker id="arrow-blue-start" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 10 0 L 0 5 L 10 10 Z" fill="#27758a" />
+    </marker>
+    <marker id="arrow-blue-end" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#27758a" />
+    </marker>
+    <marker id="arrow-green-end" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="24" markerHeight="24" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#4f7f68" />
+    </marker>
+    <marker id="arrow-ochre-end" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#b17629" />
+    </marker>
+  </defs>
+
+  <rect width="1440" height="960" fill="#f6f3eb" />
+  <text x="70" y="70" class="heading">Keep current work close &#8212; keep movement clear</text>
+  <text x="70" y="111" class="subheading">Place storage by how often it is used, then test the chair, drawers and walkway.</text>
+
+  <!-- Left panel: storage hierarchy -->
+  <rect x="60" y="148" width="620" height="714" rx="20" fill="#ffffff" stroke="#d9ded8" stroke-width="3" />
+  <text x="92" y="190" class="panel-title">STORE BY FREQUENCY</text>
+  <text x="92" y="218" class="small">Closest storage is reserved for the work you use most.</text>
+
+  <!-- Frequency guide -->
+  <line x1="111" y1="268" x2="111" y2="739" stroke="#4f7f68" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow-green-end)" />
+  <text x="84" y="365" class="micro" fill="#4f7f68" transform="rotate(-90 84 365)">MORE OFTEN</text>
+  <text x="84" y="705" class="micro" fill="#4f7f68" transform="rotate(-90 84 705)">LESS OFTEN</text>
+
+  <!-- Daily zone -->
+  <rect x="134" y="246" width="514" height="184" rx="16" fill="#edf5f7" stroke="#c8dde2" stroke-width="2" />
+  <circle cx="165" cy="280" r="20" fill="#27758a" />
+  <text x="165" y="287" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">1</text>
+  <text x="196" y="278" class="zone-title">DAILY / CURRENT</text>
+  <text x="196" y="304" class="small">Keep it at the desk.</text>
+
+  <!-- Desk surface and daily items, seen from above -->
+  <rect x="330" y="322" width="283" height="78" rx="6" fill="#dce9e5" stroke="#2b4038" stroke-width="3" />
+  <rect x="348" y="340" width="52" height="40" rx="4" class="item" />
+  <line x1="374" y1="340" x2="374" y2="380" stroke="#9fb8be" stroke-width="2" />
+  <rect x="423" y="337" width="80" height="45" rx="3" fill="#ffffff" stroke="#526159" stroke-width="2.5" />
+  <path d="M 433 346 H 491 M 433 355 H 483 M 433 364 H 488" stroke="#9fb8be" stroke-width="2" />
+  <rect x="522" y="338" width="45" height="43" rx="4" fill="#ffffff" stroke="#526159" stroke-width="2.5" />
+  <path d="M 530 350 H 559 M 530 360 H 553" stroke="#9fb8be" stroke-width="2" />
+  <circle cx="588" cy="359" r="15" fill="#f0b65c" stroke="#8b641f" stroke-width="2.5" />
+  <path d="M 603 359 C 617 359 608 389 624 389" fill="none" stroke="#8b641f" stroke-width="3" stroke-linecap="round" />
+  <circle cx="624" cy="389" r="4" fill="#8b641f" />
+  <text x="166" y="352" class="micro" fill="#27758a">ACTION PAPERS</text>
+  <text x="166" y="375" class="micro" fill="#27758a">NOTEBOOK</text>
+  <text x="166" y="398" class="micro" fill="#27758a">ACTIVE CHARGER</text>
+
+  <!-- Occasional zone -->
+  <rect x="134" y="446" width="514" height="160" rx="16" fill="#eef3ef" stroke="#cedbd4" stroke-width="2" />
+  <circle cx="165" cy="480" r="20" fill="#4f7f68" />
+  <text x="165" y="487" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">2</text>
+  <text x="196" y="478" class="zone-title">OCCASIONAL</text>
+  <text x="196" y="504" class="small">Use a nearby shallow, divided drawer.</text>
+
+  <!-- Divided drawer, seen from above -->
+  <rect x="312" y="522" width="300" height="60" rx="5" fill="#ffffff" stroke="#2b4038" stroke-width="3" />
+  <line x1="397" y1="522" x2="397" y2="582" stroke="#9fb8be" stroke-width="2.5" />
+  <line x1="500" y1="522" x2="500" y2="582" stroke="#9fb8be" stroke-width="2.5" />
+  <path d="M 329 543 C 344 530 366 533 374 548 C 382 564 360 573 346 563 C 334 555 341 542 352 542" fill="none" stroke="#27758a" stroke-width="3" stroke-linecap="round" />
+  <path d="M 418 563 H 475 M 426 545 H 469" stroke="#b17629" stroke-width="5" stroke-linecap="round" />
+  <circle cx="538" cy="552" r="17" fill="#dce9e5" stroke="#526159" stroke-width="2.5" />
+  <path d="M 538 535 V 569 M 521 552 H 555" stroke="#526159" stroke-width="2" />
+  <text x="165" y="547" class="micro" fill="#4f7f68">SPARE LEADS</text>
+  <text x="165" y="570" class="micro" fill="#4f7f68">STATIONERY</text>
+  <text x="165" y="593" class="micro" fill="#4f7f68">CALL ACCESSORIES</text>
+
+  <!-- Archive zone -->
+  <rect x="134" y="622" width="514" height="184" rx="16" fill="#f8f0e3" stroke="#e1cda9" stroke-width="2" />
+  <circle cx="165" cy="656" r="20" fill="#b17629" />
+  <text x="165" y="663" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">3</text>
+  <text x="196" y="654" class="zone-title">ARCHIVE</text>
+  <text x="196" y="680" class="small">Move it farther away into closed storage.</text>
+
+  <!-- Closed cabinet and lidded archive boxes -->
+  <rect x="421" y="700" width="191" height="80" rx="5" fill="#dce9e5" stroke="#2b4038" stroke-width="3" />
+  <line x1="517" y1="700" x2="517" y2="780" stroke="#526159" stroke-width="2.5" />
+  <circle cx="505" cy="740" r="4" fill="#2b4038" />
+  <circle cx="529" cy="740" r="4" fill="#2b4038" />
+  <rect x="302" y="711" width="90" height="62" rx="4" fill="#ffffff" stroke="#526159" stroke-width="2.5" />
+  <rect x="296" y="704" width="102" height="14" rx="3" fill="#f0b65c" stroke="#8b641f" stroke-width="2.5" />
+  <text x="165" y="724" class="micro" fill="#b17629">CLOSED OR</text>
+  <text x="165" y="747" class="micro" fill="#b17629">LIDDED ZONE</text>
+
+  <!-- Right panel: top-down room test -->
+  <rect x="710" y="148" width="670" height="714" rx="20" fill="#ffffff" stroke="#d9ded8" stroke-width="3" />
+  <text x="742" y="190" class="panel-title">TEST THE ROOM IN USE</text>
+  <text x="742" y="218" class="small">Measure with the chair and storage fully open.</text>
+
+  <!-- Room boundary and clear L-shaped route -->
+  <rect x="752" y="238" width="586" height="480" rx="8" fill="#fbfaf6" stroke="#526159" stroke-width="4" />
+  <path d="M 766 620 H 1136 V 495 H 1324 V 704 H 766 Z" fill="#e5f0ea" />
+  <path d="M 790 668 H 1208 V 528" fill="none" stroke="#4f7f68" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-green-end)" />
+  <text x="931" y="693" class="micro" fill="#4f7f68">CLEAR WALKING ROUTE</text>
+
+  <!-- Desk, side drawer unit and printer console footprints -->
+  <rect x="895" y="279" width="283" height="137" rx="5" fill="#dce9e5" stroke="#2b4038" stroke-width="4" />
+  <text x="1037" y="348" text-anchor="middle" class="label">DESK</text>
+  <circle cx="1139" cy="301" r="7" fill="#27758a" />
+  <path d="M 1139 301 C 1139 278 1120 272 1120 251" fill="none" stroke="#27758a" stroke-width="3" stroke-linecap="round" />
+  <rect x="1110" y="244" width="20" height="13" rx="3" fill="#ffffff" stroke="#27758a" stroke-width="2.5" />
+
+  <rect x="778" y="279" width="101" height="137" rx="5" fill="#4d7567" stroke="#29493e" stroke-width="4" />
+  <line x1="786" y1="319" x2="871" y2="319" stroke="#80a092" stroke-width="2" />
+  <line x1="786" y1="362" x2="871" y2="362" stroke="#80a092" stroke-width="2" />
+  <text x="829" y="302" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">SIDE UNIT</text>
+
+  <rect x="1200" y="279" width="104" height="137" rx="5" fill="#dce9e5" stroke="#2b4038" stroke-width="4" />
+  <rect x="1218" y="303" width="68" height="64" rx="7" fill="#ffffff" stroke="#526159" stroke-width="3" />
+  <rect x="1228" y="291" width="48" height="18" rx="3" fill="#ffffff" stroke="#526159" stroke-width="2.5" />
+  <rect x="1233" y="349" width="38" height="8" rx="3" fill="#9fb8be" />
+  <text x="1252" y="396" text-anchor="middle" class="micro">PRINTER</text>
+
+  <!-- Combined desk and storage footprint measurement -->
+  <line x1="778" y1="263" x2="778" y2="247" class="guide" />
+  <line x1="1304" y1="263" x2="1304" y2="247" class="guide" />
+  <line x1="782" y1="252" x2="1300" y2="252" class="measure" marker-start="url(#arrow-blue-start)" marker-end="url(#arrow-blue-end)" />
+  <rect x="908" y="239" width="266" height="27" rx="13" fill="#edf5f7" />
+  <text x="1041" y="258" text-anchor="middle" class="micro" fill="#27758a">DESK / STORAGE FOOTPRINT</text>
+
+  <!-- Fully extended drawer: clear of chair and route -->
+  <rect x="778" y="416" width="101" height="140" rx="5" fill="#edf5f7" stroke="#27758a" stroke-width="4" />
+  <line x1="788" y1="455" x2="869" y2="455" stroke="#9fb8be" stroke-width="2.5" />
+  <line x1="828" y1="425" x2="828" y2="546" stroke="#9fb8be" stroke-width="2.5" />
+  <rect x="770" y="548" width="117" height="16" rx="4" fill="#4d7567" stroke="#29493e" stroke-width="3" />
+  <rect x="813" y="553" width="31" height="5" rx="2" fill="#dce9e5" />
+  <line x1="901" y1="420" x2="901" y2="560" class="measure" marker-start="url(#arrow-blue-start)" marker-end="url(#arrow-blue-end)" />
+  <rect x="773" y="576" width="112" height="26" rx="13" fill="#edf5f7" />
+  <text x="829" y="595" text-anchor="middle" class="micro" fill="#27758a">DRAWER TRAVEL</text>
+
+  <!-- Chair seated at desk -->
+  <rect x="987" y="385" width="100" height="73" rx="24" fill="#29493e" stroke="#1f302b" stroke-width="3" />
+  <rect x="1000" y="369" width="74" height="24" rx="11" fill="#4d7567" stroke="#29493e" stroke-width="3" />
+  <rect x="974" y="402" width="17" height="39" rx="8" fill="#4d7567" />
+  <rect x="1083" y="402" width="17" height="39" rx="8" fill="#4d7567" />
+  <text x="1037" y="430" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">SEATED</text>
+
+  <!-- Pulled-back chair position and movement path -->
+  <path d="M 1037 463 V 510" fill="none" stroke="#b17629" stroke-width="4" stroke-dasharray="8 7" marker-end="url(#arrow-ochre-end)" />
+  <rect x="987" y="523" width="100" height="73" rx="24" fill="#f8f0e3" stroke="#b17629" stroke-width="3" stroke-dasharray="8 6" />
+  <rect x="1000" y="507" width="74" height="24" rx="11" fill="#f8f0e3" stroke="#b17629" stroke-width="3" stroke-dasharray="8 6" />
+  <rect x="974" y="540" width="17" height="39" rx="8" fill="#f8f0e3" stroke="#b17629" stroke-width="2" stroke-dasharray="6 5" />
+  <rect x="1083" y="540" width="17" height="39" rx="8" fill="#f8f0e3" stroke="#b17629" stroke-width="2" stroke-dasharray="6 5" />
+  <text x="1037" y="565" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#8b641f">PULLED BACK</text>
+  <line x1="954" y1="386" x2="954" y2="596" class="measure" marker-start="url(#arrow-blue-start)" marker-end="url(#arrow-blue-end)" />
+  <text x="932" y="491" text-anchor="middle" class="micro" fill="#27758a" transform="rotate(-90 932 491)">CHAIR PULL-BACK</text>
+
+  <!-- Cable and printer service access zone -->
+  <rect x="1120" y="427" width="184" height="65" rx="11" fill="#f8f0e3" stroke="#b17629" stroke-width="3" stroke-dasharray="8 6" />
+  <path d="M 1141 456 H 1173 C 1188 456 1187 441 1201 441" fill="none" stroke="#b17629" stroke-width="3" stroke-linecap="round" />
+  <circle cx="1140" cy="456" r="5" fill="#b17629" />
+  <text x="1216" y="451" text-anchor="middle" class="micro" fill="#8b641f">CABLE + PRINTER</text>
+  <text x="1216" y="473" text-anchor="middle" class="micro" fill="#8b641f">SERVICE ACCESS</text>
+
+  <!-- Usable walkway measurement -->
+  <line x1="1310" y1="500" x2="1326" y2="500" class="guide" />
+  <line x1="1310" y1="704" x2="1326" y2="704" class="guide" />
+  <line x1="1318" y1="504" x2="1318" y2="700" class="measure" marker-start="url(#arrow-blue-start)" marker-end="url(#arrow-blue-end)" />
+  <text x="1294" y="602" text-anchor="middle" class="micro" fill="#27758a" transform="rotate(-90 1294 602)">USABLE WALKWAY</text>
+
+  <!-- Checklist -->
+  <rect x="742" y="744" width="606" height="88" rx="14" fill="#29493e" />
+  <circle cx="780" cy="778" r="19" fill="#f0b65c" />
+  <path d="M 771 778 L 778 785 L 790 769" fill="none" stroke="#29493e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="813" y="775" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">CHECK THE MOVING PARTS</text>
+  <text x="813" y="804" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#dfe9e4">Chair &#183; drawers &#183; doors &#183; cables &#183; printer access</text>
+
+  <text x="70" y="923" class="small">Confirm product and installation requirements before buying.</text>
+</svg>

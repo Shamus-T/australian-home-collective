@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -10,23 +11,18 @@ const relatedGuides = [
   },
   {
     href: "/guides/pet-essentials-for-australian-homes/",
-    title: "Pet Essentials for Australian Homes",
-    description: "Feeding, bedding, cleaning, grooming, travel and storage basics.",
+    title: "Pet Essentials for Australian Homes: What to Buy First",
+    description: "Build a short first list and map the rooms and routines that need support.",
   },
   {
-    href: "/guides/pet-friendly-home-products-for-australian-households/",
-    title: "A Home That Works for Pets and People",
-    description: "Practical bedding, cleaning, storage and flooring-protection ideas.",
+    href: "/guides/new-puppy-essentials/",
+    title: "New Puppy Essentials Australia: What You Need for the First Weeks",
+    description: "Plan a supervised home base before deciding whether a barrier is needed.",
   },
   {
     href: "/guides/pet-feeding-station-ideas-for-australian-homes/",
     title: "Pet Feeding Station Ideas for Australian Homes",
     description: "Plan bowls, mats, water spills, ants, flooring and cleaning around daily feeding.",
-  },
-  {
-    href: "/guides/pet-food-storage-what-to-check-before-buying-containers/",
-    title: "Pet Food Storage That Keeps Feeding Areas Cleaner",
-    description: "Plan food, treats, bowls, pests, odour and cleaning before buying storage.",
   },
   {
     href: "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
@@ -40,8 +36,32 @@ const relatedGuides = [
   },
   {
     href: "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
-    title: "How to Choose the Right Dog Bed for Your Home",
-    description: "Compare dog bed size, cleaning, support, fabric and where the bed will sit.",
+    title: "Dog Beds in Australia: How to Choose the Right Size and Style",
+    description: "Plan the resting area a barrier may protect without blocking the household route.",
+  },
+];
+
+const barrierTypes = [
+  {
+    name: "Pressure-mounted pet gates",
+    usefulFor: "Some measured doorways where a removable barrier suits the animal and intended use.",
+    measureFirst: "Opening width at the top, middle and bottom, skirting and trim depth, mounting height and walking clearance.",
+    checkBeforeBuying: "The exact fit range, approved extensions, contact surfaces, bottom rail, latch and the maker's stated placement limits.",
+    avoidIf: "The surfaces are unsuitable, the opening is outside the stated range or the intended location requires a different approved fixing method.",
+  },
+  {
+    name: "Hardware-mounted pet gates",
+    usefulFor: "Openings where the exact product instructions approve fixed brackets and the mounting surfaces are known to be suitable.",
+    measureFirst: "Opening width, swing area, bracket positions and the clear route through nearby doors, drawers and appliances.",
+    checkBeforeBuying: "Approved fixings, surface requirements, hinge direction, latch operation and any rental or installation permission needed.",
+    avoidIf: "The wall or frame is uncertain, services may be concealed behind it or permanent fixing is not approved.",
+  },
+  {
+    name: "Freestanding barriers and pens",
+    usefulFor: "Temporary, supervised room zoning where wall contact is unnecessary and enough floor area is available.",
+    measureFirst: "The complete footprint, including feet, angled panels and the space people need to pass around it.",
+    checkBeforeBuying: "Panel height and gaps, stability, joints, floor contact and how the individual animal pushes, climbs or chews.",
+    avoidIf: "The animal can move or overturn it, or the situation requires secure containment rather than temporary supervised separation.",
   },
 ];
 
@@ -62,13 +82,14 @@ const faqs = [
 ---
 
 <ArticleLayout
-  title="Pet Gates and Barriers That Suit the Opening and the Animal"
-  description="Choose a pet gate or barrier for the measured opening, animal, behaviour and people who need to pass through it each day."
+  title="Dog Gates and Pet Barriers: What to Measure Before You Buy"
+  seoTitle="Dog Gates and Pet Barriers Australia: Buying Guide"
+  description="Compare pet barriers for the measured opening, animal, mounting surface and people who need to pass through it each day."
   category="Pets"
   date="Updated July 2026"
-  dateModified="2026-07-19"
+  dateModified="2026-07-20"
   faqs={faqs}
-  readingTime="10 minute read"
+  readingTime="11 minute read"
   image="/images/pet.webp"
   imageAlt="A calm pet-friendly living area with a tidy room separation setup and warm natural light"
 >
@@ -81,6 +102,12 @@ const faqs = [
     The animal and the people using the room matter just as much. Height, gaps, stability and latch
     design need to suit observed behaviour, while the household still has to move through the opening
     without creating a daily trip hazard.
+  </p>
+  <p>
+    If the boundary is part of a first setup, begin with{" "}
+    <a href="/guides/pet-essentials-for-australian-homes/">pet essentials for Australian homes</a>{" "}
+    or the <a href="/guides/new-puppy-essentials/">new puppy checklist</a>. This guide starts once
+    there is a defined room-separation problem and an exact opening to measure.
   </p>
 
   <h2>Name the Moment That Needs a Barrier</h2>
@@ -174,7 +201,7 @@ const faqs = [
     and{" "}
     <a href="/guides/pet-food-storage-what-to-check-before-buying-containers/">pet food storage guide</a>{" "}
     cover that routine. If the boundary protects a resting space, see{" "}
-    <a href="/guides/how-to-choose-the-right-dog-bed-for-your-home/">How to Choose the Right Dog Bed for Your Home</a>.
+    <a href="/guides/how-to-choose-the-right-dog-bed-for-your-home/">Dog Beds in Australia</a>.
   </p>
 
   <h2>Allow for Life Stage and a Changing Household</h2>
@@ -206,6 +233,12 @@ const faqs = [
     <a href="/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/">pet cleaning supplies guide</a>{" "}
     can help with the surrounding mess.
   </p>
+
+  <ProductDecisionBlock
+    title="Pet-barrier types to compare after you measure"
+    intro="These are product types, not ranked recommendations. Use only a model whose instructions cover the animal, opening, mounting method and intended location."
+    items={barrierTypes}
+  />
 
   <h2>Check the Barrier After Installation</h2>
   <ul class="feature-list">

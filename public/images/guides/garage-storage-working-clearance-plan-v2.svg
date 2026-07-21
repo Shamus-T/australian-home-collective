@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960" role="img" aria-labelledby="garage-plan-title garage-plan-desc">
+  <title id="garage-plan-title">Check garage access with both front doors and the tailgate open</title>
+  <desc id="garage-plan-desc">A top-down garage concept plan showing a long, narrow vehicle parked on a straight drive-in line, with clear passenger-side and Australian driver-side exits, tailgate loading space and shallow storage set away from the vehicle.</desc>
+  <defs>
+    <style>
+      .heading { font: 700 46px Inter, Arial, sans-serif; fill: #20302a; }
+      .subheading { font: 400 24px Inter, Arial, sans-serif; fill: #526159; }
+      .panel-title { font: 700 25px Inter, Arial, sans-serif; fill: #20302a; letter-spacing: .02em; }
+      .label { font: 700 18px Inter, Arial, sans-serif; fill: #20302a; letter-spacing: .025em; }
+      .small { font: 500 18px Inter, Arial, sans-serif; fill: #526159; }
+      .micro { font: 700 15px Inter, Arial, sans-serif; fill: #526159; letter-spacing: .03em; }
+      .card-heading { font: 700 22px Inter, Arial, sans-serif; fill: #20302a; }
+      .card-copy { font: 400 17px Inter, Arial, sans-serif; fill: #526159; }
+      .wall { stroke: #293832; stroke-width: 14; stroke-linecap: square; }
+      .door-zone { fill: #f8e5df; fill-opacity: .78; stroke: #b5584f; stroke-width: 4; stroke-dasharray: 11 9; }
+      .access { stroke: #5c8c65; stroke-width: 4; fill: none; stroke-linecap: round; }
+    </style>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#27758a" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5c8c65" />
+    </marker>
+  </defs>
+
+  <rect width="1440" height="960" fill="#f6f3eb" />
+  <text x="70" y="76" class="heading">Test access before adding garage storage</text>
+  <text x="70" y="116" class="subheading">Park on your normal line, then open both front doors and the tailgate.</text>
+
+  <rect x="60" y="150" width="940" height="720" rx="20" fill="#ffffff" stroke="#d9ded8" stroke-width="3" />
+  <text x="95" y="194" class="panel-title">TOP-DOWN WORKING-ACCESS PLAN</text>
+
+  <!-- Garage shell. The bottom wall is open across the roller-door span. -->
+  <line x1="105" y1="220" x2="955" y2="220" class="wall" />
+  <line x1="105" y1="220" x2="105" y2="810" class="wall" />
+  <line x1="955" y1="220" x2="955" y2="810" class="wall" />
+  <line x1="105" y1="810" x2="180" y2="810" class="wall" />
+  <line x1="880" y1="810" x2="955" y2="810" class="wall" />
+  <line x1="180" y1="810" x2="880" y2="810" stroke="#27758a" stroke-width="5" stroke-dasharray="18 12" />
+
+  <!-- A broad, straight approach lane aligns the roller opening and parked vehicle. -->
+  <rect x="300" y="227" width="330" height="576" rx="8" fill="#edf5f7" />
+  <path d="M 465 796 V 242" stroke="#27758a" stroke-width="4" stroke-dasharray="12 10" fill="none" marker-end="url(#arrow-blue)" />
+  <text x="530" y="843" text-anchor="middle" class="small">STRAIGHT DRIVE-IN PATH</text>
+
+  <!-- Door clearance sectors sit behind the open door leaves. -->
+  <path d="M 370 365 L 370 505 A 140 140 0 0 1 230 365 Z" class="door-zone" />
+  <path d="M 560 365 L 560 505 A 140 140 0 0 0 700 365 Z" class="door-zone" />
+
+  <!-- Tailgate and loading zone is kept inside the garage, clear of the roller opening. -->
+  <rect x="325" y="665" width="280" height="125" rx="18" fill="#e6f1f3" stroke="#27758a" stroke-width="4" stroke-dasharray="11 9" />
+
+  <!-- A generic vehicle with a convincingly long, narrow top-down footprint. -->
+  <rect x="370" y="270" width="190" height="410" rx="64" fill="#596771" stroke="#2c383e" stroke-width="6" />
+  <path d="M 397 317 Q 465 286 533 317 L 526 381 Q 465 363 404 381 Z" fill="#b9cbd0" stroke="#2c383e" stroke-width="4" />
+  <path d="M 399 561 Q 465 580 531 561 L 537 625 Q 465 654 393 625 Z" fill="#a9bcc2" stroke="#2c383e" stroke-width="4" />
+  <line x1="385" y1="474" x2="545" y2="474" stroke="#39484f" stroke-width="4" />
+  <rect x="352" y="330" width="22" height="74" rx="9" fill="#263238" />
+  <rect x="352" y="550" width="22" height="74" rx="9" fill="#263238" />
+  <rect x="556" y="330" width="22" height="74" rx="9" fill="#263238" />
+  <rect x="556" y="550" width="22" height="74" rx="9" fill="#263238" />
+  <text x="465" y="520" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff">PARKED VEHICLE</text>
+
+  <!-- Both front doors are open. Screen-right is the Australian driver's side. -->
+  <path d="M 371 346 L 218 327 Q 207 326 204 338 L 200 363 Q 199 375 212 378 L 371 391 Z" fill="#71818a" stroke="#2c383e" stroke-width="5" stroke-linejoin="round" />
+  <path d="M 559 346 L 712 327 Q 723 326 726 338 L 730 363 Q 731 375 718 378 L 559 391 Z" fill="#71818a" stroke="#2c383e" stroke-width="5" stroke-linejoin="round" />
+  <text x="240" y="300" text-anchor="middle" class="micro">PASSENGER-SIDE DOOR</text>
+  <text x="690" y="300" text-anchor="middle" class="micro">AUSTRALIAN DRIVER-SIDE DOOR</text>
+
+  <!-- Exit arrows make the usable route out of each front seat explicit. -->
+  <path d="M 402 424 C 350 447 301 462 247 466" class="access" marker-end="url(#arrow-green)" />
+  <path d="M 528 424 C 580 447 629 462 683 466" class="access" marker-end="url(#arrow-green)" />
+  <text x="236" y="503" text-anchor="middle" class="micro" fill="#416d49">PASSENGER EXIT</text>
+  <text x="694" y="503" text-anchor="middle" class="micro" fill="#416d49">DRIVER EXIT</text>
+
+  <!-- Tailgate is shown open within a dedicated rear loading zone. -->
+  <path d="M 393 676 Q 465 700 537 676" fill="none" stroke="#2c383e" stroke-width="5" />
+  <rect x="385" y="714" width="160" height="24" rx="11" fill="#71818a" stroke="#2c383e" stroke-width="4" />
+  <text x="465" y="766" text-anchor="middle" class="micro" fill="#27758a">TAILGATE + LOADING CLEARANCE</text>
+
+  <!-- Shallow storage is deliberately separated from the open driver door. -->
+  <rect x="850" y="290" width="86" height="390" rx="10" fill="#637563" stroke="#354537" stroke-width="5" />
+  <line x1="879" y1="304" x2="879" y2="666" stroke="#9eac9d" stroke-width="3" />
+  <line x1="908" y1="304" x2="908" y2="666" stroke="#9eac9d" stroke-width="3" />
+  <text x="893" y="492" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff" letter-spacing=".03em" transform="rotate(-90 893 492)">MEASURED SHALLOW STORAGE</text>
+  <path d="M 823 365 H 750" stroke="#5c8c65" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-green)" />
+  <text x="792" y="344" text-anchor="middle" class="micro" fill="#416d49">KEEP CLEAR</text>
+
+  <!-- Instruction panel. -->
+  <rect x="1030" y="150" width="350" height="720" rx="20" fill="#ffffff" stroke="#d9ded8" stroke-width="3" />
+  <text x="1065" y="184" class="panel-title">
+    <tspan x="1065" dy="0">USE YOUR</tspan>
+    <tspan x="1065" dy="28">MEASUREMENTS</tspan>
+  </text>
+
+  <circle cx="1084" cy="253" r="24" fill="#27758a" />
+  <text x="1084" y="261" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">1</text>
+  <text x="1124" y="250" class="card-heading">Park normally</text>
+  <text x="1124" y="279" class="card-copy">Use a straight position your</text>
+  <text x="1124" y="303" class="card-copy">household can repeat.</text>
+
+  <circle cx="1084" cy="377" r="24" fill="#27758a" />
+  <text x="1084" y="385" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">2</text>
+  <text x="1124" y="374" class="card-heading">Open both doors</text>
+  <text x="1124" y="403" class="card-copy">Check passenger and</text>
+  <text x="1124" y="427" class="card-copy">Australian driver access.</text>
+
+  <circle cx="1084" cy="501" r="24" fill="#27758a" />
+  <text x="1084" y="509" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">3</text>
+  <text x="1124" y="498" class="card-heading">Test rear access</text>
+  <text x="1124" y="527" class="card-copy">Open the tailgate and load</text>
+  <text x="1124" y="551" class="card-copy">the largest normal item.</text>
+
+  <circle cx="1084" cy="625" r="24" fill="#27758a" />
+  <text x="1084" y="633" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">4</text>
+  <text x="1124" y="622" class="card-heading">Mark the storage</text>
+  <text x="1124" y="651" class="card-copy">Tape its full loaded depth</text>
+  <text x="1124" y="675" class="card-copy">before you buy or install.</text>
+
+  <rect x="1062" y="725" width="286" height="103" rx="14" fill="#eef3ef" />
+  <text x="1082" y="756" class="card-heading">No universal clearance</text>
+  <text x="1082" y="785" class="card-copy">Your vehicle, household and</text>
+  <text x="1082" y="809" class="card-copy">installation needs decide.</text>
+
+  <text x="70" y="923" class="small">Concept diagram. Use your measurements and confirm critical manufacturer requirements before buying or installing storage.</text>
+</svg>

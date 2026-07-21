@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ProductDecisionBlock from "../../../components/ProductDecisionBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -9,9 +10,9 @@ const relatedGuides = [
     description: "Guides for feeding, bedding, cleaning, travel and pet routines at home.",
   },
   {
-    href: "/guides/pet-friendly-home-products-for-australian-households/",
-    title: "A Home That Works for Pets and People",
-    description: "Plan feeding, resting, play and cleaning zones around the animals in the home.",
+    href: "/guides/pet-essentials-for-australian-homes/",
+    title: "Pet Essentials for Australian Homes: What to Buy First",
+    description: "Map feeding, resting, toileting and cleaning zones before adding more pet products.",
   },
   {
     href: "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
@@ -22,6 +23,37 @@ const relatedGuides = [
     href: "/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/",
     title: "A Pet Setup for Rentals That Protects the Home",
     description: "Use movable, washable pet zones that respect floors, doors and inspection needs.",
+  },
+];
+
+const trayTypes = [
+  {
+    name: "Large open trays",
+    usefulFor: "A simple starting point with clear access, visibility and room to turn.",
+    measureFirst: "The cat's length, the usable internal tray dimensions and the full floor area needed to enter and clean around it.",
+    checkBeforeBuying: "Entry height, base stability, corner shape, lifting points and whether the tray fits the cleaning and waste route.",
+    avoidIf: "The internal space is cramped or the household is relying on a small tray only because it fits a hidden position.",
+  },
+  {
+    name: "High-sided open trays",
+    usefulFor: "Cats that scatter litter or toilet near an edge while still needing an open route above the tray.",
+    measureFirst: "Internal floor space and the lowest entry point, not only the outside height.",
+    checkBeforeBuying: "Whether the cat can enter comfortably, how the high sides affect lifting and where tracked litter will still land.",
+    avoidIf: "The entry is difficult for a kitten, older cat or cat with reduced mobility.",
+  },
+  {
+    name: "Low-entry trays",
+    usefulFor: "Cats that need an easier step into the tray while retaining enough internal turning space.",
+    measureFirst: "Entry height, internal length and width, and the clear approach route.",
+    checkBeforeBuying: "Stability at the lowered edge, likely litter scatter and whether the tray remains practical to empty and wash.",
+    avoidIf: "The lower edge lets ordinary output or litter escape because the tray is otherwise too shallow or small.",
+  },
+  {
+    name: "Covered trays",
+    usefulFor: "Households considering a more visually contained tray when the individual cat accepts the enclosure.",
+    measureFirst: "Internal length, width and height with the cover fitted, plus door and cleaning clearance.",
+    checkBeforeBuying: "Ventilation, entry size, ease of removing the cover and whether odour or waste becomes harder to inspect.",
+    avoidIf: "The cover reduces usable room, creates a difficult route or the cat shows a preference for an open tray.",
   },
 ];
 
@@ -42,13 +74,14 @@ const faqs = [
 ---
 
 <ArticleLayout
-  title="A Cat Litter Tray Setup That Works in the Home"
-  description="Plan cat litter trays around access, privacy, cleaning, multiple cats and the rooms people still need to use."
+  title="Cat Litter Trays in Australia: How to Choose Size and Style"
+  seoTitle="Cat Litter Trays Australia: Size, Style and Setup"
+  description="Plan tray number, location and cleaning access, then compare open, high-sided, low-entry and covered cat litter trays."
   category="Pets"
   date="Updated July 2026"
-  dateModified="2026-07-19"
+  dateModified="2026-07-20"
   faqs={faqs}
-  readingTime="7 minute read"
+  readingTime="8 minute read"
   showAffiliateDisclosure={false}
   image="/images/pet.webp"
   imageAlt="A calm cat-friendly room with a discreet, accessible litter tray and easy-clean floor"
@@ -62,6 +95,12 @@ const faqs = [
     Plan the number and location first, then compare tray size, entry height, litter and cleaning
     access. The best setup is one the cat can use comfortably and the household can keep clean
     without constantly moving it.
+  </p>
+  <p>
+    For the wider feeding, resting and cleaning plan, start with{" "}
+    <a href="/guides/pet-essentials-for-australian-homes/">pet essentials for Australian homes</a>.
+    This guide focuses on the tray decision and keeps the cat's access ahead of how discreet a
+    product looks in the room.
   </p>
 
   <h2>Choose Quiet, Accessible Locations</h2>
@@ -166,6 +205,12 @@ const faqs = [
     <li>doors, appliances or furniture change the access path</li>
     <li>the household cannot keep the current position clean</li>
   </ul>
+
+  <ProductDecisionBlock
+    title="Litter-tray styles to compare after planning the locations"
+    intro="These are product types, not ranked recommendations. Retain the cat's existing acceptable options while comparing a new tray, and change one factor at a time."
+    items={trayTypes}
+  />
 
   <h2>Let the Cat’s Access Lead the Decision</h2>
   <p>
