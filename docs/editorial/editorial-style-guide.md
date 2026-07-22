@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Active |
 | Document type | Internal editorial standard |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
+| Version date | 21 July 2026 |
 
 ## 1. Purpose
 
@@ -72,6 +72,22 @@ Use Australian spelling and usage consistently, including:
 Use metric units first. Include imperial measurements only when the product category commonly uses them, such as television screen sizes, and provide metric context where useful.
 
 Use `Australian Consumer Law`, `ACCC`, `power point`, `gyprock or plasterboard` and other terms in ways Australian readers will recognise. Explain regional or trade terminology when ambiguity is possible.
+
+### Hyphens and compressed compounds
+
+Use hyphens only when they prevent a genuine ambiguity or are part of an established term. Australian Home Collective should not sound as though several nouns and modifiers have been compressed into one label.
+
+Prefer ordinary phrasing:
+
+- `a washer and dryer placed next to each other`, not `a side-by-side washer-dryer layout`;
+- `storage under the sink`, not repeated use of `under-sink storage`;
+- `a room that serves as both a bathroom and laundry`, not `a bathroom-laundry combination`;
+- `requirements for that model`, not `model-specific requirements`; and
+- `long term` when it follows the noun, while retaining `long-term` only where it is needed before a noun.
+
+Common open compounds should remain open, including `living room`, `home office`, `washing machine`, `power point`, `heat pump dryer`, `top loader` and `front loader`.
+
+Do not build sentences around strings of hyphenated modifiers. If a phrase needs two or more hyphens to work, rewrite the sentence in plain language unless the term is a recognised name or quotation. URLs and existing slugs are not changed to match prose style.
 
 ## 6. Audience
 
