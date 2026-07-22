@@ -276,6 +276,8 @@ Images should educate or orient the reader. Prefer:
 
 Write useful alt text for informative images. Use empty alt text for purely decorative images. Do not repeat nearby captions word for word.
 
+Apply the photography, colour, material variety and physical plausibility requirements in the [Brand Style Guide](./brand-style-guide.md) to every commissioned or generated image.
+
 ## 22. Tables
 
 Use tables when they make repeated comparisons easier to understand.

@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Active |
 | Document type | Internal brand and voice standard |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
+| Version date | 23 July 2026 |
 
 ## 1. Brand position
 
@@ -128,6 +128,20 @@ Honest limitations strengthen the brand.
 Visuals should improve understanding. Prioritise diagrams, measurements, layouts and comparison graphics before decorative imagery.
 
 The visual tone should be clear, calm and useful. Avoid badges, warning colours or interface patterns that exaggerate certainty or urgency.
+
+### Photography and generated imagery
+
+Australian Home Collective imagery should feel recognisably varied, contemporary and lived in. Do not allow every room to collapse into the same beige, cream, sage and pale timber look.
+
+- Use confident colour where it suits the subject. Cobalt, teal, wattle, coral, terracotta, burgundy and clear painted finishes can provide useful contrast without making an image loud.
+- Vary materials across the site. Painted cabinetry, stainless steel, coloured laminate, terrazzo, tile, stone, upholstery and metal should appear alongside timber rather than timber becoming the default surface in every scene.
+- Do not request a `warm timber interior`, `muted neutral palette` or similar stock styling unless the article specifically needs it.
+- Give related guides visibly different settings, palettes and compositions. A new image should add range to the site rather than reproduce the dominant look of recent images.
+- Keep the product or planning issue easy to read. Colour must not obscure controls, clearances, hazards or the feature the image is meant to explain.
+- Check physical plausibility before use. Cords, hoses, doors, handles, controls, reflections, shadows and product placement must make sense. A cordless product must not appear connected to a power lead, and a robot vacuum must not appear tethered to its dock.
+- Reject generated images with invented brand marks, unreadable labels, malformed products or ambiguous accessories. Regenerate the image instead of explaining away a visible error in the caption.
+
+Before approving an image, compare it with the most recent images in the same category and across the Guides Index. If the colour palette, timber treatment or room styling feels repetitive, choose a different visual direction.
 
 ## 13. Tools and result language
 
