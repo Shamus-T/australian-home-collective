@@ -1,0 +1,300 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  {
+    href: "/categories/kitchen/",
+    title: "Kitchen",
+    description: "More practical kitchen guides covering appliances, cookware, storage and everyday setup.",
+  },
+  {
+    href: "/guides/dishwasher-sizes-australia/",
+    title: "Dishwasher Sizes Australia",
+    description: "Measure the cavity, services and open door before choosing a freestanding, built under or slimline dishwasher.",
+  },
+  {
+    href: "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+    title: "Small Kitchen Appliances That Earn Their Bench Space",
+    description: "Check storage, power and cleaning effort before adding another appliance.",
+  },
+  {
+    href: "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
+    title: "Kitchen Bench Space That Stays Clear",
+    description: "Plan a useful preparation area around the appliances and tools used every day.",
+  },
+];
+
+const faqs = [
+  {
+    question: "What size cavity do I need for a fridge?",
+    answer: "The cavity must be larger than the refrigerator where the manufacturer requires space at the sides, top or rear. Measure the opening at several heights and depths, then use the installation guide for the exact model. A fridge that is 700 mm wide should not be assumed to fit a 700 mm opening.",
+  },
+  {
+    question: "How much space should be left around a fridge?",
+    answer: "There is no useful allowance that applies to every model. Current examples in this guide require different side, rear and overhead clearances. Follow the selected model's installation guide and keep its ventilation path open.",
+  },
+  {
+    question: "Should refrigerator depth include the doors and handles?",
+    answer: "Yes. Record the cabinet depth, total depth with doors and handles, and the depth with the door open. These measurements answer different questions about fit, projection and the working space in front.",
+  },
+];
+---
+
+<ArticleLayout
+  title="Fridge Dimensions Australia: What to Measure Before Buying"
+  seoTitle="Fridge Dimensions Australia: Cavity and Clearance Guide"
+  description="Measure an Australian fridge cavity properly, including ventilation, door swing, handles, delivery access and current model dimensions checked in July 2026."
+  category="Kitchen"
+  date="Published July 2026"
+  dateModified="2026-07-22"
+  readingTime="11 minute read"
+  faqs={faqs}
+  showAffiliateDisclosure={false}
+  image="/images/guides/fridge-dimensions-australia.webp"
+  imageAlt="An open bottom mount refrigerator in a warm Australian kitchen showing the surrounding cabinetry and walking space"
+>
+  <p>
+    Fridge capacity is measured in litres, but litres do not tell you whether the appliance will
+    fit the kitchen. Width, total depth, door swing, ventilation and the delivery route can rule
+    out a model before its internal layout matters.
+  </p>
+  <p>
+    Start with the finished opening and the path into the house. Then compare it with the exact
+    manufacturer's planning and installation documents. Fridges with similar capacities can have
+    noticeably different external dimensions.
+  </p>
+
+  <section aria-labelledby="fridge-measurements-heading">
+    <h2 id="fridge-measurements-heading">The measurements that decide whether a fridge fits</h2>
+    <p class="table-hint">Swipe sideways to compare the full table.</p>
+    <div class="comparison-wrap">
+      <table class="comparison-table">
+        <caption>Fridge measurements to record before buying</caption>
+        <thead>
+          <tr>
+            <th scope="col">Measurement</th>
+            <th scope="col">What to record</th>
+            <th scope="col">Why it matters</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Opening width</td>
+            <td>Front, middle and rear width at low, middle and high points</td>
+            <td>Walls and cabinetry are not always square. Use the narrowest reliable figure.</td>
+          </tr>
+          <tr>
+            <td>Opening height</td>
+            <td>Floor to the underside of the cupboard or bulkhead</td>
+            <td>Include flooring, levelling feet and required overhead ventilation.</td>
+          </tr>
+          <tr>
+            <td>Opening depth</td>
+            <td>Rear wall to the front edge of the adjoining cabinets</td>
+            <td>Shows how far the doors and handles may project into the room.</td>
+          </tr>
+          <tr>
+            <td>Product depth</td>
+            <td>Cabinet, door, handle and open door figures where published</td>
+            <td>Each figure describes a different part of the installed appliance.</td>
+          </tr>
+          <tr>
+            <td>Door and drawer opening</td>
+            <td>Full swing, hinge side, drawer projection and nearby walls</td>
+            <td>Shelves and crisper bins may need a wider opening angle for removal.</td>
+          </tr>
+          <tr>
+            <td>Ventilation</td>
+            <td>Required gaps at the sides, rear and top</td>
+            <td>The product body cannot use space reserved for ventilation.</td>
+          </tr>
+          <tr>
+            <td>Delivery route</td>
+            <td>Doorways, halls, stairs, turns and lift openings</td>
+            <td>The kitchen cavity is irrelevant if the packaged appliance cannot reach it.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <h2>Current refrigerator examples checked in July 2026</h2>
+  <p>
+    The following models were current on Australian manufacturer and major retailer websites when
+    checked on 22 July 2026. Each had a strong owner review signal and enough published dimensions
+    to be useful as a planning example. They are not lab tested recommendations from Australian
+    Home Collective. Ratings and stock can change, and some retailer systems combine reviews from
+    closely related finishes or variants.
+  </p>
+  <p class="table-hint">Swipe sideways to compare the full table.</p>
+  <div class="comparison-wrap">
+    <table class="comparison-table">
+      <caption>Current fridges with strong customer review signals</caption>
+      <thead>
+        <tr>
+          <th scope="col">Model</th>
+          <th scope="col">Published product dimensions</th>
+          <th scope="col">Review signal checked</th>
+          <th scope="col">Planning point</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>LG GB-455UPLE, 420 L bottom mount</td>
+          <td>700 W × 1720 H × 700 D mm</td>
+          <td>4.6/5 from more than 1,300 reviews at Appliances Online</td>
+          <td>A common 700 mm wide body, but not a 700 mm cavity instruction.</td>
+        </tr>
+        <tr>
+          <td>Westinghouse WHE5204BC, 491 L French door</td>
+          <td>796 W × 1725 H × 769 D mm; 1057 mm deep with door open</td>
+          <td>4.7/5 from 185 reviews on Westinghouse</td>
+          <td>Compact width for a French door model, with important corner clearance.</td>
+        </tr>
+        <tr>
+          <td>Fisher &amp; Paykel RF505ANX1, 511 L French door</td>
+          <td>790 W × 1725 H × 707 D mm</td>
+          <td>4.7/5 from 47 reviews at Appliances Online</td>
+          <td>Shallower than the Westinghouse example, with a detailed current planning guide.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    Review counts are a useful indication of owner experience, not proof that a model will suit a
+    particular household. Read recent low ratings as well as high ratings, and check whether the
+    comments refer to the same finish and model code.
+  </p>
+
+  <h2>What stands out in the current examples</h2>
+  <div class="advice-stack">
+    <section>
+      <h3>LG GB-455UPLE: a useful 700 mm bottom mount reference</h3>
+      <p>
+        LG lists a 420 litre capacity and a 700 mm square width and depth footprint. The freezer
+        uses three drawers and the refrigerator door has six fixed baskets. The large owner review
+        pool is useful because it is not based on a handful of early buyers.
+      </p>
+      <p>
+        The caution is simple: 700 mm is the product width, not permission to build a 700 mm
+        opening. Check the installation manual for ventilation and door requirements before
+        finalising cabinetry.
+      </p>
+    </section>
+    <section>
+      <h3>Westinghouse WHE5204BC: compact French doors with a deep body</h3>
+      <p>
+        At 796 mm wide, this model shows why a French door fridge does not always need a 900 mm
+        opening. It also shows why width alone is misleading. The published total depth is 769 mm,
+        and the doors are designed to sit forward of the cabinetry.
+      </p>
+      <p>
+        Westinghouse specifies 30 mm at each side, 30 mm above and 50 mm behind in its dimension
+        guide. A corner installation needs at least 350 mm on the hinge side to open the doors far
+        enough for shelf and bin removal.
+      </p>
+    </section>
+    <section>
+      <h3>Fisher &amp; Paykel RF505ANX1: less projection, but clearances still apply</h3>
+      <p>
+        This 511 litre model is 790 mm wide and 707 mm deep. Its current planning guide lists a
+        20 mm minimum chassis side clearance, 30 mm at the rear and a 50 mm vent cavity. That is a
+        good example of why the product dimensions and the opening dimensions are separate numbers.
+      </p>
+      <p>
+        It has a 70:30 refrigerator to freezer split, so the internal layout favours fresh food.
+        Compare that split with the way the household shops rather than choosing by total litres.
+      </p>
+    </section>
+  </div>
+
+  <h2>Measure the cavity, not the old refrigerator</h2>
+  <p>
+    An existing fridge may be narrower than the opening, pushed forward by a power point or sitting
+    on an uneven floor. Measuring only the old appliance carries those unknowns into the next
+    purchase.
+  </p>
+  <ul class="feature-list">
+    <li>Remove loose items that prevent access to the sides and rear where practical.</li>
+    <li>Measure the finished opening at several positions.</li>
+    <li>Record skirting, trim, overhead cupboards and power point projections.</li>
+    <li>Check whether the floor changes level or surface inside the opening.</li>
+    <li>Photograph the cavity, connections and surrounding walls for reference in store.</li>
+  </ul>
+
+  <h2>Door swing needs more room than the closed appliance</h2>
+  <p>
+    A refrigerator can fit neatly when closed and still be frustrating every day. Mark the door and
+    drawer paths on the floor with removable tape. Include the island, pantry door, wall return and
+    the person standing in front of the appliance.
+  </p>
+  <p>
+    Check the opening angle needed to remove crisper drawers and shelves. A wall close to the hinge
+    can stop the door before the internal fittings clear, even if the main food compartment remains
+    accessible.
+  </p>
+
+  <h2>Plan power, water and ventilation before delivery</h2>
+  <p>
+    Keep the power point and plug accessible in the position allowed by the manufacturer. A model
+    with plumbed water or an ice maker also needs a suitable water connection and installation that
+    follows the product instructions and local requirements. Do not trap a hose behind the cabinet
+    or use the appliance to force a plug into a shallow recess.
+  </p>
+  <p>
+    Ventilation gaps must remain open. Filling them with trim, baskets or stored trays may affect
+    performance and service access. Follow the exact guide supplied with the model rather than
+    copying the gaps from another refrigerator.
+  </p>
+
+  <h2>Use the Energy Rating Label after capacity and fit</h2>
+  <p>
+    The Australian Government's <a href="https://www.energyrating.gov.au/consumer-information/products/fridges-and-freezers" target="_blank" rel="noopener noreferrer">fridge and freezer guidance</a>{" "}
+    recommends choosing the required size first. Every extra litre adds cooled space, so a larger
+    appliance can cost more to run even when its star rating looks strong.
+  </p>
+  <p>
+    Compare annual kilowatt hours between models with similar capacity and features. The star
+    rating measures efficiency relative to comparable appliances, while the annual energy figure
+    helps estimate running cost using the tariff on your electricity bill.
+  </p>
+
+  <h2>Delivery access can decide the purchase</h2>
+  <p>
+    Measure the narrowest doorway and the tightest turn, not only the front door. Check steps, lift
+    dimensions, handrails, gates, ceiling height at stairs and the path around kitchen islands.
+    Confirm whether the retailer removes doors or packaging for delivery and what happens if the
+    appliance cannot be brought inside.
+  </p>
+  <p>
+    Leave the final installation and settling procedure to the manufacturer's instructions and the
+    delivery service agreed with the retailer. Ask how long the refrigerator must stand before it
+    is switched on if it has been transported at an angle.
+  </p>
+
+  <h2>A practical fridge measurement checklist</h2>
+  <ul class="feature-list">
+    <li>Measure cavity width, height and depth at several points.</li>
+    <li>Use the exact model's installation guide for clearances.</li>
+    <li>Record cabinet, door, handle and open door depth.</li>
+    <li>Test the hinge side and drawer path against walls and islands.</li>
+    <li>Confirm power, water and drainage requirements.</li>
+    <li>Keep ventilation and service access clear.</li>
+    <li>Measure every doorway, turn, stair and lift on the delivery route.</li>
+    <li>Compare energy use only after capacity and fit are suitable.</li>
+  </ul>
+
+  <h2>Sources and model checks</h2>
+  <ul class="feature-list">
+    <li><a href="https://www.lg.com/au/fridge-freezers/bottom-mount/gb-455uple/" target="_blank" rel="noopener noreferrer">LG Australia GB-455UPLE specifications</a></li>
+    <li><a href="https://www.appliancesonline.com.au/filter/refrigeration/fridges/" target="_blank" rel="noopener noreferrer">Appliances Online current fridge listings and owner review counts</a></li>
+    <li><a href="https://www.westinghouse.com.au/fridges-and-freezers/fridges/whe5204bc/" target="_blank" rel="noopener noreferrer">Westinghouse WHE5204BC specifications and reviews</a></li>
+    <li><a href="https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NTU1Njk1" target="_blank" rel="noopener noreferrer">Westinghouse compact French door dimension guide</a></li>
+    <li><a href="https://www.fisherpaykel.com/au/cooling/freestanding/511l-series-7-french-door-refrigerator-freezer-rf505anx1-26999.html" target="_blank" rel="noopener noreferrer">Fisher &amp; Paykel RF505ANX1 specifications</a></li>
+    <li><a href="https://dam.fisherpaykel.com/KZ3PKN00/at/5q5wprs636rr634rxx3b88/FP-PlanningGuide-en-RF505ANUX1-RF505ANUB1-RF505ANX1-RF505BRNX1-RF505BRNB1-RF505BRNUX1-RF505BRNQX1-RefrigeratorFreezer-90004868C-NZ-AU.pdf" target="_blank" rel="noopener noreferrer">Fisher &amp; Paykel 2026 refrigeration planning guide</a></li>
+    <li><a href="https://www.energyrating.gov.au/consumer-information/understand-energy-rating-label" target="_blank" rel="noopener noreferrer">Australian Government guide to the Energy Rating Label</a></li>
+  </ul>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>

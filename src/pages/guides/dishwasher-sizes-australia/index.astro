@@ -1,0 +1,329 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  {
+    href: "/categories/kitchen/",
+    title: "Kitchen",
+    description: "More kitchen planning, appliance, cookware and storage guides for Australian homes.",
+  },
+  {
+    href: "/guides/fridge-dimensions-australia/",
+    title: "Fridge Dimensions Australia",
+    description: "Measure the fridge cavity, ventilation, doors, delivery path and surrounding kitchen space.",
+  },
+  {
+    href: "/guides/everyday-kitchen-essentials-australian-homes/",
+    title: "Everyday Kitchen Essentials",
+    description: "Build a practical kitchen around cooking, serving, cleaning and food storage routines.",
+  },
+  {
+    href: "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
+    title: "Storage Under the Kitchen Sink",
+    description: "Work around pipes, moisture, bins and cleaning supplies before adding organisers.",
+  },
+];
+
+const faqs = [
+  {
+    question: "Are dishwashers a standard size in Australia?",
+    answer: "Most full size models are made for a nominal 600 mm wide space, but actual product width, height and installation requirements vary. Current examples range from 597 to 600 mm wide. Measure the finished opening and use the exact model's installation guide.",
+  },
+  {
+    question: "What size opening does a 60 cm dishwasher need?",
+    answer: "A 600 mm opening is common, but height, depth, services and the way the benchtop or kickboard is finished also matter. A product that is exactly 600 mm wide leaves no tolerance for an opening that is narrow, bowed or out of square.",
+  },
+  {
+    question: "Can a freestanding dishwasher go under a bench?",
+    answer: "Some can, sometimes after removing the worktop, but only when the manufacturer permits that installation. Check the minimum height, ventilation, top protection, hose path and whether the controls remain accessible. A built under model is designed to sit beneath the benchtop without a finished worktop of its own.",
+  },
+];
+---
+
+<ArticleLayout
+  title="Dishwasher Sizes Australia: Measure Before You Buy"
+  seoTitle="Dishwasher Sizes Australia: 60 cm, 45 cm and Cavity Guide"
+  description="Compare Australian dishwasher sizes and measure width, height, depth, services, kickboards and door clearance using current models checked in July 2026."
+  category="Kitchen"
+  date="Published July 2026"
+  dateModified="2026-07-22"
+  readingTime="12 minute read"
+  faqs={faqs}
+  showAffiliateDisclosure={false}
+  image="/images/guides/dishwasher-sizes-australia.webp"
+  imageAlt="An open stainless steel dishwasher installed below a kitchen bench showing racks, cabinetry and door clearance"
+>
+  <p>
+    Most Australian kitchens are planned around a nominal 600 mm dishwasher space. That is a useful
+    starting point, not a guarantee. Current full size models can be 597, 598 or 600 mm wide, and
+    their height, feet, hoses and open door measurements differ.
+  </p>
+  <p>
+    Measure the finished opening before comparing programs. A quiet machine with flexible racks is
+    still the wrong purchase if its feet cannot level within the height, the hose is pinched behind
+    it or the open door blocks the only kitchen walkway.
+  </p>
+
+  <section aria-labelledby="dishwasher-types-heading">
+    <h2 id="dishwasher-types-heading">Dishwasher formats at a glance</h2>
+    <p class="table-hint">Swipe sideways to compare the full table.</p>
+    <div class="comparison-wrap">
+      <table class="comparison-table">
+        <caption>Common dishwasher formats in Australian kitchens</caption>
+        <thead>
+          <tr>
+            <th scope="col">Format</th>
+            <th scope="col">Common nominal width</th>
+            <th scope="col">What changes</th>
+            <th scope="col">Best reason to choose it</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Freestanding</td>
+            <td>600 mm</td>
+            <td>Finished top and sides, product height and whether the top can be removed</td>
+            <td>Simple replacement where the appliance remains visible</td>
+          </tr>
+          <tr>
+            <td>Built under</td>
+            <td>600 mm</td>
+            <td>No finished worktop, lower body height, kickboard treatment and fixing method</td>
+            <td>A neater fit below an existing benchtop without a cabinet door panel</td>
+          </tr>
+          <tr>
+            <td>Fully integrated</td>
+            <td>600 mm</td>
+            <td>Custom door panel, hinge geometry, panel weight and controls on the door edge</td>
+            <td>Matching the dishwasher front to the cabinetry</td>
+          </tr>
+          <tr>
+            <td>Slimline</td>
+            <td>450 mm</td>
+            <td>Smaller rack capacity and fewer place settings</td>
+            <td>A narrow kitchen that cannot provide a full size opening</td>
+          </tr>
+          <tr>
+            <td>DishDrawer</td>
+            <td>600 mm</td>
+            <td>Single or double drawers, different height and plumbing layout</td>
+            <td>Waist height access or separate small loads</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <h2>Current dishwasher examples checked in July 2026</h2>
+  <p>
+    We selected current Australian models with manufacturer specifications, major retailer stock
+    and owner ratings of at least 4.5 when checked on 22 July 2026. They are reference points, not
+    independent lab tested recommendations. Ratings change, and syndicated reviews may combine
+    closely related colours or product variants.
+  </p>
+  <p class="table-hint">Swipe sideways to compare the full table.</p>
+  <div class="comparison-wrap">
+    <table class="comparison-table">
+      <caption>Current dishwashers with strong owner review signals</caption>
+      <thead>
+        <tr>
+          <th scope="col">Model</th>
+          <th scope="col">Published product dimensions</th>
+          <th scope="col">Review signal checked</th>
+          <th scope="col">Useful planning detail</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bosch SMS6HCI02A, Series 6 freestanding</td>
+          <td>600 W × 845 H × 600 D mm</td>
+          <td>4.8/5 from more than 650 reviews</td>
+          <td>Exactly 600 mm wide, 44 dB, 4 energy stars and 5.5 water stars.</td>
+        </tr>
+        <tr>
+          <td>Westinghouse WSF6602XC, freestanding</td>
+          <td>598 W × 845 H × 598 D mm; 1175 mm with door open</td>
+          <td>4.7/5 from more than 220 reviews at Appliances Online</td>
+          <td>Shows the typical small tolerance within a 600 mm opening.</td>
+        </tr>
+        <tr>
+          <td>Fisher &amp; Paykel DW60FC2X3, Series 5 freestanding</td>
+          <td>597 W × 850 to 895 H × 600 D mm</td>
+          <td>4.7/5 from 55 reviews at Appliances Online</td>
+          <td>The minimum height is 850 mm, so low benchtops need careful checking.</td>
+        </tr>
+        <tr>
+          <td>Artusi ADW4501X, slimline freestanding</td>
+          <td>448 W × 845 to 860 H × 600 D mm</td>
+          <td>4.5/5 from more than 60 reviews at Appliances Online</td>
+          <td>A nine place setting option for a nominal 450 mm space.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>What stands out in the current examples</h2>
+  <div class="advice-stack">
+    <section>
+      <h3>Bosch SMS6HCI02A: quiet and strongly reviewed, but exactly 600 mm wide</h3>
+      <p>
+        The 4.8 owner rating is supported by more than 650 reviews. Its 44 dB noise figure, adjustable
+        upper basket and 5.5 star water label suit an open kitchen where the machine may run in the
+        evening.
+      </p>
+      <p>
+        The width is the planning caution. A 600 mm product needs an opening that is genuinely
+        suitable, not a nominal cabinet module narrowed by trim, swelling or walls that are out of
+        square.
+      </p>
+    </section>
+    <section>
+      <h3>Westinghouse WSF6602XC: straightforward full size value</h3>
+      <p>
+        At 598 mm wide and deep, this model leaves a small amount of nominal width tolerance. It
+        offers 14 place settings, a 5 star water rating, 11.5 litres on the tested cycle and a 47 dB
+        noise figure.
+      </p>
+      <p>
+        Its dimension guide lists a 1175 mm total depth with the door open. That open measurement is
+        more important than the closed depth in a galley kitchen or a walkway beside an island.
+      </p>
+    </section>
+    <section>
+      <h3>Fisher &amp; Paykel DW60FC2X3: flexible racks and a taller starting height</h3>
+      <p>
+        Fifteen place settings, an adjustable upper basket, a 46 dB noise figure and an automatic
+        door opening dry system make this a practical family configuration. The current Appliances
+        Online rating is 4.7 from 55 reviews.
+      </p>
+      <p>
+        Its published height starts at 850 mm and adjusts to 895 mm. Do not assume it will replace an
+        845 mm high freestanding machine beneath the same low benchtop.
+      </p>
+    </section>
+    <section>
+      <h3>Artusi ADW4501X: a genuine slimline option with capacity limits</h3>
+      <p>
+        The 448 mm width can recover about 150 mm of cabinetry compared with a full size model. It
+        has nine place settings, six programs and a 4.5 rating from more than 60 owner reviews.
+      </p>
+      <p>
+        The rack is naturally smaller. Appliances Online lists a maximum dinner plate size of
+        308 mm, while the 49 dB noise figure and 3 star water label trail the quieter and more water
+        efficient full size examples. Choose it because the space needs it, not because smaller is
+        automatically cheaper to run.
+      </p>
+    </section>
+  </div>
+
+  <h2>Measure the opening at the front and back</h2>
+  <p>
+    Record the width just inside the cabinet face and again near the rear. Measure at the floor,
+    middle and underside of the bench. Use the smallest figure that reflects the actual path of the
+    appliance.
+  </p>
+  <p>
+    Repeat the height measurement on both sides. Tiles, floorboards and benchtops can slope. Include
+    any trim below the benchtop and check whether the appliance feet can adjust within the finished
+    height.
+  </p>
+
+  <h2>Depth includes hoses, the door and the person loading it</h2>
+  <p>
+    Product depth is only the beginning. Water and drain hoses need a route that does not crush or
+    kink them. The plug and power point must be positioned as allowed by the installation guide.
+    Some models use a neighbouring cabinet for services rather than placing connections directly
+    behind the machine.
+  </p>
+  <p>
+    Mark the open door on the floor. Then add the space needed to pull out the lower rack and stand
+    in front with a plate. A door can clear the island by a few millimetres and still leave no usable
+    loading space.
+  </p>
+
+  <h2>Freestanding, built under and integrated are not interchangeable labels</h2>
+  <p>
+    A freestanding model has a finished worktop and side panels. Some manufacturers permit removal
+    of the top for installation under a bench, but others do not. A built under dishwasher is made
+    to sit beneath the benchtop and normally keeps its own visible front.
+  </p>
+  <p>
+    A fully integrated dishwasher takes a cabinetry panel. That panel has specified dimensions and
+    weight, and its hinge movement must clear the kickboard. Confirm panel preparation before the
+    cabinetmaker finishes the doors.
+  </p>
+
+  <h2>The kickboard can stop the door opening</h2>
+  <p>
+    Check the appliance drawing against the kickboard height and setback. Integrated doors move
+    differently from standard freestanding doors, and a thick or forward kickboard can hit the panel.
+    Do not cut finished cabinetry until the model specific template and installation instructions
+    are available.
+  </p>
+
+  <h2>Services need a safe, accessible route</h2>
+  <p>
+    Confirm the inlet hose, drain hose and power lead lengths against the actual connection points.
+    Do not use an extension lead, improvise plumbing or place connections where the appliance body
+    will crush them. Plumbing and electrical work should be handled by appropriately qualified
+    people where required.
+  </p>
+  <p>
+    Check whether the model accepts cold water only or a controlled hot water connection, along
+    with its maximum inlet temperature and pressure requirements. The correct answer comes from the
+    exact installation guide, not another dishwasher from the same brand.
+  </p>
+
+  <h2>Compare rack layout with your dishes</h2>
+  <p>
+    Place settings are useful for comparing capacity, but they do not describe a large chopping
+    board, deep pasta bowl, long stem glass or the saucepan used every night. Take the diameter and
+    height of awkward items to the showroom and test how the adjustable rack changes the lower space.
+  </p>
+  <ul class="feature-list">
+    <li>Check the largest dinner plate against the lower rack and spray arm.</li>
+    <li>See whether bowls stand securely or collapse together.</li>
+    <li>Compare a cutlery basket with a third tray for the utensils you own.</li>
+    <li>Lower and raise the upper rack before judging tall glass clearance.</li>
+    <li>Make sure handles and controls are comfortable for the main users.</li>
+  </ul>
+
+  <h2>Read water and energy labels together</h2>
+  <p>
+    The Australian Government <a href="https://www.waterrating.gov.au/consumers/water-rating-label" target="_blank" rel="noopener noreferrer">Water Rating Label guide</a>{" "}
+    explains that dishwasher labels show litres per wash, place settings and the cycle used for
+    testing. Compare similar capacities and note that a more efficient test cycle may take longer.
+  </p>
+  <p>
+    The Energy Rating Label uses seven washes per week for its annual assumption. Actual cost will
+    differ with program choice, frequency, water heating and electricity tariff. A half load button
+    does not necessarily halve water or energy use, so a correctly loaded full cycle is often the
+    better comparison.
+  </p>
+
+  <h2>Dishwasher measurement checklist</h2>
+  <ul class="feature-list">
+    <li>Measure width and height at the front, middle and rear.</li>
+    <li>Check floor level and the adjustment range of the feet.</li>
+    <li>Record body depth, hose space and open door depth.</li>
+    <li>Leave enough room to pull out the lower rack and stand in front.</li>
+    <li>Confirm the exact service route and connection requirements.</li>
+    <li>Check the kickboard and custom panel drawings for integrated models.</li>
+    <li>Load your largest plates, bowls and glasses in a display model where possible.</li>
+    <li>Compare WELS litres and energy use between similar capacities.</li>
+  </ul>
+
+  <h2>Sources and model checks</h2>
+  <ul class="feature-list">
+    <li><a href="https://www.bosch-home.com.au/en/mkt-product/dishwashing/freestanding-dishwashers/dishwasher-60-cm-wide/SMS6HCI02A" target="_blank" rel="noopener noreferrer">Bosch SMS6HCI02A specifications and owner reviews</a></li>
+    <li><a href="https://www.appliancesonline.com.au/filter/dishwashers/" target="_blank" rel="noopener noreferrer">Appliances Online current dishwasher listings and review counts</a></li>
+    <li><a href="https://www.westinghouse.com.au/dishwashing/dishwashers/wsf6602xc/" target="_blank" rel="noopener noreferrer">Westinghouse WSF6602XC specifications</a></li>
+    <li><a href="https://www.fisherpaykel.com/au/dishwashing/freestanding/series-5-contemporary-dishwasher-dw60fc2x3-84901.html" target="_blank" rel="noopener noreferrer">Fisher &amp; Paykel DW60FC2X3 specifications</a></li>
+    <li><a href="https://www.appliancesonline.com.au/product/artusi-45cm-freestanding-dishwasher-adw4501x/" target="_blank" rel="noopener noreferrer">Artusi ADW4501X dimensions and owner reviews</a></li>
+    <li><a href="https://www.waterrating.gov.au/consumers/water-rating-label" target="_blank" rel="noopener noreferrer">Australian Government Water Rating Label guide</a></li>
+    <li><a href="https://www.energyrating.gov.au/consumer-information/understand-energy-rating-label" target="_blank" rel="noopener noreferrer">Australian Government Energy Rating Label guide</a></li>
+  </ul>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
