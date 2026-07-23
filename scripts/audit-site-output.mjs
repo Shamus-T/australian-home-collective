@@ -8,6 +8,7 @@ const sitemapPath = path.join(distRoot, "sitemap.xml");
 const siteOrigin = "https://australianhomecollective.com.au";
 const errors = [];
 const faqQuestions = new Map();
+const internalLinks = [];
 
 function addError(message) {
   errors.push(message);
@@ -154,6 +155,11 @@ for (const file of htmlFiles) {
       addError(`${relativePath} is missing ${requiredType} structured data.`);
     }
   }
+  for (const forbiddenType of ["Product", "Review", "AggregateRating"]) {
+    if (structuredDataTypes.has(forbiddenType)) {
+      addError(`${relativePath} contains prohibited ${forbiddenType} structured data.`);
+    }
+  }
   if (indexable && /^guides\/.+\/index\.html$/.test(relativePath)) {
     for (const requiredType of ["Article", "BreadcrumbList"]) {
       if (!structuredDataTypes.has(requiredType)) {
@@ -203,6 +209,11 @@ for (const file of htmlFiles) {
       if (targetPath && !fs.existsSync(targetPath)) {
         addError(`${relativePath} links to missing internal target ${url.pathname}.`);
       }
+      internalLinks.push({
+        source: canonical,
+        sourceIndexable: indexable,
+        target: `${url.origin}${url.pathname}`,
+      });
     } else if (
       !/target="_blank"/i.test(anchor) ||
       !/rel="[^"]*noopener[^"]*noreferrer[^"]*"/i.test(anchor)
@@ -212,6 +223,20 @@ for (const file of htmlFiles) {
   }
 
   pages.push({ relativePath, title, description, canonical, indexable });
+}
+
+const inboundLinks = new Map(
+  pages
+    .filter((page) => page.indexable && page.canonical && page.canonical !== `${siteOrigin}/`)
+    .map((page) => [page.canonical, new Set()]),
+);
+for (const link of internalLinks.filter((candidate) => candidate.sourceIndexable)) {
+  if (link.source && link.source !== link.target && inboundLinks.has(link.target)) {
+    inboundLinks.get(link.target).add(link.source);
+  }
+}
+for (const [canonical, sources] of inboundLinks) {
+  if (sources.size === 0) addError(`${canonical} is indexable but has no inbound internal link.`);
 }
 
 for (const [question, matches] of faqQuestions) {
@@ -268,4 +293,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Site output audit passed: ${htmlFiles.length} pages checked with valid inline-link spacing, unique metadata, canonicals, links, sitemap coverage and article FAQs.`);
+console.log(`Site output audit passed: ${htmlFiles.length} pages checked with valid inline-link spacing, unique metadata, canonicals, links, sitemap coverage, structured-data boundaries, inbound discovery and article FAQs.`);

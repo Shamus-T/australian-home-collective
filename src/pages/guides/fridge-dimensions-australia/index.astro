@@ -1,0 +1,199 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  {
+    href: "/categories/kitchen/",
+    title: "Kitchen",
+    description: "More practical kitchen guides covering appliances, cookware, storage and everyday setup.",
+  },
+  {
+    href: "/guides/dishwasher-sizes-australia/",
+    title: "Dishwasher Sizes Australia",
+    description: "Measure the cavity, services and open door before choosing a freestanding, built under or slimline dishwasher.",
+  },
+  {
+    href: "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+    title: "Small Kitchen Appliances That Earn Their Bench Space",
+    description: "Check storage, power and cleaning effort before adding another appliance.",
+  },
+  {
+    href: "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
+    title: "Kitchen Bench Space That Stays Clear",
+    description: "Plan a useful preparation area around the appliances and tools used every day.",
+  },
+];
+
+const faqs = [
+  {
+    question: "What size cavity do I need for a fridge?",
+    answer: "The cavity must be larger than the refrigerator where the manufacturer requires space at the sides, top or rear. Measure the opening at several heights and depths, then use the installation guide for the exact model. A fridge that is 700 mm wide should not be assumed to fit a 700 mm opening.",
+  },
+  {
+    question: "How much space should be left around a fridge?",
+    answer: "There is no useful allowance that applies to every model. Side, rear and overhead clearances vary with the appliance and installation. Follow the selected model's installation guide and keep its ventilation path open.",
+  },
+  {
+    question: "Should refrigerator depth include the doors and handles?",
+    answer: "Yes. Record the cabinet depth, total depth with doors and handles, and the depth with the door open. These measurements answer different questions about fit, projection and the working space in front.",
+  },
+];
+---
+
+<ArticleLayout
+  title="Fridge Dimensions Australia: What to Measure Before Buying"
+  seoTitle="Fridge Dimensions Australia: Cavity and Clearance Guide"
+  description="Measure an Australian fridge cavity properly, including ventilation, door swing, handles, delivery access and the working space around the appliance."
+  category="Kitchen"
+  date="Published July 2026"
+  dateModified="2026-07-23"
+  readingTime="6 minute read"
+  faqs={faqs}
+  showAffiliateDisclosure={false}
+  image="/images/guides/fridge-dimensions-australia.webp"
+  imageAlt="An open bottom mount refrigerator in a warm Australian kitchen showing the surrounding cabinetry and walking space"
+>
+  <p>
+    Fridge capacity is measured in litres, but litres do not tell you whether the appliance will
+    fit the kitchen. Width, total depth, door swing, ventilation and the delivery route can rule
+    out a model before its internal layout matters.
+  </p>
+  <p>
+    Start with the finished opening and the path into the house. Then compare it with the exact
+    manufacturer's planning and installation documents. Fridges with similar capacities can have
+    noticeably different external dimensions.
+  </p>
+
+  <section aria-labelledby="fridge-measurements-heading">
+    <h2 id="fridge-measurements-heading">The measurements that decide whether a fridge fits</h2>
+    <p class="table-hint">Swipe sideways to compare the full table.</p>
+    <div class="comparison-wrap">
+      <table class="comparison-table">
+        <caption>Fridge measurements to record before buying</caption>
+        <thead>
+          <tr>
+            <th scope="col">Measurement</th>
+            <th scope="col">What to record</th>
+            <th scope="col">Why it matters</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Opening width</td>
+            <td>Front, middle and rear width at low, middle and high points</td>
+            <td>Walls and cabinetry are not always square. Use the narrowest reliable figure.</td>
+          </tr>
+          <tr>
+            <td>Opening height</td>
+            <td>Floor to the underside of the cupboard or bulkhead</td>
+            <td>Include flooring, levelling feet and required overhead ventilation.</td>
+          </tr>
+          <tr>
+            <td>Opening depth</td>
+            <td>Rear wall to the front edge of the adjoining cabinets</td>
+            <td>Shows how far the doors and handles may project into the room.</td>
+          </tr>
+          <tr>
+            <td>Product depth</td>
+            <td>Cabinet, door, handle and open door figures where published</td>
+            <td>Each figure describes a different part of the installed appliance.</td>
+          </tr>
+          <tr>
+            <td>Door and drawer opening</td>
+            <td>Full swing, hinge side, drawer projection and nearby walls</td>
+            <td>Shelves and crisper bins may need a wider opening angle for removal.</td>
+          </tr>
+          <tr>
+            <td>Ventilation</td>
+            <td>Required gaps at the sides, rear and top</td>
+            <td>The product body cannot use space reserved for ventilation.</td>
+          </tr>
+          <tr>
+            <td>Delivery route</td>
+            <td>Doorways, halls, stairs, turns and lift openings</td>
+            <td>The kitchen cavity is irrelevant if the packaged appliance cannot reach it.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <h2>Measure the cavity, not the old refrigerator</h2>
+  <p>
+    An existing fridge may be narrower than the opening, pushed forward by a power point or sitting
+    on an uneven floor. Measuring only the old appliance carries those unknowns into the next
+    purchase.
+  </p>
+  <ul class="feature-list">
+    <li>Remove loose items that prevent access to the sides and rear where practical.</li>
+    <li>Measure the finished opening at several positions.</li>
+    <li>Record skirting, trim, overhead cupboards and power point projections.</li>
+    <li>Check whether the floor changes level or surface inside the opening.</li>
+    <li>Photograph the cavity, connections and surrounding walls for reference in store.</li>
+  </ul>
+
+  <h2>Door swing needs more room than the closed appliance</h2>
+  <p>
+    A refrigerator can fit neatly when closed and still be frustrating every day. Mark the door and
+    drawer paths on the floor with removable tape. Include the island, pantry door, wall return and
+    the person standing in front of the appliance.
+  </p>
+  <p>
+    Check the opening angle needed to remove crisper drawers and shelves. A wall close to the hinge
+    can stop the door before the internal fittings clear, even if the main food compartment remains
+    accessible.
+  </p>
+
+  <h2>Plan power, water and ventilation before delivery</h2>
+  <p>
+    Keep the power point and plug accessible in the position allowed by the manufacturer. A model
+    with plumbed water or an ice maker also needs a suitable water connection and installation that
+    follows the product instructions and local requirements. Do not trap a hose behind the cabinet
+    or use the appliance to force a plug into a shallow recess.
+  </p>
+  <p>
+    Ventilation gaps must remain open. Filling them with trim, baskets or stored trays may affect
+    performance and service access. Follow the exact guide supplied with the model rather than
+    copying the gaps from another refrigerator.
+  </p>
+
+  <h2>Use the Energy Rating Label after capacity and fit</h2>
+  <p>
+    The Australian Government's <a href="https://www.energyrating.gov.au/consumer-information/products/fridges-and-freezers" target="_blank" rel="noopener noreferrer">fridge and freezer guidance</a>{" "}
+    recommends choosing the required size first. Every extra litre adds cooled space, so a larger
+    appliance can cost more to run even when its star rating looks strong.
+  </p>
+  <p>
+    Compare annual kilowatt hours between models with similar capacity and features. The star
+    rating measures efficiency relative to comparable appliances, while the annual energy figure
+    helps estimate running cost using the tariff on your electricity bill.
+  </p>
+
+  <h2>Delivery access can decide the purchase</h2>
+  <p>
+    Measure the narrowest doorway and the tightest turn, not only the front door. Check steps, lift
+    dimensions, handrails, gates, ceiling height at stairs and the path around kitchen islands.
+    Confirm whether the delivery provider can remove doors or packaging and what happens if the
+    appliance cannot be brought inside.
+  </p>
+  <p>
+    Follow the manufacturer's instructions and the agreed delivery service for final installation
+    and settling. Ask how long the refrigerator must stand before it
+    is switched on if it has been transported at an angle.
+  </p>
+
+  <h2>A practical fridge measurement checklist</h2>
+  <ul class="feature-list">
+    <li>Measure cavity width, height and depth at several points.</li>
+    <li>Use the exact model's installation guide for clearances.</li>
+    <li>Record cabinet, door, handle and open door depth.</li>
+    <li>Test the hinge side and drawer path against walls and islands.</li>
+    <li>Confirm power, water and drainage requirements.</li>
+    <li>Keep ventilation and service access clear.</li>
+    <li>Measure every doorway, turn, stair and lift on the delivery route.</li>
+    <li>Compare energy use only after capacity and fit are suitable.</li>
+  </ul>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>

@@ -1,0 +1,203 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  {
+    href: "/categories/laundry/",
+    title: "Laundry",
+    description: "More laundry guides covering appliance fit, drying space, storage and everyday routines.",
+  },
+  {
+    href: "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+    title: "Laundry Dimensions Australia",
+    description: "Measure the washer, dryer, opening zones, hoses and service access before planning the room.",
+  },
+  {
+    href: "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+    title: "Drying Space That Works in Real Weather",
+    description: "Plan indoor and outdoor air drying capacity around the household routine and available space.",
+  },
+  {
+    href: "/guides/lower-waste-laundry-essentials/",
+    title: "A Lower Waste Laundry Routine",
+    description: "Reduce unnecessary products, energy and replacement purchases without complicating laundry day.",
+  },
+];
+
+const faqs = [
+  {
+    question: "Is a heat pump dryer better than a vented dryer?",
+    answer: "A heat pump dryer usually uses much less electricity and does not send moist exhaust air into the room, but it costs more to buy and cycles commonly take longer. A vented dryer can be cheaper and faster, particularly for occasional use, when it can be correctly ducted or the room has suitable ventilation.",
+  },
+  {
+    question: "What is the difference between a condenser and heat pump dryer?",
+    answer: "Both condense moisture into a tank or drain. A conventional condenser dryer uses an electric heating element and expels more heat, while a heat pump model recirculates warm air through a refrigeration system. The heat pump type is generally more efficient but takes longer and costs more upfront.",
+  },
+  {
+    question: "Can a heat pump dryer be wall mounted?",
+    answer: "Usually not. Heat pump and conventional condenser dryers are commonly floor standing machines. Some lighter vented dryers can be wall mounted using the brackets and orientation specified by the manufacturer. Never improvise a wall mounting or stacking arrangement.",
+  },
+];
+---
+
+<ArticleLayout
+  title="Heat Pump vs Condenser vs Vented Dryers"
+  seoTitle="Heat Pump vs Condenser vs Vented Dryer Australia"
+  description="Compare heat pump, condenser and vented clothes dryers for Australian homes, including energy, ventilation, cycle time, installation and maintenance."
+  category="Laundry"
+  date="Published July 2026"
+  dateModified="2026-07-23"
+  readingTime="6 minute read"
+  faqs={faqs}
+  showAffiliateDisclosure={false}
+  image="/images/guides/dryer-types-australia.webp"
+  imageAlt="A front loading washer and dryer side by side in a practical Australian laundry with towels and clear floor space"
+>
+  <p>
+    A dryer type changes more than the electricity bill. It affects room ventilation, cycle time,
+    purchase price, installation options and the amount of heat released into the laundry.
+  </p>
+  <p>
+    Heat pump dryers usually use much less electricity, but they are not the only sensible choice.
+    The better fit depends on how often the dryer runs, whether moist air can be
+    ducted outside, how quickly loads need to finish and what the household can spend upfront.
+  </p>
+
+  <section aria-labelledby="dryer-comparison-heading">
+    <h2 id="dryer-comparison-heading">Dryer types compared</h2>
+    <p class="table-hint">Swipe sideways to compare the full table.</p>
+    <div class="comparison-wrap">
+      <table class="comparison-table">
+        <caption>Heat pump, condenser and vented dryer differences</caption>
+        <thead>
+          <tr>
+            <th scope="col">Type</th>
+            <th scope="col">How moisture leaves the load</th>
+            <th scope="col">Main strengths</th>
+            <th scope="col">Main trade offs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Heat pump</td>
+            <td>Condenses water into a tank or drain and recirculates warm air</td>
+            <td>Low energy use, lower drying temperatures, no moist exhaust into the room</td>
+            <td>Higher purchase price, longer cycles, more filters and a condenser area to maintain</td>
+          </tr>
+          <tr>
+            <td>Conventional condenser</td>
+            <td>Condenses water into a tank or drain using electric resistance heat</td>
+            <td>No external duct, familiar cycle behaviour, often cheaper than a heat pump model</td>
+            <td>Higher energy use and more heat released into the room</td>
+          </tr>
+          <tr>
+            <td>Vented</td>
+            <td>Pushes warm moist air through a front or rear vent</td>
+            <td>Lower purchase price, simple construction, faster cycles on many models, some wall mounting options</td>
+            <td>Needs effective room ventilation or suitable ducting, generally higher energy use</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <h2>Calculate running cost from the label, not the star count alone</h2>
+  <p>
+    The Australian Government explains that the annual dryer figure is based on one full load per
+    week. Actual energy use changes with load size, program, moisture left by the washer and how
+    often the machine runs. See the <a href="https://www.energyrating.gov.au/consumer-information/understand-energy-rating-label" target="_blank" rel="noopener noreferrer">Energy Rating Label guide</a>{" "}
+    for the assumptions and calculation method.
+  </p>
+  <p>
+    Multiply the annual kilowatt hours by the electricity tariff on the bill, then adjust your
+    expectations if the household dries more or less than one full load each week. Compare models
+    of similar capacity. A large machine with the same star rating as a smaller one may still use
+    more electricity.
+  </p>
+
+  <h2>Room ventilation is still relevant for every type</h2>
+  <p>
+    A heat pump dryer does not require an exhaust duct, but it still needs the room conditions and
+    clearances stated in its manual. Some models specify a permitted operating temperature range.
+    A very small closed cupboard can become too warm during use.
+  </p>
+  <p>
+    A conventional condenser collects the water rather than exhausting steam, but it releases more
+    heat than a heat pump model. A vented dryer has the most direct moisture concern. If it cannot
+    be ducted outside, the laundry needs enough ventilation to prevent persistent condensation and
+    damp surfaces.
+  </p>
+
+  <h2>Measure the installed depth and open door</h2>
+  <p>
+    Dryer listings do not always describe depth in the same way. A body measurement may exclude
+    the closed door, handle or the much larger space needed with the door open. Record every
+    relevant figure, then add the manufacturer's required space for connections and airflow.
+  </p>
+  <p>
+    Keep the door swing clear of baskets and the room door. Filters, condenser access panels and
+    water tanks also need to be removed without dismantling nearby storage. The full measurement
+    sequence is covered in the <a href="/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/">Laundry Dimensions Australia guide</a>.
+  </p>
+
+  <h2>Stacking must be approved for the exact pair</h2>
+  <p>
+    A dryer being described as stackable does not mean it can sit on any front loader. Confirm the
+    washer, dryer and stacking kit combination with the manufacturers. The washer normally sits at
+    the bottom, and the completed controls and filters must remain within safe reach.
+  </p>
+  <p>
+    Do not use a shelf, generic bracket or anti slip mat as a substitute for an approved installation
+    unless the appliance instructions explicitly permit it.
+  </p>
+
+  <h2>Choose capacity around the washer and routine</h2>
+  <p>
+    Matching the dryer to the washer avoids splitting every load, but not all washed items go into
+    the dryer. A household that line dries sheets and only machine dries towels may need less dryer
+    capacity than the washer capacity suggests.
+  </p>
+  <p>
+    Check the rated load for each program. Delicate, wool, bedding and quick cycles commonly accept
+    less than the headline capacity. The largest number on the front panel does not apply to every
+    fabric and setting.
+  </p>
+
+  <h2>Maintenance is part of the buying decision</h2>
+  <ul class="feature-list">
+    <li>Clean the lint filter at the frequency stated in the manual.</li>
+    <li>Empty the water tank when the drain hose is not connected.</li>
+    <li>Check whether the condenser is user cleaned or self cleaning.</li>
+    <li>Keep vents, grilles and surrounding clearances open.</li>
+    <li>Use the specified program and load for delicate items.</li>
+    <li>Allow access for servicing without removing permanent cabinetry.</li>
+  </ul>
+
+  <h2>Which dryer type suits which household?</h2>
+  <div class="advice-stack">
+    <section>
+      <h3>Choose heat pump when use is frequent</h3>
+      <p>
+        The higher purchase price is easier to justify when the dryer runs several times a week,
+        electricity cost matters and longer cycles fit the routine.
+      </p>
+    </section>
+    <section>
+      <h3>Choose condenser when the vent is difficult</h3>
+      <p>
+        A conventional condenser may suit occasional use when there is no external vent path and
+        the budget does not reach a good heat pump model. Plan for heat and higher energy use.
+      </p>
+    </section>
+    <section>
+      <h3>Choose vented when the setup supports it</h3>
+      <p>
+        A vented model can be practical for occasional loads, a lower purchase budget or wall
+        mounting when the exact model permits it. Effective exhaust or room ventilation is essential.
+      </p>
+    </section>
+  </div>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>

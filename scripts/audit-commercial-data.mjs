@@ -29,13 +29,66 @@ const retailerDomains = new Set([
   "thegoodguys.com.au",
   "woolworths.com.au",
 ]);
+const trustedEditorialDomains = new Set([
+  "abc.net.au",
+  "accc.gov.au",
+  "agriculture.gov.au",
+  "australianmade.com.au",
+  "ava.com.au",
+  "childcarseats.com.au",
+  "electricalsafety.qld.gov.au",
+  "energyrating.gov.au",
+  "esafety.gov.au",
+  "healthdirect.gov.au",
+  "kb.rspca.org.au",
+  "ncc.abcb.gov.au",
+  "policies.google.com",
+  "productsafety.gov.au",
+  "raisingchildren.net.au",
+  "rednose.org.au",
+  "waterrating.gov.au",
+  "worksafe.qld.gov.au",
+]);
 const phase4AProductPatterns = [
   { pattern: /sources and model checks/i, label: 'a "Sources and model checks" section' },
   { pattern: /current[^\n<]{0,60}(?:models|products|examples)[^\n<]{0,30}checked/i, label: "a current product check section" },
   { pattern: /current models with strong review signals/i, label: "a current model review section" },
   { pattern: /major retailer stock/i, label: "a retailer availability claim" },
-  { pattern: /owner review(?:s| counts?)/i, label: "owner review evidence used for a product example" },
+  { pattern: /owner review signal/i, label: "owner review evidence used for a product example" },
+  { pattern: /(?:from|more than|over)\s+\d[\d,]*\s+(?:owner|customer)?\s*reviews?/i, label: "a product review count claim" },
+  { pattern: /\b[0-5](?:\.\d)?\/5\b/i, label: "a product star rating claim" },
+  { pattern: /(?:current and available|currently available)[^\n<]{0,60}(?:retailer|stock)/i, label: "a current retailer availability claim" },
+  { pattern: /(?:discontinued|superseded|clearance)\s+(?:product|model|item)/i, label: "a discontinued or clearance product reference" },
+  { pattern: /(?:sale price|rrp|retailer price)[^\n<]{0,30}(?:aud\s*)?\$?\s*\d/i, label: "a product price claim" },
+  { pattern: /(?:aud\s*)?\$\s*\d{1,3}(?:,\d{3})+(?:\.\d{2})?/i, label: "a numeric product price claim" },
 ];
+const knownProhibitedProductPatterns = [
+  /Samsung Bespoke AI Jet Ultra/i,
+  /LG CordZero/i,
+  /Dyson Gen5detect/i,
+  /Ecovacs Deebot/i,
+  /Dreame Aqua10/i,
+  /Roborock Saros/i,
+  /Breville Barista Touch Impress/i,
+  /DeLonghi Eletta Explore/i,
+  /JURA E8/i,
+  /Sleeping Duck Mach II/i,
+  /Koala Plus Mattress/i,
+  /Ecosa Pure Mattress/i,
+  /Bosch SMS6/i,
+  /Westinghouse WSF6602/i,
+  /Fisher\s*&\s*Paykel DW60/i,
+  /Artusi ADW4501/i,
+  /SCANPAN Impact/i,
+  /Essteele Per Vita/i,
+  /Lodge Blacklock/i,
+  /Tefal Unlimited Premium/i,
+  /LG GB-455/i,
+  /Westinghouse WHE520/i,
+  /Fisher\s*&\s*Paykel RF505/i,
+];
+const affiliateParameterPattern = /[?&](?:utm_[a-z]+|aff(?:iliate)?(?:_?id)?|ref|tag|clickid|subid)=/i;
+const modelCodePattern = /\b(?=[A-Z0-9/-]{5,}\b)(?=[A-Z0-9/-]*[A-Z])(?=[A-Z0-9/-]*\d)[A-Z]{2}[A-Z0-9/-]*\b/;
 
 function addError(message) {
   errors.push(message);
@@ -75,6 +128,21 @@ function normalizedHost(urlValue) {
 function isRetailerUrl(urlValue) {
   const host = normalizedHost(urlValue);
   return [...retailerDomains].some((domain) => host === domain || host.endsWith(`.${domain}`));
+}
+
+function isTrustedEditorialUrl(urlValue) {
+  const host = normalizedHost(urlValue);
+  return [...trustedEditorialDomains].some((domain) => host === domain || host.endsWith(`.${domain}`));
+}
+
+function visibleText(html) {
+  return html
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&(?:[a-z]+|#\d+|#x[a-f\d]+);/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 if (catalogue.version !== 1) addError("Catalogue version must be 1.");
@@ -169,17 +237,28 @@ const approvedDestinationUrls = new Set(
     .filter((product) => product.status === "approved" && isHttpsUrl(product.destinationUrl))
     .map((product) => product.destinationUrl),
 );
-const guideSourceRoot = path.join(root, "src", "pages", "guides");
-const guideSourceFiles = walk(guideSourceRoot).filter((file) => file.endsWith(".astro"));
+const publishedSourceRoot = path.join(root, "src", "pages");
+const publishedSourceFiles = walk(publishedSourceRoot).filter((file) => file.endsWith(".astro"));
+let sourceExternalLinkCount = 0;
 
-for (const file of guideSourceFiles) {
+for (const file of publishedSourceFiles) {
   const source = fs.readFileSync(file, "utf8");
   const relativePath = path.relative(root, file).replaceAll(path.sep, "/");
 
-  for (const match of source.matchAll(/href=["'](https:\/\/[^"']+)["']/gi)) {
+  for (const match of source.matchAll(/<(?:a|ExternalLink)\b[^>]*\bhref=["'](https?:\/\/[^"']+)["']/gi)) {
+    sourceExternalLinkCount += 1;
     const destinationUrl = match[1];
-    if (isRetailerUrl(destinationUrl) && !approvedDestinationUrls.has(destinationUrl)) {
+    const approvedDestination = approvedDestinationUrls.has(destinationUrl);
+    if (!destinationUrl.toLowerCase().startsWith("https://")) {
+      addError(`${relativePath} contains a non-HTTPS external editorial link: ${destinationUrl}`);
+    }
+    if (isRetailerUrl(destinationUrl) && !approvedDestination) {
       addError(`${relativePath} contains a retailer link outside an approved commercial record: ${destinationUrl}`);
+    } else if (!approvedDestination && !isTrustedEditorialUrl(destinationUrl)) {
+      addError(`${relativePath} contains an external editorial link outside the trusted-source list: ${destinationUrl}`);
+    }
+    if (affiliateParameterPattern.test(destinationUrl) && !approvedDestination) {
+      addError(`${relativePath} contains tracking or affiliate parameters outside an approved commercial record: ${destinationUrl}`);
     }
   }
 
@@ -189,10 +268,21 @@ for (const file of guideSourceFiles) {
         addError(`${relativePath} contains ${label}, which is outside the Phase 4A publishing boundary.`);
       }
     }
+    for (const pattern of knownProhibitedProductPatterns) {
+      if (pattern.test(source)) {
+        addError(`${relativePath} contains a named product introduced by the prohibited product batches.`);
+      }
+    }
+    if (modelCodePattern.test(source)) {
+      addError(`${relativePath} contains a model-like product code, which requires an approved commercial record.`);
+    }
   }
 }
 
 if (checkDist) {
+  let builtPageCount = 0;
+  let builtExternalLinkCount = 0;
+
   for (const guidePath of enabledGuidePaths) {
     const outputPath = path.join(root, "dist", ...guidePath.split("/").filter(Boolean), "index.html");
     if (!fs.existsSync(outputPath)) {
@@ -234,18 +324,52 @@ if (checkDist) {
     }
   }
 
-  const builtGuideRoot = path.join(root, "dist", "guides");
-  if (fs.existsSync(builtGuideRoot)) {
-    for (const file of walk(builtGuideRoot).filter((candidate) => candidate.endsWith(".html"))) {
+  const builtRoot = path.join(root, "dist");
+  if (fs.existsSync(builtRoot)) {
+    for (const file of walk(builtRoot).filter((candidate) => candidate.endsWith(".html"))) {
+      builtPageCount += 1;
       const html = fs.readFileSync(file, "utf8");
       const relativePath = path.relative(root, file).replaceAll(path.sep, "/");
-      for (const match of html.matchAll(/<a\s+[^>]*href="(https:\/\/[^"#]+)[^"#]*"[^>]*>/gi)) {
+      for (const match of html.matchAll(/<a\s+[^>]*href="(https?:\/\/[^"#]+)[^"#]*"[^>]*>/gi)) {
+        builtExternalLinkCount += 1;
         const destinationUrl = match[1];
-        if (isRetailerUrl(destinationUrl) && !approvedDestinationUrls.has(destinationUrl)) {
+        const approvedDestination = approvedDestinationUrls.has(destinationUrl);
+        if (!destinationUrl.toLowerCase().startsWith("https://")) {
+          addError(`${relativePath} renders a non-HTTPS external editorial link: ${destinationUrl}`);
+        }
+        if (isRetailerUrl(destinationUrl) && !approvedDestination) {
           addError(`${relativePath} renders a retailer link outside an approved commercial record: ${destinationUrl}`);
+        } else if (!approvedDestination && !isTrustedEditorialUrl(destinationUrl)) {
+          addError(`${relativePath} renders an external editorial link outside the trusted-source list: ${destinationUrl}`);
+        }
+        if (affiliateParameterPattern.test(destinationUrl) && !approvedDestination) {
+          addError(`${relativePath} renders tracking or affiliate parameters outside an approved commercial record: ${destinationUrl}`);
+        }
+      }
+
+      if (approvedDestinationUrls.size === 0 && relativePath.startsWith("dist/guides/")) {
+        const text = visibleText(html);
+        for (const { pattern, label } of phase4AProductPatterns) {
+          if (pattern.test(text)) {
+            addError(`${relativePath} renders ${label}, which is outside the Phase 4A publishing boundary.`);
+          }
+        }
+        for (const pattern of knownProhibitedProductPatterns) {
+          if (pattern.test(text)) {
+            addError(`${relativePath} renders a named product introduced by the prohibited product batches.`);
+          }
+        }
+        if (modelCodePattern.test(text)) {
+          addError(`${relativePath} renders a model-like product code, which requires an approved commercial record.`);
         }
       }
     }
+  }
+
+  if (errors.length === 0) {
+    console.log(
+      `Built commercial-boundary checks passed across ${builtPageCount} HTML pages and ${builtExternalLinkCount} external links.`,
+    );
   }
 }
 
@@ -262,4 +386,6 @@ const affiliateCount = products.filter(
 console.log(
   `Commercial data audit passed: ${enabledGuidePaths.length} pilot guides, ${products.length} records, ${approvedCount} approved, ${affiliateCount} affiliate.`,
 );
-if (checkDist) console.log("Built disclosure and link checks passed.");
+console.log(
+  `Site-wide editorial boundary checks passed across ${publishedSourceFiles.length} Astro pages and ${sourceExternalLinkCount} external links.`,
+);
