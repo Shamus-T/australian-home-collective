@@ -10,6 +10,32 @@ const errors = [];
 const allowedStatuses = new Set(["draft", "approved", "paused"]);
 const allowedNetworks = new Set(["commission-factory", "direct", "other"]);
 const datePattern = /^\d{4}-\d{2}-\d{2}$/;
+const retailerDomains = new Set([
+  "amazon.com.au",
+  "appliancesonline.com.au",
+  "bunnings.com.au",
+  "coles.com.au",
+  "davidjones.com",
+  "fortywinks.com.au",
+  "harveynorman.com.au",
+  "howards.com.au",
+  "jbhifi.com.au",
+  "kitchenwarehouse.com.au",
+  "kmart.com.au",
+  "myer.com.au",
+  "petcircle.com.au",
+  "snooze.com.au",
+  "target.com.au",
+  "thegoodguys.com.au",
+  "woolworths.com.au",
+]);
+const phase4AProductPatterns = [
+  { pattern: /sources and model checks/i, label: 'a "Sources and model checks" section' },
+  { pattern: /current[^\n<]{0,60}(?:models|products|examples)[^\n<]{0,30}checked/i, label: "a current product check section" },
+  { pattern: /current models with strong review signals/i, label: "a current model review section" },
+  { pattern: /major retailer stock/i, label: "a retailer availability claim" },
+  { pattern: /owner review(?:s| counts?)/i, label: "owner review evidence used for a product example" },
+];
 
 function addError(message) {
   errors.push(message);
@@ -29,6 +55,26 @@ function isDate(value) {
 
 function routeSourcePath(guidePath) {
   return path.join(root, "src", "pages", ...guidePath.split("/").filter(Boolean), "index.astro");
+}
+
+function walk(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const entryPath = path.join(directory, entry.name);
+    return entry.isDirectory() ? walk(entryPath) : [entryPath];
+  });
+}
+
+function normalizedHost(urlValue) {
+  try {
+    return new URL(urlValue).hostname.toLowerCase().replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
+function isRetailerUrl(urlValue) {
+  const host = normalizedHost(urlValue);
+  return [...retailerDomains].some((domain) => host === domain || host.endsWith(`.${domain}`));
 }
 
 if (catalogue.version !== 1) addError("Catalogue version must be 1.");
@@ -118,6 +164,34 @@ for (const [index, product] of products.entries()) {
   }
 }
 
+const approvedDestinationUrls = new Set(
+  products
+    .filter((product) => product.status === "approved" && isHttpsUrl(product.destinationUrl))
+    .map((product) => product.destinationUrl),
+);
+const guideSourceRoot = path.join(root, "src", "pages", "guides");
+const guideSourceFiles = walk(guideSourceRoot).filter((file) => file.endsWith(".astro"));
+
+for (const file of guideSourceFiles) {
+  const source = fs.readFileSync(file, "utf8");
+  const relativePath = path.relative(root, file).replaceAll(path.sep, "/");
+
+  for (const match of source.matchAll(/href=["'](https:\/\/[^"']+)["']/gi)) {
+    const destinationUrl = match[1];
+    if (isRetailerUrl(destinationUrl) && !approvedDestinationUrls.has(destinationUrl)) {
+      addError(`${relativePath} contains a retailer link outside an approved commercial record: ${destinationUrl}`);
+    }
+  }
+
+  if (approvedDestinationUrls.size === 0) {
+    for (const { pattern, label } of phase4AProductPatterns) {
+      if (pattern.test(source)) {
+        addError(`${relativePath} contains ${label}, which is outside the Phase 4A publishing boundary.`);
+      }
+    }
+  }
+}
+
 if (checkDist) {
   for (const guidePath of enabledGuidePaths) {
     const outputPath = path.join(root, "dist", ...guidePath.split("/").filter(Boolean), "index.html");
@@ -156,6 +230,20 @@ if (checkDist) {
         );
       if (unsafeAffiliate.length > 0) {
         addError(`${guidePath} has affiliate links without the required target and rel values.`);
+      }
+    }
+  }
+
+  const builtGuideRoot = path.join(root, "dist", "guides");
+  if (fs.existsSync(builtGuideRoot)) {
+    for (const file of walk(builtGuideRoot).filter((candidate) => candidate.endsWith(".html"))) {
+      const html = fs.readFileSync(file, "utf8");
+      const relativePath = path.relative(root, file).replaceAll(path.sep, "/");
+      for (const match of html.matchAll(/<a\s+[^>]*href="(https:\/\/[^"#]+)[^"#]*"[^>]*>/gi)) {
+        const destinationUrl = match[1];
+        if (isRetailerUrl(destinationUrl) && !approvedDestinationUrls.has(destinationUrl)) {
+          addError(`${relativePath} renders a retailer link outside an approved commercial record: ${destinationUrl}`);
+        }
       }
     }
   }
