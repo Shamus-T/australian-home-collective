@@ -41,7 +41,10 @@ const ogImageUrl = new URL(image, siteUrl).toString();
 const refreshUrl = refreshPath ? new URL(refreshPath, siteUrl).toString() : undefined;
 const imageExtension = new URL(ogImageUrl).pathname.toLowerCase();
 const ogImageType = imageExtension.endsWith(".jpg") || imageExtension.endsWith(".jpeg")
-  ? "image/jpeg" : "image/png";
+  ? "image/jpeg"
+  : imageExtension.endsWith(".webp")
+    ? "image/webp"
+    : "image/png";
 const organizationId = `${siteUrl}/#organization`;
 const websiteId = `${siteUrl}/#website`;
 const webpageId = `${canonicalUrl}#webpage`;
@@ -54,7 +57,8 @@ const jsonLd = JSON.stringify({
       "@id": organizationId,
       name: siteTitle,
       url: `${siteUrl}/`,
-      description: "Straightforward Australian guides for choosing home products, planning rooms and avoiding purchases that do not suit the household.",
+      description: "An independent Australian home-planning publication that helps Australians plan better and buy smarter.",
+      slogan: "Plan Better. Buy Smarter.",
       logo: {
         "@type": "ImageObject",
         url: `${siteUrl}/android-chrome-512x512.png`,
@@ -67,6 +71,7 @@ const jsonLd = JSON.stringify({
       "@id": websiteId,
       url: `${siteUrl}/`,
       name: siteTitle,
+      inLanguage: "en-AU",
       publisher: { "@id": organizationId },
     },
     {
@@ -75,6 +80,7 @@ const jsonLd = JSON.stringify({
       url: canonicalUrl,
       name: pageTitle,
       description,
+      inLanguage: "en-AU",
       isPartOf: { "@id": websiteId },
     },
     ...structuredData,

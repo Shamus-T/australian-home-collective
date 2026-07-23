@@ -6,7 +6,7 @@ Australian Home Collective is an Astro site with practical home and lifestyle gu
 
 ```sh
 npm ci
-npm run dev
+npm run dev -- --background
 ```
 
 The production build and audits are:
@@ -27,12 +27,12 @@ Production hosting is provided by Cloudflare Pages through its connected GitHub 
 - Build output directory: `dist`
 - Node.js: 22
 
-The GitHub Actions workflow builds and audits each change, but it does not deploy the site. Cloudflare Pages handles deployment from the connected repository. The previous VentraIP FTPS deployment is retired and must not be restored without an explicit deployment decision.
+The GitHub Actions workflow builds and audits each change, but it does not deploy the site. Cloudflare Pages handles deployment from the connected repository. Do not add an alternate deployment path without an explicit deployment decision.
 
 Cloudflare-specific redirects are maintained in `public/_redirects`.
 
 ## Content and quality checks
 
-Editorial planning and publication standards are in `docs/content-plans`. Every substantial article revision requires a separate publication edit that preserves factual meaning, safety context, SEO intent, Australian English and useful links.
+The canonical publishing standards and current roadmaps are indexed in `docs/README.md`. Every substantial article revision requires a separate publication edit that preserves factual meaning, safety context, SEO intent, Australian English and useful links.
 
 Use `npm run sitemap:update -- --commit <commit> --date YYYY-MM-DD` after a content commit to update the affected sitemap entries.

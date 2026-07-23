@@ -2,29 +2,21 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.1 |
-| Status | Active foundation; no tool currently in development |
+| Version | 1.2 |
+| Status | Active standard; no tool currently prioritised |
 | Owner | Australian Home Collective |
-| Version date | 19 July 2026 |
+| Version date | 24 July 2026 |
 
-This folder will contain standards, specifications, test plans and release records for Australian Home Collective planning tools.
+## Active document
 
-## Active documents
+- [Planning Tool Standard](planning-tool-standard.md)
 
-- [Tool Development Standard](tool-development-standard.md)
+The [Tool Disclaimer Standard](../legal/tool-disclaimer-standard.md) supplies the matching limitation requirements.
 
-## Parked reference documents
+## Current position
 
-- [Fridge Fit & Delivery Planner functional specification](fridge-fit-delivery-planner-functional-spec.md)
-- [Fridge Fit & Delivery Planner test plan](fridge-fit-delivery-planner-test-plan.md)
-- [Fridge Fit & Delivery Planner delivery plan](../roadmap/fridge-fit-delivery-planner-delivery-plan.md)
+No planning tool is public or in active development. The former fridge planner was parked before implementation because the proposed interaction asked too much of readers for a narrow decision. Its draft specification, test plan and delivery plan were removed during the Phase 1 documentation consolidation because they were not current standards.
 
-## Pending documents
+Any future proposal must begin with fresh reader evidence, pass the Editorial Decision Framework and meet the current Planning Tool Standard. A retired specification is not approval to resume work.
 
-None. Planning-tool work is not a current priority. Any future proposal must pass the Editorial Decision Framework again using current reader and business evidence.
-
-## Required design principle
-
-> **AHC tools assist decisions; they do not replace professional judgement, current manufacturer requirements or site-specific assessment.**
-
-Tools must identify potential planning issues without presenting their output as a delivery guarantee, installation approval, safety certification or professional assessment.
+> **AHC tools assist decisions; they do not guarantee delivery, installation, fit, safety or compliance.**

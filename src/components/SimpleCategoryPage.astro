@@ -112,7 +112,15 @@ const categoryImages: Record<string, { image: string; alt: string }> = {
 const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
 ---
 
-<CategoryHubLayout title={title} seoTitle={seoTitle} description={description} intro={intro} image={selectedImage.image} imageAlt={selectedImage.alt}>
+<CategoryHubLayout
+  title={title}
+  seoTitle={seoTitle}
+  description={description}
+  intro={intro}
+  image={selectedImage.image}
+  imageAlt={selectedImage.alt}
+  faqs={faqs}
+>
   {guides.length > 0 && (
     <section class="section">
       <div class="container section-heading">

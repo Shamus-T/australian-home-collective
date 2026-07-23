@@ -1,25 +1,35 @@
-# Legal and risk documents
+# Legal and risk register
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
-| Status | Structure created; specialist work pending |
+| Version | 1.1 |
+| Status | Active review register |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
+| Version date | 24 July 2026 |
 
-This folder is reserved for legal and risk documents supporting Australian Home Collective's articles, planning tools and commercial operations.
+This folder contains the minimum legal and risk notes needed to support the current publication. It does not replace advice from an appropriately qualified Australian solicitor.
 
-## Pending documents
+## Active standard
 
-- Tool Disclaimer Standard
-- Terms of Use review and interactive-tool clauses
-- Privacy Standard covering analytics, forms and uploaded or locally processed images
-- Copyright and Licensing Standard
-- Risk Register
-- Tool incident and withdrawal procedure
+- [Tool Disclaimer Standard](tool-disclaimer-standard.md)
 
-## Important boundary
+No interactive planning tool is currently public or in active development. The standard remains the minimum editorial gate for any future proposal.
 
-Drafts in this folder will be working business material, not legal advice. Public terms, disclaimers and higher-risk tool wording should be reviewed by an appropriately qualified Australian solicitor before launch.
+## Terms review notes
 
-No generic disclaimer should be treated as eliminating the need for careful tool design, accurate information, testing, clear limitations and prompt correction of known problems.
+- The existing publication does not require tool-specific terms while no interactive tool is public.
+- Before a tool launch, review the Terms of Use against its inputs, calculations, limitations, data handling, professional-referral language and withdrawal process.
+- Do not treat a disclaimer as a substitute for accurate design, testing, accessible explanations and prompt correction.
+
+## Privacy review notes
+
+The current public privacy page covers contact submissions, Google Analytics 4, affiliate tracking, Formspree processing and Cloudflare Turnstile. Re-review it before adding:
+
+- uploads, saved plans, accounts or shareable tool results;
+- email marketing or a subscriber database;
+- new analytics, advertising or affiliate technology; or
+- any collection of household measurements, room notes or images.
+
+## Current open item
+
+Obtain specialist review before launching an interactive tool or making a material change to data collection. No broader legal-policy expansion is required for Phase 1.

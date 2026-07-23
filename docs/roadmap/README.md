@@ -1,32 +1,22 @@
-# Publishing and Planning Centre roadmaps
+# Publication and Planning Centre roadmaps
 
 | Field | Value |
 | --- | --- |
-| Version | 1.1 |
-| Status | Active; no planning tool currently prioritised |
+| Version | 1.2 |
+| Status | Active |
 | Owner | Australian Home Collective |
-| Version date | 19 July 2026 |
+| Version date | 24 July 2026 |
 
-This folder will contain prioritised, maintainable roadmaps rather than open-ended idea lists.
+This folder contains current priorities and completed audit records. It does not retain abandoned implementation sequences or large idea lists.
 
-## Active roadmaps
+## Current roadmaps
 
-None. New roadmap work should follow evidence from search and visitor performance rather than begin with a proposed feature.
+- [Publication Roadmap](publication-roadmap.md)
+- [Planning Centre Roadmap](planning-centre-roadmap.md)
+- [Commission Factory Readiness](commission-factory-readiness.md)
 
-## Parked initiatives
+## Audit record
 
-- [Fridge Fit & Delivery Planner delivery plan](fridge-fit-delivery-planner-delivery-plan.md) — parked on 19 July 2026 because it asked too much of readers and is not a current business priority. No prototype or public route exists.
+- [Phase 1 Audit Report](phase-1-audit-report.md)
 
-## Completed foundation work
-
-- Phase 1 publication foundation and public-policy implementation
-- Site-wide metadata and internal-linking audit
-- Structured-data audit and implementation
-
-## Pending roadmaps
-
-- Editorial review schedule
-- Commission Factory readiness package, after network and advertiser approval
-- Planning Centre roadmap, only if future evidence supports it
-
-Each roadmap should identify scope, dependencies, acceptance criteria, risk and current status. Ideas should not be promoted into committed work until they pass the Editorial Decision Framework.
+Each roadmap identifies its status, next decision and boundary. An idea becomes committed work only after it passes the Editorial Decision Framework.

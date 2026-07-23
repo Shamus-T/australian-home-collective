@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
-| Status | Published on website |
-| Document type | Public methodology |
+| Version | 1.1 |
+| Status | Active; published on website |
+| Document type | Internal methodology with a public summary |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
+| Version date | 24 July 2026 |
 | Published route | https://australianhomecollective.com.au/how-we-select-products/ |
 
 ## How we develop recommendations
@@ -25,6 +25,8 @@ Instead of asking only `Which product is best?`, we ask:
 - What commonly overlooked problems can be avoided?
 
 Our goal is to give readers a useful framework for their own circumstances.
+
+Guide topics follow the same principle. A topic must address a real household decision, fit the publication's scope and add practical value beyond a product listing or generic specification summary.
 
 ## Planning comes first
 
@@ -76,13 +78,13 @@ Where relevant, we highlight manufacturer instructions, recognised Australian gu
 
 We may use:
 
-- current manufacturer specifications and manuals;
 - Australian government and regulator information;
 - recognised safety or efficiency guidance;
+- current manufacturer category guidance, specifications and manuals where they verify a practical constraint;
 - clearly described first-hand observations where available; and
 - practical planning principles.
 
-We prefer primary sources and qualify information that varies or cannot be fully verified.
+We prefer primary, current and authoritative sources and qualify information that varies or cannot be fully verified. Retailer product pages, bestseller lists, stock status and customer review counts are not treated as independent editorial evidence. External sources must pass the publication's source-quality checks.
 
 ## What we do not do
 
@@ -94,13 +96,15 @@ We do not:
 - rank products solely by commission, popularity or advertising relationships;
 - declare a product suitable without considering context;
 - treat marketing claims as independent evidence; or
+- use retailer availability or review counts as proof of product quality;
+- publish named product or model recommendations before the commercial approval process is complete; or
 - reduce a complex decision to an unexplained numerical score.
 
 ## How recommendations are expressed
 
 Different homes, budgets and priorities often produce different reasonable choices. We therefore explain which circumstances an option may suit and what trade-offs come with it.
 
-Where products are named, selection should be connected to transparent criteria. A named product is not automatically suitable for every reader.
+Current guides compare product types and buying criteria rather than publishing named model shortlists. A named product recommendation may appear only after a formally approved commercial workflow has recorded the evidence, verification date and required disclosure. A named product is not automatically suitable for every reader.
 
 ## Ratings and scores
 
@@ -111,6 +115,8 @@ If a structured score or comparison system is introduced in future, its criteria
 ## Commercial relationships
 
 Affiliate or commercial relationships do not determine our methodology or conclusions. Material relationships are disclosed, and useful guidance must remain useful even if a reader does not purchase through a link.
+
+Retailer and affiliate links are not published before formal approval. When approved, a link must be relevant to the surrounding guidance, recorded in the commercial catalogue and reviewed against its evidence and due date.
 
 ## Interactive planning tools
 
@@ -139,3 +145,10 @@ We review and update content when products, guidance, standards, reader needs or
 > **Will this help someone make a better decision for their home?**
 
 If the answer is no, it does not belong in Australian Home Collective.
+
+## Version history
+
+| Version | Date | Summary |
+| --- | --- | --- |
+| 1.1 | 24 July 2026 | Added guide-topic selection, independent-evidence boundaries and the approved pre-commercial controls for named products and links. |
+| 1.0 | 18 July 2026 | Initial recommendation methodology. |

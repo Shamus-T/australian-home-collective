@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.1 |
-| Status | Active foundation |
+| Version | 1.2 |
+| Status | Active |
 | Document type | Internal governance manual |
 | Owner | Australian Home Collective |
-| Version date | 19 July 2026 |
+| Version date | 24 July 2026 |
 
 ## Authority and scope
 
@@ -14,13 +14,15 @@ This manual defines the standards, policies and workflows governing publications
 
 It is the index for the publishing foundation. Detailed requirements live in the linked documents and future standards identified below.
 
+Australian Home Collective is a registered Australian business and an independent Australian home-planning publication. Its mission is to help Australians plan better and buy smarter. Reader trust takes priority over short-term revenue.
+
 ## 1. Governance
 
 ### Editorial Charter
 
 The [Editorial Charter](editorial-charter.md) defines the publication's purpose, vision, pillars, AHC Test and golden rule.
 
-**Status:** Active, version 1.0.
+**Status:** Active, version 1.1.
 
 ### Editorial Decision Framework
 
@@ -34,23 +36,20 @@ The [Editorial Decision Framework](editorial-decision-framework.md) governs sign
 
 The [Editorial Style Guide](../editorial/editorial-style-guide.md) defines voice, Australian English, article structure, terminology, links, checklists and editorial responsibility.
 
-**Status:** Active, version 1.0.
+**Status:** Active, version 1.2.
 
 ### Brand Style Guide
 
 The [Brand Style Guide](../editorial/brand-style-guide.md) defines the publication's position, personality, reader relationship and language.
 
-**Status:** Active, version 1.0.
+**Status:** Active, version 1.2.
 
-### Public editorial commitments
+### Recommendation and correction standards
 
-The following approved documents are published as website pages:
+- The [Recommendation Methodology](../editorial/recommendation-methodology.md) controls evidence, product guidance and commercial recommendations.
+- The [Corrections and Content Review Policy](../editorial/corrections-content-review-policy.md) controls reporting, corrections and genuine update dates.
 
-- [Editorial Policy](../editorial/editorial-policy.md)
-- [Recommendation Methodology](../editorial/recommendation-methodology.md)
-- [Corrections & Content Review Policy](../editorial/corrections-content-review-policy.md)
-
-**Status:** Published foundation policies.
+The public trust pages are maintained in the matching Astro source pages. The internal standards remain the operating source of truth and must not be duplicated into separate policy drafts.
 
 ## 3. Publication standards
 
@@ -65,12 +64,11 @@ Every guide must:
 - contain practical value beyond product specifications;
 - avoid manufactured expertise;
 - include useful internal links and accurate metadata;
+- use high-trust external sources only and open external links in a new tab;
 - use accessible headings, images, tables and controls; and
 - pass the AHC Test before publication.
 
 `Our Take`, checklists and related guides should be used when they genuinely improve the article rather than as compulsory filler.
-
-**Detailed article checklist:** Pending.
 
 ### Planning-tool standard
 
@@ -88,7 +86,7 @@ Every planning tool must:
 - be tested before release and after material changes; and
 - provide a printable or saveable summary where useful.
 
-**Detailed Tool Development Standard:** [Active, version 1.0](../tools/tool-development-standard.md).
+**Detailed Planning Tool Standard:** [Active, version 1.1](../tools/planning-tool-standard.md).
 
 ### Buying-framework standard
 
@@ -104,17 +102,9 @@ Printable resources must add genuine value, use accessible language, work on A4 
 
 ## 4. Legal and risk
 
-The legal and risk section will include:
+The [Tool Disclaimer Standard](../legal/tool-disclaimer-standard.md) sets the minimum editorial wording for planning tools. Terms and privacy review notes are maintained in [`docs/legal/`](../legal/README.md).
 
-- a Tool Disclaimer Standard;
-- Terms of Use guidance covering interactive tools;
-- a Privacy Standard covering analytics, form data and local or uploaded images;
-- a Copyright and Licensing Standard; and
-- a maintained risk register.
-
-These documents are intentionally pending professional legal review. The publication must not treat internal wording as a substitute for advice from an appropriately qualified Australian solicitor.
-
-See [`docs/legal/`](../legal/README.md).
+Internal standards are not a substitute for advice from an appropriately qualified Australian solicitor. Legal guidance should be added only when a real publishing or tool risk requires it, not as speculative bureaucracy.
 
 ## 5. Publishing workflow
 
@@ -154,6 +144,8 @@ The [Retail Knowledge Base](../knowledge/retail-knowledge-base.md) should inform
 
 Affiliate links support the publication; they do not determine editorial conclusions. Partners and products should be relevant to readers and suitable for the context in which they appear. Material relationships must be disclosed clearly.
 
+Until the commercial workflow is formally approved, public content must not include named model recommendations, retailer links or affiliate links. Future links must be contextual, verified and recorded through the approved commercial catalogue and review process.
+
 ### Sponsored content
 
 If sponsored content is accepted, it must be clearly identified and still meet the publication's editorial standards. Sponsorship does not permit unsupported claims or hidden control over editorial conclusions.
@@ -191,26 +183,24 @@ If not, it does not belong in the Planning Centre.
 
 | Document | Version | Status |
 | --- | ---: | --- |
-| Editorial Charter | 1.0 | Active |
+| Editorial Charter | 1.1 | Active |
 | Editorial Decision Framework | 1.0 | Active |
-| Editorial Style Guide | 1.0 | Active |
-| Brand Style Guide | 1.0 | Active |
-| Editorial Policy | 1.0 | Published |
-| Recommendation Methodology | 1.0 | Published |
-| Corrections & Content Review Policy | 1.0 | Published |
+| Editorial Style Guide | 1.2 | Active |
+| Brand Style Guide | 1.2 | Active |
+| Recommendation Methodology | 1.1 | Active; public methodology published |
+| Corrections and Content Review Policy | 1.1 | Active; public policy published |
 | Retail Knowledge Base | 1.0 | Active; expandable |
-| Tool Development Standard | 1.0 | Active foundation |
-| Fridge Fit & Delivery Planner functional specification | 1.1 | Parked reference |
-| Fridge Fit & Delivery Planner test plan | 1.1 | Parked reference |
-| Fridge Fit & Delivery Planner delivery plan | 1.1 | Parked; not an active priority |
-| Tool Disclaimer Standard | — | Pending legal review |
-| Terms of Use update | — | Pending legal review |
-| Privacy Standard update | — | Pending legal review |
-| Risk Register | — | Pending |
+| Planning Tool Standard | 1.1 | Active |
+| Tool Disclaimer Standard | 1.0 | Active editorial standard; legal review required before a public tool launch |
+| Publication Roadmap | 1.0 | Active |
+| Planning Centre Roadmap | 1.0 | Active; no tool currently prioritised |
+| Commission Factory Readiness | 1.0 | Active internal assessment |
+| Phase 1 Audit Report | 1.0 | Completed audit record |
 
 ## Version history
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| 1.2 | 24 July 2026 | Consolidated the canonical document set, confirmed public trust and commercial boundaries, and linked the current roadmaps and tool standards. |
 | 1.1 | 19 July 2026 | Parked the fridge-planner initiative and returned priority to evidence-led editorial work. |
 | 1.0 | 18 July 2026 | Initial publishing governance framework established. |

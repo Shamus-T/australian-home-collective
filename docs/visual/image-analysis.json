@@ -6920,7 +6920,7 @@
       },
       "status": "KEEP",
       "phase_1_status": "TEMPORARY SAFE FALLBACK",
-      "phase_1_note": "No new AI image was generated during the repository repair. The Pets social image was produced as a deterministic 1200 by 630 derivative of an approved AI-generated source image supplied to the project. No stock or branded photography was introduced.",
+      "phase_1_note": "No new image was created during the repository repair. The Pets social image was produced as a deterministic 1200 by 630 derivative of an approved source image supplied to the project. No stock or branded photography was introduced.",
       "topic_relevance": 4,
       "realism": 5,
       "colour_visual_interest": 3,

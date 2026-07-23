@@ -91,10 +91,32 @@ const articleSchema = {
   author: { "@id": organizationId },
   publisher: { "@id": organizationId },
 };
-const machineReadableDate = dateModified ?? datePublished;
+const faqSchema = faqs.length > 0 ? {
+  "@type": "FAQPage",
+  "@id": `${canonicalUrl}#faq`,
+  mainEntity: faqs.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+} : undefined;
+const machineReadableDate = date.startsWith("Published")
+  ? datePublished
+  : dateModified ?? datePublished;
 ---
 
-<BaseLayout title={title} seoTitle={seoTitle} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt} ogType="article" structuredData={[breadcrumbSchema, articleSchema]}>
+<BaseLayout
+  title={title}
+  seoTitle={seoTitle}
+  description={description}
+  image={resolvedSocialImage}
+  imageAlt={resolvedSocialImageAlt}
+  ogType="article"
+  structuredData={[breadcrumbSchema, articleSchema, ...(faqSchema ? [faqSchema] : [])]}
+>
   <header class:list={["article-header", image && "image-header"]}>
     {image && (
       <img

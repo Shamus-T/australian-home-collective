@@ -1,12 +1,12 @@
-# Australian Home Collective Corrections & Content Review Policy
+# Australian Home Collective Corrections and Content Review Policy
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
-| Status | Published on website |
-| Document type | Public policy |
+| Version | 1.1 |
+| Status | Active; published on website |
+| Document type | Internal policy with a public version |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
+| Version date | 24 July 2026 |
 | Published route | https://australianhomecollective.com.au/corrections-content-review-policy/ |
 
 ## Our commitment
@@ -78,11 +78,11 @@ Reviews may also be triggered by:
 - tool or browser changes; and
 - evidence that readers are misunderstanding a page.
 
-## Editorially reviewed dates
+## Publication and update dates
 
-Where displayed, an `Editorially reviewed` date means the content has undergone a genuine editorial assessment. It does not necessarily mean every sentence changed.
+Use `Published Month Year` when a guide is first published. Use `Updated Month Year` only after a substantive revision to the reader-facing guidance. Styling, metadata, image, spelling and formatting work do not justify a new visible update date on their own.
 
-Review dates are not updated automatically and are not changed for trivial formatting edits alone.
+Dates are not advanced automatically. Any `dateModified` value in structured data must correspond to a genuine substantive update.
 
 ## Tool corrections and incidents
 
@@ -90,7 +90,7 @@ Reports of incorrect calculations, misleading results, data loss or other materi
 
 Where necessary, Australian Home Collective may temporarily disable a tool or affected feature while it is investigated. A corrected tool must be retested before release.
 
-**Detailed incident and risk process:** `[Pending Tool Development Standard and risk register]`
+Tool issues also follow the release, correction and withdrawal requirements in the [Planning Tool Standard](../tools/planning-tool-standard.md).
 
 ## Editorial responsibility
 
@@ -101,3 +101,10 @@ Australian Home Collective is responsible for the content it publishes. Where un
 Improving existing content is an ongoing part of our editorial process. Guides may be expanded or refined as better sources, practical considerations and reader feedback become available.
 
 Our goal is not simply to publish more. It is to maintain a resource readers can return to with confidence when planning purchases for their homes.
+
+## Version history
+
+| Version | Date | Summary |
+| --- | --- | --- |
+| 1.1 | 24 July 2026 | Standardised the title and the published-versus-updated date rules, and linked the current planning-tool incident requirements. |
+| 1.0 | 18 July 2026 | Initial corrections and review policy. |

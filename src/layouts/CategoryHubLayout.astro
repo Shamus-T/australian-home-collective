@@ -13,6 +13,10 @@ interface Props {
   imagePosition?: string;
   socialImage?: string;
   socialImageAlt?: string;
+  faqs?: Array<{
+    question: string;
+    answer: string;
+  }>;
 }
 
 const {
@@ -25,6 +29,7 @@ const {
   imagePosition = "center",
   socialImage,
   socialImageAlt,
+  faqs = [],
 } = Astro.props;
 
 const categorySocialImage = getCategorySocialImage(title);
@@ -48,9 +53,28 @@ const breadcrumbSchema = {
     item: new URL(item.href ?? Astro.url.pathname, siteUrl).toString(),
   })),
 };
+const faqSchema = faqs.length > 0 ? {
+  "@type": "FAQPage",
+  "@id": `${canonicalUrl}#faq`,
+  mainEntity: faqs.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+} : undefined;
 ---
 
-<BaseLayout title={title} seoTitle={seoTitle} description={description} image={resolvedSocialImage} imageAlt={resolvedSocialImageAlt} structuredData={[breadcrumbSchema]}>
+<BaseLayout
+  title={title}
+  seoTitle={seoTitle}
+  description={description}
+  image={resolvedSocialImage}
+  imageAlt={resolvedSocialImageAlt}
+  structuredData={[breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]}
+>
   <header class="category-header image-header">
     <img
       class="header-image"

@@ -2,19 +2,19 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.1 |
+| Version | 1.2 |
 | Status | Active |
 | Document type | Internal brand and voice standard |
 | Owner | Australian Home Collective |
-| Version date | 23 July 2026 |
+| Version date | 24 July 2026 |
 
 ## 1. Brand position
 
-Australian Home Collective is an independent Australian home-planning publication.
+Australian Home Collective is a registered Australian business and an independent Australian home-planning publication.
 
 We help Australians make better home-planning and buying decisions through practical guidance, tools and educational resources.
 
-We are not a retailer, review laboratory, deals site, coupon site or general lifestyle magazine. We are a trusted planning resource.
+We are not a retailer, product-testing laboratory, deals site, coupon site or general lifestyle magazine. We are a planning resource that earns trust through useful, accurate work.
 
 ## 2. Brand promise
 
@@ -177,3 +177,11 @@ Assume Australian Home Collective may one day be asked publicly to explain or de
 ## 17. Growth rule
 
 Measure growth using reader trust, returning visitors, usefulness, quality and reputation—not article count, page views, affiliate clicks or advertising impressions alone.
+
+## Version history
+
+| Version | Date | Summary |
+| --- | --- | --- |
+| 1.2 | 24 July 2026 | Clarified the registered-business identity and removed language that presented trust as an established market fact. |
+| 1.1 | 23 July 2026 | Added the approved colour, material-variety and physical-plausibility standard for imagery. |
+| 1.0 | 18 July 2026 | Initial brand and voice standard. |

@@ -14,11 +14,11 @@ The first public repair phase is now implemented:
 - `guides/pet-essentials-home-zones.webp` is the temporary Pets fallback with one truthful general alt description.
 - `guides/bedroom-storage-clear-walkway.webp` is the temporary Mattress Sizes hero and card image, with a right-shifted mobile-safe focal position.
 - Coffee Machine Types now uses the existing text-only article header and text-only featured card.
-- `social/pets.jpg` was regenerated deterministically from the approved AI-generated source supplied to the project at 1200 × 630.
+- `social/pets.jpg` was regenerated deterministically from the approved source supplied to the project at 1200 × 630.
 - Fridge and dishwasher focal positions were repaired without changing their source pixels.
 - Robot vacuum, cordless stick vacuum and dryer were checked at full resolution. No urgent safety or credibility defect requiring immediate removal was found; their true replacements remain pending.
 
-No new AI image was generated during the repository repair. The Pets social image was produced as a deterministic 1200 × 630 derivative of an approved AI-generated source image supplied to the project. No stock or branded photography was introduced. No file was deleted and no site redesign was made.
+No new image was created during the repository repair. The Pets social image was produced as a deterministic 1200 × 630 derivative of an approved source image supplied to the project. No stock or branded photography was introduced. No file was deleted and no site redesign was made.
 
 The broader finding remains: ten category fallback files still act as hero images for 90 guides. The temporary pet fallback is safer and more truthful than the defective source, but category imagery is still carrying too much of the publication.
 
@@ -143,7 +143,7 @@ Completed:
 1. Removed all public references to the three urgent defective files without deleting them.
 2. Installed safe temporary local sources for Pets and Mattress Sizes.
 3. Converted Coffee Machine Types to a text-only header and featured card.
-4. Regenerated the Pets social image from the approved AI-generated source supplied to the project.
+4. Regenerated the Pets social image from the approved source supplied to the project.
 5. Completed route-specific fridge and dishwasher focal-position repairs.
 6. Reviewed robot vacuum, cordless stick vacuum and dryer for urgent defects.
 7. Created `phase-1-replacement-assets.md` for the six true replacement files.
@@ -346,7 +346,7 @@ The ranking is retained so the original audit decision remains traceable. Phase 
 
 - **File:** `public/images/social/pets.jpg`
 - **Routes:** Open Graph image on 11 routes.
-- **Phase 1 result:** Completed as a safe temporary fallback. The defective artwork was replaced with a deterministic 1200 × 630 derivative of the approved AI-generated `pet-essentials-home-zones.webp` source supplied to the project.
+- **Phase 1 result:** Completed as a safe temporary fallback. The defective artwork was replaced with a deterministic 1200 × 630 derivative of the approved `pet-essentials-home-zones.webp` source supplied to the project.
 - **Remaining reason for future review:** Regenerate from the final pet category asset once that image is approved so social and category photography remain aligned.
 - **New concept:** A clean social crop of the approved inclusive pet-care concept, with a clearly visible companion bird, closed supply storage and safe household circulation.
 - **Show:** A companion bird on a safe perch or beside a coherent cage or stand, closed supply storage, grooming items and a clear walkway, with optional non-living cues to broader pet ownership.

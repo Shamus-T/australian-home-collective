@@ -1,86 +1,27 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const target = "/about/";
 ---
 
 <BaseLayout
-  title="Our Approach"
-  description="Why Australian Home Collective begins with the room, the household and the problem rather than a list of products."
+  title="Our Approach has moved"
+  description="The Australian Home Collective approach is now explained on the About page."
+  canonicalPath={target}
+  refreshPath={target}
+  robots="noindex,follow"
 >
   <header class="page-intro">
     <div class="narrow">
-      <p class="eyebrow">How we work</p>
-      <h1>Our Approach</h1>
+      <p class="eyebrow">Page moved</p>
+      <h1>Our approach has moved.</h1>
       <p class="lead">
-        We begin with the household problem, not the shopping list.
+        Our planning-first approach is now part of the About page.
       </p>
+      <div class="button-row">
+        <a class="button" href={target}>Read about Australian Home Collective</a>
+        <a class="button secondary" href="/editorial-standards/">Read our editorial standards</a>
+      </div>
     </div>
   </header>
-
-  <section class="content narrow">
-    <p>
-      Many home websites start with products. We usually start with the problem.
-    </p>
-    <p>
-      That means asking:
-    </p>
-    <ul class="feature-list">
-      <li>What is actually causing the clutter?</li>
-      <li>What space needs to be measured?</li>
-      <li>What will block the product from fitting?</li>
-      <li>Will it suit a rental?</li>
-      <li>Can it be cleaned without becoming another chore?</li>
-      <li>Will people actually use it?</li>
-      <li>Does the household need to buy anything at all?</li>
-    </ul>
-
-    <h2>Why we start before the purchase</h2>
-    <p>
-      A product can be well made and still be wrong for a particular home.
-    </p>
-    <p>
-      It may be too tall for the shelf, too deep for the cupboard, too awkward for a rental,
-      too hard to clean, too heavy to move, or too complicated to maintain.
-    </p>
-    <p>
-      The right buying decision often depends on the space, not just the product.
-    </p>
-
-    <h2>Real homes are not showrooms</h2>
-    <p>
-      We are not writing for perfect display homes.
-    </p>
-    <p>
-      The guides are for households with limited bench space, awkward drawers, rental limits,
-      busy routines, mismatched containers, deep cupboards and clutter that comes back.
-    </p>
-    <p>
-      If a system takes too much effort to keep going, it is unlikely to last.
-    </p>
-
-    <h2>When not buying is the better answer</h2>
-    <p>
-      Not every household problem needs another product. Sometimes the better first step is to:
-    </p>
-    <ul class="feature-list">
-      <li>remove duplicates</li>
-      <li>clear expired pantry items</li>
-      <li>match lids to containers</li>
-      <li>move rarely used appliances</li>
-      <li>group items by use</li>
-      <li>measure the space properly</li>
-      <li>choose a simpler system</li>
-    </ul>
-    <p>
-      Buying storage before sorting the problem can make a home feel more crowded, not less.
-    </p>
-
-    <h2>How to use the guides</h2>
-    <p>
-      Find the room or problem that matches yours, note the measurements and drawbacks that
-      apply, then decide whether the product would earn its place.
-    </p>
-    <p>
-      The aim is not to buy more. It is to make a sound decision either way.
-    </p>
-  </section>
 </BaseLayout>

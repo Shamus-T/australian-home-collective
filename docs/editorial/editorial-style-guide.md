@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.1 |
+| Version | 1.2 |
 | Status | Active |
 | Document type | Internal editorial standard |
 | Owner | Australian Home Collective |
-| Version date | 21 July 2026 |
+| Version date | 24 July 2026 |
 
 ## 1. Purpose
 
@@ -262,7 +262,8 @@ Prefer primary, current and authoritative Australian sources for legal, safety, 
 - Link to the page that supports the claim, not a search result or generic homepage.
 - Do not use low-quality sources to manufacture certainty.
 - Commercial and affiliate links are governed by disclosure and partnership standards.
-- Do not force links to open a new tab unless the interaction has a clear user benefit; unexpected new tabs can create accessibility and usability problems.
+- Open external links in a new tab and use `rel="noopener noreferrer"`.
+- Keep internal Australian Home Collective links in the same tab.
 
 ## 21. Images and diagrams
 
@@ -297,6 +298,7 @@ If information cannot be verified, qualify or remove it. If an error is identifi
 
 Affiliate links should follow the planning guidance, not replace it.
 
+- Do not publish named model recommendations, retailer links or affiliate links before the commercial workflow is formally approved.
 - Explain what readers should measure and compare first.
 - Disclose material commercial relationships clearly.
 - Do not allow commission rates to determine conclusions.
@@ -326,6 +328,8 @@ Review dates must change only after a genuine editorial review. A review should 
 - internal linking and metadata; and
 - whether new risks or limitations need explanation.
 
+Use `Published Month Year` for a newly published guide. Use `Updated Month Year` only after a substantive change to the reader-facing guidance. Do not advance a date for styling, metadata, image, spelling or formatting work alone. Any `dateModified` value in structured data must match a genuine substantive update.
+
 ## 27. The AHC Test
 
 Before publication, ask:
@@ -339,3 +343,11 @@ Before publication, ask:
 ## 28. Golden rule
 
 > **If a decision improves short-term revenue but reduces long-term trust, we do not do it.**
+
+## Version history
+
+| Version | Date | Summary |
+| --- | --- | --- |
+| 1.2 | 24 July 2026 | Aligned external-link behaviour, commercial approval boundaries and publication-date wording with the approved operating rules. |
+| 1.1 | 21 July 2026 | Added the plain-language hyphen and compound guidance. |
+| 1.0 | 18 July 2026 | Initial editorial style standard. |

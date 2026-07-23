@@ -1,10 +1,11 @@
 ---
+import ExternalLink from "../../components/ExternalLink.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout
   title="Privacy Policy"
-  description="How Australian Home Collective handles reader contact details and basic website information."
+  description="How Australian Home Collective handles contact-form information, analytics data and services used to protect and operate the website."
 >
   <header class="page-intro">
     <div class="narrow">
@@ -23,6 +24,20 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
       included in your message. We use this to respond, review feedback or assess corrections,
       guide suggestions or relevant website enquiries.
     </p>
+    <p>
+      Contact-form submissions are processed by{" "}
+      <ExternalLink href="https://formspree.io/security/">Formspree</ExternalLink>. Formspree
+      processes and stores form data under its own security and privacy practices.
+    </p>
+    <h2>Spam protection</h2>
+    <p>
+      The contact form uses Cloudflare Turnstile to identify automated submissions. Turnstile
+      may process technical signals such as an IP address, browser information and the page
+      where the check appears. Read the{" "}
+      <ExternalLink href="https://www.cloudflare.com/en-in/turnstile-privacy-policy/">
+        Cloudflare Turnstile privacy policy
+      </ExternalLink>.
+    </p>
     <h2>Website analytics</h2>
     <p>
       We use Google Analytics 4 to understand how people find and use this website. It may use
@@ -32,13 +47,16 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
     </p>
     <p>
       Google processes analytics information under its own terms and privacy practices. You can
-      read more about <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">how Google uses information from sites that use its services</a>.
+      read more about{" "}
+      <ExternalLink href="https://policies.google.com/technologies/partner-sites">
+        how Google uses information from sites that use its services
+      </ExternalLink>.
     </p>
     <h2>Affiliate links</h2>
     <p>
-      Affiliate partners may use tracking links or cookies to attribute referrals. Their privacy
-      practices are governed by their own policies. You should check the relevant retailer or
-      partner policy if you want more detail about how they handle information.
+      Australian Home Collective does not currently publish affiliate links. If affiliate links
+      are introduced, partners may use tracking links or cookies to attribute referrals. Their
+      privacy practices will be governed by their own policies.
     </p>
     <h2>Contact</h2>
     <p>

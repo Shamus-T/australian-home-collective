@@ -2,15 +2,15 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Active |
 | Document type | Internal governance |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
+| Version date | 24 July 2026 |
 
 ## Our purpose
 
-Australian Home Collective exists to help Australians make confident home-planning and buying decisions before they spend money.
+Australian Home Collective is a registered Australian business and an independent Australian home-planning publication. Its mission is to help Australians plan better and buy smarter before they spend money.
 
 We do not tell people what to buy. We help them understand what to measure, compare, plan and consider so they can choose products that suit their homes, needs and budgets.
 
@@ -18,7 +18,7 @@ Our success is measured by the expensive mistakes readers avoid, not simply by t
 
 ## Our vision
 
-To become Australia's most trusted independent home-planning resource.
+Our aspiration is to become Australia's most trusted independent home-planning resource. This is a direction for the business, not a claim about its current market position.
 
 When Australians are planning a purchase for their home, Australian Home Collective should be one of the first resources they think to use.
 
@@ -63,6 +63,7 @@ Australian Home Collective is:
 
 Australian Home Collective is not:
 
+- a retailer;
 - a coupon or deals site;
 - a product catalogue;
 - a laboratory claiming tests it has not performed;
@@ -144,3 +145,10 @@ If any answer is no, revise the work or do not publish it.
 A successful resource should leave a reader thinking:
 
 > **I'm glad I checked this before buying.**
+
+## Version history
+
+| Version | Date | Summary |
+| --- | --- | --- |
+| 1.1 | 24 July 2026 | Clarified the registered-business identity, mission, retailer boundary and aspirational nature of the vision. |
+| 1.0 | 18 July 2026 | Initial editorial charter. |

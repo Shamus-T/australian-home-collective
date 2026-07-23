@@ -1,12 +1,12 @@
-# Australian Home Collective Tool Development Standard
+# Australian Home Collective Planning Tool Standard
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
-| Status | Active foundation |
+| Version | 1.1 |
+| Status | Active |
 | Document type | Internal product and publishing standard |
 | Owner | Australian Home Collective |
-| Version date | 18 July 2026 |
+| Version date | 24 July 2026 |
 
 ## Purpose
 
@@ -31,6 +31,8 @@ Before development begins, the proposal must pass the [Editorial Decision Framew
 - can be tested without fabricated expertise; and
 - does not require a level of legal, safety or technical assurance AHC cannot provide.
 
+Until a commercial workflow is formally approved, a public tool must not contain named model recommendations, retailer links or affiliate links. Commercial approval does not permit a link or product relationship to change the tool's logic, limitations or result.
+
 ## Required documents
 
 Every public tool requires:
@@ -53,7 +55,7 @@ The opening section of a tool must state:
 - what the user needs before starting; and
 - when the user should confirm details with a manufacturer, retailer, delivery provider, installer or appropriately qualified professional.
 
-Limitations must be visible before data entry and repeated in context where a result could otherwise be misunderstood. A footer disclaimer alone is insufficient.
+Limitations must be visible before data entry and repeated in context where a result could otherwise be misunderstood. A footer disclaimer alone is insufficient. Tool-specific wording must also comply with the [Tool Disclaimer Standard](../legal/tool-disclaimer-standard.md).
 
 ## Inputs
 
@@ -237,4 +239,5 @@ AHC must be able to disable a result or withdraw the complete tool without takin
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| 1.1 | 24 July 2026 | Renamed the standard, linked the canonical disclaimer requirements and confirmed the current commercial boundaries. |
 | 1.0 | 18 July 2026 | Initial shared standard for AHC planning tools. |

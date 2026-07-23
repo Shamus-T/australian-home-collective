@@ -25,6 +25,17 @@ function firstMatch(html, pattern) {
   return html.match(pattern)?.[1]?.trim() ?? "";
 }
 
+function decodeEntities(value) {
+  return value
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;|&#0*39;|&#x0*27;/gi, "'")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
+    .replace(/&#x([\da-f]+);/gi, (_, code) => String.fromCodePoint(Number.parseInt(code, 16)));
+}
+
 function plainText(html) {
   return html
     .replace(/<[^>]*>/g, " ")
@@ -102,6 +113,14 @@ function outputPathForUrl(urlValue) {
   return path.join(distRoot, ...pathname.split("/").filter(Boolean));
 }
 
+function publicUrlForOutput(relativePath) {
+  if (relativePath === "index.html") return `${siteOrigin}/`;
+  if (relativePath.endsWith("/index.html")) {
+    return `${siteOrigin}/${relativePath.slice(0, -"index.html".length)}`;
+  }
+  return `${siteOrigin}/${relativePath}`;
+}
+
 if (!fs.existsSync(distRoot)) {
   console.error("Site output audit requires a completed dist build.");
   process.exit(1);
@@ -113,14 +132,23 @@ const pages = [];
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, "utf8");
   const relativePath = path.relative(distRoot, file).replaceAll(path.sep, "/");
-  const title = firstMatch(html, /<title>([\s\S]*?)<\/title>/i);
+  const title = decodeEntities(firstMatch(html, /<title>([\s\S]*?)<\/title>/i));
   const description = firstMatch(html, /<meta name="description" content="([^"]*)"/i);
   const canonical = firstMatch(html, /<link rel="canonical" href="([^"]*)"/i);
   const robots = firstMatch(html, /<meta name="robots" content="([^"]*)"/i);
+  const pageUrl = publicUrlForOutput(relativePath);
+  const ogTitle = decodeEntities(firstMatch(html, /<meta property="og:title" content="([^"]*)"/i));
+  const ogDescription = firstMatch(html, /<meta property="og:description" content="([^"]*)"/i);
+  const ogImage = firstMatch(html, /<meta property="og:image" content="([^"]*)"/i);
+  const ogImageAlt = firstMatch(html, /<meta property="og:image:alt" content="([^"]*)"/i);
+  const ogImageType = firstMatch(html, /<meta property="og:image:type" content="([^"]*)"/i);
+  const ogUrl = firstMatch(html, /<meta property="og:url" content="([^"]*)"/i);
   const h1Count = html.match(/<h1(?:\s[^>]*)?>/gi)?.length ?? 0;
   const indexable = !robots.toLowerCase().includes("noindex");
   const structuredDataBlocks = [...html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];
   const structuredDataTypes = new Set();
+  const structuredDataNodes = [];
+  const structuredDataIds = new Set();
 
   for (const issue of inlineLinkSpacingErrors(html)) {
     addError(`${relativePath} has ${issue}.`);
@@ -131,6 +159,13 @@ for (const file of htmlFiles) {
       const data = JSON.parse(value);
       const nodes = Array.isArray(data?.["@graph"]) ? data["@graph"] : [data];
       for (const node of nodes) {
+        structuredDataNodes.push(node);
+        if (node?.["@id"]) {
+          if (structuredDataIds.has(node["@id"])) {
+            addError(`${relativePath} repeats JSON-LD @id ${node["@id"]}.`);
+          }
+          structuredDataIds.add(node["@id"]);
+        }
         const types = Array.isArray(node?.["@type"]) ? node["@type"] : [node?.["@type"]];
         for (const type of types.filter(Boolean)) structuredDataTypes.add(type);
       }
@@ -142,24 +177,100 @@ for (const file of htmlFiles) {
   if (!title) addError(`${relativePath} has no title.`);
   if (title.length > 60) addError(`${relativePath} has a title longer than 60 characters (${title.length}).`);
   if (!description) addError(`${relativePath} has no meta description.`);
+  if (indexable && description.length < 70) {
+    addError(`${relativePath} has a meta description shorter than 70 characters (${description.length}).`);
+  }
   if (description.length > 160) {
     addError(`${relativePath} has a meta description longer than 160 characters (${description.length}).`);
   }
   if (!canonical) addError(`${relativePath} has no canonical URL.`);
+  if (indexable && canonical !== pageUrl) {
+    addError(`${relativePath} is indexable but is not self-canonical (${canonical || "missing"}).`);
+  }
+  if (canonical && /[?#]/.test(new URL(canonical, siteOrigin).href.replace(siteOrigin, ""))) {
+    addError(`${relativePath} has a canonical URL containing a query string or fragment.`);
+  }
+  if (!ogTitle || ogTitle !== title) addError(`${relativePath} has an Open Graph title mismatch.`);
+  if (!ogDescription || ogDescription !== description) {
+    addError(`${relativePath} has an Open Graph description mismatch.`);
+  }
+  if (!ogImage) addError(`${relativePath} has no Open Graph image.`);
+  if (!ogImageAlt) addError(`${relativePath} has no Open Graph image alt text.`);
+  if (!ogUrl || ogUrl !== canonical) addError(`${relativePath} has an Open Graph URL mismatch.`);
+  if (ogImage) {
+    const imageUrl = new URL(ogImage, siteOrigin);
+    const extension = imageUrl.pathname.toLowerCase().split(".").at(-1);
+    const expectedType = extension === "jpg" || extension === "jpeg"
+      ? "image/jpeg"
+      : extension === "webp"
+        ? "image/webp"
+        : extension === "png"
+          ? "image/png"
+          : "";
+    if (expectedType && ogImageType !== expectedType) {
+      addError(`${relativePath} has Open Graph image type ${ogImageType || "missing"}; expected ${expectedType}.`);
+    }
+    if (imageUrl.origin === siteOrigin) {
+      const imagePath = path.join(distRoot, ...decodeURIComponent(imageUrl.pathname).split("/").filter(Boolean));
+      if (!fs.existsSync(imagePath)) addError(`${relativePath} references missing Open Graph image ${imageUrl.pathname}.`);
+    }
+  }
   if (h1Count !== 1) addError(`${relativePath} has ${h1Count} H1 elements; expected 1.`);
-  if (indexable && structuredDataBlocks.length === 0) {
-    addError(`${relativePath} is indexable but has no JSON-LD.`);
+  if (indexable && structuredDataBlocks.length !== 1) {
+    addError(`${relativePath} is indexable but has ${structuredDataBlocks.length} JSON-LD blocks; expected 1.`);
   }
   for (const requiredType of ["Organization", "WebSite", "WebPage"]) {
     if (indexable && !structuredDataTypes.has(requiredType)) {
       addError(`${relativePath} is missing ${requiredType} structured data.`);
     }
   }
-  for (const forbiddenType of ["Product", "Review", "AggregateRating"]) {
+  for (const forbiddenType of ["Product", "Review", "AggregateRating", "Offer"]) {
     if (structuredDataTypes.has(forbiddenType)) {
       addError(`${relativePath} contains prohibited ${forbiddenType} structured data.`);
     }
   }
+
+  const faqItems = [...html.matchAll(/<div class="faq-item">\s*<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>\s*<\/div>/gi)];
+  const faqSchemaNodes = structuredDataNodes.filter((node) => {
+    const types = Array.isArray(node?.["@type"]) ? node["@type"] : [node?.["@type"]];
+    return types.includes("FAQPage");
+  });
+  if (indexable && faqItems.length > 0 && faqSchemaNodes.length !== 1) {
+    addError(`${relativePath} has visible FAQs but ${faqSchemaNodes.length} FAQPage schema nodes.`);
+  }
+  if (indexable && faqItems.length === 0 && faqSchemaNodes.length > 0) {
+    addError(`${relativePath} has FAQPage schema without visible FAQs.`);
+  }
+  if (faqSchemaNodes.length === 1) {
+    const schemaItems = Array.isArray(faqSchemaNodes[0].mainEntity) ? faqSchemaNodes[0].mainEntity : [];
+    if (schemaItems.length !== faqItems.length) {
+      addError(`${relativePath} has ${faqItems.length} visible FAQs but ${schemaItems.length} FAQ schema questions.`);
+    }
+  }
+
+  const articleNodes = structuredDataNodes.filter((node) => {
+    const types = Array.isArray(node?.["@type"]) ? node["@type"] : [node?.["@type"]];
+    return types.includes("Article");
+  });
+  for (const article of articleNodes) {
+    if (!article.datePublished && !article.dateModified) {
+      addError(`${relativePath} has Article schema without datePublished or dateModified.`);
+    }
+    if (article.reviewedBy) addError(`${relativePath} has an unsupported reviewedBy claim.`);
+    if (article.datePublished && article.dateModified && article.datePublished > article.dateModified) {
+      addError(`${relativePath} has datePublished after dateModified.`);
+    }
+    const timeMatch = html.match(/<time\b[^>]*datetime="([^"]+)"[^>]*>([\s\S]*?)<\/time>/i);
+    const visibleDate = timeMatch ? plainText(timeMatch[2]) : "";
+    const machineDate = timeMatch?.[1] ?? "";
+    if (visibleDate.startsWith("Published") && (!article.datePublished || machineDate !== article.datePublished)) {
+      addError(`${relativePath} has a Published label that does not match datePublished.`);
+    }
+    if (visibleDate.startsWith("Updated") && (!article.dateModified || machineDate !== article.dateModified)) {
+      addError(`${relativePath} has an Updated label that does not match dateModified.`);
+    }
+  }
+
   if (indexable && /^guides\/.+\/index\.html$/.test(relativePath)) {
     for (const requiredType of ["Article", "BreadcrumbList"]) {
       if (!structuredDataTypes.has(requiredType)) {
@@ -167,7 +278,6 @@ for (const file of htmlFiles) {
       }
     }
 
-    const faqItems = [...html.matchAll(/<div class="faq-item">\s*<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>\s*<\/div>/gi)];
     if (faqItems.length !== 3) {
       addError(`${relativePath} has ${faqItems.length} FAQ answers; expected exactly 3.`);
     }
@@ -222,7 +332,16 @@ for (const file of htmlFiles) {
     }
   }
 
-  pages.push({ relativePath, title, description, canonical, indexable });
+  pages.push({ relativePath, title, description, canonical, pageUrl, indexable });
+}
+
+const movedPageUrls = new Set(
+  pages.filter((page) => !page.indexable && page.canonical && page.pageUrl !== page.canonical).map((page) => page.pageUrl),
+);
+for (const link of internalLinks.filter((candidate) => candidate.sourceIndexable)) {
+  if (movedPageUrls.has(link.target)) {
+    addError(`${link.source} links to moved route ${link.target} instead of its canonical destination.`);
+  }
 }
 
 const inboundLinks = new Map(
@@ -293,4 +412,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Site output audit passed: ${htmlFiles.length} pages checked with valid inline-link spacing, unique metadata, canonicals, links, sitemap coverage, structured-data boundaries, inbound discovery and article FAQs.`);
+console.log(`Site output audit passed: ${htmlFiles.length} pages checked with valid metadata, self-canonicals, Open Graph images, inline-link spacing, links, sitemap coverage, date and FAQ schema, structured-data boundaries and inbound discovery.`);
