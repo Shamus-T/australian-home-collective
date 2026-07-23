@@ -1,5 +1,5 @@
 {
-  "generated_from_head": "e774e08022888da8674282df457dd5ddbd644b93",
+  "generated_from_head": "74257c91eaee5a82f937cd21470e098201691804",
   "total_image_count": 52,
   "unique_binary_image_count": 52,
   "exact_duplicate_groups": [],
@@ -222,6 +222,8 @@
         "warm_orange_grade": 0.486
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 2,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -426,6 +428,8 @@
         "warm_orange_grade": 0.269
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 2,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -609,6 +613,8 @@
         "warm_orange_grade": 0.138
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 4,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -671,6 +677,8 @@
         "warm_orange_grade": 0.284
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -702,20 +710,43 @@
           "alt": "The same bedroom with an accessible under-bed drawer, organised wardrobe and clear route beside the bed"
         },
         {
+          "context": "route /guides/",
+          "kind": "inline",
+          "alt": "A compact bedroom showing the bed footprint, open wardrobe and clear walking space beside the bed"
+        },
+        {
+          "context": "route /guides/mattress-sizes-australia/",
+          "kind": "hero",
+          "alt": "A compact bedroom showing the bed footprint, open wardrobe and clear walking space beside the bed"
+        },
+        {
+          "context": "source src/pages/guides/index.astro:33",
+          "kind": "source_literal",
+          "alt": "A compact bedroom showing the bed footprint, open wardrobe and clear walking space beside the bed"
+        },
+        {
           "context": "source src/pages/guides/bedroom-storage-ideas-small-australian-rooms/index.astro:176",
           "kind": "source_literal",
           "alt": "The same bedroom with an accessible under-bed drawer, organised wardrobe and clear route beside the bed"
+        },
+        {
+          "context": "source src/pages/guides/mattress-sizes-australia/index.astro:54",
+          "kind": "source_literal",
+          "alt": "A compact bedroom showing the bed footprint, open wardrobe and clear walking space beside the bed"
         }
       ],
       "public_routes": [
-        "/guides/bedroom-storage-ideas-small-australian-rooms/"
+        "/guides/",
+        "/guides/bedroom-storage-ideas-small-australian-rooms/",
+        "/guides/mattress-sizes-australia/"
       ],
       "alt_texts": [
+        "A compact bedroom showing the bed footprint, open wardrobe and clear walking space beside the bed",
         "The same bedroom with an accessible under-bed drawer, organised wardrobe and clear route beside the bed"
       ],
-      "number_of_uses": 2,
-      "public_route_count": 1,
-      "unique_or_reused": "unique",
+      "number_of_uses": 6,
+      "public_route_count": 3,
+      "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": false,
       "dominant_colours": "#52361b:21% | #cbc3bb:18% | #b4a594:18% | #79583a:17% | #90765c:14%",
@@ -733,6 +764,8 @@
         "warm_orange_grade": 0.383
       },
       "status": "KEEP",
+      "phase_1_status": "TEMPORARY SAFE FALLBACK",
+      "phase_1_note": "Retained on its original bedroom-storage guide and temporarily reused for the Mattress Sizes hero and featured card because it truthfully shows the bed footprint, wardrobe relationship and walking clearance.",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -757,39 +790,12 @@
       "file_size_bytes": 98884,
       "sha256": "f6fe97641218412bf8976875aad7692130496ddaa241f007e7fd4f2e1c3823c4",
       "perceptual_hash": "fc78358f0295ec83",
-      "usages": [
-        {
-          "context": "route /guides/coffee-machine-types-australia/",
-          "kind": "hero",
-          "alt": "Capsule, manual espresso and automatic coffee machines on a stainless steel bench in a cobalt blue and coral kitchen"
-        },
-        {
-          "context": "route /guides/",
-          "kind": "inline",
-          "alt": "Three coffee machine types in a bright cobalt blue and coral kitchen."
-        },
-        {
-          "context": "source src/pages/guides/index.astro:11",
-          "kind": "source_literal",
-          "alt": "Three coffee machine types in a bright cobalt blue and coral kitchen."
-        },
-        {
-          "context": "source src/pages/guides/coffee-machine-types-australia/index.astro:54",
-          "kind": "source_literal",
-          "alt": "Capsule, manual espresso and automatic coffee machines on a stainless steel bench in a cobalt blue and coral kitchen"
-        }
-      ],
-      "public_routes": [
-        "/guides/",
-        "/guides/coffee-machine-types-australia/"
-      ],
-      "alt_texts": [
-        "Capsule, manual espresso and automatic coffee machines on a stainless steel bench in a cobalt blue and coral kitchen",
-        "Three coffee machine types in a bright cobalt blue and coral kitchen."
-      ],
-      "number_of_uses": 4,
-      "public_route_count": 2,
-      "unique_or_reused": "reused",
+      "usages": [],
+      "public_routes": [],
+      "alt_texts": [],
+      "number_of_uses": 0,
+      "public_route_count": 0,
+      "unique_or_reused": "unique",
       "is_category_fallback": false,
       "used_in_open_graph": false,
       "dominant_colours": "#0c1f45:32% | #4b4e51:16% | #702827:14% | #a19484:13% | #8b6455:13%",
@@ -808,6 +814,8 @@
         "warm_orange_grade": 0.065
       },
       "status": "URGENT REPLACEMENT",
+      "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+      "phase_1_note": "The file remains in the repository for audit history but has no source or built public reference. The Coffee Machine Types article and featured card now use the existing text-only presentation.",
       "topic_relevance": 4,
       "realism": 2,
       "colour_visual_interest": 2,
@@ -881,6 +889,8 @@
         "warm_orange_grade": 0.328
       },
       "status": "MINOR EDIT",
+      "phase_1_status": "MINOR EDIT PENDING",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -917,7 +927,7 @@
           "alt": "A cordless stick vacuum cleaning a colourful rug beside a cobalt sofa."
         },
         {
-          "context": "source src/pages/guides/index.astro:27",
+          "context": "source src/pages/guides/index.astro:25",
           "kind": "source_literal",
           "alt": "A cordless stick vacuum cleaning a colourful rug beside a cobalt sofa."
         },
@@ -956,6 +966,8 @@
         "warm_orange_grade": 0.046
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "Full-resolution review found no incorrect power lead, label or malformed handling geometry that requires emergency removal. Keep temporarily until the specified Phase 1 asset is approved.",
       "topic_relevance": 3,
       "realism": 3,
       "colour_visual_interest": 3,
@@ -1017,6 +1029,8 @@
         "warm_orange_grade": 0.227
       },
       "status": "RECROP",
+      "phase_1_status": "RECROP COMPLETED",
+      "phase_1_note": "The article header now uses object-position center 62% so the open door, lower rack and adjacent cabinetry survive the wide crop.",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 3,
@@ -1078,6 +1092,8 @@
         "warm_orange_grade": 0.137
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "Full-resolution review found no urgent brand, label, cable, installation or geometry defect. Keep temporarily while the more explanatory Phase 1 asset is produced.",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -1114,7 +1130,7 @@
           "alt": "An open bottom mount refrigerator in a warm Australian kitchen showing its cabinetry opening."
         },
         {
-          "context": "source src/pages/guides/index.astro:43",
+          "context": "source src/pages/guides/index.astro:42",
           "kind": "source_literal",
           "alt": "An open bottom mount refrigerator in a warm Australian kitchen showing its cabinetry opening."
         },
@@ -1152,6 +1168,8 @@
         "warm_orange_grade": 0.373
       },
       "status": "RECROP",
+      "phase_1_status": "RECROP COMPLETED",
+      "phase_1_note": "The article header now uses object-position 42% 28%; its Guides card uses 42% center. These positions retain the overhead cavity, open door and nearby island gap.",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -1213,6 +1231,8 @@
         "warm_orange_grade": 0.138
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -1271,6 +1291,8 @@
         "grey": 0.32
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 3,
@@ -1332,6 +1354,8 @@
         "warm_orange_grade": 0.003
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 2,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -1391,6 +1415,8 @@
         "warm_orange_grade": 0.007
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 3,
@@ -1453,6 +1479,8 @@
         "warm_orange_grade": 0.445
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -1514,6 +1542,8 @@
         "warm_orange_grade": 0.477
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -1538,39 +1568,12 @@
       "file_size_bytes": 243172,
       "sha256": "07011e0672e586dbcdeaf6ea41a2be1361607b70c0760f8ba5dfbd89315f5e69",
       "perceptual_hash": "a527e618da258dba",
-      "usages": [
-        {
-          "context": "route /guides/",
-          "kind": "inline",
-          "alt": "A queen mattress being measured in a colourful bedroom with cobalt bedding."
-        },
-        {
-          "context": "route /guides/mattress-sizes-australia/",
-          "kind": "hero",
-          "alt": "A queen mattress being measured on a black metal bed in a colourful bedroom with cobalt bedding and an aubergine wall"
-        },
-        {
-          "context": "source src/pages/guides/index.astro:35",
-          "kind": "source_literal",
-          "alt": "A queen mattress being measured in a colourful bedroom with cobalt bedding."
-        },
-        {
-          "context": "source src/pages/guides/mattress-sizes-australia/index.astro:54",
-          "kind": "source_literal",
-          "alt": "A queen mattress being measured on a black metal bed in a colourful bedroom with cobalt bedding and an aubergine wall"
-        }
-      ],
-      "public_routes": [
-        "/guides/",
-        "/guides/mattress-sizes-australia/"
-      ],
-      "alt_texts": [
-        "A queen mattress being measured in a colourful bedroom with cobalt bedding.",
-        "A queen mattress being measured on a black metal bed in a colourful bedroom with cobalt bedding and an aubergine wall"
-      ],
-      "number_of_uses": 4,
-      "public_route_count": 2,
-      "unique_or_reused": "reused",
+      "usages": [],
+      "public_routes": [],
+      "alt_texts": [],
+      "number_of_uses": 0,
+      "public_route_count": 0,
+      "unique_or_reused": "unique",
       "is_category_fallback": false,
       "used_in_open_graph": false,
       "dominant_colours": "#1c1e30:23% | #aeac97:19% | #87806c:18% | #67463b:15% | #542133:14%",
@@ -1587,6 +1590,8 @@
         "warm_orange_grade": 0.05
       },
       "status": "URGENT REPLACEMENT",
+      "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+      "phase_1_note": "The file remains in the repository for audit history but has no source or built public reference. The guide temporarily uses bedroom-storage-clear-walkway.webp.",
       "topic_relevance": 3,
       "realism": 2,
       "colour_visual_interest": 3,
@@ -1648,6 +1653,8 @@
         "warm_orange_grade": 0.575
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -1713,6 +1720,8 @@
         "warm_orange_grade": 0.314
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 4,
@@ -1773,6 +1782,8 @@
         "warm_orange_grade": 0.001
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 3,
@@ -1834,6 +1845,8 @@
         "warm_orange_grade": 0.032
       },
       "status": "MINOR EDIT",
+      "phase_1_status": "MINOR EDIT PENDING",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -1898,6 +1911,8 @@
         "warm_orange_grade": 0.346
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 4,
@@ -1924,26 +1939,185 @@
       "perceptual_hash": "8d46fa79b2c40f91",
       "usages": [
         {
+          "context": "route /categories/",
+          "kind": "inline",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /categories/pets/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/how-to-choose-the-right-dog-bed-for-your-home/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/",
+          "kind": "inline",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/new-puppy-essentials/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/pet-essentials-for-australian-homes/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
           "context": "route /guides/pet-essentials-for-australian-homes/",
           "kind": "inline",
           "alt": "The same home with pet resting, feeding, cleaning and leaving supplies grouped into clear zones"
         },
         {
+          "context": "route /guides/pet-feeding-station-ideas-for-australian-homes/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/pet-food-storage-what-to-check-before-buying-containers/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/",
+          "kind": "hero",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "route /",
+          "kind": "inline",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/components/SimpleCategoryPage.astro:72",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/index.astro:38",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/index.astro:124",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/categories/index.astro:24",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/index.astro:99",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/index.astro:86",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/how-to-choose-the-right-dog-bed-for-your-home/index.astro:83",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/new-puppy-essentials/index.astro:58",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/index.astro:87",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/pet-essentials-for-australian-homes/index.astro:63",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
           "context": "source src/pages/guides/pet-essentials-for-australian-homes/index.astro:147",
           "kind": "source_literal",
           "alt": "The same home with pet resting, feeding, cleaning and leaving supplies grouped into clear zones"
+        },
+        {
+          "context": "source src/pages/guides/pet-feeding-station-ideas-for-australian-homes/index.astro:72",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/pet-food-storage-what-to-check-before-buying-containers/index.astro:87",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/index.astro:93",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/index.astro:77",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
+        },
+        {
+          "context": "source src/pages/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/index.astro:67",
+          "kind": "source_literal",
+          "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
         }
       ],
       "public_routes": [
-        "/guides/pet-essentials-for-australian-homes/"
+        "/",
+        "/categories/",
+        "/categories/pets/",
+        "/guides/",
+        "/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
+        "/guides/new-puppy-essentials/",
+        "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
+        "/guides/pet-essentials-for-australian-homes/",
+        "/guides/pet-feeding-station-ideas-for-australian-homes/",
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+        "/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/"
       ],
       "alt_texts": [
+        "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access",
         "The same home with pet resting, feeding, cleaning and leaving supplies grouped into clear zones"
       ],
-      "number_of_uses": 2,
-      "public_route_count": 1,
-      "unique_or_reused": "unique",
-      "is_category_fallback": false,
+      "number_of_uses": 31,
+      "public_route_count": 14,
+      "unique_or_reused": "reused",
+      "is_category_fallback": true,
       "used_in_open_graph": false,
       "dominant_colours": "#735938:22% | #d0bda3:21% | #b2a28f:20% | #dcdddc:13% | #c3baac:12%",
       "palette_flags": [
@@ -1961,6 +2135,8 @@
         "warm_orange_grade": 0.349
       },
       "status": "KEEP",
+      "phase_1_status": "TEMPORARY SAFE FALLBACK",
+      "phase_1_note": "Retained on its original guide and temporarily reused as the Pets category, card and guide fallback with one truthful general alt description.",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 4,
@@ -2022,6 +2198,8 @@
         "warm_orange_grade": 0.129
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 4,
@@ -2058,7 +2236,7 @@
           "alt": "A black robot vacuum crossing a blue patterned rug with a dock behind it in a bright cobalt and terracotta living room"
         },
         {
-          "context": "source src/pages/guides/index.astro:19",
+          "context": "source src/pages/guides/index.astro:17",
           "kind": "source_literal",
           "alt": "A robot vacuum cleaning a blue patterned rug in a cobalt and terracotta living room."
         },
@@ -2096,6 +2274,8 @@
         "warm_orange_grade": 0.037
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "Full-resolution review confirms that no power lead is attached to the robot and no fake label or malformed installation requires emergency removal. Keep temporarily until the specified Phase 1 asset is approved.",
       "topic_relevance": 4,
       "realism": 3,
       "colour_visual_interest": 3,
@@ -2157,6 +2337,8 @@
         "warm_orange_grade": 0.06
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 3,
@@ -3051,6 +3233,8 @@
         "warm_orange_grade": 0.13
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 3,
@@ -3945,6 +4129,8 @@
         "warm_orange_grade": 0.128
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 3,
@@ -4007,6 +4193,8 @@
         "warm_orange_grade": 0.35
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -4189,6 +4377,8 @@
         "warm_orange_grade": 0.509
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 2,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -4436,6 +4626,8 @@
         "warm_orange_grade": 0.464
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 2,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -4654,6 +4846,8 @@
         "warm_orange_grade": 0.317
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 2,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -4859,6 +5053,8 @@
         "warm_orange_grade": 0.551
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 2,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -4905,6 +5101,8 @@
         "warm_orange_grade": 0.158
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -4951,6 +5149,8 @@
         "warm_orange_grade": 0.591
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -5166,6 +5366,8 @@
         "warm_orange_grade": 0.552
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 2,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -5370,6 +5572,8 @@
         "warm_orange_grade": 0.378
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 2,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -5394,194 +5598,13 @@
       "file_size_bytes": 110282,
       "sha256": "d918509ca22fbcbffb5343adb58cbc3813acd72f9986eeb44e8b115d0ed3b0b9",
       "perceptual_hash": "de1bc3645cc413e3",
-      "usages": [
-        {
-          "context": "route /categories/",
-          "kind": "inline",
-          "alt": "A tidy pet-friendly room with warm timber storage and soft natural light."
-        },
-        {
-          "context": "route /categories/pets/",
-          "kind": "hero",
-          "alt": "A tidy pet-friendly room with warm timber storage and soft natural light"
-        },
-        {
-          "context": "route /guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
-          "kind": "hero",
-          "alt": "A calm cat-friendly room with a discreet, accessible litter tray and easy-clean floor"
-        },
-        {
-          "context": "route /guides/how-to-choose-the-right-dog-bed-for-your-home/",
-          "kind": "hero",
-          "alt": "A calm pet-friendly living room with a washable dog bed near warm natural light"
-        },
-        {
-          "context": "route /guides/",
-          "kind": "inline",
-          "alt": "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage."
-        },
-        {
-          "context": "route /guides/new-puppy-essentials/",
-          "kind": "hero",
-          "alt": "A new puppy resting in a calm living area with washable bedding and a water bowl"
-        },
-        {
-          "context": "route /guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
-          "kind": "hero",
-          "alt": "A tidy pet-friendly living area with washable mats, timber storage and soft natural light"
-        },
-        {
-          "context": "route /guides/pet-essentials-for-australian-homes/",
-          "kind": "hero",
-          "alt": "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage"
-        },
-        {
-          "context": "route /guides/pet-feeding-station-ideas-for-australian-homes/",
-          "kind": "hero",
-          "alt": "A tidy pet feeding station with stable bowls, a washable mat and warm natural light"
-        },
-        {
-          "context": "route /guides/pet-food-storage-what-to-check-before-buying-containers/",
-          "kind": "hero",
-          "alt": "A tidy pet feeding area with bowls, storage and warm natural light"
-        },
-        {
-          "context": "route /guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
-          "kind": "hero",
-          "alt": "A calm pet-friendly living area with a tidy room separation setup and warm natural light"
-        },
-        {
-          "context": "route /guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
-          "kind": "hero",
-          "alt": "A tidy pet travel setup with a washable mat, lead, towel and soft natural light"
-        },
-        {
-          "context": "route /guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/",
-          "kind": "hero",
-          "alt": "A tidy pet area in a rental with washable mats, soft bedding and warm natural light"
-        },
-        {
-          "context": "route /",
-          "kind": "inline",
-          "alt": "A relaxed living room with warm timber, soft textiles and a pet-friendly setup."
-        },
-        {
-          "context": "route /",
-          "kind": "inline",
-          "alt": "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage."
-        },
-        {
-          "context": "source src/components/SimpleCategoryPage.astro:72",
-          "kind": "source_literal",
-          "alt": "A tidy pet-friendly room with warm timber storage and soft natural light"
-        },
-        {
-          "context": "source src/pages/index.astro:38",
-          "kind": "source_literal",
-          "alt": "A relaxed living room with warm timber, soft textiles and a pet-friendly setup."
-        },
-        {
-          "context": "source src/pages/index.astro:124",
-          "kind": "source_literal",
-          "alt": "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage."
-        },
-        {
-          "context": "source src/pages/categories/index.astro:24",
-          "kind": "source_literal",
-          "alt": "A tidy pet-friendly room with warm timber storage and soft natural light."
-        },
-        {
-          "context": "source src/pages/guides/index.astro:99",
-          "kind": "source_literal",
-          "alt": "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage."
-        },
-        {
-          "context": "source src/pages/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/index.astro:86",
-          "kind": "source_literal",
-          "alt": "A calm cat-friendly room with a discreet, accessible litter tray and easy-clean floor"
-        },
-        {
-          "context": "source src/pages/guides/how-to-choose-the-right-dog-bed-for-your-home/index.astro:83",
-          "kind": "source_literal",
-          "alt": "A calm pet-friendly living room with a washable dog bed near warm natural light"
-        },
-        {
-          "context": "source src/pages/guides/new-puppy-essentials/index.astro:58",
-          "kind": "source_literal",
-          "alt": "A new puppy resting in a calm living area with washable bedding and a water bowl"
-        },
-        {
-          "context": "source src/pages/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/index.astro:87",
-          "kind": "source_literal",
-          "alt": "A tidy pet-friendly living area with washable mats, timber storage and soft natural light"
-        },
-        {
-          "context": "source src/pages/guides/pet-essentials-for-australian-homes/index.astro:63",
-          "kind": "source_literal",
-          "alt": "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage"
-        },
-        {
-          "context": "source src/pages/guides/pet-feeding-station-ideas-for-australian-homes/index.astro:72",
-          "kind": "source_literal",
-          "alt": "A tidy pet feeding station with stable bowls, a washable mat and warm natural light"
-        },
-        {
-          "context": "source src/pages/guides/pet-food-storage-what-to-check-before-buying-containers/index.astro:87",
-          "kind": "source_literal",
-          "alt": "A tidy pet feeding area with bowls, storage and warm natural light"
-        },
-        {
-          "context": "source src/pages/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/index.astro:93",
-          "kind": "source_literal",
-          "alt": "A calm pet-friendly living area with a tidy room separation setup and warm natural light"
-        },
-        {
-          "context": "source src/pages/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/index.astro:77",
-          "kind": "source_literal",
-          "alt": "A tidy pet travel setup with a washable mat, lead, towel and soft natural light"
-        },
-        {
-          "context": "source src/pages/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/index.astro:67",
-          "kind": "source_literal",
-          "alt": "A tidy pet area in a rental with washable mats, soft bedding and warm natural light"
-        }
-      ],
-      "public_routes": [
-        "/",
-        "/categories/",
-        "/categories/pets/",
-        "/guides/",
-        "/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
-        "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
-        "/guides/new-puppy-essentials/",
-        "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
-        "/guides/pet-essentials-for-australian-homes/",
-        "/guides/pet-feeding-station-ideas-for-australian-homes/",
-        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
-        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
-        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
-        "/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/"
-      ],
-      "alt_texts": [
-        "A calm cat-friendly room with a discreet, accessible litter tray and easy-clean floor",
-        "A calm pet-friendly living area with a tidy room separation setup and warm natural light",
-        "A calm pet-friendly living room with a washable dog bed near warm natural light",
-        "A new puppy resting in a calm living area with washable bedding and a water bowl",
-        "A relaxed living room with warm timber, soft textiles and a pet-friendly setup.",
-        "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage",
-        "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage.",
-        "A tidy pet area in a rental with washable mats, soft bedding and warm natural light",
-        "A tidy pet feeding area with bowls, storage and warm natural light",
-        "A tidy pet feeding station with stable bowls, a washable mat and warm natural light",
-        "A tidy pet travel setup with a washable mat, lead, towel and soft natural light",
-        "A tidy pet-friendly living area with washable mats, timber storage and soft natural light",
-        "A tidy pet-friendly room with warm timber storage and soft natural light",
-        "A tidy pet-friendly room with warm timber storage and soft natural light."
-      ],
-      "number_of_uses": 30,
-      "public_route_count": 14,
-      "unique_or_reused": "reused",
-      "is_category_fallback": true,
+      "usages": [],
+      "public_routes": [],
+      "alt_texts": [],
+      "number_of_uses": 0,
+      "public_route_count": 0,
+      "unique_or_reused": "unique",
+      "is_category_fallback": false,
       "used_in_open_graph": false,
       "dominant_colours": "#3d2711:24% | #705236:21% | #896d52:17% | #ae967a:17% | #a08062:10%",
       "palette_flags": [
@@ -5598,6 +5621,8 @@
         "warm_orange_grade": 0.605
       },
       "status": "URGENT REPLACEMENT",
+      "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+      "phase_1_note": "The file remains in the repository for audit history but has no source or built public reference. pet-essentials-home-zones.webp is the temporary safe fallback.",
       "topic_relevance": 3,
       "realism": 2,
       "colour_visual_interest": 2,
@@ -5645,6 +5670,8 @@
         "warm_orange_grade": 0.525
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 4,
       "realism": 5,
       "colour_visual_interest": 3,
@@ -5690,6 +5717,8 @@
         "warm_orange_grade": 0.21
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 4,
@@ -5805,6 +5834,8 @@
         "warm_orange_grade": 0.413
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -5921,6 +5952,8 @@
         "warm_orange_grade": 0.206
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -6030,6 +6063,8 @@
         "warm_orange_grade": 0.077
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 4,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -6140,6 +6175,8 @@
         "warm_orange_grade": 0.5
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -6286,6 +6323,8 @@
         "warm_orange_grade": 0.361
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -6413,6 +6452,8 @@
         "warm_orange_grade": 0.259
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -6536,6 +6577,8 @@
         "warm_orange_grade": 0.402
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -6652,6 +6695,8 @@
         "warm_orange_grade": 0.444
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 2,
@@ -6768,6 +6813,8 @@
         "warm_orange_grade": 0.3
       },
       "status": "REPLACE",
+      "phase_1_status": "REPLACEMENT ASSET PENDING",
+      "phase_1_note": "",
       "topic_relevance": 3,
       "realism": 4,
       "colour_visual_interest": 3,
@@ -6789,9 +6836,9 @@
       "width": 1200,
       "height": 630,
       "aspect_ratio": 1.9048,
-      "file_size_bytes": 93001,
-      "sha256": "5240777d9c641a3744a107b9ad9cc233a9af4d8f11dc2478a9186a3876a0e021",
-      "perceptual_hash": "c4a59b5a64926cdb",
+      "file_size_bytes": 135062,
+      "sha256": "6f139e94b3e11631dd773f365f398bc46f04549cc916fd5d8e9b2095529d6350",
+      "perceptual_hash": "8586ee78b24cbed0",
       "usages": [
         {
           "context": "route /categories/pets/",
@@ -6875,30 +6922,32 @@
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
-      "dominant_colours": "#fbf5e9:39% | #5e472f:25% | #9e8971:24% | #ebe2d4:8% | #fbf5e8:2%",
+      "dominant_colours": "#c6b7a4:27% | #69502f:22% | #9e8c74:15% | #d1c4b3:15% | #dcdad7:12%",
       "palette_flags": [
         "beige_or_cream",
         "brown",
         "warm_orange_grade"
       ],
       "palette_percentages": {
-        "beige_or_cream": 0.324,
-        "brown": 0.607,
-        "coral_or_terracotta": 0.001,
-        "dull_green": 0.009,
-        "grey": 0.125,
-        "warm_orange_grade": 0.557
+        "beige_or_cream": 0.452,
+        "brown": 0.285,
+        "coral_or_terracotta": 0.008,
+        "dull_green": 0.008,
+        "grey": 0.234,
+        "warm_orange_grade": 0.398
       },
-      "status": "REPLACE",
-      "topic_relevance": 3,
-      "realism": 2,
-      "colour_visual_interest": 2,
+      "status": "KEEP",
+      "phase_1_status": "TEMPORARY SAFE FALLBACK",
+      "phase_1_note": "Regenerated deterministically at 1200 by 630 from pet-essentials-home-zones.webp. It contains no defective pet artwork, embedded text or branding.",
+      "topic_relevance": 4,
+      "realism": 5,
+      "colour_visual_interest": 3,
       "composition": 4,
       "technical_quality": 5,
-      "brand_suitability": 1,
-      "average_score": 2.83,
-      "assessment_notes": "Correct social ratio, but it embeds a crop of the urgent pet fallback with its artificial multi-pet showroom and unreadable packaging.",
-      "priority": 19,
+      "brand_suitability": 4,
+      "average_score": 4.17,
+      "assessment_notes": "A safe temporary 1200 by 630 crop of the approved household dog zone. The permanent social treatment should be reviewed again after the final pet category asset is approved.",
+      "priority": "",
       "recommended_concept": "A clean social crop of a credible single-pet household zone with safe storage and circulation.",
       "important_objects": "One pet, bed or bowls, closed supply storage and walkway.",
       "avoid": "Embedded title, logo lockup, fake packaging, multiple pet species staged together.",
@@ -7153,6 +7202,8 @@
         "warm_orange_grade": 0.252
       },
       "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
       "topic_relevance": 4,
       "realism": 5,
       "colour_visual_interest": 3,

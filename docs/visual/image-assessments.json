@@ -51,6 +51,8 @@
   },
   "public/images/guides/bedroom-storage-clear-walkway.webp": {
     "status": "KEEP",
+    "phase_1_status": "TEMPORARY SAFE FALLBACK",
+    "phase_1_note": "Retained on its original bedroom-storage guide and temporarily reused for the Mattress Sizes hero and featured card because it truthfully shows the bed footprint, wardrobe relationship and walking clearance.",
     "topic_relevance": 5,
     "realism": 4,
     "colour_visual_interest": 3,
@@ -61,6 +63,8 @@
   },
   "public/images/guides/coffee-machine-types-australia.webp": {
     "status": "URGENT REPLACEMENT",
+    "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+    "phase_1_note": "The file remains in the repository for audit history but has no source or built public reference. The Coffee Machine Types article and featured card now use the existing text-only presentation.",
     "topic_relevance": 4,
     "realism": 2,
     "colour_visual_interest": 2,
@@ -86,6 +90,8 @@
   },
   "public/images/guides/cordless-stick-vacuums-australia.webp": {
     "status": "REPLACE",
+    "phase_1_status": "REPLACEMENT ASSET PENDING",
+    "phase_1_note": "Full-resolution review found no incorrect power lead, label or malformed handling geometry that requires emergency removal. Keep temporarily until the specified Phase 1 asset is approved.",
     "topic_relevance": 3,
     "realism": 3,
     "colour_visual_interest": 3,
@@ -101,6 +107,8 @@
   },
   "public/images/guides/dishwasher-sizes-australia.webp": {
     "status": "RECROP",
+    "phase_1_status": "RECROP COMPLETED",
+    "phase_1_note": "The article header now uses object-position center 62% so the open door, lower rack and adjacent cabinetry survive the wide crop.",
     "topic_relevance": 5,
     "realism": 5,
     "colour_visual_interest": 3,
@@ -111,6 +119,8 @@
   },
   "public/images/guides/dryer-types-australia.webp": {
     "status": "REPLACE",
+    "phase_1_status": "REPLACEMENT ASSET PENDING",
+    "phase_1_note": "Full-resolution review found no urgent brand, label, cable, installation or geometry defect. Keep temporarily while the more explanatory Phase 1 asset is produced.",
     "topic_relevance": 3,
     "realism": 4,
     "colour_visual_interest": 2,
@@ -126,6 +136,8 @@
   },
   "public/images/guides/fridge-dimensions-australia.webp": {
     "status": "RECROP",
+    "phase_1_status": "RECROP COMPLETED",
+    "phase_1_note": "The article header now uses object-position 42% 28%; its Guides card uses 42% center. These positions retain the overhead cavity, open door and nearby island gap.",
     "topic_relevance": 5,
     "realism": 4,
     "colour_visual_interest": 3,
@@ -201,6 +213,8 @@
   },
   "public/images/guides/mattress-sizes-australia.webp": {
     "status": "URGENT REPLACEMENT",
+    "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+    "phase_1_note": "The file remains in the repository for audit history but has no source or built public reference. The guide temporarily uses bedroom-storage-clear-walkway.webp.",
     "topic_relevance": 3,
     "realism": 2,
     "colour_visual_interest": 3,
@@ -266,6 +280,8 @@
   },
   "public/images/guides/pet-essentials-home-zones.webp": {
     "status": "KEEP",
+    "phase_1_status": "TEMPORARY SAFE FALLBACK",
+    "phase_1_note": "Retained on its original guide and temporarily reused as the Pets category, card and guide fallback with one truthful general alt description.",
     "topic_relevance": 5,
     "realism": 4,
     "colour_visual_interest": 4,
@@ -286,6 +302,8 @@
   },
   "public/images/guides/robot-vacuum-buying-guide-australia.webp": {
     "status": "REPLACE",
+    "phase_1_status": "REPLACEMENT ASSET PENDING",
+    "phase_1_note": "Full-resolution review confirms that no power lead is attached to the robot and no fake label or malformed installation requires emergency removal. Keep temporarily until the specified Phase 1 asset is approved.",
     "topic_relevance": 4,
     "realism": 3,
     "colour_visual_interest": 3,
@@ -461,6 +479,8 @@
   },
   "public/images/pet.webp": {
     "status": "URGENT REPLACEMENT",
+    "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+    "phase_1_note": "The file remains in the repository for audit history but has no source or built public reference. pet-essentials-home-zones.webp is the temporary safe fallback.",
     "topic_relevance": 3,
     "realism": 2,
     "colour_visual_interest": 2,
@@ -630,15 +650,16 @@
     "suggested_alt_text": "A small courtyard showing outdoor storage and weather-exposed access."
   },
   "public/images/social/pets.jpg": {
-    "status": "REPLACE",
-    "topic_relevance": 3,
-    "realism": 2,
-    "colour_visual_interest": 2,
+    "status": "KEEP",
+    "phase_1_status": "TEMPORARY SAFE FALLBACK",
+    "phase_1_note": "Regenerated deterministically at 1200 by 630 from pet-essentials-home-zones.webp. It contains no defective pet artwork, embedded text or branding.",
+    "topic_relevance": 4,
+    "realism": 5,
+    "colour_visual_interest": 3,
     "composition": 4,
     "technical_quality": 5,
-    "brand_suitability": 1,
-    "priority": 19,
-    "notes": "Correct social ratio, but it embeds a crop of the urgent pet fallback with its artificial multi-pet showroom and unreadable packaging.",
+    "brand_suitability": 4,
+    "notes": "A safe temporary 1200 by 630 crop of the approved household dog zone. The permanent social treatment should be reviewed again after the final pet category asset is approved.",
     "recommended_concept": "A clean social crop of a credible single-pet household zone with safe storage and circulation.",
     "important_objects": "One pet, bed or bowls, closed supply storage and walkway.",
     "avoid": "Embedded title, logo lockup, fake packaging, multiple pet species staged together.",

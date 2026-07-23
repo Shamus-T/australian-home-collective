@@ -29,13 +29,12 @@ RESTORED_GUIDES = [
     "public/images/guides/cookware-materials-australia.webp",
     "public/images/guides/cordless-stick-vacuums-australia.webp",
     "public/images/guides/robot-vacuum-buying-guide-australia.webp",
-    "public/images/guides/coffee-machine-types-australia.webp",
-    "public/images/guides/mattress-sizes-australia.webp",
+    "public/images/guides/bedroom-storage-clear-walkway.webp",
 ]
 CATEGORY_FALLBACKS = {
     "public/images/Nursery-kids.webp",
     "public/images/kitchen.webp",
-    "public/images/pet.webp",
+    "public/images/guides/pet-essentials-home-zones.webp",
     "public/images/laundry.webp",
     "public/images/bathroom.webp",
     "public/images/bedroom.webp",
@@ -52,6 +51,21 @@ SCORE_FIELDS = [
     "technical_quality",
     "brand_suitability",
 ]
+PHASE_STATUS_DEFAULTS = {
+    "KEEP": "FINAL KEEP",
+    "RECROP": "RECROP COMPLETED",
+    "MINOR EDIT": "MINOR EDIT PENDING",
+    "REPLACE": "REPLACEMENT ASSET PENDING",
+    "URGENT REPLACEMENT": "REPLACEMENT ASSET PENDING",
+}
+CONTACT_STATUS_LABELS = {
+    "TEMPORARILY REMOVED FROM PUBLIC USE": "REMOVED FROM PUBLIC USE",
+    "TEMPORARY SAFE FALLBACK": "TEMPORARY SAFE FALLBACK",
+    "REPLACEMENT ASSET PENDING": "REPLACEMENT PENDING",
+    "RECROP COMPLETED": "RECROP COMPLETED",
+    "MINOR EDIT PENDING": "MINOR EDIT PENDING",
+    "FINAL KEEP": "FINAL KEEP",
+}
 
 
 def relative_posix(path: Path, root: Path) -> str:
@@ -371,7 +385,8 @@ def make_contact_sheet(
         for line_index, line in enumerate(wrapped):
             draw.text((x + 12, label_y + line_index * 21), line, fill="#111111", font=label_font)
         detail_y = label_y + len(wrapped) * 21 + 4
-        detail = f'{record["width"]}×{record["height"]} · {record["format"].upper()} · {record["status"]}'
+        display_status = CONTACT_STATUS_LABELS.get(record["phase_1_status"], record["phase_1_status"])
+        detail = f'{record["width"]}×{record["height"]} · {record["format"].upper()} · {display_status}'
         draw.text((x + 12, detail_y), detail, fill="#555555", font=detail_font)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -448,6 +463,11 @@ def main() -> None:
         public_routes = sorted({usage["context"].removeprefix("route ") for usage in public_usage})
         alt_texts = sorted({usage["alt"] for usage in deduplicated_usage if usage["alt"]})
         assessment = assessments.get(file_path, {})
+        quality_status = assessment.get("status", "PENDING")
+        phase_1_status = assessment.get(
+            "phase_1_status",
+            PHASE_STATUS_DEFAULTS.get(quality_status, "NOT IN PHASE 1"),
+        )
         scores = {field: assessment.get(field, "") for field in SCORE_FIELDS}
         numeric_scores = [value for value in scores.values() if isinstance(value, (int, float))]
         record = {
@@ -471,7 +491,9 @@ def main() -> None:
             "dominant_colours": dominant_colours,
             "palette_flags": palette_flags,
             "palette_percentages": palette_percentages,
-            "status": assessment.get("status", "PENDING"),
+            "status": quality_status,
+            "phase_1_status": phase_1_status,
+            "phase_1_note": assessment.get("phase_1_note", ""),
             **scores,
             "average_score": round(sum(numeric_scores) / len(numeric_scores), 2) if numeric_scores else "",
             "assessment_notes": assessment.get("notes", ""),
@@ -537,6 +559,8 @@ def main() -> None:
         "dominant_colours",
         "palette_flags",
         "status",
+        "phase_1_status",
+        "phase_1_note",
         *SCORE_FIELDS,
         "average_score",
         "assessment_notes",
@@ -616,7 +640,7 @@ def main() -> None:
         ),
         (
             "contact-sheet-restored-guides.jpg",
-            "Eight restored guides",
+            "Restored guides: seven images and one text-only card",
             records_for_paths(RESTORED_GUIDES),
         ),
         (

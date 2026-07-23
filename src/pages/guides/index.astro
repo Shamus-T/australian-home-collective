@@ -8,8 +8,6 @@ const featuredGuides = [
     title: "Coffee Machine Types Australia: Pod, Manual and Automatic Compared",
     description: "Compare the workflow, cleaning, bench space, consumables and daily ownership routine.",
     category: "Kitchen",
-    image: "/images/guides/coffee-machine-types-australia.webp",
-    imageAlt: "Three coffee machine types in a bright cobalt blue and coral kitchen.",
   },
   {
     href: "/guides/robot-vacuum-buying-guide-australia/",
@@ -32,8 +30,9 @@ const featuredGuides = [
     title: "Mattress Sizes Australia: Room, Base and Buying Guide",
     description: "Check mattress dimensions, the complete bed footprint, delivery access and trial terms.",
     category: "Bedroom",
-    image: "/images/guides/mattress-sizes-australia.webp",
-    imageAlt: "A queen mattress being measured in a colourful bedroom with cobalt bedding.",
+    image: "/images/guides/bedroom-storage-clear-walkway.webp",
+    imageAlt: "A compact bedroom showing the bed footprint, open wardrobe and clear walking space beside the bed",
+    imagePosition: "57% center",
   },
   {
     href: "/guides/fridge-dimensions-australia/",
@@ -42,6 +41,7 @@ const featuredGuides = [
     category: "Kitchen",
     image: "/images/guides/fridge-dimensions-australia.webp",
     imageAlt: "An open bottom mount refrigerator in a warm Australian kitchen showing its cabinetry opening.",
+    imagePosition: "42% center",
   },
   {
     href: "/guides/cookware-materials-compared/",
@@ -96,8 +96,8 @@ const featuredGuides = [
     title: "Pet Essentials for Australian Homes: What to Buy First",
     description: "Build a short first list around feeding, rest, cleaning and necessary travel, then choose the right specialist guide.",
     category: "Pets",
-    image: "/images/pet.webp",
-    imageAlt: "A relaxed pet-friendly living room with warm timber, soft textiles and tidy storage.",
+    image: "/images/guides/pet-essentials-home-zones.webp",
+    imageAlt: "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access",
   },
   {
     href: "/guides/nursery-essentials-for-australian-homes/",
@@ -331,6 +331,7 @@ const guideGroups = [
           meta={guide.category}
           image={guide.image}
           imageAlt={guide.imageAlt}
+          imagePosition={guide.imagePosition}
         />
       ))}
     </div>

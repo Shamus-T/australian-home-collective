@@ -1,23 +1,33 @@
 # Australian Home Collective image audit
 
 Audit date: 23 July 2026
-Repository head inspected: `e774e08022888da8674282df457dd5ddbd644b93`
+Baseline audit head: `e774e08022888da8674282df457dd5ddbd644b93`
+Phase 1 implementation started from: `74257c91eaee5a82f937cd21470e098201691804`
 
 ## Scope and outcome
 
-This is a documentation-only audit of every file under `public/images/`, all nested image folders, built page references, source references, guide heroes, homepage and category cards, category fallbacks, and Open Graph images.
+The baseline audit covers every file under `public/images/`, all nested image folders, built page references, source references, guide heroes, homepage and category cards, category fallbacks, and Open Graph images.
 
-No public image, image reference, alt text, page, build setting or deployment setting was changed.
+The first public repair phase is now implemented:
 
-The inventory shows that Australian Home Collective has a strong small set of instructional visuals, but category imagery is carrying too much of the publication. Ten generic category files currently act as hero images for 90 guides. This produces repeated beige, timber, grey and warm-brown scenes and also causes guide-specific alt text to describe details that are not present in the image.
+- `pet.webp`, `guides/mattress-sizes-australia.webp` and `guides/coffee-machine-types-australia.webp` remain in the repository but have no public source or built references.
+- `guides/pet-essentials-home-zones.webp` is the temporary Pets fallback with one truthful general alt description.
+- `guides/bedroom-storage-clear-walkway.webp` is the temporary Mattress Sizes hero and card image, with a right-shifted mobile-safe focal position.
+- Coffee Machine Types now uses the existing text-only article header and text-only featured card.
+- `social/pets.jpg` was regenerated deterministically from the approved local pet source at 1200 × 630.
+- Fridge and dishwasher focal positions were repaired without changing their source pixels.
+- Robot vacuum, cordless stick vacuum and dryer were checked at full resolution. No urgent safety or credibility defect requiring immediate removal was found; their true replacements remain pending.
 
-The first repair phase should address three credibility defects and the restored buying guides before replacing broad category fallbacks. Social images should be regenerated after their underlying category photography is approved.
+No file was deleted, no AI image was generated, no stock or branded image was introduced, and no site redesign was made.
+
+The broader finding remains: ten category fallback files still act as hero images for 90 guides. The temporary pet fallback is safer and more truthful than the defective source, but category imagery is still carrying too much of the publication.
 
 ## Audit files
 
 - `docs/visual/image-inventory.csv` — one row per image, including dimensions, use locations, alt text, reuse, Open Graph use, palette flags, status and six scores.
 - `docs/visual/image-assessments.json` — the review decisions and replacement specifications used to build the scored inventory.
 - `docs/visual/image-analysis.json` — machine-readable hashes, route references, colour diagnostics and assessment data.
+- `docs/visual/phase-1-replacement-assets.md` — final production specifications for the six true replacement assets.
 - `scripts/build-image-audit.py` — repeatable inventory, perceptual-hash, palette and contact-sheet generator.
 
 Contact sheets:
@@ -40,21 +50,34 @@ No numbered sheet contains more than 24 images. Thumbnails preserve their source
 | Binary-unique image files | 52 |
 | Exact binary duplicate groups | 0 |
 | Perceptual near-duplicate pairs | 3 |
-| Images used on more than one public route | 29 |
+| Images used on more than one public route | 28 |
 | Generic category hero files | 10 |
 | Guides using a generic category hero | 90 |
 | Open Graph files | 11 |
-| Files that appear unused | 4 |
+| Files that appear unused | 7 |
 
 ### Status totals
 
 | Status | Count |
 | --- | ---: |
-| KEEP | 21 |
+| KEEP | 22 |
 | RECROP | 2 |
 | MINOR EDIT | 2 |
-| REPLACE | 24 |
+| REPLACE | 23 |
 | URGENT REPLACEMENT | 3 |
+
+Quality status records what is in the repository. It does not imply that an urgent file remains public.
+
+### Phase 1 public-use status
+
+| Phase 1 status | Count |
+| --- | ---: |
+| FINAL KEEP | 19 |
+| TEMPORARY SAFE FALLBACK | 3 |
+| TEMPORARILY REMOVED FROM PUBLIC USE | 3 |
+| RECROP COMPLETED | 2 |
+| REPLACEMENT ASSET PENDING | 23 |
+| MINOR EDIT PENDING | 2 |
 
 ### Palette diagnostic
 
@@ -76,11 +99,11 @@ The dominant issue is not one prohibited colour. It is the repeated combination 
 
 1. **Category fallbacks are doing the work of guide imagery.** Ten files serve 90 guide heroes. A generic room cannot truthfully illustrate specific advice about appliance clearances, renter constraints, cable routes, furniture anchoring or storage geometry.
 2. **The palette is repetitive.** Beige or cream appears in 41 files, brown in 38 and warm grading in 27. Much of the site therefore reads as one decor collection rather than a varied editorial publication.
-3. **Three files have credibility defects.** The pet fallback contains invented package labels, the mattress has a physically implausible measuring device fused into it, and the coffee image presents fictional appliances like assessed products.
+3. **Three repository files have credibility defects but are no longer public.** The pet fallback contains invented package labels, the mattress has a physically implausible measuring device fused into it, and the coffee image presents fictional appliances like assessed products. Each now has zero public references.
 4. **Several restored-guide images decorate rather than explain.** The cordless-vacuum, robot-vacuum and dryer images show the product category but omit important planning constraints.
-5. **Social cards repeat the same weak sources.** All ten category Open Graph cards are technically the correct size, but they embed a logo and headline beside the same generic fallback photography.
+5. **Most social cards repeat the same weak sources.** Nine category Open Graph cards still embed a logo and headline beside generic fallback photography. The Pets social image is now a clean 1200 × 630 crop of the approved temporary source.
 6. **Alt text has been adapted to the article while the image has not.** The same fallback receives many different descriptions, including details that are not visible.
-7. **Some good images are vulnerable to the wide hero crop.** The dishwasher and fridge sources are strong, but their 3:2 ratio is cropped to a much wider hero slot.
+7. **Wide hero crops require deliberate focal positions.** Fridge and dishwasher are now repaired; other 3:2 sources still need safe-area checks when reused.
 
 ## Strongest and weakest areas
 
@@ -95,11 +118,11 @@ The dominant issue is not one prohibited colour. It is the repeated combination 
 
 ### Weakest
 
-- **Pets:** the high-reach fallback has fake packaging and an implausible multi-pet showroom composition.
+- **Pets:** the defective high-reach fallback is removed from public use. The category now has a safe temporary source, but it still needs the purpose-built Phase 1 asset.
 - **Kitchen and laundry:** each generic room is used by ten guides plus index and category contexts, despite very different subjects.
 - **Nursery and children:** one nursery scene is used for baby care, monitors, outings, cots, toy storage and older-child planning.
 - **Bedroom, bathroom, living room and home office:** attractive but generic display-room photography has been asked to support guide-specific claims it cannot show.
-- **Restored commercial guides:** coffee machines and mattresses have urgent defects; robot vacuum, cordless vacuum and dryer need more useful concepts.
+- **Restored commercial guides:** the defective coffee and mattress files are no longer public; robot vacuum, cordless vacuum and dryer remain stylistically weak and need more useful concepts.
 
 ## Perceptual duplication
 
@@ -113,25 +136,35 @@ There are no byte-for-byte duplicate files. Three pairs meet the perceptual near
 
 Category fallback reuse is more important than near-duplicate files: the same binary file is intentionally referenced by many unrelated guides.
 
-## First concrete repair phase
+## First public repair phase
 
-Recommended sequence:
+Completed:
 
-1. Replace `pet.webp`, `mattress-sizes-australia.webp` and `coffee-machine-types-australia.webp`.
-2. Replace the restored robot-vacuum and cordless-vacuum images, then replace the dryer image.
-3. Recrop the current fridge and dishwasher sources while preserving their useful clearance information.
-4. Replace the kitchen, laundry, bathroom, bedroom, nursery, living-room, home-office and outdoor category fallbacks with a planned set of varied scenes.
-5. Create guide-specific imagery for the highest-value guides now using those fallbacks.
-6. Regenerate category social images from the approved new photography, keeping a central crop-safe subject and avoiding embedded headlines.
-7. Review alt text only when the replacement files and routes are approved. Do not rewrite alt text in isolation.
+1. Removed all public references to the three urgent defective files without deleting them.
+2. Installed safe temporary local sources for Pets and Mattress Sizes.
+3. Converted Coffee Machine Types to a text-only header and featured card.
+4. Regenerated the Pets social image from the approved local source.
+5. Completed route-specific fridge and dishwasher focal-position repairs.
+6. Reviewed robot vacuum, cordless stick vacuum and dryer for urgent defects.
+7. Created `phase-1-replacement-assets.md` for the six true replacement files.
 
-## Top 25 replacement priorities
+Still required:
+
+1. Produce and approve the six assets in the Phase 1 manifest.
+2. Replace the kitchen, laundry, bathroom, bedroom, nursery, living-room, home-office and outdoor category fallbacks with a planned, varied set.
+3. Create guide-specific imagery for the highest-value guides still using those fallbacks.
+4. Regenerate the remaining category social images after their final photography is approved.
+
+## Baseline top 25 replacement priorities and current disposition
+
+The ranking is retained so the original audit decision remains traceable. Phase 1 changed the public disposition of priorities 1, 2, 3 and 19; it did not pretend that the defective repository files had been repaired.
 
 ### 1. Pet category fallback
 
 - **File:** `public/images/pet.webp`
-- **Routes:** `/categories/pets/` and 10 guide heroes.
-- **Reason:** Urgent. Invented package labels, an artificial cat/aquarium/dog showroom and heavy timber styling are visible on 14 public routes.
+- **Current routes for this file:** None. The file remains in the repository.
+- **Temporary public source:** `public/images/guides/pet-essentials-home-zones.webp` on the Pets category, cards and 10 guide heroes.
+- **Reason:** Urgent. At baseline, invented package labels, an artificial cat/aquarium/dog showroom and heavy timber styling were visible on 14 public routes.
 - **New concept:** A believable single-pet household zone with feeding, bedding and supply storage.
 - **Show:** One pet, stable bowls, bed, closed food container, lead or toy storage and a clear walkway.
 - **Avoid:** Fake packaging, brand marks, several species staged together, aquarium adjacency, malformed animals and all-timber showroom styling.
@@ -140,7 +173,8 @@ Recommended sequence:
 ### 2. Mattress sizes guide
 
 - **File:** `public/images/guides/mattress-sizes-australia.webp`
-- **Route:** `/guides/mattress-sizes-australia/`
+- **Current routes for this file:** None. The file remains in the repository.
+- **Temporary public source:** `public/images/guides/bedroom-storage-clear-walkway.webp` on the article and featured card.
 - **Reason:** Urgent. A measuring strip and black device appear fused into the mattress; the product and saturated room look generated.
 - **New concept:** A modest bedroom showing the bed footprint and useful floor clearances.
 - **Show:** Bed edges, bedside tables, wardrobe, doorway, clear floor gaps and a normal tape measure on the floor.
@@ -150,7 +184,8 @@ Recommended sequence:
 ### 3. Coffee machine types guide
 
 - **File:** `public/images/guides/coffee-machine-types-australia.webp`
-- **Route:** `/guides/coffee-machine-types-australia/`
+- **Current routes for this file:** None. The file remains in the repository.
+- **Temporary public treatment:** Text-only article header and featured card, with the safe Kitchen social image retained for metadata.
 - **Reason:** Urgent. It presents fictional, recognisable machine types as a retail lineup with invented controls.
 - **New concept:** Three unbranded preparation workflows in one believable kitchen.
 - **Show:** Pod storage, manual portafilter workflow, bean hopper, cups, water access, bench depth and landing space.
@@ -311,7 +346,8 @@ Recommended sequence:
 
 - **File:** `public/images/social/pets.jpg`
 - **Routes:** Open Graph image on 11 routes.
-- **Reason:** It contains a crop of the urgent pet fallback, including the artificial multi-pet setup and fake packaging.
+- **Phase 1 result:** Completed as a safe temporary fallback. The defective artwork was replaced with a deterministic 1200 × 630 crop of `pet-essentials-home-zones.webp`.
+- **Remaining reason for future review:** Regenerate from the final pet category asset once that image is approved so social and category photography remain aligned.
 - **New concept:** A clean social crop of a credible single-pet zone.
 - **Show:** One pet, bed or bowls, closed supply storage and walkway.
 - **Avoid:** Embedded title, logo lockup, fake packaging and several pet species staged together.
@@ -381,12 +417,12 @@ Priority 26 is `public/images/social/garage-storage.jpg`. Priority 27 is the app
 
 ## Top 10 recrop opportunities
 
-Only the first two files require a current recrop status. The remaining entries are strong sources whose useful details should be protected whenever a hero, card or social crop is prepared.
+The first two repairs are complete. The remaining entries are strong sources whose useful details should be protected whenever a hero, card or social crop is prepared.
 
 | Rank | File | Opportunity |
 | ---: | --- | --- |
-| 1 | `guides/dishwasher-sizes-australia.webp` | Move the focal position down enough to retain the full open door and adjacent handle clearance in the wide hero. |
-| 2 | `guides/fridge-dimensions-australia.webp` | Keep the open door edge, island gap and overhead cavity in frame; do not centre only the appliance. |
+| 1 | `guides/dishwasher-sizes-australia.webp` | Completed: article header set to `center 62%` to retain the open door and cabinetry relationship. |
+| 2 | `guides/fridge-dimensions-australia.webp` | Completed: article header set to `42% 28%`; Guides card set to `42% center` to retain cavity, open door and island gap. |
 | 3 | `garage.webp` | Protect the wall-storage run and clear floor zone when making a wider category crop. |
 | 4 | `guides/pantry-storage-navy-walk-in.webp` | Keep both opposing shelf runs and the central access path; avoid cropping to a decorative shelf detail. |
 | 5 | `guides/nursery-storage-compact-room.webp` | Retain cot, change area and the floor path together. |
@@ -398,13 +434,13 @@ Only the first two files require a current recrop status. The remaining entries 
 
 ## Urgent defects
 
-| File | Defect | Reach |
-| --- | --- | ---: |
-| `public/images/pet.webp` | Invented package labels, implausible multi-species showroom and obvious generated staging. | 14 public routes, including 10 guides. |
-| `public/images/guides/mattress-sizes-australia.webp` | Measuring strip and device appear physically fused into the mattress. | Guide and Guides Index. |
-| `public/images/guides/coffee-machine-types-australia.webp` | Fictional appliances with invented controls presented like assessed retail products. | Guide and Guides Index. |
+| File | Defect | Current public state |
+| --- | --- | --- |
+| `public/images/pet.webp` | Invented package labels, implausible multi-species showroom and obvious generated staging. | 0 references. File retained; temporary pet source installed. |
+| `public/images/guides/mattress-sizes-australia.webp` | Measuring strip and device appear physically fused into the mattress. | 0 references. File retained; safe bedroom-clearance source installed. |
+| `public/images/guides/coffee-machine-types-australia.webp` | Fictional appliances with invented controls presented like assessed retail products. | 0 references. File retained; article and featured card are text-only. |
 
-The current robot-vacuum file was also checked at full resolution. It does not have a cord running to the robot. Its replacement status is based on its empty, heavily themed scene and weak explanation of obstacles, not a cable defect.
+The current robot-vacuum file was checked at full resolution. It does not have a cord running to the robot, fake labels or malformed geometry. The cordless-vacuum file has no incorrect power connection or fake label, and its handling geometry is plausible. The dryer has coherent doors and installation geometry and no visible branding. Their replacement status is based on weak editorial explanation or repetitive styling, not an emergency safety defect.
 
 ## Images reused across unrelated guides
 
@@ -421,7 +457,7 @@ The current robot-vacuum file was also checked at full resolution. It does not h
 | `living-room.webp` | 12 | 9 | Same room used for TV, cables, rugs, lighting, seating, tables and toy storage. |
 | `Nursery-kids.webp` | 13 | 9 | Same nursery used for infants, outings, monitoring, cots, toys and children’s storage. |
 | `outdoor-garden.webp` | 13 | 9 | Same courtyard used for shade, barbecues, dining, tools, balconies and storage. |
-| `pet.webp` | 14 | 10 | Same artificial pet room used for cat, dog, food, cleaning, travel and rental topics. |
+| `guides/pet-essentials-home-zones.webp` | 14 | 10 | Safe temporary pet fallback. The same general dog zone is still being reused across specialist pet guides until the true category asset is approved. |
 
 ### Open Graph reuse
 
@@ -550,7 +586,7 @@ The 90 routes below use one of the ten category fallback files as their hero.
 - `/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/`
 - `/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/`
 
-### `public/images/pet.webp` — 10 guides
+### `public/images/guides/pet-essentials-home-zones.webp` — 10 guides
 
 - `/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/`
 - `/guides/how-to-choose-the-right-dog-bed-for-your-home/`
@@ -567,12 +603,15 @@ The 90 routes below use one of the ten category fallback files as their hero.
 
 The route and source scans found no current reference to:
 
+- `public/images/guides/coffee-machine-types-australia.webp`
+- `public/images/guides/mattress-sizes-australia.webp`
 - `public/images/Media Room.webp`
 - `public/images/nursery-home-hero.png`
+- `public/images/pet.webp`
 - `public/images/pet2.webp`
 - `public/images/shane.webp`
 
-Do not delete these files as part of this audit. The nursery source, dog-bed source and author portrait are credible enough to preserve. The media-room file should be replaced only if it is deliberately brought back into use.
+Do not delete these files as part of this audit. The three defective files are retained so the audit does not falsely report them as deleted or repaired. The nursery source, dog-bed source and author portrait are credible enough to preserve. The media-room file should be replaced only if it is deliberately brought back into use.
 
 ## Alt-text inconsistencies
 
@@ -580,7 +619,6 @@ The inventory preserves every discovered alt value. The principal problem is sem
 
 | File | Distinct alt values | Finding |
 | --- | ---: | --- |
-| `pet.webp` | 14 | Different routes describe dog beds, cat litter, feeding, food storage, travel and cleaning although the same room is shown. |
 | `kitchen.webp` | 13 | Alt text claims pantry, drawer, container, appliance and under-sink details not consistently visible. |
 | `living-room.webp` | 13 | Alt text changes between cables, rugs, lighting, tables, seating, toys and media storage. |
 | `bathroom.webp` | 12 | Alt text claims shower, towel, vanity and under-sink details from one generic room. |
@@ -590,9 +628,9 @@ The inventory preserves every discovered alt value. The principal problem is sem
 | `Nursery-kids.webp` | 7 | The same nursery is described for babies, cots, monitoring, outings, toys and older children. |
 | `laundry.webp` | 5 | Several highly reused descriptions collapse to generic laundry wording, masking subject mismatch. |
 | `garage.webp` | 4 | Mostly punctuation and cabinets-versus-shelves wording; the image is reasonably relevant to the group. |
+| `guides/pet-essentials-home-zones.webp` | 2 | All temporary fallback uses now share one truthful general description; the original pet-essentials article retains its more specific before-and-after description. |
+| `guides/bedroom-storage-clear-walkway.webp` | 2 | Mattress article and card use one clearance description; the original bedroom-storage article retains its specific after-image description. |
 | `guides/pet-essentials-before-scattered-supplies.webp` | 2 | Companion usage differs only in presentation context; review punctuation when public alt text is next edited. |
-| `guides/coffee-machine-types-australia.webp` | 2 | Guide hero and Guides Index descriptions differ slightly. |
-| `guides/mattress-sizes-australia.webp` | 2 | Guide hero and Guides Index descriptions differ slightly. |
 | `guides/fridge-dimensions-australia.webp` | 2 | Guide hero and Guides Index descriptions differ slightly. |
 | `guides/cookware-materials-australia.webp` | 2 | Guide hero and Guides Index descriptions differ slightly. |
 | `guides/cordless-stick-vacuums-australia.webp` | 2 | Guide hero and Guides Index descriptions differ slightly. |
@@ -606,7 +644,8 @@ All 11 Open Graph files are 1200 by 630 pixels, so there is no source aspect-rat
 
 Risks are editorial:
 
-- The ten category social cards place embedded branding and headline text on the left and a narrow crop of the generic category scene on the right.
+- Nine category social cards place embedded branding and headline text on the left and a narrow crop of the generic category scene on the right.
+- `social/pets.jpg` is now a clean, crop-safe 1200 × 630 photograph made from the approved local temporary source. It contains no embedded text, logo or defective pet artwork.
 - Replacing only the right-hand photograph would preserve the repetitive template and its embedded text.
 - Future social images should keep the useful subject in a central crop-safe area because platforms can trim edges or overlay interface elements.
 - The publication-level `social-sharing.png` keeps its wordmark inside a safe central area and is suitable as the fallback.
@@ -620,24 +659,24 @@ Scores are averages of topic relevance, realism, colour and visual interest, com
 
 - **Route:** `/guides/fridge-dimensions-australia/`
 - **File:** `public/images/guides/fridge-dimensions-australia.webp`
-- **Status and score:** RECROP — 4.00/5.
-- **Recommendation:** Retain the source. Set a wide focal crop that preserves the open door edge, island gap and cavity. Replace only if a future source can also show the delivery path.
+- **Status and score:** RECROP COMPLETED — 4.00/5.
+- **Recommendation:** Retain the source. The article uses `42% 28%`; the featured card uses `42% center`. These positions preserve the overhead cavity, open door and island gap without editing the source pixels.
 - **Generation brief:** Photorealistic contemporary Australian kitchen, landscape 16:9 with all essential details inside a central 20:9 safe band. Show an unbranded freestanding fridge in a real cavity, one door open to about 90 degrees, overhead hinge clearance, side gaps, a nearby island or opposing bench and a believable route from a doorway. Use mixed painted cabinetry, stainless steel and stone or laminate rather than a pale-timber set. Natural daylight, ordinary home scale, controlled exposure. No logos, labels, invented controls, distorted shelves, impossible door swing, oversized kitchen or text. Suggested alt: `An open fridge in its cavity showing side clearance, overhead space and the gap to a nearby island.`
 
 ### Dryer types
 
 - **Route:** `/guides/heat-pump-vs-condenser-vs-vented-dryers/`
 - **File:** `public/images/guides/dryer-types-australia.webp`
-- **Status and score:** REPLACE — 3.33/5.
-- **Recommendation:** Replace because the current image shows door clearance but not the installation differences discussed.
+- **Status and score:** REPLACEMENT ASSET PENDING — 3.33/5.
+- **Recommendation:** Keep temporarily. Full-resolution review found no urgent brand, label, cable, installation or geometry defect. Replace because the image still does not explain the installation differences discussed.
 - **Generation brief:** Wide editorial comparison in a realistic Australian laundry, composed as three physically credible installation zones without text labels or logos. One zone should show a short, safe vent route to an exterior wall; one should make condensate drainage or removable tank access legible; one should show the larger unvented appliance footprint and door clearance. Include a washer for scale, power and plumbing in sensible positions, and a clear working aisle. Use varied but restrained painted cabinetry and neutral daylight. Keep important details in a central 20:9 safe band. Do not connect one dryer to both a vent and condensate route, seal a vented dryer in a cupboard, invent hoses or controls, copy branded products or create catalogue-style identical machines. Suggested alt: `Laundry installation zones showing dryer door clearance, a vent route and condensate drainage considerations.`
 
 ### Dishwasher sizes
 
 - **Route:** `/guides/dishwasher-sizes-australia/`
 - **File:** `public/images/guides/dishwasher-sizes-australia.webp`
-- **Status and score:** RECROP — 4.17/5.
-- **Recommendation:** Keep and recrop. Protect the open door and adjacent handles in the wide hero.
+- **Status and score:** RECROP COMPLETED — 4.17/5.
+- **Recommendation:** Keep. The article now uses `center 62%` to retain the open door, lower rack and adjacent cabinetry in the wide hero.
 - **Generation brief:** If a replacement is later needed, create a photorealistic compact Australian kitchen at normal eye level, landscape 16:9 with a central 20:9 safe band. Show an unbranded dishwasher fully open, lower rack partly extended, neighbouring cabinet doors and handles, a nearby corner or island, toe-kick and a clear standing zone. The open door must sit square to the cabinet and not intersect a handle or walkway. Use natural light and a believable mix of painted cabinetry, stainless steel and tile. No logos, distorted rack wires, malformed hinges, impossible door thickness, blocked escape path or embedded measurements. Suggested alt: `An open dishwasher showing the door, lower rack and clearance from adjacent cabinets and handles.`
 
 ### Cookware materials
@@ -652,42 +691,42 @@ Scores are averages of topic relevance, realism, colour and visual interest, com
 
 - **Route:** `/guides/cordless-stick-vacuums-australia/`
 - **File:** `public/images/guides/cordless-stick-vacuums-australia.webp`
-- **Status and score:** REPLACE — 3.00/5.
-- **Recommendation:** Replace with a storage-and-charging scene rather than another person vacuuming.
+- **Status and score:** REPLACEMENT ASSET PENDING — 3.00/5.
+- **Recommendation:** Keep temporarily. Full-resolution review found no incorrect power lead, fake label or malformed handling geometry requiring emergency removal. Replace with a storage-and-charging scene rather than another person vacuuming.
 - **Generation brief:** Photorealistic Australian laundry or utility cupboard, landscape 16:9 with storage details inside a central 20:9 safe band. Show an unbranded cordless stick vacuum being placed into a stable wall-mounted charging dock, with the dock’s power lead routed neatly to a nearby Australian power point. Include two realistic attachments, door clearance and enough room to remove the vacuum. The person’s hand and grip must be anatomically correct. Use mixed painted and metal surfaces with natural daylight and one modest colour accent. The vacuum itself must remain cordless: no cable attached to its body while in use. No floating dock, malformed floor head, copied branded silhouette, fake labels, impossible charging contact, theatrical colour blocking or text. Suggested alt: `An unbranded cordless stick vacuum beside a wall-mounted charging dock and organised attachments in a utility cupboard.`
 
 ### Robot vacuum
 
 - **Route:** `/guides/robot-vacuum-buying-guide-australia/`
 - **File:** `public/images/guides/robot-vacuum-buying-guide-australia.webp`
-- **Status and score:** REPLACE — 3.33/5.
-- **Recommendation:** Replace with a more lived-in navigation scene. The current file has no tethering cord, but it omits too many obstacles.
+- **Status and score:** REPLACEMENT ASSET PENDING — 3.33/5.
+- **Recommendation:** Keep temporarily. The current file has no tethering cord, fake label or malformed geometry, but it still needs a more lived-in navigation scene with useful obstacles.
 - **Generation brief:** Photorealistic ordinary Australian living area, landscape 16:9 with all navigation details in a central 20:9 safe band. Show an unbranded robot vacuum away from its dock and approaching a low-pile rug edge. Include dining-chair legs, low sofa clearance, a threshold or floor-material change, one loose charging cable near but not attached to the robot, and one pet toy or sock as a realistic obstacle. The dock should be against a wall with its own lead correctly connected to a power point and clear approach space. Use balanced daylight, varied materials and natural colour rather than a cobalt-and-orange theme. No lead attached to the robot, floating dock, impossible reflections, malformed wheels, copied branded lidar housing, empty showroom or text. Suggested alt: `An unbranded robot vacuum navigating a rug edge, furniture legs and loose obstacles near its charging dock.`
 
 ### Coffee machine types
 
 - **Route:** `/guides/coffee-machine-types-australia/`
 - **File:** `public/images/guides/coffee-machine-types-australia.webp`
-- **Status and score:** URGENT REPLACEMENT — 2.83/5.
-- **Recommendation:** Replace before other non-urgent guide imagery because fictional appliances should not sit on a commercial-intent comparison.
+- **Status and score:** TEMPORARILY REMOVED FROM PUBLIC USE — 2.83/5.
+- **Recommendation:** The defective file remains in the repository with zero public references. The article and featured card now use the existing text-only treatment. Produce the replacement specified in `phase-1-replacement-assets.md`.
 - **Generation brief:** Photorealistic lived-in Australian kitchen bench, landscape 16:9 with three workflow zones inside a central 20:9 safe band. The left zone shows a small unbranded pod machine with a drawer of generic capsules; the centre shows a manual espresso setup with a separate grinder, portafilter and tamping mat; the right shows an unbranded automatic bean-to-cup machine with hopper and cup. Use water access, cups, beans and realistic bench depth to explain workflow rather than line products up like a catalogue. Each machine must have coherent controls, trays, spouts and proportions. Use natural light, painted cabinetry, stainless steel and tile with restrained colour. No logos, fake labels, copied brand silhouettes, unreadable displays, malformed steam wands, impossible reflections, forced cobalt-and-coral decor or embedded text. Suggested alt: `Three unbranded coffee preparation setups showing pod, manual espresso and automatic workflows on a kitchen bench.`
 
 ### Mattress sizes
 
 - **Route:** `/guides/mattress-sizes-australia/`
 - **File:** `public/images/guides/mattress-sizes-australia.webp`
-- **Status and score:** URGENT REPLACEMENT — 2.67/5.
-- **Recommendation:** Replace. The current measuring device is physically implausible and the image does not clearly show room planning.
+- **Status and score:** TEMPORARILY REMOVED FROM PUBLIC USE — 2.67/5.
+- **Recommendation:** The defective file remains in the repository with zero public references. The guide and featured card temporarily use `bedroom-storage-clear-walkway.webp`, which truthfully shows the bed footprint, wardrobe and walking clearance. Produce the replacement specified in `phase-1-replacement-assets.md`.
 - **Generation brief:** Photorealistic modest Australian bedroom viewed from the doorway or foot of the bed, landscape 16:9 with the bed and all clearances inside a central 20:9 safe band. Show a normal queen-size bed footprint without labels, two ordinary bedside tables, a wardrobe or dresser, doorway and visible walking gaps on three sides. A real retractable tape measure may lie on the floor across one walking gap, with its case and tape physically correct and not touching or fusing into the mattress. Use natural daylight, painted walls, mixed textiles and one confident colour accent without a staged palette. No built-in measuring strip, fake mattress badge, floating frame, impossible legs, distorted wardrobe doors, luxury-suite scale, text or logos. Suggested alt: `A bedroom showing the bed footprint and walking clearances to the wardrobe, wall and doorway.`
 
-## Validation expectations
+## Phase 1 validation
 
-The audit generator should complete with:
+The regenerated audit completes with:
 
 - 52 inventoried files.
 - 0 pending assessments.
 - 0 exact binary duplicate groups.
 - 3 perceptual near-duplicate pairs.
-- all seven contact sheets rebuilt with visible status labels.
+- all seven contact sheets rebuilt with current public-use status labels.
 
-The public build should remain at 140 pages because the new files are internal documentation and tooling only.
+The public build remains at 140 pages. Source and built output contain no references to `pet.webp`, `guides/mattress-sizes-australia.webp` or `guides/coffee-machine-types-australia.webp`.
