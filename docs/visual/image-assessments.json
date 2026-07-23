@@ -90,8 +90,8 @@
   },
   "public/images/guides/cordless-stick-vacuums-australia.webp": {
     "status": "REPLACE",
-    "phase_1_status": "REPLACEMENT ASSET PENDING",
-    "phase_1_note": "Full-resolution review found no incorrect power lead, label or malformed handling geometry that requires emergency removal. Keep temporarily until the specified Phase 1 asset is approved.",
+    "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+    "phase_1_note": "The file remains in the repository for replacement review but has no source or built public reference. The guide temporarily uses living-room-storage-everyday-zones.webp and its featured Guides card is text-only.",
     "topic_relevance": 3,
     "realism": 3,
     "colour_visual_interest": 3,
@@ -302,8 +302,8 @@
   },
   "public/images/guides/robot-vacuum-buying-guide-australia.webp": {
     "status": "REPLACE",
-    "phase_1_status": "REPLACEMENT ASSET PENDING",
-    "phase_1_note": "Full-resolution review confirms that no power lead is attached to the robot and no fake label or malformed installation requires emergency removal. Keep temporarily until the specified Phase 1 asset is approved.",
+    "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+    "phase_1_note": "The file remains in the repository for replacement review but has no source or built public reference. The guide and its featured Guides card temporarily use living-room-storage-before-cluttered-zones.webp.",
     "topic_relevance": 4,
     "realism": 3,
     "colour_visual_interest": 3,

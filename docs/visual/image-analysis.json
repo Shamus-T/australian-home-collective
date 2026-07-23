@@ -1,5 +1,5 @@
 {
-  "generated_from_head": "6b321873c512696069f7bd400964a73bf2d2f859",
+  "generated_from_head": "70d8d631c9d4ae1449fcd1ffd58098b7b9f062a9",
   "total_image_count": 52,
   "unique_binary_image_count": 52,
   "exact_duplicate_groups": [],
@@ -123,7 +123,7 @@
           "alt": "A warm bathroom with natural finishes and tidy everyday storage."
         },
         {
-          "context": "source src/pages/guides/index.astro:91",
+          "context": "source src/pages/guides/index.astro:90",
           "kind": "source_literal",
           "alt": "A tidy bathroom with warm finishes, soft light and practical everyday storage."
         },
@@ -335,7 +335,7 @@
           "alt": "A calm bedroom with soft bedding and warm natural light."
         },
         {
-          "context": "source src/pages/guides/index.astro:83",
+          "context": "source src/pages/guides/index.astro:82",
           "kind": "source_literal",
           "alt": "A calm small bedroom with soft bedding, warm light and practical storage."
         },
@@ -720,7 +720,7 @@
           "alt": "A compact bedroom showing the bed footprint, open wardrobe and clear walking space beside the bed"
         },
         {
-          "context": "source src/pages/guides/index.astro:33",
+          "context": "source src/pages/guides/index.astro:32",
           "kind": "source_literal",
           "alt": "A compact bedroom showing the bed footprint, open wardrobe and clear walking space beside the bed"
         },
@@ -852,7 +852,7 @@
           "alt": "Stainless steel, cast iron, nonstick and carbon steel cookware on a timber kitchen bench."
         },
         {
-          "context": "source src/pages/guides/index.astro:51",
+          "context": "source src/pages/guides/index.astro:50",
           "kind": "source_literal",
           "alt": "Stainless steel, cast iron, nonstick and carbon steel cookware on a timber kitchen bench."
         },
@@ -915,39 +915,12 @@
       "file_size_bytes": 114618,
       "sha256": "130a3cd8796e8d3d1195199e28c02b1322a344e5fc65b89b1bffcdf6c815597d",
       "perceptual_hash": "99c5e613318c0bef",
-      "usages": [
-        {
-          "context": "route /guides/cordless-stick-vacuums-australia/",
-          "kind": "hero",
-          "alt": "A cordless stick vacuum being used across a blue, coral and wattle rug beside a cobalt sofa on a terrazzo floor"
-        },
-        {
-          "context": "route /guides/",
-          "kind": "inline",
-          "alt": "A cordless stick vacuum cleaning a colourful rug beside a cobalt sofa."
-        },
-        {
-          "context": "source src/pages/guides/index.astro:25",
-          "kind": "source_literal",
-          "alt": "A cordless stick vacuum cleaning a colourful rug beside a cobalt sofa."
-        },
-        {
-          "context": "source src/pages/guides/cordless-stick-vacuums-australia/index.astro:54",
-          "kind": "source_literal",
-          "alt": "A cordless stick vacuum being used across a blue, coral and wattle rug beside a cobalt sofa on a terrazzo floor"
-        }
-      ],
-      "public_routes": [
-        "/guides/",
-        "/guides/cordless-stick-vacuums-australia/"
-      ],
-      "alt_texts": [
-        "A cordless stick vacuum being used across a blue, coral and wattle rug beside a cobalt sofa on a terrazzo floor",
-        "A cordless stick vacuum cleaning a colourful rug beside a cobalt sofa."
-      ],
-      "number_of_uses": 4,
-      "public_route_count": 2,
-      "unique_or_reused": "reused",
+      "usages": [],
+      "public_routes": [],
+      "alt_texts": [],
+      "number_of_uses": 0,
+      "public_route_count": 0,
+      "unique_or_reused": "unique",
       "is_category_fallback": false,
       "used_in_open_graph": false,
       "dominant_colours": "#242d4d:24% | #e2dbd2:23% | #d7cfc5:20% | #d09071:13% | #626f7c:11%",
@@ -966,8 +939,8 @@
         "warm_orange_grade": 0.046
       },
       "status": "REPLACE",
-      "phase_1_status": "REPLACEMENT ASSET PENDING",
-      "phase_1_note": "Full-resolution review found no incorrect power lead, label or malformed handling geometry that requires emergency removal. Keep temporarily until the specified Phase 1 asset is approved.",
+      "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+      "phase_1_note": "The file remains in the repository for replacement review but has no source or built public reference. The guide temporarily uses living-room-storage-everyday-zones.webp and its featured Guides card is text-only.",
       "topic_relevance": 3,
       "realism": 3,
       "colour_visual_interest": 3,
@@ -1130,7 +1103,7 @@
           "alt": "An open bottom mount refrigerator in a warm Australian kitchen showing its cabinetry opening."
         },
         {
-          "context": "source src/pages/guides/index.astro:42",
+          "context": "source src/pages/guides/index.astro:41",
           "kind": "source_literal",
           "alt": "An open bottom mount refrigerator in a warm Australian kitchen showing its cabinetry opening."
         },
@@ -1443,25 +1416,49 @@
       "perceptual_hash": "cde5b69a9312686a",
       "usages": [
         {
+          "context": "route /guides/",
+          "kind": "inline",
+          "alt": "A lived-in living room with a rug, low furniture and everyday items near the floor."
+        },
+        {
           "context": "route /guides/living-room-storage-ideas-everyday-australian-homes/",
           "kind": "inline",
           "alt": "Blankets, toys, books and media accessories spread across a living room and its walking route"
         },
         {
+          "context": "route /guides/robot-vacuum-buying-guide-australia/",
+          "kind": "hero",
+          "alt": "A lived-in living room with a rug, low furniture and everyday items near the floor"
+        },
+        {
+          "context": "source src/pages/guides/index.astro:17",
+          "kind": "source_literal",
+          "alt": "A lived-in living room with a rug, low furniture and everyday items near the floor."
+        },
+        {
           "context": "source src/pages/guides/living-room-storage-ideas-everyday-australian-homes/index.astro:173",
           "kind": "source_literal",
           "alt": "Blankets, toys, books and media accessories spread across a living room and its walking route"
+        },
+        {
+          "context": "source src/pages/guides/robot-vacuum-buying-guide-australia/index.astro:54",
+          "kind": "source_literal",
+          "alt": "A lived-in living room with a rug, low furniture and everyday items near the floor"
         }
       ],
       "public_routes": [
-        "/guides/living-room-storage-ideas-everyday-australian-homes/"
+        "/guides/",
+        "/guides/living-room-storage-ideas-everyday-australian-homes/",
+        "/guides/robot-vacuum-buying-guide-australia/"
       ],
       "alt_texts": [
+        "A lived-in living room with a rug, low furniture and everyday items near the floor",
+        "A lived-in living room with a rug, low furniture and everyday items near the floor.",
         "Blankets, toys, books and media accessories spread across a living room and its walking route"
       ],
-      "number_of_uses": 2,
-      "public_route_count": 1,
-      "unique_or_reused": "unique",
+      "number_of_uses": 6,
+      "public_route_count": 3,
+      "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": false,
       "dominant_colours": "#573d25:24% | #22150d:23% | #7c644f:14% | #9c836b:13% | #b6a189:13%",
@@ -1507,9 +1504,19 @@
       "perceptual_hash": "cde5b69a93227056",
       "usages": [
         {
+          "context": "route /guides/cordless-stick-vacuums-australia/",
+          "kind": "hero",
+          "alt": "A lived-in living room with a rug, hard floor, low furniture and a clear route between the sofa and television"
+        },
+        {
           "context": "route /guides/living-room-storage-ideas-everyday-australian-homes/",
           "kind": "inline",
           "alt": "The same living room with media, blankets and toys returned to small storage zones around a clear walking route"
+        },
+        {
+          "context": "source src/pages/guides/cordless-stick-vacuums-australia/index.astro:54",
+          "kind": "source_literal",
+          "alt": "A lived-in living room with a rug, hard floor, low furniture and a clear route between the sofa and television"
         },
         {
           "context": "source src/pages/guides/living-room-storage-ideas-everyday-australian-homes/index.astro:184",
@@ -1518,14 +1525,16 @@
         }
       ],
       "public_routes": [
+        "/guides/cordless-stick-vacuums-australia/",
         "/guides/living-room-storage-ideas-everyday-australian-homes/"
       ],
       "alt_texts": [
+        "A lived-in living room with a rug, hard floor, low furniture and a clear route between the sofa and television",
         "The same living room with media, blankets and toys returned to small storage zones around a clear walking route"
       ],
-      "number_of_uses": 2,
-      "public_route_count": 1,
-      "unique_or_reused": "unique",
+      "number_of_uses": 4,
+      "public_route_count": 2,
+      "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": false,
       "dominant_colours": "#20130d:20% | #8d745e:19% | #493423:18% | #b5a089:16% | #6e492c:16%",
@@ -2034,7 +2043,7 @@
           "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
         },
         {
-          "context": "source src/pages/guides/index.astro:99",
+          "context": "source src/pages/guides/index.astro:98",
           "kind": "source_literal",
           "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
         },
@@ -2224,39 +2233,12 @@
       "file_size_bytes": 197438,
       "sha256": "a04544248c39b15dde74ca1592d8bba14f8b11f2dc5f62f03c2fba19d5fb3f69",
       "perceptual_hash": "b16d7cb986167883",
-      "usages": [
-        {
-          "context": "route /guides/",
-          "kind": "inline",
-          "alt": "A robot vacuum cleaning a blue patterned rug in a cobalt and terracotta living room."
-        },
-        {
-          "context": "route /guides/robot-vacuum-buying-guide-australia/",
-          "kind": "hero",
-          "alt": "A black robot vacuum crossing a blue patterned rug with a dock behind it in a bright cobalt and terracotta living room"
-        },
-        {
-          "context": "source src/pages/guides/index.astro:17",
-          "kind": "source_literal",
-          "alt": "A robot vacuum cleaning a blue patterned rug in a cobalt and terracotta living room."
-        },
-        {
-          "context": "source src/pages/guides/robot-vacuum-buying-guide-australia/index.astro:54",
-          "kind": "source_literal",
-          "alt": "A black robot vacuum crossing a blue patterned rug with a dock behind it in a bright cobalt and terracotta living room"
-        }
-      ],
-      "public_routes": [
-        "/guides/",
-        "/guides/robot-vacuum-buying-guide-australia/"
-      ],
-      "alt_texts": [
-        "A black robot vacuum crossing a blue patterned rug with a dock behind it in a bright cobalt and terracotta living room",
-        "A robot vacuum cleaning a blue patterned rug in a cobalt and terracotta living room."
-      ],
-      "number_of_uses": 4,
-      "public_route_count": 2,
-      "unique_or_reused": "reused",
+      "usages": [],
+      "public_routes": [],
+      "alt_texts": [],
+      "number_of_uses": 0,
+      "public_route_count": 0,
+      "unique_or_reused": "unique",
       "is_category_fallback": false,
       "used_in_open_graph": false,
       "dominant_colours": "#b7b7b6:25% | #475d7d:23% | #1c335b:19% | #5a3231:12% | #9b9a93:12%",
@@ -2274,8 +2256,8 @@
         "warm_orange_grade": 0.037
       },
       "status": "REPLACE",
-      "phase_1_status": "REPLACEMENT ASSET PENDING",
-      "phase_1_note": "Full-resolution review confirms that no power lead is attached to the robot and no fake label or malformed installation requires emergency removal. Keep temporarily until the specified Phase 1 asset is approved.",
+      "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
+      "phase_1_note": "The file remains in the repository for replacement review but has no source or built public reference. The guide and its featured Guides card temporarily use living-room-storage-before-cluttered-zones.webp.",
       "topic_relevance": 4,
       "realism": 3,
       "colour_visual_interest": 3,
@@ -4515,12 +4497,12 @@
           "alt": "A tidy kitchen bench with greenery, timber details and warm natural light."
         },
         {
-          "context": "source src/pages/guides/index.astro:59",
+          "context": "source src/pages/guides/index.astro:58",
           "kind": "source_literal",
           "alt": "A warm kitchen with timber cabinetry, green accents and tidy pantry-style storage."
         },
         {
-          "context": "source src/pages/guides/index.astro:67",
+          "context": "source src/pages/guides/index.astro:66",
           "kind": "source_literal",
           "alt": "A warm kitchen with timber cabinetry, green accents and practical everyday kitchen storage."
         },
@@ -4749,7 +4731,7 @@
           "alt": "A practical laundry room with warm finishes and tidy storage."
         },
         {
-          "context": "source src/pages/guides/index.astro:75",
+          "context": "source src/pages/guides/index.astro:74",
           "kind": "source_literal",
           "alt": "A practical laundry room with warm finishes, baskets and tidy everyday storage."
         },
@@ -5267,7 +5249,7 @@
           "alt": "A tidy nursery room with timber furniture, soft lighting and practical baby storage."
         },
         {
-          "context": "source src/pages/guides/index.astro:107",
+          "context": "source src/pages/guides/index.astro:106",
           "kind": "source_literal",
           "alt": "A tidy nursery room with timber furniture, soft lighting and practical baby storage."
         },
@@ -5474,7 +5456,7 @@
           "alt": "A warm Australian patio garden with timber seating, native greenery and soft afternoon light."
         },
         {
-          "context": "source src/pages/guides/index.astro:115",
+          "context": "source src/pages/guides/index.astro:114",
           "kind": "source_literal",
           "alt": "A warm Australian patio garden with outdoor seating, greenery and practical storage."
         },

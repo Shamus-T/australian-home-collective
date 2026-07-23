@@ -640,7 +640,7 @@ def main() -> None:
         ),
         (
             "contact-sheet-restored-guides.jpg",
-            "Restored guides: seven images and one text-only card",
+            "Restored guide audit assets and current public-use status",
             records_for_paths(RESTORED_GUIDES),
         ),
         (

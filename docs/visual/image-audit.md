@@ -74,9 +74,9 @@ Quality status records what is in the repository. It does not imply that an urge
 | --- | ---: |
 | FINAL KEEP | 19 |
 | TEMPORARY SAFE FALLBACK | 3 |
-| TEMPORARILY REMOVED FROM PUBLIC USE | 3 |
+| TEMPORARILY REMOVED FROM PUBLIC USE | 5 |
 | RECROP COMPLETED | 2 |
-| REPLACEMENT ASSET PENDING | 23 |
+| REPLACEMENT ASSET PENDING | 21 |
 | MINOR EDIT PENDING | 2 |
 
 ### Palette diagnostic
@@ -99,8 +99,8 @@ The dominant issue is not one prohibited colour. It is the repeated combination 
 
 1. **Category fallbacks are doing the work of guide imagery.** Ten files serve 90 guide heroes. A generic room cannot truthfully illustrate specific advice about appliance clearances, renter constraints, cable routes, furniture anchoring or storage geometry.
 2. **The palette is repetitive.** Beige or cream appears in 41 files, brown in 38 and warm grading in 27. Much of the site therefore reads as one decor collection rather than a varied editorial publication.
-3. **Three repository files have credibility defects but are no longer public.** The pet fallback contains invented package labels, the mattress has a physically implausible measuring device fused into it, and the coffee image presents fictional appliances like assessed products. Each now has zero public references.
-4. **Several restored-guide images decorate rather than explain.** The cordless-vacuum, robot-vacuum and dryer images show the product category but omit important planning constraints.
+3. **Five repository files with credibility or endorsement concerns are no longer public.** The pet fallback contains invented package labels, the mattress has a physically implausible measuring device, the coffee image presents fictional appliances like assessed products, and the robot and cordless vacuum images resemble current product designs. Each now has zero public references.
+4. **Some restored-guide images still decorate rather than explain.** The dryer image shows the product category but omits the installation differences central to the guide. Robot and cordless vacuum now use neutral room fallbacks pending purpose-built replacements.
 5. **Most social cards repeat the same weak sources.** Nine category Open Graph cards still embed a logo and headline beside generic fallback photography. The Pets social image is now a clean 1200 × 630 crop of the approved temporary source.
 6. **Alt text has been adapted to the article while the image has not.** The same fallback receives many different descriptions, including details that are not visible.
 7. **Wide hero crops require deliberate focal positions.** Fridge and dishwasher are now repaired; other 3:2 sources still need safe-area checks when reused.
@@ -439,8 +439,10 @@ The first two repairs are complete. The remaining entries are strong sources who
 | `public/images/pet.webp` | Invented package labels, implausible multi-species showroom and obvious generated staging. | 0 references. File retained; temporary pet source installed. |
 | `public/images/guides/mattress-sizes-australia.webp` | Measuring strip and device appear physically fused into the mattress. | 0 references. File retained; safe bedroom-clearance source installed. |
 | `public/images/guides/coffee-machine-types-australia.webp` | Fictional appliances with invented controls presented like assessed retail products. | 0 references. File retained; article and featured card are text-only. |
+| `public/images/guides/robot-vacuum-buying-guide-australia.webp` | Current-product resemblance and heavily themed generated styling. | 0 references. File retained; approved neutral living-room fallback installed. |
+| `public/images/guides/cordless-stick-vacuums-australia.webp` | Premium-vacuum resemblance and heavily themed generated styling. | 0 references. File retained; approved neutral living-room fallback installed and featured card made text-only. |
 
-The current robot-vacuum file was checked at full resolution. It does not have a cord running to the robot, fake labels or malformed geometry. The cordless-vacuum file has no incorrect power connection or fake label, and its handling geometry is plausible. The dryer has coherent doors and installation geometry and no visible branding. Their replacement status is based on weak editorial explanation or repetitive styling, not an emergency safety defect.
+The robot and cordless-vacuum files were checked at full resolution before removal. Neither has the previously suspected cable or geometry defect, but both are now withheld because of endorsement risk and repetitive styling. The dryer has coherent doors and installation geometry and no visible branding; its replacement status remains based on weak editorial explanation rather than an emergency safety defect.
 
 ## Images reused across unrelated guides
 
@@ -631,10 +633,10 @@ The inventory preserves every discovered alt value. The principal problem is sem
 | `guides/pet-essentials-home-zones.webp` | 2 | All temporary fallback uses now share one truthful general description; the original pet-essentials article retains its more specific before-and-after description. |
 | `guides/bedroom-storage-clear-walkway.webp` | 2 | Mattress article and card use one clearance description; the original bedroom-storage article retains its specific after-image description. |
 | `guides/pet-essentials-before-scattered-supplies.webp` | 2 | Companion usage differs only in presentation context; review punctuation when public alt text is next edited. |
+| `guides/living-room-storage-before-cluttered-zones.webp` | 3 | Original living-room storage use plus the robot-vacuum hero and featured card; the shared wording stays truthful and emphasises floor-level obstacles. |
+| `guides/living-room-storage-everyday-zones.webp` | 2 | Original living-room storage use plus the cordless-vacuum hero; both uses truthfully show floor surfaces, low furniture and a clear route. |
 | `guides/fridge-dimensions-australia.webp` | 2 | Guide hero and Guides Index descriptions differ slightly. |
 | `guides/cookware-materials-australia.webp` | 2 | Guide hero and Guides Index descriptions differ slightly. |
-| `guides/cordless-stick-vacuums-australia.webp` | 2 | Guide hero and Guides Index descriptions differ slightly. |
-| `guides/robot-vacuum-buying-guide-australia.webp` | 2 | Guide hero and Guides Index descriptions differ slightly. |
 
 When imagery is repaired, each alt description should state what is actually visible and relevant in that specific file. It should not be rewritten to make a generic image sound guide-specific.
 
@@ -691,16 +693,16 @@ Scores are averages of topic relevance, realism, colour and visual interest, com
 
 - **Route:** `/guides/cordless-stick-vacuums-australia/`
 - **File:** `public/images/guides/cordless-stick-vacuums-australia.webp`
-- **Status and score:** REPLACEMENT ASSET PENDING — 3.00/5.
-- **Recommendation:** Keep temporarily. Full-resolution review found no incorrect power lead, fake label or malformed handling geometry requiring emergency removal. Replace with a storage-and-charging scene rather than another person vacuuming.
+- **Status and score:** TEMPORARILY REMOVED FROM PUBLIC USE — 3.00/5.
+- **Recommendation:** The dedicated file remains in the repository with zero public references. The article temporarily uses `living-room-storage-everyday-zones.webp`, while its featured Guides card is text-only to avoid placing two near-identical room cards side by side.
 - **Generation brief:** Photorealistic Australian laundry or utility cupboard, landscape 16:9 with storage details inside a central 20:9 safe band. Show an unbranded cordless stick vacuum being placed into a stable wall-mounted charging dock, with the dock’s power lead routed neatly to a nearby Australian power point. Include two realistic attachments, door clearance and enough room to remove the vacuum. The person’s hand and grip must be anatomically correct. Use mixed painted and metal surfaces with natural daylight and one modest colour accent. The vacuum itself must remain cordless: no cable attached to its body while in use. No floating dock, malformed floor head, copied branded silhouette, fake labels, impossible charging contact, theatrical colour blocking or text. Suggested alt: `An unbranded cordless stick vacuum beside a wall-mounted charging dock and organised attachments in a utility cupboard.`
 
 ### Robot vacuum
 
 - **Route:** `/guides/robot-vacuum-buying-guide-australia/`
 - **File:** `public/images/guides/robot-vacuum-buying-guide-australia.webp`
-- **Status and score:** REPLACEMENT ASSET PENDING — 3.33/5.
-- **Recommendation:** Keep temporarily. The current file has no tethering cord, fake label or malformed geometry, but it still needs a more lived-in navigation scene with useful obstacles.
+- **Status and score:** TEMPORARILY REMOVED FROM PUBLIC USE — 3.33/5.
+- **Recommendation:** The dedicated file remains in the repository with zero public references. The article and featured Guides card temporarily use `living-room-storage-before-cluttered-zones.webp`, which truthfully shows floor-level obstacles and room context without depicting a specific product.
 - **Generation brief:** Photorealistic ordinary Australian living area, landscape 16:9 with all navigation details in a central 20:9 safe band. Show an unbranded robot vacuum away from its dock and approaching a low-pile rug edge. Include dining-chair legs, low sofa clearance, a threshold or floor-material change, one loose charging cable near but not attached to the robot, and one pet toy or sock as a realistic obstacle. The dock should be against a wall with its own lead correctly connected to a power point and clear approach space. Use balanced daylight, varied materials and natural colour rather than a cobalt-and-orange theme. No lead attached to the robot, floating dock, impossible reflections, malformed wheels, copied branded lidar housing, empty showroom or text. Suggested alt: `An unbranded robot vacuum navigating a rug edge, furniture legs and loose obstacles near its charging dock.`
 
 ### Coffee machine types
@@ -729,4 +731,4 @@ The regenerated audit completes with:
 - 3 perceptual near-duplicate pairs.
 - all seven contact sheets rebuilt with current public-use status labels.
 
-The public build remains at 140 pages. Source and built output contain no references to `pet.webp`, `guides/mattress-sizes-australia.webp` or `guides/coffee-machine-types-australia.webp`.
+The public build remains at 140 pages. Source and built output contain no references to `pet.webp`, `guides/mattress-sizes-australia.webp`, `guides/coffee-machine-types-australia.webp`, `guides/robot-vacuum-buying-guide-australia.webp` or `guides/cordless-stick-vacuums-australia.webp`.
