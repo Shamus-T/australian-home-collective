@@ -22,20 +22,22 @@ All six assets must meet these requirements:
 ## 1. Pet category fallback
 
 - **Destination filename:** `public/images/pet.webp`
+- **Purpose:** A general Australian household pet-care image suitable for the Pets category, homepage and category cards, the Guides feature, and guides that temporarily rely on the category fallback.
 - **Routes:** `/categories/pets/`, Pets cards on `/` and `/categories/`, the Pets feature on `/guides/`, and the guides that use the Pets category fallback.
 - **Required dimensions:** 1920 × 1080.
 - **Target aspect ratio:** 16:9.
 - **Central crop-safe area:** 1120 × 640 centred in the frame.
-- **Subject and composition:** One believable household dog zone near an entry or laundry transition. Place the dog and bed just left of centre, with a lead and closed supply storage to the right. Leave a clear walking route through the middle.
-- **Practical details:** Stable bed, water bowl away from the walkway, closed food or supply container, lead hook, small grooming basket and easy-clean floor. The scene must read as a general pet zone without claiming specialist cat, travel or veterinary equipment.
-- **Decor direction:** Painted walls, tile or resilient flooring, limited timber, ordinary Australian door and security-screen proportions, natural daylight.
-- **Colour variation:** Deep teal or olive pet textile with one ochre or burgundy accent is acceptable.
-- **Repetition restrictions:** Do not use an all-brown timber room, beige-on-beige decor, cobalt-and-terracotta styling or a grey display-home palette.
-- **Brand restrictions:** No product bags, branded bowls, readable labels, pet-store packaging or recognisable retail products.
-- **Plausibility checks:** Normal dog anatomy and paws; bed supports the animal; bowl does not block access; lead hook is mounted securely; door and screen geometry agree; no floating storage.
-- **Crop considerations:** Dog, bed, lead hook and clear path must survive the central card crop. The wide hero may show more entry and laundry context but must not depend on it.
-- **Final alt text:** `A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access.`
-- **Reject if:** More than one animal species is staged; package text is visible; the room resembles a pet showroom; the dog is malformed; the door, screen, shadows or floor lines are inconsistent; or the crop hides the walkway.
+- **Subject and composition:** Contemporary, realistic Australian home pet-care zone near an entry, utility area or similar transition. Include one clearly visible small companion bird, such as a cockatiel, on a safe perch or beside a suitable, well-kept cage or stand. Keep the bird clearly visible in the central crop-safe area. Maintain a clear household walking route through the scene.
+- **Practical details:** Include practical closed storage for pet supplies and a small grooming basket, toys or similar general pet-care items. A dog bed, lead, general pet toy storage or feeding station may appear as a non-living secondary cue to broader pet ownership. A visible dog or cat is not required. Do not include a cat tree. Place food and water bowls against a wall or in a sensible protected position, not in a doorway or the main walkway. Use easy-clean flooring and believable household proportions.
+- **Category inclusiveness:** The image must not suggest that Australian Home Collective’s Pets coverage is only for dogs and cats. The bird must be an intentional part of the scene, not a tiny decorative detail at the edge. Do not crowd the scene with several live animals. Different pet categories may be represented through non-living cues such as a bed, lead, bowls, toys or storage.
+- **Decor direction:** Warm, editorial and lived-in rather than retail-showroom styling, with painted surfaces and restrained accents.
+- **Colour variation:** Deep teal, olive, eucalyptus green, mustard or burgundy may be used as restrained accents.
+- **Repetition restrictions:** Avoid beige-on-beige styling, the repeated cobalt-and-terracotta treatment and an all-timber pet showroom.
+- **Brand restrictions:** No logos, readable packaging, invented labels, watermarks, recognisable retail products or fake specialist or veterinary equipment.
+- **Plausibility checks:** Bird anatomy, feet, feathers, perch contact and scale must be realistic. Cage, door, perch and stand geometry must be coherent. Storage must sit correctly on the floor or wall. Bowls must not block circulation. Shadows, perspective and floor lines must agree. No objects may float or fuse together.
+- **Crop considerations:** The bird, closed storage, general care items and clear household path must remain useful after hero, card and mobile cropping.
+- **Final alt text:** `A practical pet-care zone with a companion bird, closed supply storage, grooming items and a clear household walkway.`
+- **Reject if:** The bird is absent or cropped out; the scene is dog-only or cat-only; a cat tree is included; multiple live animals are crowded together unnaturally; pet bowls block the doorway or main walkway; fake packaging or branding is visible; the bird, cage, furniture or storage geometry is malformed; the room resembles a pet-store showroom; or the practical clear path disappears in any required crop.
 
 ## 2. Mattress Sizes
 

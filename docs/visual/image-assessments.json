@@ -489,10 +489,10 @@
     "brand_suitability": 1,
     "priority": 1,
     "notes": "This high-reach fallback combines cat furniture, an aquarium, a dog bed and product shelves in one artificial timber showroom. Several package labels are unreadable or invented, making the generated origin obvious across 14 routes.",
-    "recommended_concept": "A believable Australian living or utility zone organised for one pet type at a time, with feeding, bedding and supply storage placed safely.",
-    "important_objects": "One pet, stable bowls, bed, closed food container, lead or toy storage, clear household circulation.",
-    "avoid": "Fake packaging, readable brand marks, multiple pet species staged together, aquarium beside pet storage, all-timber pet showroom, malformed animals.",
-    "suggested_alt_text": "A practical dog zone with bedding, bowls and pet supplies stored beside a clear household walkway."
+    "recommended_concept": "A contemporary, realistic Australian home pet-care zone with a clearly visible small companion bird in the central crop-safe area, practical closed storage and a clear household walking route.",
+    "important_objects": "A companion bird on a safe perch or beside a coherent cage or stand, closed supply storage, grooming items or toys, protected bowls where included, easy-clean flooring and a clear walkway. A dog bed, lead or feeding station may appear only as a non-living cue to broader pet ownership.",
+    "avoid": "Dog-only or cat-only framing, a cat tree, crowded live animals, bowls in a doorway or main walkway, fake packaging, readable branding, recognisable retail products, fake specialist equipment, all-timber showroom styling and malformed bird, cage or storage geometry.",
+    "suggested_alt_text": "A practical pet-care zone with a companion bird, closed supply storage, grooming items and a clear household walkway."
   },
   "public/images/pet2.webp": {
     "status": "KEEP",
@@ -652,7 +652,7 @@
   "public/images/social/pets.jpg": {
     "status": "KEEP",
     "phase_1_status": "TEMPORARY SAFE FALLBACK",
-    "phase_1_note": "Regenerated deterministically at 1200 by 630 from pet-essentials-home-zones.webp. It contains no defective pet artwork, embedded text or branding.",
+    "phase_1_note": "No new AI image was generated during the repository repair. The Pets social image was produced as a deterministic 1200 by 630 derivative of an approved AI-generated source image supplied to the project. No stock or branded photography was introduced.",
     "topic_relevance": 4,
     "realism": 5,
     "colour_visual_interest": 3,
@@ -660,10 +660,10 @@
     "technical_quality": 5,
     "brand_suitability": 4,
     "notes": "A safe temporary 1200 by 630 crop of the approved household dog zone. The permanent social treatment should be reviewed again after the final pet category asset is approved.",
-    "recommended_concept": "A clean social crop of a credible single-pet household zone with safe storage and circulation.",
-    "important_objects": "One pet, bed or bowls, closed supply storage and walkway.",
-    "avoid": "Embedded title, logo lockup, fake packaging, multiple pet species staged together.",
-    "suggested_alt_text": "A practical pet zone with bedding, supplies and a clear household walkway."
+    "recommended_concept": "A clean social crop of the approved inclusive Australian pet-care concept, with a clearly visible companion bird, closed supply storage and safe household circulation.",
+    "important_objects": "A companion bird on a safe perch or beside a coherent cage or stand, closed supply storage, grooming items and a clear walkway, with optional non-living cues to broader pet ownership.",
+    "avoid": "Embedded title, logo lockup, fake packaging or branding, a cat tree, dog-only or cat-only framing, crowded live animals, malformed bird or cage geometry and bowls blocking circulation.",
+    "suggested_alt_text": "A practical pet-care zone with a companion bird, closed supply storage, grooming items and a clear household walkway."
   },
   "public/images/social-sharing.png": {
     "status": "KEEP",
