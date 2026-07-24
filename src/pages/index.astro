@@ -81,8 +81,9 @@ const featuredGuides = [
     title: "Pantry Storage Ideas for Australian Kitchens",
     description: "Fix deep shelves, hidden food and packet clutter without buying a full set of matching containers.",
     meta: "Kitchen",
-    image: "/images/kitchen.webp",
-    imageAlt: "A warm kitchen with timber cabinetry, green accents and tidy pantry-style storage.",
+    image: "/images/guides/pantry-storage-navy-walk-in.webp",
+    imageAlt: "A compact walk-in pantry with open shelves, navy drawers and a clear aisle.",
+    imagePosition: "68% center",
   },
   {
     href: "/guides/everyday-kitchen-essentials-australian-homes/",
@@ -220,7 +221,7 @@ const featuredGuides = [
     </div>
   </section>
 
-  <section class="section soft">
+  <section class="section soft" data-featured-guides="homepage">
     <div class="container section-heading">
       <div>
         <p class="eyebrow">Guide library</p>
@@ -240,6 +241,7 @@ const featuredGuides = [
           meta={guide.meta}
           image={guide.image}
           imageAlt={guide.imageAlt}
+          imagePosition={guide.imagePosition}
         />
       ))}
     </div>
