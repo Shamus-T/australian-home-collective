@@ -1078,6 +1078,71 @@ h3 {
   font-weight: 800;
 }
 
+.guide-navigation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-areas: "previous category next";
+  align-items: start;
+  gap: 18px;
+  margin: 42px 0 8px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(63, 77, 63, 0.22);
+}
+
+.guide-navigation-item {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.guide-navigation-item span {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.guide-navigation-item a,
+.guide-navigation-category {
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+.guide-navigation-category {
+  grid-area: category;
+  align-self: center;
+  text-align: center;
+}
+
+.guide-navigation-previous {
+  grid-area: previous;
+}
+
+.guide-navigation-next {
+  grid-area: next;
+  text-align: right;
+}
+
+@media (max-width: 720px) {
+  .guide-navigation {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "previous"
+      "next"
+      "category";
+  }
+
+  .guide-navigation-category {
+    justify-self: start;
+    text-align: left;
+  }
+
+  .guide-navigation-next {
+    text-align: left;
+  }
+}
+
 .site-footer {
   background:
     linear-gradient(135deg, var(--green-dark), #222820);

@@ -4,6 +4,7 @@ import AffiliateDisclosureBlock from "../components/AffiliateDisclosureBlock.ast
 import Breadcrumbs from "../components/Breadcrumbs.astro";
 import FAQBlock from "../components/FAQBlock.astro";
 import { getCategoryPath } from "../data/categories";
+import { getGuideNavigation } from "../data/guideNavigation";
 import { getCategorySocialImage } from "../data/socialImages";
 
 interface Props {
@@ -56,16 +57,19 @@ const siteUrl = "https://australianhomecollective.com.au";
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const organizationId = `${siteUrl}/#organization`;
 const categoryPath = getCategoryPath(category);
+const currentPath = Astro.url.pathname.endsWith("/") ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const guideNavigation = getGuideNavigation(currentPath, category, categoryPath);
 const breadcrumbItems = categoryPath
   ? [
       { name: "Home", href: "/" },
-      { name: "Categories", href: "/categories/" },
+      { name: "Guides", href: "/guides/" },
       { name: category, href: categoryPath },
       { name: title },
     ]
   : [
       { name: "Home", href: "/" },
       { name: "Guides", href: "/guides/" },
+      { name: category },
       { name: title },
     ];
 const breadcrumbSchema = {
@@ -147,5 +151,24 @@ const machineReadableDate = date.startsWith("Published")
   <article class="content narrow">
     <slot />
     {faqs.length > 0 && <FAQBlock items={faqs} />}
+    {guideNavigation.isActive && (
+      <nav class="guide-navigation" aria-label="Guide navigation">
+        {guideNavigation.previous && (
+          <div class="guide-navigation-item guide-navigation-previous">
+            <span>Previous guide</span>
+            <a href={guideNavigation.previous.href}>&larr; {guideNavigation.previous.title}</a>
+          </div>
+        )}
+        <a class="guide-navigation-category" href={guideNavigation.categoryHref}>
+          Back to {category} guides
+        </a>
+        {guideNavigation.next && (
+          <div class="guide-navigation-item guide-navigation-next">
+            <span>Next guide</span>
+            <a href={guideNavigation.next.href}>{guideNavigation.next.title} &rarr;</a>
+          </div>
+        )}
+      </nav>
+    )}
   </article>
 </BaseLayout>
