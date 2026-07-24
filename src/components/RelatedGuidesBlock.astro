@@ -1,4 +1,10 @@
 ---
+import {
+  getGuideBodyDestinations,
+  getGuideCategoryLink,
+  isActiveGuideHref,
+} from "../data/guideNavigation";
+
 interface Guide {
   href: string;
   title: string;
@@ -10,12 +16,44 @@ interface Props {
 }
 
 const { guides } = Astro.props;
+const currentPath = Astro.url.pathname;
+const categoryLink = getGuideCategoryLink(currentPath);
+const bodyDestinations = getGuideBodyDestinations(currentPath);
+const categoryHrefs = new Set(["/guides/", ...guides
+  .map((guide) => guide.href)
+  .filter((href) => href.startsWith("/categories/"))]);
+const seen = new Set<string>();
+const relatedGuides = guides.filter((guide) => {
+  if (
+    guide.href === currentPath
+    || categoryHrefs.has(guide.href)
+    || bodyDestinations.has(guide.href)
+    || !isActiveGuideHref(guide.href)
+    || seen.has(guide.href)
+  ) {
+    return false;
+  }
+
+  seen.add(guide.href);
+  return true;
+});
+const visibleGuides = [
+  ...relatedGuides.slice(0, 2),
+  ...(categoryLink
+    ? [{
+        ...categoryLink,
+        description: categoryLink.href === "/guides/"
+          ? "Browse the complete AHC guide library."
+          : `See the complete ${categoryLink.title.toLowerCase()} collection.`,
+      }]
+    : []),
+];
 ---
 
-<aside class="related-guides" aria-labelledby="related-guides-heading">
-  <h2 id="related-guides-heading">Related Guides</h2>
+<aside class="related-guides" aria-labelledby="continue-exploring-heading">
+  <h2 id="continue-exploring-heading">Continue exploring</h2>
   <ul>
-    {guides.map((guide) => (
+    {visibleGuides.map((guide) => (
       <li>
         <a href={guide.href}>{guide.title}</a>
         <span class="small"> - {guide.description}</span>

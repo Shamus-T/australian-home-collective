@@ -296,11 +296,52 @@ for (const file of htmlFiles) {
       matches.push(relativePath);
       faqQuestions.set(normalizedQuestion, matches);
     }
+
+    const breadcrumbHtml = html.match(/<nav class="breadcrumbs"[\s\S]*?<\/nav>/i)?.[0] ?? "";
+    const breadcrumbItems = breadcrumbHtml.match(/<li>/gi)?.length ?? 0;
+    if (breadcrumbItems !== 4 || !/href="\/guides\/"/i.test(breadcrumbHtml)) {
+      addError(`${relativePath} must use the four-level Home, Guides, category and current-guide breadcrumb.`);
+    }
+
+    const articleStart = html.indexOf('<article class="content narrow">');
+    const mainEnd = html.indexOf("</main>", articleStart);
+    const articleEnd = html.lastIndexOf("</article>", mainEnd);
+    const articleHtml = articleStart >= 0 && articleEnd > articleStart
+      ? html.slice(articleStart + '<article class="content narrow">'.length, articleEnd)
+      : "";
+    const guideNavigationHtml = articleHtml.match(/<nav class="guide-navigation"[\s\S]*?<\/nav>/i)?.[0] ?? "";
+    if (!guideNavigationHtml || !/class="guide-navigation-category"/i.test(guideNavigationHtml)) {
+      addError(`${relativePath} is missing direct previous/category/next guide navigation.`);
+    }
+
+    const relatedHtml = articleHtml.match(/<aside class="related-guides"[\s\S]*?<\/aside>/i)?.[0] ?? "";
+    const relatedGuideCount = relatedHtml.match(/<li>/gi)?.length ?? 0;
+    if (relatedGuideCount > 3) {
+      addError(`${relativePath} shows ${relatedGuideCount} Continue Exploring links; expected no more than 3.`);
+    }
+
+    const contextualHtml = articleHtml
+      .replace(/<aside class="related-guides"[\s\S]*?<\/aside>/gi, "")
+      .replace(/<nav class="guide-navigation"[\s\S]*?<\/nav>/gi, "");
+    const contextualInternalLinks = [...contextualHtml.matchAll(/<a\s+[^>]*href="(\/[^"]+)"/gi)]
+      .map((match) => match[1]);
+    const contextualLinkCounts = new Map();
+    for (const href of contextualInternalLinks) {
+      contextualLinkCounts.set(href, (contextualLinkCounts.get(href) ?? 0) + 1);
+    }
+    for (const [href, count] of contextualLinkCounts) {
+      if (count > 2) {
+        addError(`${relativePath} repeats contextual internal link ${href} ${count} times.`);
+      }
+    }
   }
   if (indexable && /^categories\/.+\/index\.html$/.test(relativePath) && !structuredDataTypes.has("BreadcrumbList")) {
     addError(`${relativePath} is missing BreadcrumbList structured data.`);
   }
   if (relativePath === "404.html" && indexable) addError("404.html must be noindex.");
+  if (/\bNCC\b|National Construction Code/i.test(plainText(html))) {
+    addError(`${relativePath} contains a prohibited National Construction Code reference.`);
+  }
 
   for (const match of html.matchAll(/<a\s+[^>]*href="([^"]+)"[^>]*>/gi)) {
     const [anchor, href] = match;

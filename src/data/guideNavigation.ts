@@ -51,6 +51,14 @@ const guideByHref = new Map<string, GuideNavigationItem & { category?: string }>
     ];
   }),
 );
+const guideSourceByHref = new Map<string, string>(
+  Object.entries(guideSources).map(([sourcePath, source]) => [
+    sourcePath
+      .replace("../pages", "")
+      .replace(/index\.astro$/, ""),
+    source,
+  ]),
+);
 
 function orderedGuideHrefs(source: string): string[] {
   return [
@@ -96,4 +104,39 @@ export function getGuideNavigation(
     ...(previous ? { previous: { href: previous.href, title: previous.title } } : {}),
     ...(next ? { next: { href: next.href, title: next.title } } : {}),
   };
+}
+
+export function isActiveGuideHref(href: string): boolean {
+  return guideByHref.has(href);
+}
+
+export function getGuideCategoryLink(
+  currentPath: string,
+): GuideNavigationItem | undefined {
+  const guide = guideByHref.get(currentPath);
+  if (!guide) return undefined;
+
+  const categoryHref = getCategoryPath(guide.category ?? "") ?? "/guides/";
+  return {
+    href: categoryHref,
+    title: categoryHref === "/guides/"
+      ? "Browse all guides"
+      : `${guide.category} guides`,
+  };
+}
+
+export function getGuideBodyDestinations(currentPath: string): Set<string> {
+  const source = guideSourceByHref.get(currentPath) ?? "";
+  const articleMatch = source.match(/<ArticleLayout\b[\s\S]*?>/);
+  if (articleMatch?.index === undefined) return new Set();
+
+  const articleBody = source.slice(
+    articleMatch.index + articleMatch[0].length,
+    source.lastIndexOf("</ArticleLayout>"),
+  );
+
+  return new Set(
+    [...articleBody.matchAll(/\bhref="(\/(?:guides|categories)\/[^"]+)"/g)]
+      .map((match) => match[1]),
+  );
 }

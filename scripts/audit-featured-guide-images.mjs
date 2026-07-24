@@ -10,13 +10,15 @@ const sections = [
     file: path.join(distDirectory, "index.html"),
     marker: "homepage",
     label: "Homepage featured guides",
-    expectedCardCount: 7,
+    minimumCardCount: 7,
+    maximumCardCount: 7,
   },
   {
     file: path.join(distDirectory, "guides", "index.html"),
     marker: "start-here",
     label: 'Guides "Start here"',
-    expectedCardCount: 14,
+    minimumCardCount: 6,
+    maximumCardCount: 8,
   },
 ];
 
@@ -57,13 +59,20 @@ for (const sectionConfig of sections) {
   const cards = [...sectionHtml.matchAll(/<article\b[^>]*\bguide-card\b[^>]*>[\s\S]*?<\/article>/gi)]
     .map((match) => match[0]);
 
-  if (cards.length !== sectionConfig.expectedCardCount) {
+  if (
+    cards.length < sectionConfig.minimumCardCount
+    || cards.length > sectionConfig.maximumCardCount
+  ) {
     failures.push(
-      `${sectionConfig.label}: expected ${sectionConfig.expectedCardCount} cards, found ${cards.length}.`,
+      `${sectionConfig.label}: expected ${sectionConfig.minimumCardCount}`
+      + `${sectionConfig.minimumCardCount === sectionConfig.maximumCardCount
+        ? ""
+        : `-${sectionConfig.maximumCardCount}`} cards, found ${cards.length}.`,
     );
   }
 
   const imageOwners = new Map();
+  const hrefOwners = new Map();
 
   for (const card of cards) {
     const linkTag = card.match(/<a\b[^>]*>/i)?.[0] ?? "";
@@ -71,7 +80,15 @@ for (const sectionConfig of sections) {
     const title = card.match(/<h3[^>]*>([\s\S]*?)<\/h3>/i)?.[1].replace(/<[^>]+>/g, "").trim()
       ?? href
       ?? "Unknown card";
+    const description = card.match(/<p(?![^>]*\bmeta\b)[^>]*>([\s\S]*?)<\/p>/gi)
+      ?.at(-1)
+      ?.replace(/<[^>]+>/g, "")
+      .trim() ?? "";
     const imageTags = [...card.matchAll(/<img\b[^>]*>/gi)].map((match) => match[0]);
+
+    if (!description) {
+      failures.push(`${sectionConfig.label}: "${title}" has no description.`);
+    }
 
     if (imageTags.length !== 1) {
       failures.push(`${sectionConfig.label}: "${title}" has ${imageTags.length} featured images.`);
@@ -116,6 +133,15 @@ for (const sectionConfig of sections) {
       continue;
     }
 
+    const priorHrefOwner = hrefOwners.get(href);
+    if (priorHrefOwner) {
+      failures.push(
+        `${sectionConfig.label}: "${title}" duplicates "${href}", already used by "${priorHrefOwner}".`,
+      );
+    } else {
+      hrefOwners.set(href, title);
+    }
+
     const guidePath = getBuiltPagePath(href);
     if (!(await fileExists(guidePath))) {
       failures.push(`${sectionConfig.label}: "${title}" links to missing page "${href}".`);
@@ -146,5 +172,8 @@ if (failures.length) {
   }
   process.exitCode = 1;
 } else {
-  console.log('Featured guide image audit passed: 21 cards have unique, loadable images matching their article heroes.');
+  console.log(
+    'Featured guide image audit passed: homepage and Guides "Start here" cards have valid, '
+    + "unique URLs and loadable images matching their article heroes.",
+  );
 }

@@ -1,4 +1,6 @@
 ---
+import { getGuideCardMetadata } from "../data/guideMetadata";
+
 interface Props {
   href: string;
   title: string;
@@ -10,24 +12,34 @@ interface Props {
 }
 
 const { href, title, description, meta, image, imageAlt = "", imagePosition = "center" } = Astro.props;
+const articleMetadata = href.startsWith("/guides/") ? getGuideCardMetadata(href) : undefined;
+
+if (href.startsWith("/guides/") && !articleMetadata) {
+  throw new Error(`GuideCard points to an inactive or unknown guide: ${href}`);
+}
+
+const resolvedTitle = articleMetadata?.title ?? title;
+const resolvedImage = image ?? articleMetadata?.image;
+const resolvedImageAlt = image ? imageAlt : (articleMetadata?.imageAlt ?? imageAlt);
+const resolvedImagePosition = image ? imagePosition : (articleMetadata?.imagePosition ?? imagePosition);
 ---
 
-<article class:list={["guide-card", image && "has-image", meta === "Category" && "category-card"]}>
+<article class:list={["guide-card", resolvedImage && "has-image", meta === "Category" && "category-card"]}>
   <a href={href}>
-    {image && (
+    {resolvedImage && (
       <img
         class="card-image"
-        src={image}
-        alt={imageAlt}
+        src={resolvedImage}
+        alt={resolvedImageAlt}
         width="900"
         height="620"
         loading="lazy"
         draggable="false"
-        style={`object-position: ${imagePosition};`}
+        style={`object-position: ${resolvedImagePosition};`}
       />
     )}
     {meta && <p class="meta">{meta}</p>}
-    <h3>{title}</h3>
+    <h3>{resolvedTitle}</h3>
     <p>{description}</p>
   </a>
 </article>

@@ -40,6 +40,7 @@ const siteUrl = "https://australianhomecollective.com.au";
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const breadcrumbItems = [
   { name: "Home", href: "/" },
+  { name: "Guides", href: "/guides/" },
   { name: "Categories", href: "/categories/" },
   { name: title },
 ];
@@ -75,7 +76,7 @@ const faqSchema = faqs.length > 0 ? {
   imageAlt={resolvedSocialImageAlt}
   structuredData={[breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]}
 >
-  <header class="category-header image-header">
+  <header class="category-header image-header" data-category-introduction>
     <img
       class="header-image"
       src={image}

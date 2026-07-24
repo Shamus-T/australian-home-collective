@@ -39,6 +39,7 @@ interface Props {
   productTypes: ProductType[];
   faqs: FAQ[];
   relatedCategories?: LinkItem[];
+  trustLinks?: LinkItem[];
 }
 
 const {
@@ -48,7 +49,7 @@ const {
   intro,
   focusIntro,
   guides = [],
-  guideHeading = "Useful guides",
+  guideHeading = `${title} guides`,
   guideIntro = "Choose the guide that matches the part of the room or routine you are working on.",
   secondaryGuides = [],
   secondaryGuideHeading = "More guides",
@@ -58,6 +59,7 @@ const {
   productTypes,
   faqs,
   relatedCategories = [],
+  trustLinks = [],
 } = Astro.props;
 const categoryImages: Record<string, { image: string; alt: string }> = {
   "Nursery & Kids": {
@@ -122,7 +124,7 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
   faqs={faqs}
 >
   {guides.length > 0 && (
-    <section class="section">
+    <section class="section" data-category-section="guide-collection">
       <div class="container section-heading">
         <div>
           <p class="eyebrow">Start here</p>
@@ -139,7 +141,7 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
   )}
 
   {secondaryGuides.length > 0 && (
-    <section class="section soft">
+    <section class="section soft" data-category-section="guide-collection">
       <div class="container section-heading">
         <div>
           <p class="eyebrow">Also useful</p>
@@ -155,7 +157,10 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
     </section>
   )}
 
-  <section class:list={["section", (guides.length > 0 || secondaryGuides.length > 0) && "soft"]}>
+  <section
+    class:list={["section", (guides.length > 0 || secondaryGuides.length > 0) && "soft"]}
+    data-category-section="planning-focus"
+  >
     <div class="container section-heading">
       <div>
         <p class="eyebrow">Category focus</p>
@@ -170,7 +175,7 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" data-category-section="questions-and-mistakes">
     <div class="container grid two">
       <div>
         <p class="eyebrow">Plan first</p>
@@ -190,7 +195,7 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
   </section>
 
   {relatedCategories.length > 0 && (
-    <section class="section soft">
+    <section class="section soft" data-category-section="nearby-categories">
       <div class="container section-heading">
         <div>
           <p class="eyebrow">Related areas</p>
@@ -214,7 +219,32 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
     </section>
   )}
 
-  <section class="section">
+  {trustLinks.length > 0 && (
+    <section class="section" data-category-section="trust-and-methodology">
+      <div class="container section-heading">
+        <div>
+          <p class="eyebrow">How AHC works</p>
+          <h2>Trust and methodology</h2>
+        </div>
+        <p>
+          Read how product information is assessed, how editorial decisions are made and
+          what Australian status labels mean.
+        </p>
+      </div>
+      <div class="container grid three">
+        {trustLinks.map((link) => (
+          <GuideCard
+            href={link.href}
+            title={link.title}
+            description={link.description}
+            meta="Methodology"
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section" data-category-section="common-questions">
     <div class="narrow">
       <FAQBlock items={faqs} />
     </div>

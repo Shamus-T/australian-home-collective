@@ -4,122 +4,52 @@ import GuideCard from "../../components/GuideCard.astro";
 
 const featuredGuides = [
   {
+    href: "/guides/fridge-dimensions-australia/",
+    title: "Fridge Dimensions Australia: What to Measure Before Buying",
+    description: "Check cavity size, ventilation, door swing, handles and delivery access before buying a fridge.",
+    category: "Kitchen",
+  },
+  {
     href: "/guides/coffee-machine-types-australia/",
     title: "Coffee Machine Types Australia: Pod, Manual and Automatic Compared",
     description: "Compare the workflow, cleaning, bench space, consumables and daily ownership routine.",
     category: "Kitchen",
-    image: "/images/guides/coffee-machine-types-australia.webp",
-    imageAlt: "Capsule, manual espresso and automatic coffee machines arranged on a kitchen bench.",
-    imagePosition: "center",
-  },
-  {
-    href: "/guides/robot-vacuum-buying-guide-australia/",
-    title: "Robot Vacuum Buying Guide Australia",
-    description: "Compare navigation, mopping, dock maintenance, obstacle handling and floor layout.",
-    category: "Living Spaces",
-    image: "/images/guides/living-room-storage-before-cluttered-zones.webp",
-    imageAlt: "A lived-in living room with a rug, low furniture and everyday items near the floor.",
-    imagePosition: "62% 70%",
   },
   {
     href: "/guides/cordless-stick-vacuums-australia/",
     title: "Cordless Stick Vacuums Australia",
     description: "Compare usable run time, weight, floor heads, charging arrangements and consumables.",
     category: "Living Spaces",
-    image: "/images/guides/cordless-stick-vacuums-australia.webp",
-    imageAlt: "A person using a cordless stick vacuum across a rug and hard floor in a living room.",
-    imagePosition: "58% center",
-  },
-  {
-    href: "/guides/mattress-sizes-australia/",
-    title: "Mattress Sizes Australia: Room, Base and Buying Guide",
-    description: "Check mattress dimensions, the complete bed footprint, delivery access and trial terms.",
-    category: "Bedroom",
-    image: "/images/guides/bedroom-storage-clear-walkway.webp",
-    imageAlt: "A compact bedroom showing the bed footprint, open wardrobe and clear walking space beside the bed",
-    imagePosition: "57% center",
-  },
-  {
-    href: "/guides/fridge-dimensions-australia/",
-    title: "Fridge Dimensions Australia: What to Measure Before Buying",
-    description: "Check cavity size, ventilation, door swing, handles and delivery access before buying a fridge.",
-    category: "Kitchen",
-    image: "/images/guides/fridge-dimensions-australia.webp",
-    imageAlt: "An open bottom mount refrigerator in a warm Australian kitchen showing its cabinetry opening.",
-    imagePosition: "42% center",
-  },
-  {
-    href: "/guides/cookware-materials-compared/",
-    title: "Cookware Materials Compared for Australian Kitchens",
-    description: "Compare stainless steel, nonstick, cast iron and carbon steel by task, care and cooktop compatibility.",
-    category: "Kitchen",
-    image: "/images/guides/cookware-materials-australia.webp",
-    imageAlt: "Stainless steel, cast iron, nonstick and carbon steel cookware on a timber kitchen bench.",
-  },
-  {
-    href: "/guides/pantry-storage-ideas-australian-kitchens/",
-    title: "Pantry Storage Ideas for Australian Kitchens",
-    description: "Fix deep shelves, hidden food and packet clutter without buying a full set of matching containers.",
-    category: "Kitchen",
-    image: "/images/guides/pantry-storage-navy-walk-in.webp",
-    imageAlt: "A compact walk-in pantry with open shelves, navy drawers and a clear aisle.",
-    imagePosition: "68% center",
-  },
-  {
-    href: "/guides/everyday-kitchen-essentials-australian-homes/",
-    title: "Everyday Kitchen Essentials for Australian Homes",
-    description: "Cookware, utensils, food storage and cleaning basics that earn a spot in daily use.",
-    category: "Kitchen",
-    image: "/images/kitchen.webp",
-    imageAlt: "A warm kitchen with timber cabinetry, green accents and practical everyday kitchen storage.",
-  },
-  {
-    href: "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
-    title: "Laundry Dimensions Australia: What to Measure Before You Plan",
-    description: "Check real washer, dryer, cavity, door and lid dimensions before planning cabinetry or storage.",
-    category: "Laundry",
-    image: "/images/laundry.webp",
-    imageAlt: "A practical laundry room with warm finishes, baskets and tidy everyday storage.",
   },
   {
     href: "/guides/bedroom-storage-ideas-small-australian-rooms/",
     title: "Bedroom Storage Ideas for Small Australian Rooms",
     description: "Wardrobe, under-bed and bedside ideas for rooms that need to stay calm.",
     category: "Bedroom",
-    image: "/images/bedroom.webp",
-    imageAlt: "A calm small bedroom with soft bedding, warm light and practical storage.",
-  },
-  {
-    href: "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
-    title: "Bathroom Storage That Works With the Room",
-    description: "Sort vanity drawers, towel space and shower products before adding more bathroom organisers.",
-    category: "Bathroom",
-    image: "/images/bathroom.webp",
-    imageAlt: "A tidy bathroom with warm finishes, soft light and practical everyday storage.",
   },
   {
     href: "/guides/pet-essentials-for-australian-homes/",
     title: "Pet Essentials for Australian Homes: What to Buy First",
     description: "Build a short first list around feeding, rest, cleaning and necessary travel, then choose the right specialist guide.",
     category: "Pets",
-    image: "/images/guides/pet-essentials-home-zones.webp",
-    imageAlt: "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access",
   },
   {
     href: "/guides/nursery-essentials-for-australian-homes/",
     title: "Nursery Essentials for Australian Homes",
     description: "Sleep, feeding, changing, bathing and nursery choices that suit your room.",
     category: "Nursery & Kids",
-    image: "/images/Nursery-kids.webp",
-    imageAlt: "A tidy nursery room with timber furniture, soft lighting and practical baby storage.",
+  },
+  {
+    href: "/guides/home-office-setup-ideas-small-spaces/",
+    title: "Home Office Setup Ideas for Small Spaces",
+    description: "Plan desk fit, lighting, storage, cables and pack-away routines for a compact work zone.",
+    category: "Home Office",
   },
   {
     href: "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
     title: "Outdoor Storage Ideas for Australian Patios, Balconies and Gardens",
     description: "Ways to keep cushions, tools, barbecue gear and outdoor extras from taking over the patio.",
     category: "Outdoor & Garden",
-    image: "/images/outdoor-garden.webp",
-    imageAlt: "A warm Australian patio garden with outdoor seating, greenery and practical storage.",
   },
 ];
 
@@ -134,6 +64,7 @@ const guideGroups = [
       { href: "/guides/dishwasher-sizes-australia/", title: "Dishwasher Sizes Australia: 60 cm, 45 cm and Cavity Guide" },
       { href: "/guides/cookware-materials-compared/", title: "Cookware Materials Compared for Australian Kitchens" },
       { href: "/guides/best-kitchen-storage-ideas-small-australian-homes/", title: "Kitchen Storage That Makes Small Cupboards Easier to Use" },
+      { href: "/guides/pantry-storage-ideas-australian-kitchens/", title: "Pantry Storage Ideas for Australian Kitchens" },
       { href: "/guides/pantry-storage-what-to-measure-before-buying-organisers/", title: "Pantry Organisers: What to Measure Before You Buy" },
       { href: "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/", title: "Kitchen Drawers That Are Easier to Use" },
       { href: "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/", title: "Kitchen Containers Worth Sorting First" },
@@ -141,7 +72,6 @@ const guideGroups = [
       { href: "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/", title: "Kitchen Storage for Renters" },
       { href: "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/", title: "Storage Under the Kitchen Sink" },
       { href: "/guides/small-kitchen-appliances-what-to-check-before-you-buy/", title: "Small Kitchen Appliances That Earn Their Bench Space" },
-      { href: "/guides/pantry-storage-ideas-australian-kitchens/", title: "Pantry Storage Ideas for Australian Kitchens" },
       { href: "/guides/everyday-kitchen-essentials-australian-homes/", title: "Everyday Kitchen Essentials for Australian Homes" },
     ],
   },
@@ -324,8 +254,8 @@ const guideGroups = [
         <h2>A few places to begin</h2>
       </div>
       <p>
-        A selection from around the home, from kitchen cupboards and laundry days to pets
-        and shared family rooms.
+        A selection from around the home, from appliance fit and compact storage to pets,
+        family spaces, home offices and outdoor planning.
       </p>
     </div>
     <div class="container grid three">
@@ -335,9 +265,6 @@ const guideGroups = [
           title={guide.title}
           description={guide.description}
           meta={guide.category}
-          image={guide.image}
-          imageAlt={guide.imageAlt}
-          imagePosition={guide.imagePosition}
         />
       ))}
     </div>

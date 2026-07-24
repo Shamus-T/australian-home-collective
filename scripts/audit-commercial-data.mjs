@@ -43,7 +43,6 @@ const trustedEditorialDomains = new Set([
   "formspree.io",
   "healthdirect.gov.au",
   "kb.rspca.org.au",
-  "ncc.abcb.gov.au",
   "policies.google.com",
   "productsafety.gov.au",
   "raisingchildren.net.au",
