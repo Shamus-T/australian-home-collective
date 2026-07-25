@@ -56,6 +56,11 @@ function validateSubmission({ name, email, enquiryType, message }) {
   return null;
 }
 
+function requiredEmail(env, key) {
+  const email = typeof env[key] === "string" ? env[key].trim() : "";
+  return isValidEmail(email) && hasSingleLineText(email) ? email : "";
+}
+
 async function verifyTurnstile({ token, secret, remoteIp, expectedHostname }) {
   const body = new URLSearchParams({ secret, response: token });
   if (remoteIp) body.set("remoteip", remoteIp);
@@ -78,6 +83,8 @@ async function verifyTurnstile({ token, secret, remoteIp, expectedHostname }) {
 }
 
 async function sendEmail({ env, name, email, enquiryType, message }) {
+  const destinationEmail = requiredEmail(env, "CONTACT_VERIFIED_DESTINATION_EMAIL");
+  const fromEmail = requiredEmail(env, "CONTACT_FROM_EMAIL");
   const text = [
     "New Australian Home Collective contact enquiry",
     "",
@@ -98,9 +105,9 @@ async function sendEmail({ env, name, email, enquiryType, message }) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        to: env.CONTACT_TO_EMAIL,
+        to: destinationEmail,
         from: {
-          address: env.CONTACT_FROM_EMAIL,
+          address: fromEmail,
           name: "Australian Home Collective website",
         },
         reply_to: { address: email, name },
@@ -115,8 +122,8 @@ async function sendEmail({ env, name, email, enquiryType, message }) {
   const result = await response.json();
   return (
     result.success === true &&
-    (result.result?.delivered?.includes(env.CONTACT_TO_EMAIL) ||
-      result.result?.queued?.includes(env.CONTACT_TO_EMAIL))
+    (result.result?.delivered?.includes(destinationEmail) ||
+      result.result?.queued?.includes(destinationEmail))
   );
 }
 
@@ -132,11 +139,15 @@ export async function onRequestPost({ request, env }) {
     "TURNSTILE_SECRET_KEY",
     "CLOUDFLARE_ACCOUNT_ID",
     "CLOUDFLARE_EMAIL_API_TOKEN",
-    "CONTACT_TO_EMAIL",
+    "CONTACT_VERIFIED_DESTINATION_EMAIL",
     "CONTACT_FROM_EMAIL",
   ];
 
-  if (requiredConfiguration.some((key) => !env[key])) {
+  if (
+    requiredConfiguration.some((key) => !env[key]) ||
+    !requiredEmail(env, "CONTACT_VERIFIED_DESTINATION_EMAIL") ||
+    !requiredEmail(env, "CONTACT_FROM_EMAIL")
+  ) {
     console.error("Contact form is missing required Cloudflare configuration.");
     return respond(
       request,

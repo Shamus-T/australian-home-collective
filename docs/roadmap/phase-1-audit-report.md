@@ -69,7 +69,7 @@ Changes made:
 - Corrections uses the actual `Published` and `Updated` date standard.
 - Affiliate Disclosure accurately states that the publication has no affiliate links at
   present and explains the approval boundary for future links.
-- Privacy identifies Cloudflare Pages, Cloudflare Email Service, Cloudflare Turnstile and Google Analytics.
+- Privacy identifies Cloudflare Pages, Cloudflare Email Service to a verified Email Routing destination, Cloudflare Turnstile and Google Analytics.
 - Contact links readers to the Privacy Policy beside the form.
 - Our Approach, which duplicated About, is now a noindex moved page with `/about/` as its
   canonical destination. It was removed from public navigation and the sitemap.
