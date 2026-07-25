@@ -680,6 +680,36 @@ h3 {
   outline: 3px solid rgba(212, 160, 23, 0.28);
 }
 
+.contact-form .button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.form-status {
+  display: none;
+  border-radius: 6px;
+  margin: 0;
+  padding: 12px 14px;
+  font-weight: 700;
+}
+
+.form-status.is-visible,
+.form-status:target {
+  display: block;
+}
+
+.form-status-success {
+  border: 1px solid rgba(63, 110, 78, 0.35);
+  background: rgba(218, 238, 221, 0.72);
+  color: #245334;
+}
+
+.form-status-error {
+  border: 1px solid rgba(153, 55, 43, 0.35);
+  background: rgba(249, 225, 221, 0.78);
+  color: #7b2d24;
+}
+
 .page-intro,
 .article-header,
 .category-header {

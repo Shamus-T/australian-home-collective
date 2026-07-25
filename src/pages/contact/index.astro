@@ -22,19 +22,33 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
       Send a message about corrections, Australian status labels, guide suggestions, general
       website feedback or brand submissions.
     </p>
-    <form class="contact-form" action="https://formspree.io/f/mgojdyjw" method="POST">
-      <input type="hidden" name="_subject" value="Australian Home Collective enquiry" />
+    <form class="contact-form" id="contact-form" action="/api/contact" method="POST">
       <div class="form-field honeypot" aria-hidden="true">
         <label for="contact-website">Website</label>
-        <input id="contact-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off" />
+        <input id="contact-website" name="website" type="text" tabindex="-1" autocomplete="off" />
       </div>
       <div class="form-field">
         <label for="contact-name">Name</label>
-        <input id="contact-name" name="name" type="text" autocomplete="name" required />
+        <input
+          id="contact-name"
+          name="name"
+          type="text"
+          autocomplete="name"
+          minlength="2"
+          maxlength="100"
+          required
+        />
       </div>
       <div class="form-field">
         <label for="contact-email">Your email</label>
-        <input id="contact-email" name="email" type="email" autocomplete="email" required />
+        <input
+          id="contact-email"
+          name="email"
+          type="email"
+          autocomplete="email"
+          maxlength="254"
+          required
+        />
       </div>
       <div class="form-field">
         <label for="contact-enquiry">Enquiry type</label>
@@ -49,12 +63,35 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
       </div>
       <div class="form-field">
         <label for="contact-message">Message</label>
-        <textarea id="contact-message" name="message" rows="7" required></textarea>
+        <textarea
+          id="contact-message"
+          name="message"
+          rows="7"
+          minlength="10"
+          maxlength="5000"
+          required
+        ></textarea>
       </div>
-      <div class="cf-turnstile" data-sitekey="0x4AAAAAADwCb4FVfJonE8-N"></div>
+      <div
+        class="cf-turnstile"
+        data-sitekey="0x4AAAAAADwCb4FVfJonE8-N"
+        data-action="contact"
+      ></div>
       <button class="button" type="submit">Send message</button>
+      <p
+        class="form-status form-status-success"
+        id="contact-sent"
+        role="status"
+        aria-live="polite"
+        tabindex="-1"
+      >
+        Thanks — your message has been sent.
+      </p>
+      <p class="form-status form-status-error" id="contact-error" role="alert" tabindex="-1">
+        We could not send your message. Please try again.
+      </p>
       <p class="small">
-        Form submissions are processed by Formspree and protected by Cloudflare Turnstile.
+        Form submissions are processed by Cloudflare and protected by Cloudflare Turnstile.
         Read our <a href="/privacy-policy/">Privacy Policy</a> for details.
       </p>
     </form>
@@ -84,4 +121,60 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
     </p>
   </section>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script>
+    const form = document.querySelector<HTMLFormElement>("#contact-form");
+    const submitButton = form?.querySelector<HTMLButtonElement>('button[type="submit"]');
+    const successMessage = document.querySelector<HTMLElement>("#contact-sent");
+    const errorMessage = document.querySelector<HTMLElement>("#contact-error");
+
+    const showStatus = (kind: "success" | "error", message?: string) => {
+      const activeMessage = kind === "success" ? successMessage : errorMessage;
+      const inactiveMessage = kind === "success" ? errorMessage : successMessage;
+
+      inactiveMessage?.classList.remove("is-visible");
+      activeMessage?.classList.add("is-visible");
+      if (activeMessage && message) activeMessage.textContent = message;
+      activeMessage?.focus();
+    };
+
+    form?.addEventListener("submit", async (event) => {
+      if (!form.reportValidity()) return;
+
+      event.preventDefault();
+      successMessage?.classList.remove("is-visible");
+      errorMessage?.classList.remove("is-visible");
+
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = "Sending…";
+      }
+
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          headers: { Accept: "application/json" },
+          body: new FormData(form),
+        });
+        const result = await response.json().catch(() => ({}));
+
+        if (!response.ok) {
+          throw new Error(result.message || "We could not send your message. Please try again.");
+        }
+
+        form.reset();
+        window.turnstile?.reset();
+        showStatus("success", result.message);
+      } catch (error) {
+        const message =
+          error instanceof Error ? error.message : "We could not send your message. Please try again.";
+        showStatus("error", message);
+        window.turnstile?.reset();
+      } finally {
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = "Send message";
+        }
+      }
+    });
+  </script>
 </BaseLayout>

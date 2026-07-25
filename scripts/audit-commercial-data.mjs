@@ -40,7 +40,6 @@ const trustedEditorialDomains = new Set([
   "electricalsafety.qld.gov.au",
   "energyrating.gov.au",
   "esafety.gov.au",
-  "formspree.io",
   "healthdirect.gov.au",
   "kb.rspca.org.au",
   "policies.google.com",

@@ -23,7 +23,9 @@ No interactive planning tool is currently public or in active development. The s
 
 ## Privacy review notes
 
-The current public privacy page covers contact submissions, Google Analytics 4, affiliate tracking, Formspree processing and Cloudflare Turnstile. Re-review it before adding:
+The current public privacy page covers contact submissions, Google Analytics 4, affiliate
+tracking, Cloudflare Pages and Email Service processing, and Cloudflare Turnstile. Re-review it
+before adding:
 
 - uploads, saved plans, accounts or shareable tool results;
 - email marketing or a subscriber database;

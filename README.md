@@ -31,6 +31,23 @@ The GitHub Actions workflow builds and audits each change, but it does not deplo
 
 Cloudflare-specific redirects are maintained in `public/_redirects`.
 
+### Contact form
+
+The contact form posts to the Cloudflare Pages Function at `/api/contact`. It validates
+Cloudflare Turnstile on the server and sends the message with Cloudflare Email Service.
+
+Configure these production variables and secrets in the Cloudflare Pages project before
+deploying the function:
+
+- `TURNSTILE_SECRET_KEY` — encrypted Turnstile widget secret.
+- `CLOUDFLARE_ACCOUNT_ID` — Cloudflare account that owns Email Service.
+- `CLOUDFLARE_EMAIL_API_TOKEN` — encrypted API token with Email Sending: Edit permission.
+- `CONTACT_TO_EMAIL` — verified destination inbox.
+- `CONTACT_FROM_EMAIL` — sender on a domain onboarded to Cloudflare Email Service.
+
+The sending domain must be onboarded under Cloudflare Email Service before the form can deliver
+messages. Production and preview variables are configured separately in Cloudflare Pages.
+
 ## Content and quality checks
 
 The canonical publishing standards and current roadmaps are indexed in `docs/README.md`. Every substantial article revision requires a separate publication edit that preserves factual meaning, safety context, SEO intent, Australian English and useful links.
