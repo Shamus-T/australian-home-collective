@@ -6,6 +6,12 @@ const ALLOWED_ENQUIRY_TYPES = new Set([
   "Brand submission",
 ]);
 
+const EXPECTED_TURNSTILE_ACTION = "contact";
+const ACCEPTED_TURNSTILE_HOSTNAMES = new Set([
+  "australianhomecollective.com.au",
+  "www.australianhomecollective.com.au",
+]);
+
 const JSON_HEADERS = {
   "Content-Type": "application/json; charset=utf-8",
   "Cache-Control": "no-store",
@@ -61,6 +67,29 @@ function requiredEmail(env, key) {
   return isValidEmail(email) && hasSingleLineText(email) ? email : "";
 }
 
+function normalizeHostname(hostname) {
+  return typeof hostname === "string" ? hostname.trim().toLowerCase().replace(/\.$/, "") : "";
+}
+
+function isAcceptedTurnstileHostname(hostname, requestHostname) {
+  const normalizedHostname = normalizeHostname(hostname);
+  const normalizedRequestHostname = normalizeHostname(requestHostname);
+
+  return (
+    ACCEPTED_TURNSTILE_HOSTNAMES.has(normalizedHostname) ||
+    (normalizedRequestHostname && normalizedHostname === normalizedRequestHostname)
+  );
+}
+
+function turnstileFailureSummary(result, reason) {
+  return {
+    reason,
+    errorCodes: Array.isArray(result?.["error-codes"]) ? result["error-codes"] : [],
+    action: typeof result?.action === "string" ? result.action : null,
+    hostname: typeof result?.hostname === "string" ? result.hostname : null,
+  };
+}
+
 async function verifyTurnstile({ token, secret, remoteIp, expectedHostname }) {
   const body = new URLSearchParams({ secret, response: token });
   if (remoteIp) body.set("remoteip", remoteIp);
@@ -71,15 +100,22 @@ async function verifyTurnstile({ token, secret, remoteIp, expectedHostname }) {
     body,
   });
 
-  if (!response.ok) return false;
+  if (!response.ok) {
+    return { success: false, reason: `siteverify-http-${response.status}`, result: null };
+  }
 
   const result = await response.json();
-  return (
-    result.success === true &&
-    result.action === "contact" &&
-    typeof result.hostname === "string" &&
-    result.hostname === expectedHostname
-  );
+  if (result.success !== true) {
+    return { success: false, reason: "siteverify-rejected", result };
+  }
+  if (result.action !== EXPECTED_TURNSTILE_ACTION) {
+    return { success: false, reason: "unexpected-action", result };
+  }
+  if (!isAcceptedTurnstileHostname(result.hostname, expectedHostname)) {
+    return { success: false, reason: "unexpected-hostname", result };
+  }
+
+  return { success: true, reason: null, result };
 }
 
 async function sendEmail({ env, name, email, enquiryType, message }) {
@@ -190,19 +226,25 @@ export async function onRequestPost({ request, env }) {
     );
   }
 
-  let turnstileVerified = false;
+  let turnstileVerification = { success: false, reason: "not-verified", result: null };
   try {
-    turnstileVerified = await verifyTurnstile({
+    turnstileVerification = await verifyTurnstile({
       token: turnstileToken,
       secret: env.TURNSTILE_SECRET_KEY,
       remoteIp: request.headers.get("CF-Connecting-IP"),
       expectedHostname: requestUrl.hostname,
     });
   } catch (error) {
-    console.error("Turnstile verification failed.", error);
+    console.error("Turnstile verification request failed.", {
+      message: error instanceof Error ? error.message : "Unknown Turnstile verification error.",
+    });
   }
 
-  if (!turnstileVerified) {
+  if (!turnstileVerification.success) {
+    console.error(
+      "Turnstile verification failed.",
+      turnstileFailureSummary(turnstileVerification.result, turnstileVerification.reason),
+    );
     return respond(
       request,
       400,
