@@ -149,8 +149,9 @@ for (const file of htmlFiles) {
   const structuredDataTypes = new Set();
   const structuredDataNodes = [];
   const structuredDataIds = new Set();
+  const contentHtml = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "");
 
-  for (const issue of inlineLinkSpacingErrors(html)) {
+  for (const issue of inlineLinkSpacingErrors(contentHtml)) {
     addError(`${relativePath} has ${issue}.`);
   }
 
@@ -339,11 +340,11 @@ for (const file of htmlFiles) {
     addError(`${relativePath} is missing BreadcrumbList structured data.`);
   }
   if (relativePath === "404.html" && indexable) addError("404.html must be noindex.");
-  if (/\bNCC\b|National Construction Code/i.test(plainText(html))) {
+  if (/\bNCC\b|National Construction Code/i.test(plainText(contentHtml))) {
     addError(`${relativePath} contains a prohibited National Construction Code reference.`);
   }
 
-  for (const match of html.matchAll(/<a\s+[^>]*href="([^"]+)"[^>]*>/gi)) {
+  for (const match of contentHtml.matchAll(/<a\s+[^>]*href="([^"]+)"[^>]*>/gi)) {
     const [anchor, href] = match;
     if (/^(#|mailto:|tel:|javascript:)/i.test(href)) continue;
 

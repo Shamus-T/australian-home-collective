@@ -110,6 +110,7 @@ const faqSchema = faqs.length > 0 ? {
 const machineReadableDate = date.startsWith("Published")
   ? datePublished
   : dateModified ?? datePublished;
+const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
 ---
 
 <BaseLayout
@@ -119,6 +120,9 @@ const machineReadableDate = date.startsWith("Published")
   image={resolvedSocialImage}
   imageAlt={resolvedSocialImageAlt}
   ogType="article"
+  searchIndex={isGuideRoute}
+  searchCategory={category}
+  searchContentType="Guide"
   structuredData={[breadcrumbSchema, articleSchema, ...(faqSchema ? [faqSchema] : [])]}
 >
   <header class:list={["article-header", image && "image-header"]}>

@@ -1,0 +1,199 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const suggestions = [
+  "Fridge measurements",
+  "Heat pump dryers",
+  "Small bathroom storage",
+  "Pantry organisation",
+  "Home-office cables",
+  "Dog beds",
+];
+---
+
+<BaseLayout
+  title="Search guides and categories"
+  description="Search Australian Home Collective guides and category pages for practical planning, measuring and buying guidance."
+  canonicalPath="/search/"
+  robots="noindex,follow"
+>
+  <link slot="head" rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />
+  <script
+    slot="head"
+    is:inline
+    type="module"
+    src="/pagefind/pagefind-component-ui.js"
+  ></script>
+
+  <header class="page-intro search-intro">
+    <div class="narrow">
+      <p class="eyebrow">Find practical guidance</p>
+      <h1>Search guides and categories</h1>
+      <p class="lead">
+        Search AHC’s active guides and room categories. Your words stay in this browser
+        and are not added to the page address.
+      </p>
+    </div>
+  </header>
+
+  <section class="section search-section" aria-labelledby="search-library-heading">
+    <div class="narrow search-shell">
+      <div class="search-panel" role="search" aria-labelledby="search-library-heading">
+        <h2 id="search-library-heading">Search the guide library</h2>
+        <p id="search-instructions">
+          Enter at least two letters. Search waits briefly while you type and limits
+          unusually long input safely.
+        </p>
+
+        <div class="search-interface">
+          <pagefind-config bundle-path="/pagefind/"></pagefind-config>
+          <pagefind-input
+            placeholder="What are you planning at home?"
+            debounce="300"
+          ></pagefind-input>
+          <div class="search-summary-row">
+            <pagefind-summary
+              default-message="Try a topic, room or task."
+            ></pagefind-summary>
+            <pagefind-keyboard-hints></pagefind-keyboard-hints>
+          </div>
+          <p
+            id="search-load-status"
+            class="search-load-status"
+            role="status"
+            aria-live="polite"
+          >
+            Search is temporarily unavailable. You can still browse Guides and Categories
+            below.
+          </p>
+          <pagefind-results hide-sub-results>
+            <script type="text/pagefind-template" is:inline>
+              <li class="pf-result search-result">
+                <article class="pf-result-card search-result-card">
+                  <div class="pf-result-content">
+                    <p class="search-result-meta">{{ meta.content_type }} · {{ meta.category }}</p>
+                    <h2 class="pf-result-title search-result-title">
+                      <a class="pf-result-link" href="{{ meta.url | default(url) | safeUrl }}">{{ meta.title }}</a>
+                    </h2>
+                    {{#if meta.description}}
+                    <p class="search-result-description">{{ meta.description }}</p>
+                    {{/if}}
+                    {{#if excerpt}}
+                    <p class="pf-result-excerpt search-result-excerpt">{{+ excerpt +}}</p>
+                    {{/if}}
+                    <p class="search-result-path">{{ meta.url | default(url) }}</p>
+                  </div>
+                </article>
+              </li>
+            </script>
+          </pagefind-results>
+        </div>
+      </div>
+
+      <aside class="search-suggestions" aria-labelledby="search-suggestions-heading">
+        <h2 id="search-suggestions-heading">Popular planning tasks</h2>
+        <p>Choose a suggestion to run it in the search box above.</p>
+        <div class="search-suggestion-list">
+          {suggestions.map((term) => (
+            <button class="search-suggestion" type="button" data-search-term={term}>
+              {term}
+            </button>
+          ))}
+        </div>
+      </aside>
+
+      <aside class="search-fallback" aria-labelledby="search-fallback-heading">
+        <h2 id="search-fallback-heading">Browse another way</h2>
+        <p>
+          If no matching guide appears, try shorter wording or browse the full library.
+          You can also contact AHC when you cannot find the right starting point.
+        </p>
+        <ul>
+          <li><a href="/guides/">Browse all Guides</a></li>
+          <li><a href="/categories/">Browse Categories</a></li>
+          <li><a href="/contact/">Contact Australian Home Collective</a></li>
+        </ul>
+      </aside>
+
+      <noscript>
+        <p class="search-noscript">
+          Search requires JavaScript. You can still <a href="/guides/">browse all Guides</a>{" "}
+          or{" "}<a href="/categories/">browse Categories</a>.
+        </p>
+      </noscript>
+    </div>
+  </section>
+
+  <script is:inline type="module">
+    const status = document.querySelector("#search-load-status");
+    const suggestionButtons = document.querySelectorAll("[data-search-term]");
+    const minimumQueryLength = 2;
+    const maximumQueryLength = 120;
+    let correctingQuery = false;
+
+    const showLoadFailure = () => {
+      if (!(status instanceof HTMLElement)) return;
+      status.hidden = false;
+      status.textContent =
+        "Search is temporarily unavailable. You can still browse Guides and Categories below.";
+    };
+
+    const waitForComponents = Promise.race([
+      customElements.whenDefined("pagefind-input"),
+      new Promise((_, reject) => {
+        window.setTimeout(() => reject(new Error("Pagefind Component UI timed out.")), 8000);
+      }),
+    ]);
+
+    if (status instanceof HTMLElement) {
+      status.textContent = "Search is loading…";
+    }
+
+    try {
+      await waitForComponents;
+      const components = window.PagefindComponents;
+      if (!components?.getInstanceManager) {
+        throw new Error("Pagefind Component UI did not expose its instance manager.");
+      }
+
+      const instance = components.getInstanceManager().getInstance("default");
+
+      instance.on("search", (term) => {
+        if (correctingQuery || typeof term !== "string") return;
+        const normalised = term.trim().replace(/\s+/g, " ").slice(0, maximumQueryLength);
+        const accepted = normalised.length === 1 ? "" : normalised;
+        if (accepted === term) return;
+
+        correctingQuery = true;
+        const correctSearch = () => {
+          instance.triggerSearch(accepted);
+          correctingQuery = false;
+        };
+
+        if (accepted) {
+          window.setTimeout(correctSearch, 0);
+        } else {
+          queueMicrotask(correctSearch);
+        }
+      });
+
+      instance.on("error", showLoadFailure);
+
+      for (const button of suggestionButtons) {
+        button.addEventListener("click", () => {
+          if (!(button instanceof HTMLButtonElement)) return;
+          const term = button.dataset.searchTerm?.slice(0, maximumQueryLength) ?? "";
+          if (term.length >= minimumQueryLength) {
+            instance.triggerSearch(term);
+          }
+        });
+      }
+
+      if (status instanceof HTMLElement) {
+        status.hidden = true;
+      }
+    } catch {
+      showLoadFailure();
+    }
+  </script>
+</BaseLayout>

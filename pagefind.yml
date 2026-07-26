@@ -1,0 +1,9 @@
+site: dist
+output_subdir: pagefind
+exclude_selectors:
+  - ".breadcrumbs"
+  - ".article-meta"
+  - ".related-guides"
+  - ".guide-navigation"
+  - "[data-category-section='guide-collection']"
+  - "[data-category-section='nearby-categories']"

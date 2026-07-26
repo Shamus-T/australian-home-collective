@@ -13,6 +13,9 @@ interface Props {
   robots?: string;
   refreshPath?: string;
   structuredData?: Record<string, unknown>[];
+  searchIndex?: boolean;
+  searchCategory?: string;
+  searchContentType?: "Guide" | "Category";
 }
 
 const {
@@ -26,7 +29,13 @@ const {
   robots,
   refreshPath,
   structuredData = [],
+  searchIndex = false,
+  searchCategory,
+  searchContentType,
 } = Astro.props;
+if (searchIndex && (!searchCategory || !searchContentType)) {
+  throw new Error("Search-indexed pages require a category and content type.");
+}
 const siteTitle = "Australian Home Collective";
 const brandedPageTitle = `${title} | ${siteTitle}`;
 const pageTitle = seoTitle ?? (
@@ -95,6 +104,14 @@ const jsonLd = JSON.stringify({
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
+    {searchIndex && (
+      <>
+        <meta data-pagefind-meta="title[content]" content={title} />
+        <meta data-pagefind-meta="description[content]" content={description} />
+        <meta data-pagefind-meta="category[content]" content={searchCategory} />
+        <meta data-pagefind-meta="content_type[content]" content={searchContentType} />
+      </>
+    )}
     {robots && <meta name="robots" content={robots} />}
     {refreshUrl && <meta http-equiv="refresh" content={`0;url=${refreshUrl}`} />}
     <link rel="canonical" href={canonicalUrl} />
@@ -125,7 +142,8 @@ const jsonLd = JSON.stringify({
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=5" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=5" />
     <link rel="manifest" href="/site.webmanifest?v=5" />
-    <link rel="stylesheet" href="/styles/global.css?v=9" />
+    <slot name="head" />
+    <link rel="stylesheet" href="/styles/global.css?v=10" />
     {isIndexable && <script is:inline type="application/ld+json" set:html={jsonLd} />}
     <!-- Google tag (gtag.js) -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-NHVS6YBB8J"></script>
@@ -140,7 +158,7 @@ const jsonLd = JSON.stringify({
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <SiteHeader />
-    <main id="main-content" tabindex="-1">
+    <main id="main-content" tabindex="-1" data-pagefind-body={searchIndex ? "" : undefined}>
       <slot />
     </main>
     <Footer />

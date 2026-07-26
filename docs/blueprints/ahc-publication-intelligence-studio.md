@@ -3,12 +3,19 @@
 | Field | Value |
 | --- | --- |
 | Status | Approved for phased implementation |
-| Version | 1.0 |
+| Version | 1.1 |
 | Date | 26 July 2026 |
 | Scope | Australian Home Collective only |
 | Working product name | AHC Studio |
 | Document type | Internal product, architecture and implementation blueprint |
 | Owner | Australian Home Collective |
+
+### Version history
+
+| Version | Date | Amendment |
+| --- | --- | --- |
+| 1.1 | 26 July 2026 | Phase 1A implementation amendment: `public/_headers` is an approved required change because self-hosted Pagefind uses WebAssembly and a Web Worker. The existing CSP therefore adds only `script-src 'wasm-unsafe-eval'` and `worker-src 'self' blob:`; it does not add `'unsafe-eval'` or a new origin. |
+| 1.0 | 26 July 2026 | Approved Phase 0 blueprint and contracts. |
 
 ## 1. Document purpose and authority
 
@@ -1036,6 +1043,7 @@ This is the next approved implementation slice. It must be implemented as one re
 | `src/components/SiteHeader.astro` | Add a text `Search` link to the one existing `navItems` array. Do not invent a separate mobile navigation. |
 | `src/pages/search/index.astro` — new proposed route | Add the dedicated noindex search page, Component UI, curated suggestions, fallbacks and result template. |
 | `public/styles/global.css` | Add site-consistent responsive styles and accessible focus, status, result, mark and fallback treatment. |
+| `public/_headers` | Add Pagefind's same-origin WebAssembly and Worker CSP allowances: `script-src 'wasm-unsafe-eval'` and `worker-src 'self' blob:`. Do not add `'unsafe-eval'` or another origin. |
 | `scripts/audit-pagefind-output.mjs` — new proposed audit | Check opt-in route scope, generated bundle presence, search page references, metadata, exclusions and navigation discovery. |
 | `package.json` build/audit scripts | Run the new audit after Pagefind generation. |
 
@@ -1088,7 +1096,6 @@ output_subdir: pagefind
 exclude_selectors:
   - ".breadcrumbs"
   - ".article-meta"
-  - ".disclosure-block"
   - ".related-guides"
   - ".guide-navigation"
   - "[data-category-section='guide-collection']"
@@ -1096,6 +1103,8 @@ exclude_selectors:
 ```
 
 Verify every selector against rendered `dist/`. Remove a selector that hides unique useful content; add a selector only when a built-output inspection proves repeated noise.
+
+Version 1.1 records that `.disclosure-block` was omitted from the implemented configuration because the fresh Phase 1A baseline contained zero rendered matches, including across all opted-in pages. No active disclosure content is therefore indexed. If a disclosure is rendered on an opted-in route later, it must gain a verified exclusion before that route can pass the search audit.
 
 Pagefind already ignores structural `nav`, `footer`, `script` and `form` elements. The layout opt-in remains the primary page-scope control.
 
