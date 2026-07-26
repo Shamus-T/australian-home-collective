@@ -175,6 +175,7 @@ if (!searchPage) {
     'href="/guides/"',
     'href="/categories/"',
     'href="/contact/"',
+    "Suggested searches",
     "Search is temporarily unavailable",
   ];
 
@@ -194,6 +195,9 @@ if (!searchPage) {
     if (!html.includes(fragment)) {
       addError(`/search/ is missing required contract fragment: ${fragment}`);
     }
+  }
+  if (html.includes("Popular planning tasks")) {
+    addError('/search/ contains the unsupported heading "Popular planning tasks".');
   }
 }
 
