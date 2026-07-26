@@ -40,6 +40,7 @@ This directory is the version-controlled source of truth for Australian Home Col
 ### Blueprints
 
 - [Australian Home Collective Publication Intelligence Studio](blueprints/ahc-publication-intelligence-studio.md)
+- [Phase 1B — Privacy-Safe Search Analytics](blueprints/phase-1b-search-analytics-design.md) — proposed design gate; runtime not implemented
 
 ## Supporting audit artefacts
 

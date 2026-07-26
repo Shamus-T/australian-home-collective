@@ -463,6 +463,8 @@ Pagefind must index the generated HTML, not source assumptions. Every implementa
 
 This model is approved for Phase 1B design only. Phase 1A implements no event endpoint or event submission.
 
+The detailed [Phase 1B — Privacy-Safe Search Analytics](phase-1b-search-analytics-design.md) specification is proposed for human approval. It is a design gate only and does not mark Phase 1B approved or implemented.
+
 ### 12.1 Event types
 
 `search_performed`:
