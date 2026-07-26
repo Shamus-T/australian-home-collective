@@ -67,6 +67,36 @@ function requiredEmail(env, key) {
   return isValidEmail(email) && hasSingleLineText(email) ? email : "";
 }
 
+function redactEmailAddresses(value) {
+  if (typeof value === "string") {
+    return value.replace(/[^\s@]+@[^\s@]+\.[^\s@]+/g, "[redacted-email]");
+  }
+  if (Array.isArray(value)) {
+    return value.map(redactEmailAddresses);
+  }
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, entry]) => [key, redactEmailAddresses(entry)]),
+    );
+  }
+  return value;
+}
+
+async function readEmailServiceResponse(response) {
+  const textFallbackResponse = response.clone();
+
+  try {
+    return { body: await response.json(), text: null };
+  } catch {
+    try {
+      const text = (await textFallbackResponse.text()).slice(0, 500);
+      return { body: null, text: redactEmailAddresses(text) };
+    } catch {
+      return { body: null, text: null };
+    }
+  }
+}
+
 function normalizeHostname(hostname) {
   return typeof hostname === "string" ? hostname.trim().toLowerCase().replace(/\.$/, "") : "";
 }
@@ -153,14 +183,38 @@ async function sendEmail({ env, name, email, enquiryType, message }) {
     },
   );
 
-  if (!response.ok) return false;
+  const { body: result, text: responseText } = await readEmailServiceResponse(response);
 
-  const result = await response.json();
-  return (
-    result.success === true &&
-    (result.result?.delivered?.includes(destinationEmail) ||
-      result.result?.queued?.includes(destinationEmail))
-  );
+  if (!response.ok) {
+    console.error("Cloudflare Email Service rejected the send request.", {
+      status: response.status,
+      statusText: response.statusText,
+      errors: redactEmailAddresses(result?.errors ?? null),
+      messages: redactEmailAddresses(result?.messages ?? null),
+      responseText,
+    });
+    return false;
+  }
+
+  const delivered = Array.isArray(result?.result?.delivered) ? result.result.delivered : [];
+  const queued = Array.isArray(result?.result?.queued) ? result.result.queued : [];
+  const permanentBounces =
+    result?.result?.permanentBounces ?? result?.result?.permanent_bounces ?? [];
+  const messageId = result?.result?.messageId ?? result?.result?.message_id ?? null;
+  const destinationConfirmed =
+    result?.success === true &&
+    (delivered.includes(destinationEmail) || queued.includes(destinationEmail));
+
+  if (!destinationConfirmed) {
+    console.error("Cloudflare Email Service did not confirm delivery.", {
+      delivered: redactEmailAddresses(delivered),
+      queued: redactEmailAddresses(queued),
+      permanentBounces: redactEmailAddresses(permanentBounces),
+      messageId,
+    });
+  }
+
+  return destinationConfirmed;
 }
 
 export async function onRequestPost({ request, env }) {
