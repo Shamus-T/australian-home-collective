@@ -37,6 +37,10 @@ This directory is the version-controlled source of truth for Australian Home Col
 - [Commission Factory Readiness](roadmap/commission-factory-readiness.md)
 - [Phase 1 Audit Report](roadmap/phase-1-audit-report.md)
 
+### Blueprints
+
+- [Australian Home Collective Publication Intelligence Studio](blueprints/ahc-publication-intelligence-studio.md)
+
 ## Supporting audit artefacts
 
 The `visual/` folder contains the current image inventory, assessments, contact sheets and replacement manifest. These are generated or evidence records rather than publishing policies.
