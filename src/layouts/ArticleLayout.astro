@@ -123,6 +123,8 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
   searchIndex={isGuideRoute}
   searchCategory={category}
   searchContentType="Guide"
+  searchImage={image}
+  searchImageAlt={imageAlt}
   structuredData={[breadcrumbSchema, articleSchema, ...(faqSchema ? [faqSchema] : [])]}
 >
   <header class:list={["article-header", image && "image-header"]}>

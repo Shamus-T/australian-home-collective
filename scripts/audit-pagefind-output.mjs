@@ -134,9 +134,21 @@ for (const route of expectedRoutes) {
   if (!page) continue;
 
   const metadata = pagefindMetadata(page.html);
-  for (const key of ["title", "description", "category", "content_type"]) {
+  for (const key of ["title", "description", "category", "content_type", "image", "image_alt"]) {
     if (!metadata.get(key)) {
       addError(`${route} is missing non-empty Pagefind ${key} metadata.`);
+    }
+  }
+
+  const image = metadata.get("image");
+  if (image) {
+    if (!image.startsWith("/images/")) {
+      addError(`${route} has invalid Pagefind image URL "${image}".`);
+    } else {
+      const imageFile = path.join(distRoot, ...decodeURIComponent(image.slice(1)).split("/"));
+      if (!fs.existsSync(imageFile)) {
+        addError(`${route} Pagefind image asset does not exist: "${image}".`);
+      }
     }
   }
 
@@ -170,7 +182,11 @@ if (!searchPage) {
     "hide-sub-results",
     'type="text/pagefind-template"',
     "| safeUrl",
-    "{{+ excerpt +}}",
+    'class="pf-result-image search-result-image"',
+    'width="900"',
+    'height="620"',
+    'loading="lazy"',
+    "{{ meta.description }}",
     "<noscript>",
     'href="/guides/"',
     'href="/categories/"',

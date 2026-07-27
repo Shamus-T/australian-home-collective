@@ -16,6 +16,8 @@ interface Props {
   searchIndex?: boolean;
   searchCategory?: string;
   searchContentType?: "Guide" | "Category";
+  searchImage?: string;
+  searchImageAlt?: string;
 }
 
 const {
@@ -32,9 +34,14 @@ const {
   searchIndex = false,
   searchCategory,
   searchContentType,
+  searchImage,
+  searchImageAlt,
 } = Astro.props;
-if (searchIndex && (!searchCategory || !searchContentType)) {
-  throw new Error("Search-indexed pages require a category and content type.");
+if (
+  searchIndex
+  && (!searchCategory || !searchContentType || !searchImage || !searchImageAlt)
+) {
+  throw new Error("Search-indexed pages require a category, content type and image metadata.");
 }
 const siteTitle = "Australian Home Collective";
 const brandedPageTitle = `${title} | ${siteTitle}`;
@@ -110,6 +117,8 @@ const jsonLd = JSON.stringify({
         <meta data-pagefind-meta="description[content]" content={description} />
         <meta data-pagefind-meta="category[content]" content={searchCategory} />
         <meta data-pagefind-meta="content_type[content]" content={searchContentType} />
+        <meta data-pagefind-meta="image[content]" content={searchImage} />
+        <meta data-pagefind-meta="image_alt[content]" content={searchImageAlt} />
       </>
     )}
     {robots && <meta name="robots" content={robots} />}

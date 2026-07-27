@@ -30,8 +30,8 @@ const suggestions = [
       <p class="eyebrow">Find practical guidance</p>
       <h1>Search guides and categories</h1>
       <p class="lead">
-        Search AHC’s active guides and room categories. Your words stay in this browser
-        and are not added to the page address.
+        Search AHC’s guides and room categories for practical advice on planning,
+        measuring and buying.
       </p>
     </div>
   </header>
@@ -41,8 +41,7 @@ const suggestions = [
       <div class="search-panel" role="search" aria-labelledby="search-library-heading">
         <h2 id="search-library-heading">Search the guide library</h2>
         <p id="search-instructions">
-          Enter at least two letters. Search waits briefly while you type and limits
-          unusually long input safely.
+          Enter a room, task or item to find a useful starting point.
         </p>
 
         <div class="search-interface">
@@ -70,18 +69,26 @@ const suggestions = [
             <script type="text/pagefind-template" is:inline>
               <li class="pf-result search-result">
                 <article class="pf-result-card search-result-card">
+                  {{#if meta.image}}
+                  <img
+                    class="pf-result-image search-result-image"
+                    src="{{ meta.image | safeUrl }}"
+                    alt="{{ meta.image_alt }}"
+                    width="900"
+                    height="620"
+                    loading="lazy"
+                    decoding="async"
+                    draggable="false"
+                  />
+                  {{/if}}
                   <div class="pf-result-content">
                     <p class="search-result-meta">{{ meta.content_type }} · {{ meta.category }}</p>
                     <h2 class="pf-result-title search-result-title">
                       <a class="pf-result-link" href="{{ meta.url | default(url) | safeUrl }}">{{ meta.title }}</a>
                     </h2>
                     {{#if meta.description}}
-                    <p class="search-result-description">{{ meta.description }}</p>
+                    <p class="pf-result-excerpt search-result-excerpt">{{ meta.description }}</p>
                     {{/if}}
-                    {{#if excerpt}}
-                    <p class="pf-result-excerpt search-result-excerpt">{{+ excerpt +}}</p>
-                    {{/if}}
-                    <p class="search-result-path">{{ meta.url | default(url) }}</p>
                   </div>
                 </article>
               </li>

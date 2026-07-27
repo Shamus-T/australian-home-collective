@@ -1695,10 +1695,12 @@ h3 {
   --pf-input-height: 56px;
   --pf-input-font-size: 1rem;
   --pf-summary-font-size: 0.94rem;
-  --pf-result-title-font-size: clamp(1.25rem, 3vw, 1.55rem);
-  --pf-result-excerpt-font-size: 1rem;
+  --pf-result-title-font-size: clamp(1.12rem, 2.3vw, 1.35rem);
+  --pf-result-excerpt-font-size: 0.96rem;
   --pf-results-gap: 14px;
   --pf-border-radius: 8px;
+  --pf-image-width: clamp(112px, 18vw, 156px);
+  --pf-image-height: clamp(82px, 13vw, 108px);
   min-width: 0;
   margin-top: 20px;
 }
@@ -1732,7 +1734,12 @@ pagefind-results {
 }
 
 .search-result-card {
+  align-items: flex-start;
   min-width: 0;
+}
+
+.search-result-image {
+  display: block;
 }
 
 .search-result-meta {
@@ -1753,26 +1760,9 @@ pagefind-results {
   text-decoration-thickness: 0.1em;
 }
 
-.search-result-description,
 .search-result-excerpt {
-  margin: 10px 0 0;
-}
-
-.search-result-excerpt mark {
-  border: 1px solid currentColor;
-  border-radius: 2px;
-  background: #f4d981;
-  color: var(--green-dark);
-  font-weight: 800;
-  padding-inline: 0.08em;
-}
-
-.search-result-path {
-  color: var(--muted);
-  font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", monospace;
-  font-size: 0.84rem;
-  overflow-wrap: anywhere;
-  margin: 12px 0 0;
+  margin-top: 8px;
+  white-space: normal;
 }
 
 .search-suggestion-list {
@@ -1834,6 +1824,25 @@ pagefind-results {
     gap: 4px;
   }
 
+  .search-interface {
+    --pf-result-title-font-size: 1.08rem;
+    --pf-result-excerpt-font-size: 0.9rem;
+    --pf-image-width: 88px;
+    --pf-image-height: 76px;
+  }
+
+  .search-result-meta {
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+  }
+
+  .search-result-excerpt {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
   .search-suggestion-list,
   .search-fallback ul {
     align-items: stretch;
@@ -1848,13 +1857,6 @@ pagefind-results {
 @media (max-width: 420px) {
   .site-nav a {
     min-height: 44px;
-  }
-}
-
-@media (forced-colors: active) {
-  .search-result-excerpt mark {
-    border: 2px solid currentColor;
-    forced-color-adjust: none;
   }
 }
 

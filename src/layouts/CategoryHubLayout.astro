@@ -77,6 +77,8 @@ const faqSchema = faqs.length > 0 ? {
   searchIndex
   searchCategory={title}
   searchContentType="Category"
+  searchImage={image}
+  searchImageAlt={imageAlt}
   structuredData={[breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]}
 >
   <header class="category-header image-header" data-category-introduction>
