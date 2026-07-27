@@ -19,9 +19,9 @@ if (href.startsWith("/guides/") && !articleMetadata) {
 }
 
 const resolvedTitle = articleMetadata?.title ?? title;
-const resolvedImage = image ?? articleMetadata?.image;
-const resolvedImageAlt = image ? imageAlt : (articleMetadata?.imageAlt ?? imageAlt);
-const resolvedImagePosition = image ? imagePosition : (articleMetadata?.imagePosition ?? imagePosition);
+const resolvedImage = articleMetadata?.image ?? image;
+const resolvedImageAlt = articleMetadata?.imageAlt ?? imageAlt;
+const resolvedImagePosition = articleMetadata?.imagePosition ?? imagePosition;
 ---
 
 <article class:list={["guide-card", resolvedImage && "has-image", meta === "Category" && "category-card"]}>
