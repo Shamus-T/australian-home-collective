@@ -10,6 +10,22 @@ const siteOrigin = "https://australianhomecollective.com.au";
 const errors = [];
 const faqQuestions = new Map();
 const internalLinks = [];
+const requiredLegacyCollectionRedirects = new Map([
+  ["/collections/nursery-kids", "/categories/nursery-kids/"],
+  ["/collections/kitchen", "/categories/kitchen/"],
+  ["/collections/pet", "/categories/pets/"],
+  ["/collections/pets", "/categories/pets/"],
+  ["/collections/laundry", "/categories/laundry/"],
+  ["/collections/bathroom", "/categories/bathroom/"],
+  ["/collections/bedroom", "/categories/bedroom/"],
+  ["/collections/living-spaces", "/categories/living-spaces/"],
+  ["/collections/living-room", "/categories/living-spaces/"],
+  ["/collections/garage-storage", "/categories/garage-storage/"],
+  ["/collections/storage-organisation", "/categories/garage-storage/"],
+  ["/collections/home-office", "/categories/home-office/"],
+  ["/collections/outdoor-garden", "/categories/outdoor-garden/"],
+  ["/collections/outdoors", "/categories/outdoor-garden/"],
+]);
 const requiredLegacyRedirects = new Map([
   ["/collections/all", "/guides/"],
   ["/collections/all/", "/guides/"],
@@ -39,6 +55,11 @@ const requiredLegacyRedirects = new Map([
   ["/pages/submit-your-brand/", "/contact/"],
   ["/pages/contact/", "/contact/"],
 ]);
+
+for (const [source, target] of requiredLegacyCollectionRedirects) {
+  requiredLegacyRedirects.set(source, target);
+  requiredLegacyRedirects.set(`${source}/`, target);
+}
 
 function addError(message) {
   errors.push(message);
@@ -171,6 +192,15 @@ for (const obsoleteOutputPath of [
   }
 }
 
+for (const source of requiredLegacyCollectionRedirects.keys()) {
+  const outputBase = path.join(distRoot, ...source.split("/").filter(Boolean));
+  for (const obsoleteOutputPath of [outputBase, `${outputBase}.html`]) {
+    if (fs.existsSync(obsoleteOutputPath)) {
+      addError(`The build must not generate obsolete collection content at ${obsoleteOutputPath}.`);
+    }
+  }
+}
+
 if (!fs.existsSync(redirectsPath)) {
   addError("dist/_redirects is missing.");
 } else {
@@ -186,6 +216,39 @@ if (!fs.existsSync(redirectsPath)) {
   for (const rule of redirectRules) {
     if (rule.source === rule.target) {
       addError(`dist/_redirects contains a self-redirect for ${rule.source}.`);
+    }
+  }
+
+  const legacyCollectionRules = redirectRules.filter(
+    (rule) => rule.source.startsWith("/collections/") && !rule.source.match(/\.atom\/?$/),
+  );
+
+  for (const rule of legacyCollectionRules) {
+    if (rule.target.startsWith("/collections/")) {
+      addError(`dist/_redirects sends ${rule.source} through legacy route ${rule.target}.`);
+    }
+    if (rule.source.endsWith("/")) continue;
+
+    const trailingSource = `${rule.source}/`;
+    const trailingMatches = legacyCollectionRules.filter(
+      (candidate) => candidate.source === trailingSource,
+    );
+    if (trailingMatches.length === 0) {
+      addError(`dist/_redirects is missing trailing-slash pair ${trailingSource}.`);
+      continue;
+    }
+    if (rule.status !== "301") {
+      addError(`dist/_redirects must use status 301 for legacy collection ${rule.source}.`);
+    }
+    for (const trailingRule of trailingMatches) {
+      if (trailingRule.status !== "301") {
+        addError(`dist/_redirects must use status 301 for legacy collection ${trailingSource}.`);
+      }
+      if (trailingRule.target !== rule.target) {
+        addError(
+          `dist/_redirects sends ${trailingSource} to ${trailingRule.target}; expected ${rule.target}.`,
+        );
+      }
     }
   }
 
