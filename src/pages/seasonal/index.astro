@@ -1,0 +1,241 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+
+const title = "Seasonal Home Guides for Australian Homes";
+const seoTitle = "Seasonal Home Guides | Australian Home Collective";
+const description = "Practical Australian home guides organised by season. Plan ahead with advice for winter, spring, summer and autumn home projects.";
+const image = "/images/seasonal-guides.webp";
+const imageAlt = "A contemporary Australian home and garden transitioning naturally through winter, spring, summer and autumn";
+const siteUrl = "https://australianhomecollective.com.au";
+const canonicalPath = "/seasonal/";
+const canonicalUrl = new URL(canonicalPath, siteUrl).toString();
+const breadcrumbItems = [
+  { name: "Home", href: "/" },
+  { name: "Guides", href: "/guides/" },
+  { name: "Seasonal Guides" },
+];
+const breadcrumbSchema = {
+  "@type": "BreadcrumbList",
+  "@id": `${canonicalUrl}#breadcrumb`,
+  itemListElement: breadcrumbItems.map((item, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: item.name,
+    item: new URL(item.href ?? canonicalPath, siteUrl).toString(),
+  })),
+};
+
+const seasonalSections = [
+  {
+    id: "winter",
+    title: "Winter",
+    guides: [
+      "Home Heating Options in Australia",
+      "Electric Blankets vs Heated Throws",
+      "Fan Heater vs Ceramic Heater",
+    ],
+  },
+  {
+    id: "spring",
+    title: "Spring",
+    guides: [
+      "Spring Cleaning Checklist",
+      "Outdoor Entertaining Area Guide",
+      "Lawn Care Basics",
+    ],
+  },
+  {
+    id: "summer",
+    title: "Summer",
+    guides: [
+      "Air Conditioning Buying Guide",
+      "Ceiling Fans Before You Buy",
+      "Outdoor Shade Options",
+    ],
+  },
+  {
+    id: "autumn",
+    title: "Autumn",
+    guides: [
+      "Preparing Your Home for Winter",
+      "Home Insulation Basics",
+      "Gutter Maintenance Guide",
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={title}
+  seoTitle={seoTitle}
+  description={description}
+  canonicalPath={canonicalPath}
+  image={image}
+  imageAlt={imageAlt}
+  structuredData={[breadcrumbSchema]}
+>
+  <header class="image-hero seasonal-hero">
+    <img
+      class="hero-bg"
+      src={image}
+      alt={imageAlt}
+      width="1535"
+      height="1024"
+      loading="eager"
+      fetchpriority="high"
+      draggable="false"
+    />
+    <div class="container hero-content">
+      <Breadcrumbs items={breadcrumbItems} />
+      <div class="hero-copy">
+        <p class="eyebrow">Seasonal Guides</p>
+        <h1>{title}</h1>
+        <p class="lead content-placeholder">
+          [Placeholder: hero introduction will be supplied separately.]
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="seasonal-jump-links" aria-label="Seasonal guide sections">
+    <div class="container">
+      <a href="#introduction">Introduction</a>
+      {seasonalSections.map((season) => <a href={`#${season.id}`}>{season.title}</a>)}
+      <a href="#planning-ahead">Planning Ahead</a>
+      <a href="#conclusion">Conclusion</a>
+    </div>
+  </nav>
+
+  <section class="section" aria-labelledby="introduction">
+    <div class="narrow">
+      <p class="eyebrow">Introduction</p>
+      <h2 id="introduction">Introduction</h2>
+      <p class="content-placeholder">
+        [Placeholder: introduction content will be supplied separately.]
+      </p>
+    </div>
+  </section>
+
+  {seasonalSections.map((season, index) => (
+    <section
+      class:list={["section", "seasonal-section", index % 2 === 0 && "soft"]}
+      aria-labelledby={`${season.id}-heading`}
+    >
+      <div class="container section-heading">
+        <div>
+          <p class="eyebrow">Seasonal Guides</p>
+          <h2 id={`${season.id}-heading`}>{season.title}</h2>
+        </div>
+        <p class="content-placeholder">
+          [Placeholder: {season.title} section introduction will be supplied separately.]
+        </p>
+      </div>
+      <div class="container grid three">
+        {season.guides.map((guide) => (
+          <article class="card planned-guide-card">
+            <p class="planned-guide-status">Planned guide</p>
+            <h3>{guide}</h3>
+            <p class="content-placeholder">
+              [Placeholder: article link will be added when this guide is published.]
+            </p>
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  <section class="section soft" aria-labelledby="planning-ahead">
+    <div class="narrow">
+      <p class="eyebrow">Planning Ahead</p>
+      <h2 id="planning-ahead">Planning Ahead</h2>
+      <p class="content-placeholder">
+        [Placeholder: planning-ahead content will be supplied separately.]
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="conclusion">
+    <div class="narrow">
+      <p class="eyebrow">Conclusion</p>
+      <h2 id="conclusion">Conclusion</h2>
+      <p class="content-placeholder">
+        [Placeholder: conclusion content will be supplied separately.]
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .seasonal-hero {
+    align-items: center;
+  }
+
+  .seasonal-hero :global(.breadcrumbs a),
+  .seasonal-hero :global(.breadcrumbs span) {
+    color: var(--color-cream);
+    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.28);
+  }
+
+  .seasonal-hero :global(.breadcrumbs a:hover) {
+    color: var(--color-wattle);
+  }
+
+  .seasonal-hero .content-placeholder {
+    border-left-color: var(--color-wattle);
+    color: var(--color-cream);
+  }
+
+  .seasonal-jump-links {
+    border-block: 1px solid rgba(63, 77, 63, 0.16);
+    background: rgba(255, 253, 247, 0.96);
+  }
+
+  .seasonal-jump-links .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+    padding-block: 16px;
+  }
+
+  .seasonal-jump-links a {
+    color: var(--green-dark);
+    font-weight: 700;
+  }
+
+  .content-placeholder {
+    border-left: 3px solid rgba(212, 160, 23, 0.72);
+    padding-left: 14px;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .section-heading .content-placeholder {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+  }
+
+  .planned-guide-card {
+    display: flex;
+    min-height: 210px;
+    flex-direction: column;
+  }
+
+  .planned-guide-card h3 {
+    font-size: 1.45rem;
+  }
+
+  .planned-guide-card .content-placeholder {
+    margin-top: auto;
+  }
+
+  .planned-guide-status {
+    margin: 0 0 14px;
+    color: var(--green);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+</style>
