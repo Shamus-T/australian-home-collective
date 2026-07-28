@@ -4,6 +4,20 @@
 
 /collections/all /guides/ 301
 /collections/all/ /guides/ 301
+/collections/living-room.atom /categories/living-spaces/ 301
+/collections/living-room.atom/ /categories/living-spaces/ 301
+/collections/pet.atom /categories/pets/ 301
+/collections/pet.atom/ /categories/pets/ 301
+/collections/media-room.atom /categories/living-spaces/ 301
+/collections/media-room.atom/ /categories/living-spaces/ 301
+/collections/bathroom.atom /categories/bathroom/ 301
+/collections/bathroom.atom/ /categories/bathroom/ 301
+/collections/home-office.atom /categories/home-office/ 301
+/collections/home-office.atom/ /categories/home-office/ 301
+/collections/garden.atom /categories/outdoor-garden/ 301
+/collections/garden.atom/ /categories/outdoor-garden/ 301
+/collections/garage-storage.atom /categories/garage-storage/ 301
+/collections/garage-storage.atom/ /categories/garage-storage/ 301
 /collections/nursery-kids /categories/nursery-kids/ 301
 /collections/kitchen /categories/kitchen/ 301
 /collections/pet /categories/pets/ 301
