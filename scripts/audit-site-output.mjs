@@ -29,6 +29,10 @@ const requiredLegacyRedirects = new Map([
   ["/collections/garage-storage.atom/", "/categories/garage-storage/"],
   ["/password", "/"],
   ["/password/", "/"],
+  ["/pages/terms-and-disclaimer", "/editorial-standards/"],
+  ["/pages/terms-and-disclaimer/", "/editorial-standards/"],
+  ["/pages/for-australian-brands", "/contact/"],
+  ["/pages/for-australian-brands/", "/contact/"],
   ["/pages/submit-your-brand", "/contact/"],
   ["/pages/submit-your-brand/", "/contact/"],
   ["/pages/contact/", "/contact/"],
@@ -150,12 +154,16 @@ if (!fs.existsSync(distRoot)) {
   process.exit(1);
 }
 
-for (const passwordOutputPath of [
+for (const obsoleteOutputPath of [
   path.join(distRoot, "password"),
   path.join(distRoot, "password.html"),
+  path.join(distRoot, "pages", "terms-and-disclaimer"),
+  path.join(distRoot, "pages", "terms-and-disclaimer.html"),
+  path.join(distRoot, "pages", "for-australian-brands"),
+  path.join(distRoot, "pages", "for-australian-brands.html"),
 ]) {
-  if (fs.existsSync(passwordOutputPath)) {
-    addError(`The build must not generate obsolete password content at ${passwordOutputPath}.`);
+  if (fs.existsSync(obsoleteOutputPath)) {
+    addError(`The build must not generate obsolete page content at ${obsoleteOutputPath}.`);
   }
 }
 
