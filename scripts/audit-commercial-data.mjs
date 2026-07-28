@@ -50,6 +50,7 @@ const trustedEditorialDomains = new Set([
   "rednose.org.au",
   "waterrating.gov.au",
   "worksafe.qld.gov.au",
+  "yourhome.gov.au",
 ]);
 const phase4AProductPatterns = [
   { pattern: /sources and model checks/i, label: 'a "Sources and model checks" section' },

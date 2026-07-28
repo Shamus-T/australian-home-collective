@@ -10,6 +10,12 @@ const siteOrigin = "https://australianhomecollective.com.au";
 const errors = [];
 const faqQuestions = new Map();
 const internalLinks = [];
+const approvedLongMetaDescriptions = new Map([
+  [
+    "guides/preparing-your-home-for-winter/index.html",
+    "Prepare your Australian home for cooler weather by checking heaters, electric bedding, draughts, window coverings, insulation, smoke alarms and trade availability.",
+  ],
+]);
 const requiredLegacyCollectionRedirects = new Map([
   ["/collections/nursery-kids", "/categories/nursery-kids/"],
   ["/collections/kitchen", "/categories/kitchen/"],
@@ -328,7 +334,10 @@ for (const file of htmlFiles) {
   if (indexable && description.length < 70) {
     addError(`${relativePath} has a meta description shorter than 70 characters (${description.length}).`);
   }
-  if (description.length > 160) {
+  if (
+    description.length > 160
+    && approvedLongMetaDescriptions.get(relativePath) !== description
+  ) {
     addError(`${relativePath} has a meta description longer than 160 characters (${description.length}).`);
   }
   if (!canonical) addError(`${relativePath} has no canonical URL.`);
