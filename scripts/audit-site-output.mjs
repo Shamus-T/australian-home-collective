@@ -27,6 +27,8 @@ const requiredLegacyRedirects = new Map([
   ["/collections/garden.atom/", "/categories/outdoor-garden/"],
   ["/collections/garage-storage.atom", "/categories/garage-storage/"],
   ["/collections/garage-storage.atom/", "/categories/garage-storage/"],
+  ["/password", "/"],
+  ["/password/", "/"],
   ["/pages/submit-your-brand", "/contact/"],
   ["/pages/submit-your-brand/", "/contact/"],
   ["/pages/contact/", "/contact/"],
@@ -146,6 +148,15 @@ function publicUrlForOutput(relativePath) {
 if (!fs.existsSync(distRoot)) {
   console.error("Site output audit requires a completed dist build.");
   process.exit(1);
+}
+
+for (const passwordOutputPath of [
+  path.join(distRoot, "password"),
+  path.join(distRoot, "password.html"),
+]) {
+  if (fs.existsSync(passwordOutputPath)) {
+    addError(`The build must not generate obsolete password content at ${passwordOutputPath}.`);
+  }
 }
 
 if (!fs.existsSync(redirectsPath)) {
