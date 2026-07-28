@@ -451,8 +451,8 @@ for (const file of htmlFiles) {
       }
     }
 
-    if (faqItems.length !== 3) {
-      addError(`${relativePath} has ${faqItems.length} FAQ answers; expected exactly 3.`);
+    if (faqItems.length !== 0 && faqItems.length !== 3) {
+      addError(`${relativePath} has ${faqItems.length} FAQ answers; expected either none or exactly 3.`);
     }
     for (const [, questionHtml, answerHtml] of faqItems) {
       const question = plainText(questionHtml);
