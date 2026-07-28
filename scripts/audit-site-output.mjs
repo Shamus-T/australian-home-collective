@@ -13,6 +13,8 @@ const internalLinks = [];
 const requiredLegacyRedirects = new Map([
   ["/collections/all", "/guides/"],
   ["/collections/all/", "/guides/"],
+  ["/collections/kitchen.atom", "/categories/kitchen/"],
+  ["/collections/kitchen.atom/", "/categories/kitchen/"],
   ["/collections/living-room.atom", "/categories/living-spaces/"],
   ["/collections/living-room.atom/", "/categories/living-spaces/"],
   ["/collections/pet.atom", "/categories/pets/"],
@@ -157,6 +159,8 @@ if (!fs.existsSync(distRoot)) {
 for (const obsoleteOutputPath of [
   path.join(distRoot, "password"),
   path.join(distRoot, "password.html"),
+  path.join(distRoot, "collections", "kitchen.atom"),
+  path.join(distRoot, "collections", "kitchen.atom.html"),
   path.join(distRoot, "pages", "terms-and-disclaimer"),
   path.join(distRoot, "pages", "terms-and-disclaimer.html"),
   path.join(distRoot, "pages", "for-australian-brands"),

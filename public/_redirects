@@ -4,6 +4,8 @@
 
 /collections/all /guides/ 301
 /collections/all/ /guides/ 301
+/collections/kitchen.atom /categories/kitchen/ 301
+/collections/kitchen.atom/ /categories/kitchen/ 301
 /collections/living-room.atom /categories/living-spaces/ 301
 /collections/living-room.atom/ /categories/living-spaces/ 301
 /collections/pet.atom /categories/pets/ 301
