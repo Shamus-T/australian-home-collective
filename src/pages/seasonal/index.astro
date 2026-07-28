@@ -30,37 +30,79 @@ const seasonalSections = [
   {
     id: "winter",
     title: "Winter",
+    introduction: "Winter priorities vary widely across Australia. Cooler southern regions may require regular room or whole-home heating, while households in warmer climates may only need occasional heating during early mornings or cooler evenings.\n\nWinter is also when draughts, poor insulation, condensation and uneven room temperatures become easier to notice. These guides focus on choosing suitable heating options and improving comfort without assuming that every home needs the same solution.",
     guides: [
-      "Home Heating Options in Australia",
-      "Electric Blankets vs Heated Throws",
-      "Fan Heater vs Ceramic Heater",
+      {
+        title: "Home Heating Options in Australia",
+        description: "Compare portable heaters, reverse-cycle air conditioning, ducted systems, electric bedding and other common options before deciding how to heat your home.",
+      },
+      {
+        title: "Electric Blankets vs Heated Throws",
+        description: "Understand the difference between warming the bed, warming one person and heating an entire room.",
+      },
+      {
+        title: "Fan Heater vs Ceramic Heater",
+        description: "Compare two common portable heating options, including warm-up speed, noise, controls and suitable room use.",
+      },
     ],
   },
   {
     id: "spring",
     title: "Spring",
+    introduction: "Spring often brings a shift towards cleaning, maintenance and preparing outdoor areas for warmer weather. It can also be a practical time to inspect cooling equipment and complete outdoor projects before summer demand increases.",
     guides: [
-      "Spring Cleaning Checklist",
-      "Outdoor Entertaining Area Guide",
-      "Lawn Care Basics",
+      {
+        title: "Spring Cleaning Checklist",
+        description: "Work through a practical room-by-room reset without turning seasonal cleaning into an unnecessary shopping exercise.",
+      },
+      {
+        title: "Outdoor Entertaining Area Guide",
+        description: "Plan seating, shade, lighting, storage and circulation before buying products for an outdoor entertaining space.",
+        href: "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
+      },
+      {
+        title: "Lawn Care Basics",
+        description: "Start with the condition of the lawn, local climate and maintenance requirements before choosing equipment or treatments.",
+      },
     ],
   },
   {
     id: "summer",
     title: "Summer",
+    introduction: "Summer places different demands on Australian homes depending on location, humidity, building design and exposure to heat. Cooling, airflow and shade are often more useful starting points than simply buying the largest appliance available.",
     guides: [
-      "Air Conditioning Buying Guide",
-      "Ceiling Fans Before You Buy",
-      "Outdoor Shade Options",
+      {
+        title: "Air Conditioning Buying Guide",
+        description: "Compare split systems, multi-split arrangements, ducted systems and other cooling options before arranging installation.",
+      },
+      {
+        title: "Ceiling Fans Before You Buy",
+        description: "Check room size, ceiling height, blade clearance, mounting requirements and controls before choosing a ceiling fan.",
+      },
+      {
+        title: "Outdoor Shade Options",
+        description: "Compare permanent and flexible shade solutions for patios, decks, windows and outdoor living areas.",
+        href: "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+      },
     ],
   },
   {
     id: "autumn",
     title: "Autumn",
+    introduction: "Autumn is a useful planning period between the extremes of summer and winter. In cooler parts of Australia, it provides time to address heat loss and organise heating before demand rises. In warmer regions, it may be more relevant for maintenance, ventilation and preparing the home for changing humidity or dry-season conditions.",
     guides: [
-      "Preparing Your Home for Winter",
-      "Home Insulation Basics",
-      "Gutter Maintenance Guide",
+      {
+        title: "Preparing Your Home for Winter",
+        description: "Check heating, draughts, window coverings, bedding and maintenance tasks before colder conditions arrive.",
+      },
+      {
+        title: "Home Insulation Basics",
+        description: "Understand where homes commonly lose and gain heat, and what to investigate before committing to insulation upgrades.",
+      },
+      {
+        title: "Gutter Maintenance Guide",
+        description: "Know what to inspect, when professional help may be needed and how local weather conditions affect maintenance timing.",
+      },
     ],
   },
 ];
@@ -91,9 +133,18 @@ const seasonalSections = [
       <div class="hero-copy">
         <p class="eyebrow">Seasonal Guides</p>
         <h1>{title}</h1>
-        <p class="lead content-placeholder">
-          [Placeholder: hero introduction will be supplied separately.]
-        </p>
+        <div class="hero-introduction">
+          <p>
+            Australia’s seasons do not affect every household in the same way. Winter in Victoria
+            or Tasmania can bring very different priorities from winter in northern Queensland or
+            the Northern Territory, while summer conditions also vary considerably by region.
+          </p>
+          <p>
+            These seasonal collections bring together practical home guides that become especially
+            useful at different times of year. Use them as a planning starting point, then consider
+            your local climate, the design of your home and the conditions where you live.
+          </p>
+        </div>
       </div>
     </div>
   </header>
@@ -103,6 +154,7 @@ const seasonalSections = [
       <a href="#introduction">Introduction</a>
       {seasonalSections.map((season) => <a href={`#${season.id}`}>{season.title}</a>)}
       <a href="#planning-ahead">Planning Ahead</a>
+      <a href="#regional-context">Regional Context</a>
       <a href="#conclusion">Conclusion</a>
     </div>
   </nav>
@@ -110,9 +162,21 @@ const seasonalSections = [
   <section class="section" aria-labelledby="introduction">
     <div class="narrow">
       <p class="eyebrow">Introduction</p>
-      <h2 id="introduction">Introduction</h2>
-      <p class="content-placeholder">
-        [Placeholder: introduction content will be supplied separately.]
+      <h2 id="introduction">Plan for the season — and the season ahead</h2>
+      <p>
+        Some household decisions become urgent only after the weather changes. Portable heaters
+        disappear during a cold spell, air-conditioning installers become heavily booked during
+        summer, and outdoor projects are often delayed until conditions are already uncomfortable.
+      </p>
+      <p>
+        Planning earlier gives you more time to understand the options, check measurements, arrange
+        quotes and choose a solution that suits your home rather than settling for whatever is
+        immediately available.
+      </p>
+      <p>
+        The guides below are organised by their strongest seasonal relevance, but many remain useful
+        throughout the year. Reverse-cycle air conditioners, for example, can provide cooling in
+        summer and heating in winter, so they belong in more than one seasonal conversation.
       </p>
     </div>
   </section>
@@ -120,6 +184,7 @@ const seasonalSections = [
   {seasonalSections.map((season, index) => (
     <section
       class:list={["section", "seasonal-section", index % 2 === 0 && "soft"]}
+      id={season.id}
       aria-labelledby={`${season.id}-heading`}
     >
       <div class="container section-heading">
@@ -127,19 +192,27 @@ const seasonalSections = [
           <p class="eyebrow">Seasonal Guides</p>
           <h2 id={`${season.id}-heading`}>{season.title}</h2>
         </div>
-        <p class="content-placeholder">
-          [Placeholder: {season.title} section introduction will be supplied separately.]
-        </p>
+        <div class="season-introduction">
+          {season.introduction.split("\n\n").map((paragraph) => <p>{paragraph}</p>)}
+        </div>
       </div>
       <div class="container grid three">
         {season.guides.map((guide) => (
-          <article class="card planned-guide-card">
-            <p class="planned-guide-status">Planned guide</p>
-            <h3>{guide}</h3>
-            <p class="content-placeholder">
-              [Placeholder: article link will be added when this guide is published.]
-            </p>
-          </article>
+          guide.href ? (
+            <article class="guide-card seasonal-guide-card">
+              <a href={guide.href} aria-label={`Read ${guide.title}`}>
+                <p class="meta">Guide</p>
+                <h3>{guide.title}</h3>
+                <p>{guide.description}</p>
+              </a>
+            </article>
+          ) : (
+            <article class="card seasonal-guide-card planned-guide-card">
+              <p class="planned-guide-status">Planned</p>
+              <h3>{guide.title}</h3>
+              <p>{guide.description}</p>
+            </article>
+          )
         ))}
       </div>
     </section>
@@ -148,9 +221,59 @@ const seasonalSections = [
   <section class="section soft" aria-labelledby="planning-ahead">
     <div class="narrow">
       <p class="eyebrow">Planning Ahead</p>
-      <h2 id="planning-ahead">Planning Ahead</h2>
-      <p class="content-placeholder">
-        [Placeholder: planning-ahead content will be supplied separately.]
+      <h2 id="planning-ahead">Why planning ahead matters</h2>
+      <p>
+        Some home purchases can be made and used immediately. Others depend on measurements, site
+        inspections, electrical capacity, installation access, trade availability or council and
+        building requirements.
+      </p>
+      <p>
+        Reverse-cycle air conditioners are a clear example. They can provide heating in winter and
+        cooling in summer, but installation demand often rises when temperatures become
+        uncomfortable. Availability can be particularly constrained during peak summer periods,
+        and many trades and installation businesses operate with reduced capacity over Christmas
+        and New Year.
+      </p>
+      <p>
+        Planning before the first heatwave or cold snap does not guarantee a particular installation
+        date or price, but it generally provides more time to:
+      </p>
+      <ul>
+        <li>compare suitable systems</li>
+        <li>confirm room and electrical requirements</li>
+        <li>obtain quotes</li>
+        <li>check installer availability</li>
+        <li>understand lead times</li>
+        <li>avoid making a rushed purchase</li>
+      </ul>
+      <p>
+        The same principle applies to insulation, shade structures, outdoor entertaining projects,
+        gutter work and other improvements that may require trades or preparation.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="regional-context">
+    <div class="narrow regional-context-callout">
+      <p class="eyebrow">Regional Context</p>
+      <h2 id="regional-context">Australia does not have one seasonal pattern</h2>
+      <p>
+        Treat these collections as practical prompts rather than a fixed national calendar. A guide
+        may be highly relevant in one region and less urgent in another.
+      </p>
+      <p>Consider:</p>
+      <ul>
+        <li>your local temperatures and humidity</li>
+        <li>whether your climate is tropical, arid, temperate or cool</li>
+        <li>the age and construction of your home</li>
+        <li>insulation, glazing and ventilation</li>
+        <li>storm, bushfire or wet-season conditions</li>
+        <li>how long each room is occupied</li>
+      </ul>
+      <p>
+        Where climate materially changes the advice, individual guides should include regional
+        considerations rather than presenting one recommendation as suitable for every Australian
+        household.
       </p>
     </div>
   </section>
@@ -158,9 +281,15 @@ const seasonalSections = [
   <section class="section" aria-labelledby="conclusion">
     <div class="narrow">
       <p class="eyebrow">Conclusion</p>
-      <h2 id="conclusion">Conclusion</h2>
-      <p class="content-placeholder">
-        [Placeholder: conclusion content will be supplied separately.]
+      <h2 id="conclusion">Start with what your home needs now</h2>
+      <p>
+        Seasonal planning does not require rebuilding the home or buying something new every few
+        months. Often, the most useful first step is identifying what becomes uncomfortable,
+        difficult or overdue as conditions change.
+      </p>
+      <p>
+        Use these collections to understand the options, plan work before it becomes urgent and make
+        decisions that suit your home, region and budget.
       </p>
     </div>
   </section>
@@ -181,9 +310,18 @@ const seasonalSections = [
     color: var(--color-wattle);
   }
 
-  .seasonal-hero .content-placeholder {
-    border-left-color: var(--color-wattle);
+  .hero-introduction {
+    margin-top: 20px;
+  }
+
+  .hero-introduction p {
     color: var(--color-cream);
+    font-size: clamp(1.04rem, 2vw, 1.22rem);
+    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.28);
+  }
+
+  .hero-introduction p:last-child {
+    margin-bottom: 0;
   }
 
   .seasonal-jump-links {
@@ -203,30 +341,32 @@ const seasonalSections = [
     font-weight: 700;
   }
 
-  .content-placeholder {
-    border-left: 3px solid rgba(212, 160, 23, 0.72);
-    padding-left: 14px;
+  .season-introduction p {
+    margin: 0;
+  }
+
+  .season-introduction {
+    max-width: 520px;
     color: var(--muted);
-    font-style: italic;
+    font-size: 1.02rem;
   }
 
-  .section-heading .content-placeholder {
-    align-self: stretch;
-    display: flex;
-    align-items: center;
+  .season-introduction p + p {
+    margin-top: 14px;
   }
 
-  .planned-guide-card {
+  .seasonal-guide-card {
     display: flex;
-    min-height: 210px;
+    min-height: 250px;
     flex-direction: column;
   }
 
-  .planned-guide-card h3 {
+  .seasonal-guide-card h3 {
     font-size: 1.45rem;
   }
 
-  .planned-guide-card .content-placeholder {
+  .planned-guide-card > p:last-child,
+  .seasonal-guide-card a > p:last-child {
     margin-top: auto;
   }
 
@@ -237,5 +377,29 @@ const seasonalSections = [
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+  }
+
+  .regional-context-callout {
+    border: 1px solid rgba(63, 77, 63, 0.18);
+    border-left: 5px solid var(--gold);
+    border-radius: 8px;
+    padding: clamp(24px, 5vw, 44px);
+    background: linear-gradient(135deg, rgba(255, 253, 247, 0.98), rgba(234, 220, 196, 0.58));
+    box-shadow: var(--shadow-soft);
+  }
+
+  .regional-context-callout p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 720px) {
+    .seasonal-guide-card {
+      min-height: 0;
+    }
+
+    .planned-guide-card > p:last-child,
+    .seasonal-guide-card a > p:last-child {
+      margin-top: 8px;
+    }
   }
 </style>
