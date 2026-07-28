@@ -146,7 +146,7 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
       <h1>{title}</h1>
       <p class="lead">{description}</p>
       <p class="article-meta">
-        By <a class="article-author" href="/about/">Australian Home Collective</a>
+        Published by <a class="article-author" href="/about/">Australian Home Collective</a>
         <span aria-hidden="true"> · </span>
         {machineReadableDate ? <time datetime={machineReadableDate}>{date}</time> : date}
         <span aria-hidden="true"> · </span>{readingTime}

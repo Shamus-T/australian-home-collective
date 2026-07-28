@@ -253,11 +253,26 @@ for (const file of htmlFiles) {
     const types = Array.isArray(node?.["@type"]) ? node["@type"] : [node?.["@type"]];
     return types.includes("Article");
   });
+  const organizationIds = new Set(
+    structuredDataNodes
+      .filter((node) => {
+        const types = Array.isArray(node?.["@type"]) ? node["@type"] : [node?.["@type"]];
+        return types.includes("Organization");
+      })
+      .map((node) => node?.["@id"])
+      .filter(Boolean),
+  );
   for (const article of articleNodes) {
     if (!article.datePublished && !article.dateModified) {
       addError(`${relativePath} has Article schema without datePublished or dateModified.`);
     }
     if (article.reviewedBy) addError(`${relativePath} has an unsupported reviewedBy claim.`);
+    if (!organizationIds.has(article.author?.["@id"])) {
+      addError(`${relativePath} has Article author schema that does not reference the responsible Organization.`);
+    }
+    if (!organizationIds.has(article.publisher?.["@id"])) {
+      addError(`${relativePath} has Article publisher schema that does not reference the responsible Organization.`);
+    }
     if (article.datePublished && article.dateModified && article.datePublished > article.dateModified) {
       addError(`${relativePath} has datePublished after dateModified.`);
     }
@@ -273,6 +288,16 @@ for (const file of htmlFiles) {
   }
 
   if (indexable && /^guides\/.+\/index\.html$/.test(relativePath)) {
+    const articleMetaHtml = html.match(
+      /<p\b[^>]*class="[^"]*\barticle-meta\b[^"]*"[^>]*>([\s\S]*?)<\/p>/i,
+    )?.[1] ?? "";
+    const articleMetaText = plainText(articleMetaHtml);
+    if (!articleMetaText.startsWith("Published by Australian Home Collective")) {
+      addError(
+        `${relativePath} must show the byline "Published by Australian Home Collective".`,
+      );
+    }
+
     for (const requiredType of ["Article", "BreadcrumbList"]) {
       if (!structuredDataTypes.has(requiredType)) {
         addError(`${relativePath} is missing ${requiredType} structured data.`);
