@@ -5,10 +5,18 @@ import process from "node:process";
 const root = process.cwd();
 const distRoot = path.join(root, "dist");
 const sitemapPath = path.join(distRoot, "sitemap.xml");
+const redirectsPath = path.join(distRoot, "_redirects");
 const siteOrigin = "https://australianhomecollective.com.au";
 const errors = [];
 const faqQuestions = new Map();
 const internalLinks = [];
+const requiredLegacyRedirects = new Map([
+  ["/collections/all", "/guides/"],
+  ["/collections/all/", "/guides/"],
+  ["/pages/submit-your-brand", "/contact/"],
+  ["/pages/submit-your-brand/", "/contact/"],
+  ["/pages/contact/", "/contact/"],
+]);
 
 function addError(message) {
   errors.push(message);
@@ -124,6 +132,41 @@ function publicUrlForOutput(relativePath) {
 if (!fs.existsSync(distRoot)) {
   console.error("Site output audit requires a completed dist build.");
   process.exit(1);
+}
+
+if (!fs.existsSync(redirectsPath)) {
+  addError("dist/_redirects is missing.");
+} else {
+  const redirectRules = fs.readFileSync(redirectsPath, "utf8")
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith("#"))
+    .map((line) => {
+      const [source, target, status] = line.split(/\s+/);
+      return { source, target, status };
+    });
+
+  for (const rule of redirectRules) {
+    if (rule.source === rule.target) {
+      addError(`dist/_redirects contains a self-redirect for ${rule.source}.`);
+    }
+  }
+
+  for (const [source, expectedTarget] of requiredLegacyRedirects) {
+    const matches = redirectRules.filter((rule) => rule.source === source);
+    if (matches.length === 0) {
+      addError(`dist/_redirects is missing required legacy redirect ${source} ${expectedTarget} 301.`);
+      continue;
+    }
+    for (const rule of matches) {
+      if (rule.target !== expectedTarget) {
+        addError(`dist/_redirects sends ${source} to ${rule.target}; expected ${expectedTarget}.`);
+      }
+      if (rule.status !== "301") {
+        addError(`dist/_redirects must use a permanent 301 redirect for ${source}.`);
+      }
+    }
+  }
 }
 
 const htmlFiles = walk(distRoot).filter((file) => file.endsWith(".html"));
