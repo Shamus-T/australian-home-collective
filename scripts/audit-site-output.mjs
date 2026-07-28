@@ -29,6 +29,8 @@ const requiredLegacyCollectionRedirects = new Map([
 const requiredLegacyRedirects = new Map([
   ["/collections/all", "/guides/"],
   ["/collections/all/", "/guides/"],
+  ["/collections/all.atom", "/guides/"],
+  ["/collections/all.atom/", "/guides/"],
   ["/collections/kitchen.atom", "/categories/kitchen/"],
   ["/collections/kitchen.atom/", "/categories/kitchen/"],
   ["/collections/living-room.atom", "/categories/living-spaces/"],
@@ -180,6 +182,8 @@ if (!fs.existsSync(distRoot)) {
 for (const obsoleteOutputPath of [
   path.join(distRoot, "password"),
   path.join(distRoot, "password.html"),
+  path.join(distRoot, "collections", "all.atom"),
+  path.join(distRoot, "collections", "all.atom.html"),
   path.join(distRoot, "collections", "kitchen.atom"),
   path.join(distRoot, "collections", "kitchen.atom.html"),
   path.join(distRoot, "pages", "terms-and-disclaimer"),
