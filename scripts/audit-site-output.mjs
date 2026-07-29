@@ -21,6 +21,7 @@ const requiredSeasonalSections = new Map([
     "/guides/home-heating-options-australia/",
     "/guides/electric-blankets-vs-heated-throws/",
     "/guides/fan-heater-vs-ceramic-heater/",
+    "/guides/oil-column-heater-vs-panel-heater/",
   ]],
   ["spring", [
     "/guides/spring-cleaning-checklist/",
@@ -604,9 +605,16 @@ if (!fs.existsSync(seasonalOutputPath)) {
     const guideHrefs = [...section.matchAll(
       /<article\b[^>]*class="[^"]*\bseasonal-guide-card\b[^"]*"[^>]*>[\s\S]*?<a\b[^>]*href="(\/guides\/[^"]+\/)"/gi,
     )].map((match) => match[1]);
+    const seasonalCardCount = [...section.matchAll(
+      /<article\b[^>]*class="[^"]*\bseasonal-guide-card\b[^"]*"/gi,
+    )].length;
     allSeasonalHrefs.push(...guideHrefs);
-    if (guideHrefs.length !== 3) {
-      addError(`Seasonal Guides ${season} section must contain exactly three published guide cards.`);
+    const minimumPublishedGuides = season === "winter" ? 4 : 3;
+    if (guideHrefs.length < minimumPublishedGuides) {
+      addError(`Seasonal Guides ${season} section must contain at least ${minimumPublishedGuides} published guide cards.`);
+    }
+    if (guideHrefs.length !== seasonalCardCount) {
+      addError(`Seasonal Guides ${season} section contains a non-interactive or unpublished placeholder card.`);
     }
     for (const href of expectedHrefs) {
       if (!guideHrefs.includes(href)) {
@@ -615,8 +623,8 @@ if (!fs.existsSync(seasonalOutputPath)) {
     }
   }
 
-  if (allSeasonalHrefs.length !== 12 || new Set(allSeasonalHrefs).size !== 12) {
-    addError("Seasonal Guides must contain 12 unique published guide destinations.");
+  if (new Set(allSeasonalHrefs).size !== allSeasonalHrefs.length) {
+    addError("Seasonal Guides must contain unique published guide destinations.");
   }
   for (const href of allSeasonalHrefs) {
     const outputPath = outputPathForUrl(href);
