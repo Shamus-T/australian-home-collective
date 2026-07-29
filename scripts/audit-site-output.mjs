@@ -16,6 +16,28 @@ const approvedLongMetaDescriptions = new Map([
     "Prepare your Australian home for cooler weather by checking heaters, electric bedding, draughts, window coverings, insulation, smoke alarms and trade availability.",
   ],
 ]);
+const requiredSeasonalSections = new Map([
+  ["winter", [
+    "/guides/home-heating-options-australia/",
+    "/guides/electric-blankets-vs-heated-throws/",
+    "/guides/fan-heater-vs-ceramic-heater/",
+  ]],
+  ["spring", [
+    "/guides/spring-cleaning-checklist/",
+    "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
+    "/guides/lawn-care-basics/",
+  ]],
+  ["summer", [
+    "/guides/air-conditioning-buying-guide/",
+    "/guides/ceiling-fans-before-you-buy/",
+    "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+  ]],
+  ["autumn", [
+    "/guides/preparing-your-home-for-winter/",
+    "/guides/home-insulation-basics/",
+    "/guides/gutter-maintenance-guide/",
+  ]],
+]);
 const requiredLegacyCollectionRedirects = new Map([
   ["/collections/nursery-kids", "/categories/nursery-kids/"],
   ["/collections/kitchen", "/categories/kitchen/"],
@@ -556,6 +578,52 @@ for (const file of htmlFiles) {
   }
 
   pages.push({ relativePath, title, description, canonical, pageUrl, indexable });
+}
+
+const seasonalOutputPath = path.join(distRoot, "seasonal", "index.html");
+if (!fs.existsSync(seasonalOutputPath)) {
+  addError("Seasonal Guides output is missing.");
+} else {
+  const seasonalHtml = fs.readFileSync(seasonalOutputPath, "utf8");
+  const seasonalText = plainText(
+    seasonalHtml.replace(/<(?:style|script)\b[^>]*>[\s\S]*?<\/(?:style|script)>/gi, ""),
+  );
+  if (/\bPlanned\b/i.test(seasonalText)) {
+    addError("Seasonal Guides must not contain a Planned card after the completed launch.");
+  }
+
+  const allSeasonalHrefs = [];
+  for (const [season, expectedHrefs] of requiredSeasonalSections) {
+    const section = seasonalHtml.match(
+      new RegExp(`<section\\b[^>]*\\bid="${season}"[^>]*>([\\s\\S]*?)<\\/section>`, "i"),
+    )?.[1] ?? "";
+    if (!section) {
+      addError(`Seasonal Guides is missing the ${season} section.`);
+      continue;
+    }
+    const guideHrefs = [...section.matchAll(
+      /<article\b[^>]*class="[^"]*\bseasonal-guide-card\b[^"]*"[^>]*>[\s\S]*?<a\b[^>]*href="(\/guides\/[^"]+\/)"/gi,
+    )].map((match) => match[1]);
+    allSeasonalHrefs.push(...guideHrefs);
+    if (guideHrefs.length !== 3) {
+      addError(`Seasonal Guides ${season} section must contain exactly three published guide cards.`);
+    }
+    for (const href of expectedHrefs) {
+      if (!guideHrefs.includes(href)) {
+        addError(`Seasonal Guides ${season} section is missing published route ${href}.`);
+      }
+    }
+  }
+
+  if (allSeasonalHrefs.length !== 12 || new Set(allSeasonalHrefs).size !== 12) {
+    addError("Seasonal Guides must contain 12 unique published guide destinations.");
+  }
+  for (const href of allSeasonalHrefs) {
+    const outputPath = outputPathForUrl(href);
+    if (!outputPath || !fs.existsSync(outputPath)) {
+      addError(`Seasonal Guides points to missing output: ${href}`);
+    }
+  }
 }
 
 const movedPageUrls = new Set(
