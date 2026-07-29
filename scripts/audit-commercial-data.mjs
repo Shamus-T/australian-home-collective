@@ -33,6 +33,7 @@ const trustedEditorialDomains = new Set([
   "abc.net.au",
   "accc.gov.au",
   "agriculture.gov.au",
+  "arctick.org",
   "australianmade.com.au",
   "ava.com.au",
   "childcarseats.com.au",

@@ -1,0 +1,694 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  { href: "/categories/living-spaces/", title: "Living Spaces", description: "More practical guides for comfortable, functional Australian living spaces." },
+  { href: "/guides/home-heating-options-australia/", title: "Home Heating Options in Australia", description: "Compare portable, personal and fixed heating options around the room, climate and length of use." },
+  { href: "/guides/preparing-your-home-for-winter/", title: "Preparing Your Home for Winter", description: "Inspect heating, electric bedding, draughts, window coverings and maintenance needs before cooler weather." },
+  { href: "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/", title: "Outdoor Shade Options", description: "Check sun position, shade coverage, structure, storage and access before adding patio or backyard shade." },
+  { href: "/guides/home-office-setup-ideas-small-spaces/", title: "Home Office Setup Ideas for Small Spaces", description: "Plan a compact work zone around the desk, chair, light, cables and shared-room routines." },
+];
+---
+
+<ArticleLayout
+  title="Air Conditioning Buying Guide: What to Check Before You Choose and Install"
+  seoTitle="Air Conditioning Buying Guide for Australian Homes"
+  description="Compare split, multi-split, ducted, window and portable air conditioners. Check sizing, efficiency, installation, noise and climate suitability before buying."
+  category="Living Spaces"
+  date="Published July 2026"
+  datePublished="2026-07-29"
+  readingTime="22 minute read"
+  showAffiliateDisclosure={false}
+  image="/images/air-conditioning-buying-guide.webp"
+  imageAlt="A summer living room with a wall-mounted reverse-cycle air conditioner, ceiling fan and shaded windows"
+  socialImage="/images/air-conditioning-buying-guide.webp"
+  socialImageAlt="A summer living room with a wall-mounted reverse-cycle air conditioner, ceiling fan and shaded windows"
+>
+  <p>An air conditioner can be unsuitable before it is even switched on.</p>
+  <p>The system may be too large or too small for the space, the indoor unit may direct air towards the wrong part of the room, the outdoor unit may create noise beside a bedroom or entertaining area, or the installation may require electrical and drainage work that was not included in the original budget.</p>
+  <p>Air conditioning also means different things in different Australian homes. A bedroom may need one small split system. A large open-plan area may need a carefully sized unit and better window shading. A tropical home may place greater importance on humidity control, while a cooler region may depend on reverse-cycle heating as well as summer cooling.</p>
+  <p>This guide explains the main system types and the site, sizing, efficiency and installation questions to resolve before ordering.</p>
+  <h2>Our Take</h2>
+  <p>Choose the system and installation together.</p>
+  <p>A high-efficiency air conditioner can still perform poorly when it is incorrectly sized, badly positioned or expected to cool an open home with uncontrolled sun and air leakage.</p>
+  <p>Do not select a model first and treat installation as a standard add-on. Confirm the room, climate, electrical supply, indoor position, outdoor position, drainage route and licensed work before committing to the appliance.</p>
+  <p>Also check whether shade, ventilation or a ceiling fan could reduce the amount of mechanical cooling the room needs.</p>
+  <h2>Start with the problem you are trying to solve</h2>
+  <p>Before comparing system types, identify when and where the home becomes uncomfortable.</p>
+  <p>Consider:</p>
+  <ul class="feature-list">
+    <li>which rooms overheat</li>
+    <li>the time of day the heat is worst</li>
+    <li>whether direct sun enters through east- or west-facing glass</li>
+    <li>whether the problem is heat, humidity or both</li>
+    <li>whether natural ventilation works during cooler periods</li>
+    <li>whether bedrooms need overnight cooling</li>
+    <li>whether the home also needs <a href="/guides/home-heating-options-australia/">winter heating</a></li>
+    <li>how many rooms are occupied at the same time</li>
+    <li>whether internal doors can be closed</li>
+    <li>acceptable indoor and outdoor noise</li>
+    <li>whether permanent installation is permitted</li>
+    <li>how often the system is likely to operate</li>
+  </ul>
+  <p>Cooling one enclosed bedroom is a different task from conditioning a kitchen, dining and living area connected to hallways and stairs.</p>
+  <h2>Air-conditioning options at a glance</h2>
+  <p class="table-hint">Swipe sideways to compare the full table.</p>
+  <div class="comparison-wrap" tabindex="0" role="region" aria-label="Air-conditioning system comparison">
+    <table class="comparison-table">
+      <caption>Air-conditioning options at a glance</caption>
+      <thead><tr>
+        <th scope="col">System type</th>
+        <th scope="col">Usually suited to</th>
+        <th scope="col">Main advantage</th>
+        <th scope="col">Main limitation</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>Single split system</td>
+          <td>One bedroom or living area</td>
+          <td>Efficient room-by-room heating and cooling</td>
+          <td>Requires indoor and outdoor installation positions</td>
+        </tr>
+        <tr>
+          <td>Multi-split system</td>
+          <td>Several rooms with limited outdoor-unit space</td>
+          <td>Multiple indoor units connected to one outdoor system</td>
+          <td>More complex design and installation</td>
+        </tr>
+        <tr>
+          <td>Ducted reverse-cycle system</td>
+          <td>Multiple rooms or whole-home conditioning</td>
+          <td>Central appearance and zoning options</td>
+          <td>Higher installation complexity and duct losses</td>
+        </tr>
+        <tr>
+          <td>Window or wall unit</td>
+          <td>Suitable existing opening or straightforward wall installation</td>
+          <td>Self-contained fixed system</td>
+          <td>Appearance, noise and installation-opening requirements</td>
+        </tr>
+        <tr>
+          <td>Portable single-duct air conditioner</td>
+          <td>Temporary cooling where fixed installation is not possible</td>
+          <td>Movable and does not require refrigerant installation onsite</td>
+          <td>Exhaust hose, noise, window sealing and limited efficiency</td>
+        </tr>
+        <tr>
+          <td>Evaporative cooler</td>
+          <td>Dry climates with suitable ventilation</td>
+          <td>Can provide cooling with high outdoor-air movement</td>
+          <td>Poorer suitability in humid conditions</td>
+        </tr>
+        <tr>
+          <td>Cooling-only system</td>
+          <td>Homes that do not require mechanical heating</td>
+          <td>Does not include an unused heating function</td>
+          <td>Less flexible if winter heating is later needed</td>
+        </tr>
+        <tr>
+          <td>Reverse-cycle system</td>
+          <td>Homes requiring summer cooling and winter heating</td>
+          <td>One system provides both functions</td>
+          <td>Heating performance must also suit the local climate</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Single split-system air conditioning</h2>
+  <p>A split system has an indoor unit and an outdoor unit connected by refrigerant pipework, electrical cabling and drainage.</p>
+  <p>Wall-mounted split systems are common because they can efficiently condition one room or connected area without requiring ceiling ducts.</p>
+  <p>They may suit:</p>
+  <ul class="feature-list">
+    <li>bedrooms</li>
+    <li>enclosed living rooms</li>
+    <li><a href="/guides/home-office-setup-ideas-small-spaces/">home offices</a></li>
+    <li>smaller open-plan areas</li>
+    <li>additions that are difficult to connect to an existing ducted system</li>
+  </ul>
+  <p>The indoor unit position affects how air moves through the room. A unit selected only because it fits the available wall may blow directly onto a bed, sofa or desk while leaving the rest of the room uneven.</p>
+  <p>The outdoor position affects:</p>
+  <ul class="feature-list">
+    <li>noise</li>
+    <li>airflow</li>
+    <li>servicing access</li>
+    <li>drainage</li>
+    <li>appearance</li>
+    <li>exposure to debris or corrosion</li>
+    <li>distance and pipe route to the indoor unit</li>
+    <li>neighbouring rooms and properties</li>
+  </ul>
+  <p>The shortest possible pipe route is not automatically the best installation if it creates poor airflow, noise or drainage problems.</p>
+  <h2>Multi-split systems</h2>
+  <p>A multi-split arrangement connects several indoor units to one outdoor system.</p>
+  <p>This can be useful where:</p>
+  <ul class="feature-list">
+    <li>several rooms need separate indoor units</li>
+    <li>external wall or balcony space is limited</li>
+    <li>multiple individual outdoor units would be impractical</li>
+    <li>occupants want room-by-room controls</li>
+  </ul>
+  <p>The design requires more than counting indoor units.</p>
+  <p>Ask how the system behaves when:</p>
+  <ul class="feature-list">
+    <li>only one room is operating</li>
+    <li>several rooms are operating together</li>
+    <li>indoor units require different temperatures</li>
+    <li>total indoor demand approaches the outdoor unit’s capacity</li>
+    <li>one component needs repair or servicing</li>
+  </ul>
+  <p>A multi-split system can reduce the number of outdoor units, but it also creates a shared system. A fault or service issue affecting the outdoor equipment may affect several rooms.</p>
+  <p>Compare the proposed combination as a complete design rather than judging each indoor head separately.</p>
+  <h2>Ducted reverse-cycle air conditioning</h2>
+  <p>A ducted system uses a central indoor unit and distributes conditioned air through ceiling or floor ducts.</p>
+  <p>It can provide a visually restrained solution because only grilles and controls are visible in occupied rooms.</p>
+  <p>A ducted system may suit:</p>
+  <ul class="feature-list">
+    <li>larger homes</li>
+    <li>households conditioning several rooms at once</li>
+    <li>new builds or major renovations</li>
+    <li>homes with suitable roof or underfloor access</li>
+    <li>households that value centralised control</li>
+  </ul>
+  <p>It requires careful planning for:</p>
+  <ul class="feature-list">
+    <li>duct routes</li>
+    <li>duct insulation</li>
+    <li>return-air location</li>
+    <li>zones</li>
+    <li>minimum airflow</li>
+    <li>ceiling space</li>
+    <li>indoor-unit access</li>
+    <li>condensate drainage</li>
+    <li>outdoor-unit location</li>
+    <li>electrical capacity</li>
+    <li>future servicing</li>
+  </ul>
+  <p>Zoning can reduce unnecessary conditioning of unoccupied areas, but zones cannot always be closed without limit. The system must maintain the airflow required by its design.</p>
+  <p>Do not assume that a larger number of zones automatically creates a better system. Ask which zones can operate together and what minimum area must remain open.</p>
+  <h2>Window and wall air conditioners</h2>
+  <p>Window and wall units contain the main refrigeration components in one appliance installed through a suitable opening.</p>
+  <p>They may suit:</p>
+  <ul class="feature-list">
+    <li>an existing compatible wall opening</li>
+    <li>some apartments or older homes</li>
+    <li>a single room</li>
+    <li>situations where a conventional split-system pipe route is difficult</li>
+  </ul>
+  <p>Check:</p>
+  <ul class="feature-list">
+    <li>the exact opening dimensions</li>
+    <li>structural support</li>
+    <li>weather sealing</li>
+    <li>drainage</li>
+    <li>indoor and outdoor clearances</li>
+    <li>noise</li>
+    <li>electrical requirements</li>
+    <li>whether body corporate, landlord or planning approval is required</li>
+    <li>whether the existing opening suits the replacement model</li>
+  </ul>
+  <p>Do not assume all units with the same nominal capacity fit the same opening.</p>
+  <p>Replacing an older unit may require changes to framing, sealing, support or electrical supply.</p>
+  <h2>Portable air conditioners</h2>
+  <p>A portable refrigerated air conditioner usually draws warm room air into the unit and exhausts heated air through a flexible duct fitted to a window or opening.</p>
+  <p>It may be considered where:</p>
+  <ul class="feature-list">
+    <li>permanent installation is not permitted</li>
+    <li>the user is renting</li>
+    <li>cooling is needed temporarily</li>
+    <li>no suitable fixed system can be installed immediately</li>
+  </ul>
+  <p>“Portable” does not mean it can operate anywhere in the room.</p>
+  <p>It still needs:</p>
+  <ul class="feature-list">
+    <li>a suitable window or exhaust opening</li>
+    <li>an effective window-sealing kit</li>
+    <li>a nearby wall power point</li>
+    <li>clearance around air inlets and outlets</li>
+    <li>a condensate-management method</li>
+    <li>a safe hose route</li>
+    <li>floor space</li>
+    <li>storage outside the cooling season</li>
+  </ul>
+  <p>Single-duct models can be noisy and may draw warm replacement air into the room as they exhaust indoor air outside. Their useful comparison is generally with other portable units, not with a properly installed split system.</p>
+  <p>Check whether the product needs manual water draining under local humidity conditions. Do not allow a drain hose or electrical cord to create a trip hazard.</p>
+  <h2>Evaporative cooling</h2>
+  <p>Evaporative coolers use water evaporation rather than a refrigerated compressor cycle.</p>
+  <p>They work most effectively in dry conditions and require airflow through the building. Doors or windows generally need to remain open in the manner specified for the system so that air can move through and leave the home.</p>
+  <p>This is fundamentally different from refrigerated air conditioning, which normally operates with the conditioned area closed.</p>
+  <p>Evaporative cooling may be less suitable where:</p>
+  <ul class="feature-list">
+    <li>outdoor humidity is high</li>
+    <li>indoor humidity is already a problem</li>
+    <li>smoke or poor outdoor air quality is present</li>
+    <li>windows cannot be left appropriately open</li>
+    <li>water use is a concern</li>
+    <li>the building cannot provide the required airflow path</li>
+  </ul>
+  <p>Do not choose an evaporative system based only on a lower nominal energy demand. Climate suitability and the way the home can be ventilated are central to whether it will provide comfortable conditions.</p>
+  <h2>Cooling-only or reverse-cycle?</h2>
+  <p>A cooling-only system provides mechanical cooling but not reverse-cycle heating.</p>
+  <p>A reverse-cycle air conditioner can move heat in either direction, providing summer cooling and winter heating.</p>
+  <p>Reverse-cycle may make sense when:</p>
+  <ul class="feature-list">
+    <li>the home needs heating as well as cooling</li>
+    <li>an existing resistance heater could be replaced for regular room heating</li>
+    <li>one installation can serve both seasons</li>
+    <li>local winter performance is suitable for the selected model</li>
+  </ul>
+  <p>Cooling-only may still be appropriate where:</p>
+  <ul class="feature-list">
+    <li>mechanical heating is genuinely unnecessary</li>
+    <li>another suitable heating system already exists</li>
+    <li>the appliance will operate only in a consistently warm climate</li>
+    <li>the site has a specialised cooling requirement</li>
+  </ul>
+  <p>Do not assume heating performance is identical across Australia. Check the Zoned Energy Rating Label for the climate zone relevant to the property.</p>
+  <h2>Cooling capacity is not electricity consumption</h2>
+  <p>Air-conditioner specifications use kilowatts for more than one purpose, which can cause confusion.</p>
+  <p>Cooling capacity describes how much cooling the system can deliver under rated conditions.</p>
+  <p>Heating capacity describes its reverse-cycle heating output.</p>
+  <p>Power input describes the electricity the appliance draws while operating under specified conditions.</p>
+  <p>A system described as having 5 kW of cooling capacity is not necessarily drawing 5 kW of electricity continuously.</p>
+  <p>When comparing models, keep capacity and electrical input separate. First identify the capacity needed for the room, then compare the efficiency of models with a suitable output.</p>
+  <p>Comparing the star rating of an undersized unit with a correctly sized unit does not answer which system will perform properly in the home.</p>
+  <h2>Why simple floor-area sizing is not enough</h2>
+  <p>Floor area is a useful starting measurement, but it does not capture the full cooling load.</p>
+  <p>Sizing can be affected by:</p>
+  <ul class="feature-list">
+    <li>local summer and winter design conditions</li>
+    <li>room area</li>
+    <li>ceiling height</li>
+    <li>insulation</li>
+    <li>roof and wall construction</li>
+    <li>window area</li>
+    <li>glazing type</li>
+    <li>window orientation</li>
+    <li>external shade</li>
+    <li>number of occupants</li>
+    <li>heat from cooking and appliances</li>
+    <li>whether adjoining areas remain open</li>
+    <li>air leakage</li>
+    <li>floor level</li>
+    <li>roof exposure</li>
+    <li>intended thermostat setting</li>
+    <li>heating requirements in winter</li>
+  </ul>
+  <p>Two rooms with the same floor area may need different systems.</p>
+  <p>Ask how the proposed capacity was determined. For larger, difficult or highly glazed spaces, a site-specific load assessment is more reliable than selecting from a generic square-metre chart.</p>
+  <p>An oversized system is not automatically safer. It may cycle frequently, control temperature poorly or cost more without improving comfort.</p>
+  <p>An undersized system may run continuously and still fail to maintain the intended conditions.</p>
+  <h2>Measure the actual conditioned area</h2>
+  <p>Do not measure only the part of an open-plan room where the sofa sits.</p>
+  <p>Include spaces that cannot be closed off, such as:</p>
+  <ul class="feature-list">
+    <li>connected dining areas</li>
+    <li>open kitchens</li>
+    <li>hallways</li>
+    <li>stair voids</li>
+    <li>study nooks</li>
+    <li>entry spaces</li>
+    <li>adjoining rooms without doors</li>
+  </ul>
+  <p>Record:</p>
+  <ul class="feature-list">
+    <li>length</li>
+    <li>width</li>
+    <li>ceiling height</li>
+    <li>window dimensions</li>
+    <li>doorways</li>
+    <li>opening widths</li>
+    <li>major heat-producing appliances</li>
+    <li>wall available for the indoor unit</li>
+  </ul>
+  <p>Photographs and a basic floor plan can help an installer understand the space, but they do not replace a site inspection where one is required.</p>
+  <h2>Read the Zoned Energy Rating Label</h2>
+  <p>Non-ducted household air conditioners display a Zoned Energy Rating Label that separates performance into hot, average and cold climate zones.</p>
+  <p>The label includes information such as:</p>
+  <ul class="feature-list">
+    <li>cooling capacity</li>
+    <li>heating capacity where applicable</li>
+    <li>cooling efficiency stars</li>
+    <li>heating efficiency stars</li>
+    <li>indicative annual energy consumption for each climate zone</li>
+    <li>sound information where provided</li>
+  </ul>
+  <p>Use the postcode-based Energy Rating Calculator to identify the relevant zone and compare suitably sized models.</p>
+  <p>A model can perform differently in hot and cold regions. Do not use the highest star figure visible on the label without confirming which function and climate zone it represents.</p>
+  <p>Compare like with like:</p>
+  <ul class="feature-list">
+    <li>similar cooling capacity</li>
+    <li>similar heating capacity</li>
+    <li>the same climate zone</li>
+    <li>the same intended use</li>
+    <li>the functions the household will actually use</li>
+  </ul>
+  <p>The annual consumption figure is an estimate based on standard assumptions. Actual use depends on weather, thermostat settings, operating hours, room heat gain and the building itself.</p>
+  <h2>Indoor-unit position</h2>
+  <p>The indoor unit needs a clear path to move air through the occupied space.</p>
+  <p>Before installation, check:</p>
+  <ul class="feature-list">
+    <li>whether air will reach the main part of the room</li>
+    <li>whether furniture will block the outlet</li>
+    <li>whether air will blow directly onto a bed, sofa or desk</li>
+    <li>whether the unit is too close to the ceiling or an adjoining wall</li>
+    <li>whether filters can be removed for cleaning</li>
+    <li>whether the front cover can open fully</li>
+    <li>whether condensate can drain appropriately</li>
+    <li>whether the pipe route is practical</li>
+    <li>whether the unit will interfere with curtains, artwork or cabinetry</li>
+  </ul>
+  <p>Mounting a unit in the easiest construction position may not produce the best airflow.</p>
+  <p>For bedrooms, consider whether the bed may be moved later. A unit that is comfortable with the current layout may become intrusive after furniture is rearranged.</p>
+  <h2>Outdoor-unit position</h2>
+  <p>The outdoor unit releases heat during cooling and needs clear airflow.</p>
+  <p>Ask the installer to consider:</p>
+  <ul class="feature-list">
+    <li>manufacturer clearances</li>
+    <li>service access</li>
+    <li>distance from bedrooms</li>
+    <li>neighbouring windows</li>
+    <li>balconies and courtyards</li>
+    <li><a href="/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/">outdoor entertaining areas</a></li>
+    <li>boundary positions</li>
+    <li>reflected noise</li>
+    <li>drainage</li>
+    <li>corrosion exposure</li>
+    <li>leaves and debris</li>
+    <li>mounting vibration</li>
+    <li>future replacement access</li>
+  </ul>
+  <p>Do not enclose the outdoor unit in decorative screening that blocks airflow or servicing.</p>
+  <p>Shade can help reduce direct solar exposure where it does not interfere with required clearances, but the unit must still discharge air freely.</p>
+  <p>Avoid positions where hot discharge air is directed into an enclosed corner or back towards the home.</p>
+  <h2>Condensate drainage</h2>
+  <p>Refrigerated air conditioning removes moisture from indoor air, producing condensate that must drain to an appropriate location.</p>
+  <p>Before accepting an installation position, ask:</p>
+  <ul class="feature-list">
+    <li>where the drain will run</li>
+    <li>whether gravity drainage is possible</li>
+    <li>whether a condensate pump is proposed</li>
+    <li>where water will discharge</li>
+    <li>whether the outlet could create staining, algae, slipping or neighbour issues</li>
+    <li>how the drain can be inspected or cleared</li>
+    <li>whether local building or plumbing requirements apply</li>
+  </ul>
+  <p>A condensate pump may allow an otherwise difficult installation, but it adds another component that can make noise, require maintenance or fail.</p>
+  <p>Drainage should not be treated as an invisible detail to resolve after the indoor unit has been mounted.</p>
+  <h2>Electrical requirements</h2>
+  <p>Air conditioners may require:</p>
+  <ul class="feature-list">
+    <li>a suitable existing circuit</li>
+    <li>a new dedicated circuit</li>
+    <li>an isolation switch</li>
+    <li>switchboard capacity</li>
+    <li>safety-switch protection</li>
+    <li>compliant cable routes</li>
+    <li>coordination between electrical and refrigeration trades</li>
+  </ul>
+  <p>Requirements depend on the equipment and installation.</p>
+  <p>Do not assume an existing power point is sufficient for a fixed split or ducted system. Do not purchase the appliance before confirming what electrical work is required and whether it is included in the quote.</p>
+  <p>Electrical installation and switchboard work must be completed by appropriately licensed people under the requirements that apply in the relevant state or territory.</p>
+  <h2>Refrigerant licensing and installer checks</h2>
+  <p>Work that risks the release of regulated refrigerant requires an appropriate Refrigerant Handling Licence.</p>
+  <p>Use the Australian Refrigeration Council’s licence-checking resources to confirm that the technician or business has the appropriate authority for the proposed work.</p>
+  <p>Air-conditioning projects may also require licensed electrical work, and other approvals can apply depending on the property.</p>
+  <p>Before accepting a quote, confirm:</p>
+  <ul class="feature-list">
+    <li>the business details</li>
+    <li>the refrigerant licence or authorisation</li>
+    <li>who completes the electrical work</li>
+    <li>whether subcontractors are used</li>
+    <li>whether required certificates will be provided</li>
+    <li>whether the installer is insured</li>
+    <li>which party handles defects or call-backs</li>
+  </ul>
+  <p>A low installation price is not useful if essential work has been excluded or the household cannot identify who is responsible afterwards.</p>
+  <h2>What should an installation quote include?</h2>
+  <p>Ask for a written scope rather than relying on the phrase “standard installation”.</p>
+  <p>The quote should make clear whether it includes:</p>
+  <ul class="feature-list">
+    <li>the exact indoor and outdoor models</li>
+    <li>mounting location</li>
+    <li>maximum included pipe length</li>
+    <li>additional pipework rates</li>
+    <li>wall brackets or ground mounting</li>
+    <li>condensate drainage</li>
+    <li>pipe-cover finish</li>
+    <li>wall penetration</li>
+    <li>electrical circuit work</li>
+    <li>isolation switch</li>
+    <li>switchboard upgrades</li>
+    <li>access equipment</li>
+    <li>difficult roof, wall or ceiling access</li>
+    <li>removal of an existing system</li>
+    <li>refrigerant recovery and disposal</li>
+    <li>patching or making good</li>
+    <li>commissioning</li>
+    <li>demonstration of controls</li>
+    <li>certificates and documentation</li>
+    <li>workmanship warranty</li>
+    <li>travel or regional charges</li>
+    <li>disposal of packaging</li>
+  </ul>
+  <p>Do not assume removal of an old system includes repairing the opening or marks left behind.</p>
+  <h2>Noise</h2>
+  <p>Air conditioners create indoor and outdoor sound.</p>
+  <p>Indoor sound may come from:</p>
+  <ul class="feature-list">
+    <li>the fan</li>
+    <li>moving louvres</li>
+    <li>refrigerant flow</li>
+    <li>plastic expansion and contraction</li>
+    <li>condensate pumps</li>
+    <li>duct airflow</li>
+  </ul>
+  <p>Outdoor sound may come from:</p>
+  <ul class="feature-list">
+    <li>the compressor</li>
+    <li>fan</li>
+    <li>mounting vibration</li>
+    <li>airflow reflecting from nearby walls</li>
+    <li>operation during quiet night periods</li>
+  </ul>
+  <p>Check published sound information, but also consider where the unit will be positioned.</p>
+  <p>An outdoor unit beside a bedroom window, narrow boundary or enclosed courtyard may be more noticeable than the same unit in an open service area.</p>
+  <p>State, territory, council, strata or development requirements may regulate noise and placement. The installer should not assume one national setback or operating rule applies everywhere.</p>
+  <h2>Controls and features</h2>
+  <p>Common features include:</p>
+  <ul class="feature-list">
+    <li>timers</li>
+    <li>scheduling</li>
+    <li>sleep modes</li>
+    <li>economy modes</li>
+    <li>motion sensors</li>
+    <li>Wi-Fi control</li>
+    <li>app control</li>
+    <li>louvre adjustment</li>
+    <li>quiet modes</li>
+    <li>dehumidifying or dry modes</li>
+    <li>air-cleaning claims</li>
+    <li>demand-response functions</li>
+  </ul>
+  <p>Choose features that solve an actual use problem.</p>
+  <p>Wi-Fi control may be useful when the household needs remote scheduling. It may be unnecessary where a clear remote control and timer are sufficient.</p>
+  <p>A sleep mode may adjust temperature or fan behaviour gradually, but its operation differs by model.</p>
+  <p>A dry mode can reduce humidity under suitable conditions. It is not a universal replacement for cooling, ventilation or investigation of persistent moisture problems.</p>
+  <p>Treat broad air-purification claims cautiously. An air conditioner’s primary purpose is heating and cooling, and filters still require maintenance.</p>
+  <h2>Filters, cleaning and servicing</h2>
+  <p>Before buying, check:</p>
+  <ul class="feature-list">
+    <li>how filters are removed</li>
+    <li>whether they are washable or replaceable</li>
+    <li>how often the instructions recommend cleaning</li>
+    <li>whether access requires a ladder</li>
+    <li>whether replacement filters are readily obtainable</li>
+    <li>how the indoor coil and drain are serviced</li>
+    <li>how the outdoor unit can be reached</li>
+    <li>whether a local service network exists</li>
+  </ul>
+  <p>Dirty filters can restrict airflow and reduce performance.</p>
+  <p>Follow the manufacturer’s instructions. Switch the system off as directed before user maintenance, and do not dismantle electrical or refrigerant components.</p>
+  <p>A difficult-to-access unit may be neglected even if the appliance itself is efficient.</p>
+  <h2>After-sales support matters</h2>
+  <p>The purchase involves both an appliance and an installation.</p>
+  <p>Before choosing, understand:</p>
+  <ul class="feature-list">
+    <li>the manufacturer’s product warranty</li>
+    <li>the installer’s workmanship warranty</li>
+    <li>who diagnoses a fault</li>
+    <li>whether a call-out fee may apply</li>
+    <li>who handles refrigerant leaks or drainage problems</li>
+    <li>whether parts and authorised service are available locally</li>
+    <li>what documentation must be retained</li>
+    <li>whether online or parallel-import purchases affect support</li>
+    <li>what happens if the installer and manufacturer each attribute the issue to the other</li>
+  </ul>
+  <p>Keep:</p>
+  <ul class="feature-list">
+    <li>the invoice</li>
+    <li>model and serial details</li>
+    <li>installation certificates</li>
+    <li>commissioning information</li>
+    <li>warranty terms</li>
+    <li>installer contact details</li>
+    <li>photographs of the completed installation</li>
+  </ul>
+  <p>Do not wait until a failure during extreme weather to work out who is responsible.</p>
+  <h2>Improve the room before increasing capacity</h2>
+  <p>Mechanical cooling works more effectively when the home limits heat gain.</p>
+  <p>Before selecting a larger system, consider:</p>
+  <ul class="feature-list">
+    <li><a href="/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/">external shade</a> to east- and west-facing glass</li>
+    <li>correctly designed eaves or adjustable shading</li>
+    <li>closing blinds or curtains before direct sun heats the room</li>
+    <li>ceiling and wall insulation</li>
+    <li>sealing uncontrolled gaps while maintaining required ventilation</li>
+    <li>using ceiling fans</li>
+    <li>opening the home for cooler air when outdoor conditions permit</li>
+    <li>closing doors to unoccupied rooms during air-conditioner use</li>
+    <li>reducing heat from cooking or appliances during the hottest period</li>
+    <li>light-coloured and shaded external surfaces where appropriate</li>
+  </ul>
+  <p>A ceiling fan does not lower the room’s air temperature, but the air movement can improve comfort and may reduce reliance on a lower thermostat setting.</p>
+  <p>Do not operate refrigerated air conditioning with windows and external doors left open unless the manufacturer or system design specifically requires otherwise.</p>
+  <h2>Regional considerations</h2>
+  <h3>Tropical and subtropical regions</h3>
+  <p>Priorities may include:</p>
+  <ul class="feature-list">
+    <li>humidity control</li>
+    <li>wet-season operation</li>
+    <li>corrosion exposure</li>
+    <li>drainage</li>
+    <li>mould prevention</li>
+    <li>efficient part-load performance</li>
+    <li>ceiling fans</li>
+    <li>keeping conditioned rooms enclosed</li>
+    <li>maintaining filters during frequent use</li>
+  </ul>
+  <p>Evaporative cooling is generally less effective in high humidity.</p>
+  <h3>Hot-arid and inland regions</h3>
+  <p>Large day-to-night temperature changes may allow useful night ventilation when outdoor conditions become cooler.</p>
+  <p>Evaporative cooling may be more viable than in humid regions, provided water use, outside air quality and building airflow are suitable.</p>
+  <h3>Temperate coastal regions</h3>
+  <p>Households may need moderate summer cooling and occasional winter heating.</p>
+  <p>Reverse-cycle performance across both functions may matter more than the highest cooling capacity alone.</p>
+  <p>Salt exposure can affect outdoor equipment near the coast, making placement and maintenance important.</p>
+  <h3>Cool and cold regions</h3>
+  <p>Summer cooling may still be needed, particularly in highly glazed or poorly shaded homes.</p>
+  <p>If the system will also provide primary winter heating, check cold-zone performance rather than judging it only by cooling stars.</p>
+  <h2>Renters, apartments and strata properties</h2>
+  <p>Permanent air-conditioning installation may require:</p>
+  <ul class="feature-list">
+    <li>landlord approval</li>
+    <li>body corporate or owners corporation approval</li>
+    <li>restrictions on external appearance</li>
+    <li>designated outdoor-unit positions</li>
+    <li>noise assessment</li>
+    <li>rules for wall penetrations</li>
+    <li>balcony drainage approval</li>
+    <li>electrical work</li>
+    <li>make-good obligations</li>
+  </ul>
+  <p>Do not order a fixed system until written approvals and installation constraints are understood.</p>
+  <p>Renters considering a portable unit should still check:</p>
+  <ul class="feature-list">
+    <li>window compatibility</li>
+    <li>security</li>
+    <li>insect-screen impact</li>
+    <li>drainage</li>
+    <li>floor space</li>
+    <li>noise</li>
+    <li>electricity supply</li>
+    <li>whether the window kit can be installed without damage</li>
+  </ul>
+  <h2>Plan before peak demand</h2>
+  <p>Air conditioners are relevant in both summer and winter because reverse-cycle systems can cool and heat.</p>
+  <p>Installer availability may tighten during:</p>
+  <ul class="feature-list">
+    <li>the first sustained heatwave</li>
+    <li>very cold weather</li>
+    <li>late spring and early summer</li>
+    <li>periods of storm or disaster recovery</li>
+    <li>Christmas and New Year, when some businesses operate with reduced capacity or close temporarily</li>
+  </ul>
+  <p>Planning ahead does not guarantee a lower price or immediate installation.</p>
+  <p>It provides more time to:</p>
+  <ul class="feature-list">
+    <li>compare suitable systems</li>
+    <li>arrange site inspections</li>
+    <li>obtain written scopes</li>
+    <li>confirm electrical work</li>
+    <li>seek strata or landlord approval</li>
+    <li>check installer licensing</li>
+    <li>order equipment</li>
+    <li>schedule installation before conditions become urgent</li>
+  </ul>
+  <p>Do not purchase solely because a unit is immediately available if its capacity, climate rating or installation requirements are unsuitable.</p>
+  <h2>Before You Buy Checklist</h2>
+  <p>Before choosing an air-conditioning system, check:</p>
+  <ul class="feature-list">
+    <li>Which rooms need cooling?</li>
+    <li>Which rooms need winter heating?</li>
+    <li>Can the conditioned area be closed off?</li>
+    <li>What are the floor dimensions and ceiling height?</li>
+    <li>Have connected hallways, kitchens and stair voids been included?</li>
+    <li>How much window glass is present?</li>
+    <li>Which direction do the windows face?</li>
+    <li>Is effective external or internal shade available?</li>
+    <li>What insulation is present?</li>
+    <li>Is humidity a major concern?</li>
+    <li>Is a split, multi-split, ducted, window, portable or evaporative system being considered?</li>
+    <li>Does the system type suit the local climate?</li>
+    <li>Has the required capacity been assessed for the actual site?</li>
+    <li>Are cooling capacity and electrical input being treated separately?</li>
+    <li>Has the correct Zoned Energy Rating climate zone been checked?</li>
+    <li>Are similarly sized systems being compared?</li>
+    <li>Is reverse-cycle heating required?</li>
+    <li>Will the indoor unit distribute air through the occupied area?</li>
+    <li>Will it blow directly onto a bed, sofa or desk?</li>
+    <li>Can filters be reached and removed?</li>
+    <li>Is there a suitable outdoor-unit position?</li>
+    <li>Have outdoor noise and neighbouring rooms been considered?</li>
+    <li>Are manufacturer clearances and service access available?</li>
+    <li>Is there a practical condensate-drain route?</li>
+    <li>Is a condensate pump proposed?</li>
+    <li>Has the electrical supply been assessed?</li>
+    <li>Is switchboard or circuit work included?</li>
+    <li>Are landlord, strata or planning approvals required?</li>
+    <li>Has the refrigerant licence or authorisation been checked?</li>
+    <li>Is licensed electrical work clearly allocated?</li>
+    <li>Does the quote define what “standard installation” includes?</li>
+    <li>Are extra pipework, brackets and access charges explained?</li>
+    <li>Is old-system removal included where required?</li>
+    <li>Is making good or patching included?</li>
+    <li>Are commissioning and certificates included?</li>
+    <li>Are product and workmanship warranties separate and clear?</li>
+    <li>Is local after-sales service available?</li>
+    <li>Can shading, fans or draught control reduce the cooling load?</li>
+    <li>Has installation timing been considered before peak demand?</li>
+  </ul>
+  <h2>Choose for the room, climate and installation</h2>
+  <p>The air conditioner and its installation cannot be separated into two independent decisions.</p>
+  <p>Begin with the room, local climate and way the home is occupied. Confirm the capacity needed, then compare suitable systems using the Zoned Energy Rating information for the relevant region.</p>
+  <p>Before ordering, resolve the indoor position, outdoor position, drainage, electrical work, approvals, noise and licensed installation.</p>
+  <p>A correctly selected system in a shaded, reasonably sealed room can provide effective heating and cooling for years. A poorly matched unit may remain expensive and uncomfortable regardless of the number of features on its remote control.</p>
+
+  <section aria-labelledby="official-guidance-heading">
+    <h2 id="official-guidance-heading">Official guidance</h2>
+    <ul class="feature-list">
+      <li><ExternalLink href="https://www.energy.gov.au/households/heating-and-cooling">Australian Government heating and cooling guidance</ExternalLink></li>
+      <li><ExternalLink href="https://www.energy.gov.au/households/household-guides/seasonal-advice/summer">Australian Government summer energy savings guidance</ExternalLink></li>
+      <li><ExternalLink href="https://www.energyrating.gov.au/consumer-information/understand-zoned-energy-rating-label">Energy Rating guidance on the Zoned Energy Rating Label</ExternalLink></li>
+      <li><ExternalLink href="https://calculator.energyrating.gov.au/">Australian Government Energy Rating Calculator</ExternalLink></li>
+      <li><ExternalLink href="https://www.yourhome.gov.au/energy/heating-and-cooling">Your Home guidance on heating and cooling</ExternalLink></li>
+      <li><ExternalLink href="https://www.yourhome.gov.au/passive-design/passive-cooling">Your Home guidance on passive cooling</ExternalLink></li>
+      <li><ExternalLink href="https://www.yourhome.gov.au/passive-design/shading">Your Home guidance on shading</ExternalLink></li>
+      <li><ExternalLink href="https://www.arctick.org/refrigerant-handling-licence/">Australian Refrigeration Council Refrigerant Handling Licence information</ExternalLink></li>
+      <li><ExternalLink href="https://www.arctick.org/information/report-a-breach-relating-to-regulated-refrigerants/how-do-i-check-if-someone-is-licensed/">Australian Refrigeration Council technician licence-checking guidance</ExternalLink></li>
+    </ul>
+  </section>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
