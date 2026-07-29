@@ -1,0 +1,875 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  { href: "/guides/preparing-your-home-for-winter/", title: "Preparing Your Home for Winter", description: "Inspect heating, draughts, insulation, window coverings and seasonal maintenance before colder conditions arrive." },
+  { href: "/guides/fan-heater-vs-ceramic-heater/", title: "Fan Heater vs Ceramic Heater", description: "Compare warm-up speed, airflow, controls, noise and suitable room use for two portable resistance-heater types." },
+  { href: "/guides/home-office-setup-ideas-small-spaces/", title: "Home Office Setup Ideas for Small Spaces", description: "Plan a compact work zone around the desk, chair, light, cables and shared-room routines." },
+];
+---
+
+<ArticleLayout
+  title="Reverse-Cycle Heating Explained: What to Check Before You Rely on It in Winter"
+  seoTitle="Reverse-Cycle Heating Explained | Australian Guide"
+  description="Learn how reverse-cycle heating works and what to check for sizing, climate performance, defrost cycles, efficiency, installation, controls and winter use."
+  category="Living Spaces"
+  date="Published July 2026"
+  datePublished="2026-07-29"
+  readingTime="24 minute read"
+  showAffiliateDisclosure={false}
+  image="/images/reverse-cycle-heating-explained.webp"
+  imageAlt="A contemporary Australian living room with reverse-cycle air conditioning, a ceiling fan and the outdoor unit visible beside the home"
+  socialImage="/images/reverse-cycle-heating-explained.webp"
+  socialImageAlt="A contemporary Australian living room with reverse-cycle air conditioning, a ceiling fan and the outdoor unit visible beside the home"
+  imagePosition="65% center"
+>
+  <p>Reverse-cycle air conditioning is often discussed as a summer purchase, but heating can be its most useful function in many Australian homes.</p>
+  <p>Instead of creating heat through an electric resistance element, a reverse-cycle system transfers heat from the outdoor air into the home. This allows it to deliver substantially more room heat than a standard portable resistance heater for the electricity it uses.</p>
+  <p>That does not make every reverse-cycle system equally suitable for winter.</p>
+  <p>Heating performance depends on the local climate, outdoor temperature, system size, indoor and outdoor-unit positions, defrost operation, maintenance and the amount of heat the room is losing.</p>
+  <p>A unit chosen mainly for summer cooling may not be the strongest heating option in a cold inland or elevated region. A highly efficient model can also perform poorly when it is undersized, obstructed or expected to heat several open rooms from one indoor unit.</p>
+  <p>This guide explains how reverse-cycle heating works and what to check before relying on it during winter.</p>
+  <h2>Our Take</h2>
+  <p>Treat heating and cooling as two separate performance questions.</p>
+  <p>A reverse-cycle air conditioner may provide both, but strong summer cooling does not automatically prove strong winter heating in the climate where the home is located.</p>
+  <p>Check the heating capacity, cold-climate information and heating stars for the relevant Zoned Energy Rating climate zone.</p>
+  <p>Then look beyond the appliance. A correctly sized system in an enclosed, insulated room can provide efficient heating. The same unit may struggle against open hallways, large unprotected windows and constant draughts.</p>
+  <h2>What is reverse-cycle heating?</h2>
+  <p>A reverse-cycle air conditioner is an air-source heat pump.</p>
+  <p>In cooling mode, it transfers heat from inside the home to the outdoor air.</p>
+  <p>In heating mode, the refrigerant cycle reverses and transfers heat from the outdoor air into the room.</p>
+  <p>The main components generally include:</p>
+  <ul class="feature-list">
+    <li>an indoor heat exchanger</li>
+    <li>an outdoor heat exchanger</li>
+    <li>a compressor</li>
+    <li>fans</li>
+    <li>refrigerant pipework</li>
+    <li>controls</li>
+    <li>condensate drainage</li>
+    <li>electrical connections</li>
+  </ul>
+  <p>The system uses electricity to operate the compressor, fans and controls.</p>
+  <p>It does not create all its delivered heat through an electric resistance element. This is why reverse-cycle heating can provide substantially more heat per unit of electricity than ordinary <a href="/guides/home-heating-options-australia/">portable resistance heaters</a>.</p>
+  <h2>How can it extract heat from cold outdoor air?</h2>
+  <p>Cold air still contains thermal energy.</p>
+  <p>The refrigerant circulating through the outdoor unit can absorb heat from the air even when outdoor conditions feel cold to a person. The compressor then raises the refrigerant’s pressure and temperature so that heat can be released through the indoor unit.</p>
+  <p>As outdoor temperatures fall, extracting usable heat generally becomes more demanding.</p>
+  <p>Depending on the system:</p>
+  <ul class="feature-list">
+    <li>heating capacity may reduce</li>
+    <li>electricity input may increase</li>
+    <li>efficiency may decline</li>
+    <li>frost may form on the outdoor coil</li>
+    <li>defrost cycles may become necessary</li>
+    <li>the system may take longer to warm the room</li>
+  </ul>
+  <p>This is why cold-climate performance needs to be checked rather than assumed from the standard heating-capacity figure alone.</p>
+  <h2>Reverse-cycle heating compared with resistance heating</h2>
+  <p class="table-hint">Swipe sideways to compare the full table.</p>
+  <div class="comparison-wrap" tabindex="0" role="region" aria-label="Reverse-cycle heating compared with resistance heating comparison">
+    <table class="comparison-table">
+      <caption>Reverse-cycle heating compared with resistance heating</caption>
+      <thead><tr><th scope="col">Feature</th><th scope="col">Reverse-cycle air conditioner</th><th scope="col">Portable electric resistance heater</th></tr></thead>
+      <tbody>
+        <tr><td>How heat is provided</td><td>Transfers heat from outdoors into the room</td><td>Converts electricity directly into heat</td></tr>
+        <tr><td>Heating efficiency</td><td>Can deliver substantially more room heat than the electricity consumed</td><td>Delivers heat broadly in line with electrical input</td></tr>
+        <tr><td>Cooling</td><td>Also provides refrigerated cooling</td><td>Does not provide cooling</td></tr>
+        <tr><td>Installation</td><td>Requires suitable indoor and outdoor positions and licensed work</td><td>Usually plugs into a suitable wall power point</td></tr>
+        <tr><td>Portability</td><td>Fixed system</td><td>Usually portable</td></tr>
+        <tr><td>Warm-up</td><td>Can warm an enclosed room quickly when correctly sized</td><td>Varies by fan, radiant, panel or column design</td></tr>
+        <tr><td>Noise</td><td>Indoor and outdoor fans and compressor</td><td>Depends on heater type</td></tr>
+        <tr><td>Cold-weather behaviour</td><td>Performance varies by model and outdoor conditions</td><td>Output is less dependent on outdoor temperature</td></tr>
+        <tr><td>Main buying risk</td><td>Choosing from cooling performance without checking winter suitability</td><td>Expecting a portable heater to condition a large room efficiently</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>A portable resistance heater may still make sense for short, occasional use in a small space.</p>
+  <p>Reverse-cycle heating becomes more compelling where a room is heated regularly, summer cooling is also needed and fixed installation is practical.</p>
+  <h2>Split, multi-split and ducted heating</h2>
+  <p>Reverse-cycle systems are available in several arrangements.</p>
+  <h3>Single split system</h3>
+  <p>One indoor unit connects to one outdoor unit.</p>
+  <p>This commonly suits:</p>
+  <ul class="feature-list">
+    <li><a href="/categories/bedroom/">one bedroom</a></li>
+    <li><a href="/categories/living-spaces/">one living room</a></li>
+    <li><a href="/categories/home-office/">a home office</a></li>
+    <li>one enclosed open-plan zone</li>
+  </ul>
+  <p>It provides direct control of the room but will not necessarily heat adjoining spaces effectively.</p>
+  <h3>Multi-split system</h3>
+  <p>Several indoor units connect to one outdoor system.</p>
+  <p>This can reduce the number of outdoor units but introduces shared capacity and a more complex installation.</p>
+  <p>Performance needs to be considered when:</p>
+  <ul class="feature-list">
+    <li>only one indoor unit operates</li>
+    <li>several rooms operate together</li>
+    <li>rooms request different temperatures</li>
+    <li>the combined indoor demand approaches the outdoor system’s capacity</li>
+  </ul>
+  <h3>Ducted reverse-cycle system</h3>
+  <p>A central indoor unit distributes warm air through ceiling or floor ducts.</p>
+  <p>It may suit homes heating multiple rooms, but the design must consider:</p>
+  <ul class="feature-list">
+    <li>duct routes</li>
+    <li>duct insulation</li>
+    <li>return-air location</li>
+    <li>zoning</li>
+    <li>minimum airflow</li>
+    <li>roof or underfloor access</li>
+    <li>heat loss through ducts</li>
+    <li>servicing access</li>
+  </ul>
+  <p>Zoning can reduce heating of unused areas, but zones cannot necessarily be closed without limit. The system must maintain its designed airflow.</p>
+  <h2>Heating capacity is not electrical power input</h2>
+  <p>Air-conditioner specifications use kilowatts for both output and electricity input.</p>
+  <p>These are not the same measurement.</p>
+  <h3>Heating capacity</h3>
+  <p>Heating capacity describes how much heat the system can deliver under specified test conditions.</p>
+  <h3>Power input</h3>
+  <p>Power input describes the electricity used by the system under specified conditions.</p>
+  <p>A system with 5 kW of heating capacity is not necessarily drawing 5 kW of electricity.</p>
+  <p>The difference between heat delivered and electrical input is central to heat-pump efficiency.</p>
+  <p>When comparing models:</p>
+  <ol class="feature-list">
+    <li>Identify the heating capacity required for the room.</li>
+    <li>Compare systems that can provide that output in the relevant climate.</li>
+    <li>Compare heating efficiency among suitably sized systems.</li>
+    <li>Keep cooling performance as a separate comparison.</li>
+  </ol>
+  <p>Do not select a low-input model that cannot provide enough heating for the actual space.</p>
+  <h2>Why standard room-size charts are limited</h2>
+  <p>Floor area is only one part of heating demand.</p>
+  <p>The required capacity can be affected by:</p>
+  <ul class="feature-list">
+    <li>local winter conditions</li>
+    <li>minimum outdoor temperatures</li>
+    <li>ceiling height</li>
+    <li><a href="/guides/home-insulation-basics/">ceiling, wall and floor insulation</a></li>
+    <li>window area</li>
+    <li>glazing type</li>
+    <li><a href="/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/">curtains and blinds</a></li>
+    <li>draughts</li>
+    <li>room orientation</li>
+    <li>external wall area</li>
+    <li>floor level</li>
+    <li>connected hallways or stair voids</li>
+    <li>number of occupants</li>
+    <li>desired indoor temperature</li>
+    <li>frequency and duration of use</li>
+  </ul>
+  <p>Two rooms with the same floor area may require different heating capacity.</p>
+  <p>A compact insulated bedroom with one small window is not comparable with an open living area containing large areas of single glazing.</p>
+  <p>Ask how the proposed system was sized. For difficult, open or highly glazed spaces, a site-specific load assessment is more useful than a generic square-metre recommendation.</p>
+  <h2>Measure the complete heated area</h2>
+  <p>Do not measure only the section of the room containing the sofa.</p>
+  <p>Include areas that cannot be closed off, such as:</p>
+  <ul class="feature-list">
+    <li>dining spaces</li>
+    <li>kitchens</li>
+    <li>hallways</li>
+    <li>entries</li>
+    <li>stairwells</li>
+    <li>study nooks</li>
+    <li>open doorways</li>
+    <li>connected rooms without doors</li>
+  </ul>
+  <p>Record:</p>
+  <ul class="feature-list">
+    <li>length</li>
+    <li>width</li>
+    <li>ceiling height</li>
+    <li>doorway widths</li>
+    <li>window dimensions</li>
+    <li>external-wall positions</li>
+    <li>current furniture layout</li>
+    <li>possible indoor-unit walls</li>
+  </ul>
+  <p>A single wall-mounted indoor unit may not distribute heat around corners or through several doorways.</p>
+  <p>If rooms need to operate independently, separate systems or a properly designed multi-room arrangement may be more suitable.</p>
+  <h2>Read the heating side of the Zoned Energy Rating Label</h2>
+  <p>The Zoned Energy Rating Label separates air-conditioner performance into:</p>
+  <ul class="feature-list">
+    <li>hot climate</li>
+    <li>average climate</li>
+    <li>cold climate</li>
+  </ul>
+  <p>It also separates:</p>
+  <ul class="feature-list">
+    <li>cooling efficiency</li>
+    <li>heating efficiency</li>
+  </ul>
+  <p>Do not use the most prominent or highest star figure without checking which function and zone it represents.</p>
+  <p>For winter use, check:</p>
+  <ul class="feature-list">
+    <li>heating capacity</li>
+    <li>heating stars for the property’s climate zone</li>
+    <li>indicative annual heating energy</li>
+    <li>any low-temperature heating information provided</li>
+    <li>indoor and outdoor sound information</li>
+    <li>whether the system’s capacity remains suitable in colder conditions</li>
+  </ul>
+  <p>Use the Australian Government Energy Rating Calculator to identify the relevant climate zone and compare suitably sized systems.</p>
+  <p>A model can have strong cooling performance in a hot zone and less convincing heating performance in a cold zone.</p>
+  <h2>Cold-climate performance</h2>
+  <p>Outdoor temperature affects the amount of heat available to the system and how the outdoor coil behaves.</p>
+  <p>In cold regions, check whether the selected model is designed to maintain useful heating capacity during:</p>
+  <ul class="feature-list">
+    <li>low overnight temperatures</li>
+    <li>frost</li>
+    <li>prolonged cold weather</li>
+    <li>elevated or inland conditions</li>
+  </ul>
+  <p>Important information may include:</p>
+  <ul class="feature-list">
+    <li>cold-zone heating stars</li>
+    <li>heating capacity at lower outdoor temperatures where published</li>
+    <li>the manufacturer’s permitted operating range</li>
+    <li>defrost design</li>
+    <li>whether supplementary heating is used</li>
+    <li>installation requirements for cold conditions</li>
+    <li>outdoor-unit drainage</li>
+  </ul>
+  <p>Do not assume a system suitable for winter mornings in Brisbane will provide the same result in Canberra, Ballarat, Hobart or an alpine area.</p>
+  <h2>What is a defrost cycle?</h2>
+  <p>During heating, the outdoor coil becomes cold as it absorbs heat from the outside air.</p>
+  <p>In cool, damp or frosty conditions, moisture can freeze on the coil. A layer of ice restricts airflow and reduces heat transfer.</p>
+  <p>The system may temporarily reverse its operation to warm the outdoor coil and remove the frost. This is called a defrost cycle.</p>
+  <p>During defrost:</p>
+  <ul class="feature-list">
+    <li>normal indoor heating may pause</li>
+    <li>the indoor fan may slow or stop</li>
+    <li>the outdoor fan may stop</li>
+    <li>water may drain from the outdoor unit</li>
+    <li>steam or vapour may briefly appear outside</li>
+    <li>operating sounds may change</li>
+  </ul>
+  <p>These behaviours can be normal when they occur for a limited period under suitable conditions.</p>
+  <p>The system should then return to heating.</p>
+  <h2>When defrost behaviour may need attention</h2>
+  <p>A defrost cycle is not automatically a fault.</p>
+  <p>Professional assessment may be appropriate where:</p>
+  <ul class="feature-list">
+    <li>the outdoor unit remains heavily iced</li>
+    <li>ice does not clear</li>
+    <li>heating fails to resume</li>
+    <li>defrost cycles seem unusually frequent or prolonged</li>
+    <li>the room repeatedly loses temperature</li>
+    <li>water freezes around the outdoor unit</li>
+    <li>unusual noise is present</li>
+    <li>error codes appear</li>
+    <li>the outdoor coil is obstructed</li>
+    <li>drainage is blocked</li>
+    <li>the system previously heated effectively but no longer does</li>
+  </ul>
+  <p>Do not chip ice from the coil, pour boiling water over the unit or open its panels.</p>
+  <p>Do not assume every pause in heating is defrost operation. Thermostat cycling, faults, control settings and system protection can also interrupt operation.</p>
+  <h2>Outdoor-unit drainage in winter</h2>
+  <p>Defrosting can produce water beneath the outdoor unit.</p>
+  <p>The installation should allow that water to drain without creating:</p>
+  <ul class="feature-list">
+    <li>pooling</li>
+    <li>slippery paths</li>
+    <li>staining</li>
+    <li>damage to walls</li>
+    <li>erosion</li>
+    <li>neighbour disputes</li>
+    <li>ice in very cold areas</li>
+    <li>water entering the building</li>
+    <li>corrosion around mounting hardware</li>
+  </ul>
+  <p>Before installation, ask:</p>
+  <ul class="feature-list">
+    <li>where defrost water will go</li>
+    <li>whether a drain is required</li>
+    <li>whether the unit is high enough above the surface</li>
+    <li>whether water can leave the mounting area</li>
+    <li>whether the position is beside a doorway or path</li>
+    <li>whether local cold conditions can cause refreezing</li>
+    <li>how the drainage area will be maintained</li>
+  </ul>
+  <p>Do not treat winter drainage as an afterthought simply because the system’s main condensate drain is associated with indoor cooling.</p>
+  <h2>Inverter operation</h2>
+  <p>Most current split-system air conditioners use inverter-driven variable-capacity compressors.</p>
+  <p>An inverter system can adjust its output rather than operating only at full power or off.</p>
+  <p>This can allow it to:</p>
+  <ul class="feature-list">
+    <li>increase output during initial warm-up</li>
+    <li>reduce output as the room approaches the target temperature</li>
+    <li>maintain a steadier indoor temperature</li>
+    <li>avoid some abrupt on-off cycling</li>
+    <li>operate efficiently under part-load conditions</li>
+  </ul>
+  <p>The word “inverter” does not guarantee:</p>
+  <ul class="feature-list">
+    <li>correct sizing</li>
+    <li>low noise</li>
+    <li>strong cold-climate performance</li>
+    <li>low running costs in a poorly insulated room</li>
+    <li>suitable controls</li>
+    <li>good installation quality</li>
+  </ul>
+  <p>Compare the complete system and Zoned Energy Rating information.</p>
+  <h2>How heating mode feels</h2>
+  <p>Reverse-cycle heating moves warm air through the room.</p>
+  <p>The result can feel different from sitting near an oil column or radiant heater.</p>
+  <p>Advantages may include:</p>
+  <ul class="feature-list">
+    <li>fast whole-room warm-up</li>
+    <li>even mixing when airflow is well designed</li>
+    <li>thermostat control</li>
+    <li>no hot portable appliance occupying the floor</li>
+    <li>summer cooling from the same system</li>
+  </ul>
+  <p>Possible drawbacks include:</p>
+  <ul class="feature-list">
+    <li>fan noise</li>
+    <li>noticeable air movement</li>
+    <li>warm air collecting near high ceilings</li>
+    <li>direct airflow onto a sofa, desk or bed</li>
+    <li>temperature differences in open or irregular spaces</li>
+    <li>pauses during defrost</li>
+    <li>outdoor-unit noise</li>
+  </ul>
+  <p>Indoor-unit position and fan control are therefore part of the buying decision.</p>
+  <h2>Indoor-unit position for winter heating</h2>
+  <p>Warm air rises, so a high wall-mounted unit needs to direct air down into the occupied zone.</p>
+  <p>Before installation, check:</p>
+  <ul class="feature-list">
+    <li>whether the louvres can direct warm air downwards</li>
+    <li>whether furniture blocks the airflow</li>
+    <li>whether the unit faces the main occupied area</li>
+    <li>whether it is mounted too close to a side wall</li>
+    <li>whether curtains can obstruct it</li>
+    <li>whether the warm air will disappear into a hallway or stairwell</li>
+    <li>whether the air blows directly onto a bed, sofa or desk</li>
+    <li>whether filters can be removed easily</li>
+    <li>whether the cover can open for servicing</li>
+  </ul>
+  <p>A unit mounted in the easiest pipework position may not provide the best winter air distribution.</p>
+  <h2>High ceilings and stair voids</h2>
+  <p>Warm air naturally collects above the occupied level.</p>
+  <p>Rooms with:</p>
+  <ul class="feature-list">
+    <li>high ceilings</li>
+    <li>cathedral ceilings</li>
+    <li>mezzanines</li>
+    <li>open stairs</li>
+    <li>double-height voids</li>
+  </ul>
+  <p>may require additional planning.</p>
+  <p>Possible considerations include:</p>
+  <ul class="feature-list">
+    <li>indoor-unit position</li>
+    <li>fan direction</li>
+    <li>ceiling-fan use</li>
+    <li>zoning</li>
+    <li>separating open spaces</li>
+    <li>additional heating capacity</li>
+    <li>multiple indoor units</li>
+  </ul>
+  <p>A <a href="/guides/ceiling-fans-before-you-buy/">reversible ceiling fan</a> operated at a suitable low winter setting can help redistribute warm air that has collected near the ceiling.</p>
+  <p>Follow the fan manufacturer’s instructions. The correct winter direction should not be assumed from clockwise or anticlockwise descriptions alone.</p>
+  <h2>Outdoor-unit position</h2>
+  <p>The outdoor unit needs unrestricted airflow and safe servicing access.</p>
+  <p>For winter heating, also consider:</p>
+  <ul class="feature-list">
+    <li>frost exposure</li>
+    <li>cold prevailing winds</li>
+    <li>roof runoff</li>
+    <li>leaf and debris accumulation</li>
+    <li>defrost drainage</li>
+    <li>snow or ice in relevant alpine conditions</li>
+    <li>distance from bedroom windows</li>
+    <li>noise reflected by walls</li>
+    <li>neighbouring properties</li>
+    <li>clearance beneath decks or screens</li>
+    <li>corrosion near the coast</li>
+    <li>maintenance access</li>
+  </ul>
+  <p>Do not enclose the outdoor unit in a decorative box or dense planting.</p>
+  <p>A cover or screen that obstructs airflow can reduce performance and cause recirculation of cold discharge air.</p>
+  <p>Any shelter must comply with the manufacturer’s clearances and preserve servicing access.</p>
+  <h2>Indoor and outdoor noise</h2>
+  <p>Reverse-cycle systems produce sound at both units.</p>
+  <p>Indoor sound may come from:</p>
+  <ul class="feature-list">
+    <li>the fan</li>
+    <li>airflow</li>
+    <li>moving louvres</li>
+    <li>refrigerant movement</li>
+    <li>plastic expansion</li>
+    <li>control relays</li>
+  </ul>
+  <p>Outdoor sound may come from:</p>
+  <ul class="feature-list">
+    <li>the compressor</li>
+    <li>the fan</li>
+    <li>vibration</li>
+    <li>defrost operation</li>
+    <li>mounting brackets</li>
+    <li>airflow reflecting from nearby walls</li>
+  </ul>
+  <p>A model’s published sound information should be considered together with placement.</p>
+  <p>A quiet outdoor unit may still be intrusive when mounted:</p>
+  <ul class="feature-list">
+    <li>beside a bedroom</li>
+    <li>beneath a neighbour’s window</li>
+    <li>in a narrow side passage</li>
+    <li>on a resonant wall</li>
+    <li>beside an outdoor entertaining area</li>
+  </ul>
+  <p>Noise requirements vary by jurisdiction, council, planning approval and strata rules.</p>
+  <p>Do not rely on one national setback or operating-hours claim.</p>
+  <h2>Thermostat settings and sensors</h2>
+  <p>The temperature selected on the remote is a target, not a direct command for hotter air.</p>
+  <p>Setting the thermostat far above the desired room temperature does not necessarily make the system reach comfort faster. It can simply make the unit continue heating for longer.</p>
+  <p>The room-temperature sensor may be located:</p>
+  <ul class="feature-list">
+    <li>in the indoor unit</li>
+    <li>in the remote control</li>
+    <li>in a wall controller</li>
+    <li>elsewhere in a ducted system</li>
+  </ul>
+  <p>A sensor high on the wall may detect warmer air than occupants experience lower in the room.</p>
+  <p>Check:</p>
+  <ul class="feature-list">
+    <li>whether the remote includes a follow-me or sensing function</li>
+    <li>where the wall controller is positioned</li>
+    <li>whether direct sun affects the sensor</li>
+    <li>whether the unit cycles off while the seating area remains cold</li>
+    <li>whether fan speed and louvre position can improve mixing</li>
+  </ul>
+  <p>Do not cover or relocate sensors without following manufacturer instructions.</p>
+  <h2>Fan speed and louvre control</h2>
+  <p>Low fan speed may feel quieter, but it may distribute heat less effectively across a large room.</p>
+  <p>Higher fan speed can:</p>
+  <ul class="feature-list">
+    <li>improve mixing</li>
+    <li>move heat towards distant areas</li>
+    <li>reduce warm air collecting near the ceiling</li>
+    <li>create more noticeable noise and draught</li>
+  </ul>
+  <p>Automatic fan control may vary the speed as the system warms the room.</p>
+  <p>Check whether:</p>
+  <ul class="feature-list">
+    <li>vertical louvres can direct heat downward</li>
+    <li>horizontal swing covers the occupied area</li>
+    <li>automatic mode behaves comfortably</li>
+    <li>the fan stops during defrost</li>
+    <li>low-speed operation is sufficient for sleep</li>
+    <li>settings return after a power interruption</li>
+  </ul>
+  <p>A unit with useful airflow controls can be easier to live with than one judged only by maximum capacity.</p>
+  <h2>Dry mode is not winter heating</h2>
+  <p>Dry or dehumidification mode is intended to reduce indoor moisture under suitable conditions.</p>
+  <p>It is not a winter heating mode.</p>
+  <p>Depending on the system, dry mode may cool the room or operate the compressor and fan in a way that is uncomfortable during cold weather.</p>
+  <p>Use heating mode when room heating is required.</p>
+  <p>Persistent winter condensation should also be addressed through:</p>
+  <ul class="feature-list">
+    <li>source ventilation</li>
+    <li>exhaust fans</li>
+    <li>building-leak investigation</li>
+    <li>window and insulation improvements</li>
+    <li>appropriate indoor-air management</li>
+  </ul>
+  <p>Do not rely on air-conditioning mode labels to resolve a moisture problem without understanding its cause.</p>
+  <h2>Filters and winter performance</h2>
+  <p>Dirty filters restrict airflow.</p>
+  <p>This can reduce:</p>
+  <ul class="feature-list">
+    <li>heating output</li>
+    <li>airflow across the room</li>
+    <li>efficiency</li>
+    <li>comfort</li>
+  </ul>
+  <p>It may also contribute to:</p>
+  <ul class="feature-list">
+    <li>noise</li>
+    <li>odour</li>
+    <li>dust movement</li>
+    <li>icing or system-protection behaviour in some circumstances</li>
+  </ul>
+  <p>Before winter:</p>
+  <ul class="feature-list">
+    <li>locate the filters</li>
+    <li>follow the manufacturer’s removal instructions</li>
+    <li>clean or replace them as specified</li>
+    <li>allow washable filters to dry fully</li>
+    <li>reinstall them correctly</li>
+    <li>do not operate the unit without required filters</li>
+  </ul>
+  <p>Do not dismantle the indoor unit beyond user-maintenance instructions.</p>
+  <p>A unit installed where filters cannot be reached safely is less likely to be maintained.</p>
+  <h2>Servicing and fault signs</h2>
+  <p>Routine user maintenance is usually limited.</p>
+  <p>Professional inspection may be appropriate where there is:</p>
+  <ul class="feature-list">
+    <li>declining heating performance</li>
+    <li>repeated error codes</li>
+    <li>refrigerant or oily residue</li>
+    <li>water leaking indoors</li>
+    <li>persistent odour</li>
+    <li>unusual vibration</li>
+    <li>electrical smell</li>
+    <li>damaged insulation around external pipework</li>
+    <li>frequent breaker trips</li>
+    <li>heavy outdoor icing</li>
+    <li>blocked drainage</li>
+    <li>abnormal noise</li>
+    <li>a fan that does not operate normally</li>
+  </ul>
+  <p>Do not add refrigerant as a routine top-up.</p>
+  <p>A sealed system does not normally consume refrigerant. Low charge may indicate leakage or another fault that requires licensed assessment and repair.</p>
+  <h2>Refrigerant and electrical licensing</h2>
+  <p>Installing, relocating, opening or decommissioning a split-system air conditioner involves regulated refrigerant work.</p>
+  <p>A person handling the refrigerant must hold the appropriate Refrigerant Handling Licence.</p>
+  <p>The project may also require licensed electrical work for:</p>
+  <ul class="feature-list">
+    <li>circuits</li>
+    <li>isolators</li>
+    <li>switchboard changes</li>
+    <li>fixed wiring</li>
+    <li>safety-switch protection</li>
+    <li>cable routes</li>
+  </ul>
+  <p>Before accepting a quote, confirm:</p>
+  <ul class="feature-list">
+    <li>who performs the refrigerant work</li>
+    <li>the relevant licence or authorisation</li>
+    <li>who performs the electrical work</li>
+    <li>whether subcontractors are used</li>
+    <li>which compliance documents will be supplied</li>
+    <li>who handles installation defects</li>
+    <li>who handles appliance faults</li>
+  </ul>
+  <p>Do not purchase a pre-charged split system with the intention of connecting it yourself.</p>
+  <h2>What an installation quote should include</h2>
+  <p>Ask for a written scope that identifies:</p>
+  <ul class="feature-list">
+    <li>exact indoor and outdoor models</li>
+    <li>heating and cooling capacities</li>
+    <li>indoor-unit location</li>
+    <li>outdoor-unit location</li>
+    <li>included pipe length</li>
+    <li>additional pipework rates</li>
+    <li>pipe-cover finish</li>
+    <li>condensate drainage</li>
+    <li>defrost-water management where relevant</li>
+    <li>wall or ground brackets</li>
+    <li>vibration control</li>
+    <li>wall penetration</li>
+    <li>electrical circuit</li>
+    <li>isolation switch</li>
+    <li>switchboard work</li>
+    <li>access requirements</li>
+    <li>difficult wall, roof or ceiling work</li>
+    <li>removal of an existing system</li>
+    <li>refrigerant recovery</li>
+    <li>disposal</li>
+    <li>patching or making good</li>
+    <li>commissioning</li>
+    <li>control demonstration</li>
+    <li>electrical documentation</li>
+    <li>workmanship warranty</li>
+    <li>travel or regional charges</li>
+  </ul>
+  <p>The phrase “standard installation” is not a complete scope.</p>
+  <h2>Commissioning matters</h2>
+  <p>After installation, the system should be tested rather than merely switched on.</p>
+  <p>The installer should confirm, as applicable:</p>
+  <ul class="feature-list">
+    <li>heating operation</li>
+    <li>cooling operation</li>
+    <li>airflow</li>
+    <li>louvre movement</li>
+    <li>controls</li>
+    <li>drainage</li>
+    <li>indoor and outdoor noise</li>
+    <li>refrigerant connections</li>
+    <li>electrical operation</li>
+    <li>system response</li>
+    <li>documentation</li>
+  </ul>
+  <p>Ask the installer to demonstrate:</p>
+  <ul class="feature-list">
+    <li>heating mode</li>
+    <li>cooling mode</li>
+    <li>fan-only mode</li>
+    <li>timer functions</li>
+    <li>filter access</li>
+    <li>winter louvre position</li>
+    <li>reverse-cycle controls</li>
+    <li>error-code reference</li>
+    <li>isolation points</li>
+  </ul>
+  <p>Keep model, serial, licence, invoice and commissioning information together.</p>
+  <h2>Replacing gas or resistance heating</h2>
+  <p>Reverse-cycle heating is increasingly considered as an alternative to:</p>
+  <ul class="feature-list">
+    <li>portable resistance heaters</li>
+    <li>fixed electric panel heaters</li>
+    <li><a href="/guides/oil-column-heater-vs-panel-heater/">oil column heaters</a></li>
+    <li>ducted gas heating</li>
+    <li>fixed gas room heaters</li>
+  </ul>
+  <p>The decision requires more than comparing fuel labels.</p>
+  <p>Consider:</p>
+  <ul class="feature-list">
+    <li>number of rooms</li>
+    <li>existing ducts</li>
+    <li>zoning</li>
+    <li>insulation</li>
+    <li>electrical capacity</li>
+    <li>outdoor-unit locations</li>
+    <li>summer cooling needs</li>
+    <li>local winter performance</li>
+    <li>removal of existing equipment</li>
+    <li>ventilation and flue issues</li>
+    <li>backup arrangements</li>
+    <li>installation cost</li>
+    <li>ongoing servicing</li>
+  </ul>
+  <p>Replacing one portable heater in a living room with a split system is different from replacing a whole-home ducted system.</p>
+  <p>Existing gas appliances must be disconnected or altered by appropriately licensed people.</p>
+  <h2>Solar electricity and daytime heating</h2>
+  <p>Households with rooftop solar may be able to operate reverse-cycle heating during daylight generation.</p>
+  <p>The practical benefit depends on:</p>
+  <ul class="feature-list">
+    <li>solar-system size</li>
+    <li>weather</li>
+    <li>household electrical load</li>
+    <li>heating demand</li>
+    <li>electricity tariff</li>
+    <li>feed-in tariff</li>
+    <li>system output</li>
+    <li>whether the home can retain heat after daytime operation</li>
+  </ul>
+  <p>Solar electricity does not make heating free in every condition.</p>
+  <p>Winter generation may be lower, heating demand may extend into the evening and grid electricity may still be required.</p>
+  <p>Improving insulation and controlling draughts can help the home retain daytime warmth for longer.</p>
+  <h2>Improve the room before increasing capacity</h2>
+  <p>Before choosing a larger air conditioner, check:</p>
+  <ul class="feature-list">
+    <li>ceiling insulation</li>
+    <li>wall and floor insulation</li>
+    <li>window coverings</li>
+    <li>gaps around doors and windows</li>
+    <li>open hallways</li>
+    <li>unused rooms</li>
+    <li>single glazing</li>
+    <li>seating directly beside cold glass</li>
+    <li>ceiling-fan winter operation</li>
+    <li>blocked indoor airflow</li>
+    <li>outdoor-unit obstruction</li>
+  </ul>
+  <p>Open curtains where useful winter sun can warm the room, then close them before outdoor temperatures fall.</p>
+  <p>Close doors to unused rooms where practical.</p>
+  <p>A system should be sized for the real space, but reducing uncontrolled heat loss can improve comfort and reduce operating time.</p>
+  <h2>Regional considerations</h2>
+  <h3>Tropical and subtropical regions</h3>
+  <p>Heating may be needed only occasionally.</p>
+  <p>Priorities may include:</p>
+  <ul class="feature-list">
+    <li>low-capacity modulation</li>
+    <li>quiet operation</li>
+    <li>effective cooling and humidity performance</li>
+    <li>simple transition between heating and cooling</li>
+    <li>filter maintenance</li>
+    <li>avoiding unnecessary whole-home heating</li>
+  </ul>
+  <p>Do not buy primarily for cold-climate performance when heating is rarely used, but still confirm that the function suits expected cool mornings.</p>
+  <h3>Temperate coastal regions</h3>
+  <p>Reverse-cycle systems may provide regular winter heating and summer cooling.</p>
+  <p>Check:</p>
+  <ul class="feature-list">
+    <li>heating and cooling stars</li>
+    <li>coastal corrosion exposure</li>
+    <li>outdoor-unit placement</li>
+    <li>overnight noise</li>
+    <li>room-by-room use</li>
+    <li>moderate but extended winter operation</li>
+  </ul>
+  <h3>Inland and elevated regions</h3>
+  <p>Low overnight temperatures and frost make cold-weather heating information more important.</p>
+  <p>Check:</p>
+  <ul class="feature-list">
+    <li>cold-zone heating stars</li>
+    <li>low-temperature capacity where available</li>
+    <li>outdoor operating range</li>
+    <li>defrost performance</li>
+    <li>drainage</li>
+    <li>installer experience in local winter conditions</li>
+  </ul>
+  <h3>Cool and alpine regions</h3>
+  <p>The heating function may be more important than cooling.</p>
+  <p>Do not select from standard heating capacity alone.</p>
+  <p>Obtain site-specific advice about:</p>
+  <ul class="feature-list">
+    <li>design temperatures</li>
+    <li>capacity at low outdoor temperatures</li>
+    <li>defrost operation</li>
+    <li>outdoor-unit elevation and drainage</li>
+    <li>supplementary heating if required</li>
+    <li>resilience during extreme conditions</li>
+  </ul>
+  <h2>Renters, apartments and strata properties</h2>
+  <p>Fixed installation may require:</p>
+  <ul class="feature-list">
+    <li>landlord approval</li>
+    <li>body corporate or owners corporation approval</li>
+    <li>external appearance approval</li>
+    <li>designated outdoor-unit positions</li>
+    <li>balcony drainage approval</li>
+    <li>noise assessment</li>
+    <li>wall-penetration approval</li>
+    <li>electrical work</li>
+    <li>making-good obligations</li>
+  </ul>
+  <p>Do not order the system until written approvals and site restrictions are understood.</p>
+  <p>Apartment installations also need to consider:</p>
+  <ul class="feature-list">
+    <li>common property</li>
+    <li>fire-rated walls</li>
+    <li>shared services</li>
+    <li>balcony heat discharge</li>
+    <li>neighbouring windows</li>
+    <li>access for replacement</li>
+    <li>condensate discharge</li>
+  </ul>
+  <p>A location that fits physically may not be permitted.</p>
+  <h2>Plan before peak heating or cooling demand</h2>
+  <p>Reverse-cycle systems are used in winter and summer, so installer demand can rise at both ends of the year.</p>
+  <p>Availability may tighten during:</p>
+  <ul class="feature-list">
+    <li>the first major cold spell</li>
+    <li>heatwaves</li>
+    <li>late spring</li>
+    <li>early summer</li>
+    <li>storm-recovery periods</li>
+    <li>Christmas and New Year, when some businesses reduce capacity or close temporarily</li>
+  </ul>
+  <p>Planning earlier provides more time to:</p>
+  <ul class="feature-list">
+    <li>assess the room</li>
+    <li>compare heating and cooling performance</li>
+    <li>check climate-zone information</li>
+    <li>obtain written quotes</li>
+    <li>confirm electrical work</li>
+    <li>seek approvals</li>
+    <li>verify licensing</li>
+    <li>order suitable equipment</li>
+    <li>schedule installation</li>
+  </ul>
+  <p>It does not guarantee a lower price or immediate appointment.</p>
+  <h2>When reverse-cycle heating may suit</h2>
+  <p>It may be a strong option where:</p>
+  <ul class="feature-list">
+    <li>the room is heated regularly</li>
+    <li>summer cooling is also required</li>
+    <li>a suitable indoor-unit position exists</li>
+    <li>an outdoor unit can be installed correctly</li>
+    <li>the room can be enclosed</li>
+    <li>the home has reasonable insulation or can be improved</li>
+    <li>cold-climate performance suits the region</li>
+    <li>licensed installation is practical</li>
+    <li>fan noise and airflow are acceptable</li>
+  </ul>
+  <h2>When another option may suit better</h2>
+  <p>Another heating method may be more practical where:</p>
+  <ul class="feature-list">
+    <li>heating is needed for only a few minutes occasionally</li>
+    <li>fixed installation is not permitted</li>
+    <li>no acceptable outdoor-unit position exists</li>
+    <li>the room cannot be isolated from a much larger space</li>
+    <li>the property cannot accommodate refrigerant and electrical work</li>
+    <li>fan airflow is unsuitable</li>
+    <li>the system cannot provide required capacity in extreme local conditions</li>
+    <li>emergency or backup heating has a separate identified need</li>
+  </ul>
+  <p>The answer may also be improving the home rather than increasing heating equipment.</p>
+  <h2>Before You Buy Checklist</h2>
+  <p>Before relying on reverse-cycle heating, check:</p>
+  <ul class="feature-list">
+    <li>Which room or rooms need heating?</li>
+    <li>Can the heated area be enclosed?</li>
+    <li>Have connected hallways, kitchens and stairs been included?</li>
+    <li>What are the floor dimensions?</li>
+    <li>What is the ceiling height?</li>
+    <li>What insulation is present?</li>
+    <li>How much window glass is present?</li>
+    <li>Are curtains or blinds effective?</li>
+    <li>Are significant draughts present?</li>
+    <li>What are the local winter conditions?</li>
+    <li>Does the property fall within the hot, average or cold Zoned Energy Rating climate zone?</li>
+    <li>Has the heating side of the label been checked?</li>
+    <li>Has heating capacity been separated from electrical input?</li>
+    <li>Is low-temperature capacity available and relevant?</li>
+    <li>Is the outdoor operating range suitable?</li>
+    <li>Is the unit designed for local frost conditions?</li>
+    <li>Has expected defrost behaviour been explained?</li>
+    <li>Is defrost-water drainage addressed?</li>
+    <li>Has the system been sized for the actual site?</li>
+    <li>Is a single split, multi-split or ducted arrangement proposed?</li>
+    <li>Will one indoor unit reach the complete occupied area?</li>
+    <li>Can warm air be directed downwards?</li>
+    <li>Will airflow blow directly onto a bed, sofa or desk?</li>
+    <li>Will warm air escape into a stair void or open hallway?</li>
+    <li>Can filters be removed safely?</li>
+    <li>Is a reversible ceiling fan available for a high room?</li>
+    <li>Is there an appropriate outdoor-unit position?</li>
+    <li>Are outdoor airflow clearances available?</li>
+    <li>Can servicing be completed without obstruction?</li>
+    <li>Have bedroom and neighbour noise been considered?</li>
+    <li>Is coastal corrosion exposure relevant?</li>
+    <li>Will the outdoor unit be exposed to roof runoff or debris?</li>
+    <li>Is there a practical refrigerant pipe route?</li>
+    <li>Is indoor condensate drainage defined?</li>
+    <li>Is winter defrost drainage defined?</li>
+    <li>Has electrical capacity been assessed?</li>
+    <li>Is a dedicated circuit required?</li>
+    <li>Is switchboard work included?</li>
+    <li>Has the refrigerant licence been checked?</li>
+    <li>Is licensed electrical work clearly allocated?</li>
+    <li>Are landlord or strata approvals required?</li>
+    <li>Does the quote define “standard installation”?</li>
+    <li>Are extra pipework, brackets and access costs explained?</li>
+    <li>Is removal of existing equipment included?</li>
+    <li>Are commissioning and demonstrations included?</li>
+    <li>Are electrical and installation documents supplied?</li>
+    <li>Are product and workmanship warranties distinct?</li>
+    <li>Is local after-sales service available?</li>
+    <li>Have filters and servicing requirements been considered?</li>
+    <li>Can insulation, curtains or draught control reduce heating demand?</li>
+    <li>Has installation been planned before <a href="/seasonal/">peak seasonal demand</a>?</li>
+  </ul>
+  <h2>Choose for winter as well as summer</h2>
+  <p>Reverse-cycle heating can be one of the most efficient ways to warm an Australian home, but only when the system suits the room and climate.</p>
+  <p>Do not select from cooling capacity, appearance or the highest star figure alone.</p>
+  <p>Check the heating capacity, cold-climate performance, Zoned Energy Rating information, defrost behaviour and outdoor operating range. Then resolve indoor airflow, outdoor-unit placement, drainage, electrical work, licensed installation and after-sales support.</p>
+  <p>A correctly selected system can provide efficient winter heating and summer cooling from the same installation.</p>
+  <p>An undersized, poorly positioned or climate-inappropriate unit may run continuously while the occupied part of the room remains uncomfortable.</p>
+
+  <section aria-labelledby="official-guidance-heading">
+    <h2 id="official-guidance-heading">Official guidance</h2>
+    <ul class="feature-list">
+      <li><ExternalLink href="https://www.energy.gov.au/households/heating-and-cooling">Australian Government heating and cooling guidance</ExternalLink></li>
+      <li><ExternalLink href="https://www.energy.gov.au/households/household-guides/seasonal-advice/winter">Australian Government winter energy savings guidance</ExternalLink></li>
+      <li><ExternalLink href="https://www.energyrating.gov.au/consumer-information/products/heating-and-cooling">Energy Rating heating and cooling guidance</ExternalLink></li>
+      <li><ExternalLink href="https://www.energyrating.gov.au/consumer-information/understand-zoned-energy-rating-label">Energy Rating guidance for understanding the Zoned Energy Rating Label</ExternalLink></li>
+      <li><ExternalLink href="https://calculator.energyrating.gov.au/">Australian Government Energy Rating Calculator</ExternalLink></li>
+      <li><ExternalLink href="https://www.energyrating.gov.au/sites/default/files/2022-12/The%20New%20Zoned%20Energy%20Rating%20Label%20for%20Air%20Conditioners.pdf">Energy Rating guide to the Zoned Energy Rating Label for air conditioners</ExternalLink></li>
+      <li><ExternalLink href="https://www.yourhome.gov.au/energy/heating-and-cooling">Australian Government Your Home heating and cooling guidance</ExternalLink></li>
+      <li><ExternalLink href="https://www.yourhome.gov.au/passive-design/passive-heating">Australian Government Your Home passive heating guidance</ExternalLink></li>
+      <li><ExternalLink href="https://www.arctick.org/refrigerant-handling-licence/licence-types/">Australian Refrigeration Council refrigerant-handling licence types</ExternalLink></li>
+      <li><ExternalLink href="https://arctick.org/information/faqs">Australian Refrigeration Council refrigerant-licensing frequently asked questions</ExternalLink></li>
+    </ul>
+  </section>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
+

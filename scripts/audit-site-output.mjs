@@ -19,6 +19,7 @@ const approvedLongMetaDescriptions = new Map([
 const requiredSeasonalSections = new Map([
   ["winter", [
     "/guides/home-heating-options-australia/",
+    "/guides/reverse-cycle-heating-explained/",
     "/guides/electric-blankets-vs-heated-throws/",
     "/guides/fan-heater-vs-ceramic-heater/",
     "/guides/oil-column-heater-vs-panel-heater/",
@@ -609,7 +610,7 @@ if (!fs.existsSync(seasonalOutputPath)) {
       /<article\b[^>]*class="[^"]*\bseasonal-guide-card\b[^"]*"/gi,
     )].length;
     allSeasonalHrefs.push(...guideHrefs);
-    const minimumPublishedGuides = season === "winter" ? 4 : 3;
+    const minimumPublishedGuides = season === "winter" ? 5 : 3;
     if (guideHrefs.length < minimumPublishedGuides) {
       addError(`Seasonal Guides ${season} section must contain at least ${minimumPublishedGuides} published guide cards.`);
     }
