@@ -15,6 +15,10 @@ const approvedLongMetaDescriptions = new Map([
     "guides/preparing-your-home-for-winter/index.html",
     "Prepare your Australian home for cooler weather by checking heaters, electric bedding, draughts, window coverings, insulation, smoke alarms and trade availability.",
   ],
+  [
+    "guides/condensation-and-mould-during-winter/index.html",
+    "Find the causes of winter condensation and mould. Check moisture sources, windows, heating, ventilation, insulation, leaks and safe cleaning before buying products.",
+  ],
 ]);
 const requiredSeasonalSections = new Map([
   ["winter", [
@@ -22,6 +26,7 @@ const requiredSeasonalSections = new Map([
     "/guides/heating-an-open-plan-living-area/",
     "/guides/reverse-cycle-heating-explained/",
     "/guides/reduce-draughts-before-buying-bigger-heater/",
+    "/guides/condensation-and-mould-during-winter/",
     "/guides/electric-blankets-vs-heated-throws/",
     "/guides/heating-a-bedroom-overnight-comfort/",
     "/guides/fan-heater-vs-ceramic-heater/",
@@ -613,7 +618,7 @@ if (!fs.existsSync(seasonalOutputPath)) {
       /<article\b[^>]*class="[^"]*\bseasonal-guide-card\b[^"]*"/gi,
     )].length;
     allSeasonalHrefs.push(...guideHrefs);
-    const minimumPublishedGuides = season === "winter" ? 8 : 3;
+    const minimumPublishedGuides = season === "winter" ? 9 : 3;
     if (guideHrefs.length < minimumPublishedGuides) {
       addError(`Seasonal Guides ${season} section must contain at least ${minimumPublishedGuides} published guide cards.`);
     }
