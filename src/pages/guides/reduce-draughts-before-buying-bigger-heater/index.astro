@@ -4,12 +4,13 @@ import ExternalLink from "../../../components/ExternalLink.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
+  { href: "/guides/home-heating-options-australia/", title: "Home Heating Options in Australia", description: "Compare common heating systems, room suitability, efficiency, installation needs and practical limitations." },
+  { href: "/guides/home-insulation-basics/", title: "Home Insulation Basics", description: "Check ceilings, roofs, walls, floors and installation priorities before planning an insulation upgrade." },
   { href: "/guides/condensation-and-mould-during-winter/", title: "Condensation and Mould During Winter", description: "Separate controlled ventilation from draughts while checking moisture, cold surfaces and recurring mould." },
-  { href: "/guides/heating-an-open-plan-living-area/", title: "Heating an Open-Plan Living Area", description: "Measure connected zones and reduce avoidable heat loss before sizing a system for an open kitchen, dining and living area." },
   { href: "/guides/heating-a-bedroom-overnight-comfort/", title: "Heating a Bedroom for Overnight Comfort", description: "Check bedroom heat loss, bedding, airflow and safe warm-up options before increasing heater output." },
-  { href: "/guides/preparing-your-home-for-winter/", title: "Preparing Your Home for Winter", description: "Inspect heating, electric bedding, draughts, window coverings and maintenance needs before cooler weather." },
-  { href: "/guides/air-conditioning-buying-guide/", title: "Air Conditioning Buying Guide", description: "Compare system types, sizing, efficiency, installation, noise and climate suitability before buying." },
-  { href: "/guides/home-office-setup-ideas-small-spaces/", title: "Home Office Setup Ideas for Small Spaces", description: "Plan a compact work zone around the desk, chair, light, cables and shared-room routines." },
+  { href: "/guides/heating-an-open-plan-living-area/", title: "Heating an Open-Plan Living Area", description: "Measure connected zones and reduce avoidable heat loss before sizing a system for an open living area." },
+  { href: "/guides/reverse-cycle-heating-explained/", title: "Reverse-Cycle Heating Explained", description: "Understand heating capacity, efficiency, climate ratings and cold-weather performance before choosing a system." },
+  { href: "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/", title: "Bedroom Lighting and Window Coverings", description: "Compare curtains, blinds, light control, clearances and practical bedroom use before buying." },
 ];
 ---
 
@@ -20,7 +21,7 @@ const relatedGuides = [
   category="Living Spaces"
   date="Published July 2026"
   datePublished="2026-07-29"
-  readingTime="23 minute read"
+  readingTime="13 minute read"
   showAffiliateDisclosure={false}
   image="/images/reduce-draughts-before-buying-bigger-heater.webp"
   imageAlt="An Australian living room with a sealed external door, fitted curtains and closed internal doors to reduce winter draughts"
@@ -28,795 +29,191 @@ const relatedGuides = [
   socialImageAlt="An Australian living room with a sealed external door, fitted curtains and closed internal doors to reduce winter draughts"
   imagePosition="63% center"
 >
-  <p>A cold room does not always need a <a href="/guides/home-heating-options-australia/">larger heater</a>.</p>
-  <p>Warm air may be leaving through gaps beneath doors, poorly sealed windows, open exhaust fans or unused parts of the home. Increasing heater size can make the room warm more quickly, but it can also mean using more energy to replace heat that continues escaping.</p>
+  <p>A cold room does not always need a larger heater.</p>
+  <p>Warm air may be leaving through gaps beneath doors, loose windows, open exhaust paths or unused parts of the home. Increasing heater size can warm the room more quickly, but it may also mean replacing heat that continues to escape.</p>
   <p>Draught proofing addresses uncontrolled air movement.</p>
-  <p>It does not mean sealing every opening or preventing fresh air from entering the home. Bathrooms, kitchens, combustion appliances and the building itself may depend on intentional ventilation, drainage and air-supply openings that must remain functional.</p>
-  <p>The useful approach is to identify where unwanted air is entering or leaving, understand why the opening exists and choose a suitable measure without creating moisture, air-quality or safety problems.</p>
-  <p>This guide explains what to check before buying a bigger heater.</p>
+  <p>It does not mean sealing every opening. Bathrooms, kitchens, combustion appliances and the building itself may depend on intentional ventilation, drainage and air-supply openings that must remain functional.</p>
+  <p>The useful approach is to find likely leakage, understand why an opening exists and choose a suitable response without creating moisture, indoor-air or safety problems.</p>
+
   <h2>Our Take</h2>
   <p>Reduce avoidable heat loss before increasing heating output.</p>
-  <p>Begin with doors, windows and the boundaries between heated and unheated rooms. These are often easier to understand and address than hidden gaps inside the building.</p>
-  <p>Do not treat every air movement as a defect.</p>
-  <p>A bathroom exhaust fan, gas-appliance vent, weep hole or designed ventilation opening may have an important purpose. Where the opening is unfamiliar, confirm its function before covering or sealing it.</p>
-  <p>The goal is controlled ventilation rather than uncontrolled leakage.</p>
-  <h2>What is a draught?</h2>
+  <p>Begin with doors, windows and the boundaries between heated and unheated rooms. These areas are usually easier to inspect than concealed gaps within walls, floors and ceilings.</p>
+  <p>Do not treat every movement of air as a defect. A bathroom fan, gas-appliance vent, weep hole, subfloor vent or designed opening may have an essential purpose.</p>
+  <p>The goal is controlled ventilation rather than uncontrolled leakage. No draught-proofing measure can guarantee a specific energy saving because the result also depends on climate, building condition, heating use, insulation and household behaviour.</p>
+
+  <h2>Uncontrolled draughts versus intentional ventilation</h2>
   <p>A draught is unwanted air movement through gaps or openings in the building.</p>
-  <p>Common examples include cold air entering:</p>
+  <p>Common examples include air moving:</p>
   <ul class="feature-list">
     <li>beneath an external door</li>
-    <li>around a loose window sash</li>
-    <li>through gaps around an old door frame</li>
-    <li>between floorboards</li>
-    <li>around skirting boards</li>
-    <li>through an unsealed access hatch</li>
-    <li>around service penetrations</li>
+    <li>around a loose window sash or door frame</li>
+    <li>between floorboards or beside skirting</li>
+    <li>around an unsealed ceiling hatch</li>
+    <li>through service penetrations</li>
     <li>through an exhaust fan without an effective damper</li>
     <li>through an unused fireplace or chimney</li>
     <li>from an unheated hallway, garage or laundry</li>
   </ul>
-  <p>Draughts can also allow warm conditioned air to leave the room.</p>
-  <p>They are different from intentional ventilation, which is used to:</p>
-  <ul class="feature-list">
-    <li>remove cooking moisture and pollutants</li>
-    <li>remove bathroom humidity</li>
-    <li>provide combustion air</li>
-    <li>maintain indoor air quality</li>
-    <li>cool the home when outdoor conditions are suitable</li>
-    <li>serve an evaporative cooling system</li>
-    <li>protect parts of the building from trapped moisture</li>
-  </ul>
-  <p>A successful improvement reduces unwanted leakage while preserving the ventilation the home requires.</p>
+  <p>Intentional ventilation performs a job. It may remove bathroom humidity and cooking pollutants, provide combustion air, support indoor air quality, serve an evaporative cooler or protect the building from trapped moisture.</p>
+  <p>Never block required ventilation or combustion-air openings. Never seal brick weep holes, window drainage slots or subfloor vents. If the purpose of an opening is unclear, identify it before covering or filling it.</p>
+
+  <h2>Cold surfaces can feel like draughts</h2>
+  <p>Discomfort beside a window or external wall does not always prove air is leaking.</p>
+  <p>A large cold surface can draw heat from the body. Air cooled beside cold glass can also sink towards the floor and create circulation that feels like a draught even where the window is closed correctly.</p>
+  <p>The better response may involve curtains, blinds, a suitable pelmet, improved glazing, <a href="/guides/home-insulation-basics/">insulation</a> or moving seating away from the surface rather than adding a seal.</p>
+  <p>Check whether the problem is moving air, a cold surface or both. A larger heater may warm the room air while the cold surface continues to affect comfort.</p>
+
   <h2>Draught problems at a glance</h2>
   <p class="table-hint">Swipe sideways to compare the full table.</p>
   <div class="comparison-wrap" tabindex="0" role="region" aria-label="Draught problems at a glance comparison">
     <table class="comparison-table">
       <caption>Draught problems at a glance</caption>
-      <thead><tr><th scope="col">What you notice</th><th scope="col">Possible cause</th><th scope="col">What to check first</th></tr></thead>
+      <thead>
+        <tr>
+          <th scope="col">What you notice</th>
+          <th scope="col">Possible cause</th>
+          <th scope="col">What to check first</th>
+        </tr>
+      </thead>
       <tbody>
-        <tr><td>Cold air beneath an external door</td><td>Large threshold gap, worn sweep or uneven floor</td><td>Door movement, gap size and compatible lower seal</td></tr>
-        <tr><td>Air around the sides of a hinged door</td><td>Worn or missing compression seal</td><td>Frame condition, latch alignment and seal profile</td></tr>
-        <tr><td>Rattling sliding window</td><td>Worn brush seals or loose sash</td><td>Window type, tracks, drainage and replacement seals</td></tr>
-        <tr><td>Curtains moving with windows closed</td><td>Frame gaps, loose sash or wall leakage</td><td>Latches, seals, frame junctions and visible damage</td></tr>
-        <tr><td>Cold air from a bathroom ceiling grille</td><td>Exhaust fan without an effective backdraft damper</td><td>Fan design, ducting and compatible draught-stopping options</td></tr>
-        <tr><td>Cold air from an evaporative cooling outlet</td><td>Unsealed <a href="/seasonal/">winter</a> duct opening</td><td>Manufacturer-approved winter covers or dampers</td></tr>
-        <tr><td>Draught around a ceiling access hatch</td><td>Unsealed hatch perimeter</td><td>Safe perimeter seal and continued access</td></tr>
-        <tr><td>Cold air through floorboards</td><td>Board gaps or unsealed subfloor airflow paths</td><td>Floor construction, moisture and ventilation requirements</td></tr>
-        <tr><td>One room cools when an internal door is open</td><td>Heat escaping into unheated areas</td><td>Zoning, internal door seals and airflow requirements</td></tr>
-        <tr><td>Draught near an unused fireplace</td><td>Open chimney or failed damper</td><td>Fireplace condition and safe professional assessment</td></tr>
-        <tr><td>Air around power points or wall penetrations</td><td>Leakage within wall cavities</td><td>Building assessment rather than unsafe electrical sealing</td></tr>
-        <tr><td>Persistent condensation after sealing</td><td>Insufficient controlled ventilation or unresolved moisture</td><td>Exhaust systems, indoor humidity and leak sources</td></tr>
+        <tr>
+          <td>Cold air beneath an external door</td>
+          <td>Threshold gap, worn sweep or uneven floor</td>
+          <td>Door movement, gap and lower-seal clearance</td>
+        </tr>
+        <tr>
+          <td>Rattling sliding door or window</td>
+          <td>Worn brush seals, dirty track or poor alignment</td>
+          <td>Rollers, tracks, latches, seals and drainage</td>
+        </tr>
+        <tr>
+          <td>Cold air from a ceiling grille</td>
+          <td>Exhaust fan or evaporative cooling outlet</td>
+          <td>System type and approved damper or winter measure</td>
+        </tr>
+        <tr>
+          <td>Air around a ceiling hatch</td>
+          <td>Loose or unsealed hatch perimeter</td>
+          <td>Hatch fit, safe access and compatible perimeter seal</td>
+        </tr>
+        <tr>
+          <td>Draught near an unused fireplace</td>
+          <td>Open chimney or failed damper</td>
+          <td>Fireplace status, ventilation needs and professional advice</td>
+        </tr>
+        <tr>
+          <td>Condensation worsens after sealing</td>
+          <td>Reduced drying or unresolved moisture source</td>
+          <td>Exhaust systems, humidity, heating and possible leaks</td>
+        </tr>
       </tbody>
     </table>
   </div>
-  <p>One symptom can have several causes. A cold sensation near a window may also result from the cold glass surface rather than air physically moving through a gap.</p>
-  <h2>Cold surfaces can feel like draughts</h2>
-  <p>People can feel uncomfortable beside a cold window or wall even where there is little air leakage.</p>
-  <p>A large cold surface can draw heat from the body through radiant heat exchange. Cool air beside the glass can also sink towards the floor and create circulation that feels like a draught.</p>
-  <p>This means the solution may involve:</p>
-  <ul class="feature-list">
-    <li><a href="/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/">curtains</a></li>
-    <li>blinds</li>
-    <li>pelmets</li>
-    <li>improved glazing</li>
-    <li><a href="/guides/home-insulation-basics/">insulation</a></li>
-    <li>moving seating away from the cold surface</li>
-  </ul>
-  <p>rather than adding a weather seal.</p>
-  <p>Before buying sealing products, determine whether the problem is:</p>
-  <ul class="feature-list">
-    <li>moving air</li>
-    <li>a cold surface</li>
-    <li>both</li>
-  </ul>
-  <p>A larger heater may warm the surrounding air while the cold surface continues affecting comfort.</p>
-  <h2>Start with a room-by-room walk-through</h2>
-  <p>Inspect the home while conditions make the problem noticeable.</p>
-  <p>Choose a cool or windy day, but remain indoors and use low-risk observations.</p>
+
+  <h2>Identify likely leakage safely</h2>
+  <p>Inspect the home when the problem is noticeable, such as during cool or windy weather. Remain indoors and begin with simple observations.</p>
   <p>Record:</p>
   <ul class="feature-list">
-    <li>where cold air is felt</li>
-    <li>which direction the wind is coming from</li>
-    <li>whether doors or windows rattle</li>
-    <li>whether curtains move</li>
-    <li>whether the room cools rapidly after heating stops</li>
-    <li>whether one side of a doorway feels colder</li>
-    <li>whether exhaust grilles allow noticeable air movement</li>
-    <li>whether gaps are visible in daylight</li>
-    <li>which rooms are heated</li>
-    <li>which adjoining rooms remain unheated</li>
-    <li>where moisture or condensation occurs</li>
+    <li>where moving air is felt</li>
+    <li>whether the wind direction changes the symptom</li>
+    <li>which doors or windows rattle</li>
+    <li>whether curtains move with windows closed</li>
+    <li>whether the issue changes when an exhaust system operates</li>
+    <li>which rooms are heated and which remain open</li>
   </ul>
-  <p>Do not use:</p>
+  <p>Mark each location on a simple floor plan and note whether the symptom is continuous or weather-dependent. This helps separate one damaged seal from a broader building-envelope problem and gives a repairer clearer information without opening walls, ceilings or service fittings.</p>
+  <p>Use the back of a hand near an accessible gap without touching electrical fittings, hot appliances or moving equipment. A strip of light tissue held securely can indicate airflow, provided it cannot be drawn into a fan, heater or duct.</p>
+  <p>Do not use candles, matches, incense or any flame to locate draughts. Do not release powders, aerosols or loose fibres into the air. Smoke-based testing is work for appropriately trained people using suitable equipment.</p>
+  <p>Do not remove fixed electrical covers or modify power points, switches, lights or wiring. Do not push loose material into ducts, grilles, wall cavities or service openings. Do not enter a roof space casually; access can involve heat, fragile ceilings, wiring, insulation, pests and restricted movement.</p>
+
+  <h2>External and internal doors</h2>
+  <p>Before adding a seal to an external hinged door, check that the door closes squarely, latches correctly and is not damaged. A misaligned door may need adjustment or repair before a seal can work.</p>
+  <p>Check the gap at the threshold and around the frame while opening, closing and locking the door. A lower seal must clear the floor, threshold and mat without preventing closure or creating a trip or accessibility problem. Frame seals should compress enough to limit leakage without making the latch difficult to use.</p>
+  <p>Internal doors can separate a heated room from hallways, laundries, garages or unused areas. Closing an existing door may reduce the connected volume the heater must condition.</p>
+  <p>Do not add seals that obstruct fire doors, emergency exits or required return-air paths. A central heating or cooling system may rely on air moving back to a return grille when doors are closed. If the door has a fire, smoke, acoustic or ventilation function, arrange appropriate advice before changing it.</p>
+
+  <h2>Sliding doors and windows</h2>
+  <p>Sliding doors and windows use tracks, rollers, latches and brush seals that can wear or collect debris. Cleaning an accessible track and confirming that the panel sits squarely may improve closure before any new seal is considered.</p>
+  <p>Do not fill the track or cover drainage slots. These openings allow water to leave the frame. A seal that drags heavily can make a panel difficult to operate, damage the frame or interfere with emergency egress.</p>
+  <p>For hinged and awning windows, check whether the sash closes fully and the latch pulls it evenly against the existing seal. Timber decay, corrosion, cracked glass, damaged hardware or a distorted frame requires repair rather than another adhesive strip.</p>
+  <p>Curtains and blinds can reduce discomfort from cold glass even when air leakage is limited. They should cover the window effectively, open so the area can dry and remain clear of heaters. Use the <a href="/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/">Bedroom Lighting and Window Coverings guide</a> for broader placement and clearance planning.</p>
+
+  <h2>Exhaust fans and evaporative cooling outlets</h2>
+  <p>Bathroom and kitchen exhaust systems remove moisture, odours and pollutants. They must still open and move air when operating.</p>
+  <p>Some exhaust fans use an integral backdraft shutter or a compatible duct damper to reduce reverse airflow when switched off. The correct option depends on the fan, duct route and discharge point. A cover that does not open freely can reduce extraction and increase condensation risk.</p>
+  <p>Keep rangehood ducts functional and maintain filters as directed. Do not cover a grille with plastic, cardboard or loose insulation.</p>
+  <p>Evaporative cooling outlets can admit cold air when the system is not used in winter. Use only a manufacturer-approved winter cover, damper or shutdown procedure for that system. Remove seasonal measures before operation and do not push loose material into the outlet or duct.</p>
+
+  <h2>Ceiling hatches, floors and service penetrations</h2>
+  <p>A ceiling access hatch may leak around its perimeter when it sits loosely. A compatible perimeter seal can help where the hatch still opens safely and the material does not interfere with clearances or access.</p>
+  <p>Do not enter the roof space simply to inspect the other side. Arrange suitable assessment where electrical equipment, recessed lights, damaged insulation, pests, mould or uncertain construction is involved.</p>
+  <p>Gaps between floorboards, beside skirting or around pipes can admit cold air, particularly above a ventilated subfloor. Rugs can improve comfort without altering the building. Permanent work must suit the floor movement, moisture conditions and construction.</p>
+  <p>Subfloor ventilation helps manage moisture beneath many homes. Never cover subfloor vents to make a room feel warmer. Dampness, decay, pests, plumbing leaks or widespread floor leakage may require inspection rather than surface filler.</p>
+  <p>Service penetrations occur around plumbing, cables, air-conditioning lines and other services. Seal only accessible, non-electrical gaps with a material suitable for the surface, movement and required fire or moisture performance.</p>
+  <p>Do not modify fixed electrical fittings. Air movement around a power point or switch can indicate a wall-cavity path, but the fitting and wiring require licensed electrical boundaries.</p>
+
+  <h2>Fireplaces, combustion air and required vents</h2>
+  <p>An unused fireplace or open chimney can move substantial air, but it should not be blocked casually.</p>
+  <p>First confirm whether the fireplace is permanently unused, whether another appliance shares the flue and whether a damper, cap or removable closure is appropriate. Any measure must be clearly removed before the fireplace is used again.</p>
+  <p>Gas, wood and other combustion appliances may require permanent ventilation and combustion air. Never block a wall vent, floor vent or other opening serving an appliance. Do not use an outdoor gas heater, barbecue or other outdoor combustion appliance indoors.</p>
+  <p>Arrange qualified advice where a fireplace, flue, gas appliance, carbon-monoxide risk or unfamiliar vent is involved. Draught reduction must not compromise combustion safety.</p>
+
+  <h2>Condensation after sealing</h2>
+  <p>Reducing uncontrolled leakage can make a home easier to heat, but it can also reduce incidental drying.</p>
+  <p>If window condensation, damp smells or mould appear or worsen after sealing, investigate them. Do not simply reopen random gaps or block more ventilation.</p>
+  <p>Check bathroom and kitchen exhaust, clothes drying, heating patterns, room humidity and possible leaks. Preserve controlled ventilation and address the moisture source. The [Condensation and Mould During Winter guide](/guides/condensation-and-mould-during-winter/) explains these checks in more detail.</p>
+
+  <h2>Renters and apartments</h2>
+  <p>Renters can begin with removable, non-damaging measures where permitted, such as closing existing doors, using curtains correctly and reporting worn seals or damaged hardware.</p>
+  <p>Document the location, weather conditions, photographs and effect on room comfort. Report failed windows, doors, exhaust systems, fireplaces, vents, water entry and recurring condensation through the required tenancy process.</p>
+  <p>Do not make permanent alterations, interfere with fixed services or cover required openings without approval.</p>
+  <p>Apartment changes may also involve common property, facade rules, fire doors, corridor pressure, shared exhaust systems and body-corporate requirements. A perceived gap may be part of a designed air or smoke-control path. Obtain the required approval and appropriate assessment before altering it.</p>
+
+  <h2>When repair or professional assessment is more appropriate</h2>
+  <p>Another seal is unlikely to solve a door or window that is warped, corroded, decayed, cracked or badly misaligned.</p>
+  <p>Arrange suitable repair or assessment where:</p>
   <ul class="feature-list">
-    <li>candles</li>
-    <li>matches</li>
-    <li>lighters</li>
-    <li>incense</li>
-    <li>smoke pencils not intended for household use</li>
-    <li>any flame near curtains, gas appliances, dust or combustible materials</li>
-  </ul>
-  <p>A light piece of tissue may help indicate air movement around a safe, accessible door or window edge, but keep it away from electrical fittings, heaters, flames and moving fans.</p>
-  <h2>Work from obvious boundaries first</h2>
-  <p>The most practical starting points are usually:</p>
-  <ol class="feature-list">
-    <li>external doors</li>
-    <li>windows</li>
-    <li>internal doors separating heated and unheated rooms</li>
-    <li>exhaust fans</li>
-    <li>evaporative cooling outlets</li>
-    <li>ceiling access hatches</li>
-    <li>skirting and floor junctions</li>
-    <li>fireplaces and chimneys</li>
-    <li>service penetrations</li>
-    <li>hidden building leakage requiring assessment</li>
-  </ol>
-  <p>Complete the straightforward observations before buying a large assortment of seals.</p>
-  <p>Different gaps require different products. One thick foam strip will not suit every door and window.</p>
-  <h2>External doors</h2>
-  <p>External doors can leak around:</p>
-  <ul class="feature-list">
-    <li>the bottom edge</li>
-    <li>the latch side</li>
-    <li>the hinge side</li>
-    <li>the head of the frame</li>
-    <li>the threshold</li>
-    <li>glazing panels</li>
-    <li>damaged seals</li>
-    <li>warped door leaves</li>
-    <li>misaligned latches</li>
-  </ul>
-  <p>Close the door gently and inspect whether:</p>
-  <ul class="feature-list">
-    <li>it sits evenly in the frame</li>
-    <li>the latch pulls it against existing seals</li>
-    <li>daylight is visible</li>
-    <li>the lower gap changes across the width</li>
-    <li>the door drags on the floor</li>
-    <li>weather seals are cracked or flattened</li>
-    <li>the threshold is loose or damaged</li>
-  </ul>
-  <p>A seal cannot correct every door fault.</p>
-  <p>A badly warped, sagging or misaligned door may need adjustment or repair before a new seal will work properly.</p>
-  <h2>Lower door seals</h2>
-  <p>Common lower-door options include:</p>
-  <ul class="feature-list">
-    <li>flexible sweeps</li>
-    <li>brush strips</li>
-    <li>automatic drop seals</li>
-    <li>threshold seals</li>
-    <li>removable door snakes</li>
-  </ul>
-  <p>The suitable option depends on:</p>
-  <ul class="feature-list">
-    <li>gap height</li>
-    <li>floor surface</li>
-    <li>door material</li>
-    <li>swing direction</li>
-    <li>exposure to weather</li>
-    <li>threshold design</li>
-    <li>accessibility needs</li>
-    <li>fire or smoke requirements</li>
-    <li>rental permissions</li>
-  </ul>
-  <p>A thick seal can make a door difficult to close or damage the floor.</p>
-  <p>A brush may suit an uneven surface but provide less air resistance than a properly fitted flexible seal.</p>
-  <p>A door snake can be useful as a removable measure, but it must not obstruct:</p>
-  <ul class="feature-list">
-    <li>exits</li>
-    <li>door operation</li>
-    <li>wheelchair access</li>
-    <li>required airflow</li>
-    <li>safe walking paths</li>
-  </ul>
-  <p>Do not permanently attach a product until the full door movement has been checked.</p>
-  <h2>Seals around hinged door frames</h2>
-  <p>Compression and foam seals can reduce gaps where a hinged door closes against its frame.</p>
-  <p>Before choosing one, measure:</p>
-  <ul class="feature-list">
-    <li>gap width</li>
-    <li>gap depth</li>
-    <li>length required</li>
-    <li>available surface</li>
-    <li>whether the door already compresses against a seal</li>
-    <li>whether paint or damage affects adhesion</li>
-  </ul>
-  <p>A seal that is too thin may make little difference.</p>
-  <p>A seal that is too thick may:</p>
-  <ul class="feature-list">
-    <li>prevent latching</li>
-    <li>place pressure on hinges</li>
-    <li>distort the door</li>
-    <li>make the door difficult to open</li>
-    <li>create an accessibility problem</li>
-  </ul>
-  <p>Clean the application surface according to the product instructions and test a small section before completing the entire frame.</p>
-  <p>Do not cover identification plates, fire-door hardware or required clearances.</p>
-  <h2>Internal doors and heating zones</h2>
-  <p>An internal door can help separate a heated room from:</p>
-  <ul class="feature-list">
-    <li>a hallway</li>
-    <li>laundry</li>
-    <li>bathroom</li>
-    <li>garage entry</li>
-    <li>spare <a href="/categories/bedroom/">bedroom</a></li>
-    <li>stairwell</li>
-  </ul>
-  <p>This can reduce the area the heater is trying to condition.</p>
-  <p>Internal doors may still need under-door airflow for:</p>
-  <ul class="feature-list">
-    <li>ducted return-air paths</li>
-    <li>pressure balance</li>
-    <li>ventilation</li>
-    <li>appliance operation</li>
-    <li>the building’s original design</li>
-  </ul>
-  <p>Do not automatically seal every internal door tightly.</p>
-  <p>Before adding a lower seal, check whether:</p>
-  <ul class="feature-list">
-    <li>the room contains an exhaust fan</li>
-    <li>a ducted system relies on transfer air</li>
-    <li>the door closes against a return-air path</li>
-    <li>the room contains a combustion appliance</li>
-    <li>pressure changes affect other doors</li>
-    <li>condensation becomes worse when the room is closed</li>
-  </ul>
-  <p>Simple zoning can be effective, but it must remain compatible with the home’s ventilation and heating system.</p>
-  <h2>Sliding doors</h2>
-  <p>Sliding doors often leak around:</p>
-  <ul class="feature-list">
-    <li>meeting stiles</li>
-    <li>tracks</li>
-    <li>brush seals</li>
-    <li>interlocks</li>
-    <li>the lower rail</li>
-    <li>damaged rollers</li>
-    <li>frame junctions</li>
-  </ul>
-  <p>Inspect whether the door:</p>
-  <ul class="feature-list">
-    <li>closes fully</li>
-    <li>locks correctly</li>
-    <li>sits square in the frame</li>
-    <li>has intact brush seals</li>
-    <li>moves smoothly</li>
-    <li>contains blocked drainage holes</li>
-    <li>rattles in wind</li>
-  </ul>
-  <p>Do not seal drainage or weep openings in the frame.</p>
-  <p>These openings may allow water to leave the track.</p>
-  <p>Worn rollers or alignment can prevent seals from meeting properly. Replacing brush seals without correcting the door position may provide little improvement.</p>
-  <p>Large glazed sliding doors can also remain thermally uncomfortable after air leaks are reduced. Suitable curtains, blinds or glazing improvements may still be needed.</p>
-  <h2>Windows</h2>
-  <p>Window sealing depends on the opening type.</p>
-  <p>Common windows include:</p>
-  <ul class="feature-list">
-    <li>sliding</li>
-    <li>double-hung</li>
-    <li>casement</li>
-    <li>awning</li>
-    <li>louvre</li>
-    <li>fixed glazing</li>
-    <li>sash windows</li>
-  </ul>
-  <p>Check:</p>
-  <ul class="feature-list">
-    <li>whether the sash closes completely</li>
-    <li>latch condition</li>
-    <li>brush or compression seals</li>
-    <li>frame joints</li>
-    <li>track cleanliness</li>
-    <li>drainage openings</li>
-    <li>cracked glazing seals</li>
-    <li>movement in wind</li>
-    <li>damaged hinges</li>
-    <li>warped timber</li>
-    <li>corrosion</li>
-    <li>gaps between the frame and surrounding wall</li>
-  </ul>
-  <p>Do not force a damaged window closed or seal over drainage paths.</p>
-  <p>A latch adjustment may improve compression against an existing seal, but hardware repair should remain compatible with the window.</p>
-  <p>Louvre windows are designed around multiple moving blades and may remain difficult to seal fully. Their ventilation role and condition should be understood before temporary covers or replacement are considered.</p>
-  <h2>Curtains, blinds and pelmets</h2>
-  <p>Window coverings do not seal gaps in the frame, but they can reduce heat loss and improve comfort near cold glass.</p>
-  <p>Check whether curtains:</p>
-  <ul class="feature-list">
-    <li>cover the complete window</li>
-    <li>extend beyond the sides</li>
-    <li>reach the sill or floor where intended</li>
-    <li>close without large gaps</li>
-    <li>remain close to the wall</li>
-    <li>are blocked by furniture</li>
-    <li>contact heaters</li>
-    <li>operate safely</li>
-  </ul>
-  <p>A fitted pelmet can reduce warm room air circulating behind a curtain and cooling against the window.</p>
-  <p>Do not place curtains within a heater’s required clearance.</p>
-  <p>Open suitable coverings where winter sun can warm the room, then close them before outdoor temperatures fall.</p>
-  <p>Blinds fitted closely within or against the opening may provide another layer, but they should not block window operation, required ventilation or emergency egress.</p>
-  <h2>Exhaust fans</h2>
-  <p>Bathroom, toilet and laundry exhaust fans can allow air movement when they are not operating.</p>
-  <p>A compatible backdraft damper or draught-stopping cover may reduce unwanted reverse airflow.</p>
-  <p>The solution must not prevent the fan from exhausting moisture when required.</p>
-  <p>Before buying a cover or damper, check:</p>
-  <ul class="feature-list">
-    <li>fan type</li>
-    <li>ceiling or wall mounting</li>
-    <li>ducted or unducted operation</li>
-    <li>duct diameter</li>
-    <li>existing damper</li>
-    <li>manufacturer instructions</li>
-    <li>access for cleaning</li>
-    <li>whether the fan still opens and exhausts correctly</li>
-    <li>whether condensation forms in the duct</li>
-    <li>whether a roof or wall outlet is obstructed</li>
-  </ul>
-  <p>Do not tape over an exhaust grille or block it with plastic, fabric or insulation.</p>
-  <p>Bathroom and laundry ventilation remains necessary even in winter.</p>
-  <p>A fan that does not exhaust effectively may need repair rather than a draught stopper.</p>
-  <h2>Kitchen rangehoods</h2>
-  <p>A ducted rangehood may include a backdraft damper designed to reduce outside air entering through the duct.</p>
-  <p>Check whether:</p>
-  <ul class="feature-list">
-    <li>the damper moves freely</li>
-    <li>grease has restricted it</li>
-    <li>the duct outlet is damaged</li>
-    <li>wind causes repeated movement or noise</li>
-    <li>the rangehood exhausts effectively</li>
-    <li>filters require cleaning</li>
-  </ul>
-  <p>Do not seal the duct or exterior outlet.</p>
-  <p>Do not dismantle fixed electrical components.</p>
-  <p>Where the rangehood shares a room with a combustion appliance, airflow and pressure interactions require particular care and qualified advice.</p>
-  <p>A powerful exhaust system can affect the way air moves through the home.</p>
-  <h2>Evaporative cooling outlets</h2>
-  <p>Ducted evaporative cooling systems commonly have ceiling outlets that may allow cold air to enter during winter.</p>
-  <p>Some systems use:</p>
-  <ul class="feature-list">
-    <li>automatic dampers</li>
-    <li>manual dampers</li>
-    <li>manufacturer-approved winter covers</li>
-    <li>roof-unit covers</li>
-    <li>seasonal shutdown procedures</li>
-  </ul>
-  <p>Use only methods compatible with the system.</p>
-  <p>Before covering an outlet, confirm:</p>
-  <ul class="feature-list">
-    <li>the system is switched off for the season</li>
-    <li>the cover is intended for the outlet</li>
-    <li>every outlet can be restored before operation</li>
-    <li>the manufacturer permits the method</li>
-    <li>moisture will not become trapped</li>
-    <li>the roof unit and ducting do not require other maintenance</li>
-    <li>no shared ventilation function is being blocked</li>
-  </ul>
-  <p>Do not push loose insulation, towels or plastic into a duct.</p>
-  <p>Record the covers so they are removed before summer operation.</p>
-  <h2>Ceiling access hatches</h2>
-  <p>A ceiling access hatch can leak around its perimeter.</p>
-  <p>Possible improvements include:</p>
-  <ul class="feature-list">
-    <li>a compatible perimeter seal</li>
-    <li>insulation fitted to the hatch panel where appropriate</li>
-    <li>secure latching</li>
-    <li>correcting a warped or damaged hatch</li>
-  </ul>
-  <p>The hatch must remain:</p>
-  <ul class="feature-list">
-    <li>openable</li>
-    <li>identifiable</li>
-    <li>safe to access</li>
-    <li>compatible with fire requirements</li>
-    <li>compatible with roof-space ventilation and services</li>
-  </ul>
-  <p>Do not enter the roof space to investigate leakage unless safe access and appropriate expertise are available.</p>
-  <p>Roof spaces can contain live wiring, fragile ceiling surfaces, heat, dust, fibres and restricted movement.</p>
-  <p>A poorly fitting hatch may be assessed and improved from the room side without routine roof-space entry.</p>
-  <h2>Skirting boards and wall-to-floor junctions</h2>
-  <p>Air can move through gaps where:</p>
-  <ul class="feature-list">
-    <li>skirting meets flooring</li>
-    <li>skirting meets the wall</li>
-    <li>old floorboards meet external walls</li>
-    <li>additions join the original building</li>
-    <li>pipes pass through floors</li>
-    <li>built-in cupboards conceal unfinished edges</li>
-  </ul>
-  <p>Suitable flexible sealant may address a small stable gap on an appropriate surface.</p>
-  <p>Before applying it, check for:</p>
-  <ul class="feature-list">
-    <li>moisture</li>
-    <li>movement</li>
-    <li>termite inspection requirements</li>
-    <li>drainage</li>
-    <li>heritage details</li>
-    <li>electrical or plumbing services</li>
-    <li>an opening intended to ventilate the subfloor</li>
-  </ul>
-  <p>Do not fill large or unexplained gaps before understanding their cause.</p>
-  <p>Movement may indicate a building issue rather than a simple draught.</p>
-  <h2>Floorboards and suspended floors</h2>
-  <p>Older suspended floors may allow noticeable air movement through gaps between boards.</p>
-  <p>Possible responses include:</p>
-  <ul class="feature-list">
-    <li>suitable rugs</li>
-    <li>underfloor insulation</li>
-    <li>targeted sealing compatible with the floor</li>
-    <li>repair of damaged boards</li>
-    <li>improving the boundary around the floor</li>
-  </ul>
-  <p>The subfloor itself may require ventilation to manage moisture and timber durability.</p>
-  <p>Do not block subfloor vents.</p>
-  <p>Do not seal floors in a way that traps moisture or conceals termite inspection areas.</p>
-  <p>Underfloor insulation must remain secure and compatible with:</p>
-  <ul class="feature-list">
-    <li>ventilation</li>
-    <li>plumbing</li>
-    <li>electrical services</li>
-    <li>ground clearance</li>
-    <li>termite management</li>
-  </ul>
-  <p>A floor draught may require a broader building assessment rather than surface filler alone.</p>
-  <h2>Service penetrations</h2>
-  <p>Gaps may exist around:</p>
-  <ul class="feature-list">
-    <li>plumbing pipes</li>
-    <li>air-conditioning pipes</li>
-    <li>data cables</li>
-    <li>television cables</li>
-    <li>wall-mounted appliances</li>
-    <li>built-in cabinetry</li>
-    <li>exhaust ducts</li>
-  </ul>
-  <p>Before sealing, identify:</p>
-  <ul class="feature-list">
-    <li>what passes through the opening</li>
-    <li>whether it becomes hot</li>
-    <li>whether it moves or vibrates</li>
-    <li>whether future servicing is needed</li>
-    <li>whether fire or acoustic separation applies</li>
-    <li>whether water drainage is involved</li>
-    <li>whether the sealant is compatible</li>
-  </ul>
-  <p>Do not apply expanding foam or sealant around electrical equipment, flues or hot services without suitable technical guidance.</p>
-  <p>A visually small opening may be part of a larger concealed cavity.</p>
-  <h2>Power points and switches</h2>
-  <p>Air movement may sometimes be felt around power points or switches on external walls.</p>
-  <p>Do not remove covers, insert foam, apply liquid sealant or interfere with fixed electrical fittings.</p>
-  <p>This can create electrical, fire and servicing risks.</p>
-  <p>Where leakage is significant, consult a licensed electrician or suitable building professional about an appropriate method.</p>
-  <p>The issue may involve:</p>
-  <ul class="feature-list">
-    <li>unsealed wall cavities</li>
-    <li>service penetrations</li>
-    <li>missing wall insulation</li>
-    <li>external cladding</li>
-    <li>pressure differences</li>
-  </ul>
-  <p>The visible fitting should not be treated as an ordinary gap.</p>
-  <h2>Fireplaces and chimneys</h2>
-  <p>An unused open fireplace can allow substantial air movement.</p>
-  <p>Possible components include:</p>
-  <ul class="feature-list">
-    <li>throat dampers</li>
-    <li>chimney dampers</li>
-    <li>flue balloons or plugs</li>
-    <li>fireplace doors</li>
-    <li>chimney caps</li>
-    <li>ventilation grilles</li>
-  </ul>
-  <p>Do not block a fireplace or flue that:</p>
-  <ul class="feature-list">
-    <li>is in use</li>
-    <li>may be used unexpectedly</li>
-    <li>serves a combustion appliance</li>
-    <li>is shared</li>
-    <li>contains an unknown gas fitting</li>
-    <li>requires ventilation</li>
-    <li>has not been inspected</li>
-  </ul>
-  <p>A temporary chimney-blocking product must be clearly identifiable and removed before any fire is lit.</p>
-  <p>Gas fireplaces and fixed combustion heaters require appropriately qualified assessment.</p>
-  <p>Carbon monoxide cannot be seen or smelled. Product Safety Australia advises adequate ventilation and qualified servicing for gas heaters.</p>
-  <h2>Gas heaters and combustion air</h2>
-  <p>Do not seal vents, doors or openings that provide air to:</p>
-  <ul class="feature-list">
-    <li>an unflued gas heater</li>
-    <li>a flued gas heater</li>
-    <li>a gas fireplace</li>
-    <li>a wood heater</li>
-    <li>a gas water heater</li>
-    <li>another combustion appliance</li>
-  </ul>
-  <p>Poor ventilation or pressure changes from exhaust fans can affect combustion and flue operation.</p>
-  <p>Do not rely on a draught-proofing guide to determine whether an opening is required for a gas appliance.</p>
-  <p>Before reducing airflow in a room containing combustion equipment:</p>
-  <ul class="feature-list">
-    <li>identify the appliance</li>
-    <li>check its instructions</li>
-    <li>arrange qualified servicing</li>
-    <li>confirm ventilation requirements</li>
-    <li>consider exhaust-fan interactions</li>
-    <li>maintain current safety requirements</li>
-  </ul>
-  <p>Never use outdoor gas heaters, barbecues or charcoal-burning appliances indoors.</p>
-  <h2>Weep holes and drainage openings</h2>
-  <p>Brick weep holes and window drainage slots are not draught defects to be filled.</p>
-  <p>They help manage moisture and drainage within the building system.</p>
-  <p>Do not seal:</p>
-  <ul class="feature-list">
-    <li>brick weep holes</li>
-    <li>window-frame drainage slots</li>
-    <li>cavity drainage openings</li>
-    <li>roof drainage paths</li>
-    <li>termite inspection zones</li>
-    <li>subfloor vents</li>
-    <li>unknown external openings</li>
-  </ul>
-  <p>Blocking them can trap water or conceal pest access.</p>
-  <p>Where a weep hole appears to allow insects or air movement, seek a purpose-designed solution compatible with drainage and termite requirements rather than applying sealant.</p>
-  <h2>Ventilation still matters</h2>
-  <p>A home needs controllable ventilation.</p>
-  <p>Winter ventilation may be required to remove:</p>
-  <ul class="feature-list">
-    <li>bathroom moisture</li>
-    <li>cooking vapour</li>
-    <li>indoor pollutants</li>
-    <li>odours</li>
-    <li>moisture from drying clothes</li>
-    <li>combustion products</li>
-    <li>excess humidity</li>
-  </ul>
-  <p>Draught proofing should make ventilation more intentional.</p>
-  <p>That may mean:</p>
-  <ul class="feature-list">
-    <li>using exhaust fans during and after moisture-producing activities</li>
-    <li>opening windows briefly when outdoor conditions are suitable</li>
-    <li>maintaining mechanical ventilation</li>
-    <li>using designed trickle or transfer ventilation</li>
-    <li>keeping appliance vents clear</li>
-  </ul>
-  <p>Do not create a tightly sealed room that develops persistent condensation, mould or poor air quality.</p>
-  <p>The correct balance depends on climate, construction, occupancy and appliances.</p>
-  <h2>Condensation after draught proofing</h2>
-  <p>Reducing leakage can raise indoor humidity because less moist air escapes unintentionally.</p>
-  <p>Possible signs include:</p>
-  <ul class="feature-list">
-    <li>water on windows</li>
-    <li>damp frames</li>
-    <li>mould behind furniture</li>
-    <li>musty smells</li>
-    <li>peeling paint</li>
-    <li>moisture in wardrobes</li>
-    <li>persistent bathroom dampness</li>
-  </ul>
-  <p>The response is not necessarily to remove every seal.</p>
-  <p>Check:</p>
-  <ul class="feature-list">
-    <li>bathroom exhaust performance</li>
-    <li>kitchen exhaust</li>
-    <li>clothes drying</li>
-    <li>plumbing and roof leaks</li>
-    <li>furniture against cold external walls</li>
-    <li>window surface temperatures</li>
-    <li>insulation</li>
-    <li>controlled ventilation</li>
-  </ul>
-  <p>A dehumidifier may manage indoor moisture in some circumstances, but it does not repair leaks or failed ventilation.</p>
-  <p>Persistent moisture problems require investigation.</p>
-  <h2>Heater position can feel like a draught problem</h2>
-  <p>Poor heater positioning can leave one side of the room cold.</p>
-  <p>Examples include:</p>
-  <ul class="feature-list">
-    <li>a <a href="/guides/fan-heater-vs-ceramic-heater/">fan heater</a> directed at only one person</li>
-    <li>a panel heater blocked by furniture</li>
-    <li>a reverse-cycle unit sending warm air into a hallway</li>
-    <li>an <a href="/guides/oil-column-heater-vs-panel-heater/">oil column heater</a> hidden behind a sofa</li>
-    <li>warm air collecting near a high ceiling</li>
-    <li>seating positioned beside cold glass</li>
-  </ul>
-  <p>Before increasing capacity:</p>
-  <ul class="feature-list">
-    <li>clear heater airflow</li>
-    <li>direct reverse-cycle louvres appropriately</li>
-    <li>close unused rooms</li>
-    <li>move seating away from cold surfaces</li>
-    <li>use a <a href="/guides/ceiling-fans-before-you-buy/">ceiling fan’s approved winter setting</a> where useful</li>
-    <li>confirm the heater suits the room</li>
-  </ul>
-  <p>The issue may be distribution rather than insufficient output.</p>
-  <h2>Regional considerations</h2>
-  <h3>Cool-temperate and alpine regions</h3>
-  <p>Draught reduction can materially improve comfort where heating operates for long periods.</p>
-  <p>Priorities may include:</p>
-  <ul class="feature-list">
-    <li>external doors</li>
-    <li>windows</li>
-    <li>ceiling hatches</li>
-    <li>exhaust-fan dampers</li>
-    <li>unused fireplaces</li>
-    <li>zoning heated rooms</li>
-    <li>insulation</li>
-    <li>controlled ventilation</li>
-  </ul>
-  <p>Combustion-appliance ventilation and condensation risks remain important.</p>
-  <h3>Temperate coastal regions</h3>
-  <p>Wind exposure and older windows may create noticeable leakage even where winter temperatures are moderate.</p>
-  <p>Check:</p>
-  <ul class="feature-list">
-    <li>sliding doors</li>
-    <li>window brush seals</li>
-    <li>coastal corrosion</li>
-    <li>curtains</li>
-    <li>exhaust fans</li>
-    <li>moisture and condensation</li>
-  </ul>
-  <h3>Hot-arid regions</h3>
-  <p>Cold nights can follow warm days.</p>
-  <p>Draught reduction may improve evening heating, but the home may still depend on ventilation or night cooling in warmer seasons.</p>
-  <p>Use removable or controllable measures where seasonal airflow patterns change.</p>
-  <h3>Tropical and subtropical regions</h3>
-  <p>Heating demand may be limited, while ventilation remains central for much of the year.</p>
-  <p>Permanent maximum sealing may be inappropriate in homes designed for airflow.</p>
-  <p>Focus on:</p>
-  <ul class="feature-list">
-    <li>removable door measures</li>
-    <li>controllable windows</li>
-    <li>compatible cooling-duct covers</li>
-    <li>maintaining bathroom and kitchen ventilation</li>
-    <li>using existing <a href="/guides/reverse-cycle-heating-explained/">reverse-cycle heating</a> for occasional cool periods</li>
-  </ul>
-  <h2>Renters</h2>
-  <p>Renters can often begin with reversible measures.</p>
-  <p>Possible options include:</p>
-  <ul class="feature-list">
-    <li>removable door snakes</li>
-    <li>removable seals that do not damage surfaces</li>
-    <li>using existing curtains effectively</li>
-    <li>rugs placed outside heater-clearance zones</li>
-    <li>closing unused rooms</li>
-    <li>reporting failed window seals</li>
-    <li>reporting warped external doors</li>
-    <li>reporting broken exhaust dampers</li>
-    <li>requesting repair of supplied heating and ventilation</li>
-  </ul>
-  <p>Obtain written approval before:</p>
-  <ul class="feature-list">
-    <li>drilling</li>
-    <li>changing fixed hardware</li>
-    <li>installing permanent seals</li>
-    <li>replacing ventilation components</li>
-    <li>mounting products</li>
-    <li>modifying windows</li>
-    <li>altering electrical equipment</li>
-  </ul>
-  <p>Document the draught with photographs or a short video from a safe position where practical.</p>
-  <p>A maintenance problem should not automatically become the renter’s product purchase.</p>
-  <h2>Apartments and strata properties</h2>
-  <p>External doors, windows, exhaust ducts and wall penetrations may involve:</p>
-  <ul class="feature-list">
-    <li>common property</li>
-    <li>fire-rated construction</li>
-    <li>acoustic requirements</li>
-    <li>shared ventilation</li>
-    <li>body corporate approval</li>
-    <li>external appearance rules</li>
-  </ul>
-  <p>Do not alter:</p>
-  <ul class="feature-list">
-    <li>apartment entry-door seals</li>
-    <li>fire doors</li>
-    <li>common exhaust systems</li>
-    <li>external window frames</li>
-    <li>facade penetrations</li>
-  </ul>
-  <p>without confirming responsibility and approval.</p>
-  <p>A fire door must continue closing and latching correctly after any seal work.</p>
-  <h2>When a professional assessment may help</h2>
-  <p>Consider qualified assistance where:</p>
-  <ul class="feature-list">
-    <li>the draught source remains unclear</li>
-    <li>several rooms are affected</li>
-    <li>gas or combustion appliances are present</li>
-    <li>condensation worsens</li>
-    <li>walls or ceilings show water damage</li>
-    <li>windows or doors require structural repair</li>
-    <li>electrical fittings appear to leak air</li>
-    <li>a roof space or subfloor needs inspection</li>
-    <li>the home is undergoing renovation</li>
-    <li>a large heating or cooling system is being sized</li>
+    <li>the leakage source remains unclear or affects several rooms</li>
+    <li>water damage, recurring condensation or mould is present</li>
+    <li>electrical fittings, ducts, roof spaces or subfloors are involved</li>
+    <li>a fireplace, flue or combustion appliance is present</li>
+    <li>a fire door, exit, return-air path or shared building system may be affected</li>
     <li>previous sealing has not improved comfort</li>
   </ul>
-  <p>Possible assessment methods include:</p>
-  <ul class="feature-list">
-    <li>thermal imaging</li>
-    <li>blower-door testing</li>
-    <li>pressure testing</li>
-    <li>smoke testing performed by trained people</li>
-    <li>building-envelope inspection</li>
-    <li>duct-leakage assessment</li>
-    <li>energy assessment</li>
-  </ul>
-  <p>These methods require interpretation.</p>
-  <p>A thermal image can show temperature differences but does not automatically identify whether the cause is air leakage, missing insulation, moisture or another material.</p>
-  <h2>Before You Buy Draught-Proofing Products Checklist</h2>
-  <p>Before buying seals, covers or fillers, check:</p>
-  <ul class="feature-list">
-    <li>Is moving air actually present?</li>
-    <li>Could the discomfort be caused by a cold surface?</li>
-    <li>Where does the air enter or leave?</li>
-    <li>Is the gap visible and accessible?</li>
-    <li>Does the opening have a known purpose?</li>
-    <li>Is it required for ventilation?</li>
-    <li>Is it required for a combustion appliance?</li>
-    <li>Is it a drainage opening?</li>
-    <li>Is it a weep hole?</li>
-    <li>Is it a subfloor vent?</li>
-    <li>Is it part of an evaporative cooling system?</li>
-    <li>Is the home naturally ventilated by design?</li>
-    <li>What door or window type is involved?</li>
-    <li>Does the door or window need repair before sealing?</li>
-    <li>What is the gap width and depth?</li>
-    <li>Will the proposed seal allow the door or window to close and latch?</li>
-    <li>Is the product compatible with the surface?</li>
-    <li>Can it be removed without damage?</li>
-    <li>Is landlord or strata approval required?</li>
-    <li>Will the seal interfere with a fire door?</li>
-    <li>Will it interfere with emergency egress?</li>
-    <li>Will it create an accessibility issue?</li>
-    <li>Will curtains remain clear of heaters?</li>
-    <li>Does an exhaust-fan cover open automatically during use?</li>
-    <li>Is a cooling-duct cover approved for the system?</li>
-    <li>Can all seasonal covers be removed before operation?</li>
-    <li>Is a fireplace or chimney still usable?</li>
-    <li>Is qualified gas or fireplace advice required?</li>
-    <li>Does the room already have condensation or mould?</li>
-    <li>Is controlled ventilation adequate?</li>
-    <li>Would insulation or window coverings solve more of the problem?</li>
-    <li>Is the heater positioned effectively?</li>
-    <li>Is a larger heater still required after avoidable leakage is reduced?</li>
-  </ul>
+  <p>Thermal imaging, blower-door testing and other building-envelope methods can help when used and interpreted appropriately. A temperature difference does not by itself prove air leakage; missing insulation, moisture and construction details can produce similar patterns.</p>
+
   <h2>Draught-Reduction Checklist</h2>
   <p>Work through the home without blocking intentional ventilation:</p>
-  <ul class="feature-list">
-    <li>External doors close and latch correctly.</li>
-    <li>Lower door gaps have been measured.</li>
-    <li>Existing frame seals are intact.</li>
-    <li>Sliding doors sit square and lock correctly.</li>
-    <li>Window sashes close fully.</li>
-    <li>Window brush or compression seals are intact.</li>
-    <li>Window drainage openings remain clear.</li>
-    <li>Curtains cover the full window.</li>
-    <li>Pelmets or close-fitting upper treatments are considered where suitable.</li>
-    <li>Curtains remain outside heater clearances.</li>
-    <li>Heated rooms can be separated from unheated areas where appropriate.</li>
-    <li>Internal door sealing does not interfere with return air or ventilation.</li>
-    <li>Bathroom exhaust fans operate effectively.</li>
-    <li>Exhaust-fan draught stoppers are compatible with the fan.</li>
-    <li>Kitchen exhaust ducts remain functional.</li>
-    <li>Evaporative cooling outlets use approved winter measures where applicable.</li>
-    <li>Ceiling access hatches fit securely.</li>
-    <li>Skirting and floor gaps have been inspected.</li>
-    <li>Subfloor vents remain open.</li>
-    <li>Brick weep holes remain open.</li>
-    <li>Unknown exterior openings have not been sealed.</li>
-    <li>Power points and switches have not been modified.</li>
-    <li>Fireplace and chimney measures are safe and clearly removable.</li>
-    <li>Gas-appliance ventilation has been confirmed.</li>
-    <li>Heating airflow is unobstructed.</li>
-    <li>Reverse-cycle louvres direct warm air into the occupied zone.</li>
-    <li>Doors to unused rooms are closed where appropriate.</li>
-    <li>Condensation and indoor humidity are monitored.</li>
-    <li>Leaks and recurring mould are investigated.</li>
-    <li>Rental or strata approvals have been obtained where required.</li>
-    <li>Draught reduction is reassessed before heater capacity is increased.</li>
+  <ul class="feature-list" aria-label="Draught-reduction checklist">
+    <li>Is moving air present, or could a cold surface explain the discomfort?</li>
+    <li>Has the location and weather pattern been recorded?</li>
+    <li>Have flames, smoke, powders and unsafe testing methods been avoided?</li>
+    <li>Do external doors close, latch and clear the floor correctly?</li>
+    <li>Will a lower or frame seal preserve safe door operation?</li>
+    <li>Can internal doors separate heated and unheated areas?</li>
+    <li>Will fire doors, exits and return-air paths remain unobstructed?</li>
+    <li>Do sliding doors and windows run squarely in clean tracks?</li>
+    <li>Do window sashes close and latch evenly?</li>
+    <li>Will window drainage slots and weep holes remain clear?</li>
+    <li>Could curtains or insulation address a cold surface more effectively?</li>
+    <li>Do bathroom and kitchen exhaust systems remain functional?</li>
+    <li>Is any exhaust-fan damper compatible with the fan and duct?</li>
+    <li>Are evaporative cooling measures approved for the system?</li>
+    <li>Is the ceiling hatch accessible and safe to seal at its perimeter?</li>
+    <li>Will subfloor vents remain completely open?</li>
+    <li>Have fixed electrical fittings been left untouched?</li>
+    <li>Have loose materials been kept out of ducts and service openings?</li>
+    <li>Has casual roof-space entry been avoided?</li>
+    <li>Are fireplace and combustion-air requirements confirmed?</li>
+    <li>Is landlord, strata or body-corporate approval required?</li>
+    <li>Will condensation and humidity be monitored after sealing?</li>
+    <li>Is repair or professional assessment more suitable than another seal?</li>
   </ul>
+
   <h2>Keep the heat without blocking the air the home needs</h2>
-  <p>Draught proofing should make a home easier to heat, not prevent it from ventilating safely.</p>
-  <p>Begin with external doors, windows and the boundaries between heated and unheated rooms. Measure the gaps and choose seals suited to the exact movement and surface.</p>
-  <p>Treat exhaust fans, cooling ducts, fireplaces, gas appliances, weep holes and subfloor vents more carefully. These openings may have purposes that cannot be replaced by a generic foam strip or cover.</p>
-  <p>After avoidable leakage is reduced, reassess the room.</p>
-  <p>A smaller heater may now maintain comfort more effectively. Where the room still struggles, the next step may be better insulation, improved window coverings, a more suitable heating system or a professional building assessment rather than simply buying the largest heater available.</p>
+  <p>Draught proofing should make a home easier to heat without preventing it from ventilating, draining or operating safely.</p>
+  <p>Start with doors, windows and boundaries between heated and unheated rooms. Treat exhaust fans, cooling ducts, fireplaces, combustion vents, weep holes and subfloor openings more carefully.</p>
+  <p>After avoidable leakage is reduced, reassess comfort and condensation. The next step may be better insulation, window coverings, a more suitable heating system or building repair rather than simply buying the largest heater available.</p>
 
   <section aria-labelledby="official-guidance-heading">
     <h2 id="official-guidance-heading">Official guidance</h2>
