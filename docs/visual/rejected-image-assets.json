@@ -1,0 +1,35 @@
+{
+  "policy": "Every listed asset is permanently blocked from public pages, cards, metadata and generated output. The file may remain only as audit history.",
+  "assets": [
+    {
+      "path": "public/images/pet.webp",
+      "archivePath": "docs/visual/rejected-assets/pet.webp",
+      "status": "rejected",
+      "reason": "Invented package labels and an artificial multi-pet showroom scene."
+    },
+    {
+      "path": "public/images/guides/mattress-sizes-australia.webp",
+      "archivePath": "docs/visual/rejected-assets/mattress-sizes-australia.webp",
+      "status": "rejected",
+      "reason": "Physically implausible measuring device and unsuitable product treatment."
+    },
+    {
+      "path": "public/images/guides/coffee-machine-types-australia.webp",
+      "archivePath": "docs/visual/rejected-assets/coffee-machine-types-australia.webp",
+      "status": "rejected",
+      "reason": "Fictional product-lineup presentation with invented controls."
+    },
+    {
+      "path": "public/images/guides/robot-vacuum-buying-guide-australia.webp",
+      "archivePath": "docs/visual/rejected-assets/robot-vacuum-buying-guide-australia.webp",
+      "status": "zero-public-reference",
+      "reason": "Recognisable product resemblance and weak explanatory value."
+    },
+    {
+      "path": "public/images/guides/cordless-stick-vacuums-australia.webp",
+      "archivePath": "docs/visual/rejected-assets/cordless-stick-vacuums-australia.webp",
+      "status": "rejected",
+      "reason": "Recognisable product resemblance and no charging or storage context."
+    }
+  ]
+}

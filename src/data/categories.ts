@@ -10,6 +10,7 @@ const categoryPaths: Record<string, string> = {
   "Nursery & Kids": "/categories/nursery-kids/",
   "Outdoor & Garden": "/categories/outdoor-garden/",
   Pets: "/categories/pets/",
+  "Seasonal Guides": "/seasonal/",
 };
 
 export function getCategoryPath(category: string): string | undefined {

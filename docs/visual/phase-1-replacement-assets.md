@@ -1,6 +1,6 @@
 # Phase 1 replacement asset manifest
 
-This manifest defines the six production images still required after the first public visual repairs. It is an asset specification, not permission to publish an unreviewed image.
+This manifest records the six production specifications from the first public visual repairs. Coffee Machine Types and Cordless Stick Vacuum are now completed and reviewed; the remaining specifications are still not permission to publish an unreviewed image.
 
 ## Shared production standard
 
@@ -59,7 +59,8 @@ All six assets must meet these requirements:
 
 ## 3. Coffee Machine Types
 
-- **Destination filename:** `public/images/guides/coffee-machine-types-australia.webp`
+- **Status:** Completed and approved on 30 July 2026 after full-resolution, hero-crop and card-crop review.
+- **Destination filename:** `public/images/guides/coffee-machine-formats-australia.webp`
 - **Route:** `/guides/coffee-machine-types-australia/` and its featured Guides card.
 - **Required dimensions:** 1920 × 1080.
 - **Target aspect ratio:** 16:9.
@@ -72,7 +73,7 @@ All six assets must meet these requirements:
 - **Brand restrictions:** No logos, readable displays, fake labels, branded capsule shapes or recognisable copies of current machines.
 - **Plausibility checks:** Controls, trays, spouts, steam wand, portafilter, hopper and water reservoir must be coherent; reflections and power leads must agree; no machine may merge with the bench or another appliance.
 - **Crop considerations:** All three workflows must remain identifiable in the wide hero. The manual workflow and enough of both neighbouring types must survive the central card crop.
-- **Final alt text:** `Three unbranded coffee preparation setups showing pod, manual espresso and automatic workflows on a kitchen bench.`
+- **Final alt text:** `Unbranded capsule, manual espresso and automatic coffee machines arranged with a grinder on a warm kitchen bench.`
 - **Reject if:** The machines appear as a retail lineup; any product resembles a named model; controls or accessories are invented or malformed; branding or unreadable text appears; or a card crop reduces the scene to one machine type.
 
 ## 4. Robot Vacuum
@@ -95,20 +96,21 @@ All six assets must meet these requirements:
 
 ## 5. Cordless Stick Vacuum
 
-- **Destination filename:** `public/images/guides/cordless-stick-vacuums-australia.webp`
+- **Status:** Completed and approved on 30 July 2026 after full-resolution, hero-crop and card-crop review.
+- **Destination filename:** `public/images/guides/cordless-vacuum-charging-storage-australia.webp`
 - **Route:** `/guides/cordless-stick-vacuums-australia/` and its featured Guides card.
 - **Required dimensions:** 1920 × 1080.
 - **Target aspect ratio:** 16:9.
 - **Central crop-safe area:** 1120 × 640 centred in the frame.
-- **Subject and composition:** Australian laundry or utility cupboard with an unbranded cordless vacuum being returned to a wall-mounted dock. Frame the storage and charging relationship, not a decorative cleaning pose.
-- **Practical details:** Secure dock, correctly routed dock power lead to an Australian power point, removable vacuum body, two distinct attachments, door clearance and enough hand space to lift the unit away.
-- **Decor direction:** Painted utility cabinetry, durable floor, metal hardware and natural side light. Keep the cupboard ordinary and achievable.
-- **Colour variation:** Plum, deep green or muted yellow may appear as one cabinet or storage accent.
-- **Repetition restrictions:** No cobalt sofa, coral cushion, primary-colour rug, beige timber cupboard or all-grey utility wall.
+- **Subject and composition:** Warm Australian living room with one unbranded cordless vacuum standing in a compact freestanding charging dock. Frame the storage, charging and hard-floor-to-rug relationship, not a decorative cleaning pose.
+- **Practical details:** Stable freestanding dock, correctly routed dock power lead to a wall power point, coherent vacuum body and floor head, two distinct attachments, timber floor and low-pile rug transition.
+- **Decor direction:** Warm cream wall, timber furniture, natural linen, eucalyptus and terracotta accents, and natural side light. Keep the room ordinary and achievable.
+- **Colour variation:** Eucalyptus green and terracotta appear as restrained textile and plant accents.
+- **Repetition restrictions:** No cobalt feature wall, primary-colour rug, all-grey display room or exaggerated utility cupboard.
 - **Brand restrictions:** No copied handle, cyclone, battery, floor-head or dock silhouette; no logos or model labels.
-- **Plausibility checks:** The vacuum body has no cable attached during use; only the dock connects to power; hand anatomy and grip are correct; tube, bin, battery and floor head connect coherently; dock bears the unit’s weight.
+- **Plausibility checks:** The vacuum body has no cable attached; only the dock connects to power; tube, bin, battery and floor head connect coherently; the dock bears the unit’s weight; both attachments sit securely.
 - **Crop considerations:** Vacuum body, dock, power route and attachments must remain visible in both hero and card crops. Do not place the power point at the outer edge.
-- **Final alt text:** `An unbranded cordless stick vacuum beside a wall-mounted charging dock and organised attachments in a utility cupboard.`
+- **Final alt text:** `An unbranded cordless stick vacuum and tools on a freestanding charging dock beside a rug and timber floor.`
 - **Reject if:** A lead attaches to the vacuum body; dock or attachments float; the product copies a recognisable model; anatomy or product joints are malformed; the power point is impossible; or the card crop hides charging.
 
 ## 6. Dryer Types

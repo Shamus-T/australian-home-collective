@@ -41,6 +41,7 @@ const requiredSeasonalSections = new Map([
     "/guides/air-conditioning-buying-guide/",
     "/guides/ceiling-fans-before-you-buy/",
     "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+    "/guides/australian-made-gift-ideas-under-100/",
   ]],
   ["autumn", [
     "/guides/preparing-your-home-for-winter/",
@@ -133,6 +134,13 @@ function plainText(html) {
     .replace(/&(?:[a-z]+|#\d+|#x[a-f\d]+);/gi, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function headingOutline(html) {
+  return [...html.matchAll(/<h([1-6])\b[^>]*>([\s\S]*?)<\/h\1>/gi)].map((match) => ({
+    level: Number(match[1]),
+    text: plainText(match[2]).replace(/\s+/g, " ").trim(),
+  }));
 }
 
 function renderedText(html) {
@@ -405,6 +413,23 @@ for (const file of htmlFiles) {
     }
   }
   if (h1Count !== 1) addError(`${relativePath} has ${h1Count} H1 elements; expected 1.`);
+  if (indexable) {
+    const headings = headingOutline(
+      contentHtml.replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ""),
+    );
+    const fullSequence = headings
+      .map((heading) => `H${heading.level} “${heading.text || "(empty)"}”`)
+      .join(" -> ");
+    for (let index = 1; index < headings.length; index += 1) {
+      const previous = headings[index - 1];
+      const current = headings[index];
+      if (current.level > previous.level + 1) {
+        addError(
+          `${pageUrl} skips from H${previous.level} “${previous.text}” to H${current.level} “${current.text}”. Exact heading sequence: ${fullSequence}`,
+        );
+      }
+    }
+  }
   if (indexable && structuredDataBlocks.length !== 1) {
     addError(`${relativePath} is indexable but has ${structuredDataBlocks.length} JSON-LD blocks; expected 1.`);
   }
@@ -584,6 +609,19 @@ for (const file of htmlFiles) {
       !/rel="[^"]*noopener[^"]*noreferrer[^"]*"/i.test(anchor)
     ) {
       addError(`${relativePath} has an external link without the required target and rel values: ${href}`);
+    }
+  }
+
+  for (const match of contentHtml.matchAll(/<a\s+[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)) {
+    const [, href, body] = match;
+    if (!/^https?:\/\//i.test(href)) continue;
+    const label = plainText(body);
+    if (
+      !label
+      || /^https?:\/\//i.test(label)
+      || /^(?:here|source|link|website|read more|learn more|click here)$/i.test(label)
+    ) {
+      addError(`${relativePath} has a non-descriptive external link label “${label || "(empty)"}”: ${href}`);
     }
   }
 

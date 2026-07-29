@@ -9,9 +9,19 @@ interface Props {
   image?: string;
   imageAlt?: string;
   imagePosition?: string;
+  headingLevel?: 2 | 3;
 }
 
-const { href, title, description, meta, image, imageAlt = "", imagePosition = "center" } = Astro.props;
+const {
+  href,
+  title,
+  description,
+  meta,
+  image,
+  imageAlt = "",
+  imagePosition = "center",
+  headingLevel = 3,
+} = Astro.props;
 const articleMetadata = href.startsWith("/guides/") ? getGuideCardMetadata(href) : undefined;
 
 if (href.startsWith("/guides/") && !articleMetadata) {
@@ -22,6 +32,7 @@ const resolvedTitle = articleMetadata?.title ?? title;
 const resolvedImage = articleMetadata?.image ?? image;
 const resolvedImageAlt = articleMetadata?.imageAlt ?? imageAlt;
 const resolvedImagePosition = articleMetadata?.imagePosition ?? imagePosition;
+const HeadingTag = headingLevel === 2 ? "h2" : "h3";
 ---
 
 <article class:list={["guide-card", resolvedImage && "has-image", meta === "Category" && "category-card"]}>
@@ -39,7 +50,7 @@ const resolvedImagePosition = articleMetadata?.imagePosition ?? imagePosition;
       />
     )}
     {meta && <p class="meta">{meta}</p>}
-    <h3>{resolvedTitle}</h3>
+    <HeadingTag>{resolvedTitle}</HeadingTag>
     <p>{description}</p>
   </a>
 </article>

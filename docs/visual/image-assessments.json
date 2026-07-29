@@ -63,8 +63,8 @@
   },
   "public/images/guides/coffee-machine-types-australia.webp": {
     "status": "URGENT REPLACEMENT",
-    "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
-    "phase_1_note": "The file remains in the repository for audit history but has no source or built public reference. The Coffee Machine Types article and featured card now use the existing text-only presentation.",
+    "phase_1_status": "PERMANENTLY BLOCKED FROM PUBLIC USE",
+    "phase_1_note": "Rejected historical asset. It remains in the repository for audit history and must retain zero source and built public references. The article and card use coffee-machine-formats-australia.webp.",
     "topic_relevance": 4,
     "realism": 2,
     "colour_visual_interest": 2,
@@ -78,6 +78,18 @@
     "avoid": "Logos, fake labels, recognisable copies of branded machines, impossible controls, product-lineup advertising composition.",
     "suggested_alt_text": "Three unbranded coffee preparation setups showing pod, manual espresso and automatic workflows on a kitchen bench."
   },
+  "public/images/guides/coffee-machine-formats-australia.webp": {
+    "status": "KEEP",
+    "phase_1_status": "FINAL KEEP",
+    "phase_1_note": "Generated with the built-in image generator, reviewed at full resolution and checked in the central 1920 x 640 hero and 1120 x 1080 card crops. It replaces the permanently blocked coffee-machine-types-australia.webp file.",
+    "topic_relevance": 5,
+    "realism": 5,
+    "colour_visual_interest": 4,
+    "composition": 5,
+    "technical_quality": 5,
+    "brand_suitability": 5,
+    "notes": "Three distinct unbranded formats and a separate grinder remain legible in responsive crops. Controls are unlabelled, the portafilter and steam wand are coherent, and the scene reads as a practical kitchen comparison rather than a retail lineup."
+  },
   "public/images/guides/cookware-materials-australia.webp": {
     "status": "MINOR EDIT",
     "topic_relevance": 5,
@@ -90,8 +102,8 @@
   },
   "public/images/guides/cordless-stick-vacuums-australia.webp": {
     "status": "REPLACE",
-    "phase_1_status": "TEMPORARILY REMOVED FROM PUBLIC USE",
-    "phase_1_note": "The file remains in the repository for replacement review but has no source or built public reference. The guide temporarily uses living-room-storage-everyday-zones.webp and its featured Guides card is text-only.",
+    "phase_1_status": "PERMANENTLY BLOCKED FROM PUBLIC USE",
+    "phase_1_note": "Rejected historical asset. It remains in the repository for audit history and must retain zero source and built public references. The article and card use cordless-vacuum-charging-storage-australia.webp.",
     "topic_relevance": 3,
     "realism": 3,
     "colour_visual_interest": 3,
@@ -104,6 +116,18 @@
     "important_objects": "Stable wall dock, visible but correctly routed charging lead to the dock, vacuum body and attachments, nearby power point, door clearance.",
     "avoid": "A lead attached to the handheld vacuum, floating dock, recognisable branded silhouette, malformed grip or floor head, theatrical colour blocking.",
     "suggested_alt_text": "An unbranded cordless stick vacuum beside a wall-mounted charging dock and organised attachments in a utility cupboard."
+  },
+  "public/images/guides/cordless-vacuum-charging-storage-australia.webp": {
+    "status": "KEEP",
+    "phase_1_status": "FINAL KEEP",
+    "phase_1_note": "Generated with the built-in image generator, reviewed at full resolution and checked in the central 1920 x 640 hero and 1120 x 1080 card crops. It replaces the permanently blocked cordless-stick-vacuums-australia.webp file.",
+    "topic_relevance": 5,
+    "realism": 5,
+    "colour_visual_interest": 4,
+    "composition": 5,
+    "technical_quality": 5,
+    "brand_suitability": 5,
+    "notes": "The complete unbranded vacuum, dock, two tools, rug transition and dock power route remain visible in hero and card crops. The charging lead connects only to the dock and no product marks or malformed joints are visible."
   },
   "public/images/guides/dishwasher-sizes-australia.webp": {
     "status": "RECROP",

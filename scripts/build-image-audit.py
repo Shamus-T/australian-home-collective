@@ -27,8 +27,8 @@ RESTORED_GUIDES = [
     "public/images/guides/dryer-types-australia.webp",
     "public/images/guides/dishwasher-sizes-australia.webp",
     "public/images/guides/cookware-materials-australia.webp",
-    "public/images/guides/cordless-stick-vacuums-australia.webp",
-    "public/images/guides/robot-vacuum-buying-guide-australia.webp",
+    "public/images/guides/coffee-machine-formats-australia.webp",
+    "public/images/guides/cordless-vacuum-charging-storage-australia.webp",
     "public/images/guides/bedroom-storage-clear-walkway.webp",
 ]
 CATEGORY_FALLBACKS = {
@@ -59,6 +59,7 @@ PHASE_STATUS_DEFAULTS = {
     "URGENT REPLACEMENT": "REPLACEMENT ASSET PENDING",
 }
 CONTACT_STATUS_LABELS = {
+    "PERMANENTLY BLOCKED FROM PUBLIC USE": "PERMANENTLY BLOCKED",
     "TEMPORARILY REMOVED FROM PUBLIC USE": "REMOVED FROM PUBLIC USE",
     "TEMPORARY SAFE FALLBACK": "TEMPORARY SAFE FALLBACK",
     "REPLACEMENT ASSET PENDING": "REPLACEMENT PENDING",

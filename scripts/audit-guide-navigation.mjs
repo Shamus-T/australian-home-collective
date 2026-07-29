@@ -53,7 +53,7 @@ function guideCardHrefs(html) {
 
 function guideBreadcrumb(html) {
   const breadcrumbs = html.match(/<nav class="breadcrumbs"[\s\S]*?<\/nav>/i)?.[0] ?? "";
-  const categoryLink = [...breadcrumbs.matchAll(/<a\b[^>]*href="(\/categories\/[^"]+\/)"[^>]*>([\s\S]*?)<\/a>/gi)]
+  const categoryLink = [...breadcrumbs.matchAll(/<a\b[^>]*href="(\/(?:categories\/[^"]+|seasonal)\/)"[^>]*>([\s\S]*?)<\/a>/gi)]
     .at(-1);
 
   return categoryLink
@@ -108,6 +108,16 @@ for (const entry of fs.readdirSync(categoryRoot, { withFileTypes: true })) {
 
   if (!hrefs.length) continue;
   sequences.push({ categoryHref, hrefs });
+}
+
+const seasonalHref = "/seasonal/";
+const seasonalHtml = read("seasonal/index.html");
+const seasonalGuideHrefs = guideCardHrefs(seasonalHtml).filter((href) => {
+  const guideHtml = guidePages.get(href);
+  return guideHtml && isIndexable(guideHtml) && guideBreadcrumb(guideHtml)?.href === seasonalHref;
+});
+if (seasonalGuideHrefs.length) {
+  sequences.push({ categoryHref: seasonalHref, hrefs: seasonalGuideHrefs });
 }
 
 const guideIndexHtml = read("guides/index.html");

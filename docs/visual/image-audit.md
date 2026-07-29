@@ -1,10 +1,34 @@
 # Australian Home Collective image audit
 
-Audit date: 23 July 2026
+Audit date: 30 July 2026
 Baseline audit head: `e774e08022888da8674282df457dd5ddbd644b93`
 Phase 1 implementation started from: `74257c91eaee5a82f937cd21470e098201691804`
 
-## Scope and outcome
+## Confirmed-corrections update
+
+The 30 July correction pass supersedes the older public-use status statements retained later in
+this document as audit history.
+
+- The five rejected or zero-public-reference files are listed in
+  `docs/visual/rejected-image-assets.json`. Their binaries were moved out of `public/images/` to
+  `docs/visual/rejected-assets/`, so Astro cannot copy them into generated output.
+- The audit regression test fails if a listed filename returns to source references, public output
+  or any built file.
+- Coffee Machine Types now uses
+  `public/images/guides/coffee-machine-formats-australia.webp`.
+- Cordless Stick Vacuums now uses
+  `public/images/guides/cordless-vacuum-charging-storage-australia.webp`.
+- Both replacements were made with the built-in image generator, inspected at full resolution and
+  checked in the central 1920 × 640 hero crop and 1120 × 1080 card crop. Each is unbranded,
+  physically coherent and keeps its essential comparison or charging details inside both crops.
+- The refreshed inventory contains 146 public image files, all binary-unique, with no exact
+  duplicate groups and the same three intentional perceptual near-duplicate pairs.
+- The refreshed generator produced eight numbered contact sheets plus the homepage/category,
+  featured-guide, restored-guide and generic-fallback review sheets. Ninety-seven later-added
+  images remain unassessed in the broad historical scoring system; this does not include either new
+  replacement, which is recorded as `KEEP` / `FINAL KEEP`.
+
+## Historical baseline and Phase 1 record
 
 The baseline audit covers every file under `public/images/`, all nested image folders, built page references, source references, guide heroes, homepage and category cards, category fallbacks, and Open Graph images.
 

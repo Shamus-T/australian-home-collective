@@ -30,6 +30,12 @@ const categorySources = import.meta.glob<string>("../pages/categories/*/index.as
   eager: true,
 });
 
+const seasonalSources = import.meta.glob<string>("../pages/seasonal/index.astro", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+});
+
 function readComponentProp(source: string, prop: "title" | "category"): string | undefined {
   const component = source.match(/<(?:ArticleLayout|SimpleGuidePage)\b[\s\S]*?>/)?.[0];
   return component?.match(new RegExp(`\\b${prop}="([^"]+)"`))?.[1];
@@ -78,7 +84,9 @@ function categoryGuideOrder(category: string, categoryPath?: string): string[] {
   }
 
   const sourcePath = `../pages${categoryPath}index.astro`;
-  const source = categorySources[sourcePath];
+  const source = categoryPath === "/seasonal/"
+    ? seasonalSources[sourcePath]
+    : categorySources[sourcePath];
   if (!source) return [];
 
   return orderedGuideHrefs(source)
@@ -136,7 +144,7 @@ export function getGuideBodyDestinations(currentPath: string): Set<string> {
   );
 
   return new Set(
-    [...articleBody.matchAll(/\bhref="(\/(?:guides|categories)\/[^"]+)"/g)]
+    [...articleBody.matchAll(/\bhref="(\/(?:guides|categories|seasonal)\/[^"]*)"/g)]
       .map((match) => match[1]),
   );
 }

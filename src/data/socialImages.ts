@@ -53,6 +53,10 @@ const categorySocialImages: Record<string, SocialImage> = {
     src: "/images/social/outdoor-garden.jpg",
     alt: "Australian Home Collective Outdoor and Garden guides - what to check before you buy",
   },
+  "Seasonal Guides": {
+    src: "/images/seasonal-guides.webp",
+    alt: "Australian Home Collective Seasonal Guides for Australian homes",
+  },
 };
 
 export function getCategorySocialImage(category?: string): SocialImage {

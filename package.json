@@ -7,10 +7,11 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && npm run index:search && node scripts/audit-site-output.mjs && node scripts/audit-featured-guide-images.mjs && node scripts/audit-guide-navigation.mjs && node scripts/audit-category-consistency.mjs && node scripts/audit-continue-exploring.mjs && npm run audit:search:dist",
+    "build": "astro build && npm run index:search && node scripts/audit-site-output.mjs && node scripts/audit-editorial-standards.mjs && node scripts/audit-featured-guide-images.mjs && node scripts/audit-guide-navigation.mjs && node scripts/audit-category-consistency.mjs && node scripts/audit-continue-exploring.mjs && npm run audit:search:dist",
     "index:search": "pagefind",
     "audit:search:dist": "node scripts/audit-pagefind-output.mjs",
     "audit:site:dist": "node scripts/audit-site-output.mjs",
+    "audit:editorial:dist": "node scripts/audit-editorial-standards.mjs",
     "audit:featured-images": "node scripts/audit-featured-guide-images.mjs",
     "audit:guide-navigation": "node scripts/audit-guide-navigation.mjs",
     "audit:categories": "node scripts/audit-category-consistency.mjs",
