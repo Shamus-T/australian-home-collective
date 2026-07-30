@@ -1,5 +1,5 @@
 {
-  "generated_from_head": "7dfd701ca7dc08fd6777642efc8c186d6c78677a",
+  "generated_from_head": "0e3cd2b5327923df36fcf43a45e38454def3415f",
   "total_image_count": 146,
   "unique_binary_image_count": 146,
   "exact_duplicate_groups": [],
@@ -2176,9 +2176,9 @@
       "width": 1920,
       "height": 1080,
       "aspect_ratio": 1.7778,
-      "file_size_bytes": 155892,
-      "sha256": "ab69bcfc2562abfe9ce09206ad1d7b3ae32d829b7e896b11b6818fc35bb44145",
-      "perceptual_hash": "fc9f132c077921a5",
+      "file_size_bytes": 184676,
+      "sha256": "a79096f6d3c123ff7cb7453d45d4865c99030b97ea52f08a3ee3f5d43d39f978",
+      "perceptual_hash": "be7f406e2d660ec0",
       "usages": [
         {
           "context": "route /categories/kitchen/",
@@ -2198,7 +2198,7 @@
         {
           "context": "source src/pages/guides/coffee-machine-types-australia/index.astro:54",
           "kind": "source_literal",
-          "alt": "Unbranded capsule, manual espresso and automatic coffee machines arranged with a grinder on a warm kitchen bench"
+          "alt": "An unbranded manual espresso machine and grinder beside a notebook and tape measure on a kitchen bench"
         }
       ],
       "public_routes": [
@@ -2207,6 +2207,7 @@
         "/guides/coffee-machine-types-australia/"
       ],
       "alt_texts": [
+        "An unbranded manual espresso machine and grinder beside a notebook and tape measure on a kitchen bench",
         "Unbranded capsule, manual espresso and automatic coffee machines arranged with a grinder on a warm kitchen bench"
       ],
       "number_of_uses": 4,
@@ -2214,21 +2215,22 @@
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": false,
-      "dominant_colours": "#9a7e5b:24% | #4c3319:21% | #af9676:17% | #6e5635:17% | #89643d:12%",
+      "dominant_colours": "#2f291e:20% | #9b8468:19% | #b7a088:18% | #68553d:17% | #81694b:16%",
       "palette_flags": [
+        "beige_or_cream",
         "brown",
         "warm_orange_grade"
       ],
       "palette_percentages": {
-        "beige_or_cream": 0.179,
-        "brown": 0.701,
-        "coral_or_terracotta": 0.0,
-        "grey": 0.035,
-        "warm_orange_grade": 0.718
+        "beige_or_cream": 0.326,
+        "brown": 0.57,
+        "dull_green": 0.037,
+        "grey": 0.047,
+        "warm_orange_grade": 0.638
       },
       "status": "KEEP",
       "phase_1_status": "FINAL KEEP",
-      "phase_1_note": "Generated with the built-in image generator, reviewed at full resolution and checked in the central 1920 x 640 hero and 1120 x 1080 card crops. It replaces the permanently blocked coffee-machine-types-australia.webp file.",
+      "phase_1_note": "Project-owner-supplied final asset, reviewed at full 1920 x 1080 resolution and checked at the actual 1440 x 540 desktop hero, 390 x 300 mobile hero and 1120 x 1080 card crops. It replaces the permanently blocked coffee-machine-types-australia.webp file and a rejected generated replacement.",
       "topic_relevance": 5,
       "realism": 5,
       "colour_visual_interest": 4,
@@ -2236,7 +2238,7 @@
       "technical_quality": 5,
       "brand_suitability": 5,
       "average_score": 4.83,
-      "assessment_notes": "Three distinct unbranded formats and a separate grinder remain legible in responsive crops. Controls are unlabelled, the portafilter and steam wand are coherent, and the scene reads as a practical kitchen comparison rather than a retail lineup.",
+      "assessment_notes": "A single unbranded manual espresso machine is the clear focal point, supported by a separate grinder and subtle notebook and tape-measure planning cues. Full-resolution review found coherent controls, portafilter, group head, steam wand, cord routing, power-point placement, cabinetry and reflections. The scene remains useful in desktop, mobile and card crops without presenting a product lineup or implying comparative testing.",
       "priority": "",
       "recommended_concept": "",
       "important_objects": "",

@@ -81,14 +81,14 @@
   "public/images/guides/coffee-machine-formats-australia.webp": {
     "status": "KEEP",
     "phase_1_status": "FINAL KEEP",
-    "phase_1_note": "Generated with the built-in image generator, reviewed at full resolution and checked in the central 1920 x 640 hero and 1120 x 1080 card crops. It replaces the permanently blocked coffee-machine-types-australia.webp file.",
+    "phase_1_note": "Project-owner-supplied final asset, reviewed at full 1920 x 1080 resolution and checked at the actual 1440 x 540 desktop hero, 390 x 300 mobile hero and 1120 x 1080 card crops. It replaces the permanently blocked coffee-machine-types-australia.webp file and a rejected generated replacement.",
     "topic_relevance": 5,
     "realism": 5,
     "colour_visual_interest": 4,
     "composition": 5,
     "technical_quality": 5,
     "brand_suitability": 5,
-    "notes": "Three distinct unbranded formats and a separate grinder remain legible in responsive crops. Controls are unlabelled, the portafilter and steam wand are coherent, and the scene reads as a practical kitchen comparison rather than a retail lineup."
+    "notes": "A single unbranded manual espresso machine is the clear focal point, supported by a separate grinder and subtle notebook and tape-measure planning cues. Full-resolution review found coherent controls, portafilter, group head, steam wand, cord routing, power-point placement, cabinetry and reflections. The scene remains useful in desktop, mobile and card crops without presenting a product lineup or implying comparative testing."
   },
   "public/images/guides/cookware-materials-australia.webp": {
     "status": "MINOR EDIT",

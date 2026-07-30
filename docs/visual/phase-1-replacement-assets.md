@@ -59,22 +59,23 @@ All six assets must meet these requirements:
 
 ## 3. Coffee Machine Types
 
-- **Status:** Completed and approved on 30 July 2026 after full-resolution, hero-crop and card-crop review.
+- **Status:** Completed and approved on 30 July 2026 after full-resolution, desktop-hero, mobile-hero and card-crop review.
+- **Source:** Final image supplied and explicitly selected by the project owner. A generated catalogue-style predecessor failed review and is quarantined in `docs/visual/rejected-assets/`.
 - **Destination filename:** `public/images/guides/coffee-machine-formats-australia.webp`
 - **Route:** `/guides/coffee-machine-types-australia/` and its featured Guides card.
 - **Required dimensions:** 1920 × 1080.
 - **Target aspect ratio:** 16:9.
 - **Central crop-safe area:** 1120 × 640 centred in the frame.
-- **Subject and composition:** One believable kitchen bench divided naturally into three workflow zones rather than a catalogue lineup. The central zone shows manual espresso preparation, with smaller pod and automatic workflows on either side.
-- **Practical details:** Generic pod storage and cup; coherent manual machine, separate grinder, portafilter and tamping mat; coherent automatic machine with hopper and cup; water access, bench depth, usable landing space and cleaning clearance.
+- **Subject and composition:** One realistic, uncluttered Australian kitchen coffee corner with a generic manual espresso machine as the clear focal point and a separate grinder as supporting equipment.
+- **Practical details:** Coherent manual machine, grinder, portafilter, steam wand, drip tray, cup, power point and cord route; notebook and tape measure provide quiet evidence of bench-space and cupboard-clearance planning.
 - **Decor direction:** Contemporary working kitchen with painted cabinetry, restrained tile and stainless steel. Keep the bench practical rather than styled as a showroom.
 - **Colour variation:** Burgundy, forest green or clear painted cabinetry with warm white tile is acceptable. Use only one main accent.
 - **Repetition restrictions:** No cobalt splashback with coral cabinets, red retail-counter styling, beige timber showroom or all-grey appliance wall.
 - **Brand restrictions:** No logos, readable displays, fake labels, branded capsule shapes or recognisable copies of current machines.
-- **Plausibility checks:** Controls, trays, spouts, steam wand, portafilter, hopper and water reservoir must be coherent; reflections and power leads must agree; no machine may merge with the bench or another appliance.
-- **Crop considerations:** All three workflows must remain identifiable in the wide hero. The manual workflow and enough of both neighbouring types must survive the central card crop.
-- **Final alt text:** `Unbranded capsule, manual espresso and automatic coffee machines arranged with a grinder on a warm kitchen bench.`
-- **Reject if:** The machines appear as a retail lineup; any product resembles a named model; controls or accessories are invented or malformed; branding or unreadable text appears; or a card crop reduces the scene to one machine type.
+- **Plausibility checks:** Controls, drip tray, group head, steam wand, portafilter and grinder must be coherent; reflections and power leads must agree; the equipment must have practical clearance from the sink and cupboard edges.
+- **Crop considerations:** The manual machine must remain the focal point in the wide desktop hero, mobile hero and central card crop. The grinder or planning cues may be partially cropped provided the scene still reads as a household coffee-station planning context.
+- **Final alt text:** `An unbranded manual espresso machine and grinder beside a notebook and tape measure on a kitchen bench.`
+- **Reject if:** The scene becomes a retail lineup; any product resembles a named model; controls or accessories are invented or malformed; branding or unreadable text appears; cord routing is implausible; or responsive crops lose the primary machine.
 
 ## 4. Robot Vacuum
 

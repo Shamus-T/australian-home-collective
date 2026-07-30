@@ -9,7 +9,7 @@ Phase 1 implementation started from: `74257c91eaee5a82f937cd21470e098201691804`
 The 30 July correction pass supersedes the older public-use status statements retained later in
 this document as audit history.
 
-- The five rejected or zero-public-reference files are listed in
+- The six rejected or zero-public-reference files are listed in
   `docs/visual/rejected-image-assets.json`. Their binaries were moved out of `public/images/` to
   `docs/visual/rejected-assets/`, so Astro cannot copy them into generated output.
 - The audit regression test fails if a listed filename returns to source references, public output
@@ -18,9 +18,12 @@ this document as audit history.
   `public/images/guides/coffee-machine-formats-australia.webp`.
 - Cordless Stick Vacuums now uses
   `public/images/guides/cordless-vacuum-charging-storage-australia.webp`.
-- Both replacements were made with the built-in image generator, inspected at full resolution and
-  checked in the central 1920 × 640 hero crop and 1120 × 1080 card crop. Each is unbranded,
-  physically coherent and keeps its essential comparison or charging details inside both crops.
+- The Coffee Machine Types replacement was supplied and explicitly selected by the project owner.
+  It uses one manual machine, grinder and quiet measuring/planning cues rather than a catalogue
+  lineup. The Cordless Stick Vacuums replacement was made with the built-in image generator.
+- Both final replacements were inspected at full 1920 × 1080 resolution and checked at the actual
+  1440 × 540 desktop hero, 390 × 300 mobile hero and 1120 × 1080 card crops. Their essential
+  planning or charging details remain useful in every crop.
 - The refreshed inventory contains 146 public image files, all binary-unique, with no exact
   duplicate groups and the same three intentional perceptual near-duplicate pairs.
 - The refreshed generator produced eight numbered contact sheets plus the homepage/category,

@@ -20,6 +20,12 @@
       "reason": "Fictional product-lineup presentation with invented controls."
     },
     {
+      "path": "public/images/guides/coffee-machine-formats-staggered-workflow-failed-2026-07-30.webp",
+      "archivePath": "docs/visual/rejected-assets/coffee-machine-formats-staggered-workflow-failed-2026-07-30.webp",
+      "status": "rejected",
+      "reason": "Failed manual review because the generated composition remained catalogue-like, crowded and visually implausible."
+    },
+    {
       "path": "public/images/guides/robot-vacuum-buying-guide-australia.webp",
       "archivePath": "docs/visual/rejected-assets/robot-vacuum-buying-guide-australia.webp",
       "status": "zero-public-reference",
