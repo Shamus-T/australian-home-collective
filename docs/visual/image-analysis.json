@@ -1,5 +1,5 @@
 {
-  "generated_from_head": "0e3cd2b5327923df36fcf43a45e38454def3415f",
+  "generated_from_head": "556e832db5d39f5096ed3b378bb41dd4e938521d",
   "total_image_count": 146,
   "unique_binary_image_count": 146,
   "exact_duplicate_groups": [],
@@ -2183,17 +2183,17 @@
         {
           "context": "route /categories/kitchen/",
           "kind": "inline",
-          "alt": "Unbranded capsule, manual espresso and automatic coffee machines arranged with a grinder on a warm kitchen bench"
+          "alt": "An unbranded manual espresso machine and grinder beside a notebook and tape measure on a kitchen bench"
         },
         {
           "context": "route /guides/coffee-machine-types-australia/",
           "kind": "hero",
-          "alt": "Unbranded capsule, manual espresso and automatic coffee machines arranged with a grinder on a warm kitchen bench"
+          "alt": "An unbranded manual espresso machine and grinder beside a notebook and tape measure on a kitchen bench"
         },
         {
           "context": "route /guides/",
           "kind": "inline",
-          "alt": "Unbranded capsule, manual espresso and automatic coffee machines arranged with a grinder on a warm kitchen bench"
+          "alt": "An unbranded manual espresso machine and grinder beside a notebook and tape measure on a kitchen bench"
         },
         {
           "context": "source src/pages/guides/coffee-machine-types-australia/index.astro:54",
@@ -2207,8 +2207,7 @@
         "/guides/coffee-machine-types-australia/"
       ],
       "alt_texts": [
-        "An unbranded manual espresso machine and grinder beside a notebook and tape measure on a kitchen bench",
-        "Unbranded capsule, manual espresso and automatic coffee machines arranged with a grinder on a warm kitchen bench"
+        "An unbranded manual espresso machine and grinder beside a notebook and tape measure on a kitchen bench"
       ],
       "number_of_uses": 4,
       "public_route_count": 3,
