@@ -13,7 +13,7 @@ this document as audit history.
   `docs/visual/rejected-image-assets.json`. Their binaries were moved out of `public/images/` to
   `docs/visual/rejected-assets/`, so Astro cannot copy them into generated output.
 - The audit regression test fails if a listed filename returns to source references, public output
-  or any built file.
+  or any built file, and identifies the filename, registry status and referencing source or output.
 - Coffee Machine Types now uses
   `public/images/guides/coffee-machine-formats-australia.webp`.
 - Cordless Stick Vacuums now uses

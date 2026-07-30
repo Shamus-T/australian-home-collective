@@ -60,17 +60,20 @@ if (!fs.existsSync(rejectedRegistryPath)) {
     const publicRelativePath = asset.path.replace(/^public\//, "");
     const publicUrl = `/${publicRelativePath}`;
     const filename = path.posix.basename(asset.path);
+    const governanceStatus = asset.status ?? "unspecified";
     const deployedAssetPath = path.join(distRoot, ...publicRelativePath.split("/"));
 
     if (fs.existsSync(deployedAssetPath)) {
-      addError(`Rejected visual is present in deployable output: ${publicUrl}`);
+      addError(
+        `Rejected visual ${publicUrl} with governance status "${governanceStatus}" is present in deployable output.`,
+      );
     }
 
     for (const file of sourceFiles) {
       const source = fs.readFileSync(file, "utf8");
       if (source.includes(publicUrl) || source.includes(`"${filename}"`) || source.includes(`'${filename}'`)) {
         addError(
-          `Rejected visual ${publicUrl} is referenced by ${path.relative(root, file).replaceAll(path.sep, "/")}.`,
+          `Rejected visual ${publicUrl} with governance status "${governanceStatus}" is referenced by ${path.relative(root, file).replaceAll(path.sep, "/")}.`,
         );
       }
     }
@@ -79,7 +82,7 @@ if (!fs.existsSync(rejectedRegistryPath)) {
       const contents = fs.readFileSync(file);
       if (contents.includes(Buffer.from(publicUrl)) || contents.includes(Buffer.from(filename))) {
         addError(
-          `Rejected visual ${publicUrl} appears in generated file ${path.relative(root, file).replaceAll(path.sep, "/")}.`,
+          `Rejected visual ${publicUrl} with governance status "${governanceStatus}" appears in generated file ${path.relative(root, file).replaceAll(path.sep, "/")}.`,
         );
       }
     }
