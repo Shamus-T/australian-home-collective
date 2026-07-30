@@ -27,7 +27,7 @@
   "vars": {
     "SITE_ORIGIN": "https://australianhomecollective.com.au",
     "SEARCH_CONSOLE_SITE_URL": "sc-domain:australianhomecollective.com.au",
-    "ACCESS_TEAM_DOMAIN": "REPLACE_WITH_TEAM_NAME.cloudflareaccess.com",
-    "ACCESS_AUD": "REPLACE_WITH_ACCESS_APPLICATION_AUD"
+    "ACCESS_TEAM_DOMAIN": "shanetottenham.cloudflareaccess.com",
+    "ACCESS_AUD": "7ea5be42e96259aadadba5e7d1c2b0ffc6279718476d8477a34b82b026476954"
   }
 }
