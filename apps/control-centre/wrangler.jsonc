@@ -17,7 +17,7 @@
     {
       "binding": "AHC_ANALYTICS_DB",
       "database_name": "ahc-analytics",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "e28f3826-1dfd-4fed-af1c-ea129f3503b2",
       "migrations_dir": "migrations"
     }
   ],
