@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GuideCard from "../components/GuideCard.astro";
+import { seasonalLanding } from "../data/seasonalGuides";
 
 const categories = [
   {
@@ -197,7 +198,7 @@ const featuredGuides = [
     </div>
   </div>
 
-  <section class="section">
+  <section class="section" data-homepage-category-grid>
     <div class="container section-heading">
       <div>
         <p class="eyebrow">Browse by category</p>
@@ -218,6 +219,32 @@ const featuredGuides = [
           imageAlt={category.imageAlt}
         />
       ))}
+    </div>
+  </section>
+
+  <section class="section seasonal-feature-section" data-homepage-seasonal-feature>
+    <div class="container">
+      <a class="seasonal-feature" href={seasonalLanding.href}>
+        <img
+          data-seasonal-feature-image
+          src={seasonalLanding.image}
+          alt={seasonalLanding.imageAlt}
+          width="1535"
+          height="1024"
+          loading="lazy"
+          draggable="false"
+          style={`object-position: ${seasonalLanding.imagePosition};`}
+        />
+        <div class="seasonal-feature-copy">
+          <p class="eyebrow">{seasonalLanding.eyebrow}</p>
+          <h2>{seasonalLanding.heading}</h2>
+          <p>{seasonalLanding.description}</p>
+          <span class="seasonal-feature-cta">
+            {seasonalLanding.callToAction}
+            <span aria-hidden="true">&rarr;</span>
+          </span>
+        </div>
+      </a>
     </div>
   </section>
 
@@ -272,3 +299,138 @@ const featuredGuides = [
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .seasonal-feature-section {
+    padding-top: 12px;
+  }
+
+  .seasonal-feature {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    min-height: clamp(390px, 44vw, 520px);
+    align-items: flex-end;
+    overflow: hidden;
+    border: 1px solid rgba(63, 77, 63, 0.22);
+    border-radius: 10px;
+    background: var(--green-dark);
+    box-shadow: var(--shadow);
+    color: var(--color-cream);
+    text-decoration: none;
+    transition:
+      box-shadow 180ms ease,
+      transform 180ms ease;
+  }
+
+  .seasonal-feature::after {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background:
+      linear-gradient(
+        90deg,
+        rgba(20, 30, 23, 0.9) 0%,
+        rgba(20, 30, 23, 0.76) 35%,
+        rgba(20, 30, 23, 0.34) 68%,
+        rgba(20, 30, 23, 0.14) 100%
+      ),
+      linear-gradient(0deg, rgba(20, 30, 23, 0.48), transparent 55%);
+    content: "";
+  }
+
+  .seasonal-feature img {
+    position: absolute;
+    z-index: -2;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 240ms ease;
+  }
+
+  .seasonal-feature-copy {
+    width: min(620px, 76%);
+    padding: clamp(28px, 5vw, 58px);
+  }
+
+  .seasonal-feature-copy .eyebrow {
+    color: var(--color-wattle);
+  }
+
+  .seasonal-feature-copy h2,
+  .seasonal-feature-copy p {
+    color: var(--color-cream);
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.32);
+  }
+
+  .seasonal-feature-copy h2 {
+    margin-bottom: 16px;
+    font-size: clamp(2rem, 5vw, 3.45rem);
+  }
+
+  .seasonal-feature-copy > p:last-of-type {
+    margin-bottom: 24px;
+    font-size: clamp(1.05rem, 2vw, 1.2rem);
+  }
+
+  .seasonal-feature-cta {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid var(--color-wattle);
+    color: var(--color-cream);
+    font-weight: 800;
+  }
+
+  .seasonal-feature:hover {
+    box-shadow: 0 18px 42px rgba(31, 42, 33, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .seasonal-feature:hover img {
+    transform: scale(1.015);
+  }
+
+  .seasonal-feature:hover .seasonal-feature-cta {
+    color: var(--color-wattle);
+  }
+
+  .seasonal-feature:focus-visible {
+    outline: 4px solid var(--color-wattle);
+    outline-offset: 4px;
+  }
+
+  @media (max-width: 700px) {
+    .seasonal-feature {
+      min-height: 440px;
+    }
+
+    .seasonal-feature::after {
+      background:
+        linear-gradient(
+          0deg,
+          rgba(20, 30, 23, 0.94) 0%,
+          rgba(20, 30, 23, 0.75) 52%,
+          rgba(20, 30, 23, 0.24) 100%
+        );
+    }
+
+    .seasonal-feature-copy {
+      width: 100%;
+      padding: 28px 24px;
+    }
+
+    .seasonal-feature-copy h2 {
+      font-size: clamp(1.9rem, 10vw, 2.5rem);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .seasonal-feature,
+    .seasonal-feature img {
+      transition: none;
+    }
+  }
+</style>

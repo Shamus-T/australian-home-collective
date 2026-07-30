@@ -1,14 +1,16 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import GuideCard from "../../components/GuideCard.astro";
+import { seasonalLanding, seasonalSections } from "../../data/seasonalGuides";
 
 const title = "Seasonal Home Guides for Australian Homes";
 const seoTitle = "Seasonal Home Guides | Australian Home Collective";
 const description = "Practical Australian home guides organised by season. Plan ahead with advice for winter, spring, summer and autumn home projects.";
-const image = "/images/seasonal-guides.webp";
-const imageAlt = "A contemporary Australian home and garden transitioning naturally through winter, spring, summer and autumn";
+const image = seasonalLanding.image;
+const imageAlt = seasonalLanding.imageAlt;
 const siteUrl = "https://australianhomecollective.com.au";
-const canonicalPath = "/seasonal/";
+const canonicalPath = seasonalLanding.href;
 const canonicalUrl = new URL(canonicalPath, siteUrl).toString();
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -25,132 +27,6 @@ const breadcrumbSchema = {
     item: new URL(item.href ?? canonicalPath, siteUrl).toString(),
   })),
 };
-
-const seasonalSections = [
-  {
-    id: "winter",
-    title: "Winter",
-    introduction: "Winter priorities vary widely across Australia. Cooler southern regions may require regular room or whole-home heating, while households in warmer climates may only need occasional heating during early mornings or cooler evenings.\n\nWinter is also when draughts, poor insulation, condensation and uneven room temperatures become easier to notice. These guides focus on choosing suitable heating options and improving comfort without assuming that every home needs the same solution.",
-    guides: [
-      {
-        title: "Home Heating Options in Australia",
-        description: "Compare portable heaters, reverse-cycle air conditioning, ducted systems, electric bedding and other common options before deciding how to heat your home.",
-        href: "/guides/home-heating-options-australia/",
-      },
-      {
-        title: "How to Reduce Draughts Before Buying a Bigger Heater",
-        description: "Find avoidable air leaks around doors, windows, exhaust fans and other gaps without blocking the ventilation your home requires.",
-        href: "/guides/reduce-draughts-before-buying-bigger-heater/",
-      },
-      {
-        title: "Heating a Bedroom: What Type Suits Overnight Comfort?",
-        description: "Compare bed warming, reverse-cycle heating and portable options while checking airflow, noise, cords, clearances and safe bedtime use.",
-        href: "/guides/heating-a-bedroom-overnight-comfort/",
-      },
-      {
-        title: "Heating an Open-Plan Living Area",
-        description: "Measure the complete connected volume, glazing, ceilings and airflow before choosing heating for a kitchen, dining and living area.",
-        href: "/guides/heating-an-open-plan-living-area/",
-      },
-      {
-        title: "Reverse-Cycle Heating Explained",
-        description: "Understand heat-pump operation, winter efficiency, climate-zone performance, defrost cycles, sizing and installation before relying on reverse-cycle heating.",
-        href: "/guides/reverse-cycle-heating-explained/",
-      },
-      {
-        title: "Fan Heater vs Ceramic Heater",
-        description: "Compare two common portable heating options, including warm-up speed, noise, controls and suitable room use.",
-        href: "/guides/fan-heater-vs-ceramic-heater/",
-      },
-      {
-        title: "Oil Column Heater vs Panel Heater",
-        description: "Compare two quiet electric heating options, including warm-up time, retained warmth, wall and floor placement, controls and electricity use.",
-        href: "/guides/oil-column-heater-vs-panel-heater/",
-      },
-      {
-        title: "Electric Blankets vs Heated Throws",
-        description: "Understand the difference between warming the bed, warming one person and heating an entire room.",
-        href: "/guides/electric-blankets-vs-heated-throws/",
-      },
-      {
-        title: "Condensation and Mould During Winter",
-        description: "Identify moisture sources, cold surfaces, ventilation problems and leaks before recurring winter condensation develops into a larger mould problem.",
-        href: "/guides/condensation-and-mould-during-winter/",
-      },
-    ],
-  },
-  {
-    id: "spring",
-    title: "Spring",
-    introduction: "Spring often brings a shift towards cleaning, maintenance and preparing outdoor areas for warmer weather. It can also be a practical time to inspect cooling equipment and complete outdoor projects before summer demand increases.",
-    guides: [
-      {
-        title: "Spring Cleaning Checklist",
-        description: "Work through a practical room-by-room reset without turning seasonal cleaning into an unnecessary shopping exercise.",
-        href: "/guides/spring-cleaning-checklist/",
-      },
-      {
-        title: "Outdoor Entertaining Area Guide",
-        description: "Plan seating, shade, lighting, storage and circulation before buying products for an outdoor entertaining space.",
-        href: "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
-      },
-      {
-        title: "Lawn Care Basics",
-        description: "Start with the condition of the lawn, local climate and maintenance requirements before choosing equipment or treatments.",
-        href: "/guides/lawn-care-basics/",
-      },
-    ],
-  },
-  {
-    id: "summer",
-    title: "Summer",
-    introduction: "Summer places different demands on Australian homes depending on location, humidity, building design and exposure to heat. Cooling, airflow and shade are often more useful starting points than simply buying the largest appliance available.",
-    guides: [
-      {
-        title: "Air Conditioning Buying Guide",
-        description: "Compare split systems, multi-split arrangements, ducted systems and other cooling options before arranging installation.",
-        href: "/guides/air-conditioning-buying-guide/",
-      },
-      {
-        title: "Ceiling Fans Before You Buy",
-        description: "Check room size, ceiling height, blade clearance, mounting requirements and controls before choosing a ceiling fan.",
-        href: "/guides/ceiling-fans-before-you-buy/",
-      },
-      {
-        title: "Outdoor Shade Options",
-        description: "Compare permanent and flexible shade solutions for patios, decks, windows and outdoor living areas.",
-        href: "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
-      },
-      {
-        title: "Australian Made Home Gift Ideas Under $100",
-        description: "Plan useful Australian-made gifts for the home, kitchen, table or garden within a delivered budget.",
-        href: "/guides/australian-made-gift-ideas-under-100/",
-      },
-    ],
-  },
-  {
-    id: "autumn",
-    title: "Autumn",
-    introduction: "Autumn is a useful planning period between the extremes of summer and winter. In cooler parts of Australia, it provides time to address heat loss and organise heating before demand rises. In warmer regions, it may be more relevant for maintenance, ventilation and preparing the home for changing humidity or dry-season conditions.",
-    guides: [
-      {
-        title: "Preparing Your Home for Winter",
-        description: "Check heating, draughts, window coverings, bedding and maintenance tasks before colder conditions arrive.",
-        href: "/guides/preparing-your-home-for-winter/",
-      },
-      {
-        title: "Home Insulation Basics",
-        description: "Understand where homes commonly lose and gain heat, and what to investigate before committing to insulation upgrades.",
-        href: "/guides/home-insulation-basics/",
-      },
-      {
-        title: "Gutter Maintenance Guide",
-        description: "Know what to inspect, when professional help may be needed and how local weather conditions affect maintenance timing.",
-        href: "/guides/gutter-maintenance-guide/",
-      },
-    ],
-  },
-];
 ---
 
 <BaseLayout
@@ -230,6 +106,7 @@ const seasonalSections = [
     <section
       class:list={["section", "seasonal-section", index % 2 === 0 && "soft"]}
       id={season.id}
+      data-season-id={season.id}
       aria-labelledby={`${season.id}-heading`}
     >
       <div class="container section-heading">
@@ -241,18 +118,23 @@ const seasonalSections = [
           {season.introduction.split("\n\n").map((paragraph) => <p>{paragraph}</p>)}
         </div>
       </div>
-      <div class="container grid three">
+      <div class="container grid three" data-seasonal-guide-grid={season.id}>
         {season.guides.map((guide) => (
-          guide.href ? (
-            <article class="guide-card seasonal-guide-card">
-              <a href={guide.href} aria-label={`Read ${guide.title}`}>
-                <p class="meta">Guide</p>
-                <h3>{guide.title}</h3>
-                <p>{guide.description}</p>
-              </a>
-            </article>
+          guide.status === "published" ? (
+            <GuideCard
+              className="seasonal-guide-card"
+              href={guide.href}
+              title={guide.title}
+              description={guide.description}
+              meta={`${season.title} guide`}
+              image={guide.image}
+              imageAlt={guide.imageAlt}
+              imagePosition={guide.imagePosition}
+              headingLevel={3}
+              preferProvidedMetadata
+            />
           ) : (
-            <article class="card seasonal-guide-card planned-guide-card">
+            <article class="card seasonal-guide-card planned-guide-card" data-planned-seasonal-guide>
               <p class="planned-guide-status">Planned</p>
               <h3>{guide.title}</h3>
               <p>{guide.description}</p>
@@ -386,32 +268,36 @@ const seasonalSections = [
     font-weight: 700;
   }
 
-  .season-introduction p {
-    margin: 0;
-  }
-
   .season-introduction {
     max-width: 520px;
     color: var(--muted);
     font-size: 1.02rem;
   }
 
+  .season-introduction p {
+    margin: 0;
+  }
+
   .season-introduction p + p {
     margin-top: 14px;
   }
 
-  .seasonal-guide-card {
+  .seasonal-section :global(.seasonal-guide-card.has-image a) {
+    min-height: 365px;
+  }
+
+  .seasonal-section :global(.seasonal-guide-card h3) {
+    min-height: 0;
+    font-size: 1.42rem;
+  }
+
+  .planned-guide-card {
     display: flex;
     min-height: 250px;
     flex-direction: column;
   }
 
-  .seasonal-guide-card h3 {
-    font-size: 1.45rem;
-  }
-
-  .planned-guide-card > p:last-child,
-  .seasonal-guide-card a > p:last-child {
+  .planned-guide-card > p:last-child {
     margin-top: auto;
   }
 
@@ -438,12 +324,15 @@ const seasonalSections = [
   }
 
   @media (max-width: 720px) {
-    .seasonal-guide-card {
+    .seasonal-section :global(.seasonal-guide-card.has-image a) {
+      min-height: 330px;
+    }
+
+    .planned-guide-card {
       min-height: 0;
     }
 
-    .planned-guide-card > p:last-child,
-    .seasonal-guide-card a > p:last-child {
+    .planned-guide-card > p:last-child {
       margin-top: 8px;
     }
   }

@@ -10,6 +10,8 @@ interface Props {
   imageAlt?: string;
   imagePosition?: string;
   headingLevel?: 2 | 3;
+  className?: string;
+  preferProvidedMetadata?: boolean;
 }
 
 const {
@@ -21,6 +23,8 @@ const {
   imageAlt = "",
   imagePosition = "center",
   headingLevel = 3,
+  className,
+  preferProvidedMetadata = false,
 } = Astro.props;
 const articleMetadata = href.startsWith("/guides/") ? getGuideCardMetadata(href) : undefined;
 
@@ -28,14 +32,23 @@ if (href.startsWith("/guides/") && !articleMetadata) {
   throw new Error(`GuideCard points to an inactive or unknown guide: ${href}`);
 }
 
-const resolvedTitle = articleMetadata?.title ?? title;
-const resolvedImage = articleMetadata?.image ?? image;
-const resolvedImageAlt = articleMetadata?.imageAlt ?? imageAlt;
-const resolvedImagePosition = articleMetadata?.imagePosition ?? imagePosition;
+const resolvedTitle = preferProvidedMetadata ? title : articleMetadata?.title ?? title;
+const resolvedImage = preferProvidedMetadata ? image : articleMetadata?.image ?? image;
+const resolvedImageAlt = preferProvidedMetadata ? imageAlt : articleMetadata?.imageAlt ?? imageAlt;
+const resolvedImagePosition = preferProvidedMetadata
+  ? imagePosition
+  : articleMetadata?.imagePosition ?? imagePosition;
 const HeadingTag = headingLevel === 2 ? "h2" : "h3";
 ---
 
-<article class:list={["guide-card", resolvedImage && "has-image", meta === "Category" && "category-card"]}>
+<article
+  class:list={[
+    "guide-card",
+    resolvedImage && "has-image",
+    meta === "Category" && "category-card",
+    className,
+  ]}
+>
   <a href={href}>
     {resolvedImage && (
       <img

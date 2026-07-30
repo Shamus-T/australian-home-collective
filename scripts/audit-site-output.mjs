@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
+import { loadSeasonalGuideData } from "./lib/load-seasonal-guides.mjs";
 
 const root = process.cwd();
 const distRoot = path.join(root, "dist");
@@ -20,35 +21,15 @@ const approvedLongMetaDescriptions = new Map([
     "Find the causes of winter condensation and mould. Check moisture sources, windows, heating, ventilation, insulation, leaks and safe cleaning before buying products.",
   ],
 ]);
-const requiredSeasonalSections = new Map([
-  ["winter", [
-    "/guides/home-heating-options-australia/",
-    "/guides/heating-an-open-plan-living-area/",
-    "/guides/reverse-cycle-heating-explained/",
-    "/guides/reduce-draughts-before-buying-bigger-heater/",
-    "/guides/condensation-and-mould-during-winter/",
-    "/guides/electric-blankets-vs-heated-throws/",
-    "/guides/heating-a-bedroom-overnight-comfort/",
-    "/guides/fan-heater-vs-ceramic-heater/",
-    "/guides/oil-column-heater-vs-panel-heater/",
-  ]],
-  ["spring", [
-    "/guides/spring-cleaning-checklist/",
-    "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
-    "/guides/lawn-care-basics/",
-  ]],
-  ["summer", [
-    "/guides/air-conditioning-buying-guide/",
-    "/guides/ceiling-fans-before-you-buy/",
-    "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
-    "/guides/australian-made-gift-ideas-under-100/",
-  ]],
-  ["autumn", [
-    "/guides/preparing-your-home-for-winter/",
-    "/guides/home-insulation-basics/",
-    "/guides/gutter-maintenance-guide/",
-  ]],
-]);
+const { seasonalSections } = await loadSeasonalGuideData(root);
+const requiredSeasonalSections = new Map(
+  seasonalSections.map((season) => [
+    season.id,
+    season.guides
+      .filter((guide) => guide.status === "published")
+      .map((guide) => guide.href),
+  ]),
+);
 const requiredLegacyCollectionRedirects = new Map([
   ["/collections/nursery-kids", "/categories/nursery-kids/"],
   ["/collections/kitchen", "/categories/kitchen/"],
@@ -633,12 +614,6 @@ if (!fs.existsSync(seasonalOutputPath)) {
   addError("Seasonal Guides output is missing.");
 } else {
   const seasonalHtml = fs.readFileSync(seasonalOutputPath, "utf8");
-  const seasonalText = plainText(
-    seasonalHtml.replace(/<(?:style|script)\b[^>]*>[\s\S]*?<\/(?:style|script)>/gi, ""),
-  );
-  if (/\bPlanned\b/i.test(seasonalText)) {
-    addError("Seasonal Guides must not contain a Planned card after the completed launch.");
-  }
 
   const allSeasonalHrefs = [];
   for (const [season, expectedHrefs] of requiredSeasonalSections) {
@@ -652,20 +627,19 @@ if (!fs.existsSync(seasonalOutputPath)) {
     const guideHrefs = [...section.matchAll(
       /<article\b[^>]*class="[^"]*\bseasonal-guide-card\b[^"]*"[^>]*>[\s\S]*?<a\b[^>]*href="(\/guides\/[^"]+\/)"/gi,
     )].map((match) => match[1]);
-    const seasonalCardCount = [...section.matchAll(
-      /<article\b[^>]*class="[^"]*\bseasonal-guide-card\b[^"]*"/gi,
-    )].length;
     allSeasonalHrefs.push(...guideHrefs);
-    const minimumPublishedGuides = season === "winter" ? 9 : 3;
-    if (guideHrefs.length < minimumPublishedGuides) {
-      addError(`Seasonal Guides ${season} section must contain at least ${minimumPublishedGuides} published guide cards.`);
+    if (guideHrefs.length !== expectedHrefs.length) {
+      addError(
+        `Seasonal Guides ${season} section has ${guideHrefs.length} published guide links; `
+        + `shared seasonal data requires ${expectedHrefs.length}.`,
+      );
     }
-    if (guideHrefs.length !== seasonalCardCount) {
-      addError(`Seasonal Guides ${season} section contains a non-interactive or unpublished placeholder card.`);
-    }
-    for (const href of expectedHrefs) {
-      if (!guideHrefs.includes(href)) {
-        addError(`Seasonal Guides ${season} section is missing published route ${href}.`);
+    for (const [index, href] of expectedHrefs.entries()) {
+      if (guideHrefs[index] !== href) {
+        addError(
+          `Seasonal Guides ${season} guide ${index + 1} is "${guideHrefs[index] ?? "missing"}"; `
+          + `shared seasonal data requires "${href}".`,
+        );
       }
     }
   }

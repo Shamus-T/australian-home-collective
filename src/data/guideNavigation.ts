@@ -11,6 +11,7 @@ export interface GuideNavigation {
 }
 
 import { getCategoryPath } from "./categories";
+import { publishedSeasonalGuides } from "./seasonalGuides";
 
 const guideSources = import.meta.glob<string>("../pages/guides/**/index.astro", {
   query: "?raw",
@@ -25,12 +26,6 @@ const guideIndexSources = import.meta.glob<string>("../pages/guides/index.astro"
 });
 
 const categorySources = import.meta.glob<string>("../pages/categories/*/index.astro", {
-  query: "?raw",
-  import: "default",
-  eager: true,
-});
-
-const seasonalSources = import.meta.glob<string>("../pages/seasonal/index.astro", {
   query: "?raw",
   import: "default",
   eager: true,
@@ -83,10 +78,14 @@ function categoryGuideOrder(category: string, categoryPath?: string): string[] {
       .filter((href) => guideByHref.get(href)?.category === category);
   }
 
+  if (categoryPath === "/seasonal/") {
+    return publishedSeasonalGuides
+      .map((guide) => guide.href)
+      .filter((href) => getCategoryPath(guideByHref.get(href)?.category ?? "") === categoryPath);
+  }
+
   const sourcePath = `../pages${categoryPath}index.astro`;
-  const source = categoryPath === "/seasonal/"
-    ? seasonalSources[sourcePath]
-    : categorySources[sourcePath];
+  const source = categorySources[sourcePath];
   if (!source) return [];
 
   return orderedGuideHrefs(source)

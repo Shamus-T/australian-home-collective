@@ -153,10 +153,10 @@ main:focus-visible {
 }
 
 .brand-logo img {
+  display: block;
   width: auto;
   max-width: min(500px, 46vw);
   max-height: 86px;
-  border-radius: 3px;
   object-fit: contain;
   object-position: left center;
 }

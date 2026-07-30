@@ -1,7 +1,7 @@
 {
-  "generated_from_head": "556e832db5d39f5096ed3b378bb41dd4e938521d",
-  "total_image_count": 146,
-  "unique_binary_image_count": 146,
+  "generated_from_head": "040b8e8d379d92837d6132824d0787d62d632922",
+  "total_image_count": 147,
+  "unique_binary_image_count": 147,
   "exact_duplicate_groups": [],
   "near_duplicate_pairs": [
     {
@@ -48,6 +48,16 @@
           "alt": "A summer living room with a wall-mounted reverse-cycle air conditioner, ceiling fan and shaded windows"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A summer living room with a wall-mounted reverse-cycle air conditioner, ceiling fan and shaded windows"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:199",
+          "kind": "source_literal",
+          "alt": "A summer living room with a wall-mounted reverse-cycle air conditioner, ceiling fan and shaded windows"
+        },
+        {
           "context": "source src/pages/guides/air-conditioning-buying-guide/index.astro:27",
           "kind": "source_literal",
           "alt": "A summer living room with a wall-mounted reverse-cycle air conditioner, ceiling fan and shaded windows"
@@ -60,13 +70,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/air-conditioning-buying-guide/"
+        "/guides/air-conditioning-buying-guide/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "A summer living room with a wall-mounted reverse-cycle air conditioner, ceiling fan and shaded windows"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -94,6 +105,97 @@
       "brand_suitability": "",
       "average_score": "",
       "assessment_notes": "",
+      "priority": "",
+      "recommended_concept": "",
+      "important_objects": "",
+      "avoid": "",
+      "suggested_alt_text": ""
+    },
+    {
+      "file_path": "public/images/australian-made-home-gift-ideas-under-100.webp",
+      "file_name": "australian-made-home-gift-ideas-under-100.webp",
+      "format": "webp",
+      "width": 1672,
+      "height": 941,
+      "aspect_ratio": 1.7768,
+      "file_size_bytes": 123132,
+      "sha256": "47f2322dcd69bf2a89a7cda4df61fc9caedf83257f6cb8169ed271f594bafb93",
+      "perceptual_hash": "b397564dc09744f8",
+      "usages": [
+        {
+          "context": "route /guides/australian-made-gift-ideas-under-100/",
+          "kind": "hero",
+          "alt": "A modest home gift wrapped in kraft paper beside an unbranded ceramic bowl and folded cotton tea towel on a coral sideboard"
+        },
+        {
+          "context": "route /guides/australian-made-gift-ideas-under-100/",
+          "kind": "open_graph",
+          "alt": "A modest home gift wrapped in kraft paper beside an unbranded ceramic bowl and folded cotton tea towel on a coral sideboard"
+        },
+        {
+          "context": "route /guides/",
+          "kind": "inline",
+          "alt": "A modest home gift wrapped in kraft paper beside an unbranded ceramic bowl and folded cotton tea towel on a coral sideboard"
+        },
+        {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A modest home gift wrapped in kraft paper beside an unbranded ceramic bowl and folded cotton tea towel on a coral sideboard"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:231",
+          "kind": "source_literal",
+          "alt": "A modest home gift wrapped in kraft paper beside an unbranded ceramic bowl and folded cotton tea towel on a coral sideboard"
+        },
+        {
+          "context": "source src/pages/guides/australian-made-gift-ideas-under-100/index.astro:47",
+          "kind": "source_literal",
+          "alt": "A modest home gift wrapped in kraft paper beside an unbranded ceramic bowl and folded cotton tea towel on a coral sideboard"
+        },
+        {
+          "context": "source src/pages/guides/australian-made-gift-ideas-under-100/index.astro:50",
+          "kind": "source_literal",
+          "alt": "A modest home gift wrapped in kraft paper beside an unbranded ceramic bowl and folded cotton tea towel on a coral sideboard"
+        }
+      ],
+      "public_routes": [
+        "/guides/",
+        "/guides/australian-made-gift-ideas-under-100/",
+        "/seasonal/"
+      ],
+      "alt_texts": [
+        "A modest home gift wrapped in kraft paper beside an unbranded ceramic bowl and folded cotton tea towel on a coral sideboard"
+      ],
+      "number_of_uses": 7,
+      "public_route_count": 3,
+      "unique_or_reused": "reused",
+      "is_category_fallback": false,
+      "used_in_open_graph": true,
+      "dominant_colours": "#b9ad9d:22% | #c36f5e:20% | #7a443a:18% | #cac7c0:17% | #d8d8d4:12%",
+      "palette_flags": [
+        "grey",
+        "beige_or_cream",
+        "coral_or_terracotta"
+      ],
+      "palette_percentages": {
+        "beige_or_cream": 0.253,
+        "brown": 0.069,
+        "coral_or_terracotta": 0.243,
+        "dull_green": 0.01,
+        "grey": 0.411,
+        "warm_orange_grade": 0.111
+      },
+      "status": "KEEP",
+      "phase_1_status": "FINAL KEEP",
+      "phase_1_note": "",
+      "topic_relevance": 5,
+      "realism": 5,
+      "colour_visual_interest": 4,
+      "composition": 5,
+      "technical_quality": 5,
+      "brand_suitability": 5,
+      "average_score": 4.83,
+      "assessment_notes": "Dedicated editorial gift-guide image. Full-resolution inspection confirmed a coherent wrapped parcel, ceramic bowl, folded cotton tea towel, cabinetry, window and native foliage with no logos, labels, prices, branded designs or malformed details. The parcel and supporting objects remain legible in the article hero and Seasonal Guides card crops at 1440px, 1024px and 390px.",
       "priority": "",
       "recommended_concept": "",
       "important_objects": "",
@@ -132,12 +234,12 @@
           "alt": "A warm bathroom with natural finishes and tidy everyday storage"
         },
         {
-          "context": "source src/pages/index.astro:31",
+          "context": "source src/pages/index.astro:32",
           "kind": "source_literal",
           "alt": "A tidy bathroom with warm finishes, practical storage and soft natural light."
         },
         {
-          "context": "source src/pages/index.astro:109",
+          "context": "source src/pages/index.astro:110",
           "kind": "source_literal",
           "alt": "A tidy bathroom with warm finishes, soft light and practical everyday storage."
         },
@@ -226,12 +328,12 @@
           "alt": "A calm bedroom with soft bedding and warm natural light"
         },
         {
-          "context": "source src/pages/index.astro:24",
+          "context": "source src/pages/index.astro:25",
           "kind": "source_literal",
           "alt": "A calm bedroom with soft bedding, warm light and practical storage."
         },
         {
-          "context": "source src/pages/index.astro:101",
+          "context": "source src/pages/index.astro:102",
           "kind": "source_literal",
           "alt": "A calm small bedroom with soft bedding, warm light and practical storage."
         },
@@ -315,6 +417,16 @@
           "alt": "A ceiling fan installed above the seating area of a shaded Australian living room"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A ceiling fan installed above the seating area of a shaded Australian living room"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:209",
+          "kind": "source_literal",
+          "alt": "A ceiling fan installed above the seating area of a shaded Australian living room"
+        },
+        {
           "context": "source src/pages/guides/ceiling-fans-before-you-buy/index.astro:44",
           "kind": "source_literal",
           "alt": "A ceiling fan installed above the seating area of a shaded Australian living room"
@@ -327,13 +439,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/ceiling-fans-before-you-buy/"
+        "/guides/ceiling-fans-before-you-buy/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "A ceiling fan installed above the seating area of a shaded Australian living room"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -394,6 +507,16 @@
           "alt": "Winter condensation on an Australian home window with a small area of mould beginning near the frame"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "Winter condensation on an Australian home window with a small area of mould beginning near the frame"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:141",
+          "kind": "source_literal",
+          "alt": "Winter condensation on an Australian home window with a small area of mould beginning near the frame"
+        },
+        {
           "context": "source src/pages/guides/condensation-and-mould-during-winter/index.astro:26",
           "kind": "source_literal",
           "alt": "Winter condensation on an Australian home window with a small area of mould beginning near the frame"
@@ -406,13 +529,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/condensation-and-mould-during-winter/"
+        "/guides/condensation-and-mould-during-winter/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "Winter condensation on an Australian home window with a small area of mould beginning near the frame"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -472,6 +596,16 @@
           "alt": "An electric blanket controller beside a made bed with a heated throw folded over a nearby chair"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "An electric blanket controller beside a made bed with a heated throw folded over a nearby chair"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:131",
+          "kind": "source_literal",
+          "alt": "An electric blanket controller beside a made bed with a heated throw folded over a nearby chair"
+        },
+        {
           "context": "source src/pages/guides/electric-blankets-vs-heated-throws/index.astro:54",
           "kind": "source_literal",
           "alt": "An electric blanket controller beside a made bed with a heated throw folded over a nearby chair"
@@ -484,13 +618,14 @@
       ],
       "public_routes": [
         "/categories/bedroom/",
-        "/guides/electric-blankets-vs-heated-throws/"
+        "/guides/electric-blankets-vs-heated-throws/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "An electric blanket controller beside a made bed with a heated throw folded over a nearby chair"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -550,6 +685,16 @@
           "alt": "A compact fan heater and a taller ceramic heater positioned safely in a winter home interior"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A compact fan heater and a taller ceramic heater positioned safely in a winter home interior"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:110",
+          "kind": "source_literal",
+          "alt": "A compact fan heater and a taller ceramic heater positioned safely in a winter home interior"
+        },
+        {
           "context": "source src/pages/guides/fan-heater-vs-ceramic-heater/index.astro:54",
           "kind": "source_literal",
           "alt": "A compact fan heater and a taller ceramic heater positioned safely in a winter home interior"
@@ -562,13 +707,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/fan-heater-vs-ceramic-heater/"
+        "/guides/fan-heater-vs-ceramic-heater/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "A compact fan heater and a taller ceramic heater positioned safely in a winter home interior"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -643,7 +789,7 @@
           "alt": "An organised garage with wall storage, cabinets and clear floor space"
         },
         {
-          "context": "source src/pages/index.astro:66",
+          "context": "source src/pages/index.astro:67",
           "kind": "source_literal",
           "alt": "An organised garage with wall storage, shelves and clear floor space."
         },
@@ -5237,6 +5383,16 @@
           "alt": "An empty covered patio with flexible chairs, a timber bench, serving console and secure overhead lights"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "An empty covered patio with flexible chairs, a timber bench, serving console and secure overhead lights"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:171",
+          "kind": "source_literal",
+          "alt": "An empty covered patio with flexible chairs, a timber bench, serving console and secure overhead lights"
+        },
+        {
           "context": "source src/pages/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/index.astro:68",
           "kind": "source_literal",
           "alt": "An empty covered patio with flexible chairs, a timber bench, serving console and secure overhead lights"
@@ -5244,13 +5400,14 @@
       ],
       "public_routes": [
         "/categories/outdoor-garden/",
-        "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/"
+        "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "An empty covered patio with flexible chairs, a timber bench, serving console and secure overhead lights"
       ],
-      "number_of_uses": 3,
-      "public_route_count": 2,
+      "number_of_uses": 5,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": false,
@@ -5375,6 +5532,16 @@
           "alt": "A retractable awning shading two patio chairs while late-afternoon sun reaches the open lawn"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A retractable awning shading two patio chairs while late-afternoon sun reaches the open lawn"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:221",
+          "kind": "source_literal",
+          "alt": "A retractable awning shading two patio chairs while late-afternoon sun reaches the open lawn"
+        },
+        {
           "context": "source src/pages/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/index.astro:83",
           "kind": "source_literal",
           "alt": "A retractable awning shading two patio chairs while late-afternoon sun reaches the open lawn"
@@ -5382,13 +5549,14 @@
       ],
       "public_routes": [
         "/categories/outdoor-garden/",
-        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "A retractable awning shading two patio chairs while late-afternoon sun reaches the open lawn"
       ],
-      "number_of_uses": 3,
-      "public_route_count": 2,
+      "number_of_uses": 5,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": false,
@@ -5673,7 +5841,7 @@
           "alt": "A compact walk-in pantry with open shelves, navy drawers and a clear aisle"
         },
         {
-          "context": "source src/pages/index.astro:84",
+          "context": "source src/pages/index.astro:85",
           "kind": "source_literal",
           "alt": "A compact walk-in pantry with open shelves, navy drawers and a clear aisle."
         },
@@ -6000,12 +6168,12 @@
           "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
         },
         {
-          "context": "source src/pages/index.astro:38",
+          "context": "source src/pages/index.astro:39",
           "kind": "source_literal",
           "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
         },
         {
-          "context": "source src/pages/index.astro:125",
+          "context": "source src/pages/index.astro:126",
           "kind": "source_literal",
           "alt": "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access"
         },
@@ -7980,6 +8148,16 @@
           "alt": "Clean gutters and a connected downpipe on an Australian home during autumn"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "Clean gutters and a connected downpipe on an Australian home during autumn"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:270",
+          "kind": "source_literal",
+          "alt": "Clean gutters and a connected downpipe on an Australian home during autumn"
+        },
+        {
           "context": "source src/pages/guides/gutter-maintenance-guide/index.astro:44",
           "kind": "source_literal",
           "alt": "Clean gutters and a connected downpipe on an Australian home during autumn"
@@ -7992,13 +8170,14 @@
       ],
       "public_routes": [
         "/categories/outdoor-garden/",
-        "/guides/gutter-maintenance-guide/"
+        "/guides/gutter-maintenance-guide/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "Clean gutters and a connected downpipe on an Australian home during autumn"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -8037,9 +8216,9 @@
       "width": 1200,
       "height": 300,
       "aspect_ratio": 4.0,
-      "file_size_bytes": 142621,
-      "sha256": "c07e65b76470cf681f60866ef9df58055e6d630dd3adc5fa32ac7f7808906165",
-      "perceptual_hash": "bed0c12f63879c68",
+      "file_size_bytes": 129724,
+      "sha256": "8b7026cfc654aeb8d05f31e60b6cd87c83f10a90e862b0ff1213dd6d2578e0c2",
+      "perceptual_hash": "bed0c12f63879568",
       "usages": [
         {
           "context": "route /404.html",
@@ -8921,17 +9100,17 @@
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": false,
-      "dominant_colours": "#fbf3e9:75% | #d2cabb:16% | #fbf3e8:6% | #faf3e9:3% | #fcf3ea:1%",
+      "dominant_colours": "#ffffff:76% | #e4e1d8:6% | #c0baaa:6% | #77725f:5% | #f9f8f5:5%",
       "palette_flags": [
         "grey",
         "beige_or_cream"
       ],
       "palette_percentages": {
-        "beige_or_cream": 0.672,
-        "brown": 0.103,
-        "dull_green": 0.087,
-        "grey": 0.462,
-        "warm_orange_grade": 0.13
+        "beige_or_cream": 0.285,
+        "brown": 0.111,
+        "dull_green": 0.083,
+        "grey": 0.538,
+        "warm_orange_grade": 0.125
       },
       "status": "KEEP",
       "phase_1_status": "FINAL KEEP",
@@ -8943,7 +9122,7 @@
       "technical_quality": 5,
       "brand_suitability": 5,
       "average_score": 4.67,
-      "assessment_notes": "The primary publication wordmark. Its embedded lettering and logo are intentional brand identity, not decorative article imagery.",
+      "assessment_notes": "The primary publication wordmark. Its existing artwork is preserved on a true transparent background so the shared header gradient remains uniform, with anti-aliased edge transparency retained and no cream matte.",
       "priority": "",
       "recommended_concept": "",
       "important_objects": "",
@@ -8957,9 +9136,9 @@
       "width": 1200,
       "height": 300,
       "aspect_ratio": 4.0,
-      "file_size_bytes": 29146,
-      "sha256": "a23484697d7d55f9c624313df3b027cef6abda2fe285f80fcddee9e8607ade95",
-      "perceptual_hash": "bed0c12f63879c68",
+      "file_size_bytes": 36064,
+      "sha256": "f3931e7ea43be4191548943fc547289e665387095739506070d67ab7294ea4e3",
+      "perceptual_hash": "bed0c12f63879568",
       "usages": [
         {
           "context": "route /404.html",
@@ -9841,17 +10020,17 @@
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": false,
-      "dominant_colours": "#fbf4e8:68% | #dbd3c5:17% | #fcf4e8:7% | #faf4e8:4% | #fbf4e7:4%",
+      "dominant_colours": "#ffffff:76% | #e4e1d8:6% | #c0baaa:6% | #77725f:5% | #f9f8f5:5%",
       "palette_flags": [
         "grey",
         "beige_or_cream"
       ],
       "palette_percentages": {
-        "beige_or_cream": 0.656,
-        "brown": 0.102,
-        "dull_green": 0.093,
-        "grey": 0.473,
-        "warm_orange_grade": 0.128
+        "beige_or_cream": 0.285,
+        "brown": 0.111,
+        "dull_green": 0.083,
+        "grey": 0.538,
+        "warm_orange_grade": 0.125
       },
       "status": "KEEP",
       "phase_1_status": "FINAL KEEP",
@@ -9863,7 +10042,7 @@
       "technical_quality": 5,
       "brand_suitability": 5,
       "average_score": 4.67,
-      "assessment_notes": "Alternate-format publication wordmark. Perceptually identical to the PNG but retained because both formats are currently referenced.",
+      "assessment_notes": "Transparent lossless WebP form of the publication wordmark. Its alpha mask matches the PNG fallback and removes the former opaque cream rectangle without changing the artwork, proportions or brand colours.",
       "priority": "",
       "recommended_concept": "",
       "important_objects": "",
@@ -9897,6 +10076,16 @@
           "alt": "A winter bedroom with closed curtains, reverse-cycle air conditioning, warm bedding and an electric-blanket controller on the bedside table"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A winter bedroom with closed curtains, reverse-cycle air conditioning, warm bedding and an electric-blanket controller on the bedside table"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:77",
+          "kind": "source_literal",
+          "alt": "A winter bedroom with closed curtains, reverse-cycle air conditioning, warm bedding and an electric-blanket controller on the bedside table"
+        },
+        {
           "context": "source src/pages/guides/heating-a-bedroom-overnight-comfort/index.astro:17",
           "kind": "source_literal",
           "alt": "A winter bedroom with closed curtains, reverse-cycle air conditioning, warm bedding and an electric-blanket controller on the bedside table"
@@ -9904,13 +10093,14 @@
       ],
       "public_routes": [
         "/categories/bedroom/",
-        "/guides/heating-a-bedroom-overnight-comfort/"
+        "/guides/heating-a-bedroom-overnight-comfort/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "A winter bedroom with closed curtains, reverse-cycle air conditioning, warm bedding and an electric-blanket controller on the bedside table"
       ],
-      "number_of_uses": 4,
-      "public_route_count": 2,
+      "number_of_uses": 6,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -9971,6 +10161,16 @@
           "alt": "An open-plan Australian kitchen, dining and living area heated by a wall-mounted reverse-cycle air conditioner"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "An open-plan Australian kitchen, dining and living area heated by a wall-mounted reverse-cycle air conditioner"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:88",
+          "kind": "source_literal",
+          "alt": "An open-plan Australian kitchen, dining and living area heated by a wall-mounted reverse-cycle air conditioner"
+        },
+        {
           "context": "source src/pages/guides/heating-an-open-plan-living-area/index.astro:26",
           "kind": "source_literal",
           "alt": "An open-plan Australian kitchen, dining and living area heated by a wall-mounted reverse-cycle air conditioner"
@@ -9983,13 +10183,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/heating-an-open-plan-living-area/"
+        "/guides/heating-an-open-plan-living-area/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "An open-plan Australian kitchen, dining and living area heated by a wall-mounted reverse-cycle air conditioner"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -10048,6 +10249,16 @@
           "alt": "A winter living room with a reverse-cycle air conditioner, an oil column heater and a folded heated throw"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A winter living room with a reverse-cycle air conditioner, an oil column heater and a folded heated throw"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:56",
+          "kind": "source_literal",
+          "alt": "A winter living room with a reverse-cycle air conditioner, an oil column heater and a folded heated throw"
+        },
+        {
           "context": "source src/pages/guides/home-heating-options-australia/index.astro:59",
           "kind": "source_literal",
           "alt": "A winter living room with a reverse-cycle air conditioner, an oil column heater and a folded heated throw"
@@ -10060,13 +10271,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/home-heating-options-australia/"
+        "/guides/home-heating-options-australia/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "A winter living room with a reverse-cycle air conditioner, an oil column heater and a folded heated throw"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -10125,6 +10337,16 @@
           "alt": "A cutaway of an Australian home showing insulation in the ceiling, roof and external wall"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A cutaway of an Australian home showing insulation in the ceiling, roof and external wall"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:260",
+          "kind": "source_literal",
+          "alt": "A cutaway of an Australian home showing insulation in the ceiling, roof and external wall"
+        },
+        {
           "context": "source src/pages/guides/home-insulation-basics/index.astro:33",
           "kind": "source_literal",
           "alt": "A cutaway of an Australian home showing insulation in the ceiling, roof and external wall"
@@ -10137,13 +10359,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/home-insulation-basics/"
+        "/guides/home-insulation-basics/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "A cutaway of an Australian home showing insulation in the ceiling, roof and external wall"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -10193,7 +10416,7 @@
           "alt": "A warm Australian home interior with timber furniture, greenery, kitchen and living spaces"
         },
         {
-          "context": "source src/pages/index.astro:147",
+          "context": "source src/pages/index.astro:148",
           "kind": "source_literal",
           "alt": "A warm Australian home interior with timber furniture, greenery, kitchen and living spaces"
         }
@@ -10272,7 +10495,7 @@
           "alt": "A warm home office with a timber desk, greenery and soft natural light"
         },
         {
-          "context": "source src/pages/index.astro:59",
+          "context": "source src/pages/index.astro:60",
           "kind": "source_literal",
           "alt": "A compact home office setup with a tidy desk, warm light and practical storage."
         },
@@ -10360,12 +10583,12 @@
           "alt": "A warm kitchen with timber cabinetry, green accents and a tidy benchtop"
         },
         {
-          "context": "source src/pages/index.astro:10",
+          "context": "source src/pages/index.astro:11",
           "kind": "source_literal",
           "alt": "A warm kitchen with timber cabinetry, green accents and a tidy benchtop."
         },
         {
-          "context": "source src/pages/index.astro:93",
+          "context": "source src/pages/index.astro:94",
           "kind": "source_literal",
           "alt": "A warm kitchen with timber cabinetry, green accents and practical everyday kitchen storage."
         },
@@ -10454,12 +10677,12 @@
           "alt": "A practical laundry room with warm finishes and tidy storage"
         },
         {
-          "context": "source src/pages/index.astro:17",
+          "context": "source src/pages/index.astro:18",
           "kind": "source_literal",
           "alt": "A practical laundry room with warm finishes and tidy storage."
         },
         {
-          "context": "source src/pages/index.astro:117",
+          "context": "source src/pages/index.astro:118",
           "kind": "source_literal",
           "alt": "A practical laundry room with warm finishes, baskets and tidy everyday storage."
         },
@@ -10541,6 +10764,16 @@
           "alt": "An Australian backyard lawn with a safely parked mower, garden tools, hose reel and a small area of thinner grass"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "An Australian backyard lawn with a safely parked mower, garden tools, hose reel and a small area of thinner grass"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:181",
+          "kind": "source_literal",
+          "alt": "An Australian backyard lawn with a safely parked mower, garden tools, hose reel and a small area of thinner grass"
+        },
+        {
           "context": "source src/pages/guides/lawn-care-basics/index.astro:39",
           "kind": "source_literal",
           "alt": "An Australian backyard lawn with a safely parked mower, garden tools, hose reel and a small area of thinner grass"
@@ -10553,13 +10786,14 @@
       ],
       "public_routes": [
         "/categories/outdoor-garden/",
-        "/guides/lawn-care-basics/"
+        "/guides/lawn-care-basics/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "An Australian backyard lawn with a safely parked mower, garden tools, hose reel and a small area of thinner grass"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -10611,16 +10845,6 @@
           "alt": "A warm living room with timber shelving, soft furnishings and natural light"
         },
         {
-          "context": "route /guides/australian-made-gift-ideas-under-100/",
-          "kind": "hero",
-          "alt": "A small gift for the home wrapped on a timber table in warm natural light"
-        },
-        {
-          "context": "route /guides/",
-          "kind": "inline",
-          "alt": "A small gift for the home wrapped on a timber table in warm natural light"
-        },
-        {
           "context": "route /",
           "kind": "inline",
           "alt": "A warm living room with tidy storage, soft seating and natural light."
@@ -10641,7 +10865,7 @@
           "alt": "A warm, tidy Australian home interior"
         },
         {
-          "context": "source src/pages/index.astro:52",
+          "context": "source src/pages/index.astro:53",
           "kind": "source_literal",
           "alt": "A warm living room with tidy storage, soft seating and natural light."
         },
@@ -10649,29 +10873,21 @@
           "context": "source src/pages/categories/index.astro:52",
           "kind": "source_literal",
           "alt": "A warm living room with timber furniture, soft linen and indoor greenery."
-        },
-        {
-          "context": "source src/pages/guides/australian-made-gift-ideas-under-100/index.astro:47",
-          "kind": "source_literal",
-          "alt": "A small gift for the home wrapped on a timber table in warm natural light"
         }
       ],
       "public_routes": [
         "/",
         "/categories/",
-        "/categories/living-spaces/",
-        "/guides/",
-        "/guides/australian-made-gift-ideas-under-100/"
+        "/categories/living-spaces/"
       ],
       "alt_texts": [
-        "A small gift for the home wrapped on a timber table in warm natural light",
         "A warm living room with tidy storage, soft seating and natural light.",
         "A warm living room with timber furniture, soft linen and indoor greenery.",
         "A warm living room with timber shelving, soft furnishings and natural light",
         "A warm, tidy Australian home interior"
       ],
-      "number_of_uses": 11,
-      "public_route_count": 5,
+      "number_of_uses": 8,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": true,
       "used_in_open_graph": false,
@@ -10839,12 +11055,12 @@
           "alt": ""
         },
         {
-          "context": "source src/pages/index.astro:45",
+          "context": "source src/pages/index.astro:46",
           "kind": "source_literal",
           "alt": "A tidy nursery room with timber furniture, soft lighting and practical baby storage."
         },
         {
-          "context": "source src/pages/index.astro:133",
+          "context": "source src/pages/index.astro:134",
           "kind": "source_literal",
           "alt": "A tidy nursery room with timber furniture, soft lighting and practical baby storage."
         },
@@ -10931,6 +11147,16 @@
           "alt": "An oil column heater and a wall-mounted panel heater positioned safely in adjoining bedroom and study areas"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "An oil column heater and a wall-mounted panel heater positioned safely in adjoining bedroom and study areas"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:120",
+          "kind": "source_literal",
+          "alt": "An oil column heater and a wall-mounted panel heater positioned safely in adjoining bedroom and study areas"
+        },
+        {
           "context": "source src/pages/guides/oil-column-heater-vs-panel-heater/index.astro:54",
           "kind": "source_literal",
           "alt": "An oil column heater and a wall-mounted panel heater positioned safely in adjoining bedroom and study areas"
@@ -10943,13 +11169,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/oil-column-heater-vs-panel-heater/"
+        "/guides/oil-column-heater-vs-panel-heater/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "An oil column heater and a wall-mounted panel heater positioned safely in adjoining bedroom and study areas"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -11013,7 +11240,7 @@
           "alt": "A warm Australian patio garden with timber seating, native greenery and soft afternoon light"
         },
         {
-          "context": "source src/pages/index.astro:73",
+          "context": "source src/pages/index.astro:74",
           "kind": "source_literal",
           "alt": "A warm Australian patio garden with outdoor seating, greenery and practical storage."
         },
@@ -11144,6 +11371,16 @@
           "alt": "An Australian living room prepared for winter with curtains, a door seal, reverse-cycle air conditioning and stored winter heating items"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "An Australian living room prepared for winter with curtains, a door seal, reverse-cycle air conditioning and stored winter heating items"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:250",
+          "kind": "source_literal",
+          "alt": "An Australian living room prepared for winter with curtains, a door seal, reverse-cycle air conditioning and stored winter heating items"
+        },
+        {
           "context": "source src/pages/guides/preparing-your-home-for-winter/index.astro:74",
           "kind": "source_literal",
           "alt": "An Australian living room prepared for winter with curtains, a door seal, reverse-cycle air conditioning and stored winter heating items"
@@ -11156,13 +11393,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/preparing-your-home-for-winter/"
+        "/guides/preparing-your-home-for-winter/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "An Australian living room prepared for winter with curtains, a door seal, reverse-cycle air conditioning and stored winter heating items"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -11223,6 +11461,16 @@
           "alt": "An Australian living room with a sealed external door, fitted curtains and closed internal doors to reduce winter draughts"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "An Australian living room with a sealed external door, fitted curtains and closed internal doors to reduce winter draughts"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:66",
+          "kind": "source_literal",
+          "alt": "An Australian living room with a sealed external door, fitted curtains and closed internal doors to reduce winter draughts"
+        },
+        {
           "context": "source src/pages/guides/reduce-draughts-before-buying-bigger-heater/index.astro:26",
           "kind": "source_literal",
           "alt": "An Australian living room with a sealed external door, fitted curtains and closed internal doors to reduce winter draughts"
@@ -11235,13 +11483,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/reduce-draughts-before-buying-bigger-heater/"
+        "/guides/reduce-draughts-before-buying-bigger-heater/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "An Australian living room with a sealed external door, fitted curtains and closed internal doors to reduce winter draughts"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -11301,6 +11550,16 @@
           "alt": "A contemporary Australian living room with reverse-cycle air conditioning, a ceiling fan and the outdoor unit visible beside the home"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A contemporary Australian living room with reverse-cycle air conditioning, a ceiling fan and the outdoor unit visible beside the home"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:99",
+          "kind": "source_literal",
+          "alt": "A contemporary Australian living room with reverse-cycle air conditioning, a ceiling fan and the outdoor unit visible beside the home"
+        },
+        {
           "context": "source src/pages/guides/reverse-cycle-heating-explained/index.astro:54",
           "kind": "source_literal",
           "alt": "A contemporary Australian living room with reverse-cycle air conditioning, a ceiling fan and the outdoor unit visible beside the home"
@@ -11313,13 +11572,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/reverse-cycle-heating-explained/"
+        "/guides/reverse-cycle-heating-explained/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "A contemporary Australian living room with reverse-cycle air conditioning, a ceiling fan and the outdoor unit visible beside the home"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,
@@ -11364,9 +11624,9 @@
       "perceptual_hash": "d1d5943c69e39a0e",
       "usages": [
         {
-          "context": "route /guides/australian-made-gift-ideas-under-100/",
-          "kind": "open_graph",
-          "alt": "Australian Home Collective Seasonal Guides for Australian homes"
+          "context": "route /",
+          "kind": "inline",
+          "alt": "A contemporary Australian home and garden transitioning naturally through winter, spring, summer and autumn"
         },
         {
           "context": "route /seasonal/",
@@ -11379,18 +11639,18 @@
           "alt": "A contemporary Australian home and garden transitioning naturally through winter, spring, summer and autumn"
         },
         {
+          "context": "source src/data/seasonalGuides.ts:37",
+          "kind": "source_literal",
+          "alt": "A contemporary Australian home and garden transitioning naturally through winter, spring, summer and autumn"
+        },
+        {
           "context": "source src/data/socialImages.ts:57",
           "kind": "source_literal",
           "alt": "Australian Home Collective Seasonal Guides for Australian homes"
-        },
-        {
-          "context": "source src/pages/seasonal/index.astro:8",
-          "kind": "source_literal",
-          "alt": "A contemporary Australian home and garden transitioning naturally through winter, spring, summer and autumn"
         }
       ],
       "public_routes": [
-        "/guides/australian-made-gift-ideas-under-100/",
+        "/",
         "/seasonal/"
       ],
       "alt_texts": [
@@ -12907,6 +13167,16 @@
           "alt": "A bright Australian living area prepared for spring cleaning with a vacuum, cleaning caddy, cloths and sorting basket"
         },
         {
+          "context": "route /seasonal/",
+          "kind": "inline",
+          "alt": "A bright Australian living area prepared for spring cleaning with a vacuum, cleaning caddy, cloths and sorting basket"
+        },
+        {
+          "context": "source src/data/seasonalGuides.ts:160",
+          "kind": "source_literal",
+          "alt": "A bright Australian living area prepared for spring cleaning with a vacuum, cleaning caddy, cloths and sorting basket"
+        },
+        {
           "context": "source src/pages/guides/spring-cleaning-checklist/index.astro:54",
           "kind": "source_literal",
           "alt": "A bright Australian living area prepared for spring cleaning with a vacuum, cleaning caddy, cloths and sorting basket"
@@ -12919,13 +13189,14 @@
       ],
       "public_routes": [
         "/categories/living-spaces/",
-        "/guides/spring-cleaning-checklist/"
+        "/guides/spring-cleaning-checklist/",
+        "/seasonal/"
       ],
       "alt_texts": [
         "A bright Australian living area prepared for spring cleaning with a vacuum, cleaning caddy, cloths and sorting basket"
       ],
-      "number_of_uses": 5,
-      "public_route_count": 2,
+      "number_of_uses": 7,
+      "public_route_count": 3,
       "unique_or_reused": "reused",
       "is_category_fallback": false,
       "used_in_open_graph": true,

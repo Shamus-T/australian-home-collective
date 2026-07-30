@@ -1,4 +1,14 @@
 {
+  "public/images/australian-made-home-gift-ideas-under-100.webp": {
+    "status": "KEEP",
+    "topic_relevance": 5,
+    "realism": 5,
+    "colour_visual_interest": 4,
+    "composition": 5,
+    "technical_quality": 5,
+    "brand_suitability": 5,
+    "notes": "Dedicated editorial gift-guide image. Full-resolution inspection confirmed a coherent wrapped parcel, ceramic bowl, folded cotton tea towel, cabinetry, window and native foliage with no logos, labels, prices, branded designs or malformed details. The parcel and supporting objects remain legible in the article hero and Seasonal Guides card crops at 1440px, 1024px and 390px."
+  },
   "public/images/bathroom.webp": {
     "status": "REPLACE",
     "topic_relevance": 2,
@@ -359,7 +369,7 @@
     "composition": 5,
     "technical_quality": 5,
     "brand_suitability": 5,
-    "notes": "The primary publication wordmark. Its embedded lettering and logo are intentional brand identity, not decorative article imagery."
+    "notes": "The primary publication wordmark. Its existing artwork is preserved on a true transparent background so the shared header gradient remains uniform, with anti-aliased edge transparency retained and no cream matte."
   },
   "public/images/header-title.webp": {
     "status": "KEEP",
@@ -369,7 +379,7 @@
     "composition": 5,
     "technical_quality": 5,
     "brand_suitability": 5,
-    "notes": "Alternate-format publication wordmark. Perceptually identical to the PNG but retained because both formats are currently referenced."
+    "notes": "Transparent lossless WebP form of the publication wordmark. Its alpha mask matches the PNG fallback and removes the former opaque cream rectangle without changing the artwork, proportions or brand colours."
   },
   "public/images/home-lifestyle-hero.jpg": {
     "status": "REPLACE",
