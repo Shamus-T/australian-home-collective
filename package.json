@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && npm run index:search && npm run audit:search:content && node scripts/audit-site-output.mjs && node scripts/audit-editorial-standards.mjs && node scripts/audit-featured-guide-images.mjs && node scripts/audit-guide-navigation.mjs && node scripts/audit-category-consistency.mjs && node scripts/audit-continue-exploring.mjs && node scripts/audit-seasonal-visuals.mjs && npm run audit:search:dist",
+    "build": "npm run test:search-analytics && astro build && npm run index:search && npm run audit:search:content && node scripts/audit-site-output.mjs && node scripts/audit-editorial-standards.mjs && node scripts/audit-featured-guide-images.mjs && node scripts/audit-guide-navigation.mjs && node scripts/audit-category-consistency.mjs && node scripts/audit-continue-exploring.mjs && node scripts/audit-seasonal-visuals.mjs && npm run audit:search:dist",
     "index:search": "pagefind",
     "audit:search:content": "node scripts/audit-pagefind-content.mjs",
     "audit:search:dist": "node scripts/audit-pagefind-output.mjs",
@@ -21,6 +21,7 @@
     "audit:commercial": "node scripts/audit-commercial-data.mjs",
     "audit:commercial:dist": "node scripts/audit-commercial-data.mjs --dist",
     "test:contact": "node --test tests/contact-function.test.mjs",
+    "test:search-analytics": "node --test tests/search-analytics.test.mjs",
     "sitemap:update": "node scripts/update-sitemap-lastmod.mjs",
     "preview": "astro preview",
     "astro": "astro"

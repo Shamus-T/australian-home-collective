@@ -265,9 +265,8 @@ const searchSourcePath = path.join(sourceRoot, "pages", "search", "index.astro")
 const searchSource = fs.existsSync(searchSourcePath) ? read(searchSourcePath) : "";
 const prohibitedSearchPatterns = new Map([
   ["a form", /<form\b/i],
-  ["a network call", /\b(?:fetch|XMLHttpRequest|sendBeacon)\s*\(/i],
-  ["a data-layer or analytics event", /\b(?:dataLayer|gtag|analytics)\b/i],
-  ["persistent browser storage", /\b(?:localStorage|sessionStorage|document\.cookie|indexedDB)\b/i],
+  ["an unapproved analytics integration", /\b(?:dataLayer|gtag|googletagmanager|google-analytics|connect\.facebook\.net)\b/i],
+  ["persistent browser storage", /\b(?:localStorage|document\.cookie|indexedDB)\b/i],
   ["URL or history query persistence", /\b(?:URLSearchParams|location\.search|history\.(?:pushState|replaceState))\b/i],
   ["shadow DOM access", /\.shadowRoot\b/i],
   ["unrestricted HTML rendering", /\b(?:set:html|innerHTML)\b/i],
@@ -278,11 +277,48 @@ for (const [description, pattern] of prohibitedSearchPatterns) {
   }
 }
 
+const analyticsContracts = [
+  'const analyticsEndpoint = "/api/search-analytics";',
+  'const analyticsSessionKey = "ahc-search-session";',
+  "sessionStorage.getItem(analyticsSessionKey)",
+  "sessionStorage.setItem(analyticsSessionKey, created)",
+  "crypto.randomUUID()",
+  "navigator.sendBeacon(",
+  "fetch(analyticsEndpoint, {",
+  'credentials: "same-origin"',
+  "keepalive: true",
+  "}).catch(() => {});",
+  'originPath: "/search/"',
+  "if (query.length < minimumQueryLength) return;",
+];
+for (const fragment of analyticsContracts) {
+  if (!searchSource.includes(fragment)) {
+    addError(`/search/ is missing approved anonymous analytics contract fragment: ${fragment}`);
+  }
+}
+const fetchTargets = [...searchSource.matchAll(
+  /\bfetch\s*\(\s*([A-Za-z_$][\w$]*|["'`][^"'`]+["'`])/gi,
+)].map((match) => match[1]);
+if (fetchTargets.some((target) => target !== "analyticsEndpoint")) {
+  addError("/search/ makes a fetch call outside the approved analytics endpoint.");
+}
+const beaconTargets = [...searchSource.matchAll(
+  /\bsendBeacon\s*\(\s*([A-Za-z_$][\w$]*|["'`][^"'`]+["'`])/gi,
+)].map((match) => match[1]);
+if (beaconTargets.some((target) => target !== "analyticsEndpoint")) {
+  addError("/search/ sends a beacon outside the approved analytics endpoint.");
+}
+
 const functionsFiles = walk(path.join(root, "functions"))
   .filter((file) => /\.(?:js|mjs|cjs)$/.test(file))
-  .map((file) => path.relative(root, file).replaceAll(path.sep, "/"));
-if (functionsFiles.length !== 1 || functionsFiles[0] !== "functions/api/contact.js") {
-  addError(`Pages Functions changed from the single approved route file: ${functionsFiles.join(", ") || "none"}.`);
+  .map((file) => path.relative(root, file).replaceAll(path.sep, "/"))
+  .sort();
+const approvedFunctionsFiles = [
+  "functions/api/contact.js",
+  "functions/api/search-analytics.js",
+];
+if (JSON.stringify(functionsFiles) !== JSON.stringify(approvedFunctionsFiles)) {
+  addError(`Pages Functions changed from the approved route files: ${functionsFiles.join(", ") || "none"}.`);
 }
 
 const routesPath = path.join(root, "public", "_routes.json");
@@ -290,10 +326,10 @@ try {
   const routes = JSON.parse(read(routesPath));
   if (
     routes.version !== 1
-    || JSON.stringify(routes.include) !== JSON.stringify(["/api/contact"])
+    || JSON.stringify(routes.include) !== JSON.stringify(["/api/contact", "/api/search-analytics"])
     || JSON.stringify(routes.exclude) !== JSON.stringify([])
   ) {
-    addError("public/_routes.json must retain /api/contact as its only Function include.");
+    addError("public/_routes.json must retain only the approved contact and search-analytics Function includes.");
   }
 } catch {
   addError("public/_routes.json is missing or invalid JSON.");
@@ -329,5 +365,5 @@ if (errors.length > 0) {
 console.log(
   `Pagefind output audit passed: ${expectedRoutes.size} opted-in pages `
   + `(${activeGuideSources.length} guides and ${categorySources.length} categories), `
-  + "same-origin search assets, metadata, exclusions, navigation, CSP and Phase 1A privacy boundaries verified.",
+  + "same-origin search assets and anonymous analytics, metadata, exclusions, navigation, CSP and privacy boundaries verified.",
 );

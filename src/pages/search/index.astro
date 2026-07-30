@@ -136,7 +136,62 @@ const suggestions = [
     const suggestionButtons = document.querySelectorAll("[data-search-term]");
     const minimumQueryLength = 2;
     const maximumQueryLength = 120;
+    const analyticsEndpoint = "/api/search-analytics";
+    const analyticsSessionKey = "ahc-search-session";
     let correctingQuery = false;
+    let currentSearchTerm = "";
+    let lastSearchResult = { query: "", resultCount: 0 };
+    let lastSearchFingerprint = "";
+
+    const normaliseQuery = (term) =>
+      typeof term === "string" ? term.trim().replace(/\s+/g, " ").slice(0, maximumQueryLength) : "";
+
+    const analyticsSessionId = () => {
+      try {
+        const existing = sessionStorage.getItem(analyticsSessionKey);
+        if (existing) return existing;
+        const created = crypto.randomUUID();
+        sessionStorage.setItem(analyticsSessionKey, created);
+        return created;
+      } catch {
+        return "";
+      }
+    };
+
+    const deviceType = () => {
+      if (window.matchMedia("(max-width: 767px)").matches) return "mobile";
+      if (window.matchMedia("(max-width: 1023px)").matches) return "tablet";
+      return "desktop";
+    };
+
+    const sendAnalytics = (event) => {
+      const payload = JSON.stringify({
+        ...event,
+        originPath: "/search/",
+        sessionId: analyticsSessionId(),
+        device: deviceType(),
+      });
+
+      try {
+        if (navigator.sendBeacon) {
+          const accepted = navigator.sendBeacon(
+            analyticsEndpoint,
+            new Blob([payload], { type: "application/json" }),
+          );
+          if (accepted) return;
+        }
+      } catch {
+        // Best-effort analytics must never affect search.
+      }
+
+      fetch(analyticsEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: payload,
+        credentials: "same-origin",
+        keepalive: true,
+      }).catch(() => {});
+    };
 
     const showLoadFailure = () => {
       if (!(status instanceof HTMLElement)) return;
@@ -167,8 +222,9 @@ const suggestions = [
 
       instance.on("search", (term) => {
         if (correctingQuery || typeof term !== "string") return;
-        const normalised = term.trim().replace(/\s+/g, " ").slice(0, maximumQueryLength);
+        const normalised = normaliseQuery(term);
         const accepted = normalised.length === 1 ? "" : normalised;
+        currentSearchTerm = accepted;
         if (accepted === term) return;
 
         correctingQuery = true;
@@ -184,6 +240,17 @@ const suggestions = [
         }
       });
 
+      instance.on("results", (searchResult) => {
+        const query = normaliseQuery(instance.searchTerm ?? currentSearchTerm);
+        if (query.length < minimumQueryLength) return;
+        const resultCount = Array.isArray(searchResult?.results) ? searchResult.results.length : 0;
+        const fingerprint = `${query}\u0000${resultCount}`;
+        lastSearchResult = { query, resultCount };
+        if (fingerprint === lastSearchFingerprint) return;
+        lastSearchFingerprint = fingerprint;
+        sendAnalytics({ eventType: "search", query, resultCount });
+      });
+
       instance.on("error", showLoadFailure);
 
       for (const button of suggestionButtons) {
@@ -195,6 +262,26 @@ const suggestions = [
           }
         });
       }
+
+      document.addEventListener("click", (event) => {
+        if (!(event.target instanceof Element)) return;
+        const link = event.target.closest(".pf-result-link");
+        if (!(link instanceof HTMLAnchorElement) || !lastSearchResult.query) return;
+
+        let selected;
+        try {
+          selected = new URL(link.href, window.location.origin);
+        } catch {
+          return;
+        }
+        if (selected.origin !== window.location.origin) return;
+        sendAnalytics({
+          eventType: "result_click",
+          query: lastSearchResult.query,
+          resultCount: lastSearchResult.resultCount,
+          selectedPath: selected.pathname,
+        });
+      });
 
       if (status instanceof HTMLElement) {
         status.hidden = true;

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>AHC Control Centre</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to dashboard</a>
+    <header class="topbar">
+      <div>
+        <p class="kicker">Australian Home Collective</p>
+        <h1>Control Centre</h1>
+      </div>
+      <div class="topbar-actions">
+        <label>
+          <span>Reporting period</span>
+          <select id="period">
+            <option value="7">Last 7 days</option>
+            <option value="28" selected>Last 28 days</option>
+            <option value="90">Last 90 days</option>
+          </select>
+        </label>
+        <button id="sync" class="primary" type="button">Sync now</button>
+      </div>
+    </header>
+
+    <nav class="tabs" aria-label="Dashboard sections">
+      <button type="button" class="tab is-active" data-tab="overview">Overview</button>
+      <button type="button" class="tab" data-tab="search">Search visibility</button>
+      <button type="button" class="tab" data-tab="onsite">AHC search</button>
+      <button type="button" class="tab" data-tab="social">Facebook &amp; Bing</button>
+      <button type="button" class="tab" data-tab="integrations">Integrations</button>
+    </nav>
+
+    <main id="content">
+      <div id="status" class="status" role="status" aria-live="polite">Loading dashboard…</div>
+
+      <section class="panel is-active" data-panel="overview">
+        <div id="metric-cards" class="metric-grid"></div>
+        <div class="two-column">
+          <article class="card">
+            <div class="card-heading">
+              <div>
+                <p class="kicker">Priorities</p>
+                <h2>What needs attention</h2>
+              </div>
+            </div>
+            <ol id="actions" class="action-list"></ol>
+          </article>
+          <article class="card">
+            <div class="card-heading">
+              <div>
+                <p class="kicker">Publication</p>
+                <h2>Current inventory</h2>
+              </div>
+            </div>
+            <dl id="site-counts" class="definition-grid"></dl>
+          </article>
+        </div>
+        <article class="card">
+          <div class="card-heading">
+            <div>
+              <p class="kicker">Content</p>
+              <h2>Top landing pages</h2>
+            </div>
+          </div>
+          <div class="table-wrap"><table id="landing-table"></table></div>
+        </article>
+      </section>
+
+      <section class="panel" data-panel="search">
+        <div class="two-column">
+          <article class="card">
+            <p class="kicker">Google</p>
+            <h2>Top pages by impressions</h2>
+            <div class="table-wrap"><table id="gsc-pages-table"></table></div>
+          </article>
+          <article class="card">
+            <p class="kicker">Google</p>
+            <h2>Top queries</h2>
+            <div class="table-wrap"><table id="gsc-queries-table"></table></div>
+          </article>
+        </div>
+        <article class="card">
+          <p class="kicker">Cloudflare</p>
+          <h2>Most-requested paths</h2>
+          <div class="table-wrap"><table id="cloudflare-table"></table></div>
+        </article>
+      </section>
+
+      <section class="panel" data-panel="onsite">
+        <div id="onsite-cards" class="metric-grid"></div>
+        <article class="card">
+          <div class="card-heading">
+            <div>
+              <p class="kicker">First-party demand</p>
+              <h2>What readers search for on AHC</h2>
+            </div>
+            <p class="muted">No names, email addresses or full IP addresses are collected.</p>
+          </div>
+          <div class="table-wrap"><table id="onsite-table"></table></div>
+        </article>
+      </section>
+
+      <section class="panel" data-panel="social">
+        <div class="two-column">
+          <article class="card">
+            <p class="kicker">Facebook</p>
+            <h2>Import Page performance</h2>
+            <p>Export daily Page data, then import a CSV containing <code>date, reach, engagements, link_clicks, followers</code>.</p>
+            <form class="import-form" data-source="facebook">
+              <input type="file" accept=".csv,text/csv" required />
+              <button type="submit">Import Facebook CSV</button>
+            </form>
+            <div class="table-wrap"><table id="facebook-table"></table></div>
+          </article>
+          <article class="card">
+            <p class="kicker">Bing</p>
+            <h2>Import search performance</h2>
+            <p>Import a CSV containing <code>date, clicks, impressions, ctr, position</code>. CTR may be a decimal or percentage.</p>
+            <form class="import-form" data-source="bing">
+              <input type="file" accept=".csv,text/csv" required />
+              <button type="submit">Import Bing CSV</button>
+            </form>
+            <div class="table-wrap"><table id="bing-table"></table></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" data-panel="integrations">
+        <article class="card">
+          <p class="kicker">Connections</p>
+          <h2>Data-source status</h2>
+          <div id="integration-grid" class="integration-grid"></div>
+        </article>
+        <article class="card">
+          <p class="kicker">Operations</p>
+          <h2>Recent synchronisation runs</h2>
+          <div class="table-wrap"><table id="runs-table"></table></div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
