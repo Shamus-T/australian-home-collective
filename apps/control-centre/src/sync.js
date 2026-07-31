@@ -26,6 +26,7 @@ const SITE_TYPES = [
   ["/categories/", "category"],
   ["/seasonal/", "seasonal"],
 ];
+const CLOUDFLARE_LOOKBACK_DAYS = 7;
 
 function dateOnly(date) {
   return date.toISOString().slice(0, 10);
@@ -35,6 +36,42 @@ function addUtcDays(date, amount) {
   const next = new Date(date);
   next.setUTCDate(next.getUTCDate() + amount);
   return next;
+}
+
+function startOfUtcDay(date) {
+  return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+}
+
+function dailyUtcWindows(start, end) {
+  const final = new Date(end);
+  let cursor = new Date(start);
+  if (!Number.isFinite(cursor.valueOf()) || !Number.isFinite(final.valueOf())) {
+    throw new TypeError("Cloudflare Analytics date window is invalid.");
+  }
+
+  const windows = [];
+  while (cursor < final) {
+    if (windows.length >= 31) {
+      throw new Error("Cloudflare Analytics lookback would require more than 31 daily requests.");
+    }
+    const nextDay = new Date(Date.UTC(cursor.getUTCFullYear(), cursor.getUTCMonth(), cursor.getUTCDate() + 1));
+    const next = nextDay < final ? nextDay : final;
+    windows.push({ start: new Date(cursor), end: new Date(next) });
+    cursor = next;
+  }
+  return windows;
+}
+
+function cloudflareTrafficPeriod(now) {
+  const end = startOfUtcDay(new Date(now));
+  const start = addUtcDays(end, -CLOUDFLARE_LOOKBACK_DAYS);
+  return {
+    start,
+    end,
+    periodStart: dateOnly(start),
+    periodEnd: dateOnly(addUtcDays(end, -1)),
+    windows: dailyUtcWindows(start, end),
+  };
 }
 
 function periodEndingDaysAgo(now, endOffsetDays, lengthDays) {
@@ -270,11 +307,45 @@ async function cloudflareGraphql(env, query, variables, fetchImpl) {
   return body?.data?.viewer?.zones?.[0] ?? null;
 }
 
+function cloudflareNumber(value) {
+  const numeric = Number(value ?? 0);
+  return Number.isFinite(numeric) ? numeric : 0;
+}
+
+function aggregateCloudflareZones(zones) {
+  const hourly = [];
+  const pathTotals = new Map();
+
+  for (const zone of zones) {
+    if (Array.isArray(zone.hourly)) {
+      hourly.push(...zone.hourly.map((row) => ({
+        hour: row.dimensions?.datetimeHour,
+        requests: cloudflareNumber(row.count),
+        visits: cloudflareNumber(row.sum?.visits),
+        bytes: cloudflareNumber(row.sum?.edgeResponseBytes),
+      })).filter((row) => row.hour));
+    }
+
+    if (!Array.isArray(zone.topPaths)) continue;
+    for (const row of zone.topPaths) {
+      const path = row.dimensions?.clientRequestPath ?? "/";
+      const existing = pathTotals.get(path) ?? { path, requests: 0, visits: 0, bytes: 0 };
+      existing.requests += cloudflareNumber(row.count);
+      existing.visits += cloudflareNumber(row.sum?.visits);
+      existing.bytes += cloudflareNumber(row.sum?.edgeResponseBytes);
+      pathTotals.set(path, existing);
+    }
+  }
+
+  const paths = [...pathTotals.values()].sort((left, right) =>
+    right.requests - left.requests || left.path.localeCompare(right.path));
+  return { hourly, paths };
+}
+
 export async function syncCloudflare(database, env, { fetchImpl = fetch, now = new Date() } = {}) {
   const zoneTag = requiredString(env.CLOUDFLARE_ZONE_ID);
   if (!zoneTag) throw new Error("CLOUDFLARE_ZONE_ID is not configured.");
-  const end = new Date(now);
-  const start = addUtcDays(end, -30);
+  const period = cloudflareTrafficPeriod(now);
   const query = `query AhcTraffic($zoneTag: string, $start: Time, $end: Time) {
     viewer {
       zones(filter: { zoneTag: $zoneTag }) {
@@ -299,37 +370,28 @@ export async function syncCloudflare(database, env, { fetchImpl = fetch, now = n
       }
     }
   }`;
-  const zone = await cloudflareGraphql(env, query, {
-    zoneTag,
-    start: start.toISOString(),
-    end: end.toISOString(),
-  }, fetchImpl);
-  if (!zone) throw new Error("Cloudflare Analytics returned no zone data.");
+  const zones = [];
+  for (const window of period.windows) {
+    const zone = await cloudflareGraphql(env, query, {
+      zoneTag,
+      start: window.start.toISOString(),
+      end: window.end.toISOString(),
+    }, fetchImpl);
+    if (!zone) throw new Error("Cloudflare Analytics returned no zone data.");
+    zones.push(zone);
+  }
 
-  const hourly = Array.isArray(zone.hourly) ? zone.hourly.map((row) => ({
-    hour: row.dimensions?.datetimeHour,
-    requests: Number(row.count ?? 0),
-    visits: Number(row.sum?.visits ?? 0),
-    bytes: Number(row.sum?.edgeResponseBytes ?? 0),
-  })).filter((row) => row.hour) : [];
-  const paths = Array.isArray(zone.topPaths) ? zone.topPaths.map((row) => ({
-    path: row.dimensions?.clientRequestPath ?? "/",
-    requests: Number(row.count ?? 0),
-    visits: Number(row.sum?.visits ?? 0),
-    bytes: Number(row.sum?.edgeResponseBytes ?? 0),
-  })) : [];
+  const { hourly, paths } = aggregateCloudflareZones(zones);
   const snapshot = {
     requests: hourly.reduce((total, row) => total + row.requests, 0),
     visits: hourly.reduce((total, row) => total + row.visits, 0),
     bytes: hourly.reduce((total, row) => total + row.bytes, 0),
   };
   const updatedAt = new Date().toISOString();
-  const periodStart = dateOnly(start);
-  const periodEnd = dateOnly(addUtcDays(end, -1));
 
   await replaceCloudflareHourly(database, hourly, updatedAt);
-  await replaceCloudflarePaths(database, periodStart, periodEnd, paths, updatedAt);
-  await saveSourceSnapshot(database, "cloudflare", periodStart, periodEnd, snapshot, updatedAt);
+  await replaceCloudflarePaths(database, period.periodStart, period.periodEnd, paths, updatedAt);
+  await saveSourceSnapshot(database, "cloudflare", period.periodStart, period.periodEnd, snapshot, updatedAt);
 
   return { message: `${hourly.length} hourly rows and ${paths.length} paths refreshed.` };
 }
@@ -364,8 +426,12 @@ export async function syncAll(env, options = {}) {
 
 export const __test = {
   addUtcDays,
+  aggregateCloudflareZones,
+  cloudflareTrafficPeriod,
   dateOnly,
+  dailyUtcWindows,
   periodEndingDaysAgo,
+  startOfUtcDay,
   titleFromPath,
   pageType,
   decodeXml,

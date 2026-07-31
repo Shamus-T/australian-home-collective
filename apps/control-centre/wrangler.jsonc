@@ -28,6 +28,7 @@
     "SITE_ORIGIN": "https://australianhomecollective.com.au",
     "SEARCH_CONSOLE_SITE_URL": "sc-domain:australianhomecollective.com.au",
     "ACCESS_TEAM_DOMAIN": "shanetottenham.cloudflareaccess.com",
-    "ACCESS_AUD": "7ea5be42e96259aadadba5e7d1c2b0ffc6279718476d8477a34b82b026476954"
+    "ACCESS_AUD": "7ea5be42e96259aadadba5e7d1c2b0ffc6279718476d8477a34b82b026476954",
+    "CLOUDFLARE_ZONE_ID": "4ff6a6c989e5119d8838445d3ad7331e"
   }
 }
