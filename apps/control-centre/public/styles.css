@@ -101,6 +101,19 @@ main { width: min(1320px, calc(100% - 2rem)); margin: 1.25rem auto 4rem; }
 }
 .status.is-error { border-color: rgba(138, 51, 47, 0.35); color: var(--danger); }
 .status.is-success { border-color: rgba(50, 96, 59, 0.35); color: var(--success); }
+.source-window-note {
+  margin-bottom: 1rem;
+  border: 1px solid rgba(212, 160, 23, 0.35);
+  border-radius: 10px;
+  background: rgba(255, 250, 235, 0.78);
+  padding: 0.85rem 1rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+.source-window-note strong {
+  color: var(--ink);
+}
 
 .panel { display: none; }
 .panel.is-active { display: grid; gap: 1rem; }
@@ -164,6 +177,7 @@ td.path { max-width: 32rem; overflow-wrap: anywhere; }
   .topbar-actions { width: 100%; }
   .topbar-actions label { flex: 1; }
   .topbar-actions select, .topbar-actions button { width: 100%; }
+  .source-window-note { font-size: 0.88rem; }
   .two-column { grid-template-columns: 1fr; }
   .metric-grid, .integration-grid { grid-template-columns: 1fr; }
   main { width: min(100% - 1rem, 1320px); }

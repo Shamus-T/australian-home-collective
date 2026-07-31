@@ -18,7 +18,7 @@
       <div class="topbar-actions">
         <label>
           <span>Reporting period</span>
-          <select id="period">
+          <select id="period" aria-describedby="source-window-note">
             <option value="7">Last 7 days</option>
             <option value="28" selected>Last 28 days</option>
             <option value="90">Last 90 days</option>
@@ -38,6 +38,11 @@
 
     <main id="content">
       <div id="status" class="status" role="status" aria-live="polite">Loading dashboard…</div>
+
+      <aside id="source-window-note" class="source-window-note">
+        <strong>Source windows differ.</strong>
+        The reporting selector affects dashboard rollups where supported. Cloudflare traffic uses a 7-day lookback because of Cloudflare Analytics API limits; Search Console uses its latest synced Search Console reporting window; GA4 uses its latest synced GA4 reporting window; AHC search data starts from when site search tracking went live.
+      </aside>
 
       <section class="panel is-active" data-panel="overview">
         <div id="metric-cards" class="metric-grid"></div>
