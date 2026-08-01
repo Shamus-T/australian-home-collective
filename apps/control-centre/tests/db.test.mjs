@@ -1,7 +1,11 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { __test } from "../src/db.js";
+import {
+  SEARCH_TRACKING_CORRECTED_FROM,
+  __test,
+  loadOverview,
+} from "../src/db.js";
 
 test("clamps dashboard reporting periods", () => {
   assert.equal(__test.clampDays("7"), 7);
@@ -18,4 +22,43 @@ test("creates content and integration actions", () => {
   assert.equal(actions[0].type, "content-gap");
   assert.ok(actions.some((action) => action.type === "ctr"));
   assert.ok(actions.some((action) => action.type === "integration"));
+});
+
+test("uses a reporting-only historical prefix treatment and exposes its boundary", async () => {
+  const statements = [];
+  const database = {
+    prepare(sql) {
+      const statement = {
+        sql,
+        values: [],
+        bind(...values) {
+          this.values = values;
+          return this;
+        },
+        async all() {
+          return { results: [] };
+        },
+      };
+      statements.push(statement);
+      return statement;
+    },
+  };
+
+  const overview = await loadOverview(database, { days: 28 });
+  const effectiveSearchStatements = statements.filter((statement) =>
+    statement.sql.includes("effective_searches")
+  );
+
+  assert.equal(effectiveSearchStatements.length, 2);
+  assert.ok(effectiveSearchStatements.every((statement) =>
+    statement.values[1] === SEARCH_TRACKING_CORRECTED_FROM
+  ));
+  assert.match(__test.effectiveSearchesCte, /later\.session_id = candidate\.session_id/);
+  assert.match(__test.effectiveSearchesCte, /<= 2/);
+  assert.match(__test.effectiveSearchesCte, /attributed_click\.event_type = 'result_click'/);
+  assert.equal(
+    overview.internalSearch.trackingCorrectedFrom,
+    SEARCH_TRACKING_CORRECTED_FROM,
+  );
+  assert.match(overview.internalSearch.historicalTreatment, /raw events are retained/i);
 });

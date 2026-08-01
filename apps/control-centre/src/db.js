@@ -1,5 +1,39 @@
 export class DatabaseConfigurationError extends Error {}
 
+export const SEARCH_TRACKING_CORRECTED_FROM = "2026-08-01T09:45:00.000Z";
+
+const EFFECTIVE_SEARCHES_CTE = `
+  WITH reporting_searches AS (
+    SELECT id, query, result_count, session_id, occurred_at
+    FROM search_events
+    WHERE event_type = 'search' AND occurred_at >= ?
+  ),
+  effective_searches AS (
+    SELECT candidate.*
+    FROM reporting_searches candidate
+    WHERE candidate.occurred_at >= ?
+      OR candidate.session_id IS NULL
+      OR candidate.session_id = ''
+      OR NOT EXISTS (
+        SELECT 1
+        FROM reporting_searches later
+        WHERE later.session_id = candidate.session_id
+          AND later.occurred_at > candidate.occurred_at
+          AND unixepoch(later.occurred_at) - unixepoch(candidate.occurred_at) <= 2
+          AND length(later.query) > length(candidate.query)
+          AND LOWER(substr(later.query, 1, length(candidate.query))) = LOWER(candidate.query)
+          AND NOT EXISTS (
+            SELECT 1
+            FROM search_events attributed_click
+            WHERE attributed_click.event_type = 'result_click'
+              AND attributed_click.session_id = candidate.session_id
+              AND LOWER(attributed_click.query) = LOWER(candidate.query)
+              AND attributed_click.occurred_at >= candidate.occurred_at
+              AND attributed_click.occurred_at <= later.occurred_at
+          )
+      )
+  )`;
+
 export function requireDatabase(env) {
   const database = env.AHC_ANALYTICS_DB;
   if (!database?.prepare) {
@@ -309,24 +343,24 @@ export async function loadOverview(database, { days = 28, integrations = [] } = 
        ) latest ON latest.source = s.source AND latest.latest = s.updated_at`,
     ).all(),
     database.prepare(
-      `SELECT
+      `${EFFECTIVE_SEARCHES_CTE}
+       SELECT
          COUNT(*) AS searches,
          SUM(CASE WHEN result_count = 0 THEN 1 ELSE 0 END) AS no_result_searches,
          COUNT(DISTINCT NULLIF(session_id, '')) AS searching_sessions
-       FROM search_events
-       WHERE event_type = 'search' AND occurred_at >= ?`,
-    ).bind(sinceIso).all(),
+       FROM effective_searches`,
+    ).bind(sinceIso, SEARCH_TRACKING_CORRECTED_FROM).all(),
     database.prepare(
-      `SELECT MIN(query) AS query,
+      `${EFFECTIVE_SEARCHES_CTE}
+       SELECT MIN(query) AS query,
          COUNT(*) AS searches,
          SUM(CASE WHEN result_count = 0 THEN 1 ELSE 0 END) AS no_results,
          MAX(result_count) AS maximum_results
-       FROM search_events
-       WHERE event_type = 'search' AND occurred_at >= ?
+       FROM effective_searches
        GROUP BY LOWER(query)
        ORDER BY searches DESC, no_results DESC, query ASC
        LIMIT 30`,
-    ).bind(sinceIso).all(),
+    ).bind(sinceIso, SEARCH_TRACKING_CORRECTED_FROM).all(),
     database.prepare(
       `SELECT MIN(query) AS query, COUNT(*) AS clicks
        FROM search_events
@@ -422,6 +456,8 @@ export async function loadOverview(database, { days = 28, integrations = [] } = 
       searches: Number(internalSummary.searches ?? 0),
       noResultSearches: Number(internalSummary.no_result_searches ?? 0),
       searchingSessions: Number(internalSummary.searching_sessions ?? 0),
+      trackingCorrectedFrom: SEARCH_TRACKING_CORRECTED_FROM,
+      historicalTreatment: "Rapid same-session prefix events before the correction boundary are collapsed for reporting only; raw events are retained.",
       queries: internalSearches,
     },
     searchConsole: {
@@ -469,5 +505,6 @@ export async function loadOverview(database, { days = 28, integrations = [] } = 
 export const __test = {
   buildActions,
   clampDays,
+  effectiveSearchesCte: EFFECTIVE_SEARCHES_CTE,
   parsePayload,
 };

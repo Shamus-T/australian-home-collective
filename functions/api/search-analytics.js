@@ -19,7 +19,11 @@ function normaliseWhitespace(value) {
 }
 
 function normaliseQuery(value) {
-  return normaliseWhitespace(value).slice(0, MAX_QUERY_LENGTH);
+  return normaliseWhitespace(value).toLowerCase().slice(0, MAX_QUERY_LENGTH);
+}
+
+function visibleQueryCharacterCount(value) {
+  return [...normaliseQuery(value).replace(/\s/gu, "")].length;
 }
 
 function normalisePath(value, { selected = false } = {}) {
@@ -72,7 +76,7 @@ function validateEvent(payload) {
   if (!EVENT_TYPES.has(eventType)) {
     return { error: "The analytics event type was not valid." };
   }
-  if (query.length < 2 || query.length > MAX_QUERY_LENGTH) {
+  if (visibleQueryCharacterCount(query) < 3 || query.length > MAX_QUERY_LENGTH) {
     return { error: "The search query was not valid." };
   }
   if (originPath !== "/search/") {
@@ -199,5 +203,6 @@ export const __test = {
   normaliseQuery,
   normalisePath,
   normaliseSessionId,
+  visibleQueryCharacterCount,
   validateEvent,
 };

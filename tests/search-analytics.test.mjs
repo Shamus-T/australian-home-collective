@@ -50,7 +50,9 @@ const validSearch = {
 };
 
 test("normalises search terms and internal paths", () => {
-  assert.equal(__test.normaliseQuery("  heat   pump dryer "), "heat pump dryer");
+  assert.equal(__test.normaliseQuery("  Heat   Pump DRYER "), "heat pump dryer");
+  assert.equal(__test.visibleQueryCharacterCount("a b"), 2);
+  assert.equal(__test.visibleQueryCharacterCount("a b c"), 3);
   assert.equal(__test.normalisePath("/guides/fridge-dimensions-australia/", { selected: true }), "/guides/fridge-dimensions-australia/");
   assert.equal(__test.normalisePath("https://example.com/attack", { selected: true }), "");
 });
@@ -122,18 +124,20 @@ test("rejects malformed or oversized events", async () => {
   assert.equal(oversized.status, 413);
 });
 
-test("rejects invalid result counts and one-character terms", async () => {
+test("rejects invalid result counts and terms shorter than three visible characters", async () => {
   const invalidCount = await onRequestPost({
     request: request({ ...validSearch, resultCount: -1 }),
     env: {},
   });
   assert.equal(invalidCount.status, 400);
 
-  const shortTerm = await onRequestPost({
-    request: request({ ...validSearch, query: "a" }),
-    env: {},
-  });
-  assert.equal(shortTerm.status, 400);
+  for (const query of ["a", "ab", "a b"]) {
+    const shortTerm = await onRequestPost({
+      request: request({ ...validSearch, query }),
+      env: {},
+    });
+    assert.equal(shortTerm.status, 400);
+  }
 });
 
 test("fails open when the optional D1 binding is not configured", async () => {

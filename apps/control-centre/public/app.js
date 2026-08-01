@@ -183,6 +183,15 @@ function renderSearch() {
 
 function renderOnsite() {
   const internal = dashboard.internalSearch;
+  const trackingNote = document.querySelector("#onsite-tracking-note");
+  const correctedFrom = new Date(internal.trackingCorrectedFrom);
+  trackingNote.textContent =
+    `Tracking corrected from ${correctedFrom.toLocaleDateString("en-AU", {
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+      timeZone: "Australia/Brisbane",
+    })}. Earlier rapid same-session prefixes are collapsed in reporting only; raw events remain intact.`;
   const clickTotal = internal.queries.reduce((total, row) => total + row.clicks, 0);
   const clickRate = internal.searches ? clickTotal / internal.searches : 0;
   renderMetricCards("#onsite-cards", [

@@ -21,7 +21,7 @@
     "audit:commercial": "node scripts/audit-commercial-data.mjs",
     "audit:commercial:dist": "node scripts/audit-commercial-data.mjs --dist",
     "test:contact": "node --test tests/contact-function.test.mjs",
-    "test:search-analytics": "node --test tests/search-analytics.test.mjs",
+    "test:search-analytics": "node --test tests/search-analytics.test.mjs tests/search-analytics-client.test.mjs",
     "sitemap:update": "node scripts/update-sitemap-lastmod.mjs",
     "preview": "astro preview",
     "astro": "astro"

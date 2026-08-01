@@ -131,7 +131,12 @@ const suggestions = [
     </div>
   </section>
 
-  <script is:inline type="module">
+  <script>
+    import {
+      createSearchAnalyticsTracker,
+      normaliseAnalyticsQuery,
+    } from "../../scripts/search-analytics-tracker.js";
+
     const status = document.querySelector("#search-load-status");
     const suggestionButtons = document.querySelectorAll("[data-search-term]");
     const minimumQueryLength = 2;
@@ -140,10 +145,8 @@ const suggestions = [
     const analyticsSessionKey = "ahc-search-session";
     let correctingQuery = false;
     let currentSearchTerm = "";
-    let lastSearchResult = { query: "", resultCount: 0 };
-    let lastSearchFingerprint = "";
 
-    const normaliseQuery = (term) =>
+    const normaliseVisibleQuery = (term) =>
       typeof term === "string" ? term.trim().replace(/\s+/g, " ").slice(0, maximumQueryLength) : "";
 
     const analyticsSessionId = () => {
@@ -193,6 +196,10 @@ const suggestions = [
       }).catch(() => {});
     };
 
+    const analyticsTracker = createSearchAnalyticsTracker({
+      recordEvent: sendAnalytics,
+    });
+
     const showLoadFailure = () => {
       if (!(status instanceof HTMLElement)) return;
       status.hidden = false;
@@ -222,9 +229,10 @@ const suggestions = [
 
       instance.on("search", (term) => {
         if (correctingQuery || typeof term !== "string") return;
-        const normalised = normaliseQuery(term);
+        const normalised = normaliseVisibleQuery(term);
         const accepted = normalised.length === 1 ? "" : normalised;
         currentSearchTerm = accepted;
+        analyticsTracker.handleQueryChange(accepted);
         if (accepted === term) return;
 
         correctingQuery = true;
@@ -241,23 +249,34 @@ const suggestions = [
       });
 
       instance.on("results", (searchResult) => {
-        const query = normaliseQuery(instance.searchTerm ?? currentSearchTerm);
+        const query = normaliseAnalyticsQuery(instance.searchTerm ?? currentSearchTerm);
         if (query.length < minimumQueryLength) return;
         const resultCount = Array.isArray(searchResult?.results) ? searchResult.results.length : 0;
-        const fingerprint = `${query}\u0000${resultCount}`;
-        lastSearchResult = { query, resultCount };
-        if (fingerprint === lastSearchFingerprint) return;
-        lastSearchFingerprint = fingerprint;
-        sendAnalytics({ eventType: "search", query, resultCount });
+        analyticsTracker.handleResults(query, resultCount);
       });
 
       instance.on("error", showLoadFailure);
+
+      const searchInput = document.querySelector("pagefind-input input");
+      if (searchInput instanceof HTMLInputElement) {
+        searchInput.addEventListener("input", (event) => {
+          if (!event.isTrusted) return;
+          analyticsTracker.handleQueryChange(searchInput.value, { active: true });
+        });
+        searchInput.addEventListener("keydown", (event) => {
+          if (event.key !== "Enter" || event.isComposing) return;
+          analyticsTracker.handleQueryChange(searchInput.value, { active: true });
+          analyticsTracker.completeSearch("enter");
+          instance.triggerSearch(searchInput.value);
+        });
+      }
 
       for (const button of suggestionButtons) {
         button.addEventListener("click", () => {
           if (!(button instanceof HTMLButtonElement)) return;
           const term = button.dataset.searchTerm?.slice(0, maximumQueryLength) ?? "";
           if (term.length >= minimumQueryLength) {
+            analyticsTracker.handleQueryChange(term, { active: true });
             instance.triggerSearch(term);
           }
         });
@@ -266,7 +285,7 @@ const suggestions = [
       document.addEventListener("click", (event) => {
         if (!(event.target instanceof Element)) return;
         const link = event.target.closest(".pf-result-link");
-        if (!(link instanceof HTMLAnchorElement) || !lastSearchResult.query) return;
+        if (!(link instanceof HTMLAnchorElement)) return;
 
         let selected;
         try {
@@ -275,13 +294,10 @@ const suggestions = [
           return;
         }
         if (selected.origin !== window.location.origin) return;
-        sendAnalytics({
-          eventType: "result_click",
-          query: lastSearchResult.query,
-          resultCount: lastSearchResult.resultCount,
-          selectedPath: selected.pathname,
-        });
+        analyticsTracker.recordResultClick(selected.pathname);
       });
+
+      window.addEventListener("pagehide", analyticsTracker.cancelPending);
 
       if (status instanceof HTMLElement) {
         status.hidden = true;
