@@ -262,7 +262,8 @@ const suggestions = [
         if (
           !(input instanceof HTMLInputElement)
           || !input.matches("pagefind-input input")
-          || !event.isTrusted
+          || !(event instanceof InputEvent)
+          || !event.inputType
         ) {
           return;
         }

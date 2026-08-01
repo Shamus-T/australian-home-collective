@@ -63,6 +63,9 @@ test("the search page delegates activity listeners for Pagefind's late-rendered 
   assert.match(searchPage, /document\.addEventListener\("input"/);
   assert.match(searchPage, /document\.addEventListener\("keydown"/);
   assert.match(searchPage, /input\.matches\("pagefind-input input"\)/);
+  assert.match(searchPage, /event instanceof InputEvent/);
+  assert.match(searchPage, /event\.inputType/);
+  assert.doesNotMatch(searchPage, /event\.isTrusted/);
   assert.doesNotMatch(
     searchPage,
     /document\.querySelector\("pagefind-input input"\)/,
