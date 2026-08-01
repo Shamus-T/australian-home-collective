@@ -1,6 +1,6 @@
 export class DatabaseConfigurationError extends Error {}
 
-export const SEARCH_TRACKING_CORRECTED_FROM = "2026-08-01T11:00:00.000Z";
+export const SEARCH_TRACKING_CORRECTED_FROM = "2026-08-01T11:15:00.000Z";
 
 const EFFECTIVE_SEARCHES_CTE = `
   WITH reporting_searches AS (

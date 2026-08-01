@@ -257,13 +257,13 @@ const suggestions = [
 
       instance.on("error", showLoadFailure);
 
+      // Pagefind and browser restoration set the field value without emitting
+      // this event; only an actual edit starts a completion window.
       document.addEventListener("input", (event) => {
         const input = event.target;
         if (
           !(input instanceof HTMLInputElement)
           || !input.matches("pagefind-input input")
-          || !(event instanceof InputEvent)
-          || !event.inputType
         ) {
           return;
         }
