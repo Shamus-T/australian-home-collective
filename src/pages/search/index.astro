@@ -257,19 +257,32 @@ const suggestions = [
 
       instance.on("error", showLoadFailure);
 
-      const searchInput = document.querySelector("pagefind-input input");
-      if (searchInput instanceof HTMLInputElement) {
-        searchInput.addEventListener("input", (event) => {
-          if (!event.isTrusted) return;
-          analyticsTracker.handleQueryChange(searchInput.value, { active: true });
-        });
-        searchInput.addEventListener("keydown", (event) => {
-          if (event.key !== "Enter" || event.isComposing) return;
-          analyticsTracker.handleQueryChange(searchInput.value, { active: true });
-          analyticsTracker.completeSearch("enter");
-          instance.triggerSearch(searchInput.value);
-        });
-      }
+      document.addEventListener("input", (event) => {
+        const input = event.target;
+        if (
+          !(input instanceof HTMLInputElement)
+          || !input.matches("pagefind-input input")
+          || !event.isTrusted
+        ) {
+          return;
+        }
+        analyticsTracker.handleQueryChange(input.value, { active: true });
+      });
+
+      document.addEventListener("keydown", (event) => {
+        const input = event.target;
+        if (
+          !(input instanceof HTMLInputElement)
+          || !input.matches("pagefind-input input")
+          || event.key !== "Enter"
+          || event.isComposing
+        ) {
+          return;
+        }
+        analyticsTracker.handleQueryChange(input.value, { active: true });
+        analyticsTracker.completeSearch("enter");
+        instance.triggerSearch(input.value);
+      });
 
       for (const button of suggestionButtons) {
         button.addEventListener("click", () => {

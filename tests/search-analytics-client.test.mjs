@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import test from "node:test";
 
 import {
@@ -52,6 +53,21 @@ function harness() {
   });
   return { clock, events, tracker };
 }
+
+test("the search page delegates activity listeners for Pagefind's late-rendered input", () => {
+  const searchPage = fs.readFileSync(
+    new URL("../src/pages/search/index.astro", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(searchPage, /document\.addEventListener\("input"/);
+  assert.match(searchPage, /document\.addEventListener\("keydown"/);
+  assert.match(searchPage, /input\.matches\("pagefind-input input"\)/);
+  assert.doesNotMatch(
+    searchPage,
+    /document\.querySelector\("pagefind-input input"\)/,
+  );
+});
 
 test("continuous typing records one final query with its final result count", () => {
   const { clock, events, tracker } = harness();
