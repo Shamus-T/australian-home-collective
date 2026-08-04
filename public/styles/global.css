@@ -1105,17 +1105,13 @@ h3 {
 }
 
 .commercial-product-card.is-details-open .commercial-product-details {
+  box-shadow: none;
+  margin-top: 4px;
   opacity: 1;
+  overflow: visible;
   pointer-events: auto;
+  position: static;
   transform: translateY(0);
-}
-
-@media (hover: hover) {
-  .commercial-product-details-toggle:hover ~ .commercial-product-details {
-    opacity: 1;
-    pointer-events: none;
-    transform: translateY(0);
-  }
 }
 
 .commercial-product-drawbacks {
