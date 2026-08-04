@@ -536,14 +536,10 @@ for (const [index, product] of products.entries()) {
     }
 
     const sourceTypes = new Set(records.map((source) => source.sourceType));
-    const evidenceGroups = [
+    const requiredEvidenceGroups = [
       {
         label: "manufacturer specification or warranty evidence",
         present: sourceTypes.has("manufacturer-specification") || sourceTypes.has("manufacturer-warranty"),
-      },
-      {
-        label: "independent expert or technical review evidence",
-        present: sourceTypes.has("independent-expert-review") || sourceTypes.has("technical-review"),
       },
       { label: "recurring owner-feedback evidence", present: sourceTypes.has("owner-feedback") },
       {
@@ -553,7 +549,7 @@ for (const [index, product] of products.entries()) {
       { label: "regulator and recall checks", present: sourceTypes.has("regulator-recall-check") },
       { label: "seller and fulfilment checks", present: sourceTypes.has("seller-fulfilment") },
     ];
-    for (const group of evidenceGroups) {
+    for (const group of requiredEvidenceGroups) {
       if (!group.present) addError(prefix + " is missing " + group.label + ".");
     }
 

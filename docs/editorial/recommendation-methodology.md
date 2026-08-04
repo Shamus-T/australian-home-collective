@@ -19,15 +19,15 @@ Products are not selected merely because they are popular, expensive, highly rat
 
 AHC Product Research is the required assessment process for named products that may receive promotional placement.
 
-A research-supported assessment normally requires evidence from:
+A research-supported assessment draws on evidence from:
 
 - manufacturer specifications, manuals and written warranty documents;
-- independent expert or technical reviews with a clear assessment method;
+- credible independent expert or technical reviews, where they add useful evidence;
 - recurring themes across a meaningful body of owner feedback;
 - Australian availability, warranty support, service access and fulfilment; and
 - Australian regulator, warning and recall checks where relevant.
 
-Manufacturer material may verify specifications but does not independently establish quality. Retailer rankings, star averages, bestseller labels and review counts are not proof of suitability.
+Manufacturer material may verify specifications but does not independently establish quality. A capable expert or technical review strengthens an assessment but is not a mandatory source category: shallow, poorly evidenced or irrelevant reviews should not determine the outcome. Retailer rankings, star averages, bestseller labels and review counts are not proof of suitability.
 
 ## Required reader-facing information
 

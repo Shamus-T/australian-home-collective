@@ -83,6 +83,15 @@ test("a complete research-supported affiliate record passes the source audit", (
   assert.equal(result.status, 0, result.stderr);
 });
 
+test("a research-supported record can pass without an expert review when its required practical evidence is present", () => {
+  const result = runAudit((product) => {
+    product.sourceRecords = product.sourceRecords.filter(
+      (source) => source.sourceType !== "independent-expert-review",
+    );
+  });
+  assert.equal(result.status, 0, result.stderr);
+});
+
 test("the audit rejects a missing required review field", () => {
   const result = runAudit((product) => {
     delete product.drawbacks;
