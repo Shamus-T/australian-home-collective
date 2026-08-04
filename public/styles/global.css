@@ -1011,14 +1011,20 @@ h3 {
 }
 
 .commercial-product-block {
-  margin: 42px 0;
+  margin: 32px 0 42px;
+}
+
+.commercial-product-disclosure {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin: 10px 0 0;
 }
 
 .commercial-product-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
-  margin: 24px 0 34px;
+  margin: 18px 0 28px;
 }
 
 .commercial-product-card {
@@ -1027,12 +1033,22 @@ h3 {
   border-radius: 8px;
   background: var(--paper);
   box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+  min-height: 292px;
+  position: relative;
   padding: 20px;
 }
 
 .commercial-product-card h3,
 .commercial-product-card p {
   margin-top: 0;
+}
+
+.commercial-product-card h3 {
+  font-size: 1.28rem;
+  line-height: 1.15;
+  margin-bottom: 10px;
 }
 
 .commercial-product-type {
@@ -1043,12 +1059,56 @@ h3 {
   text-transform: uppercase;
 }
 
-.commercial-product-merchant {
-  font-weight: 700;
-}
-
 .commercial-product-outcome {
   color: #354335;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.commercial-product-details-toggle,
+.commercial-product-details-close {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: var(--green-dark);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  padding: 0;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.commercial-product-details-toggle {
+  margin: auto 0 14px;
+}
+
+.commercial-product-card > a[data-commercial-link] {
+  align-self: flex-start;
+}
+
+.commercial-product-details {
+  background: linear-gradient(180deg, #fffdf7, #f7f0e3);
+  border-radius: 6px;
+  box-shadow: 0 12px 28px rgba(42, 52, 42, 0.22);
+  inset: 0;
+  opacity: 0;
+  overflow: auto;
+  padding: 20px;
+  pointer-events: none;
+  position: absolute;
+  transform: translateY(8px);
+  transition: opacity 160ms ease, transform 160ms ease;
+  z-index: 1;
+}
+
+.commercial-product-card:hover .commercial-product-details,
+.commercial-product-card.is-details-open .commercial-product-details {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
 }
 
 .commercial-product-drawbacks {
@@ -1069,7 +1129,11 @@ h3 {
 .commercial-product-reviewed {
   color: var(--muted);
   font-size: 0.9rem;
-  margin: 16px 0 0;
+  margin: 16px 0;
+}
+
+.commercial-product-details-close {
+  margin-top: 2px;
 }
 
 .comparison-wrap {

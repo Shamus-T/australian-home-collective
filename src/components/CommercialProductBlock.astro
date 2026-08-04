@@ -1,5 +1,4 @@
 ---
-import AffiliateDisclosureBlock from "./AffiliateDisclosureBlock.astro";
 import {
   getApprovedProductsForGuide,
   researchOutcomeLabels,
@@ -40,26 +39,27 @@ const formatDate = (date: string) =>
   >
     <h2 id={sectionId}>{title}</h2>
     <p>{intro}</p>
-    {hasAffiliateLinks && <AffiliateDisclosureBlock />}
+    {hasAffiliateLinks && (
+      <p class="commercial-product-disclosure" aria-label="Affiliate disclosure">
+        Some links below are affiliate links. If you buy through one, we may earn a commission at
+        no extra cost to you. <a href="/affiliate-disclosure/">Learn more.</a>
+      </p>
+    )}
     <div class="commercial-product-grid">
       {products.map((product) => (
-        <article class="commercial-product-card">
+        <article class="commercial-product-card" data-commercial-product-card>
           <p class="commercial-product-type">{product.productType}</p>
           <h3>{product.name}</h3>
-          <p class="commercial-product-outcome">
-            <strong>AHC Product Research:</strong>{" "}
-            {researchOutcomeLabels[product.researchOutcome!]}
-          </p>
           <p>{product.summary}</p>
-          <p><strong>May suit:</strong> {product.suitability.suits.join("; ")}.</p>
-          <p><strong>May not suit:</strong> {product.suitability.mayNotSuit.join("; ")}.</p>
-          <div class="commercial-product-drawbacks">
-            <p><strong>Drawbacks to consider:</strong></p>
-            <ul>
-              {product.drawbacks.map((drawback) => <li>{drawback}</li>)}
-            </ul>
-          </div>
-          <p class="commercial-product-merchant">Available from {product.merchant}</p>
+          <p class="commercial-product-outcome">{researchOutcomeLabels[product.researchOutcome!]}</p>
+          <button
+            class="commercial-product-details-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls={`commercial-product-details-${product.id}`}
+          >
+            Suitability and drawbacks
+          </button>
           <a
             href={product.destinationUrl}
             target="_blank"
@@ -69,15 +69,45 @@ const formatDate = (date: string) =>
           >
             {product.linkLabel}
           </a>
-          <p class="commercial-product-reviewed">
-            Evidence confidence: {product.evidenceConfidence}. Last reviewed{" "}
-            {formatDate(product.lastReviewedOn!)}.{" "}
-            {product.testingStatus === "hands-on-tested"
-              ? product.testingNotes
-              : "Research-based assessment; we have not tested this product firsthand."}
-          </p>
+          <div
+            class="commercial-product-details"
+            id={`commercial-product-details-${product.id}`}
+            aria-label={`${product.name} suitability and drawbacks`}
+          >
+            <p><strong>May suit:</strong> {product.suitability.suits.join("; ")}.</p>
+            <p><strong>May not suit:</strong> {product.suitability.mayNotSuit.join("; ")}.</p>
+            <div class="commercial-product-drawbacks">
+              <p><strong>Drawbacks to consider:</strong></p>
+              <ul>
+                {product.drawbacks.map((drawback) => <li>{drawback}</li>)}
+              </ul>
+            </div>
+            <p class="commercial-product-reviewed">
+              Evidence confidence: {product.evidenceConfidence}. Last reviewed{" "}
+              {formatDate(product.lastReviewedOn!)}.{" "}
+              {product.testingStatus === "hands-on-tested"
+                ? product.testingNotes
+                : "Research-based assessment; we have not tested this product firsthand."}
+            </p>
+            <button class="commercial-product-details-close" type="button">Close details</button>
+          </div>
         </article>
       ))}
     </div>
   </section>
 )}
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-commercial-product-card]").forEach((card) => {
+    const toggle = card.querySelector<HTMLButtonElement>(".commercial-product-details-toggle");
+    const close = card.querySelector<HTMLButtonElement>(".commercial-product-details-close");
+
+    const setOpen = (open: boolean) => {
+      card.classList.toggle("is-details-open", open);
+      toggle?.setAttribute("aria-expanded", String(open));
+    };
+
+    toggle?.addEventListener("click", () => setOpen(!card.classList.contains("is-details-open")));
+    close?.addEventListener("click", () => setOpen(false));
+  });
+</script>
