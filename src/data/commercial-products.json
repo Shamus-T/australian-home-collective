@@ -18,5 +18,168 @@
     "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
     "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/"
   ],
-  "products": []
+  "products": [
+    {
+      "id": "oxo-expandable-utensil-drawer-organiser",
+      "guidePath": "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+      "name": "OXO Good Grips Expandable Utensil Drawer Organiser",
+      "productType": "Expandable utensil drawer organiser",
+      "summary": "A removable-tray organiser for cutlery, utensils and small loose items once the drawer width, depth and 6 cm clearance have been checked.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-04",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Its 6 cm height and wide expanded footprint will not suit every drawer.",
+        "It is designed to be wiped clean rather than used as a dishwasher-safe tray.",
+        "The open section will not resolve mixed, excess contents by itself."
+      ],
+      "suitability": {
+        "suits": [
+          "drawers holding a mix of cutlery, irregular tools and small kitchen gadgets",
+          "households that want removable sections for setting the table or cleaning"
+        ],
+        "mayNotSuit": [
+          "shallow drawers or drawers with runner, screw or curved-side obstructions",
+          "households needing a fixed cutlery-only layout"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Expandable Utensil Drawer Organiser",
+          "publisher": "OXO Australia",
+          "sourceUrl": "https://oxoaustralia.com.au/products/expandable-utensil-drawer-organiser",
+          "supports": "Australian product specifications, removable trays, non-slip feet and care instructions.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "OXO Expandable Utensil Drawer Organiser",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/oxo-expandable-utensil-drawer-organiser",
+          "supports": "Australian buyer feedback on adjustment, fit and build quality.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Expandable Utensil Drawer Organiser",
+          "publisher": "OXO Australia",
+          "sourceUrl": "https://oxoaustralia.com.au/products/expandable-utensil-drawer-organiser",
+          "supports": "Current Australian availability and local product information.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "OXO Good Grips Expandable Utensil Drawer Organizer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+          "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
+          "checkedOn": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "id": "joseph-joseph-drawerstore-expanding-organiser",
+      "guidePath": "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+      "name": "Joseph Joseph DrawerStore Expanding Cutlery, Utensil & Gadget Organiser",
+      "productType": "Expanding cutlery, utensil and gadget organiser",
+      "summary": "An expanding tray with deep cutlery and gadget compartments for drawers with at least 7.5 cm internal height.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08QH2RRDY?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-04",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It needs a minimum internal drawer height of 7.5 cm and still depends on the drawer's actual width and depth.",
+        "Long or unusually shaped tools may need another solution.",
+        "It should be hand washed and dried rather than treated as a dishwasher-safe insert."
+      ],
+      "suitability": {
+        "suits": [
+          "households sorting cutlery, small utensils and kitchen gadgets in one drawer",
+          "drawers with enough height for the tray and enough width for its expanding sides"
+        ],
+        "mayNotSuit": [
+          "shallow or unusually shaped drawers",
+          "drawers dominated by long-handled utensils or oversized knife handles"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "DrawerStore Expanding Cutlery, Utensil & Gadget Organiser",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/drawerstore-expanding-cutlery-utensil-gadgets-organiser-stone",
+          "supports": "Australian product details, compartments, care instructions and minimum drawer height.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Joseph Joseph DrawerStore Review: Does the Compact Cutlery Tray Work?",
+          "publisher": "Clutter Science",
+          "sourceUrl": "https://clutterscience.com/blog/joseph-joseph-drawerstore-review/",
+          "supports": "Independent assessment of where the DrawerStore format saves space and where it is not appropriate.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Joseph Joseph DrawerStore Expandable Cutlery, Utensil & Gadgets Organiser",
+          "publisher": "Kitchen Warehouse Australia",
+          "sourceUrl": "https://www.kitchenwarehouse.com.au/product/joseph-joseph-drawerstore-expandable-cutlery-utensil-gadgets-organiser",
+          "supports": "Verified-purchaser feedback on fit, space saving and compartment limits.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "DrawerStore Expanding Cutlery, Utensil & Gadget Organiser",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/drawerstore-expanding-cutlery-utensil-gadgets-organiser-stone",
+          "supports": "Current Australian availability, delivery information and two-year guarantee.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Joseph Joseph DrawerStore Expanding Cutlery, Utensil & Gadgets Organiser",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QH2RRDY?tag=ahc07-22",
+          "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
+          "checkedOn": "2026-08-04"
+        }
+      ]
+    }
+  ]
 }
