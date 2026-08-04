@@ -1104,11 +1104,18 @@ h3 {
   z-index: 1;
 }
 
-.commercial-product-card:hover .commercial-product-details,
 .commercial-product-card.is-details-open .commercial-product-details {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
+}
+
+@media (hover: hover) {
+  .commercial-product-details-toggle:hover ~ .commercial-product-details {
+    opacity: 1;
+    pointer-events: none;
+    transform: translateY(0);
+  }
 }
 
 .commercial-product-drawbacks {
