@@ -636,21 +636,6 @@ if (checkDist) {
       const route = pageRoute(relativePath);
       const text = visibleText(html);
       const footerHtml = html.match(/<footer\b[\s\S]*?<\/footer>/i)?.[0] ?? "";
-      const siteDisclosureCount = html.match(/\bdata-site-affiliate-disclosure\b/gi)?.length ?? 0;
-
-      if (siteDisclosureCount !== 1) {
-        addError(relativePath + " renders " + siteDisclosureCount + " site-wide footer disclosures; expected exactly one.");
-      }
-      for (const requiredText of [
-        "Some links on this website are affiliate links.",
-        "at no extra cost to you",
-        "free, ad-free and easy to use",
-        "Our editorial content remains independent.",
-      ]) {
-        if (!visibleText(footerHtml).includes(requiredText)) {
-          addError(relativePath + " footer is missing disclosure text: " + requiredText);
-        }
-      }
       if (!footerHtml.includes('href="/affiliate-disclosure/"')) {
         addError(relativePath + " footer does not link to the affiliate disclosure policy.");
       }
@@ -714,8 +699,17 @@ if (checkDist) {
       if (affiliateAnchors.length > 0 && localDisclosureCount !== 1) {
         addError(relativePath + " has affiliate product links without exactly one in-guide disclosure.");
       }
+      if (affiliateAnchors.length > 0 && !text.includes("Some links below are affiliate links.")) {
+        addError(relativePath + " has affiliate product links without the required nearby disclosure wording.");
+      }
       if (affiliateAnchors.length === 0 && localDisclosureCount > 0) {
         addError(relativePath + " shows an in-guide affiliate disclosure without an approved affiliate link.");
+      }
+      if (
+        route === "/affiliate-disclosure/"
+        && !text.includes("As an Amazon Associate I earn from qualifying purchases.")
+      ) {
+        addError(relativePath + " is missing the required Amazon Associate statement.");
       }
 
       if (promotableProducts.length === 0 && route.startsWith("/guides/")) {
@@ -741,7 +735,7 @@ if (checkDist) {
     if (errors.length === 0) {
       console.log(
         "Built commercial checks passed across " + builtPageCount + " HTML pages and "
-        + builtExternalLinkCount + " external links, including one footer disclosure per page.",
+        + builtExternalLinkCount + " external links, with required nearby affiliate disclosures.",
       );
     }
   }
