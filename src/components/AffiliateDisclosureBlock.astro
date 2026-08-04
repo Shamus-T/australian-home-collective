@@ -5,11 +5,11 @@ interface Props {
 
 const { compact = false } = Astro.props;
 const disclosureText =
-  " This guide may include affiliate links. We may receive a commission at no extra cost to you.";
+  " Some links in this guide are affiliate links. If you make a qualifying purchase, we may earn a commission at no extra cost to you. Our editorial assessment remains independent.";
 ---
 
 <aside class:list={["disclosure-block", compact && "compact"]} aria-label="Affiliate disclosure">
   <p>
-    <strong>Disclosure:</strong>{disclosureText}
+    <strong>Disclosure:</strong>{disclosureText} <a href="/affiliate-disclosure/">Learn more.</a>
   </p>
 </aside>

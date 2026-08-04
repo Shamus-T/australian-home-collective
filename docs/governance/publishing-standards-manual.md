@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.2 |
+| Version | 1.3 |
 | Status | Active |
 | Document type | Internal governance manual |
 | Owner | Australian Home Collective |
-| Version date | 24 July 2026 |
+| Version date | 5 August 2026 |
 
 ## Authority and scope
 
@@ -142,9 +142,9 @@ The [Retail Knowledge Base](../knowledge/retail-knowledge-base.md) should inform
 
 ### Affiliate relationships
 
-Affiliate links support the publication; they do not determine editorial conclusions. Partners and products should be relevant to readers and suitable for the context in which they appear. Material relationships must be disclosed clearly.
+Affiliate links support the publication; they do not determine editorial conclusions. Partners and products must be relevant to readers and suitable for the context in which they appear. Material relationships are disclosed in the shared footer and near promotional placements.
 
-Until the commercial workflow is formally approved, public content must not include named model recommendations, retailer links or affiliate links. Future links must be contextual, verified and recorded through the approved commercial catalogue and review process.
+A named product, retailer link or affiliate link may appear only through the approved commercial catalogue and AHC Product Research process. The record must pass the evidence, suitability, safety, review-date and explicit affiliate-approval gates before the reusable commercial component can render it.
 
 ### Sponsored content
 
@@ -185,9 +185,9 @@ If not, it does not belong in the Planning Centre.
 | --- | ---: | --- |
 | Editorial Charter | 1.1 | Active |
 | Editorial Decision Framework | 1.0 | Active |
-| Editorial Style Guide | 1.2 | Active |
+| Editorial Style Guide | 1.3 | Active |
 | Brand Style Guide | 1.2 | Active |
-| Recommendation Methodology | 1.1 | Active; public methodology published |
+| Recommendation Methodology | 1.2 | Active; public AHC Product Research methodology published |
 | Corrections and Content Review Policy | 1.1 | Active; public policy published |
 | Retail Knowledge Base | 1.0 | Active; expandable |
 | Planning Tool Standard | 1.1 | Active |
@@ -201,6 +201,7 @@ If not, it does not belong in the Planning Centre.
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| 1.3 | 5 August 2026 | Activated the commercial-link governance model and linked publication to the AHC Product Research approval gate. |
 | 1.2 | 24 July 2026 | Consolidated the canonical document set, confirmed public trust and commercial boundaries, and linked the current roadmaps and tool standards. |
 | 1.1 | 19 July 2026 | Parked the fridge-planner initiative and returned priority to evidence-led editorial work. |
 | 1.0 | 18 July 2026 | Initial publishing governance framework established. |

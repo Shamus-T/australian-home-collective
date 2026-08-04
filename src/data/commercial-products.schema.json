@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://australianhomecollective.com.au/schemas/commercial-products.schema.json",
+  "title": "Australian Home Collective commercial product catalogue",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "version",
+    "updatedOn",
+    "reviewIntervalDays",
+    "affiliatePrograms",
+    "enabledGuidePaths",
+    "products"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "const": 2 },
+    "updatedOn": { "type": "string", "format": "date" },
+    "reviewIntervalDays": { "type": "integer", "minimum": 1, "maximum": 365 },
+    "affiliatePrograms": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["trackingParameter", "trackingValue", "allowedHosts"],
+        "properties": {
+          "trackingParameter": { "type": "string", "minLength": 1 },
+          "trackingValue": { "type": "string", "minLength": 1 },
+          "allowedHosts": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "enabledGuidePaths": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^/guides/[a-z0-9-]+/$" }
+    },
+    "products": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/product" }
+    }
+  },
+  "$defs": {
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "product": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "guidePath",
+        "name",
+        "productType",
+        "summary",
+        "merchant",
+        "destinationUrl",
+        "linkLabel",
+        "affiliate",
+        "affiliateNetwork",
+        "editorialStatus",
+        "researchOutcome",
+        "evidenceConfidence",
+        "recallSafetyStatus",
+        "lastReviewedOn",
+        "approvedForAffiliateUse",
+        "testingStatus",
+        "testingNotes",
+        "drawbacks",
+        "suitability",
+        "sourceRecords"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "guidePath": { "type": "string", "pattern": "^/guides/[a-z0-9-]+/$" },
+        "name": { "type": "string" },
+        "productType": { "type": "string" },
+        "summary": { "type": "string" },
+        "merchant": { "type": "string" },
+        "destinationUrl": { "type": "string" },
+        "linkLabel": { "type": "string" },
+        "affiliate": { "type": "boolean" },
+        "affiliateNetwork": {
+          "type": ["string", "null"],
+          "enum": ["amazon-australia", "commission-factory", "direct", "other", null]
+        },
+        "editorialStatus": {
+          "enum": ["draft", "in-review", "approved", "paused", "rejected"]
+        },
+        "researchOutcome": {
+          "type": ["string", "null"],
+          "enum": [
+            "research-supported",
+            "promising-limited-evidence",
+            "mixed-not-promoted",
+            "does-not-meet-standard",
+            null
+          ]
+        },
+        "evidenceConfidence": {
+          "type": ["string", "null"],
+          "enum": ["high", "moderate", "low", null]
+        },
+        "recallSafetyStatus": {
+          "enum": ["clear", "check-required", "active-recall", "unresolved-safety-concern"]
+        },
+        "lastReviewedOn": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
+        },
+        "approvedForAffiliateUse": { "type": "boolean" },
+        "testingStatus": { "enum": ["research-only", "hands-on-tested"] },
+        "testingNotes": { "type": "string" },
+        "drawbacks": { "$ref": "#/$defs/stringList" },
+        "suitability": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["suits", "mayNotSuit"],
+          "properties": {
+            "suits": { "$ref": "#/$defs/stringList" },
+            "mayNotSuit": { "$ref": "#/$defs/stringList" }
+          }
+        },
+        "sourceRecords": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["sourceType", "title", "publisher", "sourceUrl", "supports", "checkedOn"],
+            "properties": {
+              "sourceType": {
+                "enum": [
+                  "manufacturer-specification",
+                  "manufacturer-warranty",
+                  "independent-expert-review",
+                  "technical-review",
+                  "owner-feedback",
+                  "australian-availability-support",
+                  "regulator-recall-check",
+                  "seller-fulfilment"
+                ]
+              },
+              "title": { "type": "string", "minLength": 1 },
+              "publisher": { "type": "string", "minLength": 1 },
+              "sourceUrl": { "type": "string", "format": "uri" },
+              "supports": { "type": "string", "minLength": 1 },
+              "checkedOn": { "type": "string", "format": "date" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

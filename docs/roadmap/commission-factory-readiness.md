@@ -2,59 +2,50 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0 |
-| Status | Ready after Phase 1 production verification |
-| Document type | Internal commercial readiness assessment |
+| Version | 1.1 |
+| Status | Superseded by the active commercial-link governance process |
+| Document type | Internal commercial readiness record |
 | Owner | Australian Home Collective |
-| Version date | 24 July 2026 |
+| Version date | 5 August 2026 |
 
-## Assessment basis
+## Assessment record
 
-Commission Factory's current application guidance says a traffic source must be live and publicly accessible and that websites under construction, under maintenance or underdeveloped are not accepted. The application also requires accurate contact and billing information and a valid card for the stated pre-authorisation process.
+This document records the earlier Commission Factory readiness work. The publication is live, its public trust pages are linked from the footer, and affiliate use is now governed by the active AHC Product Research process rather than a pre-application publishing boundary.
 
-Sources checked 24 July 2026:
+Sources checked for the original assessment on 24 July 2026:
 
 - [Commission Factory Affiliate Application Tips](https://help.commissionfactory.com/affiliate-application-tips)
 - [How to apply as an affiliate](https://help.commissionfactory.com/how-to-apply-to-commission-factory-as-an-affiliate)
 
-## Current strengths
+## Current operating position
 
-- The production publication is live and publicly accessible.
-- The site has a clear homepage, Guides index, ten populated categories and 98 indexable guides.
-- About, Editorial Standards, How We Select, Corrections, Affiliate Disclosure, Privacy and Contact pages are public and linked from the footer.
-- The publication explains its promotion method: contextual recommendations may follow practical planning guidance only after formal approval.
-- The public site has no under-construction categories, empty navigation sections or aggressive monetisation.
-- Existing guides have enough independent value to support future contextual links without becoming shopping lists.
-- The repository blocks unapproved retailer links, affiliate parameters, named model batches, review-count claims, stock wording and prohibited commercial schema.
+- Affiliate links are active and disclosed in the shared footer.
+- The Editorial Independence & Affiliate Disclosure page explains the current relationship and reader benefit.
+- The public How We Select page publishes the AHC Product Research method.
+- Products can enter promotional placement only after their structured record passes editorial, evidence, suitability, safety, review-date and affiliate-approval checks.
+- Retailer URLs and tracking parameters remain outside article source and are rendered only through the central commercial component.
+- A product is not added merely to make the site look commercial or to favour a high-value commission.
 
-## Remaining blockers
+## Ongoing network and advertiser checks
 
-There is no material live-site content blocker after this Phase 1 release. Before applying, Shane must still:
+Before a network or advertiser link is enabled:
 
-- confirm the production deployment contains the Phase 1 trust changes;
-- use accurate registered-business, contact, billing and traffic-source details in the application;
-- ensure the required card pre-authorisation can be completed;
-- describe only promotion methods AHC will actually use; and
-- choose relevant advertiser programs after network approval rather than promising specific partners in advance.
+- confirm the partner, product and placement are relevant to the guide;
+- record the required tracking configuration centrally;
+- verify Australian availability, support, seller and fulfilment;
+- complete regulator and recall checks;
+- record material drawbacks and suitability;
+- assign a supported research outcome and evidence confidence;
+- approve the product explicitly for affiliate use; and
+- confirm the generated link, disclosure and relationship attributes pass the production audits.
 
-The empty commercial catalogue is not a sign that the publication is unfinished. It is an intentional approval control. Public product links are not required before the network application and should not be added merely to make the site look commercial.
+## Current publication description
 
-## Recommended timing
+> Australian Home Collective is a registered Australian business and an independent Australian home-planning publication. We publish practical guides that help Australians measure, compare and plan before buying products for the home. Approved advertisers may appear through contextual links in relevant guides only after editorial and evidence review. Affiliate relationships are disclosed clearly, and commercial value does not determine our topics or conclusions.
 
-Apply after the Phase 1 commit is deployed and the changed public trust pages pass production verification. No additional article batch is required first.
+## Version history
 
-## Proposed application description
-
-> Australian Home Collective is a registered Australian business and an independent Australian home-planning publication. We publish practical guides that help Australians measure, compare and plan before buying products for the home. We intend to promote approved advertisers through contextual links placed only in relevant existing guides after editorial verification. Affiliate relationships will be disclosed clearly, and commission rates will not determine our topics or conclusions. Australian Home Collective is not a coupon or deals site, and no product link is published until the advertiser and placement have been approved.
-
-## Checklist before applying
-
-- [ ] Phase 1 commit is live on the production domain.
-- [ ] Homepage, Guides and all category pages load without placeholders.
-- [ ] About, Editorial Standards, How We Select, Corrections, Affiliate Disclosure, Privacy and Contact load from the footer.
-- [ ] Contact form and privacy wording are working and current.
-- [ ] Application business name, contact email, billing details and traffic-source URL are accurate.
-- [ ] Valid card is available for the stated pre-authorisation step.
-- [ ] Application description matches the actual contextual-content promotion method.
-- [ ] No traffic number, audience claim or advertiser relationship is invented.
-- [ ] No public retailer or affiliate link is added before its separate approval.
+| Version | Date | Summary |
+| --- | --- | --- |
+| 1.1 | 5 August 2026 | Marked the readiness phase complete and linked ongoing affiliate use to the active AHC Product Research gate. |
+| 1.0 | 24 July 2026 | Recorded the original Commission Factory readiness assessment. |

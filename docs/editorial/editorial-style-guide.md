@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.2 |
+| Version | 1.3 |
 | Status | Active |
 | Document type | Internal editorial standard |
 | Owner | Australian Home Collective |
-| Version date | 24 July 2026 |
+| Version date | 5 August 2026 |
 
 ## 1. Purpose
 
@@ -298,10 +298,12 @@ If information cannot be verified, qualify or remove it. If an error is identifi
 
 Affiliate links should follow the planning guidance, not replace it.
 
-- Do not publish named model recommendations, retailer links or affiliate links before the commercial workflow is formally approved.
+- Publish named model recommendations, retailer links and affiliate links only through the approved AHC Product Research record and commercial component.
 - Explain what readers should measure and compare first.
 - Disclose material commercial relationships clearly.
 - Do not allow commission rates to determine conclusions.
+- State visible drawbacks, suitability, evidence confidence and the last-reviewed date.
+- Do not imply hands-on testing unless it occurred and is documented.
 - Do not create artificial urgency, scarcity or fear.
 - Do not disguise advertising as independent editorial.
 
@@ -348,6 +350,7 @@ Before publication, ask:
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| 1.3 | 5 August 2026 | Added the active affiliate-link rules and AHC Product Research disclosure requirements. |
 | 1.2 | 24 July 2026 | Aligned external-link behaviour, commercial approval boundaries and publication-date wording with the approved operating rules. |
 | 1.1 | 21 July 2026 | Added the plain-language hyphen and compound guidance. |
 | 1.0 | 18 July 2026 | Initial editorial style standard. |

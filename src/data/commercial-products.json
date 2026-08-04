@@ -1,6 +1,18 @@
 {
-  "version": 1,
-  "updatedOn": "2026-07-10",
+  "$schema": "./commercial-products.schema.json",
+  "version": 2,
+  "updatedOn": "2026-08-05",
+  "reviewIntervalDays": 180,
+  "affiliatePrograms": {
+    "amazon-australia": {
+      "trackingParameter": "tag",
+      "trackingValue": "ahc07-22",
+      "allowedHosts": [
+        "amazon.com.au",
+        "www.amazon.com.au"
+      ]
+    }
+  },
   "enabledGuidePaths": [
     "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
     "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",

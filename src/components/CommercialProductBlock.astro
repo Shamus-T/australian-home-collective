@@ -1,6 +1,9 @@
 ---
 import AffiliateDisclosureBlock from "./AffiliateDisclosureBlock.astro";
-import { getApprovedProductsForGuide } from "../lib/commercial-products";
+import {
+  getApprovedProductsForGuide,
+  researchOutcomeLabels,
+} from "../lib/commercial-products";
 
 interface Props {
   guidePath: string;
@@ -43,18 +46,35 @@ const formatDate = (date: string) =>
         <article class="commercial-product-card">
           <p class="commercial-product-type">{product.productType}</p>
           <h3>{product.name}</h3>
+          <p class="commercial-product-outcome">
+            <strong>AHC Product Research:</strong>{" "}
+            {researchOutcomeLabels[product.researchOutcome!]}
+          </p>
           <p>{product.summary}</p>
+          <p><strong>May suit:</strong> {product.suitability.suits.join("; ")}.</p>
+          <p><strong>May not suit:</strong> {product.suitability.mayNotSuit.join("; ")}.</p>
+          <div class="commercial-product-drawbacks">
+            <p><strong>Drawbacks to consider:</strong></p>
+            <ul>
+              {product.drawbacks.map((drawback) => <li>{drawback}</li>)}
+            </ul>
+          </div>
           <p class="commercial-product-merchant">Available from {product.merchant}</p>
           <a
             href={product.destinationUrl}
             target="_blank"
-            rel={product.affiliate ? "sponsored noopener noreferrer" : "noopener noreferrer"}
+            rel="sponsored nofollow noopener noreferrer"
             data-commercial-link={product.affiliate ? "affiliate" : "retailer"}
+            data-commercial-product-id={product.id}
           >
             {product.linkLabel}
           </a>
           <p class="commercial-product-reviewed">
-            Product details checked {formatDate(product.verifiedOn)}. Review due {formatDate(product.reviewDueOn)}.
+            Evidence confidence: {product.evidenceConfidence}. Last reviewed{" "}
+            {formatDate(product.lastReviewedOn!)}.{" "}
+            {product.testingStatus === "hands-on-tested"
+              ? product.testingNotes
+              : "Research-based assessment; we have not tested this product firsthand."}
           </p>
         </article>
       ))}

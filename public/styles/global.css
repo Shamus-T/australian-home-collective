@@ -1020,6 +1020,25 @@ h3 {
   font-weight: 700;
 }
 
+.commercial-product-outcome {
+  color: #354335;
+}
+
+.commercial-product-drawbacks {
+  border-left: 2px solid rgba(212, 160, 23, 0.55);
+  margin: 16px 0;
+  padding-left: 14px;
+}
+
+.commercial-product-drawbacks p {
+  margin-bottom: 6px;
+}
+
+.commercial-product-drawbacks ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
 .commercial-product-reviewed {
   color: var(--muted);
   font-size: 0.9rem;
@@ -1204,6 +1223,24 @@ h3 {
   color: rgba(248, 241, 230, 0.72);
   font-size: 0.95rem;
   margin: 14px 0 0;
+}
+
+.footer-disclosure {
+  border-left: 2px solid var(--gold);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 20px 0 0;
+  padding-left: 14px;
+}
+
+.footer-disclosure a {
+  font-weight: 700;
+  text-decoration-color: rgba(248, 241, 230, 0.62);
+  text-underline-offset: 0.18em;
+}
+
+.footer-disclosure a:hover {
+  color: var(--color-wattle);
 }
 
 .footer-brand p {

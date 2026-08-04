@@ -18,6 +18,12 @@ npm run audit:site:dist
 npm run audit:commercial:dist
 ```
 
+The production build runs both commercial audits as part of its gate. Product candidates belong
+in src/data/commercial-products.json, which is governed by the adjacent JSON schema and the public
+AHC Product Research methodology. An approved record expires 180 days after its lastReviewedOn
+date. Affiliate URLs, including the configured Amazon Australia tracking tag, must stay in the
+central registry rather than being hard-coded into guides.
+
 ## Production deployment
 
 Production hosting is provided by Cloudflare Pages through its connected GitHub repository.
