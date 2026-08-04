@@ -446,6 +446,7 @@ h3 {
 }
 
 .guide-card.has-image .meta,
+.guide-card.has-image h2,
 .guide-card.has-image h3,
 .guide-card.has-image p {
   color: var(--color-cream);
@@ -463,12 +464,38 @@ h3 {
   margin-bottom: 0;
 }
 
+.guide-card.category-card h2,
 .guide-card.category-card h3 {
-  min-height: 2.7em;
+  min-height: 0;
 }
 
 .guide-card.category-card p:last-child {
-  min-height: 6.4em;
+  min-height: 0;
+  max-width: 30ch;
+}
+
+.guide-card.category-card.has-image a::before {
+  background:
+    linear-gradient(180deg, rgba(20, 29, 22, 0.3) 0%, rgba(20, 29, 22, 0.88) 100%),
+    linear-gradient(90deg, rgba(21, 44, 33, 0.5), rgba(21, 44, 33, 0.14));
+}
+
+.guide-card.category-card.has-image h2,
+.guide-card.category-card.has-image h3 {
+  color: #fffdf7;
+  font-size: clamp(1.9rem, 1.35rem + 1.15vw, 2.45rem);
+  line-height: 1.04;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.48);
+}
+
+.guide-card.category-card.has-image .meta {
+  color: #ffe4a0;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.guide-card.category-card.has-image a:hover h2,
+.guide-card.category-card.has-image a:hover h3 {
+  color: #fffdf7;
 }
 
 .guide-card.has-image a:hover h3 {
