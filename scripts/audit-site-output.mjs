@@ -77,6 +77,27 @@ const requiredLegacyRedirects = new Map([
   ["/pages/submit-your-brand/", "/contact/"],
   ["/pages/contact/", "/contact/"],
 ]);
+const forbiddenOutputPaths = [
+  ".env",
+  ".env.local",
+  ".env.production",
+  ".git",
+  "terraform.tfstate",
+  "terraform.tfstate.backup",
+  "config/config.inc.php",
+  "wp-config.php",
+  "config.php",
+  ".htaccess",
+  ".DS_Store",
+  "server-status",
+  "phpinfo.php",
+  "vendor/.env",
+  "backup.zip",
+  "package.json",
+  "package-lock.json",
+  "wrangler.toml",
+  "node_modules",
+];
 
 for (const [source, target] of requiredLegacyCollectionRedirects) {
   requiredLegacyRedirects.set(source, target);
@@ -204,6 +225,13 @@ function publicUrlForOutput(relativePath) {
 if (!fs.existsSync(distRoot)) {
   console.error("Site output audit requires a completed dist build.");
   process.exit(1);
+}
+
+for (const relativePath of forbiddenOutputPaths) {
+  const outputPath = path.join(distRoot, ...relativePath.split("/"));
+  if (fs.existsSync(outputPath)) {
+    addError(`The build must not publish sensitive or server-only path ${relativePath}.`);
+  }
 }
 
 for (const obsoleteOutputPath of [
