@@ -17,7 +17,8 @@
     "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
     "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
     "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
-    "/guides/coffee-machine-types-australia/"
+    "/guides/coffee-machine-types-australia/",
+    "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
   ],
   "products": [
     {
@@ -980,6 +981,734 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0DZP8G5HT?tag=ahc07-22",
           "supports": "The exact model was in stock at $996, sold and shipped by Amazon Australia, with the displayed return terms checked before approval.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "philips-3000-series-dual-basket-airfryer-na352-00",
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "name": "Philips 3000 Series Dual Basket Airfryer NA352/00",
+      "productType": "Air fryer — unequal dual baskets",
+      "summary": "A 9 L dual-basket model with a larger 6 L drawer and smaller 3 L drawer for households that usually cook a main item and a smaller side at the same time.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0D2XXZJKD?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 9 L body and fully opened drawers need substantial clear bench depth.",
+        "The uneven drawer split is less flexible when two equally large batches are needed.",
+        "Owner feedback is mixed on the touch controls and long-term basket coating, so care and warranty terms should be checked."
+      ],
+      "suitability": {
+        "suits": [
+          "larger households that often cook one main item with a smaller side",
+          "cooks who will use separate time and temperature settings in the two drawers"
+        ],
+        "mayNotSuit": [
+          "compact benches or cupboards that cannot accommodate the open drawers",
+          "households that usually need two equal-capacity cooking zones"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "3000 Series Dual Basket Airfryer NA352/00",
+          "publisher": "Philips Australia",
+          "sourceUrl": "https://www.philips.com.au/c-p/NA352_00/3000-series-dual-basket-airfryer",
+          "supports": "Australian model specifications checked, including the 9 L combined capacity, 6 L and 3 L drawers, dimensions, weight, power and dishwasher-safe removable parts.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Philips 3000 Series Dual Basket Airfryer NA352/00",
+          "publisher": "CHOICE",
+          "sourceUrl": "https://www.choice.com.au/products/home-and-living/kitchen/benchtop-cooking/philips-3000-series-dual-basket-airfryer-na35200",
+          "supports": "Independent Australian laboratory review for the exact model checked for cooking performance, ease of use and measured specifications.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Philips 3000 Series NA352/00",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/philips-3000-series-na35200",
+          "supports": "Australian owner feedback checked for recurring themes around capacity, cleaning, controls and basket coating; mixed feedback is reflected in the drawbacks.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "NA352/00 support",
+          "publisher": "Philips Australia",
+          "sourceUrl": "https://www.philips.com.au/c-p/NA352_00/3000-series-dual-basket-airfryer/support",
+          "supports": "Current Australian manuals, support access and product registration path checked.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for Philips NA352/00; no active matching Australian recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Philips Air Fryer 3000 Series Dual Basket, 9L",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0D2XXZJKD?tag=ahc07-22",
+          "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "ninja-foodi-max-xxxl-dual-zone-air-fryer-af400anz",
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "name": "Ninja Foodi Max XXXL Dual Zone Air Fryer AF400ANZ",
+      "productType": "Air fryer — equal dual zones",
+      "summary": "A 9.5 L model with two equal 4.75 L drawers for larger households that want two similar batches or different foods finished together.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B09BZR9JFG?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Its wide body and two long drawers require a generous permanent operating position.",
+        "Two equal zones are less space-efficient when one part of the meal is consistently much smaller.",
+        "The drawers, crisper plates and exterior create more cleaning and storage work than a compact single-basket model."
+      ],
+      "suitability": {
+        "suits": [
+          "larger households cooking two similar-size batches or separate foods together",
+          "meal routines that will regularly use the synchronised finish and match-cook controls"
+        ],
+        "mayNotSuit": [
+          "small kitchens where the full drawer-opening depth would interrupt preparation space",
+          "single-person households or cooks who rarely need both zones"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Ninja Foodi Max XXXL Dual Zone Air Fryer AF400",
+          "publisher": "Ninja Kitchen Australia",
+          "sourceUrl": "https://ninjakitchen.com.au/products/ninja-foodi-max-xxxl-dual-zone-air-fryer-af400",
+          "supports": "Australian specifications checked, including the 9.5 L combined capacity, equal 4.75 L drawers, six cooking functions, dimensions and included parts.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Ninja Foodi Max XXXL Dual Zone Air Fryer AF400",
+          "publisher": "CHOICE",
+          "sourceUrl": "https://www.choice.com.au/products/home-and-living/kitchen/benchtop-cooking/ninja-foodi-max-xxxl-dual-zone-air-fryer-af400",
+          "supports": "Independent Australian laboratory review for the exact model checked for cooking performance, ease of use and measured specifications.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Ninja Foodi Max XXXL AF400",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/ninja-foodi-max-xxxl-af400",
+          "supports": "Australian owner feedback checked for recurring themes around dual-zone convenience, size, cleaning and controls.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Ninja Foodi Max XXXL Dual Zone Air Fryer AF400",
+          "publisher": "Ninja Kitchen Australia",
+          "sourceUrl": "https://ninjakitchen.com.au/products/ninja-foodi-max-xxxl-dual-zone-air-fryer-af400",
+          "supports": "Current Australian availability, local support route, manuals and warranty information checked.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for Ninja AF400ANZ; no active matching Australian recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Ninja Foodi Max XXXL Dual Zone Air Fryer AF400ANZ",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09BZR9JFG?tag=ahc07-22",
+          "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "kitchenaid-artisan-tilt-head-stand-mixer-ksm195",
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "name": "KitchenAid Artisan Tilt-Head Stand Mixer KSM195",
+      "productType": "Stand mixer — regular home baking",
+      "summary": "A metal tilt-head mixer supplied with 4.7 L and 2.8 L bowls for regular cakes, biscuits, smaller doughs and recipes that benefit from switching bowls.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0FD93C954?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "At about 11 kg, it is awkward to retrieve from a high or deep cupboard for occasional use.",
+        "The 4.7 L main bowl is less suitable for very large dough batches than an XL machine.",
+        "Optional hub attachments add cost and need their own safe storage."
+      ],
+      "suitability": {
+        "suits": [
+          "regular home bakers making cakes, biscuits, frostings and moderate dough batches",
+          "households that will use the two included bowl sizes and bundled baking tools"
+        ],
+        "mayNotSuit": [
+          "occasional bakers who must lift the mixer out for every use",
+          "frequent bulk bread or large-batch baking that needs a bigger bowl and capacity"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Artisan Tilt-Head Stand Mixer KSM195",
+          "publisher": "KitchenAid Australia",
+          "sourceUrl": "https://kitchenaid.com.au/products/ksm195-stand-mixer?variant=39479790960712",
+          "supports": "Australian specifications checked, including the 4.7 L and 2.8 L bowls, 300 W motor, ten speeds, dimensions, 11 kg weight and included tools.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Artisan Tilt-Head Stand Mixer KSM195",
+          "publisher": "KitchenAid Australia",
+          "sourceUrl": "https://kitchenaid.com.au/products/4-7l-artisan-stand-mixer-2026-colour-of-the-year-spearmint-ksm195",
+          "supports": "Current Australian KSM195 page checked for the five-year household parts-and-labour warranty and local support path.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "KitchenAid 4.8L Artisan Stand Mixer 5KSM195PSAFT",
+          "publisher": "CHOICE",
+          "sourceUrl": "https://www.choice.com.au/products/home-and-living/kitchen/food-processors-mixers-and-blenders/kitchenaid-48l-artisan-stand-mixer-5ksm195psaft",
+          "supports": "Independent Australian laboratory review of the KSM195 family checked for mixing, whisking, kneading, ease of use and measured specifications.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "KitchenAid 4.8L Stand Mixer KSM195",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/kitchenaid-48l-stand-mixer-ksm195",
+          "supports": "Australian owner feedback checked for recurring themes around mixing performance, weight, bowl use and support.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Stand Mixers Buying Guide",
+          "publisher": "KitchenAid Australia",
+          "sourceUrl": "https://kitchenaid.com.au/pages/stand-mixers",
+          "supports": "Current Australian model range, compatible attachment guidance, warranty information and local support checked.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for KitchenAid KSM195; no active matching Australian recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "KitchenAid Artisan KSM195 Stand Mixer, Porcelain White",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FD93C954?tag=ahc07-22",
+          "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "kenwood-titanium-chef-baker-xl-kvl85-004bk",
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "name": "Kenwood Titanium Chef Baker XL KVL85.004BK",
+      "productType": "Stand mixer — large-batch baking",
+      "summary": "A 1200 W XL stand mixer with 7 L and 5 L bowls plus built-in weighing for frequent bread, cake and multi-stage baking in larger quantities.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0B4BM6XVN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The XL body, raised mixer head and 11.5 kg weight demand a large, stable permanent position.",
+        "Its capacity and controls are unnecessary overhead for small or occasional baking jobs.",
+        "The large accessory range can add cost and storage pressure if bought without a defined use."
+      ],
+      "suitability": {
+        "suits": [
+          "frequent bread makers and batch bakers who will use the 7 L and 5 L bowls",
+          "bakers who value weighing directly into the bowl during multi-stage recipes"
+        ],
+        "mayNotSuit": [
+          "compact kitchens without head-lift clearance or a permanent bench position",
+          "households mainly mixing small batters or baking only occasionally"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Titanium Chef Baker XL Stand Mixer Black KVL85.004BK",
+          "publisher": "Kenwood Australia",
+          "sourceUrl": "https://www.kenwoodworld.com/en-au/p/titanium-chef-baker-titanium-chef-baker-xl-black-kvl85.004bk/KVL85.004BK.html?pid=0W20011468",
+          "supports": "Exact Australian model specifications checked, including 1200 W power, 11.5 kg weight, 7 L and 5 L included bowls, built-in weighing and stated batch capacities.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Kenwood warranty information",
+          "publisher": "Kenwood Australia",
+          "sourceUrl": "https://www.kenwoodworld.com/en-au/warranty",
+          "supports": "Current Australian warranty page checked for the ten-year warranty applying to Titanium Chef kitchen machines and the local claim process.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Kenwood Titanium Chef Baker XL first look",
+          "publisher": "BBC Good Food",
+          "sourceUrl": "https://www.bbcgoodfood.com/review/kenwood-titanium-chef-baker-xl-first-look",
+          "supports": "Independent hands-on review of the matching KVL85.004 XL platform checked for mixing, kneading, weighing, footprint and head-lift observations.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Kenwood Titanium Chef Baker XL KVL85.004BK",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/kenwood-titanium-chef-baker-xl-kvl85004bk",
+          "supports": "Australian owner feedback checked for recurring themes around mixing capacity, scales, controls, size and support.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Titanium Chef Baker XL Stand Mixer Black KVL85.004BK",
+          "publisher": "Kenwood Australia",
+          "sourceUrl": "https://www.kenwoodworld.com/en-au/p/titanium-chef-baker-titanium-chef-baker-xl-black-kvl85.004bk/KVL85.004BK.html?pid=0W20011468",
+          "supports": "Exact model was current on the Australian range with direct local ordering, delivery and support information.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for Kenwood KVL85.004BK; no active matching Australian recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Kenwood Titanium Chef Baker XL KVL85.004BK",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4BM6XVN?tag=ahc07-22",
+          "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "braun-powerblend-9-jug-blender-jb9040",
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "name": "Braun PowerBlend 9 Jug Blender JB9040",
+      "productType": "Premium blender — guided batch blending",
+      "summary": "A 1600 W blender with a 2 L jug, ten manual speeds and 18 program-and-texture combinations for frequent smoothies, soups and larger blended batches.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B09T3RXCCP?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 2 L jug and motor base occupy more height and depth than a compact smoothie blender.",
+        "Independent testing found it loud at high speed, which matters in open-plan homes.",
+        "The blade assembly is not removable, so cleaning depends on the cleaning program and careful access around the fixed blades."
+      ],
+      "suitability": {
+        "suits": [
+          "households making frequent smoothies, soups or other larger blended batches",
+          "cooks who prefer preset texture choices but still want manual speed control"
+        ],
+        "mayNotSuit": [
+          "small-quantity blending or kitchens with limited assembled-height clearance",
+          "noise-sensitive households or buyers who prefer a removable blade assembly"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "PowerBlend 9 Jug Blender JB9040BK support",
+          "publisher": "Braun Household Australia",
+          "sourceUrl": "https://www.braunhousehold.com/en-au/s/JB901AN-JB9040BK",
+          "supports": "Exact Australian support record, manual and operating guidance checked for the JB9040BK model, including programs, manual speeds, hot-soup use and cleaning.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Braun Household warranty",
+          "publisher": "Braun Household Australia",
+          "sourceUrl": "https://www.braunhousehold.com/en-au/customer-support/warranty",
+          "supports": "Australian household-appliance warranty route checked; the published PowerBlend 9 warranty terms and local claim pathway were current at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Braun TriForce PowerBlend blender review",
+          "publisher": "TechRadar",
+          "sourceUrl": "https://www.techradar.com/home/juicers-blenders/braun-triforce-powerblend-blender-review",
+          "supports": "Independent hands-on review of the JB9040 checked for blending range, 2 L jug, 1600 W power, presets, fixed-blade cleaning and high-speed noise.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Braun PowerBlend 9 Jug Blender JB9042BK",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/braun-powerblend-9-jug-blender-jb9042bk",
+          "supports": "Australian owner feedback for the closely related local JB9042 variant checked for recurring usability, noise, blending and cleaning themes; model differences were not treated as exact specifications.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "PowerBlend 9 Jug Blender JB9040BK support",
+          "publisher": "Braun Household Australia",
+          "sourceUrl": "https://www.braunhousehold.com/en-au/s/JB901AN-JB9040BK",
+          "supports": "Exact model appears in the Australian support system with an Australian manual, registration and contact route.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for Braun JB9040; no active matching Australian recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Braun PowerBlend 9 Jug Blender JB9040",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09T3RXCCP?tag=ahc07-22",
+          "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "vitamix-a3500i-ascent-series-smart-blender",
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "name": "Vitamix A3500i Ascent Series Smart Blender",
+      "productType": "Premium blender — heavy-duty blending",
+      "summary": "A 2 L high-performance blender with five programs and manual speed control for frequent demanding blends, larger batches and cooks who will use automated cycles.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07MW84974?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It is a very expensive choice unless demanding blending is a frequent household task.",
+        "The broad motor base and 2 L jug still require a substantial permanent storage position.",
+        "Owner feedback includes isolated container-detection and support concerns, so registration and warranty documentation should be retained."
+      ],
+      "suitability": {
+        "suits": [
+          "frequent heavy-duty blending, large smoothies, soups, nut mixtures and repeated batch work",
+          "households that will use both automated programs and manual texture control"
+        ],
+        "mayNotSuit": [
+          "occasional smoothies or buyers unlikely to use its capacity and program range",
+          "tight budgets, compact benches or households wanting a small personal blender"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Vitamix A3500i Ascent Series Smart Blender",
+          "publisher": "Vitamix Australia",
+          "sourceUrl": "https://www.vitamixaustralia.com.au/products/vitamix-a3500i-ascent%C2%AE-series-smart-blender",
+          "supports": "Exact Australian product checked for the 2 L container, five programs, variable-speed controls, included tamper and local model identity.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Vitamix A3500i Ascent Series Smart Blender owner manual",
+          "publisher": "Vitamix Australia",
+          "sourceUrl": "https://www.vitamixaustralia.com.au/pages/owners-manuals-vitamix-a3500i-ascent-blender",
+          "supports": "Australian owner information checked for the ten-year full-machine household warranty, dishwasher compatibility and local service process.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Vitamix A3500 review",
+          "publisher": "TechRadar",
+          "sourceUrl": "https://www.techradar.com/reviews/vitamix-a3500",
+          "supports": "Independent hands-on review of the A3500 platform, identified as A3500i in Australia, checked for blending performance, controls, 2 L capacity, noise, size and cleaning.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Vitamix A3500i",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/vitamix-a3500i",
+          "supports": "Australian owner feedback checked for recurring themes around blending performance, cleaning, container detection, price and service; support concerns are reflected in the drawbacks.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Vitamix A3500i Ascent Series Smart Blender owner manual",
+          "publisher": "Vitamix Australia",
+          "sourceUrl": "https://www.vitamixaustralia.com.au/pages/owners-manuals-vitamix-a3500i-ascent-blender",
+          "supports": "Current Australian manual, product registration, service contact and warranty claim route checked.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for Vitamix A3500i; no active matching Australian recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Vitamix A3500i Ascent Series Blender, stainless finish",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07MW84974?tag=ahc07-22",
+          "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "breville-fast-slow-go-bpr680bss",
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "name": "Breville the Fast Slow GO BPR680BSS",
+      "productType": "Multi-cooker — pressure and slow cooking",
+      "summary": "A 6 L multi-cooker with a stainless-steel cooking bowl and pressure, slow-cook, sauté, steam, sous-vide and yoghurt settings for batch cooking without an air-fryer function.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B09FL8F5L6?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The lid and steam release need clear space above the machine during pressure cooking.",
+        "It does not air fry, so it will not consolidate that appliance for households wanting crisping functions.",
+        "The stated one-year replacement warranty is shorter than the cover offered with some premium alternatives."
+      ],
+      "suitability": {
+        "suits": [
+          "batch cooks wanting pressure and slow cooking with a stainless-steel inner bowl",
+          "households that prefer a focused multi-cooker without air-frying parts and controls"
+        ],
+        "mayNotSuit": [
+          "buyers specifically trying to replace both a pressure cooker and air fryer",
+          "small kitchens without safe steam clearance or room to store the lid and accessories"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "the Fast Slow GO BPR680",
+          "publisher": "Breville Australia",
+          "sourceUrl": "https://www.breville.com/en-au/product/BPR680?sku=BPR680BSS2JAN1",
+          "supports": "Exact Australian model specifications checked, including the 6 L stainless-steel bowl, 14 cooking shortcuts, 1100 W power, dimensions, included parts and care guidance.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "the Fast Slow GO BPR680",
+          "publisher": "Breville Australia",
+          "sourceUrl": "https://www.breville.com/en-au/product/BPR680?sku=BPR680BSS2JAN1",
+          "supports": "Australian product page checked for the one-year replacement warranty, manuals, replacement parts and local support pathway.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Breville the Fast Slow Go BPR680BSS",
+          "publisher": "CHOICE",
+          "sourceUrl": "https://www.choice.com.au/products/home-and-living/kitchen/benchtop-cooking/breville-the-fast-slow-go-bpr680bss",
+          "supports": "Independent Australian laboratory review for the exact model checked for pressure cooking, slow cooking, ease of use, safety and measured specifications.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Breville the Fast Slow Go",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/breville-the-fast-slow-go",
+          "supports": "Australian owner feedback checked for recurring themes around pressure and slow cooking, stainless bowl use, controls, cleaning and support.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "the Fast Slow GO BPR680",
+          "publisher": "Breville Australia",
+          "sourceUrl": "https://www.breville.com/en-au/product/BPR680?sku=BPR680BSS2JAN1",
+          "supports": "Current Australian model page, instruction manual, parts-and-accessories listings and local support route checked.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for Breville BPR680BSS; no active matching Australian recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Breville the Fast Slow GO BPR680BSS",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09FL8F5L6?tag=ahc07-22",
+          "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "ninja-foodi-smartlid-multi-cooker-ol650anz",
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "name": "Ninja Foodi SmartLid Multi Cooker OL650ANZ",
+      "productType": "Multi-cooker — larger-household consolidation",
+      "summary": "A 7.5 L, 14-function multi-cooker combining pressure cooking, slow cooking, steaming and air frying for larger households trying to consolidate several cooking jobs.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0B4HB4VV6?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "At about 11.4 kg and roughly 38 cm high and deep, it is difficult to move and store in a compact kitchen.",
+        "The cooking pot, basket, rack, lid components and sealing parts create a more involved cleaning routine.",
+        "Australian owner feedback is mixed on the non-stick pot and after-sales support, so the surface, replacement-part path and warranty terms should be checked."
+      ],
+      "suitability": {
+        "suits": [
+          "larger households wanting pressure, slow-cook, steam-and-crisp and air-fry functions in one machine",
+          "batch cooks with a permanent bench position who will use several of the 14 functions"
+        ],
+        "mayNotSuit": [
+          "compact kitchens, frequent cupboard storage or users who cannot comfortably move an 11.4 kg appliance",
+          "households wanting a simple pressure cooker with minimal parts and controls"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Ninja Foodi SmartLid Multi Cooker OL650",
+          "publisher": "Ninja Kitchen Australia",
+          "sourceUrl": "https://ninjakitchen.com.au/products/ninja-foodi-smartlid-multi-cooker-ol650",
+          "supports": "Exact Australian model specifications checked, including the 7.5 L cooking pot, 14 functions, 1760 W power, 11.4 kg weight, dimensions and included accessories.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Ninja Foodi SmartLid Multi Cooker OL650",
+          "publisher": "Ninja Kitchen Australia",
+          "sourceUrl": "https://ninjakitchen.com.au/products/ninja-foodi-smartlid-multi-cooker-ol650",
+          "supports": "Current Australian product page checked for the two-year warranty, manuals, spare-parts route and local support details.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Ninja Foodi SmartLid Multi Cooker OL650, air fryer mode",
+          "publisher": "CHOICE",
+          "sourceUrl": "https://www.choice.com.au/products/home-and-living/kitchen/benchtop-cooking/ninja-foodi-smartlid-multi-cooker-ol650-air-fryer-mode",
+          "supports": "Independent Australian laboratory review for the exact model checked for cooking modes, ease of use, safety, cleaning and measured specifications.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Ninja Foodi SmartLid Multi Cooker OL650",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/ninja-foodi-smartlid-multi-cooker-ol650",
+          "supports": "Australian owner feedback checked for recurring themes around function consolidation, learning curve, cleaning, pot coating and support; mixed feedback is reflected in the drawbacks.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Ninja Foodi SmartLid Multi Cooker OL650",
+          "publisher": "Ninja Kitchen Australia",
+          "sourceUrl": "https://ninjakitchen.com.au/products/ninja-foodi-smartlid-multi-cooker-ol650",
+          "supports": "Current Australian availability, manual, warranty, local contact and replacement-part route checked.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for Ninja OL650ANZ; no active matching Australian recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Ninja Foodi SmartLid Multi Cooker OL650ANZ",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4HB4VV6?tag=ahc07-22",
+          "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
           "checkedOn": "2026-08-17"
         }
       ]
