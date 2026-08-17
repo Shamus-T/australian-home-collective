@@ -24,6 +24,28 @@ test("creates content and integration actions", () => {
   assert.ok(actions.some((action) => action.type === "integration"));
 });
 
+test("interprets low Search Console CTR in the context of average position", () => {
+  const actions = __test.buildActions({
+    internalSearches: [],
+    gscPages: [
+      { page: "/guides/page-one/", impressions: 120, ctr: 0.01, position: 9 },
+      { page: "/guides/page-two/", impressions: 120, ctr: 0.01, position: 15 },
+      { page: "/guides/deeper/", impressions: 120, ctr: 0.01, position: 25 },
+      { page: "/guides/healthy-ctr/", impressions: 120, ctr: 0.03, position: 15 },
+    ],
+    integrations: [],
+  });
+
+  const actionFor = (page) => actions.find((action) => action.title.endsWith(page));
+
+  assert.equal(actionFor("/guides/page-one/").type, "ctr");
+  assert.match(actionFor("/guides/page-one/").title, /title and search snippet/i);
+  assert.match(actionFor("/guides/page-two/").title, /ranking and search snippet/i);
+  assert.match(actionFor("/guides/deeper/").title, /content and authority/i);
+  assert.match(actionFor("/guides/deeper/").detail, /before treating CTR as a snippet problem/i);
+  assert.match(actionFor("/guides/healthy-ctr/").title, /^Strengthen /);
+});
+
 test("uses a reporting-only historical prefix treatment and exposes its boundary", async () => {
   const statements = [];
   const database = {

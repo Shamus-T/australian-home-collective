@@ -282,14 +282,31 @@ function buildActions({ internalSearches, gscPages, integrations }) {
   }
 
   for (const page of gscPages) {
-    if (page.impressions >= 20 && page.ctr < 0.02) {
+    const hasUsefulVisibility = page.impressions >= 20;
+    const hasLowCtr = page.ctr < 0.02;
+
+    if (hasUsefulVisibility && hasLowCtr && page.position > 0 && page.position <= 10) {
       actions.push({
         priority: "medium",
         type: "ctr",
-        title: `Review search snippet for ${page.page}`,
-        detail: `${Math.round(page.impressions)} impressions with ${(page.ctr * 100).toFixed(1)}% CTR.`,
+        title: `Review title and search snippet for ${page.page}`,
+        detail: `Average position ${page.position.toFixed(1)} with ${Math.round(page.impressions)} impressions and ${(page.ctr * 100).toFixed(1)}% CTR: visibility is strong enough to test the title and snippet.`,
       });
-    } else if (page.impressions >= 20 && page.position >= 8 && page.position <= 20) {
+    } else if (hasUsefulVisibility && hasLowCtr && page.position > 10 && page.position <= 20) {
+      actions.push({
+        priority: "medium",
+        type: "ranking",
+        title: `Investigate ranking and search snippet for ${page.page}`,
+        detail: `Average position ${page.position.toFixed(1)} with ${Math.round(page.impressions)} impressions and ${(page.ctr * 100).toFixed(1)}% CTR: improve ranking signals and review the snippet together.`,
+      });
+    } else if (hasUsefulVisibility && hasLowCtr && page.position > 20) {
+      actions.push({
+        priority: "medium",
+        type: "ranking",
+        title: `Strengthen ranking, content and authority for ${page.page}`,
+        detail: `Average position ${page.position.toFixed(1)} with ${Math.round(page.impressions)} impressions and ${(page.ctr * 100).toFixed(1)}% CTR: focus on content, internal links and authority before treating CTR as a snippet problem.`,
+      });
+    } else if (hasUsefulVisibility && page.position >= 8 && page.position <= 20) {
       actions.push({
         priority: "medium",
         type: "ranking",
