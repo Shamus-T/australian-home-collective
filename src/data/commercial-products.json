@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 2,
-  "updatedOn": "2026-08-05",
+  "updatedOn": "2026-08-17",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -16,7 +16,8 @@
   "enabledGuidePaths": [
     "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
     "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
-    "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/"
+    "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+    "/guides/coffee-machine-types-australia/"
   ],
   "products": [
     {
@@ -725,6 +726,261 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "id": "breville-barista-touch-impress-bes881bss",
+      "guidePath": "/guides/coffee-machine-types-australia/",
+      "name": "Breville Barista Touch Impress BES881BSS",
+      "productType": "Assisted manual espresso machine",
+      "summary": "An assisted portafilter option for someone who wants control over extraction with integrated grinding, dosing and tamping guidance plus automatic milk texturing.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0BYSMHQ7L?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The rear water tank can make refilling awkward beneath cupboards or against a splashback.",
+        "The top bean hopper still needs enough overhead clearance to open and fill.",
+        "Assisted dosing, tamping and milk texturing do not remove the portafilter and steam-system cleaning routine."
+      ],
+      "suitability": {
+        "suits": [
+          "someone who wants a portafilter routine with guidance at the grinding, dosing, tamping and milk steps",
+          "a permanent coffee station with rear water access and room above the hopper"
+        ],
+        "mayNotSuit": [
+          "a household wanting a fully automatic one-touch bean-to-cup routine",
+          "a shallow bench or low-cupboard position that makes rear and overhead access difficult"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "The Barista Touch Impress",
+          "publisher": "Breville Australia",
+          "sourceUrl": "https://www.breville.com/en-au/product/bes881",
+          "supports": "Australian specifications, Impress puck system, integrated grinder, Auto MilQ system and exact BES881 model family.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Breville The Barista Touch Impress review",
+          "publisher": "TechRadar Australia",
+          "sourceUrl": "https://www.techradar.com/reviews/breville-the-barista-touch-impress",
+          "supports": "Independent hands-on assessment of the assisted workflow, milk system, size, rear tank and cleaning routine.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Breville Barista Touch Impress BES881BSS",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BYSMHQ7L?tag=ahc07-22",
+          "supports": "Owner-feedback themes checked for the learning curve, milk workflow, cleaning and day-to-day use; ratings were not used as the sole approval basis.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "The Barista Touch Impress",
+          "publisher": "Breville Australia",
+          "sourceUrl": "https://www.breville.com/en-au/product/bes881",
+          "supports": "Current Australian model page, support access and local product information checked.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Search consumer product recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the exact BES881 model and Breville brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Breville Barista Touch Impress BES881BSS",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BYSMHQ7L?tag=ahc07-22",
+          "supports": "The exact model was in stock at $1,919, sold and shipped by Amazon Australia, with the displayed return terms checked before approval.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "delonghi-eletta-explore-ecam450-55-g",
+      "guidePath": "/guides/coffee-machine-types-australia/",
+      "name": "De'Longhi Eletta Explore ECAM450.55.G",
+      "productType": "Fully automatic machine with hot and cold milk",
+      "summary": "A 26 cm wide but 45 cm deep fully automatic example for a household that will use both hot and cold milk drinks and has storage for two carafes.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0B434BW7D?tag=ahc07-22",
+      "linkLabel": "View availability and terms at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Its 45 cm body depth needs a generous bench and clear access to the top bean hopper.",
+        "The hot and cold milk system adds two carafes that need cleaning, refrigeration and storage.",
+        "When checked, Amazon's buy box did not offer its standard change-of-mind return, so the current terms need careful review."
+      ],
+      "suitability": {
+        "suits": [
+          "a household wanting a button-led routine for both hot and cold milk drinks",
+          "a deep permanent bench position with storage and cleaning space for two milk carafes"
+        ],
+        "mayNotSuit": [
+          "a shallow bench or household that will not use the cold-drink system",
+          "someone wanting direct portafilter control over dosing, tamping and extraction"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Eletta Explore automatic coffee machines",
+          "publisher": "De'Longhi Australia",
+          "sourceUrl": "https://www.delonghi.com/en-au/c/coffee/coffee-machines/fully-automatic-coffee-machines/eletta-explore",
+          "supports": "Australian range information for the Eletta Explore hot and cold drink system, milk carafes and automatic workflow.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "De'Longhi Eletta Explore review",
+          "publisher": "TechRadar",
+          "sourceUrl": "https://www.techradar.com/home/coffee-machines/delonghi-eletta-explore-review",
+          "supports": "Independent hands-on assessment of the 26 x 45 x 38.5 cm footprint, two-carafe system, drink workflow and cleaning burden.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "De'Longhi Eletta Explore ECAM450.55.G",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B434BW7D?tag=ahc07-22",
+          "supports": "Owner-feedback themes checked for drink consistency, carafe handling, cleaning and noise; ratings were not used as the sole approval basis.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Eletta Explore automatic coffee machines",
+          "publisher": "De'Longhi Australia",
+          "sourceUrl": "https://www.delonghi.com/en-au/c/coffee/coffee-machines/fully-automatic-coffee-machines/eletta-explore",
+          "supports": "Current Australian range page, model support and local product information checked.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Search consumer product recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the exact ECAM450 model and De'Longhi brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "De'Longhi Eletta Explore ECAM450.55.G",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B434BW7D?tag=ahc07-22",
+          "supports": "The exact model was in stock at $999, sold and shipped by Amazon Australia, and the displayed return restriction was checked before approval.",
+          "checkedOn": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "philips-5500-lattego-ep5541-20",
+      "guidePath": "/guides/coffee-machine-types-australia/",
+      "name": "Philips 5500 LatteGo EP5541/20",
+      "productType": "Fully automatic machine with removable milk container",
+      "summary": "A 24.6 cm wide, 43.3 cm deep fully automatic example for someone prioritising a short milk routine and a two-part container that can be rinsed or put in the dishwasher.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0DZP8G5HT?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-17",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Its 43.3 cm body depth and top bean access still require a deliberately measured bench position.",
+        "Filters, cleaning tablets, descaler and brew group lubricant remain part of ownership.",
+        "The automated drink menu offers less direct extraction control than a portafilter machine."
+      ],
+      "suitability": {
+        "suits": [
+          "someone prioritising a button-led bean-to-cup routine and a milk container with only two main parts",
+          "a permanent bench position with room above and enough depth for the 43.3 cm body"
+        ],
+        "mayNotSuit": [
+          "a shallow bench or low cupboard position that restricts hopper access",
+          "someone who wants to adjust and control the portafilter extraction process directly"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Series 5500 fully automatic espresso machine EP5541/20",
+          "publisher": "Philips Australia",
+          "sourceUrl": "https://www.philips.com.au/c-p/EP5541_20/series-5500-fully-automatic-espresso-machine",
+          "supports": "Australian specifications for the 246 x 433 x 372 mm body, LatteGo system, drink menu, cleaning and maintenance products.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Automatic coffee machine reviews",
+          "publisher": "CHOICE",
+          "sourceUrl": "https://www.choice.com.au/compareproducts/home-and-living/kitchen/coffee-machines/automatic-espresso-machines",
+          "supports": "Independent Australian comparison context for fully automatic coffee machines, including the Philips 5500 LatteGo model family.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Philips 5500 LatteGo EP5541/20",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DZP8G5HT?tag=ahc07-22",
+          "supports": "Owner-feedback themes checked for the milk container, drink workflow, cleaning and day-to-day use; ratings were not used as the sole approval basis.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Series 5500 fully automatic espresso machine EP5541/20",
+          "publisher": "Philips Australia",
+          "sourceUrl": "https://www.philips.com.au/c-p/EP5541_20/series-5500-fully-automatic-espresso-machine",
+          "supports": "Current Australian model page, support information and maintenance documentation checked.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Search consumer product recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the exact EP5541/20 model and Philips coffee-machine range; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Philips 5500 LatteGo EP5541/20",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DZP8G5HT?tag=ahc07-22",
+          "supports": "The exact model was in stock at $996, sold and shipped by Amazon Australia, with the displayed return terms checked before approval.",
+          "checkedOn": "2026-08-17"
         }
       ]
     }
