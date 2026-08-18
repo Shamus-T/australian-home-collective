@@ -8,6 +8,18 @@ test("calculates fixed UTC reporting periods", () => {
   assert.deepEqual(period, { start: "2026-07-01", end: "2026-07-28" });
 });
 
+test("limits commercial GA4 denominators to complete post-launch tracking dates", () => {
+  assert.equal(__test.commercialGa4Period({ start: "2026-07-22", end: "2026-08-18" }), null);
+  assert.deepEqual(
+    __test.commercialGa4Period({ start: "2026-07-23", end: "2026-08-19" }),
+    { start: "2026-08-19", end: "2026-08-19" },
+  );
+  assert.deepEqual(
+    __test.commercialGa4Period({ start: "2026-09-01", end: "2026-09-28" }),
+    { start: "2026-09-01", end: "2026-09-28" },
+  );
+});
+
 test("splits Cloudflare requests into daily UTC windows", () => {
   const windows = __test.dailyUtcWindows(
     new Date("2026-07-01T00:00:00Z"),

@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run test:commercial-audit && npm run audit:commercial && npm run test:search-analytics && astro build && npm run index:search && npm run audit:search:content && node scripts/audit-site-output.mjs && node scripts/audit-editorial-standards.mjs && node scripts/audit-featured-guide-images.mjs && node scripts/audit-guide-navigation.mjs && node scripts/audit-category-consistency.mjs && node scripts/audit-continue-exploring.mjs && node scripts/audit-seasonal-visuals.mjs && npm run audit:search:dist && npm run audit:commercial:dist",
+    "build": "npm run test:commercial-audit && npm run audit:commercial && npm run test:search-analytics && npm run test:affiliate-tracking && astro build && npm run index:search && npm run audit:search:content && node scripts/audit-site-output.mjs && node scripts/audit-editorial-standards.mjs && node scripts/audit-featured-guide-images.mjs && node scripts/audit-guide-navigation.mjs && node scripts/audit-category-consistency.mjs && node scripts/audit-continue-exploring.mjs && node scripts/audit-seasonal-visuals.mjs && npm run audit:search:dist && npm run audit:commercial:dist",
     "index:search": "pagefind",
     "audit:search:content": "node scripts/audit-pagefind-content.mjs",
     "audit:search:dist": "node scripts/audit-pagefind-output.mjs",
@@ -23,6 +23,7 @@
     "test:commercial-audit": "node --test tests/commercial-audit.test.mjs",
     "test:contact": "node --test tests/contact-function.test.mjs",
     "test:search-analytics": "node --test tests/search-analytics.test.mjs tests/search-analytics-client.test.mjs",
+    "test:affiliate-tracking": "node --test tests/affiliate-click.test.mjs tests/affiliate-click-client.test.mjs",
     "sitemap:update": "node scripts/update-sitemap-lastmod.mjs",
     "preview": "astro preview",
     "astro": "astro"

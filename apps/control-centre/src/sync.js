@@ -1,4 +1,5 @@
 import {
+  AFFILIATE_TRACKING_FULL_DAY_FROM,
   beginIntegrationRun,
   finishIntegrationRun,
   purgeExpiredData,
@@ -6,6 +7,7 @@ import {
   replaceCloudflarePaths,
   replaceGa4Daily,
   replaceGa4LandingPages,
+  replaceGa4Pages,
   replaceSearchConsoleDaily,
   replaceSearchConsolePages,
   replaceSearchConsoleQueries,
@@ -80,6 +82,13 @@ function periodEndingDaysAgo(now, endOffsetDays, lengthDays) {
   return { start: dateOnly(start), end: dateOnly(end) };
 }
 
+function commercialGa4Period(snapshot) {
+  const start = snapshot.start > AFFILIATE_TRACKING_FULL_DAY_FROM
+    ? snapshot.start
+    : AFFILIATE_TRACKING_FULL_DAY_FROM;
+  return start <= snapshot.end ? { start, end: snapshot.end } : null;
+}
+
 function requiredString(value) {
   const string = typeof value === "string" ? value.trim() : "";
   return string && !string.includes("REPLACE_WITH") ? string : "";
@@ -112,9 +121,9 @@ export function integrationConfiguration(env) {
     },
     {
       source: "internal_search",
-      label: "AHC internal search",
+      label: "AHC first-party analytics",
       state: env.AHC_ANALYTICS_DB?.prepare ? "configured" : "not_configured",
-      detail: "Uses the shared D1 database bound to the public Pages project and this Worker.",
+      detail: "Uses the shared D1 database for anonymous internal-search and affiliate-click events.",
     },
     {
       source: "facebook",
@@ -245,9 +254,10 @@ function ga4Request(startDate, endDate, dimensions, metrics, extras = {}) {
 export async function syncGa4(database, env, { fetchImpl = fetch, now = new Date() } = {}) {
   const history = periodEndingDaysAgo(now, 1, 90);
   const snapshot = periodEndingDaysAgo(now, 1, 28);
+  const commercialPeriod = commercialGa4Period(snapshot);
   const metrics = ["activeUsers", "sessions", "engagedSessions", "screenPageViews"];
 
-  const [dailyResponse, landingResponse, overallResponse] = await Promise.all([
+  const [dailyResponse, landingResponse, overallResponse, pageResponse] = await Promise.all([
     runGa4Report(env, ga4Request(history.start, history.end, ["date"], metrics, {
       orderBys: [{ dimension: { dimensionName: "date" } }],
     }), { fetchImpl }),
@@ -255,6 +265,15 @@ export async function syncGa4(database, env, { fetchImpl = fetch, now = new Date
       orderBys: [{ metric: { metricName: "sessions" }, desc: true }],
     }), { fetchImpl }),
     runGa4Report(env, ga4Request(snapshot.start, snapshot.end, [], metrics), { fetchImpl }),
+    commercialPeriod
+      ? runGa4Report(env, ga4Request(
+          commercialPeriod.start,
+          commercialPeriod.end,
+          ["pagePath"],
+          ["sessions", "screenPageViews"],
+          { orderBys: [{ metric: { metricName: "screenPageViews" }, desc: true }] },
+        ), { fetchImpl })
+      : Promise.resolve({ rows: [] }),
   ]);
 
   const daily = parseGa4Rows(dailyResponse, ["date"], metrics).map((row) => ({
@@ -278,13 +297,24 @@ export async function syncGa4(database, env, { fetchImpl = fetch, now = new Date
     engagedSessions: overallRow.engagedSessions ?? 0,
     pageViews: overallRow.screenPageViews ?? 0,
   };
+  const pages = parseGa4Rows(pageResponse, ["pagePath"], ["sessions", "screenPageViews"])
+    .flatMap((row) => {
+      if (typeof row.pagePath !== "string" || !row.pagePath.startsWith("/")) return [];
+      const path = row.pagePath.split("?")[0];
+      return [{ path, sessions: row.sessions, pageViews: row.screenPageViews }];
+    });
   const updatedAt = new Date().toISOString();
 
   await replaceGa4Daily(database, daily, updatedAt);
   await replaceGa4LandingPages(database, snapshot.start, snapshot.end, landing, updatedAt);
+  if (commercialPeriod) {
+    await replaceGa4Pages(database, commercialPeriod.start, commercialPeriod.end, pages, updatedAt);
+  }
   await saveSourceSnapshot(database, "ga4", snapshot.start, snapshot.end, overall, updatedAt);
 
-  return { message: `${daily.length} daily rows and ${landing.length} landing pages refreshed.` };
+  return {
+    message: `${daily.length} daily rows, ${landing.length} landing pages and ${pages.length} page-level CTR rows refreshed.`,
+  };
 }
 
 async function cloudflareGraphql(env, query, variables, fetchImpl) {
@@ -428,6 +458,7 @@ export const __test = {
   addUtcDays,
   aggregateCloudflareZones,
   cloudflareTrafficPeriod,
+  commercialGa4Period,
   dateOnly,
   dailyUtcWindows,
   periodEndingDaysAgo,

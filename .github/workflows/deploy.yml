@@ -42,3 +42,9 @@ jobs:
 
       - name: Audit rendered commercial links
         run: npm run audit:commercial:dist
+
+      - name: Install Control Centre dependencies
+        run: npm --prefix apps/control-centre ci
+
+      - name: Test Control Centre
+        run: npm --prefix apps/control-centre run check

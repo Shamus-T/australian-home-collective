@@ -1,6 +1,7 @@
 export class DatabaseConfigurationError extends Error {}
 
 export const SEARCH_TRACKING_CORRECTED_FROM = "2026-08-01T11:15:00.000Z";
+export const AFFILIATE_TRACKING_FULL_DAY_FROM = "2026-08-19";
 
 const EFFECTIVE_SEARCHES_CTE = `
   WITH reporting_searches AS (
@@ -174,6 +175,18 @@ export function replaceGa4LandingPages(database, periodStart, periodEnd, rows, u
   });
 }
 
+export function replaceGa4Pages(database, periodStart, periodEnd, rows, updatedAt) {
+  return replacePeriodTable(database, {
+    table: "ga4_pages",
+    periodStart,
+    periodEnd,
+    rows,
+    columns: ["path", "sessions", "page_views"],
+    values: (row) => [row.path, row.sessions, row.pageViews],
+    updatedAt,
+  });
+}
+
 export async function replaceCloudflareHourly(database, rows, updatedAt) {
   if (!rows.length) return;
   const statements = rows.map((row) =>
@@ -246,6 +259,7 @@ export async function purgeExpiredData(database, now = new Date()) {
 
   await database.batch([
     database.prepare("DELETE FROM search_events WHERE occurred_at < ?").bind(searchCutoff.toISOString()),
+    database.prepare("DELETE FROM affiliate_clicks WHERE occurred_at < ?").bind(searchCutoff.toISOString()),
     database.prepare("DELETE FROM integration_runs WHERE started_at < ?").bind(runCutoff.toISOString()),
   ]);
 }
@@ -265,6 +279,90 @@ function results(result) {
 function clampDays(value) {
   const parsed = Number.parseInt(value, 10);
   return [7, 28, 90].includes(parsed) ? parsed : 28;
+}
+
+function brisbanePeriodBounds(periodStart, periodEnd) {
+  if (
+    typeof periodStart !== "string"
+    || typeof periodEnd !== "string"
+    || !/^\d{4}-\d{2}-\d{2}$/.test(periodStart)
+    || !/^\d{4}-\d{2}-\d{2}$/.test(periodEnd)
+  ) {
+    return null;
+  }
+  const start = new Date(`${periodStart}T00:00:00+10:00`);
+  const inclusiveEnd = new Date(`${periodEnd}T00:00:00+10:00`);
+  if (!Number.isFinite(start.valueOf()) || !Number.isFinite(inclusiveEnd.valueOf()) || start > inclusiveEnd) {
+    return null;
+  }
+  inclusiveEnd.setUTCDate(inclusiveEnd.getUTCDate() + 1);
+  return { start: start.toISOString(), end: inclusiveEnd.toISOString() };
+}
+
+export function buildAffiliateOverview({
+  summaryRow = {},
+  guideRows = [],
+  productRows = [],
+  ctrPageRows = [],
+  ctrClickRows = [],
+  selectedDays = 28,
+} = {}) {
+  const firstCtrPage = ctrPageRows[0] ?? null;
+  const ctrWindow = firstCtrPage
+    ? { periodStart: firstCtrPage.period_start, periodEnd: firstCtrPage.period_end }
+    : null;
+  const ctrAvailable = Boolean(
+    ctrWindow
+    && ctrWindow.periodStart >= AFFILIATE_TRACKING_FULL_DAY_FROM
+    && brisbanePeriodBounds(ctrWindow.periodStart, ctrWindow.periodEnd),
+  );
+  const pageMap = new Map(ctrPageRows.map((row) => [row.path, row]));
+  const ctrClickMap = new Map(ctrClickRows.map((row) => [row.guide_path, Number(row.clicks ?? 0)]));
+
+  const guides = guideRows.map((row) => {
+    const page = ctrAvailable ? pageMap.get(row.guide_path) : null;
+    const pageViews = page ? Number(page.page_views ?? 0) : null;
+    const ctrClicks = page ? (ctrClickMap.get(row.guide_path) ?? 0) : null;
+    return {
+      guidePath: row.guide_path,
+      title: row.title || row.guide_path,
+      clicks: Number(row.clicks ?? 0),
+      clickingSessions: Number(row.clicking_sessions ?? 0),
+      productsClicked: Number(row.products_clicked ?? 0),
+      lastClickedAt: row.last_clicked_at ?? null,
+      ctrClicks,
+      pageViews,
+      articleToMerchantCtr: pageViews > 0 && ctrClicks !== null ? ctrClicks / pageViews : null,
+    };
+  });
+
+  return {
+    selectedDays,
+    totalClicks: Number(summaryRow.clicks ?? 0),
+    clickingSessions: Number(summaryRow.clicking_sessions ?? 0),
+    firstClickedAt: summaryRow.first_clicked_at ?? null,
+    lastClickedAt: summaryRow.last_clicked_at ?? null,
+    trackingFullDayFrom: AFFILIATE_TRACKING_FULL_DAY_FROM,
+    ctr: {
+      status: ctrAvailable ? "available" : "unavailable",
+      denominator: "GA4 page views",
+      periodStart: ctrWindow?.periodStart ?? null,
+      periodEnd: ctrWindow?.periodEnd ?? null,
+      usesSelectedPeriod: false,
+    },
+    guides,
+    products: productRows.map((row) => ({
+      productId: row.product_id,
+      productName: row.product_name,
+      guidePath: row.guide_path,
+      affiliateNetwork: row.affiliate_network,
+      merchant: row.merchant,
+      destinationHost: row.destination_host,
+      clicks: Number(row.clicks ?? 0),
+      clickingSessions: Number(row.clicking_sessions ?? 0),
+      lastClickedAt: row.last_clicked_at ?? null,
+    })),
+  };
 }
 
 function buildActions({ internalSearches, gscPages, integrations }) {
@@ -349,6 +447,10 @@ export async function loadOverview(database, { days = 28, integrations = [] } = 
     siteCountsResult,
     runsResult,
     manualResult,
+    affiliateSummaryResult,
+    affiliateGuidesResult,
+    affiliateProductsResult,
+    affiliateGa4PagesResult,
   ] = await Promise.all([
     database.prepare(
       `SELECT s.source, s.period_start, s.period_end, s.payload_json, s.updated_at
@@ -432,6 +534,50 @@ export async function loadOverview(database, { days = 28, integrations = [] } = 
        WHERE metric_date >= ?
        ORDER BY metric_date DESC`,
     ).bind(sinceIso.slice(0, 10)).all(),
+    database.prepare(
+      `SELECT COUNT(*) AS clicks,
+        COUNT(DISTINCT NULLIF(session_id, '')) AS clicking_sessions,
+        MIN(occurred_at) AS first_clicked_at,
+        MAX(occurred_at) AS last_clicked_at
+       FROM affiliate_clicks
+       WHERE occurred_at >= ?`,
+    ).bind(sinceIso).all(),
+    database.prepare(
+      `SELECT affiliate.guide_path,
+        COALESCE(MAX(site.title), affiliate.guide_path) AS title,
+        COUNT(*) AS clicks,
+        COUNT(DISTINCT NULLIF(affiliate.session_id, '')) AS clicking_sessions,
+        COUNT(DISTINCT affiliate.product_id) AS products_clicked,
+        MAX(affiliate.occurred_at) AS last_clicked_at
+       FROM affiliate_clicks affiliate
+       LEFT JOIN site_pages site ON site.path = affiliate.guide_path
+       WHERE affiliate.occurred_at >= ?
+       GROUP BY affiliate.guide_path
+       ORDER BY COUNT(*) DESC, affiliate.guide_path ASC
+       LIMIT 50`,
+    ).bind(sinceIso).all(),
+    database.prepare(
+      `SELECT product_id,
+        MAX(product_name) AS product_name,
+        MAX(guide_path) AS guide_path,
+        MAX(affiliate_network) AS affiliate_network,
+        MAX(merchant) AS merchant,
+        MAX(destination_host) AS destination_host,
+        COUNT(*) AS clicks,
+        COUNT(DISTINCT NULLIF(session_id, '')) AS clicking_sessions,
+        MAX(occurred_at) AS last_clicked_at
+       FROM affiliate_clicks
+       WHERE occurred_at >= ?
+       GROUP BY product_id
+       ORDER BY clicks DESC, product_name ASC
+       LIMIT 100`,
+    ).bind(sinceIso).all(),
+    database.prepare(
+      `SELECT period_start, period_end, path, sessions, page_views
+       FROM ga4_pages
+       WHERE updated_at = (SELECT MAX(updated_at) FROM ga4_pages)
+       ORDER BY page_views DESC`,
+    ).all(),
   ]);
 
   const snapshots = Object.fromEntries(
@@ -465,6 +611,34 @@ export async function loadOverview(database, { days = 28, integrations = [] } = 
     position: Number(row.position),
   }));
 
+  const affiliateGa4Pages = results(affiliateGa4PagesResult);
+  const affiliateCtrWindow = affiliateGa4Pages[0] ?? null;
+  let affiliateCtrClicks = [];
+  if (affiliateCtrWindow?.period_start >= AFFILIATE_TRACKING_FULL_DAY_FROM) {
+    const bounds = brisbanePeriodBounds(
+      affiliateCtrWindow.period_start,
+      affiliateCtrWindow.period_end,
+    );
+    if (bounds) {
+      const affiliateCtrClicksResult = await database.prepare(
+        `SELECT guide_path, COUNT(*) AS clicks
+         FROM affiliate_clicks
+         WHERE occurred_at >= ? AND occurred_at < ?
+         GROUP BY guide_path`,
+      ).bind(bounds.start, bounds.end).all();
+      affiliateCtrClicks = results(affiliateCtrClicksResult);
+    }
+  }
+
+  const affiliate = buildAffiliateOverview({
+    summaryRow: results(affiliateSummaryResult)[0],
+    guideRows: results(affiliateGuidesResult),
+    productRows: results(affiliateProductsResult),
+    ctrPageRows: affiliateGa4Pages,
+    ctrClickRows: affiliateCtrClicks,
+    selectedDays,
+  });
+
   return {
     generatedAt: new Date().toISOString(),
     days: selectedDays,
@@ -496,6 +670,7 @@ export async function loadOverview(database, { days = 28, integrations = [] } = 
         page_views: Number(row.page_views),
       })),
     },
+    affiliate,
     cloudflare: {
       paths: results(cloudflarePathsResult).map((row) => ({
         ...row,
@@ -520,6 +695,8 @@ export async function loadOverview(database, { days = 28, integrations = [] } = 
 }
 
 export const __test = {
+  brisbanePeriodBounds,
+  buildAffiliateOverview,
   buildActions,
   clampDays,
   effectiveSearchesCte: EFFECTIVE_SEARCHES_CTE,

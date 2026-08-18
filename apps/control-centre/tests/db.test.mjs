@@ -84,3 +84,80 @@ test("uses a reporting-only historical prefix treatment and exposes its boundary
   );
   assert.match(overview.internalSearch.historicalTreatment, /raw events are retained/i);
 });
+
+test("aggregates affiliate guide and product reporting with an aligned GA4 page-view CTR", () => {
+  const overview = __test.buildAffiliateOverview({
+    summaryRow: {
+      clicks: 8,
+      clicking_sessions: 5,
+      first_clicked_at: "2026-08-19T01:00:00.000Z",
+      last_clicked_at: "2026-08-21T02:00:00.000Z",
+    },
+    guideRows: [{
+      guide_path: "/guides/coffee-machine-types-australia/",
+      title: "Coffee machine types",
+      clicks: 8,
+      clicking_sessions: 5,
+      products_clicked: 2,
+      last_clicked_at: "2026-08-21T02:00:00.000Z",
+    }],
+    productRows: [{
+      product_id: "breville-barista-express",
+      product_name: "Breville Barista Express",
+      guide_path: "/guides/coffee-machine-types-australia/",
+      affiliate_network: "amazon-australia",
+      merchant: "Amazon Australia",
+      destination_host: "www.amazon.com.au",
+      clicks: 6,
+      clicking_sessions: 4,
+      last_clicked_at: "2026-08-21T02:00:00.000Z",
+    }],
+    ctrPageRows: [{
+      period_start: "2026-08-19",
+      period_end: "2026-08-21",
+      path: "/guides/coffee-machine-types-australia/",
+      sessions: 80,
+      page_views: 100,
+    }],
+    ctrClickRows: [{
+      guide_path: "/guides/coffee-machine-types-australia/",
+      clicks: 5,
+    }],
+    selectedDays: 7,
+  });
+
+  assert.equal(overview.totalClicks, 8);
+  assert.equal(overview.clickingSessions, 5);
+  assert.equal(overview.ctr.status, "available");
+  assert.equal(overview.ctr.denominator, "GA4 page views");
+  assert.equal(overview.guides[0].ctrClicks, 5);
+  assert.equal(overview.guides[0].pageViews, 100);
+  assert.equal(overview.guides[0].articleToMerchantCtr, 0.05);
+  assert.equal(overview.products[0].clicks, 6);
+  assert.equal(overview.products[0].destinationHost, "www.amazon.com.au");
+});
+
+test("withholds affiliate CTR for a GA4 window that predates complete click tracking", () => {
+  const overview = __test.buildAffiliateOverview({
+    guideRows: [{
+      guide_path: "/guides/coffee-machine-types-australia/",
+      clicks: 2,
+    }],
+    ctrPageRows: [{
+      period_start: "2026-08-01",
+      period_end: "2026-08-18",
+      path: "/guides/coffee-machine-types-australia/",
+      page_views: 100,
+    }],
+  });
+  assert.equal(overview.ctr.status, "unavailable");
+  assert.equal(overview.guides[0].articleToMerchantCtr, null);
+  assert.equal(overview.guides[0].pageViews, null);
+});
+
+test("converts GA4 property dates to complete Brisbane UTC bounds", () => {
+  assert.deepEqual(__test.brisbanePeriodBounds("2026-08-19", "2026-08-21"), {
+    start: "2026-08-18T14:00:00.000Z",
+    end: "2026-08-21T14:00:00.000Z",
+  });
+});

@@ -183,3 +183,24 @@ test("the shared article layout does not detach commercial products from guide c
   const source = fs.readFileSync(path.join(root, "src", "layouts", "ArticleLayout.astro"), "utf8");
   assert.doesNotMatch(source, /CommercialProductBlock/);
 });
+
+test("the shared commercial component renders automatic affiliate tracking metadata", () => {
+  const source = fs.readFileSync(
+    path.join(root, "src", "components", "CommercialProductBlock.astro"),
+    "utf8",
+  );
+
+  for (const contract of [
+    "data-commercial-product-id={product.id}",
+    "data-commercial-product-name={product.name}",
+    "data-commercial-guide-path={guidePath}",
+    "data-commercial-affiliate-network={product.affiliateNetwork ?? undefined}",
+    "data-commercial-merchant={product.merchant}",
+    "data-commercial-destination-host={new URL(product.destinationUrl).hostname}",
+    'data-affiliate-trackable={product.affiliate ? "true" : undefined}',
+    'rel="sponsored nofollow noopener noreferrer"',
+    "createAffiliateClickTracker",
+  ]) {
+    assert.ok(source.includes(contract), `missing commercial tracking contract: ${contract}`);
+  }
+});

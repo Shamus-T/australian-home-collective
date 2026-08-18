@@ -66,6 +66,12 @@ const formatDate = (date: string) =>
             rel="sponsored nofollow noopener noreferrer"
             data-commercial-link={product.affiliate ? "affiliate" : "retailer"}
             data-commercial-product-id={product.id}
+            data-commercial-product-name={product.name}
+            data-commercial-guide-path={guidePath}
+            data-commercial-affiliate-network={product.affiliateNetwork ?? undefined}
+            data-commercial-merchant={product.merchant}
+            data-commercial-destination-host={new URL(product.destinationUrl).hostname}
+            data-affiliate-trackable={product.affiliate ? "true" : undefined}
           >
             {product.linkLabel}
           </a>
@@ -98,6 +104,74 @@ const formatDate = (date: string) =>
 )}
 
 <script>
+  import {
+    AFFILIATE_CLICK_ENDPOINT,
+    ANALYTICS_SESSION_KEY,
+    createAffiliateClickTracker,
+  } from "../scripts/affiliate-click-tracker.js";
+
+  const analyticsSessionId = () => {
+    try {
+      const existing = sessionStorage.getItem(ANALYTICS_SESSION_KEY);
+      if (existing) return existing;
+      const created = crypto.randomUUID();
+      sessionStorage.setItem(ANALYTICS_SESSION_KEY, created);
+      return created;
+    } catch {
+      return "";
+    }
+  };
+
+  const deviceType = () => {
+    if (window.matchMedia("(max-width: 767px)").matches) return "mobile";
+    if (window.matchMedia("(max-width: 1023px)").matches) return "tablet";
+    return "desktop";
+  };
+
+  const sendAffiliateClick = (event: Record<string, string>) => {
+    const payload = JSON.stringify(event);
+    try {
+      if (navigator.sendBeacon) {
+        const accepted = navigator.sendBeacon(
+          AFFILIATE_CLICK_ENDPOINT,
+          new Blob([payload], { type: "application/json" }),
+        );
+        if (accepted) return;
+      }
+    } catch {
+      // Best-effort analytics must never affect the retailer link.
+    }
+
+    fetch(AFFILIATE_CLICK_ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: payload,
+      credentials: "same-origin",
+      keepalive: true,
+    }).catch(() => {});
+  };
+
+  const affiliateClickTracker = createAffiliateClickTracker({
+    recordEvent: sendAffiliateClick,
+    pagePath: () => window.location.pathname,
+    sessionId: analyticsSessionId,
+    createEventId: () => crypto.randomUUID(),
+    device: deviceType,
+  });
+
+  const recordAffiliateLink = (event: Event) => {
+    if (!(event.target instanceof Element)) return;
+    const link = event.target.closest('[data-commercial-link="affiliate"][data-affiliate-trackable="true"]');
+    if (link instanceof HTMLAnchorElement) affiliateClickTracker.recordLink(link);
+  };
+
+  document.addEventListener("click", (event) => {
+    if (event.button === 0) recordAffiliateLink(event);
+  });
+  document.addEventListener("auxclick", (event) => {
+    if (event.button === 1) recordAffiliateLink(event);
+  });
+
   document.querySelectorAll<HTMLElement>("[data-commercial-product-card]").forEach((card) => {
     const toggle = card.querySelector<HTMLButtonElement>(".commercial-product-details-toggle");
     const close = card.querySelector<HTMLButtonElement>(".commercial-product-details-close");

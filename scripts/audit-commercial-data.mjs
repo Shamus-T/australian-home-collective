@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
+import { decode } from "entities";
 
 const root = process.cwd();
 const distRoot = path.join(root, "dist");
@@ -286,7 +287,7 @@ function visibleText(html) {
 
 function attributeValue(anchor, name) {
   const match = anchor.match(new RegExp("\\b" + name + "=\"([^\"]*)\"", "i"));
-  return match ? match[1] : "";
+  return match ? decode(match[1]) : "";
 }
 
 function hasRelTokens(anchor, requiredTokens) {
@@ -758,7 +759,25 @@ if (checkDist) {
           );
         }
         if (product.affiliate) {
+          const expectedTrackingAttributes = new Map([
+            ["data-commercial-product-name", product.name],
+            ["data-commercial-guide-path", product.guidePath],
+            ["data-commercial-affiliate-network", product.affiliateNetwork],
+            ["data-commercial-merchant", product.merchant],
+            ["data-commercial-destination-host", new URL(product.destinationUrl).hostname],
+            ["data-affiliate-trackable", "true"],
+          ]);
+          for (const [attribute, expected] of expectedTrackingAttributes) {
+            if (attributeValue(anchor, attribute) !== expected) {
+              addError(
+                relativePath + " affiliate product " + productId
+                + " has missing or stale tracking attribute " + attribute + ".",
+              );
+            }
+          }
           validateAffiliateTracking(href, product.affiliateNetwork, relativePath + " product " + productId);
+        } else if (attributeValue(anchor, "data-affiliate-trackable") === "true") {
+          addError(relativePath + " non-affiliate product " + productId + " is marked for affiliate tracking.");
         }
       }
 
@@ -779,6 +798,18 @@ if (checkDist) {
       const localDisclosureCount = html.match(/aria-label="Affiliate disclosure"/g)?.length ?? 0;
       if (affiliateAnchors.length > 0 && localDisclosureCount !== 1) {
         addError(relativePath + " has affiliate product links without exactly one in-guide disclosure.");
+      }
+      if (affiliateAnchors.length > 0) {
+        for (const trackerContract of [
+          "/api/affiliate-click",
+          "ahc-search-session",
+          'data-commercial-link="affiliate"',
+          'data-affiliate-trackable="true"',
+        ]) {
+          if (!html.includes(trackerContract)) {
+            addError(relativePath + " has affiliate links without rendered tracking contract " + trackerContract + ".");
+          }
+        }
       }
       if (affiliateAnchors.length > 0 && !text.includes("Some links below are affiliate links.")) {
         addError(relativePath + " has affiliate product links without the required nearby disclosure wording.");

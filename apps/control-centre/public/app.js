@@ -24,15 +24,41 @@ async function fetchJson(url, init) {
 }
 
 function number(value, maximumFractionDigits = 0) {
+  if (value === null || value === undefined || value === "") return "—";
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "—";
   return new Intl.NumberFormat("en-AU", { maximumFractionDigits }).format(numeric);
 }
 
 function percent(value, fractionDigits = 1) {
+  if (value === null || value === undefined || value === "") return "—";
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "—";
   return `${(numeric * 100).toFixed(fractionDigits)}%`;
+}
+
+function shortDate(value) {
+  if (!value) return "—";
+  const date = new Date(value);
+  if (!Number.isFinite(date.valueOf())) return "—";
+  return date.toLocaleString("en-AU", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    timeZone: "Australia/Brisbane",
+  });
+}
+
+function displayDate(value) {
+  if (!value || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return "—";
+  return new Date(`${value}T00:00:00+10:00`).toLocaleDateString("en-AU", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    timeZone: "Australia/Brisbane",
+  });
 }
 
 function bytes(value) {
@@ -209,6 +235,45 @@ function renderOnsite() {
   ], internal.queries);
 }
 
+function renderCommercial() {
+  const affiliate = dashboard.affiliate;
+  renderMetricCards("#affiliate-cards", [
+    { label: "Affiliate clicks", value: number(affiliate.totalClicks), detail: `Last ${affiliate.selectedDays} days` },
+    { label: "Commercial pages clicked", value: number(affiliate.guides.length), detail: "Guides with at least one outbound click" },
+    { label: "Products clicked", value: number(affiliate.products.length), detail: "Distinct catalogue product IDs" },
+    { label: "Clicking sessions", value: number(affiliate.clickingSessions), detail: "Anonymous, browser-session scoped" },
+  ]);
+
+  const ctrNote = document.querySelector("#affiliate-ctr-note");
+  if (affiliate.ctr.status === "available") {
+    ctrNote.textContent =
+      `Article-to-merchant CTR is affiliate clicks divided by GA4 page views for ${displayDate(affiliate.ctr.periodStart)} to ${displayDate(affiliate.ctr.periodEnd)}. This fixed, fully tracked GA4 source window may differ from the selected ${affiliate.selectedDays}-day click totals.`;
+  } else {
+    ctrNote.textContent =
+      `Article-to-merchant CTR is not yet reliable. It will appear after GA4 has synced a complete page-view window beginning on or after ${displayDate(affiliate.trackingFullDayFrom)}; click totals remain available in the meantime.`;
+  }
+
+  renderTable("#affiliate-guides-table", [
+    { label: "Guide", render: (row) => row.title || row.guidePath, path: true },
+    { label: "Clicks", numeric: true, render: (row) => number(row.clicks) },
+    { label: "Sessions", numeric: true, render: (row) => number(row.clickingSessions) },
+    { label: "Products", numeric: true, render: (row) => number(row.productsClicked) },
+    { label: "CTR clicks", numeric: true, render: (row) => row.ctrClicks === null ? "—" : number(row.ctrClicks) },
+    { label: "GA4 views", numeric: true, render: (row) => row.pageViews === null ? "—" : number(row.pageViews) },
+    { label: "Article → merchant CTR", numeric: true, render: (row) => percent(row.articleToMerchantCtr) },
+  ], affiliate.guides);
+
+  renderTable("#affiliate-products-table", [
+    { label: "Product", key: "productName", path: true },
+    { label: "Guide", key: "guidePath", path: true },
+    { label: "Merchant / network", render: (row) => `${row.merchant} · ${row.affiliateNetwork}`, path: true },
+    { label: "Destination", key: "destinationHost", path: true },
+    { label: "Clicks", numeric: true, render: (row) => number(row.clicks) },
+    { label: "Sessions", numeric: true, render: (row) => number(row.clickingSessions) },
+    { label: "Last click", render: (row) => shortDate(row.lastClickedAt) },
+  ], affiliate.products);
+}
+
 function latestManual(source) {
   return dashboard.manual.filter((row) => row.source === source).sort((a, b) => b.date.localeCompare(a.date));
 }
@@ -256,6 +321,7 @@ function render() {
   renderOverview();
   renderSearch();
   renderOnsite();
+  renderCommercial();
   renderSocial();
   renderIntegrations();
 }

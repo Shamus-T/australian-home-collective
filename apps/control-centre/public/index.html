@@ -32,6 +32,7 @@
       <button type="button" class="tab is-active" data-tab="overview">Overview</button>
       <button type="button" class="tab" data-tab="search">Search visibility</button>
       <button type="button" class="tab" data-tab="onsite">AHC search</button>
+      <button type="button" class="tab" data-tab="commercial">Affiliate performance</button>
       <button type="button" class="tab" data-tab="social">Facebook &amp; Bing</button>
       <button type="button" class="tab" data-tab="integrations">Integrations</button>
     </nav>
@@ -41,7 +42,7 @@
 
       <aside id="source-window-note" class="source-window-note">
         <strong>Source windows differ.</strong>
-        The reporting selector affects dashboard rollups where supported. Cloudflare traffic uses a 7-day lookback because of Cloudflare Analytics API limits; Search Console uses its latest synced Search Console reporting window; GA4 uses its latest synced GA4 reporting window; AHC search data starts from when site search tracking went live.
+        The reporting selector affects dashboard rollups where supported. Cloudflare traffic uses a 7-day lookback because of Cloudflare Analytics API limits; Search Console and GA4 use their latest synced reporting windows; AHC search and affiliate-click totals use the selected period. Affiliate CTR is separately labelled with its exact GA4 page-view window.
       </aside>
 
       <section class="panel is-active" data-panel="overview">
@@ -109,6 +110,31 @@
             <p class="muted">No names, email addresses or full IP addresses are collected.</p>
           </div>
           <div class="table-wrap"><table id="onsite-table"></table></div>
+        </article>
+      </section>
+
+      <section class="panel" data-panel="commercial">
+        <div id="affiliate-cards" class="metric-grid"></div>
+        <aside id="affiliate-ctr-note" class="source-window-note"></aside>
+        <article class="card">
+          <div class="card-heading">
+            <div>
+              <p class="kicker">Commercial pages</p>
+              <h2>Affiliate clicks by guide</h2>
+            </div>
+            <p class="muted">Click totals use the selected period. CTR uses the separately labelled GA4 window.</p>
+          </div>
+          <div class="table-wrap"><table id="affiliate-guides-table"></table></div>
+        </article>
+        <article class="card">
+          <div class="card-heading">
+            <div>
+              <p class="kicker">Product intent</p>
+              <h2>Top clicked products</h2>
+            </div>
+            <p class="muted">Product names, merchants and destinations come from the rendered commercial links.</p>
+          </div>
+          <div class="table-wrap"><table id="affiliate-products-table"></table></div>
         </article>
       </section>
 

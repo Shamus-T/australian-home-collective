@@ -8,6 +8,7 @@ This application is deliberately separate from the public Astro publication. It 
 - Google Search Console clicks, impressions, CTR, positions, pages and queries;
 - GA4 users, sessions, engagement, views and landing pages;
 - first-party AHC search terms, no-result searches and selected results;
+- first-party affiliate clicks by guide and product, with GA4 page-view CTR when the source window is comparable;
 - the live sitemap inventory;
 - Facebook and Bing daily CSV imports;
 - a plain-English action queue;
@@ -22,7 +23,7 @@ It does not require Gmail access.
 - Access JWT signatures, issuer, audience and expiry are validated in the Worker.
 - Cloudflare D1 stores consolidated reporting data.
 - A daily Cron Trigger refreshes configured APIs.
-- The public AHC Pages project writes anonymous search events to the same D1 database through `functions/api/search-analytics.js`.
+- The public AHC Pages project writes anonymous search and affiliate-click events to the same D1 database through dedicated same-origin Functions.
 
 ## 1. Create the D1 database
 
@@ -62,7 +63,7 @@ D1 database: ahc-analytics
 
 Add it to Production. Add it to Preview only when preview search events should also be retained.
 
-The public search endpoint deliberately returns `204 No Content` when the binding is absent, so deployment cannot break the Pagefind search experience.
+The public analytics endpoints deliberately return `204 No Content` when the binding is absent, so analytics cannot break search or outbound retailer links.
 
 ## 3. Configure Cloudflare Access
 
@@ -155,7 +156,15 @@ date,clicks,impressions,ctr,position
 
 CTR may be supplied as a decimal (`0.045`) or a percentage (`4.5`). The browser converts percentages before upload. Imports are limited to 1,000 daily rows per request.
 
-## 8. Privacy and retention
+## 8. Affiliate click reporting
+
+Every affiliate link rendered by `CommercialProductBlock` inherits catalogue-backed tracking attributes. A shared delegated browser listener sends the guide, product, merchant, affiliate network and destination host to the first-party `/api/affiliate-click` Function. No page-specific tracking code is required when products are added.
+
+The Affiliate performance tab reports selected-period click totals by guide and product. Article-to-merchant CTR uses clicks divided by GA4 `pagePath` page views for the exact dates shown in the dashboard. The GA4 request is restricted to complete dates on or after `2026-08-19`, the first full tracking day. CTR remains unavailable when the comparable GA4 window is absent; it is never silently mixed with the selected click-total window.
+
+Apply migration `0002_affiliate_clicks.sql` before deploying the public collector or updated Control Centre.
+
+## 9. Privacy and retention
 
 The public search collector stores only:
 
@@ -167,11 +176,21 @@ The public search collector stores only:
 - broad device category;
 - timestamp.
 
-It does not intentionally store names, email addresses, full IP addresses or full user-agent strings. Search events older than 400 days and integration-run logs older than 180 days are deleted during synchronisation.
+The affiliate-click collector stores only:
+
+- server timestamp;
+- AHC guide path;
+- catalogue product ID and rendered product name;
+- affiliate network and merchant;
+- destination host, without the full outbound URL;
+- the same random browser-session identifier;
+- broad device category.
+
+The collectors do not intentionally store names, email addresses, full IP addresses or full user-agent strings. Search and affiliate-click events older than 400 days and integration-run logs older than 180 days are deleted during synchronisation.
 
 The public Privacy Policy must remain aligned with this behaviour.
 
-## 9. Validation
+## 10. Validation
 
 Run:
 
@@ -179,12 +198,13 @@ Run:
 npm run check
 ```
 
-This checks Worker and browser JavaScript syntax and runs the Access, parsing, integration-state, import-validation and action-queue tests.
+This checks Worker and browser JavaScript syntax and runs the Access, parsing, integration-state, import-validation, affiliate aggregation and action-queue tests.
 
 The public-site test is run separately from the repository root:
 
 ```bash
 npm run test:search-analytics
+npm run test:affiliate-tracking
 ```
 
 ## Current boundary
