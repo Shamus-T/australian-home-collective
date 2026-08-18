@@ -325,6 +325,9 @@ function validateAffiliateTracking(urlValue, network, prefix) {
       + config.trackingParameter + "=" + config.trackingValue + ".",
     );
   }
+  if (network === "amazon-australia" && !/^\/dp\/[A-Z0-9]{10}$/.test(url.pathname)) {
+    addError(prefix + " must use a canonical Amazon Australia /dp/ASIN destination.");
+  }
 }
 
 function stringListIsValid(value, requireItems) {
@@ -559,6 +562,18 @@ for (const [index, product] of products.entries()) {
     promotableProducts.push(product);
   } else if (product.approvedForAffiliateUse) {
     addError(prefix + " has affiliate approval but editorialStatus is not approved.");
+  }
+}
+
+for (const guidePath of enabledGuidePaths) {
+  const approvedProductCount = promotableProducts.filter(
+    (product) => product.guidePath === guidePath,
+  ).length;
+  if (approvedProductCount < 2) {
+    addError(
+      "Enabled guide " + guidePath + " has " + approvedProductCount
+      + " approved products; at least 2 are required.",
+    );
   }
 }
 

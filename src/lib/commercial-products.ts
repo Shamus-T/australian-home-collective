@@ -14,6 +14,10 @@ export const researchOutcomeLabels: Record<ProductResearchOutcome, string> = {
   "does-not-meet-standard": "Does not meet our standard",
 };
 
+export function isCommercialGuide(guidePath: string): boolean {
+  return catalogue.enabledGuidePaths.includes(guidePath);
+}
+
 function addDays(dateValue: string, days: number): Date {
   const date = new Date(dateValue + "T00:00:00Z");
   date.setUTCDate(date.getUTCDate() + days);
@@ -52,7 +56,7 @@ function canRenderProduct(product: CommercialProduct): boolean {
 }
 
 export function getApprovedProductsForGuide(guidePath: string): CommercialProduct[] {
-  if (!catalogue.enabledGuidePaths.includes(guidePath)) {
+  if (!isCommercialGuide(guidePath)) {
     throw new Error("Commercial product block used on a guide that is not enabled: " + guidePath);
   }
 

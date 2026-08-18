@@ -58,13 +58,23 @@ function validProduct() {
   };
 }
 
-function runAudit(productMutator) {
+function runAudit(productMutator, catalogueMutator = () => {}) {
   const temporaryDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "ahc-commercial-audit-"));
   const fixturePath = path.join(temporaryDirectory, "catalogue.json");
   const catalogue = structuredClone(baseCatalogue);
   const product = validProduct();
   productMutator(product);
-  catalogue.products = [product];
+  const companionProduct = validProduct();
+  companionProduct.id = "example-approved-product-companion";
+  companionProduct.name = "Example approved companion product";
+  companionProduct.destinationUrl = "https://www.amazon.com.au/dp/B000000001?tag=ahc07-22";
+  companionProduct.sourceRecords = companionProduct.sourceRecords.map((source, index) => ({
+    ...source,
+    sourceUrl: "https://example.com/companion-evidence/" + index,
+  }));
+  catalogue.enabledGuidePaths = [product.guidePath];
+  catalogue.products = [product, companionProduct];
+  catalogueMutator(catalogue);
   fs.writeFileSync(fixturePath, JSON.stringify(catalogue), "utf8");
 
   try {
@@ -106,6 +116,25 @@ test("the audit rejects an affiliate URL without the current tracking tag", () =
   });
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /missing the current amazon-australia tracking value tag=ahc07-22/);
+});
+
+test("the audit rejects an Amazon affiliate URL without a canonical ASIN path", () => {
+  const result = runAudit((product) => {
+    product.destinationUrl = "https://www.amazon.com.au/s?k=pantry+organiser&tag=ahc07-22";
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /canonical Amazon Australia \/dp\/ASIN destination/);
+});
+
+test("the audit rejects an enabled guide with fewer than two approved products", () => {
+  const result = runAudit(
+    () => {},
+    (catalogue) => {
+      catalogue.products = catalogue.products.slice(0, 1);
+    },
+  );
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /at least 2 are required/);
 });
 
 test("the audit rejects active recall and safety flags on an approved product", () => {
