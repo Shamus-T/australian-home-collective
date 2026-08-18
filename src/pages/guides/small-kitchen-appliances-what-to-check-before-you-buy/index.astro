@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -57,7 +58,7 @@ const faqs = [
   category="Kitchen"
   faqs={faqs}
   date="Updated August 2026"
-  dateModified="2026-08-17"
+  dateModified="2026-08-18"
   readingTime="9 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/small-kitchen-appliances-what-to-check-before-you-buy.webp"
@@ -266,6 +267,12 @@ const faqs = [
     <li>Attachments have no safe, contained storage.</li>
     <li>The available power arrangement does not suit the instructions.</li>
   </ul>
+
+  <CommercialProductBlock
+    guidePath="/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
+    title="Appliance options matched to a repeated job"
+    intro="Start by using or borrowing the equipment already available and remove any appliance that duplicates the useful part of the task. If a real weekly job remains, compare only the relevant air fryer, mixer, blender or multi-cooker options below, including their open footprint, washing load and storage path."
+  />
 
   <h2>A final test before buying</h2>
   <ul class="feature-list">

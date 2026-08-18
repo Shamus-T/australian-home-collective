@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -46,8 +47,9 @@ const faqs = [
   seoTitle="Robot Vacuum Buying Guide Australia"
   description="Compare robot vacuums by navigation, mopping, dock size, obstacle handling, consumables and the floor layout they need to clean."
   category="Living Spaces"
-  date="Published July 2026"
+  date="Updated August 2026"
   datePublished="2026-07-23"
+  dateModified="2026-08-18"
   readingTime="6 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
@@ -156,6 +158,12 @@ const faqs = [
     <li>Identify the specified replacement bags, rollers, filters and detergent.</li>
     <li>Check the sound of emptying and drying if the dock sits near a bedroom.</li>
   </ul>
+
+  <CommercialProductBlock
+    guidePath="/guides/robot-vacuum-buying-guide-australia/"
+    title="Robot vacuum options for a mapped home"
+    intro="Start by clearing loose cables and pet items, measuring thresholds and choosing a dock position; a simpler floor reset may solve more than a costlier robot. If automated cleaning still fits the home, compare these options by navigation limits, dock access, mopping upkeep and consumable costs."
+  />
 
   <h2>A practical buying checklist</h2>
   <ul class="feature-list">

@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -48,7 +49,7 @@ const faqs = [
   category="Kitchen"
   date="Updated August 2026"
   datePublished="2026-07-23"
-  dateModified="2026-08-17"
+  dateModified="2026-08-18"
   readingTime="11 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
@@ -233,6 +234,12 @@ const faqs = [
     to the household. Avoid choosing a format because of a short sale when its daily routine or
     ongoing supplies do not fit.
   </p>
+
+  <CommercialProductBlock
+    guidePath="/guides/coffee-machine-types-australia/"
+    title="Coffee machine options for different routines"
+    intro="First decide which grinding, milk and cleaning steps the household will repeat on an ordinary morning; keeping the current method is sensible if no machine reduces that friction. If an assisted or automatic workflow still fits, compare these options by in-use clearance, daily cleaning and ongoing consumables."
+  />
 
   <h2>A practical buying checklist</h2>
   <ul class="feature-list">

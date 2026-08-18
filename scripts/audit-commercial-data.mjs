@@ -9,6 +9,7 @@ const cataloguePath = catalogueArgument
   ? path.resolve(root, catalogueArgument.slice("--catalogue=".length))
   : path.join(root, "src", "data", "commercial-products.json");
 const catalogue = JSON.parse(fs.readFileSync(cataloguePath, "utf8"));
+const usesProductionCatalogue = !catalogueArgument;
 const checkDist = process.argv.includes("--dist");
 const errors = [];
 const today = new Date().toISOString().slice(0, 10);
@@ -240,6 +241,12 @@ function reviewDueOn(lastReviewedOn, intervalDays) {
 
 function routeSourcePath(guidePath) {
   return path.join(root, "src", "pages", ...guidePath.split("/").filter(Boolean), "index.astro");
+}
+
+function sourceGuideRoute(relativePath) {
+  const normal = relativePath.replaceAll(path.sep, "/");
+  const match = normal.match(/^src\/pages\/guides\/([a-z0-9-]+)\/index\.astro$/);
+  return match ? "/guides/" + match[1] + "/" : null;
 }
 
 function normalizedHost(urlValue) {
@@ -585,6 +592,49 @@ let sourceExternalLinkCount = 0;
 for (const file of publishedSourceFiles) {
   const source = fs.readFileSync(file, "utf8");
   const relativePath = path.relative(root, file).replaceAll(path.sep, "/");
+  const sourceRoute = sourceGuideRoute(relativePath);
+  const commercialBlocks = [...source.matchAll(/<CommercialProductBlock\b[\s\S]*?\/>/gi)];
+
+  if (usesProductionCatalogue && sourceRoute) {
+    const isEnabledGuide = enabledGuidePaths.includes(sourceRoute);
+    if (isEnabledGuide && commercialBlocks.length !== 1) {
+      addError(
+        relativePath + " must contain exactly one local CommercialProductBlock; found "
+        + commercialBlocks.length + ".",
+      );
+    } else if (!isEnabledGuide && commercialBlocks.length > 0) {
+      addError(relativePath + " contains a commercial product block but is not an enabled guide.");
+    }
+
+    if (isEnabledGuide && commercialBlocks.length === 1) {
+      const block = commercialBlocks[0][0];
+      const blockIndex = commercialBlocks[0].index;
+      const relatedGuidesIndex = source.indexOf("<RelatedGuidesBlock");
+      const guidePath = attributeValue(block, "guidePath");
+      const title = attributeValue(block, "title").trim();
+      const intro = attributeValue(block, "intro").trim();
+
+      if (guidePath !== sourceRoute) {
+        addError(relativePath + " commercial block guidePath must match " + sourceRoute + ".");
+      }
+      if (title.length < 20) {
+        addError(relativePath + " commercial block needs a specific solution-oriented title.");
+      }
+      if (intro.length < 160) {
+        addError(relativePath + " commercial block needs a substantial nearby problem-to-solution intro.");
+      } else {
+        if (!/\b(?:first|start|before|after|once|only when|if)\b/i.test(intro)) {
+          addError(relativePath + " commercial intro must state the practical step or constraint before buying.");
+        }
+        if (!/\b(?:compare|choose|consider)\b/i.test(intro)) {
+          addError(relativePath + " commercial intro must connect the remaining problem to solution options.");
+        }
+      }
+      if (relatedGuidesIndex !== -1 && blockIndex > relatedGuidesIndex) {
+        addError(relativePath + " commercial block must appear before the related-guides section.");
+      }
+    }
+  }
 
   for (const match of source.matchAll(/<(?:a|ExternalLink)\b[^>]*\bhref=["'](https?:\/\/[^"']+)["']/gi)) {
     sourceExternalLinkCount += 1;
@@ -603,7 +653,7 @@ for (const file of publishedSourceFiles) {
   }
 
   for (const match of source.matchAll(/<CommercialProductBlock\b[^>]*\bguidePath=["']([^"']+)["'][^>]*>/gi)) {
-    if (!enabledGuidePaths.includes(match[1])) {
+    if (usesProductionCatalogue && !enabledGuidePaths.includes(match[1])) {
       addError(relativePath + " uses a commercial product block for an unapproved guide: " + match[1]);
     }
   }
@@ -669,6 +719,19 @@ if (checkDist) {
       const affiliateAnchors = commercialAnchors.filter(
         (anchor) => attributeValue(anchor, "data-commercial-link") === "affiliate",
       );
+      const commercialBlockCount = html.match(/<section\b[^>]*\bdata-commercial-product-block\b[^>]*>/gi)?.length ?? 0;
+      const solutionContextCount = html.match(/<p\b[^>]*\bdata-commercial-solution-context\b[^>]*>/gi)?.length ?? 0;
+
+      if (enabledGuidePaths.includes(route)) {
+        if (commercialBlockCount !== 1) {
+          addError(relativePath + " renders " + commercialBlockCount + " commercial blocks; expected exactly one.");
+        }
+        if (solutionContextCount !== 1) {
+          addError(relativePath + " renders products without exactly one nearby solution context.");
+        }
+      } else if (commercialBlockCount > 0 || solutionContextCount > 0) {
+        addError(relativePath + " renders commercial content outside an enabled guide.");
+      }
 
       for (const anchor of commercialAnchors) {
         const productId = attributeValue(anchor, "data-commercial-product-id");

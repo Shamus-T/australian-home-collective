@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -46,8 +47,9 @@ const faqs = [
   seoTitle="Cookware Materials: Stainless, Nonstick and Cast Iron"
   description="Compare stainless steel, nonstick, cast iron, carbon steel and enamel cookware by cooking task, weight, care, durability and cooktop compatibility."
   category="Kitchen"
-  date="Published July 2026"
+  date="Updated August 2026"
   datePublished="2026-07-23"
+  dateModified="2026-08-18"
   readingTime="7 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
@@ -217,6 +219,12 @@ const faqs = [
       </p>
     </section>
   </div>
+
+  <CommercialProductBlock
+    guidePath="/guides/cookware-materials-compared/"
+    title="Cookware options for the meals you actually make"
+    intro="First keep any sound pan that already handles the household's regular meals and identify the one missing task. If a gap remains, compare these stainless-steel and cast-iron options by cooktop compatibility, filled weight, care and storage rather than replacing the whole cupboard by default."
+  />
 
   <h2>Cookware buying checklist</h2>
   <ul class="feature-list">

@@ -2,12 +2,10 @@
 import BaseLayout from "./BaseLayout.astro";
 import AffiliateDisclosureBlock from "../components/AffiliateDisclosureBlock.astro";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
-import CommercialProductBlock from "../components/CommercialProductBlock.astro";
 import FAQBlock from "../components/FAQBlock.astro";
 import { getCategoryPath } from "../data/categories";
 import { getGuideNavigation } from "../data/guideNavigation";
 import { getCategorySocialImage } from "../data/socialImages";
-import { isCommercialGuide } from "../lib/commercial-products";
 
 interface Props {
   title: string;
@@ -158,7 +156,6 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
   </header>
   <article class="content narrow">
     <slot />
-    {isCommercialGuide(currentPath) && <CommercialProductBlock guidePath={currentPath} />}
     {faqs.length > 0 && <FAQBlock items={faqs} />}
     {guideNavigation.isActive && (
       <nav class="guide-navigation" aria-label="Guide navigation">

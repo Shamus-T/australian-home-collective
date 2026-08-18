@@ -160,3 +160,26 @@ test("the audit rejects an expired approved product review", () => {
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /overdue for review/);
 });
+
+test("every enabled guide owns one contextual product block before related guides", () => {
+  for (const guidePath of baseCatalogue.enabledGuidePaths) {
+    const sourcePath = path.join(root, "src", "pages", ...guidePath.split("/").filter(Boolean), "index.astro");
+    const source = fs.readFileSync(sourcePath, "utf8");
+    const blocks = [...source.matchAll(/<CommercialProductBlock\b[\s\S]*?\/>/g)];
+
+    assert.equal(blocks.length, 1, guidePath + " must own exactly one product block");
+    assert.match(blocks[0][0], new RegExp(`guidePath=["']${guidePath}["']`));
+    assert.match(blocks[0][0], /\btitle="[^"]{20,}"/);
+    assert.match(blocks[0][0], /\bintro="[^"]{160,}"/);
+
+    const relatedGuidesIndex = source.indexOf("<RelatedGuidesBlock");
+    if (relatedGuidesIndex !== -1) {
+      assert.ok(blocks[0].index < relatedGuidesIndex, guidePath + " product block must precede related guides");
+    }
+  }
+});
+
+test("the shared article layout does not detach commercial products from guide context", () => {
+  const source = fs.readFileSync(path.join(root, "src", "layouts", "ArticleLayout.astro"), "utf8");
+  assert.doesNotMatch(source, /CommercialProductBlock/);
+});
