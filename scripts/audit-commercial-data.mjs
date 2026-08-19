@@ -130,6 +130,7 @@ const trustedEditorialDomains = new Set([
   "kb.rspca.org.au",
   "lg.com",
   "lodgecastiron.com",
+  "lookforthetick.com.au",
   "nespresso.com",
   "nsw.gov.au",
   "policies.google.com",
