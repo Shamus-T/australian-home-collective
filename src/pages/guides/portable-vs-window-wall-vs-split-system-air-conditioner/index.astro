@@ -1,0 +1,140 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  { href: "/guides/air-conditioning-buying-guide/", title: "Air Conditioning Buying Guide", description: "Compare system types, efficiency, installation, noise and climate suitability before buying." },
+  { href: "/guides/portable-air-conditioners-australia/", title: "Portable Air Conditioners Australia", description: "Check the room, window kit, exhaust hose, noise, condensate and climate suitability before buying a portable unit." },
+  { href: "/guides/what-size-air-conditioner-do-i-need/", title: "What Size Air Conditioner Do I Need?", description: "Measure the room, then account for ceilings, glazing, sun, insulation, climate and connected spaces before choosing capacity." },
+  { href: "/guides/split-system-air-conditioner-installation-costs/", title: "Split-System Air Conditioner Installation Costs", description: "Compare back-to-back placement, pipe length, electrical work, drainage, mounting and access before accepting a quote." },
+  { href: "/guides/ceiling-fans-before-you-buy/", title: "Ceiling Fans Before You Buy", description: "Check room size, ceiling height, clearances, controls and installation requirements before choosing a fan." },
+];
+---
+
+<ArticleLayout
+  title="Portable vs Window/Wall vs Split-System Air Conditioner: Which Should You Choose?"
+  seoTitle="Portable vs Window/Wall vs Split-System Air Conditioners"
+  description="Compare portable, window/wall and split-system air conditioners for Australian rooms, including installation, noise, efficiency and renter suitability."
+  category="Living Spaces"
+  date="Published August 2026"
+  datePublished="2026-08-19"
+  readingTime="5 minute read"
+  showAffiliateDisclosure={false}
+  image="/images/portable-vs-window-wall-vs-split-system-air-conditioner.webp"
+  imageAlt="Three Australian rooms showing a portable air conditioner vented through a window, a window-mounted unit and a high-wall split system"
+  socialImage="/images/portable-vs-window-wall-vs-split-system-air-conditioner.webp"
+  socialImageAlt="Three Australian rooms showing a portable air conditioner vented through a window, a window-mounted unit and a high-wall split system"
+>
+  <p>If you need to cool one room, there are three common refrigerated air-conditioning options worth considering: a portable unit, a window/wall unit or a split system.</p>
+  <p>All can cool a room, but they solve the installation problem in very different ways.</p>
+  <p>The choice depends on installation permission, expected use, noise, efficiency and the available window, wall and outdoor space.</p>
+  <p>For the wider system, climate and installation questions, start with the <a href="/guides/air-conditioning-buying-guide/">Air Conditioning Buying Guide</a>.</p>
+
+  <h2>Quick comparison</h2>
+  <p class="table-hint">Swipe sideways to compare the full table.</p>
+  <div class="comparison-wrap" tabindex="0" role="region" aria-label="Portable, window and split-system air-conditioner comparison">
+    <table class="comparison-table">
+      <caption>Common differences between three single-room air-conditioner formats</caption>
+      <thead>
+        <tr>
+          <th scope="col">Type</th>
+          <th scope="col">Main advantage</th>
+          <th scope="col">Main drawback</th>
+          <th scope="col">Often suits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Portable</th>
+          <td>No permanent installation</td>
+          <td>Typically less efficient and noisier than many fixed systems</td>
+          <td>Renters, temporary or occasional cooling</td>
+        </tr>
+        <tr>
+          <th scope="row">Window/wall</th>
+          <td>Hot side sits outside without a flexible exhaust hose</td>
+          <td>Requires a suitable, supported window or wall opening</td>
+          <td>Small rooms, existing openings, simpler permanent cooling</td>
+        </tr>
+        <tr>
+          <th scope="row">Split system</th>
+          <td>Typically strong long-term efficiency, performance and indoor comfort</td>
+          <td>Professional permanent installation required</td>
+          <td>Regular cooling and heating</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>These are general differences rather than guarantees for every model or installation.</p>
+
+  <h2>Portable air conditioners</h2>
+  <p>A portable refrigerated air conditioner places the compressor, fan and refrigeration equipment inside a freestanding cabinet. Hot air is usually expelled through a flexible exhaust hose connected to a window kit.</p>
+
+  <h3>Advantages</h3>
+  <p>Portable units can be useful when you rent, permanent installation is not permitted, cooling is temporary or only one small room needs occasional cooling. They also avoid the upfront installation work required for a split system.</p>
+
+  <h3>Drawbacks</h3>
+  <p>Most of the machinery remains inside the room. That can mean more indoor noise than a split system, while single-hose portable systems are generally less efficient because they exhaust conditioned room air and can draw warmer replacement air back inside.</p>
+  <p>They also need a compatible window and exhaust kit. “Portable” does not always mean easy to move: many units are heavy, and changing rooms can mean relocating the hose, window kit and drainage arrangement.</p>
+  <p>For those practical checks, see our guide to <a href="/guides/portable-air-conditioners-australia/">portable air conditioners in Australia</a>.</p>
+
+  <h2>Window/wall air conditioners</h2>
+  <p>Window/wall air conditioners are self-contained units installed through a window or purpose-made external wall opening. The front remains inside while the hot side projects outdoors.</p>
+  <h3>Advantages</h3>
+  <p>A window/wall system avoids the portable unit’s flexible exhaust hose. With the hot side outside, a correctly installed model can offer better efficiency and sustained cooling than a typical single-hose portable unit.</p>
+  <p>It can be particularly practical when an older home already has a suitable wall opening. Adapting that opening may be simpler than creating an entirely new installation elsewhere.</p>
+
+  <h3>Drawbacks</h3>
+  <p>The installation still needs a suitable opening, secure support, weather sealing and appropriate electrical supply.</p>
+  <p>A window installation can affect security, sealing, natural light and normal use of the window. A wall installation may require structural work and is not generally suitable as a casual DIY modification.</p>
+  <p>Noise can also be more noticeable than with a split system because the compressor remains physically connected to the appliance mounted in the room opening.</p>
+
+  <h2>Split-system air conditioners</h2>
+  <p>A split system separates the indoor and outdoor components. The indoor head distributes conditioned air, while the compressor and much of the noisy refrigeration equipment sit outside.</p>
+
+  <h3>Advantages</h3>
+  <p>For regular long-term cooling, a correctly sized non-ducted split system is generally the strongest of these three options for efficiency, performance and indoor comfort.</p>
+  <p>Split systems can also provide reverse-cycle heating. Because the compressor is outside, indoor noise is usually lower than with an all-in-one portable unit.</p>
+
+  <h3>Drawbacks</h3>
+  <p>A split system requires permanent professional installation, suitable indoor and outdoor positions, refrigerant pipework, condensate drainage and appropriate electrical work.</p>
+  <p>Cost can change considerably depending on whether a simple back-to-back arrangement is possible or a longer, more difficult pipe route is required. Our guide to <a href="/guides/split-system-air-conditioner-installation-costs/">split-system installation costs</a> explains those quote variables.</p>
+
+  <h2>What if you rent?</h2>
+  <p>For many renters, the available choices depend on what the property owner allows.</p>
+  <p>A portable refrigerated unit is usually the least permanent option, although it still needs a compatible window and safe exhaust setup. A window/wall unit generally changes the building or window arrangement. A split system is permanent and normally requires owner approval and professional installation.</p>
+  <p>Check the conditions that apply to the property before buying equipment.</p>
+
+  <h2>What if there is already an old wall air conditioner?</h2>
+  <p>Do not automatically assume the opening must be removed and replaced with a split system.</p>
+  <p>An existing opening can make a replacement window/wall unit worth investigating. Measure it carefully and have the condition, support and sealing assessed. A newer unit may not match the old dimensions, so modifications may still be required.</p>
+  <p>Compare the cost and practicality of adapting the opening with installing a split system elsewhere.</p>
+
+  <h2>Which is likely to be quietest?</h2>
+  <p>For bedrooms and other noise-sensitive spaces, split systems generally have an advantage because the compressor is outside.</p>
+  <p>Portable units keep it inside the room, while window/wall units place it within the appliance mounted through the opening. Noise still varies significantly between models, so check published indoor and outdoor figures rather than relying on terms such as <strong>quiet</strong> or <strong>sleep mode</strong>.</p>
+
+  <h2>Which is likely to be most efficient?</h2>
+  <p>Australian Government guidance identifies non-ducted split systems as a highly efficient option, while CHOICE testing and comparison guidance finds single-hose portable units less efficient than comparable fixed systems.</p>
+  <p>Correctly installed window/wall units can be reasonably efficient but generally do not match split-system efficiency. Results still depend on the model, capacity, climate and quality of the installation.</p>
+  <p>For fixed air conditioners, use the Australian Zoned Energy Rating Label and compare models of a suitable capacity for the local climate. See our guide to <a href="/guides/what-size-air-conditioner-do-i-need/">what size air conditioner you need</a> before choosing on efficiency ratings alone.</p>
+
+  <h2>Which should you choose?</h2>
+  <p>A <strong>portable air conditioner</strong> makes the most sense when permanent installation is not possible or cooling is temporary.</p>
+  <p>A <strong>window/wall air conditioner</strong> deserves consideration when there is a suitable window or existing wall opening and you want a more permanent solution without a conventional split-system layout.</p>
+  <p>A <strong>split system</strong> is generally the better long-term choice when permanent installation is practical and the room will be cooled or heated regularly.</p>
+  <p>The cheapest unit to buy is not necessarily the least expensive or most comfortable option over several summers. Start with the room, property and installation constraints, then compare appropriately sized systems that suit how the space will be used.</p>
+
+  <section class="official-guidance" aria-labelledby="sources-guidance-heading">
+    <h2 id="sources-guidance-heading">Sources and guidance</h2>
+    <ul class="feature-list">
+      <li><ExternalLink href="https://www.energy.gov.au/households/heating-and-cooling">Australian Government guidance on split, window and portable air conditioners</ExternalLink></li>
+      <li><ExternalLink href="https://www.energy.gov.au/households/household-guides/energy-saving-guide-northern-australia/design-your-climate-and-keeping-cool">Australian Government northern-Australia guidance on non-ducted split-system efficiency</ExternalLink></li>
+      <li><ExternalLink href="https://www.choice.com.au/home-and-living/cooling/portable-air-conditioners/buying-guides/portable-air-conditioners">CHOICE guidance on single-duct portable air conditioners</ExternalLink></li>
+      <li><ExternalLink href="https://www.choice.com.au/home-and-living/cooling/air-conditioners/articles/air-conditioner-energy-efficiency">CHOICE guidance on window/wall and split-system efficiency</ExternalLink></li>
+    </ul>
+  </section>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
