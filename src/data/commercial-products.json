@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 2,
-  "updatedOn": "2026-08-18",
+  "updatedOn": "2026-08-19",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -43,7 +43,10 @@
     "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
     "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
     "/guides/cookware-materials-compared/",
-    "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/"
+    "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
+    "/guides/portable-air-conditioners-australia/",
+    "/guides/air-conditioner-dry-mode-humidity/",
+    "/guides/how-to-keep-house-cooler-in-summer/"
   ],
   "products": [
     {
@@ -5435,6 +5438,464 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        }
+      ]
+    },
+    {
+      "id": "portable-hoomee-al003-window-seal",
+      "guidePath": "/guides/portable-air-conditioners-australia/",
+      "name": "HOOMEE AL003 400cm Portable Air-Conditioner Window Seal",
+      "productType": "Fabric exhaust seal for hinged windows",
+      "summary": "A removable zipped fabric seal for routing a portable air-conditioner exhaust hose through a measured inward- or outward-opening hinged window.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07BPZGJ3B?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-19",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It is intended for hinged windows; HOOMEE directs sliding-window users to a different kit.",
+        "The adhesive strip can leave residue or affect fragile finishes, and owner feedback is mixed on zipper, adhesion, fit and durability.",
+        "A fabric panel is not a rigid, insulated or security-rated window insert and can transmit outdoor noise."
+      ],
+      "suitability": {
+        "suits": [
+          "renters or households with a compatible hinged window whose measured perimeter fits the 400 cm version"
+        ],
+        "mayNotSuit": [
+          "sliding windows, fragile painted frames, security-sensitive openings or windows that need a rigid weatherproof panel"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Window Seal Model AL003: suitable window types and sizes",
+          "publisher": "HOOMEE",
+          "sourceUrl": "https://hoomee.com/blogs/hoomee/window-seal-model-al003-discover-suitable-window-types-and-install-your-air-cons-1",
+          "supports": "Manufacturer guidance on the AL003 sizes, hinged-window compatibility and the separate sliding-window format.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "HOOMEE AL003 400cm window seal owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07BPZGJ3B",
+          "supports": "A large body of owner feedback was checked for installation, sealing, fit, adhesion, zipper, noise and durability themes.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "HOOMEE AL003 400cm window seal Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07BPZGJ3B",
+          "supports": "The exact 400 cm variant and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "HOOMEE AL003 400cm window seal Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07BPZGJ3B?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
+          "checkedOn": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "id": "portable-temppro-tp49-room-monitor",
+      "guidePath": "/guides/portable-air-conditioners-australia/",
+      "name": "TempPro TP49 Indoor Thermometer and Hygrometer",
+      "productType": "Compact temperature and humidity monitor",
+      "summary": "A small battery-powered display for checking the temperature and relative humidity in the enclosed room before and while a portable air conditioner operates.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-19",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It has no backlight, app, remote sensor or logged history, so it is for spot readings rather than diagnosis.",
+        "Placement near the supply air, exhaust hose, sun or a damp surface can make the reading unrepresentative of the occupied room.",
+        "A room reading cannot establish whether a portable unit is correctly sized or operating to its full specification."
+      ],
+      "suitability": {
+        "suits": [
+          "households wanting a simple local check of room temperature and humidity without an app"
+        ],
+        "mayNotSuit": [
+          "people needing outdoor readings, remote alerts, calibration records or long-term data logging"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "TempPro TP49 indoor thermometer and hygrometer",
+          "publisher": "TempPro",
+          "sourceUrl": "https://temppro.com/products/tp49b-indoor-thermometer-hygrometer",
+          "supports": "Manufacturer specifications for temperature and humidity range, stated tolerances, refresh rate, display, size and battery power.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "TempPro TP49 owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B",
+          "supports": "A large current owner-feedback record was checked for readability, compact size, consistency and practical placement limits.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "TempPro TP49 Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B",
+          "supports": "The exact white single-unit TP49 variant and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "TempPro TP49 Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, Amazon fulfilment and ThermoPro AU seller were checked before approval.",
+          "checkedOn": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "id": "dry-mode-temppro-tp49-room-monitor",
+      "guidePath": "/guides/air-conditioner-dry-mode-humidity/",
+      "name": "TempPro TP49 Indoor Thermometer and Hygrometer",
+      "productType": "Compact temperature and humidity monitor",
+      "summary": "A small battery-powered display for checking whether a room is mainly warm, humid or both before choosing dry mode, normal cooling or another response.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-19",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It has no backlight, app, remote sensor or logged history, so it shows current conditions rather than the cause of moisture.",
+        "A reading near supply air, a window, bathroom door or damp surface may not represent the wider room.",
+        "It does not identify leaks, ventilation faults, hidden damp or mould risk by itself."
+      ],
+      "suitability": {
+        "suits": [
+          "households wanting a simple local temperature and relative-humidity reading before changing operating mode"
+        ],
+        "mayNotSuit": [
+          "people needing alerts, room-to-room monitoring, calibrated records or investigation of a persistent moisture problem"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "TempPro TP49 indoor thermometer and hygrometer",
+          "publisher": "TempPro",
+          "sourceUrl": "https://temppro.com/products/tp49b-indoor-thermometer-hygrometer",
+          "supports": "Manufacturer specifications for temperature and humidity range, stated tolerances, refresh rate, display, size and battery power.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "TempPro TP49 owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B",
+          "supports": "A large current owner-feedback record was checked for readability, compact size, consistency and practical placement limits.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "TempPro TP49 Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B",
+          "supports": "The exact white single-unit TP49 variant and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "TempPro TP49 Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, Amazon fulfilment and ThermoPro AU seller were checked before approval.",
+          "checkedOn": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "id": "dry-mode-breville-smart-dry-connect-lad208",
+      "guidePath": "/guides/air-conditioner-dry-mode-humidity/",
+      "name": "Breville the Smart Dry Connect Dehumidifier LAD208WHT",
+      "productType": "Dedicated compressor dehumidifier for smaller rooms",
+      "summary": "A dedicated dehumidifier with a 2.5 L tank and continuous-drain option for persistent moisture in a measured room up to the maker's stated 30 m² limit.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B09S5PH75D?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-19",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Its quoted extraction capacity is measured under specified warm, humid test conditions and will vary in the home.",
+        "The 2.5 L tank needs emptying unless a safe continuous-drain route is available, and the 9.5 kg unit still needs floor space.",
+        "Noise tolerance varies in owner feedback, and app or voice control does not remove the need to investigate ventilation, leaks or building moisture."
+      ],
+      "suitability": {
+        "suits": [
+          "smaller rooms with a confirmed persistent humidity problem that needs moisture removal without relying on air-conditioner cooling"
+        ],
+        "mayNotSuit": [
+          "occasional muggy weather, larger connected areas, unresolved leaks or households without a practical tank-emptying or drain routine"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "the Smart Dry Connect Dehumidifier",
+          "publisher": "Breville Australia",
+          "sourceUrl": "https://www.breville.com/en-au/product/bad208",
+          "supports": "Current Australian model identity, room guidance, humidity control, app functions, filtration and manufacturer support.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "LAD208 and LAD308 instruction manual",
+          "publisher": "Breville Australia",
+          "sourceUrl": "https://www.breville.com/content/dam/breville/au/en/assets/miscellaneous/instruction-manual/air-dehumidifier/BAD208-instruction-manual.pdf",
+          "supports": "Extraction test conditions, room-size guidance, tank capacity, continuous drainage, dimensions, weight, noise and electrical requirements.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Breville LAD208WHT product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/breville-the-smart-dry-connect-dehumidifier",
+          "supports": "A current multi-retailer record and recurring owner themes on moisture removal, tank use, movement, app setup and noise were checked.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Breville LAD208WHT Australian availability",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/breville-the-smart-dry-connect-dehumidifier",
+          "supports": "Current Australian model availability and an active Amazon Australia offer for the exact model were checked.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the LAD208WHT and Breville brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Breville LAD208WHT Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09S5PH75D?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
+          "checkedOn": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "id": "summer-temppro-tp60b-indoor-outdoor-monitor",
+      "guidePath": "/guides/how-to-keep-house-cooler-in-summer/",
+      "name": "TempPro TP60B Indoor/Outdoor Thermometer and Hygrometer",
+      "productType": "Wireless indoor and outdoor condition monitor",
+      "summary": "A base display and remote sensor for comparing indoor conditions with a representative shaded outdoor location before deciding when to open or close the home.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07C8B8K4F?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-19",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The display has no backlight or app history, and the stated wireless range is an unobstructed maximum rather than a promise through every wall.",
+        "The remote sensor needs a sheltered, shaded and representative position; direct sun, rain or a hot wall can distort the comparison.",
+        "Temperature and humidity readings do not account for smoke, outdoor air quality, security or other reasons to keep windows closed."
+      ],
+      "suitability": {
+        "suits": [
+          "households wanting an at-a-glance indoor versus outdoor comparison to support a ventilation routine"
+        ],
+        "mayNotSuit": [
+          "homes without a suitable sheltered sensor position or people needing alerts, forecasts or long-term data logging"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "TempPro TP60B wireless indoor outdoor thermometer and hygrometer",
+          "publisher": "TempPro",
+          "sourceUrl": "https://temppro.com/products/tp60b-wireless-hygrometer-thermometer",
+          "supports": "Manufacturer specifications for the base and remote sensor, stated tolerances, range, refresh rate, high-low records, display and batteries.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "TempPro TP60B owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07C8B8K4F",
+          "supports": "A large owner-feedback record was checked for readability, indoor-outdoor comparison, signal, consistency and sensor-placement themes.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "TempPro TP60B Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07C8B8K4F",
+          "supports": "The exact one-sensor TP60B variant and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "TempPro TP60B Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07C8B8K4F?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, seller and fulfilment were checked before approval.",
+          "checkedOn": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "id": "summer-3m-2110na-weather-sealing-tape",
+      "guidePath": "/guides/how-to-keep-house-cooler-in-summer/",
+      "name": "3M 2110NA Indoor Transparent Weather Sealing Tape",
+      "productType": "Temporary interior tape for small window and door cracks",
+      "summary": "A clear indoor tape for a confirmed small crack around a conditioned room where temporarily covering the seam will not block required ventilation or access.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0000CBIFF?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-19",
+      "approvedForAffiliateUse": true,
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It covers a seam rather than repairing worn hardware or filling a large, moving or irregular gap.",
+        "An operable window or door cannot be used normally while its opening seam is taped, so it is unsuitable for required ventilation, access or an escape route.",
+        "Removal can affect weak paint or leave residue; clean, dry and test an inconspicuous sound surface first."
+      ],
+      "suitability": {
+        "suits": [
+          "a small confirmed interior crack around a conditioned room that can remain temporarily closed"
+        ],
+        "mayNotSuit": [
+          "large gaps, frequently opened windows or doors, fragile finishes, intentional vents or any opening needed for safety"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "3M Indoor Transparent Weather Sealing Tape",
+          "publisher": "3M",
+          "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b10101952/",
+          "supports": "Manufacturer identification, indoor use, dimensions and intended use around windows and doors to seal cracks and reduce energy loss.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "3M 2110NA weather sealing tape owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF",
+          "supports": "A large owner-feedback record was checked for sealing, adhesion, application, removal and surface-condition themes.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "3M 2110NA Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF",
+          "supports": "The exact single-roll 2110NA variant and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "3M 2110NA Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
+          "checkedOn": "2026-08-19"
         }
       ]
     }

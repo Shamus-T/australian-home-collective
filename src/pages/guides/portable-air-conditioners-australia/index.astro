@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -7,6 +8,9 @@ const relatedGuides = [
   { href: "/guides/air-conditioning-buying-guide/", title: "Air Conditioning Buying Guide", description: "Compare system types, efficiency, installation, noise and climate suitability before buying." },
   { href: "/guides/what-size-air-conditioner-do-i-need/", title: "What Size Air Conditioner Do I Need?", description: "Measure the room, then account for ceilings, glazing, sun, insulation, climate and connected spaces before choosing capacity." },
   { href: "/guides/split-system-air-conditioner-installation-costs/", title: "Split-System Air Conditioner Installation Costs", description: "Compare back-to-back placement, pipe length, electrical work, drainage, mounting and access before accepting a quote." },
+  { href: "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/", title: "Portable vs Window/Wall vs Split-System Air Conditioner", description: "Compare installation, noise, efficiency, room suitability and long-term use across three common single-room formats." },
+  { href: "/guides/air-conditioner-dry-mode-humidity/", title: "Air Conditioner Dry Mode & Humidity", description: "Understand when dry mode suits muggy weather and how it differs from normal cooling and a dedicated dehumidifier." },
+  { href: "/guides/evaporative-cooler-vs-refrigerated-air-conditioning/", title: "Evaporative Cooler vs Refrigerated Air Conditioning", description: "Compare climate suitability, humidity, ventilation, moisture, water use and cooling expectations." },
   { href: "/guides/home-insulation-basics/", title: "Home Insulation Basics", description: "Understand insulation types, climate suitability, installation quality and condensation." },
   { href: "/guides/ceiling-fans-before-you-buy/", title: "Ceiling Fans Before You Buy", description: "Check room size, ceiling height, clearances, controls and installation requirements before choosing a fan." },
 ];
@@ -33,11 +37,8 @@ const relatedGuides = [
   <p>For a broader comparison of fixed, portable and evaporative systems, start with the <a href="/guides/air-conditioning-buying-guide/">Air Conditioning Buying Guide</a>.</p>
 
   <h2>Make sure it is actually an air conditioner</h2>
-  <p>Portable refrigerated air conditioners and portable evaporative coolers are very different appliances.</p>
-  <p>A refrigerated portable air conditioner uses a refrigeration cycle to remove heat from the room and exhaust it outside.</p>
-  <p>An evaporative cooler passes air through or across water, reducing its temperature through evaporation while adding moisture to the air.</p>
-  <p>Evaporative cooling is best suited to hot, dry conditions. Australian Government guidance says evaporative coolers work well in low-humidity inland regions but are not suitable for every climate.</p>
-  <p>In humid coastal, tropical and subtropical areas, adding more moisture to already humid air can make an evaporative cooler a poor substitute for refrigerated air conditioning.</p>
+  <p>A portable refrigerated air conditioner removes heat from the room and exhausts it outside. A portable evaporative cooler passes air through water and adds moisture.</p>
+  <p>They are not interchangeable: evaporative cooling is best suited to hot, dry conditions, while adding moisture can make it a poor substitute in humid coastal, tropical and subtropical areas.</p>
   <p>Be cautious when products are described simply as an <strong>air cooler</strong> rather than an air conditioner. Our guide comparing <a href="/guides/evaporative-cooler-vs-refrigerated-air-conditioning/">evaporative coolers and refrigerated air conditioning</a> explains the climate and ventilation differences.</p>
 
   <h2>Check the window before you buy</h2>
@@ -83,6 +84,12 @@ const relatedGuides = [
   </ul>
   <p>A small shaded bedroom and a similarly sized west-facing upstairs room can place very different demands on an air conditioner.</p>
   <p>Use our guide to <a href="/guides/what-size-air-conditioner-do-i-need/">air-conditioner sizing</a> as a starting point. If the room gains excessive heat through the roof or walls, also check the practical options in our <a href="/guides/home-insulation-basics/">home insulation guide</a>.</p>
+
+  <CommercialProductBlock
+    guidePath="/guides/portable-air-conditioners-australia/"
+    title="Window sealing and room monitoring worth comparing"
+    intro="First confirm the window type, opening perimeter, hose route and the conditions in the room before buying anything. If an outward-opening window still needs a removable exhaust seal, or you need real temperature and humidity readings to judge performance, compare these options against the exact fit and display limits below."
+  />
 
   <h2>Portable does not mean quiet</h2>
   <p>The compressor, fan and other major components of a portable air conditioner are inside the room with you.</p>
