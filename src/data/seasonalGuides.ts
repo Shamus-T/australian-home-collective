@@ -163,6 +163,16 @@ export const seasonalSections = [
       },
       {
         status: "published",
+        title: "Spring Home Maintenance Checklist",
+        description:
+          "Check gutters, windows, cooling, moisture, smoke alarms and outdoor areas before warmer weather arrives.",
+        href: "/guides/spring-home-maintenance-checklist/",
+        image: "/images/spring-home-maintenance-checklist.webp",
+        imageAlt:
+          "An Australian homeowner inspecting gutters, windows and flyscreens from ground level on a mild spring morning",
+      },
+      {
+        status: "published",
         title: "Outdoor Entertaining Area Guide",
         description:
           "Plan seating, shade, lighting, storage and circulation before buying products for an outdoor entertaining space.",
