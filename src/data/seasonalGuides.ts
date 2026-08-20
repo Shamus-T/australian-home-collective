@@ -173,6 +173,16 @@ export const seasonalSections = [
       },
       {
         status: "published",
+        title: "The 20-Minute Spring Reset",
+        description:
+          "Choose one small spring job to make a drawer, shelf, surface or everyday area feel easier to use.",
+        href: "/guides/20-minute-spring-reset/",
+        image: "/images/20-minute-spring-reset.webp",
+        imageAlt:
+          "An open kitchen drawer and a few everyday items being sorted on a bench in an ordinary Australian home",
+      },
+      {
+        status: "published",
         title: "Outdoor Entertaining Area Guide",
         description:
           "Plan seating, shade, lighting, storage and circulation before buying products for an outdoor entertaining space.",
