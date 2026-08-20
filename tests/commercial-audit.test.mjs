@@ -40,6 +40,16 @@ function validProduct() {
     recallSafetyStatus: "clear",
     lastReviewedOn: today,
     approvedForAffiliateUse: true,
+    affiliateValidation: {
+      checkedOn: today,
+      destinationStatus: "reachable",
+      productIdentityStatus: "verified",
+      australianAvailabilityStatus: "in-stock",
+      listingStatus: "unchanged",
+      specificationsStatus: "matched",
+      safetyComplianceStatus: "not-applicable",
+      trackingStatus: "verified",
+    },
     testingStatus: "research-only",
     testingNotes: "",
     drawbacks: ["May not suit unusually deep pantry shelves."],
@@ -53,7 +63,10 @@ function validProduct() {
       sourceRecord("owner-feedback", 3),
       sourceRecord("australian-availability-support", 4),
       sourceRecord("regulator-recall-check", 5),
-      sourceRecord("seller-fulfilment", 6),
+      {
+        ...sourceRecord("seller-fulfilment", 6),
+        sourceUrl: "https://www.amazon.com.au/dp/B000000000?tag=ahc07-22",
+      },
     ],
   };
 }
@@ -70,7 +83,9 @@ function runAudit(productMutator, catalogueMutator = () => {}) {
   companionProduct.destinationUrl = "https://www.amazon.com.au/dp/B000000001?tag=ahc07-22";
   companionProduct.sourceRecords = companionProduct.sourceRecords.map((source, index) => ({
     ...source,
-    sourceUrl: "https://example.com/companion-evidence/" + index,
+    sourceUrl: source.sourceType === "seller-fulfilment"
+      ? companionProduct.destinationUrl
+      : "https://example.com/companion-evidence/" + index,
   }));
   catalogue.enabledGuidePaths = [product.guidePath];
   catalogue.products = [product, companionProduct];
@@ -124,6 +139,84 @@ test("the audit rejects an Amazon affiliate URL without a canonical ASIN path", 
   });
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /canonical Amazon Australia \/dp\/ASIN destination/);
+});
+
+test("the audit rejects an affiliate product without a product-validity check", () => {
+  const result = runAudit((product) => {
+    delete product.affiliateValidation;
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /affiliateValidation must record the current product-validity check/);
+});
+
+for (const scenario of [
+  {
+    name: "a product identity mismatch",
+    mutate(validation) {
+      validation.productIdentityStatus = "mismatch";
+    },
+    expected: /intended product identity and model or variant/,
+  },
+  {
+    name: "a product that is unavailable to Australian customers",
+    mutate(validation) {
+      validation.australianAvailabilityStatus = "unavailable";
+    },
+    expected: /currently in stock or available to order for Australian customers/,
+  },
+  {
+    name: "a materially changed retailer listing",
+    mutate(validation) {
+      validation.listingStatus = "materially-changed";
+    },
+    expected: /materially changed or unverified retailer listing/,
+  },
+  {
+    name: "listing specifications that no longer match AHC copy",
+    mutate(validation) {
+      validation.specificationsStatus = "mismatch";
+    },
+    expected: /listing specifications match the AHC copy/,
+  },
+  {
+    name: "unverified applicable safety or compliance claims",
+    mutate(validation) {
+      validation.safetyComplianceStatus = "unverified";
+    },
+    expected: /safety and compliance claims match current evidence/,
+  },
+  {
+    name: "unverified affiliate tracking",
+    mutate(validation) {
+      validation.trackingStatus = "unverified";
+    },
+    expected: /affiliate tracking is verified/,
+  },
+]) {
+  test("the audit rejects " + scenario.name, () => {
+    const result = runAudit((product) => scenario.mutate(product.affiliateValidation));
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, scenario.expected);
+  });
+}
+
+test("the audit requires affiliate validation on the current product review date", () => {
+  const result = runAudit((product) => {
+    product.affiliateValidation.checkedOn = "2026-01-01";
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /completed on the current lastReviewedOn date/);
+});
+
+test("the audit requires current evidence for the exact affiliate destination", () => {
+  const result = runAudit((product) => {
+    const sellerRecord = product.sourceRecords.find(
+      (source) => source.sourceType === "seller-fulfilment",
+    );
+    sellerRecord.sourceUrl = "https://www.amazon.com.au/dp/B000000099?tag=ahc07-22";
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /seller-fulfilment record for the exact affiliate destination/);
 });
 
 test("the audit rejects an enabled guide with fewer than two approved products", () => {

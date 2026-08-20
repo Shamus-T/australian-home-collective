@@ -37,6 +37,33 @@ export type AffiliateNetwork =
   | "direct"
   | "other";
 
+export type AffiliateDestinationStatus = "reachable" | "unreachable";
+
+export type AffiliateProductIdentityStatus = "verified" | "mismatch" | "unverified";
+
+export type AffiliateAustralianAvailabilityStatus =
+  | "in-stock"
+  | "available-to-order"
+  | "temporarily-unavailable"
+  | "unavailable"
+  | "unknown";
+
+export type AffiliateListingStatus =
+  | "baseline-recorded"
+  | "unchanged"
+  | "materially-changed"
+  | "unverified";
+
+export type AffiliateSpecificationStatus = "matched" | "mismatch" | "unverified";
+
+export type AffiliateSafetyComplianceStatus =
+  | "matched"
+  | "not-applicable"
+  | "mismatch"
+  | "unverified";
+
+export type AffiliateTrackingStatus = "verified" | "invalid" | "unverified";
+
 export interface ProductSourceRecord {
   sourceType: ProductSourceType;
   title: string;
@@ -49,6 +76,17 @@ export interface ProductSourceRecord {
 export interface ProductSuitability {
   suits: string[];
   mayNotSuit: string[];
+}
+
+export interface AffiliateProductValidation {
+  checkedOn: string;
+  destinationStatus: AffiliateDestinationStatus;
+  productIdentityStatus: AffiliateProductIdentityStatus;
+  australianAvailabilityStatus: AffiliateAustralianAvailabilityStatus;
+  listingStatus: AffiliateListingStatus;
+  specificationsStatus: AffiliateSpecificationStatus;
+  safetyComplianceStatus: AffiliateSafetyComplianceStatus;
+  trackingStatus: AffiliateTrackingStatus;
 }
 
 export interface AffiliateProgramConfig {
@@ -74,6 +112,7 @@ export interface CommercialProduct {
   recallSafetyStatus: RecallSafetyStatus;
   lastReviewedOn: string | null;
   approvedForAffiliateUse: boolean;
+  affiliateValidation: AffiliateProductValidation | null;
   testingStatus: ProductTestingStatus;
   testingNotes: string;
   drawbacks: string[];
@@ -83,7 +122,7 @@ export interface CommercialProduct {
 
 export interface CommercialProductCatalogue {
   $schema: string;
-  version: 2;
+  version: 3;
   updatedOn: string;
   reviewIntervalDays: number;
   affiliatePrograms: Partial<Record<AffiliateNetwork, AffiliateProgramConfig>>;

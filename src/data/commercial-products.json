@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
-  "version": 2,
-  "updatedOn": "2026-08-19",
+  "version": 3,
+  "updatedOn": "2026-08-20",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -66,6 +66,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-04",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -143,6 +153,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-04",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -228,6 +248,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-04",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -305,6 +335,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-04",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -382,6 +422,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-04",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -467,6 +517,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-04",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -544,6 +604,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-04",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -621,6 +691,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-04",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -698,6 +778,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-04",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -775,6 +865,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -860,6 +960,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -945,6 +1055,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1030,6 +1150,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1115,6 +1245,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1200,6 +1340,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1293,6 +1443,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1386,6 +1546,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1479,6 +1649,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1572,6 +1752,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1665,6 +1855,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-17",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1758,6 +1958,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1832,6 +2042,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1906,6 +2126,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -1980,6 +2210,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2054,6 +2294,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2128,6 +2378,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2202,6 +2462,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2276,6 +2546,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2350,6 +2630,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2424,6 +2714,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2498,6 +2798,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2572,6 +2882,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2646,6 +2966,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2720,6 +3050,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2794,6 +3134,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2868,6 +3218,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -2942,6 +3302,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3016,6 +3386,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3090,6 +3470,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3164,6 +3554,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3238,6 +3638,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3312,6 +3722,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3386,6 +3806,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3460,6 +3890,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3534,6 +3974,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3608,6 +4058,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3682,6 +4142,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3756,6 +4226,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3830,6 +4310,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3904,6 +4394,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -3978,6 +4478,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4052,6 +4562,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4126,6 +4646,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4200,6 +4730,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4274,6 +4814,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4348,6 +4898,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4422,6 +4982,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4496,6 +5066,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4570,6 +5150,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4644,6 +5234,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4718,6 +5318,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4792,6 +5402,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4866,6 +5486,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -4940,6 +5570,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5014,6 +5654,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5088,6 +5738,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5162,6 +5822,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5236,6 +5906,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5310,6 +5990,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5384,6 +6074,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5458,6 +6158,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-19",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-19",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5533,6 +6243,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-19",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-19",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5608,6 +6328,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-19",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-19",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5683,6 +6413,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-19",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-19",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5766,6 +6506,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-19",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-19",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
@@ -5841,6 +6591,16 @@
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-19",
       "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-19",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [

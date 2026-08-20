@@ -22,7 +22,10 @@ The production build runs both commercial audits as part of its gate. Product ca
 in src/data/commercial-products.json, which is governed by the adjacent JSON schema and the public
 AHC Product Research methodology. An approved record expires 180 days after its lastReviewedOn
 date. Affiliate URLs, including the configured Amazon Australia tracking tag, must stay in the
-central registry rather than being hard-coded into guides.
+central registry rather than being hard-coded into guides. Each approved affiliate record also
+needs a same-date product-validity check covering the exact product/model where published,
+Australian stock or order availability, material listing changes, specification consistency,
+applicable safety/compliance claims and tracking integrity; URL reachability alone is insufficient.
 
 ## Production deployment
 

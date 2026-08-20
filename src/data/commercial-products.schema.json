@@ -15,7 +15,7 @@
   ],
   "properties": {
     "$schema": { "type": "string" },
-    "version": { "const": 2 },
+    "version": { "const": 3 },
     "updatedOn": { "type": "string", "format": "date" },
     "reviewIntervalDays": { "type": "integer", "minimum": 1, "maximum": 365 },
     "affiliatePrograms": {
@@ -71,6 +71,7 @@
         "recallSafetyStatus",
         "lastReviewedOn",
         "approvedForAffiliateUse",
+        "affiliateValidation",
         "testingStatus",
         "testingNotes",
         "drawbacks",
@@ -118,6 +119,12 @@
           ]
         },
         "approvedForAffiliateUse": { "type": "boolean" },
+        "affiliateValidation": {
+          "anyOf": [
+            { "$ref": "#/$defs/affiliateValidation" },
+            { "type": "null" }
+          ]
+        },
         "testingStatus": { "enum": ["research-only", "hands-on-tested"] },
         "testingNotes": { "type": "string" },
         "drawbacks": { "$ref": "#/$defs/stringList" },
@@ -157,6 +164,42 @@
             }
           }
         }
+      }
+    },
+    "affiliateValidation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "checkedOn",
+        "destinationStatus",
+        "productIdentityStatus",
+        "australianAvailabilityStatus",
+        "listingStatus",
+        "specificationsStatus",
+        "safetyComplianceStatus",
+        "trackingStatus"
+      ],
+      "properties": {
+        "checkedOn": { "type": "string", "format": "date" },
+        "destinationStatus": { "enum": ["reachable", "unreachable"] },
+        "productIdentityStatus": { "enum": ["verified", "mismatch", "unverified"] },
+        "australianAvailabilityStatus": {
+          "enum": [
+            "in-stock",
+            "available-to-order",
+            "temporarily-unavailable",
+            "unavailable",
+            "unknown"
+          ]
+        },
+        "listingStatus": {
+          "enum": ["baseline-recorded", "unchanged", "materially-changed", "unverified"]
+        },
+        "specificationsStatus": { "enum": ["matched", "mismatch", "unverified"] },
+        "safetyComplianceStatus": {
+          "enum": ["matched", "not-applicable", "mismatch", "unverified"]
+        },
+        "trackingStatus": { "enum": ["verified", "invalid", "unverified"] }
       }
     }
   }

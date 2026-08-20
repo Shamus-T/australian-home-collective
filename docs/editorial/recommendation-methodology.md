@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.2 |
+| Version | 1.3 |
 | Status | Active; published on website |
 | Document type | Internal methodology with a public summary |
 | Owner | Australian Home Collective |
-| Version date | 5 August 2026 |
+| Version date | 20 August 2026 |
 | Published route | https://australianhomecollective.com.au/how-we-select-products/ |
 
 ## Purpose
@@ -26,6 +26,23 @@ A research-supported assessment draws on evidence from:
 - recurring themes across a meaningful body of owner feedback;
 - Australian availability, warranty support, service access and fulfilment; and
 - Australian regulator, warning and recall checks where relevant.
+
+For an affiliate placement, the review also checks the exact retailer listing rather than treating
+a reachable URL as sufficient. The recorded validation must establish that:
+
+- the destination still represents the intended product and the exact model or variant where the
+  retailer or manufacturer publishes one;
+- the product is currently in stock or available to order for Australian customers;
+- the listing has not been replaced or materially changed since the recorded baseline or previous
+  review;
+- relevant listing and manufacturer specifications still match the AHC assessment;
+- any safety or compliance claims used by AHC still match current evidence, or the review records
+  that no such claim is made; and
+- the configured affiliate tracking remains intact.
+
+The exact affiliate destination, current Australian availability evidence and current manufacturer
+evidence must be recorded on the same date as the product review. A temporarily unavailable,
+unavailable, mismatched or unverified product cannot remain approved for affiliate placement.
 
 Manufacturer material may verify specifications but does not independently establish quality. A capable expert or technical review strengthens an assessment but is not a mandatory source category: shallow, poorly evidenced or irrelevant reviews should not determine the outcome. Retailer rankings, star averages, bestseller labels and review counts are not proof of suitability.
 
@@ -52,6 +69,8 @@ A product cannot receive promotional placement while any of these conditions app
 - misleading or materially unverifiable claims;
 - suspicious, overly dependent or insufficient evidence;
 - an unsuitable seller, delivery or fulfilment route;
+- a retailer listing that is unavailable to Australian customers, has materially changed or no
+  longer represents the intended product;
 - low-confidence evidence; or
 - a poor fit for the guide and intended reader.
 
@@ -80,6 +99,10 @@ Only a **Research-supported option** may receive promotional affiliate placement
 
 Approved product records expire 180 days after the last-reviewed date. The product must be re-reviewed before it can continue to render after that date.
 
+The affiliate product-validity check is part of that review, not a separate URL-only check. It is
+also repeated sooner when stock, listing identity, product specifications, safety or compliance
+claims, fulfilment or tracking may have changed.
+
 A review happens sooner when material evidence emerges, including a recall, safety warning, specification change, support change, recurring reliability pattern, seller or fulfilment change, or product replacement. A product may be downgraded, paused or removed at any time.
 
 ## Commercial placement controls
@@ -94,6 +117,9 @@ The build must reject:
 - a record missing required research fields;
 - an approved product with an active recall or unresolved safety flag;
 - an expired approved review; and
+- an approved affiliate record without a same-date product-validity check confirming destination,
+  intended product identity, Australian order availability, listing continuity, specification
+  consistency, applicable safety/compliance claims and tracking;
 - pages missing the site-wide disclosure.
 
 Commercial relationships do not determine methodology or conclusions. The surrounding guidance must remain useful if the reader does not use an affiliate link.
@@ -112,6 +138,7 @@ We correct and update research when evidence, guidance, standards or reader need
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| 1.3 | 20 August 2026 | Replaced URL-only affiliate checks with a structured product-validity gate covering identity, Australian stock/order availability, listing continuity, specifications, relevant safety/compliance claims and tracking. |
 | 1.2 | 5 August 2026 | Added the active affiliate position, AHC Product Research outcomes, hard exclusions, 180-day review interval and build-enforced approval gate. |
 | 1.1 | 24 July 2026 | Added guide-topic selection, independent-evidence boundaries and pre-commercial controls for named products and links. |
 | 1.0 | 18 July 2026 | Initial recommendation methodology. |

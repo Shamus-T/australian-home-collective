@@ -31,6 +31,31 @@ const allowedSafetyStatuses = new Set([
 ]);
 const allowedTestingStatuses = new Set(["research-only", "hands-on-tested"]);
 const allowedNetworks = new Set(["amazon-australia", "commission-factory", "direct", "other"]);
+const allowedAffiliateDestinationStatuses = new Set(["reachable", "unreachable"]);
+const allowedAffiliateIdentityStatuses = new Set(["verified", "mismatch", "unverified"]);
+const allowedAffiliateAvailabilityStatuses = new Set([
+  "in-stock",
+  "available-to-order",
+  "temporarily-unavailable",
+  "unavailable",
+  "unknown",
+]);
+const allowedAffiliateListingStatuses = new Set([
+  "baseline-recorded",
+  "unchanged",
+  "materially-changed",
+  "unverified",
+]);
+const allowedAffiliateSpecificationStatuses = new Set(["matched", "mismatch", "unverified"]);
+const allowedAffiliateSafetyComplianceStatuses = new Set([
+  "matched",
+  "not-applicable",
+  "mismatch",
+  "unverified",
+]);
+const allowedAffiliateTrackingStatuses = new Set(["verified", "invalid", "unverified"]);
+const approvedAffiliateAvailabilityStatuses = new Set(["in-stock", "available-to-order"]);
+const approvedAffiliateListingStatuses = new Set(["baseline-recorded", "unchanged"]);
 const allowedSourceTypes = new Set([
   "manufacturer-specification",
   "manufacturer-warranty",
@@ -58,6 +83,7 @@ const requiredProductFields = [
   "recallSafetyStatus",
   "lastReviewedOn",
   "approvedForAffiliateUse",
+  "affiliateValidation",
   "testingStatus",
   "testingNotes",
   "drawbacks",
@@ -71,6 +97,16 @@ const requiredSourceFields = [
   "sourceUrl",
   "supports",
   "checkedOn",
+];
+const requiredAffiliateValidationFields = [
+  "checkedOn",
+  "destinationStatus",
+  "productIdentityStatus",
+  "australianAvailabilityStatus",
+  "listingStatus",
+  "specificationsStatus",
+  "safetyComplianceStatus",
+  "trackingStatus",
 ];
 const datePattern = /^\d{4}-\d{2}-\d{2}$/;
 const affiliateParameterPattern = /[?&](?:utm_[a-z]+|aff(?:iliate)?(?:_?id)?|ref|tag|clickid|subid)=/i;
@@ -348,7 +384,7 @@ function stringListIsValid(value, requireItems) {
 if (catalogue.$schema !== "./commercial-products.schema.json") {
   addError("Catalogue must reference ./commercial-products.schema.json.");
 }
-if (catalogue.version !== 2) addError("Catalogue version must be 2.");
+if (catalogue.version !== 3) addError("Catalogue version must be 3.");
 if (!isDate(catalogue.updatedOn)) addError("Catalogue updatedOn must be a valid YYYY-MM-DD date.");
 if (catalogue.reviewIntervalDays !== 180) {
   addError("Catalogue reviewIntervalDays must match the documented 180-day review interval.");
@@ -466,12 +502,51 @@ for (const [index, product] of products.entries()) {
     if (product.destinationUrl) {
       validateAffiliateTracking(product.destinationUrl, product.affiliateNetwork, prefix + ".destinationUrl");
     }
+    const validation = product.affiliateValidation;
+    if (!validation || typeof validation !== "object" || Array.isArray(validation)) {
+      addError(prefix + ".affiliateValidation must record the current product-validity check.");
+    } else {
+      for (const field of requiredAffiliateValidationFields) {
+        if (!Object.hasOwn(validation, field)) {
+          addError(prefix + ".affiliateValidation is missing \"" + field + "\".");
+        }
+      }
+      if (!isDate(validation.checkedOn)) {
+        addError(prefix + ".affiliateValidation.checkedOn must be a valid date.");
+      } else if (validation.checkedOn > today) {
+        addError(prefix + ".affiliateValidation.checkedOn cannot be in the future.");
+      }
+      if (!allowedAffiliateDestinationStatuses.has(validation.destinationStatus)) {
+        addError(prefix + ".affiliateValidation.destinationStatus is invalid.");
+      }
+      if (!allowedAffiliateIdentityStatuses.has(validation.productIdentityStatus)) {
+        addError(prefix + ".affiliateValidation.productIdentityStatus is invalid.");
+      }
+      if (!allowedAffiliateAvailabilityStatuses.has(validation.australianAvailabilityStatus)) {
+        addError(prefix + ".affiliateValidation.australianAvailabilityStatus is invalid.");
+      }
+      if (!allowedAffiliateListingStatuses.has(validation.listingStatus)) {
+        addError(prefix + ".affiliateValidation.listingStatus is invalid.");
+      }
+      if (!allowedAffiliateSpecificationStatuses.has(validation.specificationsStatus)) {
+        addError(prefix + ".affiliateValidation.specificationsStatus is invalid.");
+      }
+      if (!allowedAffiliateSafetyComplianceStatuses.has(validation.safetyComplianceStatus)) {
+        addError(prefix + ".affiliateValidation.safetyComplianceStatus is invalid.");
+      }
+      if (!allowedAffiliateTrackingStatuses.has(validation.trackingStatus)) {
+        addError(prefix + ".affiliateValidation.trackingStatus is invalid.");
+      }
+    }
   } else {
     if (product.affiliateNetwork !== null) {
       addError(prefix + ".affiliateNetwork must be null for a non-affiliate link.");
     }
     if (product.approvedForAffiliateUse) {
       addError(prefix + " cannot be approved for affiliate use when affiliate is false.");
+    }
+    if (product.affiliateValidation !== null) {
+      addError(prefix + ".affiliateValidation must be null for a non-affiliate link.");
     }
   }
 
@@ -539,6 +614,76 @@ for (const [index, product] of products.entries()) {
     }
     if (product.affiliate && product.approvedForAffiliateUse !== true) {
       addError(prefix + " is an approved affiliate product without explicit affiliate approval.");
+    }
+    if (product.affiliate) {
+      const validation = product.affiliateValidation;
+      if (!validation || typeof validation !== "object" || Array.isArray(validation)) {
+        addError(prefix + " cannot be approved without a complete affiliate product-validity check.");
+      } else {
+        if (validation.checkedOn !== product.lastReviewedOn) {
+          addError(prefix + ".affiliateValidation must be completed on the current lastReviewedOn date.");
+        }
+        if (validation.destinationStatus !== "reachable") {
+          addError(prefix + " cannot be approved while its affiliate destination is unreachable.");
+        }
+        if (validation.productIdentityStatus !== "verified") {
+          addError(
+            prefix
+            + " cannot be approved until the intended product identity and model or variant, where published, are verified.",
+          );
+        }
+        if (!approvedAffiliateAvailabilityStatuses.has(validation.australianAvailabilityStatus)) {
+          addError(
+            prefix
+            + " cannot be approved unless the product is currently in stock or available to order for Australian customers.",
+          );
+        }
+        if (!approvedAffiliateListingStatuses.has(validation.listingStatus)) {
+          addError(prefix + " cannot be approved with a materially changed or unverified retailer listing.");
+        }
+        if (validation.specificationsStatus !== "matched") {
+          addError(prefix + " cannot be approved until relevant listing specifications match the AHC copy.");
+        }
+        if (!["matched", "not-applicable"].includes(validation.safetyComplianceStatus)) {
+          addError(
+            prefix
+            + " cannot be approved until applicable safety and compliance claims match current evidence.",
+          );
+        }
+        if (validation.trackingStatus !== "verified") {
+          addError(prefix + " cannot be approved until affiliate tracking is verified.");
+        }
+
+        const currentValidationSources = records.filter(
+          (source) => source.checkedOn === validation.checkedOn,
+        );
+        const exactListingRecords = currentValidationSources.filter(
+          (source) => source.sourceType === "seller-fulfilment"
+            && source.sourceUrl === product.destinationUrl,
+        );
+        if (exactListingRecords.length === 0) {
+          addError(
+            prefix
+            + " needs a current seller-fulfilment record for the exact affiliate destination.",
+          );
+        }
+        if (!currentValidationSources.some(
+          (source) => source.sourceType === "australian-availability-support",
+        )) {
+          addError(prefix + " needs current Australian availability evidence for its affiliate validation.");
+        }
+        if (!currentValidationSources.some(
+          (source) => ["manufacturer-specification", "manufacturer-warranty"].includes(source.sourceType),
+        )) {
+          addError(prefix + " needs current manufacturer evidence for its specification comparison.");
+        }
+        if (
+          validation.safetyComplianceStatus === "matched"
+          && !currentValidationSources.some((source) => source.sourceType === "regulator-recall-check")
+        ) {
+          addError(prefix + " needs current safety or compliance evidence for its verified claims.");
+        }
+      }
     }
     if (!stringListIsValid(product.drawbacks, true)) {
       addError(prefix + ".drawbacks needs at least one material drawback before approval.");
