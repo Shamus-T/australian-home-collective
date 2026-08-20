@@ -1,7 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GuideCard from "../components/GuideCard.astro";
-import { seasonalLanding } from "../data/seasonalGuides";
+import {
+  seasonalSections,
+  type PublishedSeasonalGuide,
+} from "../data/seasonalGuides";
 
 const categories = [
   {
@@ -76,64 +79,80 @@ const categories = [
   },
 ];
 
+function requireSeasonalGuide(
+  seasonId: "spring" | "summer",
+  href: string,
+): PublishedSeasonalGuide {
+  const section = seasonalSections.find((season) => season.id === seasonId);
+  const guide = section?.guides.find((item) => item.status === "published" && item.href === href);
+
+  if (!guide || guide.status !== "published") {
+    throw new Error(`Missing published ${seasonId} guide: ${href}`);
+  }
+
+  return guide;
+}
+
+const springFeature = requireSeasonalGuide(
+  "spring",
+  "/guides/spring-home-maintenance-checklist/",
+);
+
+const springGuides = [
+  requireSeasonalGuide("spring", "/guides/spring-cleaning-checklist/"),
+  requireSeasonalGuide("spring", "/guides/20-minute-spring-reset/"),
+  requireSeasonalGuide(
+    "spring",
+    "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
+  ),
+];
+
 const featuredGuides = [
   {
-    href: "/guides/pantry-storage-ideas-australian-kitchens/",
-    title: "Pantry Storage Ideas for Australian Kitchens",
-    description: "Fix deep shelves, hidden food and packet clutter without buying a full set of matching containers.",
-    meta: "Kitchen",
-    image: "/images/guides/pantry-storage-navy-walk-in.webp",
-    imageAlt: "A compact walk-in pantry with open shelves, navy drawers and a clear aisle.",
-    imagePosition: "68% center",
+    href: "/guides/gutter-maintenance-guide/",
+    title: "Gutter Maintenance Guide",
+    description: "Check what needs attention before spring rain or summer storms make a small problem harder to manage.",
+    meta: "Maintenance",
   },
   {
-    href: "/guides/everyday-kitchen-essentials-australian-homes/",
-    title: "Everyday Kitchen Essentials for Australian Homes",
-    description: "Cookware, utensils, food storage and cleaning basics that earn a spot in daily use.",
-    meta: "Kitchen",
-    image: "/images/kitchen.webp",
-    imageAlt: "A warm kitchen with timber cabinetry, green accents and practical everyday kitchen storage.",
+    href: "/guides/lawn-care-basics/",
+    title: "Lawn Care Basics",
+    description: "Start with the lawn, local climate and maintenance needs before choosing equipment or treatments.",
+    meta: "Outdoor & Garden",
   },
   {
-    href: "/guides/bedroom-storage-ideas-small-australian-rooms/",
-    title: "Bedroom Storage Ideas for Small Australian Rooms",
-    description: "Wardrobe, under-bed and bedside ideas for rooms that need to stay calm.",
-    meta: "Bedroom",
-    image: "/images/bedroom.webp",
-    imageAlt: "A calm small bedroom with soft bedding, warm light and practical storage.",
+    href: "/guides/garden-tool-care-and-seasonal-outdoor-reset/",
+    title: "Garden Tool Care and Seasonal Outdoor Reset",
+    description: "Sort, clean and store outdoor tools before buying replacements or adding more storage.",
+    meta: "Outdoor & Garden",
   },
   {
-    href: "/guides/bathroom-essentials-australian-homes/",
-    title: "Bathroom Essentials for Australian Homes",
-    description: "Towels, shower basics, vanity items and cleaning gear for everyday bathrooms.",
-    meta: "Bathroom",
-    image: "/images/bathroom.webp",
-    imageAlt: "A tidy bathroom with warm finishes, soft light and practical everyday storage.",
+    href: "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
+    title: "Outdoor Storage Ideas for Australian Homes",
+    description: "Plan weather exposure, access and what genuinely needs storing before choosing boxes or cabinets.",
+    meta: "Outdoor & Garden",
   },
   {
-    href: "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
-    title: "Laundry Dimensions Australia",
-    description: "Check washer, dryer, cavity, door and lid dimensions before planning cabinetry or storage.",
+    href: "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
+    title: "Cleaning Product Storage",
+    description: "Sort products, check child and pet access, and choose a safe storage zone before adding organisers.",
     meta: "Laundry",
-    image: "/images/laundry.webp",
-    imageAlt: "A practical laundry room with warm finishes, baskets and tidy everyday storage.",
   },
   {
-    href: "/guides/pet-essentials-for-australian-homes/",
-    title: "Pet Essentials for Australian Homes: What to Buy First",
-    description: "Build a short first list around feeding, rest, cleaning and necessary travel, then see what can wait.",
-    meta: "Pets",
-    image: "/images/guides/pet-essentials-home-zones.webp",
-    imageAlt: "A dog resting in a practical pet zone with bedding, a lead, grooming supplies and clear household access",
+    href: "/guides/best-kitchen-storage-ideas-small-australian-homes/",
+    title: "Kitchen Storage Ideas for Small Australian Homes",
+    description: "Reset bench, drawer and cupboard space around the way the kitchen is actually used.",
+    meta: "Kitchen",
   },
-  {
-    href: "/guides/nursery-essentials-for-australian-homes/",
-    title: "Nursery Essentials for Australian Homes",
-    description: "Sleep, feeding, changing, bathing and nursery choices that suit your room.",
-    meta: "Nursery & Kids",
-    image: "/images/Nursery-kids.webp",
-    imageAlt: "A tidy nursery room with timber furniture, soft lighting and practical baby storage.",
-  },
+];
+
+const summerPlanningGuides = [
+  requireSeasonalGuide("summer", "/guides/air-conditioning-buying-guide/"),
+  requireSeasonalGuide("summer", "/guides/ceiling-fans-before-you-buy/"),
+  requireSeasonalGuide(
+    "summer",
+    "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+  ),
 ];
 ---
 
@@ -169,34 +188,83 @@ const featuredGuides = [
     </div>
   </section>
 
-  <div class="section soft">
-    <div class="container grid three">
-      <article class="card feature-card">
-        <p class="eyebrow">Australian households</p>
-        <h2>Advice that starts with the home</h2>
-        <p>
-          Guides for kitchens, laundries, bathrooms, bedrooms, pets, nurseries and the rooms
-          everyone ends up sharing.
-        </p>
+  <section class="section spring-section" data-homepage-seasonal-feature>
+    <div class="container section-heading spring-heading">
+      <div>
+        <p class="eyebrow">Spring 2026</p>
+        <h2>Spring at home</h2>
+      </div>
+      <p>
+        Practical cleaning, maintenance and outdoor preparation for the warmer months ahead.
+      </p>
+    </div>
+
+    <div class="container">
+      <a class="spring-lead-card" href={springFeature.href} data-spring-primary-guide>
+        <img
+          data-seasonal-feature-image
+          src={springFeature.image}
+          alt={springFeature.imageAlt}
+          width="1536"
+          height="1024"
+          loading="lazy"
+          draggable="false"
+          style={`object-position: ${springFeature.imagePosition ?? "center"};`}
+        />
+        <div class="spring-lead-copy">
+          <p class="eyebrow">Featured spring guide</p>
+          <h3>{springFeature.title}</h3>
+          <p>{springFeature.description}</p>
+          <p class="spring-download-note">Includes a free printable checklist.</p>
+          <span class="text-link">
+            Read the checklist
+            <span aria-hidden="true">&rarr;</span>
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <div class="container grid three home-guide-grid spring-guide-grid">
+      {springGuides.map((guide) => (
+        <GuideCard
+          href={guide.href}
+          title={guide.title}
+          description={guide.description}
+          meta="Spring"
+          image={guide.image}
+          imageAlt={guide.imageAlt}
+          imagePosition={guide.imagePosition}
+          preferProvidedMetadata
+        />
+      ))}
+    </div>
+
+    <div class="container spring-all-guides">
+      <a class="button secondary" href="/seasonal/#spring" data-spring-hub-link>
+        Explore all spring guides
+      </a>
+    </div>
+  </section>
+
+  <section class="section home-promise" data-homepage-promise aria-label="The Australian Home Collective approach">
+    <div class="container promise-grid">
+      <article class="promise-item">
+        <p class="eyebrow">Start with the home</p>
+        <h2>Room and routine first</h2>
+        <p>Begin with the space, the people using it and the job that needs solving.</p>
       </article>
-      <article class="card feature-card">
-        <p class="eyebrow">Before spending</p>
-        <h2>Work out what matters first</h2>
-        <p>
-          Room fit, cleaning effort and the way something will be used usually matter more
-          than how it looks in a product photo.
-        </p>
+      <article class="promise-item">
+        <p class="eyebrow">Measure before buying</p>
+        <h2>Check fit and upkeep</h2>
+        <p>Access, cleaning, maintenance and everyday usability matter.</p>
       </article>
-      <article class="card feature-card">
-        <p class="eyebrow">A considered approach</p>
-        <h2>Buy only when it helps</h2>
-        <p>
-          Sometimes a small change, a better arrangement or something you already own can
-          solve the problem. When a purchase would genuinely help, we explain what to look for.
-        </p>
+      <article class="promise-item">
+        <p class="eyebrow">Buy only when it helps</p>
+        <h2>Use what works</h2>
+        <p>Sometimes the best answer is a better arrangement, not another product.</p>
       </article>
     </div>
-  </div>
+  </section>
 
   <section class="section" data-homepage-category-grid>
     <div class="container section-heading">
@@ -204,11 +272,9 @@ const featuredGuides = [
         <p class="eyebrow">Browse by category</p>
         <h2>Explore by area of the home</h2>
       </div>
-      <p>
-        Pick the room or household job that is bothering you now.
-      </p>
+      <p>Pick the room or household job that is bothering you now.</p>
     </div>
-    <div class="container grid three">
+    <div class="container grid home-category-grid">
       {categories.map((category) => (
         <GuideCard
           href={category.href}
@@ -222,53 +288,45 @@ const featuredGuides = [
     </div>
   </section>
 
-  <section class="section seasonal-feature-section" data-homepage-seasonal-feature>
-    <div class="container">
-      <a class="seasonal-feature" href={seasonalLanding.href}>
-        <img
-          data-seasonal-feature-image
-          src={seasonalLanding.image}
-          alt={seasonalLanding.imageAlt}
-          width="1535"
-          height="1024"
-          loading="lazy"
-          draggable="false"
-          style={`object-position: ${seasonalLanding.imagePosition};`}
-        />
-        <div class="seasonal-feature-copy">
-          <p class="eyebrow">{seasonalLanding.eyebrow}</p>
-          <h2>{seasonalLanding.heading}</h2>
-          <p>{seasonalLanding.description}</p>
-          <span class="seasonal-feature-cta">
-            {seasonalLanding.callToAction}
-            <span aria-hidden="true">&rarr;</span>
-          </span>
-        </div>
-      </a>
-    </div>
-  </section>
-
   <section class="section soft" data-featured-guides="homepage">
     <div class="container section-heading">
       <div>
-        <p class="eyebrow">Guide library</p>
-        <h2>A good place to begin</h2>
+        <p class="eyebrow">Seasonal priorities</p>
+        <h2>Useful right now</h2>
       </div>
-      <p>
-        A selection from around the home, including kitchens, laundry, pets, bedrooms,
-        bathrooms and family routines.
-      </p>
+      <p>Small resets and maintenance jobs worth tackling while the weather is mild.</p>
     </div>
-    <div class="container grid three">
+    <div class="container grid three home-guide-grid">
       {featuredGuides.map((guide) => (
         <GuideCard
           href={guide.href}
           title={guide.title}
           description={guide.description}
           meta={guide.meta}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="section summer-planning" data-homepage-summer-planning>
+    <div class="container section-heading">
+      <div>
+        <p class="eyebrow">Plan ahead</p>
+        <h2>Before summer arrives</h2>
+      </div>
+      <p>Research cooling, airflow and shade before the first heatwave makes the decision urgent.</p>
+    </div>
+    <div class="container grid three home-guide-grid">
+      {summerPlanningGuides.map((guide) => (
+        <GuideCard
+          href={guide.href}
+          title={guide.title}
+          description={guide.description}
+          meta="Summer planning"
           image={guide.image}
           imageAlt={guide.imageAlt}
           imagePosition={guide.imagePosition}
+          preferProvidedMetadata
         />
       ))}
     </div>
@@ -301,135 +359,254 @@ const featuredGuides = [
 </BaseLayout>
 
 <style>
-  .seasonal-feature-section {
-    padding-top: 12px;
+  .spring-section {
+    background:
+      radial-gradient(circle at 88% 8%, rgba(212, 160, 23, 0.14), transparent 24rem),
+      linear-gradient(180deg, #f8f2e7 0%, rgba(167, 182, 154, 0.28) 100%);
+    border-block: 1px solid var(--line);
   }
 
-  .seasonal-feature {
-    position: relative;
-    isolation: isolate;
-    display: flex;
-    min-height: clamp(390px, 44vw, 520px);
-    align-items: flex-end;
+  .spring-heading {
+    align-items: center;
+  }
+
+  .spring-lead-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
     overflow: hidden;
-    border: 1px solid rgba(63, 77, 63, 0.22);
+    border: 1px solid rgba(63, 77, 63, 0.28);
     border-radius: 10px;
-    background: var(--green-dark);
+    background: var(--paper);
     box-shadow: var(--shadow);
-    color: var(--color-cream);
+    color: var(--ink);
     text-decoration: none;
     transition:
       box-shadow 180ms ease,
       transform 180ms ease;
   }
 
-  .seasonal-feature::after {
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    background:
-      linear-gradient(
-        90deg,
-        rgba(20, 30, 23, 0.9) 0%,
-        rgba(20, 30, 23, 0.76) 35%,
-        rgba(20, 30, 23, 0.34) 68%,
-        rgba(20, 30, 23, 0.14) 100%
-      ),
-      linear-gradient(0deg, rgba(20, 30, 23, 0.48), transparent 55%);
-    content: "";
-  }
-
-  .seasonal-feature img {
-    position: absolute;
-    z-index: -2;
-    inset: 0;
+  .spring-lead-card img {
     width: 100%;
     height: 100%;
+    min-height: 410px;
     object-fit: cover;
     transition: transform 240ms ease;
   }
 
-  .seasonal-feature-copy {
-    width: min(620px, 76%);
-    padding: clamp(28px, 5vw, 58px);
+  .spring-lead-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(30px, 4vw, 48px);
+    background:
+      linear-gradient(145deg, rgba(255, 253, 247, 0.98), rgba(234, 220, 196, 0.64));
   }
 
-  .seasonal-feature-copy .eyebrow {
-    color: var(--color-wattle);
-  }
-
-  .seasonal-feature-copy h2,
-  .seasonal-feature-copy p {
-    color: var(--color-cream);
-    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.32);
-  }
-
-  .seasonal-feature-copy h2 {
+  .spring-lead-copy h3 {
     margin-bottom: 16px;
-    font-size: clamp(2rem, 5vw, 3.45rem);
+    font-size: clamp(2rem, 3.4vw, 3rem);
+    line-height: 1.06;
   }
 
-  .seasonal-feature-copy > p:last-of-type {
-    margin-bottom: 24px;
-    font-size: clamp(1.05rem, 2vw, 1.2rem);
+  .spring-lead-copy > p:not(.eyebrow) {
+    margin: 0 0 18px;
   }
 
-  .seasonal-feature-cta {
+  .spring-lead-copy .spring-download-note {
+    color: var(--green-dark);
+    font-size: 0.98rem;
+    font-weight: 700;
+  }
+
+  .text-link {
     display: inline-flex;
+    width: fit-content;
     min-height: 44px;
     align-items: center;
     gap: 10px;
     border-bottom: 2px solid var(--color-wattle);
-    color: var(--color-cream);
+    color: var(--green-dark);
     font-weight: 800;
   }
 
-  .seasonal-feature:hover {
-    box-shadow: 0 18px 42px rgba(31, 42, 33, 0.2);
+  .spring-lead-card:hover {
+    box-shadow: 0 20px 46px rgba(31, 42, 33, 0.18);
+    color: var(--ink);
     transform: translateY(-2px);
   }
 
-  .seasonal-feature:hover img {
+  .spring-lead-card:hover img {
     transform: scale(1.015);
   }
 
-  .seasonal-feature:hover .seasonal-feature-cta {
+  .spring-lead-card:hover .text-link {
+    color: #7a5b05;
+  }
+
+  .spring-guide-grid {
+    margin-top: 20px;
+  }
+
+  .spring-all-guides {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+
+  .home-promise {
+    padding-block: 34px;
+    background: var(--green-dark);
+  }
+
+  .promise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .promise-item {
+    padding: 2px 28px;
+  }
+
+  .promise-item + .promise-item {
+    border-left: 1px solid rgba(248, 241, 230, 0.24);
+  }
+
+  .promise-item:first-child {
+    padding-left: 0;
+  }
+
+  .promise-item:last-child {
+    padding-right: 0;
+  }
+
+  .promise-item .eyebrow {
     color: var(--color-wattle);
   }
 
-  .seasonal-feature:focus-visible {
-    outline: 4px solid var(--color-wattle);
-    outline-offset: 4px;
+  .promise-item h2,
+  .promise-item p:last-child {
+    color: var(--color-cream);
   }
 
-  @media (max-width: 700px) {
-    .seasonal-feature {
-      min-height: 440px;
+  .promise-item h2 {
+    margin-bottom: 8px;
+    font-size: clamp(1.3rem, 2vw, 1.65rem);
+  }
+
+  .promise-item p:last-child {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  :global(.grid.home-category-grid) {
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-guide-grid {
+    grid-auto-rows: 1fr;
+  }
+
+  .home-guide-grid :global(.guide-card.has-image a) {
+    min-height: 360px;
+  }
+
+  .home-guide-grid :global(.guide-card h3) {
+    min-height: 3.5em;
+    font-size: 1.38rem;
+  }
+
+  .home-guide-grid :global(.guide-card p:last-child) {
+    min-height: 5.1em;
+  }
+
+  .summer-planning {
+    background:
+      linear-gradient(180deg, rgba(255, 253, 247, 0.94), rgba(234, 220, 196, 0.38));
+  }
+
+  @media (min-width: 1100px) {
+    :global(.grid.home-category-grid) {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
     }
 
-    .seasonal-feature::after {
-      background:
-        linear-gradient(
-          0deg,
-          rgba(20, 30, 23, 0.94) 0%,
-          rgba(20, 30, 23, 0.75) 52%,
-          rgba(20, 30, 23, 0.24) 100%
-        );
+    .home-category-grid :global(.guide-card.has-image a) {
+      min-height: 380px;
+      padding: 20px 18px;
     }
 
-    .seasonal-feature-copy {
+    .home-category-grid :global(.category-card.has-image h3) {
+      font-size: clamp(1.5rem, 1.25rem + 0.45vw, 1.78rem);
+      line-height: 1.08;
+    }
+
+    .home-category-grid :global(.guide-card p:last-child) {
+      font-size: 0.97rem;
+      line-height: 1.48;
+    }
+  }
+
+  @media (max-width: 820px) {
+    .spring-lead-card {
+      grid-template-columns: 1fr;
+    }
+
+    .spring-lead-card img {
+      min-height: 300px;
+      max-height: 380px;
+    }
+
+    .promise-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .promise-item,
+    .promise-item:first-child,
+    .promise-item:last-child {
+      padding: 20px 0;
+    }
+
+    .promise-item + .promise-item {
+      border-top: 1px solid rgba(248, 241, 230, 0.24);
+      border-left: 0;
+    }
+
+    :global(.grid.home-category-grid) {
+      grid-template-columns: 1fr;
+    }
+
+    .home-guide-grid :global(.guide-card h3),
+    .home-guide-grid :global(.guide-card p:last-child) {
+      min-height: 0;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .spring-lead-copy {
+      padding: 26px 22px 30px;
+    }
+
+    .spring-lead-card img {
+      min-height: 250px;
+    }
+
+    .spring-all-guides {
+      justify-content: stretch;
+    }
+
+    .spring-all-guides .button {
       width: 100%;
-      padding: 28px 24px;
     }
 
-    .seasonal-feature-copy h2 {
-      font-size: clamp(1.9rem, 10vw, 2.5rem);
+    .home-guide-grid :global(.guide-card.has-image a) {
+      min-height: 320px;
     }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .seasonal-feature,
-    .seasonal-feature img {
+    .spring-lead-card,
+    .spring-lead-card img {
       transition: none;
     }
   }

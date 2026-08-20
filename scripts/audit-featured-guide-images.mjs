@@ -10,8 +10,8 @@ const sections = [
     file: path.join(distDirectory, "index.html"),
     marker: "homepage",
     label: "Homepage featured guides",
-    minimumCardCount: 7,
-    maximumCardCount: 7,
+    minimumCardCount: 6,
+    maximumCardCount: 6,
   },
   {
     file: path.join(distDirectory, "guides", "index.html"),

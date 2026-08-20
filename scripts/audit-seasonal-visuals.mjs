@@ -138,7 +138,7 @@ async function inspectLogoAsset(asset) {
   return { data, info, metadata, transparentPixelCount, partialAlphaPixelCount };
 }
 
-const { seasonalLanding, seasonalSections, publishedSeasonalGuides } =
+const { seasonalSections, publishedSeasonalGuides } =
   await loadSeasonalGuideData(root);
 const homepagePath = path.join(distRoot, "index.html");
 const seasonalPath = path.join(distRoot, "seasonal", "index.html");
@@ -163,28 +163,43 @@ const categoryFallbackImages = new Set(
 
 const categoryIndex = homepageHtml.search(/\bdata-homepage-category-grid\b/i);
 const seasonalFeatureIndex = homepageHtml.search(/\bdata-homepage-seasonal-feature\b/i);
+const promiseIndex = homepageHtml.search(/\bdata-homepage-promise\b/i);
 const featuredGuidesIndex = homepageHtml.search(/\bdata-featured-guides="homepage"/i);
+const summerPlanningIndex = homepageHtml.search(/\bdata-homepage-summer-planning\b/i);
 if (
-  categoryIndex < 0
-  || seasonalFeatureIndex <= categoryIndex
-  || featuredGuidesIndex <= seasonalFeatureIndex
+  seasonalFeatureIndex < 0
+  || promiseIndex <= seasonalFeatureIndex
+  || categoryIndex <= promiseIndex
+  || featuredGuidesIndex <= categoryIndex
+  || summerPlanningIndex <= featuredGuidesIndex
 ) {
   addFailure(
-    "Homepage Seasonal feature: expected it after Browse by category and before A good place to begin.",
+    "Homepage Seasonal feature: expected Spring at Home before the AHC promise, categories, "
+    + "Useful right now and Before summer arrives.",
   );
 }
 
+const springSection = seasonalSections.find((season) => season.id === "spring");
+const springPrimaryGuide = springSection?.guides.find(
+  (guide) => guide.status === "published"
+    && guide.href === "/guides/spring-home-maintenance-checklist/",
+);
 const homepageFeature = homepageHtml.match(
   /<section\b[^>]*\bdata-homepage-seasonal-feature\b[^>]*>([\s\S]*?)<\/section>/i,
 )?.[1] ?? "";
 if (!homepageFeature) {
   addFailure("Homepage Seasonal feature: marked feature section was not found.");
+} else if (!springPrimaryGuide || springPrimaryGuide.status !== "published") {
+  addFailure("Homepage Seasonal feature: shared spring maintenance guide data is missing.");
 } else {
-  const linkTag = homepageFeature.match(/<a\b[^>]*>/i)?.[0] ?? "";
+  const linkTag = homepageFeature.match(
+    /<a\b(?=[^>]*\bdata-spring-primary-guide\b)[^>]*>/i,
+  )?.[0] ?? "";
   const href = getAttribute(linkTag, "href");
-  if (href !== seasonalLanding.href) {
+  if (href !== springPrimaryGuide.href) {
     addFailure(
-      `Homepage Seasonal feature: link is "${href || "missing"}"; expected "${seasonalLanding.href}".`,
+      `Homepage Seasonal feature: primary link is "${href || "missing"}"; `
+      + `expected "${springPrimaryGuide.href}".`,
     );
   }
   const imageTags = [...homepageFeature.matchAll(/<img\b[^>]*>/gi)].map((match) => match[0]);
@@ -194,16 +209,16 @@ if (!homepageFeature) {
   if (!featureImage) {
     addFailure("Homepage Seasonal feature: feature image is missing.");
   } else {
-    if (featureSrc !== seasonalLanding.image) {
+    if (featureSrc !== springPrimaryGuide.image) {
       addFailure(
         `Homepage Seasonal feature: image is "${featureSrc || "missing"}"; `
-        + `shared seasonal data requires "${seasonalLanding.image}".`,
+        + `shared spring data requires "${springPrimaryGuide.image}".`,
       );
     }
-    if (featureAlt !== seasonalLanding.imageAlt) {
+    if (featureAlt !== springPrimaryGuide.imageAlt) {
       addFailure(
         `Homepage Seasonal feature: alt text is "${featureAlt || "missing"}"; `
-        + `shared seasonal data requires "${seasonalLanding.imageAlt}".`,
+        + `shared spring data requires "${springPrimaryGuide.imageAlt}".`,
       );
     }
     if (!getAttribute(featureImage, "width") || !getAttribute(featureImage, "height")) {
@@ -224,11 +239,33 @@ if (!homepageFeature) {
   const h2Titles = featureHeadings
     .filter((match) => match[1] === "2")
     .map((match) => plainText(match[2]));
-  if (h1Count !== 0 || h2Titles.length !== 1 || h2Titles[0] !== seasonalLanding.heading) {
+  if (h1Count !== 0 || h2Titles.length !== 1 || h2Titles[0] !== "Spring at home") {
     addFailure(
-      `Homepage Seasonal feature: expected one H2 "${seasonalLanding.heading}" and no H1; `
+      "Homepage Seasonal feature: expected one H2 \"Spring at home\" and no H1; "
       + `found H2 values [${h2Titles.join(", ")}] and ${h1Count} H1 elements.`,
     );
+  }
+
+  const featureHrefs = new Set(
+    [...homepageFeature.matchAll(/<a\b[^>]*\bhref="([^"]+)"/gi)].map((match) => match[1]),
+  );
+  const expectedSpringHrefs = [
+    "/guides/spring-home-maintenance-checklist/",
+    "/guides/spring-cleaning-checklist/",
+    "/guides/20-minute-spring-reset/",
+    "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
+  ];
+  for (const expectedHref of expectedSpringHrefs) {
+    if (!featureHrefs.has(expectedHref)) {
+      addFailure(`Homepage Seasonal feature: spring guide link is missing: "${expectedHref}".`);
+    }
+  }
+
+  const springHubTag = homepageFeature.match(
+    /<a\b(?=[^>]*\bdata-spring-hub-link\b)[^>]*>/i,
+  )?.[0] ?? "";
+  if (getAttribute(springHubTag, "href") !== "/seasonal/#spring") {
+    addFailure("Homepage Seasonal feature: Explore all spring guides link is missing or incorrect.");
   }
 }
 

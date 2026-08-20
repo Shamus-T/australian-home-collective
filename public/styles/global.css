@@ -400,8 +400,10 @@ h3 {
 .guide-card {
   min-height: 100%;
   overflow: hidden;
+  border-color: rgba(63, 77, 63, 0.24);
   padding: 0;
   height: 100%;
+  box-shadow: 0 14px 32px rgba(43, 43, 43, 0.13);
 }
 
 .guide-card a {
@@ -432,8 +434,8 @@ h3 {
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(180deg, rgba(43, 43, 43, 0.06), rgba(43, 43, 43, 0.76)),
-    linear-gradient(90deg, rgba(63, 77, 63, 0.52), rgba(63, 77, 63, 0.14));
+    linear-gradient(180deg, rgba(20, 29, 22, 0.2) 0%, rgba(20, 29, 22, 0.9) 100%),
+    linear-gradient(90deg, rgba(21, 44, 33, 0.5), rgba(21, 44, 33, 0.16));
 }
 
 .card-image {
@@ -449,15 +451,16 @@ h3 {
 .guide-card.has-image h2,
 .guide-card.has-image h3,
 .guide-card.has-image p {
-  color: var(--color-cream);
+  color: #fffdf7;
   margin-inline: 0;
   position: relative;
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.52);
 }
 
 .guide-card.has-image .meta {
-  color: var(--color-wattle);
+  color: #f3cf68;
   margin-top: 0;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.56);
 }
 
 .guide-card.has-image p:last-child {
