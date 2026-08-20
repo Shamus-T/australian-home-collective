@@ -369,6 +369,7 @@ h3 {
 .grid {
   display: grid;
   gap: 20px;
+  align-items: stretch;
 }
 
 .grid.two {
@@ -398,34 +399,65 @@ h3 {
 }
 
 .guide-card {
+  display: flex;
+  min-width: 0;
   min-height: 100%;
+  align-self: stretch;
+  flex-direction: column;
   overflow: hidden;
-  border-color: rgba(63, 77, 63, 0.24);
+  border-color: rgba(48, 79, 55, 0.36);
   padding: 0;
   height: 100%;
-  box-shadow: 0 14px 32px rgba(43, 43, 43, 0.13);
+  box-shadow: 0 16px 36px rgba(32, 47, 36, 0.16);
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
 }
 
 .guide-card a {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto minmax(4.5em, auto) 1fr;
   gap: 12px;
+  min-width: 0;
   height: 100%;
+  flex: 1 1 auto;
   padding: 22px;
 }
 
 .guide-card.has-image a {
-  min-height: 330px;
-  align-content: end;
+  min-height: 360px;
+  grid-template-rows: 1fr auto minmax(4.5em, auto) minmax(8.5em, auto);
+  align-content: stretch;
   position: relative;
   overflow: hidden;
   isolation: isolate;
   padding: 24px;
-  justify-content: flex-end;
 }
 
 .guide-card h3 {
-  min-height: 2.7em;
+  margin: 0;
+  min-height: 4.5em;
+  font-size: 1.38rem;
+  line-height: 1.12;
+}
+
+.guide-card .meta,
+.guide-card > a > p:last-child {
+  margin: 0;
+}
+
+.guide-card.has-image .meta {
+  grid-row: 2;
+}
+
+.guide-card.has-image h2,
+.guide-card.has-image h3 {
+  grid-row: 3;
+}
+
+.guide-card.has-image p:last-child {
+  grid-row: 4;
 }
 
 .guide-card.has-image a::before {
@@ -434,8 +466,8 @@ h3 {
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(180deg, rgba(20, 29, 22, 0.2) 0%, rgba(20, 29, 22, 0.9) 100%),
-    linear-gradient(90deg, rgba(21, 44, 33, 0.5), rgba(21, 44, 33, 0.16));
+    linear-gradient(180deg, rgba(16, 25, 18, 0.08) 0%, rgba(19, 35, 25, 0.38) 43%, rgba(13, 25, 17, 0.95) 100%),
+    linear-gradient(90deg, rgba(21, 44, 33, 0.16), rgba(21, 44, 33, 0.03));
 }
 
 .card-image {
@@ -445,6 +477,8 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: saturate(1.06) contrast(1.04);
+  transition: transform 220ms ease;
 }
 
 .guide-card.has-image .meta,
@@ -454,13 +488,13 @@ h3 {
   color: #fffdf7;
   margin-inline: 0;
   position: relative;
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.52);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.64);
 }
 
 .guide-card.has-image .meta {
   color: #f3cf68;
   margin-top: 0;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.56);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.68);
 }
 
 .guide-card.has-image p:last-child {
@@ -472,6 +506,15 @@ h3 {
   min-height: 0;
 }
 
+.guide-card.category-card a {
+  grid-template-rows: auto auto 1fr;
+}
+
+.guide-card.category-card.has-image a {
+  min-height: 330px;
+  grid-template-rows: 1fr auto minmax(2.15em, auto) minmax(8.5em, auto);
+}
+
 .guide-card.category-card p:last-child {
   min-height: 0;
   max-width: 30ch;
@@ -479,13 +522,14 @@ h3 {
 
 .guide-card.category-card.has-image a::before {
   background:
-    linear-gradient(180deg, rgba(20, 29, 22, 0.3) 0%, rgba(20, 29, 22, 0.88) 100%),
-    linear-gradient(90deg, rgba(21, 44, 33, 0.5), rgba(21, 44, 33, 0.14));
+    linear-gradient(180deg, rgba(20, 29, 22, 0.18) 0%, rgba(20, 29, 22, 0.9) 100%),
+    linear-gradient(90deg, rgba(21, 44, 33, 0.25), rgba(21, 44, 33, 0.05));
 }
 
 .guide-card.category-card.has-image h2,
 .guide-card.category-card.has-image h3 {
   color: #fffdf7;
+  min-height: 2.15em;
   font-size: clamp(1.9rem, 1.35rem + 1.15vw, 2.45rem);
   line-height: 1.04;
   text-shadow: 0 2px 14px rgba(0, 0, 0, 0.48);
@@ -503,6 +547,16 @@ h3 {
 
 .guide-card.has-image a:hover h3 {
   color: var(--color-wattle);
+}
+
+.guide-card:hover {
+  border-color: rgba(48, 79, 55, 0.52);
+  box-shadow: 0 20px 42px rgba(32, 47, 36, 0.2);
+  transform: translateY(-2px);
+}
+
+.guide-card:hover .card-image {
+  transform: scale(1.015);
 }
 
 .guide-card .meta,
@@ -1372,6 +1426,20 @@ h3 {
   font-size: 0.95rem;
 }
 
+@media (min-width: 821px) and (max-width: 1020px) {
+  .grid.three {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .guide-card h3 {
+    min-height: 3.5em;
+  }
+
+  .guide-card.has-image a {
+    grid-template-rows: 1fr auto minmax(3.5em, auto) minmax(6.8em, auto);
+  }
+}
+
 @media (max-width: 820px) {
   body {
     font-size: 1.0625rem;
@@ -1483,6 +1551,36 @@ h3 {
 
   .guide-card.has-image a {
     min-height: 320px;
+  }
+
+  .guide-card a,
+  .guide-card.has-image a,
+  .guide-card.category-card.has-image a {
+    grid-template-rows: auto;
+  }
+
+  .guide-card a {
+    align-content: start;
+  }
+
+  .guide-card.has-image a {
+    align-content: end;
+  }
+
+  .guide-card h3 {
+    min-height: 0;
+  }
+
+  .guide-card.category-card.has-image h2,
+  .guide-card.category-card.has-image h3 {
+    min-height: 0;
+  }
+
+  .guide-card.has-image .meta,
+  .guide-card.has-image h2,
+  .guide-card.has-image h3,
+  .guide-card.has-image p:last-child {
+    grid-row: auto;
   }
 
   .content {
@@ -1996,7 +2094,15 @@ pagefind-results {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .guide-card,
+  .card-image,
   .search-suggestion {
     scroll-behavior: auto;
+    transition: none;
+  }
+
+  .guide-card:hover,
+  .guide-card:hover .card-image {
+    transform: none;
   }
 }

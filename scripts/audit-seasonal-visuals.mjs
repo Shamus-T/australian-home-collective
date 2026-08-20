@@ -140,10 +140,26 @@ async function inspectLogoAsset(asset) {
 
 const { seasonalSections, publishedSeasonalGuides } =
   await loadSeasonalGuideData(root);
+const expectedSeasonOrder = ["spring", "summer", "autumn", "winter"];
+const actualSeasonOrder = seasonalSections.map((season) => season.id);
+if (actualSeasonOrder.join(",") !== expectedSeasonOrder.join(",")) {
+  addFailure(
+    `Seasonal Guides: source order is ${actualSeasonOrder.join(" → ")}; `
+    + `expected ${expectedSeasonOrder.join(" → ")}.`,
+  );
+}
 const homepagePath = path.join(distRoot, "index.html");
 const seasonalPath = path.join(distRoot, "seasonal", "index.html");
 const homepageHtml = await readFile(homepagePath, "utf8");
 const seasonalHtml = await readFile(seasonalPath, "utf8");
+const renderedSeasonOrder = [...seasonalHtml.matchAll(/\bdata-season-id="([^"]+)"/gi)]
+  .map((match) => match[1]);
+if (renderedSeasonOrder.join(",") !== expectedSeasonOrder.join(",")) {
+  addFailure(
+    `Seasonal Guides: rendered section order is ${renderedSeasonOrder.join(" → ")}; `
+    + `expected ${expectedSeasonOrder.join(" → ")}.`,
+  );
+}
 const rejectedRegistry = JSON.parse(
   await readFile(path.join(root, "docs", "visual", "rejected-image-assets.json"), "utf8"),
 );

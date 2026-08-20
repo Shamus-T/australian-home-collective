@@ -6,7 +6,7 @@ import { seasonalLanding, seasonalSections } from "../../data/seasonalGuides";
 
 const title = "Seasonal Home Guides for Australian Homes";
 const seoTitle = "Seasonal Home Guides | Australian Home Collective";
-const description = "Practical Australian home guides organised by season. Plan ahead with advice for winter, spring, summer and autumn home projects.";
+const description = "Practical Australian home guides organised by season. Plan ahead with advice for spring, summer, autumn and winter home projects.";
 const image = seasonalLanding.image;
 const imageAlt = seasonalLanding.imageAlt;
 const siteUrl = "https://australianhomecollective.com.au";
@@ -282,15 +282,6 @@ const breadcrumbSchema = {
     margin-top: 14px;
   }
 
-  .seasonal-section :global(.seasonal-guide-card.has-image a) {
-    min-height: 365px;
-  }
-
-  .seasonal-section :global(.seasonal-guide-card h3) {
-    min-height: 0;
-    font-size: 1.42rem;
-  }
-
   .planned-guide-card {
     display: flex;
     min-height: 250px;
@@ -324,10 +315,6 @@ const breadcrumbSchema = {
   }
 
   @media (max-width: 720px) {
-    .seasonal-section :global(.seasonal-guide-card.has-image a) {
-      min-height: 330px;
-    }
-
     .planned-guide-card {
       min-height: 0;
     }

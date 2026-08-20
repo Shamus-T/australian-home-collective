@@ -32,7 +32,7 @@ export const seasonalLanding = {
   eyebrow: "Seasonal Guides",
   heading: "Plan for the season ahead",
   description:
-    "Practical Australian home guidance for winter, spring, summer and autumn, with regional climate differences kept in view.",
+    "Practical Australian home guidance for spring, summer, autumn and winter, with regional climate differences kept in view.",
   callToAction: "Explore Seasonal Guides",
   image: "/images/seasonal-guides.webp",
   imageAlt:
@@ -40,7 +40,7 @@ export const seasonalLanding = {
   imagePosition: "62% center",
 } as const;
 
-export const seasonalSections = [
+const seasonalSectionSource = [
   {
     id: "winter",
     title: "Winter",
@@ -295,6 +295,18 @@ export const seasonalSections = [
     ],
   },
 ] as const satisfies readonly SeasonalSection[];
+
+const seasonalSectionOrder = ["spring", "summer", "autumn", "winter"] as const;
+
+export const seasonalSections: readonly SeasonalSection[] = seasonalSectionOrder.map((seasonId) => {
+  const section = seasonalSectionSource.find((item) => item.id === seasonId);
+
+  if (!section) {
+    throw new Error(`Missing seasonal section: ${seasonId}`);
+  }
+
+  return section;
+});
 
 export const publishedSeasonalGuides = seasonalSections.flatMap((season) =>
   season.guides
