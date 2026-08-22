@@ -142,6 +142,7 @@ const trustedEditorialDomains = new Set([
   "australianmade.com.au",
   "ava.com.au",
   "betterhealth.vic.gov.au",
+  "bom.gov.au",
   "breville.com",
   "childcarseats.com.au",
   "choice.com.au",

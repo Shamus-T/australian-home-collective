@@ -173,6 +173,16 @@ const seasonalSectionSource = [
       },
       {
         status: "published",
+        title: "Spring Garden Reset Checklist for Australian Homes",
+        description:
+          "Inspect plants, soil, mulch, pots, irrigation and tools, then set practical priorities before hotter weather arrives.",
+        href: "/guides/spring-garden-reset-checklist/",
+        image: "/images/guides/spring-garden-reset-checklist.webp",
+        imageAlt:
+          "An Australian homeowner checking soil in a weathered pot beside a mulched garden bed and coiled hose",
+      },
+      {
+        status: "published",
         title: "How to Keep Flies and Mosquitoes Out of Your Home This Spring and Summer",
         description:
           "Trace insect entry points, repair screens and seals, remove attractants and standing water, and understand product limitations.",
