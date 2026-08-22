@@ -176,6 +176,7 @@ const trustedEditorialDomains = new Set([
   "rfs.nsw.gov.au",
   "raisingchildren.net.au",
   "rednose.org.au",
+  "ryde.nsw.gov.au",
   "sahealth.sa.gov.au",
   "sealy.com.au",
   "ses.nsw.gov.au",

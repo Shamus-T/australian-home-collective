@@ -173,6 +173,16 @@ const seasonalSectionSource = [
       },
       {
         status: "published",
+        title: "How to Keep Flies and Mosquitoes Out of Your Home This Spring and Summer",
+        description:
+          "Trace insect entry points, repair screens and seals, remove attractants and standing water, and understand product limitations.",
+        href: "/guides/keep-flies-mosquitoes-out-of-home/",
+        image: "/images/guides/keep-flies-mosquitoes-out-of-home.webp",
+        imageAlt:
+          "A fitted insect-screen door and screened window on the verandah of an Australian weatherboard home",
+      },
+      {
+        status: "published",
         title: "The 20-Minute Spring Reset",
         description:
           "Choose one small spring job to make a drawer, shelf, surface or everyday area feel easier to use.",
