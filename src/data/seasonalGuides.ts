@@ -183,6 +183,16 @@ const seasonalSectionSource = [
       },
       {
         status: "published",
+        title: "Prepare Your Outdoor Area for Summer: A Practical Australian Checklist",
+        description:
+          "Check surfaces, shade, layout, storage, lighting, barbecue safety and weather readiness before summer arrives.",
+        href: "/guides/prepare-outdoor-area-for-summer/",
+        image: "/images/guides/prepare-outdoor-area-for-summer.webp",
+        imageAlt:
+          "An Australian homeowner moving a patio chair to check the clear path around an outdoor table",
+      },
+      {
+        status: "published",
         title: "How to Keep Flies and Mosquitoes Out of Your Home This Spring and Summer",
         description:
           "Trace insect entry points, repair screens and seals, remove attractants and standing water, and understand product limitations.",

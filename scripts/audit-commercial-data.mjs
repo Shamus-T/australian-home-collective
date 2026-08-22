@@ -144,6 +144,7 @@ const trustedEditorialDomains = new Set([
   "betterhealth.vic.gov.au",
   "bom.gov.au",
   "breville.com",
+  "cancer.org.au",
   "childcarseats.com.au",
   "choice.com.au",
   "cloudflare.com",
