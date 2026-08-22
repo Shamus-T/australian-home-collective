@@ -230,6 +230,44 @@ test("the audit rejects an enabled guide with fewer than two approved products",
   assert.match(result.stderr, /at least 2 are required/);
 });
 
+test("the audit rejects duplicate destinations within the same guide", () => {
+  const result = runAudit(
+    () => {},
+    (catalogue) => {
+      const [first, second] = catalogue.products;
+      second.destinationUrl = first.destinationUrl;
+      const sellerRecord = second.sourceRecords.find(
+        (source) => source.sourceType === "seller-fulfilment",
+      );
+      sellerRecord.sourceUrl = first.destinationUrl;
+    },
+  );
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /duplicates destination .* within .*already used by/);
+});
+
+test("the audit rejects unsupported commercial Product or Review schema", () => {
+  for (const type of ["Product", "Review", "AggregateRating"]) {
+    const sourcePath = path.join(
+      root,
+      "src",
+      "pages",
+      "guides",
+      "_commercial-guardrail-test",
+      "index.astro",
+    );
+    fs.mkdirSync(path.dirname(sourcePath), { recursive: true });
+    fs.writeFileSync(sourcePath, `---\nconst schema = { "@type": "${type}" };\n---\n`, "utf8");
+    try {
+      const result = runAudit(() => {});
+      assert.notEqual(result.status, 0);
+      assert.match(result.stderr, new RegExp(`unsupported ${type} structured data`));
+    } finally {
+      fs.rmSync(path.dirname(sourcePath), { recursive: true, force: true });
+    }
+  }
+});
+
 test("the audit rejects active recall and safety flags on an approved product", () => {
   const result = runAudit((product) => {
     product.recallSafetyStatus = "active-recall";

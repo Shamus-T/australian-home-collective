@@ -92,7 +92,7 @@ requireRuleFragments(".card-image", [
 if (!css.includes("@media (min-width: 821px) and (max-width: 1020px)")) {
   fail("Shared grid CSS is missing the two-column tablet breakpoint.");
 }
-if (!css.includes(".guide-card h3 {\n    min-height: 0;")) {
+if (!/\.guide-card h3 \{\r?\n\s+min-height: 0;/.test(css)) {
   fail("Shared card CSS is missing the narrow-screen title-height reset.");
 }
 

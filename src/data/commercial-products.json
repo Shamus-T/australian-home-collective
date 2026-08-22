@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-08-20",
+  "updatedOn": "2026-08-22",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -1942,13 +1942,13 @@
       ]
     },
     {
-      "id": "dyson-v8-cordless-vacuum",
+      "id": "dyson-v8-origin-cordless-vacuum",
       "guidePath": "/guides/cordless-stick-vacuums-australia/",
-      "name": "Dyson V8 Cordless Vacuum Cleaner",
+      "name": "Dyson V8 Origin Cordless Vacuum Cleaner",
       "productType": "Cordless stick vacuum",
       "summary": "A light, established cordless platform with a removable handheld format for mixed floor and above-floor cleaning.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0DDRX3475?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -1956,14 +1956,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -1985,11 +1985,11 @@
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Dyson V8 Cordless Vacuum Cleaner manufacturer information",
-          "publisher": "Dyson",
+          "title": "Dyson V8 cordless vacuum manufacturer information",
+          "publisher": "Dyson Australia",
           "sourceUrl": "https://www.dyson.com.au/products/vacuum-cleaners/dyson-v8/overview",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "supports": "Current V8 platform specifications, cleaner-head format, run-time context and Australian support information.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
@@ -2001,27 +2001,27 @@
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Dyson V8 Cordless Vacuum Cleaner Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/dyson-v8-cordless-vacuum-2",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Dyson V8 Origin Cordless Vacuum Cleaner Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DDRX3475?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Dyson V8 Cordless Vacuum Cleaner Amazon Australia listing",
+          "title": "Dyson V8 Origin Cordless Vacuum Cleaner Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DDRX3475?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -2110,13 +2110,13 @@
       ]
     },
     {
-      "id": "dreame-l20-ultra-robot-vacuum",
+      "id": "dreame-l10s-ultra-gen2-robot-vacuum",
       "guidePath": "/guides/robot-vacuum-buying-guide-australia/",
-      "name": "Dreame L20 Ultra Robot Vacuum and Mop",
+      "name": "Dreame L10s Ultra Gen 2 Robot Vacuum and Mop",
       "productType": "Self-emptying robot vacuum and mop",
-      "summary": "A docked robot system that combines vacuuming, mopping and automated dust and water handling for compatible floor plans.",
+      "summary": "A docked robot system with automated emptying and mop washing for a compatible floor plan, after the 45.7 x 34 x 59.1 cm base-station position has been checked.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0CF5XP9GN?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0DCFTXDVL?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -2124,14 +2124,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -2139,12 +2139,12 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "The large dock needs a permanent serviced position and creates ongoing bag and cleaning work.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "The tall dock needs a permanent serviced position and creates ongoing dust-bag, tank and mop-cleaning work.",
+        "Raised thresholds, loose cables, dark or reflective surfaces and crowded rooms can still require preparation or manual cleaning."
       ],
       "suitability": {
         "suits": [
-          "larger mostly open homes seeking a high-automation dock"
+          "larger mostly open homes seeking automated vacuuming, mopping and dock maintenance"
         ],
         "mayNotSuit": [
           "tight layouts or households wanting a simple vacuum-only robot"
@@ -2153,43 +2153,43 @@
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Dreame L20 Ultra Robot Vacuum and Mop manufacturer information",
-          "publisher": "Dreame",
-          "sourceUrl": "https://dreame.com.au/products/dreamebot-l20-ultra",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "L10s Ultra Gen 2",
+          "publisher": "Dreame Global",
+          "sourceUrl": "https://global.dreametech.com/pages/l10s-ultra-gen-2",
+          "supports": "Current model dimensions, dock format, 10,000 Pa claimed suction, MopExtend function and maintenance specifications.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Dreame L20 Ultra Robot Vacuum and Mop product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/robot-vacuum-cleaner-dreame",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Dreame L10s Ultra Gen 2 Robot Vacuum and Mop owner-feedback record",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DCFTXDVL?tag=ahc07-22",
+          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Dreame L20 Ultra Robot Vacuum and Mop Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/robot-vacuum-cleaner-dreame",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Dreame L10s Ultra Gen 2 Robot Vacuum and Mop Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DCFTXDVL?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Dreame L20 Ultra Robot Vacuum and Mop Amazon Australia listing",
+          "title": "Dreame L10s Ultra Gen 2 Robot Vacuum and Mop Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0CF5XP9GN?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DCFTXDVL?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -2452,7 +2452,7 @@
       "productType": "Configurable barrier gate",
       "summary": "A wall-fixed, multi-panel barrier that can span awkward openings once the fixing points and panel geometry are checked.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B00GK6SENI?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B00HV9C0CY?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -2460,14 +2460,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -2493,39 +2493,39 @@
           "publisher": "BabyDan",
           "sourceUrl": "https://www.babydan.com/products/safety-gates",
           "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "BabyDan Flex M Configurable Safety Gate product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/babydan-flex-extra-large-safety-gate-white",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "BabyDan Flex M Configurable Safety Gate owner-feedback record",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00HV9C0CY?tag=ahc07-22",
+          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "BabyDan Flex M Configurable Safety Gate Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/babydan-flex-extra-large-safety-gate-white",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "BabyDan Flex M Configurable Safety Gate Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00HV9C0CY?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
           "title": "BabyDan Flex M Configurable Safety Gate Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B00GK6SENI?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B00HV9C0CY?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -2704,7 +2704,7 @@
       "productType": "Rear-seat pet hammock",
       "summary": "A rear-seat cover with hammock panels intended to contain dirt and protect upholstery during routine pet travel.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0CZ6MG1X3?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0CZ6T5QJ3?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -2712,14 +2712,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -2745,7 +2745,7 @@
           "publisher": "eDog",
           "sourceUrl": "https://edog.com.au/",
           "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
@@ -2757,27 +2757,27 @@
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "eDog Heavy Duty Waterproof Dog Car Hammock Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/heavy-duty-waterproof-dog-car-hammock",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "eDog Heavy Duty Waterproof Dog Car Hammock Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CZ6T5QJ3?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
           "title": "eDog Heavy Duty Waterproof Dog Car Hammock Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0CZ6MG1X3?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CZ6T5QJ3?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -2866,13 +2866,13 @@
       ]
     },
     {
-      "id": "gamma2-gamma-seal-lid",
+      "id": "gamma2-gamma-seal-lid-orange",
       "guidePath": "/guides/pet-food-storage-what-to-check-before-buying-containers/",
-      "name": "Gamma2 Gamma Seal Lid",
+      "name": "Gamma2 Gamma Seal Lid, Orange",
       "productType": "Screw-top container lid",
       "summary": "A screw-on sealing lid that converts a compatible bucket into an accessible dry-food container while retaining a removable inner lid.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B007RGBATK?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B00AYVRHCO?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -2880,14 +2880,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -2909,43 +2909,43 @@
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Gamma2 Gamma Seal Lid manufacturer information",
-          "publisher": "Gamma2",
-          "sourceUrl": "https://www.gamma2.net/gamma-seal-lid",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "GAMMA Seal Lids",
+          "publisher": "Petmate / Gamma2",
+          "sourceUrl": "https://www.petmate.com/products/gamma-seal-lids",
+          "supports": "Current brand information for compatible bucket sizes, lid construction, colour options and food-storage use.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Gamma2 Gamma Seal Lid product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/gamma-seal-lid",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Gamma2 Gamma Seal Lid, Orange owner-feedback record",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00AYVRHCO?tag=ahc07-22",
+          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Gamma2 Gamma Seal Lid Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/gamma-seal-lid",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Gamma2 Gamma Seal Lid, Orange Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00AYVRHCO?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Gamma2 Gamma Seal Lid Amazon Australia listing",
+          "title": "Gamma2 Gamma Seal Lid, Orange Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B007RGBATK?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B00AYVRHCO?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -3454,13 +3454,13 @@
       ]
     },
     {
-      "id": "luxsuite-three-tier-over-toilet-shelf",
+      "id": "songmics-three-tier-over-toilet-organiser",
       "guidePath": "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/",
-      "name": "Luxsuite 3-Tier Over-Toilet Storage Shelf",
+      "name": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser",
       "productType": "Freestanding over-toilet shelf",
-      "summary": "A freestanding three-tier unit for bathrooms where toilet clearances, cistern access and wall restraint can all be resolved.",
+      "summary": "A roughly 26 x 63 x 170 cm bamboo unit with an adjustable middle shelf and anti-tip kit, once cistern, seat, wall-fixing and walkway clearances have been checked.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0BWH38GH2?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -3468,14 +3468,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -3483,57 +3483,57 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "It occupies visual and floor space and must not obstruct cistern servicing or safe movement.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "The bamboo finish is not waterproof, so splashes and persistent bathroom moisture need prompt drying.",
+        "It requires assembly and the supplied anti-tip restraint; the 63 cm width and rear bar will not clear every toilet or plumbing layout."
       ],
       "suitability": {
         "suits": [
-          "small bathrooms with usable vertical space above the toilet"
+          "small bathrooms with measured vertical space and a suitable anti-tip fixing point"
         ],
         "mayNotSuit": [
-          "tight rooms without stable floor and wall restraint options"
+          "renters unable to secure furniture or toilets with tight side and cistern clearances"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Luxsuite 3-Tier Over-Toilet Storage Shelf manufacturer information",
-          "publisher": "Luxsuite",
-          "sourceUrl": "https://www.luxsuite.com.au/",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "SONGMICS 3-Tier Bamboo Over Toilet Bathroom Organizer with Adjustable Shelf",
+          "publisher": "SONGMICS HOME",
+          "sourceUrl": "https://www.songmics.com/products/songmics-3-tier-bamboo-bathroom-organizer-ubts001?variant=45339077574905",
+          "supports": "Current dimensions, bamboo construction, adjustable shelf, load guidance, assembly requirements and anti-tip kit.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Luxsuite 3-Tier Over-Toilet Storage Shelf product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/3-tier-over-toilet-shelf-rack-freestanding-bathroom-organiser-washer-dryer-laundry-storage-shelves-unit-washing-machine-airing-space-saver",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser owner-feedback record",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Luxsuite 3-Tier Over-Toilet Storage Shelf Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/3-tier-over-toilet-shelf-rack-freestanding-bathroom-organiser-washer-dryer-laundry-storage-shelves-unit-washing-machine-airing-space-saver",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Luxsuite 3-Tier Over-Toilet Storage Shelf Amazon Australia listing",
+          "title": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0BWH38GH2?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -3622,13 +3622,13 @@
       ]
     },
     {
-      "id": "lt-williams-a-frame-clothes-airer",
+      "id": "lt-williams-large-collapsible-clothes-airer-black",
       "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
-      "name": "LT Williams A-Frame Aluminium Clothes Airer",
+      "name": "L.T. Williams Large Aluminium Collapsible Clothes Airer, Black",
       "productType": "Freestanding clothes airer",
-      "summary": "A 19-rail A-frame airer for households that can store its folded footprint and leave enough circulation around damp loads.",
+      "summary": "A large fold-flat aluminium airer measuring about 178 x 81.5 cm when open and 108 cm high, so the full floor footprint and storage path need checking.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0CYL5S5S7?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -3636,14 +3636,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -3651,68 +3651,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "Long garments and heavy wet items may need different rail spacing or support.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "Its 178 cm open width needs substantially more floor space than a compact tower or concertina airer.",
+        "The light aluminium frame still needs stable, level placement and should be folded away before it obstructs a laundry route."
       ],
       "suitability": {
         "suits": [
-          "routine mixed loads with floor space for an A-frame"
+          "households with room for a wide winged airer and a flat storage position"
         ],
         "mayNotSuit": [
-          "very small rooms or households drying heavy bedding"
+          "narrow laundries, shared walkways or homes needing a compact tower footprint"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "LT Williams A-Frame Aluminium Clothes Airer manufacturer information",
-          "publisher": "LT",
-          "sourceUrl": "https://ltwilliams.com.au/",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "Large Aluminium Collapsible Clothes Airer Black",
+          "publisher": "L.T. Williams",
+          "sourceUrl": "https://www.ltwilliams.com.au/product/large-aluminium-collapsible-clothes-airer-black/",
+          "supports": "Current aluminium construction, open dimensions, fold-flat storage and care context for the black collapsible model.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "LT Williams A-Frame Aluminium Clothes Airer product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/clothes-airer-a-frame-all-aluminum-clothesline-19-rails-13m",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "L.T. Williams Large Aluminium Collapsible Clothes Airer, Black owner-feedback record",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H?tag=ahc07-22",
+          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "LT Williams A-Frame Aluminium Clothes Airer Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/clothes-airer-a-frame-all-aluminum-clothesline-19-rails-13m",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "L.T. Williams Large Aluminium Collapsible Clothes Airer, Black Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "LT Williams A-Frame Aluminium Clothes Airer Amazon Australia listing",
+          "title": "L.T. Williams Large Aluminium Collapsible Clothes Airer, Black Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0CYL5S5S7?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
     {
       "id": "brabantia-hangon-20m-drying-rack",
       "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
-      "name": "Brabantia HangOn Drying Rack 20m",
+      "name": "Brabantia HangOn Drying Rack 20m, Matt Black",
       "productType": "Foldable drying rack",
       "summary": "A broad foldable rack with hanging bars and accessory space for households comparing usable line length rather than rail count alone.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B098SV3PLY?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -3720,14 +3720,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -3753,7 +3753,7 @@
           "publisher": "Brabantia",
           "sourceUrl": "https://www.brabantia.com/int_en/laundry-drying/drying-racks/",
           "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
@@ -3765,27 +3765,27 @@
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Brabantia HangOn Drying Rack 20m Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/brabantia-hangon-drying-rack-20m-fresh-white",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Brabantia HangOn Drying Rack 20m Amazon Australia listing",
+          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B098SV3PLY?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -4126,13 +4126,13 @@
       ]
     },
     {
-      "id": "garage-30l-clear-storage-tub",
+      "id": "sterilite-51l-gasket-box",
       "guidePath": "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
-      "name": "30L Clear Storage Tub with Lid",
-      "productType": "Lidded clear storage tub",
-      "summary": "A mid-size clear lidded tub for grouping light garage items where shelf depth and stacking height have been measured.",
+      "name": "Sterilite 51L Gasket Box",
+      "productType": "Gasket-sealed storage tub",
+      "summary": "A clear gasket-sealed tub measuring about 58.7 x 39.7 x 33 cm, suited to long-term garage storage once shelf depth and safe loaded lifting have been checked.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0H25MVQZ8?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -4140,14 +4140,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -4155,57 +4155,57 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "The seller and exact model are less established than major storage brands, so inspect listing details closely.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "A 51 L tub can become difficult to lift safely when filled with dense tools, hardware or liquids.",
+        "The external dimensions and recessed lid must be checked against the shelf rather than relying on the nominal capacity."
       ],
       "suitability": {
         "suits": [
-          "light seasonal and hobby items that benefit from visibility"
+          "bulkier lightweight items that need a clear, gasket-sealed garage container"
         ],
         "mayNotSuit": [
-          "heavy tools or long-term outdoor exposure"
+          "dense hardware loads or shallow shelves where a smaller box is safer to handle"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "30L Clear Storage Tub with Lid manufacturer information",
-          "publisher": "30L",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0H25MVQZ8?tag=ahc07-22",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "54 Qt. Gasket Box",
+          "publisher": "Sterilite",
+          "sourceUrl": "https://www.sterilite.com/product/54-qt-gasket-box/?variation_sku=39349004",
+          "supports": "Current 51 L-class model dimensions, gasket and latch construction, stacking guidance and intended garage use.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "30L Clear Storage Tub with Lid product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/kmart-30l-storage-tub",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Sterilite 51L Gasket Box owner-feedback record",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
+          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "30L Clear Storage Tub with Lid Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/kmart-30l-storage-tub",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Sterilite 51L Gasket Box Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "30L Clear Storage Tub with Lid Amazon Australia listing",
+          "title": "Sterilite 51L Gasket Box Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0H25MVQZ8?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -4216,7 +4216,7 @@
       "productType": "Stackable lidded storage box",
       "summary": "A rigid clear box with clip handles for smaller garage categories that need visible, repeatable stack dimensions.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B003VVW3N2?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -4224,14 +4224,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -4257,7 +4257,7 @@
           "publisher": "Really",
           "sourceUrl": "https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
           "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
@@ -4269,27 +4269,27 @@
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Really Useful Box 19L Clear Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/really-useful-box-19-litre-clear",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Really Useful Box 19L Clear Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
           "title": "Really Useful Box 19L Clear Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B003VVW3N2?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -4462,13 +4462,13 @@
       ]
     },
     {
-      "id": "stanley-fatmax-deep-pro-organiser",
+      "id": "stanley-fatmax-pro-stack-ten-cup-organiser",
       "guidePath": "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/",
-      "name": "Stanley FatMax Deep Pro Organiser",
+      "name": "STANLEY FATMAX PRO-STACK 10-Cup Organiser",
       "productType": "Portable parts organiser",
-      "summary": "A deep lidded organiser with removable bins for hardware categories that need to move between garage storage and a work area.",
+      "summary": "A 44 x 33.7 x 11.9 cm lidded organiser with ten removable cups for small hardware that moves between garage storage and a work area.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B00EARIB5K?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -4476,14 +4476,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -4491,57 +4491,57 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "It organises small hardware rather than long tools and becomes heavy when every bin is full.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "It organises small parts rather than long hand tools and becomes heavy when every cup is densely loaded.",
+        "Its PRO-STACK compatibility adds little value unless the household already uses or plans that modular system."
       ],
       "suitability": {
         "suits": [
-          "fasteners and small repair parts that travel to a job"
+          "fasteners and small repair parts that need removable categories and portable storage"
         ],
         "mayNotSuit": [
-          "large hand tools or fixed wall display"
+          "large hand tools, fixed wall display or buyers who do not need a modular case"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Stanley FatMax Deep Pro Organiser manufacturer information",
-          "publisher": "Stanley",
-          "sourceUrl": "https://www.stanleytools.com.au/product/1-97-518/fatmax-deep-professional-organiser",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "STANLEY FATMAX PRO-STACK 10-Cup Organiser",
+          "publisher": "STANLEY Tools Australia",
+          "sourceUrl": "https://www.stanleytools.com.au/product/fmst82967-1/stanley-fatmax-pro-stack-10-cup-organiser",
+          "supports": "Current dimensions, ten removable cups, capacity, load guidance, lid, latches and PRO-STACK compatibility.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Stanley FatMax Deep Pro Organiser product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/stanley-1-97-518-fatmax-deep-pro-organiser",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "STANLEY FATMAX PRO-STACK 10-Cup Organiser owner-feedback record",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
+          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Stanley FatMax Deep Pro Organiser Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/stanley-1-97-518-fatmax-deep-pro-organiser",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "STANLEY FATMAX PRO-STACK 10-Cup Organiser Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Stanley FatMax Deep Pro Organiser Amazon Australia listing",
+          "title": "STANLEY FATMAX PRO-STACK 10-Cup Organiser Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B00EARIB5K?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -4636,7 +4636,7 @@
       "productType": "Cable management box",
       "summary": "A large ventilated enclosure for a measured power board and excess cable, intended to reduce visual clutter beneath a desk.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -4644,14 +4644,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -4677,7 +4677,7 @@
           "publisher": "D-Line",
           "sourceUrl": "https://d-line-it.com/au/cable-tidy-units/",
           "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
@@ -4689,27 +4689,27 @@
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "D-Line Large Cable Tidy Box Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/d-line-cable-tidy-box-hide-and-conceal-extension-blocks-and-electrical-cables-fully-safety-tested-cable-management-solution-made-from-robust",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "D-Line Large Cable Tidy Box Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
           "title": "D-Line Large Cable Tidy Box Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -4720,7 +4720,7 @@
       "productType": "Compact cable management box",
       "summary": "A compact enclosure for a small power board after plug height, cable exits and desk access have been mapped.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -4728,14 +4728,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -4761,7 +4761,7 @@
           "publisher": "D-Line",
           "sourceUrl": "https://d-line-it.com/au/cable-tidy-units/",
           "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
@@ -4773,27 +4773,27 @@
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "D-Line Small Cable Tidy Box Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/d-line-cable-tidy-box-hide-and-conceal-extension-blocks-and-electrical-cables-fully-safety-tested-cable-management-solution-made-from-robust",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "D-Line Small Cable Tidy Box Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
           "title": "D-Line Small Cable Tidy Box Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -4972,7 +4972,7 @@
       "productType": "Lidded office storage box",
       "summary": "A rigid clear box for archived supplies or technology accessories that need a visible, stackable home away from the active desk.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B003VVW3N2?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -4980,14 +4980,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -5013,7 +5013,7 @@
           "publisher": "Really",
           "sourceUrl": "https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
           "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
@@ -5025,27 +5025,27 @@
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Really Useful Box 19L Clear Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/really-useful-box-19-litre-clear",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Really Useful Box 19L Clear Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
           "title": "Really Useful Box 19L Clear Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B003VVW3N2?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },
@@ -5470,13 +5470,13 @@
       ]
     },
     {
-      "id": "wallaroo-three-by-five-shade-sail",
+      "id": "wallaroo-heavy-duty-three-by-five-shade-sail",
       "guidePath": "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
-      "name": "Wallaroo 3 x 5m Rectangular Shade Sail",
+      "name": "Wallaroo Heavy-Duty 280 GSM 3 x 5m Shade Sail",
       "productType": "Rectangular shade sail",
-      "summary": "A breathable rectangular shade sail for a measured four-point layout with structurally suitable anchors and planned seasonal tensioning.",
+      "summary": "A 280 GSM rectangular shade sail for a measured four-point layout with structurally suitable anchors and the specified minimum 25-degree installation angle.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B079ZRS47S?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0CVL3KX3Q?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -5484,14 +5484,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -5499,57 +5499,57 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "The sail does not include a complete engineered support structure and is not a waterproof roof.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "Mountings and poles are not included, and the sail is not a substitute for an engineered waterproof roof.",
+        "The warranty excludes damage from over-tensioning, storms, wind and rubbing, so anchor design and seasonal removal still matter."
       ],
       "suitability": {
         "suits": [
-          "yards with four verified anchor points and a suitable sun path"
+          "yards with four verified anchor points, a suitable sun path and room for a 3 x 5 m sail"
         ],
         "mayNotSuit": [
-          "sites without structural anchors or requiring rainproof cover"
+          "sites without structural anchors or households requiring a permanent rainproof cover"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Wallaroo 3 x 5m Rectangular Shade Sail manufacturer information",
-          "publisher": "Wallaroo",
-          "sourceUrl": "https://www.klika.com.au/wallaroo-shade-sail-3x5m-rectangle-sand.html",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "Wallaroo 280GSM Outdoor Sun Shade Sail Canopy Grey - 3m x 5m",
+          "publisher": "Klika Australia",
+          "sourceUrl": "https://www.klika.com.au/wallaroo-280gsm-outdoor-sun-shade-sail-canopy-grey-3m-x-5m.html",
+          "supports": "Current 3 x 5 m dimensions, 280 GSM fabric, installation angle, included parts, cleaning, warranty and wind limitations.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Wallaroo 3 x 5m Rectangular Shade Sail product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/wallaroo-rectangular-shade-sail-3m-x-5m-sand",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Wallaroo 280GSM 3 x 5m shade sail product-review record",
+          "publisher": "Klika Australia",
+          "sourceUrl": "https://www.klika.com.au/wallaroo-280gsm-outdoor-sun-shade-sail-canopy-grey-3m-x-5m.html",
+          "supports": "Current customer product-review themes and installation concerns on the exact 280 GSM, 3 x 5 m model were checked without treating ratings as proof of suitability.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Wallaroo 3 x 5m Rectangular Shade Sail Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/wallaroo-rectangular-shade-sail-3m-x-5m-sand",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Wallaroo Heavy-Duty 280 GSM 3 x 5m Shade Sail Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CVL3KX3Q?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
           "checkedOn": "2026-08-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Wallaroo 3 x 5m Rectangular Shade Sail Amazon Australia listing",
+          "title": "Wallaroo Heavy-Duty 280 GSM 3 x 5m Shade Sail Amazon Australia listing",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B079ZRS47S?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CVL3KX3Q?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
         }
       ]
     },

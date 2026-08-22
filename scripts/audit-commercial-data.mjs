@@ -437,6 +437,7 @@ for (const guidePath of enabledGuidePaths) {
 }
 
 const seenIds = new Set();
+const seenGuideDestinations = new Map();
 const promotableProducts = [];
 for (const [index, product] of products.entries()) {
   const prefix = "products[" + index + "]";
@@ -552,6 +553,23 @@ for (const [index, product] of products.entries()) {
 
   if (product.approvedForAffiliateUse && !product.affiliate) {
     addError(prefix + " has affiliate approval without an affiliate link.");
+  }
+
+  if (
+    typeof product.guidePath === "string"
+    && typeof product.destinationUrl === "string"
+    && product.destinationUrl !== ""
+  ) {
+    const placementKey = product.guidePath + "\n" + product.destinationUrl;
+    const previousId = seenGuideDestinations.get(placementKey);
+    if (previousId) {
+      addError(
+        prefix + " duplicates destination " + product.destinationUrl
+        + " within " + product.guidePath + " (already used by " + previousId + ").",
+      );
+    } else {
+      seenGuideDestinations.set(placementKey, product.id);
+    }
   }
 
   if (
@@ -741,6 +759,13 @@ for (const file of publishedSourceFiles) {
   const relativePath = path.relative(root, file).replaceAll(path.sep, "/");
   const sourceRoute = sourceGuideRoute(relativePath);
   const commercialBlocks = [...source.matchAll(/<CommercialProductBlock\b[\s\S]*?\/>/gi)];
+
+  for (const match of source.matchAll(/["']@type["']\s*:\s*["'](Product|Review|AggregateRating)["']/g)) {
+    addError(
+      relativePath + " declares unsupported " + match[1]
+      + " structured data; commercial placements must remain editorial Article content unless the claim is substantiated.",
+    );
+  }
 
   if (usesProductionCatalogue && sourceRoute) {
     const isEnabledGuide = enabledGuidePaths.includes(sourceRoute);
