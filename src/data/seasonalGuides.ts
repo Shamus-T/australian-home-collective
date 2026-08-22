@@ -183,6 +183,16 @@ const seasonalSectionSource = [
       },
       {
         status: "published",
+        title: "How to Reduce Pollen and Dust Inside Your Home During Spring",
+        description:
+          "Trace entry routes, manage outdoor clothes and pet traffic, remove settled material and understand filtration limits.",
+        href: "/guides/reduce-pollen-dust-inside-home-spring/",
+        image: "/images/guides/reduce-pollen-dust-inside-home-spring.webp",
+        imageAlt:
+          "A hand using a sage cloth to wipe dust from the track of a screened window beside an Australian home entrance",
+      },
+      {
+        status: "published",
         title: "The 20-Minute Spring Reset",
         description:
           "Choose one small spring job to make a drawer, shelf, surface or everyday area feel easier to use.",
