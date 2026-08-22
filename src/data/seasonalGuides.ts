@@ -183,9 +183,9 @@ const seasonalSectionSource = [
       },
       {
         status: "published",
-        title: "Prepare Your Outdoor Area for Summer: A Practical Australian Checklist",
+        title: "Outdoor Entertaining Area Checklist: Get Your Patio Ready for Summer",
         description:
-          "Check surfaces, shade, layout, storage, lighting, barbecue safety and weather readiness before summer arrives.",
+          "Reset one usable outdoor entertaining area in an hour, then check its cleaning, layout, shade, storage, lighting and pack-down routine before summer.",
         href: "/guides/prepare-outdoor-area-for-summer/",
         image: "/images/guides/prepare-outdoor-area-for-summer.webp",
         imageAlt:
