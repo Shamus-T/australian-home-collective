@@ -7,6 +7,7 @@
     <title>AHC Control Centre</title>
     <link rel="stylesheet" href="/styles.css" />
     <script type="module" src="/app.js"></script>
+    <script type="module" src="/csv-export.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to dashboard</a>
@@ -74,6 +75,7 @@
               <h2>Top landing pages</h2>
             </div>
           </div>
+          <div class="table-actions"><button type="button" data-csv-export="ga4-landing-pages" data-csv-label="GA4 landing pages">Export CSV</button></div>
           <div class="table-wrap"><table id="landing-table"></table></div>
         </article>
       </section>
@@ -83,17 +85,20 @@
           <article class="card">
             <p class="kicker">Google</p>
             <h2>Top pages by impressions</h2>
+            <div class="table-actions"><button type="button" data-csv-export="search-console-pages" data-csv-label="Search Console pages">Export CSV</button></div>
             <div class="table-wrap"><table id="gsc-pages-table"></table></div>
           </article>
           <article class="card">
             <p class="kicker">Google</p>
             <h2>Top queries</h2>
+            <div class="table-actions"><button type="button" data-csv-export="search-console-queries" data-csv-label="Search Console queries">Export CSV</button></div>
             <div class="table-wrap"><table id="gsc-queries-table"></table></div>
           </article>
         </div>
         <article class="card">
           <p class="kicker">Cloudflare</p>
           <h2>Most-requested paths</h2>
+          <div class="table-actions"><button type="button" data-csv-export="cloudflare-paths" data-csv-label="Cloudflare paths">Export CSV</button></div>
           <div class="table-wrap"><table id="cloudflare-table"></table></div>
         </article>
       </section>
@@ -109,6 +114,7 @@
             </div>
             <p class="muted">No names, email addresses or full IP addresses are collected.</p>
           </div>
+          <div class="table-actions"><button type="button" data-csv-export="onsite-search" data-csv-label="AHC internal search">Export CSV</button></div>
           <div class="table-wrap"><table id="onsite-table"></table></div>
         </article>
       </section>
@@ -124,6 +130,7 @@
             </div>
             <p class="muted">Click totals use the selected period. CTR uses the separately labelled GA4 window.</p>
           </div>
+          <div class="table-actions"><button type="button" data-csv-export="affiliate-guides" data-csv-label="affiliate guides">Export CSV</button></div>
           <div class="table-wrap"><table id="affiliate-guides-table"></table></div>
         </article>
         <article class="card">
@@ -134,6 +141,7 @@
             </div>
             <p class="muted">Product names, merchants and destinations come from the rendered commercial links.</p>
           </div>
+          <div class="table-actions"><button type="button" data-csv-export="affiliate-products" data-csv-label="affiliate products">Export CSV</button></div>
           <div class="table-wrap"><table id="affiliate-products-table"></table></div>
         </article>
       </section>
@@ -148,6 +156,7 @@
               <input type="file" accept=".csv,text/csv" required />
               <button type="submit">Import Facebook CSV</button>
             </form>
+            <div class="table-actions"><button type="button" data-csv-export="facebook" data-csv-label="Facebook data">Export CSV</button></div>
             <div class="table-wrap"><table id="facebook-table"></table></div>
           </article>
           <article class="card">
@@ -158,6 +167,7 @@
               <input type="file" accept=".csv,text/csv" required />
               <button type="submit">Import Bing CSV</button>
             </form>
+            <div class="table-actions"><button type="button" data-csv-export="bing" data-csv-label="Bing data">Export CSV</button></div>
             <div class="table-wrap"><table id="bing-table"></table></div>
           </article>
         </div>

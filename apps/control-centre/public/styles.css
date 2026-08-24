@@ -150,6 +150,7 @@ main { width: min(1320px, calc(100% - 2rem)); margin: 1.25rem auto 4rem; }
 .definition-grid dd { margin: 0.25rem 0 0; font-size: 1.65rem; font-weight: 800; }
 
 .table-wrap { overflow-x: auto; }
+.table-actions { display: flex; justify-content: flex-end; margin: 0.75rem 0 0.6rem; }
 table { width: 100%; border-collapse: collapse; min-width: 560px; }
 th, td { padding: 0.7rem 0.6rem; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { color: var(--muted); font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; }
