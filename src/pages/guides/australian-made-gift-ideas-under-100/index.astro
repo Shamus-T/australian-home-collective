@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -40,10 +41,10 @@ const faqs = [
   title="Australian Made Home Gift Ideas Under $100"
   description="Choose an Australian made home gift under $100 by checking the origin claim, delivered price, usefulness, care needs and storage."
   category="Seasonal Guides"
-  date="Updated July 2026"
-  dateModified="2026-07-23"
+  date="Updated August 2026"
+  dateModified="2026-08-24"
   faqs={faqs}
-  readingTime="5 minute read"
+  readingTime="6 minute read"
   image="/images/australian-made-home-gift-ideas-under-100.webp"
   imageAlt="A modest home gift wrapped in kraft paper beside an unbranded ceramic bowl and folded cotton tea towel on a coral sideboard"
   imagePosition="60% center"
@@ -129,6 +130,12 @@ const faqs = [
     Check every candidate on the day of purchase. A product should not remain in an “Australian
     made under $100” list after its claim, price or availability has changed.
   </p>
+
+  <CommercialProductBlock
+    guidePath="/guides/australian-made-gift-ideas-under-100/"
+    title="Two Australian-made gifts to compare carefully"
+    intro="First confirm the recipient is comfortable with the exact scent or food ingredients and has no relevant sensitivities or allergies. If either category fits, compare these two Australian-made options by contents, use, delivered total and Amazon's current delivery and return terms; otherwise choose a different gift."
+  />
 
   <h2>A final five-question check</h2>
   <ol>

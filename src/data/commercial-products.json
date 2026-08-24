@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-08-22",
+  "updatedOn": "2026-08-24",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -46,7 +46,8 @@
     "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
     "/guides/portable-air-conditioners-australia/",
     "/guides/air-conditioner-dry-mode-humidity/",
-    "/guides/how-to-keep-house-cooler-in-summer/"
+    "/guides/how-to-keep-house-cooler-in-summer/",
+    "/guides/australian-made-gift-ideas-under-100/"
   ],
   "products": [
     {
@@ -6656,6 +6657,184 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
           "checkedOn": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "id": "gift-koala-eco-room-linen-aromatherapy-duo",
+      "guidePath": "/guides/australian-made-gift-ideas-under-100/",
+      "name": "Koala Eco Room & Linen Aromatherapy Duo",
+      "productType": "Room and linen spray gift duo",
+      "summary": "A boxed pair of room-and-linen sprays for a recipient whose fragrance preferences and household use are already known.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F2D7DGKG?tag=ahc07-22",
+      "linkLabel": "View the Koala Eco gift duo at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A strongly scented gift is unsuitable when the recipient's fragrance preferences or sensitivities are unknown.",
+        "The Amazon Australia offer was marked non-returnable for hazmat safety reasons at review, so the current return terms need checking before purchase.",
+        "The sprays need to be stored and used according to the directions for the exact product rather than treated as a general-purpose cleaner."
+      ],
+      "suitability": {
+        "suits": [
+          "a recipient who already uses room or linen sprays and likes the listed eucalyptus, peppermint, rosalina and grapefruit scents"
+        ],
+        "mayNotSuit": [
+          "scent-sensitive households, unknown fragrance preferences or anyone needing a returnable gift"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Aromatherapy Duo Gift Collection",
+          "publisher": "Koala Eco",
+          "sourceUrl": "https://koala.eco/products/room-linen-spray-gift-collection",
+          "supports": "The exact gift collection identity, its two 250 mL sprays, intended room and linen use and packaging details.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Koala Eco: made in Australia, from Australia",
+          "publisher": "Koala Eco",
+          "sourceUrl": "https://koala.eco/blogs/news/koala-eco-made-in-australia-from-australia",
+          "supports": "The maker's statement that its Australian home-product range is made and bottled in Australia, supporting the Amazon listing's Australia country-of-origin field.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Koala Eco Aromatherapy Duo owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F2D7DGKG",
+          "supports": "The current customer-feedback record was checked for scent, packaging and use themes; no testing or performance claim was inferred from it.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Koala Eco Aromatherapy Duo Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F2D7DGKG",
+          "supports": "The exact ASIN was in stock, sold and shipped by Amazon AU, listed at $30.76 and identified with Australia as its country of origin at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the exact product and Koala Eco brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Koala Eco Aromatherapy Duo Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F2D7DGKG?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "gift-taronga-almonds-flavoured-sampler",
+      "guidePath": "/guides/australian-made-gift-ideas-under-100/",
+      "name": "Taronga Almonds Eight-Flavour Gift Pack",
+      "productType": "Flavoured almond sampler gift box",
+      "summary": "An eight-flavour sampler of South Australian-grown almonds for a recipient whose food allergies, ingredients and storage needs have been checked first.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0H6DV5F7P?tag=ahc07-22",
+      "linkLabel": "View the Taronga Almonds gift box at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The current ingredient statement lists tree nuts, milk, soy, wheat and lactose and says the pack may contain traces of peanuts.",
+        "Amazon marked the food item non-returnable at review, and the maker advises extra care when shipping chocolate products in warm weather.",
+        "Ingredients, allergen statements, delivery timing and storage conditions still need checking on the current pack before purchase."
+      ],
+      "suitability": {
+        "suits": [
+          "a pantry-style gift for a recipient whose nut, milk, soy, wheat and lactose requirements are already known"
+        ],
+        "mayNotSuit": [
+          "anyone with relevant allergies or dietary restrictions, or delivery conditions likely to affect the chocolate-coated flavours"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "About Taronga Almonds",
+          "publisher": "Taronga Almonds",
+          "sourceUrl": "https://tarongaalmonds.com.au/pages/about-us",
+          "supports": "The producer's South Australian Fleurieu Peninsula location, locally grown almonds and statement that its range is produced in small batches.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Taronga Almonds gift pack owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0H6DV5F7P",
+          "supports": "The current limited feedback record, including its disclosed Vine status, was checked but was not used to make a quality or performance claim.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Taronga Almonds gift pack Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0H6DV5F7P",
+          "supports": "The exact eight-flavour ASIN was in stock, shipped by Amazon, sold by AUSCENTRAL, listed at $69.99 and identified with Australia as its country of origin at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian food recalls",
+          "publisher": "Food Standards Australia New Zealand",
+          "sourceUrl": "https://www.foodstandards.gov.au/food-recalls",
+          "supports": "The Australian food recall register was checked for the exact product and Taronga Almonds brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Taronga Almonds gift pack Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0H6DV5F7P?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, Amazon fulfilment and AUSCENTRAL seller were checked before approval.",
+          "checkedOn": "2026-08-24"
         }
       ]
     }

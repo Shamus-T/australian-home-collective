@@ -164,11 +164,19 @@ const guidesIndexHtml = routeHtml("/guides/");
 if (/<h[1-6]\b[^>]*>\s*Home &amp; Lifestyle\s*<\/h[1-6]>/i.test(guidesIndexHtml)) {
   addError("/guides/ has reintroduced the rejected Home & Lifestyle section.");
 }
-const seasonalGuidesSection = guidesIndexHtml.match(
-  /<section\b[^>]*>[\s\S]*?<h2[^>]*>\s*Seasonal Guides\s*<\/h2>([\s\S]*?)<\/section>/i,
+const springGuidesSection = guidesIndexHtml.match(
+  /<section\b[^>]*>[\s\S]*?<h2[^>]*>\s*Useful this spring\s*<\/h2>([\s\S]*?)<\/section>/i,
 )?.[0] ?? "";
-if (!seasonalGuidesSection.includes('href="/guides/australian-made-gift-ideas-under-100/"')) {
-  addError("/guides/ does not place the Australian made home gift guide inside Seasonal Guides.");
+const requiredSpringGuidePaths = [
+  "/guides/spring-home-maintenance-checklist/",
+  "/guides/20-minute-spring-reset/",
+  "/guides/spring-cleaning-checklist/",
+  "/guides/keep-flies-mosquitoes-out-of-home/",
+];
+for (const springGuidePath of requiredSpringGuidePaths) {
+  if (!springGuidesSection.includes(`href="${springGuidePath}"`)) {
+    addError(`/guides/ does not feature the required spring guide ${springGuidePath}.`);
+  }
 }
 
 const giftRoute = "/guides/australian-made-gift-ideas-under-100/";
@@ -213,5 +221,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Editorial standards audit passed: ${technicalEvidence.size} technical guides, ${electricalRoutes.length} electrical guides, rejected visuals, headings integration, Seasonal Guides scope and external-link security.`,
+  `Editorial standards audit passed: ${technicalEvidence.size} technical guides, ${electricalRoutes.length} electrical guides, rejected visuals, headings integration, spring feature scope and external-link security.`,
 );

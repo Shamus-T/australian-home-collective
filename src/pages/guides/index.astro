@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import GuideCard from "../../components/GuideCard.astro";
+import { seasonalSections, type PublishedSeasonalGuide } from "../../data/seasonalGuides";
 
 const featuredGuides = [
   {
@@ -53,12 +54,22 @@ const featuredGuides = [
   },
 ];
 
-const seasonalGuides = [
-  {
-    href: "/guides/australian-made-gift-ideas-under-100/",
-    title: "Australian Made Home Gift Ideas Under $100",
-    description: "Plan useful Australian-made gifts for the home, kitchen, table or garden within a delivered budget.",
-  },
+function requireSpringGuide(href: string): PublishedSeasonalGuide {
+  const spring = seasonalSections.find((season) => season.id === "spring");
+  const guide = spring?.guides.find((item) => item.status === "published" && item.href === href);
+
+  if (!guide || guide.status !== "published") {
+    throw new Error(`Missing published spring guide: ${href}`);
+  }
+
+  return guide;
+}
+
+const springGuides = [
+  requireSpringGuide("/guides/spring-home-maintenance-checklist/"),
+  requireSpringGuide("/guides/20-minute-spring-reset/"),
+  requireSpringGuide("/guides/spring-cleaning-checklist/"),
+  requireSpringGuide("/guides/keep-flies-mosquitoes-out-of-home/"),
 ];
 
 const guideGroups = [
@@ -278,26 +289,32 @@ const guideGroups = [
     </div>
   </header>
 
-  <section class="section soft">
-    <div class="container section-heading">
+  <section class="section spring-feature-section" aria-labelledby="useful-this-spring">
+    <div class="container section-heading spring-feature-heading">
       <div>
-        <p class="eyebrow">Browse by season</p>
-        <h2>Seasonal Guides</h2>
+        <p class="eyebrow spring-season-label">Spring 2026</p>
+        <h2 id="useful-this-spring">Useful this spring</h2>
       </div>
-      <p>Practical Australian home guides organised by season.</p>
+      <p>
+        Start with a short reset, work through overdue maintenance and close the gaps that let
+        warm-weather pests indoors.
+      </p>
     </div>
-    <div class="container grid three">
-      {seasonalGuides.map((guide) => (
+    <div class="container grid two spring-feature-grid">
+      {springGuides.map((guide) => (
         <GuideCard
           href={guide.href}
           title={guide.title}
           description={guide.description}
-          meta="Seasonal Guides"
+          meta="Spring 2026"
+          image={guide.image}
+          imageAlt={guide.imageAlt}
+          imagePosition={guide.imagePosition}
         />
       ))}
     </div>
-    <div class="container button-row">
-      <a class="button" href="/seasonal/">Open Seasonal Guides</a>
+    <div class="container spring-feature-action">
+      <a class="button secondary" href="/seasonal/#spring">Explore all spring guides</a>
     </div>
   </section>
 
@@ -359,3 +376,64 @@ const guideGroups = [
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .spring-feature-section {
+    position: relative;
+    overflow: hidden;
+    border-top: 7px solid #78946c;
+    border-bottom: 1px solid rgba(63, 77, 63, 0.28);
+    background:
+      radial-gradient(ellipse at 92% 4%, rgba(117, 151, 98, 0.25), transparent 24rem),
+      radial-gradient(ellipse at 7% 94%, rgba(212, 160, 23, 0.12), transparent 20rem),
+      linear-gradient(135deg, #edf4e6 0%, #f7f3e5 55%, #e3eddc 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+  }
+
+  .spring-feature-heading {
+    align-items: center;
+  }
+
+  .spring-feature-heading > div {
+    border-left: 5px solid #78946c;
+    padding-left: 18px;
+  }
+
+  .spring-season-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 999px;
+    padding: 7px 11px;
+    background: var(--green-dark);
+    color: var(--color-cream);
+  }
+
+  .spring-season-label::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-wattle);
+    content: "";
+  }
+
+  .spring-feature-grid :global(.guide-card) {
+    border-top: 5px solid #78946c;
+  }
+
+  .spring-feature-action {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 560px) {
+    .spring-feature-action {
+      justify-content: stretch;
+    }
+
+    .spring-feature-action .button {
+      width: 100%;
+    }
+  }
+</style>
