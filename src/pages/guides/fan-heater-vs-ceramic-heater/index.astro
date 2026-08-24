@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -47,8 +48,9 @@ const relatedGuides = [
   seoTitle="Fan Heater vs Ceramic Heater | Australian Guide"
   description="Compare conventional fan heaters and ceramic heaters before you buy. Understand heat delivery, noise, controls, electricity use, room suitability and safety."
   category="Living Spaces"
-  date="Published July 2026"
+  date="Updated August 2026"
   datePublished="2026-07-29"
+  dateModified="2026-08-24"
   readingTime="11 minute read"
   showAffiliateDisclosure={false}
   image="/images/fan-heater-vs-ceramic-heater.webp"
@@ -129,6 +131,12 @@ const relatedGuides = [
       </table>
     </div>
   </section>
+
+  <CommercialProductBlock
+    guidePath="/guides/fan-heater-vs-ceramic-heater/"
+    title="A conventional fan heater and a ceramic model to compare"
+    intro="These compact heaters suit brief, supervised spot heating after the room, power point and one-metre clearance have been checked. Compare the Heller's conventional fan-assisted element with the De'Longhi's self-regulating ceramic element; neither is for unattended or sleeping use."
+  />
 
   <h2>Warm-up speed and airflow</h2>
   <p>Both types can produce warm air soon after switch-on. The person in the airflow feels the effect before the whole room reaches a stable temperature, which makes these heaters useful for short supervised warm-up.</p>

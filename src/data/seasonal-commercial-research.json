@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "updatedOn": "2026-08-24",
+  "reviews": [
+    {
+      "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
+      "categoriesResearched": [
+        "temporary transparent seam tape",
+        "interior window-film kits",
+        "compression weather strip",
+        "door perimeter and bottom seals"
+      ],
+      "candidates": [
+        {
+          "name": "3M 2110NA Indoor Transparent Weather Sealing Tape",
+          "asin": "B0000CBIFF",
+          "category": "temporary transparent seam tape",
+          "availabilityAtReview": "in-stock",
+          "outcome": "suitable-for-defined-use",
+          "evidenceFinding": "Exact manufacturer specifications, a substantial owner-feedback record and the stocked Amazon Australia listing support temporary use over a confirmed small interior crack.",
+          "safetyFinding": "It cannot cover required ventilation, access or escape openings and may damage weak paint; it is not a repair for a large, moving or irregular gap."
+        },
+        {
+          "name": "3M 2141W-6 Indoor Window Insulator Kit",
+          "asin": "B00002NCJI",
+          "category": "interior window-film kit",
+          "availabilityAtReview": "temporarily-out-of-stock",
+          "outcome": "not-cleared",
+          "evidenceFinding": "The exact kit has manufacturer and recurring owner evidence, but the Amazon Australia offer was only temporarily orderable without a delivery estimate at review.",
+          "safetyFinding": "It changes window operation and is unsuitable where the opening is needed for ventilation, access or escape; surface adhesion and removal also remain condition-specific."
+        },
+        {
+          "name": "Raven RP-series perimeter and door seals",
+          "asin": null,
+          "category": "door perimeter and bottom seals",
+          "availabilityAtReview": "no-reliable-exact-amazon-listing",
+          "outcome": "not-cleared",
+          "evidenceFinding": "Australian manufacturer information exists across multiple profiles, but no exact, currently stocked Amazon Australia listing with a matching profile, dimensions and dependable owner record was established.",
+          "safetyFinding": "The correct profile depends on measured gap, door movement, sill, drainage, fire or smoke-door status and surface; treating the range as interchangeable would be unsafe and misleading."
+        }
+      ],
+      "canRecommendTwo": false,
+      "decision": "remain-unmonetised",
+      "articleSpecificReason": "The route teaches readers to identify the leak and preserve required ventilation before selecting a profile. One cleared temporary tape does not form a fair two-product set across doors, windows and intentional openings."
+    },
+    {
+      "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",
+      "categoriesResearched": [
+        "electric underblankets for bed pre-warming",
+        "heated throws for awake use",
+        "oil column and convector heaters for supervised pre-heating",
+        "ceramic and conventional fan heaters for brief warm-up",
+        "fixed reverse-cycle systems"
+      ],
+      "candidates": [
+        {
+          "name": "Sunbeam Sleep Perfect Antibacterial Electric Blanket Queen BLA6351",
+          "asin": "B0BXHS4VP3",
+          "category": "electric underblanket for bed pre-warming",
+          "availabilityAtReview": "in-stock",
+          "outcome": "suitable-for-focused-guide",
+          "evidenceFinding": "The exact stocked queen model has manufacturer size, controller, care and safety-system evidence plus recurring owner feedback.",
+          "safetyFinding": "Suitability is limited to a matching mattress and safe cord route, with inspection and switch-off before sleep; those checks are handled in the focused electric-bedding guide."
+        },
+        {
+          "name": "De'Longhi Dragon 4 Oil Column Heater TRD42400MT",
+          "asin": "B076HM1GN5",
+          "category": "portable heater for supervised pre-heating",
+          "availabilityAtReview": "limited-stock",
+          "outcome": "suitable-for-focused-guide",
+          "evidenceFinding": "The exact stocked 2400W model has manufacturer, owner, availability and recall evidence for a measured enclosed-room comparison.",
+          "safetyFinding": "It requires direct wall power, clearances, a stable position and supervision and must be switched off before sleep; it is not an overnight recommendation."
+        },
+        {
+          "name": "De'Longhi Ceramic Capsule Fan Heater HFX30C18.IW",
+          "asin": "B0742JBJMV",
+          "category": "portable heater for brief supervised warm-up",
+          "availabilityAtReview": "in-stock",
+          "outcome": "suitable-for-focused-guide",
+          "evidenceFinding": "The exact stocked model has current Australian manufacturer specifications and a large owner-feedback record.",
+          "safetyFinding": "Its compact ceramic design does not make it suitable for unattended or sleeping use, and it still requires a clear zone and direct wall power."
+        }
+      ],
+      "canRecommendTwo": false,
+      "decision": "remain-unmonetised",
+      "articleSpecificReason": "Individually suitable products exist for different tasks, but a pair would collapse three materially different decisions: warming the bed, supervised room pre-heating and installed overnight temperature control. The route already directs readers to the narrower monetised comparisons."
+    },
+    {
+      "guidePath": "/guides/fan-heater-vs-ceramic-heater/",
+      "categoriesResearched": [
+        "conventional wire-element fan heaters",
+        "compact ceramic fan heaters",
+        "tower ceramic heaters"
+      ],
+      "candidates": [
+        {
+          "name": "Heller Upright Fan Heater HUFH2000",
+          "asin": "B0C6CV26LJ",
+          "category": "conventional wire-element fan heater",
+          "availabilityAtReview": "in-stock",
+          "outcome": "approved",
+          "evidenceFinding": "The exact stocked model has current manufacturer specifications, recurring owner feedback, model-specific availability and retailer identity evidence.",
+          "safetyFinding": "Historical Heller recalls apply to other exact models, not HUFH2000; the record therefore flags label verification, direct wall power, one-metre clearance and supervised use."
+        },
+        {
+          "name": "De'Longhi Ceramic Capsule Fan Heater HFX30C18.IW",
+          "asin": "B0742JBJMV",
+          "category": "compact ceramic fan heater",
+          "availabilityAtReview": "in-stock",
+          "outcome": "approved",
+          "evidenceFinding": "The exact model is stocked and supported by current Australian manufacturer specifications and a large owner-feedback record.",
+          "safetyFinding": "Self-regulating ceramic technology does not remove the need for direct wall power, a clear zone, active supervision and switch-off before leaving or sleeping."
+        },
+        {
+          "name": "Goldair 2000W Upright Fan Heater GSFH18",
+          "asin": "B0CTZFBS35",
+          "category": "conventional wire-element fan heater",
+          "availabilityAtReview": "unavailable",
+          "outcome": "not-cleared",
+          "evidenceFinding": "The exact listing was currently unavailable and the owner record contained repeated failure and electrical-incident themes that were not resolved by current listing evidence.",
+          "safetyFinding": "Unavailable stock alone prevents recommendation, and unresolved product-level owner safety themes make substitution unnecessary because a better-evidenced exact alternative exists."
+        }
+      ],
+      "canRecommendTwo": true,
+      "decision": "monetise",
+      "articleSpecificReason": "The two approved products are exact representatives of the categories the route compares, are currently stocked, and can be presented after the operating differences with explicit high-load and supervised-use limits."
+    },
+    {
+      "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
+      "categoriesResearched": [
+        "portable oil column heaters",
+        "portable slim convector and panel heaters",
+        "wall-mountable panel heaters"
+      ],
+      "candidates": [
+        {
+          "name": "De'Longhi Dragon 4 Oil Column Heater TRD42400MT",
+          "asin": "B076HM1GN5",
+          "category": "portable oil column heater",
+          "availabilityAtReview": "limited-stock",
+          "outcome": "approved",
+          "evidenceFinding": "The exact Amazon listing had limited stock and is supported by manufacturer specifications, an established owner record and Australian model support.",
+          "safetyFinding": "The 2400W load, hot body, weight, floor space, clearance and supervised-use requirements are material limitations retained in the product record."
+        },
+        {
+          "name": "De'Longhi SlimStyle Convector Heater HSX3324FTS",
+          "asin": "B016XV9BHM",
+          "category": "portable slim convector heater",
+          "availabilityAtReview": "in-stock",
+          "outcome": "approved",
+          "evidenceFinding": "The exact stocked model has current Australian manufacturer specifications, recurring owner feedback and matching Amazon identity evidence.",
+          "safetyFinding": "The 2400W load requires direct wall power; the lateral fan, placement, clearances, tip-over protection and supervision distinguish it from a generic silent or fixed panel."
+        },
+        {
+          "name": "Noirot Spot Plus 2000W Panel Heater 7358-7TPRO",
+          "asin": "B0C2HZBH26",
+          "category": "wall-mountable panel heater",
+          "availabilityAtReview": "unavailable-or-unknown",
+          "outcome": "not-cleared",
+          "evidenceFinding": "Manufacturer and Australian retail information exists, but the exact Amazon page exposed no current buying availability and had a sparse owner record.",
+          "safetyFinding": "Portable and wall-mounted configurations have different installation and castor requirements, so the listing could not be promoted without clear current fulfilment and exact configuration evidence."
+        }
+      ],
+      "canRecommendTwo": true,
+      "decision": "monetise",
+      "articleSpecificReason": "The approved oil column and slim convector are current, exact portable products that illustrate the route's real trade-offs without implying that either suits every room or unattended operation."
+    },
+    {
+      "guidePath": "/guides/electric-blankets-vs-heated-throws/",
+      "categoriesResearched": [
+        "fitted electric underblankets",
+        "quilted electric underblankets",
+        "heated throws for awake use"
+      ],
+      "candidates": [
+        {
+          "name": "Sunbeam Sleep Perfect Antibacterial Electric Blanket Queen BLA6351",
+          "asin": "B0BXHS4VP3",
+          "category": "fitted electric underblanket",
+          "availabilityAtReview": "in-stock",
+          "outcome": "approved",
+          "evidenceFinding": "The exact queen model was in stock with current Sunbeam dimensions, controls, care, warranty and stated safety-standard evidence plus a recurring owner record.",
+          "safetyFinding": "Approval is limited to a matching queen mattress, correct installation, accessible controllers, inspection and switch-off before sleep."
+        },
+        {
+          "name": "Sunbeam Feel Perfect Sherpa Fleece Heated Throw TRF4200",
+          "asin": "B08Z3KZYR2",
+          "category": "heated throw for awake use",
+          "availabilityAtReview": "in-stock",
+          "outcome": "approved",
+          "evidenceFinding": "The exact grey sherpa model was in stock with current Sunbeam dimensions, controller, timer, care and warranty evidence plus recurring owner feedback.",
+          "safetyFinding": "It is approved only as a loosely draped throw for an awake user, not as an underblanket, tucked bed covering or pet mat."
+        },
+        {
+          "name": "Sunbeam Sleep Perfect Antibacterial Electric Blanket Double BLA6341",
+          "asin": "B0BXHRC8J1",
+          "category": "fitted electric underblanket",
+          "availabilityAtReview": "temporarily-out-of-stock",
+          "outcome": "not-cleared",
+          "evidenceFinding": "The exact model has strong current Sunbeam specifications and owner evidence but was temporarily out of stock on Amazon Australia without a delivery estimate.",
+          "safetyFinding": "No safety defect was inferred from availability, but a currently unavailable exact listing cannot be presented as a stocked recommendation."
+        }
+      ],
+      "canRecommendTwo": true,
+      "decision": "monetise",
+      "articleSpecificReason": "The approved pair maps exactly to the guide's central decision—matching-bed underblanket versus loose awake-use throw—and the product records preserve the non-interchangeable positions and safety routine."
+    }
+  ]
+}

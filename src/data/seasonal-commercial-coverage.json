@@ -120,13 +120,13 @@
       "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
       "classification": "legitimately-unmonetised",
       "reasonCode": "editorial-maintenance-or-source-control",
-      "reason": "Draught repairs are gap-, surface- and ventilation-specific, and the guide prioritises diagnosis before any fit-specific product."
+      "reason": "The review cleared one temporary seam tape but not a second current, exact Amazon product across the different gap profiles, surfaces and ventilation boundaries; this diagnosis-led route therefore remains unmonetised for article-specific reasons."
     },
     {
       "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",
       "classification": "legitimately-unmonetised",
-      "reasonCode": "higher-risk-product-set-not-cleared",
-      "reason": "Overnight bedroom heating has electrical, fire, clearance and occupant-specific safety considerations; no current two-model set cleared the editorial threshold."
+      "reasonCode": "no-cohesive-two-product-decision",
+      "reason": "Suitable electric-bedding and portable-heater models exist for narrower awake or pre-warming tasks, but no single pair fairly answers this route's choice between bed warming, supervised pre-heating and installed overnight temperature control; focused monetised comparisons are linked instead."
     },
     {
       "guidePath": "/guides/heating-an-open-plan-living-area/",
@@ -142,21 +142,21 @@
     },
     {
       "guidePath": "/guides/fan-heater-vs-ceramic-heater/",
-      "classification": "legitimately-unmonetised",
-      "reasonCode": "higher-risk-product-set-not-cleared",
-      "reason": "Portable high-load heaters carry fire, clearance and electrical risks, and no two-model set with current evidence has cleared the publishing threshold."
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "A current Heller conventional fan heater and De'Longhi ceramic fan heater provide an exact category comparison after direct-wall-power, clearance, supervision and room-fit limitations are made explicit."
     },
     {
       "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
-      "classification": "legitimately-unmonetised",
-      "reasonCode": "higher-risk-product-set-not-cleared",
-      "reason": "The comparison includes portable and potentially fixed high-load heaters; no verified two-model set has cleared the safety and fit threshold."
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "Two exact, stocked De'Longhi portable models now support the oil-column versus slim-convector decision with high-load electrical, room-fit, clearance, noise and supervised-use limits retained."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",
-      "classification": "legitimately-unmonetised",
-      "reasonCode": "higher-risk-product-set-not-cleared",
-      "reason": "Personal electric heating requires condition, use, electrical and fire-safety checks, and no current two-model set has cleared the threshold."
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "Exact stocked Sunbeam queen-underblanket and awake-use heated-throw models now support the category comparison with fit, position, controller, care, inspection and switch-off limitations preserved."
     },
     {
       "guidePath": "/guides/condensation-and-mould-during-winter/",

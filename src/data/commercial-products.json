@@ -49,7 +49,10 @@
     "/guides/how-to-keep-house-cooler-in-summer/",
     "/guides/australian-made-gift-ideas-under-100/",
     "/guides/keep-flies-mosquitoes-out-of-home/",
-    "/guides/reduce-pollen-dust-inside-home-spring/"
+    "/guides/reduce-pollen-dust-inside-home-spring/",
+    "/guides/electric-blankets-vs-heated-throws/",
+    "/guides/oil-column-heater-vs-panel-heater/",
+    "/guides/fan-heater-vs-ceramic-heater/"
   ],
   "products": [
     {
@@ -7192,6 +7195,516 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B086LDJFCN?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity, in-stock status, VESYNC seller and Amazon fulfilment were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "winter-sunbeam-bla6351-queen-electric-blanket",
+      "guidePath": "/guides/electric-blankets-vs-heated-throws/",
+      "name": "Sunbeam Sleep Perfect Antibacterial Electric Blanket Queen BLA6351",
+      "productType": "Fully fitted queen electric underblanket",
+      "summary": "A 153 × 200 cm queen underblanket with dual detachable controllers, six heat settings and 1, 3 or 9-hour auto-off options for a correctly matched mattress.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0BXHS4VP3?tag=ahc07-22",
+      "linkLabel": "View the Sunbeam queen electric blanket at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "This is the queen-size BLA6351 listing; a different mattress size requires the exact matching model and dimensions rather than stretching or bunching this blanket.",
+        "Dual controllers, auto-off and overheat protection do not replace the current Australian advice to pre-warm the bed and switch the blanket off before sleep.",
+        "The controller connections and two leads need accessible, uncrushed routes, and the product must be inspected, washed, dried and stored exactly as instructed."
+      ],
+      "suitability": {
+        "suits": [
+          "a queen mattress that matches the published dimensions and has safe access to two controller leads"
+        ],
+        "mayNotSuit": [
+          "another mattress size, an incompatible adjustable bed or a user unable to sense excessive heat or operate the controls safely"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Sleep Perfect Antibacterial Electric Blanket Queen BLA6351",
+          "publisher": "Sunbeam Australia",
+          "sourceUrl": "https://www.sunbeam.com.au/sleep-perfect-antibacterial-electric-blanket-queen",
+          "supports": "Exact model identity, 1530 × 2000 mm queen size, 150W rating, dual detachable controllers, six settings, auto-off options, washability, warranty and stated AS/NZS 60335.2.17-2012 compliance.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Sunbeam BLA6351 owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BXHS4VP3",
+          "supports": "The current owner-feedback record was checked for fit, heat-up, controller, comfort and durability themes; product safety was not inferred from star ratings.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Sunbeam BLA6351 Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BXHS4VP3",
+          "supports": "The exact BLA6351 queen variant and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for BLA6351 and the named Sunbeam range; no active matching recall was identified, while historical recalls for other electric-blanket models were treated as non-matches.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Sunbeam BLA6351 Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BXHS4VP3?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "winter-sunbeam-trf4200-sherpa-heated-throw",
+      "guidePath": "/guides/electric-blankets-vs-heated-throws/",
+      "name": "Sunbeam Feel Perfect Sherpa Fleece Heated Throw TRF4200",
+      "productType": "One-person heated throw for awake use",
+      "summary": "A 120 × 160 cm sherpa and microfleece heated throw with one digital controller, six heat settings and selectable 1, 3 or 9-hour auto-off.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08Z3KZYR2?tag=ahc07-22",
+      "linkLabel": "View the Sunbeam heated throw at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 120 × 160 cm dimensions provide one-person coverage rather than complete bed coverage, and the throw has one controller.",
+        "It is for loose use over an awake person, not beneath a sleeper, tucked around a mattress, folded while operating or used as a pet mat.",
+        "The controller must remain uncovered and reachable, and the detachable parts, washing, complete drying and storage instructions still need to be followed."
+      ],
+      "suitability": {
+        "suits": [
+          "an awake person wanting localised warmth on a suitable chair, sofa or desk seat"
+        ],
+        "mayNotSuit": [
+          "someone seeking an underblanket, overnight bed heating or a product that can be tightly wrapped or pinned in place"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Feel Perfect Sherpa Fleece Heated Throw Blanket TRF4200",
+          "publisher": "Sunbeam Australia",
+          "sourceUrl": "https://www.sunbeam.com.au/feel-perfect-sherpa-fleece-heated-throw-blanket",
+          "supports": "Exact model identity, 1200 × 1600 mm dimensions, 150W rating, materials, six settings, one controller, selectable auto-off, washability and three-year warranty.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Sunbeam TRF4200 owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08Z3KZYR2",
+          "supports": "The current owner-feedback record was checked for coverage, fabric, controller, warm-up, cleaning and durability themes; suitability for sleeping was not inferred from reviews.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Sunbeam TRF4200 Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08Z3KZYR2",
+          "supports": "The exact TRF4200 grey sherpa heated throw and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for TRF4200 and the named Sunbeam range; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Sunbeam TRF4200 Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08Z3KZYR2?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "winter-delonghi-trd42400mt-dragon-4-oil-column-heater",
+      "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
+      "name": "De'Longhi Dragon 4 Oil Column Heater TRD42400MT",
+      "productType": "2400W oil column heater with mechanical timer",
+      "summary": "An 11-fin 2400W oil column heater with three power settings, adjustable thermostat, 24-hour timer, safety thermostat, tilt switch and pre-assembled castors.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B076HM1GN5?tag=ahc07-22",
+      "linkLabel": "View the De'Longhi Dragon 4 at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 2400W rating is a high electrical load, so it needs direct connection to a suitable wall power point rather than a power board, double adaptor or extension lead.",
+        "At about 60.5 × 18 × 70 cm and 18.6 kg, it occupies more floor and storage space than a slim convector and remains a hot physical object around children and pets.",
+        "Oil column heating is gradual; the timer and thermostat do not make it suitable for unattended operation, leaving the home or sleeping use."
+      ],
+      "suitability": {
+        "suits": [
+          "a measured enclosed room where gradual, quiet warmth, a stable floor position and sufficient clearance are available"
+        ],
+        "mayNotSuit": [
+          "a large open-plan area, an obstructed room, a household needing immediate directional heat or a location without a suitable dedicated wall outlet"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Dragon 4 Oil Column Heater 2400W with Timer TRD42400MT",
+          "publisher": "De'Longhi",
+          "sourceUrl": "https://www.delonghi.com/en-nz/p/oil-column-heaters-dragon-4-oil-column-heater-2400w-with-timer-trd42400mt/TRD42400MT.html",
+          "supports": "Exact model specifications for 2400W output, 11 fins, three settings, thermostat, timer, dimensions, weight, castors, safety thermostat and tilt switch; Australian support separately identifies the same model.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "De'Longhi TRD42400MT owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B076HM1GN5",
+          "supports": "The current owner-feedback record was checked for warm-up, retained warmth, timer, movement, size, noise and durability themes; safe use was not inferred from owner sentiment.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "De'Longhi TRD42400MT Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B076HM1GN5",
+          "supports": "The exact TRD42400MT ASIN had limited current stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for TRD42400MT, Dragon 4 and De'Longhi portable heaters; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "De'Longhi TRD42400MT Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B076HM1GN5?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and limited in-stock status were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "winter-delonghi-hsx3324fts-slimstyle-convector-heater",
+      "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
+      "name": "De'Longhi SlimStyle Convector Heater HSX3324FTS",
+      "productType": "2400W slim convector heater with lateral fan",
+      "summary": "A 2400W portable convector with three power settings, room thermostat, 24-hour mechanical timer, lateral fan, carry handles, safety thermostat and tilt switch.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B016XV9BHM?tag=ahc07-22",
+      "linkLabel": "View the De'Longhi SlimStyle convector at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 2400W rating is a high electrical load and requires direct use at a suitable wall power point without a power board, double adaptor or extension lead.",
+        "Its lateral fan can accelerate warm-up but adds airflow and a stated 45 dB noise condition, so it is not equivalent to a silent passive panel.",
+        "The slim profile still needs a stable floor position and manufacturer clearances; wall mounting or fixed electrical work must follow the instructions and any required qualified advice."
+      ],
+      "suitability": {
+        "suits": [
+          "a measured small or medium enclosed room needing a lighter, slimmer portable heater and faster fan-assisted warm-up"
+        ],
+        "mayNotSuit": [
+          "a bedroom during sleep, a crowded furniture layout, a large open area or anyone expecting silent operation"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "SlimStyle Convector Heater with Manual Timer 2400W HSX3324FTS",
+          "publisher": "De'Longhi Australia",
+          "sourceUrl": "https://www.delonghi.com/en-au/p/convector-heaters-slimstyle-convector-heater-2400w-hsx3324fts/HSX3324FTS.html",
+          "supports": "Exact model identity, 2400W maximum, three settings, thermostat, lateral fan, 24-hour timer, dimensions, weight, noise, double insulation, safety thermostat and tilt switch.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "De'Longhi HSX3324FTS owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B016XV9BHM",
+          "supports": "The current owner-feedback record was checked for warm-up, fan noise, controls, timer, portability and durability themes; safe room placement was not inferred from reviews.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "De'Longhi HSX3324FTS Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B016XV9BHM",
+          "supports": "The exact HSX3324FTS model and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for HSX3324FTS, SlimStyle and De'Longhi portable heaters; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "De'Longhi HSX3324FTS Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B016XV9BHM?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "winter-heller-hufh2000-upright-fan-heater",
+      "guidePath": "/guides/fan-heater-vs-ceramic-heater/",
+      "name": "Heller Upright Fan Heater HUFH2000",
+      "productType": "2000W conventional fan heater",
+      "summary": "A compact conventional fan-assisted heater with 1000W and 2000W settings, adjustable thermostat, overheat protection, tip-over switch and carry handle.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0C6CV26LJ?tag=ahc07-22",
+      "linkLabel": "View the Heller fan heater at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 2000W setting is a high electrical load and needs direct use at a suitable wall power point without a power board, double adaptor or extension lead.",
+        "Conventional fan-assisted heat is concentrated and audible, making this a brief supervised spot-heating option rather than a quiet whole-room or bedtime solution.",
+        "The Heller brand has historical heater recalls for other exact models; buyers must confirm HUFH2000 on the label and recheck the recall register rather than relying on the brand name alone."
+      ],
+      "suitability": {
+        "suits": [
+          "brief supervised warm-up in a smaller room with a stable floor position and at least one metre of clearance"
+        ],
+        "mayNotSuit": [
+          "sleeping use, an unattended room, a location near bedding or curtains, or someone wanting low fan noise"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Heller Fan Heater 2000W HUFH2000",
+          "publisher": "GAF Control Australia",
+          "sourceUrl": "https://www.gafcontrol.com.au/shop/heller-fan-heater-2000w/HUFH2000",
+          "supports": "Exact HUFH2000 model identity, 1000W and 2000W settings, thermostat, dimensions, overheat protection, tip-over switch, indicator, carry handle and warranty.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Heller HUFH2000 owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C6CV26LJ",
+          "supports": "The current owner-feedback record was checked for heat delivery, fan noise, thermostat, size, odour and durability themes; the exact model's safety status was checked separately.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Heller HUFH2000 Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C6CV26LJ",
+          "supports": "The exact HUFH2000 listing and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian register was checked against HUFH2000. Historical Heller recalls found for FHH20A and other named models do not match HUFH2000, but make exact label verification material.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Heller HUFH2000 Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C6CV26LJ?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "winter-delonghi-hfx30c18-ceramic-capsule-heater",
+      "guidePath": "/guides/fan-heater-vs-ceramic-heater/",
+      "name": "De'Longhi Ceramic Capsule Fan Heater HFX30C18.IW",
+      "productType": "1800W compact ceramic fan heater",
+      "summary": "A compact ceramic fan heater with 900W and 1800W settings, mechanical room thermostat, summer ventilation, safety thermostat, tilt switch and carry handle.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0742JBJMV?tag=ahc07-22",
+      "linkLabel": "View the De'Longhi ceramic heater at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 1800W maximum is still a substantial electrical load and needs direct connection to a suitable wall power point without an adaptor, power board or extension lead.",
+        "Ceramic self-regulation does not make the heater safe to leave unattended or use while sleeping, and the front discharge still needs a clear one-metre zone.",
+        "Its compact format provides direct personal or small-room warmth, not a promise to maintain a large, open or draughty room."
+      ],
+      "suitability": {
+        "suits": [
+          "brief supervised personal or small-room warm-up where the compact handle and lower 900W setting are useful"
+        ],
+        "mayNotSuit": [
+          "overnight heating, a large open room, a silent setting or a furniture layout that cannot preserve clearance"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Ceramic Capsule Fan Heater 1800W HFX30C18.IW",
+          "publisher": "De'Longhi Australia",
+          "sourceUrl": "https://www.delonghi.com/en-au/p/capsule-ceramic-capsule-fan-heater-1800w/HFX30C18.IW.html",
+          "supports": "Exact model identity, ceramic technology, 900W and 1800W levels, dimensions, weight, thermostat, ventilation mode, double insulation, safety thermostat and tilt switch.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "De'Longhi HFX30C18.IW owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0742JBJMV",
+          "supports": "The large current owner-feedback record was checked for heat delivery, fan noise, controls, portability, smell and durability themes; safe use was not inferred from ratings.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "De'Longhi HFX30C18.IW Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0742JBJMV",
+          "supports": "The exact HFX30C18.IW model and ASIN were in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for HFX30C18.IW, Capsule and De'Longhi portable heaters; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "De'Longhi HFX30C18.IW Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0742JBJMV?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
           "checkedOn": "2026-08-24"
         }
       ]

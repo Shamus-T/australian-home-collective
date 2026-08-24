@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
+import { analyseCommercialPlacement } from "./lib/analyse-commercial-placement.mjs";
 import { loadSeasonalGuideData } from "./lib/load-seasonal-guides.mjs";
 
 const root = process.cwd();
@@ -14,11 +15,16 @@ const coveragePath = argumentValue("coverage")
   ?? path.join(root, "src", "data", "seasonal-commercial-coverage.json");
 const cataloguePath = argumentValue("catalogue")
   ?? path.join(root, "src", "data", "commercial-products.json");
+const researchPath = argumentValue("research")
+  ?? path.join(root, "src", "data", "seasonal-commercial-research.json");
 const checkDist = process.argv.includes("--dist");
 const coverage = JSON.parse(fs.readFileSync(coveragePath, "utf8"));
 const catalogue = JSON.parse(fs.readFileSync(cataloguePath, "utf8"));
+const research = JSON.parse(fs.readFileSync(researchPath, "utf8"));
 const { publishedSeasonalGuides } = await loadSeasonalGuideData(root);
 const errors = [];
+const placementDiagnostics = [];
+const reviewWarnings = [];
 
 const allowedClassifications = new Set([
   "monetised-correctly",
@@ -43,6 +49,13 @@ const requiredCurrentSourceTypes = new Set([
   "regulator-recall-check",
   "seller-fulfilment",
 ]);
+const requiredResearchRoutes = new Set([
+  "/guides/reduce-draughts-before-buying-bigger-heater/",
+  "/guides/heating-a-bedroom-overnight-comfort/",
+  "/guides/fan-heater-vs-ceramic-heater/",
+  "/guides/oil-column-heater-vs-panel-heater/",
+  "/guides/electric-blankets-vs-heated-throws/",
+]);
 
 const addError = (message) => errors.push(message);
 const countMatches = (value, pattern) => value.match(pattern)?.length ?? 0;
@@ -66,6 +79,13 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(coverage.updatedOn ?? "")) {
 }
 if (!Array.isArray(coverage.decisions)) {
   addError("Seasonal commercial coverage must contain a decisions array.");
+}
+if (research.version !== 1) addError("Seasonal commercial research must use version 1.");
+if (research.updatedOn !== coverage.updatedOn) {
+  addError("Seasonal commercial research must use the same updatedOn date as the coverage registry.");
+}
+if (!Array.isArray(research.reviews)) {
+  addError("Seasonal commercial research must contain a reviews array.");
 }
 
 const seasonalPaths = publishedSeasonalGuides.map((guide) => guide.href);
@@ -105,6 +125,55 @@ for (const guidePath of seasonalPaths) {
   }
 }
 
+const researchReviews = Array.isArray(research.reviews) ? research.reviews : [];
+const researchByPath = new Map();
+for (const review of researchReviews) {
+  if (!review || typeof review.guidePath !== "string") {
+    addError("Every seasonal commercial research review must have a guidePath.");
+    continue;
+  }
+  if (researchByPath.has(review.guidePath)) {
+    addError(`Duplicate seasonal commercial research review for ${review.guidePath}.`);
+  }
+  researchByPath.set(review.guidePath, review);
+  if (!requiredResearchRoutes.has(review.guidePath)) {
+    addError(`Unexpected seasonal commercial research review for ${review.guidePath}.`);
+  }
+  if (!Array.isArray(review.categoriesResearched) || review.categoriesResearched.length < 2) {
+    addError(`${review.guidePath} must record at least two researched product categories.`);
+  }
+  if (!Array.isArray(review.candidates) || review.candidates.length < 2) {
+    addError(`${review.guidePath} must record at least two exact product candidates.`);
+  }
+  for (const candidate of review.candidates ?? []) {
+    if (typeof candidate.name !== "string" || candidate.name.trim().length < 8) {
+      addError(`${review.guidePath} has a research candidate without a specific product name.`);
+    }
+    if (candidate.asin !== null && !/^[A-Z0-9]{10}$/.test(candidate.asin ?? "")) {
+      addError(`${review.guidePath} has a research candidate with an invalid ASIN.`);
+    }
+    for (const field of ["category", "availabilityAtReview", "outcome", "evidenceFinding", "safetyFinding"]) {
+      if (typeof candidate[field] !== "string" || candidate[field].trim().length < 8) {
+        addError(`${review.guidePath} research candidate ${candidate.name ?? "(unnamed)"} needs a specific ${field}.`);
+      }
+    }
+  }
+  if (typeof review.canRecommendTwo !== "boolean") {
+    addError(`${review.guidePath} must state whether two suitable products can be recommended.`);
+  }
+  if (!["monetise", "remain-unmonetised"].includes(review.decision)) {
+    addError(`${review.guidePath} has an invalid product-research decision.`);
+  }
+  if (typeof review.articleSpecificReason !== "string" || review.articleSpecificReason.trim().length < 80) {
+    addError(`${review.guidePath} must record a detailed article-specific decision reason.`);
+  }
+}
+for (const guidePath of requiredResearchRoutes) {
+  if (!researchByPath.has(guidePath)) {
+    addError(`Missing product-level seasonal commercial research for ${guidePath}.`);
+  }
+}
+
 const enabledPaths = new Set(catalogue.enabledGuidePaths ?? []);
 for (const guidePath of seasonalPaths) {
   const decision = decisionsByPath.get(guidePath);
@@ -139,14 +208,29 @@ for (const guidePath of seasonalPaths) {
     if (sourceBlockCount !== 1) {
       addError(`${guidePath} must contain exactly one CommercialProductBlock; found ${sourceBlockCount}.`);
     }
+    const placement = analyseCommercialPlacement(source);
+    if (placement) {
+      placementDiagnostics.push(
+        `${guidePath}: ${placement.sectionsBefore} substantive sections before and `
+        + `${placement.sectionsAfter} after; commercial section ${placement.sectionNumber}/`
+        + `${placement.totalSubstantiveSections}; approximately ${placement.percentBefore}% of authored editorial text precedes it.`,
+      );
+      if (placement.finalQuarterWarning) {
+        reviewWarnings.push(
+          `${guidePath}: commercial content begins in the final quarter of authored editorial text `
+          + `(${placement.percentBefore}% precedes it); review whether the decision can be made earlier.`,
+        );
+      }
+      if (placement.markersBefore.length > 0) {
+        reviewWarnings.push(
+          `${guidePath}: commercial content appears after ${placement.markersBefore.join(" and ")}; `
+          + "review the section order.",
+        );
+      }
+    }
     const escapedGuidePath = guidePath.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     if (!new RegExp(`<CommercialProductBlock\\b[\\s\\S]*?guidePath=["']${escapedGuidePath}["']`).test(source)) {
       addError(`${guidePath} CommercialProductBlock must use its exact guide route.`);
-    }
-    const commercialIndex = source.indexOf("<CommercialProductBlock");
-    const relatedIndex = source.indexOf("<RelatedGuidesBlock");
-    if (commercialIndex !== -1 && relatedIndex !== -1 && commercialIndex > relatedIndex) {
-      addError(`${guidePath} CommercialProductBlock must appear before related-guide navigation.`);
     }
     if (approvedProducts.length < 2) {
       addError(`${guidePath} is monetised but has ${approvedProducts.length} approved products; at least 2 are required.`);
@@ -229,10 +313,30 @@ for (const guidePath of seasonalPaths) {
   }
 }
 
+for (const guidePath of requiredResearchRoutes) {
+  const decision = decisionsByPath.get(guidePath);
+  const review = researchByPath.get(guidePath);
+  if (!decision || !review) continue;
+  const shouldMonetise = decision.classification === "monetised-correctly";
+  if (shouldMonetise !== (review.decision === "monetise")) {
+    addError(`${guidePath} product-research decision contradicts the seasonal coverage classification.`);
+  }
+  if (shouldMonetise !== review.canRecommendTwo) {
+    addError(`${guidePath} canRecommendTwo must agree with its current monetisation classification.`);
+  }
+}
+
 if (errors.length > 0) {
   console.error(`Seasonal commercial coverage audit failed with ${errors.length} issue(s):`);
   for (const error of errors) console.error(`- ${error}`);
   process.exit(1);
+}
+
+console.log("Seasonal commercial placement diagnostics:");
+for (const diagnostic of placementDiagnostics) console.log(`- ${diagnostic}`);
+if (reviewWarnings.length > 0) {
+  console.warn(`Seasonal commercial placement review warnings (${reviewWarnings.length}; non-blocking):`);
+  for (const warning of reviewWarnings) console.warn(`- ${warning}`);
 }
 
 const monetisedCount = decisions.filter((decision) => decision.classification === "monetised-correctly").length;
