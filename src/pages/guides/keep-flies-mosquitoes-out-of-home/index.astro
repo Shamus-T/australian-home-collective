@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -27,9 +28,10 @@ const relatedGuides = [
   seoTitle="Keep Flies and Mosquitoes Out of Your Home"
   description="Work out whether flies and mosquitoes are following food, breeding water or an easy entry point—then fix the cause before buying another trap."
   category="Outdoor & Garden"
-  date="Published August 2026"
+  date="Updated August 2026"
   datePublished="2026-08-22"
-  readingTime="6 minute read"
+  dateModified="2026-08-24"
+  readingTime="7 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/keep-flies-mosquitoes-out-of-home.webp"
   imageAlt="A fitted insect-screen door and screened window on the verandah of an Australian weatherboard home"
@@ -243,6 +245,12 @@ const relatedGuides = [
   </div>
 
   <p>Choose Australian-registered personal repellents and household insecticides and follow the complete label.</p>
+
+  <CommercialProductBlock
+    guidePath="/guides/keep-flies-mosquitoes-out-of-home/"
+    title="Two repair-led options for specific entry points"
+    intro="Compare these only after identifying the exact opening: the patches suit a small isolated tear in otherwise sound mesh, while the removable screen suits a measured window without a serviceable screen. Neither fixes a bent frame, poor door closure, standing water or food attractants."
+  />
 
   <h2>A ten-minute warmer-weather check</h2>
 

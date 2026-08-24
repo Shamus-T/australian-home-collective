@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -27,9 +28,10 @@ const relatedGuides = [
   seoTitle="Reduce Pollen and Dust Indoors This Spring"
   description="Reduce the pollen and outdoor dust entering through windows, doors, washing, shoes and pets—then clean what settles without simply moving it around."
   category="Living Spaces"
-  date="Published August 2026"
+  date="Updated August 2026"
   datePublished="2026-08-22"
-  readingTime="6 minute read"
+  dateModified="2026-08-24"
+  readingTime="8 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/reduce-pollen-dust-inside-home-spring.webp"
   imageAlt="A hand using a sage cloth to wipe dust from the track of a screened window beside an Australian home entrance"
@@ -241,6 +243,43 @@ const relatedGuides = [
       </tbody>
     </table>
   </div>
+
+  <h3 id="purifier-comparison-heading">Compare the stated capacity with the room</h3>
+
+  <div class="comparison-wrap" tabindex="0" role="region" aria-labelledby="purifier-comparison-heading">
+    <table class="comparison-table" aria-labelledby="purifier-comparison-heading">
+      <thead>
+        <tr>
+          <th scope="col">Option</th>
+          <th scope="col">Manufacturer's capacity basis</th>
+          <th scope="col">Filter, noise and size</th>
+          <th scope="col">Best fit and limitation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Philips AC1715/70</td>
+          <td>300 m³/h CADR; stated coverage up to 78 m²</td>
+          <td>Pre-filter, activated carbon and NanoProtect HEPA; 15 dB on sleep mode; 27.3 × 27.3 × 48.6 cm</td>
+          <td>A higher-airflow option for a defined medium room. The area claim does not account for every ceiling height, air-change target or open-plan connection.</td>
+        </tr>
+        <tr>
+          <td>Levoit Core 300</td>
+          <td>187 m³/h CADR; stated as 80 m² once an hour or 40 m² twice an hour</td>
+          <td>Pre-filter, activated carbon and HEPA filter; 24 dB on sleep mode; 22 × 22 × 36 cm</td>
+          <td>A smaller-footprint option for a measured bedroom or compact room. It has no particle sensor or automatic mode, and its lowest noise figure applies only to sleep mode.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Coverage figures use different air-change assumptions. Treat CADR, the actual room volume and the speed you will run as the useful comparison, and allow the clearances stated in the manual.</p>
+
+  <CommercialProductBlock
+    guidePath="/guides/reduce-pollen-dust-inside-home-spring/"
+    title="Two portable purifiers to compare after source control"
+    intro="Only compare a purifier when a defined room still has an airborne-particle problem after entry control and cleaning. Match the CADR and coverage basis to the room, leave airflow clearance, and confirm the exact replacement filter; neither unit removes settled dust or stops pollen entering."
+  />
 
   <p>If entry control and ordinary cleaning keep the problem manageable, another appliance may add noise, power use and replacement-filter costs without solving a remaining need.</p>
 

@@ -47,7 +47,9 @@
     "/guides/portable-air-conditioners-australia/",
     "/guides/air-conditioner-dry-mode-humidity/",
     "/guides/how-to-keep-house-cooler-in-summer/",
-    "/guides/australian-made-gift-ideas-under-100/"
+    "/guides/australian-made-gift-ideas-under-100/",
+    "/guides/keep-flies-mosquitoes-out-of-home/",
+    "/guides/reduce-pollen-dust-inside-home-spring/"
   ],
   "products": [
     {
@@ -5485,10 +5487,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-22",
+      "lastReviewedOn": "2026-08-24",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-08-24",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -5518,7 +5520,7 @@
           "publisher": "Klika Australia",
           "sourceUrl": "https://www.klika.com.au/wallaroo-280gsm-outdoor-sun-shade-sail-canopy-grey-3m-x-5m.html",
           "supports": "Current 3 x 5 m dimensions, 280 GSM fabric, installation angle, included parts, cleaning, warranty and wind limitations.",
-          "checkedOn": "2026-08-22"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "owner-feedback",
@@ -5526,7 +5528,7 @@
           "publisher": "Klika Australia",
           "sourceUrl": "https://www.klika.com.au/wallaroo-280gsm-outdoor-sun-shade-sail-canopy-grey-3m-x-5m.html",
           "supports": "Current customer product-review themes and installation concerns on the exact 280 GSM, 3 x 5 m model were checked without treating ratings as proof of suitability.",
-          "checkedOn": "2026-08-22"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "australian-availability-support",
@@ -5534,7 +5536,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0CVL3KX3Q?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
-          "checkedOn": "2026-08-22"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "regulator-recall-check",
@@ -5542,7 +5544,7 @@
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "seller-fulfilment",
@@ -5550,7 +5552,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0CVL3KX3Q?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
-          "checkedOn": "2026-08-22"
+          "checkedOn": "2026-08-24"
         }
       ]
     },
@@ -5569,13 +5571,13 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-08-24",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-08-24",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
+        "australianAvailabilityStatus": "in-stock",
         "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -5602,7 +5604,7 @@
           "publisher": "OZtrail",
           "sourceUrl": "https://www.oztrail.com.au/products/commercial-deluxe-3-0-gazebo",
           "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "owner-feedback",
@@ -5610,7 +5612,7 @@
           "publisher": "BuyWisely Australia",
           "sourceUrl": "https://buywisely.com.au/au/product/oztrail-commercial-deluxe-3-0-gazebo",
           "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "australian-availability-support",
@@ -5618,7 +5620,7 @@
           "publisher": "BuyWisely Australia",
           "sourceUrl": "https://buywisely.com.au/au/product/oztrail-commercial-deluxe-3-0-gazebo",
           "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "regulator-recall-check",
@@ -5626,7 +5628,7 @@
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "seller-fulfilment",
@@ -5634,7 +5636,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B096VVDJLL?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "checkedOn": "2026-08-24"
         }
       ]
     },
@@ -6505,13 +6507,13 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-19",
+      "lastReviewedOn": "2026-08-24",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-19",
+        "checkedOn": "2026-08-24",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
+        "australianAvailabilityStatus": "in-stock",
         "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -6539,7 +6541,7 @@
           "publisher": "TempPro",
           "sourceUrl": "https://temppro.com/products/tp60b-wireless-hygrometer-thermometer",
           "supports": "Manufacturer specifications for the base and remote sensor, stated tolerances, range, refresh rate, high-low records, display and batteries.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "owner-feedback",
@@ -6547,7 +6549,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B07C8B8K4F",
           "supports": "A large owner-feedback record was checked for readability, indoor-outdoor comparison, signal, consistency and sensor-placement themes.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "australian-availability-support",
@@ -6555,7 +6557,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B07C8B8K4F",
           "supports": "The exact one-sensor TP60B variant and ASIN were in stock on Amazon Australia at review.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "regulator-recall-check",
@@ -6563,7 +6565,7 @@
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "seller-fulfilment",
@@ -6571,7 +6573,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B07C8B8K4F?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, seller and fulfilment were checked before approval.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         }
       ]
     },
@@ -6590,13 +6592,13 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-19",
+      "lastReviewedOn": "2026-08-24",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-19",
+        "checkedOn": "2026-08-24",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
+        "australianAvailabilityStatus": "in-stock",
         "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -6624,7 +6626,7 @@
           "publisher": "3M",
           "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b10101952/",
           "supports": "Manufacturer identification, indoor use, dimensions and intended use around windows and doors to seal cracks and reduce energy loss.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "owner-feedback",
@@ -6632,7 +6634,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF",
           "supports": "A large owner-feedback record was checked for sealing, adhesion, application, removal and surface-condition themes.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "australian-availability-support",
@@ -6640,7 +6642,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF",
           "supports": "The exact single-roll 2110NA variant and ASIN were in stock on Amazon Australia at review.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "regulator-recall-check",
@@ -6648,7 +6650,7 @@
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         },
         {
           "sourceType": "seller-fulfilment",
@@ -6656,7 +6658,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
-          "checkedOn": "2026-08-19"
+          "checkedOn": "2026-08-24"
         }
       ]
     },
@@ -6834,6 +6836,362 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0H6DV5F7P?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, Amazon fulfilment and AUSCENTRAL seller were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "flies-cowdroy-flyscreen-repair-patches",
+      "guidePath": "/guides/keep-flies-mosquitoes-out-of-home/",
+      "name": "Cowdroy Flyscreen Repair Patches 150 × 200 mm (Pack of 3)",
+      "productType": "Self-adhesive flyscreen repair patches",
+      "summary": "Three charcoal self-adhesive 150 × 200 mm patches for covering a small isolated tear after confirming that the remaining mesh and frame are sound.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0BCW96CJW?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A patch is only a local repair; brittle, sagging or multiply damaged mesh is more likely to need replacement.",
+        "It cannot correct loose spline, a bent frame, poor door closure or a gap around the opening.",
+        "The Amazon Australia listing showed limited stock at review, so availability may change quickly."
+      ],
+      "suitability": {
+        "suits": [
+          "one small tear in otherwise sound, clean and dry insect-screen mesh"
+        ],
+        "mayNotSuit": [
+          "brittle mesh, several tears, damaged frames, loose edges or any opening needing a security-rated screen"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Repair Patches (Large)",
+          "publisher": "Cowdroy",
+          "sourceUrl": "https://cowdroy.com.au/product/repair-patches-large/",
+          "supports": "Cowdroy product code IACC0202003, self-adhesive construction, charcoal colour, pack quantity and exact 150 × 200 mm dimensions.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Cowdroy Flyscreen Repair Patches owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW",
+          "supports": "The current owner-feedback record was checked for repair size, adhesion and mesh-condition themes; no durability claim was inferred from it.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Cowdroy Flyscreen Repair Patches Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW",
+          "supports": "The exact 150 × 200 mm three-pack ASIN was available to add to cart and marked as low stock with more on the way at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the exact product and Cowdroy brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Cowdroy Flyscreen Repair Patches Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity, stock status and Amazon AU seller and fulfilment were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "flies-cowdroy-removable-window-flyscreen",
+      "guidePath": "/guides/keep-flies-mosquitoes-out-of-home/",
+      "name": "Cowdroy Removable Insect Flyscreen Window 1.3 × 1.5 m",
+      "productType": "Cut-to-size removable window flyscreen",
+      "summary": "Charcoal mesh for a measured window up to 1.3 × 1.5 m, supplied with 5.6 m of adhesive hook tape so the screen can be cut to size and removed.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0BCW8WBSJ?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The opening must be measured and the mounting surface must be suitable for adhesive hook tape before the mesh is cut.",
+        "It does not repair a damaged frame, guarantee closure on an uneven opening or provide a security barrier.",
+        "Renters and households with delicate finishes should confirm permission and test the surface before applying adhesive."
+      ],
+      "suitability": {
+        "suits": [
+          "a measured window without a serviceable insect screen where a removable, cut-to-size solution is appropriate"
+        ],
+        "mayNotSuit": [
+          "doors, security openings, uneven frames, unsuitable finishes or windows larger than 1.3 × 1.5 m"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Removable Flyscreen 1.3 × 1.5 m",
+          "publisher": "Cowdroy",
+          "sourceUrl": "https://cowdroy.com.au/product/removable-flyscreen-1-3x1-5/",
+          "supports": "Cowdroy product code IACC0170000, charcoal mesh, maximum window size, cut-to-size assembly and included 5.6 m adhesive hook tape.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Cowdroy Removable Flyscreen owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW8WBSJ",
+          "supports": "The current owner-feedback record was checked for cutting, fitting, adhesive and surface-preparation themes; no security or durability claim was inferred from it.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Cowdroy Removable Flyscreen Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW8WBSJ",
+          "supports": "The exact 1.3 × 1.5 m removable screen ASIN was in stock and available to add to cart on Amazon Australia at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the exact product and Cowdroy brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Cowdroy Removable Flyscreen Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW8WBSJ?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "pollen-philips-ac1715-70-air-purifier",
+      "guidePath": "/guides/reduce-pollen-dust-inside-home-spring/",
+      "name": "Philips 1000i Series Air Purifier AC1715/70",
+      "productType": "Portable air purifier for a defined medium room",
+      "summary": "A 300 m³/h CADR purifier with pre-filter, activated carbon and NanoProtect HEPA filtration, stated coverage up to 78 m² and a 27.3 × 27.3 cm footprint.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0BCHWLXW5?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 78 m² figure is a manufacturer coverage claim; useful sizing still depends on room volume, desired air changes and open-plan connections.",
+        "The stated 15 dB noise level applies to sleep mode, while higher speeds needed for more airflow will be louder.",
+        "It needs floor space, unobstructed airflow and the genuine FY1700/30 replacement filter as an ongoing ownership cost."
+      ],
+      "suitability": {
+        "suits": [
+          "a defined medium room needing more airflow than a compact purifier can deliver after pollen entry routes have been reduced"
+        ],
+        "mayNotSuit": [
+          "an open-plan area sized only from floor area, a room without clearance around the unit or a household unwilling to replace filters"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "1000i Series Air Purifier for Medium Rooms AC1715/70",
+          "publisher": "Philips Australia",
+          "sourceUrl": "https://www.philips.com.au/c-p/AC1715_70/air-purifier-1000i-series",
+          "supports": "The exact Australian model, 300 m³/h CADR, stated 78 m² coverage, three-stage filtration, 15 dB sleep-mode figure, dimensions and FY1700/30 replacement filter.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Genuine replacement HEPA NanoProtect filter FY1700/30",
+          "publisher": "Philips Australia",
+          "sourceUrl": "https://www.philips.com.au/c-p/FY1700_30/genuine-replacement-hepa-nanoprotect-filter",
+          "supports": "The genuine three-in-one replacement filter identity, including NanoProtect HEPA, active carbon and pre-filter layers.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Philips AC1715/70 owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCHWLXW5",
+          "supports": "The current owner-feedback record was checked for noise, controls, filter replacement, footprint and room-use themes; no health outcome was inferred from it.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Philips AC1715/70 Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCHWLXW5",
+          "supports": "The exact AC1715/70 ASIN and genuine FY1700/30 replacement-filter ASIN B09JWPZYGZ were both in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the exact model and Philips air-purifier range; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Philips AC1715/70 Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCHWLXW5?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
+          "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "pollen-levoit-core-300-air-purifier",
+      "guidePath": "/guides/reduce-pollen-dust-inside-home-spring/",
+      "name": "Levoit Core 300 Air Purifier",
+      "productType": "Compact portable air purifier for a measured room",
+      "summary": "A compact 187 m³/h CADR purifier with pre-filter, activated carbon and HEPA filtration, stated at 80 m² for one air change an hour or 40 m² for two.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B086LDJFCN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-24",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-24",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The area figures represent one or two air changes per hour; a smaller room may be needed where a higher air-change target is appropriate.",
+        "The 24 dB figure applies to sleep mode, and this model has no particle sensor or automatic mode.",
+        "It needs 22 × 22 cm of floor space, clear airflow and the genuine Core 300-RF replacement filter as an ongoing cost."
+      ],
+      "suitability": {
+        "suits": [
+          "a measured bedroom or compact closed room where its CADR and manual controls match the intended routine"
+        ],
+        "mayNotSuit": [
+          "a large open-plan zone, anyone expecting automatic particle sensing or a household unwilling to replace filters"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Levoit Core 300 Australian product listing",
+          "publisher": "Levoit Store Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B086LDJFCN",
+          "supports": "The current Australian manufacturer storefront specifications for the exact model: 187 m³/h CADR, coverage basis, three-stage filtration, 24 dB sleep mode, dimensions, weight and no UV-C, anions or ozone.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Levoit Core 300-RF replacement filter Australian listing",
+          "publisher": "Levoit Store Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07RSZSYNC",
+          "supports": "The genuine Core 300-RF three-in-one replacement filter identity and compatibility with the Core 300 purifier.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Levoit Core 300 owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B086LDJFCN",
+          "supports": "The current owner-feedback record was checked for noise, controls, filter ownership, footprint and room-use themes; no health outcome was inferred from it.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Levoit Core 300 Australian listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B086LDJFCN",
+          "supports": "The exact purifier ASIN and genuine Core 300-RF replacement-filter ASIN B07RSZSYNC were both in stock on Amazon Australia at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the exact model and Levoit air-purifier range; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Levoit Core 300 Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B086LDJFCN?tag=ahc07-22",
+          "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity, in-stock status, VESYNC seller and Amazon fulfilment were checked before approval.",
           "checkedOn": "2026-08-24"
         }
       ]

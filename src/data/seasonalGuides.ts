@@ -273,6 +273,26 @@ const seasonalSectionSource = [
       },
       {
         status: "published",
+        title: "How to Keep Your House Cooler in Summer — Before Buying a Bigger Air Conditioner",
+        description:
+          "Reduce summer heat gain with practical Australian guidance on shading, insulation, ventilation, fans, draughts and efficient air-conditioner use.",
+        href: "/guides/how-to-keep-house-cooler-in-summer/",
+        image: "/images/how-to-keep-house-cooler-in-summer.webp",
+        imageAlt:
+          "A shaded Australian living room with an exterior window awning, partly drawn curtains and a ceiling fan on a hot summer afternoon",
+      },
+      {
+        status: "published",
+        title: "Air Conditioner Maintenance Before Summer: What You Can Check and When to Call a Technician",
+        description:
+          "Check air-conditioner filters, airflow, drainage, controls and outdoor clearances before summer, and know when licensed technical servicing is required.",
+        href: "/guides/air-conditioner-maintenance-before-summer/",
+        image: "/images/air-conditioner-maintenance-before-summer.webp",
+        imageAlt:
+          "An Australian living room air conditioner with its owner-access cover open and two washable mesh filters visible",
+      },
+      {
+        status: "published",
         title: "Outdoor Shade Options",
         description:
           "Compare permanent and flexible shade solutions for patios, decks, windows and outdoor living areas.",

@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "updatedOn": "2026-08-24",
+  "decisions": [
+    {
+      "guidePath": "/guides/spring-cleaning-checklist/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "no-cohesive-two-product-decision",
+      "reason": "This is a broad room-by-room reset. Any pair of products would be arbitrary, while its focused vacuum link already leads readers to a genuine product decision."
+    },
+    {
+      "guidePath": "/guides/spring-home-maintenance-checklist/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "editorial-maintenance-or-source-control",
+      "reason": "The guide is an inspection and maintenance checklist with safety and trade boundaries, not a coherent two-product buying decision."
+    },
+    {
+      "guidePath": "/guides/spring-garden-reset-checklist/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "no-cohesive-two-product-decision",
+      "reason": "Tool and treatment choices depend on the observed garden condition, climate and task, so a generic product pair would distort the diagnostic checklist."
+    },
+    {
+      "guidePath": "/guides/prepare-outdoor-area-for-summer/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "editorial-maintenance-or-source-control",
+      "reason": "This is a broad outdoor reset and safety check. It already routes readers to the focused, monetised shade decision where products are relevant."
+    },
+    {
+      "guidePath": "/guides/keep-flies-mosquitoes-out-of-home/",
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "Two verified, repair-led flyscreen options answer distinct entry-point problems after attractants and standing water have been addressed."
+    },
+    {
+      "guidePath": "/guides/reduce-pollen-dust-inside-home-spring/",
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "Two verified air purifiers with different CADR and room-fit profiles support the filtration decision without replacing entry control or cleaning."
+    },
+    {
+      "guidePath": "/guides/20-minute-spring-reset/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "editorial-maintenance-or-source-control",
+      "reason": "The page is deliberately a no-purchase, time-boxed editorial reset rather than a buying guide."
+    },
+    {
+      "guidePath": "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "bulky-or-custom-fit",
+      "reason": "The core decisions are site-specific layout, circulation, furniture and storage choices; two portable accessories would not resolve them."
+    },
+    {
+      "guidePath": "/guides/lawn-care-basics/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "no-cohesive-two-product-decision",
+      "reason": "Equipment and treatment depend on lawn condition, species, climate and diagnosis, so no safe, cohesive generic product pair was identified."
+    },
+    {
+      "guidePath": "/guides/air-conditioning-buying-guide/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "major-installed-appliance",
+      "reason": "The guide covers major installed cooling systems that require site-specific sizing and licensed installation, not an Amazon product set."
+    },
+    {
+      "guidePath": "/guides/ceiling-fans-before-you-buy/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "licensed-electrical-installation",
+      "reason": "Ceiling-fan selection depends on clearances, mounting and fixed electrical work, so model promotion is inappropriate without site and installer assessment."
+    },
+    {
+      "guidePath": "/guides/how-to-keep-house-cooler-in-summer/",
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "A verified indoor-outdoor condition monitor and temporary weather-sealing tape support two defined, low-risk actions without displacing passive cooling advice."
+    },
+    {
+      "guidePath": "/guides/air-conditioner-maintenance-before-summer/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "editorial-maintenance-or-source-control",
+      "reason": "The page separates owner-safe checks from licensed technical servicing; selling cleaners or tools would weaken that boundary."
+    },
+    {
+      "guidePath": "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "Two verified temporary shade formats support the measured-use cases while retaining structural, anchoring and weather limitations."
+    },
+    {
+      "guidePath": "/guides/australian-made-gift-ideas-under-100/",
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "Two verified Australian-made gift options cover different recipient profiles with fragrance, allergen, delivery and return limitations disclosed."
+    },
+    {
+      "guidePath": "/guides/preparing-your-home-for-winter/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "no-cohesive-two-product-decision",
+      "reason": "The checklist spans heating, draughts, bedding and maintenance and already links to focused guides; a single product pair would be arbitrary."
+    },
+    {
+      "guidePath": "/guides/home-insulation-basics/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "major-installed-appliance",
+      "reason": "Insulation is an installed building-material decision involving access, moisture, electrical and professional-assessment considerations."
+    },
+    {
+      "guidePath": "/guides/gutter-maintenance-guide/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "work-at-height-or-trade-safety",
+      "reason": "The guide's principal boundary is safe inspection and knowing when work at height or trade help is required, not selling access equipment."
+    },
+    {
+      "guidePath": "/guides/home-heating-options-australia/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "no-cohesive-two-product-decision",
+      "reason": "This overview compares installed and portable heating categories; two Amazon models would be arbitrary and overstate suitability."
+    },
+    {
+      "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "editorial-maintenance-or-source-control",
+      "reason": "Draught repairs are gap-, surface- and ventilation-specific, and the guide prioritises diagnosis before any fit-specific product."
+    },
+    {
+      "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "higher-risk-product-set-not-cleared",
+      "reason": "Overnight bedroom heating has electrical, fire, clearance and occupant-specific safety considerations; no current two-model set cleared the editorial threshold."
+    },
+    {
+      "guidePath": "/guides/heating-an-open-plan-living-area/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "major-installed-appliance",
+      "reason": "Open-plan heating requires room-load assessment and usually a site-specific installed-system decision rather than portable product promotion."
+    },
+    {
+      "guidePath": "/guides/reverse-cycle-heating-explained/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "major-installed-appliance",
+      "reason": "Reverse-cycle systems require climate, capacity, building and licensed-installation assessment, placing them outside the portable affiliate catalogue."
+    },
+    {
+      "guidePath": "/guides/fan-heater-vs-ceramic-heater/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "higher-risk-product-set-not-cleared",
+      "reason": "Portable high-load heaters carry fire, clearance and electrical risks, and no two-model set with current evidence has cleared the publishing threshold."
+    },
+    {
+      "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "higher-risk-product-set-not-cleared",
+      "reason": "The comparison includes portable and potentially fixed high-load heaters; no verified two-model set has cleared the safety and fit threshold."
+    },
+    {
+      "guidePath": "/guides/electric-blankets-vs-heated-throws/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "higher-risk-product-set-not-cleared",
+      "reason": "Personal electric heating requires condition, use, electrical and fire-safety checks, and no current two-model set has cleared the threshold."
+    },
+    {
+      "guidePath": "/guides/condensation-and-mould-during-winter/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "health-or-remediation-boundary",
+      "reason": "The guide prioritises moisture-source investigation and health or remediation boundaries; generic appliances or treatments could mask the underlying problem."
+    }
+  ]
+}
