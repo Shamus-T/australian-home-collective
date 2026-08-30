@@ -34,6 +34,9 @@ interface Props {
   secondaryGuides?: LinkItem[];
   secondaryGuideHeading?: string;
   secondaryGuideIntro?: string;
+  commercialGuides?: LinkItem[];
+  commercialGuideHeading?: string;
+  commercialGuideIntro?: string;
   compare: string[];
   mistakes: string[];
   productTypes: ProductType[];
@@ -54,6 +57,9 @@ const {
   secondaryGuides = [],
   secondaryGuideHeading = "More guides",
   secondaryGuideIntro = "These guides cover nearby household routines that may be part of the same job.",
+  commercialGuides = [],
+  commercialGuideHeading = "Product comparison guides",
+  commercialGuideIntro = "Use these guides to narrow the product type and specifications before comparing current listings.",
   compare,
   mistakes,
   productTypes,
@@ -157,8 +163,33 @@ const selectedImage = categoryImages[title] ?? categoryImages["Living Spaces"];
     </section>
   )}
 
+  {commercialGuides.length > 0 && (
+    <section class="section soft" data-category-section="commercial-guides">
+      <div class="container section-heading">
+        <div>
+          <p class="eyebrow">Compare carefully</p>
+          <h2>{commercialGuideHeading}</h2>
+        </div>
+        <p>{commercialGuideIntro}</p>
+      </div>
+      <div class="container grid three">
+        {commercialGuides.map((guide) => (
+          <GuideCard
+            href={guide.href}
+            title={guide.title}
+            description={guide.description}
+            meta="Buying guide"
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
   <section
-    class:list={["section", (guides.length > 0 || secondaryGuides.length > 0) && "soft"]}
+    class:list={[
+      "section",
+      commercialGuides.length === 0 && (guides.length > 0 || secondaryGuides.length > 0) && "soft",
+    ]}
     data-category-section="planning-focus"
   >
     <div class="container section-heading">
