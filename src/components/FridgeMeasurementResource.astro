@@ -1,0 +1,86 @@
+---
+const headingId = "fridge-measurement-resource";
+---
+
+<section class="measurement-resource" aria-labelledby={headingId}>
+  <h2 id={headingId}>Measure the opening, door space and delivery route</h2>
+  <p>
+    Start with the space in your kitchen, then compare it with the installation guide for
+    the exact fridge. Check the room needed around it, how far the doors must open and
+    whether the delivery team can get it into place.
+  </p>
+  <div class="measurement-diagrams">
+    <figure>
+      <img
+        src="/images/diagrams/fridge-opening.svg"
+        alt="Front view of a tall fridge: A marks the finished opening width and B marks the height from the floor to the cupboard above."
+        width="560"
+        height="480"
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        <strong>Measure the finished opening.</strong> Check width and height at the front,
+        middle and rear, and write down the smallest measurements. Measure usable depth
+        separately, allowing for skirting, trim and anything behind the fridge.
+      </figcaption>
+    </figure>
+    <figure>
+      <img
+        src="/images/diagrams/fridge-door-clearance.svg"
+        alt="Top view of a fridge beside a wall: A marks the hinge-side gap, a curved line shows the door swing, and a drawer extends into the room."
+        width="560"
+        height="480"
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        <strong>Check the doors beside walls.</strong> Use the model's required wall gap
+        and door angle. Make sure you can fully pull out the drawers and remove them
+        for cleaning. A door opening to 90 degrees does not guarantee drawer access.
+      </figcaption>
+    </figure>
+    <figure class="delivery-diagram">
+      <img
+        src="/images/diagrams/fridge-delivery-route.svg"
+        alt="A tall fridge carton labelled width, height and depth, beside a top view of a delivery route through a doorway and around a corner."
+        width="560"
+        height="480"
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        <strong>Measure the whole delivery route.</strong> Check the packaged size against
+        every doorway, tight turn, stairway and lift. Ask the delivery team to confirm
+        access, including any need to unpack, remove doors or tilt the fridge.
+      </figcaption>
+    </figure>
+  </div>
+  <p class="diagram-note">Original Australian Home Collective diagrams. Illustrative only, not to scale; shaded gaps and door angles do not set the requirements for your fridge.</p>
+  <div class="measurement-download">
+    <div>
+      <h3>Take the measurements with you</h3>
+      <p>Use the free one-page A4 worksheet to record your kitchen opening, fridge dimensions, ventilation gaps and delivery checks. Leave unknown measurements blank until confirmed.</p>
+    </div>
+    <a class="button" href="/downloads/fridge-measurement-worksheet.pdf" download data-measurement-download="fridge">
+      Download fridge worksheet (PDF)
+    </a>
+  </div>
+</section>
+
+<style>
+  .measurement-resource { margin: 2.5rem 0; }
+  .measurement-diagrams { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.35rem; margin: 1.5rem 0 0.8rem; }
+  figure { margin: 0; min-width: 0; }
+  figure img { display: block; width: 100%; height: auto; border: 1px solid #d5e1dc; border-radius: 12px; }
+  .delivery-diagram { grid-column: 1 / -1; width: 100%; max-width: 560px; justify-self: center; }
+  figcaption { margin-top: 0.85rem; font-size: 0.95rem; line-height: 1.65; color: #263b3e; }
+  figcaption strong { display: block; margin-bottom: 0.25rem; }
+  .measurement-resource .diagram-note { font-size: 0.85rem; color: #4c625b; line-height: 1.5; }
+  .measurement-download { margin-top: 1.5rem; padding: 1.4rem; background: #f0f5f2; border: 1px solid #d5e1dc; border-radius: 14px; }
+  .measurement-download h3 { margin: 0 0 0.5rem; }
+  .measurement-download p { margin: 0 0 1rem; }
+  .measurement-download .button { max-width: 100%; white-space: normal; text-align: center; line-height: 1.5; }
+  @media (max-width: 640px) { .measurement-diagrams { grid-template-columns: 1fr; gap: 1.6rem; } .measurement-download { padding: 1.1rem; } }
+  @media print { .measurement-resource { break-inside: auto; } figure { break-inside: avoid; } .measurement-download { background: white; } }
+</style>

@@ -818,7 +818,7 @@ for (const file of publishedSourceFiles) {
 
   for (const match of source.matchAll(/<(?:a|ExternalLink)\b[^>]*\bhref=["'](https?:\/\/[^"']+)["']/gi)) {
     sourceExternalLinkCount += 1;
-    const destinationUrl = match[1];
+    const destinationUrl = decode(match[1]);
     if (!destinationUrl.toLowerCase().startsWith("https://")) {
       addError(relativePath + " contains a non-HTTPS external editorial link: " + destinationUrl);
     }

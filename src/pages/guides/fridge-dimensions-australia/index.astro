@@ -1,4 +1,6 @@
 ---
+import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
+import FridgeMeasurementResource from "../../../components/FridgeMeasurementResource.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -46,9 +48,10 @@ const faqs = [
   seoTitle="Fridge Dimensions Australia: Cavity and Clearance Guide"
   description="Measure an Australian fridge cavity properly, including ventilation, door swing, handles, delivery access and the working space around the appliance."
   category="Kitchen"
-  date="Published July 2026"
+  date="Updated September 2026"
+  dateModified="2026-09-11"
   datePublished="2026-07-23"
-  readingTime="6 minute read"
+  readingTime="10 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
   image="/images/guides/fridge-dimensions-australia.webp"
@@ -65,6 +68,8 @@ const faqs = [
     manufacturer's planning and installation documents. Fridges with similar capacities can have
     noticeably different external dimensions.
   </p>
+
+  <MeasurementWorksheetLink appliance="fridge" />
 
   <section aria-labelledby="fridge-measurements-heading">
     <h2 id="fridge-measurements-heading">The measurements that decide whether a fridge fits</h2>
@@ -88,7 +93,7 @@ const faqs = [
           <tr>
             <td>Opening height</td>
             <td>Floor to the underside of the cupboard or bulkhead</td>
-            <td>Include flooring, levelling feet and required overhead ventilation.</td>
+            <td>Compare the smallest height with the fridge's installed height, including levelling and the required space above.</td>
           </tr>
           <tr>
             <td>Opening depth</td>
@@ -120,6 +125,39 @@ const faqs = [
     </div>
   </section>
 
+  <FridgeMeasurementResource />
+
+  <section aria-labelledby="current-fridge-examples-heading" data-appliance-model-examples="fridge">
+    <h2 id="current-fridge-examples-heading">Three current fridges show what to check</h2>
+    <p>These models were checked against Australian manufacturer listings and installation documents on <time datetime="2026-09-11">11 September 2026</time>. They are measuring examples, not product recommendations or firsthand tests. All measurements are in millimetres, in the order <strong>width × height × depth</strong>.</p>
+    <p class="table-hint">Swipe sideways to compare the full table.</p>
+    <div class="comparison-wrap" tabindex="0" role="region" aria-label="Current fridge dimensions and installation requirements">
+      <table class="comparison-table">
+        <caption>Check the whole fridge, the opening and the space to use it</caption>
+        <thead><tr><th scope="col">Current Australian model</th><th scope="col">Published size (mm)</th><th scope="col">What else to allow for</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Bosch KGN36VI3AA<br />Bottom mount</th><td>600 × 1,860 × 660 with the door closed.<br />Body depth: 590.<br />Total depth with the door open: 1,210.</td><td>The door adds to the depth of the fridge. The drawing also shows space for reaching the handle and opening the door beside cabinetry. It does not provide one complete opening size that applies to every arrangement.</td></tr>
+          <tr><th scope="row">Fisher &amp; Paykel RF730QNUVX1<br />Quad door</th><td>905 × 1,900 × 748 overall, with recessed handles.<br />Total depth with doors open 90°: 1,142.</td><td>With the doors sitting in front of the cupboards, the guide shows an opening of 945 × 1,920 × 690 for full door movement. The doors project beyond that opening. Follow the separate door-clearance and ventilation drawings as well.</td></tr>
+          <tr><th scope="row">Westinghouse WTM4302WD-R<br />Top mount, right hinge</th><td>699 × 1,725 × 723 overall.<br />Cabinet depth: 641.<br />Total depth with the door open 90°: 1,360.</td><td>The dimension sheet shows 30 at each side, 50 behind and 90 above for ventilation. In a corner, it specifies 430 on the hinge side so bins and shelves can be removed. The doors sit in front of the cupboards.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>Allow room to open the door and remove the drawers</h3>
+    <p>Space for airflow and space to use the fridge serve different purposes. The Westinghouse example needs a much larger gap beside a corner wall than beside a cupboard that stops behind the door. Check that the door can open far enough to pull out drawers and remove shelves for cleaning.</p>
+    <p>For this Westinghouse model, the manual permits a smaller space above the hinge cover only with the cupboard airflow arrangement it illustrates. Follow that drawing and the levelling instructions before using a tighter opening.</p>
+    <h3>The same fridge can need a different opening</h3>
+    <p>Fisher &amp; Paykel shows two cupboard layouts for the RF730QNUVX1. With the fridge doors standing in front of the cupboards, its illustrated opening is 945 mm wide. With the front of the fridge lined up with the cupboards, the opening for full door movement is 1,125 mm wide, 1,945 mm high and 778 mm deep.</p>
+    <p>Choose the drawing that matches your kitchen. Both layouts also need the ventilation path and room for the doors shown in the guide. Do not use the smaller opening dimensions for a different cupboard arrangement.</p>
+    <p>The depth figures in the table with a door open run from the back of the fridge to the open door. They are total depths, not extra space to add to the closed fridge. Rear clearances and room for a person to stand still need to be checked.</p>
+    <h3>Manufacturer sources for these examples</h3>
+    <ul>
+      <li><strong>Bosch KGN36VI3AA:</strong> <a href="https://www.bosch-home.com.au/en/mkt-product/fridges-freezers/fridge-freezers/freestanding-bottom-mount-fridge-freezer/KGN36VI3AA" target="_blank" rel="noopener noreferrer">Australian model details</a>; <a href="https://media3.bsh-group.com/Documents/specsheet/en-AU/KGN36VI3AA.pdf#page=3" target="_blank" rel="noopener noreferrer">specification sheet, page 3</a>, using the drawing for the integrated handle; <a href="https://media3.bsh-group.com/Documents/9001875574_C.pdf#page=34" target="_blank" rel="noopener noreferrer">user manual, pages 34–35</a>, for installation and ventilation guidance.</li>
+      <li><strong>Fisher &amp; Paykel RF730QNUVX1:</strong> <a href="https://www.fisherpaykel.com/au/cooling/freestanding/690l-series-7-quad-door-refrigerator-freezer-ice-and-water-rf730qnuvx1-26615.html" target="_blank" rel="noopener noreferrer">Australian model details</a>; <a href="https://dam.fisherpaykel.com/KZ3PKN00/at/rm2q4txk7xjxkb68qzqtfx8x/FP-InstallGuide-en-RF730QZUVB1-RF730QNUVX1-RF730QNUVB1-FreestandingQuadDoorRefrigeratorFreezer-0-431084B-NZ-AU.pdf#page=12" target="_blank" rel="noopener noreferrer">installation guide, pages 12–16</a>, for overall size, cupboard layouts, door movement and ventilation. The guide labels the two layouts “proud” and “flush”.</li>
+      <li><strong>Westinghouse WTM4302WD-R:</strong> <a href="https://www.westinghouse.com.au/fridges-and-freezers/fridges/wtm4302wd-r/" target="_blank" rel="noopener noreferrer">Australian model details</a>; <a href="https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjM0Mjk1&amp;lang=" target="_blank" rel="noopener noreferrer">dimension and installation sheet</a>; <a href="https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjMxNzY1&amp;lang=#page=11" target="_blank" rel="noopener noreferrer">user manual, page 11</a>, for corner placement, cupboard airflow and levelling.</li>
+    </ul>
+    <p>Before ordering or changing cupboards, match the full model code to the manufacturer's current installation documents. Confirm any uncertain measurements with the retailer or installer.</p>
+  </section>
+
   <h2>Measure the cavity, not the old refrigerator</h2>
   <p>
     An existing fridge may be narrower than the opening, pushed forward by a power point or sitting
@@ -148,9 +186,9 @@ const faqs = [
 
   <h2>Plan power, water and ventilation before delivery</h2>
   <p>
-    Keep the power point and plug accessible in the position allowed by the manufacturer. A model
-    with plumbed water or an ice maker also needs a suitable water connection and installation that
-    follows the product instructions and local requirements. Do not trap a hose behind the cabinet
+    Keep the power point and plug accessible in the position allowed by the manufacturer. If the model has
+    a plumbed water dispenser or automatic ice maker, check the water connection it requires.
+    Follow the product instructions and local installation requirements. Do not trap a hose behind the cabinet
     or use the appliance to force a plug into a shallow recess.
   </p>
   <p>
@@ -190,7 +228,7 @@ const faqs = [
     <li>Use the exact model's installation guide for clearances.</li>
     <li>Record cabinet, door, handle and open door depth.</li>
     <li>Test the hinge side and drawer path against walls and islands.</li>
-    <li>Confirm power, water and drainage requirements.</li>
+    <li>Confirm power and any water connection required by your model.</li>
     <li>Keep ventilation and service access clear.</li>
     <li>Measure every doorway, turn, stair and lift on the delivery route.</li>
     <li>Compare energy use only after capacity and fit are suitable.</li>

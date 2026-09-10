@@ -355,3 +355,11 @@ test("reviewed appliance references permit PDF page citations without trusting u
     assert.equal(isReviewedApplianceSource(unreviewed), false, unreviewed);
   }
 });
+
+
+test("reviewed manufacturer document queries do not permit different files or tracking", () => {
+  const manual = "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjMxNzY1&lang=";
+  assert.equal(isReviewedApplianceSource(manual + "#page=11"), true);
+  assert.equal(isReviewedApplianceSource(manual + "&tag=affiliate"), false);
+  assert.equal(isReviewedApplianceSource(manual.replace("NjMxNzY1", "unreviewed")), false);
+});

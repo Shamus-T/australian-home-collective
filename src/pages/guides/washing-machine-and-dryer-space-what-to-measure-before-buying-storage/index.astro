@@ -1,4 +1,5 @@
 ---
+import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
@@ -91,6 +92,8 @@ const faqs = [
     width, height and depth of the model, then follow its installation instructions for hoses, taps,
     door opening, ventilation, required clearances and service access.
   </p>
+
+  <MeasurementWorksheetLink appliance="washing-machine" />
 
   <section aria-labelledby="laundry-dimensions-heading">
     <h2 id="laundry-dimensions-heading">Washing machine dimensions in Australia at a glance</h2>

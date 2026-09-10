@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="480" viewBox="0 0 560 480" role="img" aria-labelledby="title desc">
+  <title id="title">Fridge opening: width, height and ventilation space</title>
+  <desc id="desc">Front view of a tall fridge. A measures the finished opening width. B measures from the floor to the underside of the cupboard above. Shaded gaps indicate where to check ventilation requirements, without specifying any clearance.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#245b63"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #263b3e; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 18px; }
+    .dim { stroke: #245b63; stroke-width: 2.5; marker-start: url(#arrow); marker-end: url(#arrow); }
+    .guide { stroke: #819894; stroke-width: 1.5; stroke-dasharray: 5 5; }
+  </style>
+  <rect width="560" height="480" rx="14" fill="#f4f7f5"/>
+  <text x="28" y="36" class="small">FRONT VIEW</text>
+  <!-- Pale space shows the opening; only the exact manual sets the required gaps. -->
+  <rect x="196" y="83" width="168" height="310" fill="#e2ece4"/>
+  <path d="M177 62H383V393H364V83H196V393H177Z" fill="#d4e2dd" stroke="#a1b7ae" stroke-width="2"/>
+  <path d="M102 393H431" stroke="#657e75" stroke-width="4"/>
+  <!-- The fridge silhouette is 126 by 294, a realistic tall 3:7 proportion. -->
+  <rect x="217" y="99" width="126" height="294" rx="8" fill="#fff" stroke="#516d70" stroke-width="3"/>
+  <path d="M217 284H343" stroke="#516d70" stroke-width="3"/>
+  <path d="M330 141V225M329 309V360" stroke="#819894" stroke-width="5" stroke-linecap="round"/>
+  <rect x="228" y="112" width="34" height="14" rx="3" fill="#e8f0ed"/>
+  <path d="M224 379H336" stroke="#a1b7ae" stroke-width="2"/>
+  <line class="guide" x1="196" y1="45" x2="196" y2="83"/>
+  <line class="guide" x1="364" y1="45" x2="364" y2="83"/>
+  <line class="dim" x1="196" y1="50" x2="364" y2="50"/>
+  <rect x="267" y="34" width="26" height="31" rx="7" fill="#f4f7f5"/>
+  <text x="280" y="58" class="label" text-anchor="middle">A</text>
+  <line class="guide" x1="128" y1="83" x2="196" y2="83"/>
+  <line class="guide" x1="128" y1="393" x2="177" y2="393"/>
+  <line class="dim" x1="139" y1="83" x2="139" y2="393"/>
+  <rect x="125" y="222" width="28" height="33" rx="7" fill="#f4f7f5"/>
+  <text x="139" y="247" class="label" text-anchor="middle">B</text>
+  <text x="402" y="185" class="small">Check the</text>
+  <text x="402" y="208" class="small">required gaps</text>
+  <path d="M398 215L354 235" fill="none" stroke="#819894" stroke-width="2"/>
+  <circle cx="354" cy="235" r="3" fill="#819894"/>
+  <text x="28" y="423" class="label">A  Finished opening width</text>
+  <text x="28" y="456" class="label">B  Floor to cupboard above</text>
+</svg>

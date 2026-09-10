@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="480" viewBox="0 0 560 480" role="img" aria-labelledby="title desc">
+  <title id="title">Fridge door opening beside a wall</title>
+  <desc id="desc">Top view of a fridge beside a wall. A marks the hinge-side wall gap. A dashed arc shows the door swing, and an extended drawer shows why the required door angle and drawer access need checking for the exact model. The drawing does not prescribe an angle or clearance.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#245b63"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #263b3e; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 18px; }
+    .dim { stroke: #245b63; stroke-width: 2.5; marker-start: url(#arrow); marker-end: url(#arrow); }
+  </style>
+  <rect width="560" height="480" rx="14" fill="#f4f7f5"/>
+  <text x="28" y="36" class="small">TOP VIEW</text>
+  <!-- Wall and cabinet: the hinge-side space is deliberately not given a number. -->
+  <rect x="117" y="84" width="16" height="312" fill="#d4e2dd" stroke="#a1b7ae" stroke-width="2"/>
+  <text x="49" y="126" class="small">Wall</text>
+  <path d="M90 122H116" stroke="#819894" stroke-width="2"/>
+  <rect x="230" y="86" width="166" height="149" rx="6" fill="#fff" stroke="#516d70" stroke-width="3"/>
+  <text x="313" y="119" class="small" text-anchor="middle">Fridge body</text>
+  <rect x="253" y="139" width="113" height="61" rx="4" fill="#eef4f2" stroke="#a1b7ae" stroke-width="2"/>
+  <path d="M253 200V348M366 200V348" stroke="#a1b7ae" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <!-- Closed door is dashed; the solid door rotates around the hinge at its left end. -->
+  <path d="M230 235H396" stroke="#819894" stroke-width="7" stroke-dasharray="7 5"/>
+  <path d="M396 235A166 166 0 0 1 173.22 390.99" fill="none" stroke="#b18a4a" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <path d="M230 235L173.22 390.99" stroke="#516d70" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="230" cy="235" r="6" fill="#245b63"/>
+  <!-- A drawer pulled forward: leave room to use and remove it as the manual requires. -->
+  <rect x="253" y="269" width="113" height="72" rx="4" fill="#dbe9e7" stroke="#516d70" stroke-width="2.5"/>
+  <path d="M264 331H355" stroke="#819894" stroke-width="3"/>
+  <path d="M309 280V316" stroke="#245b63" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="415" y="271" class="small">Door swing</text>
+  <path d="M411 278L388 290" stroke="#b18a4a" stroke-width="2"/>
+  <text x="414" y="329" class="small">Pull out</text>
+  <text x="414" y="351" class="small">drawers</text>
+  <path d="M401 332L366 323" stroke="#819894" stroke-width="2"/>
+  <line class="dim" x1="133" y1="188" x2="230" y2="188"/>
+  <rect x="168" y="171" width="27" height="33" rx="7" fill="#f4f7f5"/>
+  <text x="181.5" y="196" class="label" text-anchor="middle">A</text>
+  <text x="28" y="423" class="label">A  Hinge-side wall gap</text>
+  <text x="28" y="456" class="label">Check door angle and drawer access</text>
+</svg>
