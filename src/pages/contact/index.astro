@@ -122,6 +122,11 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
   </section>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <script>
+    import {
+      CONTACT_SUCCESS_EVENT_NAME,
+      sendGoogleAnalyticsEvent,
+    } from "../../scripts/google-analytics.js";
+
     const form = document.querySelector<HTMLFormElement>("#contact-form");
     const submitButton = form?.querySelector<HTMLButtonElement>('button[type="submit"]');
     const successMessage = document.querySelector<HTMLElement>("#contact-sent");
@@ -150,10 +155,11 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
       }
 
       try {
+        const formData = new FormData(form);
         const response = await fetch(form.action, {
           method: "POST",
           headers: { Accept: "application/json" },
-          body: new FormData(form),
+          body: formData,
         });
         const result = await response.json().catch(() => ({}));
 
@@ -164,6 +170,11 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
         form.reset();
         window.turnstile?.reset();
         showStatus("success", result.message);
+        const enquiryType = formData.get("enquiry_type");
+        sendGoogleAnalyticsEvent(CONTACT_SUCCESS_EVENT_NAME, {
+          form_name: "contact",
+          enquiry_type: typeof enquiryType === "string" ? enquiryType : "not_set",
+        });
       } catch (error) {
         const message =
           error instanceof Error ? error.message : "We could not send your message. Please try again.";

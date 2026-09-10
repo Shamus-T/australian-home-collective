@@ -3,6 +3,10 @@ import {
   getApprovedProductsForGuide,
   researchOutcomeLabels,
 } from "../lib/commercial-products";
+import {
+  AFFILIATE_CLICK_ENDPOINT,
+  ANALYTICS_SESSION_KEY,
+} from "../scripts/affiliate-click-tracker.js";
 
 interface Props {
   guidePath: string;
@@ -36,6 +40,8 @@ const formatDate = (date: string) =>
     class="commercial-product-block"
     aria-labelledby={sectionId}
     data-commercial-product-block
+    data-affiliate-endpoint={AFFILIATE_CLICK_ENDPOINT}
+    data-analytics-session-key={ANALYTICS_SESSION_KEY}
   >
     <h2 id={sectionId}>{title}</h2>
     <p class="commercial-product-context" data-commercial-solution-context>{intro}</p>
@@ -109,6 +115,10 @@ const formatDate = (date: string) =>
     ANALYTICS_SESSION_KEY,
     createAffiliateClickTracker,
   } from "../scripts/affiliate-click-tracker.js";
+  import {
+    AFFILIATE_CLICK_EVENT_NAME,
+    sendGoogleAnalyticsEvent,
+  } from "../scripts/google-analytics.js";
 
   const analyticsSessionId = () => {
     try {
@@ -151,8 +161,20 @@ const formatDate = (date: string) =>
     }).catch(() => {});
   };
 
+  const recordAffiliateClick = (event: Record<string, string>) => {
+    sendAffiliateClick(event);
+    sendGoogleAnalyticsEvent(AFFILIATE_CLICK_EVENT_NAME, {
+      affiliate_network: event.affiliateNetwork,
+      guide_path: event.guidePath,
+      item_id: event.productId,
+      item_name: event.productName,
+      link_domain: event.destinationHost,
+      merchant: event.merchant,
+    });
+  };
+
   const affiliateClickTracker = createAffiliateClickTracker({
-    recordEvent: sendAffiliateClick,
+    recordEvent: recordAffiliateClick,
     pagePath: () => window.location.pathname,
     sessionId: analyticsSessionId,
     createEventId: () => crypto.randomUUID(),

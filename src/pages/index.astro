@@ -146,6 +146,27 @@ const featuredGuides = [
   },
 ];
 
+const measurementGuides = [
+  {
+    href: "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+    title: "Washing Machine Dimensions Australia",
+    description: "Check width, depth, height, door or lid clearance, services and dryer fit before choosing a machine.",
+    meta: "Laundry fit",
+  },
+  {
+    href: "/guides/dishwasher-sizes-australia/",
+    title: "Dishwasher Sizes Australia",
+    description: "Measure the cavity, hoses, kickboard and open-door loading space before comparing models.",
+    meta: "Kitchen fit",
+  },
+  {
+    href: "/guides/fridge-dimensions-australia/",
+    title: "Fridge Dimensions Australia",
+    description: "Plan the cavity, ventilation, door swing and delivery route around the exact refrigerator.",
+    meta: "Kitchen fit",
+  },
+];
+
 const summerPlanningGuides = [
   requireSeasonalGuide("summer", "/guides/air-conditioning-buying-guide/"),
   requireSeasonalGuide("summer", "/guides/ceiling-fans-before-you-buy/"),
@@ -185,6 +206,26 @@ const summerPlanningGuides = [
           <a class="button secondary" href="/categories/">Browse Categories</a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section soft" data-homepage-measurement-guides aria-labelledby="measurement-guides-heading">
+    <div class="container section-heading">
+      <div>
+        <p class="eyebrow">Popular fit guides</p>
+        <h2 id="measurement-guides-heading">Measure before you buy</h2>
+      </div>
+      <p>Start with the opening, connections and working space—not the capacity or feature list.</p>
+    </div>
+    <div class="container grid three home-guide-grid">
+      {measurementGuides.map((guide) => (
+        <GuideCard
+          href={guide.href}
+          title={guide.title}
+          description={guide.description}
+          meta={guide.meta}
+        />
+      ))}
     </div>
   </section>
 
