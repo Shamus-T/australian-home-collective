@@ -1,0 +1,82 @@
+---
+interface Props {
+  appliance: "washing-machine" | "dishwasher";
+}
+
+const { appliance } = Astro.props;
+const isWasher = appliance === "washing-machine";
+const headingId = `${appliance}-measurement-resource`;
+const downloadPath = `/downloads/${appliance}-measurement-worksheet.pdf`;
+const resourceName = isWasher ? "washing machine" : "dishwasher";
+---
+
+<section class="measurement-resource" aria-labelledby={headingId}>
+  <h2 id={headingId}>Measure the opening and the space to use it</h2>
+  <p>
+    Keep three records: the finished opening, the dimensions of the exact model and the
+    installation space its manufacturer requires. The overall width on a product page
+    and the required cavity width describe different things; use the installation drawing
+    to check which parts sit inside the opening.
+  </p>
+  <div class="measurement-diagrams">
+    <figure>
+      <img
+        src={`/images/diagrams/${appliance}-opening.svg`}
+        alt={`Front view of a ${resourceName}: A marks the finished opening width and B marks the height from the floor to the underside above.`}
+        width="560"
+        height="480"
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        <strong>Measure the finished opening.</strong> Check at the front, middle and rear,
+        and at more than one height. Record the smallest usable width and height,
+        plus any trim, skirting or uneven surfaces. Measure cavity depth separately.
+      </figcaption>
+    </figure>
+    <figure>
+      <img
+        src={`/images/diagrams/${appliance}-working-depth.svg`}
+        alt={isWasher
+          ? "Top view of a front loader: C marks appliance body depth, D reaches the open door, and a separate area identifies the service route."
+          : "Side view of a dishwasher: C marks body depth, D reaches the lowered door, and a separate line identifies the service route."}
+        width="560"
+        height="480"
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        <strong>Check the full working space.</strong> Follow the manual's definition of body,
+        closed-door and open-door depth. Check hoses and connections separately, then leave
+        room {isWasher ? "for the person loading the machine. For a top loader, check the fully raised lid as well."
+          : "to extend the lower rack and stand in front. For a drawer dishwasher, check full drawer extension instead."}
+      </figcaption>
+    </figure>
+  </div>
+  <p class="diagram-note">Original Australian Home Collective diagrams. Illustrative only, not to scale; the shaded areas do not specify a clearance.</p>
+  <div class="measurement-download">
+    <div>
+      <h3>Take the measurements with you</h3>
+      <p>Use the free one-page A4 worksheet to record the opening, exact model, installation requirements and delivery checks. Leave unknown measurements blank until confirmed.</p>
+    </div>
+    <a class="button" href={downloadPath} download data-measurement-download={appliance}>
+      Download {resourceName} worksheet (PDF)
+    </a>
+  </div>
+</section>
+
+<style>
+  .measurement-resource { margin: 2.5rem 0; }
+  .measurement-diagrams { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.35rem; margin: 1.5rem 0 0.8rem; }
+  figure { margin: 0; min-width: 0; }
+  figure img { display: block; width: 100%; height: auto; border: 1px solid #d5e1dc; border-radius: 12px; }
+  figcaption { margin-top: 0.85rem; font-size: 0.95rem; line-height: 1.65; color: #263b3e; }
+  figcaption strong { display: block; margin-bottom: 0.25rem; }
+  .measurement-resource .diagram-note { font-size: 0.85rem; color: #4c625b; line-height: 1.5; }
+  .measurement-download { margin-top: 1.5rem; padding: 1.4rem; background: #f0f5f2; border: 1px solid #d5e1dc; border-radius: 14px; }
+  .measurement-download h3 { margin: 0 0 0.5rem; }
+  .measurement-download p { margin: 0 0 1rem; }
+  .measurement-download .button { max-width: 100%; white-space: normal; text-align: center; line-height: 1.5; }
+  @media (max-width: 640px) { .measurement-diagrams { grid-template-columns: 1fr; gap: 1.6rem; } .measurement-download { padding: 1.1rem; } }
+  @media print { .measurement-resource { break-inside: auto; } figure { break-inside: avoid; } .measurement-download { background: white; } }
+</style>

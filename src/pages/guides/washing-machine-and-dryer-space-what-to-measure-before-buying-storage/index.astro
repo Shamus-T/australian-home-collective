@@ -1,4 +1,5 @@
 ---
+import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -67,9 +68,9 @@ const faqs = [
   description="Compare washing machine width, depth and height in Australia, then check door or lid clearance, dryer fit, services and delivery access before buying."
   category="Laundry"
   faqs={faqs}
-  date="Updated August 2026"
-  dateModified="2026-08-30"
-  readingTime="10 minute read"
+  date="Updated September 2026"
+  dateModified="2026-09-10"
+  readingTime="13 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage.webp"
   imageAlt="A practical laundry room with warm finishes, baskets and tidy everyday storage"
@@ -139,6 +140,35 @@ const faqs = [
     </p>
   </section>
 
+  <ApplianceMeasurementResource appliance="washing-machine" />
+
+  <section aria-labelledby="current-washer-examples-heading" data-appliance-model-examples="washing-machine">
+    <h2 id="current-washer-examples-heading">Three current models show why the measurements differ</h2>
+    <p>These models were checked against current Australian manufacturer listings and their installation documents on <time datetime="2026-09-10">10 September 2026</time>. They are measurement examples, not product recommendations or firsthand test results. All figures are in millimetres; three-number dimensions use <strong>width × height × depth</strong>.</p>
+    <p class="table-hint">Swipe sideways to compare the full table.</p>
+    <div class="comparison-wrap" tabindex="0" role="region" aria-label="Current washing machine dimensions and installation requirements">
+      <table class="comparison-table">
+        <caption>Product size and installation space are separate measurements</caption>
+        <thead><tr><th scope="col">Current Australian model</th><th scope="col">Published product dimensions (mm)</th><th scope="col">What the installation documents add</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Bosch WGG244A1AU<br />Front loader</th><td>598 × 848 × 590 body dimensions.<br />Depth is 636 with the door closed and 1,073 with the door open.</td><td>The manual specifies a 600 mm niche width for installation beneath a continuous worktop secured to adjacent cabinets. That is a width requirement for this arrangement, not a complete cavity specification. Check the manual's levelling and service requirements as well.</td></tr>
+          <tr><th scope="row">Fisher &amp; Paykel WH1260H5<br />Front loader</th><td>602 × 850 × 661 overall, including the formed chassis width and closed door.<br />Front panel width: 592.<br />Depth with door open: 1,146.</td><td>The June 2026 planning guide gives a minimum cavity of 622 × 865 × 668 for the standard installation shown. The 592 mm front panel and 602 mm overall width do not replace that cavity requirement. Foot adjustment also affects height.</td></tr>
+          <tr><th scope="row">Fisher &amp; Paykel WL8058G1<br />Top loader</th><td>580 × 1,020–1,040 × 600 with the lid closed; height is to the highest point of the console and varies with foot adjustment.</td><td>The installation guide specifies a minimum cavity width of 620 and depth of 665. The fully open lid reaches 1,380–1,400 high. Check that whole opening movement against shelves and other equipment above it.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>Why a 602 mm headline width needs a closer look</h3>
+    <p>Fisher &amp; Paykel's WH1260H5 drawing distinguishes a 592 mm front panel from the 602 mm width including the chassis form. Its June 2026 guide still specifies a 622 mm minimum cavity for the installation shown. Physical entry into an opening and the manufacturer's required installation space are different checks; the narrower panel figure does not establish approval for a 600 mm cavity. Use the drawing for the exact WH model rather than applying one rule across the range.</p>
+    <p>Depth needs the same care. Bosch's 590 mm body depth is not its 636 mm closed-door depth. Fisher &amp; Paykel gives the top loader's cavity depth separately from its product depth and rear clearance, so use the stated cavity figure instead of adding a generic allowance. Door-open depth also leaves the person's loading space to be checked.</p>
+    <h3>Manufacturer sources for these examples</h3>
+    <ul>
+      <li><strong>Bosch WGG244A1AU:</strong> <a href="https://www.bosch-home.com.au/en/mkt-product/washers-dryers/washing-machines/front-load-washing-machines/WGG244A1AU" target="_blank" rel="noopener noreferrer">Australian model details</a>; <a href="https://media3.bsh-group.com/Documents/9002022827_A.pdf#page=11" target="_blank" rel="noopener noreferrer">user and installation manual, pages 11 and 44</a>; <a href="https://media3.bsh-group.com/Documents/specsheet/en-AU/WGG244A1AU.pdf#page=2" target="_blank" rel="noopener noreferrer">Australian specification sheet, page 2</a>.</li>
+      <li><strong>Fisher &amp; Paykel WH1260H5:</strong> <a href="https://www.fisherpaykel.com/au/laundry/washing-machines/front-load/12kg-series-11-contemporary-front-loader-washer-flexidose-wh1260h5-92318.html" target="_blank" rel="noopener noreferrer">Australian model details</a>; <a href="https://dam.fisherpaykel.com/KZ3PKN00/at/wkszjk8rhbtz76qn6frjsvsq/FP-PlanningGuide-en-WH1260H5-WH1260HG5-WH1260T5-WH1260TG5-DH1060H5-DH1060HG5-DH1060HL5-DH1060HLG5-DH1060T5-DH1060TG5-0-90004467H-AU-NZ.pdf#page=8" target="_blank" rel="noopener noreferrer">June 2026 planning guide, pages 8 and 13</a>; <a href="https://dam.fisherpaykel.com/KZ3PKN00/at/5bh7cbrwb7qqwj4tf8m574m/FP-InstallGuide-en-WH8060J5-WH9060J-WH8060P-WH9060P-WH1060P-WH1260P-WH9060D5-WH1060D5-WH1260D5-WH1260R5-WH1260MZB5-WH1260T5-WH1260H5-WH1260YZB5-Washer-0-432972A-NZ-AU.pdf#page=3" target="_blank" rel="noopener noreferrer">installation guide, pages 3–4</a>, which refers to the planning guide for cabinetry and service specifications.</li>
+      <li><strong>Fisher &amp; Paykel WL8058G1:</strong> <a href="https://www.fisherpaykel.com/au/laundry/washing-machines/top-load/8kg-series-5-top-loader-washer-uv-sanitise-wl8058g1-92298.html" target="_blank" rel="noopener noreferrer">Australian model details</a>; <a href="https://dam.fisherpaykel.com/KZ3PKN00/at/xx8mxcjtxpw6xpftwb5qr69/FP-InstallGuide-en-WL8058G1-WL9058G1-WL1064G1-WL1064P1-WL1264P1-TopLoadWashingMachine-0-431197C-NZ-AU.pdf#page=5" target="_blank" rel="noopener noreferrer">installation guide, pages 5 and 7</a> for product, lid and cavity dimensions.</li>
+    </ul>
+    <p>Before ordering or building cabinetry, match the complete model code to the manufacturer's current documents and confirm the installation arrangement with the installer.</p>
+  </section>
+
   <h2>Is there a standard laundry size in Australia?</h2>
   <p>
     There is no single useful room width or length for every Australian laundry. A cupboard
@@ -202,9 +232,7 @@ const faqs = [
     movement, ventilation or maintenance.
   </p>
   <p>
-    Treat the common 600 mm by 850 mm figure as the appliance footprint, not a universal
-    installation rule. An opening that is exactly the same size as the machine leaves no room
-    for differences between models or for any clearance the manufacturer requires. Depth is the
+    Treat the common 600 mm by 850 mm figures as width and height, not a footprint or a universal installation rule. Compare the finished opening with the manufacturer's required cavity and installation arrangement; overall product width alone cannot confirm fit. Depth is the
     measurement most likely to change, especially once the door, hoses and connections are included.
   </p>
 

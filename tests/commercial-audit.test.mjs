@@ -4,6 +4,7 @@ import os from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import test from "node:test";
+import { isReviewedApplianceSource } from "../scripts/lib/appliance-editorial-sources.mjs";
 
 const root = process.cwd();
 const baseCatalogue = JSON.parse(
@@ -333,5 +334,24 @@ test("the shared commercial component renders automatic affiliate tracking metad
     "createAffiliateClickTracker",
   ]) {
     assert.ok(source.includes(contract), `missing commercial tracking contract: ${contract}`);
+  }
+});
+
+
+test("reviewed appliance references permit PDF page citations without trusting unreviewed links", () => {
+  const manual = "https://media3.bsh-group.com/Documents/9002022827_A.pdf";
+  assert.equal(isReviewedApplianceSource(manual + "#page=11"), true);
+  assert.equal(isReviewedApplianceSource("https://shop.miele.com.au/en/kitchen/dishwashers/fully-integrated-dishwashers/g-5263-scvi-bk-active-plus-fully-integrated-dishwasher-zid11587640/"), true);
+  for (const unreviewed of [
+    manual + "?tag=affiliate",
+    manual + "?redirect=https://example.com",
+    manual.replace("https:", "http:"),
+    manual.replace("media3.bsh-group.com", "media3.bsh-group.com.example.com"),
+    manual.replace("9002022827_A", "unreviewed-manual"),
+    "https://shop.miele.com.au/",
+    "https://www.appliancesonline.com.au/product/unreviewed/",
+    "not a URL",
+  ]) {
+    assert.equal(isReviewedApplianceSource(unreviewed), false, unreviewed);
   }
 });

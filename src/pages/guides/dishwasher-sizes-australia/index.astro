@@ -1,4 +1,5 @@
 ---
+import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -32,7 +33,7 @@ const faqs = [
   },
   {
     question: "What size opening does a 60 cm dishwasher need?",
-    answer: "A 600 mm opening is common, but height, depth, services and the way the benchtop or kickboard is finished also matter. A product that is exactly 600 mm wide leaves no tolerance for an opening that is narrow, bowed or out of square.",
+    answer: "Use the cavity dimensions in the exact model's installation drawing. The required opening can differ from the overall product dimensions because a panel or fascia may sit in front of the cabinetry. Measure the finished opening at several points, then check the specified cavity width, height, depth, services and door movement together.",
   },
   {
     question: "Can a freestanding dishwasher go under a bench?",
@@ -46,10 +47,10 @@ const faqs = [
   seoTitle="Dishwasher Sizes Australia: 60 cm, 45 cm and Cavity Guide"
   description="Compare Australian dishwasher formats and measure width, height, depth, services, kickboards and open door clearance before buying."
   category="Kitchen"
-  date="Updated August 2026"
+  date="Updated September 2026"
   datePublished="2026-07-23"
-  dateModified="2026-08-17"
-  readingTime="6 minute read"
+  dateModified="2026-09-10"
+  readingTime="10 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
   image="/images/guides/dishwasher-sizes-australia.webp"
@@ -70,7 +71,7 @@ const faqs = [
   <section aria-labelledby="dishwasher-dimensions-heading">
     <h2 id="dishwasher-dimensions-heading">Dishwasher dimensions in Australia: quick cavity check</h2>
     <ul class="feature-list">
-      <li><strong>Width:</strong> A nominal 600 mm cavity is common for a full size dishwasher, but compare the narrowest finished opening with the exact product width.</li>
+      <li><strong>Width:</strong> Compare the narrowest finished opening with the cavity width in the exact model's installation drawing. Keep overall width, chassis width and any projecting fascia or panel separate.</li>
       <li><strong>Height:</strong> Measure from the finished floor to the underside of the benchtop on both sides, then confirm the model's body height and adjustable-foot range.</li>
       <li><strong>Depth:</strong> Allow for the appliance body, projecting parts, hoses and the installation arrangement specified by the manufacturer.</li>
       <li><strong>Services:</strong> Confirm where the inlet hose, drain hose and power lead must run, their available lengths and whether connections belong in a neighbouring cabinet.</li>
@@ -130,6 +131,34 @@ const faqs = [
         </tbody>
       </table>
     </div>
+  </section>
+
+  <ApplianceMeasurementResource appliance="dishwasher" />
+
+  <section aria-labelledby="current-dishwasher-examples-heading" data-appliance-model-examples="dishwasher">
+    <h2 id="current-dishwasher-examples-heading">Three current models show why product size and cavity size differ</h2>
+    <p>These Australian models were checked against current manufacturer listings and installation documents on <time datetime="2026-09-10">10 September 2026</time>. They illustrate different measuring problems; they are not recommendations or firsthand test results. All figures are in millimetres; three-number dimensions use <strong>width × height × depth</strong>.</p>
+    <p class="table-hint">Swipe sideways to compare the full table.</p>
+    <div class="comparison-wrap" tabindex="0" role="region" aria-label="Current dishwasher dimensions and installation requirements">
+      <table class="comparison-table">
+        <caption>Compare the appliance, required cavity and open-door space</caption>
+        <thead><tr><th scope="col">Current Australian model</th><th scope="col">Published product dimensions (mm)</th><th scope="col">What the installation documents add</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Bosch SMS6HCI02A<br />Freestanding</th><td>600 × 845 × 600 with the worktop fitted.<br />Total depth with the door open 90°: 1,155.</td><td>The specification sheet gives a maximum foot adjustment of 20. The product width alone is not a verified cavity requirement. Check the current manual's installation section and the particular underbench arrangement before altering cabinetry.</td></tr>
+          <tr><th scope="row">Fisher &amp; Paykel DD60SCX9<br />Single DishDrawer</th><td>599 × 410 × 573 overall.<br />Chassis depth: 553, with a 20 mm drawer panel making up the overall depth.</td><td>The March 2026 installation guide requires a cavity 600–610 wide, at least 412 high and at least 579 deep. Check the drawer panel clearances and the service layout in that guide as well as full drawer extension.</td></tr>
+          <tr><th scope="row">Miele G 5263 SCVi BK Active Plus<br />Fully integrated; product 11587640</th><td>598 × 805 × 550 for the appliance body, before the cabinetry panel.<br />Total depth with door open: 1,165.</td><td>The niche is 600 wide, 805–870 high and at least 550 deep. Use the standard-height assembly drawing, then check the custom panel, hinge movement and kickboard requirements separately.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>A nominal “60 cm” label, an overall width and a required cavity width answer different questions. Use the manufacturer's cavity drawing to judge the opening, then check which parts sit inside it and which project beyond it. Do not add or subtract a standard gap from the headline product width.</p>
+    <p>The DishDrawer example also shows why overall depth and chassis depth are not interchangeable: the drawer panel contributes to one but not the other. For a fully integrated dishwasher, the cabinetmaker's panel and its opening path are additional checks. Open-door depth does not include the space a person needs to stand and load the machine.</p>
+    <h3>Manufacturer sources for these examples</h3>
+    <ul>
+      <li><strong>Bosch SMS6HCI02A:</strong> <a href="https://www.bosch-home.com.au/en/product/dishwashers/freestanding-dishwashers/dishwasher-60-cm-wide/SMS6HCI02A" target="_blank" rel="noopener noreferrer">Australian model details</a>; <a href="https://media3.bsh-group.com/Documents/specsheet/en-AU/SMS6HCI02A.pdf#page=1" target="_blank" rel="noopener noreferrer">Australian specification sheet, pages 1–2</a>; <a href="https://media3.bsh-group.com/Documents/9002017246_A.pdf#page=10" target="_blank" rel="noopener noreferrer">manual: installation and connection, pages 10–11</a>.</li>
+      <li><strong>Fisher &amp; Paykel DD60SCX9:</strong> <a href="https://www.fisherpaykel.com/au/dishwashing/built-under/series-7-contemporary-single-dishdrawer-dishwasher-dd60scx9-82316.html" target="_blank" rel="noopener noreferrer">Australian model details</a>; <a href="https://dam.fisherpaykel.com/KZ3PKN00/at/79xxgf3js7vvp9t95gwpm6q/FP-InstallGuide-en-DD60ST4-DD60ST4HNX9-DD60SDFHTX9-DD60SC-DD60SAX9-DishDrawer-0-431375C-NZ-AU-UK-IE-SG.pdf#page=4" target="_blank" rel="noopener noreferrer">March 2026 installation guide, pages 4–6</a> for chassis, panel and cavity dimensions. Use the DD60SCX9 column rather than the taller adjacent models.</li>
+      <li><strong>Miele G 5263 SCVi BK Active Plus:</strong> <a href="https://shop.miele.com.au/en/kitchen/dishwashers/fully-integrated-dishwashers/g-5263-scvi-bk-active-plus-fully-integrated-dishwasher-zid11587640/" target="_blank" rel="noopener noreferrer">Australian model and niche specifications</a>; <a href="https://media.miele.com/downloads/82/b0/00_C7F13838347D1EDFADF32AAD961B82B0.pdf#page=92" target="_blank" rel="noopener noreferrer">operating manual, page 92</a>; <a href="https://media.miele.com/downloads/40/16/00_C7F1383883351EDEB78F4E75869F4016.pdf#page=1" target="_blank" rel="noopener noreferrer">assembly plan, sheets 1–2</a>. The standard-height and XXL dimensions are different.</li>
+    </ul>
+    <p>Before ordering, match the complete model code to the manufacturer's current documents and have the installer confirm the cabinet, door panel and services against that version.</p>
   </section>
 
   <h2>Measure the opening at the front and back</h2>

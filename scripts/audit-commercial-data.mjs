@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
 import { decode } from "entities";
+import { isReviewedApplianceSource } from "./lib/appliance-editorial-sources.mjs";
 
 const root = process.cwd();
 const distRoot = path.join(root, "dist");
@@ -314,7 +315,8 @@ function isRetailerUrl(urlValue) {
 
 function isTrustedEditorialUrl(urlValue) {
   const host = normalizedHost(urlValue);
-  return [...trustedEditorialDomains].some((domain) => hostMatches(host, domain));
+  return [...trustedEditorialDomains].some((domain) => hostMatches(host, domain))
+    || isReviewedApplianceSource(urlValue);
 }
 
 function visibleText(html) {
