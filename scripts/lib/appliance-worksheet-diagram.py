@@ -1,8 +1,7 @@
-"""Original 3D empty-cavity diagram for AHC appliance worksheets.
+"""Simple 3D cavity outline for AHC's printable appliance worksheets.
 
-This helper draws vectors on an existing ReportLab canvas. It creates no PDF.
-Its coordinates use the canvas's bottom-left origin. No dimensions or clearances
-are assumed: the front opening has a tall illustrative proportion only.
+Draws directly on an existing ReportLab canvas, using bottom-left coordinates.
+The proportions are illustrative; dimensions and clearances are left blank.
 """
 
 from math import atan2, cos, sin, pi
@@ -13,14 +12,11 @@ _LABEL_SIZE = 11.0
 
 
 def draw_cavity_diagram(c, x, y, width=250, height=180):
-    """Draw one open cabinet cavity and three writable millimetre fields.
+    """Draw one uncluttered 3D opening with three measurement arrows.
 
-    Reserve at least 250 x 180 points. Larger allocations centre and scale the
-    complete diagram; smaller ones are rejected to keep every label readable.
-    The opening is a 72 x 102 point rectangle (600:850 proportion). A smaller,
-    similarly proportioned rear wall makes the floor, sides and underside
-    visible. Width and height follow the front opening. Depth follows the
-    floor from its front edge to the recessed rear wall.
+    The front opening has a tall 600:850 proportion. A smaller rear rectangle
+    and four receding edges show depth without construction details. Width
+    and height measure the clear opening; depth runs along the cavity floor.
     """
     width, height = float(width), float(height)
     if width < _BASE_WIDTH or height < _BASE_HEIGHT:
@@ -35,22 +31,10 @@ def draw_cavity_diagram(c, x, y, width=250, height=180):
         else:
             c.drawString(px, py, value)
 
-    def polygon(points, shade, line_width=0.85):
-        c.setFillGray(shade)
-        c.setStrokeGray(0.28)
-        c.setLineWidth(line_width)
-        shape = c.beginPath()
-        shape.moveTo(*points[0])
-        for point in points[1:]:
-            shape.lineTo(*point)
-        shape.close()
-        c.drawPath(shape, fill=1, stroke=1)
-
     def arrow(ax, ay, bx, by):
-        """Dimension arrowheads point to the two actual endpoints."""
         c.setStrokeGray(0.12)
         c.setFillGray(0.12)
-        c.setLineWidth(1.15)
+        c.setLineWidth(1.1)
         c.line(ax, ay, bx, by)
         angle = atan2(by - ay, bx - ax)
         for tx, ty, direction in ((ax, ay, angle), (bx, by, angle + pi)):
@@ -65,11 +49,10 @@ def draw_cavity_diagram(c, x, y, width=250, height=180):
             head.close()
             c.drawPath(head, fill=1, stroke=0)
 
-    def leader(points):
-        c.setStrokeGray(0.28)
-        c.setLineWidth(0.75)
-        for start, end in zip(points, points[1:]):
-            c.line(*start, *end)
+    def guide(ax, ay, bx, by):
+        c.setStrokeGray(0.42)
+        c.setLineWidth(0.65)
+        c.line(ax, ay, bx, by)
 
     def writing_field(left, value):
         label(left, 21, value, bold=True)
@@ -87,39 +70,32 @@ def draw_cavity_diagram(c, x, y, width=250, height=180):
         c.setLineJoin(0)
         c.setDash()
 
-        # Front opening corners; the entire face remains open and empty.
         fl, fr, floor, underside = 78.0, 150.0, 62.0, 164.0
-        # The inset rear rectangle shares the front opening's tall proportion.
         rl, rr, rear_floor, rear_top = 99.0, 129.0, 90.5, 133.0
 
-        # Restrained grayscale separates the recessed rear wall and four inner
-        # surfaces. There is no opaque front face or appliance inside.
-        polygon([(rl, rear_floor), (rr, rear_floor), (rr, rear_top), (rl, rear_top)], 0.91)
-        polygon([(fl, floor), (fr, floor), (rr, rear_floor), (rl, rear_floor)], 0.97)
-        polygon([(fl, floor), (rl, rear_floor), (rl, rear_top), (fl, underside)], 0.94)
-        polygon([(fr, floor), (rr, rear_floor), (rr, rear_top), (fr, underside)], 0.85)
-        polygon([(fl, underside), (fr, underside), (rr, rear_top), (rl, rear_top)], 0.88)
+        # Thin receding edges give the empty opening depth. Keep the interior
+        # white so the measurement arrows have a clear visual priority.
+        for front, rear in (
+            ((fl, floor), (rl, rear_floor)),
+            ((fr, floor), (rr, rear_floor)),
+            ((fl, underside), (rl, rear_top)),
+            ((fr, underside), (rr, rear_top)),
+        ):
+            guide(*front, *rear)
+        c.setStrokeGray(0.42)
+        c.setLineWidth(0.65)
+        c.rect(rl, rear_floor, rr - rl, rear_top - rear_floor, stroke=1, fill=0)
+        c.setStrokeGray(0.20)
+        c.setLineWidth(1.2)
+        c.rect(fl, floor, fr - fl, underside - floor, stroke=1, fill=0)
 
-        # Side-panel front edges and a visibly thick benchtop lip frame the
-        # cavity. The floor continues through the opening, without a plinth.
-        polygon([(70, floor), (fl, floor), (fl, underside), (70, underside)], 0.83, 1.05)
-        polygon([(fr, floor), (158, floor), (158, underside), (fr, underside)], 0.83, 1.05)
-        polygon([(66, underside), (162, underside), (162, 173), (66, 173)], 0.77, 1.05)
-        c.setStrokeGray(0.18)
-        c.setLineWidth(1.35)
-        c.line(64, floor, 164, floor)
-        c.line(fl, floor, fl, underside)
-        c.line(fr, floor, fr, underside)
-
-        # Width is horizontal between the clear inner sides at the front.
-        leader([(fl, 59), (fl, 46)])
-        leader([(fr, 59), (fr, 46)])
+        guide(fl, 59, fl, 46)
+        guide(fr, 59, fr, 46)
         arrow(fl, 49, fr, 49)
         label((fl + fr) / 2, 35, "Width", centred=True)
 
-        # Height is vertical from the floor to the underside of the benchtop.
-        leader([(47, floor), (67, floor)])
-        leader([(47, underside), (67, underside)])
+        guide(47, floor, 74, floor)
+        guide(47, underside, 74, underside)
         arrow(51, floor, 51, underside)
         c.saveState()
         c.translate(38, (floor + underside) / 2)
@@ -127,18 +103,11 @@ def draw_cavity_diagram(c, x, y, width=250, height=180):
         label(0, 0, "Height", centred=True)
         c.restoreState()
 
-        # The depth arrow follows one front-to-back line on the cavity floor.
-        # Corresponding points sit near the right side in both perspective
-        # rectangles; this is not a diagonal from one side of the width to the other.
+        # Corresponding points on the front and rear edges describe the same
+        # front-to-back direction; the arrow stays clear of the side seam.
         arrow(130, floor, 120.6667, rear_floor)
-        label(177, 79, "Depth")
-        leader([(172, 76), (147, 76), (125.3334, 76.25)])
-
-        # Small practical callouts help the reader recognise the empty recess.
-        label(177, 158, "Benchtop")
-        leader([(172, 155), (162, 168)])
-        label(177, 120, "Rear wall")
-        leader([(172, 117), (144, 111), (122, 111)])
+        label(171, 80, "Depth")
+        guide(165, 76.25, 125.3334, 76.25)
 
         writing_field(5, "Width")
         writing_field(88, "Height")
