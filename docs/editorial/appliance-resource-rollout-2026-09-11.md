@@ -38,3 +38,7 @@ The PDF was reopened and rendered as one A4 page, with no clipping. All SVGs wer
 The full production build, source and rendered audits must pass before release. Verify the live three guide shortcuts, homepage/category worksheet descriptions, exact fridge models and the hashes of the PDF and SVG files after deployment.
 
 Use the saved traffic report ending 9 September as a historical baseline; it predates these resources. A first complete post-change window is 11 September-8 October 2026. Compare guide visits and download clicks in the same date window, retaining raw counts. Keep Google search results separate from Analytics event counts. No social posts or affiliate applications form part of this rollout.
+
+## Worksheet revision plan
+
+The original washing-machine and dishwasher PDFs are recorded as Revision 1. [Revision 2](appliance-worksheet-revisions.md) removes three recording boxes, increases the text size and adds labelled dimension diagrams, space for a reader sketch and an explicit instruction to measure the actual cavity rather than the old appliance.

@@ -1,4 +1,4 @@
-"""Build AHC's two printable, one-page A4 appliance measurement records.
+"""Build Revision 2 of AHC's two printable, one-page A4 appliance measurement records.
 
 Requires ReportLab. Run from any directory with:
     python scripts/build-appliance-measurement-worksheets.py
@@ -6,10 +6,12 @@ Requires ReportLab. Run from any directory with:
 Final PDFs are written to output/pdf/ and copied to public/downloads/.
 The sheets deliberately leave model dimensions and required spaces blank:
 those values must come from the exact model's current installation manual.
+Legacy drawing helpers remain available to the separate fridge worksheet builder.
 """
 
 from pathlib import Path
 import shutil
+import importlib.util
 
 from reportlab.lib.colors import HexColor, white
 from reportlab.lib.pagesizes import A4
@@ -17,6 +19,10 @@ from reportlab.pdfgen import canvas
 
 
 ROOT = Path(__file__).resolve().parents[1]
+REVISION_RENDERER = ROOT / "scripts" / "lib" / "appliance-worksheet-revision2.py"
+_revision_spec = importlib.util.spec_from_file_location("appliance_worksheet_revision2", REVISION_RENDERER)
+revision2 = importlib.util.module_from_spec(_revision_spec)
+_revision_spec.loader.exec_module(revision2)
 OUTPUT = ROOT / "output" / "pdf"
 DOWNLOADS = ROOT / "public" / "downloads"
 PAGE_W, PAGE_H = A4
@@ -173,16 +179,9 @@ def make_sheet(filename, appliance, subtitle, category, dishwasher=False):
     c = canvas.Canvas(str(path), pagesize=A4, pageCompression=1, invariant=1)
     c.setTitle(f"{appliance} Measurement Worksheet | Australian Home Collective")
     c.setAuthor("Australian Home Collective")
-    c.setSubject("Printable A4 appliance measurement record. All measurements in millimetres.")
+    c.setSubject("Revision 2. Printable A4 appliance measurement record. All measurements in millimetres.")
     c.setCreator("Australian Home Collective")
-    header(c, appliance, subtitle)
-    model_section(c)
-    cavity_section(c, dishwasher)
-    product_section(c, dishwasher)
-    operation_section(c, dishwasher)
-    delivery_section(c)
-    final_section(c)
-    footer(c, category)
+    revision2.draw_sheet(c, appliance, category, dishwasher=dishwasher)
     c.showPage()
     c.save()
     destination = DOWNLOADS / filename
