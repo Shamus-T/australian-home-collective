@@ -13,7 +13,7 @@ Revision 2 implements the reader's requested changes:
 
 - Removed the date measured / measured by, installation manual record and manual checked boxes. Retained the brand and full model code.
 - Increased instructions and field labels to 10.5 points, from 8-9.1 points in Revision 1. Section headings are 12 points; diagram labels are 11 points.
-- Added original front and top views of an empty cavity. Arrows identify width, height and depth, with blank millimetre fields for the reader's measurements.
+- Added one original 3D diagram of the empty cavity, with details showing the top, sides, rear wall and base. Arrows identify width, height and front-to-back depth, with blank millimetre fields for the reader's measurements. This refines the initial Revision 2 layout, which used separate front and top views.
 - Added a separate space to sketch the layout and mark taps, pipes, power points, trim and obstructions.
 - Made the main instruction explicit: "Measure the actual cavity, not the old appliance."
 - Kept home measurements separate from the new model's dimensions and manufacturer-required space, with a reminder to leave inaccessible areas unconfirmed.
