@@ -13,7 +13,7 @@ Revision 2 implements the reader's requested changes:
 
 - Removed the date measured / measured by, installation manual record and manual checked boxes. Retained the brand and full model code.
 - Increased instructions and field labels to 10.5 points, from 8-9.1 points in Revision 1. Section headings are 12 points; diagram labels are 11 points.
-- Added one simple 3D outline of the empty cavity. Only width, height and depth are labelled; unshaded surfaces and thin interior lines keep attention on the measurement arrows. Blank millimetre fields remain beneath the diagram. The drawing was simplified after reader feedback that the additional cabinet details and callouts looked too busy.
+- Added an original angled appliance line drawing in the style of the reader's reference: a front-loading washing machine on the washer sheet and a dishwasher on its sheet. Width sits above the front, height down the side and depth along the receding top edge. There are no example dimensions or branding. The nearby instruction explicitly says the diagram shows directions only and the blank fields are for the actual cavity, not the old appliance.
 - Added a separate space to sketch the layout and mark taps, pipes, power points, trim and obstructions.
 - Made the main instruction explicit: "Measure the actual cavity, not the old appliance."
 - Kept home measurements separate from the new model's dimensions and manufacturer-required space, with a reminder to leave inaccessible areas unconfirmed.

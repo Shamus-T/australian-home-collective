@@ -1,116 +1,110 @@
-"""Simple 3D cavity outline for AHC's printable appliance worksheets.
+"""Original appliance line drawings for AHC's measuring worksheets.
 
-Draws directly on an existing ReportLab canvas, using bottom-left coordinates.
-The proportions are illustrative; dimensions and clearances are left blank.
+The angled view explains dimension directions only. It contains no model
+specifications: readers record their measured cavity in the blank fields.
 """
-
 from math import atan2, cos, sin, pi
 
-_BASE_WIDTH = 250.0
-_BASE_HEIGHT = 180.0
-_LABEL_SIZE = 11.0
 
-
-def draw_cavity_diagram(c, x, y, width=250, height=180):
-    """Draw one uncluttered 3D opening with three measurement arrows.
-
-    The front opening has a tall 600:850 proportion. A smaller rear rectangle
-    and four receding edges show depth without construction details. Width
-    and height measure the clear opening; depth runs along the cavity floor.
-    """
-    width, height = float(width), float(height)
-    if width < _BASE_WIDTH or height < _BASE_HEIGHT:
-        raise ValueError("The cavity diagram needs at least 250 x 180 points.")
-    scale = min(width / _BASE_WIDTH, height / _BASE_HEIGHT)
+def draw_appliance_diagram(c, x, y, width=250, height=180, dishwasher=False):
+    """Draw a tall appliance, three dimension arrows and blank cavity fields."""
+    if width < 250 or height < 180:
+        raise ValueError("The appliance diagram needs at least 250 x 180 points.")
+    scale = min(width / 250, height / 180)
 
     def label(px, py, value, bold=False, centred=False):
         c.setFillGray(0.12)
-        c.setFont("Helvetica-Bold" if bold else "Helvetica", _LABEL_SIZE)
+        c.setFont("Helvetica-Bold" if bold else "Helvetica", 11)
         if centred:
             c.drawCentredString(px, py, value)
         else:
             c.drawString(px, py, value)
 
-    def arrow(ax, ay, bx, by):
-        c.setStrokeGray(0.12)
-        c.setFillGray(0.12)
-        c.setLineWidth(1.1)
+    def stroke(ax, ay, bx, by, weight=0.65, shade=0.32):
+        c.setStrokeGray(shade)
+        c.setLineWidth(weight)
         c.line(ax, ay, bx, by)
+
+    def arrow(ax, ay, bx, by):
+        stroke(ax, ay, bx, by, 0.9, 0.12)
+        c.setFillGray(0.12)
         angle = atan2(by - ay, bx - ax)
         for tx, ty, direction in ((ax, ay, angle), (bx, by, angle + pi)):
-            base_x = tx + 4.1 * cos(direction)
-            base_y = ty + 4.1 * sin(direction)
-            side_x = 1.85 * sin(direction)
-            side_y = -1.85 * cos(direction)
-            head = c.beginPath()
-            head.moveTo(tx, ty)
-            head.lineTo(base_x + side_x, base_y + side_y)
-            head.lineTo(base_x - side_x, base_y - side_y)
-            head.close()
-            c.drawPath(head, fill=1, stroke=0)
-
-    def guide(ax, ay, bx, by):
-        c.setStrokeGray(0.42)
-        c.setLineWidth(0.65)
-        c.line(ax, ay, bx, by)
-
-    def writing_field(left, value):
-        label(left, 21, value, bold=True)
-        c.setStrokeGray(0.18)
-        c.setLineWidth(0.9)
-        c.line(left, 6, left + 48, 6)
-        label(left + 52, 7, "mm")
+            base_x, base_y = tx + 3.5 * cos(direction), ty + 3.5 * sin(direction)
+            side_x, side_y = 1.5 * sin(direction), -1.5 * cos(direction)
+            p = c.beginPath()
+            p.moveTo(tx, ty)
+            p.lineTo(base_x + side_x, base_y + side_y)
+            p.lineTo(base_x - side_x, base_y - side_y)
+            p.close()
+            c.drawPath(p, fill=1, stroke=0)
 
     c.saveState()
     try:
-        c.translate(x + (width - _BASE_WIDTH * scale) / 2,
-                    y + (height - _BASE_HEIGHT * scale) / 2)
+        c.translate(x + (width - 250 * scale) / 2, y + (height - 180 * scale) / 2)
         c.scale(scale, scale)
-        c.setLineCap(0)
-        c.setLineJoin(0)
+        c.setLineJoin(1)
+        c.setLineCap(1)
         c.setDash()
+        left, right, bottom = 76, 138, 41
+        top = bottom + (right-left) * 850 / 600
+        dx, dy = 32, 17
 
-        fl, fr, floor, underside = 78.0, 150.0, 62.0, 164.0
-        rl, rr, rear_floor, rear_top = 99.0, 129.0, 90.5, 133.0
-
-        # Thin receding edges give the empty opening depth. Keep the interior
-        # white so the measurement arrows have a clear visual priority.
-        for front, rear in (
-            ((fl, floor), (rl, rear_floor)),
-            ((fr, floor), (rr, rear_floor)),
-            ((fl, underside), (rl, rear_top)),
-            ((fr, underside), (rr, rear_top)),
+        # Tall front face, top and side in a simple angled line drawing.
+        c.setStrokeGray(0.25)
+        c.setLineWidth(0.95)
+        c.rect(left, bottom, right-left, top-bottom, stroke=1, fill=0)
+        for a, b in (
+            ((left, top), (left+dx, top+dy)),
+            ((left+dx, top+dy), (right+dx, top+dy)),
+            ((right, top), (right+dx, top+dy)),
+            ((right+dx, top+dy), (right+dx, bottom+dy)),
+            ((right, bottom), (right+dx, bottom+dy)),
         ):
-            guide(*front, *rear)
-        c.setStrokeGray(0.42)
+            stroke(*a, *b, weight=0.95, shade=0.25)
+        stroke(left, top-14, right, top-14)
+        stroke(left, bottom+7, right, bottom+7)
+        stroke(right, top-14, right+dx, top+dy-14)
+
+        # A few recognisable features, without branding or service details.
+        c.setStrokeGray(0.32)
         c.setLineWidth(0.65)
-        c.rect(rl, rear_floor, rr - rl, rear_top - rear_floor, stroke=1, fill=0)
-        c.setStrokeGray(0.20)
-        c.setLineWidth(1.2)
-        c.rect(fl, floor, fr - fl, underside - floor, stroke=1, fill=0)
+        if dishwasher:
+            c.roundRect(left+7, bottom+12, 48, 54, 2, stroke=1, fill=0)
+            stroke(left+16, top-25, right-16, top-25, weight=1.4)
+            for cx in (left+7, left+12, left+17):
+                c.circle(cx, top-7, 0.9, stroke=1, fill=0)
+            c.rect(right-20, top-9, 12, 4, stroke=1, fill=0)
+        else:
+            c.circle(107, 84, 24, stroke=1, fill=0)
+            c.circle(107, 84, 20, stroke=1, fill=0)
+            c.rect(left+6, top-10, 19, 6, stroke=1, fill=0)
+            c.circle(110, top-7, 3.1, stroke=1, fill=0)
+            c.rect(right-19, top-9, 12, 4, stroke=1, fill=0)
 
-        guide(fl, 59, fl, 46)
-        guide(fr, 59, fr, 46)
-        arrow(fl, 49, fr, 49)
-        label((fl + fr) / 2, 35, "Width", centred=True)
+        # Width across the top; depth follows the receding top edge.
+        for px in (left, right):
+            stroke(px, top+3, px, 157, shade=0.48)
+        arrow(left, 153, right, 153)
+        label((left+right)/2, 166, "Width", centred=True)
+        stroke(right+2, top+2, 150, 152, shade=0.48)
+        stroke(right+dx+2, top+dy+2, 182, 171, shade=0.48)
+        arrow(150, 150, 182, 167)
+        label(187, 165, "Depth")
 
-        guide(47, floor, 74, floor)
-        guide(47, underside, 74, underside)
-        arrow(51, floor, 51, underside)
+        # Height is parallel to the tall front face.
+        stroke(49, bottom, left-4, bottom, shade=0.48)
+        stroke(49, top, left-4, top, shade=0.48)
+        arrow(53, bottom, 53, top)
         c.saveState()
-        c.translate(38, (floor + underside) / 2)
+        c.translate(40, (bottom+top)/2)
         c.rotate(90)
         label(0, 0, "Height", centred=True)
         c.restoreState()
 
-        # Corresponding points on the front and rear edges describe the same
-        # front-to-back direction; the arrow stays clear of the side seam.
-        arrow(130, floor, 120.6667, rear_floor)
-        label(171, 80, "Depth")
-        guide(165, 76.25, 125.3334, 76.25)
-
-        writing_field(5, "Width")
-        writing_field(88, "Height")
-        writing_field(171, "Depth")
+        for px, value in ((5, "Width"), (88, "Height"), (171, "Depth")):
+            label(px, 21, value, bold=True)
+            stroke(px, 6, px+48, 6, weight=0.9, shade=0.18)
+            label(px+52, 7, "mm")
     finally:
         c.restoreState()

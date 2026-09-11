@@ -86,15 +86,15 @@ def draw_sheet(c, appliance, category, dishwasher=False):
     fields(c, 110, ["Brand and full model code"], height=35)
 
     heading(c, 165, "01", "Measure the space in your home")
-    text(c, MARGIN, 184, "Check width and height at the front, middle and rear.")
-    text(c, MARGIN, 198, "Write the smallest usable measurements on the diagram.")
-    _diagram.draw_cavity_diagram(c, MARGIN, PAGE_H - 385, width=250, height=180)
+    text(c, MARGIN, 184, "Diagram shows directions only. Measure the actual cavity.")
+    text(c, MARGIN, 198, "Record its smallest clear width, height and usable depth below.")
+    _diagram.draw_appliance_diagram(c, MARGIN, PAGE_H - 385, width=250, height=180, dishwasher=dishwasher)
     sketch_x = MARGIN + 276
     sketch_width = WIDTH - 276
     box(c, sketch_x, 211, sketch_width, 172)
     text(c, sketch_x + 10, 229, "Sketch your layout", size=11, bold=True)
     wrapped(c, "Mark taps, pipes, power points, trim and other obstructions.", sketch_x + 10, 246, sketch_width - 20)
-    text(c, MARGIN, 401, "Allow for skirting and obstructions. Leave inaccessible areas unconfirmed.")
+    text(c, MARGIN, 401, "Check front, middle and rear. Allow for obstructions; leave unknowns blank.")
 
     heading(c, 423, "02", "Check the new model's required space")
     text(c, MARGIN, 442, "Copy these figures from the exact model's installation guide.")
