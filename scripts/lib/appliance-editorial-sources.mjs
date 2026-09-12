@@ -1,8 +1,13 @@
 // Exact manufacturer references reviewed for the appliance measurement guides.
 // Evidence: docs/editorial/appliance-fit-sources-2026-09-10-*.md
-// and docs/editorial/fridge-fit-sources-2026-09-11-*.md.
+// docs/editorial/fridge-fit-sources-2026-09-11-*.md, and
+// docs/editorial/rangehood-guide-sources-2026-09-12.md.
 // This does not approve other store pages or any tracking parameters.
 const reviewedSourceUrls = new Set([
+  "https://www.bosch-home.com.au/products/cooking-baking/rangehoods/buying-guide",
+  "https://www.fisherpaykel.com/on/demandware.static/-/Sites-fpa-master-catalog/default/dwfb349ef1/InstallationManuals-FisherPaykelUS/FP-InstallGuide-en-HC24DCXB4-HC30DCXB4-HC36DCXB4-BoxWallRangeHood-0-106075B-US-CA.pdf",
+  "https://www.schweigen.com.au/get-inspired-3/silent-rangehood-buying-guide",
+  "https://www.chefappliances.com.au/rangehoods/canopy/crc612sb/",
   "https://dam.fisherpaykel.com/KZ3PKN00/at/5bh7cbrwb7qqwj4tf8m574m/FP-InstallGuide-en-WH8060J5-WH9060J-WH8060P-WH9060P-WH1060P-WH1260P-WH9060D5-WH1060D5-WH1260D5-WH1260R5-WH1260MZB5-WH1260T5-WH1260H5-WH1260YZB5-Washer-0-432972A-NZ-AU.pdf",
   "https://dam.fisherpaykel.com/KZ3PKN00/at/79xxgf3js7vvp9t95gwpm6q/FP-InstallGuide-en-DD60ST4-DD60ST4HNX9-DD60SDFHTX9-DD60SC-DD60SAX9-DishDrawer-0-431375C-NZ-AU-UK-IE-SG.pdf",
   "https://dam.fisherpaykel.com/KZ3PKN00/at/rm2q4txk7xjxkb68qzqtfx8x/FP-InstallGuide-en-RF730QZUVB1-RF730QNUVX1-RF730QNUVB1-FreestandingQuadDoorRefrigeratorFreezer-0-431084B-NZ-AU.pdf",

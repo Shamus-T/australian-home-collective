@@ -6,7 +6,7 @@ specifications: readers record their measured cavity in the blank fields.
 from math import atan2, cos, sin, pi
 
 
-def draw_appliance_diagram(c, x, y, width=250, height=180, dishwasher=False):
+def draw_appliance_diagram(c, x, y, width=250, height=180, dishwasher=False, fridge=False):
     """Draw a tall appliance, three dimension arrows and blank cavity fields."""
     if width < 250 or height < 180:
         raise ValueError("The appliance diagram needs at least 250 x 180 points.")
@@ -49,6 +49,8 @@ def draw_appliance_diagram(c, x, y, width=250, height=180, dishwasher=False):
         left, right, bottom = 76, 138, 41
         top = bottom + (right-left) * 850 / 600
         dx, dy = 32, 17
+        if fridge:
+            left, right, top = 84, 131, 138
 
         # Tall front face, top and side in a simple angled line drawing.
         c.setStrokeGray(0.25)
@@ -62,14 +64,20 @@ def draw_appliance_diagram(c, x, y, width=250, height=180, dishwasher=False):
             ((right, bottom), (right+dx, bottom+dy)),
         ):
             stroke(*a, *b, weight=0.95, shade=0.25)
-        stroke(left, top-14, right, top-14)
+        if not fridge:
+            stroke(left, top-14, right, top-14)
         stroke(left, bottom+7, right, bottom+7)
-        stroke(right, top-14, right+dx, top+dy-14)
+        if not fridge:
+            stroke(right, top-14, right+dx, top+dy-14)
 
         # A few recognisable features, without branding or service details.
         c.setStrokeGray(0.32)
         c.setLineWidth(0.65)
-        if dishwasher:
+        if fridge:
+            stroke(left, top-31, right, top-31)
+            stroke(left+7, top-23, left+7, top-13, weight=1.4)
+            stroke(left+7, top-49, left+7, top-37, weight=1.4)
+        elif dishwasher:
             c.roundRect(left+7, bottom+12, 48, 54, 2, stroke=1, fill=0)
             stroke(left+16, top-25, right-16, top-25, weight=1.4)
             for cx in (left+7, left+12, left+17):

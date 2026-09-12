@@ -1,6 +1,6 @@
 ---
 interface Props {
-  appliance: "washing-machine" | "dishwasher" | "fridge";
+  appliance: "washing-machine" | "dishwasher" | "fridge" | "rangehood";
 }
 const { appliance } = Astro.props;
 const name = appliance === "washing-machine" ? "washing machine" : appliance;

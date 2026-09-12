@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">Plan the rangehood and its air route</title>
+  <desc id="desc">Original kitchen illustration with a steel rangehood over a cooktop and a cutaway duct leading to an outside wall. Conceptual view, not an installation drawing.</desc>
+  <defs>
+    <linearGradient id="wall" x2="1" y2="1"><stop stop-color="#1c4349"/><stop offset="1" stop-color="#33777b"/></linearGradient>
+    <linearGradient id="steel" x2="0" y2="1"><stop stop-color="#e3eeed"/><stop offset="0.55" stop-color="#a8bfc1"/><stop offset="1" stop-color="#6d9199"/></linearGradient>
+    <pattern id="tiles" width="180" height="72" patternUnits="userSpaceOnUse"><rect width="180" height="72" fill="none" stroke="#85b0ad" stroke-opacity=".17"/></pattern>
+  </defs>
+  <rect width="1600" height="720" fill="url(#wall)"/>
+  <rect y="276" width="1600" height="380" fill="url(#tiles)"/>
+  <rect x="66" y="65" width="365" height="232" rx="5" fill="#16373a"/>
+  <path d="M247 65V297M260 185V222" stroke="#739da0" stroke-width="5"/>
+  <rect x="1450" y="0" width="150" height="660" fill="#102f36"/>
+  <path d="M987 280V126Q987 93 1020 93H1480" fill="none" stroke="#769d9e" stroke-width="91"/>
+  <path d="M987 280V126Q987 93 1020 93H1480" fill="none" stroke="#dae6dd" stroke-width="71"/>
+  <rect x="1470" y="47" width="42" height="94" rx="3" fill="#bfceca"/>
+  <path d="M1512 67H1560M1512 88H1560M1512 109H1560M1512 130H1560" stroke="#aac7bd" stroke-width="6"/>
+  <path d="M954 208V120Q954 61 1013 61" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="5"/>
+  <rect x="915" y="186" width="145" height="146" fill="url(#steel)" stroke="#c4d7d2" stroke-width="3"/>
+  <path d="M845 316H1125L1270 408H700Z" fill="url(#steel)" stroke="#c4d7d2" stroke-width="3"/>
+  <rect x="700" y="408" width="570" height="33" rx="3" fill="#1c333b" stroke="#85a4aa" stroke-width="3"/>
+  <g fill="#bdd2cd"><circle cx="970" cy="424" r="4"/><circle cx="989" cy="424" r="4"/><circle cx="1008" cy="424" r="4"/></g>
+  <path d="M758 442L688 629H1274L1210 442" fill="#f3df91" fill-opacity=".055"/>
+  <rect y="636" width="1600" height="27" fill="#b2c6c2"/>
+  <rect y="663" width="1600" height="57" fill="#142c32"/>
+  <path d="M739 614H1224L1270 636H695Z" fill="#132a31" stroke="#83a6a5" stroke-width="3"/>
+  <g fill="none" stroke="#698589" stroke-width="3"><ellipse cx="829" cy="626" rx="40" ry="7"/><ellipse cx="1096" cy="626" rx="40" ry="7"/></g>
+  <rect x="797" y="572" width="116" height="49" rx="14" fill="#b77643"/>
+  <path d="M913 584H970M787 584H772" stroke="#283b3e" stroke-width="9" stroke-linecap="round"/>
+  <path d="M822 566C790 537 850 517 827 484M866 566C897 536 843 511 871 482" fill="none" stroke="#d4e4d9" stroke-opacity=".32" stroke-width="6" stroke-linecap="round"/>
+</svg>

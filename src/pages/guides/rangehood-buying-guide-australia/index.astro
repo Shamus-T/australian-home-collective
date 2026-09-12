@@ -1,0 +1,116 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
+import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+
+const relatedGuides = [
+  { href: "/categories/kitchen/", title: "Kitchen", description: "Plan appliances, cooking space and storage around your kitchen." },
+  { href: "/guides/fridge-dimensions-australia/", title: "Fridge Dimensions Australia", description: "Check the opening, ventilation, doors and delivery route." },
+  { href: "/guides/dishwasher-sizes-australia/", title: "Dishwasher Sizes Australia", description: "Measure the cavity, connections and space for the open door." },
+  { href: "/guides/condensation-and-mould-during-winter/", title: "Condensation and Mould", description: "Understand moisture and ventilation elsewhere in your home." },
+];
+---
+
+<ArticleLayout
+  title="Rangehoods in Australia: What to Measure and Check Before Buying"
+  seoTitle="Rangehood Buying Guide Australia: Fit, Ducting and Filters"
+  description="Compare ducted and recirculating rangehoods, measure your kitchen and check ducting, noise, filters and installation. Free A4 planning worksheet."
+  category="Kitchen"
+  date="Published September 2026"
+  datePublished="2026-09-12"
+  dateModified="2026-09-12"
+  readingTime="5 minute read"
+  showAffiliateDisclosure={false}
+  image="/images/guides/rangehood-buying-guide-australia.svg"
+  imageAlt="Original illustration of a kitchen rangehood above a cooktop, with a cutaway showing a duct leading through an outside wall"
+  imagePosition="center"
+>
+  <p>A rangehood can fit the cupboard and still be a poor match for the kitchen. The intake may miss the front cooking zones, the duct may not fit through the available space, or replacement filters may add costs you had not allowed for.</p>
+  <p>Start with the cooktop, cabinetry and air route. Then compare extraction, noise and controls. This guide helps you prepare for buying and an installer discussion; it does not determine installation compliance.</p>
+
+  <MeasurementWorksheetLink appliance="rangehood" />
+
+  <section aria-labelledby="air-route">
+    <h2 id="air-route">First, decide where the cooking air will go</h2>
+    <p>A <strong>ducted rangehood</strong> passes air through grease filters and sends it outside through a duct. A <strong>recirculating rangehood</strong> filters the air and returns it to the kitchen, usually using an additional carbon filter for odours. Some models support both arrangements with the appropriate kit, as <a href="https://www.bosch-home.com.au/products/cooking-baking/rangehoods/buying-guide" target="_blank" rel="noopener noreferrer">Bosch's rangehood guide explains</a>.</p>
+    <div class="comparison-wrap" role="region" aria-label="Ducted and recirculating rangehood comparison" tabindex="0">
+      <table class="comparison-table">
+        <caption>The air route changes installation and ownership</caption>
+        <thead><tr><th scope="col">Arrangement</th><th scope="col">What to establish</th><th scope="col">Main trade-off</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Ducted outside</th><td>A suitable duct route, external outlet and replacement air supply</td><td>Removes extracted air from the room; needs a workable installation route</td></tr>
+          <tr><th scope="row">Recirculating</th><td>Compatible filters and kit, return-air outlet and room ventilation</td><td>Avoids an external exhaust duct; moisture stays in the kitchen</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Odour reduction is not moisture removal.</strong> Fisher &amp; Paykel explicitly notes this limitation of recirculation in its <a href="https://www.fisherpaykel.com/on/demandware.static/-/Sites-fpa-master-catalog/default/dwfb349ef1/InstallationManuals-FisherPaykelUS/FP-InstallGuide-en-HC24DCXB4-HC30DCXB4-HC36DCXB4-BoxWallRangeHood-0-106075B-US-CA.pdf" target="_blank" rel="noopener noreferrer">manufacturer explanation (PDF, page 11)</a>. That document supports the operating principle only; use Australian instructions for installation.</p>
+    <p>If an outside route appears difficult, ask an installer to assess it before buying a recirculating model. For a rental or apartment, establish any required owner or building approval before planning penetrations or changing shared services.</p>
+  </section>
+
+  <section aria-labelledby="measure-fit">
+    <h2 id="measure-fit">Measure the cooktop, opening and space above</h2>
+    <p>Record actual dimensions in millimetres. A nominal size such as “90 cm” does not describe every cutout, body or intake measurement.</p>
+    <ul>
+      <li><strong>Cooking area:</strong> Note cooktop width, depth and the position of the front cooking zones. Compare the hood's capture area and the manufacturer's coverage guidance.</li>
+      <li><strong>Cabinet opening:</strong> Measure usable width, depth and height. Check hinges, shelves, trim and the space needed to remove filters.</li>
+      <li><strong>Height:</strong> Record the existing cooktop-to-hood distance and room height separately from the required installation clearance.</li>
+      <li><strong>Projections:</strong> Check an extended slide-out section, canopy depth, headroom and neighbouring cupboard doors.</li>
+    </ul>
+    <p>Have the installer reconcile the exact cooktop and rangehood instructions with applicable local requirements. Use their specified measuring points, particularly with gas pan supports. Do not copy the old installation height or a generic online minimum.</p>
+    <figure class="rangehood-figure">
+      <img src="/images/diagrams/rangehood-measurements.svg" alt="Front and side views distinguish cabinet opening width, cooktop width, canopy depth and the vertical distance between cooktop and hood. No clearance values are specified." width="1000" height="560" loading="lazy" decoding="async" />
+      <figcaption>Record the space you have, then copy the exact model's requirements separately. Original AHC diagram; illustrative only, not to scale.</figcaption>
+    </figure>
+  </section>
+
+  <section aria-labelledby="hood-format">
+    <h2 id="hood-format">Choose a format that suits the space</h2>
+    <p><strong>Undermount and integrated hoods</strong> sit within cabinetry; check the cutout and storage lost around the body and duct. <strong>Slide-out hoods</strong> extend for use, so check their movement. <strong>Wall canopies</strong> need room for the hood and flue cover, including any ceiling-height extension.</p>
+    <p><strong>Island and ceiling hoods</strong> need suitable support and a planned air route above the cooking area. A <strong>downdraft or venting cooktop</strong> changes the space needed below the bench. Establish that arrangement before ordering drawers or cabinets. Appearance alone does not establish compatibility.</p>
+  </section>
+
+  <section aria-labelledby="duct-route">
+    <h2 id="duct-route">Check the duct route before ordering</h2>
+    <p>Ask the installer to trace the route from the hood to its outdoor termination, including diameter, duct material, length, bends and outlet position. Do not treat a hole into the ceiling void as proof of an outside connection, or assume existing ducting suits a new model.</p>
+    <p>Duct instructions differ. <a href="https://www.schweigen.com.au/get-inspired-3/silent-rangehood-buying-guide" target="_blank" rel="noopener noreferrer">Schweigen explains why its external-motor systems use specified acoustic ducting</a>. Follow the chosen system's instructions rather than applying a universal “shortest rigid duct” rule.</p>
+    <p>Include access for maintenance, any external motor and how replacement air will enter the room. If the home has a flued combustion appliance, raise it with the installer so competing extraction is assessed. Get the required ducting, building work and electrical work itemised in the quote.</p>
+  </section>
+
+  <section aria-labelledby="noise-extraction">
+    <h2 id="noise-extraction">Compare useful extraction and noise together</h2>
+    <p>An airflow figure in cubic metres per hour (m³/h) is not a complete measure of cooking-fume capture. Hood coverage and the installed air route also matter.</p>
+    <p>Ask whether quoted airflow is for normal maximum speed or temporary boost, and which speed the noise figure describes. Compare like-for-like test information where available. A quiet low setting tells you little about the setting needed during frying.</p>
+    <p>Try the controls and lighting in a showroom. Listen at the speed you expect to use. An external motor may move motor noise away from the kitchen, but ask about airflow noise, outside noise and service access rather than assuming the whole installation will be silent.</p>
+  </section>
+
+  <section aria-labelledby="filters-cost">
+    <h2 id="filters-cost">Check cleaning access and ongoing costs</h2>
+    <p>Ask to see how the grease filters release. Check that you can reach them and have somewhere to wash them. Follow the exact cleaning instructions: some mesh filters are dishwasher safe, as illustrated by <a href="https://www.chefappliances.com.au/rangehoods/canopy/crc612sb/" target="_blank" rel="noopener noreferrer">Chef's filter-care information</a>, but this is not a rule for every filter.</p>
+    <p>For recirculation, record the odour-filter part number, price, availability and replacement or regeneration instructions. Do not assume carbon filters can be washed. Check whether the required kit is included and whether replacement lights and local servicing are available.</p>
+  </section>
+
+  <section aria-labelledby="before-ordering">
+    <h2 id="before-ordering">Before you buy</h2>
+    <ol>
+      <li>Record both appliance model codes and save their Australian installation guides.</li>
+      <li>Measure coverage, cabinet space, projections and access to filters.</li>
+      <li>Have the installer confirm clearances, support, services and the air route.</li>
+      <li>Compare noise and airflow at relevant operating speeds.</li>
+      <li>Price the complete installation and ongoing filters before committing.</li>
+    </ol>
+    <p>The <a href="/downloads/rangehood-measurement-worksheet.pdf" download data-measurement-download="rangehood" data-download-location="checklist">free AHC rangehood worksheet</a> includes a duct-route sketch box and separate spaces for measured dimensions and confirmed requirements. Leave unknowns blank.</p>
+    <p>If you are rearranging several appliances, use the <a href="/guides/dishwasher-sizes-australia/">dishwasher measuring guide</a> to check how the rest of the kitchen will work while doors are open.</p>
+  </section>
+
+  <RelatedGuidesBlock guides={relatedGuides} />
+</ArticleLayout>
+
+<style>
+  .rangehood-figure { margin: 1.5rem 0; }
+  .rangehood-figure img { display: block; width: 100%; height: auto; border: 1px solid #d5e1dc; border-radius: 12px; }
+  .rangehood-figure figcaption { margin-top: 0.7rem; font-size: 0.9rem; line-height: 1.6; color: #4c625b; }
+  .comparison-wrap { max-width: 100%; overflow-x: auto; }
+  .comparison-wrap:focus-visible { outline: 3px solid #245b63; outline-offset: 4px; }
+  .comparison-table { min-width: 36rem; }
+  @media print { .rangehood-figure { break-inside: avoid; } .comparison-table { min-width: 0; } }
+</style>

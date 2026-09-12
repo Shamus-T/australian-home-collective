@@ -1,10 +1,14 @@
-"""Draw Revision 2 of the one-page washing machine and dishwasher worksheets."""
+"""Draw the shared branded layout for AHC's one-page appliance worksheets."""
 
 import importlib.util
 from pathlib import Path
 
 from reportlab.lib.colors import HexColor, white
 from reportlab.lib.pagesizes import A4
+from reportlab.lib.utils import ImageReader
+from PIL import Image
+
+LOGO_PATH = Path(__file__).resolve().parents[2] / "public" / "images" / "header-title.png"
 
 DIAGRAM_PATH = Path(__file__).with_name("appliance-worksheet-diagram.py")
 _spec = importlib.util.spec_from_file_location("appliance_cavity_diagram", DIAGRAM_PATH)
@@ -76,39 +80,67 @@ def note_row(c, y, label):
     line(c, MARGIN, y + 17, PAGE_W - MARGIN, y + 17)
 
 
-def draw_sheet(c, appliance, category, dishwasher=False):
-    text(c, MARGIN, 30, "AUSTRALIAN HOME COLLECTIVE", size=10, bold=True, color=FOREST)
+def draw_sheet(c, appliance, category, dishwasher=False, fridge=False):
+    # Use the existing site logo, retaining its proportions and transparency.
+    with Image.open(LOGO_PATH) as source:
+        logo = source.convert("RGBA")
+        logo = logo.crop(logo.getchannel("A").getbbox())
+    logo_width = 126
+    logo_height = logo_width * logo.height / logo.width
+    c.drawImage(ImageReader(logo), MARGIN, PAGE_H - 8 - logo_height,
+                width=logo_width, height=logo_height, mask="auto")
     printable_label = "FREE A4 WORKSHEET"
     text(c, PAGE_W - MARGIN - c.stringWidth(printable_label, "Helvetica", 9), 30, printable_label, size=9)
-    text(c, MARGIN, 60, f"{appliance} measurement sheet", size=22, bold=True, color=FOREST)
-    text(c, MARGIN, 82, "Measure the actual cavity, not the old appliance.", size=11.5, bold=True)
-    text(c, MARGIN, 98, "Write every measurement in millimetres (mm).")
-    fields(c, 110, ["Brand and full model code"], height=35)
+    text(c, MARGIN, 72, f"{appliance} measurement sheet", size=22, bold=True, color=FOREST)
+    text(c, MARGIN, 88, "Measure the actual cavity, not the old appliance.", size=11.5, bold=True)
+    text(c, MARGIN, 104, "Write every measurement in millimetres (mm).")
+    fields(c, 116, ["Brand and full model code"], height=35)
 
-    heading(c, 165, "01", "Measure the space in your home")
-    text(c, MARGIN, 184, "Diagram shows directions only. Measure the actual cavity.")
-    text(c, MARGIN, 198, "Record its smallest clear width, height and usable depth below.")
-    _diagram.draw_appliance_diagram(c, MARGIN, PAGE_H - 385, width=250, height=180, dishwasher=dishwasher)
+    heading(c, 171, "01", "Measure the space in your home")
+    text(c, MARGIN, 190, "Diagram shows directions only. Measure the actual cavity.")
+    text(c, MARGIN, 204, "Record its smallest clear width, height and usable depth below.")
+    _diagram.draw_appliance_diagram(c, MARGIN, PAGE_H - 385, width=250, height=180,
+                                    dishwasher=dishwasher, fridge=fridge)
     sketch_x = MARGIN + 276
     sketch_width = WIDTH - 276
-    box(c, sketch_x, 211, sketch_width, 172)
+    box(c, sketch_x, 217, sketch_width, 166)
     text(c, sketch_x + 10, 229, "Sketch your layout", size=11, bold=True)
-    wrapped(c, "Mark taps, pipes, power points, trim and other obstructions.", sketch_x + 10, 246, sketch_width - 20)
+    sketch_note = ("Mark walls, door swing, power, water and other obstructions." if fridge
+                   else "Mark taps, pipes, power points, trim and other obstructions.")
+    wrapped(c, sketch_note, sketch_x + 10, 246, sketch_width - 20)
+    if fridge:
+        text(c, sketch_x + 10, 357, "Manual / page / date checked:", size=10)
+        line(c, sketch_x + 10, 375, sketch_x + sketch_width - 10, 375)
     text(c, MARGIN, 401, "Check front, middle and rear. Allow for obstructions; leave unknowns blank.")
 
     heading(c, 423, "02", "Check the new model's required space")
     text(c, MARGIN, 442, "Copy these figures from the exact model's installation guide.")
-    fields(c, 452, ["Product width (mm)", "Product height (mm)", "Product depth (mm)"])
-    fields(c, 489, ["Required cavity W x H x D (mm)", "Required gaps: sides / rear / top (mm)"])
+    if fridge:
+        fields(c, 452, ["Product width (mm)", "Height incl. hinges (mm)", "Body depth, no door (mm)"])
+        fields(c, 489, ["Required opening W x H x D (mm)", "Ventilation: sides / rear / top (mm)"])
+        fields(c, 526, ["Closed depth incl. doors + handles (mm)", "Other projections (mm)"],
+               height=31, fractions=[0.6, 0.4])
+    else:
+        fields(c, 452, ["Product width (mm)", "Product height (mm)", "Product depth (mm)"])
+        fields(c, 489, ["Required cavity W x H x D (mm)", "Required gaps: sides / rear / top (mm)"])
     note = (
         "Check the drawing for the fitted door, panel and kickboard. Parts may sit outside the cavity."
         if dishwasher
         else "Include handles, hoses and other projections. Use the manual's dimension definitions."
     )
-    wrapped(c, note, MARGIN, 544, WIDTH)
+    if fridge:
+        text(c, MARGIN, 573, "Use the manual's labels and required opening; do not add generic gaps.")
+    else:
+        wrapped(c, note, MARGIN, 544, WIDTH)
 
-    heading(c, 581, "03", "Check doors, connections and installation")
-    if dishwasher:
+    heading(c, 593 if fridge else 581, "03", "Check doors, connections and installation")
+    if fridge:
+        notes = [
+            "Hinge-side wall gap (mm) / door angle to use and remove drawers (degrees):",
+            "Doors open + drawers extended / remaining walkway (mm):",
+            "Power + water positions / hose reach / access to tap and plug:",
+        ]
+    elif dishwasher:
         notes = [
             "Open door and extended rack reach / remaining walkway (mm):",
             "Taps, drain and power / hose route and reach:",
@@ -120,7 +152,7 @@ def draw_sheet(c, appliance, category, dishwasher=False):
             "Taps, drain and power / hose route and reach:",
             "Foot adjustment / level floor / stacking: approved models, kit and total height:",
         ]
-    for y, label in zip([600, 630, 660], notes):
+    for y, label in zip([610, 638, 666] if fridge else [600, 630, 660], notes):
         note_row(c, y, label)
 
     heading(c, 700, "04", "Check the delivery route")
@@ -132,5 +164,5 @@ def draw_sheet(c, appliance, category, dishwasher=False):
     label = "australianhomecollective.com.au"
     text(c, MARGIN, 810, label, size=9.5, color=FOREST)
     c.linkURL(f"https://{label}/categories/{category}/", (MARGIN, PAGE_H - 814, MARGIN + 205, PAGE_H - 798), relative=0)
-    revision = "Revision 2 / 11 September 2026 / 1 of 1"
+    revision = "Revision 3 / 11 September 2026 / 1 of 1"
     text(c, PAGE_W - MARGIN - c.stringWidth(revision, "Helvetica", 9.5), 810, revision, size=9.5)

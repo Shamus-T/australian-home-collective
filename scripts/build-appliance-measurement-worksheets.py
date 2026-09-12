@@ -1,4 +1,4 @@
-"""Build Revision 2 of AHC's two printable, one-page A4 appliance measurement records.
+"""Build AHC's branded, one-page A4 washing machine and dishwasher records.
 
 Requires ReportLab. Run from any directory with:
     python scripts/build-appliance-measurement-worksheets.py
@@ -6,7 +6,7 @@ Requires ReportLab. Run from any directory with:
 Final PDFs are written to output/pdf/ and copied to public/downloads/.
 The sheets deliberately leave model dimensions and required spaces blank:
 those values must come from the exact model's current installation manual.
-Legacy drawing helpers remain available to the separate fridge worksheet builder.
+All three appliance worksheets share the branded renderer in scripts/lib/.
 """
 
 from pathlib import Path
@@ -179,7 +179,7 @@ def make_sheet(filename, appliance, subtitle, category, dishwasher=False):
     c = canvas.Canvas(str(path), pagesize=A4, pageCompression=1, invariant=1)
     c.setTitle(f"{appliance} Measurement Worksheet | Australian Home Collective")
     c.setAuthor("Australian Home Collective")
-    c.setSubject("Revision 2. Printable A4 appliance measurement record. All measurements in millimetres.")
+    c.setSubject("Revision 3. Printable A4 appliance measurement record. All measurements in millimetres.")
     c.setCreator("Australian Home Collective")
     revision2.draw_sheet(c, appliance, category, dishwasher=dishwasher)
     c.showPage()
