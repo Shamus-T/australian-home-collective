@@ -1124,52 +1124,34 @@ h3 {
   margin-bottom: 16px;
 }
 
-.commercial-product-details-toggle,
-.commercial-product-details-close {
-  appearance: none;
-  background: transparent;
-  border: 0;
+.commercial-product-disclosure-details {
+  margin: auto 0 14px;
+}
+
+.commercial-product-details-toggle {
   color: var(--green-dark);
   cursor: pointer;
   font: inherit;
   font-weight: 700;
-  padding: 0;
   text-align: left;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.commercial-product-details-toggle {
-  margin: auto 0 14px;
+.commercial-product-details-toggle:focus-visible {
+  outline: 2px solid var(--green-dark);
+  outline-offset: 4px;
 }
 
 .commercial-product-card > a[data-commercial-link] {
   align-self: flex-start;
 }
 
-.commercial-product-details {
+.commercial-product-details-content {
   background: linear-gradient(180deg, #fffdf7, #f7f0e3);
   border-radius: 6px;
-  box-shadow: 0 12px 28px rgba(42, 52, 42, 0.22);
-  inset: 0;
-  opacity: 0;
-  overflow: auto;
+  margin-top: 14px;
   padding: 20px;
-  pointer-events: none;
-  position: absolute;
-  transform: translateY(8px);
-  transition: opacity 160ms ease, transform 160ms ease;
-  z-index: 1;
-}
-
-.commercial-product-card.is-details-open .commercial-product-details {
-  box-shadow: none;
-  margin-top: 4px;
-  opacity: 1;
-  overflow: visible;
-  pointer-events: auto;
-  position: static;
-  transform: translateY(0);
 }
 
 .commercial-product-drawbacks {
@@ -1191,10 +1173,6 @@ h3 {
   color: var(--muted);
   font-size: 0.9rem;
   margin: 16px 0;
-}
-
-.commercial-product-details-close {
-  margin-top: 2px;
 }
 
 .comparison-wrap {

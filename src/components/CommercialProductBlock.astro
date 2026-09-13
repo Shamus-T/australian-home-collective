@@ -58,14 +58,30 @@ const formatDate = (date: string) =>
           <h3>{product.name}</h3>
           <p>{product.summary}</p>
           <p class="commercial-product-outcome">{researchOutcomeLabels[product.researchOutcome!]}</p>
-          <button
-            class="commercial-product-details-toggle"
-            type="button"
-            aria-expanded="false"
-            aria-controls={`commercial-product-details-${product.id}`}
-          >
-            Suitability and drawbacks
-          </button>
+          <details class="commercial-product-disclosure-details">
+            <summary class="commercial-product-details-toggle">Suitability and drawbacks</summary>
+            <div
+              class="commercial-product-details-content"
+              id={`commercial-product-details-${product.id}`}
+              aria-label={`${product.name} suitability and drawbacks`}
+            >
+              <p><strong>May suit:</strong> {product.suitability.suits.join("; ")}.</p>
+              <p><strong>May not suit:</strong> {product.suitability.mayNotSuit.join("; ")}.</p>
+              <div class="commercial-product-drawbacks">
+                <p><strong>Drawbacks to consider:</strong></p>
+                <ul>
+                  {product.drawbacks.map((drawback) => <li>{drawback}</li>)}
+                </ul>
+              </div>
+              <p class="commercial-product-reviewed">
+                Evidence confidence: {product.evidenceConfidence}. Last reviewed{" "}
+                {formatDate(product.lastReviewedOn!)}.{" "}
+                {product.testingStatus === "hands-on-tested"
+                  ? product.testingNotes
+                  : "Research-based assessment; we have not tested this product firsthand."}
+              </p>
+            </div>
+          </details>
           <a
             href={product.destinationUrl}
             target="_blank"
@@ -81,28 +97,6 @@ const formatDate = (date: string) =>
           >
             {product.linkLabel}
           </a>
-          <div
-            class="commercial-product-details"
-            id={`commercial-product-details-${product.id}`}
-            aria-label={`${product.name} suitability and drawbacks`}
-          >
-            <p><strong>May suit:</strong> {product.suitability.suits.join("; ")}.</p>
-            <p><strong>May not suit:</strong> {product.suitability.mayNotSuit.join("; ")}.</p>
-            <div class="commercial-product-drawbacks">
-              <p><strong>Drawbacks to consider:</strong></p>
-              <ul>
-                {product.drawbacks.map((drawback) => <li>{drawback}</li>)}
-              </ul>
-            </div>
-            <p class="commercial-product-reviewed">
-              Evidence confidence: {product.evidenceConfidence}. Last reviewed{" "}
-              {formatDate(product.lastReviewedOn!)}.{" "}
-              {product.testingStatus === "hands-on-tested"
-                ? product.testingNotes
-                : "Research-based assessment; we have not tested this product firsthand."}
-            </p>
-            <button class="commercial-product-details-close" type="button">Close details</button>
-          </div>
         </article>
       ))}
     </div>
@@ -194,16 +188,4 @@ const formatDate = (date: string) =>
     if (event.button === 1) recordAffiliateLink(event);
   });
 
-  document.querySelectorAll<HTMLElement>("[data-commercial-product-card]").forEach((card) => {
-    const toggle = card.querySelector<HTMLButtonElement>(".commercial-product-details-toggle");
-    const close = card.querySelector<HTMLButtonElement>(".commercial-product-details-close");
-
-    const setOpen = (open: boolean) => {
-      card.classList.toggle("is-details-open", open);
-      toggle?.setAttribute("aria-expanded", String(open));
-    };
-
-    toggle?.addEventListener("click", () => setOpen(!card.classList.contains("is-details-open")));
-    close?.addEventListener("click", () => setOpen(false));
-  });
 </script>
