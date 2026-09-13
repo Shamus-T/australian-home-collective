@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-08-24",
+  "updatedOn": "2026-09-13",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -52,7 +52,8 @@
     "/guides/reduce-pollen-dust-inside-home-spring/",
     "/guides/electric-blankets-vs-heated-throws/",
     "/guides/oil-column-heater-vs-panel-heater/",
-    "/guides/fan-heater-vs-ceramic-heater/"
+    "/guides/fan-heater-vs-ceramic-heater/",
+    "/guides/robot-lawn-mower-buying-guide-australia/"
   ],
   "products": [
     {
@@ -7706,6 +7707,240 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0742JBJMV?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
           "checkedOn": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "eufy-e15-robot-lawn-mower",
+      "guidePath": "/guides/robot-lawn-mower-buying-guide-australia/",
+      "name": "eufy E15 Robot Lawn Mower",
+      "productType": "Camera navigation · 800 m² mapping limit",
+      "summary": "A camera-based option for a mostly flat, clearly bounded lawn below 800 m². The smaller mapping allowance suits a compact layout; it still needs daylight and regular edge trimming.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0DRVYDXWX?tag=ahc07-22",
+      "linkLabel": "View eufy E15 at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-09-13",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-09-13",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Mapping can miss patches or need adjustment; wet or uneven ground can cause slipping and manual rescue.",
+        "Edges still need trimming. Closed gates, low light and charging interrupt coverage.",
+        "Plan fault returns through Anker/eufy support; blades, servicing and installation add to ownership costs."
+      ],
+      "suitability": {
+        "suits": [
+          "contained, mostly flat lawns below 800 m², with compatible grass and time for daylight mowing"
+        ],
+        "mayNotSuit": [
+          "buffalo (St. Augustine) or dense Zoysia grass, rough or wet ground, exposed drops or street edges, or households expecting no manual intervention"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "E15 Australian product and lawn requirements",
+          "publisher": "eufy Australia",
+          "sourceUrl": "https://www.eufy.com/au/products/eufy-e15-robot-lawn-mower",
+          "supports": "Confirms E15 identity, 800 m² map limit, camera navigation and lawn restrictions. Manufacturer excludes St. Augustine and dense Zoysia; preparation requires grass below 9 cm. Daylight and clear ground matter. Inconsistent 40%/18-degree marketing conversion is not used; the dedicated comparison and Amazon specify 18 degrees.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian E15 and E18 specification comparison",
+          "publisher": "eufy Australia",
+          "sourceUrl": "https://www.eufy.com/au/robot-lawn-mower-e-series",
+          "supports": "E15 has an 800 m² maximum mapping area; E18 has 1,200 m². Both use camera navigation, a 203 mm cutting width, 25–75 mm height adjustment and an 18-degree slope limit. Mapping area is not a one-charge or one-day mowing guarantee. No percentage conversion or guaranteed edge/safety claim adopted.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian robot lawn mower warranty",
+          "publisher": "eufy Australia",
+          "sourceUrl": "https://www.eufy.com/au/warranty",
+          "supports": "The mower-specific section covers mower, base, power adapter and battery for two years under its conditions; blades and wear are excluded. Proof of purchase, serial number and fault evidence are required, with support approval before return. The generic introduction is qualified by the mower section covering authorised sellers.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australia and New Zealand warranty: AnkerDirect AU",
+          "publisher": "Anker Australia",
+          "sourceUrl": "https://www.anker.com/au/australia-new-zealand-warranty",
+          "supports": "Anker identifies AnkerDirect AU on Amazon.com.au as a supported purchase channel and supplies an Australian warranty contact and return process. Both assessed offers are sold by AnkerDirect AU and dispatched by Amazon. Retail delivery does not include a yard assessment or installation.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall register: eufy and Anker searches",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Eufy",
+          "supports": "Live eufy RSS search returned no recall entries. The Anker search was also inspected and returned power banks, a SoundCore speaker and an Anker Art toy, not E15/T2880 or E18/T2801 mowers. No matching Australian recall found on the review date; this is not certification or a guarantee of sensor containment.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "E15 owner discussion and follow-up",
+          "publisher": "Reddit r/eufy",
+          "sourceUrl": "https://www.reddit.com/r/eufy/comments/1jq7u7u/eufy_e15_robot_lawn_mower_review_after_3_day_use/",
+          "supports": "E15 original owner describes setup and routine cutting; other owners discuss mapping, gates and missed/recharge areas, including a season follow-up reporting occasional docking rescue. Explicit E18 comments are not counted as E15 ownership or battery evidence.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "E15 owner comparison within E18 discussion",
+          "publisher": "Reddit r/eufy",
+          "sourceUrl": "https://www.reddit.com/r/eufy/comments/1sx83ea/eufy_e18_lawnmower_review_and_additional/",
+          "supports": "An owner explicitly reports liking the E15 but returning it because the mapped-area limit did not fit their lawn. This corroborates the capacity trade-off; it is not long-term reliability evidence.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "E15 spring mowing test",
+          "publisher": "Tom’s Guide",
+          "sourceUrl": "https://www.tomsguide.com/home/gardening/eufy-e15-robot-lawnmower-review",
+          "supports": "Peter Wolinski’s March 2026 test found even cutting but missed patches, edge limitations and slipping on damp grass. This restricts the approved use to prepared, mostly flat, dry lawns; positive app impressions do not erase the limitations.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "E15 review after several weeks of mowing",
+          "publisher": "TechRadar",
+          "sourceUrl": "https://www.techradar.com/home/small-appliances/eufy-e15-robot-lawn-mower-review",
+          "supports": "Derek Adams’s June 2025 firsthand test found successful routine mowing and return to base, with map correction for a scrubby border and remaining trimming. Different test results justify moderate confidence, not a universal performance claim.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "E15 exact Amazon Australia offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DRVYDXWX?tag=ahc07-22",
+          "supports": "Exact E15 title and ASIN B0DRVYDXWX checked with Sydney 2000 selected: Add to cart and Buy Now present; sold by AnkerDirect AU, dispatched by Amazon. 800 m² / imperial mapping capacity, vision navigation, 1–3 inch cutting range and 18-degree limit match the assessment. Product baseline recorded; ahc07-22 tag intact. The lower-page generic “no featured offers” panel is inconsistent with the active purchase panel; order availability is based on the latter, not a promise for every postcode.",
+          "checkedOn": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "eufy-e18-robot-lawn-mower",
+      "guidePath": "/guides/robot-lawn-mower-buying-guide-australia/",
+      "name": "eufy E18 Robot Lawn Mower",
+      "productType": "Camera navigation · 1,200 m² mapping limit",
+      "summary": "A camera-based option for a mostly flat, clearly bounded lawn below 1,200 m². The larger map allowance helps with more lawn; allow multiple mowing and charging sessions.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0DRVYX8K2?tag=ahc07-22",
+      "linkLabel": "View eufy E18 at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-09-13",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-09-13",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Owners report mapping adjustments, repeated passes and lengthy coverage; a larger map does not mean faster cutting.",
+        "Edges still need trimming. Closed gates, low light and charging interrupt coverage.",
+        "Plan fault returns through Anker/eufy support; blades, servicing and installation add to ownership costs."
+      ],
+      "suitability": {
+        "suits": [
+          "contained, mostly flat lawns below 1,200 m², with compatible grass and time for daylight mowing"
+        ],
+        "mayNotSuit": [
+          "buffalo (St. Augustine) or dense Zoysia grass, rough or wet ground, exposed drops or street edges, or households expecting no manual intervention"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "E18 Australian product and lawn requirements",
+          "publisher": "eufy Australia",
+          "sourceUrl": "https://www.eufy.com/au/products/eufy-robot-lawn-mower-e18",
+          "supports": "Confirms E18 identity, 1,200 m² map limit, camera navigation and lawn restrictions. Manufacturer excludes St. Augustine and dense Zoysia; preparation requires grass below 9 cm. Daylight and clear ground matter. Inconsistent 40%/18-degree marketing conversion is not used; the dedicated comparison and Amazon specify 18 degrees.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian E15 and E18 specification comparison",
+          "publisher": "eufy Australia",
+          "sourceUrl": "https://www.eufy.com/au/robot-lawn-mower-e-series",
+          "supports": "E15 has an 800 m² maximum mapping area; E18 has 1,200 m². Both use camera navigation, a 203 mm cutting width, 25–75 mm height adjustment and an 18-degree slope limit. Mapping area is not a one-charge or one-day mowing guarantee. No percentage conversion or guaranteed edge/safety claim adopted.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian robot lawn mower warranty",
+          "publisher": "eufy Australia",
+          "sourceUrl": "https://www.eufy.com/au/warranty",
+          "supports": "The mower-specific section covers mower, base, power adapter and battery for two years under its conditions; blades and wear are excluded. Proof of purchase, serial number and fault evidence are required, with support approval before return. The generic introduction is qualified by the mower section covering authorised sellers.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australia and New Zealand warranty: AnkerDirect AU",
+          "publisher": "Anker Australia",
+          "sourceUrl": "https://www.anker.com/au/australia-new-zealand-warranty",
+          "supports": "Anker identifies AnkerDirect AU on Amazon.com.au as a supported purchase channel and supplies an Australian warranty contact and return process. Both assessed offers are sold by AnkerDirect AU and dispatched by Amazon. Retail delivery does not include a yard assessment or installation.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall register: eufy and Anker searches",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Eufy",
+          "supports": "Live eufy RSS search returned no recall entries. The Anker search was also inspected and returned power banks, a SoundCore speaker and an Anker Art toy, not E15/T2880 or E18/T2801 mowers. No matching Australian recall found on the review date; this is not certification or a guarantee of sensor containment.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "E18 month-long owner report and replies",
+          "publisher": "Reddit r/eufy",
+          "sourceUrl": "https://www.reddit.com/r/eufy/comments/1sx83ea/eufy_e18_lawnmower_review_and_additional/",
+          "supports": "Multiple explicit E18 owners describe useful cutting alongside recurring map adjustments, repeated paths and edge work; the original owner reports multi-day coverage. Other replies mention boundary confusion and damp clipping buildup. Exclude third-party blade modifications, AI-generated safety advice and the incorrect slope arithmetic.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "E18 owner’s season follow-up in E15 discussion",
+          "publisher": "Reddit r/eufy",
+          "sourceUrl": "https://www.reddit.com/r/eufy/comments/1jq7u7u/eufy_e15_robot_lawn_mower_review_after_3_day_use/",
+          "supports": "The explicitly identified E18 owner describes useful mowing but gate, schedule and curb problems, followed by a positive one-year update. Curbs are not treated as safety barriers; exposed street edges and drops are excluded. Do not repeat the unverified larger-battery claim or assume old software limits persist.",
+          "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "E18 exact Amazon Australia offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DRVYX8K2?tag=ahc07-22",
+          "supports": "Exact E18 title and ASIN B0DRVYX8K2 checked with Sydney 2000 selected: Add to cart and Buy Now present; sold by AnkerDirect AU, dispatched by Amazon. 1,200 m² / imperial mapping capacity, vision navigation, 1–3 inch cutting range and 18-degree limit match the assessment. Product baseline recorded; ahc07-22 tag intact. The lower-page generic “no featured offers” panel is inconsistent with the active purchase panel; order availability is based on the latter, not a promise for every postcode.",
+          "checkedOn": "2026-09-13"
         }
       ]
     }
