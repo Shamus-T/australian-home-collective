@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Plan the whole mowing route</title>
+<desc id="desc">An illustrative overhead yard plan. A house and paved path divide two grass areas. A narrow side passage, a tree canopy, a charging station and the lawn edges all need checking.</desc>
+<defs>
+ <pattern id="lawn" width="28" height="28" patternUnits="userSpaceOnUse"><rect width="28" height="28" fill="#d2dfba"/><path d="M6 20l3-6m0 6l3-3" fill="none" stroke="#a9bf90" stroke-width="1.5"/></pattern>
+ <pattern id="paving" width="48" height="32" patternUnits="userSpaceOnUse"><rect width="48" height="32" fill="#e5dfd5"/><path d="M0 0h48v32H0Z" fill="none" stroke="#cbc6bc"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#243c35" flood-opacity=".14"/></filter>
+</defs>
+<rect width="1200" height="675" fill="#f5f4ef"/>
+<g font-family="Arial, sans-serif" fill="#244c3d">
+ <text x="66" y="66" font-size="23" letter-spacing="3">PLAN THE WHOLE MOWING ROUTE</text>
+ <rect x="65" y="97" width="1070" height="484" rx="6" fill="url(#lawn)" stroke="#68816f" stroke-width="4"/>
+ <path d="M72 500H1128" stroke="#759179" stroke-width="7"/>
+ <rect x="65" y="468" width="1070" height="64" fill="url(#paving)"/>
+ <rect x="430" y="181" width="365" height="287" rx="3" fill="#ad6652" filter="url(#shadow)"/>
+ <path d="M430 181L612 242l183-61M612 242v226" fill="none" stroke="#824b3e" stroke-width="5"/>
+ <path d="M449 212v231m22-222v222m22-215v215m22-207v207m22-200v200m22-193v193m22-185v185M636 248v197m24-205v205m24-213v213m24-221v221m24-229v229m24-237v237" stroke="#c4836b" stroke-width="3"/>
+ <rect x="537" y="316" width="151" height="46" rx="5" fill="#fffaf1"/><text x="612" y="347" text-anchor="middle" font-size="23">HOUSE</text>
+ <rect x="79" y="111" width="162" height="26" rx="3" fill="#927558"/>
+ <g fill="#547c60" stroke="#3d644f" stroke-width="3"><circle cx="964" cy="204" r="62"/><circle cx="935" cy="177" r="43"/><circle cx="995" cy="171" r="39"/></g>
+ <path d="M950 215l14-36 13 43" fill="none" stroke="#8bb18c" stroke-width="4"/>
+ <rect x="105" y="253" width="82" height="72" rx="8" fill="#52666b"/>
+ <rect x="114" y="264" width="65" height="8" fill="#243a3e"/>
+ <path d="M146 253v-57H81" fill="none" stroke="#54676b" stroke-width="3"/>
+ <g transform="translate(233 319) rotate(-18)">
+  <rect x="-42" y="-30" width="18" height="56" rx="5" fill="#293b3d"/><rect x="26" y="-30" width="18" height="56" rx="5" fill="#293b3d"/>
+  <rect x="-32" y="-40" width="67" height="80" rx="23" fill="#247989" stroke="#1e5968" stroke-width="3"/>
+  <rect x="-16" y="-26" width="36" height="19" rx="7" fill="#b6d2cc"/><rect x="-6" y="3" width="17" height="8" rx="3" fill="#deb553"/>
+ </g>
+ <g fill="#fffdf7" stroke="#244c3d" stroke-width="2">
+  <circle cx="251" cy="412" r="21"/><circle cx="604" cy="137" r="21"/><circle cx="1003" cy="310" r="21"/><circle cx="269" cy="274" r="21"/>
+ </g>
+ <g text-anchor="middle" font-size="22" font-weight="bold"><text x="251" y="420">1</text><text x="604" y="145">2</text><text x="1003" y="318">3</text><text x="269" y="282">4</text></g>
+ <text x="330" y="560" font-size="20">Separate front lawn</text>
+ <text x="852" y="411" font-size="22">Back lawn</text>
+ <g font-size="19"><text x="66" y="621">1  Edges + setbacks</text><text x="352" y="621">2  Passage width</text><text x="626" y="621">3  Tree canopy</text><text x="899" y="621">4  Dock + power</text></g>
+ <text x="66" y="652" font-size="14" fill="#54655b">Original Australian Home Collective illustration. Not to scale; no installation clearances are specified.</text>
+</g>
+</svg>
