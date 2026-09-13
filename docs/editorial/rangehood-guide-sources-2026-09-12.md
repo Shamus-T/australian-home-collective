@@ -55,3 +55,22 @@ verified. All four branded PDFs were rendered and inspected during preparation.
 GitHub write access was restored on 12 September 2026. This change is intended
 for the existing main-branch Cloudflare Pages deployment. Live verification is
 performed after deployment rather than assumed from these source checks.
+
+## Cooktop-type revision — 13 September 2026
+
+Added induction, gas and radiant-electric selection context, including rapid
+boiling, condensation, capture area, usable airflow and the need to reassess
+an existing rangehood when changing cooktop type. The guide stays below 1,200
+words. Publication edit retains the qualified installer and gasfitter advice.
+
+Evidence opened and reviewed:
+- https://www.schweigen.com.au/article/tips-to-reduce-condensation-when-cooking-with-induction-cooktops — rapid heating, vapour condensing on cold hood surfaces, power settings, hood coverage and system-specific operating guidance. This source does not establish a universal higher extraction rate for induction than gas. Its specific fan-speed and timing advice is not generalised to other systems.
+- https://www.yourhome.gov.au/energy/appliances — induction heating and responsiveness.
+- https://www.yourhome.gov.au/live-adapt/indoor-air-quality — cooking and combustion pollutants and ventilation to outdoors.
+
+Editorial judgement: cooktop type and cooking load influence rangehood choice;
+a larger advertised airflow alone does not establish steam capture or prevent
+condensation. No universal induction airflow value or gas-to-induction multiplier
+is asserted. Manufacturer references are internal evidence only. The public
+article retains only the official Energy Safe Victoria and Fire and Rescue NSW
+safety links added after the initial publication.
