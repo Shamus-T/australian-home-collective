@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-09-13",
+  "updatedOn": "2026-09-22",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -1949,13 +1949,13 @@
       ]
     },
     {
-      "id": "dyson-v8-origin-cordless-vacuum",
+      "id": "dyson-v8-cordless-vacuum",
       "guidePath": "/guides/cordless-stick-vacuums-australia/",
-      "name": "Dyson V8 Origin Cordless Vacuum Cleaner",
+      "name": "Dyson V8 Cordless Vacuum Cleaner",
       "productType": "Cordless stick vacuum",
-      "summary": "A light, established cordless platform with a removable handheld format for mixed floor and above-floor cleaning.",
+      "summary": "An established 2.5 kg cordless platform with a Motorbar cleaner head, 0.54 L bin, two cleaning modes and genuine replacement-battery support in Australia.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0DDRX3475?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -1963,10 +1963,105 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-22",
+      "lastReviewedOn": "2026-09-22",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-09-22",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Recurring owner feedback identifies battery run time and battery ageing as important ownership limitations, particularly when higher-power modes are used.",
+        "The 0.54 L bin and up-to-5-hour charge time may be limiting for larger whole-home cleaning sessions.",
+        "Amazon pricing, seller and included accessories can change, so confirm the exact V8 variant and package contents before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "smaller and medium homes wanting a mature cordless platform for mixed floors and quick everyday cleaning",
+          "households that value established Australian support and access to genuine replacement batteries"
+        ],
+        "mayNotSuit": [
+          "large homes that need long continuous run time from one battery",
+          "buyers who regularly rely on maximum-power cleaning for extended sessions"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Dyson V8 stick vacuum cleaner",
+          "publisher": "Dyson Australia",
+          "sourceUrl": "https://www.dyson.com.au/dyson-v8-vacuum",
+          "supports": "Current Australian V8 specifications including 115 AW suction, 0.54 L bin, 2.5 kg weight, Motorbar cleaner head and up to 40-minute stated run time.",
+          "checkedOn": "2026-09-22"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Replacement Vacuum Cleaner Batteries",
+          "publisher": "Dyson Australia",
+          "sourceUrl": "https://www.dyson.com.au/products/tools-and-accessories/replacement-batteries",
+          "supports": "Australian replacement-battery availability and Dyson's two-year cordless-machine guarantee, including the original battery.",
+          "checkedOn": "2026-09-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Dyson V8 reviews",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/dyson-v8",
+          "supports": "Large Australian owner-feedback sample used to identify recurring strengths and limitations, particularly ease of use, battery run time, battery ageing and maintenance.",
+          "checkedOn": "2026-09-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dyson V8 Cordless Vacuum Cleaner Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
+          "supports": "A current Amazon Australia offer matching the V8 ASIN was found at review; delivery estimates remain postcode and account dependent.",
+          "checkedOn": "2026-09-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching V8 recall was identified at review.",
+          "checkedOn": "2026-09-22"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dyson V8 Cordless Vacuum Cleaner Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
+          "supports": "The exact ASIN, Australian Amazon offer and affiliate tracking destination were revalidated before approval; fixed delivery dates are not published because they vary by postcode and account.",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "shark-iz102-cordless-vacuum",
+      "guidePath": "/guides/cordless-stick-vacuums-australia/",
+      "name": "Shark IZ102 Cordless Vacuum with Self-Cleaning Brushroll",
+      "productType": "Cordless stick vacuum",
+      "summary": "A 3.4 kg cordless option for mixed floors and hair pickup, with a removable battery, self-cleaning brushroll, washable filters and handheld conversion.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B093W7RLYT?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-09-22",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-09-22",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -1978,141 +2073,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "The smaller bin and finite battery make it less convenient for large whole-home cleans.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "At 3.4 kg, the complete unit can feel heavier and bulkier than lighter cordless alternatives, particularly for above-floor cleaning.",
+        "Recurring owner feedback raises battery-life, edge-pickup and brushroll-maintenance concerns; the self-cleaning brushroll does not eliminate all manual cleaning.",
+        "The stated 40-minute run time applies to Standard mode, and actual run time will be lower when higher-power modes are used."
       ],
       "suitability": {
         "suits": [
-          "smaller homes wanting a mainstream cordless system"
+          "homes managing long hair or pet hair across a mix of carpet and hard flooring",
+          "buyers who value a removable battery and washable filtration"
         ],
         "mayNotSuit": [
-          "large homes that need long continuous runtime"
+          "large homes that need long continuous run time from one charge",
+          "buyers prioritising the lowest possible carry weight or strong edge cleaning"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Dyson V8 cordless vacuum manufacturer information",
-          "publisher": "Dyson Australia",
-          "sourceUrl": "https://www.dyson.com.au/products/vacuum-cleaners/dyson-v8/overview",
-          "supports": "Current V8 platform specifications, cleaner-head format, run-time context and Australian support information.",
-          "checkedOn": "2026-08-22"
+          "title": "Shark Cordless Vacuum with Self Cleaning Brushroll",
+          "publisher": "SharkNinja Australia",
+          "sourceUrl": "https://sharkninja.com.au/products/shark-cordless-vacuum-with-self-cleaning-brushroll-iz102",
+          "supports": "Current Australian specifications including 3.4 kg weight, 0.4 L dust cup, removable battery, washable filters, three modes and up to 40 minutes in Standard mode.",
+          "checkedOn": "2026-09-22"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Shark Cordless Vacuum with Self Cleaning Brushroll",
+          "publisher": "SharkNinja Australia",
+          "sourceUrl": "https://sharkninja.com.au/products/shark-cordless-vacuum-with-self-cleaning-brushroll-iz102",
+          "supports": "Australian product support, two-year warranty and current local product information.",
+          "checkedOn": "2026-09-22"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Dyson V8 Cordless Vacuum Cleaner product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/dyson-v8-cordless-vacuum-2",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Shark IZ102 reviews",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/shark-iz102",
+          "supports": "Australian owner feedback used to identify recurring positives and limitations around hair pickup, handling weight, battery performance, edge cleaning and brushroll maintenance.",
+          "checkedOn": "2026-09-22"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Dyson V8 Origin Cordless Vacuum Cleaner Australian order availability",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0DDRX3475?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
-          "checkedOn": "2026-08-22"
-        },
-        {
-          "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
-          "publisher": "ACCC Product Safety",
-          "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dyson V8 Origin Cordless Vacuum Cleaner Amazon Australia listing",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0DDRX3475?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
-          "checkedOn": "2026-08-22"
-        }
-      ]
-    },
-    {
-      "id": "shark-iz102-cordless-vacuum",
-      "guidePath": "/guides/cordless-stick-vacuums-australia/",
-      "name": "Shark IZ102 Cordless Vacuum with Self-Cleaning Brushroll",
-      "productType": "Cordless stick vacuum",
-      "summary": "A cordless option designed around mixed floors and hair pickup, with a self-cleaning brushroll and handheld conversion.",
-      "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B093W7RLYT?tag=ahc07-22",
-      "linkLabel": "View at Amazon Australia",
-      "affiliate": true,
-      "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
-      "researchOutcome": "research-supported",
-      "evidenceConfidence": "moderate",
-      "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
-      "affiliateValidation": {
-        "checkedOn": "2026-08-18",
-        "destinationStatus": "reachable",
-        "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
-        "specificationsStatus": "matched",
-        "safetyComplianceStatus": "not-applicable",
-        "trackingStatus": "verified"
-      },
-      "testingStatus": "research-only",
-      "testingNotes": "",
-      "drawbacks": [
-        "The floor head and full unit may feel bulkier than ultra-light cordless models.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
-      ],
-      "suitability": {
-        "suits": [
-          "homes managing hair across carpet and hard flooring"
-        ],
-        "mayNotSuit": [
-          "buyers prioritising the lowest possible carry weight"
-        ]
-      },
-      "sourceRecords": [
-        {
-          "sourceType": "manufacturer-specification",
-          "title": "Shark IZ102 Cordless Vacuum with Self-Cleaning Brushroll manufacturer information",
-          "publisher": "Shark",
-          "sourceUrl": "https://sharkclean.com.au/products/shark-cordless-vacuum-with-self-cleaning-brushroll-iz102",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "owner-feedback",
-          "title": "Shark IZ102 Cordless Vacuum with Self-Cleaning Brushroll product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/shark-iz102-cordless-vacuum-with-self-cleaning-brushroll-1",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Shark IZ102 Cordless Vacuum with Self-Cleaning Brushroll Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/shark-iz102-cordless-vacuum-with-self-cleaning-brushroll-1",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
-          "publisher": "ACCC Product Safety",
-          "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Shark IZ102 Cordless Vacuum with Self-Cleaning Brushroll Amazon Australia listing",
+          "title": "Shark IZ102 Cordless Vacuum Australian offer",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B093W7RLYT?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "supports": "A current Amazon Australia offer matching the IZ102 ASIN was found at review; delivery estimates remain postcode and account dependent.",
+          "checkedOn": "2026-09-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching IZ102 recall was identified at review.",
+          "checkedOn": "2026-09-22"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Shark IZ102 Cordless Vacuum Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B093W7RLYT?tag=ahc07-22",
+          "supports": "The exact ASIN, current Amazon Australia offer and affiliate tracking destination were revalidated before approval; fixed delivery dates are not published because they vary by postcode and account.",
+          "checkedOn": "2026-09-22"
         }
       ]
     },
