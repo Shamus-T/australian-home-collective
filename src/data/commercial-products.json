@@ -1963,10 +1963,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-09-22",
+      "lastReviewedOn": "2026-09-21",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-09-22",
+        "checkedOn": "2026-09-21",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -1999,7 +1999,7 @@
           "publisher": "Dyson Australia",
           "sourceUrl": "https://www.dyson.com.au/dyson-v8-vacuum",
           "supports": "Current Australian V8 specifications including 115 AW suction, 0.54 L bin, 2.5 kg weight, Motorbar cleaner head and up to 40-minute stated run time.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "manufacturer-warranty",
@@ -2007,7 +2007,7 @@
           "publisher": "Dyson Australia",
           "sourceUrl": "https://www.dyson.com.au/products/tools-and-accessories/replacement-batteries",
           "supports": "Australian replacement-battery availability and Dyson's two-year cordless-machine guarantee, including the original battery.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "owner-feedback",
@@ -2015,7 +2015,7 @@
           "publisher": "ProductReview.com.au",
           "sourceUrl": "https://www.productreview.com.au/listings/dyson-v8",
           "supports": "Large Australian owner-feedback sample used to identify recurring strengths and limitations, particularly ease of use, battery run time, battery ageing and maintenance.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "australian-availability-support",
@@ -2023,7 +2023,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
           "supports": "A current Amazon Australia offer matching the V8 ASIN was found at review; delivery estimates remain postcode and account dependent.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "regulator-recall-check",
@@ -2031,7 +2031,7 @@
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "The Australian recall register was checked for the named product and brand; no active matching V8 recall was identified at review.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "seller-fulfilment",
@@ -2039,7 +2039,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
           "supports": "The exact ASIN, Australian Amazon offer and affiliate tracking destination were revalidated before approval; fixed delivery dates are not published because they vary by postcode and account.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         }
       ]
     },
@@ -2058,10 +2058,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-09-22",
+      "lastReviewedOn": "2026-09-21",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-09-22",
+        "checkedOn": "2026-09-21",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -2094,7 +2094,7 @@
           "publisher": "SharkNinja Australia",
           "sourceUrl": "https://sharkninja.com.au/products/shark-cordless-vacuum-with-self-cleaning-brushroll-iz102",
           "supports": "Current Australian specifications including 3.4 kg weight, 0.4 L dust cup, removable battery, washable filters, three modes and up to 40 minutes in Standard mode.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "manufacturer-warranty",
@@ -2102,7 +2102,7 @@
           "publisher": "SharkNinja Australia",
           "sourceUrl": "https://sharkninja.com.au/products/shark-cordless-vacuum-with-self-cleaning-brushroll-iz102",
           "supports": "Australian product support, two-year warranty and current local product information.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "owner-feedback",
@@ -2110,7 +2110,7 @@
           "publisher": "ProductReview.com.au",
           "sourceUrl": "https://www.productreview.com.au/listings/shark-iz102",
           "supports": "Australian owner feedback used to identify recurring positives and limitations around hair pickup, handling weight, battery performance, edge cleaning and brushroll maintenance.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "australian-availability-support",
@@ -2118,7 +2118,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B093W7RLYT?tag=ahc07-22",
           "supports": "A current Amazon Australia offer matching the IZ102 ASIN was found at review; delivery estimates remain postcode and account dependent.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "regulator-recall-check",
@@ -2126,7 +2126,7 @@
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "The Australian recall register was checked for the named product and brand; no active matching IZ102 recall was identified at review.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         },
         {
           "sourceType": "seller-fulfilment",
@@ -2134,7 +2134,7 @@
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B093W7RLYT?tag=ahc07-22",
           "supports": "The exact ASIN, current Amazon Australia offer and affiliate tracking destination were revalidated before approval; fixed delivery dates are not published because they vary by postcode and account.",
-          "checkedOn": "2026-09-22"
+          "checkedOn": "2026-09-21"
         }
       ]
     },
