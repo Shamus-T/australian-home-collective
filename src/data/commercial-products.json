@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-09-22",
+  "updatedOn": "2026-09-23",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -2149,18 +2149,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
-      "researchOutcome": "research-supported",
-      "evidenceConfidence": "moderate",
+      "editorialStatus": "paused",
+      "researchOutcome": "promising-limited-evidence",
+      "evidenceConfidence": "low",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-22",
-      "approvedForAffiliateUse": true,
+      "lastReviewedOn": "2026-09-23",
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-09-23",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "unchanged",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -2168,57 +2168,67 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "The tall dock needs a permanent serviced position and creates ongoing dust-bag, tank and mop-cleaning work.",
-        "Raised thresholds, loose cables, dark or reflective surfaces and crowded rooms can still require preparation or manual cleaning."
+        "Independent Australian owner feedback for the exact Gen 2 model remains too limited for AHC's current promotion threshold.",
+        "Recent Australian brand-level owner feedback includes warranty and service complaints, so local after-sales confidence is not strong enough for promotion.",
+        "The large all-in-one dock still needs dedicated floor space plus regular dirty-water, mop, tray and consumable maintenance."
       ],
       "suitability": {
         "suits": [
           "larger mostly open homes seeking automated vacuuming, mopping and dock maintenance"
         ],
         "mayNotSuit": [
-          "tight layouts or households wanting a simple vacuum-only robot"
+          "buyers who want a mature exact-model owner-feedback history",
+          "households that need strong confidence in local after-sales support before buying"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
           "title": "L10s Ultra Gen 2",
-          "publisher": "Dreame Global",
+          "publisher": "Dreame",
           "sourceUrl": "https://global.dreametech.com/pages/l10s-ultra-gen-2",
-          "supports": "Current model dimensions, dock format, 10,000 Pa claimed suction, MopExtend function and maintenance specifications.",
-          "checkedOn": "2026-08-22"
+          "supports": "Current model specifications, dock functions, 10,000 Pa claimed suction and MopExtend features.",
+          "checkedOn": "2026-09-23"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Dreame L10s Ultra Gen 2 Robot Vacuum and Mop owner-feedback record",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0DCFTXDVL?tag=ahc07-22",
-          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
-          "checkedOn": "2026-08-22"
+          "title": "Dreame L10s Ultra Gen 2 reviews",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/dreame-l10s-ultra-gen-2",
+          "supports": "The exact-model Australian feedback sample remains very small; useful positives and obstacle-avoidance limitations were noted but are insufficient for a research-supported promotion.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Dreame Technology reviews",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/dreame-technology",
+          "supports": "Brand-level Australian feedback includes recurring warranty and service complaints relevant to support confidence.",
+          "checkedOn": "2026-09-23"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Dreame L10s Ultra Gen 2 Robot Vacuum and Mop Australian order availability",
+          "title": "Dreame L10s Ultra Gen 2 Australian availability",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0DCFTXDVL?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
-          "checkedOn": "2026-08-22"
+          "supports": "The exact Amazon Australia product destination remains reachable and orderable, but availability alone does not meet AHC's evidence threshold.",
+          "checkedOn": "2026-09-23"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
-          "checkedOn": "2026-08-18"
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified.",
+          "checkedOn": "2026-09-23"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Dreame L10s Ultra Gen 2 Robot Vacuum and Mop Amazon Australia listing",
+          "title": "Dreame L10s Ultra Gen 2 Amazon Australia listing",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0DCFTXDVL?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
-          "checkedOn": "2026-08-22"
+          "supports": "The affiliate destination remains valid; the product is paused because evidence and support confidence, not fulfilment, fail the current promotion threshold.",
+          "checkedOn": "2026-09-23"
         }
       ]
     },
@@ -2233,27 +2243,28 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
-      "researchOutcome": "research-supported",
-      "evidenceConfidence": "moderate",
+      "editorialStatus": "paused",
+      "researchOutcome": "promising-limited-evidence",
+      "evidenceConfidence": "low",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "lastReviewedOn": "2026-09-23",
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-09-23",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
-        "specificationsStatus": "matched",
+        "listingStatus": "materially-changed",
+        "specificationsStatus": "unverified",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
       },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "Only a small amount of recent owner feedback was available for this exact model at review.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "The TEO+ is no longer a strong current-reference model in ECOVACS Australia's range.",
+        "Exact-model owner evidence remains too limited for AHC's present research-supported threshold.",
+        "Newer ECOVACS models now have stronger current Australian documentation, accessories and support visibility."
       ],
       "suitability": {
         "suits": [
@@ -2266,43 +2277,43 @@
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "ECOVACS DEEBOT TEO+ Robot Vacuum and Mop manufacturer information",
-          "publisher": "ECOVACS",
+          "title": "DEEBOT robotic vacuum cleaner range",
+          "publisher": "ECOVACS Australia",
           "sourceUrl": "https://www.ecovacs.com/au/deebot-robotic-vacuum-cleaner",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "supports": "Current Australian range review showed the TEO+ is no longer a strong current-reference model relative to newer supported models.",
+          "checkedOn": "2026-09-23"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "ECOVACS DEEBOT TEO+ Robot Vacuum and Mop product and owner-feedback record",
+          "title": "ECOVACS DEEBOT TEO+ product record",
           "publisher": "BuyWisely Australia",
           "sourceUrl": "https://buywisely.com.au/au/product/ecovacs-deebot-teo-robotic-vacuum-and-mop-robot-with-auto-cleaning-empty-station-white",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "supports": "The exact-model evidence base remains limited and is not sufficient for continued AHC promotion.",
+          "checkedOn": "2026-09-23"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "ECOVACS DEEBOT TEO+ Robot Vacuum and Mop Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/ecovacs-deebot-teo-robotic-vacuum-and-mop-robot-with-auto-cleaning-empty-station-white",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "ECOVACS Australian product range",
+          "publisher": "ECOVACS Australia",
+          "sourceUrl": "https://www.ecovacs.com/au/shop/deebot-robotic-vacuum-cleaner",
+          "supports": "Current Australian support and accessory visibility is stronger for newer DEEBOT models.",
+          "checkedOn": "2026-09-23"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Product Safety Recalls",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
-          "checkedOn": "2026-08-18"
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified.",
+          "checkedOn": "2026-09-23"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "ECOVACS DEEBOT TEO+ Robot Vacuum and Mop Amazon Australia listing",
+          "title": "ECOVACS DEEBOT TEO+ Amazon Australia listing",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0CPMWYCLH?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
+          "supports": "The historical affiliate destination remains reachable, but the model is paused in favour of better-supported current options.",
+          "checkedOn": "2026-09-23"
         }
       ]
     },
@@ -7963,6 +7974,196 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0DRVYX8K2?tag=ahc07-22",
           "supports": "Exact E18 title and ASIN B0DRVYX8K2 checked with Sydney 2000 selected: Add to cart and Buy Now present; sold by AnkerDirect AU, dispatched by Amazon. 1,200 m² / imperial mapping capacity, vision navigation, 1–3 inch cutting range and 18-degree limit match the assessment. Product baseline recorded; ahc07-22 tag intact. The lower-page generic “no featured offers” panel is inconsistent with the active purchase panel; order availability is based on the latter, not a promise for every postcode.",
           "checkedOn": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "roborock-qrevo-l-robot-vacuum",
+      "guidePath": "/guides/robot-vacuum-buying-guide-australia/",
+      "name": "Roborock Qrevo L Robot Vacuum and Mop",
+      "productType": "Self-emptying robot vacuum and mop",
+      "summary": "A current mid-range all-in-one robot with LiDAR navigation, dual spinning liftable mops and a dock that washes the mops, dries them with cool air, empties dust and refills water.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F4CLCNJR?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-09-23",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-09-23",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 340 x 487 x 519 mm dock needs a permanent position plus room to remove tanks and service consumables.",
+        "The Qrevo L does not have an extending edge mop, and owner feedback notes a visible un-mopped strip can remain beside some skirting boards.",
+        "Reactive obstacle avoidance reduces preparation but does not remove the need to pick up cords, shoelaces and other small entanglement risks."
+      ],
+      "suitability": {
+        "suits": [
+          "homes wanting automated vacuuming and mopping without paying for a flagship robot",
+          "households with a mix of hard floors and carpet that can accommodate a full-service dock"
+        ],
+        "mayNotSuit": [
+          "tight layouts with no suitable dock position",
+          "buyers prioritising edge-to-edge mopping or near-perfect small-object avoidance"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Roborock Qrevo L",
+          "publisher": "Roborock Store ANZ",
+          "sourceUrl": "https://roborockstore.com.au/products/roborock-qrevo-l",
+          "supports": "Australian specifications, 10,000 Pa claimed suction, LiDAR navigation, reactive obstacle avoidance, dock functions, dimensions and accessory availability.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Roborock Qrevo L",
+          "publisher": "Roborock Store ANZ",
+          "sourceUrl": "https://roborockstore.com.au/products/roborock-qrevo-l",
+          "supports": "Australian product support and published 12-month warranty information.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Roborock Qrevo L reviews",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/roborock-qrevo-l",
+          "supports": "Australian owner feedback on mixed-floor cleaning, battery life, navigation, edge-mopping limitations and support; the exact-model sample is useful but still modest and includes some incentivised reviews.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Roborock Qrevo L Amazon Australia offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F4CLCNJR?tag=ahc07-22",
+          "supports": "Current Australian offer for exact ASIN B0F4CLCNJR; sold by Roborock AU Official and fulfilled by Amazon at review.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for Roborock Qrevo models; no active matching Qrevo L recall was identified.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Roborock Qrevo L Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F4CLCNJR?tag=ahc07-22",
+          "supports": "Exact ASIN, product identity, official Australian seller, Amazon fulfilment and affiliate tracking were checked before approval.",
+          "checkedOn": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "ecovacs-deebot-t80-omni",
+      "guidePath": "/guides/robot-vacuum-buying-guide-australia/",
+      "name": "ECOVACS DEEBOT T80 OMNI Robot Vacuum and Mop",
+      "productType": "Full-service robot vacuum and roller-mop system",
+      "summary": "A current ECOVACS all-in-one model with a continuously self-rinsing roller mop, edge extension, anti-tangle brushes, camera-assisted obstacle avoidance and an OMNI dock.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0GJ5KW37C?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "high",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-09-23",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-09-23",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Independent testing found occasional unexplained stuck behaviour and weaker-than-average crevice pickup despite strong overall cleaning results.",
+        "The camera-assisted obstacle system improves avoidance but is not perfect, so small floor hazards still need attention.",
+        "The roller-mop and full-service dock reduce daily handling but add tanks, a roller assembly, filters, bags and other parts that still need cleaning or replacement."
+      ],
+      "suitability": {
+        "suits": [
+          "hard-floor-heavy homes that value stronger mopping and automated dock maintenance",
+          "pet or long-hair households that can accommodate a full-service dock and want anti-tangle brush design"
+        ],
+        "mayNotSuit": [
+          "mostly carpeted homes where advanced mopping adds cost and maintenance without much benefit",
+          "households wanting a simple low-maintenance vacuum-only robot"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "DEEBOT T80 OMNI White Robot Vacuum & Mop",
+          "publisher": "ECOVACS Australia",
+          "sourceUrl": "https://www.ecovacs.com/au/shop/deebot-robotic-vacuum-cleaner/deebot-t80-omni-white",
+          "supports": "Current Australian specifications for the OZMO roller, 18,000 Pa claimed suction, ZeroTangle 3.0, AIVI 3D 3.0, carpet modes and OMNI dock functions.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Ecovacs T80 Omni Robot Vacuum Review: Great But With One Unexpected Quirk",
+          "publisher": "Vacuum Wars",
+          "sourceUrl": "https://vacuumwars.com/ecovacs-t80-omni-review-flagship-features-and-an-unexpected-quirk/",
+          "supports": "Purchased-unit testing of carpet pickup, pet hair, mopping, obstacle avoidance, navigation and recurring stuck behaviour.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "DEEBOT T80 OMNI Amazon Australia owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0GJ5KW37C?tag=ahc07-22",
+          "supports": "Current owner-feedback body on the exact Australian listing was reviewed for recurring practical themes; retailer star averages were not treated as proof of suitability.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "DEEBOT T80 OMNI Australian availability",
+          "publisher": "ECOVACS Australia",
+          "sourceUrl": "https://www.ecovacs.com/au/shop/deebot-robotic-vacuum-cleaner/deebot-t80-omni-white",
+          "supports": "Current Australian product support, accessory availability and direct-sale listing.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching T80 OMNI recall was identified.",
+          "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "ECOVACS DEEBOT T80 OMNI Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0GJ5KW37C?tag=ahc07-22",
+          "supports": "Exact ASIN B0GJ5KW37C, ECOVACS Robotics seller identity, Amazon fulfilment and affiliate tracking were checked before approval.",
+          "checkedOn": "2026-09-23"
         }
       ]
     }
