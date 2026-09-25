@@ -167,6 +167,14 @@ const measurementGuides = [
   },
 ];
 
+const buyingGuides = [
+  { href: "/guides/cordless-stick-vacuums-australia/", title: "Cordless stick vacuums", description: "Compare usable run time, weight, floor heads, charging arrangements and consumables.", meta: "Cleaning" },
+  { href: "/guides/coffee-machine-types-australia/", title: "Coffee machine types", description: "Compare manual, automatic, pod and filter machines by daily workflow, cleaning and ongoing costs.", meta: "Kitchen" },
+  { href: "/guides/air-conditioning-buying-guide/", title: "Air conditioning buying guide", description: "Compare cooling options, room needs and installation considerations before choosing a system.", meta: "Cooling" },
+  { href: "/guides/fridge-dimensions-australia/", title: "Fridge fit and clearances", description: "Check the cavity, ventilation, door movement and delivery access before buying.", meta: "Kitchen" },
+  { href: "/guides/dishwasher-sizes-australia/", title: "Dishwasher sizes and fit", description: "Check the opening, connections and door space before choosing a dishwasher.", meta: "Kitchen" },
+];
+
 const summerPlanningGuides = [
   requireSeasonalGuide("summer", "/guides/air-conditioning-buying-guide/"),
   requireSeasonalGuide("summer", "/guides/ceiling-fans-before-you-buy/"),
@@ -195,11 +203,9 @@ const summerPlanningGuides = [
     <div class="container hero-content">
       <div class="hero-copy">
         <p class="eyebrow">For Australian homes</p>
-        <h1>Practical home guides for better buying decisions</h1>
+        <h1>Practical Australian buying guides and home-planning advice</h1>
         <p class="lead">
-          We look at how home products fit into real rooms and routines: what is worth
-          measuring, what may be harder to clean than expected and what you can probably
-          leave on the shelf.
+          Compare what matters before you buy: fit, installation, everyday use, maintenance and value in Australian homes.
         </p>
         <div class="hero-actions">
           <a class="button" href="/guides/">Browse Guides</a>
@@ -226,6 +232,24 @@ const summerPlanningGuides = [
           meta={guide.meta}
         />
       ))}
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="buying-guides-heading">
+    <div class="container section-heading">
+      <div>
+        <p class="eyebrow">Buying guides &amp; product research</p>
+        <h2 id="buying-guides-heading">Research the purchase before you make it</h2>
+      </div>
+      <p>Start with the measurements, features and ownership costs that affect whether a product will work in your home.</p>
+    </div>
+    <div class="container grid three home-guide-grid">
+      {buyingGuides.map((guide) => (
+        <GuideCard {...guide} preferProvidedMetadata />
+      ))}
+    </div>
+    <div class="container buying-guides-link">
+      <a class="button secondary" href="/guides/">Browse all guides</a>
     </div>
   </section>
 
@@ -400,6 +424,10 @@ const summerPlanningGuides = [
 </BaseLayout>
 
 <style>
+  .buying-guides-link {
+    margin-top: 20px;
+  }
+
   .spring-section {
     position: relative;
     overflow: hidden;

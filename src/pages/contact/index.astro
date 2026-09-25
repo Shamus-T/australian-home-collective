@@ -4,23 +4,24 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 
 <BaseLayout
   title="Contact"
-  description="Contact Australian Home Collective about corrections, brand information, guide suggestions and website feedback."
+  description="Contact Australian Home Collective about corrections, guide suggestions, brand information, retailer and affiliate partnerships, or general website enquiries."
 >
   <header class="page-intro">
     <div class="narrow">
       <p class="eyebrow">Contact</p>
       <h1>Contact Australian Home Collective</h1>
       <p class="lead">
-        Use this page to contact Australian Home Collective about corrections, brand
-        information, guide suggestions or general website enquiries.
+        Contact Australian Home Collective about corrections, guide suggestions, brand information, retailer and affiliate partnerships, or general website enquiries.
       </p>
     </div>
   </header>
   <section class="content narrow">
     <h2>Contact form</h2>
     <p>
-      Send a message about corrections, Australian status labels, guide suggestions, general
-      website feedback or brand submissions.
+      Send a message about a correction, Australian status label, guide suggestion, brand submission, retailer or affiliate partnership, or general website feedback.
+    </p>
+    <p>
+      For retailer and affiliate partnership enquiries, email <a href="mailto:contact@australianhomecollective.com.au">contact@australianhomecollective.com.au</a> or read our <a href="/for-brands-and-retailers/">For Brands &amp; Retailers</a> page.
     </p>
     <form class="contact-form" id="contact-form" action="/api/contact" method="POST">
       <div class="form-field honeypot" aria-hidden="true">
@@ -59,6 +60,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
           <option>Guide suggestion</option>
           <option>General website feedback</option>
           <option>Brand submission</option>
+          <option>Retailer &amp; affiliate partnership enquiries</option>
         </select>
       </div>
       <div class="form-field">
@@ -103,6 +105,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
       <li>Guide suggestions.</li>
       <li>General website feedback.</li>
       <li>Brand submissions.</li>
+      <li>Retailer &amp; affiliate partnership enquiries.</li>
     </ul>
     <p>
       Please keep submissions factual and relevant to Australian households. Inclusion is not

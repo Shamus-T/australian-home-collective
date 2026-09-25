@@ -4,6 +4,7 @@ const ALLOWED_ENQUIRY_TYPES = new Set([
   "Guide suggestion",
   "General website feedback",
   "Brand submission",
+  "Retailer & affiliate partnership enquiries",
 ]);
 
 const EXPECTED_TURNSTILE_ACTION = "contact";
