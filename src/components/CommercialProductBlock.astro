@@ -58,8 +58,12 @@ const formatDate = (date: string) =>
           <h3>{product.name}</h3>
           <p>{product.summary}</p>
           <p class="commercial-product-outcome">{researchOutcomeLabels[product.researchOutcome!]}</p>
+          <div class="commercial-product-fit">
+            <p><strong>May suit</strong><br />{product.suitability.suits[0]}</p>
+            <p><strong>Check before buying</strong><br />{product.drawbacks[0]}</p>
+          </div>
           <details class="commercial-product-disclosure-details">
-            <summary class="commercial-product-details-toggle">Suitability and drawbacks</summary>
+            <summary class="commercial-product-details-toggle">More suitability and drawbacks</summary>
             <div
               class="commercial-product-details-content"
               id={`commercial-product-details-${product.id}`}
@@ -97,6 +101,11 @@ const formatDate = (date: string) =>
           >
             {product.linkLabel}
           </a>
+          {product.affiliate && (
+            <p class="commercial-product-link-disclosure">
+              We may earn a commission if you buy through this link, at no extra cost to you.
+            </p>
+          )}
         </article>
       ))}
     </div>

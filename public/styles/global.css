@@ -1124,6 +1124,20 @@ h3 {
   margin-bottom: 16px;
 }
 
+.commercial-product-fit {
+  border-top: 1px solid rgba(63, 77, 63, 0.16);
+  padding-top: 12px;
+}
+
+.commercial-product-fit p {
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.commercial-product-fit strong {
+  color: var(--green-dark);
+}
+
 .commercial-product-disclosure-details {
   margin: auto 0 14px;
 }
@@ -1145,6 +1159,13 @@ h3 {
 
 .commercial-product-card > a[data-commercial-link] {
   align-self: flex-start;
+}
+
+.commercial-product-link-disclosure {
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.45;
+  margin: 9px 0 0;
 }
 
 .commercial-product-details-content {
