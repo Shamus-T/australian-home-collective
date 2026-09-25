@@ -1085,6 +1085,85 @@ h3 {
   margin: 18px 0 28px;
 }
 
+.commercial-product-comparison-wrap {
+  overflow-x: auto;
+  margin: 22px 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.commercial-product-comparison {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
+.commercial-product-comparison caption {
+  text-align: left;
+  padding: 14px 16px;
+  font-weight: 700;
+}
+
+.commercial-product-comparison th,
+.commercial-product-comparison td {
+  border-top: 1px solid var(--line);
+  padding: 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.commercial-product-comparison thead {
+  background: #e8eee5;
+}
+
+.commercial-product-comparison tbody th {
+  width: 25%;
+}
+
+.commercial-product-comparison td:last-child a {
+  display: block;
+  font-weight: 700;
+  min-width: 135px;
+}
+
+.commercial-product-table-disclosure {
+  color: var(--muted);
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+.commercial-product-block--comparison .commercial-product-grid {
+  margin-top: 10px;
+}
+
+.commercial-product-details-heading {
+  font-size: 1.2rem;
+  margin: 22px 0 10px;
+}
+
+.commercial-product-block--comparison .commercial-product-card {
+  min-height: 0;
+  box-shadow: none;
+  border-top-width: 1px;
+}
+
+.commercial-product-block--quick .commercial-product-card {
+  min-height: 0;
+  border-top-color: var(--gold);
+}
+
+.commercial-product-block--quick .commercial-product-fit {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  padding: 12px 0 0;
+}
+
 .commercial-product-card {
   border: 1px solid rgba(63, 77, 63, 0.24);
   border-top: 4px solid var(--green);
