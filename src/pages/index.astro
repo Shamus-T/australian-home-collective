@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GuideCard from "../components/GuideCard.astro";
+import { getGuideCardMetadata } from "../data/guideMetadata";
 import {
   seasonalSections,
   type PublishedSeasonalGuide,
@@ -245,7 +246,13 @@ const summerPlanningGuides = [
     </div>
     <div class="container grid three home-guide-grid">
       {buyingGuides.map((guide) => (
-        <GuideCard {...guide} preferProvidedMetadata />
+        <GuideCard
+          {...guide}
+          image={getGuideCardMetadata(guide.href)?.image}
+          imageAlt={getGuideCardMetadata(guide.href)?.imageAlt}
+          imagePosition={getGuideCardMetadata(guide.href)?.imagePosition}
+          preferProvidedMetadata
+        />
       ))}
     </div>
     <div class="container buying-guides-link">
