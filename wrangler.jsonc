@@ -1,0 +1,25 @@
+{
+  "name": "australian-home-collective",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-07-11",
+  "compatibility_flags": ["nodejs_compat"],
+  // Preview deployments must not use production mail or analytics resources.
+  "vars": { "NODE_VERSION": "22.12.0" },
+  "d1_databases": [],
+  "env": {
+    "production": {
+      "vars": {
+        "NODE_VERSION": "22.12.0",
+        "CLOUDFLARE_ACCOUNT_ID": "ab72f0538a00a365e3eedef772f56b43",
+        "CONTACT_FROM_EMAIL": "contact@australianhomecollective.com.au",
+        "CONTACT_VERIFIED_DESTINATION_EMAIL": "contact@australianhomecollective.com.au"
+      },
+      "d1_databases": [{
+        "binding": "AHC_ANALYTICS_DB",
+        "database_name": "ahc-analytics",
+        "database_id": "e28f3826-1dfd-4fed-af1c-ea129f3503b2"
+      }]
+    }
+  }
+  // Passwords, API tokens and Turnstile secrets stay encrypted in Pages settings.
+}

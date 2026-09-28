@@ -46,8 +46,8 @@ VentraIP mailbox delivery is enabled by adding `CONTACT_SMTP_PASSWORD` as an enc
 production Pages secret. The function authenticates as `CONTACT_FROM_EMAIL` to
 `ventraip.email:465` using TLS and sends only to `CONTACT_VERIFIED_DESTINATION_EMAIL`.
 The visitor's address is used for Reply-To. Keep the mailbox password out of Git,
-logs and chat. Enable the `nodejs_compat` Pages compatibility flag before deploying
-this version. Production and preview secrets are separate; do not copy the mailbox
+logs and chat. `wrangler.jsonc` enables the required `nodejs_compat` flag and preserves
+the production mail variables and analytics binding. Production and preview secrets are separate; do not copy the mailbox
 password into preview deployments.
 
 Without the SMTP secret, the previous Cloudflare delivery path below is retained.
