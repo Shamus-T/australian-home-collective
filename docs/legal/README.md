@@ -24,7 +24,7 @@ No interactive planning tool is currently public or in active development. The s
 ## Privacy review notes
 
 The current public privacy page covers contact submissions, Google Analytics 4, affiliate
-tracking, Cloudflare Pages, Cloudflare Email Service to a verified Email Routing destination,
+tracking, Cloudflare Pages, delivery to the VentraIP business mailbox,
 and Cloudflare Turnstile. Re-review it before adding:
 
 - uploads, saved plans, accounts or shareable tool results;

@@ -42,6 +42,18 @@ Cloudflare-specific redirects are maintained in `public/_redirects`.
 
 ### Contact form
 
+VentraIP mailbox delivery is enabled by adding `CONTACT_SMTP_PASSWORD` as an encrypted
+production Pages secret. The function authenticates as `CONTACT_FROM_EMAIL` to
+`ventraip.email:465` using TLS and sends only to `CONTACT_VERIFIED_DESTINATION_EMAIL`.
+The visitor's address is used for Reply-To. Keep the mailbox password out of Git,
+logs and chat. Enable the `nodejs_compat` Pages compatibility flag before deploying
+this version. Production and preview secrets are separate; do not copy the mailbox
+password into preview deployments.
+
+Without the SMTP secret, the previous Cloudflare delivery path below is retained.
+That path requires an active Cloudflare routing domain; switching the domain's MX
+records to a hosted mailbox is not sufficient to migrate contact-form sending.
+
 The contact form posts to the Cloudflare Pages Function at `/api/contact`. It validates
 Cloudflare Turnstile on the server and sends the message through Cloudflare Email Service to
 one verified Email Routing destination address.

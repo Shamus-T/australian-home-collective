@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import nodemailer from "nodemailer";
 
 import { onRequest, onRequestPost } from "../functions/api/contact.js";
 
@@ -10,6 +11,64 @@ const env = {
   CONTACT_VERIFIED_DESTINATION_EMAIL: "verified-destination@example.net",
   CONTACT_FROM_EMAIL: "contact@australianhomecollective.com.au",
 };
+
+test("SMTP sends only to the configured inbox with visitor Reply-To and verified TLS", async (t) => {
+  const smtpEnv = { ...env, CONTACT_SMTP_PASSWORD: "test-secret" };
+  delete smtpEnv.CLOUDFLARE_ACCOUNT_ID;
+  delete smtpEnv.CLOUDFLARE_EMAIL_API_TOKEN;
+  let options, email, closed = false;
+  t.mock.method(nodemailer, "createTransport", (configuration) => {
+    options = configuration;
+    return {
+      sendMail: async (message) => {
+        email = message;
+        return { accepted: [smtpEnv.CONTACT_VERIFIED_DESTINATION_EMAIL] };
+      },
+      close: () => { closed = true; },
+    };
+  });
+  t.mock.method(globalThis, "fetch", async (url) => {
+    assert.match(String(url), /turnstile\/v0\/siteverify$/);
+    return Response.json({ success: true, action: "contact", hostname: "australianhomecollective.com.au" });
+  });
+  const response = await onRequestPost({ request: contactRequest({ to: "attacker@example.net" }), env: smtpEnv });
+  assert.equal(response.status, 200);
+  assert.equal(email.to, smtpEnv.CONTACT_VERIFIED_DESTINATION_EMAIL);
+  assert.equal(email.from.address, smtpEnv.CONTACT_FROM_EMAIL);
+  assert.deepEqual(email.replyTo, { address: "taylor@example.net", name: "Taylor Example" });
+  assert.equal(options.host, "ventraip.email");
+  assert.equal(options.port, 465);
+  assert.equal(options.secure, true);
+  assert.equal(options.tls.rejectUnauthorized, true);
+  assert.equal(options.auth.user, smtpEnv.CONTACT_FROM_EMAIL);
+  assert.equal(options.auth.pass, "test-secret");
+  assert.equal(closed, true);
+});
+
+test("SMTP rejection is a visible failure and does not leak the password or message into logs", async (t) => {
+  const logs = [];
+  t.mock.method(console, "error", (...args) => logs.push(args));
+  t.mock.method(nodemailer, "createTransport", () => ({
+    sendMail: async () => { throw Object.assign(new Error("test-secret private enquiry"), { code: "EAUTH", responseCode: 535 }); },
+    close() {},
+  }));
+  t.mock.method(globalThis, "fetch", async () => Response.json({ success: true, action: "contact", hostname: "australianhomecollective.com.au" }));
+  const response = await onRequestPost({ request: contactRequest(), env: { ...env, CONTACT_SMTP_PASSWORD: "test-secret" } });
+  assert.equal(response.status, 502);
+  assert.equal((await response.json()).success, false);
+  assert.match(JSON.stringify(logs), /EAUTH/);
+  assert.doesNotMatch(JSON.stringify(logs), /test-secret|private enquiry/);
+});
+
+test("SMTP success requires acceptance of the intended recipient", async (t) => {
+  t.mock.method(nodemailer, "createTransport", () => ({
+    sendMail: async () => ({ accepted: ["someone-else@example.net"] }),
+    close() {},
+  }));
+  t.mock.method(globalThis, "fetch", async () => Response.json({ success: true, action: "contact", hostname: "australianhomecollective.com.au" }));
+  const response = await onRequestPost({ request: contactRequest(), env: { ...env, CONTACT_SMTP_PASSWORD: "test-secret" } });
+  assert.equal(response.status, 502);
+});
 
 function contactRequest(overrides = {}) {
   const formData = new FormData();
@@ -198,7 +257,7 @@ test("keeps email-provider errors private", async (t) => {
 
   assert.equal(response.status, 502);
   assert.equal(result.success, false);
-  assert.equal(result.message, "We could not send your message. Please try again.");
+  assert.equal(result.message, "We could not send your message. Please email contact@australianhomecollective.com.au directly.");
   assert.doesNotMatch(JSON.stringify(result), /forbidden|10102|authentication/i);
 });
 

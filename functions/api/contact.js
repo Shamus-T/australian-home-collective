@@ -1,3 +1,5 @@
+import { sendViaVentraIp } from "../../src/lib/contact-email.js";
+
 const ALLOWED_ENQUIRY_TYPES = new Set([
   "Correction to product or brand information",
   "Australian status label update",
@@ -228,18 +230,18 @@ export async function onRequestPost({ request, env }) {
 
   const requiredConfiguration = [
     "TURNSTILE_SECRET_KEY",
-    "CLOUDFLARE_ACCOUNT_ID",
-    "CLOUDFLARE_EMAIL_API_TOKEN",
     "CONTACT_VERIFIED_DESTINATION_EMAIL",
     "CONTACT_FROM_EMAIL",
   ];
+  const useSmtp = typeof env.CONTACT_SMTP_PASSWORD === "string" && env.CONTACT_SMTP_PASSWORD.length > 0;
+  if (!useSmtp) requiredConfiguration.push("CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_EMAIL_API_TOKEN");
 
   if (
     requiredConfiguration.some((key) => !env[key]) ||
     !requiredEmail(env, "CONTACT_VERIFIED_DESTINATION_EMAIL") ||
     !requiredEmail(env, "CONTACT_FROM_EMAIL")
   ) {
-    console.error("Contact form is missing required Cloudflare configuration.");
+    console.error("Contact form is missing required configuration.");
     return respond(
       request,
       503,
@@ -310,7 +312,7 @@ export async function onRequestPost({ request, env }) {
 
   let emailSent = false;
   try {
-    emailSent = await sendEmail({ env, ...submission });
+    emailSent = await (useSmtp ? sendViaVentraIp : sendEmail)({ env, ...submission });
   } catch (error) {
     console.error("Cloudflare Email Service request failed.", error);
   }
@@ -319,7 +321,7 @@ export async function onRequestPost({ request, env }) {
     return respond(
       request,
       502,
-      "We could not send your message. Please try again.",
+      "We could not send your message. Please email contact@australianhomecollective.com.au directly.",
       "contact-error",
     );
   }
