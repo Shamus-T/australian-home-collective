@@ -66,10 +66,6 @@ export function initialiseGoogleAnalytics({
     return false;
   }
 
-  const initialisedKey = `__ahcGoogleAnalytics_${measurementId}`;
-  if (windowObject[initialisedKey]) return true;
-  windowObject[initialisedKey] = true;
-
   windowObject.dataLayer = windowObject.dataLayer || [];
   windowObject.gtag = windowObject.gtag || function gtag() {
     windowObject.dataLayer.push(arguments);
@@ -78,39 +74,11 @@ export function initialiseGoogleAnalytics({
   windowObject.gtag("config", measurementId);
 
   if (!documentObject.querySelector(`[data-google-analytics-tag="${measurementId}"]`)) {
-    let started = false;
-    let timeout;
-    const startEvents = ["load", "pointerdown", "keydown", "pagehide"];
-    const onVisibilityChange = () => {
-      if (documentObject.visibilityState === "hidden") loadTag();
-    };
-    const loadTag = () => {
-      if (started) return;
-      started = true;
-      windowObject.clearTimeout?.(timeout);
-      for (const event of startEvents) windowObject.removeEventListener?.(event, loadTag);
-      documentObject.removeEventListener?.("visibilitychange", onVisibilityChange);
-      const tag = documentObject.createElement("script");
-      tag.async = true;
-      tag.fetchPriority = "low";
-      tag.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
-      tag.dataset.googleAnalyticsTag = measurementId;
-      documentObject.head.append(tag);
-    };
-
-    // Queue page views and conversions immediately, but let essential assets
-    // finish before downloading the analytics library. Interaction and a bounded
-    // timeout start it early so a stalled asset cannot postpone measurement.
-    if (documentObject.readyState === "complete" || documentObject.visibilityState === "hidden"
-      || typeof windowObject.addEventListener !== "function"
-      || typeof documentObject.addEventListener !== "function"
-      || typeof windowObject.setTimeout !== "function") {
-      loadTag();
-    } else {
-      for (const event of startEvents) windowObject.addEventListener(event, loadTag, { once: true });
-      documentObject.addEventListener("visibilitychange", onVisibilityChange);
-      timeout = windowObject.setTimeout(loadTag, 2500);
-    }
+    const tag = documentObject.createElement("script");
+    tag.async = true;
+    tag.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+    tag.dataset.googleAnalyticsTag = measurementId;
+    documentObject.head.append(tag);
   }
 
   return true;
