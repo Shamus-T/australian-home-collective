@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import homeHero from "../../public/images/home-lifestyle-hero.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GuideCard from "../components/GuideCard.astro";
@@ -194,13 +194,13 @@ const summerPlanningGuides = [
   description="Practical Australian home guides for storage, room planning and smarter buying decisions—measure first, compare what matters and avoid costly mismatches."
 >
   <section class="hero image-hero">
-    <Image
+    <Picture
       class="hero-bg"
       src={homeHero}
       widths={[640, 960, 1280, 1800]}
       sizes="100vw"
-      format="webp"
-      quality={75}
+      formats={["avif", "webp"]}
+      quality={45}
       alt="A warm Australian home interior with timber furniture, greenery, kitchen and living spaces"
       width={1800}
       height={1100}

@@ -1,6 +1,9 @@
 ---
 import SiteHeader from "../components/SiteHeader.astro";
 import Footer from "../components/Footer.astro";
+import "../styles/fonts.css";
+import loraFont from "@fontsource-variable/lora/files/lora-latin-wght-normal.woff2?url";
+import headingFont from "@fontsource-variable/playfair-display/files/playfair-display-latin-wght-normal.woff2?url";
 
 interface Props {
   title: string;
@@ -142,19 +145,15 @@ const jsonLd = JSON.stringify({
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
     <meta name="twitter:image:alt" content={imageAlt} />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:wght@600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preload" href={loraFont} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={headingFont} as="font" type="font/woff2" crossorigin />
     <link rel="icon" href="/favicon.ico?v=5" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=5" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=5" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=5" />
     <link rel="manifest" href="/site.webmanifest?v=5" />
     <slot name="head" />
-    <link rel="stylesheet" href="/styles/global.css?v=13" />
+    <link rel="stylesheet" href="/styles/global.css?v=14" />
     {isIndexable && <script is:inline type="application/ld+json" set:html={jsonLd} />}
     <script>
       import { initialiseGoogleAnalytics } from "../scripts/google-analytics.js";

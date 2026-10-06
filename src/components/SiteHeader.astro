@@ -1,4 +1,8 @@
 ---
+import { getImage } from "astro:assets";
+import logo from "../../public/images/header-title.png";
+
+const mobileLogo = await getImage({ src: logo, width: 600, format: "webp", quality: 75 });
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/categories/", label: "Categories" },
@@ -15,6 +19,7 @@ const navItems = [
   <div class="container header-inner">
     <a class="brand brand-logo" href="/" aria-label="Australian Home Collective home">
       <picture>
+        <source media="(max-width: 480px)" srcset={mobileLogo.src} type="image/webp" />
         <source srcset="/images/header-title.webp?v=2" type="image/webp" />
         <img
           src="/images/header-title.png?v=7"
