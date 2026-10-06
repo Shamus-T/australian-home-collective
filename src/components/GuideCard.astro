@@ -12,6 +12,7 @@ interface Props {
   headingLevel?: 2 | 3;
   className?: string;
   preferProvidedMetadata?: boolean;
+  imageSources?: { avif: string; webp: string };
 }
 
 const {
@@ -25,6 +26,7 @@ const {
   headingLevel = 3,
   className,
   preferProvidedMetadata = false,
+  imageSources,
 } = Astro.props;
 const articleMetadata = href.startsWith("/guides/") ? getGuideCardMetadata(href) : undefined;
 
@@ -51,6 +53,11 @@ const HeadingTag = headingLevel === 2 ? "h2" : "h3";
 >
   <a href={href}>
     {resolvedImage && (
+      <picture style="display: contents;">
+      {imageSources && <>
+        <source type="image/avif" srcset={imageSources.avif} sizes="(max-width: 700px) 100vw, (max-width: 1000px) 50vw, 380px" />
+        <source type="image/webp" srcset={imageSources.webp} sizes="(max-width: 700px) 100vw, (max-width: 1000px) 50vw, 380px" />
+      </>}
       <img
         class="card-image"
         src={resolvedImage}
@@ -58,9 +65,11 @@ const HeadingTag = headingLevel === 2 ? "h2" : "h3";
         width="900"
         height="620"
         loading="lazy"
+        decoding="async"
         draggable="false"
         style={`object-position: ${resolvedImagePosition};`}
       />
+      </picture>
     )}
     {meta && <p class="meta">{meta}</p>}
     <HeadingTag>{resolvedTitle}</HeadingTag>

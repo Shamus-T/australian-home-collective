@@ -4,6 +4,7 @@ import homeHero from "../../public/images/home-lifestyle-hero.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GuideCard from "../components/GuideCard.astro";
 import { getGuideCardMetadata } from "../data/guideMetadata";
+import { getHomepageCardSources } from "../lib/homepage-card-images";
 import {
   seasonalSections,
   type PublishedSeasonalGuide,
@@ -186,6 +187,7 @@ const summerPlanningGuides = [
     "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
   ),
 ];
+const homepageCardSources = await getHomepageCardSources();
 ---
 
 <BaseLayout
@@ -234,6 +236,7 @@ const summerPlanningGuides = [
     <div class="container grid three home-guide-grid">
       {measurementGuides.map((guide) => (
         <GuideCard
+          imageSources={homepageCardSources[getGuideCardMetadata(guide.href)?.image ?? ""]}
           href={guide.href}
           title={guide.title}
           description={guide.description}
@@ -254,6 +257,7 @@ const summerPlanningGuides = [
     <div class="container grid three home-guide-grid">
       {buyingGuides.map((guide) => (
         <GuideCard
+          imageSources={homepageCardSources[getGuideCardMetadata(guide.href)?.image ?? ""]}
           {...guide}
           image={getGuideCardMetadata(guide.href)?.image}
           imageAlt={getGuideCardMetadata(guide.href)?.imageAlt}
