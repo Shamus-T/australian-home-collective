@@ -71,6 +71,16 @@ const faqs = [
 
   <MeasurementWorksheetLink appliance="fridge" />
 
+  <nav aria-label="Fridge measuring guide sections">
+    <p><strong>Go straight to your next check:</strong></p>
+    <ul>
+      <li><a href="#fridge-measurements-heading">Check the measurements that decide fit</a></li>
+      <li><a href="#fridge-measurement-resource">Follow the measuring diagrams</a></li>
+      <li><a href="#current-fridge-examples-heading">Compare real model and installation dimensions</a></li>
+      <li><a href="#fridge-measurement-checklist">Work through the measurement checklist</a></li>
+    </ul>
+  </nav>
+
   <section aria-labelledby="fridge-measurements-heading">
     <h2 id="fridge-measurements-heading">The measurements that decide whether a fridge fits</h2>
     <p class="table-hint">Swipe sideways to compare the full table.</p>
@@ -222,7 +232,7 @@ const faqs = [
     is switched on if it has been transported at an angle.
   </p>
 
-  <h2>A practical fridge measurement checklist</h2>
+  <h2 id="fridge-measurement-checklist">A practical fridge measurement checklist</h2>
   <ul class="feature-list">
     <li>Measure cavity width, height and depth at several points.</li>
     <li>Use the exact model's installation guide for clearances.</li>
@@ -236,3 +246,10 @@ const faqs = [
 
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>
+
+<style>
+  :global(html) { scroll-padding-top: 14rem; }
+  @media (min-width: 901px) {
+    :global(html) { scroll-padding-top: 8rem; }
+  }
+</style>
