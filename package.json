@@ -29,7 +29,7 @@
     "test:contact": "node --test tests/contact-function.test.mjs",
     "test:search-analytics": "node --test tests/search-analytics.test.mjs tests/search-analytics-client.test.mjs",
     "test:affiliate-tracking": "node --test tests/affiliate-click.test.mjs tests/affiliate-click-client.test.mjs",
-    "test:google-analytics": "node --test tests/google-analytics.test.mjs",
+    "test:google-analytics": "node --test tests/google-analytics.test.mjs tests/measurement-download.test.mjs",
     "sitemap:update": "node scripts/update-sitemap-lastmod.mjs",
     "preview": "astro preview",
     "astro": "astro"

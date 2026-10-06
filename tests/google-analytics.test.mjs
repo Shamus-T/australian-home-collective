@@ -10,6 +10,7 @@ import {
   initialiseGoogleAnalytics,
   sendGoogleAnalyticsEvent,
   shouldEnableGoogleAnalytics,
+  shouldTrackAnalytics,
 } from "../src/scripts/google-analytics.js";
 
 function storage(initial = {}) {
@@ -100,4 +101,37 @@ test("dispatches only valid GA4 event names when gtag is available", () => {
   assert.deepEqual(calls, [["event", "generate_lead", { form_name: "contact" }]]);
   assert.equal(sendGoogleAnalyticsEvent("Invalid event", {}, analytics), false);
   assert.equal(sendGoogleAnalyticsEvent(AFFILIATE_CLICK_EVENT_NAME, {}, null), false);
+});
+
+test("all analytics honour internal visits before GA initialises and across pages", () => {
+  const windowObject = {
+    location: new URL("https://australianhomecollective.com.au/search/?ahc_internal=1"),
+    localStorage: storage(),
+    history: { replaceState(_state, _title, path) {
+      windowObject.location = new URL(path, windowObject.location);
+    } },
+  };
+  assert.equal(shouldTrackAnalytics(windowObject), false);
+  assert.equal(windowObject.location.search, "");
+  windowObject.location = new URL("https://australianhomecollective.com.au/guides/example/");
+  assert.equal(shouldTrackAnalytics(windowObject), false);
+  windowObject.location.search = "?ahc_internal=0";
+  assert.equal(shouldTrackAnalytics(windowObject), true);
+  windowObject.location = new URL("https://preview.example.pages.dev/search/");
+  assert.equal(shouldTrackAnalytics(windowObject), false);
+});
+
+test("an explicit internal visit stays excluded when the browser blocks storage", () => {
+  const windowObject = {
+    location: new URL("https://australianhomecollective.com.au/?ahc_internal=1"),
+    get localStorage() { throw new Error("Storage denied"); },
+  };
+  assert.equal(shouldTrackAnalytics(windowObject), false);
+  assert.equal(shouldTrackAnalytics(windowObject), false);
+  assert.equal(windowObject.location.search, "?ahc_internal=1");
+  assert.equal(applyInternalAnalyticsPreference({
+    location: windowObject.location,
+    storage: { setItem() { throw new Error("Storage denied"); } },
+  }), true);
+  assert.equal(shouldTrackAnalytics(undefined), false);
 });

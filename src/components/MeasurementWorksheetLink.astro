@@ -11,6 +11,11 @@ const name = appliance === "washing-machine" ? "washing machine" : appliance;
   <a href={`/downloads/${appliance}-measurement-worksheet.pdf`} download data-measurement-download={appliance} data-download-location="intro">Download worksheet (PDF)</a>
 </aside>
 
+<script>
+  import { initialiseMeasurementDownloadTracking } from "../scripts/measurement-download-tracker.js";
+  initialiseMeasurementDownloadTracking();
+</script>
+
 <style>
   .worksheet-shortcut { display: flex; flex-wrap: wrap; align-items: center; gap: 0.85rem 1.4rem; margin: 1.5rem 0 2rem; padding: 1rem 1.2rem; border-left: 4px solid #245b63; background: #f0f5f2; }
   .worksheet-shortcut p { flex: 1 1 18rem; margin: 0; font-size: 0.95rem; line-height: 1.6; }

@@ -165,6 +165,7 @@ const retailerLabel = (product: (typeof products)[number]) =>
     AFFILIATE_CLICK_EVENT_NAME,
     sendGoogleAnalyticsEvent,
   } from "../scripts/google-analytics.js";
+  import { shouldTrackAnalytics } from "../scripts/analytics-preference.js";
 
   const analyticsSessionId = () => {
     try {
@@ -228,6 +229,7 @@ const retailerLabel = (product: (typeof products)[number]) =>
   });
 
   const recordAffiliateLink = (event: Event) => {
+    if (!shouldTrackAnalytics()) return;
     if (!(event.target instanceof Element)) return;
     const link = event.target.closest('[data-commercial-link="affiliate"][data-affiliate-trackable="true"]');
     if (link instanceof HTMLAnchorElement) affiliateClickTracker.recordLink(link);

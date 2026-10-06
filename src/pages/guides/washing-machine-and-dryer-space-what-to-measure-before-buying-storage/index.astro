@@ -95,6 +95,16 @@ const faqs = [
 
   <MeasurementWorksheetLink appliance="washing-machine" />
 
+  <nav aria-label="Washing machine measuring guide sections">
+    <p><strong>Go straight to your next check:</strong></p>
+    <ul>
+      <li><a href="#laundry-dimensions-heading">Check common width, height and depth measurements</a></li>
+      <li><a href="#washing-machine-measurement-resource">Follow the measuring diagrams</a></li>
+      <li><a href="#current-washer-examples-heading">Compare real model and installation dimensions</a></li>
+      <li><a href="#front-and-top-loader-space">Check front-loader, top-loader and dryer opening space</a></li>
+    </ul>
+  </nav>
+
   <section aria-labelledby="laundry-dimensions-heading">
     <h2 id="laundry-dimensions-heading">Washing machine dimensions in Australia at a glance</h2>
     <p class="table-hint">Swipe sideways to compare the full table.</p>
@@ -241,7 +251,7 @@ const faqs = [
     measurement most likely to change, especially once the door, hoses and connections are included.
   </p>
 
-  <h2>Front-loader vs top-loader dimensions and opening space</h2>
+  <h2 id="front-and-top-loader-space">Front-loader vs top-loader dimensions and opening space</h2>
   <div class="advice-stack">
     <section>
       <h3>Top loader</h3>
@@ -379,3 +389,10 @@ const faqs = [
 
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>
+
+<style>
+  :global(html) { scroll-padding-top: 14rem; }
+  @media (min-width: 901px) {
+    :global(html) { scroll-padding-top: 8rem; }
+  }
+</style>

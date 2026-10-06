@@ -136,6 +136,7 @@ const suggestions = [
       createSearchAnalyticsTracker,
       normaliseAnalyticsQuery,
     } from "../../scripts/search-analytics-tracker.js";
+    import { shouldTrackAnalytics } from "../../scripts/analytics-preference.js";
 
     const status = document.querySelector("#search-load-status");
     const suggestionButtons = document.querySelectorAll("[data-search-term]");
@@ -168,6 +169,7 @@ const suggestions = [
     };
 
     const sendAnalytics = (event) => {
+      if (!shouldTrackAnalytics()) return;
       const payload = JSON.stringify({
         ...event,
         originPath: "/search/",

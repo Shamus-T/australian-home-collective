@@ -71,6 +71,16 @@ const faqs = [
 
   <MeasurementWorksheetLink appliance="dishwasher" />
 
+  <nav aria-label="Dishwasher measuring guide sections">
+    <p><strong>Go straight to your next check:</strong></p>
+    <ul>
+      <li><a href="#dishwasher-dimensions-heading">Check the opening, services and door space</a></li>
+      <li><a href="#dishwasher-measurement-resource">Follow the measuring diagrams</a></li>
+      <li><a href="#current-dishwasher-examples-heading">Compare real model and cavity dimensions</a></li>
+      <li><a href="#dishwasher-measurement-checklist">Use the final checklist before ordering</a></li>
+    </ul>
+  </nav>
+
   <section aria-labelledby="dishwasher-dimensions-heading">
     <h2 id="dishwasher-dimensions-heading">Dishwasher dimensions in Australia: quick cavity check</h2>
     <ul class="feature-list">
@@ -250,7 +260,7 @@ const faqs = [
     your household.
   </p>
 
-  <h2>Dishwasher measurement checklist</h2>
+  <h2 id="dishwasher-measurement-checklist">Dishwasher measurement checklist</h2>
   <ul class="feature-list">
     <li>Measure width and height at the front, middle and rear.</li>
     <li>Check floor level and the adjustment range of the feet.</li>
@@ -264,3 +274,10 @@ const faqs = [
 
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>
+
+<style>
+  :global(html) { scroll-padding-top: 14rem; }
+  @media (min-width: 901px) {
+    :global(html) { scroll-padding-top: 8rem; }
+  }
+</style>
