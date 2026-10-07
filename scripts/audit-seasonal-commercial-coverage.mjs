@@ -232,10 +232,10 @@ for (const guidePath of seasonalPaths) {
     if (!new RegExp(`<CommercialProductBlock\\b[\\s\\S]*?guidePath=["']${escapedGuidePath}["']`).test(source)) {
       addError(`${guidePath} CommercialProductBlock must use its exact guide route.`);
     }
-    if (approvedProducts.length < 2) {
-      addError(`${guidePath} is monetised but has ${approvedProducts.length} approved products; at least 2 are required.`);
+    if (approvedProducts.length < 1) {
+      addError(`${guidePath} is monetised but has ${approvedProducts.length} approved products; at least 1 is required.`);
     }
-    if (products.length !== approvedProducts.length) {
+    if (products.filter((product) => product.editorialStatus !== "paused").length !== approvedProducts.length) {
       addError(`${guidePath} has seasonal catalogue products that are not currently approved research-supported affiliate products.`);
     }
 

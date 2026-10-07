@@ -18,6 +18,10 @@ export function isCommercialGuide(guidePath: string): boolean {
   return catalogue.enabledGuidePaths.includes(guidePath);
 }
 
+export function getCommercialSectionId(guidePath: string): string {
+  return `commercial-products-${guidePath.replace(/^\/guides\//, "").replace(/\/$/, "")}`;
+}
+
 function addDays(dateValue: string, days: number): Date {
   const date = new Date(dateValue + "T00:00:00Z");
   date.setUTCDate(date.getUTCDate() + days);

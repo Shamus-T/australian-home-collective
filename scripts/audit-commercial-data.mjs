@@ -465,7 +465,7 @@ for (const [index, product] of products.entries()) {
   }
   seenIds.add(product.id);
 
-  if (!enabledGuidePaths.includes(product.guidePath)) {
+  if (!enabledGuidePaths.includes(product.guidePath) && product.editorialStatus === "approved") {
     addError(prefix + ".guidePath is not enabled for commercial placement.");
   }
   if (!allowedEditorialStatuses.has(product.editorialStatus)) {
@@ -749,10 +749,10 @@ for (const guidePath of enabledGuidePaths) {
   const approvedProductCount = promotableProducts.filter(
     (product) => product.guidePath === guidePath,
   ).length;
-  if (approvedProductCount < 2) {
+  if (approvedProductCount < 1) {
     addError(
       "Enabled guide " + guidePath + " has " + approvedProductCount
-      + " approved products; at least 2 are required.",
+      + " approved products; at least 1 is required.",
     );
   }
 }
@@ -874,6 +874,7 @@ if (checkDist) {
     addError("Rendered commercial audit requires a completed dist build.");
   } else {
     const renderedCountByProduct = new Map();
+    const comparisonGuidePaths = new Set();
     let builtPageCount = 0;
     let builtExternalLinkCount = 0;
 
@@ -882,6 +883,7 @@ if (checkDist) {
       const html = fs.readFileSync(file, "utf8");
       const relativePath = path.relative(distRoot, file).replaceAll(path.sep, "/");
       const route = pageRoute(relativePath);
+      if (/class="[^"]*commercial-product-block--comparison\b/.test(html)) comparisonGuidePaths.add(route);
       const text = visibleText(html);
       const footerHtml = html.match(/<footer\b[\s\S]*?<\/footer>/i)?.[0] ?? "";
       if (!footerHtml.includes('href="/affiliate-disclosure/"')) {
@@ -921,7 +923,12 @@ if (checkDist) {
           addError(relativePath + " renders an unapproved commercial product: " + (productId || "(missing id)"));
           continue;
         }
-        renderedCountByProduct.set(productId, (renderedCountByProduct.get(productId) ?? 0) + 1);
+        const placement = attributeValue(anchor, "data-commercial-placement");
+        if (!["card", "comparison"].includes(placement)) {
+          addError(relativePath + " product " + productId + " has an unknown link placement.");
+        }
+        const placementKey = productId + ":" + placement;
+        renderedCountByProduct.set(placementKey, (renderedCountByProduct.get(placementKey) ?? 0) + 1);
         if (route !== product.guidePath) {
           addError(relativePath + " renders product " + productId + " outside its approved guide.");
         }
@@ -1017,9 +1024,12 @@ if (checkDist) {
     }
 
     for (const product of promotableProducts) {
-      const renderedCount = renderedCountByProduct.get(product.id) ?? 0;
-      if (renderedCount !== 1) {
-        addError("Approved product " + product.id + " renders " + renderedCount + " times; expected exactly once.");
+      for (const placement of ["card", "comparison"]) {
+        const expected = placement === "card" || comparisonGuidePaths.has(product.guidePath) ? 1 : 0;
+        const renderedCount = renderedCountByProduct.get(product.id + ":" + placement) ?? 0;
+        if (renderedCount !== expected) {
+          addError("Approved product " + product.id + " renders " + renderedCount + " " + placement + " links; expected " + expected + ".");
+        }
       }
     }
 

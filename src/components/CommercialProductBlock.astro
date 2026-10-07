@@ -1,6 +1,7 @@
 ---
 import {
   getApprovedProductsForGuide,
+  getCommercialSectionId,
   researchOutcomeLabels,
 } from "../lib/commercial-products";
 import {
@@ -24,9 +25,7 @@ const {
 
 const products = getApprovedProductsForGuide(guidePath);
 const hasAffiliateLinks = products.some((product) => product.affiliate);
-const sectionId = `commercial-products-${guidePath
-  .replace(/^\/guides\//, "")
-  .replace(/\/$/, "")}`;
+const sectionId = getCommercialSectionId(guidePath);
 
 const formatDate = (date: string) =>
   new Intl.DateTimeFormat("en-AU", {
@@ -58,9 +57,6 @@ const retailerLabel = (product: (typeof products)[number]) =>
       </p>
     )}
     {variant === "comparison" && (
-      <p class="table-hint">Swipe sideways to see the full comparison on a phone.</p>
-    )}
-    {variant === "comparison" && (
       <div class="commercial-product-comparison-wrap">
         <table class="commercial-product-comparison">
           <caption>Compare these researched options</caption>
@@ -77,6 +73,7 @@ const retailerLabel = (product: (typeof products)[number]) =>
                     target="_blank"
                     rel="sponsored nofollow noopener noreferrer"
                     data-commercial-link={product.affiliate ? "affiliate" : "retailer"}
+                    data-commercial-placement="comparison"
                     data-commercial-product-id={product.id}
                     data-commercial-product-name={product.name}
                     data-commercial-guide-path={guidePath}
@@ -100,10 +97,10 @@ const retailerLabel = (product: (typeof products)[number]) =>
           <p class="commercial-product-type">{product.productType}</p>
           <h3>{product.name}</h3>
           <p>{product.summary}</p>
-          {variant !== "comparison" && <div class="commercial-product-fit">
+          <div class="commercial-product-fit">
             <p><strong>Good fit for</strong><br />{product.suitability.suits[0]}</p>
             <p><strong>Check before buying</strong><br />{product.drawbacks[0]}</p>
-          </div>}
+          </div>
           {variant !== "quick" && <p class="commercial-product-outcome">{researchOutcomeLabels[product.researchOutcome!]}</p>}
           <details class="commercial-product-disclosure-details">
             <summary class="commercial-product-details-toggle">More suitability and drawbacks</summary>
@@ -129,11 +126,12 @@ const retailerLabel = (product: (typeof products)[number]) =>
               </p>
             </div>
           </details>
-          {variant !== "comparison" && <a
+          <a
             href={product.destinationUrl}
             target="_blank"
             rel="sponsored nofollow noopener noreferrer"
             data-commercial-link={product.affiliate ? "affiliate" : "retailer"}
+            data-commercial-placement="card"
             data-commercial-product-id={product.id}
             data-commercial-product-name={product.name}
             data-commercial-guide-path={guidePath}
@@ -143,8 +141,8 @@ const retailerLabel = (product: (typeof products)[number]) =>
             data-affiliate-trackable={product.affiliate ? "true" : undefined}
           >
             {retailerLabel(product)}
-          </a>}
-          {product.affiliate && variant !== "comparison" && (
+          </a>
+          {product.affiliate && (
             <p class="commercial-product-link-disclosure">
               We may earn a commission if you buy through this link, at no extra cost to you.
             </p>

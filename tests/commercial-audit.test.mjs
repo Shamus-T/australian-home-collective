@@ -220,15 +220,40 @@ test("the audit requires current evidence for the exact affiliate destination", 
   assert.match(result.stderr, /seller-fulfilment record for the exact affiliate destination/);
 });
 
-test("the audit rejects an enabled guide with fewer than two approved products", () => {
+test("the audit allows one verified option without requiring a filler product", () => {
   const result = runAudit(
     () => {},
     (catalogue) => {
       catalogue.products = catalogue.products.slice(0, 1);
     },
   );
+  assert.equal(result.status, 0, result.stderr);
+});
+
+test("the audit rejects an enabled guide without approved products", () => {
+  const result = runAudit(
+    () => {},
+    (catalogue) => {
+      for (const product of catalogue.products) {
+        product.editorialStatus = "paused";
+        product.approvedForAffiliateUse = false;
+      }
+    },
+  );
   assert.notEqual(result.status, 0);
-  assert.match(result.stderr, /at least 2 are required/);
+  assert.match(result.stderr, /at least 1 is required/);
+});
+
+test("the audit retains paused evidence for a guide with no active placements", () => {
+  const result = runAudit(() => {}, (catalogue) => {
+    const paused = structuredClone(catalogue.products[0]);
+    paused.id = "paused-vacuum-offer";
+    paused.guidePath = "/guides/cordless-stick-vacuums-australia/";
+    paused.editorialStatus = "paused";
+    paused.approvedForAffiliateUse = false;
+    catalogue.products.push(paused);
+  });
+  assert.equal(result.status, 0, result.stderr);
 });
 
 test("the audit rejects duplicate destinations within the same guide", () => {

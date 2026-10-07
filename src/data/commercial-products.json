@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-09-23",
+  "updatedOn": "2026-10-07",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -19,7 +19,6 @@
     "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
     "/guides/coffee-machine-types-australia/",
     "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
-    "/guides/cordless-stick-vacuums-australia/",
     "/guides/robot-vacuum-buying-guide-australia/",
     "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
     "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
@@ -140,6 +139,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B09B1CZVWR: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -235,6 +250,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B08QH2RRDY?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QH2RRDY?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B08QH2RRDY: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QH2RRDY?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -322,6 +353,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B09B188SM5?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B188SM5?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B09B188SM5: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B188SM5?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -409,6 +456,192 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000WJQGMU: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "joseph-joseph-cupboardstore-expandable-shelf",
+      "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+      "name": "Joseph Joseph CupboardStore Expandable Shelf",
+      "productType": "Freestanding cupboard shelf riser",
+      "summary": "A removable extra level for small pantry items where there is unused shelf height. Model 85194 expands from about 25.5 to 40.5 cm wide, with a 21.5 cm depth and 16.3 cm height.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08QH35H4G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-07",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-07",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Measure both the shelf footprint and the clearance above it; its raised edge and small platform will not suit every container.",
+        "Owner reports on stability are mixed. Use it on a level surface and do not assume an unverified load rating.",
+        "The surface needs wiping clean; do not use abrasive cleaners."
+      ],
+      "suitability": {
+        "suits": [
+          "cupboards with enough headroom for short containers above and below a removable shelf"
+        ],
+        "mayNotSuit": [
+          "heavy bulk storage or cupboards where tall packets already use the full height"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph CupboardStore Expandable Shelf",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-expandable-shelf-grey",
+          "supports": "Manufacturer dimensions and wipe-clean care for model 85194 match the model number in the Amazon Item details panel. Manufacturer product page was available through its indexed record; the direct URL currently redirects to the pantry collection. This is not manufacturer-stock confirmation.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Variant-specific owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QH35H4G?tag=ahc07-22",
+          "supports": "Shelf-variant owner reviews describe useful extra storage and cupboard fit; stability and value feedback are mixed. Variant-specific comments screened rather than treating aggregate ratings as independent testing.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QH35H4G?tag=ahc07-22",
+          "supports": "Selected product and variant were in stock with a purchase option, sold and dispatched by Amazon AU. Dated observation, not a continuing stock or delivery promise.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU offer and tracked destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QH35H4G?tag=ahc07-22",
+          "supports": "Selected ASIN B08QH35H4G; sold and dispatched by Amazon AU. Public product checked without generating an affiliate referral; destination preserves ASIN and the account tracking tag ahc07-22.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
+          "supports": "Official Joseph Joseph recall search returned five unrelated entries (torches, coloured sand, grease, worklight and relay); no matching shelf or bathroom caddy recall found. This is a dated recall search, not safety certification.",
+          "checkedOn": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "oxo-pop-big-square-short-2-6-litre",
+      "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+      "name": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
+      "productType": "Single dry-food container",
+      "summary": "A single 2.6 L container for one regularly used dry staple, rather than a full matching set. Its approximately 16 × 16 × 16 cm footprint needs checking against the shelf and the packet you plan to empty.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-07",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-07",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Litres do not tell you whether a particular weight of flour or cereal will fit. Check the packet and leave room for the lid.",
+        "Carry it by the body, never by the lid; some owners report concerns about the seal.",
+        "Clean and dry the lid and seal carefully before refilling; keep food dates and allergen information."
+      ],
+      "suitability": {
+        "suits": [
+          "households replacing one awkward dry-food packet after checking its volume and shelf fit"
+        ],
+        "mayNotSuit": [
+          "liquid storage, carrying food by the lid or buying a set before measuring packet volumes"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
+          "publisher": "OXO",
+          "sourceUrl": "https://oxoaustralia.com.au/products/pop-2-0-big-square-short",
+          "supports": "Official Australian 2.6 L Big Square Short product, dimensions 16 × 16 × 16 cm, dry-food use, top-rack dishwasher care and instruction not to carry by the lid.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Variant-specific owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+          "supports": "Australian reviews explicitly marked BIG SQUARE / 2.6 L / White cover stacking, cleaning and seal performance, including a qualified concern about the seal. Reviews of other sizes and rectangle variants were excluded from the assessment.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+          "supports": "Selected product and variant were in stock with a purchase option, sold and dispatched by Amazon AU. Dated observation, not a continuing stock or delivery promise.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU offer and tracked destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+          "supports": "Selected ASIN B077VHCMRN; sold and dispatched by Amazon AU. Public product checked without generating an affiliate referral; destination preserves ASIN and the account tracking tag ahc07-22.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=OXO",
+          "supports": "Official OXO recall search returned one unrelated Inokim OXO scooter entry; no matching POP container recall found. This is a dated recall search, not safety certification.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -504,6 +737,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B08QH3QBCR?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QH3QBCR?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B08QH3QBCR: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QH3QBCR?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -591,6 +840,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07R4P8JT6?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R4P8JT6?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07R4P8JT6: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R4P8JT6?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -678,6 +943,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B08QM7SRZR: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -711,6 +992,7 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
+        "The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
         "Its collapsible benefit disappears when it remains full and parked in one place.",
         "A fabric basket needs to be dried and cleaned appropriately after damp or dirty loads.",
         "It does not pre-sort washing into separate compartments."
@@ -765,6 +1047,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0CQTCWCW6: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon Japan. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -852,6 +1150,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
           "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
           "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07J495PF8: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -947,6 +1261,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BYSMHQ7L?tag=ahc07-22",
           "supports": "The exact model was in stock at $1,919, sold and shipped by Amazon Australia, with the displayed return terms checked before approval.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BYSMHQ7L?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0BYSMHQ7L: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BYSMHQ7L?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1042,6 +1372,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B434BW7D?tag=ahc07-22",
           "supports": "The exact model was in stock at $999, sold and shipped by Amazon Australia, and the displayed return restriction was checked before approval.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B434BW7D?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0B434BW7D: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B434BW7D?tag=ahc07-22",
+          "supports": "Displayed seller: Shop ATSA. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1137,6 +1483,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0DZP8G5HT?tag=ahc07-22",
           "supports": "The exact model was in stock at $996, sold and shipped by Amazon Australia, with the displayed return terms checked before approval.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DZP8G5HT?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0DZP8G5HT: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DZP8G5HT?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1232,6 +1594,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0D2XXZJKD?tag=ahc07-22",
           "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0D2XXZJKD?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0D2XXZJKD: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0D2XXZJKD?tag=ahc07-22",
+          "supports": "Displayed seller: SHEMAYA. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1246,12 +1624,12 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-08-17",
         "destinationStatus": "reachable",
@@ -1327,6 +1705,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B09BZR9JFG?tag=ahc07-22",
           "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09BZR9JFG?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B09BZR9JFG: An orderable offer was displayed. Only Amazon UK international offer found, with a warning that imported products and plugs may differ. Australian electrical variant and local support not verified for that offer. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09BZR9JFG?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon UK. Individual seller offers were inspected. Only Amazon UK international offer found, with a warning that imported products and plugs may differ. Australian electrical variant and local support not verified for that offer.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1430,6 +1824,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0FD93C954?tag=ahc07-22",
           "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FD93C954?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0FD93C954: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FD93C954?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1533,6 +1943,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B4BM6XVN?tag=ahc07-22",
           "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4BM6XVN?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0B4BM6XVN: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4BM6XVN?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1636,6 +2062,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B09T3RXCCP?tag=ahc07-22",
           "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09T3RXCCP?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B09T3RXCCP: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09T3RXCCP?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1739,6 +2181,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07MW84974?tag=ahc07-22",
           "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07MW84974?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07MW84974: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07MW84974?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1842,6 +2300,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B09FL8F5L6?tag=ahc07-22",
           "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09FL8F5L6?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B09FL8F5L6: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09FL8F5L6?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1945,6 +2419,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B4HB4VV6?tag=ahc07-22",
           "supports": "Listing was in stock and sold and shipped by Amazon AU for the Australian delivery location checked.",
           "checkedOn": "2026-08-17"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4HB4VV6?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0B4HB4VV6: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4HB4VV6?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -1959,12 +2449,12 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-09-21",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-09-21",
         "destinationStatus": "reachable",
@@ -2040,6 +2530,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
           "supports": "The exact ASIN, Australian Amazon offer and affiliate tracking destination were revalidated before approval; fixed delivery dates are not published because they vary by postcode and account.",
           "checkedOn": "2026-09-21"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0B4N9ZR2Q: An orderable offer was displayed. Current featured seller shopy oz had 54% positive feedback over the last 12 months on the contemporaneous seller-offer panel. Paused pending a more suitable Australian offer. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4N9ZR2Q?tag=ahc07-22",
+          "supports": "Displayed seller: shopy oz. Current featured seller shopy oz had 54% positive feedback over the last 12 months on the contemporaneous seller-offer panel. Paused pending a more suitable Australian offer.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -2054,12 +2560,12 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-09-21",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-09-21",
         "destinationStatus": "reachable",
@@ -2135,6 +2641,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B093W7RLYT?tag=ahc07-22",
           "supports": "The exact ASIN, current Amazon Australia offer and affiliate tracking destination were revalidated before approval; fixed delivery dates are not published because they vary by postcode and account.",
           "checkedOn": "2026-09-21"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B093W7RLYT?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B093W7RLYT: An orderable offer was displayed. Only third-party offers found; displayed seller feedback was 54% and 63% positive over the last 12 months. Current offers do not meet the editorial seller standard. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B093W7RLYT?tag=ahc07-22",
+          "supports": "Displayed seller: shopy oz. Individual seller offers were inspected. Only third-party offers found; displayed seller feedback was 54% and 63% positive over the last 12 months. Current offers do not meet the editorial seller standard.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -2398,6 +2920,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0CKL2XPHT?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CKL2XPHT?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0CKL2XPHT: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CKL2XPHT?tag=ahc07-22",
+          "supports": "Displayed seller: COSTWAY-AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -2431,6 +2969,7 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
+        "The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
         "An elevated mesh surface does not provide the pressure-relieving cushioning some older dogs need.",
         "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
       ],
@@ -2482,6 +3021,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07VKPQZX8: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon US. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -2515,6 +3070,7 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
+        "The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
         "It requires suitable wall fixings and more setup space than a straight pressure gate.",
         "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
       ],
@@ -2566,6 +3122,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00HV9C0CY?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00HV9C0CY?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B00HV9C0CY: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00HV9C0CY?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon UK. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -2650,6 +3222,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00KWDURMG?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00KWDURMG?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B00KWDURMG: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00KWDURMG?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -2664,12 +3252,12 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-08-18",
         "destinationStatus": "reachable",
@@ -2734,6 +3322,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B01MDOZ9L9?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01MDOZ9L9?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B01MDOZ9L9: An orderable offer was displayed. Only third-party offers found, with estimated delivery in November. Paused pending a suitable timely Australian offer. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01MDOZ9L9?tag=ahc07-22",
+          "supports": "Displayed seller: LDD QualityToys AU. Individual seller offers were inspected. Only third-party offers found, with estimated delivery in November. Paused pending a suitable timely Australian offer.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -2818,6 +3422,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0CZ6T5QJ3?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CZ6T5QJ3?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0CZ6T5QJ3: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CZ6T5QJ3?tag=ahc07-22",
+          "supports": "Displayed seller: eShopping Group. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -2902,6 +3522,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B092W79H8Y?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B092W79H8Y?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B092W79H8Y: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B092W79H8Y?tag=ahc07-22",
+          "supports": "Displayed seller: Acos Ecommerce Group. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -2986,6 +3622,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00AYVRHCO?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00AYVRHCO?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B00AYVRHCO: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00AYVRHCO?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3070,6 +3722,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B08QJ1QP3N?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QJ1QP3N?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B08QJ1QP3N: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QJ1QP3N?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3081,7 +3749,7 @@
       "summary": "A flexible hanging caddy that can sit over a shower head or screen once clearance, hose movement and load are checked.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
-      "linkLabel": "View at Amazon Australia",
+      "linkLabel": "View current seller offers at Amazon Australia →",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
       "editorialStatus": "approved",
@@ -3103,6 +3771,7 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
+        "The offers checked were international imports. Compare delivery dates, returns and the delivered total before ordering.",
         "A loaded hanging caddy can crowd controls or move on an unsuitable shower head.",
         "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
       ],
@@ -3154,6 +3823,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B01ARNUTL4: An orderable offer was displayed. The offers checked were international imports. Compare delivery dates, returns and the delivered total before ordering. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon UK. Individual seller offers were inspected. The offers checked were international imports. Compare delivery dates, returns and the delivered total before ordering.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3238,6 +3923,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B081K723P2: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3322,6 +4023,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0B6H2354G: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3406,6 +4123,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0BS1LWL55: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3490,13 +4223,114 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B078YZ2Q85?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B078YZ2Q85?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B078YZ2Q85: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B078YZ2Q85?tag=ahc07-22",
+          "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "small-bathroom-joseph-joseph-easystore-caddy-grey",
+      "guidePath": "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/",
+      "name": "Joseph Joseph EasyStore Bathroom Caddy — Grey/White",
+      "productType": "Freestanding vanity caddy",
+      "summary": "A compact caddy for everyday grooming items on an existing vanity. It uses about 25 × 12 cm of bench space, needs no drilling or adhesive, and has compartments and a non-slip base.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0797M1N6W?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-07",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-07",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It still takes up vanity space: check the roughly 25 × 12 cm footprint and tap clearance first.",
+        "Wash and dry by hand; it is not extra enclosed or shower storage.",
+        "One owner reported discolouration in direct sun, so a sunny windowsill may be a poor location."
+      ],
+      "suitability": {
+        "suits": [
+          "small bathrooms with a usable vanity ledge and loose everyday grooming items"
+        ],
+        "mayNotSuit": [
+          "basins with no spare ledge or households needing storage for bulky towels"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph EasyStore Bathroom Caddy — Grey/White",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/easystore-bathroom-caddy-light-grey",
+          "supports": "Official light-grey model 70513, H11.6 × W24.9 × D11.9 cm, compartments, non-slip base and hand-wash care match the selected listing.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Variant-specific owner feedback",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/easystore-bathroom-caddy-light-grey",
+          "supports": "Manufacturer-hosted individual owner reviews describe compact grooming storage and a direct-sun discolouration drawback. These are owner accounts, not AHC testing.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0797M1N6W?tag=ahc07-22",
+          "supports": "Selected product and variant were in stock with a purchase option, sold and dispatched by Amazon AU. Dated observation, not a continuing stock or delivery promise.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU offer and tracked destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0797M1N6W?tag=ahc07-22",
+          "supports": "Selected ASIN B0797M1N6W; sold and dispatched by Amazon AU. Public product checked without generating an affiliate referral; destination preserves ASIN and the account tracking tag ahc07-22.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
+          "supports": "Official Joseph Joseph recall search returned five unrelated entries (torches, coloured sand, grease, worklight and relay); no matching shelf or bathroom caddy recall found. This is a dated recall search, not safety certification.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
     {
       "id": "songmics-three-tier-over-toilet-organiser",
       "guidePath": "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/",
-      "name": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser",
+      "name": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser — Cloud White",
       "productType": "Freestanding over-toilet shelf",
       "summary": "A roughly 26 x 63 x 170 cm bamboo unit with an adjustable middle shelf and anti-tip kit, once cistern, seat, wall-fixing and walkway clearances have been checked.",
       "merchant": "Amazon Australia",
@@ -3574,6 +4408,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07TBDS9BC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "Displayed seller: SONGMICS HOME AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3658,6 +4508,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00R8KX8FE?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00R8KX8FE?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B00R8KX8FE: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00R8KX8FE?tag=ahc07-22",
+          "supports": "Displayed seller: Woux LLC. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3742,6 +4608,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0FJ7ZMN4H: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3826,6 +4708,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0987Z4WWC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3910,6 +4808,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B081K723P2: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -3994,6 +4908,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0B6H2354G: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4078,6 +5008,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B071DZHLXH: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4092,17 +5038,17 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-08-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
+        "australianAvailabilityStatus": "unavailable",
         "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -4162,6 +5108,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0CXSP5G3K?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CXSP5G3K?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0CXSP5G3K: The listing showed currently unavailable. Currently unavailable; no orderable offer shown. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CXSP5G3K?tag=ahc07-22",
+          "supports": "Currently unavailable; no orderable offer shown.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4246,6 +5208,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B00LHZFKC0: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4330,6 +5308,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000YXLJ7G: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Displayed seller: MplusL. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4414,6 +5408,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0CD5V5J2T?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CD5V5J2T?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0CD5V5J2T: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CD5V5J2T?tag=ahc07-22",
+          "supports": "Displayed seller: PC Depot Pty Ltd. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4498,6 +5508,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B08CDC4SRT?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08CDC4SRT?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B08CDC4SRT: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08CDC4SRT?tag=ahc07-22",
+          "supports": "Displayed seller: Sello-Products. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4582,6 +5608,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B083ZPBYN1: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4615,6 +5657,7 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
+        "The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
         "Fixed case dimensions and many small compartments are inefficient for bulky tools.",
         "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
       ],
@@ -4666,6 +5709,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B01MZZ6JU5?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01MZZ6JU5?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B01MZZ6JU5: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01MZZ6JU5?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon US. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4750,6 +5809,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0076XD7HC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4834,6 +5909,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0076XNIAI: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -4918,6 +6009,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0D8PJXDT7?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0D8PJXDT7?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0D8PJXDT7: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0D8PJXDT7?tag=ahc07-22",
+          "supports": "Displayed seller: KOGAN. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5002,6 +6109,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0CXM6X9ZJ?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CXM6X9ZJ?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0CXM6X9ZJ: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CXM6X9ZJ?tag=ahc07-22",
+          "supports": "Displayed seller: Magnifica Luce. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5086,6 +6209,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000YXLJ7G: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Displayed seller: MplusL. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5119,6 +6258,7 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
+        "The checked import offer charged more for international delivery than for the item. Compare the full delivered price with Australian alternatives before buying.",
         "A small portable lockbox has limited capacity and is not equivalent to a fire-rated safe.",
         "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
       ],
@@ -5170,6 +6310,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B000RGR4EW?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000RGR4EW?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000RGR4EW: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked import offer charged more for international delivery than for the item. Compare the full delivered price with Australian alternatives before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000RGR4EW?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon UK. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5184,17 +6340,17 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-08-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
+        "australianAvailabilityStatus": "unavailable",
         "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -5254,6 +6410,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B8YLDFYV?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B8YLDFYV?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0B8YLDFYV: The listing showed currently unavailable. Currently unavailable; no orderable offer shown. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B8YLDFYV?tag=ahc07-22",
+          "supports": "Currently unavailable; no orderable offer shown.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5338,6 +6510,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07JGWSB8T?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07JGWSB8T?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07JGWSB8T: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07JGWSB8T?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5422,6 +6610,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07JWZ889K?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07JWZ889K?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07JWZ889K: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07JWZ889K?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5506,6 +6710,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07JJCHNH2?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07JJCHNH2?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07JJCHNH2: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07JJCHNH2?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5590,6 +6810,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0CVL3KX3Q?tag=ahc07-22",
           "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CVL3KX3Q?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0CVL3KX3Q: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CVL3KX3Q?tag=ahc07-22",
+          "supports": "Displayed seller: Klika. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5674,6 +6910,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B096VVDJLL?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B096VVDJLL?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B096VVDJLL: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B096VVDJLL?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5758,6 +7010,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07TC6PHJC?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TC6PHJC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07TC6PHJC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TC6PHJC?tag=ahc07-22",
+          "supports": "Displayed seller: vidaXL AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5791,6 +7059,7 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
+        "Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
         "The bulky box is expensive to move, and owner feedback includes concerns that should be checked against the current seller and model.",
         "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
       ],
@@ -5842,6 +7111,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B00CX4VMVM: An orderable offer was displayed. Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
+          "supports": "Displayed seller: EFI Global Store AU. Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5926,6 +7211,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B077DRGRG6?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077DRGRG6?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B077DRGRG6: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077DRGRG6?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -5959,6 +7260,7 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
+        "The checked import offer charged more for international delivery than for the item. Compare the full delivered price with Australian alternatives before buying.",
         "It is heavy, the handles become hot and the seasoned surface needs appropriate drying and care.",
         "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
       ],
@@ -6010,6 +7312,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00006JSUB?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00006JSUB?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B00006JSUB: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked import offer charged more for international delivery than for the item. Compare the full delivered price with Australian alternatives before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00006JSUB?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon US. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6094,6 +7412,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B081K723P2: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6178,6 +7512,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
           "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
           "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0B6H2354G: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6189,7 +7539,7 @@
       "summary": "A removable zipped fabric seal for routing a portable air-conditioner exhaust hose through a measured inward- or outward-opening hinged window.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B07BPZGJ3B?tag=ahc07-22",
-      "linkLabel": "View at Amazon Australia",
+      "linkLabel": "View current seller offers at Amazon Australia →",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
       "editorialStatus": "approved",
@@ -6211,6 +7561,7 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
+        "The offer checked was an Amazon US import. Check international delivery timing, shipping charges and returns before ordering.",
         "It is intended for hinged windows; HOOMEE directs sliding-window users to a different kit.",
         "The adhesive strip can leave residue or affect fragile finishes, and owner feedback is mixed on zipper, adhesion, fit and durability.",
         "A fabric panel is not a rigid, insulated or security-rated window insert and can transmit outdoor noise."
@@ -6263,6 +7614,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07BPZGJ3B?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
           "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07BPZGJ3B?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07BPZGJ3B: An orderable offer was displayed. The offer checked was an Amazon US import. Check international delivery timing, shipping charges and returns before ordering. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07BPZGJ3B?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon US. Individual seller offers were inspected. The offer checked was an Amazon US import. Check international delivery timing, shipping charges and returns before ordering.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6348,6 +7715,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, Amazon fulfilment and ThermoPro AU seller were checked before approval.",
           "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07WCR5Y4B: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
+          "supports": "Displayed seller: TempPro AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6433,6 +7816,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, Amazon fulfilment and ThermoPro AU seller were checked before approval.",
           "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07WCR5Y4B: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WCR5Y4B?tag=ahc07-22",
+          "supports": "Displayed seller: TempPro AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6526,6 +7925,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B09S5PH75D?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
           "checkedOn": "2026-08-19"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09S5PH75D?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B09S5PH75D: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09S5PH75D?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6611,6 +8026,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07C8B8K4F?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, seller and fulfilment were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07C8B8K4F?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07C8B8K4F: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07C8B8K4F?tag=ahc07-22",
+          "supports": "Displayed seller: TempPro AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6696,6 +8127,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0000CBIFF: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6710,12 +8157,12 @@
       "linkLabel": "View the Koala Eco gift duo at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-24",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-08-24",
         "destinationStatus": "reachable",
@@ -6789,6 +8236,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0F2D7DGKG?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F2D7DGKG?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0F2D7DGKG: An orderable offer was displayed. Dispatch estimate of one to two months makes this unsuitable for the current gift placement. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F2D7DGKG?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Dispatch estimate of one to two months makes this unsuitable for the current gift placement.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6874,6 +8337,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0H6DV5F7P?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, in-stock status, Amazon fulfilment and AUSCENTRAL seller were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0H6DV5F7P?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0H6DV5F7P: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0H6DV5F7P?tag=ahc07-22",
+          "supports": "Displayed seller: AUSCENTRAL. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -6959,6 +8438,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity, stock status and Amazon AU seller and fulfilment were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0BCW96CJW: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7044,6 +8539,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BCW8WBSJ?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW8WBSJ?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0BCW8WBSJ: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW8WBSJ?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7137,6 +8648,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BCHWLXW5?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity, in-stock status and Amazon AU seller and fulfilment were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCHWLXW5?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0BCHWLXW5: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCHWLXW5?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7230,6 +8757,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B086LDJFCN?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity, in-stock status, VESYNC seller and Amazon fulfilment were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B086LDJFCN?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B086LDJFCN: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B086LDJFCN?tag=ahc07-22",
+          "supports": "Displayed seller: VESYNC PTY LTD. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7315,6 +8858,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BXHS4VP3?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BXHS4VP3?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0BXHS4VP3: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BXHS4VP3?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7400,6 +8959,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B08Z3KZYR2?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08Z3KZYR2?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B08Z3KZYR2: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08Z3KZYR2?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7414,17 +8989,17 @@
       "linkLabel": "View the De'Longhi Dragon 4 at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-24",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-08-24",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
+        "australianAvailabilityStatus": "unavailable",
         "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "matched",
@@ -7485,6 +9060,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B076HM1GN5?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and limited in-stock status were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B076HM1GN5?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B076HM1GN5: The listing showed currently unavailable. Currently unavailable; no orderable offer shown. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B076HM1GN5?tag=ahc07-22",
+          "supports": "Currently unavailable; no orderable offer shown.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7570,6 +9161,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B016XV9BHM?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B016XV9BHM?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B016XV9BHM: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B016XV9BHM?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7655,6 +9262,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0C6CV26LJ?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C6CV26LJ?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0C6CV26LJ: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C6CV26LJ?tag=ahc07-22",
+          "supports": "Displayed seller: Acos Ecommerce Group. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7740,6 +9363,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0742JBJMV?tag=ahc07-22",
           "supports": "The canonical Amazon Australia destination, exact ASIN, affiliate tag, product identity and in-stock status were checked before approval.",
           "checkedOn": "2026-08-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0742JBJMV?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0742JBJMV: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0742JBJMV?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7865,6 +9504,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0DRVYDXWX?tag=ahc07-22",
           "supports": "Exact E15 title and ASIN B0DRVYDXWX checked with Sydney 2000 selected: Add to cart and Buy Now present; sold by AnkerDirect AU, dispatched by Amazon. 800 m² / imperial mapping capacity, vision navigation, 1–3 inch cutting range and 18-degree limit match the assessment. Product baseline recorded; ahc07-22 tag intact. The lower-page generic “no featured offers” panel is inconsistent with the active purchase panel; order availability is based on the latter, not a promise for every postcode.",
           "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DRVYDXWX?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0DRVYDXWX: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DRVYDXWX?tag=ahc07-22",
+          "supports": "Displayed seller: AnkerDirect AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7974,6 +9629,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0DRVYX8K2?tag=ahc07-22",
           "supports": "Exact E18 title and ASIN B0DRVYX8K2 checked with Sydney 2000 selected: Add to cart and Buy Now present; sold by AnkerDirect AU, dispatched by Amazon. 1,200 m² / imperial mapping capacity, vision navigation, 1–3 inch cutting range and 18-degree limit match the assessment. Product baseline recorded; ahc07-22 tag intact. The lower-page generic “no featured offers” panel is inconsistent with the active purchase panel; order availability is based on the latter, not a promise for every postcode.",
           "checkedOn": "2026-09-13"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DRVYX8K2?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0DRVYX8K2: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DRVYX8K2?tag=ahc07-22",
+          "supports": "Displayed seller: AnkerDirect AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -7985,7 +9656,7 @@
       "summary": "A current mid-range all-in-one robot with LiDAR navigation, dual spinning liftable mops and a dock that washes the mops, dries them with cool air, empties dust and refills water.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F4CLCNJR?tag=ahc07-22",
-      "linkLabel": "View at Amazon Australia",
+      "linkLabel": "View current seller offers at Amazon Australia →",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
       "editorialStatus": "approved",
@@ -8069,6 +9740,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0F4CLCNJR?tag=ahc07-22",
           "supports": "Exact ASIN, product identity, official Australian seller, Amazon fulfilment and affiliate tracking were checked before approval.",
           "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F4CLCNJR?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0F4CLCNJR: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F4CLCNJR?tag=ahc07-22",
+          "supports": "Displayed seller: Roborock AU Official. Individual seller offers were inspected. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     },
@@ -8164,6 +9851,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0GJ5KW37C?tag=ahc07-22",
           "supports": "Exact ASIN B0GJ5KW37C, ECOVACS Robotics seller identity, Amazon fulfilment and affiliate tracking were checked before approval.",
           "checkedOn": "2026-09-23"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0GJ5KW37C?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0GJ5KW37C: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0GJ5KW37C?tag=ahc07-22",
+          "supports": "Displayed seller: ECOVACS Robotics. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
         }
       ]
     }

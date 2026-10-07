@@ -6,6 +6,7 @@ import FAQBlock from "../components/FAQBlock.astro";
 import { getCategoryPath } from "../data/categories";
 import { getGuideNavigation } from "../data/guideNavigation";
 import { getCategorySocialImage } from "../data/socialImages";
+import { isCommercialGuide, getApprovedProductsForGuide, getCommercialSectionId } from "../lib/commercial-products";
 
 interface Props {
   title: string;
@@ -58,6 +59,7 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const organizationId = `${siteUrl}/#organization`;
 const categoryPath = getCategoryPath(category);
 const currentPath = Astro.url.pathname.endsWith("/") ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const hasProductOptions = isCommercialGuide(currentPath) && getApprovedProductsForGuide(currentPath).length > 0;
 const guideNavigation = getGuideNavigation(currentPath, category, categoryPath);
 const breadcrumbItems = categoryPath
   ? [
@@ -152,6 +154,11 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
         <span aria-hidden="true"> · </span>{readingTime}
       </p>
       {shouldShowDisclosure && <AffiliateDisclosureBlock compact />}
+      {hasProductOptions && (
+        <p class="commercial-product-shortcut">
+          <a href={`#${getCommercialSectionId(currentPath)}`}>Compare researched product options ↓</a>
+        </p>
+      )}
     </div>
   </header>
   <article class="content narrow">
