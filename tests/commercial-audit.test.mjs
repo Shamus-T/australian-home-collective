@@ -142,6 +142,25 @@ test("the audit rejects an Amazon affiliate URL without a canonical ASIN path", 
   assert.match(result.stderr, /canonical Amazon Australia \/dp\/ASIN destination/);
 });
 
+test("a Partnerize product requires the configured campaign and Good Guys destination", () => {
+  const goodUrl = "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/"
+    + "destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fexample-product";
+  const makePartnerize = (product) => {
+    product.affiliateNetwork = "partnerize";
+    product.merchant = "The Good Guys";
+    product.destinationUrl = goodUrl;
+    product.sourceRecords.find((source) => source.sourceType === "seller-fulfilment").sourceUrl = goodUrl;
+  };
+  assert.equal(runAudit(makePartnerize).status, 0);
+  const bad = runAudit((product) => {
+    makePartnerize(product);
+    product.destinationUrl = goodUrl.replace("camref:1100l6vaUc", "camref:other");
+    product.sourceRecords.find((source) => source.sourceType === "seller-fulfilment").sourceUrl = product.destinationUrl;
+  });
+  assert.notEqual(bad.status, 0);
+  assert.match(bad.stderr, /configured Partnerize camref/);
+});
+
 test("the audit rejects an affiliate product without a product-validity check", () => {
   const result = runAudit((product) => {
     delete product.affiliateValidation;

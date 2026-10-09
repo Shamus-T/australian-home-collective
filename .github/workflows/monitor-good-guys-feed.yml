@@ -1,0 +1,50 @@
+name: Monitor Good Guys product feed
+
+on:
+  schedule:
+    - cron: "0 0,4,8,12,16,20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check feed configuration
+        id: config
+        env:
+          GOOD_GUYS_FEED_URL: ${{ secrets.GOOD_GUYS_FEED_URL }}
+        run: |
+          if [ -n "$GOOD_GUYS_FEED_URL" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Feed monitor awaiting GOOD_GUYS_FEED_URL repository secret." >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Restore previous selected-product state
+        if: steps.config.outputs.ready == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: .feed-monitor/previous.json
+          key: good-guys-state-${{ github.run_id }}
+          restore-keys: good-guys-state-
+      - name: Check selected products
+        if: steps.config.outputs.ready == 'true'
+        env:
+          GOOD_GUYS_FEED_URL: ${{ secrets.GOOD_GUYS_FEED_URL }}
+        run: python3 scripts/monitor-good-guys-feed.py --previous .feed-monitor/previous.json --state .feed-monitor/current.json
+      - name: Prepare next comparison
+        if: always() && steps.config.outputs.ready == 'true'
+        run: |
+          if [ -f .feed-monitor/current.json ]; then
+            mv .feed-monitor/current.json .feed-monitor/previous.json
+          fi
+      - name: Save selected-product state
+        if: always() && steps.config.outputs.ready == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: .feed-monitor/previous.json
+          key: good-guys-state-${{ github.run_id }}

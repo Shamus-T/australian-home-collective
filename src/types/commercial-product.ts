@@ -33,6 +33,7 @@ export type ProductSourceType =
 
 export type AffiliateNetwork =
   | "amazon-australia"
+  | "partnerize"
   | "commission-factory"
   | "direct"
   | "other";

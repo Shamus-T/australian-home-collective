@@ -31,7 +31,7 @@ const allowedSafetyStatuses = new Set([
   "unresolved-safety-concern",
 ]);
 const allowedTestingStatuses = new Set(["research-only", "hands-on-tested"]);
-const allowedNetworks = new Set(["amazon-australia", "commission-factory", "direct", "other"]);
+const allowedNetworks = new Set(["amazon-australia", "partnerize", "commission-factory", "direct", "other"]);
 const allowedAffiliateDestinationStatuses = new Set(["reachable", "unreachable"]);
 const allowedAffiliateIdentityStatuses = new Set(["verified", "mismatch", "unverified"]);
 const allowedAffiliateAvailabilityStatuses = new Set([
@@ -372,7 +372,12 @@ function validateAffiliateTracking(urlValue, network, prefix) {
   if (!(config.allowedHosts ?? []).some((domain) => hostMatches(url.hostname, domain))) {
     addError(prefix + " does not use an allowed host for " + network + ": " + urlValue);
   }
-  if (url.searchParams.get(config.trackingParameter) !== config.trackingValue) {
+  if (network === "partnerize") {
+    if (!url.pathname.startsWith(`/click/camref:${config.trackingValue}/`)
+      || !url.pathname.includes("/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2F")) {
+      addError(prefix + " must have the configured Partnerize camref and an encoded Good Guys destination.");
+    }
+  } else if (url.searchParams.get(config.trackingParameter) !== config.trackingValue) {
     addError(
       prefix + " is missing the current " + network + " tracking value "
       + config.trackingParameter + "=" + config.trackingValue + ".",

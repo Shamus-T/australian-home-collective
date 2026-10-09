@@ -4,8 +4,9 @@ const JSON_HEADERS = {
 };
 
 const DEVICE_TYPES = new Set(["desktop", "mobile", "tablet", "unknown"]);
-const AFFILIATE_NETWORKS = new Set(["amazon-australia", "commission-factory", "direct", "other"]);
+const AFFILIATE_NETWORKS = new Set(["amazon-australia", "partnerize", "commission-factory", "direct", "other"]);
 const AMAZON_AU_HOSTS = new Set(["amazon.com.au", "www.amazon.com.au"]);
+const PARTNERIZE_HOSTS = new Set(["prf.hn"]);
 const MAX_BODY_BYTES = 4096;
 
 function json(status, body) {
@@ -70,6 +71,9 @@ function validateEvent(payload) {
     return { error: "The affiliate network was not valid." };
   }
   if (affiliateNetwork === "amazon-australia" && !AMAZON_AU_HOSTS.has(destinationHost)) {
+    return { error: "The affiliate destination was not valid." };
+  }
+  if (affiliateNetwork === "partnerize" && !PARTNERIZE_HOSTS.has(destinationHost)) {
     return { error: "The affiliate destination was not valid." };
   }
 

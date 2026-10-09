@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-07",
+  "updatedOn": "2026-10-09",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -10,6 +10,13 @@
       "allowedHosts": [
         "amazon.com.au",
         "www.amazon.com.au"
+      ]
+    },
+    "partnerize": {
+      "trackingParameter": "camref",
+      "trackingValue": "1100l6vaUc",
+      "allowedHosts": [
+        "prf.hn"
       ]
     }
   },
@@ -9867,6 +9874,94 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0GJ5KW37C?tag=ahc07-22",
           "supports": "Displayed seller: ECOVACS Robotics. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "roborock-qrevo-edge-c-good-guys",
+      "guidePath": "/guides/robot-vacuum-buying-guide-australia/",
+      "name": "Roborock Qrevo Edge C Robot Vacuum and Mop",
+      "productType": "Robot vacuum and mop with self-cleaning dock",
+      "summary": "A docked robot with anti-tangle brushes, edge-reaching mop and automatic mop washing. Check the 340 x 487 x 521 mm dock space before choosing it.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Froborock-qrevo-edge-c-robotic-vacuum-rr-qrec02-03-wht",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-09",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-09",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 340 x 487 x 521 mm base station needs a permanent position and room to remove and refill water tanks.",
+        "Owner feedback notes that heavy pet shedding can clog the auto-empty path, so the dock and dust bag still need regular checks.",
+        "Obstacle avoidance does not remove the need to clear cables and small loose items before a run."
+      ],
+      "suitability": {
+        "suits": [
+          "mixed-floor homes wanting routine vacuuming and mopping with dock-based mop care",
+          "households with a suitable dock location and time for periodic tank and brush maintenance"
+        ],
+        "mayNotSuit": [
+          "tight layouts without room to access the dock tanks",
+          "homes with very heavy shedding where the dust path cannot be checked regularly",
+          "buyers expecting the robot to replace occasional manual deep cleaning"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Roborock Qrevo EdgeC",
+          "publisher": "Roborock Store ANZ",
+          "sourceUrl": "https://roborockstore.com.au/products/qrevo-edgec",
+          "supports": "Australian SKU RR-QREC02-03-WHT, dual anti-tangle brushes, edge mopping, dock functions and Australian warranty information.",
+          "checkedOn": "2026-10-09"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Roborock Qrevo EdgeC reviews",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/roborock-qrevo-edgec",
+          "supports": "Exact-model Australian owner reports on mixed floors, mopping, pet hair, maintenance and service; some reviews are incentivised.",
+          "checkedOn": "2026-10-09"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Roborock QRevo Edge C Robotic Vacuum",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/roborock-qrevo-edge-c-robotic-vacuum-rr-qrec02-03-wht",
+          "supports": "Australian exact-model listing with SKU RR-QREC02-03-WHT, online add-to-cart and feed Stock Yes at review.",
+          "checkedOn": "2026-10-09"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall register searched for the exact model; no matching notice identified on review.",
+          "checkedOn": "2026-10-09"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Roborock Qrevo Edge C Partnerize feed link",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Froborock-qrevo-edge-c-robotic-vacuum-rr-qrec02-03-wht",
+          "supports": "Feed link contains this campaign camref and the exact Australian Good Guys destination; same campaign redirect format was tested. Online checkout eligibility applies.",
+          "checkedOn": "2026-10-09"
         }
       ]
     }

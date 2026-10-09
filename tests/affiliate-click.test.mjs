@@ -67,6 +67,17 @@ test("validates and normalises the affiliate event payload", () => {
   });
 });
 
+test("accepts Partnerize clicks only for its tracking host", () => {
+  const partnerizeClick = {
+    ...validClick,
+    affiliateNetwork: "partnerize",
+    merchant: "The Good Guys",
+    destinationHost: "prf.hn",
+  };
+  assert.deepEqual(__test.validateEvent(partnerizeClick).event, partnerizeClick);
+  assert.ok(__test.validateEvent({ ...partnerizeClick, destinationHost: "example.com" }).error);
+});
+
 test("stores the required click fields without request IP or user-agent data", async () => {
   const { database, calls } = mockDatabase();
   const response = await onRequestPost({

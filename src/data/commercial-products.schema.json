@@ -90,7 +90,7 @@
         "affiliate": { "type": "boolean" },
         "affiliateNetwork": {
           "type": ["string", "null"],
-          "enum": ["amazon-australia", "commission-factory", "direct", "other", null]
+          "enum": ["amazon-australia", "partnerize", "commission-factory", "direct", "other", null]
         },
         "editorialStatus": {
           "enum": ["draft", "in-review", "approved", "paused", "rejected"]
