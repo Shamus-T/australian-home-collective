@@ -624,7 +624,9 @@ for (const file of htmlFiles) {
   for (const match of contentHtml.matchAll(/<a\s+[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)) {
     const [, href, body] = match;
     if (!/^https?:\/\//i.test(href)) continue;
-    const label = plainText(body);
+    const openingAnchor = match[0].match(/^<a\b[^>]*>/i)?.[0] ?? "";
+    // Image-only retailer links carry their descriptive name on the anchor.
+    const label = plainText(body) || decodeEntities(firstMatch(openingAnchor, /\baria-label="([^"]+)"/i));
     if (
       !label
       || /^https?:\/\//i.test(label)
