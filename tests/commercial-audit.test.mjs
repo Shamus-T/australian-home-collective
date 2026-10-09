@@ -362,23 +362,50 @@ test("the shared article layout does not detach commercial products from guide c
 
 test("the shared commercial component renders automatic affiliate tracking metadata", () => {
   const source = fs.readFileSync(
-    path.join(root, "src", "components", "CommercialProductBlock.astro"),
+    path.join(root, "src", "components", "CommercialRetailerLinks.astro"),
     "utf8",
   );
 
   for (const contract of [
     "data-commercial-product-id={product.id}",
     "data-commercial-product-name={product.name}",
-    "data-commercial-guide-path={guidePath}",
-    "data-commercial-affiliate-network={product.affiliateNetwork ?? undefined}",
-    "data-commercial-merchant={product.merchant}",
-    "data-commercial-destination-host={new URL(product.destinationUrl).hostname}",
-    'data-affiliate-trackable={product.affiliate ? "true" : undefined}',
+    "data-commercial-guide-path={product.guidePath}",
+    "data-commercial-affiliate-network={offer.affiliateNetwork ?? undefined}",
+    "data-commercial-merchant={offer.merchant}",
+    "data-commercial-destination-host={new URL(offer.destinationUrl).hostname}",
+    'data-affiliate-trackable={offer.affiliate ? "true" : undefined}',
     'rel="sponsored nofollow noopener noreferrer"',
-    "createAffiliateClickTracker",
   ]) {
     assert.ok(source.includes(contract), `missing commercial tracking contract: ${contract}`);
   }
+  const block = fs.readFileSync(path.join(root, "src", "components", "CommercialProductBlock.astro"), "utf8");
+  assert.ok(block.includes("createAffiliateClickTracker"));
+});
+
+function addVerifiedRetailer(product) {
+  const url = 'https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/'
+    + 'destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fexample-product';
+  product.commission = { ratePercent: 2, checkedOn: today, validUntil: today,
+    sourceUrl: 'https://example.com/terms', applicability: 'Fixture product category and exclusions checked.' };
+  product.additionalRetailers = [{
+    merchant: 'The Good Guys', destinationUrl: url, affiliate: true, affiliateNetwork: 'partnerize',
+    approvedForAffiliateUse: true, affiliateValidation: structuredClone(product.affiliateValidation),
+    commission: { ...product.commission, ratePercent: 3 },
+    sourceRecords: ['seller-fulfilment', 'australian-availability-support'].map((sourceType, index) => ({
+      ...sourceRecord(sourceType, index), sourceUrl: url,
+    })),
+  }];
+}
+
+test('additional retailers pass only with their own approved tracking and listing evidence', () => {
+  assert.equal(runAudit(addVerifiedRetailer).status, 0);
+  const invalid = runAudit((product) => {
+    addVerifiedRetailer(product);
+    product.additionalRetailers[0].destinationUrl = product.additionalRetailers[0].destinationUrl
+      .replace('camref:1100l6vaUc', 'camref:wrong');
+  });
+  assert.notEqual(invalid.status, 0);
+  assert.match(invalid.stderr, /configured Partnerize camref/);
 });
 
 

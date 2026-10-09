@@ -3,6 +3,7 @@ import path from "node:path";
 import process from "node:process";
 import { decode } from "entities";
 import { isReviewedApplianceSource } from "./lib/appliance-editorial-sources.mjs";
+import { getRegisteredRetailers, getRetailerOfferErrors, getOrderedRetailers } from "../src/lib/commercial-retailers.mjs";
 
 const root = process.cwd();
 const distRoot = path.join(root, "dist");
@@ -463,6 +464,15 @@ for (const [index, product] of products.entries()) {
     if (!Object.hasOwn(product, field)) addError(prefix + " is missing required review field \"" + field + "\".");
   }
 
+  for (const error of getRetailerOfferErrors(product, { today, reviewIntervalDays: catalogue.reviewIntervalDays })) {
+    addError(prefix + "." + error);
+  }
+  for (const offer of getRegisteredRetailers(product).slice(1)) {
+    if (offer?.destinationUrl && offer.affiliate) {
+      validateAffiliateTracking(offer.destinationUrl, offer.affiliateNetwork, prefix + ".additionalRetailers");
+    }
+  }
+
   if (typeof product.id !== "string" || !/^[a-z0-9-]+$/.test(product.id)) {
     addError(prefix + ".id must use lowercase letters, numbers and hyphens.");
   } else if (seenIds.has(product.id)) {
@@ -568,16 +578,13 @@ for (const [index, product] of products.entries()) {
     addError(prefix + " has affiliate approval without an affiliate link.");
   }
 
-  if (
-    typeof product.guidePath === "string"
-    && typeof product.destinationUrl === "string"
-    && product.destinationUrl !== ""
-  ) {
-    const placementKey = product.guidePath + "\n" + product.destinationUrl;
+  for (const offer of getRegisteredRetailers(product)) {
+    if (typeof product.guidePath !== "string" || typeof offer?.destinationUrl !== "string" || !offer.destinationUrl) continue;
+    const placementKey = product.guidePath + "\n" + offer.destinationUrl;
     const previousId = seenGuideDestinations.get(placementKey);
     if (previousId) {
       addError(
-        prefix + " duplicates destination " + product.destinationUrl
+        prefix + " duplicates destination " + offer.destinationUrl
         + " within " + product.guidePath + " (already used by " + previousId + ").",
       );
     } else {
@@ -878,7 +885,7 @@ if (checkDist) {
   if (!fs.existsSync(distRoot)) {
     addError("Rendered commercial audit requires a completed dist build.");
   } else {
-    const renderedCountByProduct = new Map();
+    const renderedDestinationsByProduct = new Map();
     const comparisonGuidePaths = new Set();
     let builtPageCount = 0;
     let builtExternalLinkCount = 0;
@@ -933,12 +940,16 @@ if (checkDist) {
           addError(relativePath + " product " + productId + " has an unknown link placement.");
         }
         const placementKey = productId + ":" + placement;
-        renderedCountByProduct.set(placementKey, (renderedCountByProduct.get(placementKey) ?? 0) + 1);
+        const renderedDestinations = renderedDestinationsByProduct.get(placementKey) ?? [];
+        renderedDestinations.push(href);
+        renderedDestinationsByProduct.set(placementKey, renderedDestinations);
         if (route !== product.guidePath) {
           addError(relativePath + " renders product " + productId + " outside its approved guide.");
         }
-        if (href !== product.destinationUrl) {
+        const offer = getRegisteredRetailers(product).find((retailer) => retailer?.destinationUrl === href);
+        if (!offer) {
           addError(relativePath + " renders an unregistered destination for product " + productId + ".");
+          continue;
         }
         if (attributeValue(anchor, "target") !== "_blank") {
           addError(relativePath + " commercial product " + productId + " is missing safe target handling.");
@@ -949,13 +960,16 @@ if (checkDist) {
             + " must use rel=\"sponsored nofollow noopener noreferrer\".",
           );
         }
-        if (product.affiliate) {
+        if (attributeValue(anchor, "data-commercial-link") !== (offer.affiliate ? "affiliate" : "retailer")) {
+          addError(relativePath + " renders the wrong affiliate status for product " + productId + ".");
+        }
+        if (offer.affiliate) {
           const expectedTrackingAttributes = new Map([
             ["data-commercial-product-name", product.name],
             ["data-commercial-guide-path", product.guidePath],
-            ["data-commercial-affiliate-network", product.affiliateNetwork],
-            ["data-commercial-merchant", product.merchant],
-            ["data-commercial-destination-host", new URL(product.destinationUrl).hostname],
+            ["data-commercial-affiliate-network", offer.affiliateNetwork],
+            ["data-commercial-merchant", offer.merchant],
+            ["data-commercial-destination-host", new URL(offer.destinationUrl).hostname],
             ["data-affiliate-trackable", "true"],
           ]);
           for (const [attribute, expected] of expectedTrackingAttributes) {
@@ -966,7 +980,7 @@ if (checkDist) {
               );
             }
           }
-          validateAffiliateTracking(href, product.affiliateNetwork, relativePath + " product " + productId);
+          validateAffiliateTracking(href, offer.affiliateNetwork, relativePath + " product " + productId);
         } else if (attributeValue(anchor, "data-affiliate-trackable") === "true") {
           addError(relativePath + " non-affiliate product " + productId + " is marked for affiliate tracking.");
         }
@@ -1029,11 +1043,14 @@ if (checkDist) {
     }
 
     for (const product of promotableProducts) {
+      if (getRetailerOfferErrors(product, { today, reviewIntervalDays: catalogue.reviewIntervalDays }).length) continue;
+      const expectedDestinations = getOrderedRetailers(product, { today, reviewIntervalDays: catalogue.reviewIntervalDays })
+        .map((offer) => offer.destinationUrl);
       for (const placement of ["card", "comparison"]) {
-        const expected = placement === "card" || comparisonGuidePaths.has(product.guidePath) ? 1 : 0;
-        const renderedCount = renderedCountByProduct.get(product.id + ":" + placement) ?? 0;
-        if (renderedCount !== expected) {
-          addError("Approved product " + product.id + " renders " + renderedCount + " " + placement + " links; expected " + expected + ".");
+        const expected = placement === "card" || comparisonGuidePaths.has(product.guidePath) ? expectedDestinations : [];
+        const rendered = renderedDestinationsByProduct.get(product.id + ":" + placement) ?? [];
+        if (JSON.stringify(rendered) !== JSON.stringify(expected)) {
+          addError("Approved product " + product.id + " must render each registered " + placement + " link once in commission order.");
         }
       }
     }

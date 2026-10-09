@@ -1,4 +1,5 @@
 import catalogueData from "../data/commercial-products.json";
+import { getOrderedRetailers } from "./commercial-retailers.mjs";
 import type {
   CommercialProduct,
   CommercialProductCatalogue,
@@ -6,6 +7,10 @@ import type {
 } from "../types/commercial-product";
 
 const catalogue = catalogueData as CommercialProductCatalogue;
+
+export function getRetailersForProduct(product: CommercialProduct) {
+  return getOrderedRetailers(product, { reviewIntervalDays: catalogue.reviewIntervalDays });
+}
 
 export const researchOutcomeLabels: Record<ProductResearchOutcome, string> = {
   "research-supported": "Research-supported option",

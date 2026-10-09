@@ -1075,10 +1075,33 @@ h3 {
   scroll-margin-top: 190px;
 }
 
+.commercial-product-shortcut {
+  margin: 20px 0;
+}
+
 .commercial-product-shortcut a {
-  display: inline-block;
-  padding: 10px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--green-dark);
+  border: 1px solid var(--green-dark);
+  border-radius: 7px;
+  color: #fff;
+  min-height: 48px;
+  padding: 12px 18px;
+  line-height: 1.4;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.commercial-product-shortcut a:hover {
+  background: #435b43;
+  color: #fff;
+}
+
+.commercial-product-shortcut a:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
 }
 
 .commercial-product-disclosure {
@@ -1130,20 +1153,6 @@ h3 {
 
 .commercial-product-comparison tbody th {
   width: 25%;
-}
-
-.commercial-product-comparison td:last-child a {
-  display: block;
-  font-weight: 700;
-  min-width: 135px;
-}
-
-.commercial-product-table-disclosure {
-  color: var(--muted);
-  display: block;
-  font-size: 0.8rem;
-  line-height: 1.4;
-  margin-top: 8px;
 }
 
 .commercial-product-block--comparison .commercial-product-grid {
@@ -1280,7 +1289,7 @@ h3 {
 }
 
 .commercial-product-disclosure-details {
-  margin: auto 0 14px;
+  margin: 0;
 }
 
 .commercial-product-details-toggle {
@@ -1298,8 +1307,32 @@ h3 {
   outline-offset: 4px;
 }
 
-.commercial-product-card > a[data-commercial-link] {
-  align-self: stretch;
+.commercial-retailers {
+  margin: 0 0 18px;
+}
+
+.commercial-retailers-label {
+  color: var(--green-dark);
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.commercial-retailer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.commercial-retailer-links li {
+  margin: 0;
+  max-width: 100%;
+}
+
+.commercial-retailer-links a {
   background: var(--green-dark);
   border: 1px solid var(--green-dark);
   border-radius: 7px;
@@ -1311,24 +1344,35 @@ h3 {
   padding: 12px 16px;
   text-align: center;
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
 
-.commercial-product-card > a[data-commercial-link]:hover {
+.commercial-retailer-links a:hover {
   background: #435b43;
   color: #fff;
 }
 
-.commercial-product-card > a[data-commercial-link]:focus-visible {
+.commercial-retailer-links a:focus-visible {
   outline: 3px solid var(--gold);
   outline-offset: 3px;
 }
 
-.commercial-product-link-disclosure {
+.commercial-retailers .commercial-retailer-disclosure {
   color: var(--muted);
   font-size: 0.875rem;
   line-height: 1.45;
   margin: 9px 0 0;
-  text-align: center;
+  text-align: left;
+}
+
+.commercial-retailers--comparison {
+  margin-bottom: 0;
+  min-width: 138px;
+}
+
+.commercial-retailers--comparison .commercial-retailer-links a {
+  padding: 10px 12px;
+  min-height: 44px;
 }
 
 .commercial-product-details-content {

@@ -51,6 +51,33 @@
       "type": "array",
       "items": { "type": "string", "minLength": 1 }
     },
+    "commission": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ratePercent", "checkedOn", "validUntil", "sourceUrl", "applicability"],
+      "properties": {
+        "ratePercent": { "type": "number", "minimum": 0, "maximum": 100 },
+        "checkedOn": { "type": "string", "format": "date" },
+        "validUntil": { "type": "string", "format": "date" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "applicability": { "type": "string", "minLength": 20 }
+      }
+    },
+    "retailerOffer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["merchant", "destinationUrl", "affiliate", "affiliateNetwork", "approvedForAffiliateUse", "affiliateValidation", "sourceRecords", "commission"],
+      "properties": {
+        "merchant": { "type": "string", "minLength": 1 },
+        "destinationUrl": { "type": "string", "format": "uri" },
+        "affiliate": { "const": true },
+        "affiliateNetwork": { "enum": ["amazon-australia", "partnerize", "commission-factory", "direct", "other"] },
+        "approvedForAffiliateUse": { "const": true },
+        "affiliateValidation": { "$ref": "#/$defs/affiliateValidation" },
+        "sourceRecords": { "$ref": "#/$defs/product/properties/sourceRecords" },
+        "commission": { "$ref": "#/$defs/commission" }
+      }
+    },
     "product": {
       "type": "object",
       "additionalProperties": false,
@@ -103,6 +130,11 @@
         "merchant": { "type": "string" },
         "destinationUrl": { "type": "string" },
         "linkLabel": { "type": "string" },
+        "commission": { "$ref": "#/$defs/commission" },
+        "additionalRetailers": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/retailerOffer" }
+        },
         "affiliate": { "type": "boolean" },
         "affiliateNetwork": {
           "type": ["string", "null"],

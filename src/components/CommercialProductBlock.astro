@@ -2,8 +2,10 @@
 import {
   getApprovedProductsForGuide,
   getCommercialSectionId,
+  getRetailersForProduct,
   researchOutcomeLabels,
 } from "../lib/commercial-products";
+import CommercialRetailerLinks from "./CommercialRetailerLinks.astro";
 import {
   AFFILIATE_CLICK_ENDPOINT,
   ANALYTICS_SESSION_KEY,
@@ -24,7 +26,9 @@ const {
 } = Astro.props;
 
 const products = getApprovedProductsForGuide(guidePath);
-const hasAffiliateLinks = products.some((product) => product.affiliate);
+const retailers = new Map(products.map((product) => [product.id, getRetailersForProduct(product)]));
+const hasAffiliateLinks = [...retailers.values()].some((offers) => offers.some((offer) => offer.affiliate));
+const hasMultipleRetailers = [...retailers.values()].some((offers) => offers.length > 1);
 const sectionId = getCommercialSectionId(guidePath);
 
 const formatDate = (date: string) =>
@@ -34,10 +38,6 @@ const formatDate = (date: string) =>
     year: "numeric",
     timeZone: "Australia/Brisbane",
   }).format(new Date(`${date}T00:00:00+10:00`));
-const retailerLabel = (product: (typeof products)[number]) =>
-  product.linkLabel.startsWith("View at ")
-    ? `Check current price at ${product.merchant} →`
-    : product.linkLabel;
 ---
 
 {products.length > 0 && (
@@ -52,15 +52,16 @@ const retailerLabel = (product: (typeof products)[number]) =>
     <p class="commercial-product-context" data-commercial-solution-context>{intro}</p>
     {hasAffiliateLinks && (
       <p class="commercial-product-disclosure" aria-label="Affiliate disclosure">
-        Some links below are affiliate links. If you buy through one, we may earn a commission at
-        no extra cost to you. <a href="/affiliate-disclosure/">Learn more.</a>
+        Some links below are affiliate links. We may earn commission at no extra cost to you.{" "}
+        {hasMultipleRetailers && "For each product, higher-paying partners appear first. "}
+        <a href="/affiliate-disclosure/">Learn more.</a>
       </p>
     )}
     {variant === "comparison" && (
       <div class="commercial-product-comparison-wrap">
         <table class="commercial-product-comparison">
           <caption>Compare these researched options</caption>
-          <thead><tr><th scope="col">Model</th><th scope="col">May suit</th><th scope="col">Check first</th><th scope="col">Retailer</th></tr></thead>
+          <thead><tr><th scope="col">Model</th><th scope="col">May suit</th><th scope="col">Check first</th><th scope="col">Retailers</th></tr></thead>
           <tbody>
             {products.map((product) => (
               <tr>
@@ -76,21 +77,7 @@ const retailerLabel = (product: (typeof products)[number]) =>
                 <td>{product.suitability.suits[0]}</td>
                 <td>{product.drawbacks[0]}</td>
                 <td>
-                  <a
-                    href={product.destinationUrl}
-                    target="_blank"
-                    rel="sponsored nofollow noopener noreferrer"
-                    data-commercial-link={product.affiliate ? "affiliate" : "retailer"}
-                    data-commercial-placement="comparison"
-                    data-commercial-product-id={product.id}
-                    data-commercial-product-name={product.name}
-                    data-commercial-guide-path={guidePath}
-                    data-commercial-affiliate-network={product.affiliateNetwork ?? undefined}
-                    data-commercial-merchant={product.merchant}
-                    data-commercial-destination-host={new URL(product.destinationUrl).hostname}
-                    data-affiliate-trackable={product.affiliate ? "true" : undefined}
-                  >{retailerLabel(product)}</a>
-                  {product.affiliate && <small class="commercial-product-table-disclosure">We may earn a commission if you buy through this link.</small>}
+                  <CommercialRetailerLinks product={product} offers={retailers.get(product.id)!} placement="comparison" />
                 </td>
               </tr>
             ))}
@@ -114,6 +101,7 @@ const retailerLabel = (product: (typeof products)[number]) =>
             </figure>
           )}
           <p>{product.summary}</p>
+          <CommercialRetailerLinks product={product} offers={retailers.get(product.id)!} placement="card" />
           <div class="commercial-product-fit">
             <p><strong>Good fit for</strong><br />{product.suitability.suits[0]}</p>
             <p><strong>Check before buying</strong><br />{product.drawbacks[0]}</p>
@@ -143,27 +131,6 @@ const retailerLabel = (product: (typeof products)[number]) =>
               </p>
             </div>
           </details>
-          <a
-            href={product.destinationUrl}
-            target="_blank"
-            rel="sponsored nofollow noopener noreferrer"
-            data-commercial-link={product.affiliate ? "affiliate" : "retailer"}
-            data-commercial-placement="card"
-            data-commercial-product-id={product.id}
-            data-commercial-product-name={product.name}
-            data-commercial-guide-path={guidePath}
-            data-commercial-affiliate-network={product.affiliateNetwork ?? undefined}
-            data-commercial-merchant={product.merchant}
-            data-commercial-destination-host={new URL(product.destinationUrl).hostname}
-            data-affiliate-trackable={product.affiliate ? "true" : undefined}
-          >
-            {retailerLabel(product)}
-          </a>
-          {product.affiliate && (
-            <p class="commercial-product-link-disclosure">
-              We may earn a commission if you buy through this link, at no extra cost to you.
-            </p>
-          )}
         </article>
       ))}
     </div>

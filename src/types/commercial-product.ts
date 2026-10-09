@@ -96,7 +96,26 @@ export interface AffiliateProgramConfig {
   allowedHosts: string[];
 }
 
-export interface CommercialProduct {
+export interface RetailerCommission {
+  ratePercent: number;
+  checkedOn: string;
+  validUntil: string;
+  sourceUrl: string;
+  applicability: string;
+}
+
+export interface CommercialRetailerOffer {
+  merchant: string;
+  destinationUrl: string;
+  affiliate: boolean;
+  affiliateNetwork: AffiliateNetwork | null;
+  approvedForAffiliateUse: boolean;
+  affiliateValidation: AffiliateProductValidation | null;
+  sourceRecords: ProductSourceRecord[];
+  commission?: RetailerCommission;
+}
+
+export interface CommercialProduct extends CommercialRetailerOffer {
   id: string;
   guidePath: string;
   name: string;
@@ -113,23 +132,17 @@ export interface CommercialProduct {
     suppliedVia: string;
     checkedOn: string;
   };
-  merchant: string;
-  destinationUrl: string;
   linkLabel: string;
-  affiliate: boolean;
-  affiliateNetwork: AffiliateNetwork | null;
+  additionalRetailers?: CommercialRetailerOffer[];
   editorialStatus: CommercialEditorialStatus;
   researchOutcome: ProductResearchOutcome | null;
   evidenceConfidence: EvidenceConfidence | null;
   recallSafetyStatus: RecallSafetyStatus;
   lastReviewedOn: string | null;
-  approvedForAffiliateUse: boolean;
-  affiliateValidation: AffiliateProductValidation | null;
   testingStatus: ProductTestingStatus;
   testingNotes: string;
   drawbacks: string[];
   suitability: ProductSuitability;
-  sourceRecords: ProductSourceRecord[];
 }
 
 export interface CommercialProductCatalogue {

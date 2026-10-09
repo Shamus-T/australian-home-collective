@@ -27,6 +27,21 @@ needs a same-date product-validity check covering the exact product/model where 
 Australian stock or order availability, material listing changes, specification consistency,
 applicable safety/compliance claims and tracking integrity; URL reachability alone is insufficient.
 
+One product record owns one research assessment. For another approved retailer selling the exact
+same model and variant, add `additionalRetailers` to that record, with its own affiliate approval,
+listing validation, seller/fulfilment and Australian availability evidence. Keep the primary
+retailer fields in place: feed monitoring still uses them. Do not create duplicate product cards
+for additional sellers or use retailer branding as evidence of a model match.
+
+When a product has multiple retailers, every affiliate offer (including the primary retailer)
+requires `commission`: `ratePercent`, `checkedOn`, `validUntil`, `sourceUrl` and `applicability`.
+Record the applicable product/category percentage and the checked exclusions, not a network's
+headline maximum. Rates must have been checked within 30 days and must not have expired. Do not
+substitute a fixed-dollar payout for a percentage; that needs a separately reviewed comparison
+method before publishing. Links sort by descending rate, with alphabetical retailer names for
+ties. Product selection and product order remain editorial. Each link retains its own merchant
+and network analytics; rates and their evidence are not rendered in public HTML.
+
 ## Production deployment
 
 Production hosting is provided by Cloudflare Pages through its connected GitHub repository.

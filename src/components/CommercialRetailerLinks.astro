@@ -1,0 +1,44 @@
+---
+import type { CommercialProduct, CommercialRetailerOffer } from "../types/commercial-product";
+
+interface Props {
+  product: CommercialProduct;
+  offers: CommercialRetailerOffer[];
+  placement: "card" | "comparison";
+}
+
+const { product, offers, placement } = Astro.props;
+const disclosureId = `retailer-disclosure-${placement}-${product.id}`;
+const showDisclosure = placement === "card" && offers.some((offer) => offer.affiliate);
+---
+
+<div class={`commercial-retailers commercial-retailers--${placement}`} aria-label={`${product.name} retailers`}>
+  <p class="commercial-retailers-label">Check current price:</p>
+  <ul class="commercial-retailer-links" role="list">
+    {offers.map((offer) => (
+      <li>
+        <a
+          href={offer.destinationUrl}
+          target="_blank"
+          rel="sponsored nofollow noopener noreferrer"
+          aria-label={`Check current price of ${product.name} at ${offer.merchant}`}
+          aria-describedby={showDisclosure ? disclosureId : undefined}
+          data-commercial-link={offer.affiliate ? "affiliate" : "retailer"}
+          data-commercial-placement={placement}
+          data-commercial-product-id={product.id}
+          data-commercial-product-name={product.name}
+          data-commercial-guide-path={product.guidePath}
+          data-commercial-affiliate-network={offer.affiliateNetwork ?? undefined}
+          data-commercial-merchant={offer.merchant}
+          data-commercial-destination-host={new URL(offer.destinationUrl).hostname}
+          data-affiliate-trackable={offer.affiliate ? "true" : undefined}
+        >{offer.merchant === "Amazon Australia" ? "Amazon" : offer.merchant}</a>
+      </li>
+    ))}
+  </ul>
+  {showDisclosure && (
+    <p class="commercial-retailer-disclosure" id={disclosureId}>
+      We may earn commission through these links.{offers.length > 1 && " Higher-paying partners appear first."}
+    </p>
+  )}
+</div>
