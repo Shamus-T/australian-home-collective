@@ -1169,9 +1169,12 @@ h3 {
     margin-inline: calc((100% - min(1120px, calc(100vw - 64px))) / 2);
   }
 
+  .commercial-product-block > h2,
   .commercial-product-block > .commercial-product-context,
-  .commercial-product-block > .commercial-product-disclosure {
+  .commercial-product-block > .commercial-product-disclosure,
+  .commercial-product-block > .commercial-product-details-heading {
     max-width: 760px;
+    margin-inline: auto;
   }
 
   .commercial-product-block .commercial-product-grid {
