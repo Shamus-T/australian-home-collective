@@ -2,8 +2,18 @@
 // Evidence: docs/editorial/appliance-fit-sources-2026-09-10-*.md
 // docs/editorial/fridge-fit-sources-2026-09-11-*.md, and
 // docs/editorial/rangehood-guide-sources-2026-09-12.md.
+// Precision Fit evidence: docs/editorial/precision-fit-preview-sources-2026-10-10.md.
 // This does not approve other store pages or any tracking parameters.
 const reviewedSourceUrls = new Set([
+  "https://www.fisherpaykel.com/on/demandware.static/-/Sites-fpa-master-catalog/default/dw1d3295e5/QRG/AU/QRG-AU-27084.pdf",
+  "https://dam.fisherpaykel.com/KZ3PKN00/at/hsqs38krwj6j3jrp68xfmbh9/FP-PlanningGuide-en-RF600ADX1-RF600ADYB1-RF600ADYX1-RF600ADUB1-RF600ADUX1-RF600ADPVX1-RF600AMPVG1-FrenchDoorRefrigeratorFreezer-0-90006556A-AU-NZ.pdf",
+  "https://dam.fisherpaykel.com/KZ3PKN00/at/r55zvts8gbhw6j3g69fqgg/FP-InstallGuide-en-RF600ADX1-RF600ADYB1-RF600ADYX1-RF600ADUB1-RF600ADUX1-RF600ADPVX1-RF600AMPVG1-FrenchDoorRefrigeratorFreezer-0-433736A-NZ-AU-UK-IE-SG.pdf",
+  "https://dam.fisherpaykel.com/KZ3PKN00/at/nt8xtckc7ptstmgwmsqmtps/FP-FirstUse-en-RF600ADX1-RF600ADYB1-RF600ADYX1-RF600ADUB1-RF600ADUX1-RF600ADPVX1-RF600AMPVG1-FrenchDoorFridge-0-433415A-NZ-AU-UK-IE-SG.pdf",
+  "https://dam.fisherpaykel.com/KZ3PKN00/at/68rm898vjgmkjfv77m8n7b/FP-EnergyLabel-en-RF600ADPVX1-RF600AMPVG1-FrenchDoorRefrigeratorFreezer-0-434358A-NZ-AU.pdf",
+  "https://dam.fisherpaykel.com/KZ3PKN00/at/8v5r3t6g4f9pgn5tttf6cb/FP-SafetyGuide-en-RF600ADX1-RF600ADYB1-RF600ADYX1-RF600ADUB1-RF600ADUX1-RF600ADPVX1-RF600AMPVG1-FrenchDoorRefrigerator-0-433412A-NZ-AU-UK-IE-SG.pdf",
+  "https://dam.fisherpaykel.com/KZ3PKN00/at/7twh4fsh7jhfwf2zqnj3c5/FP-CareGuide-en-RF600ADX1-RF600ADYB1-RF600ADYX1-RF600ADUD1-RF600ADUX1-RF600ADPVX1-RF600AMPVG1-RF600ADJX1-RF600ADUD1-RF600ADUX1-RF600ADPVX1-RF600AMPVG1-FrenchDoorRefrigeratorFreezer-0-433733A-NZ-AU-UK-IE-SG.pdf",
+  "https://www.fisherpaykel.com/au/help-and-support/warranty-information/",
+
   "https://www.bosch-home.com.au/products/cooking-baking/rangehoods/buying-guide",
   "https://www.fisherpaykel.com/on/demandware.static/-/Sites-fpa-master-catalog/default/dwfb349ef1/InstallationManuals-FisherPaykelUS/FP-InstallGuide-en-HC24DCXB4-HC30DCXB4-HC36DCXB4-BoxWallRangeHood-0-106075B-US-CA.pdf",
   "https://www.schweigen.com.au/get-inspired-3/silent-rangehood-buying-guide",

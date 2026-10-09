@@ -113,6 +113,12 @@ const springGuides = [
 
 const featuredGuides = [
   {
+    href: "/guides/fisher-paykel-precision-fit-fridge-preview/",
+    title: "Fisher & Paykel Precision Fit fridge: what to check before buying",
+    description: "A first look at Fisher & Paykel’s Precision Fit fridge, covering kitchen fit, water and ice features, running costs and what to check before pre-ordering.",
+    meta: "Kitchen · Preview",
+  },
+  {
     href: "/guides/gutter-maintenance-guide/",
     title: "Gutter Maintenance Guide",
     description: "Check what needs attention before spring rain or summer storms make a small problem harder to manage.",
@@ -141,12 +147,6 @@ const featuredGuides = [
     title: "Cleaning Product Storage",
     description: "Sort products, check child and pet access, and choose a safe storage zone before adding organisers.",
     meta: "Laundry",
-  },
-  {
-    href: "/guides/best-kitchen-storage-ideas-small-australian-homes/",
-    title: "Kitchen Storage Ideas for Small Australian Homes",
-    description: "Reset bench, drawer and cupboard space around the way the kitchen is actually used.",
-    meta: "Kitchen",
   },
 ];
 
@@ -374,10 +374,10 @@ const homepageCardSources = await getHomepageCardSources();
   <section class="section soft" data-featured-guides="homepage">
     <div class="container section-heading">
       <div>
-        <p class="eyebrow">Seasonal priorities</p>
+        <p class="eyebrow">Featured guides</p>
         <h2>Useful right now</h2>
       </div>
-      <p>Small resets and maintenance jobs worth tackling while the weather is mild.</p>
+      <p>A new appliance preview, practical home resets and seasonal maintenance worth planning now.</p>
     </div>
     <div class="container grid three home-guide-grid">
       {featuredGuides.map((guide) => (

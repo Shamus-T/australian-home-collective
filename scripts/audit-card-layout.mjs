@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
+import sharp from "sharp";
 
 const root = process.cwd();
 const distRoot = path.join(root, "dist");
@@ -134,7 +135,21 @@ for (const route of representativeRoutes) {
         continue;
       }
       const imageTag = images[0];
-      if (!/\bwidth="900"/i.test(imageTag) || !/\bheight="620"/i.test(imageTag)) {
+      const isProductImage = /\bproduct-image\b/.test(card.match(/<article\b[^>]*>/i)?.[0] ?? "");
+      if (isProductImage) {
+        // Product cutouts retain their original aspect ratio and are shown in full.
+        const src = imageTag.match(/\bsrc="([^"]+)"/i)?.[1] ?? "";
+        const width = Number(imageTag.match(/\bwidth="(\d+)"/i)?.[1]);
+        const height = Number(imageTag.match(/\bheight="(\d+)"/i)?.[1]);
+        if (!src.startsWith("/images/") || !fs.existsSync(path.join(distRoot, src))) {
+          fail(`${route} has a product card without a local image.`);
+        } else {
+          const actual = await sharp(path.join(distRoot, src)).metadata();
+          if (width !== actual.width || height !== actual.height) {
+            fail(`${route} product card dimensions must match the original image.`);
+          }
+        }
+      } else if (!/\bwidth="900"/i.test(imageTag) || !/\bheight="620"/i.test(imageTag)) {
         fail(`${route} has a card image without the shared 900×620 intrinsic dimensions.`);
       }
       if (/opacity\s*:/i.test(imageTag)) {

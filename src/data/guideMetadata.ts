@@ -3,6 +3,7 @@ export interface GuideCardMetadata {
   image: string;
   imageAlt: string;
   imagePosition: string;
+  imagePresentation: "background" | "product";
 }
 
 const guideSources = import.meta.glob<string>("../pages/guides/**/index.astro", {
@@ -37,6 +38,7 @@ for (const [sourcePath, source] of Object.entries(guideSources)) {
     image,
     imageAlt,
     imagePosition: readAttribute(component, "imagePosition") ?? "center",
+    imagePresentation: readAttribute(component, "imagePresentation") === "product" ? "product" : "background",
   });
 }
 

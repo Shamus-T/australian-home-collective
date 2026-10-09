@@ -47,6 +47,7 @@ const HeadingTag = headingLevel === 2 ? "h2" : "h3";
   class:list={[
     "guide-card",
     resolvedImage && "has-image",
+    articleMetadata?.imagePresentation === "product" && "product-image",
     meta === "Category" && "category-card",
     className,
   ]}
@@ -62,8 +63,8 @@ const HeadingTag = headingLevel === 2 ? "h2" : "h3";
         class="card-image"
         src={resolvedImage}
         alt={resolvedImageAlt}
-        width="900"
-        height="620"
+        width={articleMetadata?.imagePresentation === "product" ? 833 : 900}
+        height={articleMetadata?.imagePresentation === "product" ? 1000 : 620}
         loading="lazy"
         decoding="async"
         draggable="false"
@@ -76,3 +77,13 @@ const HeadingTag = headingLevel === 2 ? "h2" : "h3";
     <p>{description}</p>
   </a>
 </article>
+
+<style is:global>
+  .guide-card.has-image.product-image a { grid-template-rows: 230px auto auto 1fr; gap: 12px; background: #edf0e8; padding: 24px; }
+  .guide-card.has-image.product-image a::before { display: none; }
+  .guide-card.has-image.product-image .card-image { position: static; grid-row: 1; z-index: auto; width: 100%; height: 230px; object-fit: contain; filter: none; transform: none; }
+  .guide-card.has-image.product-image .meta { grid-row: 2; }
+  .guide-card.has-image.product-image h3, .guide-card.has-image.product-image h2 { grid-row: 3; min-height: 0; }
+  .guide-card.has-image.product-image p:not(.meta) { grid-row: 4; }
+  .guide-card.has-image.product-image h3, .guide-card.has-image.product-image h2, .guide-card.has-image.product-image p { color: #213c31; text-shadow: none; }
+</style>

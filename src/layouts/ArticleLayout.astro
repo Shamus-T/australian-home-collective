@@ -24,6 +24,10 @@ interface Props {
   socialImage?: string;
   socialImageAlt?: string;
   imagePosition?: string;
+  imagePresentation?: "background" | "product";
+  imageCredit?: string;
+  articleLabel?: string;
+  dateChecked?: string;
   faqs?: Array<{
     question: string;
     answer: string;
@@ -46,6 +50,10 @@ const {
   socialImage,
   socialImageAlt,
   imagePosition = "center",
+  imagePresentation = "background",
+  imageCredit,
+  articleLabel,
+  dateChecked,
   faqs = [],
 } = Astro.props;
 
@@ -129,8 +137,8 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
   searchImageAlt={imageAlt}
   structuredData={[breadcrumbSchema, articleSchema, ...(faqSchema ? [faqSchema] : [])]}
 >
-  <header class:list={["article-header", image && "image-header"]}>
-    {image && (
+  <header class:list={["article-header", image && imagePresentation === "background" && "image-header", imagePresentation === "product" && "product-header"]}>
+    {image && imagePresentation === "background" && (
       <img
         class="header-image"
         src={image}
@@ -144,7 +152,7 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
     )}
     <div class="narrow">
       <Breadcrumbs items={breadcrumbItems} />
-      <p class="eyebrow">{category}</p>
+      <p class="eyebrow">{category}{articleLabel && <> · {articleLabel}</>}</p>
       <h1>{title}</h1>
       <p class="lead">{description}</p>
       {hasProductOptions && (
@@ -158,8 +166,15 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
         {machineReadableDate ? <time datetime={machineReadableDate}>{date}</time> : date}
         <span aria-hidden="true"> · </span>{readingTime}
       </p>
+      {dateChecked && <p class="article-meta">Date checked: {dateChecked}</p>}
       {shouldShowDisclosure && <AffiliateDisclosureBlock compact />}
     </div>
+    {image && imagePresentation === "product" && (
+      <figure class="product-figure">
+        <img class="header-image" src={image} alt={imageAlt} width="833" height="1000" loading="eager" decoding="async" />
+        {imageCredit && <figcaption>{imageCredit}</figcaption>}
+      </figure>
+    )}
   </header>
   <article class="content narrow">
     <slot />
@@ -185,3 +200,16 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
     )}
   </article>
 </BaseLayout>
+
+<style is:global>
+  .article-header.product-header { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(240px, 1fr); gap: 36px; align-items: center; padding: 40px max(24px, calc((100vw - 1180px) / 2)); background: #f3f3ec; }
+  .product-header .narrow { width: 100%; max-width: none; margin: 0; padding: 0; }
+  .product-header h1 { font-size: clamp(2rem, 3.2vw, 3.4rem); }
+  .product-figure { margin: 0; text-align: center; }
+  .product-header .header-image { position: static; display: block; width: 100%; height: 470px; object-fit: contain; filter: none; }
+  .product-figure figcaption { margin-top: 12px; font-size: 0.8rem; color: #4a574c; }
+  @media (max-width: 760px) {
+    .article-header.product-header { grid-template-columns: minmax(0, 1fr); gap: 24px; padding: 28px 20px; }
+    .product-header .header-image { height: 360px; }
+  }
+</style>
