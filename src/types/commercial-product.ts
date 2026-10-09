@@ -102,6 +102,17 @@ export interface CommercialProduct {
   name: string;
   productType: string;
   summary: string;
+  image?: {
+    src: string;
+    srcSet: string;
+    alt: string;
+    width: number;
+    height: number;
+    credit: string;
+    sourceUrl: string;
+    suppliedVia: string;
+    checkedOn: string;
+  };
   merchant: string;
   destinationUrl: string;
   linkLabel: string;

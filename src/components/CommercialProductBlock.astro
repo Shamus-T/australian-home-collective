@@ -64,7 +64,15 @@ const retailerLabel = (product: (typeof products)[number]) =>
           <tbody>
             {products.map((product) => (
               <tr>
-                <th scope="row">{product.name}</th>
+                <th scope="row">
+                  {product.image && (
+                    <img class="commercial-product-thumbnail" src={product.image.src}
+                      srcset={product.image.srcSet} sizes="112px" alt=""
+                      width={product.image.width} height={product.image.height}
+                      loading="lazy" decoding="async" />
+                  )}
+                  {product.name}
+                </th>
                 <td>{product.suitability.suits[0]}</td>
                 <td>{product.drawbacks[0]}</td>
                 <td>
@@ -96,6 +104,15 @@ const retailerLabel = (product: (typeof products)[number]) =>
         <article class="commercial-product-card" data-commercial-product-card>
           <p class="commercial-product-type">{product.productType}</p>
           <h3>{product.name}</h3>
+          {product.image && (
+            <figure class="commercial-product-media">
+              <img src={product.image.src} srcset={product.image.srcSet}
+                sizes="(max-width: 767px) calc(100vw - 80px), 360px"
+                alt={product.image.alt} width={product.image.width} height={product.image.height}
+                loading="lazy" decoding="async" />
+              <figcaption>{product.image.credit}</figcaption>
+            </figure>
+          )}
           <p>{product.summary}</p>
           <div class="commercial-product-fit">
             <p><strong>Good fit for</strong><br />{product.suitability.suits[0]}</p>
