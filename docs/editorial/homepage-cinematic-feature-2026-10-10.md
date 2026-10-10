@@ -15,3 +15,7 @@ Assets:
 Visual checks: desktop at 1440 pixels and mobile at 390 pixels; complete fridge visible, no horizontal overflow, readable text and CTA, coherent background placement, feature directly follows the hero. Production build and complete existing audit chain passed; final background refinement was then rebuilt and checked with the output/image audits.
 
 No article publication dates or factual claims were changed.
+
+## Composition correction
+
+The user identified mismatched lighting and appliance alignment in the first composition. Replaced the live background with `public/images/guides/precision-fit-kitchen-aligned.webp` (1280 × 853, 106,954 bytes), generated with the built-in image tool. Softer frontal light now matches the original product photograph; an overhead cabinet frames the opening. The manufacturer appliance remains unchanged and separate. Removed the artificial directional drop shadow. Position and scale account for the transparent margins in the source: image height 80.3%, top 3.7%, horizontal centre 50.13%. Checked the complete appliance, cabinet reveals and floor contact in the browser at desktop, 820px tablet and 390px mobile; no horizontal overflow. The illustrative-setting label remains.
