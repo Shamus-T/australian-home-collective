@@ -11614,7 +11614,7 @@
         "mayNotSuit": [
           "An under-bench opening or a washer-and-dryer stack",
           "People who need freely adjustable gentle-cycle temperatures and spin settings",
-          "Tight cabinetry where the side-clearance discrepancy has not been resolved with LG"
+          "Spaces without 20mm side clearance, 100mm rear clearance and room to open the lid fully"
         ]
       },
       "sourceRecords": [
@@ -11631,7 +11631,7 @@
           "title": "WTX3-09G installation and owner manual",
           "publisher": "LG",
           "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=AkANO59AhNB39Twg3tgw",
-          "supports": "LG manual MFL05812208 Rev.00_012126 explicitly covers WTX3-09G. Page 9 distinguishes 594mm body depth from 645mm overall projection; page 11 states 20mm each side and 100mm rear. LG product FAQ instead says 50mm each side. Discrepancy disclosed, no claim that a tight cavity is confirmed suitable.",
+          "supports": "LG manual MFL05812208 Rev.00_012126 explicitly covers WTX3-09G. Page 9 distinguishes 594mm body depth from 645mm overall projection; page 11 states 20mm each side and 100mm rear. Article clearance advice follows the model manual.",
           "checkedOn": "2026-10-10"
         },
         {
