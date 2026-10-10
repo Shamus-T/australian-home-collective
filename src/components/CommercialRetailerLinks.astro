@@ -40,9 +40,6 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
           data-commercial-destination-host={new URL(offer.destinationUrl).hostname}
           data-affiliate-trackable={offer.affiliate ? "true" : undefined}
         >
-          {(isGoodGuys(offer) || offer.affiliateNetwork === "amazon-australia") && (
-            <span class="commercial-retailer-fallback" aria-hidden="true">{isGoodGuys(offer) ? "The Good Guys" : "Available at Amazon"}</span>
-          )}
           {isGoodGuys(offer) ? (
             <img class="commercial-retailer-badge" src="/images/retailers/the-good-guys-rounded.png" alt="The Good Guys" width="868" height="185" loading="eager" />
           ) : offer.affiliateNetwork === "amazon-australia" ? (
@@ -60,15 +57,3 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
     </p>
   )}
 </div>
-
-<script>
-  // Keep a readable link when an image fails or is blocked.
-  document.querySelectorAll<HTMLImageElement>(".commercial-retailer-badge").forEach((image) => {
-    const update = () => {
-      image.closest("a")?.toggleAttribute("data-retailer-image-ready", image.complete && image.naturalWidth > 0);
-    };
-    image.addEventListener("load", update);
-    image.addEventListener("error", update);
-    update();
-  });
-</script>

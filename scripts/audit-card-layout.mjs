@@ -107,7 +107,7 @@ for (const route of representativeRoutes) {
     continue;
   }
   const html = fs.readFileSync(file, "utf8");
-  if (!html.includes('href="/styles/global.css?v=20"')) {
+  if (!html.includes('href="/styles/global.css?v=21"')) {
     fail(`${route} does not reference the current shared stylesheet version.`);
   }
 
