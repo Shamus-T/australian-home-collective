@@ -16,6 +16,7 @@ interface Props {
   title?: string;
   intro?: string;
   variant?: "solution" | "quick" | "comparison";
+  accessoryProductIds?: string[];
 }
 
 const {
@@ -23,6 +24,7 @@ const {
   title = "Products currently worth comparing",
   intro = "These options have been checked against the measurements and buying questions in this guide.",
   variant = "solution",
+  accessoryProductIds = [],
 } = Astro.props;
 
 const products = getApprovedProductsForGuide(guidePath);
@@ -30,7 +32,13 @@ const retailers = new Map(products.map((product) => [product.id, getRetailersFor
 const hasAffiliateLinks = [...retailers.values()].some((offers) => offers.some((offer) => offer.affiliate));
 const hasMultipleRetailers = [...retailers.values()].some((offers) => offers.length > 1);
 const sectionId = getCommercialSectionId(guidePath);
-const showComparison = variant === "comparison" && products.length > 1;
+const primaryProducts = products.filter(product => !accessoryProductIds.includes(product.id));
+const accessories = products.filter(product => accessoryProductIds.includes(product.id));
+if (accessoryProductIds.some(id => !accessories.some(product => product.id === id)) || (accessories.length && !primaryProducts.length)) {
+  throw new Error('Accessory groups require valid local product IDs and at least one primary product.');
+}
+const productGroups = [primaryProducts, ...(accessories.length ? [accessories] : [])];
+const showComparison = variant === "comparison" && primaryProducts.length > 1;
 const displayVariant = variant === "comparison" && !showComparison ? "quick" : variant;
 
 const formatDate = (date: string) =>
@@ -47,6 +55,7 @@ const formatDate = (date: string) =>
     class={`commercial-product-block commercial-product-block--${displayVariant}`}
     aria-labelledby={sectionId}
     data-commercial-product-block
+    data-accessory-product-ids={accessoryProductIds.join(" ")}
     data-affiliate-endpoint={AFFILIATE_CLICK_ENDPOINT}
     data-analytics-session-key={ANALYTICS_SESSION_KEY}
   >
@@ -67,7 +76,7 @@ const formatDate = (date: string) =>
           <caption>Compare these researched options</caption>
           <thead><tr><th scope="col">Option</th><th scope="col">May suit</th><th scope="col">Check first</th><th scope="col">Check current price</th></tr></thead>
           <tbody>
-            {products.map((product) => (
+            {primaryProducts.map((product) => (
               <tr>
                 <th scope="row">
                   {product.image && (
@@ -92,8 +101,13 @@ const formatDate = (date: string) =>
       </>
     )}
     {showComparison && <h3 class="commercial-product-details-heading">More about each option</h3>}
-    <div class="commercial-product-grid">
-      {products.map((product) => (
+    {productGroups.map((group, index) => (<>
+    {index > 0 && <>
+      <h3 class="commercial-product-details-heading">Optional setup accessories</h3>
+      <p>These do not replace the appliance. Check what is included and buy an extra only when it solves a specific setup problem.</p>
+    </>}
+    <div class="commercial-product-grid" data-product-role={index > 0 ? "accessory" : "primary"}>
+      {group.map((product) => (
         <article id={`product-${product.id}`} class="commercial-product-card" data-commercial-product-card>
           <p class="commercial-product-type">{product.productType}</p>
           <h3>{product.name}</h3>
@@ -140,6 +154,7 @@ const formatDate = (date: string) =>
         </article>
       ))}
     </div>
+    </>))}
   </section>
 )}
 

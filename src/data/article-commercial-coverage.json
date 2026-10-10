@@ -1,0 +1,2969 @@
+{
+  "version": 1,
+  "updatedOn": "2026-10-11",
+  "articles": [
+    {
+      "guidePath": "/australian-status-labels/",
+      "title": "Australian Status Labels",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Explains AHC origin labels; no shopping decision.",
+      "reviewedSourceSha256": "7d62aed7bd54fb21e210df95b1a3d008e196511f3a8418f9dc9044f4266bfc02",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/australian-made-gift-ideas-under-100/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/20-minute-spring-reset/",
+      "title": "The 20-Minute Spring Reset: 12 Small Jobs That Make Your Home Feel Better",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Time-boxed use-what-you-own reset.",
+      "reviewedSourceSha256": "5a57a1b0454aab3a232b2e5283494020917a08eac011a0bd639479b685e73441",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/air-conditioner-dry-mode-humidity/",
+      "title": "Air Conditioner Dry Mode & Humidity: What It Does and When to Use It",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "da27665d036e514da19773f1c51bd05673f3031dbe5b4b56a4f06bb4f1c54a34",
+      "requiredProductTypes": [
+        {
+          "label": "Dedicated compressor dehumidifier for smaller rooms",
+          "productIds": [
+            "dry-mode-breville-smart-dry-connect-lad208"
+          ]
+        }
+      ],
+      "supportingProductIds": [
+        "dry-mode-temppro-tp49-room-monitor"
+      ],
+      "contextualRoutes": [
+        "/guides/portable-air-conditioners-australia/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/air-conditioner-maintenance-before-summer/",
+      "title": "Air Conditioner Maintenance Before Summer: What You Can Check and When to Call a Technician",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Owner maintenance and when to use licensed service.",
+      "reviewedSourceSha256": "9a04a9c670745284124936ef2ddd2dd75486e071b5aa937e6421e88a331d4b80",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/how-to-keep-house-cooler-in-summer/",
+        "/guides/portable-air-conditioners-australia/",
+        "/guides/air-conditioner-dry-mode-humidity/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/air-conditioning-buying-guide/",
+      "title": "Air Conditioning Buying Guide: What to Check Before You Choose and Install",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "ad18172738d5c392d31af4006c79bfc1c5a3d1836d750b3c23e415579da0f621",
+      "requiredProductTypes": [
+        {
+          "label": "Split-system, multi-split, ducted and window/wall air conditioners",
+          "productIds": [],
+          "gapReason": "No current exact-model installed-system shortlist; previous Amazon-only exclusion is obsolete. Site-specific sizing remains necessary."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/portable-air-conditioners-australia/",
+        "/guides/air-conditioner-dry-mode-humidity/",
+        "/guides/how-to-keep-house-cooler-in-summer/",
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/australian-made-gift-ideas-under-100/",
+      "title": "Australian Made Home Gift Ideas Under $100",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "6d4723b6b393a0639ee26297d31da7f2949ad1ce8ce9dd558134f8012e3f4d0b",
+      "requiredProductTypes": [
+        {
+          "label": "Flavoured almond sampler gift box",
+          "productIds": [
+            "gift-taronga-almonds-flavoured-sampler"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/baby-bath-time-essentials/",
+      "title": "Baby Bath Time: What You Need Close By",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "03506bd602919ade293bfd7717dee21281ce1b1f864d55fad61141ff11cbc68b",
+      "requiredProductTypes": [
+        {
+          "label": "Baby bath and drying equipment",
+          "productIds": [],
+          "gapReason": "Exact-product suitability, Australian safety guidance and source photographs still need research."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/baby-monitors-australia/",
+      "title": "Baby Monitors for Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "88c5c79ff31797a6b140bb896ea1deac8bff4dfeed276ce440f29bc5ae66905e",
+      "requiredProductTypes": [
+        {
+          "label": "Audio, local-video and connected baby monitors",
+          "productIds": [],
+          "gapReason": "No approved exact monitor with current privacy, range, support and owner evidence."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/baby-outing-essentials-what-to-pack-before-leaving-the-house/",
+      "title": "What to Pack When You Leave the House With a Baby",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Packing routine rather than a recommendation of bags, prams or car seats.",
+      "reviewedSourceSha256": "792dd9c4dd4f148d0230407e8488b765a3cab96a1175bb68bf90fbeebac65f5b",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/balcony-and-courtyard-garden-setup-what-to-plan-before-buying-pots-and-planters/",
+      "title": "A Balcony Garden That Leaves Room to Move",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "78f736a7f4d20ff01c715951553f5fe6e90a64549901a064a0f5fcd2bbe4888a",
+      "requiredProductTypes": [
+        {
+          "label": "Pots and planters",
+          "productIds": [],
+          "gapReason": "No exact-model planter assessed for dimensions, drainage, weight and Australian supply."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/",
+      "title": "A Barbecue Area With Room to Cook and Serve",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "fb635c4643746cbe47d5e5ca98590c9ac5b30c6d19f3f766cba65d79d6dd18a3",
+      "requiredProductTypes": [
+        {
+          "label": "Barbecues",
+          "productIds": [],
+          "gapReason": "No approved barbecue; appliance clearance and fuel instructions must be checked per model."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bassinet-vs-cot/",
+      "title": "Bassinet vs Cot: Which One Makes Sense First?",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "ef959c657f58c549ee35953bba7fb96c3c2bd748a03949ead8255ba1ed894fc9",
+      "requiredProductTypes": [
+        {
+          "label": "Bassinets and cots",
+          "productIds": [],
+          "gapReason": "No approved exact-model sleep product with current Australian compliance and recall checks."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bathroom-essentials-australian-homes/",
+      "title": "Bathroom Essentials for Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "1739470783eccf03e8c52dc8297a93f620cdb89302a840c84329cfcc29791c43",
+      "requiredProductTypes": [
+        {
+          "label": "Bath mats, towels, bins and hooks",
+          "productIds": [],
+          "gapReason": "A broad essentials guide still lacks researched buying examples for its recurring purchases."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
+      "title": "Bathroom Product Storage That Keeps Daily Items Easy to Find",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "bd279692f7adcbd080769012d78a720c2f496fd2fa3bf28808b26f65475a5e2a",
+      "requiredProductTypes": [
+        {
+          "label": "Portable bathroom caddy",
+          "productIds": [
+            "bathroom-product-storage-what-to-sort-before-buying-organisers-option-1"
+          ]
+        },
+        {
+          "label": "Drawer organisers and reserve-product storage",
+          "productIds": [],
+          "gapReason": "The added caddy covers an active vanity collection only."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+        "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/",
+        "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
+      "title": "Bathroom Storage That Works in Real Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "53624aef0b5ab9aeda083d772e19b6a0e8d4bde516b20c914c1dce8a5b48ed5e",
+      "requiredProductTypes": [
+        {
+          "label": "Bathroom shelves, towel storage and organisers",
+          "productIds": [],
+          "gapReason": "Links to narrower guides are useful but do not provide buying options on this page."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+      "title": "How to Make Your Bathroom Vanity Easier to Use",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "44b306e5601742de7d4a668d1d554b2c8d85f55243f84d63c200c21c432915fa",
+      "requiredProductTypes": [
+        {
+          "label": "Portable bathroom caddy",
+          "productIds": [
+            "joseph-joseph-easystore-bathroom-caddy"
+          ]
+        },
+        {
+          "label": "Sliding basket organiser",
+          "productIds": [
+            "simplehouseware-three-tier-sliding-basket"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bedding-and-linen-basics-for-australian-bedrooms/",
+      "title": "Bedding and Linen Basics for Australian Bedrooms",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "f12e6fa737bf8dbb5dd3ef362606114de75c4f914fe7b663e03b346666500c35",
+      "requiredProductTypes": [
+        {
+          "label": "Sheets, quilts and linen",
+          "productIds": [],
+          "gapReason": "No approved size-specific bedding with current care, material and owner evidence."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/",
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
+      "title": "Bedroom Drawers That Open Without Crowding the Room",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "063ef2483bc4bd5a37ae51644d2d020f39b41523cf210562ddc2d062999a854e",
+      "requiredProductTypes": [
+        {
+          "label": "Tallboys and dressers",
+          "productIds": [],
+          "gapReason": "No researched furniture option with anchoring requirements and exact dimensions."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
+      "title": "Bedroom Essentials for a More Comfortable Home",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "8cfcd01401ac9bd5d04af0f2ee3628f1210708b29e2311bc6e42b96767bc0b9e",
+      "requiredProductTypes": [
+        {
+          "label": "Bedding, bedside lights and window coverings",
+          "productIds": [],
+          "gapReason": "Related articles do not establish product coverage for these purchases."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
+      "title": "Bedroom Lighting and Window Coverings for Real Routines",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "5ff0005b2859fb34fac190e3e90eeb68e48417c40635683e1bd2325125fab068",
+      "requiredProductTypes": [
+        {
+          "label": "Bedside lighting and window coverings",
+          "productIds": [],
+          "gapReason": "No approved lighting or covering options; measure fit and check cord safety per product."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bedroom-storage-ideas-small-australian-rooms/",
+      "title": "Bedroom Storage Ideas for Small Australian Rooms",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "e6b306694ec9ee4043b2b45328ab888d733bb3061a3d3e9bdeb15e5d27f945c5",
+      "requiredProductTypes": [
+        {
+          "label": "Small-bedroom storage",
+          "productIds": [],
+          "gapReason": "Linked wardrobe and under-bed guides have image gaps; do not duplicate incomplete cards."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+      "title": "Wardrobe Storage for the Clothes You Actually Wear",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "348af650e57fa231468802b1778015452f82200543a7f0d40f6e89c07667e58d",
+      "requiredProductTypes": [
+        {
+          "label": "Hanging wardrobe shelves",
+          "productIds": [
+            "amazon-basics-six-tier-hanging-shelf"
+          ]
+        },
+        {
+          "label": "Hanging wardrobe shelves with drawers",
+          "productIds": [
+            "amazon-basics-hanging-shelf-drawers"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/bedside-table-setup-what-to-check-before-you-buy/",
+      "title": "A Bedside Table That Fits the Room and Routine",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "092e747ffc8e7cfe1957b2d48fc6f28ef5a272380f7b4a80b4737cc75d5f2881",
+      "requiredProductTypes": [
+        {
+          "label": "Bedside tables",
+          "productIds": [],
+          "gapReason": "No assessed exact table with reach, dimensions and stability evidence."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
+      "title": "Kitchen Storage That Makes Small Cupboards Easier to Use",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "979dc7051fb94989374b18e2964005954fd061f19b3ce0faf1cf9486ccf48419",
+      "requiredProductTypes": [
+        {
+          "label": "Small-kitchen storage options",
+          "productIds": [],
+          "gapReason": "Direct buying choices are missing; existing focused storage guides are contextual routes only."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
+      "title": "Cat Litter Trays in Australia: How to Choose Size and Style",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "b43fa18afb2c91399a354f7163c84e8c110fb6bb7d4f5be39a934663c30b1380",
+      "requiredProductTypes": [
+        {
+          "label": "Cat litter trays",
+          "productIds": [],
+          "gapReason": "No researched exact tray; food-storage products do not answer this decision."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/ceiling-fans-before-you-buy/",
+      "title": "Ceiling Fans Before You Buy: What to Measure and Check",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "af95fc7b5a02977fe96e8365ad62a1161e002face4712f132bfba714d7599fe1",
+      "requiredProductTypes": [
+        {
+          "label": "Ceiling fans",
+          "productIds": [],
+          "gapReason": "No approved fan models; licensed installation is a requirement, not a blanket ban on suitable product links."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/christmas-at-home-australia/",
+      "title": "Christmas at Home: Trees, Lights and Decorating",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "03ff49dd1250628b2c12b63271a4924a23e474aaf725cf97b910bf628193096c",
+      "requiredProductTypes": [
+        {
+          "label": "Christmas trees and lights",
+          "productIds": [],
+          "gapReason": "No approved exact seasonal products or verified current retailer offers. Do not assume an affiliate application is approved."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
+      "title": "Cleaning Product Storage That Keeps Supplies Under Control",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "c8ff84ff7f9fc4540fe78eca23f5aa34fb400c2aa8606588509ee8ca565ee424",
+      "requiredProductTypes": [
+        {
+          "label": "Cleaning caddies and secure cabinets",
+          "productIds": [],
+          "gapReason": "No exact storage product assessed for its intended load and safe access."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/coffee-machine-types-australia/",
+      "title": "Coffee Machine Types Australia: Manual, Automatic, Pod and Filter",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "b7a985e46ddb73f5f8802dd14f6edf51b16c5c44c5a7c1deabc8ab4b40d78497",
+      "requiredProductTypes": [
+        {
+          "label": "Assisted manual espresso machine",
+          "productIds": [
+            "breville-barista-touch-impress-bes881bss"
+          ]
+        },
+        {
+          "label": "Fully automatic machine with hot and cold milk",
+          "productIds": [
+            "delonghi-eletta-explore-ecam450-55-g"
+          ]
+        },
+        {
+          "label": "Fully automatic machine with removable milk container",
+          "productIds": [
+            "philips-5500-lattego-ep5541-20"
+          ]
+        },
+        {
+          "label": "Original capsule coffee machine",
+          "productIds": [
+            "nespresso-bec220blk-good-guys"
+          ]
+        },
+        {
+          "label": "Filter coffee machines",
+          "productIds": [],
+          "gapReason": "Manual espresso, automatic and capsule choices exist; filter format still lacks an approved option."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/condensation-and-mould-during-winter/",
+      "title": "Condensation and Mould During Winter: What to Check Before It Spreads",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Diagnose moisture and health concerns; selling a dehumidifier must not imply remediation.",
+      "reviewedSourceSha256": "1c2dad4206247c5905c54fff3ef3af883c1e1ce4d491678c60e6c41ef6f591ed",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/air-conditioner-dry-mode-humidity/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/cookware-materials-compared/",
+      "title": "Cookware Materials Compared for Australian Kitchens",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "b4edb1be36e242df0b3c23ec73c346b7598e6eb53a9de1e7e2ca47e7db5b7f65",
+      "requiredProductTypes": [
+        {
+          "label": "Stainless-steel cookware set",
+          "productIds": [
+            "scanpan-impact-six-piece-cookware-set"
+          ]
+        },
+        {
+          "label": "Pre-seasoned cast-iron skillet",
+          "productIds": [
+            "lodge-twelve-inch-cast-iron-skillet"
+          ]
+        },
+        {
+          "label": "Nonstick, carbon-steel and enamel cookware",
+          "productIds": [],
+          "gapReason": "Stainless steel and cast iron are covered; the other compared material types remain unrepresented."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/cordless-stick-vacuums-australia/",
+      "title": "Cordless Stick Vacuums Australia: What to Compare Before Buying",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "133afb5926b2146e4b19326d7a2531c9596c289e7b1d285bfd8b7f88dcdbfb11",
+      "requiredProductTypes": [
+        {
+          "label": "Cordless stick vacuum",
+          "productIds": [
+            "shark-powerpro-iz373hanz-good-guys"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/reduce-pollen-dust-inside-home-spring/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/dishwasher-sizes-australia/",
+      "title": "Dishwasher Sizes Australia: Measure Before You Buy",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "3c30c1bf99bee9e20ece69975f148d43c3fcedffdf7cb5e26e28dea20cafd6a5",
+      "requiredProductTypes": [
+        {
+          "label": "60cm freestanding dishwasher",
+          "productIds": [
+            "bosch-sms6hci02a-good-guys"
+          ]
+        },
+        {
+          "label": "Drawer, integrated and slimline dishwashers",
+          "productIds": [],
+          "gapReason": "Bosch freestanding option added. The named F&P and Miele dimension examples are not cleared affiliate recommendations."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/electric-blankets-vs-heated-throws/",
+      "title": "Electric Blankets vs Heated Throws: Which Type of Personal Heating Suits You?",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "254db969c504a9646974a9906f2cc7dd57505c04876cc2d46b132b744cd8e2bd",
+      "requiredProductTypes": [
+        {
+          "label": "Fully fitted queen electric underblanket",
+          "productIds": [
+            "winter-sunbeam-bla6351-queen-electric-blanket"
+          ]
+        },
+        {
+          "label": "One-person heated throw for awake use",
+          "productIds": [
+            "winter-sunbeam-trf4200-sherpa-heated-throw"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/evaporative-cooler-vs-refrigerated-air-conditioning/",
+      "title": "Evaporative Cooler vs Refrigerated Air Conditioning: Which Works in Your Climate?",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "eb6e2a49538a9226dc37f3cc13da8d9dc6765be496f138cdba5df6f944773950",
+      "requiredProductTypes": [
+        {
+          "label": "Evaporative and refrigerated cooling examples",
+          "productIds": [],
+          "gapReason": "No direct researched models; explanation and cross-links do not count as model coverage."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/air-conditioner-dry-mode-humidity/",
+        "/guides/portable-air-conditioners-australia/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
+      "title": "Everyday Kitchen Essentials for Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "8135ef5ddf60b67bf96bcfab0de5e748f26257947514a5c84180e5b109d5007c",
+      "requiredProductTypes": [
+        {
+          "label": "Everyday kitchen equipment",
+          "productIds": [],
+          "gapReason": "Overview links to focused guides but has no direct researched buying examples."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/australian-made-gift-ideas-under-100/",
+        "/guides/cookware-materials-compared/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/fan-heater-vs-ceramic-heater/",
+      "title": "Fan Heater vs Ceramic Heater: What Is the Practical Difference?",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "29d3fcef405ccdadd6c614c3b863ccd4b696c18c31d61186f210ad0bff0ebc5f",
+      "requiredProductTypes": [
+        {
+          "label": "2000W conventional fan heater",
+          "productIds": [
+            "winter-heller-hufh2000-upright-fan-heater"
+          ]
+        },
+        {
+          "label": "1800W compact ceramic fan heater",
+          "productIds": [
+            "winter-delonghi-hfx30c18-ceramic-capsule-heater"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/oil-column-heater-vs-panel-heater/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/fisher-paykel-precision-fit-fridge-preview/",
+      "title": "Fisher & Paykel Precision Fit fridge: what to check before buying",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "9f0aec02c3e33ab142a5f5f326f16010858f84256bedcdd9b4f4599b066b302c",
+      "requiredProductTypes": [
+        {
+          "label": "Fisher & Paykel RF600AMPVG1",
+          "productIds": [],
+          "gapReason": "Preview status does not establish an orderable exact-model affiliate offer. No substitute model should appear as its purchase link."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/fridge-dimensions-australia/",
+      "title": "Fridge Dimensions Australia: What to Measure Before Buying",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "eb1f7f23b2a27ca8475e7cca58d1576bd96c557d3a84902f4f031c99686db170",
+      "requiredProductTypes": [
+        {
+          "label": "Measured fridge models",
+          "productIds": [],
+          "gapReason": "The named dimension examples have manufacturer sources but no approved retailer records on this page."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/lg-fit-max-436l-fridge-first-look/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
+      "title": "Garage Shelving That Fits the Space and the Load",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "29411261ec6f0b3b9cbdb58b97efdd6dde8ebca56d938a805cc064f1f0e105da",
+      "requiredProductTypes": [
+        {
+          "label": "Mobile wire shelving unit",
+          "productIds": [
+            "amazon-basics-five-shelf-caster-unit"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
+      "title": "Garage Storage Tubs Worth Sorting Before Buying More",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "cdfc8a5f9cba0dc7c7711f4a9f6035ebe6fe92b4418e97d8209091dee3a691a8",
+      "requiredProductTypes": [
+        {
+          "label": "Gasket-sealed storage tub",
+          "productIds": [
+            "sterilite-51l-gasket-box"
+          ]
+        },
+        {
+          "label": "Stackable lidded storage box",
+          "productIds": [
+            "really-useful-box-19l-clear"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/garage-shelving-what-to-measure-before-buying-storage-units/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/garage-storage-what-to-measure-and-check-before-you-buy/",
+      "title": "Garage Storage Planning Checklist",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "aa6057c05856713a7c5d20c0f66f310b171853096e76e224a247e46db6fce6de",
+      "requiredProductTypes": [
+        {
+          "label": "Garage storage options",
+          "productIds": [],
+          "gapReason": "Focused shelving and tub links exist, but exact direct examples and their missing media need work."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
+        "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
+        "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
+        "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/",
+      "title": "Garage Tool Storage That Starts With Sorting",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "ff9788e85f85a1c6fd4287a770aca11f01d2e7657abbb1017264afae3b2a1cff",
+      "requiredProductTypes": [
+        {
+          "label": "Portable parts organiser",
+          "productIds": [
+            "stanley-fatmax-pro-stack-ten-cup-organiser"
+          ]
+        },
+        {
+          "label": "Compartment tool organiser",
+          "productIds": [
+            "dewalt-twenty-compartment-pro-organizer"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
+      "title": "Garage Wall Storage That Keeps Gear Visible",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "f094ebc3dd2297e8ac5ca874d9eda34100537c54913e888deecb248deb5a7655",
+      "requiredProductTypes": [
+        {
+          "label": "Adhesive tool gripper",
+          "productIds": [
+            "command-broom-gripper-two-pack"
+          ]
+        },
+        {
+          "label": "Freestanding long-tool rack",
+          "productIds": [
+            "traderight-garden-tool-storage-rack"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/garden-tool-care-and-seasonal-outdoor-reset/",
+      "title": "Garden Tool Care and a Seasonal Outdoor Reset",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Care and maintenance of existing garden tools.",
+      "reviewedSourceSha256": "b35ecebb59759c2e56ee074ce8f1ab9ecb05ba51bfab472e485f59d1e8064d3a",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/gutter-maintenance-guide/",
+      "title": "Gutter Maintenance Guide: What to Check Before Cleaning, Repairing or Adding Guards",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Ground-level inspection and professional work-at-height boundaries.",
+      "reviewedSourceSha256": "9c421a4886ef70a1eb90b8cd982f7ae040025403216857120e4a7b702c073973",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
+      "title": "Heat Pump vs Condenser vs Vented Dryers",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "663674ad0e49d4af70f0f5f03adbe015d01a718bff4e49ae31a221770bfdc313",
+      "requiredProductTypes": [
+        {
+          "label": "Heat pump clothes dryer",
+          "productIds": [
+            "bosch-wqg24201au-good-guys"
+          ]
+        },
+        {
+          "label": "Conventional condenser and vented dryers",
+          "productIds": [],
+          "gapReason": "Heat pump option added. F&P DE6060M2 remains unapproved after recurring mechanical complaints in reviewed owner feedback; no conventional condenser candidate cleared."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",
+      "title": "Heating a Bedroom: What Type Suits Overnight Comfort?",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Bedroom comfort and safe heating choices; focused buying comparisons are linked.",
+      "reviewedSourceSha256": "7862541fad27a9ac18eb5f6320ee2083f0076adc059ff5d626c8230bdb38ad34",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/electric-blankets-vs-heated-throws/",
+        "/guides/oil-column-heater-vs-panel-heater/",
+        "/guides/fan-heater-vs-ceramic-heater/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/heating-an-open-plan-living-area/",
+      "title": "Heating an Open-Plan Living Area: What to Check Before Choosing a System",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Room-load and installed-system planning, not an exact-model comparison.",
+      "reviewedSourceSha256": "c9dfd013ed85f63efad85f3ec37da43db2be243d9dfb7720ba4e0e6fddd107f3",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/home-heating-options-australia/",
+      "title": "Home Heating Options in Australia: What to Check Before You Choose",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "f8ae31e9102c7bd346b19ab502040371818a594cf859f6006c9c3a30bed3d555",
+      "requiredProductTypes": [
+        {
+          "label": "Installed and portable heating choices",
+          "productIds": [],
+          "gapReason": "Broad category explanation is not a current researched shortlist; old Amazon-only rationale is obsolete."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/fan-heater-vs-ceramic-heater/",
+        "/guides/oil-column-heater-vs-panel-heater/",
+        "/guides/electric-blankets-vs-heated-throws/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/home-insulation-basics/",
+      "title": "Home Insulation Basics: What to Check Before You Upgrade",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Building insulation planning and professional assessment.",
+      "reviewedSourceSha256": "57ed414a38bb4fc74e1df69c7debd2e3ea340a460bdb6e7d8ab6d309f13a671c",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/",
+      "title": "Home Office Cable Management You Can Still Access",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "f65b07b03af0a91714d436e26fd8731ab180f664d1a8f0ebb3d78836e7cadab0",
+      "requiredProductTypes": [
+        {
+          "label": "Cable management box",
+          "productIds": [
+            "d-line-large-cable-tidy-box"
+          ]
+        },
+        {
+          "label": "Compact cable management box",
+          "productIds": [
+            "d-line-small-cable-tidy-box"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+        "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/home-office-chair-and-seating-what-to-check-before-you-buy/",
+      "title": "An Office Chair That Fits Under the Desk",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "9bac6979790aa0f0180a92670de8d559ed3ba04eca8840d2f08decf71f1dd1dd",
+      "requiredProductTypes": [
+        {
+          "label": "Office chairs",
+          "productIds": [],
+          "gapReason": "No approved chair with adjustment, fit, warranty and owner evidence."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
+      "title": "Home Office Desk Setup: What to Measure Before You Buy",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "c0a3d73cbda47ecab9698d80eb385443b4ee73be8d538f146764db28a1d9979e",
+      "requiredProductTypes": [
+        {
+          "label": "Office desks",
+          "productIds": [],
+          "gapReason": "No approved desk with working dimensions, stability and load information."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+      "title": "Home Office Lighting for Screens, Calls and Paperwork",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "85dc084b0c724ef45727904073853229d6b2a50b92ce833db4418aefcb6ce84e",
+      "requiredProductTypes": [
+        {
+          "label": "Rechargeable desk lamp",
+          "productIds": [
+            "magnifica-luce-cordless-desk-lamp"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/home-office-setup-ideas-small-spaces/",
+      "title": "Home Office Setup Ideas for Small Spaces",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Multi-use room planning; focused furniture and cable guides provide the shopping routes.",
+      "reviewedSourceSha256": "1388a02dd7254fc50efb577978224370d6ef2faaacf6f7d55c524d459094820c",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/",
+        "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/",
+      "title": "Home Office Storage for Active Work and Household Paperwork",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "5fe58621ef6176dd4342a6d3a05aa28ede278e2b741655d5f1f370dd191690f2",
+      "requiredProductTypes": [
+        {
+          "label": "Lidded office storage box",
+          "productIds": [
+            "office-really-useful-box-19l"
+          ]
+        },
+        {
+          "label": "Lockable document box",
+          "productIds": [
+            "cathedral-a4-steel-file-box"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/home-office-video-call-background-and-desk-zone-setup-what-to-plan-before-buying/",
+      "title": "A Video Call Setup That Does Not Take Over the Room",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Camera framing and desk-zone planning, not a camera or lighting review.",
+      "reviewedSourceSha256": "753e70c9fd1ac3e19ed1d5e5b434687eab522abca8695635b0dd23a2955f889f",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/",
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
+      "title": "Dog Beds in Australia: How to Choose the Right Size and Style",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "5f23c45790ea4b321e83a286b41f20c31ec658ac72f42930434dce7f0c6d04b8",
+      "requiredProductTypes": [
+        {
+          "label": "Bolstered memory-foam dog bed",
+          "productIds": [
+            "costway-orthopedic-dog-bed"
+          ]
+        },
+        {
+          "label": "Elevated mesh dog bed",
+          "productIds": [
+            "coolaroo-original-elevated-pet-bed"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/how-to-keep-house-cooler-in-summer/",
+      "title": "How to Keep Your House Cooler in Summer — Before Buying a Bigger Air Conditioner",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Passive cooling and diagnosis; condition monitors and seam tape are supporting tools.",
+      "reviewedSourceSha256": "1ea7516c9e01ac354d9dccce53b3dbe35bab4ba36a517510c208e407b30600a9",
+      "requiredProductTypes": [],
+      "supportingProductIds": [
+        "summer-temppro-tp60b-indoor-outdoor-monitor",
+        "summer-3m-2110na-weather-sealing-tape"
+      ],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/keep-flies-mosquitoes-out-of-home/",
+      "title": "How to Keep Flies and Mosquitoes Out of Your Home This Spring and Summer",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "1d4fed141817ed2cbc089a3ec1a195c54b446ec9db88cc75e78adc02beb944db",
+      "requiredProductTypes": [
+        {
+          "label": "Self-adhesive flyscreen repair patches",
+          "productIds": [
+            "flies-cowdroy-flyscreen-repair-patches"
+          ]
+        },
+        {
+          "label": "Cut-to-size removable window flyscreen",
+          "productIds": [
+            "flies-cowdroy-removable-window-flyscreen"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/kids-play-and-toy-storage-what-to-plan-before-buying/",
+      "title": "A Kids’ Play Zone That Is Easy to Reset",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Toy rotation and child-access planning, not a toy recommendation.",
+      "reviewedSourceSha256": "e357f70499ddadc15ea6490092acfa6bef7fcb1814ff8bafac7c56c64810fd13",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
+      "title": "Kitchen Bench Space That Stays Clear",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Clear existing bench clutter before buying organisers.",
+      "reviewedSourceSha256": "bb7264483d9a07b673237b064aff041ae4a7905656cb8f68d96daabddffc74fe",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/coffee-machine-types-australia/",
+        "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
+      "title": "Kitchen Containers Worth Sorting First",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "1471229f32ea396034b2a392d8a0e96ce6983e27a9b45905c97de3a8cd0e71a6",
+      "requiredProductTypes": [
+        {
+          "label": "Single dry-food container",
+          "productIds": [
+            "kitchen-container-storage-what-to-sort-before-buying-more-containers-option-1"
+          ]
+        },
+        {
+          "label": "Meal-preparation, refrigerator and freezer containers",
+          "productIds": [],
+          "gapReason": "The added OXO container is for dry pantry food only."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+      "title": "Kitchen Drawers That Are Easier to Use",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "e1a202fb3bb8a1fad311f2b3158c68ae8a56da4a68cc74d100872f2b9877e1ff",
+      "requiredProductTypes": [
+        {
+          "label": "Expandable utensil drawer organiser",
+          "productIds": [
+            "oxo-expandable-utensil-drawer-organiser"
+          ]
+        },
+        {
+          "label": "Expanding cutlery, utensil and gadget organiser",
+          "productIds": [
+            "joseph-joseph-drawerstore-expanding-organiser"
+          ]
+        },
+        {
+          "label": "Large expandable kitchen-tool drawer organiser",
+          "productIds": [
+            "oxo-large-expandable-kitchen-tool-drawer-organiser"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+      "title": "Laundry Baskets That Suit the Routine",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "c833399b1df76d2a60b6c48d20050b2115d8876a3747dded85b81ce770ad74c7",
+      "requiredProductTypes": [
+        {
+          "label": "Two-compartment laundry separation basket",
+          "productIds": [
+            "joseph-joseph-tota-90l-laundry-separation-basket"
+          ]
+        },
+        {
+          "label": "Collapsible 55 L carry basket",
+          "productIds": [
+            "joseph-joseph-hold-all-max-collapsible-laundry-basket"
+          ]
+        },
+        {
+          "label": "Stackable 35 L laundry sorter",
+          "productIds": [
+            "brabantia-stackable-laundry-box-35l"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+      "title": "Drying Space That Works in Real Weather",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "52b65866a98371d21b4ada27308fb204696c1332f0ef75f85093c5160b7a2e8f",
+      "requiredProductTypes": [
+        {
+          "label": "Freestanding clothes airer",
+          "productIds": [
+            "lt-williams-large-collapsible-clothes-airer-black"
+          ]
+        },
+        {
+          "label": "Foldable drying rack",
+          "productIds": [
+            "brabantia-hangon-20m-drying-rack"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/laundry-essentials-australian-homes/",
+      "title": "Laundry Essentials for Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "71c57e2a96cd743967e1f6b80e475a1e4e52bea68adb39e9a31b5aa786660d77",
+      "requiredProductTypes": [
+        {
+          "label": "Foldable drying rack",
+          "productIds": [
+            "laundry-essentials-australian-homes-option-1"
+          ]
+        },
+        {
+          "label": "Collapsible 55 L carry basket",
+          "productIds": [
+            "laundry-essentials-australian-homes-option-2"
+          ]
+        },
+        {
+          "label": "Laundry sorting and secure supply storage",
+          "productIds": [],
+          "gapReason": "Airer and carry-basket options added; these do not cover every laundry storage job."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
+      "title": "Laundry Storage That Keeps Everyday Items Within Reach",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "ef9b29e5297732fc57e4fc0d08c9ebd55c1fcc031f6377ce6e820c6a01d2f020",
+      "requiredProductTypes": [
+        {
+          "label": "Laundry storage options",
+          "productIds": [],
+          "gapReason": "No direct researched storage examples; appliance links cannot stand in for organisers."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/",
+      "title": "Laundry Tub Storage That Works Around Pipes",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "85900059deb5d4ba127b8e5466f8b7259de0397a5530fa9d454e460795933496",
+      "requiredProductTypes": [
+        {
+          "label": "Expandable under-sink shelf",
+          "productIds": [
+            "laundry-simplehouseware-expandable-under-sink"
+          ]
+        },
+        {
+          "label": "Two-tier pull-out organiser",
+          "productIds": [
+            "laundry-simplehouseware-pullout-under-sink"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/lawn-care-basics/",
+      "title": "Lawn Care Basics: What to Check Before Buying More Products",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Lawn diagnosis and seasonal care rather than universal treatment products.",
+      "reviewedSourceSha256": "4843f97c597c3bb6e75c95b13d505df9fb006b65e01401c62c2d67f3be657472",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+        "/guides/robot-lawn-mower-buying-guide-australia/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/lg-fit-max-436l-fridge-first-look/",
+      "title": "LG Fit & Max fridge: a closer fit, in four finishes",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "085ddfea076d7620c2167728eb7f6c4bf07b9bf3645f88da06aa0a1828a124d1",
+      "requiredProductTypes": [
+        {
+          "label": "436L bottom mount fridge · Matte White",
+          "productIds": [
+            "lg-gb-b400mw-good-guys"
+          ]
+        },
+        {
+          "label": "436L bottom mount fridge · Stainless",
+          "productIds": [
+            "lg-gb-b400ps-good-guys"
+          ]
+        },
+        {
+          "label": "436L bottom mount fridge · Black",
+          "productIds": [
+            "lg-gb-b400bs-good-guys"
+          ]
+        },
+        {
+          "label": "436L bottom mount fridge · Matte Black",
+          "productIds": [
+            "lg-gb-b400mb-good-guys"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/living-room-cable-management-what-to-plan-before-buying-organisers/",
+      "title": "Living Room Cable Management You Can Still Access",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "cfca2811b2d274ffe35f7338de27f9d257945c58d160b3c904f657dfd0bd9c22",
+      "requiredProductTypes": [
+        {
+          "label": "Cable management box",
+          "productIds": [
+            "living-room-cable-management-what-to-plan-before-buying-organisers-option-1"
+          ]
+        },
+        {
+          "label": "Compact cable management box",
+          "productIds": [
+            "living-room-cable-management-what-to-plan-before-buying-organisers-option-2"
+          ]
+        },
+        {
+          "label": "Cable sleeves, clips and routing organisers",
+          "productIds": [],
+          "gapReason": "Added cable boxes cover power-board clutter, not the full routing problem."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/living-room-lighting-ideas-for-australian-homes/",
+      "title": "Living Room Lighting Ideas for Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "78c977c2628d1a677625abf2ce6386a69e6c5955ca92c2f9ec6a0ef0171cc04a",
+      "requiredProductTypes": [
+        {
+          "label": "Living-room lights",
+          "productIds": [],
+          "gapReason": "No approved lamp or lighting product with current electrical and owner evidence."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/living-room-rug-size-and-placement-what-to-check-before-you-buy/",
+      "title": "A Living Room Rug That Fits the Seating Area",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "6462d9869eb35c2db7fa8bb5836534ec2a543166c1c9b97ec6f92b76780d5a78",
+      "requiredProductTypes": [
+        {
+          "label": "Living-room rugs",
+          "productIds": [],
+          "gapReason": "No exact rug assessed for size, care, backing and Australian fulfilment."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/robot-vacuum-buying-guide-australia/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/living-room-storage-ideas-everyday-australian-homes/",
+      "title": "Living Room Storage Ideas for Everyday Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Household sorting and return routines across a whole living room.",
+      "reviewedSourceSha256": "8f06c4bc187b3be22e491b2d1bcda6861744677e37916171c232850df38805a0",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/lower-waste-laundry-essentials/",
+      "title": "A Lower-Waste Laundry Routine",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Use existing laundry supplies and reduce waste.",
+      "reviewedSourceSha256": "804fbfdf0a3da53fee9ad2b76160c409e7603861fed74fe27deebee58a435c5a",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+        "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
+        "/guides/laundry-essentials-australian-homes/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/mattress-sizes-australia/",
+      "title": "Mattress Sizes Australia: Room, Base and Buying Guide",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "a844e9dad8015e978e45d3863e68725c28e5a225b3e1f83a57a62450e519cfbb",
+      "requiredProductTypes": [
+        {
+          "label": "Mattresses",
+          "productIds": [],
+          "gapReason": "Dimension reference has no approved mattress model; brand applications do not establish approval."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/nappy-change-station-checklist/",
+      "title": "Nappy Change Station Checklist",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Change-station routine and safe access, not a tested changing-table comparison.",
+      "reviewedSourceSha256": "e7500b4f718687d6344a107d22b3fc93dd0620609f0140d5a1742468b3ad3f94",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/new-puppy-essentials/",
+      "title": "New Puppy Essentials Australia: What You Need for the First Weeks",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "189f21765c386d1db5ce3d7a1e6558fbfc1b56cd908f5dacf7de4cb97aff577e",
+      "requiredProductTypes": [
+        {
+          "label": "Puppy beds, gates and feeding gear",
+          "productIds": [],
+          "gapReason": "Related product guides exist, but this page has no direct researched options."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/newborn-essentials/",
+      "title": "Newborn Essentials for New Parents",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Broad preparation checklist; no claim to review every newborn product.",
+      "reviewedSourceSha256": "9395a4127859967ad8301f64df199eceff22246ce0bf20c3a56a540edb9cdb12",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/nursery-essentials-for-australian-homes/",
+      "title": "Nursery Essentials for Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Room layout and safe routines; model-specific baby gear needs separate research.",
+      "reviewedSourceSha256": "1687802cd841e55126747d2b4d0cc11d498b8e6b09498939ad2ef914dd9cd506",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/nursery-storage-small-rooms/",
+      "title": "Nursery Storage for Small Rooms",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Small-room nursery organisation and safe placement.",
+      "reviewedSourceSha256": "8183d411ca1165b6a1bdad2c5be35fe234a917a137c49141142a9059062ac0a4",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
+      "title": "Oil Column Heater vs Panel Heater: Which Suits Your Room?",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "ad14d30b5177b4fc17f6f8ab021d2a97fc2fb3414164ab7c2b8dabf21d10931a",
+      "requiredProductTypes": [
+        {
+          "label": "2400W slim convector heater with lateral fan",
+          "productIds": [
+            "winter-delonghi-hsx3324fts-slimstyle-convector-heater"
+          ]
+        },
+        {
+          "label": "Oil-column heaters",
+          "productIds": [],
+          "gapReason": "Only the slim convector remains approved; prior two-product seasonal coverage claim is stale."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/fan-heater-vs-ceramic-heater/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",
+      "title": "An Outdoor Dining Area With Room to Pull Out Chairs",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "d9d50f305c69f751e8ddb95683ce9f7f12347843ae4d80991e26428dddad5abc",
+      "requiredProductTypes": [
+        {
+          "label": "Outdoor dining tables and chairs",
+          "productIds": [],
+          "gapReason": "No exact furniture option assessed for fit, materials, stability and outdoor care."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
+      "title": "Outdoor Entertaining That Works Between Gatherings",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Whole outdoor-area layout and circulation; no specific furniture recommendation.",
+      "reviewedSourceSha256": "333b9c4ee8872b7f52bcdb1cd49f9ed5d88b643d98c5428b60fde40c4fa58e79",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/outdoor-lounge-area-setup-what-to-measure-before-buying-seating/",
+      "title": "Outdoor Lounge Seating That Fits the Whole Zone",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "0a222987d1b53e35b16de89609e96dda855a2bc22e855d2d32b5dfee66a05716",
+      "requiredProductTypes": [
+        {
+          "label": "Outdoor lounge seating",
+          "productIds": [],
+          "gapReason": "No approved seating with exact footprint, cushion care and weather limitations."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+      "title": "Outdoor Shade for the Place the Sun Actually Hits",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "73d40ed6aace4da38313fca41ccb34474cab5c76775fff9189f5e84ad4602177",
+      "requiredProductTypes": [
+        {
+          "label": "Rectangular shade sail",
+          "productIds": [
+            "wallaroo-heavy-duty-three-by-five-shade-sail"
+          ]
+        },
+        {
+          "label": "Portable outdoor gazebo",
+          "productIds": [
+            "oztrail-commercial-deluxe-three-metre-gazebo"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+      "title": "Small Outdoor Storage That Leaves the Backyard Usable",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "6fe8d7c83d497dc6b69c620e0584ab7e62ff90d7526935ff968d33dadfd74764",
+      "requiredProductTypes": [
+        {
+          "label": "Compact outdoor storage box",
+          "productIds": [
+            "vidaxl-90l-garden-storage-box"
+          ]
+        },
+        {
+          "label": "Large outdoor deck box",
+          "productIds": [
+            "keter-borneo-outdoor-storage-box"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
+      "title": "Outdoor Storage Ideas for Australian Patios, Balconies and Gardens",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "2f99b185cecec59e7f3b47e9ca02c6fe820c47688b92b77ad35c06ce3fbc52e7",
+      "requiredProductTypes": [
+        {
+          "label": "Compact outdoor storage box",
+          "productIds": [
+            "outdoor-storage-ideas-australian-patios-balconies-gardens-option-1"
+          ]
+        },
+        {
+          "label": "Large outdoor deck box",
+          "productIds": [
+            "outdoor-storage-ideas-australian-patios-balconies-gardens-option-2"
+          ]
+        },
+        {
+          "label": "Outdoor cabinets and vertical storage",
+          "productIds": [],
+          "gapReason": "Added small and large boxes cover box storage only."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
+      "title": "Pantry Storage Ideas for Australian Kitchens",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "7a62970e36aee53b6ba519ed26f74c134db446c836ed793f86d1041c91b563e9",
+      "requiredProductTypes": [
+        {
+          "label": "11-inch pantry turntable",
+          "productIds": [
+            "pantry-storage-ideas-australian-kitchens-option-1"
+          ]
+        },
+        {
+          "label": "Single dry-food container",
+          "productIds": [
+            "pantry-storage-ideas-australian-kitchens-option-2"
+          ]
+        },
+        {
+          "label": "Pantry bins and shelf risers",
+          "productIds": [],
+          "gapReason": "Added turntable and dry-food container do not cover all storage formats; existing shelf-riser image remains unresolved."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+      "title": "Pantry Organisers: What to Measure Before You Buy",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "5e8d00b74721bbf8d0ae7a88295bde5a98bc91766fae3d2a4484b112ecaa2e38",
+      "requiredProductTypes": [
+        {
+          "label": "11-inch pantry turntable",
+          "productIds": [
+            "oxo-good-grips-11-inch-turntable"
+          ]
+        },
+        {
+          "label": "Freestanding cupboard shelf riser",
+          "productIds": [
+            "joseph-joseph-cupboardstore-expandable-shelf"
+          ]
+        },
+        {
+          "label": "Single dry-food container",
+          "productIds": [
+            "oxo-pop-big-square-short-2-6-litre"
+          ]
+        },
+        {
+          "label": "Under-shelf film, foil and bag organiser",
+          "productIds": [
+            "joseph-joseph-cupboardstore-film-foil-bag-organiser"
+          ]
+        },
+        {
+          "label": "Pull-out under-shelf spice rack",
+          "productIds": [
+            "joseph-joseph-cupboardstore-under-shelf-spice-rack"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
+      "title": "Pet Cleaning Supplies That Help With Hair, Mud and Odour",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "648305869b1788519bb77bb428001bfc8f69940797a1f3d6b5744f577f49ea6f",
+      "requiredProductTypes": [
+        {
+          "label": "Pet cleaning gear",
+          "productIds": [],
+          "gapReason": "No approved cleaning product or tool with surface and pet-use instructions."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/pet-essentials-for-australian-homes/",
+      "title": "Pet Essentials for Australian Homes: What to Buy First",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "a3efc905abf71b87ac1906ca0aac95f866fdc0ca7fc5d0b0c94be3b907dfe0cf",
+      "requiredProductTypes": [
+        {
+          "label": "Pet essentials",
+          "productIds": [],
+          "gapReason": "Focused guides offer some products, but the overview has no direct buying examples."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/pet-feeding-station-ideas-for-australian-homes/",
+      "title": "Pet Feeding Station Ideas for Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "0a4cdb7f2a3b04fa51fb153fc3b26826ee0a4df1f7da6e339ee41762100dc57d",
+      "requiredProductTypes": [
+        {
+          "label": "Pet bowls and feeding mats",
+          "productIds": [],
+          "gapReason": "Food-storage container links do not cover the feeding station itself."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/keep-flies-mosquitoes-out-of-home/",
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+      "title": "Pet Food Storage That Keeps Feeding Areas Cleaner",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "5b80a771d702bc68a7b4f039044aae45304dddfe9fcd63a422c83099cf621eb1",
+      "requiredProductTypes": [
+        {
+          "label": "Lidded pet-food container",
+          "productIds": [
+            "paws-and-claws-30l-pet-food-container"
+          ]
+        },
+        {
+          "label": "Screw-top container lid",
+          "productIds": [
+            "gamma2-gamma-seal-lid-orange"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+      "title": "Dog Gates and Pet Barriers: What to Measure Before You Buy",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "62c641244fa98b7c2c41240e800c779e64b45ab3c2cceee722708a0ab9769fd5",
+      "requiredProductTypes": [
+        {
+          "label": "Configurable barrier gate",
+          "productIds": [
+            "babydan-flex-m-safety-gate"
+          ]
+        },
+        {
+          "label": "Tall pressure-mounted gate",
+          "productIds": [
+            "dreambaby-liberty-tall-gate"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+      "title": "Pet Travel Essentials for Cars, Vet Visits and Short Trips",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "0c6d2ff56328c73a15badb8016f03ce09121f1a77cad561f1d70d6907357c12e",
+      "requiredProductTypes": [
+        {
+          "label": "Vehicle restraints and pet carriers",
+          "productIds": [],
+          "gapReason": "A seat hammock protects upholstery; it does not restrain an animal. No restraint or carrier is approved here."
+        }
+      ],
+      "supportingProductIds": [
+        "edog-waterproof-car-hammock"
+      ],
+      "contextualRoutes": [
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/portable-air-conditioners-australia/",
+      "title": "Portable Air Conditioners Australia: What to Know Before Buying",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "1c5fb2c85f62e0365fa777928c929f0a971959143990bb665c6401e583a520f0",
+      "requiredProductTypes": [
+        {
+          "label": "Portable refrigerated air conditioner",
+          "productIds": [
+            "dimplex-dcp9c-good-guys"
+          ]
+        },
+        {
+          "label": "Portable refrigerated air conditioner",
+          "productIds": [
+            "delonghi-pacem82k-good-guys"
+          ]
+        }
+      ],
+      "supportingProductIds": [
+        "portable-hoomee-al003-window-seal",
+        "portable-temppro-tp49-room-monitor"
+      ],
+      "contextualRoutes": [
+        "/guides/air-conditioner-dry-mode-humidity/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
+      "title": "Portable vs Window/Wall vs Split-System Air Conditioner: Which Should You Choose?",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "d906d8c4d6a280c91c1731d1c5e8f31a2fc1620b41f4f622f69c517eb55d6eb6",
+      "requiredProductTypes": [
+        {
+          "label": "Window/wall and split-system models",
+          "productIds": [],
+          "gapReason": "Comparison has contextual portable-AC links but no direct models for its other main formats."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/portable-air-conditioners-australia/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/prepare-outdoor-area-for-summer/",
+      "title": "Outdoor Entertaining Area Checklist: Get Your Patio Ready for Summer",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Seasonal outdoor cleaning and safety reset.",
+      "reviewedSourceSha256": "c23d170c63ed4f0f0ec17cae68b3b26f3870614711c658845f6a0c7593ce2c9a",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+        "/guides/keep-flies-mosquitoes-out-of-home/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/preparing-your-home-for-winter/",
+      "title": "Preparing Your Home for Winter: A Practical Australian Checklist",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Multi-system winter preparation and maintenance.",
+      "reviewedSourceSha256": "b6067566ef98cab873cceb3ba3a97ac52b04ddcad8c2756bc40f13f72a429a46",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/fan-heater-vs-ceramic-heater/",
+        "/guides/electric-blankets-vs-heated-throws/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/rangehood-buying-guide-australia/",
+      "title": "Rangehoods in Australia: What to Measure and Check Before Buying",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "43e08a07fcc574e939bf1b65ea6f71a91dee9718e7522d5f5d831a3482346d2f",
+      "requiredProductTypes": [
+        {
+          "label": "Rangehoods",
+          "productIds": [],
+          "gapReason": "Chef CRC612SB candidate held: its manufacturer page linked a CRR612 slide-out manual, not the CRC612 canopy model. Installation evidence must match before promotion."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
+      "title": "How to Reduce Draughts Before Buying a Bigger Heater",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Find draught sources and required ventilation before buying seals.",
+      "reviewedSourceSha256": "39f4fb6cf4605917eeb2060d62cbfe1496b7eabc820f9e21104ceff397c244ce",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/reduce-pollen-dust-inside-home-spring/",
+      "title": "How to Reduce Pollen and Dust Inside Your Home During Spring",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "d8928772e99d2d5dc119cecc069edff8a45173e50972c28fcbd713151954eebb",
+      "requiredProductTypes": [
+        {
+          "label": "Portable air purifier for a defined medium room",
+          "productIds": [
+            "pollen-philips-ac1715-70-air-purifier"
+          ]
+        },
+        {
+          "label": "Compact portable air purifier for a measured room",
+          "productIds": [
+            "pollen-levoit-core-300-air-purifier"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/cordless-stick-vacuums-australia/",
+        "/guides/robot-vacuum-buying-guide-australia/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/",
+      "title": "A Pet Setup for Rentals That Protects the Home",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Rental rules, removal and pet routines; product links belong at specific buying decisions.",
+      "reviewedSourceSha256": "c55c829e3bbf33d6d4a00985c69ad180c46dd6a26153f1fc15f1276acc60e7b9",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/renter-friendly-bathroom-storage-what-to-check-before-you-buy/",
+      "title": "Bathroom Storage for Renters",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "c9dfeabdb8db3dbf879e37d7f1de8baada4bb2e5234db7f448c94faa0258dc59",
+      "requiredProductTypes": [
+        {
+          "label": "Rental bathroom storage",
+          "productIds": [],
+          "gapReason": "No direct choices; surface suitability and removal remain product-specific."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/",
+        "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+        "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
+      "title": "Garage Storage for Renters",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "b4c1c4c97a80767dc72d1d0e3068875ded5fd0a0ff4b95de98f05fe442df9f46",
+      "requiredProductTypes": [
+        {
+          "label": "Rental garage storage",
+          "productIds": [],
+          "gapReason": "Current shelving imagery is incomplete; no direct image-ready shortlist on this page."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
+      "title": "Kitchen Storage for Renters",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "38dcb6533736fdfbc07a9403bca749360a6a23945d2513c0967eb93ee3d86e22",
+      "requiredProductTypes": [
+        {
+          "label": "Expandable utensil drawer organiser",
+          "productIds": [
+            "renter-friendly-kitchen-storage-what-to-check-before-you-buy-option-1"
+          ]
+        },
+        {
+          "label": "11-inch pantry turntable",
+          "productIds": [
+            "renter-friendly-kitchen-storage-what-to-check-before-you-buy-option-2"
+          ]
+        },
+        {
+          "label": "Other rental storage formats",
+          "productIds": [],
+          "gapReason": "Added drawer organiser and turntable cover two defined tasks; over-door and trolley formats remain unresearched."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
+      "title": "Laundry Storage for Renters",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "e6fc4ee27b895e4d94d990651bec2a4593521bb7aaf0a35671a7f5bef0d46b04",
+      "requiredProductTypes": [
+        {
+          "label": "Foldable drying rack",
+          "productIds": [
+            "renter-friendly-laundry-storage-what-to-check-before-you-buy-option-1"
+          ]
+        },
+        {
+          "label": "Collapsible 55 L carry basket",
+          "productIds": [
+            "renter-friendly-laundry-storage-what-to-check-before-you-buy-option-2"
+          ]
+        },
+        {
+          "label": "Freestanding laundry organisers",
+          "productIds": [],
+          "gapReason": "Added airer and carry basket cover drying and carrying, not shelving or secure supplies."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+        "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+        "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/reverse-cycle-heating-explained/",
+      "title": "Reverse-Cycle Heating Explained: What to Check Before You Rely on It in Winter",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Explains heat-pump operation and installed-system sizing.",
+      "reviewedSourceSha256": "0de724ba361d7b56bfa011d1979a323a828b41c50f8e3c8bded49e873f38ef38",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/robot-lawn-mower-buying-guide-australia/",
+      "title": "Robot Lawn Mowers Australia: Will One Work in Your Yard?",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "c4d0181a0b99b66dcfe13acbb79c8d39f26bb9742df889ec62dde15a0b35896d",
+      "requiredProductTypes": [
+        {
+          "label": "Camera navigation · 800 m² mapping limit",
+          "productIds": [
+            "eufy-e15-robot-lawn-mower"
+          ]
+        },
+        {
+          "label": "Camera navigation · 1,200 m² mapping limit",
+          "productIds": [
+            "eufy-e18-robot-lawn-mower"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/robot-vacuum-buying-guide-australia/",
+      "title": "Robot Vacuum Buying Guide Australia: Docks, Mopping and Navigation",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "c122117913d05630a4761884f5f9e974bb1ff0ac950bec868a69e02d1d6f8671",
+      "requiredProductTypes": [
+        {
+          "label": "Self-emptying robot vacuum and mop",
+          "productIds": [
+            "roborock-qrevo-l-robot-vacuum"
+          ]
+        },
+        {
+          "label": "Full-service robot vacuum and roller-mop system",
+          "productIds": [
+            "ecovacs-deebot-t80-omni"
+          ]
+        },
+        {
+          "label": "Robot vacuum and mop with self-cleaning dock",
+          "productIds": [
+            "roborock-qrevo-edge-c-good-guys"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/shared-home-office-spaces-how-to-set-up-without-taking-over-the-room/",
+      "title": "A Shared Home Office That Packs Back Into the Room",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Shared-room layout and reset routine.",
+      "reviewedSourceSha256": "366ce198ec057f3cebec9fdd82303e724787fb88b5480309ca6c976995346729",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/",
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/",
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+      "title": "Shower Storage That Does Not Get in the Way",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "b8ecc21bc33b203839b1e67d47c191204202c559cef5643860216a84300fde84",
+      "requiredProductTypes": [
+        {
+          "label": "Wall-mounted shower caddy",
+          "productIds": [
+            "joseph-joseph-easystore-large-shower-caddy"
+          ]
+        },
+        {
+          "label": "Hanging flexible shower caddy",
+          "productIds": [
+            "umbra-flex-shower-caddy"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/side-tables-coffee-tables-and-console-tables-what-to-compare-before-you-buy/",
+      "title": "Living Room Tables That Earn Their Floor Space",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "4b5a6eff1fd613ecd48962f3a723f25b62c7b8ddf4e87194149d4c091bd7bbdb",
+      "requiredProductTypes": [
+        {
+          "label": "Side, coffee and console tables",
+          "productIds": [],
+          "gapReason": "No exact furniture assessed for dimensions, stability, materials and owner experience."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/",
+      "title": "Small Bathroom Storage That Actually Fits",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "03924fcadd15c00e4ef2dd6c1db042c08e4805b5a45692620913edd4f1985fb7",
+      "requiredProductTypes": [
+        {
+          "label": "Freestanding vanity caddy",
+          "productIds": [
+            "small-bathroom-joseph-joseph-easystore-caddy-grey"
+          ]
+        },
+        {
+          "label": "Freestanding over-toilet shelf",
+          "productIds": [
+            "songmics-three-tier-over-toilet-organiser"
+          ]
+        },
+        {
+          "label": "Adhesive shower caddy",
+          "productIds": [
+            "command-bath11-shower-caddy"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/small-garage-storage-what-to-check-before-buying-shelves-or-racks/",
+      "title": "Small Garage Storage That Still Leaves Room to Move",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "dfd442a273c37ad401874d3d6551bac50bb4d1b24f46a1788792c315aebe57ca",
+      "requiredProductTypes": [
+        {
+          "label": "Small-garage shelves and racks",
+          "productIds": [],
+          "gapReason": "No direct options; related shelving route has unresolved media."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/garage-shelving-what-to-measure-before-buying-storage-units/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "title": "Small Kitchen Appliances That Earn Their Bench Space",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "0715104c9a09a8dceb42a4ca0b7185c2907a23d333514a616cce8372ef3fd07d",
+      "requiredProductTypes": [
+        {
+          "label": "Air fryer — unequal dual baskets",
+          "productIds": [
+            "philips-3000-series-dual-basket-airfryer-na352-00"
+          ]
+        },
+        {
+          "label": "Stand mixer — regular home baking",
+          "productIds": [
+            "kitchenaid-artisan-tilt-head-stand-mixer-ksm195"
+          ]
+        },
+        {
+          "label": "Stand mixer — large-batch baking",
+          "productIds": [
+            "kenwood-titanium-chef-baker-xl-kvl85-004bk"
+          ]
+        },
+        {
+          "label": "Premium blender — guided batch blending",
+          "productIds": [
+            "braun-powerblend-9-jug-blender-jb9040"
+          ]
+        },
+        {
+          "label": "Premium blender — heavy-duty blending",
+          "productIds": [
+            "vitamix-a3500i-ascent-series-smart-blender"
+          ]
+        },
+        {
+          "label": "Multi-cooker — pressure and slow cooking",
+          "productIds": [
+            "breville-fast-slow-go-bpr680bss"
+          ]
+        },
+        {
+          "label": "Multi-cooker — larger-household consolidation",
+          "productIds": [
+            "ninja-foodi-smartlid-multi-cooker-ol650anz"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/coffee-machine-types-australia/",
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
+      "title": "Small Laundry Storage That Uses Tight Spaces Well",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "fe38ca529188ef771a51ce9c8a309e1136a229d67e3be0ef606871e2de7fcc0f",
+      "requiredProductTypes": [
+        {
+          "label": "Small-laundry organisers",
+          "productIds": [],
+          "gapReason": "No direct options fitting the specific narrow-space decision."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/smart-home-office-setup-compatibility-power-and-privacy/",
+      "title": "Smart Home Office Setup: Compatibility, Power and Privacy",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Compatibility, privacy and power planning before choosing smart devices.",
+      "reviewedSourceSha256": "a8f054ac98f1f98facf28b86053df7d5c8d0dd226cceb400c13f98b887c4393c",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/",
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/sofa-and-seating-layout-what-to-measure-before-buying-furniture/",
+      "title": "A Sofa Layout That Leaves Room to Move",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "f00936e0b471092f5cc1cde489d9514b84e6cefe980ccc2d16d2a79cd1f433a5",
+      "requiredProductTypes": [
+        {
+          "label": "Sofas and seating",
+          "productIds": [],
+          "gapReason": "No approved exact furniture with delivery, footprint and upholstery evidence."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/split-system-air-conditioner-installation-costs/",
+      "title": "Split-System Air Conditioner Installation Costs: Back-to-Back, Pipe Runs & What Affects the Quote",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Installation quote scope and licensed work.",
+      "reviewedSourceSha256": "621e41e9902641349e7154001467e60ec2ef2785751ad3e90b57859902c1d3f4",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/sports-gear-storage-what-to-check-before-buying-hooks-racks-or-bins/",
+      "title": "Sports Gear Storage That Is Easy to Put Away",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "7054dff7c4e9e881cdccace26f748de15815c2d7ea0cbb127c30c542c42325c9",
+      "requiredProductTypes": [
+        {
+          "label": "Sports racks, hooks and bins",
+          "productIds": [],
+          "gapReason": "No direct equipment-storage shortlist with load and fixing evidence."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/spring-cleaning-checklist/",
+      "title": "Spring Cleaning Checklist: A Practical Australian Room-by-Room Reset",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Use-what-you-own cleaning and sorting checklist.",
+      "reviewedSourceSha256": "59a442bcad0dee838dbffd57590c8cbb812235c9d3e3ec364a90f9baadc15f13",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/cordless-stick-vacuums-australia/",
+        "/guides/reduce-pollen-dust-inside-home-spring/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/spring-garden-reset-checklist/",
+      "title": "Spring Garden Reset Checklist for Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Climate-led garden inspection and maintenance.",
+      "reviewedSourceSha256": "983941587d6625b863f3ef285d27db43702da477bfca4efb1a8346d1f4c28e00",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/spring-home-maintenance-checklist/",
+      "title": "Spring Home Maintenance Checklist for Australian Homes",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Home inspection and maintenance checklist.",
+      "reviewedSourceSha256": "945191a828f31ca70f6b2f98b668bbdc7e5f6bb92a127cc590111889519d1cbb",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/keep-flies-mosquitoes-out-of-home/",
+        "/guides/how-to-keep-house-cooler-in-summer/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/",
+      "title": "Towel Storage That Helps Towels Dry Properly",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "9dc39ab8ebc8d3b9aebc1ca1be88609d5e0b4eab16e0af99ca61f46c86392e89",
+      "requiredProductTypes": [
+        {
+          "label": "Towel rails, hooks and shelves",
+          "productIds": [],
+          "gapReason": "No approved exact towel-storage products; shower caddies do not cover drying towels."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/toy-blanket-and-everyday-clutter-control-for-living-rooms/",
+      "title": "Toy, Blanket and Everyday Clutter Control for Living Rooms",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Clutter routines and storage capacity limits.",
+      "reviewedSourceSha256": "1f00e50ffc2edf8b3615dd1dbd25860922fbf163340c0d8c90a9aaf92f62196f",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/tv-unit-and-media-storage-what-to-measure-before-you-buy/",
+      "title": "TV and Media Storage That Keeps Cables Reachable",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "5b6c2457ac2aa30e5f56b1709c1ab41f8b4ef4fb0376612c24ebcfc9921d3d0a",
+      "requiredProductTypes": [
+        {
+          "label": "TV units and media furniture",
+          "productIds": [],
+          "gapReason": "Cable-box links do not substitute for the furniture being discussed."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/under-bed-storage-what-to-measure-before-you-buy/",
+      "title": "Under-Bed Storage You Can Still Reach",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "77a19e27e7f1b212f95893beb0328b8c7c3e7b2f0852ae3b30e3d987aea899b4",
+      "requiredProductTypes": [
+        {
+          "label": "Low-profile under-bed bags",
+          "productIds": [
+            "amazon-basics-underbed-fabric-bags"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/",
+      "title": "How to Use Awkward Under-Sink Bathroom Space",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "6218bc5420eb43e254dab1855b819ce4d526f8cf8f62acf5f9701ee7b8956143",
+      "requiredProductTypes": [
+        {
+          "label": "Expandable under-sink shelf",
+          "productIds": [
+            "bathroom-simplehouseware-expandable-under-sink"
+          ]
+        },
+        {
+          "label": "Two-tier pull-out organiser",
+          "productIds": [
+            "bathroom-simplehouseware-pullout-under-sink"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
+      "title": "Storage Under the Kitchen Sink",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "fcb44395e3dc4b0e52e5db248e2c796f4a8bb794769ee53dd30cb1d380926f4f",
+      "requiredProductTypes": [
+        {
+          "label": "Expandable under-sink shelf",
+          "productIds": [
+            "kitchen-simplehouseware-expandable-under-sink"
+          ]
+        },
+        {
+          "label": "Two-tier pull-out organiser",
+          "productIds": [
+            "kitchen-simplehouseware-pullout-under-sink"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+      "title": "Washing Machine Dimensions Australia: What to Measure Before Buying",
+      "reviewedOn": "2026-10-11",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "16350d4f0d7de0548a3d73a25df0b6f71dc53154c440f19566f229ddb5ed3231",
+      "requiredProductTypes": [
+        {
+          "label": "Front load washing machine",
+          "productIds": [
+            "bosch-wgg244a1au-good-guys"
+          ]
+        },
+        {
+          "label": "Shallow front load washing machine",
+          "productIds": [
+            "lg-wx3-1208w-good-guys"
+          ]
+        },
+        {
+          "label": "Top load washing machine",
+          "productIds": [
+            "lg-wtx3-09g-good-guys"
+          ]
+        },
+        {
+          "label": "Dryer fit example",
+          "productIds": [],
+          "gapReason": "Washing-machine recommendations are present; the page also discusses dryer fit without a direct dryer option."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+        "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
+      ],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/what-size-air-conditioner-do-i-need/",
+      "title": "What Size Air Conditioner Do I Need? A Practical Australian Guide",
+      "reviewedOn": "2026-10-11",
+      "intent": "editorial",
+      "editorialReason": "Sizing assessment before selecting an installed air conditioner.",
+      "reviewedSourceSha256": "5a183175b0b6f98a7659f797c62fcf55f0f07bed2c018ca1c536292e91cdcbab",
+      "requiredProductTypes": [],
+      "supportingProductIds": [],
+      "contextualRoutes": [],
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    }
+  ]
+}

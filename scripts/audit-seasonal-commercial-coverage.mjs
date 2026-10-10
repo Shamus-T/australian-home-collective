@@ -29,6 +29,7 @@ const reviewWarnings = [];
 const allowedClassifications = new Set([
   "monetised-correctly",
   "legitimately-unmonetised",
+  "research-gap",
 ]);
 const allowedReasonCodes = new Set([
   "verified-product-set",
@@ -343,6 +344,6 @@ const monetisedCount = decisions.filter((decision) => decision.classification ==
 const unmonetisedCount = decisions.filter((decision) => decision.classification === "legitimately-unmonetised").length;
 console.log(
   `Seasonal commercial coverage audit passed for ${seasonalPaths.length} published routes: `
-  + `${monetisedCount} monetised correctly and ${unmonetisedCount} legitimately unmonetised`
+  + `${monetisedCount} with approved placements, ${unmonetisedCount} editorial exceptions and ${decisions.filter(d => d.classification === "research-gap").length} open research gaps`
   + `${checkDist ? ", including built output" : ""}.`,
 );

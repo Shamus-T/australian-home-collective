@@ -1,3 +1,4 @@
+import { editorialDate } from "./editorial-date.mjs";
 import { hasExcludedCommercialIdentity } from "./commercial-exclusions.mjs";
 import catalogueData from "../data/commercial-products.json";
 import { getOrderedRetailers } from "./commercial-retailers.mjs";
@@ -39,7 +40,7 @@ function hasCurrentReview(product: CommercialProduct): boolean {
   const dueOn = addDays(product.lastReviewedOn, catalogue.reviewIntervalDays)
     .toISOString()
     .slice(0, 10);
-  return dueOn >= new Date().toISOString().slice(0, 10);
+  return dueOn >= editorialDate();
 }
 
 function canRenderProduct(product: CommercialProduct): boolean {

@@ -2479,3 +2479,8 @@ pagefind-results {
   width: 212px;
   height: 45.2px;
 }
+
+/* Two researched options fill their row, including separate accessory groups. */
+@media (min-width: 701px) {
+  .commercial-product-block .commercial-product-grid:has(> .commercial-product-card:nth-child(2):last-child) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

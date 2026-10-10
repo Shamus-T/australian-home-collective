@@ -1,4 +1,5 @@
 ---
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -82,7 +83,7 @@ const faqs = [
   description="Compare outdoor boxes, benches, cabinets and tool storage for cushions, toys and barbecue gear—without blocking a balcony, patio or garden path."
   category="Outdoor & Garden"
   date="Updated October 2026"
-  dateModified="2026-10-07"
+  dateModified="2026-10-11"
   faqs={faqs}
   readingTime="6 minute read"
   image="/images/guides/outdoor-storage-brick-courtyard.webp"
@@ -102,7 +103,9 @@ const faqs = [
   <p class="commercial-product-shortcut"><a href="/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/#commercial-products-outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying">Compare compact and larger outdoor storage boxes →</a></p>
 
   <section aria-labelledby="outdoor-storage-plan-heading">
-    <h2 id="outdoor-storage-plan-heading">Choose outdoor storage in this order</h2>
+      <CommercialProductBlock guidePath="/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/" title="Two outdoor storage sizes to compare" intro="First measure the items, the available floor space and the open lid, then compare these two storage boxes. Neither replaces secure storage specified for chemicals or hazardous supplies, and weather exposure still matters." variant="comparison" />
+
+  <h2 id="outdoor-storage-plan-heading">Choose outdoor storage in this order</h2>
     <ol class="numbered-list">
       <li>Remove anything that does not genuinely need to live outside.</li>
       <li>Protect the door, seating area, balcony or garden path before assigning floor space.</li>

@@ -58,15 +58,15 @@
     },
     {
       "guidePath": "/guides/air-conditioning-buying-guide/",
-      "classification": "legitimately-unmonetised",
+      "classification": "research-gap",
       "reasonCode": "major-installed-appliance",
-      "reason": "The guide covers major installed cooling systems that require site-specific sizing and licensed installation, not an Amazon product set."
+      "reason": "Open product-research gap: no exact installed cooling models are cleared yet. The Good Guys makes appliance links possible; site-specific sizing and licensed installation must accompany future choices. See the article coverage registry."
     },
     {
       "guidePath": "/guides/ceiling-fans-before-you-buy/",
-      "classification": "legitimately-unmonetised",
+      "classification": "research-gap",
       "reasonCode": "licensed-electrical-installation",
-      "reason": "Ceiling-fan selection depends on clearances, mounting and fixed electrical work, so model promotion is inappropriate without site and installer assessment."
+      "reason": "Open product-research gap: no current exact fan model is cleared yet. Licensed installation and measured mounting clearances are conditions of a recommendation, not reasons to exclude all product links."
     },
     {
       "guidePath": "/guides/how-to-keep-house-cooler-in-summer/",
@@ -90,7 +90,7 @@
       "guidePath": "/guides/australian-made-gift-ideas-under-100/",
       "classification": "monetised-correctly",
       "reasonCode": "verified-product-set",
-      "reason": "Two verified Australian-made gift options cover different recipient profiles with fragrance, allergen, delivery and return limitations disclosed."
+      "reason": "One currently approved almond gift option remains. The former two-option statement is superseded; the exact-product image is still an open task in the article coverage registry."
     },
     {
       "guidePath": "/guides/preparing-your-home-for-winter/",
@@ -112,9 +112,9 @@
     },
     {
       "guidePath": "/guides/home-heating-options-australia/",
-      "classification": "legitimately-unmonetised",
+      "classification": "research-gap",
       "reasonCode": "no-cohesive-two-product-decision",
-      "reason": "This overview compares installed and portable heating categories; two Amazon models would be arbitrary and overstate suitability."
+      "reason": "Open product-research gap: the overview has not yet established a current shortlist across its installed and portable heating categories. Amazon-only catalogue limits are no longer an adequate rationale."
     },
     {
       "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
@@ -150,7 +150,7 @@
       "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
       "classification": "monetised-correctly",
       "reasonCode": "verified-product-set",
-      "reason": "Two exact, stocked De'Longhi portable models now support the oil-column versus slim-convector decision with high-load electrical, room-fit, clearance, noise and supervised-use limits retained."
+      "reason": "Only the slim convector remains approved. The oil-column category is an explicit open research gap in the sitewide article coverage registry; this placement is not a complete two-format product comparison."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",

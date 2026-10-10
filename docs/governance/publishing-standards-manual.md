@@ -205,3 +205,10 @@ If not, it does not belong in the Planning Centre.
 | 1.2 | 24 July 2026 | Consolidated the canonical document set, confirmed public trust and commercial boundaries, and linked the current roadmaps and tool standards. |
 | 1.1 | 19 July 2026 | Parked the fridge-planner initiative and returned priority to evidence-led editorial work. |
 | 1.0 | 18 July 2026 | Initial publishing governance framework established. |
+
+
+## Article commercial coverage gate — 11 October 2026
+
+Every published ArticleLayout page must have a reviewed entry in `src/data/article-commercial-coverage.json`. Review the article subject and each main compared product type, not merely whether a button or internal guide link exists. An accessory cannot satisfy a primary appliance or furniture requirement. Record unresolved model research and missing exact-model photographs explicitly; do not mark those articles complete. A planning or maintenance article may remain editorial when its specific reason is recorded. Do not force a product into it.
+
+Run `npm run audit:article-coverage` and its built-output counterpart. Source changes require a fresh topic/placement review and updated source hash; new, removed or paused product placements require a reviewed coverage update. The report preserves existing product review dates: a layout audit is not evidence of fresh retailer stock. New recommendations still require the full AHC research, availability, tracking and image gates. Preserve approved retailer artwork and verify actual rendering.

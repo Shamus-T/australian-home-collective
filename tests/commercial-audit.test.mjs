@@ -1,3 +1,4 @@
+import { editorialDate } from "../src/lib/editorial-date.mjs";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import os from "node:os";
@@ -10,7 +11,7 @@ const root = process.cwd();
 const baseCatalogue = JSON.parse(
   fs.readFileSync(path.join(root, "src", "data", "commercial-products.json"), "utf8"),
 );
-const today = new Date().toISOString().slice(0, 10);
+const today = editorialDate();
 
 function sourceRecord(sourceType, index) {
   return {

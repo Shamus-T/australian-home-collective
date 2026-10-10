@@ -1,3 +1,4 @@
+import { editorialDate } from "./editorial-date.mjs";
 /** @typedef {import('../types/commercial-product').CommercialProduct} CommercialProduct */
 /** @typedef {import('../types/commercial-product').CommercialRetailerOffer} CommercialRetailerOffer */
 
@@ -33,7 +34,7 @@ export function getRegisteredRetailers(product) {
  * @param {{today?: string, reviewIntervalDays?: number}} options
  */
 export function getRetailerOfferErrors(product, {
-  today = new Date().toISOString().slice(0, 10), reviewIntervalDays = 180,
+  today = editorialDate(), reviewIntervalDays = 180,
 } = {}) {
   const errors = [];
   if (product.additionalRetailers !== undefined && !Array.isArray(product.additionalRetailers)) {

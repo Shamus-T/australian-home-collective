@@ -1,3 +1,4 @@
+import { editorialDate } from "../src/lib/editorial-date.mjs";
 import { hasExcludedCommercialIdentity } from "../src/lib/commercial-exclusions.mjs";
 import fs from "node:fs";
 import path from "node:path";
@@ -16,7 +17,7 @@ const catalogue = JSON.parse(fs.readFileSync(cataloguePath, "utf8"));
 const usesProductionCatalogue = !catalogueArgument;
 const checkDist = process.argv.includes("--dist");
 const errors = [];
-const today = new Date().toISOString().slice(0, 10);
+const today = editorialDate();
 
 const allowedEditorialStatuses = new Set(["draft", "in-review", "approved", "paused", "rejected"]);
 const allowedResearchOutcomes = new Set([
@@ -894,6 +895,7 @@ if (checkDist) {
   } else {
     const renderedDestinationsByProduct = new Map();
     const comparisonGuidePaths = new Set();
+    const accessoryProductIds = new Set();
     let builtPageCount = 0;
     let builtExternalLinkCount = 0;
 
@@ -903,6 +905,7 @@ if (checkDist) {
       const relativePath = path.relative(distRoot, file).replaceAll(path.sep, "/");
       const route = pageRoute(relativePath);
       if (/class="[^"]*commercial-product-block--comparison\b/.test(html)) comparisonGuidePaths.add(route);
+      for (const match of html.matchAll(/data-accessory-product-ids="([^"]*)"/g)) for (const id of match[1].split(/\s+/).filter(Boolean)) accessoryProductIds.add(id);
       const text = visibleText(html);
       const footerHtml = html.match(/<footer\b[\s\S]*?<\/footer>/i)?.[0] ?? "";
       if (!footerHtml.includes('href="/affiliate-disclosure/"')) {
@@ -1054,7 +1057,7 @@ if (checkDist) {
       const expectedDestinations = getOrderedRetailers(product, { today, reviewIntervalDays: catalogue.reviewIntervalDays })
         .map((offer) => offer.destinationUrl);
       for (const placement of ["card", "comparison"]) {
-        const expected = placement === "card" || comparisonGuidePaths.has(product.guidePath) ? expectedDestinations : [];
+        const expected = placement === "card" || (comparisonGuidePaths.has(product.guidePath) && !accessoryProductIds.has(product.id)) ? expectedDestinations : [];
         const rendered = renderedDestinationsByProduct.get(product.id + ":" + placement) ?? [];
         if (JSON.stringify(rendered) !== JSON.stringify(expected)) {
           addError("Approved product " + product.id + " must render each registered " + placement + " link once in commission order.");

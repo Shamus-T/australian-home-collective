@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-10",
+  "updatedOn": "2026-10-11",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -62,7 +62,17 @@
     "/guides/robot-lawn-mower-buying-guide-australia/",
     "/guides/lg-fit-max-436l-fridge-first-look/",
     "/guides/cordless-stick-vacuums-australia/",
-    "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+    "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+    "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
+    "/guides/dishwasher-sizes-australia/",
+    "/guides/living-room-cable-management-what-to-plan-before-buying-organisers/",
+    "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
+    "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
+    "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
+    "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
+    "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
+    "/guides/pantry-storage-ideas-australian-kitchens/",
+    "/guides/laundry-essentials-australian-homes/"
   ],
   "products": [
     {
@@ -11692,6 +11702,1978 @@
         "credit": "AHC size diagram, based on LG’s manual. Not a product photograph.",
         "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=AkANO59AhNB39Twg3tgw",
         "suppliedVia": "Original AHC schematic using manufacturer dimensions. Retailer photo withheld because its panel displays 15.0kg on the 9kg listing.",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "dimplex-dcp9c-good-guys",
+      "guidePath": "/guides/portable-air-conditioners-australia/",
+      "name": "Dimplex DCP9C 2.6kW portable air conditioner",
+      "productType": "Portable refrigerated air conditioner",
+      "summary": "A compact cooling-only unit for a smaller enclosed room with a suitable exhaust window. It has two fan speeds, a remote and a timer. Owners commonly report useful bedroom cooling, alongside noise and window-kit complaints.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdimplex-26kw-portable-ac-w-dehumidifier-dcp9c",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow 500mm around the unit. The supplied window panel and hose are a recurring fit complaint; measure both before buying.",
+        "Dimplex specifies 280 × 290 × 675mm (width × depth × height) and 20.8kg. The retailer transposes width and height, so use the manufacturer dimensions.",
+        "The manual requires a room larger than 9m²; follow any stricter requirement on the appliance label. The advertised 20m² coverage is not a sizing guarantee.",
+        "Self-evaporation does not eliminate drainage: the unit stops when excess condensate fills the tank. Noise can make it unsuitable for light sleepers."
+      ],
+      "suitability": {
+        "suits": [
+          "Occasional cooling in a small enclosed room with a compatible window and 500mm operating clearance",
+          "Households that can accept indoor compressor noise and check condensate drainage"
+        ],
+        "mayNotSuit": [
+          "Large open-plan spaces",
+          "Light sleepers who need quiet continuous cooling",
+          "Rooms that fail the minimum area or window-kit requirements"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "DCP9C specification sheet",
+          "publisher": "Dimplex",
+          "sourceUrl": "https://www.dimplex.com.au/sites/g/files/emiian331/files/2024-09/DCP9C%20-%20Specification%20Sheet.pdf",
+          "supports": "Confirms 2.6kW, 280mm wide x 290mm deep x 675mm high, 20.8kg, two-year domestic warranty and 17–35°C operating range. Corrects retailer axes; no universal coverage or noise comparison inferred.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "DCP9C instructions, revision 2",
+          "publisher": "Dimplex",
+          "sourceUrl": "https://www.dimplex.com.au/sites/g/files/emiian331/files/2024-12/Instruction%20Manual%20-%20DCP9C%20v2.pdf",
+          "supports": "Read setup, R290 room-area restrictions, 500mm clearance, no extension lead, window fitting, excess-water shutdown and drainage instructions; Australian support contact provided.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "DCP9C individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/dimplex-26kw-portable-ac-w-dehumidifier-dcp9c",
+          "supports": "Read all 20 displayed purchaser reviews, not just the AI summary. Repeated small-room cooling and easy-use reports; repeated noise, short/flimsy panel and hose-attachment complaints. These may be incentivised. No long-term reliability claim; no unsafe owner workaround endorsed.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model Australian order and support check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/dimplex-26kw-portable-ac-w-dehumidifier-dcp9c",
+          "supports": "Live exact model with enabled Add to Cart checked in browser on 11 October 2026. Retailer states two-year manufacturer warranty. Local delivery and collection depend on postcode; no nationwide stock claim.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Portable AC model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Searched exact DCP9C and PACEM82K plus brand/portable-air-conditioner recall terms on 11 October 2026. No matching indexed notice found. Reviewed Dimplex GDC18RWA/GDC18RBA 2016 recall: different models. Scoped search, not certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Partnerize destination verification",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdimplex-26kw-portable-ac-w-dehumidifier-dcp9c",
+          "supports": "Opened exact affiliate link in browser; correct model and retailer reached with clickref, rel, utm_source=Partner and utm_medium=shamus80 preserved. Enabled Add to Cart; no purchase made. QA click is not customer revenue.",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "image": {
+        "src": "/images/products/dimplex-dcp9c-good-guys-640.webp",
+        "srcSet": "/images/products/dimplex-dcp9c-good-guys-320.webp 320w, /images/products/dimplex-dcp9c-good-guys-640.webp 640w, /images/products/dimplex-dcp9c-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 1307,
+        "alt": "Dimplex DCP9C 2.6kW portable air conditioner product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091025_920283.png?v=1776228527",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "delonghi-pacem82k-good-guys",
+      "guidePath": "/guides/portable-air-conditioners-australia/",
+      "name": "De’Longhi Pinguino PACEM82K 2.4kW portable air conditioner",
+      "productType": "Portable refrigerated air conditioner",
+      "summary": "A cooling-only alternative with three fan speeds, a remote and a 24-hour timer. Its manual calls for more clearance than the Dimplex. Recent owners describe useful small-room cooling, but noise and exhaust-window fit remain significant limits.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-24kw-portable-air-conditioner-pacem82k",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow at least 600mm from walls and obstacles, with a short, unobstructed exhaust route to the window.",
+        "This model is not the similarly named Silent version. Owner feedback includes intrusive noise, weak cooling in some rooms and one short-cycling complaint.",
+        "Manufacturer and retailer weight and dimension listings differ. Confirm the current supplied unit before planning a tight storage position or lifting it upstairs.",
+        "Auto-evaporation is not a promise of zero draining. The manual provides continuous drainage for high humidity and draining instructions before storage."
+      ],
+      "suitability": {
+        "suits": [
+          "Occasional cooling of an enclosed room where a three-speed fan and timer are useful",
+          "A position with at least 600mm operating clearance and a compatible exhaust window"
+        ],
+        "mayNotSuit": [
+          "Light sleepers needing a quiet bedroom appliance",
+          "Large open-plan rooms or high windows beyond the supplied hose route",
+          "A tight cavity or routine carrying between floors"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "PACEM82K Australian product information",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html",
+          "supports": "Confirms exact PACEM82K, 2.4kW, three fan speeds, timer, remote and included window kit. Manufacturer web data and retailer differ on dimensions/weight; those figures are not relied on. AU support and service-centre links available.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "PAC EM instructions linked by PACEM82K support",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=265989&download=true",
+          "supports": "Downloaded and read seven-page English instructions from exact model support page: minimum 600mm walls/obstacles, exhaust hose in cooling and dry modes, continuous condensate drainage option and end-of-season drain. Silent control applies to some models only; not claimed for PACEM82K.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "PACEM82K individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-24kw-portable-air-conditioner-pacem82k",
+          "supports": "Read 10 most recent reviews and all five one-star reviews from 82 total. Recurring cooling/ease reports coexist with noise and hose/window-panel limitations; low reviews include poor cooling, a service complaint and one short-cycling report. Sample is not all 82 reviews and may include incentives; no reliability or quietness guarantee.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model Australian order and support check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-24kw-portable-air-conditioner-pacem82k",
+          "supports": "Live exact model with enabled Add to Cart checked in browser on 11 October 2026. Retailer states two-year manufacturer warranty. Local delivery and collection depend on postcode; no nationwide stock claim.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Portable AC model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Searched exact DCP9C and PACEM82K plus brand/portable-air-conditioner recall terms on 11 October 2026. No matching indexed notice found. Reviewed Dimplex GDC18RWA/GDC18RBA 2016 recall: different models. Scoped search, not certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Partnerize destination verification",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-24kw-portable-air-conditioner-pacem82k",
+          "supports": "Opened exact affiliate link in browser; correct model and retailer reached with clickref, rel, utm_source=Partner and utm_medium=shamus80 preserved. Enabled Add to Cart; no purchase made. QA click is not customer revenue.",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "image": {
+        "src": "/images/products/delonghi-pacem82k-good-guys-640.webp",
+        "srcSet": "/images/products/delonghi-pacem82k-good-guys-320.webp 320w, /images/products/delonghi-pacem82k-good-guys-640.webp 640w, /images/products/delonghi-pacem82k-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 1179,
+        "alt": "De’Longhi Pinguino PACEM82K 2.4kW portable air conditioner product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50077315_787160.png?v=1776228309",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "bosch-wqg24201au-good-guys",
+      "guidePath": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
+      "name": "Bosch WQG24201AU 9kg heat pump dryer",
+      "productType": "Heat pump clothes dryer",
+      "summary": "A heat pump option for regular drying where lower energy use matters more than quick cycles. AutoDry senses moisture, but owners still report long programs and occasional damp loads. AHC has not tested this dryer.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-9kg-heat-pump-dryer-wqg24201au",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow for 648mm closed-door depth and 1,096mm with the door open; the 613mm body depth does not describe the whole machine.",
+        "This model does not have a self-cleaning condenser. Filters and the heat-exchanger area need the care set out in the manual.",
+        "Owner feedback includes long drying times and one report of a full load remaining damp after 5.5 hours. Smaller loads and program choice affect the result.",
+        "The manual permits an ambient temperature of 5–35°C. A closed cupboard still needs the specified installation conditions; use only an approved stacking combination."
+      ],
+      "suitability": {
+        "suits": [
+          "Regular drying where a heat pump and moisture sensing suit the routine",
+          "A floor-standing laundry position with room to open the door, empty the tank and maintain the filters"
+        ],
+        "mayNotSuit": [
+          "Households needing the shortest possible cycles",
+          "An improvised wall mount or unsupported stack",
+          "A cupboard that cannot meet the operating and servicing requirements"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "WQG24201AU Australian specification sheet",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/specsheet/en-AU/WQG24201AU.pdf",
+          "supports": "Exact model: 9kg heat pump, AutoDry, seven-star energy label and no self-cleaning condenser. Body 842 high x 598 wide x 613mm deep. No running-cost savings percentage claimed.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "WQG24201AU instructions",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/9001730323_C.pdf",
+          "supports": "Read installation, operation, maintenance and technical data: closed-door depth 648mm, open-door depth 1096mm and ambient operating range 5–35°C. Filter and heat-exchanger care required.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WQG24201AU individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-9kg-heat-pump-dryer-wqg24201au",
+          "supports": "Read ten recent individual reviews and the sole one-star review from 31 total. Recurring long-cycle concerns; one full-load dampness report, with better smaller-load results. One-star review concerns delivery delay, not dryer failure. Excluded duplicated/misfiled washing-machine review. Possible incentives and limited sample; no reliability guarantee.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and warranty check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-9kg-heat-pump-dryer-wqg24201au",
+          "supports": "Exact live model and enabled Add to Cart verified on 11 October 2026. Two-year standard manufacturer warranty; any additional promotional cover requires its separate redemption conditions. Australian manufacturer service available. Delivery and collection depend on postcode.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Exact Bosch model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Searched exact WQG24201AU and SMS6HCI02A on 11 October 2026. No matching indexed notice found. Older Bosch S9 dishwasher recall relates to different models manufactured in 2000–2006. Scoped search, not certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Partnerize exact model destination check",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-9kg-heat-pump-dryer-wqg24201au",
+          "supports": "Opened this exact affiliate destination in browser on 11 October 2026. Correct model and enabled Add to Cart; clickref, rel, utm_source=Partner and utm_medium=shamus80 preserved. No order placed; QA click is not reader revenue.",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "image": {
+        "src": "/images/products/bosch-wqg24201au-good-guys-640.webp",
+        "srcSet": "/images/products/bosch-wqg24201au-good-guys-320.webp 320w, /images/products/bosch-wqg24201au-good-guys-640.webp 640w, /images/products/bosch-wqg24201au-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 896,
+        "alt": "Bosch WQG24201AU 9kg heat pump dryer product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50086307_913613.png?v=1776381177",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "bosch-sms6hci02a-good-guys",
+      "guidePath": "/guides/dishwasher-sizes-australia/",
+      "name": "Bosch SMS6HCI02A Series 6 freestanding dishwasher",
+      "productType": "60cm freestanding dishwasher",
+      "summary": "A freestanding option from the measured examples below. Adjustable racks and a cutlery tray can help organise mixed loads; owners commonly describe quiet operation and good cleaning. Check your tallest dishes against the tray layout. AHC has not tested this model.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-series-6-freestanding-dishwasher-stainless-steel-sms6hci02a",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The appliance is 600mm wide, 845mm high and 600mm deep with its worktop fitted. These are product dimensions, not a complete cavity specification.",
+        "Allow for the 1,155mm depth with the door open, plus the loading position and service connections. Adjustable feet do not remove the need for a level, correctly sized opening.",
+        "The upper cutlery tray trades some vertical space for separation. Test tall glasses, plates and pots against the rack positions.",
+        "The reviewed owner sample includes poor-cleaning and mid-cycle stopping complaints as well as positive reports. It does not establish long-term reliability."
+      ],
+      "suitability": {
+        "suits": [
+          "A measured freestanding replacement where adjustable racks and a cutlery tray suit the household dishes"
+        ],
+        "mayNotSuit": [
+          "A fully integrated installation needing a matching cabinetry panel",
+          "A nominal 600mm opening that has not been checked against the installation instructions"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "SMS6HCI02A Australian specification sheet",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/specsheet/en-AU/SMS6HCI02A.pdf",
+          "supports": "Confirms exact freestanding model, 845 x 600 x 600mm height x width x depth, 1155mm open-door depth and 20mm adjustable feet. Product dimensions are not promoted as minimum cavity dimensions.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "SMS6HCI02A user and installation instructions",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/9002017246_A.pdf",
+          "supports": "Manufacturer-linked current instructions reviewed for installation, rack use, maintenance and troubleshooting; do not infer integrated installation or an arbitrary cavity from nominal width.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "SMS6HCI02A individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-6-freestanding-dishwasher-stainless-steel-sms6hci02a",
+          "supports": "Read ten recent reviews and all four one-star reviews from 390 total; counted duplicated Corrie review once. Quiet operation and cleaning recur, with a top-tray height trade-off. Low reviews include two fulfilment/promotion issues, one poor-cleaning report and one stopping mid-cycle. Possible incentives; sample does not establish reliability.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and warranty check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-6-freestanding-dishwasher-stainless-steel-sms6hci02a",
+          "supports": "Exact live model and enabled Add to Cart verified on 11 October 2026. Two-year standard manufacturer warranty; any additional promotional cover requires its separate redemption conditions. Australian manufacturer service available. Delivery and collection depend on postcode.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Exact Bosch model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Searched exact WQG24201AU and SMS6HCI02A on 11 October 2026. No matching indexed notice found. Older Bosch S9 dishwasher recall relates to different models manufactured in 2000–2006. Scoped search, not certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Partnerize exact model destination check",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-series-6-freestanding-dishwasher-stainless-steel-sms6hci02a",
+          "supports": "Opened this exact affiliate destination in browser on 11 October 2026. Correct model and enabled Add to Cart; clickref, rel, utm_source=Partner and utm_medium=shamus80 preserved. No order placed; QA click is not reader revenue.",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "image": {
+        "src": "/images/products/bosch-sms6hci02a-good-guys-640.webp",
+        "srcSet": "/images/products/bosch-sms6hci02a-good-guys-320.webp 320w, /images/products/bosch-sms6hci02a-good-guys-640.webp 640w, /images/products/bosch-sms6hci02a-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 916,
+        "alt": "Bosch SMS6HCI02A Series 6 freestanding dishwasher product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50080111_1084778.png?v=1785738905",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "living-room-cable-management-what-to-plan-before-buying-organisers-option-1",
+      "guidePath": "/guides/living-room-cable-management-what-to-plan-before-buying-organisers/",
+      "name": "D-Line Large Cable Tidy Box",
+      "productType": "Cable management box",
+      "summary": "A large ventilated enclosure for a measured power board and excess cable, intended to reduce visual clutter around a power board.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-22",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-22",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It hides rather than shortens cables, and heat-producing power equipment still needs ventilation.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "larger power boards with several low-load plugs"
+        ],
+        "mayNotSuit": [
+          "oversized adapters or equipment requiring open airflow"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "D-Line Large Cable Tidy Box manufacturer information",
+          "publisher": "D-Line",
+          "sourceUrl": "https://d-line-it.com/au/cable-tidy-units/",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "D-Line Large Cable Tidy Box product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/d-line-cable-tidy-box-hide-and-conceal-extension-blocks-and-electrical-cables-fully-safety-tested-cable-management-solution-made-from-robust",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "D-Line Large Cable Tidy Box Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "D-Line Large Cable Tidy Box Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0076XD7HC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XD7HC?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/d-line-large-cable-tidy-box-320.webp",
+        "srcSet": "/images/products/d-line-large-cable-tidy-box-320.webp 320w",
+        "alt": "D-Line Large Cable Tidy Box manufacturer dimension drawing.",
+        "width": 320,
+        "height": 267,
+        "credit": "Dimension image sourced from D-Line.",
+        "sourceUrl": "https://www.d-line-it.com/wp-content/uploads/2021/02/ctu_dims_large_uk.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.d-line-it.com/za/cable-tidy-unit-3/",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "living-room-cable-management-what-to-plan-before-buying-organisers-option-2",
+      "guidePath": "/guides/living-room-cable-management-what-to-plan-before-buying-organisers/",
+      "name": "D-Line Small Cable Tidy Box",
+      "productType": "Compact cable management box",
+      "summary": "A compact enclosure for a small power board after plug height, cable exits and access to the board have been mapped.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-22",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-22",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The smaller internal volume will not accommodate large transformers or crowded boards.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "small setups with a short compact power board"
+        ],
+        "mayNotSuit": [
+          "multi-monitor setups with bulky power bricks"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "D-Line Small Cable Tidy Box manufacturer information",
+          "publisher": "D-Line",
+          "sourceUrl": "https://d-line-it.com/au/cable-tidy-units/",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "D-Line Small Cable Tidy Box product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/d-line-cable-tidy-box-hide-and-conceal-extension-blocks-and-electrical-cables-fully-safety-tested-cable-management-solution-made-from-robust",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "D-Line Small Cable Tidy Box Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "D-Line Small Cable Tidy Box Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0076XNIAI: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0076XNIAI?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/d-line-small-cable-tidy-box-320.webp",
+        "srcSet": "/images/products/d-line-small-cable-tidy-box-320.webp 320w",
+        "alt": "D-Line Small Cable Tidy Box manufacturer dimension drawing.",
+        "width": 320,
+        "height": 267,
+        "credit": "Dimension image sourced from D-Line.",
+        "sourceUrl": "https://www.d-line-it.com/wp-content/uploads/2021/02/ctu_dims_small_uk.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.d-line-it.com/za/cable-tidy-unit-3/",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "bathroom-product-storage-what-to-sort-before-buying-organisers-option-1",
+      "guidePath": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
+      "name": "Joseph Joseph EasyStore Bathroom Caddy",
+      "productType": "Portable bathroom caddy",
+      "summary": "A divided handled caddy for grouping daily toiletries before deciding whether fixed vanity dividers are necessary.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Its fixed compartments will not suit every bottle diameter or tall pump.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "shared bathrooms where a portable daily kit is useful"
+        ],
+        "mayNotSuit": [
+          "large bottles or owners needing sealed storage"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph EasyStore Bathroom Caddy manufacturer information",
+          "publisher": "Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/collections/bathroom-storage",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Joseph Joseph EasyStore Bathroom Caddy product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/joseph-joseph-easystore-bathroom-caddy-ecru-",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Joseph Joseph EasyStore Bathroom Caddy Australian availability",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/joseph-joseph-easystore-bathroom-caddy-ecru-",
+          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Joseph Joseph EasyStore Bathroom Caddy Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0BS1LWL55: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-easystore-bathroom-caddy-640.webp",
+        "srcSet": "/images/products/joseph-joseph-easystore-bathroom-caddy-320.webp 320w, /images/products/joseph-joseph-easystore-bathroom-caddy-640.webp 640w",
+        "alt": "Joseph Joseph EasyStore Bathroom Caddy.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0523/0516/6495/products/70576_PDP_01.jpg?v=1680170520",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/easystore-bathroom-caddy-ecru",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "kitchen-container-storage-what-to-sort-before-buying-more-containers-option-1",
+      "guidePath": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
+      "name": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
+      "productType": "Single dry-food container",
+      "summary": "A single 2.6 L container for one regularly used dry staple, rather than a full matching set. Its approximately 16 × 16 × 16 cm footprint needs checking against the shelf and the packet you plan to empty.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-07",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-07",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Litres do not tell you whether a particular weight of flour or cereal will fit. Check the packet and leave room for the lid.",
+        "Carry it by the body, never by the lid; some owners report concerns about the seal.",
+        "Clean and dry the lid and seal carefully before refilling; keep food dates and allergen information."
+      ],
+      "suitability": {
+        "suits": [
+          "households replacing one awkward dry-food packet after checking its volume and shelf fit"
+        ],
+        "mayNotSuit": [
+          "liquid storage, carrying food by the lid or buying a set before measuring packet volumes"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
+          "publisher": "OXO",
+          "sourceUrl": "https://oxoaustralia.com.au/products/pop-2-0-big-square-short",
+          "supports": "Official Australian 2.6 L Big Square Short product, dimensions 16 × 16 × 16 cm, dry-food use, top-rack dishwasher care and instruction not to carry by the lid.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Variant-specific owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+          "supports": "Australian reviews explicitly marked BIG SQUARE / 2.6 L / White cover stacking, cleaning and seal performance, including a qualified concern about the seal. Reviews of other sizes and rectangle variants were excluded from the assessment.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+          "supports": "Selected product and variant were in stock with a purchase option, sold and dispatched by Amazon AU. Dated observation, not a continuing stock or delivery promise.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU offer and tracked destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+          "supports": "Selected ASIN B077VHCMRN; sold and dispatched by Amazon AU. Public product checked without generating an affiliate referral; destination preserves ASIN and the account tracking tag ahc07-22.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=OXO",
+          "supports": "Official OXO recall search returned one unrelated Inokim OXO scooter entry; no matching POP container recall found. This is a dated recall search, not safety certification.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/oxo-pop-big-square-short-2-6-litre-640.webp",
+        "srcSet": "/images/products/oxo-pop-big-square-short-2-6-litre-320.webp 320w, /images/products/oxo-pop-big-square-short-2-6-litre-640.webp 640w",
+        "alt": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from OXO.",
+        "sourceUrl": "https://oxoaustralia.com.au/cdn/shop/files/48512_a__56891.1597123896.1280.1280.jpg?v=1775776329",
+        "suppliedVia": "Manufacturer product page: https://oxoaustralia.com.au/products/pop-2-0-big-square-short",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "renter-friendly-kitchen-storage-what-to-check-before-you-buy-option-1",
+      "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
+      "name": "OXO Good Grips Expandable Utensil Drawer Organiser",
+      "productType": "Expandable utensil drawer organiser",
+      "summary": "A removable-tray organiser for cutlery, utensils and small loose items once the drawer width, depth and 6 cm clearance have been checked.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-04",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Its 6 cm height and wide expanded footprint will not suit every drawer.",
+        "It is designed to be wiped clean rather than used as a dishwasher-safe tray.",
+        "The open section will not resolve mixed, excess contents by itself."
+      ],
+      "suitability": {
+        "suits": [
+          "drawers holding a mix of cutlery, irregular tools and small kitchen gadgets",
+          "households that want removable sections for setting the table or cleaning"
+        ],
+        "mayNotSuit": [
+          "shallow drawers or drawers with runner, screw or curved-side obstructions",
+          "households needing a fixed cutlery-only layout"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Expandable Utensil Drawer Organiser",
+          "publisher": "OXO Australia",
+          "sourceUrl": "https://oxoaustralia.com.au/products/expandable-utensil-drawer-organiser",
+          "supports": "Australian product specifications, removable trays, non-slip feet and care instructions.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "OXO Expandable Utensil Drawer Organiser",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/oxo-expandable-utensil-drawer-organiser",
+          "supports": "Australian buyer feedback on adjustment, fit and build quality.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Expandable Utensil Drawer Organiser",
+          "publisher": "OXO Australia",
+          "sourceUrl": "https://oxoaustralia.com.au/products/expandable-utensil-drawer-organiser",
+          "supports": "Current Australian availability and local product information.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "OXO Good Grips Expandable Utensil Drawer Organizer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+          "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B09B1CZVWR: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/oxo-expandable-utensil-drawer-organiser-640.webp",
+        "srcSet": "/images/products/oxo-expandable-utensil-drawer-organiser-320.webp 320w, /images/products/oxo-expandable-utensil-drawer-organiser-640.webp 640w",
+        "alt": "OXO Good Grips Expandable Utensil Drawer Organiser.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from OXO.",
+        "sourceUrl": "https://oxoaustralia.com.au/cdn/shop/files/48702_a__05810.1652983946.1280.1280.jpg?v=1775779424",
+        "suppliedVia": "Manufacturer product page: https://oxoaustralia.com.au/products/expandable-utensil-drawer-organiser",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "renter-friendly-kitchen-storage-what-to-check-before-you-buy-option-2",
+      "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
+      "name": "OXO Good Grips 11-inch Turntable",
+      "productType": "11-inch pantry turntable",
+      "summary": "A compact rotating tray for a small group of jars, bottles or condiments in a deep pantry corner once its full diameter and nearby clearance have been checked.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-04",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A circular tray leaves unused space on a rectangular shelf.",
+        "Tall or closely packed bottles can catch on a shelf above or on the pantry wall while turning.",
+        "It improves access to a small group; it does not create capacity for a broad pantry category."
+      ],
+      "suitability": {
+        "suits": [
+          "small groups of bottles, sauces or jars in a deep, accessible pantry corner",
+          "shelves with clear rotation space around an approximately 28 cm tray"
+        ],
+        "mayNotSuit": [
+          "narrow rectangular shelves where a basket uses the footprint more efficiently",
+          "tall bottles with limited clearance above or beside them"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Best OXO Products Recommended by Wirecutter",
+          "publisher": "OXO",
+          "sourceUrl": "https://www.oxo.com/blog/behind-the-scenes/best-oxo-products-wirecutter",
+          "supports": "Manufacturer description of the 11-inch turntable's non-slip base, deep ledge and intended cupboard or pantry use.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Not So Lazy Susan Turntable - 11 Inch",
+          "publisher": "Kooi Housewares",
+          "sourceUrl": "https://www.kooihousewares.com/products/oxo-not-so-lazy-turntable",
+          "supports": "Owner-feedback themes on smooth turning, deep shelves and the need to allow for the full footprint.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "OXO Good Grips Lazy Susan Turntable, 11-Inch",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Current Australian retail destination checked for the exact model.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "OXO Good Grips Lazy Susan Turntable, 11-Inch",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000WJQGMU: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/oxo-good-grips-11-inch-turntable-640.webp",
+        "srcSet": "/images/products/oxo-good-grips-11-inch-turntable-320.webp 320w, /images/products/oxo-good-grips-11-inch-turntable-640.webp 640w",
+        "alt": "OXO Good Grips 11-inch Turntable.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from OXO.",
+        "sourceUrl": "https://www.oxo.com/media/catalog/product/cache/b2f1ce2dfe10d3d31bf2056bf6e0d10f/g/g/gg_1071352_2_1_.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.oxo.com/11-turntable.html",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "renter-friendly-laundry-storage-what-to-check-before-you-buy-option-1",
+      "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
+      "name": "Brabantia HangOn Drying Rack 20m, Matt Black",
+      "productType": "Foldable drying rack",
+      "summary": "A broad foldable rack with hanging bars and accessory space for households comparing usable line length rather than rail count alone.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-22",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-22",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The open footprint is substantial and needs a stable, ventilated position.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "larger mixed loads and homes with a dedicated drying zone"
+        ],
+        "mayNotSuit": [
+          "narrow passages or homes without folded storage space"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Brabantia HangOn Drying Rack 20m manufacturer information",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://www.brabantia.com/int_en/laundry-drying/drying-racks/",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Brabantia HangOn Drying Rack 20m product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/brabantia-hangon-drying-rack-20m-fresh-white",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0987Z4WWC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/brabantia-hangon-20m-drying-rack-320.webp",
+        "srcSet": "/images/products/brabantia-hangon-20m-drying-rack-320.webp 320w",
+        "alt": "Brabantia HangOn Drying Rack 20m, Matt Black.",
+        "width": 320,
+        "height": 320,
+        "credit": "Product image sourced from Brabantia.",
+        "sourceUrl": "https://www.brabantia.com/cdn-cgi/image/format=auto,onerror=redirect/media/catalog/product/cache/6992282f8468d2367449fe63d3460a7b/4/0/403408_product_shot_front_02-web.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.brabantia.com/uk/hangon-drying-rack-20-metres-matt-black/",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "renter-friendly-laundry-storage-what-to-check-before-you-buy-option-2",
+      "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
+      "name": "Joseph Joseph Hold-All Max 55L Collapsible Laundry Basket",
+      "productType": "Collapsible 55 L carry basket",
+      "summary": "A collapsible fabric carry basket for a household that needs to move a single load but can store the basket flat between uses.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-04",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+        "Its collapsible benefit disappears when it remains full and parked in one place.",
+        "A fabric basket needs to be dried and cleaned appropriately after damp or dirty loads.",
+        "It does not pre-sort washing into separate compartments."
+      ],
+      "suitability": {
+        "suits": [
+          "homes that carry one load between rooms and need the basket to store flat when empty",
+          "households with a dry, accessible gap for folded storage"
+        ],
+        "mayNotSuit": [
+          "households needing pre-sort compartments before laundry day",
+          "a basket that is normally kept full or used for damp clothes"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Laundry Basket Size Guide",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/blogs/news/laundry-basket-size-guide",
+          "supports": "Australian manufacturer guidance that identifies the Hold-All Max as a collapsible space-saving basket within the laundry range.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Joseph Joseph Hold-All Max Collapsible 55L Washing Laundry Basket Bag",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Owner-feedback themes checked for capacity, carrying and collapsible storage before approval.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Laundry Basket Size Guide",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/blogs/news/laundry-basket-size-guide",
+          "supports": "Current Australian laundry-range support and size guidance checked.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Joseph Joseph Hold-All Max Collapsible 55L Washing Laundry Basket Bag",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0CQTCWCW6: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon Japan. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-hold-all-max-collapsible-laundry-basket-640.webp",
+        "srcSet": "/images/products/joseph-joseph-hold-all-max-collapsible-laundry-basket-320.webp 320w, /images/products/joseph-joseph-hold-all-max-collapsible-laundry-basket-640.webp 640w",
+        "alt": "Joseph Joseph Hold-All Max 55L Collapsible Laundry Basket.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0523/0516/6495/files/50039_PDP_01.jpg?v=1704295593",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/hold-all-max-collapsible-55l-laundry-basket-grey",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "outdoor-storage-ideas-australian-patios-balconies-gardens-option-1",
+      "guidePath": "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
+      "name": "vidaXL 90L Garden Storage Box",
+      "productType": "Compact outdoor storage box",
+      "summary": "A compact lockable plastic box for small outdoor items where the footprint, drainage and weather exposure have been checked.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07TC6PHJC?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Ninety litres will not hold large cushions or long tools, and lightweight boxes need sensible positioning.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "balconies and small yards storing compact accessories"
+        ],
+        "mayNotSuit": [
+          "large cushions, heavy tools or exposed windy sites"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "vidaXL 90L Garden Storage Box manufacturer information",
+          "publisher": "vidaXL",
+          "sourceUrl": "https://www.vidaxl.com.au/",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "vidaXL 90L Garden Storage Box product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/garden-storage-box-90-l-light-grey",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "vidaXL 90L Garden Storage Box Australian availability",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/garden-storage-box-90-l-light-grey",
+          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "vidaXL 90L Garden Storage Box Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TC6PHJC?tag=ahc07-22",
+          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TC6PHJC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07TC6PHJC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TC6PHJC?tag=ahc07-22",
+          "supports": "Displayed seller: vidaXL AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/vidaxl-90l-garden-storage-box-640.webp",
+        "srcSet": "/images/products/vidaxl-90l-garden-storage-box-320.webp 320w, /images/products/vidaxl-90l-garden-storage-box-640.webp 640w",
+        "alt": "vidaXL 90L Garden Storage Box.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from vidaXL.",
+        "sourceUrl": "https://www.vidaxl.com.au/dw/image/v2/BFNS_PRD/on/demandware.static/-/Sites-vidaxl-catalog-master-sku/default/dw8daa6615/hi-res/436/4299/7310/45683/image_2_45683.jpg?sw=640",
+        "suppliedVia": "Manufacturer product page: https://www.vidaxl.com.au/e/vidaxl-garden-storage-box-90-l-anthracite/8719883554518.html",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "outdoor-storage-ideas-australian-patios-balconies-gardens-option-2",
+      "guidePath": "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
+      "name": "Keter Borneo Outdoor Storage Box",
+      "productType": "Large outdoor deck box",
+      "summary": "A larger resin deck box for cushions and bulky outdoor items where lid clearance, delivery access and the full footprint fit.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
+        "The bulky box is expensive to move, and owner feedback includes concerns that should be checked against the current seller and model.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "yards needing a large weather-resistant cushion store"
+        ],
+        "mayNotSuit": [
+          "very small spaces or households needing easy portability"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Keter Borneo Outdoor Storage Box manufacturer information",
+          "publisher": "Keter",
+          "sourceUrl": "https://www.keter.com/en-au/outdoor-storage/deck-boxes/",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Keter Borneo Outdoor Storage Box product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/keter-borneo-grey-outdoor-storage-box",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Keter Borneo Outdoor Storage Box Australian availability",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/keter-borneo-grey-outdoor-storage-box",
+          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Keter Borneo Outdoor Storage Box Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
+          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B00CX4VMVM: An orderable offer was displayed. Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price. This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
+          "supports": "Displayed seller: EFI Global Store AU. Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/keter-borneo-outdoor-storage-box-640.webp",
+        "srcSet": "/images/products/keter-borneo-outdoor-storage-box-320.webp 320w, /images/products/keter-borneo-outdoor-storage-box-640.webp 640w",
+        "alt": "Keter Borneo Outdoor Storage Box.",
+        "width": 640,
+        "height": 404,
+        "credit": "Product image sourced from Keter.",
+        "sourceUrl": "https://assets.keter.com/transform/8c49144b-6ad4-4fd4-b1f5-095ea3b0d727/BORNEO_Storage_Box_cliped_Grey_1030x650_1",
+        "suppliedVia": "Manufacturer product page: https://www.keter.com/fr-fr/rangement-exterieur/coffre-de-jardin-borneo-416l-graphite-247607.html",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "pantry-storage-ideas-australian-kitchens-option-1",
+      "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
+      "name": "OXO Good Grips 11-inch Turntable",
+      "productType": "11-inch pantry turntable",
+      "summary": "A compact rotating tray for a small group of jars, bottles or condiments in a deep pantry corner once its full diameter and nearby clearance have been checked.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-04",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A circular tray leaves unused space on a rectangular shelf.",
+        "Tall or closely packed bottles can catch on a shelf above or on the pantry wall while turning.",
+        "It improves access to a small group; it does not create capacity for a broad pantry category."
+      ],
+      "suitability": {
+        "suits": [
+          "small groups of bottles, sauces or jars in a deep, accessible pantry corner",
+          "shelves with clear rotation space around an approximately 28 cm tray"
+        ],
+        "mayNotSuit": [
+          "narrow rectangular shelves where a basket uses the footprint more efficiently",
+          "tall bottles with limited clearance above or beside them"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Best OXO Products Recommended by Wirecutter",
+          "publisher": "OXO",
+          "sourceUrl": "https://www.oxo.com/blog/behind-the-scenes/best-oxo-products-wirecutter",
+          "supports": "Manufacturer description of the 11-inch turntable's non-slip base, deep ledge and intended cupboard or pantry use.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Not So Lazy Susan Turntable - 11 Inch",
+          "publisher": "Kooi Housewares",
+          "sourceUrl": "https://www.kooihousewares.com/products/oxo-not-so-lazy-turntable",
+          "supports": "Owner-feedback themes on smooth turning, deep shelves and the need to allow for the full footprint.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "OXO Good Grips Lazy Susan Turntable, 11-Inch",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Current Australian retail destination checked for the exact model.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "OXO Good Grips Lazy Susan Turntable, 11-Inch",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000WJQGMU: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/oxo-good-grips-11-inch-turntable-640.webp",
+        "srcSet": "/images/products/oxo-good-grips-11-inch-turntable-320.webp 320w, /images/products/oxo-good-grips-11-inch-turntable-640.webp 640w",
+        "alt": "OXO Good Grips 11-inch Turntable.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from OXO.",
+        "sourceUrl": "https://www.oxo.com/media/catalog/product/cache/b2f1ce2dfe10d3d31bf2056bf6e0d10f/g/g/gg_1071352_2_1_.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.oxo.com/11-turntable.html",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "pantry-storage-ideas-australian-kitchens-option-2",
+      "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
+      "name": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
+      "productType": "Single dry-food container",
+      "summary": "A single 2.6 L container for one regularly used dry staple, rather than a full matching set. Its approximately 16 × 16 × 16 cm footprint needs checking against the shelf and the packet you plan to empty.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-07",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-07",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Litres do not tell you whether a particular weight of flour or cereal will fit. Check the packet and leave room for the lid.",
+        "Carry it by the body, never by the lid; some owners report concerns about the seal.",
+        "Clean and dry the lid and seal carefully before refilling; keep food dates and allergen information."
+      ],
+      "suitability": {
+        "suits": [
+          "households replacing one awkward dry-food packet after checking its volume and shelf fit"
+        ],
+        "mayNotSuit": [
+          "liquid storage, carrying food by the lid or buying a set before measuring packet volumes"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
+          "publisher": "OXO",
+          "sourceUrl": "https://oxoaustralia.com.au/products/pop-2-0-big-square-short",
+          "supports": "Official Australian 2.6 L Big Square Short product, dimensions 16 × 16 × 16 cm, dry-food use, top-rack dishwasher care and instruction not to carry by the lid.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Variant-specific owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+          "supports": "Australian reviews explicitly marked BIG SQUARE / 2.6 L / White cover stacking, cleaning and seal performance, including a qualified concern about the seal. Reviews of other sizes and rectangle variants were excluded from the assessment.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+          "supports": "Selected product and variant were in stock with a purchase option, sold and dispatched by Amazon AU. Dated observation, not a continuing stock or delivery promise.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU offer and tracked destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
+          "supports": "Selected ASIN B077VHCMRN; sold and dispatched by Amazon AU. Public product checked without generating an affiliate referral; destination preserves ASIN and the account tracking tag ahc07-22.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=OXO",
+          "supports": "Official OXO recall search returned one unrelated Inokim OXO scooter entry; no matching POP container recall found. This is a dated recall search, not safety certification.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/oxo-pop-big-square-short-2-6-litre-640.webp",
+        "srcSet": "/images/products/oxo-pop-big-square-short-2-6-litre-320.webp 320w, /images/products/oxo-pop-big-square-short-2-6-litre-640.webp 640w",
+        "alt": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from OXO.",
+        "sourceUrl": "https://oxoaustralia.com.au/cdn/shop/files/48512_a__56891.1597123896.1280.1280.jpg?v=1775776329",
+        "suppliedVia": "Manufacturer product page: https://oxoaustralia.com.au/products/pop-2-0-big-square-short",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "laundry-essentials-australian-homes-option-1",
+      "guidePath": "/guides/laundry-essentials-australian-homes/",
+      "name": "Brabantia HangOn Drying Rack 20m, Matt Black",
+      "productType": "Foldable drying rack",
+      "summary": "A broad foldable rack with hanging bars and accessory space for households comparing usable line length rather than rail count alone.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-22",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-22",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The open footprint is substantial and needs a stable, ventilated position.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "larger mixed loads and homes with a dedicated drying zone"
+        ],
+        "mayNotSuit": [
+          "narrow passages or homes without folded storage space"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Brabantia HangOn Drying Rack 20m manufacturer information",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://www.brabantia.com/int_en/laundry-drying/drying-racks/",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Brabantia HangOn Drying Rack 20m product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/product/brabantia-hangon-drying-rack-20m-fresh-white",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0987Z4WWC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/brabantia-hangon-20m-drying-rack-320.webp",
+        "srcSet": "/images/products/brabantia-hangon-20m-drying-rack-320.webp 320w",
+        "alt": "Brabantia HangOn Drying Rack 20m, Matt Black.",
+        "width": 320,
+        "height": 320,
+        "credit": "Product image sourced from Brabantia.",
+        "sourceUrl": "https://www.brabantia.com/cdn-cgi/image/format=auto,onerror=redirect/media/catalog/product/cache/6992282f8468d2367449fe63d3460a7b/4/0/403408_product_shot_front_02-web.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.brabantia.com/uk/hangon-drying-rack-20-metres-matt-black/",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "laundry-essentials-australian-homes-option-2",
+      "guidePath": "/guides/laundry-essentials-australian-homes/",
+      "name": "Joseph Joseph Hold-All Max 55L Collapsible Laundry Basket",
+      "productType": "Collapsible 55 L carry basket",
+      "summary": "A collapsible fabric carry basket for a household that needs to move a single load but can store the basket flat between uses.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-04",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+        "Its collapsible benefit disappears when it remains full and parked in one place.",
+        "A fabric basket needs to be dried and cleaned appropriately after damp or dirty loads.",
+        "It does not pre-sort washing into separate compartments."
+      ],
+      "suitability": {
+        "suits": [
+          "homes that carry one load between rooms and need the basket to store flat when empty",
+          "households with a dry, accessible gap for folded storage"
+        ],
+        "mayNotSuit": [
+          "households needing pre-sort compartments before laundry day",
+          "a basket that is normally kept full or used for damp clothes"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Laundry Basket Size Guide",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/blogs/news/laundry-basket-size-guide",
+          "supports": "Australian manufacturer guidance that identifies the Hold-All Max as a collapsible space-saving basket within the laundry range.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Joseph Joseph Hold-All Max Collapsible 55L Washing Laundry Basket Bag",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Owner-feedback themes checked for capacity, carrying and collapsible storage before approval.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Laundry Basket Size Guide",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/blogs/news/laundry-basket-size-guide",
+          "supports": "Current Australian laundry-range support and size guidance checked.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Recall search completed for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Joseph Joseph Hold-All Max Collapsible 55L Washing Laundry Basket Bag",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
+          "checkedOn": "2026-08-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B0CQTCWCW6: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CQTCWCW6?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon Japan. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-hold-all-max-collapsible-laundry-basket-640.webp",
+        "srcSet": "/images/products/joseph-joseph-hold-all-max-collapsible-laundry-basket-320.webp 320w, /images/products/joseph-joseph-hold-all-max-collapsible-laundry-basket-640.webp 640w",
+        "alt": "Joseph Joseph Hold-All Max 55L Collapsible Laundry Basket.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0523/0516/6495/files/50039_PDP_01.jpg?v=1704295593",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/hold-all-max-collapsible-55l-laundry-basket-grey",
         "checkedOn": "2026-10-10"
       }
     }
