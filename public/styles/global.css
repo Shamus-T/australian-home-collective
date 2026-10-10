@@ -1156,7 +1156,7 @@ h3 {
 }
 
 .commercial-product-comparison thead th:last-child {
-  width: 288px;
+  width: 240px;
 }
 
 .commercial-product-block--comparison .commercial-product-grid {
@@ -1392,14 +1392,31 @@ h3 {
 
 .commercial-retailer-badge {
   display: block;
-  width: 260px;
+  width: 212px;
   height: auto;
-  aspect-ratio: 868 / 185;
   object-fit: contain;
+  grid-area: 1 / 1;
+  opacity: 0;
 }
 
+.commercial-retailer-fallback {
+  grid-area: 1 / 1;
+  font: 600 0.9rem/1.3 system-ui, sans-serif;
+}
+
+.commercial-retailer-link[data-retailer-image-ready] .commercial-retailer-badge { opacity: 1; }
+.commercial-retailer-link[data-retailer-image-ready] .commercial-retailer-fallback { visibility: hidden; }
+.commercial-retailer-link--amazon .commercial-retailer-badge { width: 144px; }
+.commercial-retailer-link--amazon { background: #232f3e; color: #fff; }
+.commercial-retailer-link--good-guys { background: #0871b4; color: #fff; }
+
 .commercial-retailer-links a:has(.commercial-retailer-badge) {
+  display: grid;
+  place-items: center;
+  width: 212px;
+  height: 56px;
   border-radius: 7px;
+  overflow: hidden;
   flex-shrink: 0;
 }
 
@@ -1428,7 +1445,13 @@ h3 {
 
 .commercial-retailers--comparison {
   margin-bottom: 0;
+  justify-content: center;
 }
+
+.commercial-retailers--comparison .commercial-retailer-links { justify-content: center; }
+.commercial-product-comparison td:last-child { vertical-align: middle; }
+.commercial-product-comparison thead th:last-child { text-align: center; }
+.commercial-retailers--card { flex-direction: column; align-items: flex-start; gap: 8px; }
 
 .commercial-product-details-content {
   background: linear-gradient(180deg, #fffdf7, #f7f0e3);
