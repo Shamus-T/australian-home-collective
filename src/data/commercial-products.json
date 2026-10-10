@@ -60,7 +60,9 @@
     "/guides/oil-column-heater-vs-panel-heater/",
     "/guides/fan-heater-vs-ceramic-heater/",
     "/guides/robot-lawn-mower-buying-guide-australia/",
-    "/guides/lg-fit-max-436l-fridge-first-look/"
+    "/guides/lg-fit-max-436l-fridge-first-look/",
+    "/guides/cordless-stick-vacuums-australia/",
+    "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
   ],
   "products": [
     {
@@ -10429,6 +10431,324 @@
         "height": 640,
         "credit": "Product image sourced from The Good Guys website.",
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50100467_1090357.png?v=1791242922",
+        "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "shark-powerpro-iz373hanz-good-guys",
+      "guidePath": "/guides/cordless-stick-vacuums-australia/",
+      "name": "Shark PowerPro IZ373HANZ",
+      "productType": "Cordless stick vacuum",
+      "summary": "A removable-battery option for regular quick cleans, with automatic floor detection and a detachable handvac. Try the complete vacuum in your hand before choosing it for stairs or longer sessions.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fshark-powerpro-cordless-vacuum-iz373hanz",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The advertised 50 minutes is measured in handvac standard mode, not normal use with the powered floor head.",
+        "Some owners find it heavy or need boost for particular debris; pickup is not independently tested by AHC.",
+        "No auto-empty dock; plan charging, tool storage and manual bin emptying."
+      ],
+      "suitability": {
+        "suits": [
+          "regular short cleans across hard floors and rugs",
+          "households wanting a detachable handvac and removable battery"
+        ],
+        "mayNotSuit": [
+          "people who find a motor near the handle tiring",
+          "long whole-home carpet cleans or anyone needing an auto-empty dock"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "IZ373HANZ manufacturer evidence",
+          "publisher": "Shark Australia",
+          "sourceUrl": "https://sharkninja.com.au/products/shark-powerpro?variant=41899538219043",
+          "supports": "Shark Australia product lookup with Colour White & Adriatic Teal returned SKU IZ373HANZ and variant 41899538219043. Removable battery, detachable handvac and 50-minute claim measured at handvac in standard mode. Family-page default is IZ377HANZ and must not be mistaken for this variant. Exact retailer listing confirms FloorDetect.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "IZ373HANZ individual owner feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/shark-powerpro-cordless-vacuum-iz373hanz",
+          "supports": "Read the current ten displayed reviews and all three one-star reports from 316 retailer reviews. Themes: convenient daily cleaning and mixed-floor use; counterexamples include tile cat-litter pickup requiring boost, heaviness/storage expectations and one suspected fault. No recurring serious failure pattern established in this sample. Reviews may be incentivised; no laboratory pickup or long-term durability conclusion.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "IZ373HANZ Australian offer and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/shark-powerpro-cordless-vacuum-iz373hanz",
+          "supports": "Exact Australian model listing, enabled Add to cart, seller The Good Guys, two-year manufacturer warranty stated. Postcode-specific delivery/collection requires confirmation; no nationwide stock claim.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "IZ373HANZ Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search-index checks restricted to productsafety.gov.au for the exact model/family found no matching recall notice on 10 October 2026. This is an indexed search, not a complete direct-register inspection or product certification. No safety/compliance performance claim is made.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "IZ373HANZ Partnerize redirect",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fshark-powerpro-cordless-vacuum-iz373hanz",
+          "supports": "Navigated the configured AHC camref 1100l6vaUc link in the browser; final destination was the exact model listing with clickref retained. Exact product, seller and enabled Add to cart verified. Postcode delivery/collection remains for the reader to confirm. This verifies link routing, not an attributable order or earned commission.",
+          "checkedOn": "2026-10-10"
+        }
+      ],
+      "image": {
+        "src": "/images/products/shark-powerpro-iz373hanz-good-guys-640.webp",
+        "srcSet": "/images/products/shark-powerpro-iz373hanz-good-guys-320.webp 80w, /images/products/shark-powerpro-iz373hanz-good-guys-640.webp 160w, /images/products/shark-powerpro-iz373hanz-good-guys-960.webp 241w",
+        "alt": "Shark PowerPro IZ373HANZ product view.",
+        "width": 160,
+        "height": 640,
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50095662_1004335.png?v=1776232161",
+        "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "bosch-wgg244a1au-good-guys",
+      "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+      "name": "Bosch WGG244A1AU 9kg front loader",
+      "productType": "Front load washing machine",
+      "summary": "A 9kg front loader to consider when the full door and hose space fits and automatic liquid-detergent dosing would simplify the laundry routine. The 590mm body depth is not the installed depth.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-9kg-front-load-washer-wgg244a1au",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow for the 636mm closed-door depth and 1,073mm open-door depth, plus the installation requirements and connections.",
+        "Automatic dosing still needs the correct detergent settings and drawer cleaning; it does not remove maintenance.",
+        "Exact-model owner feedback is mostly recent. Published water-use figures differ between Bosch and the retailer, so confirm the current WELS label if efficiency decides your purchase."
+      ],
+      "suitability": {
+        "suits": [
+          "households whose laundry fits the full door, hose and service clearances",
+          "people who regularly use a suitable liquid detergent and want automatic dosing"
+        ],
+        "mayNotSuit": [
+          "tight spaces planned around the 590mm body depth alone",
+          "buyers wanting established long-term evidence for this exact model"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "WGG244A1AU manufacturer evidence",
+          "publisher": "Bosch Australia",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/specsheet/en-AU/WGG244A1AU.pdf",
+          "supports": "Exact Australian specification: 9kg, 598mm wide, 848mm high, 590mm body depth, i-DOS liquid-detergent/softener dosing. Installation drawing distinguishes 636mm door-closed and 1073mm door-open depth. These are the assessed claims. Water-use conflict: Bosch PDF 78L, retailer 84L; no litres, running-cost or efficiency advantage is published by AHC.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WGG244A1AU individual owner feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-9kg-front-load-washer-wgg244a1au",
+          "supports": "Exact-model retailer listing had 13 reviews. Read the displayed recent ten and indexed remaining feedback: recurring quiet operation, straightforward use and useful dosing; one explicitly too early to judge. No sufficiently mature exact-model reliability record. Broader Bosch Series 8 owner reviews cover different models and were not attributed to WGG244A1AU.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "WGG244A1AU Australian offer and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-9kg-front-load-washer-wgg244a1au",
+          "supports": "Exact WGG244A1AU available to order from The Good Guys; enabled Add to cart. Australian Bosch support and standard two-year warranty. Do not assume postcode stock or include the conditional promotional extended warranty.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "WGG244A1AU Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search-index checks restricted to productsafety.gov.au for the exact model/family found no matching recall notice on 10 October 2026. This is an indexed search, not a complete direct-register inspection or product certification. No safety/compliance performance claim is made.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "WGG244A1AU Partnerize redirect",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-9kg-front-load-washer-wgg244a1au",
+          "supports": "Navigated the configured AHC camref 1100l6vaUc link in the browser; final destination was the exact model listing with clickref retained. Exact product, seller and enabled Add to cart verified. Postcode delivery/collection remains for the reader to confirm. This verifies link routing, not an attributable order or earned commission.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "WGG244A1AU installation and dosing instructions",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/9002022827_A.pdf",
+          "supports": "Read installation and dosing guidance: complete appliance and hose access, secure level placement, suitable liquid detergent, dose settings and cleaning. Body dimensions are not a cavity specification.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Bosch Australian appliance warranty",
+          "publisher": "Bosch Australia",
+          "sourceUrl": "https://www.bosch-home.com.au/en",
+          "supports": "Standard two-year manufacturer warranty stated for Australian appliances. Promotional extensions are conditional and excluded from this assessment.",
+          "checkedOn": "2026-10-10"
+        }
+      ],
+      "image": {
+        "src": "/images/products/bosch-wgg244a1au-good-guys-640.webp",
+        "srcSet": "/images/products/bosch-wgg244a1au-good-guys-320.webp 230w, /images/products/bosch-wgg244a1au-good-guys-640.webp 460w, /images/products/bosch-wgg244a1au-good-guys-960.webp 690w",
+        "alt": "Bosch WGG244A1AU 9kg front loader product view.",
+        "width": 460,
+        "height": 640,
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50097772_1047025.png?v=1776381176",
+        "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "nespresso-bec220blk-good-guys",
+      "guidePath": "/guides/coffee-machine-types-australia/",
+      "name": "Nespresso Essenza Mini Solo BEC220BLK",
+      "productType": "Original capsule coffee machine",
+      "summary": "A compact capsule option for one espresso or lungo at a time, especially when a short black-coffee routine matters more than grinding and milk-texturing controls. This Solo version has no milk frother.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fnespresso-essenza-mini-capsule-coffee-machine-solo-black-bec220blk",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The Solo package has no milk frother and uses Original-compatible capsules, not Vertuo capsules.",
+        "The small water tank and used-capsule bin need frequent attention; check your mug fits and budget for capsules and descaling.",
+        "Owners report noise and cup-height limits, with some fault reports including leaks and capsule feeding. Positive feedback does not guarantee lifespan."
+      ],
+      "suitability": {
+        "suits": [
+          "one or two people wanting a short black-coffee routine",
+          "small benches where the tank, capsule lever and drip tray remain accessible"
+        ],
+        "mayNotSuit": [
+          "households wanting milk drinks from one complete machine",
+          "people wanting freshly ground beans or several cups brewed together"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "BEC220BLK manufacturer evidence",
+          "publisher": "Breville / Nespresso",
+          "sourceUrl": "https://www.breville.com/content/dam/breville/au/en/assets/miscellaneous/instruction-manual/nespresso/BEC220-instruction-manual.pdf",
+          "supports": "Official BEC220-linked multi-model manual: use Essenza Mini instructions, not Citiz/Inissia/Pixie capacity figures. Confirms capsule insertion, espresso/lungo controls, emptying, rinsing and descaling. Exact retailer BEC220BLK is Solo without Aeroccino; other bundles and DeLonghi variants are excluded. Retailer width field incorrectly reads 840mm; that value is not reproduced or used for a fit claim.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "BEC220BLK individual owner feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/nespresso-essenza-mini-capsule-coffee-machine-solo-black-bec220blk",
+          "supports": "Read recent individual reviews on the exact BEC220BLK retailer listing (581 reviews) and BEC220 ProductReview page (59 reviews). Recurring themes: compactness, simple daily coffee, small tank/bin and mug-height limits. Negative reports include noise, leaking and capsule-feeding problems; not erased by favourable averages. Some reviews discuss a bundled frother, which is not included in Solo.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "BEC220BLK Australian offer and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/nespresso-essenza-mini-capsule-coffee-machine-solo-black-bec220blk",
+          "supports": "Exact BEC220BLK Solo black listing, enabled Add to cart, seller The Good Guys, Australian supply and two-year warranty stated. Check postcode fulfilment and the package contents before ordering.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "BEC220BLK Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search-index checks restricted to productsafety.gov.au for the exact model/family found no matching recall notice on 10 October 2026. This is an indexed search, not a complete direct-register inspection or product certification. No safety/compliance performance claim is made.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "BEC220BLK Partnerize redirect",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fnespresso-essenza-mini-capsule-coffee-machine-solo-black-bec220blk",
+          "supports": "Navigated the configured AHC camref 1100l6vaUc link in the browser; final destination was the exact model listing with clickref retained. Exact product, seller and enabled Add to cart verified. Postcode delivery/collection remains for the reader to confirm. This verifies link routing, not an attributable order or earned commission.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Breville Nespresso Essenza Mini Solo BEC220 owner reports",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/breville-nespresso-essenza-mini-solo-bec220",
+          "supports": "Read recent individual reviews on the exact BEC220BLK retailer listing (581 reviews) and BEC220 ProductReview page (59 reviews). Recurring themes: compactness, simple daily coffee, small tank/bin and mug-height limits. Negative reports include noise, leaking and capsule-feeding problems; not erased by favourable averages. Some reviews discuss a bundled frother, which is not included in Solo.",
+          "checkedOn": "2026-10-10"
+        }
+      ],
+      "image": {
+        "src": "/images/products/nespresso-bec220blk-good-guys-640.webp",
+        "srcSet": "/images/products/nespresso-bec220blk-good-guys-320.webp 201w, /images/products/nespresso-bec220blk-good-guys-640.webp 401w, /images/products/nespresso-bec220blk-good-guys-960.webp 602w",
+        "alt": "Nespresso Essenza Mini Solo BEC220BLK product view.",
+        "width": 401,
+        "height": 640,
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50048920_513401.png?v=1776228230",
         "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-10"
       }
