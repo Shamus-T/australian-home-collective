@@ -1,0 +1,86 @@
+{
+  "checkedOn": "2026-10-10",
+  "note": "Known unresolved image gaps, not approval to add new imageless products. Do not substitute similar variants.",
+  "products": [
+    {
+      "id": "joseph-joseph-cupboardstore-expandable-shelf",
+      "reason": "Recorded manufacturer product page is missing, redirected or rate limited; exact image still needed."
+    },
+    {
+      "id": "coolaroo-original-elevated-pet-bed",
+      "reason": "Current manufacturer gallery found for Nutmeg, while the linked item is Aquatic Blue."
+    },
+    {
+      "id": "dreambaby-liberty-tall-gate",
+      "reason": "Exact manufacturer page returns rate limiting; matching photo not retrieved."
+    },
+    {
+      "id": "joseph-joseph-easystore-large-shower-caddy",
+      "reason": "Recorded manufacturer product page is missing, redirected or rate limited; exact image still needed."
+    },
+    {
+      "id": "bathroom-simplehouseware-expandable-under-sink",
+      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
+    },
+    {
+      "id": "bathroom-simplehouseware-pullout-under-sink",
+      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
+    },
+    {
+      "id": "simplehouseware-three-tier-sliding-basket",
+      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
+    },
+    {
+      "id": "lt-williams-large-collapsible-clothes-airer-black",
+      "reason": "Manufacturer product page confirms the model but its image could not be retrieved."
+    },
+    {
+      "id": "laundry-simplehouseware-expandable-under-sink",
+      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
+    },
+    {
+      "id": "laundry-simplehouseware-pullout-under-sink",
+      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
+    },
+    {
+      "id": "amazon-basics-five-shelf-caster-unit",
+      "reason": "Amazon own-brand item; approved Associates image delivery or a manufacturer media asset is still needed."
+    },
+    {
+      "id": "sterilite-51l-gasket-box",
+      "reason": "Current manufacturer gallery is the revised black-latch model; linked listing requires an exact variant check."
+    },
+    {
+      "id": "traderight-garden-tool-storage-rack",
+      "reason": "No verified exact-model manufacturer image source found."
+    },
+    {
+      "id": "magnifica-luce-cordless-desk-lamp",
+      "reason": "No verified exact-model manufacturer image source found."
+    },
+    {
+      "id": "amazon-basics-underbed-fabric-bags",
+      "reason": "Amazon own-brand item; approved Associates image delivery or a manufacturer media asset is still needed."
+    },
+    {
+      "id": "amazon-basics-six-tier-hanging-shelf",
+      "reason": "Amazon own-brand item; approved Associates image delivery or a manufacturer media asset is still needed."
+    },
+    {
+      "id": "amazon-basics-hanging-shelf-drawers",
+      "reason": "Amazon own-brand item; approved Associates image delivery or a manufacturer media asset is still needed."
+    },
+    {
+      "id": "kitchen-simplehouseware-expandable-under-sink",
+      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
+    },
+    {
+      "id": "kitchen-simplehouseware-pullout-under-sink",
+      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
+    },
+    {
+      "id": "gift-taronga-almonds-flavoured-sampler",
+      "reason": "Eight-flavour pack is not present in the current manufacturer catalogue."
+    }
+  ]
+}

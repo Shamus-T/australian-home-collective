@@ -106,13 +106,13 @@ const formatDate = (date: string) =>
               <figcaption>{product.image.credit}</figcaption>
             </figure>
           )}
-          <p>{product.summary}</p>
+          <p class="commercial-product-summary">{product.summary}</p>
           <CommercialRetailerLinks product={product} offers={retailers.get(product.id)!} placement="card" />
           <div class="commercial-product-fit">
             <p><strong>Good fit for</strong><br />{product.suitability.suits[0]}</p>
             <p><strong>Check before buying</strong><br />{product.drawbacks[0]}</p>
           </div>
-          {variant !== "quick" && <p class="commercial-product-outcome">{researchOutcomeLabels[product.researchOutcome!]}</p>}
+          <p class="commercial-product-outcome">{researchOutcomeLabels[product.researchOutcome!]}</p>
           <details class="commercial-product-disclosure-details">
             <summary class="commercial-product-details-toggle">More suitability and drawbacks</summary>
             <div

@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run audit:pdf-qr && npm run test:commercial-audit && npm run test:seasonal-commercial-audit && npm run audit:commercial && npm run audit:seasonal:commercial && npm run audit:commercial:links && npm run test:search-analytics && npm run test:affiliate-tracking && npm run test:google-analytics && astro build && npm run index:search && npm run audit:search:content && node scripts/audit-site-output.mjs && node scripts/audit-editorial-standards.mjs && node scripts/audit-featured-guide-images.mjs && node scripts/audit-guide-navigation.mjs && node scripts/audit-category-consistency.mjs && node scripts/audit-card-layout.mjs && node scripts/audit-continue-exploring.mjs && node scripts/audit-seasonal-visuals.mjs && npm run audit:search:dist && npm run audit:commercial:dist && npm run audit:seasonal:commercial:dist",
+    "build": "npm run audit:pdf-qr && npm run test:commercial-audit && npm run test:seasonal-commercial-audit && npm run audit:commercial && npm run audit:seasonal:commercial && npm run audit:commercial:links && npm run test:search-analytics && npm run test:affiliate-tracking && npm run test:google-analytics && astro build && npm run index:search && npm run audit:search:content && node scripts/audit-site-output.mjs && node scripts/audit-editorial-standards.mjs && node scripts/audit-featured-guide-images.mjs && node scripts/audit-guide-navigation.mjs && node scripts/audit-category-consistency.mjs && node scripts/audit-card-layout.mjs && node scripts/audit-continue-exploring.mjs && node scripts/audit-seasonal-visuals.mjs && npm run audit:search:dist && npm run audit:commercial:dist && npm run audit:seasonal:commercial:dist && npm run audit:product-presentation",
     "index:search": "pagefind",
     "audit:search:content": "node scripts/audit-pagefind-content.mjs",
     "audit:search:dist": "node scripts/audit-pagefind-output.mjs",
@@ -32,7 +32,8 @@
     "test:google-analytics": "node --test tests/google-analytics.test.mjs tests/measurement-download.test.mjs",
     "sitemap:update": "node scripts/update-sitemap-lastmod.mjs",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "audit:product-presentation": "node scripts/audit-product-presentation.mjs"
   },
   "dependencies": {
     "@fontsource-variable/lora": "5.3.0",

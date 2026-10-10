@@ -155,11 +155,7 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
       <p class="eyebrow">{category}{articleLabel && <> · {articleLabel}</>}</p>
       <h1>{title}</h1>
       <p class="lead">{description}</p>
-      {hasProductOptions && (
-        <p class="commercial-product-shortcut">
-          <a href={`#${getCommercialSectionId(currentPath)}`}>Jump to our researched options <span aria-hidden="true">↓</span></a>
-        </p>
-      )}
+
       <p class="article-meta">
         Published by <a class="article-author" href="/about/">Australian Home Collective</a>
         <span aria-hidden="true"> · </span>
@@ -177,6 +173,11 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
     )}
   </header>
   <article class="content narrow">
+      {hasProductOptions && (
+        <p class="commercial-product-shortcut">
+          <a href={`#${getCommercialSectionId(currentPath)}`}>Jump to our researched options <span aria-hidden="true">↓</span></a>
+        </p>
+      )}
     <slot />
     {faqs.length > 0 && <FAQBlock items={faqs} />}
     {guideNavigation.isActive && (
