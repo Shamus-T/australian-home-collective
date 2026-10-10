@@ -1,0 +1,38 @@
+{
+  "checkedOn": "2026-10-10",
+  "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+  "change": "Measurement comparison and shopping cards now cover the same three models. Product rows link to individual cards; the buying block follows the measurement comparison. Shared Good Guys and Amazon links now render the previously approved matching-size retailer badges.",
+  "approved": [
+    "bosch-wgg244a1au-good-guys",
+    "lg-wx3-1208w-good-guys",
+    "lg-wtx3-09g-good-guys"
+  ],
+  "assessment": "LG additions are moderate-confidence, research-only options for the stated household fit. No independent hands-on testing or established long-term reliability is claimed. Individual feedback read beyond the headline rating, excluding duplicates and separating related variants. Sources, limitations, availability and exact affiliate URL checks are recorded in commercial-products.json.",
+  "notPromoted": [
+    {
+      "model": "Fisher & Paykel WH1260H5",
+      "reason": "No exact-model Good Guys order route found in the focused current search. Previously a measurement example only; no affiliate destination invented."
+    },
+    {
+      "model": "Fisher & Paykel WL8058G1",
+      "reason": "Current individual WL8058G1 owner feedback includes repeated residue, tangling and wet-laundry concerns; not added merely to fill an affiliate slot.",
+      "source": "https://www.productreview.com.au/listings/fisher-paykel-wl-58g1"
+    }
+  ],
+  "installationCaveat": "WTX3-09G manual says 20mm side clearance, LG online FAQ says 50mm. Both disclosed; tight cabinetry requires LG confirmation. 100mm rear and 1339mm open-lid height confirmed. No unsupported claim of confirmed minimum cavity fit.",
+  "manufacturerManuals": [
+    "https://gscs-b2c.lge.com/open/downloadFile?fileId=jgV66tg9OOmyZK4NTYKuQ",
+    "https://gscs-b2c.lge.com/open/downloadFile?fileId=AkANO59AhNB39Twg3tgw"
+  ],
+  "badgeProvenance": {
+    "goodGuys": "Existing user-approved white-space-trimmed, rounded logo crop from the Partnerize campaign banner. Resampled for web delivery; no new logo artwork generated.",
+    "amazon": "Existing approved preview uses the unaltered official AU horizontal available-at-Amazon white artwork on a dark separate background. Links go to the existing Amazon AU Special Links. No imitation of Amazon shopping UI, endorsement language or altered mark.",
+    "sources": [
+      "https://affiliate-program.amazon.com.au/help/operating/policies",
+      "https://advertising.amazon.com/resources/ad-policy/brand-usage"
+    ],
+    "dimensions": "Both image canvases 868 x 185px, displayed at 260px width. Amazon horizontal artwork occupies approximately 141px at that display size, exceeding the published 140px minimum; original clear space retained."
+  },
+  "tracking": "Exact two new Partnerize URLs opened in browser; both reached the correct Good Guys model with clickref, rel and AHC partner identifier preserved. Enabled Add to Cart verified. Delivery/local stock depend on postcode. This QA is not evidence of an order or commission.",
+  "imageCheck": "WTX3-09G retailer image visibly labels 15.0kg; manufacturer gallery also uses overseas imagery. Withheld the mismatched photo and created an explicitly labelled AHC size diagram using the model manual. Slim front-loader photograph visually checked at 8kg."
+}

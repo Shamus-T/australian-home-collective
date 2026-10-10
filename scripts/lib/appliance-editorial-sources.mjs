@@ -5,7 +5,10 @@
 // Precision Fit evidence: docs/editorial/precision-fit-preview-sources-2026-10-10.md.
 // This does not approve other store pages or any tracking parameters.
 // LG evidence: docs/editorial/lg-fit-max-first-look-sources-2026-10-10.md
+// Washer update: docs/editorial/washer-affiliate-review-2026-10-10.json
 const reviewedSourceUrls = new Set([
+  "https://gscs-b2c.lge.com/open/downloadFile?fileId=jgV66tg9OOmyZK4NTYKuQ",
+  "https://gscs-b2c.lge.com/open/downloadFile?fileId=AkANO59AhNB39Twg3tgw",
   "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400mw/",
   "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400ps/",
   "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400bs/",

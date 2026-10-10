@@ -10752,6 +10752,244 @@
         "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-10"
       }
+    },
+    {
+      "id": "lg-wx3-1208w-good-guys",
+      "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+      "name": "LG WX3-1208W 8kg slim front loader",
+      "productType": "Shallow front load washing machine",
+      "summary": "A shallower front loader for a laundry where depth is the constraint. The body is 475mm deep, growing to 535mm with the door closed. Owners commonly like its compact size and straightforward operation. It is not a washer to choose for a stacked dryer installation.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-8kg-series-3-slim-ai-front-load-washer-wx3-1208w",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Not stacking-kit compatible. Allow for the 535mm closed-door depth, 100mm rear clearance and 20mm on each side; door-open depth is 1,015mm.",
+        "Noise reports differ: several owners describe quiet operation, while one recent owner finds it too noisy for night use in a townhouse. The dark door also limits visibility during a wash.",
+        "Feedback is recent and includes incentivised and duplicate entries, so it does not establish long-term reliability. A delivery-service complaint is distinct from washer performance."
+      ],
+      "suitability": {
+        "suits": [
+          "An 8kg household load in a shallow laundry, with the dryer elsewhere",
+          "People who want a front loader with optional app notifications"
+        ],
+        "mayNotSuit": [
+          "Anyone needing to stack a dryer on the washer",
+          "A household needing a particularly quiet machine beside a living or sleeping area",
+          "Large loads that regularly exceed an 8kg washer"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "WX3-1208W Australian specifications",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/washer-dryers/front-load-washing-machines/wx3-1208w/",
+          "supports": "Exact Australian 8kg model; 600 x 850 x 475mm body, 535mm door-closed and 1015mm door-open depth; 1200rpm, manual detergent dosing. No unqualified AI, efficiency, allergy or reliability claims used.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "WX3-1208W installation and owner manual",
+          "publisher": "LG",
+          "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=jgV66tg9OOmyZK4NTYKuQ",
+          "supports": "LG owner manual for WX3-1208W, pages 11 and 13: dimensions and 20mm side/100mm rear clearances. Retailer separately states NOT STACKING KIT COMPATIBLE; do not infer stackability from generic front-loader advice.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WX3-1208W individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-8kg-series-3-slim-ai-front-load-washer-wx3-1208w",
+          "supports": "Read all 28 displayed reviews in browser, including the one-star delivery complaint, three-star dark-door complaint and four-star noise/stacking comments. Repeated AB and Robert entries discounted. Recurring useful themes: compact fit, ease of use and cleaning satisfaction; quietness not unanimous. Recent May-September purchases, potential incentives, no long-term durability conclusion.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "WX3-1208W Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-8kg-series-3-slim-ai-front-load-washer-wx3-1208w",
+          "supports": "Live exact-model Australian listing with enabled Add to Cart on 10 October 2026. Delivery dates, installation service and local stock depend on postcode; no nationwide stock promise.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "WX3-1208W Australian warranty",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/washer-dryers/front-load-washing-machines/wx3-1208w/",
+          "supports": "Two years parts and labour; additional eight years parts-only cover on the Inverter Direct Drive motor is not a ten-year whole-machine warranty. LG Australia support and repair channel available.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian washing-machine recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Searched indexed Product Safety notices using exact model and LG washing-machine terms on 10 October 2026; no matching notice surfaced. Reviewed historical LG WD-8013F notice, which concerns another model and manufacturing period. This is a scoped search, not certification or a guarantee.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "WX3-1208W Partnerize destination check",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-8kg-series-3-slim-ai-front-load-washer-wx3-1208w",
+          "supports": "Navigated this exact affiliate URL in browser on 10 October 2026. Redirect reached the correct model at The Good Guys with clickref, rel, utm_source=Partner and utm_medium=shamus80 intact, plus enabled Add to Cart. No order placed; checks are QA traffic, not customer sales.",
+          "checkedOn": "2026-10-10"
+        }
+      ],
+      "image": {
+        "src": "/images/products/lg-wx3-1208w-good-guys-640.webp",
+        "srcSet": "/images/products/lg-wx3-1208w-good-guys-320.webp 320w, /images/products/lg-wx3-1208w-good-guys-640.webp 640w, /images/products/lg-wx3-1208w-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 898,
+        "alt": "LG WX3-1208W 8kg slim front loader product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50098873_1061127.png?v=1776817069",
+        "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "lg-wtx3-09g-good-guys",
+      "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+      "name": "LG WTX3-09G 9kg top loader",
+      "productType": "Top load washing machine",
+      "summary": "A 9kg top loader to compare if you prefer loading from above and have clear space for the lid. Recent owners often describe easy controls and satisfactory everyday washing. Check the reach into the drum and the cycle options in store, especially if you wash a lot of delicates.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-9kg-series-3-ai-top-load-washer-wtx3-09g",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The open lid reaches 1,339mm. LG’s manual specifies 20mm at each side and 100mm behind, but its online FAQ says 50mm at each side; confirm the installation requirement with LG before building a tight cavity.",
+        "Owner feedback includes forceful agitation and limited delicate-cycle settings. Related white-variant feedback includes wet delicates and one early drainage failure; that is not proof of a recurring fault in this graphite model.",
+        "Reviews are recent, sometimes incentivised and occasionally duplicated or misfiled. They support an everyday-use comparison, not a long-term reliability claim."
+      ],
+      "suitability": {
+        "suits": [
+          "Everyday loads in a laundry with unobstructed space above the washer",
+          "People who prefer top loading and can comfortably reach the bottom of the drum"
+        ],
+        "mayNotSuit": [
+          "An under-bench opening or a washer-and-dryer stack",
+          "People who need freely adjustable gentle-cycle temperatures and spin settings",
+          "Tight cabinetry where the side-clearance discrepancy has not been resolved with LG"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "WTX3-09G Australian specifications",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/washer-dryers/top-load-washing-machines/wtx3-09g/",
+          "supports": "Exact graphite WTX3-09G 9kg model; published product dimensions 590 x 1043 x 645mm, lid-open height 1339mm, hot/cold inlets, manual dosing. Retailer series naming differs from other retailers, so copy uses exact model only. No AI, efficiency, all-stainless-tub or safety-performance claims used.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "WTX3-09G installation and owner manual",
+          "publisher": "LG",
+          "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=AkANO59AhNB39Twg3tgw",
+          "supports": "LG manual MFL05812208 Rev.00_012126 explicitly covers WTX3-09G. Page 9 distinguishes 594mm body depth from 645mm overall projection; page 11 states 20mm each side and 100mm rear. LG product FAQ instead says 50mm each side. Discrepancy disclosed, no claim that a tight cavity is confirmed suitable.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WTX3-09G individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-9kg-series-3-ai-top-load-washer-wtx3-09g",
+          "supports": "Read all 13 displayed Good Guys reviews. Excluded an unrelated fridge review and counted the duplicate Leanne entry once; remaining comments commonly support ease, everyday washing and quietness, with an options-display criticism. Read all 10 Winnings/LG syndicated reviews, distinguishing white WTX3-09W variant reports from graphite. Forceful agitation/control constraints disclosed; one white-variant drainage failure is isolated in reviewed evidence. ProductReview Jason/quietmouse report duplicates the white-variant review and was not counted independently.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "WTX3-09G Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-9kg-series-3-ai-top-load-washer-wtx3-09g",
+          "supports": "Live exact-model Australian listing with enabled Add to Cart on 10 October 2026. Delivery dates, installation service and local stock depend on postcode; no nationwide stock promise.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "WTX3-09G Australian warranty",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/washer-dryers/top-load-washing-machines/wtx3-09g/",
+          "supports": "Two years parts and labour; additional eight years parts-only cover on the Inverter Direct Drive motor is not a ten-year whole-machine warranty. LG Australia support and repair channel available.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian washing-machine recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Searched indexed Product Safety notices using exact model and LG washing-machine terms on 10 October 2026; no matching notice surfaced. Reviewed historical LG WD-8013F notice, which concerns another model and manufacturing period. This is a scoped search, not certification or a guarantee.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "WTX3-09G Partnerize destination check",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-9kg-series-3-ai-top-load-washer-wtx3-09g",
+          "supports": "Navigated this exact affiliate URL in browser on 10 October 2026. Redirect reached the correct model at The Good Guys with clickref, rel, utm_source=Partner and utm_medium=shamus80 intact, plus enabled Add to Cart. No order placed; checks are QA traffic, not customer sales.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WTX3-09G and clearly labelled white-variant owner feedback",
+          "publisher": "Winnings / LG owners",
+          "sourceUrl": "https://www.winnings.com.au/p/lg-9kg-series-5-ai-top-load-washing-machine-graphite-wtx309g",
+          "supports": "Read all 13 displayed Good Guys reviews. Excluded an unrelated fridge review and counted the duplicate Leanne entry once; remaining comments commonly support ease, everyday washing and quietness, with an options-display criticism. Read all 10 Winnings/LG syndicated reviews, distinguishing white WTX3-09W variant reports from graphite. Forceful agitation/control constraints disclosed; one white-variant drainage failure is isolated in reviewed evidence. ProductReview Jason/quietmouse report duplicates the white-variant review and was not counted independently.",
+          "checkedOn": "2026-10-10"
+        }
+      ],
+      "image": {
+        "src": "/images/products/lg-wtx3-09g-good-guys-640.webp",
+        "srcSet": "/images/products/lg-wtx3-09g-good-guys-320.webp 320w, /images/products/lg-wtx3-09g-good-guys-640.webp 640w, /images/products/lg-wtx3-09g-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 900,
+        "alt": "LG WTX3-09G size diagram: 590mm wide, 1043mm high and 1339mm with the lid open.",
+        "credit": "AHC size diagram, based on LG’s manual. Not a product photograph.",
+        "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=AkANO59AhNB39Twg3tgw",
+        "suppliedVia": "Original AHC schematic using manufacturer dimensions. Retailer photo withheld because its panel displays 15.0kg on the 9kg listing.",
+        "checkedOn": "2026-10-10"
+      }
     }
   ]
 }
