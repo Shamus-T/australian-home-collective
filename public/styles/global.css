@@ -1406,10 +1406,28 @@ h3 {
   text-underline-offset: 3px;
 }
 
-.commercial-retailer-logo {
-  width: 44px;
-  height: 44px;
-  object-fit: contain;
+.commercial-retailer-link--good-guys .commercial-retailer-name {
+  gap: 10px;
+  min-height: 48px;
+  box-sizing: border-box;
+  padding: 12px 18px;
+  border: 2px solid var(--green-dark);
+  border-radius: 6px;
+  background: var(--green-dark);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.commercial-retailer-link--good-guys:hover .commercial-retailer-name {
+  background: #17352b;
+  border-color: #17352b;
+}
+
+.commercial-retailer-links,
+.commercial-retailer-link--good-guys {
+  max-width: 100%;
 }
 
 .commercial-retailer-links a:focus-visible {

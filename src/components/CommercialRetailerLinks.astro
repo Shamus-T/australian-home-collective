@@ -10,7 +10,7 @@ interface Props {
 const { product, offers, placement } = Astro.props;
 const disclosureId = `retailer-disclosure-${placement}-${product.id}`;
 const showDisclosure = placement === "card" && offers.some((offer) => offer.affiliate);
-const hasGoodGuysLogo = (offer: CommercialRetailerOffer) =>
+const isGoodGuys = (offer: CommercialRetailerOffer) =>
   offer.merchant === "The Good Guys" && offer.affiliateNetwork === "partnerize";
 ---
 
@@ -23,6 +23,7 @@ const hasGoodGuysLogo = (offer: CommercialRetailerOffer) =>
           class:list={[
             "commercial-retailer-link",
             { "commercial-retailer-link--amazon": offer.affiliateNetwork === "amazon-australia" },
+            { "commercial-retailer-link--good-guys": isGoodGuys(offer) },
           ]}
           href={offer.destinationUrl}
           target="_blank"
@@ -39,9 +40,8 @@ const hasGoodGuysLogo = (offer: CommercialRetailerOffer) =>
           data-commercial-destination-host={new URL(offer.destinationUrl).hostname}
           data-affiliate-trackable={offer.affiliate ? "true" : undefined}
         >
-          {hasGoodGuysLogo(offer) ? (
-            <img class="commercial-retailer-logo" src="/images/retailers/the-good-guys.png"
-              alt="The Good Guys" width="130" height="130" loading="lazy" decoding="async" />
+          {isGoodGuys(offer) ? (
+            <span class="commercial-retailer-name">View at The Good Guys <span aria-hidden="true">→</span></span>
           ) : (
             <span class="commercial-retailer-name">{offer.merchant === "Amazon Australia" ? "Amazon" : offer.merchant}</span>
           )}
