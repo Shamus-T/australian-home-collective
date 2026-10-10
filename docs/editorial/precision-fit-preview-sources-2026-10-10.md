@@ -18,7 +18,7 @@ User supplied final copy and authorised publication. Preview reflects the author
 
 ## Manufacturer image
 
-Original supplied DAM PNG, 833 x 1000 pixels, 231,546 bytes. Downloaded the original asset without a resize query; no larger source was exposed by that asset. Sharp WebP quality 88, effort 6, retaining original dimensions and alpha, 5,826 bytes. No generated image, crop, enlargement or product alteration. Article and cards use object-fit: contain. Alt text and supplied-image credit follow the user's instructions.
+Original PNG sourced from Fisher & Paykel’s Australian product page and downloaded from its DAM, 833 x 1000 pixels, 231,546 bytes. Downloaded the original asset without a resize query; no larger source was exposed by that asset. Sharp WebP quality 88, effort 6, retaining original dimensions and alpha, 5,826 bytes. No generated image, crop, enlargement or product alteration. Article and cards use object-fit: contain. The image was retrieved from the public manufacturer website; Fisher & Paykel did not supply it directly to AHC. The public credit was corrected to state this source on 10 October 2026.
 
 https://dam.fisherpaykel.com/KZ3PKN00/at/4htw7ngb23m96fct7cxh78k/fp_04_RF600AMPVG1_10_mug_au-nz_dp_00.png
 
