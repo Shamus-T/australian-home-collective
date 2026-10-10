@@ -7,7 +7,7 @@ User supplied final copy and authorised publication. Preview reflects the author
 ## Facts and limits
 
 - Exact model RF600AMPVG1: grey glass, 602 L (415 L refrigerator, 187 L freezer), 1790 x 905 x 690 mm. Published flush-door opening: 1800 x 925 x 700 mm. No handle projection added.
-- Current planning guide 90006556A, July 2026, page 17: 10 mm top gap. Current installation guide 433736A, August 2026, page 5: 50 mm top clearance. Conflict remains unresolved and prominently called out beside the table. No claim that this fits most Australian cavities.
+- Current planning guide 90006556A, July 2026, page 17: 10 mm top gap. Current installation guide 433736A, August 2026, page 5: 50 mm top clearance. On 10 October 2026, the author confirmed that 40 mm top clearance was confirmed at the live preview. The article attributes 40 mm to that preview and records the differing published figures beside the table. The 1830 mm opening height is calculated as 1790 + 40 mm; it is not represented as the published planning-guide height. No claim that this fits most Australian cavities.
 - Water pressure also conflicts: planning minimum 150 kPa; safety minimum 276 kPa. Installer clarification required.
 - First-use instructions support two 1.3 L jugs, closed-door auto filling, cube and pebble ice, and the 0/2/3 degree chilled drawer settings.
 - Linked energy label: five stars, 357 kWh/year. Illustration: 357 x $0.30 = $107.10/year, excluding supply charges and filters.
