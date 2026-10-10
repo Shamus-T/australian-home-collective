@@ -1,0 +1,43 @@
+---
+import { getGuideCardMetadata } from "../data/guideMetadata";
+const href = "/guides/fisher-paykel-precision-fit-fridge-preview/";
+const guide = getGuideCardMetadata(href)!;
+---
+
+<section class="section product-preview-section" data-homepage-product-preview aria-labelledby="product-preview-title">
+  <div class="container">
+    <a class="product-preview-feature" href={href}>
+      <div class="preview-scene">
+        <img src={guide.image} alt={guide.imageAlt} width="833" height="1000" loading="eager" decoding="async" />
+        <span class="preview-scene-credit">Manufacturer product image · Illustrative kitchen setting</span>
+      </div>
+      <div class="preview-feature-copy">
+        <p class="eyebrow">First look · Kitchen</p>
+        <h2 id="product-preview-title">{guide.title}</h2>
+        <p>A closer look at the kitchen fit, water and ice features, running costs and questions to resolve before pre-ordering.</p>
+        <span class="preview-feature-link">Read the preview <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<style>
+  .product-preview-section { padding: 32px 0 44px; background: #f4efe5; }
+  .product-preview-feature { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); overflow: hidden; background: #222c29; color: #fffaf0; text-decoration: none; border-radius: 10px; box-shadow: 0 14px 32px #30271924; }
+  .preview-scene { position: relative; min-width: 0; aspect-ratio: 3 / 2; background: #3b342d url('/images/guides/precision-fit-kitchen-background.webp') center / cover no-repeat; }
+  .preview-scene img { position: absolute; height: 82%; width: auto; max-width: none; left: 50%; bottom: 13%; transform: translateX(-50%); object-fit: contain; filter: drop-shadow(7px 5px 6px #100e0b70); }
+  .preview-scene-credit { position: absolute; bottom: 0; left: 0; right: 0; padding: 10px 14px; background: #171815c9; color: #f2ede4; font-size: 0.66rem; line-height: 1.4; text-align: center; }
+  .preview-feature-copy { align-self: center; padding: clamp(24px, 3vw, 42px); }
+  .preview-feature-copy .eyebrow { color: #dec084; margin: 0 0 14px; font-size: 0.75rem; letter-spacing: 0.14em; }
+  .preview-feature-copy h2 { color: #fffaf0; font-size: clamp(1.65rem, 2.5vw, 2.3rem); line-height: 1.15; margin: 0 0 18px; }
+  .preview-feature-copy > p:not(.eyebrow) { color: #e3e2d7; font-size: 1rem; line-height: 1.55; margin: 0 0 24px; }
+  .preview-feature-link { display: inline-flex; align-items: center; gap: 22px; padding-bottom: 5px; color: #edd398; border-bottom: 1px solid #ae9360; font-weight: 700; }
+  .product-preview-feature:hover .preview-feature-link { color: #fff; border-color: #fff; }
+  .product-preview-feature:focus-visible { outline: 3px solid #ad762b; outline-offset: 5px; }
+  @media (max-width: 760px) {
+    .product-preview-feature { grid-template-columns: minmax(0, 1fr); }
+    .product-preview-section { padding: 22px 0 30px; }
+    .preview-feature-copy { padding: 26px; }
+    .preview-feature-copy h2 { font-size: 1.8rem; }
+  }
+</style>

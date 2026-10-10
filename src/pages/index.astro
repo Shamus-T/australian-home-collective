@@ -1,6 +1,7 @@
 ---
 import { Picture } from "astro:assets";
-import homeHero from "../../public/images/home-lifestyle-hero.jpg";
+import homeHero from "../../public/images/home-lifestyle-hero-refined.webp";
+import ProductPreviewFeature from "../components/ProductPreviewFeature.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GuideCard from "../components/GuideCard.astro";
 import { getGuideCardMetadata } from "../data/guideMetadata";
@@ -113,10 +114,10 @@ const springGuides = [
 
 const featuredGuides = [
   {
-    href: "/guides/fisher-paykel-precision-fit-fridge-preview/",
-    title: "Fisher & Paykel Precision Fit fridge: what to check before buying",
-    description: "A first look at Fisher & Paykel’s Precision Fit fridge, covering kitchen fit, water and ice features, running costs and what to check before pre-ordering.",
-    meta: "Kitchen · Preview",
+    href: "/guides/best-kitchen-storage-ideas-small-australian-homes/",
+    title: "Kitchen Storage Ideas for Small Australian Homes",
+    description: "Reset bench, drawer and cupboard space around the way the kitchen is actually used.",
+    meta: "Kitchen",
   },
   {
     href: "/guides/gutter-maintenance-guide/",
@@ -199,13 +200,13 @@ const homepageCardSources = await getHomepageCardSources();
     <Picture
       class="hero-bg"
       src={homeHero}
-      widths={[640, 960, 1280, 1800]}
+      widths={[640, 960, 1280, 1600]}
       sizes="100vw"
       formats={["avif", "webp"]}
       quality={45}
-      alt="A warm Australian home interior with timber furniture, greenery, kitchen and living spaces"
-      width={1800}
-      height={1100}
+      alt="An Australian living and dining room with timber furniture, a clear kitchen bench and one potted plant by the window"
+      width={1600}
+      height={979}
       loading="eager"
       fetchpriority="high"
       draggable="false"
@@ -224,6 +225,8 @@ const homepageCardSources = await getHomepageCardSources();
       </div>
     </div>
   </section>
+
+  <ProductPreviewFeature />
 
   <section class="section soft" data-homepage-measurement-guides aria-labelledby="measurement-guides-heading">
     <div class="container section-heading">
@@ -377,7 +380,7 @@ const homepageCardSources = await getHomepageCardSources();
         <p class="eyebrow">Featured guides</p>
         <h2>Useful right now</h2>
       </div>
-      <p>A new appliance preview, practical home resets and seasonal maintenance worth planning now.</p>
+      <p>Practical home resets and seasonal maintenance worth planning now.</p>
     </div>
     <div class="container grid three home-guide-grid">
       {featuredGuides.map((guide) => (
