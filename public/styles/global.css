@@ -1127,7 +1127,7 @@ h3 {
 
 .commercial-product-comparison {
   width: 100%;
-  min-width: 700px;
+  min-width: 960px;
   border-collapse: collapse;
   font-size: 0.93rem;
   line-height: 1.5;
@@ -1156,7 +1156,7 @@ h3 {
 }
 
 .commercial-product-comparison thead th:last-child {
-  width: 180px;
+  width: 288px;
 }
 
 .commercial-product-block--comparison .commercial-product-grid {
@@ -1197,10 +1197,6 @@ h3 {
     scroll-margin-top: 240px;
   }
 
-  .commercial-product-block--comparison .commercial-product-comparison-wrap,
-  .commercial-product-block--comparison .commercial-product-details-heading {
-    display: none;
-  }
 
   .commercial-product-block .commercial-product-grid {
     grid-template-columns: minmax(0, 1fr);
@@ -2388,3 +2384,8 @@ pagefind-results {
     padding-inline: 10px;
   }
 }
+/* Keep comparisons available on phones, with a keyboard-accessible scroll region. */
+.commercial-comparison-hint { color: var(--muted); font-size: 0.9rem; margin: 18px 0 8px; }
+.commercial-product-comparison-wrap:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.commercial-comparison-type { display: block; margin-top: 8px; font-size: 0.85rem; font-weight: 400; color: var(--muted); }
+@media (min-width: 1000px) { .commercial-product-block > .commercial-comparison-hint { max-width: 760px; margin-inline: auto; } }

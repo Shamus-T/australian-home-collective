@@ -1,0 +1,2426 @@
+{
+  "summary": {
+    "checkedOn": "2026-10-10",
+    "scope": "134 guides plus Australian-status explainer; source and rendered affiliate placement, not a fresh stock or safety review of all products",
+    "articles": 135,
+    "commercialGuides": 42,
+    "approvedProducts": 94,
+    "comparisonGuides": 25,
+    "newComparisons": 19,
+    "movedSections": 20,
+    "contextualRoutes": 68,
+    "addedContextualRoutes": 8,
+    "articlesWithoutApprovedOfferOrDirectBuyingRoute": 25,
+    "excludedProduct": "kogan-usb-monitor-light-bar",
+    "remainingLatePlacements": {
+      "australian-made-gift-ideas-under-100": "Retained after origin, recipient, budget and category checks. Corrected two-gift wording to the one remaining approved food gift.",
+      "cookware-materials-compared": "Retained after materials and cooktop checks: a cookware set and single skillet are different task choices, not a ranked like-for-like performance test.",
+      "garage-shelving-what-to-measure-before-buying-storage-units": "Retained after load, floor and anchoring checks. Corrected the introduction to one currently approved shelving unit.",
+      "how-to-keep-house-cooler-in-summer": "Retained after the passive-cooling and gap checks. Meter and sealing tape solve different problems, so keep individual cards rather than a competitive table."
+    }
+  },
+  "articles": [
+    {
+      "route": "/australian-status-labels/",
+      "title": "Australian Status Labels",
+      "category": "Product Details",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/australian-made-gift-ideas-under-100/"
+      ]
+    },
+    {
+      "route": "/guides/20-minute-spring-reset/",
+      "title": "The 20-Minute Spring Reset: 12 Small Jobs That Make Your Home Feel Better",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/"
+      ]
+    },
+    {
+      "route": "/guides/air-conditioner-dry-mode-humidity/",
+      "title": "Air Conditioner Dry Mode & Humidity: What It Does and When to Use It",
+      "category": "Living Spaces",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "TempPro TP49 Indoor Thermometer and Hygrometer",
+        "Breville the Smart Dry Connect Dehumidifier LAD208WHT"
+      ],
+      "comparison": false,
+      "beforePercent": 66,
+      "afterPercent": 66,
+      "actions": [],
+      "reason": "Buying section follows “Dry mode is not the same as a dedicated dehumidifier”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/portable-air-conditioners-australia/"
+      ]
+    },
+    {
+      "route": "/guides/air-conditioner-maintenance-before-summer/",
+      "title": "Air Conditioner Maintenance Before Summer: What You Can Check and When to Call a Technician",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/how-to-keep-house-cooler-in-summer/",
+        "/guides/portable-air-conditioners-australia/",
+        "/guides/air-conditioner-dry-mode-humidity/"
+      ]
+    },
+    {
+      "route": "/guides/air-conditioning-buying-guide/",
+      "title": "Air Conditioning Buying Guide: What to Check Before You Choose and Install",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/portable-air-conditioners-australia/",
+        "/guides/air-conditioner-dry-mode-humidity/",
+        "/guides/how-to-keep-house-cooler-in-summer/",
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/australian-made-gift-ideas-under-100/",
+      "title": "Australian Made Home Gift Ideas Under $100",
+      "category": "Seasonal Guides",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 1,
+      "products": [
+        "Taronga Almonds Eight-Flavour Gift Pack"
+      ],
+      "comparison": false,
+      "beforePercent": 84,
+      "afterPercent": 84,
+      "actions": [
+        "Corrected withdrawn-product references"
+      ],
+      "reason": "Retained after origin, recipient, budget and category checks. Corrected two-gift wording to the one remaining approved food gift.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/baby-bath-time-essentials/",
+      "title": "Baby Bath Time: What You Need Close By",
+      "category": "Nursery & Kids",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Keep this care, room-planning and safety article editorial until a specific product decision has a complete approved assessment. No generic baby-product links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/baby-monitors-australia/",
+      "title": "Baby Monitors for Australian Homes",
+      "category": "Nursery & Kids",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Product research opportunity. Assess model-specific connectivity, placement, privacy, support and owner evidence before any affiliate comparison.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/baby-outing-essentials-what-to-pack-before-leaving-the-house/",
+      "title": "What to Pack When You Leave the House With a Baby",
+      "category": "Nursery & Kids",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/"
+      ]
+    },
+    {
+      "route": "/guides/balcony-and-courtyard-garden-setup-what-to-plan-before-buying-pots-and-planters/",
+      "title": "A Balcony Garden That Leaves Room to Move",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/",
+      "title": "A Barbecue Area With Room to Cook and Serve",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/bassinet-vs-cot/",
+      "title": "Bassinet vs Cot: Which One Makes Sense First?",
+      "category": "Nursery & Kids",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Keep this care, room-planning and safety article editorial until a specific product decision has a complete approved assessment. No generic baby-product links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/bathroom-essentials-australian-homes/",
+      "title": "Bathroom Essentials for Australian Homes",
+      "category": "Bathroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ]
+    },
+    {
+      "route": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
+      "title": "Bathroom Product Storage That Keeps Daily Items Easy to Find",
+      "category": "Bathroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+        "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/",
+        "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ]
+    },
+    {
+      "route": "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
+      "title": "Bathroom Storage That Works in Real Homes",
+      "category": "Bathroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ]
+    },
+    {
+      "route": "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+      "title": "How to Make Your Bathroom Vanity Easier to Use",
+      "category": "Bathroom",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Joseph Joseph EasyStore Bathroom Caddy",
+        "SimpleHouseware Stackable 3-Tier Sliding Basket Organiser"
+      ],
+      "comparison": true,
+      "beforePercent": 94,
+      "afterPercent": 65,
+      "actions": [
+        "Moved from 94% to 65% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Separate products that need more care”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/bedding-and-linen-basics-for-australian-bedrooms/",
+      "title": "Bedding and Linen Basics for Australian Bedrooms",
+      "category": "Bedroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/",
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/"
+      ]
+    },
+    {
+      "route": "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
+      "title": "Bedroom Drawers That Open Without Crowding the Room",
+      "category": "Bedroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
+      "title": "Bedroom Essentials for a More Comfortable Home",
+      "category": "Bedroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
+      "title": "Bedroom Lighting and Window Coverings for Real Routines",
+      "category": "Bedroom",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Separate lamps and window coverings before selecting products. No approved assessment for either bedroom task; do not force the office lamp into this guide.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/bedroom-storage-ideas-small-australian-rooms/",
+      "title": "Bedroom Storage Ideas for Small Australian Rooms",
+      "category": "Bedroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+      "title": "Wardrobe Storage for the Clothes You Actually Wear",
+      "category": "Bedroom",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Amazon Basics 6-Tier Hanging Closet Shelf Organiser",
+        "Amazon Basics 6-Tier Hanging Closet Organiser with Drawers"
+      ],
+      "comparison": true,
+      "beforePercent": 59,
+      "afterPercent": 59,
+      "actions": [
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Choose Organisers for the Remaining Problem”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/bedside-table-setup-what-to-check-before-you-buy/",
+      "title": "A Bedside Table That Fits the Room and Routine",
+      "category": "Bedroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+        "/guides/under-bed-storage-what-to-measure-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
+      "title": "Kitchen Storage That Makes Small Cupboards Easier to Use",
+      "category": "Kitchen",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [
+        "Added contextual buying-guide link"
+      ],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
+      "title": "Cat Litter Trays in Australia: How to Choose Size and Style",
+      "category": "Pets",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Product research opportunity. Compare usable dimensions, entry, cleaning and the cat’s needs before selecting specific trays.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/ceiling-fans-before-you-buy/",
+      "title": "Ceiling Fans Before You Buy: What to Measure and Check",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/christmas-at-home-australia/",
+      "title": "Christmas at Home: Trees, Lights and Decorating",
+      "category": "Seasonal Guides",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Seasonal opportunity: Balsam Hill application/follow-up exists in this conversation; no approval or validated tracked offer recorded. Keep planning guide live while partnership and product checks are completed.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
+      "title": "Cleaning Product Storage That Keeps Supplies Under Control",
+      "category": "Laundry",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [
+        "Added contextual buying-guide link"
+      ],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/coffee-machine-types-australia/",
+      "title": "Coffee Machine Types Australia: Manual, Automatic, Pod and Filter",
+      "category": "Kitchen",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 4,
+      "products": [
+        "Breville Barista Touch Impress BES881BSS",
+        "De'Longhi Eletta Explore ECAM450.55.G",
+        "Philips 5500 LatteGo EP5541/20",
+        "Nespresso Essenza Mini Solo BEC220BLK"
+      ],
+      "comparison": true,
+      "beforePercent": 7,
+      "afterPercent": 55,
+      "actions": [
+        "Moved from 7% to 55% of authored text"
+      ],
+      "reason": "Buying section follows “Measure the machine while it is being filled, used and cleaned”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/condensation-and-mould-during-winter/",
+      "title": "Condensation and Mould During Winter: What to Check Before It Spreads",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [
+        "Added contextual buying-guide link"
+      ],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/air-conditioner-dry-mode-humidity/"
+      ]
+    },
+    {
+      "route": "/guides/cookware-materials-compared/",
+      "title": "Cookware Materials Compared for Australian Kitchens",
+      "category": "Kitchen",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Scanpan Impact 6-Piece Cookware Set",
+        "Lodge 12-Inch Cast Iron Skillet"
+      ],
+      "comparison": true,
+      "beforePercent": 91,
+      "afterPercent": 91,
+      "actions": [],
+      "reason": "Retained after materials and cooktop checks: a cookware set and single skillet are different task choices, not a ranked like-for-like performance test.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/cordless-stick-vacuums-australia/",
+      "title": "Cordless Stick Vacuums Australia: What to Compare Before Buying",
+      "category": "Living Spaces",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 1,
+      "products": [
+        "Shark PowerPro IZ373HANZ"
+      ],
+      "comparison": false,
+      "beforePercent": 73,
+      "afterPercent": 73,
+      "actions": [],
+      "reason": "Buying section follows “What the PowerPro example shows”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/reduce-pollen-dust-inside-home-spring/"
+      ]
+    },
+    {
+      "route": "/guides/dishwasher-sizes-australia/",
+      "title": "Dishwasher Sizes Australia: Measure Before You Buy",
+      "category": "Kitchen",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "High priority: measurement table has named examples but no approved retailer offers. Research exact models, Australian fulfilment and ownership evidence before adding a buying comparison.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/electric-blankets-vs-heated-throws/",
+      "title": "Electric Blankets vs Heated Throws: Which Type of Personal Heating Suits You?",
+      "category": "Bedroom",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Sunbeam Sleep Perfect Antibacterial Electric Blanket Queen BLA6351",
+        "Sunbeam Feel Perfect Sherpa Fleece Heated Throw TRF4200"
+      ],
+      "comparison": true,
+      "beforePercent": 31,
+      "afterPercent": 31,
+      "actions": [],
+      "reason": "Buying section follows “Electric blanket and heated throw comparison”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/evaporative-cooler-vs-refrigerated-air-conditioning/",
+      "title": "Evaporative Cooler vs Refrigerated Air Conditioning: Which Works in Your Climate?",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/air-conditioner-dry-mode-humidity/",
+        "/guides/portable-air-conditioners-australia/"
+      ]
+    },
+    {
+      "route": "/guides/everyday-kitchen-essentials-australian-homes/",
+      "title": "Everyday Kitchen Essentials for Australian Homes",
+      "category": "Kitchen",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/australian-made-gift-ideas-under-100/",
+        "/guides/cookware-materials-compared/"
+      ]
+    },
+    {
+      "route": "/guides/fan-heater-vs-ceramic-heater/",
+      "title": "Fan Heater vs Ceramic Heater: What Is the Practical Difference?",
+      "category": "Living Spaces",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Heller Upright Fan Heater HUFH2000",
+        "De'Longhi Ceramic Capsule Fan Heater HFX30C18.IW"
+      ],
+      "comparison": true,
+      "beforePercent": 9,
+      "afterPercent": 22,
+      "actions": [
+        "Moved from 9% to 22% of authored text"
+      ],
+      "reason": "Buying section follows “Fan heater and ceramic heater comparison”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/oil-column-heater-vs-panel-heater/"
+      ]
+    },
+    {
+      "route": "/guides/fisher-paykel-precision-fit-fridge-preview/",
+      "title": "Fisher & Paykel Precision Fit fridge: what to check before buying",
+      "category": "Kitchen",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Preview remains editorial. An affiliate product record and validated retailer offer are not present; attendance at a preview alone is not a complete product assessment.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/fridge-dimensions-australia/",
+      "title": "Fridge Dimensions Australia: What to Measure Before Buying",
+      "category": "Kitchen",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/lg-fit-max-436l-fridge-first-look/"
+      ]
+    },
+    {
+      "route": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
+      "title": "Garage Shelving That Fits the Space and the Load",
+      "category": "Garage Storage",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 1,
+      "products": [
+        "Amazon Basics 5-Shelf Shelving Unit on Castors"
+      ],
+      "comparison": false,
+      "beforePercent": 77,
+      "afterPercent": 77,
+      "actions": [
+        "Corrected withdrawn-product references"
+      ],
+      "reason": "Retained after load, floor and anchoring checks. Corrected the introduction to one currently approved shelving unit.",
+      "contextualRoutes": [
+        "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/"
+      ]
+    },
+    {
+      "route": "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
+      "title": "Garage Storage Tubs Worth Sorting Before Buying More",
+      "category": "Garage Storage",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Sterilite 51L Gasket Box",
+        "Really Useful Box 19L Clear"
+      ],
+      "comparison": true,
+      "beforePercent": 92,
+      "afterPercent": 63,
+      "actions": [
+        "Moved from 92% to 63% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Stack only as the product permits”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/garage-shelving-what-to-measure-before-buying-storage-units/"
+      ]
+    },
+    {
+      "route": "/guides/garage-storage-what-to-measure-and-check-before-you-buy/",
+      "title": "Garage Storage Planning Checklist",
+      "category": "Garage Storage",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
+        "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
+        "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
+        "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/"
+      ]
+    },
+    {
+      "route": "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/",
+      "title": "Garage Tool Storage That Starts With Sorting",
+      "category": "Garage Storage",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "STANLEY FATMAX PRO-STACK 10-Cup Organiser",
+        "DEWALT 20-Compartment Pro Organiser"
+      ],
+      "comparison": true,
+      "beforePercent": 34,
+      "afterPercent": 34,
+      "actions": [
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Give small hardware shallow, visible storage”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/"
+      ]
+    },
+    {
+      "route": "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
+      "title": "Garage Wall Storage That Keeps Gear Visible",
+      "category": "Garage Storage",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Command Broom Gripper, 2 Pack",
+        "Traderight Garden Tool Storage Rack"
+      ],
+      "comparison": true,
+      "beforePercent": 84,
+      "afterPercent": 70,
+      "actions": [
+        "Moved from 84% to 70% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Match the system to the category”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/"
+      ]
+    },
+    {
+      "route": "/guides/garden-tool-care-and-seasonal-outdoor-reset/",
+      "title": "Garden Tool Care and a Seasonal Outdoor Reset",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [
+        "Added contextual buying-guide link"
+      ],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/"
+      ]
+    },
+    {
+      "route": "/guides/gutter-maintenance-guide/",
+      "title": "Gutter Maintenance Guide: What to Check Before Cleaning, Repairing or Adding Guards",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
+      "title": "Heat Pump vs Condenser vs Vented Dryers",
+      "category": "Laundry",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+      ]
+    },
+    {
+      "route": "/guides/heating-a-bedroom-overnight-comfort/",
+      "title": "Heating a Bedroom: What Type Suits Overnight Comfort?",
+      "category": "Bedroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/electric-blankets-vs-heated-throws/",
+        "/guides/oil-column-heater-vs-panel-heater/",
+        "/guides/fan-heater-vs-ceramic-heater/"
+      ]
+    },
+    {
+      "route": "/guides/heating-an-open-plan-living-area/",
+      "title": "Heating an Open-Plan Living Area: What to Check Before Choosing a System",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Sizing and installation decision first. No approved exact equipment offers; do not substitute unrelated portable accessories.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/home-heating-options-australia/",
+      "title": "Home Heating Options in Australia: What to Check Before You Choose",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/fan-heater-vs-ceramic-heater/",
+        "/guides/oil-column-heater-vs-panel-heater/",
+        "/guides/electric-blankets-vs-heated-throws/"
+      ]
+    },
+    {
+      "route": "/guides/home-insulation-basics/",
+      "title": "Home Insulation Basics: What to Check Before You Upgrade",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/",
+      "title": "Home Office Cable Management You Can Still Access",
+      "category": "Home Office",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "D-Line Large Cable Tidy Box",
+        "D-Line Small Cable Tidy Box"
+      ],
+      "comparison": true,
+      "beforePercent": 61,
+      "afterPercent": 61,
+      "actions": [
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Match Each Organiser to One Job”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+        "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/home-office-chair-and-seating-what-to-check-before-you-buy/",
+      "title": "An Office Chair That Fits Under the Desk",
+      "category": "Home Office",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
+      "title": "Home Office Desk Setup: What to Measure Before You Buy",
+      "category": "Home Office",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [
+        "Added contextual buying-guide link"
+      ],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+      "title": "Home Office Lighting for Screens, Calls and Paperwork",
+      "category": "Home Office",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 1,
+      "products": [
+        "Magnifica Luce Rechargeable Cordless Desk Lamp"
+      ],
+      "comparison": false,
+      "beforePercent": 67,
+      "afterPercent": 67,
+      "actions": [
+        "Removed Kogan approval and corrected single-option copy"
+      ],
+      "reason": "Buying section follows “Choose Controls You Will Actually Use”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/home-office-setup-ideas-small-spaces/",
+      "title": "Home Office Setup Ideas for Small Spaces",
+      "category": "Home Office",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/",
+        "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/",
+      "title": "Home Office Storage for Active Work and Household Paperwork",
+      "category": "Home Office",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Really Useful Box 19L Clear",
+        "Cathedral A4 Steel Filing Box"
+      ],
+      "comparison": true,
+      "beforePercent": 52,
+      "afterPercent": 52,
+      "actions": [
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Tech Accessory Storage”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/home-office-video-call-background-and-desk-zone-setup-what-to-plan-before-buying/",
+      "title": "A Video Call Setup That Does Not Take Over the Room",
+      "category": "Home Office",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/",
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/",
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
+      "title": "Dog Beds in Australia: How to Choose the Right Size and Style",
+      "category": "Pets",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Costway Orthopedic Dog Bed with Memory Foam",
+        "Coolaroo The Original Elevated Pet Bed, Medium"
+      ],
+      "comparison": true,
+      "beforePercent": 91,
+      "afterPercent": 57,
+      "actions": [
+        "Moved from 91% to 57% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Make Washing Part of the Buying Decision”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/how-to-keep-house-cooler-in-summer/",
+      "title": "How to Keep Your House Cooler in Summer — Before Buying a Bigger Air Conditioner",
+      "category": "Living Spaces",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "TempPro TP60B Indoor/Outdoor Thermometer and Hygrometer",
+        "3M 2110NA Indoor Transparent Weather Sealing Tape"
+      ],
+      "comparison": false,
+      "beforePercent": 76,
+      "afterPercent": 76,
+      "actions": [],
+      "reason": "Retained after the passive-cooling and gap checks. Meter and sealing tape solve different problems, so keep individual cards rather than a competitive table.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/keep-flies-mosquitoes-out-of-home/",
+      "title": "How to Keep Flies and Mosquitoes Out of Your Home This Spring and Summer",
+      "category": "Outdoor & Garden",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Cowdroy Flyscreen Repair Patches 150 × 200 mm (Pack of 3)",
+        "Cowdroy Removable Insect Flyscreen Window 1.3 × 1.5 m"
+      ],
+      "comparison": false,
+      "beforePercent": 54,
+      "afterPercent": 54,
+      "actions": [],
+      "reason": "Buying section follows “Know what each product can—and cannot—fix”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/"
+      ]
+    },
+    {
+      "route": "/guides/kids-play-and-toy-storage-what-to-plan-before-buying/",
+      "title": "A Kids’ Play Zone That Is Easy to Reset",
+      "category": "Nursery & Kids",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Keep this care, room-planning and safety article editorial until a specific product decision has a complete approved assessment. No generic baby-product links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
+      "title": "Kitchen Bench Space That Stays Clear",
+      "category": "Kitchen",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/coffee-machine-types-australia/",
+        "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
+      "title": "Kitchen Containers Worth Sorting First",
+      "category": "Kitchen",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+      "title": "Kitchen Drawers That Are Easier to Use",
+      "category": "Kitchen",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 3,
+      "products": [
+        "OXO Good Grips Expandable Utensil Drawer Organiser",
+        "Joseph Joseph DrawerStore Expanding Cutlery, Utensil & Gadget Organiser",
+        "OXO Good Grips Large Expandable Kitchen Tool Drawer Organiser"
+      ],
+      "comparison": true,
+      "beforePercent": 93,
+      "afterPercent": 68,
+      "actions": [
+        "Moved from 93% to 68% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Compare organiser types by their compromise”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+      "title": "Laundry Baskets That Suit the Routine",
+      "category": "Laundry",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 3,
+      "products": [
+        "Joseph Joseph Tota 90L Laundry Separation Basket",
+        "Joseph Joseph Hold-All Max 55L Collapsible Laundry Basket",
+        "Brabantia Stackable Laundry Box 35L"
+      ],
+      "comparison": true,
+      "beforePercent": 91,
+      "afterPercent": 66,
+      "actions": [
+        "Moved from 91% to 66% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Choose the type by what it must do”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/"
+      ]
+    },
+    {
+      "route": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+      "title": "Drying Space That Works in Real Weather",
+      "category": "Laundry",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "L.T. Williams Large Aluminium Collapsible Clothes Airer, Black",
+        "Brabantia HangOn Drying Rack 20m, Matt Black"
+      ],
+      "comparison": true,
+      "beforePercent": 91,
+      "afterPercent": 67,
+      "actions": [
+        "Moved from 91% to 67% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Compare capacity with an actual load”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/laundry-essentials-australian-homes/",
+      "title": "Laundry Essentials for Australian Homes",
+      "category": "Laundry",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+      ]
+    },
+    {
+      "route": "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
+      "title": "Laundry Storage That Keeps Everyday Items Within Reach",
+      "category": "Laundry",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+      ]
+    },
+    {
+      "route": "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/",
+      "title": "Laundry Tub Storage That Works Around Pipes",
+      "category": "Laundry",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "SimpleHouseware 2-Tier Expandable Under-Sink Shelf",
+        "SimpleHouseware 2-Tier Pull-Out Under-Sink Organiser"
+      ],
+      "comparison": true,
+      "beforePercent": 58,
+      "afterPercent": 58,
+      "actions": [
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Choose organisers that clear out quickly”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/lawn-care-basics/",
+      "title": "Lawn Care Basics: What to Check Before Buying More Products",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+        "/guides/robot-lawn-mower-buying-guide-australia/"
+      ]
+    },
+    {
+      "route": "/guides/lg-fit-max-436l-fridge-first-look/",
+      "title": "LG Fit & Max fridge: a closer fit, in four finishes",
+      "category": "Kitchen",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 4,
+      "products": [
+        "LG 436L Fit & Max — Matte White (GB-B400MW)",
+        "LG 436L Fit & Max — Stainless (GB-B400PS)",
+        "LG 436L Fit & Max — Black (GB-B400BS)",
+        "LG 436L Fit & Max — Matte Black (GB-B400MB)"
+      ],
+      "comparison": false,
+      "beforePercent": 55,
+      "afterPercent": 55,
+      "actions": [],
+      "reason": "Buying section follows “Four finishes, and where to find them”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/living-room-cable-management-what-to-plan-before-buying-organisers/",
+      "title": "Living Room Cable Management You Can Still Access",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [
+        "Added contextual buying-guide link"
+      ],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/living-room-lighting-ideas-for-australian-homes/",
+      "title": "Living Room Lighting Ideas for Australian Homes",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/living-room-rug-size-and-placement-what-to-check-before-you-buy/",
+      "title": "A Living Room Rug That Fits the Seating Area",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/robot-vacuum-buying-guide-australia/"
+      ]
+    },
+    {
+      "route": "/guides/living-room-storage-ideas-everyday-australian-homes/",
+      "title": "Living Room Storage Ideas for Everyday Australian Homes",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Layout, furniture or household-routine guidance without an approved product set. Keep the article useful; product research is needed before direct links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/lower-waste-laundry-essentials/",
+      "title": "A Lower-Waste Laundry Routine",
+      "category": "Laundry",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [
+        "Added contextual buying-guide link"
+      ],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/"
+      ]
+    },
+    {
+      "route": "/guides/mattress-sizes-australia/",
+      "title": "Mattress Sizes Australia: Room, Base and Buying Guide",
+      "category": "Bedroom",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "High priority: useful buying intent, but no approved mattress assessments. Complete exact mattress, base, trial, return and support research before product links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/nappy-change-station-checklist/",
+      "title": "Nappy Change Station Checklist",
+      "category": "Nursery & Kids",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Keep this care, room-planning and safety article editorial until a specific product decision has a complete approved assessment. No generic baby-product links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/new-puppy-essentials/",
+      "title": "New Puppy Essentials Australia: What You Need for the First Weeks",
+      "category": "Pets",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/"
+      ]
+    },
+    {
+      "route": "/guides/newborn-essentials/",
+      "title": "Newborn Essentials for New Parents",
+      "category": "Nursery & Kids",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Keep this care, room-planning and safety article editorial until a specific product decision has a complete approved assessment. No generic baby-product links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/nursery-essentials-for-australian-homes/",
+      "title": "Nursery Essentials for Australian Homes",
+      "category": "Nursery & Kids",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Keep this care, room-planning and safety article editorial until a specific product decision has a complete approved assessment. No generic baby-product links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/nursery-storage-small-rooms/",
+      "title": "Nursery Storage for Small Rooms",
+      "category": "Nursery & Kids",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Keep this care, room-planning and safety article editorial until a specific product decision has a complete approved assessment. No generic baby-product links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/oil-column-heater-vs-panel-heater/",
+      "title": "Oil Column Heater vs Panel Heater: Which Suits Your Room?",
+      "category": "Living Spaces",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 1,
+      "products": [
+        "De'Longhi SlimStyle Convector Heater HSX3324FTS"
+      ],
+      "comparison": false,
+      "beforePercent": 27,
+      "afterPercent": 27,
+      "actions": [
+        "Corrected withdrawn-product references",
+        "Removed unsuitable comparison table"
+      ],
+      "reason": "Buying section follows “Oil column and panel heater comparison”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/fan-heater-vs-ceramic-heater/"
+      ]
+    },
+    {
+      "route": "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",
+      "title": "An Outdoor Dining Area With Room to Pull Out Chairs",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/outdoor-entertaining-area-setup-what-to-plan-before-buying-extra-furniture-and-accessories/",
+      "title": "Outdoor Entertaining That Works Between Gatherings",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/outdoor-lounge-area-setup-what-to-measure-before-buying-seating/",
+      "title": "Outdoor Lounge Seating That Fits the Whole Zone",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+      "title": "Outdoor Shade for the Place the Sun Actually Hits",
+      "category": "Outdoor & Garden",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Wallaroo Heavy-Duty 280 GSM 3 x 5m Shade Sail",
+        "OZtrail Commercial Deluxe 3.0 Gazebo"
+      ],
+      "comparison": false,
+      "beforePercent": 74,
+      "afterPercent": 74,
+      "actions": [],
+      "reason": "Buying section follows “Match Shade to the Outdoor Surface”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+      "title": "Small Outdoor Storage That Leaves the Backyard Usable",
+      "category": "Outdoor & Garden",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "vidaXL 90L Garden Storage Box",
+        "Keter Borneo Outdoor Storage Box"
+      ],
+      "comparison": true,
+      "beforePercent": 5,
+      "afterPercent": 43,
+      "actions": [
+        "Moved from 5% to 43% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Plan for Access, Not Just Capacity”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
+      "title": "Outdoor Storage Ideas for Australian Patios, Balconies and Gardens",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/pantry-storage-ideas-australian-kitchens/",
+      "title": "Pantry Storage Ideas for Australian Kitchens",
+      "category": "Kitchen",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+      "title": "Pantry Organisers: What to Measure Before You Buy",
+      "category": "Kitchen",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 5,
+      "products": [
+        "OXO Good Grips 11-inch Turntable",
+        "Joseph Joseph CupboardStore Expandable Shelf",
+        "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
+        "Joseph Joseph CupboardStore Film, Foil & Bag Organiser",
+        "Joseph Joseph CupboardStore Under-shelf Spice Rack"
+      ],
+      "comparison": false,
+      "beforePercent": 10,
+      "afterPercent": 67,
+      "actions": [
+        "Moved from 10% to 67% of authored text"
+      ],
+      "reason": "Buying section follows “Choose the organiser by the access problem”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
+      "title": "Pet Cleaning Supplies That Help With Hair, Mud and Odour",
+      "category": "Pets",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/"
+      ]
+    },
+    {
+      "route": "/guides/pet-essentials-for-australian-homes/",
+      "title": "Pet Essentials for Australian Homes: What to Buy First",
+      "category": "Pets",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/pet-feeding-station-ideas-for-australian-homes/",
+      "title": "Pet Feeding Station Ideas for Australian Homes",
+      "category": "Pets",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/keep-flies-mosquitoes-out-of-home/",
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/"
+      ]
+    },
+    {
+      "route": "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+      "title": "Pet Food Storage That Keeps Feeding Areas Cleaner",
+      "category": "Pets",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Paws & Claws 30L Pet Food Storage Container with Scoop",
+        "Gamma2 Gamma Seal Lid, Orange"
+      ],
+      "comparison": true,
+      "beforePercent": 89,
+      "afterPercent": 40,
+      "actions": [
+        "Moved from 89% to 40% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Measure the unopened bag and the lid path”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+      "title": "Dog Gates and Pet Barriers: What to Measure Before You Buy",
+      "category": "Pets",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "BabyDan Flex M Configurable Safety Gate",
+        "Dreambaby Liberty Tall Security Gate"
+      ],
+      "comparison": true,
+      "beforePercent": 88,
+      "afterPercent": 69,
+      "actions": [
+        "Moved from 88% to 69% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Make Daily Access Part of the Test”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/"
+      ]
+    },
+    {
+      "route": "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+      "title": "Pet Travel Essentials for Cars, Vet Visits and Short Trips",
+      "category": "Pets",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 1,
+      "products": [
+        "eDog Heavy Duty Waterproof Dog Car Hammock"
+      ],
+      "comparison": false,
+      "beforePercent": 91,
+      "afterPercent": 68,
+      "actions": [
+        "Moved from 91% to 68% of authored text",
+        "Corrected withdrawn-product references"
+      ],
+      "reason": "Buying section follows “Expect Mud, Hair and Wet Towels”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/portable-air-conditioners-australia/",
+      "title": "Portable Air Conditioners Australia: What to Know Before Buying",
+      "category": "Living Spaces",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "HOOMEE AL003 400cm Portable Air-Conditioner Window Seal",
+        "TempPro TP49 Indoor Thermometer and Hygrometer"
+      ],
+      "comparison": false,
+      "beforePercent": 47,
+      "afterPercent": 47,
+      "actions": [
+        "Removed unsuitable comparison table"
+      ],
+      "reason": "Buying section follows “Treat claimed room size as a starting point”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/air-conditioner-dry-mode-humidity/"
+      ]
+    },
+    {
+      "route": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
+      "title": "Portable vs Window/Wall vs Split-System Air Conditioner: Which Should You Choose?",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/portable-air-conditioners-australia/"
+      ]
+    },
+    {
+      "route": "/guides/prepare-outdoor-area-for-summer/",
+      "title": "Outdoor Entertaining Area Checklist: Get Your Patio Ready for Summer",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+        "/guides/keep-flies-mosquitoes-out-of-home/"
+      ]
+    },
+    {
+      "route": "/guides/preparing-your-home-for-winter/",
+      "title": "Preparing Your Home for Winter: A Practical Australian Checklist",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/fan-heater-vs-ceramic-heater/",
+        "/guides/electric-blankets-vs-heated-throws/"
+      ]
+    },
+    {
+      "route": "/guides/rangehood-buying-guide-australia/",
+      "title": "Rangehoods in Australia: What to Measure and Check Before Buying",
+      "category": "Kitchen",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Product research opportunity after ducting, cooktop and installation requirements are established. No approved model set or retailer offers.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/reduce-draughts-before-buying-bigger-heater/",
+      "title": "How to Reduce Draughts Before Buying a Bigger Heater",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Layout, furniture or household-routine guidance without an approved product set. Keep the article useful; product research is needed before direct links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/reduce-pollen-dust-inside-home-spring/",
+      "title": "How to Reduce Pollen and Dust Inside Your Home During Spring",
+      "category": "Living Spaces",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Philips 1000i Series Air Purifier AC1715/70",
+        "Levoit Core 300 Air Purifier"
+      ],
+      "comparison": true,
+      "beforePercent": 72,
+      "afterPercent": 72,
+      "actions": [
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Decide whether filtration would add anything”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/cordless-stick-vacuums-australia/",
+        "/guides/robot-vacuum-buying-guide-australia/"
+      ]
+    },
+    {
+      "route": "/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/",
+      "title": "A Pet Setup for Rentals That Protects the Home",
+      "category": "Pets",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/pet-food-storage-what-to-check-before-buying-containers/",
+        "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
+        "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/"
+      ]
+    },
+    {
+      "route": "/guides/renter-friendly-bathroom-storage-what-to-check-before-you-buy/",
+      "title": "Bathroom Storage for Renters",
+      "category": "Bathroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/",
+        "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+        "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
+      "title": "Garage Storage for Renters",
+      "category": "Garage Storage",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/"
+      ]
+    },
+    {
+      "route": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
+      "title": "Kitchen Storage for Renters",
+      "category": "Kitchen",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
+      "title": "Laundry Storage for Renters",
+      "category": "Laundry",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+        "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+        "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/reverse-cycle-heating-explained/",
+      "title": "Reverse-Cycle Heating Explained: What to Check Before You Rely on It in Winter",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Sizing and installation decision first. No approved exact equipment offers; do not substitute unrelated portable accessories.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/robot-lawn-mower-buying-guide-australia/",
+      "title": "Robot Lawn Mowers Australia: Will One Work in Your Yard?",
+      "category": "Outdoor & Garden",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "eufy E15 Robot Lawn Mower",
+        "eufy E18 Robot Lawn Mower"
+      ],
+      "comparison": true,
+      "beforePercent": 66,
+      "afterPercent": 66,
+      "actions": [],
+      "reason": "Buying section follows “Match cutting height to your grass”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/robot-vacuum-buying-guide-australia/",
+      "title": "Robot Vacuum Buying Guide Australia: Docks, Mopping and Navigation",
+      "category": "Living Spaces",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 3,
+      "products": [
+        "Roborock Qrevo L Robot Vacuum and Mop",
+        "ECOVACS DEEBOT T80 OMNI Robot Vacuum and Mop",
+        "Roborock Qrevo Edge C Robot Vacuum and Mop"
+      ],
+      "comparison": true,
+      "beforePercent": 93,
+      "afterPercent": 63,
+      "actions": [
+        "Moved from 93% to 63% of authored text"
+      ],
+      "reason": "Buying section follows “Mopping systems range from a damp cloth to a real maintenance routine”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/shared-home-office-spaces-how-to-set-up-without-taking-over-the-room/",
+      "title": "A Shared Home Office That Packs Back Into the Room",
+      "category": "Home Office",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/home-office-storage-for-paperwork-tech-and-supplies-what-to-plan-before-buying/",
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/",
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+      "title": "Shower Storage That Does Not Get in the Way",
+      "category": "Bathroom",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "Joseph Joseph EasyStore Large Shower Caddy with Mirror",
+        "Umbra Flex Shower Caddy"
+      ],
+      "comparison": true,
+      "beforePercent": 89,
+      "afterPercent": 67,
+      "actions": [
+        "Moved from 89% to 67% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Make drainage visible”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ]
+    },
+    {
+      "route": "/guides/side-tables-coffee-tables-and-console-tables-what-to-compare-before-you-buy/",
+      "title": "Living Room Tables That Earn Their Floor Space",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Layout, furniture or household-routine guidance without an approved product set. Keep the article useful; product research is needed before direct links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/",
+      "title": "Small Bathroom Storage That Actually Fits",
+      "category": "Bathroom",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 3,
+      "products": [
+        "Joseph Joseph EasyStore Bathroom Caddy — Grey/White",
+        "SONGMICS 3-Tier Bamboo Over-Toilet Organiser — Cloud White",
+        "Command BATH11-ES Shower Caddy"
+      ],
+      "comparison": false,
+      "beforePercent": 7,
+      "afterPercent": 52,
+      "actions": [
+        "Moved from 7% to 52% of authored text"
+      ],
+      "reason": "Buying section follows “Treat suction and adhesive as surface-specific”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/"
+      ]
+    },
+    {
+      "route": "/guides/small-garage-storage-what-to-check-before-buying-shelves-or-racks/",
+      "title": "Small Garage Storage That Still Leaves Room to Move",
+      "category": "Garage Storage",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/garage-shelving-what-to-measure-before-buying-storage-units/"
+      ]
+    },
+    {
+      "route": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "title": "Small Kitchen Appliances That Earn Their Bench Space",
+      "category": "Kitchen",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 7,
+      "products": [
+        "Philips 3000 Series Dual Basket Airfryer NA352/00",
+        "KitchenAid Artisan Tilt-Head Stand Mixer KSM195",
+        "Kenwood Titanium Chef Baker XL KVL85.004BK",
+        "Braun PowerBlend 9 Jug Blender JB9040",
+        "Vitamix A3500i Ascent Series Smart Blender",
+        "Breville the Fast Slow GO BPR680BSS",
+        "Ninja Foodi SmartLid Multi Cooker OL650ANZ"
+      ],
+      "comparison": false,
+      "beforePercent": 93,
+      "afterPercent": 63,
+      "actions": [
+        "Moved from 93% to 63% of authored text"
+      ],
+      "reason": "Buying section follows “Use the power point the kitchen safely provides”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/coffee-machine-types-australia/",
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
+      "title": "Small Laundry Storage That Uses Tight Spaces Well",
+      "category": "Laundry",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+      ]
+    },
+    {
+      "route": "/guides/smart-home-office-setup-compatibility-power-and-privacy/",
+      "title": "Smart Home Office Setup: Compatibility, Power and Privacy",
+      "category": "Home Office",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/",
+        "/guides/home-office-lighting-what-to-compare-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/sofa-and-seating-layout-what-to-measure-before-buying-furniture/",
+      "title": "A Sofa Layout That Leaves Room to Move",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Layout, furniture or household-routine guidance without an approved product set. Keep the article useful; product research is needed before direct links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/split-system-air-conditioner-installation-costs/",
+      "title": "Split-System Air Conditioner Installation Costs: Back-to-Back, Pipe Runs & What Affects the Quote",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Sizing and installation decision first. No approved exact equipment offers; do not substitute unrelated portable accessories.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/sports-gear-storage-what-to-check-before-buying-hooks-racks-or-bins/",
+      "title": "Sports Gear Storage That Is Easy to Put Away",
+      "category": "Garage Storage",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/"
+      ]
+    },
+    {
+      "route": "/guides/spring-cleaning-checklist/",
+      "title": "Spring Cleaning Checklist: A Practical Australian Room-by-Room Reset",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/cordless-stick-vacuums-australia/",
+        "/guides/reduce-pollen-dust-inside-home-spring/"
+      ]
+    },
+    {
+      "route": "/guides/spring-garden-reset-checklist/",
+      "title": "Spring Garden Reset Checklist for Australian Homes",
+      "category": "Outdoor & Garden",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
+      ]
+    },
+    {
+      "route": "/guides/spring-home-maintenance-checklist/",
+      "title": "Spring Home Maintenance Checklist for Australian Homes",
+      "category": "Living Spaces",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/keep-flies-mosquitoes-out-of-home/",
+        "/guides/how-to-keep-house-cooler-in-summer/"
+      ]
+    },
+    {
+      "route": "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/",
+      "title": "Towel Storage That Helps Towels Dry Properly",
+      "category": "Bathroom",
+      "status": "Contextual buying-guide route",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [
+        "Added contextual buying-guide link"
+      ],
+      "reason": "Existing or added body-copy links lead to focused guides with approved product records. Direct affiliate cards are not necessary for every planning article.",
+      "contextualRoutes": [
+        "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
+      ]
+    },
+    {
+      "route": "/guides/toy-blanket-and-everyday-clutter-control-for-living-rooms/",
+      "title": "Toy, Blanket and Everyday Clutter Control for Living Rooms",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Layout, furniture or household-routine guidance without an approved product set. Keep the article useful; product research is needed before direct links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/tv-unit-and-media-storage-what-to-measure-before-you-buy/",
+      "title": "TV and Media Storage That Keeps Cables Reachable",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Layout, furniture or household-routine guidance without an approved product set. Keep the article useful; product research is needed before direct links.",
+      "contextualRoutes": []
+    },
+    {
+      "route": "/guides/under-bed-storage-what-to-measure-before-you-buy/",
+      "title": "Under-Bed Storage You Can Still Reach",
+      "category": "Bedroom",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 1,
+      "products": [
+        "Amazon Basics Under-Bed Fabric Storage Bags, 2 Pack"
+      ],
+      "comparison": false,
+      "beforePercent": 87,
+      "afterPercent": 68,
+      "actions": [
+        "Moved from 87% to 68% of authored text",
+        "Corrected withdrawn-product references"
+      ],
+      "reason": "Buying section follows “Leave Access for Dust and Moisture Checks”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/"
+      ]
+    },
+    {
+      "route": "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/",
+      "title": "How to Use Awkward Under-Sink Bathroom Space",
+      "category": "Bathroom",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "SimpleHouseware 2-Tier Expandable Under-Sink Shelf",
+        "SimpleHouseware 2-Tier Pull-Out Under-Sink Organiser"
+      ],
+      "comparison": true,
+      "beforePercent": 79,
+      "afterPercent": 56,
+      "actions": [
+        "Moved from 79% to 56% of authored text",
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Contain spills without hiding leaks”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
+      "title": "Storage Under the Kitchen Sink",
+      "category": "Kitchen",
+      "status": "Comparison + retailer links",
+      "approvedProducts": 2,
+      "products": [
+        "SimpleHouseware 2-Tier Expandable Under-Sink Shelf",
+        "SimpleHouseware 2-Tier Pull-Out Under-Sink Organiser"
+      ],
+      "comparison": true,
+      "beforePercent": 54,
+      "afterPercent": 54,
+      "actions": [
+        "Added comparison table"
+      ],
+      "reason": "Buying section follows “Choose storage around the awkward zone”. Compare the approved options by task, suitability and main limitation.",
+      "contextualRoutes": [
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+        "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+        "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
+      ]
+    },
+    {
+      "route": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+      "title": "Washing Machine Dimensions Australia: What to Measure Before Buying",
+      "category": "Laundry",
+      "status": "Product cards + retailer links",
+      "approvedProducts": 3,
+      "products": [
+        "Bosch WGG244A1AU 9kg front loader",
+        "LG WX3-1208W 8kg slim front loader",
+        "LG WTX3-09G 9kg top loader"
+      ],
+      "comparison": false,
+      "beforePercent": 34,
+      "afterPercent": 34,
+      "actions": [],
+      "reason": "Buying section follows “Three washing machines to compare for fit”. Keep cards for a single option, distinct tasks or an existing article comparison.",
+      "contextualRoutes": [
+        "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+        "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+        "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
+      ]
+    },
+    {
+      "route": "/guides/what-size-air-conditioner-do-i-need/",
+      "title": "What Size Air Conditioner Do I Need? A Practical Australian Guide",
+      "category": "Living Spaces",
+      "status": "No approved direct offer",
+      "approvedProducts": 0,
+      "products": [],
+      "comparison": false,
+      "beforePercent": null,
+      "afterPercent": null,
+      "actions": [],
+      "reason": "Sizing and installation decision first. No approved exact equipment offers; do not substitute unrelated portable accessories.",
+      "contextualRoutes": []
+    }
+  ]
+}

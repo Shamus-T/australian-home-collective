@@ -349,8 +349,8 @@ if (!/worker-src\s+'self'\s+blob:\s*;/i.test(csp)) {
 }
 
 for (const [route, page] of pages) {
-  if (!page.html.includes('href="/styles/global.css?v=18"')) {
-    addError(`${route} does not reference global.css?v=18.`);
+  if (!page.html.includes('href="/styles/global.css?v=19"')) {
+    addError(`${route} does not reference global.css?v=19.`);
   }
   if (!page.html.includes('<a href="/search/">Search</a>')) {
     addError(`${route} does not expose the shared Search navigation link.`);

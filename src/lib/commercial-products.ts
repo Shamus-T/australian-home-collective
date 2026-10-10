@@ -1,3 +1,4 @@
+import { hasExcludedCommercialIdentity } from "./commercial-exclusions.mjs";
 import catalogueData from "../data/commercial-products.json";
 import { getOrderedRetailers } from "./commercial-retailers.mjs";
 import type {
@@ -45,6 +46,7 @@ function canRenderProduct(product: CommercialProduct): boolean {
   if (product.editorialStatus !== "approved") return false;
 
   const blockers: string[] = [];
+  if (hasExcludedCommercialIdentity(product)) blockers.push("publisher brand exclusion");
   if (product.researchOutcome !== "research-supported") blockers.push("research outcome");
   if (!product.evidenceConfidence || product.evidenceConfidence === "low") {
     blockers.push("evidence confidence");

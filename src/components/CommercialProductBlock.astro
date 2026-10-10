@@ -30,6 +30,8 @@ const retailers = new Map(products.map((product) => [product.id, getRetailersFor
 const hasAffiliateLinks = [...retailers.values()].some((offers) => offers.some((offer) => offer.affiliate));
 const hasMultipleRetailers = [...retailers.values()].some((offers) => offers.length > 1);
 const sectionId = getCommercialSectionId(guidePath);
+const showComparison = variant === "comparison" && products.length > 1;
+const displayVariant = variant === "comparison" && !showComparison ? "quick" : variant;
 
 const formatDate = (date: string) =>
   new Intl.DateTimeFormat("en-AU", {
@@ -42,7 +44,7 @@ const formatDate = (date: string) =>
 
 {products.length > 0 && (
   <section
-    class={`commercial-product-block commercial-product-block--${variant}`}
+    class={`commercial-product-block commercial-product-block--${displayVariant}`}
     aria-labelledby={sectionId}
     data-commercial-product-block
     data-affiliate-endpoint={AFFILIATE_CLICK_ENDPOINT}
@@ -57,11 +59,13 @@ const formatDate = (date: string) =>
         <a href="/affiliate-disclosure/">Learn more.</a>
       </p>
     )}
-    {variant === "comparison" && (
-      <div class="commercial-product-comparison-wrap">
+    {showComparison && (
+      <>
+      <p class="commercial-comparison-hint" id={`${sectionId}-hint`}>Compare the fit and main trade-off. On a small screen, scroll across the table for retailer links.</p>
+      <div class="commercial-product-comparison-wrap" role="region" aria-label={`${title} comparison`} aria-describedby={`${sectionId}-hint`} tabindex="0">
         <table class="commercial-product-comparison">
           <caption>Compare these researched options</caption>
-          <thead><tr><th scope="col">Model</th><th scope="col">May suit</th><th scope="col">Check first</th><th scope="col">Check current price</th></tr></thead>
+          <thead><tr><th scope="col">Option</th><th scope="col">May suit</th><th scope="col">Check first</th><th scope="col">Check current price</th></tr></thead>
           <tbody>
             {products.map((product) => (
               <tr>
@@ -72,7 +76,8 @@ const formatDate = (date: string) =>
                       width={product.image.width} height={product.image.height}
                       loading="lazy" decoding="async" />
                   )}
-                  {product.name}
+                  <a href={`#product-${product.id}`}>{product.name}</a>{" "}
+                  <span class="commercial-comparison-type">{product.productType}</span>
                 </th>
                 <td>{product.suitability.suits[0]}</td>
                 <td>{product.drawbacks[0]}</td>
@@ -84,8 +89,9 @@ const formatDate = (date: string) =>
           </tbody>
         </table>
       </div>
+      </>
     )}
-    {variant === "comparison" && <h3 class="commercial-product-details-heading">More about each option</h3>}
+    {showComparison && <h3 class="commercial-product-details-heading">More about each option</h3>}
     <div class="commercial-product-grid">
       {products.map((product) => (
         <article id={`product-${product.id}`} class="commercial-product-card" data-commercial-product-card>

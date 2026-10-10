@@ -1,3 +1,4 @@
+import { hasExcludedCommercialIdentity } from "../src/lib/commercial-exclusions.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
@@ -482,6 +483,9 @@ for (const [index, product] of products.entries()) {
     addError("Duplicate product id: " + product.id);
   }
   seenIds.add(product.id);
+  if (product.editorialStatus === "approved" && hasExcludedCommercialIdentity(product)) {
+    addError(prefix + " violates the publisher brand exclusion.");
+  }
 
   if (!enabledGuidePaths.includes(product.guidePath) && product.editorialStatus === "approved") {
     addError(prefix + ".guidePath is not enabled for commercial placement.");

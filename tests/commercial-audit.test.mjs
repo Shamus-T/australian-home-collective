@@ -434,3 +434,15 @@ test("reviewed manufacturer document queries do not permit different files or tr
   assert.equal(isReviewedApplianceSource(manual + "&tag=affiliate"), false);
   assert.equal(isReviewedApplianceSource(manual.replace("NjMxNzY1", "unreviewed")), false);
 });
+
+for (const [label, mutate] of [
+  ["owned brand", product => { product.name = "Kogan Monitor Light"; }],
+  ["owned retailer", product => { product.merchant = "Dick Smith"; }],
+  ["marketplace seller", product => { product.sourceRecords.find(s => s.sourceType === "seller-fulfilment").supports = "Displayed seller: KOGAN."; }],
+]) {
+  test("the audit rejects publisher-excluded " + label, () => {
+    const result = runAudit(mutate);
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, /publisher brand exclusion/);
+  });
+}
