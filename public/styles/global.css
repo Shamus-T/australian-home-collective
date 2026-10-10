@@ -1402,7 +1402,7 @@ h3 {
 .commercial-retailer-link--amazon { background: #232f3e; color: #fff; }
 .commercial-retailer-link--good-guys { background: #0871b4; color: #fff; }
 
-.commercial-retailer-links a:has(.commercial-retailer-badge) {
+.commercial-retailer-links a:is(.commercial-retailer-link--amazon, .commercial-retailer-link--good-guys) {
   display: grid;
   place-items: center;
   width: 212px;
@@ -2472,18 +2472,10 @@ pagefind-results {
 .commercial-product-block .commercial-product-grid:has(> .commercial-product-card:only-child) { grid-template-columns: minmax(0, 1fr); max-width: none; }
 .commercial-product-comparison { min-width: 880px; }
 
-/* Keep a readable name underneath the opaque Good Guys artwork.
-   No JavaScript or successful image request is needed for the text. */
-.commercial-retailer-fallback {
+/* The approved Good Guys pixels are embedded in the page, not fetched separately. */
+.commercial-retailer-artwork {
+  display: block;
   grid-area: 1 / 1;
-  color: #fff;
-  font: 700 17px/1.2 system-ui, sans-serif;
-  text-align: center;
-  padding: 0 12px;
-}
-.commercial-retailer-link--good-guys .commercial-retailer-badge {
-  position: relative;
   width: 212px;
   height: 45.2px;
-  z-index: 1;
 }

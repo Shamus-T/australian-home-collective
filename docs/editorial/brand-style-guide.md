@@ -2,7 +2,8 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.2 |
+| Version | 1.3 | 11 October 2026 | Locked approved retailer artwork and required visual verification; text fallbacks are not a logo fix. |
+| 1.2 |
 | Status | Active |
 | Document type | Internal brand and voice standard |
 | Owner | Australian Home Collective |
@@ -142,6 +143,14 @@ Australian Home Collective imagery should feel recognisably varied, contemporary
 - Reject generated images with invented brand marks, unreadable labels, malformed products or ambiguous accessories. Regenerate the image instead of explaining away a visible error in the caption.
 
 Before approving an image, compare it with the most recent images in the same category and across the Guides Index. If the colour palette, timber treatment or room styling feels repetitive, choose a different visual direction.
+
+### Retailer artwork
+
+The approved retailer logo is part of the required design, not optional decoration. The Good Guys uses the cropped, rounded blue-and-red artwork in `public/images/retailers/the-good-guys-rounded.png`; Amazon uses `public/images/retailers/amazon-available-official.png`. Their approved file identities are recorded in `src/data/retailer-branding.json`.
+
+Do not substitute typed retailer names, generic buttons, recreated marks, old Partnerize assets or alternative logo variants. Changes to these approved assets require the user's explicit approval. Keep both retailer button footprints at 212 x 56px, centred and undistorted, while retaining accessible names and affiliate tracking.
+
+A text fallback is an error state and must never be presented as an approved logo or a completed repair. A passing check requires the actual approved artwork to be visible. Verify the production build, desktop and mobile card/table rendering, then the live affected page. Save a screenshot showing the artwork. File availability or DOM presence alone does not establish that it renders correctly. Do not weaken security settings to make a logo load.
 
 ## 13. Tools and result language
 

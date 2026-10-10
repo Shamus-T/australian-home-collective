@@ -1,12 +1,19 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
+import { createHash } from 'node:crypto';
 
 const root=process.cwd();
 const catalogue=JSON.parse(fs.readFileSync(path.join(root,'src/data/commercial-products.json'),'utf8'));
 const products=catalogue.products.filter(p=>p.editorialStatus==='approved');
 const knownGaps=JSON.parse(fs.readFileSync(path.join(root,'docs/editorial/product-image-follow-up.json'),'utf8'));
 const errors=[];const warnings=[];
+const branding=JSON.parse(fs.readFileSync(path.join(root,'src/data/retailer-branding.json'),'utf8'));
+const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
+for(const [retailer,asset] of Object.entries(branding)) {
+  const file=path.join(root,'public',asset.src);
+  if(!fs.existsSync(file)||digest(fs.readFileSync(file))!==asset.sha256) errors.push(retailer+': artwork differs from the user-approved asset');
+}
 for(const p of products){
   if(!p.image){if(!knownGaps.products.some(x=>x.id===p.id))errors.push(`${p.id}: new product image gap`);else warnings.push(`${p.id}: exact-model image still needed`);continue;}
   for(const field of ['alt','credit','sourceUrl','suppliedVia','checkedOn'])if(!p.image[field])errors.push(`${p.id}: missing image ${field}`);
@@ -17,7 +24,19 @@ for(const p of products){
 const dist=path.join(root,'dist');const pages=[];const walk=dir=>{for(const e of fs.readdirSync(dir,{withFileTypes:true})){const f=path.join(dir,e.name);if(e.isDirectory())walk(f);else if(e.name.endsWith('.html'))pages.push(f);}};walk(dist);
 let articleCount=0,commercialPages=0,buttons=0,cardCount=0;
 for(const file of pages){const html=fs.readFileSync(file,'utf8');const article=html.match(/<article\b[^>]*class="content narrow"[^>]*>([\s\S]*)/);if(article)articleCount++;const cards=[...html.matchAll(/<article\b[^>]*data-commercial-product-card[^>]*>/g)];cardCount+=cards.length;if(cards.length){commercialPages++;if(!article||!/^\s*<p\b[^>]*class="commercial-product-shortcut"/.test(article[1]))errors.push(`${file}: jump link must begin the article`);const jump=html.match(/class="commercial-product-shortcut"[^>]*>\s*<a[^>]*href="#([^"]+)"/);if(!jump||!html.includes(`id="${jump[1]}"`))errors.push(`${file}: jump target missing`);}
-  for(const a of html.matchAll(/<a\b([^>]*data-commercial-link[^>]*)>([\s\S]*?)<\/a>/g)){buttons++;const attrs=a[1];const label=attrs.match(/aria-label="([^"]+)"/)?.[1];if(!label||!attrs.includes('sponsored')||!attrs.includes('data-affiliate-trackable="true"'))errors.push(`${file}: retailer accessibility/tracking attributes missing`);if(/commercial-retailer-link--(?:amazon|good-guys)/.test(attrs)){const img=a[2].match(/<img\b([^>]+)>/);const src=img?.[1].match(/src="([^"]+)"/)?.[1];if(!src||!src.startsWith('/images/retailers/')||!fs.existsSync(path.join(dist,src)))errors.push(`${file}: retailer logo asset missing`);const textFallback=a[2].includes('class="commercial-retailer-fallback"')&&a[2].includes('>The Good Guys</span>');if(attrs.includes("commercial-retailer-link--good-guys")&&!textFallback)errors.push(`${file}: Good Guys button needs a permanent text fallback`);if(!img?.[1].includes('loading="eager"')||(!/alt="[^"]+"/.test(img[1])&&!textFallback))errors.push(`${file}: retailer logo must have eager loading and readable fallback`);}}
+  for(const a of html.matchAll(/<a\b([^>]*data-commercial-link[^>]*)>([\s\S]*?)<\/a>/g)){buttons++;const attrs=a[1];const label=attrs.match(/aria-label="([^"]+)"/)?.[1];if(!label||!attrs.includes('sponsored')||!attrs.includes('data-affiliate-trackable="true"'))errors.push(`${file}: retailer accessibility/tracking attributes missing`);if(attrs.includes('commercial-retailer-link--good-guys')) {
+      const svg=a[2].match(/<svg\b([^>]*data-retailer-artwork="good-guys"[^>]*)>([\s\S]*?)<\/svg>/);
+      const embedded=svg?.[2].match(/<image\b[^>]*href="data:image\/png;base64,([^"]+)"/);
+      if(!embedded || digest(Buffer.from(embedded[1],'base64'))!==branding.goodGuys.sha256) errors.push(file+': Good Guys must render the exact approved embedded artwork; text or legacy logos do not pass');
+      if(!svg?.[1].includes('viewBox="0 0 868 185"')) errors.push(file+': approved logo proportions missing');
+      if(a[2].includes('commercial-retailer-fallback')) errors.push(file+': text fallback must not substitute for approved artwork');
+    } else if(attrs.includes('commercial-retailer-link--amazon')) {
+      const img=a[2].match(/<img\b([^>]+)>/);
+      const src=img?.[1].match(/src="([^"]+)"/)?.[1];
+      if(src!==branding.amazon.src||!fs.existsSync(path.join(dist,src))) errors.push(file+': approved Amazon logo missing');
+      if(!img?.[1].includes('loading="eager"')||!/alt="[^"]+"/.test(img[1])) errors.push(file+': Amazon logo needs eager loading and alt text');
+    }
+  }
 }
 const result={pages:pages.length,articles:articleCount,commercialPages,cards:cardCount,retailerButtons:buttons,productsWithImages:products.filter(p=>p.image).length,productsMissingImages:products.filter(p=>!p.image).length,errors,warnings};
 if(process.argv.includes('--json'))console.log(JSON.stringify(result,null,2));else{console.log(JSON.stringify({...result,errors:errors.length,warnings:warnings.length},null,2));warnings.forEach(w=>console.warn('FOLLOW-UP: '+w));errors.forEach(e=>console.error(e));}

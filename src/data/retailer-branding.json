@@ -1,0 +1,14 @@
+{
+  "goodGuys": {
+    "src": "/images/retailers/the-good-guys-rounded.png",
+    "sha256": "240d1743126e475ea899c1120000b119b1d8861ab10c92f4d5800565ed3a648d",
+    "width": 868,
+    "height": 185
+  },
+  "amazon": {
+    "src": "/images/retailers/amazon-available-official.png",
+    "sha256": "6f9e98270f10c6c5b3d1ceb73bfc277d3188cd367bae09beb959a1d1eac9b73d",
+    "width": 1500,
+    "height": 242
+  }
+}
