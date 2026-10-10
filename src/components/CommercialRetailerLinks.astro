@@ -41,7 +41,10 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
           data-affiliate-trackable={offer.affiliate ? "true" : undefined}
         >
           {isGoodGuys(offer) ? (
-            <img class="commercial-retailer-badge" src="/images/retailers/the-good-guys-rounded.png" alt="The Good Guys" width="868" height="185" loading="eager" />
+            <>
+              <span class="commercial-retailer-fallback" aria-hidden="true">The Good Guys</span>
+              <img class="commercial-retailer-badge" src="/images/retailers/the-good-guys-rounded.png" alt="" aria-hidden="true" width="868" height="185" loading="eager" />
+            </>
           ) : offer.affiliateNetwork === "amazon-australia" ? (
             <img class="commercial-retailer-badge" src="/images/retailers/amazon-available-official.png" alt="Available at Amazon" width="1500" height="242" loading="eager" />
           ) : (
