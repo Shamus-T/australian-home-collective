@@ -4,7 +4,15 @@
 // docs/editorial/rangehood-guide-sources-2026-09-12.md.
 // Precision Fit evidence: docs/editorial/precision-fit-preview-sources-2026-10-10.md.
 // This does not approve other store pages or any tracking parameters.
+// LG evidence: docs/editorial/lg-fit-max-first-look-sources-2026-10-10.md
 const reviewedSourceUrls = new Set([
+  "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400mw/",
+  "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400ps/",
+  "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400bs/",
+  "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400mb/",
+  "https://www.lg.com/au/support/warranty/",
+  "https://gscs-b2c.lge.com/open/downloadFile?fileId=Ku5jhJkd1wtwzBvNmhPZ9g",
+
   "https://www.fisherpaykel.com/on/demandware.static/-/Sites-fpa-master-catalog/default/dw1d3295e5/QRG/AU/QRG-AU-27084.pdf",
   "https://dam.fisherpaykel.com/KZ3PKN00/at/hsqs38krwj6j3jrp68xfmbh9/FP-PlanningGuide-en-RF600ADX1-RF600ADYB1-RF600ADYX1-RF600ADUB1-RF600ADUX1-RF600ADPVX1-RF600AMPVG1-FrenchDoorRefrigeratorFreezer-0-90006556A-AU-NZ.pdf",
   "https://dam.fisherpaykel.com/KZ3PKN00/at/r55zvts8gbhw6j3g69fqgg/FP-InstallGuide-en-RF600ADX1-RF600ADYB1-RF600ADYX1-RF600ADUB1-RF600ADUX1-RF600ADPVX1-RF600AMPVG1-FrenchDoorRefrigeratorFreezer-0-433736A-NZ-AU-UK-IE-SG.pdf",

@@ -1,6 +1,7 @@
 ---
 import { Picture } from "astro:assets";
 import homeHero from "../../public/images/home-lifestyle-hero-refined.webp";
+import LGFitMaxFeature from "../components/LGFitMaxFeature.astro";
 import ProductPreviewFeature from "../components/ProductPreviewFeature.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GuideCard from "../components/GuideCard.astro";
@@ -226,6 +227,7 @@ const homepageCardSources = await getHomepageCardSources();
     </div>
   </section>
 
+  <LGFitMaxFeature />
   <ProductPreviewFeature />
 
   <section class="section soft" data-homepage-measurement-guides aria-labelledby="measurement-guides-heading">

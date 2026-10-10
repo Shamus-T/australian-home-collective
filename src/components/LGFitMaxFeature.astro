@@ -1,0 +1,43 @@
+---
+const finishes = [
+  { code: "mw", name: "Matte White" },
+  { code: "ps", name: "Stainless" },
+  { code: "bs", name: "Black" },
+  { code: "mb", name: "Matte Black" },
+];
+---
+<section class="lg-feature-section" aria-labelledby="lg-feature-title" data-homepage-lg-feature>
+  <div class="container">
+    <a class="lg-feature" href="/guides/lg-fit-max-436l-fridge-first-look/">
+      <div class="lg-lineup">
+        <div class="lg-products">
+          {finishes.map((finish) => <div class="lg-finish"><img src={`/images/products/lg-gb-b400${finish.code}-640.webp`} alt={`LG 436L Fit & Max fridge in ${finish.name.toLowerCase()}.`} width="257" height="640" loading="lazy" decoding="async" /><span>{finish.name}</span></div>)}
+        </div>
+        <p class="lg-credit">Product images sourced from The Good Guys website.</p>
+      </div>
+      <div class="lg-copy">
+        <p class="eyebrow">Hands-on first look · Kitchen</p>
+        <h2 id="lg-feature-title">LG Fit &amp; Max fridge: a closer fit, in four finishes</h2>
+        <p>The hinges and dedicated door cooling caught our attention. Here’s how the 436-litre range fits into a real kitchen.</p>
+        <span class="lg-read">Explore the four finishes <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+  </div>
+</section>
+<style>
+  .lg-feature-section { padding: 32px 0 12px; background: #f4efe5; }
+  .lg-feature { display: grid; grid-template-columns: 1.4fr 1fr; border-radius: 10px; overflow: hidden; background: #263c45; color: #fffaf0; text-decoration: none; }
+  .lg-lineup { background: #e8e5de; padding: 28px 20px 12px; align-content: center; }
+  .lg-products { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 14px; align-items: end; }
+  .lg-finish img { display: block; width: 100%; height: auto; }
+  .lg-finish span { display: block; color: #263c45; text-align: center; font: 600 .72rem/1.3 Arial,sans-serif; margin-top: 10px; }
+  .lg-credit { text-align: center; font: .62rem/1.4 Arial,sans-serif; color: #596166; margin: 18px 0 0; }
+  .lg-copy { align-self: center; padding: 30px; }
+  .lg-copy .eyebrow { margin: 0 0 12px; color: #e8c891; font-size: .7rem; letter-spacing: .09em; }
+  .lg-copy h2 { font-size: clamp(1.6rem,2.1vw,1.95rem); line-height: 1.16; margin: 0 0 15px; color: #fffaf0; }
+  .lg-copy > p:not(.eyebrow) { font-size: .94rem; line-height: 1.55; color: #e4e8e6; }
+  .lg-read { display: inline-flex; gap: 18px; margin-top: 10px; padding-bottom: 5px; border-bottom: 1px solid #b89966; font-weight: 700; color: #ecd29f; }
+  .lg-feature:hover .lg-read { color: white; }
+  .lg-feature:focus-visible { outline: 3px solid #ad762b; outline-offset: 5px; }
+  @media(max-width: 800px) { .lg-feature { grid-template-columns: 1fr; } .lg-copy { padding: 24px; } .lg-lineup { padding: 24px 16px 12px; } .lg-products { gap: 10px; } .lg-finish span { font-size: .62rem; } }
+</style>

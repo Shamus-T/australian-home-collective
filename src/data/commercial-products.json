@@ -59,7 +59,8 @@
     "/guides/electric-blankets-vs-heated-throws/",
     "/guides/oil-column-heater-vs-panel-heater/",
     "/guides/fan-heater-vs-ceramic-heater/",
-    "/guides/robot-lawn-mower-buying-guide-australia/"
+    "/guides/robot-lawn-mower-buying-guide-australia/",
+    "/guides/lg-fit-max-436l-fridge-first-look/"
   ],
   "products": [
     {
@@ -9973,6 +9974,462 @@
         "credit": "Product image: The Good Guys.",
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50094295_949227.png?v=1776300240&width=1500&height=1500&pad_color=ffffff",
         "suppliedVia": "The Good Guys Australia Partnerize product feed, Standard Image field for SKU RR-QREC02-03-WHT",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "lg-gb-b400mw-good-guys",
+      "guidePath": "/guides/lg-fit-max-436l-fridge-first-look/",
+      "name": "LG 436L Fit & Max — Matte White (GB-B400MW)",
+      "productType": "436L bottom mount fridge · Matte White",
+      "summary": "A light finish to compare with white cupboards, pale stone and painted joinery.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400mw",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Confirm the exact finish and postcode delivery price before ordering.",
+        "Allow 4 mm each side, 9 mm above and more than 50 mm behind; confirm the complete installation with LG.",
+        "No automatic ice maker, water dispenser or folding shelf; long-term owner evidence is limited."
+      ],
+      "suitability": {
+        "suits": [
+          "households wanting the matte white finish and a 436-litre bottom mount layout",
+          "kitchens where the verified side gaps and door opening measurements work"
+        ],
+        "mayNotSuit": [
+          "households needing a larger freezer or automatic water and ice",
+          "openings that cannot accommodate the rear ventilation allowance"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "LG GB-B400MW Australian specifications",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400mw/",
+          "supports": "Exact finish; 436 L split 308/128; 697 x 1740 x 696 mm; 261 kWh/year; 5.5 stars; 4 mm recommended side gap; DoorCooling+; reversible doors. No folding shelf, Fresh Converter, automatic ice maker or water dispenser.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "LG Australian warranty",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/support/warranty/",
+          "supports": "Two-year product warranty, additional sealed-system and compressor parts cover; not ten years of full parts and labour.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "LG owner manual MFL05784816/00, pages 11–12",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=Ku5jhJkd1wtwzBvNmhPZ9g",
+          "supports": "Manual linked from GB-B400MW support: more than 50 mm rear clearance; dimensions; door reversal by qualified LG personnel. Multi-model optional features are not treated as included.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model customer review availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400mw",
+          "supports": "No reviews found on the exact retailer listing at review. No recurring owner themes established. This evidence gap is disclosed; placement concerns verified fit and features, not a reliability recommendation.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "LG GB-B400MW listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400mw",
+          "supports": "Exact model and finish in Australian retail page. AUD 1199.00 observed; structured offer InStock, seller The Good Guys. Delivery and collection require postcode confirmation; no nationwide stock promise.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for GB-B400 variants",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search-index checks restricted to productsafety.gov.au for GB-B400MW, GB-B400PS, GB-B400BS and GB-B400MB found no matching recall notices on 10 October 2026. Direct register request returned Access Denied; not represented as a complete register inspection or certification.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "GB-B400MW Partnerize destination",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400mw",
+          "supports": "Live redirect tested: HTTP 200 at the matching Good Guys model URL with clickref retained. Configured AHC campaign camref 1100l6vaUc; exact model and finish verified separately on retailer page. Seller is The Good Guys; postcode-specific fulfilment remains for checkout.",
+          "checkedOn": "2026-10-10"
+        }
+      ],
+      "image": {
+        "src": "/images/products/lg-gb-b400mw-640.webp",
+        "srcSet": "/images/products/lg-gb-b400mw-320.webp 129w, /images/products/lg-gb-b400mw-640.webp 257w, /images/products/lg-gb-b400mw-960.webp 386w",
+        "alt": "LG GB-B400MW bottom mount fridge in matte white, viewed from the front.",
+        "width": 257,
+        "height": 640,
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50100464_1090428.png?v=1791243238",
+        "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "lg-gb-b400ps-good-guys",
+      "guidePath": "/guides/lg-fit-max-436l-fridge-first-look/",
+      "name": "LG 436L Fit & Max — Stainless (GB-B400PS)",
+      "productType": "436L bottom mount fridge · Stainless",
+      "summary": "A stainless finish to compare alongside your oven, dishwasher and other visible appliances.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Confirm the exact finish and postcode delivery price before ordering.",
+        "Allow 4 mm each side, 9 mm above and more than 50 mm behind; confirm the complete installation with LG.",
+        "No automatic ice maker, water dispenser or folding shelf; long-term owner evidence is limited."
+      ],
+      "suitability": {
+        "suits": [
+          "households wanting the stainless finish and a 436-litre bottom mount layout",
+          "kitchens where the verified side gaps and door opening measurements work"
+        ],
+        "mayNotSuit": [
+          "households needing a larger freezer or automatic water and ice",
+          "openings that cannot accommodate the rear ventilation allowance"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "LG GB-B400PS Australian specifications",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400ps/",
+          "supports": "Exact finish; 436 L split 308/128; 697 x 1740 x 696 mm; 261 kWh/year; 5.5 stars; 4 mm recommended side gap; DoorCooling+; reversible doors. No folding shelf, Fresh Converter, automatic ice maker or water dispenser.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "LG Australian warranty",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/support/warranty/",
+          "supports": "Two-year product warranty, additional sealed-system and compressor parts cover; not ten years of full parts and labour.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "LG owner manual MFL05784816/00, pages 11–12",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=Ku5jhJkd1wtwzBvNmhPZ9g",
+          "supports": "Manual linked from GB-B400MW support: more than 50 mm rear clearance; dimensions; door reversal by qualified LG personnel. Multi-model optional features are not treated as included.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model customer review availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+          "supports": "No reviews found on the exact retailer listing at review. No recurring owner themes established. This evidence gap is disclosed; placement concerns verified fit and features, not a reliability recommendation.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "LG GB-B400PS listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+          "supports": "Exact model and finish in Australian retail page. AUD 1299.00 observed; structured offer InStock, seller The Good Guys. Delivery and collection require postcode confirmation; no nationwide stock promise.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for GB-B400 variants",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search-index checks restricted to productsafety.gov.au for GB-B400MW, GB-B400PS, GB-B400BS and GB-B400MB found no matching recall notices on 10 October 2026. Direct register request returned Access Denied; not represented as a complete register inspection or certification.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "GB-B400PS Partnerize destination",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+          "supports": "Live redirect tested: HTTP 200 at the matching Good Guys model URL with clickref retained. Configured AHC campaign camref 1100l6vaUc; exact model and finish verified separately on retailer page. Seller is The Good Guys; postcode-specific fulfilment remains for checkout.",
+          "checkedOn": "2026-10-10"
+        }
+      ],
+      "image": {
+        "src": "/images/products/lg-gb-b400ps-640.webp",
+        "srcSet": "/images/products/lg-gb-b400ps-320.webp 129w, /images/products/lg-gb-b400ps-640.webp 257w, /images/products/lg-gb-b400ps-960.webp 386w",
+        "alt": "LG GB-B400PS bottom mount fridge in stainless, viewed from the front.",
+        "width": 257,
+        "height": 640,
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50100462_1090494.png?v=1791242790",
+        "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "lg-gb-b400bs-good-guys",
+      "guidePath": "/guides/lg-fit-max-436l-fridge-first-look/",
+      "name": "LG 436L Fit & Max — Black (GB-B400BS)",
+      "productType": "436L bottom mount fridge · Black",
+      "summary": "LG calls this finish Black; The Good Guys lists it as Black Steel. Check GB-B400BS on the order.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400bs",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Confirm the exact finish and postcode delivery price before ordering.",
+        "Allow 4 mm each side, 9 mm above and more than 50 mm behind; confirm the complete installation with LG.",
+        "No automatic ice maker, water dispenser or folding shelf; long-term owner evidence is limited."
+      ],
+      "suitability": {
+        "suits": [
+          "households wanting the black finish and a 436-litre bottom mount layout",
+          "kitchens where the verified side gaps and door opening measurements work"
+        ],
+        "mayNotSuit": [
+          "households needing a larger freezer or automatic water and ice",
+          "openings that cannot accommodate the rear ventilation allowance"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "LG GB-B400BS Australian specifications",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400bs/",
+          "supports": "Exact finish; 436 L split 308/128; 697 x 1740 x 696 mm; 261 kWh/year; 5.5 stars; 4 mm recommended side gap; DoorCooling+; reversible doors. No folding shelf, Fresh Converter, automatic ice maker or water dispenser.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "LG Australian warranty",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/support/warranty/",
+          "supports": "Two-year product warranty, additional sealed-system and compressor parts cover; not ten years of full parts and labour.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "LG owner manual MFL05784816/00, pages 11–12",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=Ku5jhJkd1wtwzBvNmhPZ9g",
+          "supports": "Manual linked from GB-B400MW support: more than 50 mm rear clearance; dimensions; door reversal by qualified LG personnel. Multi-model optional features are not treated as included.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model customer review availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400bs",
+          "supports": "No reviews found on the exact retailer listing at review. No recurring owner themes established. This evidence gap is disclosed; placement concerns verified fit and features, not a reliability recommendation.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "LG GB-B400BS listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400bs",
+          "supports": "Exact model and finish in Australian retail page. AUD 1299.00 observed; structured offer InStock, seller The Good Guys. Delivery and collection require postcode confirmation; no nationwide stock promise.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for GB-B400 variants",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search-index checks restricted to productsafety.gov.au for GB-B400MW, GB-B400PS, GB-B400BS and GB-B400MB found no matching recall notices on 10 October 2026. Direct register request returned Access Denied; not represented as a complete register inspection or certification.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "GB-B400BS Partnerize destination",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400bs",
+          "supports": "Live redirect tested: HTTP 200 at the matching Good Guys model URL with clickref retained. Configured AHC campaign camref 1100l6vaUc; exact model and finish verified separately on retailer page. Seller is The Good Guys; postcode-specific fulfilment remains for checkout.",
+          "checkedOn": "2026-10-10"
+        }
+      ],
+      "image": {
+        "src": "/images/products/lg-gb-b400bs-640.webp",
+        "srcSet": "/images/products/lg-gb-b400bs-320.webp 129w, /images/products/lg-gb-b400bs-640.webp 257w, /images/products/lg-gb-b400bs-960.webp 386w",
+        "alt": "LG GB-B400BS bottom mount fridge in black, viewed from the front.",
+        "width": 257,
+        "height": 640,
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50100465_1097679.png?v=1791243037",
+        "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "lg-gb-b400mb-good-guys",
+      "guidePath": "/guides/lg-fit-max-436l-fridge-first-look/",
+      "name": "LG 436L Fit & Max — Matte Black (GB-B400MB)",
+      "productType": "436L bottom mount fridge · Matte Black",
+      "summary": "The Matte Black version has its own model code. Compare it in person with Black Steel before choosing.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400mb",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Confirm the exact finish and postcode delivery price before ordering.",
+        "Allow 4 mm each side, 9 mm above and more than 50 mm behind; confirm the complete installation with LG.",
+        "No automatic ice maker, water dispenser or folding shelf; long-term owner evidence is limited."
+      ],
+      "suitability": {
+        "suits": [
+          "households wanting the matte black finish and a 436-litre bottom mount layout",
+          "kitchens where the verified side gaps and door opening measurements work"
+        ],
+        "mayNotSuit": [
+          "households needing a larger freezer or automatic water and ice",
+          "openings that cannot accommodate the rear ventilation allowance"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "LG GB-B400MB Australian specifications",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400mb/",
+          "supports": "Exact finish; 436 L split 308/128; 697 x 1740 x 696 mm; 261 kWh/year; 5.5 stars; 4 mm recommended side gap; DoorCooling+; reversible doors. No folding shelf, Fresh Converter, automatic ice maker or water dispenser.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "LG Australian warranty",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/support/warranty/",
+          "supports": "Two-year product warranty, additional sealed-system and compressor parts cover; not ten years of full parts and labour.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "LG owner manual MFL05784816/00, pages 11–12",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=Ku5jhJkd1wtwzBvNmhPZ9g",
+          "supports": "Manual linked from GB-B400MW support: more than 50 mm rear clearance; dimensions; door reversal by qualified LG personnel. Multi-model optional features are not treated as included.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model customer review availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400mb",
+          "supports": "No reviews found on the exact retailer listing at review. No recurring owner themes established. This evidence gap is disclosed; placement concerns verified fit and features, not a reliability recommendation.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "LG GB-B400MB listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400mb",
+          "supports": "Exact model and finish in Australian retail page. AUD 1399.00 observed; structured offer InStock, seller The Good Guys. Delivery and collection require postcode confirmation; no nationwide stock promise.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for GB-B400 variants",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search-index checks restricted to productsafety.gov.au for GB-B400MW, GB-B400PS, GB-B400BS and GB-B400MB found no matching recall notices on 10 October 2026. Direct register request returned Access Denied; not represented as a complete register inspection or certification.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "GB-B400MB Partnerize destination",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400mb",
+          "supports": "Live redirect tested: HTTP 200 at the matching Good Guys model URL with clickref retained. Configured AHC campaign camref 1100l6vaUc; exact model and finish verified separately on retailer page. Seller is The Good Guys; postcode-specific fulfilment remains for checkout.",
+          "checkedOn": "2026-10-10"
+        }
+      ],
+      "image": {
+        "src": "/images/products/lg-gb-b400mb-640.webp",
+        "srcSet": "/images/products/lg-gb-b400mb-320.webp 129w, /images/products/lg-gb-b400mb-640.webp 257w, /images/products/lg-gb-b400mb-960.webp 386w",
+        "alt": "LG GB-B400MB bottom mount fridge in matte black, viewed from the front.",
+        "width": 257,
+        "height": 640,
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50100467_1090357.png?v=1791242922",
+        "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-10"
       }
     }
