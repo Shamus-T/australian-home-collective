@@ -48,3 +48,7 @@ Downloaded PDF SHA-256 checksums:
 ## Pre-publication validation
 
 Production build and its complete audit chain passed. Control Centre check passed all 29 tests. Desktop and mobile browser checks confirmed the complete image, readable tables, prominent clearance warning, secure external source links and homepage feature navigation. Internal fridge measuring guide returned HTTP 200 with the expected page identity. Two existing non-blocking seasonal commercial-placement warnings remain on unrelated articles.
+
+## Edited feature illustrations
+
+On 10 October 2026 the author provided two additional source images and requested matching blue-and-white cabinetry, replacement food styling, corrected door reflections and updated food inside the fridge. The built-in image tool produced edited dual-ice and autofill-jug illustrations, inspected against the supplied sources for the two ice-bin arrangement, two jug/holder arrangement and shelf layout. These are not photographs of AHC testing, and the edits are disclosed in both captions. The original source files are retained in the task workspace. Each published WebP is 1200 × 675, lazy-loaded with explicit dimensions; the original unedited product hero remains separate.
