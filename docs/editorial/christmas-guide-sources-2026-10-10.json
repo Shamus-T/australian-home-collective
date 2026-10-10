@@ -1,0 +1,36 @@
+{
+  "reviewedOn": "2026-10-10",
+  "title": "Christmas at Home: Trees, Lights and Decorating",
+  "route": "/guides/christmas-at-home-australia/",
+  "editorialBasis": "Researched planning guidance; no hands-on testing claimed. Original layout, budget, storage and hosting advice. No named product recommendations, retailer shopping buttons or affiliate links.",
+  "commercialStatus": "Balsam Hill application requested via Partnerize per user; approval and tracking unverified. Manufacturer advice is a source, not a recommendation.",
+  "sources": [
+    {
+      "url": "https://www.balsamhill.com.au/inspiration/how-to-choose-the-right-artificial-tree",
+      "supports": "30 cm planning allowance, stand included in this manufacturer height measurements, needle construction distinctions. No performance, warranty or price claims adopted."
+    },
+    {
+      "url": "https://www.electricalsafety.qld.gov.au/electrical-equipment/christmas-lights",
+      "supports": "Lighting inspection; indoor/outdoor suitability; transformer placement; lead routing; weather and switch-off precautions."
+    },
+    {
+      "url": "https://www.fire.qld.gov.au/sites/default/files/2021-05/ChristmasTreeSafety.pdf",
+      "supports": "Clear exits, distribute heavy decorations, fresh tree watering and dry-tree removal. Older official factsheet checked against current lighting guidance."
+    },
+    {
+      "url": "https://www.productsafety.gov.au/consumers/be-safe-around-the-home/safely-use-batteries-and-technology/button-batteries-guide",
+      "supports": "Avoid button battery products around children where possible; child resistant compartments and regular checks."
+    },
+    {
+      "url": "https://www.fire.nsw.gov.au/fire-safety/home-fire-safety/topics/candle-safety",
+      "supports": "Secure candle base, separation from combustible items, extinguish when leaving room and before bed."
+    }
+  ],
+  "image": {
+    "path": "/images/guides/christmas-at-home-australia.webp",
+    "method": "Built-in imagegen; AI-generated illustrative setting, no brand or specific product depicted. WebP encoding only; composition unchanged.",
+    "caption": "Illustrative setting"
+  },
+  "reviewAgain": "2027-09-01",
+  "publicationStatus": "Prepared for production publication on 10 October 2026; deployment is verified separately."
+}

@@ -317,7 +317,10 @@ function isRetailerUrl(urlValue) {
 function isTrustedEditorialUrl(urlValue) {
   const host = normalizedHost(urlValue);
   return [...trustedEditorialDomains].some((domain) => hostMatches(host, domain))
-    || isReviewedApplianceSource(urlValue);
+    || isReviewedApplianceSource(urlValue)
+    // Exact manufacturer guidance reviewed in docs/editorial/christmas-guide-sources-2026-10-10.json.
+    // This does not allow other retailer pages, shopping links or tracking parameters.
+    || urlValue === "https://www.balsamhill.com.au/inspiration/how-to-choose-the-right-artificial-tree";
 }
 
 function visibleText(html) {

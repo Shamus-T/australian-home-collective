@@ -252,6 +252,15 @@ const seasonalSectionSource = [
     guides: [
       {
         status: "published",
+        title: "Christmas at Home: Trees, Lights and Decorating",
+        description: "Plan tree size, lighting, decorations and a summer table, with practical checks before shopping and packing away.",
+        href: "/guides/christmas-at-home-australia/",
+        image: "/images/guides/christmas-at-home-australia.webp",
+        imageAlt: "A Christmas tree with burgundy and champagne decorations beside a blue sofa and a sunlit Australian patio",
+        imagePosition: "70% center",
+      },
+      {
+        status: "published",
         title: "Air Conditioning Buying Guide",
         description:
           "Compare split systems, multi-split arrangements, ducted systems and other cooling options before arranging installation.",

@@ -163,6 +163,13 @@
       "classification": "legitimately-unmonetised",
       "reasonCode": "health-or-remediation-boundary",
       "reason": "The guide prioritises moisture-source investigation and health or remediation boundaries; generic appliances or treatments could mask the underlying problem."
+    },
+    {
+      "guidePath": "/guides/christmas-at-home-australia/",
+      "classification": "legitimately-unmonetised",
+      "reasonCode": "no-cohesive-two-product-decision",
+      "reason": "This is a broad Christmas planning guide spanning tree fit, decorations, lighting and storage. No exact product set has completed research and affiliate approval; the Balsam Hill application remains pending and its buying guide is cited only as a source.",
+      "reviewedOn": "2026-10-10"
     }
   ]
 }

@@ -31,7 +31,7 @@ function runWithCoverage(mutator) {
 test("the complete seasonal commercial decision registry passes", () => {
   const result = runWithCoverage(() => {});
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /27 published routes: 8 monetised correctly and 19 legitimately unmonetised/);
+  assert.match(result.stdout, /28 published routes: 8 monetised correctly and 20 legitimately unmonetised/);
   assert.match(result.stdout, /Seasonal commercial placement diagnostics:/);
   assert.match(result.stdout, /\/guides\/reduce-pollen-dust-inside-home-spring\//);
 });
