@@ -1973,9 +1973,8 @@
         },
         {
           "label": "Freestanding cupboard shelf riser",
-          "productIds": [
-            "joseph-joseph-cupboardstore-expandable-shelf"
-          ]
+          "productIds": [],
+          "gapReason": "The previously researched Joseph Joseph 85194 shelf is currently unavailable on Amazon at the 11 October 2026 recheck. Promotion paused pending an orderable, verified offer or researched replacement."
         },
         {
           "label": "Single dry-food container",
@@ -2354,7 +2353,7 @@
       "reviewedOn": "2026-10-11",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "38dcb6533736fdfbc07a9403bca749360a6a23945d2513c0967eb93ee3d86e22",
+      "reviewedSourceSha256": "da9b6b14f45d22ad01684f65fa400b2e2368fe08f0df0bbbd7279ddf06eca47c",
       "requiredProductTypes": [
         {
           "label": "Expandable utensil drawer organiser",
@@ -2369,9 +2368,21 @@
           ]
         },
         {
+          "label": "Adjustable pan and lid rack",
+          "productIds": [
+            "renter-joseph-joseph-drawerstore-cookware-organiser"
+          ]
+        },
+        {
+          "label": "Freestanding cleaning-supply caddy",
+          "productIds": [
+            "renter-joseph-joseph-large-wheeled-caddy"
+          ]
+        },
+        {
           "label": "Other rental storage formats",
           "productIds": [],
-          "gapReason": "Added drawer organiser and turntable cover two defined tasks; over-door and trolley formats remain unresearched."
+          "gapReason": "Four researched options cover utensils, pantry jars, cookware and cleaning supplies. Over-door racks and trolleys remain unresearched; no placeholder retailer links added."
         }
       ],
       "supportingProductIds": [],
@@ -2379,7 +2390,7 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Two additional products fully researched on 11 October 2026, including exact-model manufacturer images, specifications, owner feedback, recall search and in-stock Amazon AU seller/fulfilment. Existing two products received availability-only checks; their earlier full research dates are retained."
     },
     {
       "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",

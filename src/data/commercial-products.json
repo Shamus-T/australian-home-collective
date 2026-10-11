@@ -550,18 +550,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-10-07",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-10-07",
+        "checkedOn": "2026-10-11",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -621,6 +621,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
           "supports": "Official Joseph Joseph recall search returned five unrelated entries (torches, coloured sand, grease, worklight and relay); no matching shelf or bathroom caddy recall found. This is a dated recall search, not safety certification.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Offer unavailable at recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QH35H4G?tag=ahc07-22",
+          "supports": "On 11 October 2026 the exact ASIN displayed Currently unavailable, with no date for return to stock and no orderable offer. Affiliate promotion paused; earlier research retained as history.",
+          "checkedOn": "2026-10-11"
         }
       ]
     },
@@ -12674,6 +12682,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+          "supports": "Availability-only check on 11 October 2026: exact selected product in stock with an enabled purchase option, sold and shipped by Amazon AU. Earlier full research date retained; this does not constitute a fresh full specification or safety assessment.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+          "supports": "Shipper / Seller: Amazon AU. Selected ASIN and ahc07-22 tracking tag retained; 30-day change-of-mind return eligibility displayed. Stock and seller may change.",
+          "checkedOn": "2026-10-11"
         }
       ],
       "image": {
@@ -12788,6 +12812,22 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Availability-only check on 11 October 2026: exact selected product in stock with an enabled purchase option, sold and shipped by Amazon AU. Earlier full research date retained; this does not constitute a fresh full specification or safety assessment.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+          "supports": "Shipper / Seller: Amazon AU. Selected ASIN and ahc07-22 tracking tag retained; 30-day change-of-mind return eligibility displayed. Stock and seller may change.",
+          "checkedOn": "2026-10-11"
         }
       ],
       "image": {
@@ -13685,6 +13725,240 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0523/0516/6495/files/50039_PDP_01.jpg?v=1704295593",
         "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/hold-all-max-collapsible-55l-laundry-basket-grey",
         "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "renter-joseph-joseph-drawerstore-cookware-organiser",
+      "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
+      "name": "Joseph Joseph DrawerStore Expanding Cookware Organiser",
+      "productType": "Adjustable pan and lid rack",
+      "summary": "Seven adjustable dividers separate lids, baking tins and lighter pans without fixing anything to the cupboard. Owner feedback is strongest on easier access; some report movement in the drawer or a flimsy feel with heavier cookware.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08QGZTXNR?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The rack is 30.6–56 cm wide, 20.4 cm deep and 14.7 cm high before adding cookware. Measure the tallest lid and projecting handles, then check that the drawer or cupboard still closes.",
+        "Seven dividers limit how many separate slots you can make. Owner reports flag movement in larger drawers and weaker support for heavy cast-iron cookware.",
+        "Divider positions and lid-handle shapes will not suit every collection. Wipe clean; avoid abrasive or strong chemical cleaners."
+      ],
+      "suitability": {
+        "suits": [
+          "deep drawers or cupboards where light pans, lids and baking tins become awkward stacks"
+        ],
+        "mayNotSuit": [
+          "shallow drawers or heavy cast-iron collections",
+          "large collections needing more than seven dividers"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph DrawerStore Expanding Cookware Organiser",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/drawerstore-expanding-cookware-organiser-grey",
+          "supports": "Model 85167 in grey: H14.7 x W30.6–56 x D20.4 cm, seven adjustable wire dividers and wipe-clean care. The four-page manufacturer assembly guide was also read; no load rating verified.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Variant-specific owner feedback",
+          "publisher": "Joseph Joseph Australia and Amazon Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/drawerstore-expanding-cookware-organiser-grey",
+          "supports": "Read ten displayed manufacturer reviews and eight Australian Amazon reviews for the Pots & Pans variant. Owners describe easier lid/pan access and useful adjustment; drawbacks include too few dividers, base space, movement in drawers and limited support for heavy cast iron. Delivery-only complaints and unrelated cutlery reviews excluded. No independent firsthand test by AHC.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Amazon selected-variant owner reviews",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QGZTXNR?tag=ahc07-22",
+          "supports": "Read ten displayed manufacturer reviews and eight Australian Amazon reviews for the Pots & Pans variant. Owners describe easier lid/pan access and useful adjustment; drawbacks include too few dividers, base space, movement in drawers and limited support for heavy cast iron. Delivery-only complaints and unrelated cutlery reviews excluded. No independent firsthand test by AHC.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QGZTXNR?tag=ahc07-22",
+          "supports": "Selected ASIN B08QGZTXNR, model 85167, was in stock with an enabled purchase option. Sold and shipped by Amazon AU. This is a dated observation, not an ongoing stock or delivery promise.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU offer and tracked destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QGZTXNR?tag=ahc07-22",
+          "supports": "Exact selected variant inspected. Shipper / Seller: Amazon AU; 30-day change-of-mind return eligibility displayed. Destination retains ASIN B08QGZTXNR and tracking tag ahc07-22. This verifies link construction, not earned commission.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian guarantee and retailer claim process",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Manufacturer describes faults/workmanship cover and a separate retailer claim process requiring proof of purchase, batch code and photos. The minimum two-year wording is explicitly for direct purchases; no unverified Amazon-specific warranty duration is claimed.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
+          "supports": "Official Joseph Joseph search inspected on 11 October 2026. Five unrelated results (flashlight, coloured sand, grease, worklight and relay); no matching kitchen organiser recall found. Dated recall search, not safety certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "DrawerStore 85167 assembly instructions",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0076/7423/2914/files/DrawerStore_-_Expanding_cookware_organiser_85167_Grey_Digital_Instructions_V1.pdf?v=1736865297",
+          "supports": "Four-page guide read: adjust the base and fit wire dividers into the slots by compressing the wire ends. Confirms model and adjustable assembly; no load rating stated.",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "image": {
+        "src": "/images/products/renter-joseph-joseph-drawerstore-cookware-organiser-640.webp",
+        "srcSet": "/images/products/renter-joseph-joseph-drawerstore-cookware-organiser-320.webp 320w, /images/products/renter-joseph-joseph-drawerstore-cookware-organiser-640.webp 640w, /images/products/renter-joseph-joseph-drawerstore-cookware-organiser-960.webp 960w",
+        "alt": "Grey Joseph Joseph DrawerStore expanding rack holding pans, lids and a baking tin.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph’s website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0523/0516/6495/products/85167_Media_01_f3743eb8-9bd7-4915-bb89-eaa972c40667.jpg?v=1682605445",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/drawerstore-expanding-cookware-organiser-grey",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "renter-joseph-joseph-large-wheeled-caddy",
+      "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
+      "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+      "productType": "Freestanding cleaning-supply caddy",
+      "summary": "A single-tier caddy with rear wheels and a front handle brings cleaning bottles forward from a deep cupboard. It needs no fixed runners, but the large footprint makes door and pipe clearance especially important.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow 30.5 cm width and 46.5 cm depth, including room for the cupboard door to close. The empty caddy is 11 cm high; bottles need extra headroom beneath pipes or shelves.",
+        "This is a loose caddy, not a fitted drawer: keep it on a level surface and control the pull so it cannot roll off the cupboard edge.",
+        "The open compartments do not provide child-resistant storage. Keep cleaning products securely stored and follow their labels; wipe the caddy clean."
+      ],
+      "suitability": {
+        "suits": [
+          "deep cupboards with a clear path for bringing cleaning bottles and cloths forward"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards or layouts obstructed by plumbing",
+          "households expecting a fixed pull-out drawer or lockable chemical storage"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Manufacturer model 8500002 (Stone), H11 x W30.5 x D46.5 cm; rear wheels, front handle and divided compartments, wipe-clean care. Amazon Item details confirmed model 8500002 and Large variant. Amazon transposes the dimension axes; published measurements follow the manufacturer. No load rating verified.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Variant-specific owner feedback",
+          "publisher": "Joseph Joseph Australia and Amazon Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Read ten displayed manufacturer reviews, including praise for access and capacity and reports of excessive depth preventing a cupboard door closing or width preventing two side by side. Read two Amazon reviews explicitly labelled Large (one Australian and one UK); both describe useful access. Excluded pooled Regular and 2-tier reviews and aggregate star claims. Long-term independent evidence is limited; no firsthand AHC testing.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Amazon selected-variant owner reviews",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Read ten displayed manufacturer reviews, including praise for access and capacity and reports of excessive depth preventing a cupboard door closing or width preventing two side by side. Read two Amazon reviews explicitly labelled Large (one Australian and one UK); both describe useful access. Excluded pooled Regular and 2-tier reviews and aggregate star claims. Long-term independent evidence is limited; no firsthand AHC testing.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Selected ASIN B0F847ZC6G, model 8500002, was in stock with an enabled purchase option. Sold and shipped by Amazon AU. This is a dated observation, not an ongoing stock or delivery promise.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU offer and tracked destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Exact selected variant inspected. Shipper / Seller: Amazon AU; 30-day change-of-mind return eligibility displayed. Destination retains ASIN B0F847ZC6G and tracking tag ahc07-22. This verifies link construction, not earned commission.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian guarantee and retailer claim process",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Manufacturer describes faults/workmanship cover and a separate retailer claim process requiring proof of purchase, batch code and photos. The minimum two-year wording is explicitly for direct purchases; no unverified Amazon-specific warranty duration is claimed.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
+          "supports": "Official Joseph Joseph search inspected on 11 October 2026. Five unrelated results (flashlight, coloured sand, grease, worklight and relay); no matching kitchen organiser recall found. Dated recall search, not safety certification.",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "image": {
+        "src": "/images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp",
+        "srcSet": "/images/products/renter-joseph-joseph-large-wheeled-caddy-320.webp 320w, /images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp 640w, /images/products/renter-joseph-joseph-large-wheeled-caddy-960.webp 960w",
+        "alt": "Stone-coloured Joseph Joseph large wheeled caddy holding cleaning supplies at the front of a cupboard.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph’s website.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+        "checkedOn": "2026-10-11"
       }
     }
   ]
