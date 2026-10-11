@@ -1,5 +1,5 @@
 {
-  "checkedOn": "2026-10-10",
+  "checkedOn": "2026-10-11",
   "note": "Known unresolved image gaps, not approval to add new imageless products. Do not substitute similar variants.",
   "products": [
     {
@@ -19,28 +19,12 @@
       "reason": "Recorded manufacturer product page is missing, redirected or rate limited; exact image still needed."
     },
     {
-      "id": "bathroom-simplehouseware-expandable-under-sink",
-      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
-    },
-    {
-      "id": "bathroom-simplehouseware-pullout-under-sink",
-      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
-    },
-    {
       "id": "simplehouseware-three-tier-sliding-basket",
       "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
     },
     {
       "id": "lt-williams-large-collapsible-clothes-airer-black",
       "reason": "Manufacturer product page confirms the model but its image could not be retrieved."
-    },
-    {
-      "id": "laundry-simplehouseware-expandable-under-sink",
-      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
-    },
-    {
-      "id": "laundry-simplehouseware-pullout-under-sink",
-      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
     },
     {
       "id": "amazon-basics-five-shelf-caster-unit",
@@ -69,14 +53,6 @@
     {
       "id": "amazon-basics-hanging-shelf-drawers",
       "reason": "Amazon own-brand item; approved Associates image delivery or a manufacturer media asset is still needed."
-    },
-    {
-      "id": "kitchen-simplehouseware-expandable-under-sink",
-      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
-    },
-    {
-      "id": "kitchen-simplehouseware-pullout-under-sink",
-      "reason": "Manufacturer catalogue does not include the linked ASIN; exact variant image not verified."
     },
     {
       "id": "gift-taronga-almonds-flavoured-sampler",

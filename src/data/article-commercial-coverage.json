@@ -2901,7 +2901,7 @@
       "reviewedOn": "2026-10-11",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "fcb44395e3dc4b0e52e5db248e2c796f4a8bb794769ee53dd30cb1d380926f4f",
+      "reviewedSourceSha256": "aa2e650d8045f106f8aea46461f5783beb6a0a1266aca1c249856e72c89252ab",
       "requiredProductTypes": [
         {
           "label": "Expandable under-sink shelf",
@@ -2914,6 +2914,18 @@
           "productIds": [
             "kitchen-simplehouseware-pullout-under-sink"
           ]
+        },
+        {
+          "label": "Large single-tier wheeled caddy",
+          "productIds": [
+            "kitchen-joseph-joseph-large-wheeled-caddy"
+          ]
+        },
+        {
+          "label": "Narrow wheeled caddy with dividers",
+          "productIds": [
+            "kitchen-youcopia-rollout-caddy-8-inch"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -2922,7 +2934,7 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Added two researched caddies, exact-model photos for all four options and specific fit checks. YouCopia fully assessed and Joseph Joseph assessment reused from the same date. Existing Simple Houseware products received current listing, image and owner-feedback checks; earlier full-review dates retained."
     },
     {
       "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",

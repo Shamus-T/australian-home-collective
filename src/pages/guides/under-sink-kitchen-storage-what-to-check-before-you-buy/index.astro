@@ -52,8 +52,8 @@ const faqs = [
   description="Check pipework, leaks, moisture, shelf clearance, cleaning product sizes and bin space before choosing removable under-sink kitchen organisers."
   category="Kitchen"
   faqs={faqs}
-  date="Updated August 2026"
-  dateModified="2026-08-18"
+  date="Updated October 2026"
+  dateModified="2026-10-11"
   readingTime="6 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/under-sink-kitchen-storage-what-to-check-before-you-buy.webp"
@@ -139,9 +139,22 @@ const faqs = [
   <CommercialProductBlock
     variant="comparison"
     guidePath="/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/"
-    title="Practical options around the pipework"
-    intro="First fix leaks, remove unsuitable supplies and mark the pipe, valve, hinge and bin clearances on a cabinet photo. If usable side pockets remain, compare these expandable shelf and pull-out formats only where they can be removed quickly and leave the cabinet floor visible."
+    title="Four options for different cupboard layouts"
+    intro="First fix leaks, remove unsuitable supplies and mark the pipe, valve, hinge and bin clearances on a cabinet photo. Compare an expandable shelf, small sliding baskets and two sizes of loose wheeled caddy against the space that remains. Each needs a clear removal path and access to the cabinet base."
   />
+
+  <h2>Choose between a shelf and a loose caddy</h2>
+  <p>
+    A shelf uses height, but its frame must clear the plumbing even where panels can be removed.
+    Small sliding baskets suit cloths and sponges; check the gap between tiers before expecting
+    them to hold tall sprays. A single-tier caddy leaves bottles open above and is easier to
+    remove for a plumbing check.
+  </p>
+  <p>
+    The YouCopia is about 20 cm wide, while the large Joseph Joseph caddy needs 30.5 cm.
+    The YouCopia's end basket increases its depth to about 54 cm, compared with 46.5 cm for the
+    Joseph Joseph. Mark the loaded footprint and close the door before choosing by capacity.
+  </p>
 
   <h2>Let the bin keep its full working space</h2>
   <p>
@@ -216,3 +229,11 @@ const faqs = [
 
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>
+
+<style>
+  @media (min-width: 701px) {
+    :global([aria-labelledby="commercial-products-under-sink-kitchen-storage-what-to-check-before-you-buy"] .commercial-product-grid) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

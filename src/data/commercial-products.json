@@ -4263,8 +4263,35 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
           "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Current exact-product offer and image check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Exact linked ASIN in stock with an enabled purchase option on 11 October 2026. Product photograph inspected and matched to the displayed product. Availability/media check supplements the earlier full research assessment; that original date is retained.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Current Australian seller and fulfilment",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Sold by EP Family AP Direct, shipped by Amazon; 30-day change-of-mind return eligibility displayed. ASIN and ahc07-22 tag retained.",
+          "checkedOn": "2026-10-11"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/products/simplehouseware-expandable-under-sink-white-522.webp",
+        "srcSet": "/images/products/simplehouseware-expandable-under-sink-white-320.webp 320w, /images/products/simplehouseware-expandable-under-sink-white-522.webp 522w",
+        "alt": "White Simple Houseware expandable shelf with removable panels arranged around a pipe.",
+        "width": 522,
+        "height": 462,
+        "credit": "Product image sourced from the Simple Houseware listing on Amazon.",
+        "sourceUrl": "https://m.media-amazon.com/images/I/81+TLSkM+mL._AC_SX522_.jpg",
+        "suppliedVia": "Retailer product page: https://www.amazon.com.au/dp/B081K723P2",
+        "checkedOn": "2026-10-11"
+      }
     },
     {
       "id": "bathroom-simplehouseware-pullout-under-sink",
@@ -4363,8 +4390,35 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
           "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Current exact-product offer and image check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Exact linked ASIN in stock with an enabled purchase option on 11 October 2026. Product photograph inspected and matched to the displayed product. Availability/media check supplements the earlier full research assessment; that original date is retained.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Current Australian seller and fulfilment",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Sold by EP Family AP Direct, shipped by Amazon; 30-day change-of-mind return eligibility displayed. ASIN and ahc07-22 tag retained.",
+          "checkedOn": "2026-10-11"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/products/simplehouseware-pullout-under-sink-black-640.webp",
+        "srcSet": "/images/products/simplehouseware-pullout-under-sink-black-320.webp 320w, /images/products/simplehouseware-pullout-under-sink-black-640.webp 640w, /images/products/simplehouseware-pullout-under-sink-black-960.webp 960w",
+        "alt": "Black Simple Houseware two-tier organiser with the lower basket pulled forward.",
+        "width": 640,
+        "height": 651,
+        "credit": "Product image sourced from the Simple Houseware listing on Amazon.",
+        "sourceUrl": "https://m.media-amazon.com/images/I/81dTnC4bWYL._AC_SL1500_.jpg",
+        "suppliedVia": "Retailer product page: https://www.amazon.com.au/dp/B0B6H2354G",
+        "checkedOn": "2026-10-11"
+      }
     },
     {
       "id": "joseph-joseph-easystore-bathroom-caddy",
@@ -5203,8 +5257,35 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
           "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Current exact-product offer and image check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Exact linked ASIN in stock with an enabled purchase option on 11 October 2026. Product photograph inspected and matched to the displayed product. Availability/media check supplements the earlier full research assessment; that original date is retained.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Current Australian seller and fulfilment",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Sold by EP Family AP Direct, shipped by Amazon; 30-day change-of-mind return eligibility displayed. ASIN and ahc07-22 tag retained.",
+          "checkedOn": "2026-10-11"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/products/simplehouseware-expandable-under-sink-white-522.webp",
+        "srcSet": "/images/products/simplehouseware-expandable-under-sink-white-320.webp 320w, /images/products/simplehouseware-expandable-under-sink-white-522.webp 522w",
+        "alt": "White Simple Houseware expandable shelf with removable panels arranged around a pipe.",
+        "width": 522,
+        "height": 462,
+        "credit": "Product image sourced from the Simple Houseware listing on Amazon.",
+        "sourceUrl": "https://m.media-amazon.com/images/I/81+TLSkM+mL._AC_SX522_.jpg",
+        "suppliedVia": "Retailer product page: https://www.amazon.com.au/dp/B081K723P2",
+        "checkedOn": "2026-10-11"
+      }
     },
     {
       "id": "laundry-simplehouseware-pullout-under-sink",
@@ -5303,8 +5384,35 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
           "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Current exact-product offer and image check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Exact linked ASIN in stock with an enabled purchase option on 11 October 2026. Product photograph inspected and matched to the displayed product. Availability/media check supplements the earlier full research assessment; that original date is retained.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Current Australian seller and fulfilment",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Sold by EP Family AP Direct, shipped by Amazon; 30-day change-of-mind return eligibility displayed. ASIN and ahc07-22 tag retained.",
+          "checkedOn": "2026-10-11"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/products/simplehouseware-pullout-under-sink-black-640.webp",
+        "srcSet": "/images/products/simplehouseware-pullout-under-sink-black-320.webp 320w, /images/products/simplehouseware-pullout-under-sink-black-640.webp 640w, /images/products/simplehouseware-pullout-under-sink-black-960.webp 960w",
+        "alt": "Black Simple Houseware two-tier organiser with the lower basket pulled forward.",
+        "width": 640,
+        "height": 651,
+        "credit": "Product image sourced from the Simple Houseware listing on Amazon.",
+        "sourceUrl": "https://m.media-amazon.com/images/I/81dTnC4bWYL._AC_SL1500_.jpg",
+        "suppliedVia": "Retailer product page: https://www.amazon.com.au/dp/B0B6H2354G",
+        "checkedOn": "2026-10-11"
+      }
     },
     {
       "id": "amazon-basics-five-shelf-caster-unit",
@@ -7869,7 +7977,7 @@
       "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
       "name": "SimpleHouseware 2-Tier Expandable Under-Sink Shelf",
       "productType": "Expandable under-sink shelf",
-      "summary": "An adjustable shelf for using kitchen-cabinet width around measured plumbing, waste fittings and cleaning products.",
+      "summary": "Removable shelf panels leave gaps for pipes, while the frame expands to use more cupboard width. It can separate smaller supplies into two levels, but full extension does not create a continuous shelf.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -7894,8 +8002,9 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "A central trap, disposal unit or water filter can sharply reduce usable shelf space.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "Allow 40–63.5 cm width, 30 cm depth and 38.5 cm height, then map where the shelf panels and crossbars meet the pipes. Keep valves accessible.",
+        "The supplied panels do not cover the full expanded width. Owners report awkward screw assembly and some warped panels or sagging at full extension; keep loads modest.",
+        "The title and photograph show white model BO-014-3, but Amazon also displays an inconsistent bronze colour label. Check the selected model and photo before ordering."
       ],
       "suitability": {
         "suits": [
@@ -7961,15 +8070,58 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
           "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Current exact-product offer and image check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Exact linked ASIN in stock with an enabled purchase option on 11 October 2026. Product photograph inspected and matched to the displayed product. Availability/media check supplements the earlier full research assessment; that original date is retained.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Current Australian seller and fulfilment",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Sold by EP Family AP Direct, shipped by Amazon; 30-day change-of-mind return eligibility displayed. ASIN and ahc07-22 tag retained.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Brand product specifications on selected listing",
+          "publisher": "Simple Houseware via Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Selected ASIN B081K723P2: model BO-014-3, expandable width 40–63.5 cm, depth 30 cm, height 38.5 cm, four shelf-height positions and seven removable panels. Title/photo white; conflicting bronze metadata disclosed rather than silently treated as confirmed.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Fresh owner-feedback check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
+          "supports": "Read two Australian and five overseas displayed owner reviews. Useful adjustment around plumbing recurs; drawbacks include insufficient panel coverage, difficult screws, warped panels and bowing at full extension. Did not adopt user modifications as installation instructions.",
+          "checkedOn": "2026-10-11"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/products/simplehouseware-expandable-under-sink-white-522.webp",
+        "srcSet": "/images/products/simplehouseware-expandable-under-sink-white-320.webp 320w, /images/products/simplehouseware-expandable-under-sink-white-522.webp 522w",
+        "alt": "White Simple Houseware expandable shelf with removable panels arranged around a pipe.",
+        "width": 522,
+        "height": 462,
+        "credit": "Product image sourced from the Simple Houseware listing on Amazon.",
+        "sourceUrl": "https://m.media-amazon.com/images/I/81+TLSkM+mL._AC_SX522_.jpg",
+        "suppliedVia": "Retailer product page: https://www.amazon.com.au/dp/B081K723P2",
+        "checkedOn": "2026-10-11"
+      }
     },
     {
       "id": "kitchen-simplehouseware-pullout-under-sink",
       "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
       "name": "SimpleHouseware 2-Tier Pull-Out Under-Sink Organiser",
       "productType": "Two-tier pull-out organiser",
-      "summary": "A narrow sliding organiser for daily kitchen cleaning supplies where bottle height and door hardware allow full travel.",
+      "summary": "Two small sliding baskets suit cloths, sponges and other light supplies in a narrow cupboard pocket. The baskets lift out and the dividers move; tall spray bottles are better kept beside the unit.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -7994,8 +8146,9 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "Tall sprays and plumbing obstructions may prevent full use of the upper tray.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "Allow 21 cm width, 36.6 cm depth and 25.1 cm height, plus a clear path for the baskets to slide out past the door and hinges. Check bottle height between tiers.",
+        "The brand specifies lightweight contents. This is not a rack for bulk cleaning refills, and the lower tray will not suit every spray bottle.",
+        "The baskets and frame need removing periodically to inspect and clean the cupboard base."
       ],
       "suitability": {
         "suits": [
@@ -8061,8 +8214,51 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
           "supports": "Displayed seller: EP Family AP Direct. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Current exact-product offer and image check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Exact linked ASIN in stock with an enabled purchase option on 11 October 2026. Product photograph inspected and matched to the displayed product. Availability/media check supplements the earlier full research assessment; that original date is retained.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Current Australian seller and fulfilment",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Sold by EP Family AP Direct, shipped by Amazon; 30-day change-of-mind return eligibility displayed. ASIN and ahc07-22 tag retained.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Brand product specifications on selected listing",
+          "publisher": "Simple Houseware via Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Selected ASIN B0B6H2354G: black two-tier pull-out, overall D36.6 x W21 x H25.1 cm; removable baskets, movable dividers, non-slip feet and lightweight-item guidance.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Fresh owner-feedback check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B6H2354G?tag=ahc07-22",
+          "supports": "Read eight Australian and five overseas displayed owner reviews across clearly labelled colour variants of the same tray design. Useful access and easy assembly recur; size and lightweight-use limits matter. Black-variant comments were distinguished from other colours; no star-average or firsthand-test claim.",
+          "checkedOn": "2026-10-11"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/products/simplehouseware-pullout-under-sink-black-640.webp",
+        "srcSet": "/images/products/simplehouseware-pullout-under-sink-black-320.webp 320w, /images/products/simplehouseware-pullout-under-sink-black-640.webp 640w, /images/products/simplehouseware-pullout-under-sink-black-960.webp 960w",
+        "alt": "Black Simple Houseware two-tier organiser with the lower basket pulled forward.",
+        "width": 640,
+        "height": 651,
+        "credit": "Product image sourced from the Simple Houseware listing on Amazon.",
+        "sourceUrl": "https://m.media-amazon.com/images/I/81dTnC4bWYL._AC_SL1500_.jpg",
+        "suppliedVia": "Retailer product page: https://www.amazon.com.au/dp/B0B6H2354G",
+        "checkedOn": "2026-10-11"
+      }
     },
     {
       "id": "portable-hoomee-al003-window-seal",
@@ -13958,6 +14154,232 @@
         "credit": "Product image sourced from Joseph Joseph’s website.",
         "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
         "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "kitchen-joseph-joseph-large-wheeled-caddy",
+      "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
+      "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+      "productType": "Freestanding cleaning-supply caddy",
+      "summary": "A single-tier caddy with rear wheels and a front handle brings cleaning bottles forward from a deep cupboard. It needs no fixed runners, but the large footprint makes door and pipe clearance especially important.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow 30.5 cm width and 46.5 cm depth, including room for the cupboard door to close. The empty caddy is 11 cm high; bottles need extra headroom beneath pipes or shelves.",
+        "This is a loose caddy, not a fitted drawer: keep it on a level surface and control the pull so it cannot roll off the cupboard edge.",
+        "The open compartments do not provide child-resistant storage. Keep cleaning products securely stored and follow their labels; wipe the caddy clean."
+      ],
+      "suitability": {
+        "suits": [
+          "deep cupboards with a clear path for bringing cleaning bottles and cloths forward"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards or layouts obstructed by plumbing",
+          "households expecting a fixed pull-out drawer or lockable chemical storage"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Manufacturer model 8500002 (Stone), H11 x W30.5 x D46.5 cm; rear wheels, front handle and divided compartments, wipe-clean care. Amazon Item details confirmed model 8500002 and Large variant. Amazon transposes the dimension axes; published measurements follow the manufacturer. No load rating verified.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Variant-specific owner feedback",
+          "publisher": "Joseph Joseph Australia and Amazon Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Read ten displayed manufacturer reviews, including praise for access and capacity and reports of excessive depth preventing a cupboard door closing or width preventing two side by side. Read two Amazon reviews explicitly labelled Large (one Australian and one UK); both describe useful access. Excluded pooled Regular and 2-tier reviews and aggregate star claims. Long-term independent evidence is limited; no firsthand AHC testing.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Amazon selected-variant owner reviews",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Read ten displayed manufacturer reviews, including praise for access and capacity and reports of excessive depth preventing a cupboard door closing or width preventing two side by side. Read two Amazon reviews explicitly labelled Large (one Australian and one UK); both describe useful access. Excluded pooled Regular and 2-tier reviews and aggregate star claims. Long-term independent evidence is limited; no firsthand AHC testing.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Selected ASIN B0F847ZC6G, model 8500002, was in stock with an enabled purchase option. Sold and shipped by Amazon AU. This is a dated observation, not an ongoing stock or delivery promise.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU offer and tracked destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Exact selected variant inspected. Shipper / Seller: Amazon AU; 30-day change-of-mind return eligibility displayed. Destination retains ASIN B0F847ZC6G and tracking tag ahc07-22. This verifies link construction, not earned commission.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian guarantee and retailer claim process",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Manufacturer describes faults/workmanship cover and a separate retailer claim process requiring proof of purchase, batch code and photos. The minimum two-year wording is explicitly for direct purchases; no unverified Amazon-specific warranty duration is claimed.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
+          "supports": "Official Joseph Joseph search inspected on 11 October 2026. Five unrelated results (flashlight, coloured sand, grease, worklight and relay); no matching kitchen organiser recall found. Dated recall search, not safety certification.",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "image": {
+        "src": "/images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp",
+        "srcSet": "/images/products/renter-joseph-joseph-large-wheeled-caddy-320.webp 320w, /images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp 640w, /images/products/renter-joseph-joseph-large-wheeled-caddy-960.webp 960w",
+        "alt": "Stone-coloured Joseph Joseph large wheeled caddy holding cleaning supplies at the front of a cupboard.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph’s website.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "kitchen-youcopia-rollout-caddy-8-inch",
+      "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
+      "name": "YouCopia RollOut Under Sink Caddy — 8-inch",
+      "productType": "Narrow wheeled caddy with dividers",
+      "summary": "A narrower rolling bin with two movable dividers for keeping bottles upright. Handles let you lift it out, while a removable basket holds smaller items. Owners like the access, but the extra basket can make it too long for a cupboard.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow about 20 cm width, 42 cm depth and 13.5 cm empty height. The end-mounted basket increases depth to about 54 cm; moving it to a side increases width instead. Add bottle headroom.",
+        "Lift the front slightly to roll it; this is not a fitted drawer on runners. Keep its travel path clear and control it near the cupboard edge.",
+        "Hand-wash only. The open bin is not child-resistant storage; keep cleaning products in their original containers and securely stored."
+      ],
+      "suitability": {
+        "suits": [
+          "a narrow, deep pocket beside plumbing where a loose caddy is easier to remove than a shelf"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards when the extra basket is fitted on an end",
+          "households needing fixed runners or enclosed chemical storage"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "RollOut Under Sink Caddy 8-inch, model 50261",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/products/rollout-under-sink-caddy",
+          "supports": "Manufacturer specifies 7.7 W x 5.3 H x 16.4 D inches, 21.3 inches deep with basket, two dividers, rear wheels and hand washing. Instructions require lifting the front slightly to roll. Rounded planning dimensions allow for the small 7.8/16.3-inch listing variation; Amazon manufacturer part number 50261 matches the manufacturer SKU.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Selected RollOut Caddy owner reviews",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Read one Australian and five overseas displayed reviews for the RollOut Caddy variant. Recurring useful storage/rolling access; an owner could not fit the end basket, another described a cracked first delivery replaced by the retailer, and one found it expensive. No repeated serious failure pattern in the inspected sample, but long-term independent testing remains limited.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Exact eight-inch white ASIN B08B1T3KBN, manufacturer part 50261, in stock with Add to cart enabled. Sold and shipped by Amazon AU, with 30-day change-of-mind return eligibility displayed. Manufacturer-direct US stock is separate and was sold out.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU seller and tracked link",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU verified on 11 October 2026. Australian delivery offer displayed; selected ASIN and tracking tag ahc07-22 preserved. Link verification is not a claim of sales attribution.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Retailer returns and manufacturer warranty scope",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/warranty",
+          "supports": "Manufacturer directs purchases from other retailers back to that retailer. The two-year manufacturing-defect wording applies to YouCopia.com purchases, so it is not promised for this Amazon AU offer. Amazon AU is the verified local retailer and returns route.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian distributor listed by manufacturer",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/where-to-buy",
+          "supports": "Manufacturer lists Donaldson as its Australian distributor; this establishes an Australian brand presence but does not prove distributor coverage for the selected Amazon offer.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "YouCopia recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=YouCopia",
+          "supports": "Official brand recall search returned no results on 11 October 2026. This is a dated search, not safety certification.",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "image": {
+        "src": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp",
+        "srcSet": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-320.webp 320w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp 640w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-960.webp 960w",
+        "alt": "White YouCopia RollOut eight-inch caddy with adjustable dividers and a removable front basket.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from YouCopia’s website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/2534/0342/files/RollOut-Under-Sink-8in-Caddy-Propped-Silo.png?v=1748026634",
+        "suppliedVia": "Manufacturer product page: https://youcopia.com/products/rollout-under-sink-caddy",
         "checkedOn": "2026-10-11"
       }
     }
