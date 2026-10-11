@@ -1,0 +1,54 @@
+---
+const guide = "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/";
+---
+<section class="kitchen-campaign" aria-labelledby="kitchen-campaign-title" data-homepage-kitchen-campaign>
+  <div class="container">
+    <div class="kitchen-campaign-panel">
+      <div class="campaign-copy">
+        <p class="eyebrow">Kitchen storage for renters</p>
+        <h2 id="kitchen-campaign-title">Start with the cupboard that annoys you most.</h2>
+        <p>Cutlery in a heap, jars lost at the back or lids in a pile? Compare four freestanding organisers and check what will fit before you buy.</p>
+        <a class="campaign-cta" href={guide + "#commercial-products-renter-friendly-kitchen-storage-what-to-check-before-you-buy"} data-kitchen-campaign-link>Compare the four options <span aria-hidden="true">→</span></a>
+        <p class="campaign-note">No screws or adhesive needed. Fit checks and trade-offs included.</p>
+      </div>
+      <div class="campaign-checks" aria-label="Three checks before buying">
+        <p class="checks-title">Before you add an organiser</p>
+        <ol>
+          <li><strong>Choose one job</strong><span>Sort the drawer, separate the lids or reach the back.</span></li>
+          <li><strong>Measure inside</strong><span>Allow for hinges, pipes and the tallest item.</span></li>
+          <li><strong>Check it can move</strong><span>Leave room to lift, turn or pull the organiser out.</span></li>
+        </ol>
+        <a href={guide} data-kitchen-campaign-link>Read the rental-kitchen guide →</a>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  import { sendGoogleAnalyticsEvent, shouldTrackAnalytics } from "../scripts/google-analytics.js";
+  document.querySelectorAll<HTMLAnchorElement>("[data-kitchen-campaign-link]").forEach(link => {
+    link.addEventListener("click", () => {
+      if (!shouldTrackAnalytics(window)) return;
+      sendGoogleAnalyticsEvent("guide_promotion_click", { campaign_name: "renter_kitchen_oct2026", placement: "homepage", link_url: link.href });
+    });
+  });
+</script>
+<style>
+  .kitchen-campaign { padding: 28px 0 12px; background: #f4efe5; }
+  .kitchen-campaign-panel { display:grid; grid-template-columns:1.35fr 1fr; border:1px solid #c9cabc; border-radius:14px; overflow:hidden; background:#fffdf7; }
+  .campaign-copy { padding:clamp(24px,3vw,40px); }
+  .campaign-copy .eyebrow { color:#536047; font:700 .75rem/1.5 Arial,sans-serif; letter-spacing:.08em; margin:0 0 14px; }
+  .campaign-copy h2 { color:#29392f; font-size:clamp(1.65rem,2.6vw,2.35rem); line-height:1.18; margin:0 0 16px; max-width:22ch; }
+  .campaign-copy > p:not(.eyebrow) { line-height:1.6; }
+  .campaign-cta { display:inline-flex; gap:18px; align-items:center; margin:8px 0; padding:14px 19px; border-radius:7px; background:#2e493d; color:#fff!important; font:700 1rem/1.4 Arial,sans-serif; text-decoration:none; }
+  .campaign-cta:hover { background:#21372c; }
+  .campaign-cta:focus-visible,.campaign-checks a:focus-visible { outline:3px solid #ac762a; outline-offset:4px; }
+  .campaign-copy .campaign-note { font-size:.78rem; color:#586155; margin:8px 0 0; }
+  .campaign-checks { padding:clamp(24px,3vw,40px); background:#e9eee5; align-content:center; }
+  .checks-title { font:700 1.05rem/1.4 Arial,sans-serif; color:#2d4032; margin:0 0 20px; }
+  .campaign-checks ol { margin:0 0 20px; padding-left:23px; }
+  .campaign-checks li { padding-left:8px; margin:0 0 17px; color:#314330; }
+  .campaign-checks strong { display:block; font:700 .95rem/1.5 Arial,sans-serif; }
+  .campaign-checks span { display:block; font-size:.88rem; line-height:1.55; margin-top:3px; }
+  .campaign-checks a { font-size:.86rem; font-weight:700; color:#2d493a; }
+  @media(max-width:720px) { .kitchen-campaign-panel { grid-template-columns:1fr; } .campaign-copy h2{max-width:none;} .campaign-cta{font-size:.9rem;} }
+</style>

@@ -1,0 +1,56 @@
+{
+  "campaign": "renter_kitchen_oct2026",
+  "checkedOn": "2026-10-11",
+  "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
+  "imagePermissions": "Unconfirmed; manufacturer terms do not establish commercial reuse permission. Campaign artwork is original AHC diagrams. Await owner confirmation before using product photography in campaign posts.",
+  "products": [
+    {
+      "id": "renter-friendly-kitchen-storage-what-to-check-before-you-buy-option-1",
+      "name": "OXO Good Grips Expandable Utensil Drawer Organiser",
+      "destinationUrl": "https://www.amazon.com.au/dp/B09B1CZVWR?tag=ahc07-22",
+      "stock": "in-stock",
+      "seller": "Amazon AU",
+      "fulfilment": "Amazon AU",
+      "fullResearchDate": "2026-08-04",
+      "availabilityCheck": "2026-10-11",
+      "imageSource": "https://oxoaustralia.com.au/cdn/shop/files/48702_a__05810.1652983946.1280.1280.jpg?v=1775779424",
+      "imagePermission": "unconfirmed"
+    },
+    {
+      "id": "renter-friendly-kitchen-storage-what-to-check-before-you-buy-option-2",
+      "name": "OXO Good Grips 11-inch Turntable",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
+      "stock": "limited-stock",
+      "seller": "Amazon AU",
+      "fulfilment": "Amazon AU",
+      "fullResearchDate": "2026-08-04",
+      "availabilityCheck": "2026-10-11",
+      "imageSource": "https://www.oxo.com/media/catalog/product/cache/b2f1ce2dfe10d3d31bf2056bf6e0d10f/g/g/gg_1071352_2_1_.jpg",
+      "imagePermission": "unconfirmed"
+    },
+    {
+      "id": "renter-joseph-joseph-drawerstore-cookware-organiser",
+      "name": "Joseph Joseph DrawerStore Expanding Cookware Organiser",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08QGZTXNR?tag=ahc07-22",
+      "stock": "in-stock",
+      "seller": "Amazon AU",
+      "fulfilment": "Amazon AU",
+      "fullResearchDate": "2026-10-11",
+      "availabilityCheck": "2026-10-11",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0523/0516/6495/products/85167_Media_01_f3743eb8-9bd7-4915-bb89-eaa972c40667.jpg?v=1682605445",
+      "imagePermission": "unconfirmed"
+    },
+    {
+      "id": "renter-joseph-joseph-large-wheeled-caddy",
+      "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+      "stock": "in-stock",
+      "seller": "Amazon AU",
+      "fulfilment": "Amazon AU",
+      "fullResearchDate": "2026-10-11",
+      "availabilityCheck": "2026-10-11",
+      "imageSource": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
+      "imagePermission": "unconfirmed"
+    }
+  ]
+}
