@@ -194,3 +194,9 @@ Measure growth using reader trust, returning visitors, usefulness, quality and r
 | 1.2 | 24 July 2026 | Clarified the registered-business identity and removed language that presented trust as an established market fact. |
 | 1.1 | 23 July 2026 | Added the approved colour, material-variety and physical-plausibility standard for imagery. |
 | 1.0 | 18 July 2026 | Initial brand and voice standard. |
+
+## Product image sourcing
+
+- Do not download, copy, screenshot, hotlink or republish product photographs from Amazon listings or Amazon image CDNs, including locally resized copies. Attribution does not grant permission.
+- Use exact-model images from a permitted manufacturer, The Good Guys or another approved source and record provenance. If no permitted image is available, record the image gap; do not fill it using Amazon imagery.
+- This restriction concerns product photographs. Keep the separately approved official Amazon affiliate-button artwork governed by the retailer logo rules.

@@ -8,6 +8,15 @@ const catalogue=JSON.parse(fs.readFileSync(path.join(root,'src/data/commercial-p
 const products=catalogue.products.filter(p=>p.editorialStatus==='approved');
 const knownGaps=JSON.parse(fs.readFileSync(path.join(root,'docs/editorial/product-image-follow-up.json'),'utf8'));
 const errors=[];const warnings=[];
+// Product-image provenance is separate from approved retailer-button branding.
+for (const p of catalogue.products) {
+  if (p.image && /amazon|amzn|ssl-images/i.test(JSON.stringify(p.image))) errors.push(p.id+': Amazon-sourced product imagery is prohibited; use a permitted non-Amazon source');
+}
+const removedAmazonAssets = ['simplehouseware-expandable-under-sink-white-', 'simplehouseware-pullout-under-sink-black-'];
+for (const directory of ['public/images/products', 'dist/images/products']) {
+  const folder=path.join(root,directory);
+  if(fs.existsSync(folder)) for(const file of fs.readdirSync(folder)) if(removedAmazonAssets.some(prefix=>file.startsWith(prefix))) errors.push(directory+'/'+file+': removed Amazon image must not be published');
+}
 const branding=JSON.parse(fs.readFileSync(path.join(root,'src/data/retailer-branding.json'),'utf8'));
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
 for(const [retailer,asset] of Object.entries(branding)) {
