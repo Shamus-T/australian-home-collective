@@ -1,0 +1,12 @@
+---
+import type { CommercialProduct } from '../types/commercial-product';
+import { getDisplayManufacturerPrice } from '../lib/manufacturer-price.mjs';
+interface Props { product: CommercialProduct; }
+const price = getDisplayManufacturerPrice(Astro.props.product);
+const formatDate = (value: string) => new Intl.DateTimeFormat('en-AU', {day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane'}).format(new Date(`${value}T00:00:00+10:00`));
+---
+{price && <p class="commercial-manufacturer-price" data-manufacturer-price>
+  <strong>{new Intl.NumberFormat('en-AU', {style: 'currency', currency: 'AUD'}).format(price.amount)}</strong><br />
+  Listed on {price.manufacturer}’s website, checked {formatDate(price.checkedOn)}.<br />
+  <small>Manufacturer-direct product price; delivery charges may apply. Retailer prices and availability may differ.</small>
+</p>}

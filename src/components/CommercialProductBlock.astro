@@ -5,6 +5,7 @@ import {
   getRetailersForProduct,
   researchOutcomeLabels,
 } from "../lib/commercial-products";
+import ManufacturerPrice from "./ManufacturerPrice.astro";
 import CommercialRetailerLinks from "./CommercialRetailerLinks.astro";
 import {
   AFFILIATE_CLICK_ENDPOINT,
@@ -74,7 +75,7 @@ const formatDate = (date: string) =>
       <div class="commercial-product-comparison-wrap" role="region" aria-label={`${title} comparison`} aria-describedby={`${sectionId}-hint`} tabindex="0">
         <table class="commercial-product-comparison">
           <caption>Compare these researched options</caption>
-          <thead><tr><th scope="col">Option</th><th scope="col">May suit</th><th scope="col">Check first</th><th scope="col">Check current price</th></tr></thead>
+          <thead><tr><th scope="col">Option</th><th scope="col">May suit</th><th scope="col">Check first</th><th scope="col">Retailer prices and availability</th></tr></thead>
           <tbody>
             {primaryProducts.map((product) => (
               <tr>
@@ -121,6 +122,7 @@ const formatDate = (date: string) =>
             </figure>
           )}
           <p class="commercial-product-summary">{product.summary}</p>
+          <ManufacturerPrice product={product} />
           <CommercialRetailerLinks product={product} offers={retailers.get(product.id)!} placement="card" />
           <div class="commercial-product-fit">
             <p><strong>Good fit for</strong><br />{product.suitability.suits[0]}</p>

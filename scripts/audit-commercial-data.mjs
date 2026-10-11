@@ -1,3 +1,4 @@
+import { manufacturerPriceErrors } from "../src/lib/manufacturer-price.mjs";
 import { editorialDate } from "../src/lib/editorial-date.mjs";
 import { hasExcludedCommercialIdentity } from "../src/lib/commercial-exclusions.mjs";
 import fs from "node:fs";
@@ -443,6 +444,12 @@ const enabledGuidePaths = Array.isArray(catalogue.enabledGuidePaths)
   ? catalogue.enabledGuidePaths
   : [];
 const products = Array.isArray(catalogue.products) ? catalogue.products : [];
+for (const product of products) {
+  for (const error of manufacturerPriceErrors(product.manufacturerPrice, today)) addError(`${product.id}: ${error}`);
+  for (const field of ["rrp", "RRP", "wasPrice", "retailerPrice", "salePrice"]) {
+    if (Object.hasOwn(product, field)) addError(`${product.id}: ${field} is prohibited; use verified manufacturerPrice or omit pricing`);
+  }
+}
 const seenGuidePaths = new Set();
 
 for (const guidePath of enabledGuidePaths) {

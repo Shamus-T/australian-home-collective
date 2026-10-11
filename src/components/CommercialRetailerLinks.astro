@@ -16,7 +16,7 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
 ---
 
 <div class={`commercial-retailers commercial-retailers--${placement}`} aria-label={`${product.name} retailers`}>
-  {placement === "card" && <p class="commercial-retailers-label">Check current price:</p>}
+  {placement === "card" && <p class="commercial-retailers-label">Check current retailer prices and availability:</p>}
   <ul class="commercial-retailer-links" role="list">
     {offers.map((offer) => (
       <li>
@@ -29,7 +29,7 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
           href={offer.destinationUrl}
           target="_blank"
           rel="sponsored nofollow noopener noreferrer"
-          aria-label={`Check current price of ${product.name} at ${offer.merchant}`}
+          aria-label={`Check current price and availability of ${product.name} at ${offer.merchant}`}
           aria-describedby={showDisclosure ? disclosureId : undefined}
           data-commercial-link={offer.affiliate ? "affiliate" : "retailer"}
           data-commercial-placement={placement}

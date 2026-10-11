@@ -801,7 +801,7 @@
       "reviewedOn": "2026-10-11",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "9f0aec02c3e33ab142a5f5f326f16010858f84256bedcdd9b4f4599b066b302c",
+      "reviewedSourceSha256": "55f4059a57a8f2cb52e194e12e8dacf89b05aa4c304bb4014b9386c722d40536",
       "requiredProductTypes": [
         {
           "label": "Fisher & Paykel RF600AMPVG1",
@@ -811,7 +811,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. Pricing-only revision reviewed 11 October 2026: unverified retailer quote removed; preview intent and product placement unchanged."
     },
     {
       "guidePath": "/guides/fridge-dimensions-australia/",

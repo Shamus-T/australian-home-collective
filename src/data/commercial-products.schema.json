@@ -129,6 +129,52 @@
         },
         "merchant": { "type": "string" },
         "destinationUrl": { "type": "string" },
+        "manufacturerPrice": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "amount",
+            "currency",
+            "kind",
+            "manufacturer",
+            "sourceUrl",
+            "checkedOn",
+            "reviewDueOn",
+            "evidence"
+          ],
+          "properties": {
+            "amount": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "currency": {
+              "const": "AUD"
+            },
+            "kind": {
+              "const": "manufacturer-direct"
+            },
+            "manufacturer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sourceUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "checkedOn": {
+              "type": "string",
+              "format": "date"
+            },
+            "reviewDueOn": {
+              "type": "string",
+              "format": "date"
+            },
+            "evidence": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
         "linkLabel": { "type": "string" },
         "commission": { "$ref": "#/$defs/commission" },
         "additionalRetailers": {

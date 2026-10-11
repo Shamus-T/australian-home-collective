@@ -132,6 +132,7 @@ export interface CommercialProduct extends CommercialRetailerOffer {
     suppliedVia: string;
     checkedOn: string;
   };
+  manufacturerPrice?: { amount: number; currency: "AUD"; kind: "manufacturer-direct"; manufacturer: string; sourceUrl: string; checkedOn: string; reviewDueOn: string; evidence: string; };
   linkLabel: string;
   additionalRetailers?: CommercialRetailerOffer[];
   editorialStatus: CommercialEditorialStatus;
