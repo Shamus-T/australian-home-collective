@@ -1,3 +1,10 @@
+# Retired Amazon-sourced product images: stop cached asset URLs serving photographs.
+/images/products/simplehouseware-expandable-under-sink-white-320.webp /404.html 302
+/images/products/simplehouseware-expandable-under-sink-white-522.webp /404.html 302
+/images/products/simplehouseware-pullout-under-sink-black-320.webp /404.html 302
+/images/products/simplehouseware-pullout-under-sink-black-640.webp /404.html 302
+/images/products/simplehouseware-pullout-under-sink-black-960.webp /404.html 302
+
 /categories/nursery-baby /categories/nursery-kids/ 301
 /categories/nursery-baby/ /categories/nursery-kids/ 301
 
