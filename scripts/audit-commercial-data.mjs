@@ -953,7 +953,7 @@ if (checkDist) {
           continue;
         }
         const placement = attributeValue(anchor, "data-commercial-placement");
-        if (!["card", "comparison"].includes(placement)) {
+        if (!["card", "comparison", "comparison-name"].includes(placement)) {
           addError(relativePath + " product " + productId + " has an unknown link placement.");
         }
         const placementKey = productId + ":" + placement;
@@ -1063,8 +1063,11 @@ if (checkDist) {
       if (getRetailerOfferErrors(product, { today, reviewIntervalDays: catalogue.reviewIntervalDays }).length) continue;
       const expectedDestinations = getOrderedRetailers(product, { today, reviewIntervalDays: catalogue.reviewIntervalDays })
         .map((offer) => offer.destinationUrl);
-      for (const placement of ["card", "comparison"]) {
-        const expected = placement === "card" || (comparisonGuidePaths.has(product.guidePath) && !accessoryProductIds.has(product.id)) ? expectedDestinations : [];
+      for (const placement of ["card", "comparison", "comparison-name"]) {
+        const shownInComparison = comparisonGuidePaths.has(product.guidePath) && !accessoryProductIds.has(product.id);
+        const expected = placement === "comparison-name"
+          ? (shownInComparison ? expectedDestinations.slice(0, 1) : [])
+          : (placement === "card" || shownInComparison ? expectedDestinations : []);
         const rendered = renderedDestinationsByProduct.get(product.id + ":" + placement) ?? [];
         if (JSON.stringify(rendered) !== JSON.stringify(expected)) {
           addError("Approved product " + product.id + " must render each registered " + placement + " link once in commission order.");

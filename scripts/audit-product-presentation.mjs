@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 import { createHash } from 'node:crypto';
+import { productLinkErrors } from './lib/product-link-audit.mjs';
 
 const root=process.cwd();
 const catalogue=JSON.parse(fs.readFileSync(path.join(root,'src/data/commercial-products.json'),'utf8'));
@@ -47,6 +48,7 @@ for(const file of pages){const html=fs.readFileSync(file,'utf8');const article=h
     }
   }
 }
-const result={pages:pages.length,articles:articleCount,commercialPages,cards:cardCount,retailerButtons:buttons,productsWithImages:products.filter(p=>p.image).length,productsMissingImages:products.filter(p=>!p.image).length,errors,warnings};
+for (const file of pages) errors.push(...productLinkErrors(fs.readFileSync(file, 'utf8'), products).map(error => `${file}: ${error}`));
+const result={pages:pages.length,articles:articleCount,commercialPages,cards:cardCount,commercialLinks:buttons,productsWithImages:products.filter(p=>p.image).length,productsMissingImages:products.filter(p=>!p.image).length,errors,warnings};
 if(process.argv.includes('--json'))console.log(JSON.stringify(result,null,2));else{console.log(JSON.stringify({...result,errors:errors.length,warnings:warnings.length},null,2));warnings.forEach(w=>console.warn('FOLLOW-UP: '+w));errors.forEach(e=>console.error(e));}
 if(errors.length)process.exitCode=1;

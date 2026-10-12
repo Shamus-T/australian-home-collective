@@ -1,0 +1,24 @@
+---
+import type { CommercialProduct, CommercialRetailerOffer } from '../types/commercial-product';
+
+interface Props { product: CommercialProduct; offer: CommercialRetailerOffer; }
+const { product, offer } = Astro.props;
+if (!offer?.affiliate || !offer.approvedForAffiliateUse) {
+  throw new Error(`Product-name links require an approved affiliate offer: ${product.id}`);
+}
+---
+<a
+  href={offer.destinationUrl}
+  target="_blank"
+  rel="sponsored nofollow noopener noreferrer"
+  aria-label={`Check current price and availability of ${product.name} at ${offer.merchant}`}
+  data-commercial-link="affiliate"
+  data-commercial-placement="comparison-name"
+  data-commercial-product-id={product.id}
+  data-commercial-product-name={product.name}
+  data-commercial-guide-path={product.guidePath}
+  data-commercial-affiliate-network={offer.affiliateNetwork}
+  data-commercial-merchant={offer.merchant}
+  data-commercial-destination-host={new URL(offer.destinationUrl).hostname}
+  data-affiliate-trackable="true"
+>{product.name}</a>

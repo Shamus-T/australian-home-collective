@@ -7,6 +7,7 @@ import {
 } from "../lib/commercial-products";
 import ManufacturerPrice from "./ManufacturerPrice.astro";
 import CommercialRetailerLinks from "./CommercialRetailerLinks.astro";
+import CommercialProductNameLink from "./CommercialProductNameLink.astro";
 import {
   AFFILIATE_CLICK_ENDPOINT,
   ANALYTICS_SESSION_KEY,
@@ -92,7 +93,7 @@ const formatDate = (date: string) =>
                       width={product.image.width} height={product.image.height}
                       loading="lazy" decoding="async" />
                   )}
-                  <a href={`#product-${product.id}`}>{product.name}</a>{" "}
+                  <CommercialProductNameLink product={product} offer={retailers.get(product.id)![0]} />{" "}
                   <span class="commercial-comparison-type">{product.productType}</span>
                 </th>
                 <td data-label="May suit">{comparisonDetails[product.id]?.reason ?? product.suitability.suits[0]}</td>
