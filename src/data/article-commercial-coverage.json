@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-10-11",
+  "updatedOn": "2026-10-12",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -680,10 +680,10 @@
     {
       "guidePath": "/guides/dishwasher-sizes-australia/",
       "title": "Dishwasher Sizes Australia: Measure Before You Buy",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "3c30c1bf99bee9e20ece69975f148d43c3fcedffdf7cb5e26e28dea20cafd6a5",
+      "reviewedSourceSha256": "658abfc49b33089787f0808a172dc7dcf4bbbcc71d48eb1e79afca20a126af5c",
       "requiredProductTypes": [
         {
           "label": "60cm freestanding dishwasher",
@@ -699,7 +699,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Traffic-led review of article intent, fit guidance and buying-route placement. Existing product assessments retained. LG GB-B400PS specifications and rear clearance rechecked against manufacturer documents on 12 October; other product review dates were not refreshed."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",
@@ -816,10 +816,10 @@
     {
       "guidePath": "/guides/fridge-dimensions-australia/",
       "title": "Fridge Dimensions Australia: What to Measure Before Buying",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "eb1f7f23b2a27ca8475e7cca58d1576bd96c557d3a84902f4f031c99686db170",
+      "reviewedSourceSha256": "c4eba2afa8ba893de65053827f5c1d69bf6e0e3319daf2bab16a639344c5ca5f",
       "requiredProductTypes": [
         {
           "label": "Measured fridge models",
@@ -831,7 +831,7 @@
       "contextualRoutes": [
         "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Traffic-led review of article intent, fit guidance and buying-route placement. Existing product assessments retained. LG GB-B400PS specifications and rear clearance rechecked against manufacturer documents on 12 October; other product review dates were not refreshed."
     },
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
@@ -2939,10 +2939,10 @@
     {
       "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
       "title": "Washing Machine Dimensions Australia: What to Measure Before Buying",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "16350d4f0d7de0548a3d73a25df0b6f71dc53154c440f19566f229ddb5ed3231",
+      "reviewedSourceSha256": "155440d1de9b460e232c66a22f2e6abc021078d522fb9ea708c6cfa06bc3a02d",
       "requiredProductTypes": [
         {
           "label": "Front load washing machine",
@@ -2974,7 +2974,7 @@
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Traffic-led review of article intent, fit guidance and buying-route placement. Existing product assessments retained. LG GB-B400PS specifications and rear clearance rechecked against manufacturer documents on 12 October; other product review dates were not refreshed."
     },
     {
       "guidePath": "/guides/what-size-air-conditioner-do-i-need/",

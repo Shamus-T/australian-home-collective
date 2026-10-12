@@ -1,0 +1,111 @@
+AHC TRAFFIC-LED COMMERCIAL IMPROVEMENTS — 12 OCTOBER 2026
+
+DECISION
+Prioritise the existing appliance guides that already attract search visitors.
+Their commercial changes are too recent to judge from the current reporting
+window. Improve the route from a sizing answer to a suitable product, then measure
+reader referrals and merchant results before expanding the catalogue.
+
+EVIDENCE AND LIMITS
+Evidence: tmp/media-kit-2026-10-12/audience-evidence.json and
+tmp/media-kit-2026-10-12/private-traffic-review.txt, collected earlier on 12 October.
+These account figures were analysed, not fetched again during this implementation.
+
+Search Console, 12 September–9 October vs 15 August–11 September:
+151 vs 107 clicks (+41.1%); 23,477 vs 14,263 impressions (+64.6%).
+CTR fell from approximately 0.750% to 0.643%. Aggregate average position improved
+from 16.8 to 12.7; this is not a fixed-keyword comparison. Lower CTR alone does not
+prove that titles are poor: query mix and newly appearing searches can change it.
+143 of the 151 clicks came from Australia.
+
+Current page clicks: washer dimensions 31, dishwasher sizes 23, fridge dimensions 7.
+Together: 61/151, or 40.4% of reported search clicks. This supports prioritising
+these pages, but does not prove each reader is ready to buy.
+
+GA4, 13 September–10 October vs 16 August–12 September: 719 vs 526 page views
+(+36.7%). Engagement appears weaker (about 36% vs 50%), but daily aggregation and
+snapshot totals differ. Internal and test activity was not independently removed.
+Do not label these totals qualified visits or verified human traffic.
+
+Cloudflare, 4–10 October UTC vs 27 September–3 October: 25,800 vs 12,592 requests;
+3,867 vs 2,948 reported visits. Bot/internal exclusions are unverified. These are
+not added to GA4, treated as unique readers or used to forecast commissions.
+
+The washer shortlist was added 10 October and dishwasher offer 11 October.
+Search Console's complete window ends 9 October: it cannot assess their impact.
+No fresh merchant orders or commission were verified in this review.
+
+IMPLEMENTED
+1. Washer dimensions: retained the immediate sizing answer; added a fit-based
+   shortlist linking to the existing assessed product cards. Explicitly explains
+   why the LG options do not fit a 600mm opening with their required side gaps,
+   and flags stacking and open-lid limits. Moved the long diagram resource after
+   the model comparison and buying notes; it remains reachable from the top nav.
+2. Dishwasher sizes: added early routes for 60cm, 45cm, integrated/built-under
+   and drawer requirements. The existing 60cm offer is clearly labelled so it
+   does not appear to solve a 45cm opening. Retained the distinction between
+   assessed recommendations and manufacturer dimension examples.
+3. Fridge dimensions: moved the buried LG Fit & Max route into the main decision
+   flow, explaining who it may suit and when to rule it out. Rechecked LG's
+   697 × 1740 × 696mm dimensions, 4mm side recommendation and over-50mm rear
+   clearance. A 700mm opening fails the side-gap calculation. Four finishes
+   are described as variants, not four competing fridge designs.
+4. Updated article dates, sitemap dates and reviewed coverage records. Product
+   review dates, approved retailer artwork and affiliate tracking were preserved.
+
+PRIORITISED COMMERCIAL OPPORTUNITIES
+1. Assess one 45cm dishwasher for the existing dishwasher guide.
+   Candidate: Bosch SPS6IKI01A. Bosch Australia lists 450 × 845 × 600mm
+   (width × height × depth) and 48dB. Rack capacity still needs assessment
+   before publication. The Good Guys public category lists this
+   exact model as online-only. This establishes a candidate, not postcode stock,
+   delivery eligibility or an approved recommendation. Before adding: read the
+   exact installation drawing, compare rack capacity and tradeoffs, assess owner
+   evidence, confirm current Australian offer/seller and authorised imagery,
+   then add a tracked product record. Do not use the business-only portal as
+   evidence of consumer affiliate availability. No measured 45cm-specific demand
+   is claimed from the current page-level report.
+2. Research a genuinely different fridge option, not another colour of Fit & Max.
+   The guide gets 7 search clicks and already explains 600mm and larger layouts.
+   Select a capacity/installation need the current 436L offer cannot serve;
+   verify exact-model documents, Australian availability and ownership evidence.
+   The older Bosch, F&P and Westinghouse table remains measuring examples, not
+   a cleared commercial shortlist.
+3. Validate a washer/dryer/stacking-kit combination if reader demand supports it.
+   The leading washer guide includes stacking questions, but there is no cleared
+   dryer option. Compatibility, total height, controls, services and kit approval
+   must be established together. No universal stacking kit recommendation.
+4. Hoselink remains a conditional outdoor opportunity.
+   Outdoor storage attracted 13 search clicks; GA4 recorded 12 landing sessions
+   and 7 engaged sessions. This is adjacent interest, not proof of watering demand.
+   If the programme approves AHC, assess a relevant watering/storage use case
+   and mounting/reach requirements. Do not insert links before approval or add
+   unrelated products merely because a programme becomes available.
+
+PUBLIC RESEARCH CHECKED 12 OCTOBER
+LG specifications: https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400ps/
+LG manual, page 11: https://gscs-b2c.lge.com/open/downloadFile?fileId=Ku5jhJkd1wtwzBvNmhPZ9g
+The Good Guys GB-B400PS listing displayed the correct model and Add to Cart;
+postcode-level availability was not tested:
+https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps
+Bosch narrow-format candidate:
+https://www.bosch-home.com.au/en/mkt-product/dishwashing/freestanding-dishwashers/dishwasher-45-cm-wide/SPS6IKI01A
+Consumer retailer category listing:
+https://www.thegoodguys.com.au/cooking-and-dishwashers/dishwashers?page=3
+
+HOW TO JUDGE THE CHANGES
+Record 12 October as an intervention, not a clean baseline day. Compare equal
+complete 14-day ranges: 28 September–11 October and 13–26 October, after reporting
+settles. The earlier range includes the 10–11 October product additions, so this
+is observational, not a controlled test or isolated estimate of today's impact.
+Read each appliance page separately: search clicks; landing/engaged sessions
+where measurable; non-QA affiliate events; and merchant clicks, ordered items,
+earned commission and refunds. Explain attribution gaps and keep unknown human
+status unknown. Never attribute shared-tag Amazon orders to a page cohort.
+Traffic without retailer clicks suggests relevance/placement needs work; retailer
+clicks without sales calls for offer, price, availability and attribution checks.
+At these volumes, a week without an order does not establish a conversion rate.
+Compare actual earned commission with costs before claiming commercial success.
+
+The outdoor/pantry/small-bathroom trial pages were not changed by this work.
+No artificial affiliate clicks, purchases, messages or new monitoring automation.
