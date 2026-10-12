@@ -109,3 +109,38 @@ Compare actual earned commission with costs before claiming commercial success.
 
 The outdoor/pantry/small-bathroom trial pages were not changed by this work.
 No artificial affiliate clicks, purchases, messages or new monitoring automation.
+
+FOLLOW-UP: THREE RESEARCHED OPPORTUNITIES, 12 OCTOBER
+The requested additions now cover:
+- Bosch SPS6IKI01A 45cm freestanding dishwasher: a narrower alternative with
+  reduced rack capacity. Individual dispenser and rust complaints retained.
+- Westinghouse WTM4302WD-R 431L right-hinge top mount: more fresh-food space,
+  less freezer space than the LG example, with substantially larger side gaps.
+- Bosch WGG244A1AU washer, WQG24201AU dryer and WTZ11400 pull-out-shelf kit:
+  supported by the dryer manual and currently linked Australian catalogue.
+  Published compatibility rules were checked; no physical installation or
+  unconditional completed-cavity fit is claimed. Exact E-Nr revisions and
+  supplied fixing instructions require installer confirmation.
+
+Four commercial placements added (the existing dryer assessment is reused in
+the washer guide), with three new exact-model retailer images and provenance.
+The kit is clearly separated from appliances and described as required for
+the assessed stacking arrangement, not for side-by-side installation.
+The laundry appliance cards use two columns on desktop when there are four.
+A useful LG planning link was added to the kitchen-bench guide.
+
+Evidence and exclusions:
+docs/editorial/appliance-opportunities-review-2026-10-12.json
+Manufacturer specifications, installation drawings, individual owner feedback
+and direct Australian offers were reviewed. Existing washer/dryer owner-review
+dates retained. Postcode fulfilment remains unverified; no artificial affiliate
+clicks or purchases. The tracking check verifies configured identifiers and
+decoded destinations, not live network attribution or orders.
+
+Local preview screenshots are in tmp/three-product-research-2026-10-12/.
+Cards and approved retailer artwork inspected at desktop and 390px width.
+All new records have exact-model images; pre-existing image/research gaps
+elsewhere are not represented as repaired by these additions.
+
+Validation: full npm run build passed, including commercial data, tracking,
+source/coverage, rendered output and pinned retailer-artwork audits.

@@ -1,0 +1,70 @@
+{
+  "checkedOn": "2026-10-12",
+  "added": [
+    "bosch-sps6iki01a-good-guys",
+    "westinghouse-wtm4302wd-r-good-guys",
+    "bosch-wqg24201au-laundry-fit-good-guys",
+    "bosch-wtz11400-good-guys"
+  ],
+  "method": "Exact Australian model and direct retailer listing, manufacturer documents including drawings, individual owner feedback with duplicate complaints removed, indexed recall searches, permitted retailer imagery and configured affiliate destinations. No affiliate test clicks or firsthand testing.",
+  "stackingEvidence": {
+    "washer": "WGG244A1AU",
+    "dryer": "WQG24201AU",
+    "kit": "WTZ11400",
+    "basis": "Dryer manual names kit; currently linked Bosch AU catalogue permits it with Bosch washers except WAN24126AU; washer is full-size with 590mm body depth. Published-rule assessment, not a named-pair certificate or physical fitting test.",
+    "limits": "Exact E-Nr revision, supplied instructions, floor, fixing, completed height, ventilation and service access must be confirmed for installation. No unconditional will-fit guarantee."
+  },
+  "availability": "All five direct offers, including the existing washer and dryer, displayed structured InStock and The Good Guys as seller on 12 October. Postcode fulfilment unverified.",
+  "ownerEvidence": {
+    "dishwasher": "Ten displayed entries; one duplicate removed. Includes dispenser and rust complaints.",
+    "fridge": "Ten entries; duplicate negative review counted once. Storage praise and design criticism retained.",
+    "kit": "Individual reviews identify fixing/drilling, shelf utility, instructions and fulfilment concerns; repeat missing-parts complaint counted once.",
+    "washerAndDryer": "Existing 10–11 October assessments retained; not recast as new long-term testing."
+  },
+  "notAdded": [
+    {
+      "model": "Bosch KGN36VI3AA",
+      "reason": "Manufacturer measuring example retained, but no exact current Good Guys consumer order route established in focused search."
+    }
+  ],
+  "imageProvenance": [
+    {
+      "productId": "bosch-sps6iki01a-good-guys",
+      "src": "/images/products/bosch-sps6iki01a-640.webp",
+      "srcSet": "/images/products/bosch-sps6iki01a-320.webp 210w, /images/products/bosch-sps6iki01a-640.webp 419w, /images/products/bosch-sps6iki01a-960.webp 629w",
+      "width": 419,
+      "height": 640,
+      "alt": "Bosch SPS6IKI01A 45cm freestanding dishwasher product view.",
+      "credit": "Product image sourced from The Good Guys website.",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50074928_772014.png?v=1776229440",
+      "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "productId": "westinghouse-wtm4302wd-r-good-guys",
+      "src": "/images/products/westinghouse-wtm4302wd-r-640.webp",
+      "srcSet": "/images/products/westinghouse-wtm4302wd-r-320.webp 133w, /images/products/westinghouse-wtm4302wd-r-640.webp 267w, /images/products/westinghouse-wtm4302wd-r-960.webp 400w",
+      "width": 267,
+      "height": 640,
+      "alt": "Westinghouse WTM4302WD-R 431L top mount fridge product view.",
+      "credit": "Product image sourced from The Good Guys website.",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50094050_949001.png?v=1776231571",
+      "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "productId": "bosch-wtz11400-good-guys",
+      "src": "/images/products/bosch-wtz11400-640.webp",
+      "srcSet": "/images/products/bosch-wtz11400-320.webp 320w, /images/products/bosch-wtz11400-640.webp 640w, /images/products/bosch-wtz11400-960.webp 960w",
+      "width": 640,
+      "height": 362,
+      "alt": "Bosch WTZ11400 stacking kit with pull-out shelf product view.",
+      "credit": "Product image sourced from The Good Guys website.",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50014131_795123.png?v=1776228001",
+      "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "evidenceDirectory": "tmp/three-product-research-2026-10-12/",
+  "tracking": "Exact configured AHC camref/creativeref and encoded product destinations checked locally; retailer pages read directly without generating affiliate clicks."
+}

@@ -683,7 +683,7 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "658abfc49b33089787f0808a172dc7dcf4bbbcc71d48eb1e79afca20a126af5c",
+      "reviewedSourceSha256": "2aa75ac747421856812b4f6b405bb2cb132a3d72d4b0d92144febdb266608b84",
       "requiredProductTypes": [
         {
           "label": "60cm freestanding dishwasher",
@@ -692,14 +692,20 @@
           ]
         },
         {
-          "label": "Drawer, integrated and slimline dishwashers",
+          "label": "45cm slimline freestanding dishwasher",
+          "productIds": [
+            "bosch-sps6iki01a-good-guys"
+          ]
+        },
+        {
+          "label": "Drawer and integrated dishwashers",
           "productIds": [],
-          "gapReason": "Bosch freestanding option added. The named F&P and Miele dimension examples are not cleared affiliate recommendations."
+          "gapReason": "Named Fisher & Paykel and Miele examples remain measuring references; not cleared buying recommendations."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Traffic-led review of article intent, fit guidance and buying-route placement. Existing product assessments retained. LG GB-B400PS specifications and rear clearance rechecked against manufacturer documents on 12 October; other product review dates were not refreshed."
+      "reviewScope": "New exact-model research and direct Australian retailer availability checks for slimline dishwasher, top mount fridge and Bosch stacking kit; existing Bosch washer/dryer ownership evidence retained, offers refreshed. Full research, provenance and limitations in docs/editorial/appliance-opportunities-review-2026-10-12.json."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",
@@ -819,19 +825,25 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c4eba2afa8ba893de65053827f5c1d69bf6e0e3319daf2bab16a639344c5ca5f",
+      "reviewedSourceSha256": "1b13dc4899cb2f811b10f9a6c44001769d56979467cf3b9964ccdd026f20c55f",
       "requiredProductTypes": [
         {
-          "label": "Measured fridge models",
+          "label": "Top mount fridge",
+          "productIds": [
+            "westinghouse-wtm4302wd-r-good-guys"
+          ]
+        },
+        {
+          "label": "Other measured fridge models",
           "productIds": [],
-          "gapReason": "The named dimension examples have manufacturer sources but no approved retailer records on this page."
+          "gapReason": "Bosch and Fisher & Paykel remain measuring references. LG buying options are available through the contextual guide."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "Traffic-led review of article intent, fit guidance and buying-route placement. Existing product assessments retained. LG GB-B400PS specifications and rear clearance rechecked against manufacturer documents on 12 October; other product review dates were not refreshed."
+      "reviewScope": "New exact-model research and direct Australian retailer availability checks for slimline dishwasher, top mount fridge and Bosch stacking kit; existing Bosch washer/dryer ownership evidence retained, offers refreshed. Full research, provenance and limitations in docs/editorial/appliance-opportunities-review-2026-10-12.json."
     },
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
@@ -1307,10 +1319,10 @@
     {
       "guidePath": "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
       "title": "Kitchen Bench Space That Stays Clear",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-12",
       "intent": "editorial",
       "editorialReason": "Clear existing bench clutter before buying organisers.",
-      "reviewedSourceSha256": "6c895ed85269d2ae79718061a4ac389721c22ad8efc417f7155ebcdd410747fc",
+      "reviewedSourceSha256": "88da7e7434e6721bfbcca38e981db91acd29f4f254e1b3e8e530105bd1a00c46",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -1318,9 +1330,10 @@
         "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
-        "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/"
+        "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
+        "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Contextual fridge-planning link added; existing product review dates retained."
     },
     {
       "guidePath": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
@@ -2942,7 +2955,7 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "155440d1de9b460e232c66a22f2e6abc021078d522fb9ea708c6cfa06bc3a02d",
+      "reviewedSourceSha256": "6de6421cb66b33e801e652f01f2840b75a280eb3243e800130c3568880ed2226",
       "requiredProductTypes": [
         {
           "label": "Front load washing machine",
@@ -2963,18 +2976,21 @@
           ]
         },
         {
-          "label": "Dryer fit example",
-          "productIds": [],
-          "gapReason": "Washing-machine recommendations are present; the page also discusses dryer fit without a direct dryer option."
+          "label": "Heat pump dryer fit and stacking example",
+          "productIds": [
+            "bosch-wqg24201au-laundry-fit-good-guys"
+          ]
         }
       ],
-      "supportingProductIds": [],
+      "supportingProductIds": [
+        "bosch-wtz11400-good-guys"
+      ],
       "contextualRoutes": [
         "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "Traffic-led review of article intent, fit guidance and buying-route placement. Existing product assessments retained. LG GB-B400PS specifications and rear clearance rechecked against manufacturer documents on 12 October; other product review dates were not refreshed."
+      "reviewScope": "New exact-model research and direct Australian retailer availability checks for slimline dishwasher, top mount fridge and Bosch stacking kit; existing Bosch washer/dryer ownership evidence retained, offers refreshed. Full research, provenance and limitations in docs/editorial/appliance-opportunities-review-2026-10-12.json."
     },
     {
       "guidePath": "/guides/what-size-air-conditioner-do-i-need/",

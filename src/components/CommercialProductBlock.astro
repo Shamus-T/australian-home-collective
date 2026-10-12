@@ -18,6 +18,8 @@ interface Props {
   intro?: string;
   variant?: "solution" | "quick" | "comparison";
   accessoryProductIds?: string[];
+  accessoryTitle?: string;
+  accessoryIntro?: string;
 }
 
 const {
@@ -26,6 +28,8 @@ const {
   intro = "These options have been checked against the measurements and buying questions in this guide.",
   variant = "solution",
   accessoryProductIds = [],
+  accessoryTitle = "Optional setup accessories",
+  accessoryIntro = "These do not replace the appliance. Check what is included and buy an extra only when it solves a specific setup problem.",
 } = Astro.props;
 
 const products = getApprovedProductsForGuide(guidePath);
@@ -104,10 +108,10 @@ const formatDate = (date: string) =>
     {showComparison && <h3 class="commercial-product-details-heading">More about each option</h3>}
     {productGroups.map((group, index) => (<>
     {index > 0 && <>
-      <h3 class="commercial-product-details-heading">Optional setup accessories</h3>
-      <p>These do not replace the appliance. Check what is included and buy an extra only when it solves a specific setup problem.</p>
+      <h3 class="commercial-product-details-heading">{accessoryTitle}</h3>
+      <p>{accessoryIntro}</p>
     </>}
-    <div class="commercial-product-grid" data-product-role={index > 0 ? "accessory" : "primary"}>
+    <div class="commercial-product-grid" data-product-count={group.length} data-product-role={index > 0 ? "accessory" : "primary"}>
       {group.map((product) => (
         <article id={`product-${product.id}`} class="commercial-product-card" data-commercial-product-card>
           <p class="commercial-product-type">{product.productType}</p>
@@ -248,3 +252,11 @@ const formatDate = (date: string) =>
   });
 
 </script>
+
+<style>
+  @media (min-width: 900px) {
+    .commercial-product-grid[data-product-count="4"] {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

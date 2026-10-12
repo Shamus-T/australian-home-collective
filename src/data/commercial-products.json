@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-11",
+  "updatedOn": "2026-10-12",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -72,7 +72,8 @@
     "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
     "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
     "/guides/pantry-storage-ideas-australian-kitchens/",
-    "/guides/laundry-essentials-australian-homes/"
+    "/guides/laundry-essentials-australian-homes/",
+    "/guides/fridge-dimensions-australia/"
   ],
   "products": [
     {
@@ -14346,6 +14347,508 @@
         "credit": "Product image sourced from YouCopia’s website.",
         "sourceUrl": "https://cdn.shopify.com/s/files/1/2534/0342/files/RollOut-Under-Sink-8in-Caddy-Propped-Silo.png?v=1748026634",
         "suppliedVia": "Manufacturer product page: https://youcopia.com/products/rollout-under-sink-caddy",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "bosch-sps6iki01a-good-guys",
+      "guidePath": "/guides/dishwasher-sizes-australia/",
+      "name": "Bosch SPS6IKI01A 45cm freestanding dishwasher",
+      "productType": "45cm slimline freestanding dishwasher",
+      "summary": "A 450mm-wide option when a full-width dishwasher cannot fit. Its 10-place layout suits smaller loads, but check your pans and tall plates against the narrower racks. Individual owners report useful small-space fit and good cleaning; dispenser and rust complaints also appear.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-series-6-45cm-freestanding-dishwasher-sps6iki01a",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-12",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-12",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Body size is 450mm wide × 845mm high × 600mm deep; these are not minimum cavity dimensions. Allow for the door, connections and the model installation instructions.",
+        "Ten place settings leave less room for bulky pots and large batches than a full-width machine. It has a cutlery/knife rack, not a full third cutlery drawer.",
+        "The reviewed owner sample includes a dispenser fault and front-panel rust. Feedback may be incentivised and does not establish long-term reliability.",
+        "Listed as online-only. Confirm delivery and any installation service for your postcode."
+      ],
+      "suitability": {
+        "suits": [
+          "A narrow kitchen with a measured opening for a 45cm freestanding dishwasher",
+          "Smaller dish loads where saving width matters more than rack capacity"
+        ],
+        "mayNotSuit": [
+          "A household regularly washing large pots and full-size batches",
+          "A fully integrated installation requiring a matching cabinet panel"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "SPS6IKI01A Australian specification sheet",
+          "publisher": "Bosch Australia",
+          "sourceUrl": "https://media3.bosch-home.com/Documents/specsheet/en-AU/SPS6IKI01A.pdf",
+          "supports": "Exact model; 10 place settings, 450 W × 845 H × 600 D mm, 48dB, lower folding racks and upper cutlery/knife rack. Read service-routing drawing on page 3. Do not infer a third cutlery drawer or complete cavity dimensions.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "SPS6IKI01A user and installation guidance",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bosch-home.com/Documents/9001720433_A.pdf",
+          "supports": "Read installation and connection pages 12–13 and safe-installation guidance: follow separate installation instructions, level the appliance and preserve service routing. No under-hob installation, generic cavity or unverified worktop-removal claim.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "SPS6IKI01A individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-6-45cm-freestanding-dishwasher-sps6iki01a",
+          "supports": "Read the ten displayed entries from 95 reviews, including a duplicate Timmy Lou review counted once. Nine distinct entries: positive small-space fit, cleaning and quietness; Carol Olson reports a nonworking dispenser and Ashley Wolters reports front-panel rust. Used individual text, not the retailer AI summary. Possible incentives; not a controlled reliability sample.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian standard warranty in exact listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-6-45cm-freestanding-dishwasher-sps6iki01a",
+          "supports": "Exact-model specifications state two-year manufacturer warranty; manufacturer Australian model/support page exists. Conditional promotional extensions not included.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact Australian retail offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-6-45cm-freestanding-dishwasher-sps6iki01a",
+          "supports": "Direct listing read 12 October: exact model, new-condition AUD 1349.00 offer, structured InStock and seller The Good Guys. Add to Cart displayed. Price is a dated research observation, not a published price promise. Postcode delivery, installation and collection not verified.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "AHC destination and tracking configuration",
+          "publisher": "The Good Guys / AHC",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-series-6-45cm-freestanding-dishwasher-sps6iki01a",
+          "supports": "Verified direct Australian model listing and seller. Constructed destination uses the existing authorised AHC camref 1100l6vaUc and creativeref 1011l64579; decoded destination and repository tracking checks verified. No affiliate link clicked to manufacture a referral. Live network attribution and orders are not established by this check.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Scoped Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Exact-model indexed search restricted to productsafety.gov.au on 12 October returned no matching recall notice. This is not a complete register inspection or a safety certification; no safety performance claim is made.",
+          "checkedOn": "2026-10-12"
+        }
+      ],
+      "image": {
+        "src": "/images/products/bosch-sps6iki01a-640.webp",
+        "srcSet": "/images/products/bosch-sps6iki01a-320.webp 210w, /images/products/bosch-sps6iki01a-640.webp 419w, /images/products/bosch-sps6iki01a-960.webp 629w",
+        "width": 419,
+        "height": 640,
+        "alt": "Bosch SPS6IKI01A 45cm freestanding dishwasher product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50074928_772014.png?v=1776229440",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-12"
+      }
+    },
+    {
+      "id": "westinghouse-wtm4302wd-r-good-guys",
+      "guidePath": "/guides/fridge-dimensions-australia/",
+      "name": "Westinghouse WTM4302WD-R 431L top mount fridge",
+      "productType": "431L top freezer fridge · Right hinge",
+      "summary": "A top-freezer alternative for households wanting a 329L fresh-food compartment and a 102L freezer above it. Adjustable door storage and a deli drawer may suit everyday groceries. Its ventilation and corner clearances are much larger than the LG narrow-gap example.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-431l-top-mount-refrigerator-wtm4302wd-r",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-12",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-12",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow 30mm each side, 50mm behind and the specified overhead airflow. The 699mm-wide body does not fit a 700mm opening with those gaps.",
+        "The right-hinge version needs 430mm on the hinge side in the corner arrangement shown by Westinghouse so shelves can be removed. Doors sit in front of cabinetry.",
+        "The freezer is 102L and fresh food sits below it. Check bending, shelf reach and freezer layout in store; this is not a larger-freezer alternative to the LG.",
+        "One distinct purchaser strongly criticised the internal design and build feel; other owners like its storage. The sample does not establish long-term reliability."
+      ],
+      "suitability": {
+        "suits": [
+          "Households preferring a top freezer and more fresh-food space than freezer space",
+          "A kitchen that accommodates the larger ventilation gaps and right-hinge door movement"
+        ],
+        "mayNotSuit": [
+          "Tight cabinetry designed for a small-side-gap refrigerator",
+          "Buyers needing left-hinge opening, a large freezer or fresh food at upper-chest height"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "WTM4302WD-R Australian specifications",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/fridges-and-freezers/fridges/wtm4302wd-r/",
+          "supports": "Exact right-hinge model page; 431L total, 329L fridge and 102L freezer; 699 W × 1725 H × 723 D mm, frost-free, manual twist ice tray, adjustable door storage. Do not infer an automatic ice maker or reversible right-hinge SKU from family wording.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "WTM4302 dimension and installation drawing",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjM0Mjk1&lang=",
+          "supports": "Visual inspection: 30mm each side, 50mm rear, 90mm top in dimension sheet; 430mm hinge-side corner allowance for shelf removal; door projects beyond cabinets; 1360mm total depth with door open 90 degrees. Body size is not a cavity specification.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Top mount refrigerator user manual",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjMxNzY1&lang=",
+          "supports": "Reviewed installation including levelling and cabinet airflow alternatives. Do not replace the specified ventilation arrangement with a generic small top gap.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WTM4302WD-R individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-431l-top-mount-refrigerator-wtm4302wd-r",
+          "supports": "Read ten displayed entries from 46 reviews; duplicate Harvey complaint counted once. Nine distinct entries: praise for fresh-food storage, adjustable shelves and deli drawer; one misses older freezer compartments, one strongly criticises design/build feel. No inferred reliability from owners expectations about brand longevity. Possible incentives.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Westinghouse Australian warranty specifications",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/fridges-and-freezers/fridges/wtm4302wd-r/",
+          "supports": "Two-year domestic warranty plus separate additional sealed-system-only coverage. No claim of five-year whole-appliance cover.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact Australian retail offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-431l-top-mount-refrigerator-wtm4302wd-r",
+          "supports": "Direct listing read 12 October: exact model, new-condition AUD 999.00 offer, structured InStock and seller The Good Guys. Add to Cart displayed. Price is a dated research observation, not a published price promise. Postcode delivery, installation and collection not verified.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "AHC destination and tracking configuration",
+          "publisher": "The Good Guys / AHC",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-431l-top-mount-refrigerator-wtm4302wd-r",
+          "supports": "Verified direct Australian model listing and seller. Constructed destination uses the existing authorised AHC camref 1100l6vaUc and creativeref 1011l64579; decoded destination and repository tracking checks verified. No affiliate link clicked to manufacture a referral. Live network attribution and orders are not established by this check.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Scoped Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Exact-model indexed search restricted to productsafety.gov.au on 12 October returned no matching recall notice. This is not a complete register inspection or a safety certification; no safety performance claim is made.",
+          "checkedOn": "2026-10-12"
+        }
+      ],
+      "image": {
+        "src": "/images/products/westinghouse-wtm4302wd-r-640.webp",
+        "srcSet": "/images/products/westinghouse-wtm4302wd-r-320.webp 133w, /images/products/westinghouse-wtm4302wd-r-640.webp 267w, /images/products/westinghouse-wtm4302wd-r-960.webp 400w",
+        "width": 267,
+        "height": 640,
+        "alt": "Westinghouse WTM4302WD-R 431L top mount fridge product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50094050_949001.png?v=1776231571",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-12"
+      }
+    },
+    {
+      "id": "bosch-wtz11400-good-guys",
+      "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+      "name": "Bosch WTZ11400 stacking kit with pull-out shelf",
+      "productType": "Model-specific stacking accessory",
+      "summary": "The pull-out-shelf kit named in the WQG24201AU dryer manual. Consider it only for a compatible Bosch washer and dryer installation. The shelf helps with loading; it is not a universal bracket or a substitute for checking the full installation.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-stacking-kit-wtz11400",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-12",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-12",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Requires the specified mechanical fixing. Owner reports describe drilling into the washer top; arrange installation and follow the supplied kit instructions, rather than improvising attachments.",
+        "Adds height and needs space for the shelf to extend. Confirm the completed stack dimensions, control reach, floor and service access before ordering.",
+        "Owners report a useful shelf, but also unclear pictorial instructions and missing-parts or delivery problems. Confirm all parts are present before installation.",
+        "Not for the LG slim washer or the top loader in this guide; compatibility depends on the exact Bosch appliances and their model revision."
+      ],
+      "suitability": {
+        "suits": [
+          "A compatible Bosch stack using the WQG24201AU dryer, with installation arranged",
+          "Households wanting a pull-out loading shelf between stacked appliances"
+        ],
+        "mayNotSuit": [
+          "Mixed-brand or slim-washer stacks",
+          "Renters or owners unwilling to use the required fixing method",
+          "Any unsupported stack on a pedestal"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "WQG24201AU approved accessories",
+          "publisher": "Bosch Australia",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/9001730323_C.pdf",
+          "supports": "Page 22 explicitly names WTZ11400 as the connection kit with pull-out worktop for this dryer. Page 11 requires a suitable same-manufacturer washing machine and forbids a stack on a platform.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Australian catalogue stacking compatibility table",
+          "publisher": "Bosch Australia",
+          "sourceUrl": "https://media3.bosch-home.com/Documents/26140678_BH6387B_2024_Laundry_Catalogue_FA_1.pdf",
+          "supports": "Catalogue currently linked by Bosch Australia brochures page on 12 October, page 29: WTZ11400 for WQG24201AU; all Bosch washers except WAN24126AU. WGG244A1AU is not the exception. This is published-rule support, not a manufacturer-issued named-pair certificate or a physical fitting test. Final E-Nr revision and installation must match supplied instructions.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "WTZ11400 full-size washer requirement",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bosch-home.com/Documents/specsheet/en-GB/WTZ11400.pdf",
+          "supports": "Same accessory specification states full-size washer depth greater than 55cm and requires compatibility with the dryer. WGG244A1AU has 590mm body depth. This international accessory document is used only for the dimensional rule; Australian dryer manual establishes the kit model.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WTZ11400 individual purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-stacking-kit-wtz11400",
+          "supports": "Read displayed individual reviews: shelf useful; mounting requires drilling; pictorial instructions need care; one owner reports paid assembly did not cover kit installation; missing-parts reports by R Redman treated as one issue, not two independent failures. Possible incentives. No installation service promise.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Kit ordering and installation scope",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-stacking-kit-wtz11400",
+          "supports": "Exact WTZ11400 kit offered by The Good Guys. Do not assume delivery includes fitting or apply appliance promotional warranty to this accessory.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact Australian retail offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-stacking-kit-wtz11400",
+          "supports": "Direct listing read 12 October: exact model, new-condition AUD 199.00 offer, structured InStock and seller The Good Guys. Add to Cart displayed. Price is a dated research observation, not a published price promise. Postcode delivery, installation and collection not verified.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "AHC destination and tracking configuration",
+          "publisher": "The Good Guys / AHC",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-stacking-kit-wtz11400",
+          "supports": "Verified direct Australian model listing and seller. Constructed destination uses the existing authorised AHC camref 1100l6vaUc and creativeref 1011l64579; decoded destination and repository tracking checks verified. No affiliate link clicked to manufacture a referral. Live network attribution and orders are not established by this check.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Scoped Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Exact-model indexed search restricted to productsafety.gov.au on 12 October returned no matching recall notice. This is not a complete register inspection or a safety certification; no safety performance claim is made.",
+          "checkedOn": "2026-10-12"
+        }
+      ],
+      "image": {
+        "src": "/images/products/bosch-wtz11400-640.webp",
+        "srcSet": "/images/products/bosch-wtz11400-320.webp 320w, /images/products/bosch-wtz11400-640.webp 640w, /images/products/bosch-wtz11400-960.webp 960w",
+        "width": 640,
+        "height": 362,
+        "alt": "Bosch WTZ11400 stacking kit with pull-out shelf product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50014131_795123.png?v=1776228001",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-12"
+      }
+    },
+    {
+      "id": "bosch-wqg24201au-laundry-fit-good-guys",
+      "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+      "name": "Bosch WQG24201AU 9kg heat pump dryer",
+      "productType": "Heat pump clothes dryer",
+      "summary": "A 9kg heat pump dryer to assess with the Bosch washer and model-specific stacking kit below. Its manual names WTZ11400; complete installation, controls and service access still need checking. Long cycles and filter maintenance are ownership tradeoffs.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-9kg-heat-pump-dryer-wqg24201au",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-12",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-12",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow for 648mm closed-door depth and 1,096mm with the door open; the 613mm body depth does not describe the whole machine.",
+        "This model does not have a self-cleaning condenser. Filters and the heat-exchanger area need the care set out in the manual.",
+        "Owner feedback includes long drying times and one report of a full load remaining damp after 5.5 hours. Smaller loads and program choice affect the result.",
+        "The manual permits an ambient temperature of 5–35°C. A closed cupboard still needs the specified installation conditions; use only an approved stacking combination."
+      ],
+      "suitability": {
+        "suits": [
+          "Regular drying where a heat pump and moisture sensing suit the routine",
+          "A suitable floor-standing position or the documented Bosch stack, with accessible controls, tank and maintenance points"
+        ],
+        "mayNotSuit": [
+          "Households needing the shortest possible cycles",
+          "An improvised wall mount or unsupported stack",
+          "A cupboard that cannot meet the operating and servicing requirements"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "WQG24201AU Australian specification sheet",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/specsheet/en-AU/WQG24201AU.pdf",
+          "supports": "Exact model: 9kg heat pump, AutoDry, seven-star energy label and no self-cleaning condenser. Body 842 high x 598 wide x 613mm deep. No running-cost savings percentage claimed.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "WQG24201AU instructions",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/9001730323_C.pdf",
+          "supports": "Read installation, operation, maintenance and technical data: closed-door depth 648mm, open-door depth 1096mm and ambient operating range 5–35°C. Filter and heat-exchanger care required.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WQG24201AU individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-9kg-heat-pump-dryer-wqg24201au",
+          "supports": "Read ten recent individual reviews and the sole one-star review from 31 total. Recurring long-cycle concerns; one full-load dampness report, with better smaller-load results. One-star review concerns delivery delay, not dryer failure. Excluded duplicated/misfiled washing-machine review. Possible incentives and limited sample; no reliability guarantee.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and warranty check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-9kg-heat-pump-dryer-wqg24201au",
+          "supports": "Exact live model and enabled Add to Cart verified on 11 October 2026. Two-year standard manufacturer warranty; any additional promotional cover requires its separate redemption conditions. Australian manufacturer service available. Delivery and collection depend on postcode.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Exact Bosch model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Searched exact WQG24201AU and SMS6HCI02A on 11 October 2026. No matching indexed notice found. Older Bosch S9 dishwasher recall relates to different models manufactured in 2000–2006. Scoped search, not certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Partnerize exact model destination check",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-9kg-heat-pump-dryer-wqg24201au",
+          "supports": "Opened this exact affiliate destination in browser on 11 October 2026. Correct model and enabled Add to Cart; clickref, rel, utm_source=Partner and utm_medium=shamus80 preserved. No order placed; QA click is not reader revenue.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Stacking assessment for the laundry measuring guide",
+          "publisher": "Bosch Australia",
+          "sourceUrl": "https://media3.bosch-home.com/Documents/26140678_BH6387B_2024_Laundry_Catalogue_FA_1.pdf",
+          "supports": "Current linked catalogue page 29 lists WQG24201AU with WTZ11400 and compatibility with Bosch washers except WAN24126AU. WGG244A1AU body dimensions meet the published full-size washer criterion; no physical trial installation or exact completed stack cavity is claimed.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Refreshed exact dryer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-9kg-heat-pump-dryer-wqg24201au",
+          "supports": "Direct exact-model listing rechecked 12 October: Add to Cart, structured InStock, seller The Good Guys. Delivery/installation require postcode confirmation; original ownership assessment dated 11 October retained.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Refreshed direct offer and configured destination",
+          "publisher": "The Good Guys / AHC",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-9kg-heat-pump-dryer-wqg24201au",
+          "supports": "On 12 October checked the decoded direct retailer destination: exact WQG24201AU, seller The Good Guys, new InStock offer and Add to Cart. Affiliate URL retains the existing authorised AHC camref and creativeref. No affiliate link opened in this review; current network attribution not established.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Dryer dimensions and approved kit recheck",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/9001730323_C.pdf",
+          "supports": "Manual read again 12 October: 842mm high, 598mm wide, 613mm body depth; 648mm closed door, 1096mm open door; 5–35°C ambient range. Page 22 names WTZ11400. Not a physical fit test.",
+          "checkedOn": "2026-10-12"
+        }
+      ],
+      "image": {
+        "src": "/images/products/bosch-wqg24201au-good-guys-640.webp",
+        "srcSet": "/images/products/bosch-wqg24201au-good-guys-320.webp 320w, /images/products/bosch-wqg24201au-good-guys-640.webp 640w, /images/products/bosch-wqg24201au-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 896,
+        "alt": "Bosch WQG24201AU 9kg heat pump dryer product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50086307_913613.png?v=1776381177",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-11"
       }
     }

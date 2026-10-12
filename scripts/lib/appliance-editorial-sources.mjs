@@ -7,6 +7,10 @@
 // LG evidence: docs/editorial/lg-fit-max-first-look-sources-2026-10-10.md
 // Washer update: docs/editorial/washer-affiliate-review-2026-10-10.json
 const reviewedSourceUrls = new Set([
+  // Research and drawing checks: appliance-opportunities-review-2026-10-12.json.
+  "https://media3.bosch-home.com/Documents/specsheet/en-AU/SPS6IKI01A.pdf",
+  "https://media3.bsh-group.com/Documents/9001730323_C.pdf",
+  "https://media3.bosch-home.com/Documents/26140678_BH6387B_2024_Laundry_Catalogue_FA_1.pdf",
   "https://gscs-b2c.lge.com/open/downloadFile?fileId=jgV66tg9OOmyZK4NTYKuQ",
   "https://gscs-b2c.lge.com/open/downloadFile?fileId=AkANO59AhNB39Twg3tgw",
   "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400mw/",
