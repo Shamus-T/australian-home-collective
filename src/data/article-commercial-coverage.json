@@ -825,7 +825,7 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "38781b7885a86cf273af4141a336680307695d857fb155fc24a33baca7d0ff1f",
+      "reviewedSourceSha256": "8c1b21c340e41565cc21e75b391c939691f3a4757507a48750829c3801581435",
       "requiredProductTypes": [
         {
           "label": "Top mount fridge",
@@ -849,7 +849,7 @@
       "contextualRoutes": [
         "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified affiliate offers. Unpaid retailer shopping alternatives removed on the same day; buying calls to action require approved affiliate tracking. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
+      "reviewScope": "Buying journey and comparison reviewed 12 October 2026. Only approved Good Guys affiliate shopping links. Dryer adds researched EDV605H3WC with live direct availability and official installation/owner evidence; condenser remains an explicit gap. Fridge adds mm/cm dimensions chart and model-specific width checks from existing verified sources. Other product review dates retained."
     },
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
@@ -1007,10 +1007,10 @@
     {
       "guidePath": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
       "title": "Heat Pump vs Condenser vs Vented Dryers",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "663674ad0e49d4af70f0f5f03adbe015d01a718bff4e49ae31a221770bfdc313",
+      "reviewedSourceSha256": "9f22ad2d9d19f16c464a436036cfeefb886a0578f01cba8f61c22b130a76abd5",
       "requiredProductTypes": [
         {
           "label": "Heat pump clothes dryer",
@@ -1019,16 +1019,22 @@
           ]
         },
         {
-          "label": "Conventional condenser and vented dryers",
+          "label": "Vented clothes dryer",
+          "productIds": [
+            "electrolux-edv605h3wc-good-guys"
+          ]
+        },
+        {
+          "label": "Conventional condenser clothes dryer",
           "productIds": [],
-          "gapReason": "Heat pump option added. F&P DE6060M2 remains unapproved after recurring mechanical complaints in reviewed owner feedback; no conventional condenser candidate cleared."
+          "gapReason": "No conventional condenser model has cleared research for this guide."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Buying journey and comparison reviewed 12 October 2026. Only approved Good Guys affiliate shopping links. Dryer adds researched EDV605H3WC with live direct availability and official installation/owner evidence; condenser remains an explicit gap. Fridge adds mm/cm dimensions chart and model-specific width checks from existing verified sources. Other product review dates retained."
     },
     {
       "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",

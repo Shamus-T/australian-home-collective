@@ -12179,6 +12179,114 @@
       }
     },
     {
+      "id": "electrolux-edv605h3wc-good-guys",
+      "guidePath": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
+      "name": "Electrolux EDV605H3WC 6kg vented dryer",
+      "productType": "Vented clothes dryer",
+      "summary": "A smaller vented option for occasional loads when the laundry has suitable exhaust and airflow. Sensor drying and reverse tumbling are useful features; the 6kg capacity and two-star energy rating are important limits. AHC has not tested it.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Felectrolux-6kg-vented-dryer-edv605h3wc",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-12",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-12",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 6kg maximum is smaller than many washers and the 9kg Bosch compared here. Mixed and bedding programs have lower limits; larger washing loads may need splitting.",
+        "A two-star energy label makes frequent use worth costing carefully against a suitable heat pump. No measured savings or cycle-time comparison is claimed.",
+        "A cupboard or small unvented laundry requires a venting kit. The manual limits a 100mm exhaust duct to 2m; check the route and inlet airflow before ordering.",
+        "The published 560mm body depth is not a complete installation allowance. The supplied series manual shows larger overall and open-door dimensions; confirm exact fit, clearances and any wall mounting with the retailer."
+      ],
+      "suitability": {
+        "suits": [
+          "Smaller occasional loads where upfront cost matters",
+          "A ventilated laundry with an appropriate exhaust route, or a manufacturer-compliant wall mounting installation"
+        ],
+        "mayNotSuit": [
+          "Whole 9kg washer loads without splitting",
+          "A small enclosed space without a compliant venting arrangement",
+          "Frequent drying where a suitable heat pump offers better lifetime cost"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "EDV605H3WC Australian specifications",
+          "publisher": "Electrolux",
+          "sourceUrl": "https://www.electrolux.com.au/laundry/dryers/edv605h3wc/",
+          "supports": "Exact 6kg vented model, sensor drying, reverse tumble, 600W x 795H x 560D mm body; two-star energy rating and 269kWh/year label. Two-year domestic warranty and wall mounting kit. No clinical hygiene or precise fast-cycle claim used.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Supplied EDV series user and installation manual",
+          "publisher": "Electrolux",
+          "sourceUrl": "https://www.electrolux.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjcyMTg1&lang=",
+          "supports": "Read official PDF and visually inspected pages 8–9. General drawings show maximum 625mm depth and 850mm height, distinct from exact-model body specifications. Floor clearance at least 30mm from wall; wall-mount drawing 50mm above/below. Cupboard/small unvented room needs vent kit; maximum 2m duct at 100mm diameter. Approved stacking kit required. Reviewed program limits and lint-filter maintenance. Exact-model installed envelope must be confirmed.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual EDV605H3WC purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/electrolux-6kg-vented-dryer-edv605h3wc",
+          "supports": "Read ten recent individual entries (eight with written feedback, two rating-only), dated 2 October to 24 June 2026, from 69 total. Written comments describe straightforward controls and effective drying; several mention quiet operation. This is a small retailer-hosted sample with possible incentives, not an independent reliability test. Did not treat the AI summary as owner evidence or prior-appliance lifespan as evidence for this model.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Live Australian listing and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/electrolux-6kg-vented-dryer-edv605h3wc",
+          "supports": "Exact model, seller and enabled Add to Cart observed on 12 October 2026. Two-year manufacturer warranty shown. Price promotion ends today, so no fixed price published. Postcode-specific delivery and collection remain buyer checks.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Exact-model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Exact Electrolux EDV605H3WC indexed recall search returned no matching result on 12 October 2026. Manufacturer recall page was also checked and showed a different oven model. Scoped search, not certification or a guarantee.",
+          "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved Good Guys destination and tracking structure",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Felectrolux-6kg-vented-dryer-edv605h3wc",
+          "supports": "Direct listing verified without clicking an affiliate URL. Link constructed using AHC established approved camref 1100l6vaUc and creativeref 1011l64579; encoded destination matches exact model. Structural tracking verification only; no artificial affiliate click, order or commission claimed.",
+          "checkedOn": "2026-10-12"
+        }
+      ],
+      "image": {
+        "src": "/images/products/electrolux-edv605h3wc-good-guys-640.webp",
+        "srcSet": "/images/products/electrolux-edv605h3wc-good-guys-320.webp 320w, /images/products/electrolux-edv605h3wc-good-guys-640.webp 640w, /images/products/electrolux-edv605h3wc-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 852,
+        "alt": "Electrolux EDV605H3WC 6kg vented dryer product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50093839_945297.png?v=1776233305",
+        "suppliedVia": "Public exact-model approved retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-12"
+      }
+    },
+    {
       "id": "bosch-sms6hci02a-good-guys",
       "guidePath": "/guides/dishwasher-sizes-australia/",
       "name": "Bosch SMS6HCI02A Series 6 freestanding dishwasher",

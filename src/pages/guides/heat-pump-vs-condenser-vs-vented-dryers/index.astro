@@ -2,6 +2,7 @@
 import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
+import applianceComparisons from "../../../data/appliance-buying-comparisons.json";
 
 const relatedGuides = [
   {
@@ -44,13 +45,13 @@ const faqs = [
 
 <ArticleLayout
   title="Heat Pump vs Condenser vs Vented Dryers"
-  seoTitle="Heat Pump vs Condenser vs Vented Dryer Australia"
-  description="Compare heat pump, condenser and vented clothes dryers for Australian homes, including energy, ventilation, cycle time, installation and maintenance."
+  seoTitle="Heat Pump vs Condenser vs Vented Dryers: Costs & Fit"
+  description="Choose a dryer for your Australian laundry. Compare heat pump, condenser and vented types, energy costs, venting, capacity and two researched models."
   category="Laundry"
   date="Updated October 2026"
   datePublished="2026-07-23"
-  dateModified="2026-10-11"
-  readingTime="6 minute read"
+  dateModified="2026-10-12"
+  readingTime="8 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
   image="/images/guides/dryer-types-australia.webp"
@@ -65,6 +66,24 @@ const faqs = [
     The better fit depends on how often the dryer runs, whether moist air can be
     ducted outside, how quickly loads need to finish and what the household can spend upfront.
   </p>
+
+  <section aria-labelledby="dryer-choice-heading">
+    <h2 id="dryer-choice-heading">Which dryer type should you shortlist?</h2>
+    <ul class="feature-list">
+      <li><strong>Frequent loads, no exhaust duct:</strong> start with heat pump if you can afford the higher purchase price and allow longer cycles.</li>
+      <li><strong>Occasional loads, a smaller budget:</strong> consider vented if the room and exhaust arrangement meet the manual. Some models also permit wall mounting.</li>
+      <li><strong>No vent path, heat pump beyond budget:</strong> compare conventional condenser, allowing for room heat and higher electricity use. We have not yet assessed an exact model for this guide.</li>
+    </ul>
+    <p>First rule out anything that cannot handle your usual load or fit safely. Then compare the total installed price and the cost of the drying you actually do.</p>
+  </section>
+  <nav aria-label="Dryer buying guide sections">
+    <ul>
+      <li><a href="#dryer-comparison-heading">Compare all three dryer types</a></li>
+      <li><a href="#commercial-products-heat-pump-vs-condenser-vs-vented-dryers">Compare two researched dryers</a></li>
+      <li><a href="#dryer-running-cost-heading">Work out running costs</a></li>
+      <li><a href="#dryer-order-heading">Check installation and delivered cost</a></li>
+    </ul>
+  </nav>
 
   <section aria-labelledby="dryer-comparison-heading">
     <h2 id="dryer-comparison-heading">Dryer types compared</h2>
@@ -104,9 +123,9 @@ const faqs = [
     </div>
   </section>
 
-  <CommercialProductBlock guidePath="/guides/heat-pump-vs-condenser-vs-vented-dryers/" title="A heat pump dryer to compare" intro="Before you compare this heat pump dryer, measure the closed and open door depth and plan access to its filters and tank. We have not yet assessed a conventional condenser or vented model for recommendation; the type comparison above explains their differences." variant="quick" />
+  <CommercialProductBlock guidePath="/guides/heat-pump-vs-condenser-vs-vented-dryers/" title="Two dryers for different laundry routines" intro="Before you compare prices, check capacity, installed depth and ventilation. The 9kg Bosch heat pump suits larger, regular loads; consider the 6kg Electrolux vented model for smaller, occasional loads with suitable exhaust. They are different capacities, not a like-for-like efficiency contest. Both assessments use documents and owner feedback, not firsthand AHC testing." variant="comparison" comparisonDetails={applianceComparisons} />
 
-  <h2>Calculate running cost from the label, not the star count alone</h2>
+  <h2 id="dryer-running-cost-heading">Calculate running cost from the label, not the star count alone</h2>
   <p>
     The Australian Government explains that the annual dryer figure is based on one full load per
     week. Actual energy use changes with load size, program, moisture left by the washer and how
@@ -119,6 +138,24 @@ const faqs = [
     of similar capacity. A large machine with the same star rating as a smaller one may still use
     more electricity.
   </p>
+
+  <section aria-labelledby="dryer-payback-heading">
+    <h3 id="dryer-payback-heading">Will a higher purchase price pay back?</h3>
+    <p>For similar loads, multiply the difference in electricity used per cycle by your tariff and yearly cycles. Then divide the extra installed purchase cost by that yearly saving. Use comparable capacity and program figures; do not treat the two differently sized dryers above as a controlled comparison.</p>
+    <p><strong>Illustration only:</strong> if a suitable dryer costs $500 more installed and saves 2kWh per comparable cycle, electricity at $0.30/kWh saves $0.60 a load. At three loads a week, that is $93.60 a year and about 5.3 years to recover the premium. At one load a week, it is $31.20 a year and about 16 years. These are assumed figures, not measured results for either model, and exclude repairs, future tariffs and appliance lifespan.</p>
+  </section>
+
+  <section aria-labelledby="dryer-order-heading">
+    <h2 id="dryer-order-heading">Check the whole installation before the price</h2>
+    <ul class="feature-list">
+      <li><strong>Bosch WQG24201AU:</strong> allow 648mm closed-door depth and 1,096mm with the door open, plus access and the manual's clearances. It needs filter and heat-exchanger care; it is not a self-cleaning-condenser model.</li>
+      <li><strong>Electrolux EDV605H3WC:</strong> the published body is 600mm wide × 795mm high × 560mm deep. Do not use body depth as the complete installed depth. Its series manual includes larger overall dimensions and door-opening drawings; confirm the exact installation with the retailer.</li>
+      <li><strong>For the Electrolux vent:</strong> a cupboard or small unvented laundry requires a venting kit. The manual specifies a maximum 2m exhaust duct at 100mm diameter, with clear inlet airflow. Check the duct route before buying.</li>
+      <li><strong>If wall mounting:</strong> Electrolux supplies a mounting kit, but suitable wall construction, fitting and the illustrated clearances still need checking. Neither model may be placed on a washer without an approved combination and kit.</li>
+    </ul>
+    <p>Compare the exact model's current price plus delivery, old-appliance removal, any vent or stacking kit and installation. Enter your postcode to confirm stock and delivery dates. All shopping links here use AHC's approved The Good Guys affiliate relationship.</p>
+    <p>Installation sources: <a href="https://media3.bsh-group.com/Documents/9001730323_C.pdf" target="_blank" rel="noopener noreferrer">Bosch instructions</a>; <a href="https://www.electrolux.com.au/laundry/dryers/edv605h3wc/" target="_blank" rel="noopener noreferrer">Electrolux specifications</a> and <a href="https://www.electrolux.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjcyMTg1&amp;lang=#page=8" target="_blank" rel="noopener noreferrer">its installation manual, pages 8–10</a>. Electrolux documents and Australian listing checked 12 October 2026; Bosch assessment checked 11 October.</p>
+  </section>
 
   <h2>Room ventilation is still relevant for every type</h2>
   <p>
@@ -178,30 +215,10 @@ const faqs = [
     <li>Allow access for servicing without removing permanent cabinetry.</li>
   </ul>
 
-  <h2>Which dryer type suits which household?</h2>
-  <div class="advice-stack">
-    <section>
-      <h3>Choose heat pump when use is frequent</h3>
-      <p>
-        The higher purchase price is easier to justify when the dryer runs several times a week,
-        electricity cost matters and longer cycles fit the routine.
-      </p>
-    </section>
-    <section>
-      <h3>Choose condenser when the vent is difficult</h3>
-      <p>
-        A conventional condenser may suit occasional use when there is no external vent path and
-        the budget does not reach a good heat pump model. Plan for heat and higher energy use.
-      </p>
-    </section>
-    <section>
-      <h3>Choose vented when the setup supports it</h3>
-      <p>
-        A vented model can be practical for occasional loads, a lower purchase budget or wall
-        mounting when the exact model permits it. Effective exhaust or room ventilation is essential.
-      </p>
-    </section>
-  </div>
-
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>
+
+<style>
+  :global(html) { scroll-padding-top: 14rem; }
+  @media (min-width: 901px) { :global(html) { scroll-padding-top: 8rem; } }
+</style>

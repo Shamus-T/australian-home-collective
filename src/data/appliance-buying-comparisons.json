@@ -38,5 +38,15 @@
     "reason": "A bottom freezer with 308L fridge space and 128L freezer space; compare when side clearance is tight.",
     "fit": "697mm body width; 705mm including two 4mm side gaps.",
     "tradeoff": "Still needs more than 50mm behind, overhead clearance and door access. The small side gap is not permission to push it against the back wall."
+  },
+  "bosch-wqg24201au-good-guys": {
+    "reason": "9kg heat pump for regular, larger loads where energy use matters more than quick cycles.",
+    "fit": "598mm wide × 842mm high; 648mm closed-door depth.",
+    "tradeoff": "Allow 1,096mm door-open depth and maintenance access. Higher upfront cost, long cycles and filter/heat-exchanger care; not wall mountable."
+  },
+  "electrolux-edv605h3wc-good-guys": {
+    "reason": "6kg vented for smaller, occasional loads when a suitable exhaust arrangement is available.",
+    "fit": "600mm wide × 795mm high × 560mm deep body; installation needs more space.",
+    "tradeoff": "Smaller capacity, two-star energy rating and moist exhaust. Confirm installed depth, ventilation, fitting and any optional vent kit before comparing total cost."
   }
 }
