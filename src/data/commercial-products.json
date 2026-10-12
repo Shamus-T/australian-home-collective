@@ -11508,44 +11508,7 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50097772_1047025.png?v=1776381176",
         "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-10"
-      },
-      "additionalRetailers": [
-        {
-          "merchant": "Appliances Online",
-          "destinationUrl": "https://www.appliancesonline.com.au/product/bosch-series-8-9kg-front-load-washing-machine-with-i-dos-wgg244a1au/",
-          "affiliate": false,
-          "affiliateNetwork": null,
-          "approvedForAffiliateUse": false,
-          "affiliateValidation": {
-            "checkedOn": "2026-10-12",
-            "destinationStatus": "reachable",
-            "productIdentityStatus": "verified",
-            "australianAvailabilityStatus": "available-to-order",
-            "listingStatus": "baseline-recorded",
-            "specificationsStatus": "matched",
-            "safetyComplianceStatus": "not-applicable",
-            "trackingStatus": "not-applicable"
-          },
-          "sourceRecords": [
-            {
-              "sourceType": "seller-fulfilment",
-              "title": "Exact-model direct retailer comparison",
-              "publisher": "Appliances Online",
-              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-series-8-9kg-front-load-washing-machine-with-i-dos-wgg244a1au/",
-              "checkedOn": "2026-10-12",
-              "supports": "Read the live public Appliances Online listing in browser on 12 October 2026. Exact model and variant matched to Bosch WGG244A1AU 9kg front loader; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
-            },
-            {
-              "sourceType": "australian-availability-support",
-              "title": "Australian ordering availability",
-              "publisher": "Appliances Online",
-              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-series-8-9kg-front-load-washing-machine-with-i-dos-wgg244a1au/",
-              "checkedOn": "2026-10-12",
-              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
-            }
-          ]
-        }
-      ]
+      }
     },
     {
       "id": "nespresso-bec220blk-good-guys",
@@ -11766,44 +11729,7 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50098873_1061127.png?v=1776817069",
         "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-10"
-      },
-      "additionalRetailers": [
-        {
-          "merchant": "JB Hi-Fi",
-          "destinationUrl": "https://www.jbhifi.com.au/products/lg-wx3-1208w-series-3-8kg-ai-compact-front-load-washer-white",
-          "affiliate": false,
-          "affiliateNetwork": null,
-          "approvedForAffiliateUse": false,
-          "affiliateValidation": {
-            "checkedOn": "2026-10-12",
-            "destinationStatus": "reachable",
-            "productIdentityStatus": "verified",
-            "australianAvailabilityStatus": "available-to-order",
-            "listingStatus": "baseline-recorded",
-            "specificationsStatus": "matched",
-            "safetyComplianceStatus": "not-applicable",
-            "trackingStatus": "not-applicable"
-          },
-          "sourceRecords": [
-            {
-              "sourceType": "seller-fulfilment",
-              "title": "Exact-model direct retailer comparison",
-              "publisher": "JB Hi-Fi",
-              "sourceUrl": "https://www.jbhifi.com.au/products/lg-wx3-1208w-series-3-8kg-ai-compact-front-load-washer-white",
-              "checkedOn": "2026-10-12",
-              "supports": "Read the live public JB Hi-Fi listing in browser on 12 October 2026. Exact model and variant matched to LG WX3-1208W 8kg slim front loader; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
-            },
-            {
-              "sourceType": "australian-availability-support",
-              "title": "Australian ordering availability",
-              "publisher": "JB Hi-Fi",
-              "sourceUrl": "https://www.jbhifi.com.au/products/lg-wx3-1208w-series-3-8kg-ai-compact-front-load-washer-white",
-              "checkedOn": "2026-10-12",
-              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
-            }
-          ]
-        }
-      ]
+      }
     },
     {
       "id": "lg-wtx3-09g-good-guys",
@@ -14537,44 +14463,7 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50074928_772014.png?v=1776229440",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-12"
-      },
-      "additionalRetailers": [
-        {
-          "merchant": "Appliances Online",
-          "destinationUrl": "https://www.appliancesonline.com.au/product/bosch-serie-6-freestanding-dishwasher-sps6iki01a/",
-          "affiliate": false,
-          "affiliateNetwork": null,
-          "approvedForAffiliateUse": false,
-          "affiliateValidation": {
-            "checkedOn": "2026-10-12",
-            "destinationStatus": "reachable",
-            "productIdentityStatus": "verified",
-            "australianAvailabilityStatus": "available-to-order",
-            "listingStatus": "baseline-recorded",
-            "specificationsStatus": "matched",
-            "safetyComplianceStatus": "not-applicable",
-            "trackingStatus": "not-applicable"
-          },
-          "sourceRecords": [
-            {
-              "sourceType": "seller-fulfilment",
-              "title": "Exact-model direct retailer comparison",
-              "publisher": "Appliances Online",
-              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-serie-6-freestanding-dishwasher-sps6iki01a/",
-              "checkedOn": "2026-10-12",
-              "supports": "Read the live public Appliances Online listing in browser on 12 October 2026. Exact model and variant matched to Bosch SPS6IKI01A 45cm freestanding dishwasher; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
-            },
-            {
-              "sourceType": "australian-availability-support",
-              "title": "Australian ordering availability",
-              "publisher": "Appliances Online",
-              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-serie-6-freestanding-dishwasher-sps6iki01a/",
-              "checkedOn": "2026-10-12",
-              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
-            }
-          ]
-        }
-      ]
+      }
     },
     {
       "id": "westinghouse-wtm4302wd-r-good-guys",
@@ -14697,44 +14586,7 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50094050_949001.png?v=1776231571",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-12"
-      },
-      "additionalRetailers": [
-        {
-          "merchant": "Appliances Online",
-          "destinationUrl": "https://www.appliancesonline.com.au/product/westinghouse-431l-top-mount-refrigerator-white-right-hinge-wtm4302wd-r/",
-          "affiliate": false,
-          "affiliateNetwork": null,
-          "approvedForAffiliateUse": false,
-          "affiliateValidation": {
-            "checkedOn": "2026-10-12",
-            "destinationStatus": "reachable",
-            "productIdentityStatus": "verified",
-            "australianAvailabilityStatus": "available-to-order",
-            "listingStatus": "baseline-recorded",
-            "specificationsStatus": "matched",
-            "safetyComplianceStatus": "not-applicable",
-            "trackingStatus": "not-applicable"
-          },
-          "sourceRecords": [
-            {
-              "sourceType": "seller-fulfilment",
-              "title": "Exact-model direct retailer comparison",
-              "publisher": "Appliances Online",
-              "sourceUrl": "https://www.appliancesonline.com.au/product/westinghouse-431l-top-mount-refrigerator-white-right-hinge-wtm4302wd-r/",
-              "checkedOn": "2026-10-12",
-              "supports": "Read the live public Appliances Online listing in browser on 12 October 2026. Exact model and variant matched to Westinghouse WTM4302WD-R 431L top mount fridge; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
-            },
-            {
-              "sourceType": "australian-availability-support",
-              "title": "Australian ordering availability",
-              "publisher": "Appliances Online",
-              "sourceUrl": "https://www.appliancesonline.com.au/product/westinghouse-431l-top-mount-refrigerator-white-right-hinge-wtm4302wd-r/",
-              "checkedOn": "2026-10-12",
-              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
-            }
-          ]
-        }
-      ]
+      }
     },
     {
       "id": "bosch-wtz11400-good-guys",
@@ -14998,44 +14850,7 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50086307_913613.png?v=1776381177",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-11"
-      },
-      "additionalRetailers": [
-        {
-          "merchant": "Appliances Online",
-          "destinationUrl": "https://www.appliancesonline.com.au/product/bosch-9kg-series-8-heat-pump-tumble-dryer-wqg24201au/",
-          "affiliate": false,
-          "affiliateNetwork": null,
-          "approvedForAffiliateUse": false,
-          "affiliateValidation": {
-            "checkedOn": "2026-10-12",
-            "destinationStatus": "reachable",
-            "productIdentityStatus": "verified",
-            "australianAvailabilityStatus": "available-to-order",
-            "listingStatus": "baseline-recorded",
-            "specificationsStatus": "matched",
-            "safetyComplianceStatus": "not-applicable",
-            "trackingStatus": "not-applicable"
-          },
-          "sourceRecords": [
-            {
-              "sourceType": "seller-fulfilment",
-              "title": "Exact-model direct retailer comparison",
-              "publisher": "Appliances Online",
-              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-9kg-series-8-heat-pump-tumble-dryer-wqg24201au/",
-              "checkedOn": "2026-10-12",
-              "supports": "Read the live public Appliances Online listing in browser on 12 October 2026. Exact model and variant matched to Bosch WQG24201AU 9kg heat pump dryer; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
-            },
-            {
-              "sourceType": "australian-availability-support",
-              "title": "Australian ordering availability",
-              "publisher": "Appliances Online",
-              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-9kg-series-8-heat-pump-tumble-dryer-wqg24201au/",
-              "checkedOn": "2026-10-12",
-              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
-            }
-          ]
-        }
-      ]
+      }
     },
     {
       "id": "lg-gb-b400ps-fridge-fit-good-guys",

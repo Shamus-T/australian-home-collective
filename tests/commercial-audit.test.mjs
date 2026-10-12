@@ -375,7 +375,7 @@ test("the shared commercial component renders automatic affiliate tracking metad
     "data-commercial-merchant={offer.merchant}",
     "data-commercial-destination-host={new URL(offer.destinationUrl).hostname}",
     'data-affiliate-trackable={offer.affiliate ? "true" : undefined}',
-    'rel={offer.affiliate ? "sponsored nofollow noopener noreferrer" : "noopener noreferrer"}',
+    'rel="sponsored nofollow noopener noreferrer"',
   ]) {
     assert.ok(source.includes(contract), `missing commercial tracking contract: ${contract}`);
   }

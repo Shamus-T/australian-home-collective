@@ -66,28 +66,13 @@
     "retailerOffer": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["merchant", "destinationUrl", "affiliate", "affiliateNetwork", "approvedForAffiliateUse", "affiliateValidation", "sourceRecords"],
-      "allOf": [{
-        "if": { "properties": { "affiliate": { "const": true } } },
-        "then": {
-          "required": ["commission"],
-          "properties": { "approvedForAffiliateUse": { "const": true }, "affiliateNetwork": { "type": "string" } }
-        },
-        "else": {
-          "properties": {
-            "approvedForAffiliateUse": { "const": false },
-            "affiliateNetwork": { "type": "null" },
-            "affiliateValidation": { "properties": { "trackingStatus": { "const": "not-applicable" } } }
-          },
-          "not": { "required": ["commission"] }
-        }
-      }],
+      "required": ["merchant", "destinationUrl", "affiliate", "affiliateNetwork", "approvedForAffiliateUse", "affiliateValidation", "sourceRecords", "commission"],
       "properties": {
         "merchant": { "type": "string", "minLength": 1 },
         "destinationUrl": { "type": "string", "format": "uri" },
-        "affiliate": { "type": "boolean" },
-        "affiliateNetwork": { "enum": ["amazon-australia", "partnerize", "commission-factory", "direct", "other", null] },
-        "approvedForAffiliateUse": { "type": "boolean" },
+        "affiliate": { "const": true },
+        "affiliateNetwork": { "enum": ["amazon-australia", "partnerize", "commission-factory", "direct", "other"] },
+        "approvedForAffiliateUse": { "const": true },
         "affiliateValidation": { "$ref": "#/$defs/affiliateValidation" },
         "sourceRecords": { "$ref": "#/$defs/product/properties/sourceRecords" },
         "commission": { "$ref": "#/$defs/commission" }
@@ -308,7 +293,7 @@
         "safetyComplianceStatus": {
           "enum": ["matched", "not-applicable", "mismatch", "unverified"]
         },
-        "trackingStatus": { "enum": ["verified", "invalid", "unverified", "not-applicable"] }
+        "trackingStatus": { "enum": ["verified", "invalid", "unverified"] }
       }
     }
   }

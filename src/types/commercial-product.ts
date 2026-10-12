@@ -63,7 +63,7 @@ export type AffiliateSafetyComplianceStatus =
   | "mismatch"
   | "unverified";
 
-export type AffiliateTrackingStatus = "verified" | "invalid" | "unverified" | "not-applicable";
+export type AffiliateTrackingStatus = "verified" | "invalid" | "unverified";
 
 export interface ProductSourceRecord {
   sourceType: ProductSourceType;

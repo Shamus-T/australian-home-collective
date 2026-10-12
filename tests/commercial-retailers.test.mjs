@@ -108,37 +108,13 @@ test('duplicate merchants, duplicate destinations and malformed offers fail clos
   assert.deepEqual(getRetailerOfferErrors(input, options), ['additionalRetailers must be an array.']);
 });
 
-function reference() {
-  const offer = retailer('Appliances Online', 0);
+test('unpaid retailer references cannot enter commercial buying options', () => {
+  const input = product();
+  const offer = input.additionalRetailers[0];
   offer.affiliate = false;
-  offer.affiliateNetwork = null;
   offer.approvedForAffiliateUse = false;
+  offer.affiliateNetwork = null;
   offer.affiliateValidation.trackingStatus = 'not-applicable';
   delete offer.commission;
-  return offer;
-}
-
-test('verified non-affiliate alternatives follow affiliate offers without inventing commission rates', () => {
-  const input = product();
-  delete input.commission;
-  input.additionalRetailers = [reference()];
-  assert.deepEqual(getOrderedRetailers(input, options).map(o => o.merchant), ['Amazon', 'Appliances Online']);
-});
-
-test('non-affiliate alternatives must be available, evidenced and free of affiliate attribution', () => {
-  for (const mutate of [
-    o => { o.affiliateValidation.australianAvailabilityStatus = 'unavailable'; },
-    o => { o.affiliateValidation.productIdentityStatus = 'mismatch'; },
-    o => { o.sourceRecords = []; },
-    o => { o.affiliateValidation.checkedOn = '2025-01-01'; },
-    o => { o.affiliateNetwork = 'amazon-australia'; },
-    o => { o.destinationUrl += '?tag=unapproved'; },
-    o => { o.approvedForAffiliateUse = true; },
-    o => { o.affiliateValidation.trackingStatus = 'verified'; },
-  ]) {
-    const input = product(); delete input.commission;
-    input.additionalRetailers = [reference()];
-    mutate(input.additionalRetailers[0]);
-    assert.throws(() => getOrderedRetailers(input, options));
-  }
+  assert.throws(() => getOrderedRetailers(input, options), /explicit affiliate approval/);
 });

@@ -37,7 +37,7 @@ const {
 const products = getApprovedProductsForGuide(guidePath);
 const retailers = new Map(products.map((product) => [product.id, getRetailersForProduct(product)]));
 const hasAffiliateLinks = [...retailers.values()].some((offers) => offers.some((offer) => offer.affiliate));
-const hasMultipleRetailers = [...retailers.values()].some((offers) => offers.filter(offer => offer.affiliate).length > 1);
+const hasMultipleRetailers = [...retailers.values()].some((offers) => offers.length > 1);
 const sectionId = getCommercialSectionId(guidePath);
 const primaryProducts = products.filter(product => !accessoryProductIds.includes(product.id));
 const accessories = products.filter(product => accessoryProductIds.includes(product.id));

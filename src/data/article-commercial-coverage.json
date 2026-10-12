@@ -683,7 +683,7 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "50a9b8758e9f2ca6f600e79b52afacce9632f98b81a029e19fccde4f88f06395",
+      "reviewedSourceSha256": "8d8726ed0a52485e1321fc929281ffcbd80481196e7f8514f2c4d0e592aadb5b",
       "requiredProductTypes": [
         {
           "label": "60cm freestanding dishwasher",
@@ -705,7 +705,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified exact-model non-affiliate retailer alternatives. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
+      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified affiliate offers. Unpaid retailer shopping alternatives removed on the same day; buying calls to action require approved affiliate tracking. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",
@@ -825,7 +825,7 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "41d3486869cfd4a42a20e9f8a385fe3da40857720b14f6160efb45b32b238bec",
+      "reviewedSourceSha256": "38781b7885a86cf273af4141a336680307695d857fb155fc24a33baca7d0ff1f",
       "requiredProductTypes": [
         {
           "label": "Top mount fridge",
@@ -849,7 +849,7 @@
       "contextualRoutes": [
         "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified exact-model non-affiliate retailer alternatives. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
+      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified affiliate offers. Unpaid retailer shopping alternatives removed on the same day; buying calls to action require approved affiliate tracking. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
     },
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
@@ -2961,7 +2961,7 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "41fc5bb2835403db09a61b1b6772540b834894105c56da9cfff78a34f88fcf0f",
+      "reviewedSourceSha256": "461d1cac559c5c89d67d58b3d2fe2ded49c99f7b5109262c9b5a25fb78240897",
       "requiredProductTypes": [
         {
           "label": "Front load washing machine",
@@ -2996,7 +2996,7 @@
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified exact-model non-affiliate retailer alternatives. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
+      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified affiliate offers. Unpaid retailer shopping alternatives removed on the same day; buying calls to action require approved affiliate tracking. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
     },
     {
       "guidePath": "/guides/what-size-air-conditioner-do-i-need/",
