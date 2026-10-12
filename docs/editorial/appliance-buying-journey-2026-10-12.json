@@ -1,0 +1,37 @@
+{
+  "reviewedOn": "2026-10-12",
+  "scope": "Washer/laundry, dishwasher sizes and fridge dimensions buying journeys",
+  "changes": [
+    "Fit-led comparisons with capacity, a reason to consider each option, the installation constraint and ownership trade-off.",
+    "Comparison tables become individual labelled comparisons below 768px; approved affiliate artwork is retained.",
+    "Five exact-model non-affiliate retail alternatives registered with their own evidence and explicitly excluded from affiliate-click attribution.",
+    "Existing stainless LG GB-B400PS assessment and permitted imagery reused in the fridge dimensions guide alongside the Westinghouse top mount.",
+    "Postcode delivery, installation, removal, stacking-kit and hinge/finish checks added before ordering. No product testing or lowest-price claims added."
+  ],
+  "evidenceBasis": [
+    "Existing product/manufacturer assessments: commercial-products.json sourceRecords; appliance-opportunities-review-2026-10-12.json; washer-affiliate-review-2026-10-10.json; lg-fit-max-first-look-sources-2026-10-10.md.",
+    "Live browser inspection of direct public retailer listings on 12 October. Exact model, variant and ordering interface inspected. No affiliate link clicks, cart changes or purchases.",
+    "All eight existing Good Guys laundry/dishwasher/Westinghouse product listings exposed enabled Add to Cart. LG GB-B400PS direct listing also exposed Add to Cart and correct capacity/variant.",
+    "HTTP refresh failed certificate verification; it was not bypassed. Browser evidence was used instead."
+  ],
+  "newRetailerReferences": [
+    {"productId":"bosch-wgg244a1au-good-guys","retailer":"Appliances Online","url":"https://www.appliancesonline.com.au/product/bosch-series-8-9kg-front-load-washing-machine-with-i-dos-wgg244a1au/","affiliate":false},
+    {"productId":"lg-wx3-1208w-good-guys","retailer":"JB Hi-Fi","url":"https://www.jbhifi.com.au/products/lg-wx3-1208w-series-3-8kg-ai-compact-front-load-washer-white","affiliate":false},
+    {"productId":"bosch-sps6iki01a-good-guys","retailer":"Appliances Online","url":"https://www.appliancesonline.com.au/product/bosch-serie-6-freestanding-dishwasher-sps6iki01a/","affiliate":false},
+    {"productId":"westinghouse-wtm4302wd-r-good-guys","retailer":"Appliances Online","url":"https://www.appliancesonline.com.au/product/westinghouse-431l-top-mount-refrigerator-white-right-hinge-wtm4302wd-r/","affiliate":false},
+    {"productId":"bosch-wqg24201au-laundry-fit-good-guys","retailer":"Appliances Online","url":"https://www.appliancesonline.com.au/product/bosch-9kg-series-8-heat-pump-tumble-dryer-wqg24201au/","affiliate":false}
+  ],
+  "limitations": [
+    "No additional affiliate program approval or commission rate was inferred. Existing affiliate ranking policy remains intact among approved affiliate offers; plain comparison references follow those offers.",
+    "Cached search prices differed from live prices, so product prices were not published as static promises. Readers are directed to current exact-model offers and total-order checks.",
+    "Postcode-specific inventory, service eligibility and delivery dates remain reader checks. Availability is available-to-order, not a nationwide stock guarantee.",
+    "The LG top-loader alternative was researched but not added because this pass did not establish a sufficiently clear current ordering signal. No alternative was forced onto the full-width dishwasher or stacking kit.",
+    "Existing manufacturer clearances and ownership assessments retain their original dates and limits; no fresh testing or long-term reliability evidence is claimed."
+  ],
+  "measurement": {
+    "changeDate":"2026-10-12",
+    "baselineCompleteDates":"2026-09-28 to 2026-10-11",
+    "comparisonCompleteDates":"2026-10-13 to 2026-10-26 after reporting settles",
+    "notes":"These are additional changes on the original change day. Keep labelled QA/internal visits separate. Non-affiliate links must never count as affiliate_click. Merchant reports establish orders and commission; no cohort attribution from shared Amazon tracking ID."
+  }
+}

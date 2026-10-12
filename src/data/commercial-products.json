@@ -11508,7 +11508,44 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50097772_1047025.png?v=1776381176",
         "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-10"
-      }
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "Appliances Online",
+          "destinationUrl": "https://www.appliancesonline.com.au/product/bosch-series-8-9kg-front-load-washing-machine-with-i-dos-wgg244a1au/",
+          "affiliate": false,
+          "affiliateNetwork": null,
+          "approvedForAffiliateUse": false,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-12",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "available-to-order",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "not-applicable"
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model direct retailer comparison",
+              "publisher": "Appliances Online",
+              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-series-8-9kg-front-load-washing-machine-with-i-dos-wgg244a1au/",
+              "checkedOn": "2026-10-12",
+              "supports": "Read the live public Appliances Online listing in browser on 12 October 2026. Exact model and variant matched to Bosch WGG244A1AU 9kg front loader; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian ordering availability",
+              "publisher": "Appliances Online",
+              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-series-8-9kg-front-load-washing-machine-with-i-dos-wgg244a1au/",
+              "checkedOn": "2026-10-12",
+              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "nespresso-bec220blk-good-guys",
@@ -11729,7 +11766,44 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50098873_1061127.png?v=1776817069",
         "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-10"
-      }
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "JB Hi-Fi",
+          "destinationUrl": "https://www.jbhifi.com.au/products/lg-wx3-1208w-series-3-8kg-ai-compact-front-load-washer-white",
+          "affiliate": false,
+          "affiliateNetwork": null,
+          "approvedForAffiliateUse": false,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-12",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "available-to-order",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "not-applicable"
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model direct retailer comparison",
+              "publisher": "JB Hi-Fi",
+              "sourceUrl": "https://www.jbhifi.com.au/products/lg-wx3-1208w-series-3-8kg-ai-compact-front-load-washer-white",
+              "checkedOn": "2026-10-12",
+              "supports": "Read the live public JB Hi-Fi listing in browser on 12 October 2026. Exact model and variant matched to LG WX3-1208W 8kg slim front loader; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian ordering availability",
+              "publisher": "JB Hi-Fi",
+              "sourceUrl": "https://www.jbhifi.com.au/products/lg-wx3-1208w-series-3-8kg-ai-compact-front-load-washer-white",
+              "checkedOn": "2026-10-12",
+              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "lg-wtx3-09g-good-guys",
@@ -14463,7 +14537,44 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50074928_772014.png?v=1776229440",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-12"
-      }
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "Appliances Online",
+          "destinationUrl": "https://www.appliancesonline.com.au/product/bosch-serie-6-freestanding-dishwasher-sps6iki01a/",
+          "affiliate": false,
+          "affiliateNetwork": null,
+          "approvedForAffiliateUse": false,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-12",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "available-to-order",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "not-applicable"
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model direct retailer comparison",
+              "publisher": "Appliances Online",
+              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-serie-6-freestanding-dishwasher-sps6iki01a/",
+              "checkedOn": "2026-10-12",
+              "supports": "Read the live public Appliances Online listing in browser on 12 October 2026. Exact model and variant matched to Bosch SPS6IKI01A 45cm freestanding dishwasher; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian ordering availability",
+              "publisher": "Appliances Online",
+              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-serie-6-freestanding-dishwasher-sps6iki01a/",
+              "checkedOn": "2026-10-12",
+              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "westinghouse-wtm4302wd-r-good-guys",
@@ -14586,7 +14697,44 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50094050_949001.png?v=1776231571",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-12"
-      }
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "Appliances Online",
+          "destinationUrl": "https://www.appliancesonline.com.au/product/westinghouse-431l-top-mount-refrigerator-white-right-hinge-wtm4302wd-r/",
+          "affiliate": false,
+          "affiliateNetwork": null,
+          "approvedForAffiliateUse": false,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-12",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "available-to-order",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "not-applicable"
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model direct retailer comparison",
+              "publisher": "Appliances Online",
+              "sourceUrl": "https://www.appliancesonline.com.au/product/westinghouse-431l-top-mount-refrigerator-white-right-hinge-wtm4302wd-r/",
+              "checkedOn": "2026-10-12",
+              "supports": "Read the live public Appliances Online listing in browser on 12 October 2026. Exact model and variant matched to Westinghouse WTM4302WD-R 431L top mount fridge; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian ordering availability",
+              "publisher": "Appliances Online",
+              "sourceUrl": "https://www.appliancesonline.com.au/product/westinghouse-431l-top-mount-refrigerator-white-right-hinge-wtm4302wd-r/",
+              "checkedOn": "2026-10-12",
+              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "bosch-wtz11400-good-guys",
@@ -14850,6 +14998,165 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50086307_913613.png?v=1776381177",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-11"
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "Appliances Online",
+          "destinationUrl": "https://www.appliancesonline.com.au/product/bosch-9kg-series-8-heat-pump-tumble-dryer-wqg24201au/",
+          "affiliate": false,
+          "affiliateNetwork": null,
+          "approvedForAffiliateUse": false,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-12",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "available-to-order",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "not-applicable"
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model direct retailer comparison",
+              "publisher": "Appliances Online",
+              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-9kg-series-8-heat-pump-tumble-dryer-wqg24201au/",
+              "checkedOn": "2026-10-12",
+              "supports": "Read the live public Appliances Online listing in browser on 12 October 2026. Exact model and variant matched to Bosch WQG24201AU 9kg heat pump dryer; direct retail offer, not a substituted model or marketplace seller. Plain non-affiliate URL with no commission or affiliate tracking. No cart action or purchase."
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian ordering availability",
+              "publisher": "Appliances Online",
+              "sourceUrl": "https://www.appliancesonline.com.au/product/bosch-9kg-series-8-heat-pump-tumble-dryer-wqg24201au/",
+              "checkedOn": "2026-10-12",
+              "supports": "Live exact-model listing exposed Add to Cart and Australian ordering. Delivery, local stock and installation depend on postcode. Existing browser location context is not a nationwide promise. Prices differ from cached search snippets, so no static retailer price or blanket service inclusion is published."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lg-gb-b400ps-fridge-fit-good-guys",
+      "guidePath": "/guides/fridge-dimensions-australia/",
+      "name": "LG 436L Fit & Max — Stainless (GB-B400PS)",
+      "productType": "436L bottom mount fridge · Stainless",
+      "summary": "A 436L bottom-mount option to compare when small side gaps and a larger freezer compartment suit your kitchen. Its 697mm body plus LG’s 4mm side gaps totals 705mm; rear space, overhead clearance and delivery access still matter. Read the linked first look for the full fit assessment.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-10",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-10",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Confirm the exact finish and postcode delivery price before ordering.",
+        "Allow 4 mm each side, 9 mm above and more than 50 mm behind; confirm the complete installation with LG.",
+        "No automatic ice maker, water dispenser or folding shelf; long-term owner evidence is limited."
+      ],
+      "suitability": {
+        "suits": [
+          "households wanting the stainless finish and a 436-litre bottom mount layout",
+          "kitchens where the verified side gaps and door opening measurements work"
+        ],
+        "mayNotSuit": [
+          "households needing a larger freezer or automatic water and ice",
+          "openings that cannot accommodate the rear ventilation allowance"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "LG GB-B400PS Australian specifications",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/fridge-freezers/bottom-mount/gb-b400ps/",
+          "supports": "Exact finish; 436 L split 308/128; 697 x 1740 x 696 mm; 261 kWh/year; 5.5 stars; 4 mm recommended side gap; DoorCooling+; reversible doors. No folding shelf, Fresh Converter, automatic ice maker or water dispenser.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "LG Australian warranty",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://www.lg.com/au/support/warranty/",
+          "supports": "Two-year product warranty, additional sealed-system and compressor parts cover; not ten years of full parts and labour.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "LG owner manual MFL05784816/00, pages 11–12",
+          "publisher": "LG Australia",
+          "sourceUrl": "https://gscs-b2c.lge.com/open/downloadFile?fileId=Ku5jhJkd1wtwzBvNmhPZ9g",
+          "supports": "Manual linked from GB-B400MW support: more than 50 mm rear clearance; dimensions; door reversal by qualified LG personnel. Multi-model optional features are not treated as included.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model customer review availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+          "supports": "No reviews found on the exact retailer listing at review. No recurring owner themes established. This evidence gap is disclosed; placement concerns verified fit and features, not a reliability recommendation.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "LG GB-B400PS listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+          "supports": "Exact model and finish in Australian retail page. AUD 1299.00 observed; structured offer InStock, seller The Good Guys. Delivery and collection require postcode confirmation; no nationwide stock promise.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for GB-B400 variants",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search-index checks restricted to productsafety.gov.au for GB-B400MW, GB-B400PS, GB-B400BS and GB-B400MB found no matching recall notices on 10 October 2026. Direct register request returned Access Denied; not represented as a complete register inspection or certification.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "GB-B400PS Partnerize destination",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Flg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+          "supports": "Live redirect tested: HTTP 200 at the matching Good Guys model URL with clickref retained. Configured AHC campaign camref 1100l6vaUc; exact model and finish verified separately on retailer page. Seller is The Good Guys; postcode-specific fulfilment remains for checkout.",
+          "checkedOn": "2026-10-10"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Refreshed offer for fridge comparison placement",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+          "checkedOn": "2026-10-12",
+          "supports": "Live direct listing inspected 12 October 2026: exact stainless GB-B400PS, 308L fridge plus 128L freezer, and Add to Cart. Existing authorised affiliate URL reused without generating a QA referral. Postcode stock and delivery not guaranteed; the prior model assessment and image provenance are retained."
+        }
+      ],
+      "image": {
+        "src": "/images/products/lg-gb-b400ps-640.webp",
+        "srcSet": "/images/products/lg-gb-b400ps-320.webp 129w, /images/products/lg-gb-b400ps-640.webp 257w, /images/products/lg-gb-b400ps-960.webp 386w",
+        "alt": "LG GB-B400PS bottom mount fridge in stainless, viewed from the front.",
+        "width": 257,
+        "height": 640,
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50100462_1090494.png?v=1791242790",
+        "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-10"
       }
     }
   ]

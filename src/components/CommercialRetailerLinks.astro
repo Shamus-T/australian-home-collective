@@ -22,14 +22,14 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
       <li>
         <a
           class:list={[
-            "commercial-retailer-link",
+            offer.affiliate ? "commercial-retailer-link" : "commercial-retailer-reference",
             { "commercial-retailer-link--amazon": offer.affiliateNetwork === "amazon-australia" },
             { "commercial-retailer-link--good-guys": isGoodGuys(offer) },
           ]}
           href={offer.destinationUrl}
           target="_blank"
-          rel="sponsored nofollow noopener noreferrer"
-          aria-label={`Check current price and availability of ${product.name} at ${offer.merchant}`}
+          rel={offer.affiliate ? "sponsored nofollow noopener noreferrer" : "noopener noreferrer"}
+          aria-label={`Check current price and availability of ${product.name} at ${offer.merchant}${offer.affiliate ? '' : ' (non-affiliate link)'}`}
           aria-describedby={showDisclosure ? disclosureId : undefined}
           data-commercial-link={offer.affiliate ? "affiliate" : "retailer"}
           data-commercial-placement={placement}
@@ -41,7 +41,9 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
           data-commercial-destination-host={new URL(offer.destinationUrl).hostname}
           data-affiliate-trackable={offer.affiliate ? "true" : undefined}
         >
-          {isGoodGuys(offer) ? (
+          {!offer.affiliate ? (
+            <span>Compare at {offer.merchant}<br /><small>Non-affiliate link</small></span>
+          ) : isGoodGuys(offer) ? (
             <svg class="commercial-retailer-artwork" data-retailer-artwork="good-guys" viewBox="0 0 868 185" width="212" height="45.2" aria-hidden="true" focusable="false">
               <image href={goodGuysArtworkDataUrl} width="868" height="185" />
             </svg>
@@ -56,7 +58,12 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
   </ul>
   {showDisclosure && (
     <p class="commercial-retailer-disclosure" id={disclosureId}>
-      We may earn commission through these links.{offers.length > 1 && " Higher-paying partners appear first."}
+      We may earn commission through the affiliate links.{offers.filter(offer => offer.affiliate).length > 1 && " Higher-paying partners appear first."}
     </p>
   )}
 </div>
+
+<style>
+  .commercial-retailer-reference { display: inline-block; max-width: 212px; padding: .5rem 0; line-height: 1.45; text-align: center; }
+  .commercial-retailer-reference small { color: #52605a; font-size: .8rem; }
+</style>

@@ -52,8 +52,12 @@ export function getRetailerOfferErrors(product, {
     const merchant = typeof offer.merchant === 'string' ? offer.merchant.trim().toLowerCase() : '';
     if (index > 0) {
       if (!merchant || !isHttps(offer.destinationUrl)) errors.push(`${prefix} needs a retailer name and HTTPS destination.`);
-      if (offer.affiliate !== true || offer.approvedForAffiliateUse !== true || !networks.has(offer.affiliateNetwork)) {
+      if (offer.affiliate === true && (offer.approvedForAffiliateUse !== true || !networks.has(offer.affiliateNetwork))) {
         errors.push(`${prefix} needs explicit affiliate approval and a configured network.`);
+      }
+      if (offer.affiliate !== true && (offer.affiliate !== false || offer.approvedForAffiliateUse !== false
+        || offer.affiliateNetwork !== null || /(?:[?&](?:tag|ascsubtag|clickref|affiliate|affid)=|camref:)/i.test(offer.destinationUrl))) {
+        errors.push(`${prefix} non-affiliate references must have no affiliate approval, network or tracking parameters.`);
       }
       const validation = offer.affiliateValidation;
       if (!validation || !currentDate(validation.checkedOn, today, reviewIntervalDays)
@@ -63,7 +67,7 @@ export function getRetailerOfferErrors(product, {
         || !['baseline-recorded', 'unchanged'].includes(validation.listingStatus)
         || validation.specificationsStatus !== 'matched'
         || !['matched', 'not-applicable'].includes(validation.safetyComplianceStatus)
-        || validation.trackingStatus !== 'verified') {
+        || validation.trackingStatus !== (offer.affiliate ? 'verified' : 'not-applicable')) {
         errors.push(`${prefix} needs current verification of the exact model/variant, Australian availability, specifications, safety and tracking.`);
       }
       const sources = Array.isArray(offer.sourceRecords) ? offer.sourceRecords : [];
@@ -86,7 +90,7 @@ export function getRetailerOfferErrors(product, {
     merchants.add(merchant);
 
     const commission = offer.commission;
-    if (offers.length > 1 && offer.affiliate && !commission) {
+    if (offers.filter((entry) => entry?.affiliate === true).length > 1 && offer.affiliate && !commission) {
       errors.push(`${prefix} needs a verified product-specific commission rate before retailer ordering.`);
     }
     if (commission !== undefined) {
@@ -112,6 +116,7 @@ export function getOrderedRetailers(product, options = {}) {
   const errors = getRetailerOfferErrors(product, options);
   if (errors.length) throw new Error(`Commercial product "${product.id}": ${errors.join(' ')}`);
   return getRegisteredRetailers(product).sort((a, b) =>
-    (b.commission?.ratePercent ?? 0) - (a.commission?.ratePercent ?? 0)
+    Number(b.affiliate) - Number(a.affiliate)
+    || (b.commission?.ratePercent ?? 0) - (a.commission?.ratePercent ?? 0)
     || a.merchant.localeCompare(b.merchant, 'en-AU'));
 }

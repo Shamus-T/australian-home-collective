@@ -1,6 +1,7 @@
 ---
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
+import applianceComparisons from "../../../data/appliance-buying-comparisons.json";
 import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
@@ -103,6 +104,8 @@ const faqs = [
       <li><a href="#washing-machine-measurement-resource">Follow the measuring diagrams</a></li>
       <li><a href="#current-washer-examples-heading">Compare real model and installation dimensions</a></li>
       <li><a href="#washer-shortlist-heading">Choose which washer is worth a closer look</a></li>
+      <li><a href="#commercial-products-washing-machine-and-dryer-space-what-to-measure-before-buying-storage">Compare the appliances and retailers</a></li>
+      <li><a href="#laundry-order-heading">Check the complete order and installation cost</a></li>
       <li><a href="#bosch-stack-heading">Check a Bosch washer, dryer and stacking-kit combination</a></li>
       <li><a href="#front-and-top-loader-space">Check front-loader, top-loader and dryer opening space</a></li>
     </ul>
@@ -167,6 +170,16 @@ const faqs = [
     <p><strong>Only a 600mm-wide opening?</strong> Neither LG example fits once its specified side gaps are included. The Bosch manual describes a 600mm niche for a particular under-worktop arrangement; check the full installation requirements rather than choosing by body width alone.</p>
   </section>
 
+  <CommercialProductBlock
+    guidePath="/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
+    variant="comparison" comparisonDetails={applianceComparisons}
+    title="Compare the washers and Bosch heat pump dryer"
+    intro="Compare the three washer choices first. The fourth row is a separate dryer, not a washer alternative or a bundled price. Retailer links open the exact models; the kit is listed separately below. These are research-based assessments, not firsthand tests."
+    accessoryProductIds={["bosch-wtz11400-good-guys"]}
+    accessoryTitle="The kit for the Bosch stack above"
+    accessoryIntro="A compatible connection kit is required when stacking these appliances. WTZ11400 includes the pull-out shelf; check the complete model revisions and installation instructions before ordering. It is not needed for a side-by-side installation."
+  />
+
   <section aria-labelledby="current-washer-examples-heading" data-appliance-model-examples="washing-machine">
     <h2 id="current-washer-examples-heading">Three washing machines to compare for fit</h2>
     <p>A conventional front loader, a shallower front loader and a top loader solve different space problems. These are the same three models assessed below, with retailer links and ownership drawbacks. Dimensions were checked against Australian specifications and installation manuals on <time datetime="2026-10-10">10 October 2026</time>. AHC has not tested these washers firsthand.</p>
@@ -201,15 +214,13 @@ const faqs = [
     <p>The dryer is worth considering if low-temperature heat-pump drying suits your routine. Allow for long cycles, possible extra drying of bulky loads and filter/heat-exchanger maintenance; it does not have a self-cleaning condenser. Our <a href="/guides/heat-pump-vs-condenser-vs-vented-dryers/">dryer-type comparison</a> explains the wider tradeoffs. The kit's shelf can help with loading, but does not solve an inaccessible or unstable installation.</p>
   </section>
 
-  <CommercialProductBlock
-    guidePath="/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
-    variant="quick"
-    title="Compare the washers and Bosch heat pump dryer"
-    intro="Choose a washer for your available space and usual loads. The Bosch dryer is a separate purchase, and its model-specific stacking kit appears after the appliances. Open the additional notes for fit limits, ownership concerns and the evidence behind each assessment."
-    accessoryProductIds={["bosch-wtz11400-good-guys"]}
-    accessoryTitle="The kit for the Bosch stack above"
-    accessoryIntro="A compatible connection kit is required when stacking these appliances. WTZ11400 includes the pull-out shelf; check the complete model revisions and installation instructions before ordering. It is not needed for a side-by-side installation."
-  />
+
+  <section aria-labelledby="laundry-order-heading">
+    <h2 id="laundry-order-heading">Compare the complete laundry order</h2>
+    <p>Compare the exact model and finish, then the total after delivery, connection and removal of your old appliance. Enter your postcode at each retailer; a headline delivery offer does not confirm service at your home.</p>
+    <p><strong>Buying the Bosch stack?</strong> Price the washer, dryer and WTZ11400 kit separately, then ask whether the quote includes fitting the kit and lifting and securing the dryer. Basic appliance connection is not the same service as stacking installation. Confirm the full model revisions with the installer before paying.</p>
+    <p>The Good Guys links are affiliate links. The labelled Appliances Online and JB Hi-Fi alternatives are non-affiliate comparisons; AHC earns no commission through those links. Listings checked 12 October 2026; confirm current price and delivery date before ordering.</p>
+  </section>
 
   <h3>What the owner feedback adds</h3>
   <p>Recent Bosch owners commonly like its quiet operation and automatic dosing. The LG slim washer attracts praise for its compact fit and ease of use, but noise reports vary. LG top-loader owners often like the controls and everyday washing; other feedback raises concerns about forceful agitation and limited gentle-cycle adjustments. Try the controls and drum reach yourself if those are important to you.</p>

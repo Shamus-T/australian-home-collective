@@ -20,6 +20,7 @@ interface Props {
   accessoryProductIds?: string[];
   accessoryTitle?: string;
   accessoryIntro?: string;
+  comparisonDetails?: Record<string, { reason: string; fit: string; tradeoff: string }>;
 }
 
 const {
@@ -28,6 +29,7 @@ const {
   intro = "These options have been checked against the measurements and buying questions in this guide.",
   variant = "solution",
   accessoryProductIds = [],
+  comparisonDetails = {},
   accessoryTitle = "Optional setup accessories",
   accessoryIntro = "These do not replace the appliance. Check what is included and buy an extra only when it solves a specific setup problem.",
 } = Astro.props;
@@ -35,7 +37,7 @@ const {
 const products = getApprovedProductsForGuide(guidePath);
 const retailers = new Map(products.map((product) => [product.id, getRetailersForProduct(product)]));
 const hasAffiliateLinks = [...retailers.values()].some((offers) => offers.some((offer) => offer.affiliate));
-const hasMultipleRetailers = [...retailers.values()].some((offers) => offers.length > 1);
+const hasMultipleRetailers = [...retailers.values()].some((offers) => offers.filter(offer => offer.affiliate).length > 1);
 const sectionId = getCommercialSectionId(guidePath);
 const primaryProducts = products.filter(product => !accessoryProductIds.includes(product.id));
 const accessories = products.filter(product => accessoryProductIds.includes(product.id));
@@ -57,7 +59,7 @@ const formatDate = (date: string) =>
 
 {products.length > 0 && (
   <section
-    class={`commercial-product-block commercial-product-block--${displayVariant}`}
+    class:list={[`commercial-product-block commercial-product-block--${displayVariant}`, { 'commercial-product-block--appliance': Object.keys(comparisonDetails).length > 0 }]}
     aria-labelledby={sectionId}
     data-commercial-product-block
     data-accessory-product-ids={accessoryProductIds.join(" ")}
@@ -75,7 +77,7 @@ const formatDate = (date: string) =>
     )}
     {showComparison && (
       <>
-      <p class="commercial-comparison-hint" id={`${sectionId}-hint`}>Compare the fit and main trade-off. On a small screen, scroll across the table for retailer links.</p>
+      <p class="commercial-comparison-hint" id={`${sectionId}-hint`}>{Object.keys(comparisonDetails).length ? "Compare the fit and main trade-off, then check the exact model at the retailer. On a small screen, each option appears as a separate comparison." : "Compare the fit and main trade-off. On a small screen, scroll across the table for retailer links."}</p>
       <div class="commercial-product-comparison-wrap" role="region" aria-label={`${title} comparison`} aria-describedby={`${sectionId}-hint`} tabindex="0">
         <table class="commercial-product-comparison">
           <caption>Compare these researched options</caption>
@@ -93,9 +95,14 @@ const formatDate = (date: string) =>
                   <a href={`#product-${product.id}`}>{product.name}</a>{" "}
                   <span class="commercial-comparison-type">{product.productType}</span>
                 </th>
-                <td>{product.suitability.suits[0]}</td>
-                <td>{product.drawbacks[0]}</td>
-                <td>
+                <td data-label="May suit">{comparisonDetails[product.id]?.reason ?? product.suitability.suits[0]}</td>
+                <td data-label="Check first">
+                  {comparisonDetails[product.id] ? <>
+                    <strong>{comparisonDetails[product.id].fit}</strong><br />
+                    {comparisonDetails[product.id].tradeoff}
+                  </> : product.drawbacks[0]}
+                </td>
+                <td data-label="Retailer prices and availability">
                   <CommercialRetailerLinks product={product} offers={retailers.get(product.id)!} placement="comparison" />
                 </td>
               </tr>
@@ -254,6 +261,22 @@ const formatDate = (date: string) =>
 </script>
 
 <style>
+  .commercial-product-block--appliance .commercial-product-comparison { min-width: 0; }
+  .commercial-product-block--appliance .commercial-product-comparison thead th:last-child { width: 240px; }
+  @media (max-width: 767px) {
+    .commercial-product-block--appliance .commercial-product-comparison-wrap { overflow: visible; border: 0; }
+    .commercial-product-block--appliance .commercial-product-comparison,
+    .commercial-product-block--appliance .commercial-product-comparison caption,
+    .commercial-product-block--appliance .commercial-product-comparison tbody,
+    .commercial-product-block--appliance .commercial-product-comparison tr,
+    .commercial-product-block--appliance .commercial-product-comparison th,
+    .commercial-product-block--appliance .commercial-product-comparison td { display: block; width: 100%; box-sizing: border-box; }
+    .commercial-product-block--appliance .commercial-product-comparison thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+    .commercial-product-block--appliance .commercial-product-comparison tr { margin-bottom: 20px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+    .commercial-product-block--appliance .commercial-product-comparison th { background: #e8eee5; border-top: 0; }
+    .commercial-product-block--appliance .commercial-product-comparison td::before { content: attr(data-label); display: block; font-weight: 700; color: var(--green-dark); margin-bottom: 6px; }
+    .commercial-product-block--appliance .commercial-product-comparison td:last-child { text-align: center; }
+  }
   @media (min-width: 900px) {
     .commercial-product-grid[data-product-count="4"] {
       grid-template-columns: repeat(2, minmax(0, 1fr));

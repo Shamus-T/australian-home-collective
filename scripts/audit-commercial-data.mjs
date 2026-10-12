@@ -971,7 +971,7 @@ if (checkDist) {
         if (attributeValue(anchor, "target") !== "_blank") {
           addError(relativePath + " commercial product " + productId + " is missing safe target handling.");
         }
-        if (!hasRelTokens(anchor, ["sponsored", "nofollow", "noopener", "noreferrer"])) {
+        if (!hasRelTokens(anchor, offer.affiliate ? ["sponsored", "nofollow", "noopener", "noreferrer"] : ["noopener", "noreferrer"])) {
           addError(
             relativePath + " commercial product " + productId
             + " must use rel=\"sponsored nofollow noopener noreferrer\".",

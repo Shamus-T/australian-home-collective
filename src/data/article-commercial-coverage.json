@@ -683,7 +683,7 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "2aa75ac747421856812b4f6b405bb2cb132a3d72d4b0d92144febdb266608b84",
+      "reviewedSourceSha256": "50a9b8758e9f2ca6f600e79b52afacce9632f98b81a029e19fccde4f88f06395",
       "requiredProductTypes": [
         {
           "label": "60cm freestanding dishwasher",
@@ -705,7 +705,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "New exact-model research and direct Australian retailer availability checks for slimline dishwasher, top mount fridge and Bosch stacking kit; existing Bosch washer/dryer ownership evidence retained, offers refreshed. Full research, provenance and limitations in docs/editorial/appliance-opportunities-review-2026-10-12.json."
+      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified exact-model non-affiliate retailer alternatives. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",
@@ -825,7 +825,7 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "1b13dc4899cb2f811b10f9a6c44001769d56979467cf3b9964ccdd026f20c55f",
+      "reviewedSourceSha256": "41d3486869cfd4a42a20e9f8a385fe3da40857720b14f6160efb45b32b238bec",
       "requiredProductTypes": [
         {
           "label": "Top mount fridge",
@@ -834,16 +834,22 @@
           ]
         },
         {
+          "label": "Bottom mount fridge with small side gaps",
+          "productIds": [
+            "lg-gb-b400ps-fridge-fit-good-guys"
+          ]
+        },
+        {
           "label": "Other measured fridge models",
           "productIds": [],
-          "gapReason": "Bosch and Fisher & Paykel remain measuring references. LG buying options are available through the contextual guide."
+          "gapReason": "Bosch and Fisher & Paykel remain measuring references; not assessed buying recommendations. The existing LG assessment is now directly placed here."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "New exact-model research and direct Australian retailer availability checks for slimline dishwasher, top mount fridge and Bosch stacking kit; existing Bosch washer/dryer ownership evidence retained, offers refreshed. Full research, provenance and limitations in docs/editorial/appliance-opportunities-review-2026-10-12.json."
+      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified exact-model non-affiliate retailer alternatives. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
     },
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
@@ -2955,7 +2961,7 @@
       "reviewedOn": "2026-10-12",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "6de6421cb66b33e801e652f01f2840b75a280eb3243e800130c3568880ed2226",
+      "reviewedSourceSha256": "41fc5bb2835403db09a61b1b6772540b834894105c56da9cfff78a34f88fcf0f",
       "requiredProductTypes": [
         {
           "label": "Front load washing machine",
@@ -2990,7 +2996,7 @@
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "New exact-model research and direct Australian retailer availability checks for slimline dishwasher, top mount fridge and Bosch stacking kit; existing Bosch washer/dryer ownership evidence retained, offers refreshed. Full research, provenance and limitations in docs/editorial/appliance-opportunities-review-2026-10-12.json."
+      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified exact-model non-affiliate retailer alternatives. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
     },
     {
       "guidePath": "/guides/what-size-air-conditioner-do-i-need/",

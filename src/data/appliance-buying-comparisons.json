@@ -1,0 +1,42 @@
+{
+  "bosch-wgg244a1au-good-guys": {
+    "reason": "9kg front loading with automatic liquid-detergent dosing; the washer to assess for the Bosch stack below.",
+    "fit": "598mm wide; 636mm deep with the door closed.",
+    "tradeoff": "Allow 1,073mm with the door open plus usable loading space. Dosing needs the right settings and cleaning; a stacked dryer and kit cost extra."
+  },
+  "lg-wx3-1208w-good-guys": {
+    "reason": "8kg loads where front-to-back space is limited and the dryer can go elsewhere.",
+    "fit": "600mm wide; 535mm deep with the door closed.",
+    "tradeoff": "Allow 20mm each side and 100mm behind. It cannot support a stacking kit; owner reports on noise vary."
+  },
+  "lg-wtx3-09g-good-guys": {
+    "reason": "9kg loads and top access, with no benchtop or dryer above the washer.",
+    "fit": "590mm wide; fully open lid reaches 1,339mm high.",
+    "tradeoff": "Allow 20mm each side and 100mm behind. Check drum reach and gentle-cycle controls in person."
+  },
+  "bosch-wqg24201au-laundry-fit-good-guys": {
+    "reason": "A separate 9kg heat pump dryer for floor-standing use or the documented Bosch stack.",
+    "fit": "598mm wide; 648mm deep with the door closed.",
+    "tradeoff": "Allow 1,096mm door-open depth and maintenance access. Expect long cycles; budget for the approved kit and fitting if stacking."
+  },
+  "bosch-sms6hci02a-good-guys": {
+    "reason": "A full-width freestanding replacement when the cabinet and loading space suit a 60cm machine.",
+    "fit": "600mm wide × 845mm high × 600mm deep body.",
+    "tradeoff": "Door-open depth is 1,155mm before standing room. Confirm cavity dimensions and worktop arrangements; this is not an integrated cabinet-door model."
+  },
+  "bosch-sps6iki01a-good-guys": {
+    "reason": "A 45cm freestanding option where a full-width dishwasher cannot fit; 10 place settings.",
+    "fit": "450mm wide × 845mm high × 600mm deep body.",
+    "tradeoff": "The narrower racks sacrifice room for bulky cookware. Check your largest pans, the required cavity and hose route; body width alone does not prove fit."
+  },
+  "westinghouse-wtm4302wd-r-good-guys": {
+    "reason": "A top freezer with 329L fridge space and 102L freezer space; useful if fresh-food capacity takes priority.",
+    "fit": "699mm body width; 759mm including the two 30mm side gaps.",
+    "tradeoff": "Allow 90mm above and 50mm behind in the documented arrangement. This white right-hinge model needs extra hinge-side room for shelf removal near a wall."
+  },
+  "lg-gb-b400ps-fridge-fit-good-guys": {
+    "reason": "A bottom freezer with 308L fridge space and 128L freezer space; compare when side clearance is tight.",
+    "fit": "697mm body width; 705mm including two 4mm side gaps.",
+    "tradeoff": "Still needs more than 50mm behind, overhead clearance and door access. The small side gap is not permission to push it against the back wall."
+  }
+}

@@ -1,6 +1,7 @@
 ---
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
+import applianceComparisons from "../../../data/appliance-buying-comparisons.json";
 import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
@@ -77,6 +78,8 @@ const faqs = [
     <ul>
       <li><a href="#dishwasher-dimensions-heading">Check the opening, services and door space</a></li>
       <li><a href="#dishwasher-choice-heading">Choose between 45cm, 60cm and integrated formats</a></li>
+      <li><a href="#commercial-products-dishwasher-sizes-australia">Compare suitable models and retailers</a></li>
+      <li><a href="#dishwasher-order-heading">Compare delivery and installation costs</a></li>
       <li><a href="#dishwasher-measurement-resource">Follow the measuring diagrams</a></li>
       <li><a href="#current-dishwasher-examples-heading">Compare real model and cavity dimensions</a></li>
       <li><a href="#dishwasher-measurement-checklist">Use the final checklist before ordering</a></li>
@@ -109,7 +112,7 @@ const faqs = [
     <p>The two assessed options below cover 45cm and 60cm freestanding machines. The narrower model saves width but sacrifices rack capacity: check your largest pans and plates, not just the place-setting count. The drawer and integrated examples further down explain fit; they have not been assessed as buying recommendations.</p>
   </section>
 
-  <CommercialProductBlock guidePath="/guides/dishwasher-sizes-australia/" title="45cm and 60cm freestanding dishwashers to compare" intro="Choose the width your installation can accommodate, then compare rack layout, noise and ownership drawbacks. These are research-based assessments, not firsthand tests. Check delivery and installation for your postcode before ordering." variant="quick" />
+  <CommercialProductBlock guidePath="/guides/dishwasher-sizes-australia/" title="45cm and 60cm freestanding dishwashers to compare" intro="Choose the width your installation can accommodate, then compare rack layout, noise and ownership drawbacks. These are research-based assessments, not firsthand tests. Check delivery and installation for your postcode before ordering." variant="comparison" comparisonDetails={applianceComparisons} />
 
   <p>The slimline SPS6IKI01A has an upper cutlery/knife rack, rather than a full third cutlery drawer. Individual owners praise its small-space fit and cleaning, while the reviewed sample also includes dispenser and front-panel rust complaints. Our dimensions and rack description follow <a href="https://media3.bosch-home.com/Documents/specsheet/en-AU/SPS6IKI01A.pdf" target="_blank" rel="noopener noreferrer">Bosch's Australian specification sheet</a>, checked on <time datetime="2026-10-12">12 October 2026</time>. Use the model's installation instructions for the opening and connections.</p>
 
@@ -161,6 +164,13 @@ const faqs = [
         </tbody>
       </table>
     </div>
+  </section>
+
+  <section aria-labelledby="dishwasher-order-heading">
+    <h2 id="dishwasher-order-heading">Compare the installed price, not just the dishwasher</h2>
+    <p>First rule out the wrong width and installation type. For the remaining exact model, compare the appliance price, delivery, old-machine removal and installation. Confirm whether the quote covers disconnection, hose routing and any plumbing or cabinetry work your kitchen needs.</p>
+    <p>A 45cm machine saves cabinet width, but it does not necessarily save money. Check your largest cookware against the narrower rack before paying. Neither freestanding option above is a substitute for an integrated dishwasher with a matching cabinet panel.</p>
+    <p>The Good Guys links are affiliate links. The labelled Appliances Online option is a non-affiliate comparison for the same SPS6IKI01A; AHC earns no commission through it. Listings checked 12 October 2026. Enter your postcode for current delivery and installation options.</p>
   </section>
 
   <ApplianceMeasurementResource appliance="dishwasher" />
