@@ -1,0 +1,27 @@
+{
+  "checkedOn": "2026-10-13",
+  "tariffAudPerKwh": 0.30,
+  "labelLoadsPerYear": 52,
+  "loadsPerWeek": [1, 3, 5, 7],
+  "vented": {
+    "model": "EDV705H3WC",
+    "capacityKg": 7,
+    "stars": 2,
+    "annualKwh": 315,
+    "publishedRrpAud": 799,
+    "specificationUrl": "https://www.electrolux.com.au/laundry/dryers/edv705h3wc/",
+    "rrpSourceUrl": "https://media.binglee.com.au/2/c/4/c/2c4c16582f3116c2816c9ab95f88f61ef6e7ee9b_EDV705H3WC___Specifications_Sheet.pdf"
+  },
+  "heatPump": {
+    "model": "EDH803P5WC",
+    "capacityKg": 8,
+    "stars": 8,
+    "annualKwh": 130,
+    "publishedRrpAud": 1499,
+    "specificationUrl": "https://www.electrolux.com.au/laundry/dryers/edh803p5wc/",
+    "rrpSourceUrl": "https://media.binglee.com.au/6/6/8/3/6683a84f8bace2816722d542b031a3a2f7fd2d01_EDH803P5WC___Specifications_Sheet.pdf"
+  },
+  "labelBasisUrl": "https://www.energyrating.gov.au/consumer-information/understand-energy-rating-label",
+  "method": "Annual label kWh is based on one full load per week. Divide by 52 for an indicative full rated-load cycle; multiply annual kWh by weekly loads and the assumed usage tariff for annual electricity cost. Compare 7kg and 8kg rated loads, not an equal-mass test. RRP payback is the 700 AUD difference divided by annual electricity savings, excluding other costs.",
+  "priceSourceNote": "Manufacturer-authored fact sheets hosted by Bing Lee explicitly show the RRPs on page 1. Current Electrolux-generated fact sheets omit RRP. These are published RRP reference figures, not verified current selling prices or a claim that RRP has been freshly reaffirmed by the manufacturer."
+}

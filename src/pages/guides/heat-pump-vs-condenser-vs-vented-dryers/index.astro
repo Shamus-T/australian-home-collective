@@ -3,6 +3,19 @@ import CommercialProductBlock from "../../../components/CommercialProductBlock.a
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 import applianceComparisons from "../../../data/appliance-buying-comparisons.json";
+import dryerEnergy from "../../../data/dryer-running-cost-comparison.json";
+
+const { vented, heatPump, tariffAudPerKwh: tariff, labelLoadsPerYear } = dryerEnergy;
+const rrpPremium = heatPump.publishedRrpAud - vented.publishedRrpAud;
+const labelSaving = vented.annualKwh - heatPump.annualKwh;
+const money = (amount: number) => new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(amount);
+const annualExamples = dryerEnergy.loadsPerWeek.map(loads => ({
+  loads,
+  ventedCost: vented.annualKwh * loads * tariff,
+  heatPumpCost: heatPump.annualKwh * loads * tariff,
+  saving: labelSaving * loads * tariff,
+  payback: rrpPremium / (labelSaving * loads * tariff),
+}));
 
 const relatedGuides = [
   {
@@ -125,24 +138,88 @@ const faqs = [
 
   <CommercialProductBlock guidePath="/guides/heat-pump-vs-condenser-vs-vented-dryers/" title="Two dryers for different laundry routines" intro="Before you compare prices, check capacity, installed depth and ventilation. The 9kg Bosch heat pump suits larger, regular loads; consider the 6kg Electrolux vented model for smaller, occasional loads with suitable exhaust. They are different capacities, not a like-for-like efficiency contest. Both assessments use documents and owner feedback, not firsthand AHC testing." variant="comparison" comparisonDetails={applianceComparisons} />
 
-  <h2 id="dryer-running-cost-heading">Calculate running cost from the label, not the star count alone</h2>
+  <h2 id="dryer-running-cost-heading">Heat pump versus vented: what do the running costs look like?</h2>
   <p>
-    The Australian Government explains that the annual dryer figure is based on one full load per
-    week. Actual energy use changes with load size, program, moisture left by the washer and how
-    often the machine runs. See the <a href="https://www.energyrating.gov.au/consumer-information/understand-energy-rating-label" target="_blank" rel="noopener noreferrer">Energy Rating Label guide</a>{" "}
-    for the assumptions and calculation method.
+    The energy difference can be substantial. Electrolux publishes {vented.annualKwh}kWh/year for its {vented.capacityKg}kg {vented.model} vented dryer and {heatPump.annualKwh}kWh/year for its {heatPump.capacityKg}kg {heatPump.model} heat pump dryer. That is <strong>about {Math.round(labelSaving / vented.annualKwh * 100)}% less
+    energy on the published figures</strong>, despite the heat pump model's larger rated capacity.
+    Heat pump technology recovers and reuses heat rather than exhausting heated air after use.
   </p>
   <p>
-    Multiply the annual kilowatt hours by the electricity tariff on the bill, then adjust your
-    expectations if the household dries more or less than one full load each week. Compare models
-    of similar capacity. A large machine with the same star rating as a smaller one may still use
-    more electricity.
+    The Australian Government's <a href={dryerEnergy.labelBasisUrl} target="_blank" rel="noopener noreferrer">Energy Rating Label guide</a>{" "}
+    explains that dryer annual consumption assumes one full load per week. The comparison below
+    uses those published figures and an <strong>assumed electricity usage rate of 30c/kWh</strong>.
+    It compares each model at its own rated load: 7kg versus 8kg. It is not an equal-load laboratory
+    test or a measurement made by AHC.
+  </p>
+  <p class="table-hint">Swipe sideways to compare the full table.</p>
+  <div class="comparison-wrap" role="region" aria-label="Electrolux dryer RRP and energy comparison" tabindex="0">
+    <table class="comparison-table">
+      <caption>Electrolux EDV705H3WC versus EDH803P5WC: published specifications and calculated costs</caption>
+      <thead><tr><th scope="col">Measure</th><th scope="col">EDV705H3WC vented</th><th scope="col">EDH803P5WC heat pump</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Rated capacity</th><td>{vented.capacityKg}kg</td><td>{heatPump.capacityKg}kg</td></tr>
+        <tr><th scope="row">Published RRP reference</th><td>{money(vented.publishedRrpAud)}</td><td>{money(heatPump.publishedRrpAud)}</td></tr>
+        <tr><th scope="row">Energy rating</th><td>{vented.stars} stars</td><td>{heatPump.stars} stars</td></tr>
+        <tr><th scope="row">Annual label energy, one full load/week</th><td>{vented.annualKwh}kWh</td><td>{heatPump.annualKwh}kWh</td></tr>
+        <tr><th scope="row">Calculated energy per full rated load</th><td>About {(vented.annualKwh / labelLoadsPerYear).toFixed(2)}kWh</td><td>About {(heatPump.annualKwh / labelLoadsPerYear).toFixed(2)}kWh</td></tr>
+        <tr><th scope="row">Calculated electricity cost per full rated load, 30c/kWh</th><td>{money(vented.annualKwh / labelLoadsPerYear * tariff)}</td><td>{money(heatPump.annualKwh / labelLoadsPerYear * tariff)}</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    <strong>Price basis:</strong> {money(vented.publishedRrpAud)} and {money(heatPump.publishedRrpAud)} are the Australian RRPs
+    printed in Electrolux's retailer-hosted fact sheets, a {money(rrpPremium)} difference. They are
+    reference prices, not current offers. Electrolux's current downloadable sheets omit prices;
+    retailer discounts, delivery and installation can change the amount you actually pay.
+    Sources checked 13 October 2026.
   </p>
 
   <section aria-labelledby="dryer-payback-heading">
-    <h3 id="dryer-payback-heading">Will a higher purchase price pay back?</h3>
-    <p>For similar loads, multiply the difference in electricity used per cycle by your tariff and yearly cycles. Then divide the extra installed purchase cost by that yearly saving. Use comparable capacity and program figures; do not treat the two differently sized dryers above as a controlled comparison.</p>
-    <p><strong>Illustration only:</strong> if a suitable dryer costs $500 more installed and saves 2kWh per comparable cycle, electricity at $0.30/kWh saves $0.60 a load. At three loads a week, that is $93.60 a year and about 5.3 years to recover the premium. At one load a week, it is $31.20 a year and about 16 years. These are assumed figures, not measured results for either model, and exclude repairs, future tariffs and appliance lifespan.</p>
+    <h3 id="dryer-payback-heading">How quickly could the $700 RRP difference be recovered?</h3>
+    <p>
+      At 30c/kWh, the label figures imply roughly <strong>{money(labelSaving / labelLoadsPerYear * tariff)} less electricity
+      per full rated-load cycle</strong> for the heat pump. More frequent drying makes that saving
+      accumulate faster. These scenarios assume the same number of full cycles for each machine
+      throughout a 52-week year, at their different rated capacities.
+    </p>
+    <p class="table-hint">Swipe sideways to compare the full table.</p>
+    <div class="comparison-wrap" role="region" aria-label="Dryer annual electricity cost and RRP payback scenarios" tabindex="0">
+      <table class="comparison-table">
+        <caption>Label-based estimates at 30c/kWh; electricity savings recover the $700 RRP premium</caption>
+        <thead><tr><th scope="col">Full cycles per week</th><th scope="col">Vented electricity/year</th><th scope="col">Heat pump electricity/year</th><th scope="col">Saving/year</th><th scope="col">Simple RRP payback</th></tr></thead>
+        <tbody>{annualExamples.map(example => <tr>
+          <th scope="row">{example.loads}</th>
+          <td>{money(example.ventedCost)}</td><td>{money(example.heatPumpCost)}</td>
+          <td>{money(example.saving)}</td><td>About {example.payback.toFixed(1)} years</td>
+        </tr>)}</tbody>
+      </table>
+    </div>
+    <p>
+      <strong>For regular drying, the running-cost advantage is meaningful:</strong> at five full cycles
+      a week, this calculation saves {money(labelSaving * 5 * tariff)} a year and recovers the RRP premium in about {(rrpPremium / (labelSaving * 5 * tariff)).toFixed(1)} years. For occasional use, one full cycle a week saves {money(labelSaving * tariff)} a year, so electricity savings alone take much longer to cover that premium.
+      At 40c/kWh, three full cycles a week would save {money(labelSaving * 3 * 0.40)} a year, shortening the same
+      RRP payback to about {(rrpPremium / (labelSaving * 3 * 0.40)).toFixed(1)} years.
+    </p>
+    <p>
+      Use the electricity usage tariff on your bill, excluding the daily supply charge. For this
+      label-based estimate, annual saving is <strong>185kWh × full cycles per week × tariff</strong>;
+      divide the difference in your actual delivered and installed prices by that saving to estimate
+      your own payback. Discounts can change the result substantially.
+    </p>
+    <p>
+      Actual consumption varies with the load, program, incoming moisture, room conditions and
+      maintenance. Smaller loads cannot be assumed to use a fixed fraction of the full-load energy.
+      These estimates exclude repairs, finance costs, future tariffs and differences in appliance
+      lifespan; a calculated payback is not a lifespan promise. The heat pump also offers more rated
+      capacity and lower-temperature drying, but allow for cycle time, floor space and installation.
+    </p>
+    <p class="source-note">
+      Energy and capacity: <a href={vented.specificationUrl} target="_blank" rel="noopener noreferrer">Electrolux EDV705H3WC specifications</a>{" "}
+      and <a href={heatPump.specificationUrl} target="_blank" rel="noopener noreferrer">EDH803P5WC specifications</a>.
+      RRP evidence: Electrolux's <a href={vented.rrpSourceUrl} target="_blank" rel="noopener noreferrer">EDV705H3WC fact sheet (PDF)</a>{" "}
+      and <a href={heatPump.rrpSourceUrl} target="_blank" rel="noopener noreferrer">EDH803P5WC fact sheet (PDF)</a>, hosted by Bing Lee.
+      These are source documents, not shopping links.
+    </p>
   </section>
 
   <section aria-labelledby="dryer-order-heading">

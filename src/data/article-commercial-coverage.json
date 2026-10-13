@@ -1010,7 +1010,7 @@
       "reviewedOn": "2026-10-13",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "5590142b8203e97aa40a3b19e9027d6545024ae9a607852db3ab38579c00de69",
+      "reviewedSourceSha256": "34f9458546ac5c0055075d125595c12c355197e1d0d2a0737fe79a31889a74d6",
       "requiredProductTypes": [
         {
           "label": "Heat pump clothes dryer",
@@ -1034,7 +1034,7 @@
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "Buying journey and comparison reviewed 12 October 2026. Only approved Good Guys affiliate shopping links. Dryer adds researched EDV605H3WC with live direct availability and official installation/owner evidence; condenser remains an explicit gap. Fridge adds mm/cm dimensions chart and model-specific width checks from existing verified sources. Other product review dates retained. Stacking wording clarified 13 October 2026: purpose-designed appliance mats distinguished from model-required kits; Bosch WQG24201AU manual checked. Product availability dates retained."
+      "reviewScope": "Buying journey and comparison reviewed 12 October 2026. Only approved Good Guys affiliate shopping links. Dryer adds researched EDV605H3WC with live direct availability and official installation/owner evidence; condenser remains an explicit gap. Fridge adds mm/cm dimensions chart and model-specific width checks from existing verified sources. Other product review dates retained. Stacking wording clarified 13 October 2026: purpose-designed appliance mats distinguished from model-required kits; Bosch WQG24201AU manual checked. Product availability dates retained. Replaced hypothetical energy example with EDV705H3WC / EDH803P5WC published RRP and energy comparison on 13 October 2026; 7kg versus 8kg test-load limit, reference-price provenance and assumed tariff are explicit. Cost examples are not new buying endorsements."
     },
     {
       "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",

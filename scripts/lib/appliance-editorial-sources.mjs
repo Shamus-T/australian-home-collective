@@ -7,6 +7,9 @@
 // LG evidence: docs/editorial/lg-fit-max-first-look-sources-2026-10-10.md
 // Washer update: docs/editorial/washer-affiliate-review-2026-10-10.json
 const reviewedSourceUrls = new Set([
+  // Manufacturer-authored RRP sheets: src/data/dryer-running-cost-comparison.json (13 October 2026).
+  "https://media.binglee.com.au/2/c/4/c/2c4c16582f3116c2816c9ab95f88f61ef6e7ee9b_EDV705H3WC___Specifications_Sheet.pdf",
+  "https://media.binglee.com.au/6/6/8/3/6683a84f8bace2816722d542b031a3a2f7fd2d01_EDH803P5WC___Specifications_Sheet.pdf",
   // Research and drawing checks: appliance-opportunities-review-2026-10-12.json.
   "https://media3.bosch-home.com/Documents/specsheet/en-AU/SPS6IKI01A.pdf",
   "https://media3.bsh-group.com/Documents/9001730323_C.pdf",
