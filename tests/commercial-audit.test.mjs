@@ -127,6 +127,16 @@ test("the audit rejects a missing required review field", () => {
   assert.match(result.stderr, /missing required review field "drawbacks"/);
 });
 
+test("comparison-only placement retains affiliate validation requirements", () => {
+  assert.equal(runAudit(product => { product.presentation = "comparison-only"; }).status, 0);
+  const result = runAudit(product => {
+    product.presentation = "comparison-only";
+    product.affiliateValidation.trackingStatus = "unverified";
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /tracking/i);
+});
+
 test("the audit rejects an affiliate URL without the current tracking tag", () => {
   const result = runAudit((product) => {
     product.destinationUrl = "https://www.amazon.com.au/dp/B000000000?tag=outdated-22";

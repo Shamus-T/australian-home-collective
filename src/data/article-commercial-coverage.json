@@ -1010,18 +1010,20 @@
       "reviewedOn": "2026-10-13",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "39e84585445e726c3f0993680742e83897bd86254f04029fe58e0313c5434b7b",
+      "reviewedSourceSha256": "cd4b3af77014daaf276f1dea2b3e5858b6d1fb81b3d2fc5bc8664f088b3a3f70",
       "requiredProductTypes": [
         {
           "label": "Heat pump clothes dryer",
           "productIds": [
-            "bosch-wqg24201au-good-guys"
+            "bosch-wqg24201au-good-guys",
+            "electrolux-edh803p5wc-good-guys"
           ]
         },
         {
           "label": "Vented clothes dryer",
           "productIds": [
-            "electrolux-edv605h3wc-good-guys"
+            "electrolux-edv605h3wc-good-guys",
+            "electrolux-edv705h3wc-good-guys"
           ]
         },
         {
@@ -1034,7 +1036,7 @@
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "Buying journey and comparison reviewed 12 October 2026. Only approved Good Guys affiliate shopping links. Dryer adds researched EDV605H3WC with live direct availability and official installation/owner evidence; condenser remains an explicit gap. Fridge adds mm/cm dimensions chart and model-specific width checks from existing verified sources. Other product review dates retained. Stacking wording clarified 13 October 2026: purpose-designed appliance mats distinguished from model-required kits; Bosch WQG24201AU manual checked. Product availability dates retained. Replaced hypothetical energy example with EDV705H3WC / EDH803P5WC published RRP and energy comparison on 13 October 2026; 7kg versus 8kg test-load limit, reference-price provenance and assumed tariff are explicit. Cost examples are not new buying endorsements."
+      "reviewScope": "Buying journey and comparison reviewed 12 October 2026. Only approved Good Guys affiliate shopping links. Dryer adds researched EDV605H3WC with live direct availability and official installation/owner evidence; condenser remains an explicit gap. Fridge adds mm/cm dimensions chart and model-specific width checks from existing verified sources. Other product review dates retained. Stacking wording clarified 13 October 2026: purpose-designed appliance mats distinguished from model-required kits; Bosch WQG24201AU manual checked. Product availability dates retained. Replaced hypothetical energy example with EDV705H3WC / EDH803P5WC published RRP and energy comparison on 13 October 2026; 7kg versus 8kg test-load limit, reference-price provenance and assumed tariff are explicit. Cost examples are not new buying endorsements. Added exact-model Good Guys affiliate buttons to the energy comparison on 13 October 2026. Both direct listings offer Add to Cart; postcode availability remains a buyer check. These comparison-only placements retain research and tracking validation without duplicating the main recommendation cards. EDH803P5WC individual owner evidence remains unavailable; no reliability claim."
     },
     {
       "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",

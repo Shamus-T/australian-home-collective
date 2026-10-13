@@ -475,6 +475,9 @@ for (const [index, product] of products.entries()) {
   for (const field of requiredProductFields) {
     if (!Object.hasOwn(product, field)) addError(prefix + " is missing required review field \"" + field + "\".");
   }
+  if (product.presentation !== undefined && !["full", "comparison-only"].includes(product.presentation)) {
+    addError(prefix + ".presentation must be full or comparison-only.");
+  }
 
   for (const error of getRetailerOfferErrors(product, { today, reviewIntervalDays: catalogue.reviewIntervalDays })) {
     addError(prefix + "." + error);
@@ -1065,7 +1068,9 @@ if (checkDist) {
         .map((offer) => offer.destinationUrl);
       for (const placement of ["card", "comparison", "comparison-name"]) {
         const shownInComparison = comparisonGuidePaths.has(product.guidePath) && !accessoryProductIds.has(product.id);
-        const expected = placement === "comparison-name"
+        const expected = product.presentation === "comparison-only"
+          ? (placement === "comparison" ? expectedDestinations : [])
+          : placement === "comparison-name"
           ? (shownInComparison ? expectedDestinations.slice(0, 1) : [])
           : (placement === "card" || shownInComparison ? expectedDestinations : []);
         const rendered = renderedDestinationsByProduct.get(product.id + ":" + placement) ?? [];

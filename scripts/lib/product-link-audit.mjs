@@ -9,7 +9,7 @@ export function productLinkErrors(html, products) {
   function visit(node, inBuyingArea = false) {
     const attrs = node.attributes ?? {};
     const classes = (attrs.class ?? '').split(/\s+/);
-    const protectedArea = inBuyingArea || 'data-commercial-product-card' in attrs
+    const protectedArea = inBuyingArea || 'data-commercial-product-card' in attrs || 'data-commercial-comparison' in attrs
       || classes.includes('commercial-product-comparison');
     if (protectedArea && node.name === 'a') {
       const href = decode(attrs.href ?? '');

@@ -35,7 +35,7 @@ const {
   accessoryIntro = "These do not replace the appliance. Check what is included and buy an extra only when it solves a specific setup problem.",
 } = Astro.props;
 
-const products = getApprovedProductsForGuide(guidePath);
+const products = getApprovedProductsForGuide(guidePath).filter(product => product.presentation !== "comparison-only");
 const retailers = new Map(products.map((product) => [product.id, getRetailersForProduct(product)]));
 const hasAffiliateLinks = [...retailers.values()].some((offers) => offers.some((offer) => offer.affiliate));
 const hasMultipleRetailers = [...retailers.values()].some((offers) => offers.length > 1);

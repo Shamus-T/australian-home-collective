@@ -25,6 +25,7 @@ for(const [retailer,asset] of Object.entries(branding)) {
   if(!fs.existsSync(file)||digest(fs.readFileSync(file))!==asset.sha256) errors.push(retailer+': artwork differs from the user-approved asset');
 }
 for(const p of products){
+  if(p.presentation==='comparison-only'&&!p.image)continue; // Specification tables do not display product photographs.
   if(!p.image){if(!knownGaps.products.some(x=>x.id===p.id))errors.push(`${p.id}: new product image gap`);else warnings.push(`${p.id}: exact-model image still needed`);continue;}
   for(const field of ['alt','credit','sourceUrl','suppliedVia','checkedOn'])if(!p.image[field])errors.push(`${p.id}: missing image ${field}`);
   const variants=p.image.srcSet.split(',').map(s=>s.trim().split(/\s+/));

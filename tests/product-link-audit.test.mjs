@@ -19,6 +19,12 @@ test('unmarked direct links under images fail in both buying areas', () => {
 test('tracking markers cannot disguise an unregistered destination', () => {
   assert.equal(productLinkErrors(card(`<a ${marked} href="https://retailer.example/dryer">Dryer</a>`), [product]).length, 1);
 });
+
+test('specification comparison tables reject direct retailer links and require registered tracking', () => {
+  const wrap = link => `<table data-commercial-comparison><tr><td>${link}</td></tr></table>`;
+  assert.equal(productLinkErrors(wrap('<a href="https://www.thegoodguys.com.au/dryer">Buy</a>'), [product]).length, 1);
+  assert.deepEqual(productLinkErrors(wrap(`<a ${marked} href="${product.destinationUrl}">Buy</a>`), [product]), []);
+});
 test('product-name jump links and affiliate links without click tracking fail', () => {
   assert.equal(productLinkErrors(table('<a href="#product-dryer">Dryer</a>'), [product]).length, 1);
   assert.equal(productLinkErrors(card(`<a href="${product.destinationUrl}">Dryer</a>`), [product]).length, 1);

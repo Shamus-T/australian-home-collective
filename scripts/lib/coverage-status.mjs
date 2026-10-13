@@ -22,7 +22,7 @@ export function coverageStatus(article, products) {
   if(article.intent==='buying'&&!article.requiredProductTypes?.length)issues.push('Buying article needs a primary product requirement');
   const gaps=(article.requiredProductTypes??[]).filter(n=>!n.productIds?.length);
   const status=article.intent==='editorial'?'editorial':covered===0?'missing-primary':gaps.length?'partial-primary':'primary-present';
-  const imageGaps=[...allowed.values()].filter(p=>!p.image).map(p=>p.id);
+  const imageGaps=[...allowed.values()].filter(p=>!p.image&&p.presentation!=='comparison-only').map(p=>p.id);
   const illustrativeImages=[...allowed.values()].filter(p=>/diagram|not a product photograph/i.test(p.image?.credit??'')).map(p=>p.id);
   return {status,primaryProducts:primaryIds.size,supportingProducts:supporting.size,gaps,imageGaps,illustrativeImages,issues};
 }

@@ -116,6 +116,7 @@ export interface CommercialRetailerOffer {
 }
 
 export interface CommercialProduct extends CommercialRetailerOffer {
+  presentation?: "full" | "comparison-only";
   id: string;
   guidePath: string;
   name: string;

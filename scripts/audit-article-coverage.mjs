@@ -22,7 +22,7 @@ for(const a of registry.articles){
  if(process.argv.includes('--dist')){
   const html=fs.readFileSync(path.join('dist',a.guidePath,'index.html'),'utf8');
   for(const p of liveProducts){
-   if(!html.includes('id="product-'+p.id+'"'))errors.push('Product card absent from output: '+p.id);
+   if(p.presentation!=='comparison-only'&&!html.includes('id="product-'+p.id+'"'))errors.push('Product card absent from output: '+p.id);
    if(!html.includes('data-commercial-product-id="'+p.id+'"'))errors.push('Retailer link absent from output: '+p.id);
   }
   const declared=(html.match(/data-accessory-product-ids="([^"]*)"/)?.[1]??'').split(/\s+/).filter(Boolean);

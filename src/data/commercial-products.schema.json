@@ -107,6 +107,7 @@
       ],
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "presentation": { "enum": ["full", "comparison-only"] },
         "guidePath": { "type": "string", "pattern": "^/guides/[a-z0-9-]+/$" },
         "name": { "type": "string" },
         "productType": { "type": "string" },

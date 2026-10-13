@@ -4,6 +4,15 @@ import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 import applianceComparisons from "../../../data/appliance-buying-comparisons.json";
 import dryerEnergy from "../../../data/dryer-running-cost-comparison.json";
+import CommercialRetailerLinks from "../../../components/CommercialRetailerLinks.astro";
+import { getApprovedProductsForGuide, getRetailersForProduct } from "../../../lib/commercial-products";
+
+const costComparisonProducts = getApprovedProductsForGuide("/guides/heat-pump-vs-condenser-vs-vented-dryers/");
+const comparedDryers = ["electrolux-edv705h3wc-good-guys", "electrolux-edh803p5wc-good-guys"].map(id => {
+  const product = costComparisonProducts.find(product => product.id === id);
+  if (!product || product.presentation !== "comparison-only") throw new Error(`Missing approved comparison model: ${id}`);
+  return product;
+});
 
 const { vented, heatPump, tariffAudPerKwh: tariff, labelLoadsPerYear } = dryerEnergy;
 const rrpPremium = heatPump.publishedRrpAud - vented.publishedRrpAud;
@@ -153,7 +162,7 @@ const faqs = [
   </p>
   <p class="table-hint">Swipe sideways to compare the full table.</p>
   <div class="comparison-wrap" role="region" aria-label="Electrolux dryer RRP and energy comparison" tabindex="0">
-    <table class="comparison-table">
+    <table class="comparison-table" data-commercial-comparison>
       <caption>Electrolux EDV705H3WC versus EDH803P5WC: published specifications and calculated costs</caption>
       <thead><tr><th scope="col">Measure</th><th scope="col">EDV705H3WC vented</th><th scope="col">EDH803P5WC heat pump</th></tr></thead>
       <tbody>
@@ -163,6 +172,7 @@ const faqs = [
         <tr><th scope="row">Annual label energy, one full load/week</th><td>{vented.annualKwh}kWh</td><td>{heatPump.annualKwh}kWh</td></tr>
         <tr><th scope="row">Calculated energy per full rated load</th><td>About {(vented.annualKwh / labelLoadsPerYear).toFixed(2)}kWh</td><td>About {(heatPump.annualKwh / labelLoadsPerYear).toFixed(2)}kWh</td></tr>
         <tr><th scope="row">Calculated electricity cost per full rated load, 30c/kWh</th><td>{money(vented.annualKwh / labelLoadsPerYear * tariff)}</td><td>{money(heatPump.annualKwh / labelLoadsPerYear * tariff)}</td></tr>
+        <tr><th scope="row">Check current price and availability</th>{comparedDryers.map(product => <td><CommercialRetailerLinks product={product} offers={getRetailersForProduct(product)} placement="comparison" /></td>)}</tr>
       </tbody>
     </table>
   </div>

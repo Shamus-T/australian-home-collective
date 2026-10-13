@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-12",
+  "updatedOn": "2026-10-13",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -15081,6 +15081,177 @@
         "suppliedVia": "Public exact-model product listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-10"
       }
+    },
+    {
+      "id": "electrolux-edv705h3wc-good-guys",
+      "presentation": "comparison-only",
+      "guidePath": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
+      "name": "Electrolux EDV705H3WC 7kg vented dryer",
+      "productType": "Vented clothes dryer",
+      "summary": "Exact 7kg model used in the guide's published energy-label comparison. Purchase link supplied for readers assessing that example; AHC has not tested this dryer.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Felectrolux-7kg-vented-dryer-edv705h3wc",
+      "linkLabel": "Check current price and availability",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-13",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-13",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Vented exhaust requires the installation and room ventilation specified by Electrolux.",
+        "Higher published electricity consumption than the compared heat pump; rated capacities differ."
+      ],
+      "suitability": {
+        "suits": [
+          "Readers considering the 7kg vented model used in the cost example, after checking ventilation and fit"
+        ],
+        "mayNotSuit": [
+          "A laundry without suitable ventilation or exhaust arrangements"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "EDV705H3WC Australian specifications",
+          "publisher": "Electrolux",
+          "sourceUrl": "https://www.electrolux.com.au/laundry/dryers/edv705h3wc/",
+          "supports": "Exact 7kg vented model; 2 energy stars, 315kWh/year and two-year domestic warranty. Rechecked against the existing sourced energy comparison on 13 October 2026. No equal-load test or hands-on claim.",
+          "checkedOn": "2026-10-13"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "EDV705H3WC owner evidence check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/electrolux-7kg-vented-dryer-edv705h3wc",
+          "supports": "Read ten individual Good Guys reviews, eight with written feedback. Several mention simple controls and quiet drying; one notes the door cannot be reversed. Retailer-hosted, potentially incentivised feedback, not independent testing or longevity evidence.",
+          "checkedOn": "2026-10-13"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Live exact-model Australian listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/electrolux-7kg-vented-dryer-edv705h3wc",
+          "supports": "Exact model and enabled Add to Cart observed in the live browser. The Good Guys is the listing retailer. Postcode required for local delivery and collection availability; no blanket in-stock claim or fixed selling price published.",
+          "checkedOn": "2026-10-13"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Exact-model indexed recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Exact EDV705H3WC search restricted to productsafety.gov.au returned no matching result on 13 October 2026. Scoped indexed search only, not safety certification or a guarantee.",
+          "checkedOn": "2026-10-13"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved exact-model destination and tracking",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Felectrolux-7kg-vented-dryer-edv705h3wc",
+          "supports": "Direct Good Guys listing verified without following an affiliate URL. Uses the established AHC camref 1100l6vaUc and creativeref 1011l64579; encoded destination identifies the exact model. Structural tracking validation only; no artificial clicks or sales generated. Buyer must confirm postcode-specific fulfilment.",
+          "checkedOn": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "electrolux-edh803p5wc-good-guys",
+      "presentation": "comparison-only",
+      "guidePath": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
+      "name": "Electrolux EDH803P5WC 8kg heat pump dryer",
+      "productType": "Heat pump clothes dryer",
+      "summary": "Exact 8kg model used in the guide's published energy-label comparison. Purchase link supplied for readers assessing that example; AHC has not tested this dryer.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Felectrolux-8kg-heat-pump-dryer-edh803p5wc",
+      "linkLabel": "Check current price and availability",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-13",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-13",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The larger rated capacity does not make this an equal-load energy test.",
+        "Floor-standing installation; check the manual and compatible stacking kit, if stacking.",
+        "Individual owner-review evidence was unavailable at this check; long-term reliability is unverified."
+      ],
+      "suitability": {
+        "suits": [
+          "Readers considering the 8kg heat pump used in the cost example, after checking fit and their drying routine"
+        ],
+        "mayNotSuit": [
+          "A wall-mounted installation"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "EDH803P5WC Australian specifications",
+          "publisher": "Electrolux",
+          "sourceUrl": "https://www.electrolux.com.au/laundry/dryers/edh803p5wc/",
+          "supports": "Exact 8kg heat pump model; 8 energy stars, 130kWh/year and two-year domestic warranty. Rechecked against the existing sourced energy comparison on 13 October 2026. No equal-load test or hands-on claim.",
+          "checkedOn": "2026-10-13"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "EDH803P5WC owner evidence check",
+          "publisher": "The Good Guys / Electrolux",
+          "sourceUrl": "https://www.thegoodguys.com.au/electrolux-8kg-heat-pump-dryer-edh803p5wc",
+          "supports": "Good Guys Customer Reviews explicitly reports no reviews found. Electrolux shows an aggregate of 56 reviews but individual text did not render. No recurring owner-feedback or reliability claims are made; this record supports only the sourced specifications comparison and an exact-model buying link.",
+          "checkedOn": "2026-10-13"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Live exact-model Australian listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/electrolux-8kg-heat-pump-dryer-edh803p5wc",
+          "supports": "Exact model and enabled Add to Cart observed in the live browser. The Good Guys is the listing retailer. Postcode required for local delivery and collection availability; no blanket in-stock claim or fixed selling price published.",
+          "checkedOn": "2026-10-13"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Exact-model indexed recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Exact EDH803P5WC search restricted to productsafety.gov.au returned no matching result on 13 October 2026. Scoped indexed search only, not safety certification or a guarantee.",
+          "checkedOn": "2026-10-13"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved exact-model destination and tracking",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Felectrolux-8kg-heat-pump-dryer-edh803p5wc",
+          "supports": "Direct Good Guys listing verified without following an affiliate URL. Uses the established AHC camref 1100l6vaUc and creativeref 1011l64579; encoded destination identifies the exact model. Structural tracking validation only; no artificial clicks or sales generated. Buyer must confirm postcode-specific fulfilment.",
+          "checkedOn": "2026-10-13"
+        }
+      ]
     }
   ]
 }
