@@ -4,6 +4,8 @@ export interface GuideCardMetadata {
   imageAlt: string;
   imagePosition: string;
   imagePresentation: "background" | "product";
+  imageWidth: number;
+  imageHeight: number;
 }
 
 const guideSources = import.meta.glob<string>("../pages/guides/**/index.astro", {
@@ -38,6 +40,8 @@ for (const [sourcePath, source] of Object.entries(guideSources)) {
     image,
     imageAlt,
     imagePosition: readAttribute(component, "imagePosition") ?? "center",
+    imageWidth: Number(readAttribute(component, "imageWidth") ?? 833),
+    imageHeight: Number(readAttribute(component, "imageHeight") ?? 1000),
     imagePresentation: readAttribute(component, "imagePresentation") === "product" ? "product" : "background",
   });
 }

@@ -7,6 +7,13 @@
 // LG evidence: docs/editorial/lg-fit-max-first-look-sources-2026-10-10.md
 // Washer update: docs/editorial/washer-affiliate-review-2026-10-10.json
 const reviewedSourceUrls = new Set([
+  // Microwave evidence: docs/editorial/microwave-facebook-review-2026-10-14.md.
+  // Exact manufacturer/manual and firsthand review citations; no retailer shopping-page exemption.
+  "https://www.panasonic.com/au/consumer/household/microwave-ovens/convection-grill-microwaves/nn-cd88qsqpq.html",
+  "https://www.panasonic.com/content/dam/panasonic/au/en/PDF/Operating-Instructions-NN-CD88QSQPQ.pdf",
+  "https://www.panasonic.com/au/support/manufacturers-warranties.html",
+  "https://www.techadvisor.com/article/2642825/panasonic-4-in-1-combi-microwave-air-fryer-oven-review.html",
+
   // Manufacturer-authored RRP sheets: src/data/dryer-running-cost-comparison.json (13 October 2026).
   "https://media.binglee.com.au/2/c/4/c/2c4c16582f3116c2816c9ab95f88f61ef6e7ee9b_EDV705H3WC___Specifications_Sheet.pdf",
   "https://media.binglee.com.au/6/6/8/3/6683a84f8bace2816722d542b031a3a2f7fd2d01_EDH803P5WC___Specifications_Sheet.pdf",

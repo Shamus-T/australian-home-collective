@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-13",
+  "updatedOn": "2026-10-14",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -73,7 +73,8 @@
     "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
     "/guides/pantry-storage-ideas-australian-kitchens/",
     "/guides/laundry-essentials-australian-homes/",
-    "/guides/fridge-dimensions-australia/"
+    "/guides/fridge-dimensions-australia/",
+    "/guides/convection-microwave-vs-air-fryer/"
   ],
   "products": [
     {
@@ -15252,6 +15253,130 @@
           "checkedOn": "2026-10-13"
         }
       ]
+    },
+    {
+      "id": "panasonic-nn-cd88qsqpq",
+      "guidePath": "/guides/convection-microwave-vs-air-fryer/",
+      "name": "Panasonic NN-CD88QSQPQ 34L 4-in-1 Convection Microwave",
+      "productType": "Combination microwave with air-fry mode",
+      "summary": "A 34 L microwave, convection oven, grill and air-fry combination for households that can use one cavity for several sequential cooking tasks.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-34l-4-in-1-air-fryer-and-convection-microwave-oven-nn-cd88qsqpq",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-14",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-14",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Its 560 x 343 x 450 mm body needs additional ventilation and door space; at 18 kg it is awkward to move daily.",
+        "One cavity cannot independently microwave a separate dish while air frying another.",
+        "Air-fry settings and accessories take learning; UK family-model testing found variable crisping, so familiar basket-air-fryer recipes may need adjustment.",
+        "Retailer owner feedback may be incentivised and does not establish long-term reliability."
+      ],
+      "suitability": {
+        "suits": [
+          "households replacing a microwave and regularly using occasional baking, grilling or air frying",
+          "cooks with a permanent ventilated position who can sequence meals through one cavity"
+        ],
+        "mayNotSuit": [
+          "households needing independent microwave and air-fryer cooking at the same time",
+          "tight cupboards or benches that cannot meet the exact installation requirements",
+          "buyers whose existing air fryer already handles their meals satisfactorily"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "NN-CD88QSQPQ Australian specifications",
+          "publisher": "Panasonic Australia",
+          "sourceUrl": "https://www.panasonic.com/au/consumer/household/microwave-ovens/convection-grill-microwaves/nn-cd88qsqpq.html",
+          "supports": "Exact Australian model, 34 L capacity, four modes, 560 W x 343 H x 450 D mm body, 18 kg weight and support route checked against the retailer listing.",
+          "checkedOn": "2026-10-14"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian operating instructions and cook book",
+          "publisher": "Panasonic Australia via Appliances Online",
+          "sourceUrl": "https://www.appliancesonline.com.au/ak/8/0/6/0/8060be7e8040795a73eba6ce26166ed5d52d6705_Operating_Instructions_NN_CD88QSQPQ.pdf",
+          "supports": "Manufacturer manual inspected, including placement on page 10 and the mode-specific cookware chart on page 13. Air-fry basket prohibited in microwave and combination modes; built-in use requires specified trim kit. Downloaded 102-page PDF.",
+          "checkedOn": "2026-10-14"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Small kitchen appliance warranty",
+          "publisher": "Panasonic Australia",
+          "sourceUrl": "https://www.panasonic.com/au/support/manufacturers-warranties.html",
+          "supports": "Australian manufacturer warranty page lists 12-month small-kitchen-appliance cover including microwave ovens; retailer lists one-year manufacturer warranty. Australian support available via product page.",
+          "checkedOn": "2026-10-14"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "NN-CD88QSQPQ verified-purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-34l-4-in-1-air-fryer-and-convection-microwave-oven-nn-cd88qsqpq#reviews",
+          "supports": "Read individual purchaser comments, including Richard (2 September), Glenys (12 August), Kathy (10 June) and Tas (12 May 2026), across the ten newest reviews. Recurring versatility and ease-of-use reports; Tas questioned replacing an existing air fryer. Retailer says reviews may be incentivised. AI summary and star average not used as proof.",
+          "checkedOn": "2026-10-14"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Panasonic 4-in-1 Combi Microwave Air Fryer Oven review",
+          "publisher": "Tech Advisor",
+          "sourceUrl": "https://www.techadvisor.com/article/2642825/panasonic-4-in-1-combi-microwave-air-fryer-oven-review.html",
+          "supports": "Rachel Ogden firsthand UK NN-CD88 family review, 21 March 2025. Large footprint, learning curve and variable crisping corroborate drawbacks. Not an exact Australian-suffix test; its accessory setup is not adopted as guidance and the Australian manual governs use.",
+          "checkedOn": "2026-10-14"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact Australian offer and local availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-34l-4-in-1-air-fryer-and-convection-microwave-oven-nn-cd88qsqpq",
+          "supports": "NN-CD88QSQPQ listing offered Add to Cart, delivery by 20 October to Brisbane City QLD 4000 test postcode and Lutwyche click-and-collect/in-store stock on review. No nationwide or future stock guarantee. One-year manufacturer warranty displayed.",
+          "checkedOn": "2026-10-14"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "NN-CD88 recall-register search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=NN-CD88",
+          "supports": "Live regulator search returned no matching results for NN-CD88. Broader Panasonic microwave search also checked; no matching notice identified. This is not certification or a guarantee of safety.",
+          "checkedOn": "2026-10-14"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Partnerize destination and seller verification",
+          "publisher": "The Good Guys via Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-34l-4-in-1-air-fryer-and-convection-microwave-oven-nn-cd88qsqpq",
+          "supports": "Browser followed the configured camref to the exact Australian Good Guys NN-CD88QSQPQ listing. Landing URL retained clickref, rel and utm_source=Partner with utm_medium=shamus80. Good Guys delivery and local collection displayed for test postcode 4000. Redirect verification only; no order or earned commission claimed.",
+          "checkedOn": "2026-10-14"
+        }
+      ],
+      "image": {
+        "src": "/images/products/panasonic-nn-cd88qsqpq-640.webp",
+        "srcSet": "/images/products/panasonic-nn-cd88qsqpq-320.webp 320w, /images/products/panasonic-nn-cd88qsqpq-640.webp 640w, /images/products/panasonic-nn-cd88qsqpq-960.webp 960w",
+        "alt": "Panasonic NN-CD88QSQPQ stainless steel convection microwave.",
+        "width": 640,
+        "height": 415,
+        "credit": "Product image: The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50093133_941217.png?v=1776396155",
+        "suppliedVia": "The Good Guys exact-model NN-CD88QSQPQ product gallery, main image.",
+        "checkedOn": "2026-10-14"
+      }
     }
   ]
 }

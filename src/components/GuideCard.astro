@@ -63,8 +63,8 @@ const HeadingTag = headingLevel === 2 ? "h2" : "h3";
         class="card-image"
         src={resolvedImage}
         alt={resolvedImageAlt}
-        width={articleMetadata?.imagePresentation === "product" ? 833 : 900}
-        height={articleMetadata?.imagePresentation === "product" ? 1000 : 620}
+        width={articleMetadata?.imagePresentation === "product" ? articleMetadata.imageWidth : 900}
+        height={articleMetadata?.imagePresentation === "product" ? articleMetadata.imageHeight : 620}
         loading="lazy"
         decoding="async"
         draggable="false"

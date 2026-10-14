@@ -26,6 +26,8 @@ interface Props {
   imagePosition?: string;
   imagePresentation?: "background" | "product";
   imageCredit?: string;
+  imageWidth?: number | `${number}`;
+  imageHeight?: number | `${number}`;
   articleLabel?: string;
   dateChecked?: string;
   faqs?: Array<{
@@ -52,6 +54,8 @@ const {
   imagePosition = "center",
   imagePresentation = "background",
   imageCredit,
+  imageWidth = 833,
+  imageHeight = 1000,
   articleLabel,
   dateChecked,
   faqs = [],
@@ -167,7 +171,7 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
     </div>
     {image && imagePresentation === "product" && (
       <figure class="product-figure">
-        <img class="header-image" src={image} alt={imageAlt} width="833" height="1000" loading="eager" decoding="async" />
+        <img class="header-image" src={image} alt={imageAlt} width={imageWidth} height={imageHeight} loading="eager" decoding="async" />
         {imageCredit && <figcaption>{imageCredit}</figcaption>}
       </figure>
     )}

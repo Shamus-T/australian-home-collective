@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-10-12",
+  "updatedOn": "2026-10-14",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -625,6 +625,29 @@
         "/guides/air-conditioner-dry-mode-humidity/"
       ],
       "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+    },
+    {
+      "guidePath": "/guides/convection-microwave-vs-air-fryer/",
+      "title": "Convection Microwave vs Air Fryer: Can One Appliance Replace Two?",
+      "reviewedOn": "2026-10-14",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "02ba5f77a29daed48a0f6fe745f07d5bbfb8c320bd778f1124d65fb5d58497a9",
+      "requiredProductTypes": [
+        {
+          "label": "Combination microwave with air-fry mode",
+          "productIds": [
+            "panasonic-nn-cd88qsqpq"
+          ]
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+        "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
+        "/guides/cookware-materials-compared/"
+      ],
+      "reviewScope": "New comparison guide, technical/manual review, live Australian offer and affiliate redirect check, permitted exact-model image and reciprocal navigation. One combination option approved; Sharp R321CAFST withheld because published fit specifications conflict, Breville BMO870 excluded after repeated reliability concerns. Separate-appliance route linked contextually without duplicating product records."
     },
     {
       "guidePath": "/guides/cookware-materials-compared/",
@@ -1333,10 +1356,10 @@
     {
       "guidePath": "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
       "title": "Kitchen Bench Space That Stays Clear",
-      "reviewedOn": "2026-10-12",
+      "reviewedOn": "2026-10-14",
       "intent": "editorial",
       "editorialReason": "Clear existing bench clutter before buying organisers.",
-      "reviewedSourceSha256": "88da7e7434e6721bfbcca38e981db91acd29f4f254e1b3e8e530105bd1a00c46",
+      "reviewedSourceSha256": "e8893e012ec996dd14574b3696377d1b0de99eb54246ade4de149d4d285bfd46",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -1345,9 +1368,10 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
-        "/guides/lg-fit-max-436l-fridge-first-look/"
+        "/guides/lg-fit-max-436l-fridge-first-look/",
+        "/guides/convection-microwave-vs-air-fryer/"
       ],
-      "reviewScope": "Contextual fridge-planning link added; existing product review dates retained."
+      "reviewScope": "Reviewed added contextual comparison for microwave/air-fryer bench use, ventilation and sequential cooking. Editorial guide remains product-free."
     },
     {
       "guidePath": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
@@ -2639,10 +2663,10 @@
     {
       "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
       "title": "Small Kitchen Appliances That Earn Their Bench Space",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-14",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0715104c9a09a8dceb42a4ca0b7185c2907a23d333514a616cce8372ef3fd07d",
+      "reviewedSourceSha256": "0258c6af68da83fee64100503dc572c869bd1abf7480d22230c75e976b8b302f",
       "requiredProductTypes": [
         {
           "label": "Air fryer — unequal dual baskets",
@@ -2691,9 +2715,10 @@
       "contextualRoutes": [
         "/guides/coffee-machine-types-australia/",
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
-        "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
+        "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+        "/guides/convection-microwave-vs-air-fryer/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Added contextual comparison link after reviewing the microwave/air-fryer topic. Existing product review dates retained; no fresh full review of this guide's other products claimed."
     },
     {
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
