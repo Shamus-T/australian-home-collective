@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.3 |
+| Version | 1.4 |
 | Status | Active; published on website |
 | Document type | Internal methodology with a public summary |
 | Owner | Australian Home Collective |
-| Version date | 20 August 2026 |
+| Version date | 14 October 2026 |
 | Published route | https://australianhomecollective.com.au/how-we-select-products/ |
 
 ## Purpose
@@ -122,7 +122,19 @@ The build must reject:
   consistency, applicable safety/compliance claims and tracking;
 - pages missing the site-wide disclosure.
 
-Commercial relationships do not determine methodology or conclusions. The surrounding guidance must remain useful if the reader does not use an affiliate link.
+Shopping links are limited to approved affiliate partners through which AHC can earn commission. This affects the retailers and products offered with buying links; linked selections are not a comprehensive market survey. Affiliate eligibility alone does not establish suitability or satisfy the research requirements. Editorial citations, manuals and research sources do not require an affiliate relationship.
+
+Where several retailers offer the same product, retailer links are ordered by the verified applicable commission rate, highest first. That order is commercial, not an editorial product ranking or a promise of the lowest price or best delivery terms.
+
+AHC retains final control over product assessments and conclusions. The surrounding guidance must remain useful if the reader does not use an affiliate link.
+
+## Brand submissions and editorial safeguards
+
+Brands and retailers may submit relevant product suggestions, specifications, manuals, availability information and evidence for factual corrections through the published contact channels. Suggestions and commercial opportunities may bring products to our attention, but submissions, affiliate offers and supplied products do not guarantee editorial coverage.
+
+AHC controls topics, wording, conclusions and publication. Do not accept conditions requiring favourable assessments, suppressed material drawbacks, paid editorial rankings or partner approval of final editorial content. Brands may identify factual errors with evidence; AHC decides whether and how to correct them.
+
+Disclose supplied or loaned products, funded travel and other material benefits connected with coverage in that content. Label sponsored content clearly and keep its claims accurate; do not present it as independent editorial coverage. Receiving a product does not establish that it has been tested. Payment or a benefit cannot purchase a favourable assessment.
 
 ## Ratings, scores and testing claims
 
@@ -138,6 +150,7 @@ We correct and update research when evidence, guidance, standards or reader need
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| 1.4 | 14 October 2026 | Clarified brand-submission safeguards, disclosure of material benefits, affiliate-only shopping-link coverage and commission-based ordering of retailers for the same product. |
 | 1.3 | 20 August 2026 | Replaced URL-only affiliate checks with a structured product-validity gate covering identity, Australian stock/order availability, listing continuity, specifications, relevant safety/compliance claims and tracking. |
 | 1.2 | 5 August 2026 | Added the active affiliate position, AHC Product Research outcomes, hard exclusions, 180-day review interval and build-enforced approval gate. |
 | 1.1 | 24 July 2026 | Added guide-topic selection, independent-evidence boundaries and pre-commercial controls for named products and links. |
