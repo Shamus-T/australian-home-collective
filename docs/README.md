@@ -6,7 +6,7 @@ This directory is the version-controlled source of truth for Australian Home Col
 
 ### Governance
 
-- [Publishing Standards Manual](governance/publishing-standards-manual.md)
+- [Publishing Standards Manual](governance/publishing-standards-manual.md), including the [Facebook pre-scheduling editorial gate](governance/publishing-standards-manual.md#facebook-pre-scheduling-editorial-gate)
 - [Editorial Charter](governance/editorial-charter.md)
 - [Editorial Decision Framework](governance/editorial-decision-framework.md)
 

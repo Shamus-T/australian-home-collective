@@ -2,11 +2,11 @@
 
 | Field | Value |
 | --- | --- |
-| Version | 1.3 |
+| Version | 1.4 |
 | Status | Active |
 | Document type | Internal governance manual |
 | Owner | Australian Home Collective |
-| Version date | 5 August 2026 |
+| Version date | 14 October 2026 |
 
 ## Authority and scope
 
@@ -125,6 +125,20 @@ Every substantial editorial item follows this lifecycle:
 
 Stages may be combined for minor updates, but no published item may skip the checks relevant to its risk and purpose.
 
+### Facebook pre-scheduling editorial gate
+
+Before scheduling a product-focused Facebook post, complete and record the checks below. This includes posts about named products, product comparisons and category buying advice, whether or not the post contains an affiliate link. Apply the gate when preparing new posts or separately requested revisions; it does not authorise changes to posts already scheduled in Metricool.
+
+1. **Published supporting article.** Identify the most relevant existing AHC article and verify its live URL, content and relevance to the post's reader need. Include that article link in the post. Improve an existing article where possible; create a new one only when there is a genuine coverage gap. If publication or corrections are needed, complete and verify the live article before scheduling. A draft, planned article or successful HTTP response alone is not sufficient.
+2. **Technical accuracy.** Check the post and supporting article against current manufacturer documentation and authoritative Australian sources as appropriate. Verify the exact model or variant and any dimensions, clearances, installation requirements, compatibility, performance or safety claims used. Preserve relevant qualifications and distinguish research from hands-on testing. Follow the [Editorial Style Guide](../editorial/editorial-style-guide.md) and [Recommendation Methodology](../editorial/recommendation-methodology.md); resolve material uncertainty before scheduling.
+3. **Useful internal links.** Verify the post's article destination and the article's relevant internal links, including meaningful next-step guides and comparisons. Confirm that each destination is published, works and supports the reader's decision. Follow the [internal-link standard](../editorial/editorial-style-guide.md#19-internal-links); do not add arbitrary link counts or unrelated links.
+4. **Australian availability.** For products promoted in the post or supporting placements, verify current Australian stock or order availability, exact listing identity, seller, fulfilment and relevant local support. Record the source and check date. Do not infer availability from an overseas listing, a reachable URL or an old review. Unavailable, mismatched or unverified products must not be promoted; correct or defer the post when this check fails.
+5. **Appropriate verified affiliate opportunities.** Review relevant approved retailer opportunities for the article's main products and reader need. Use the existing [AHC Product Research and commercial placement controls](../editorial/recommendation-methodology.md#commercial-placement-controls), central [commercial catalogue](../../src/data/commercial-products.json) and [article commercial coverage gate](#article-commercial-coverage-gate--11-october-2026). Verify the exact destination, current availability, tracking, applicable approval and disclosure before using an opportunity. Add suitable verified placements through the existing article components; do not bypass the catalogue or force products, accessories or retailer links into unrelated guidance. If no suitable verified affiliate opportunity exists, record the reason and keep the article editorial. The absence of an affiliate link alone does not block scheduling.
+
+Keep a dated review note with the post draft or publishing record: supporting live article URL, evidence sources, results for each check, relevant product record IDs or the reason no affiliate placement is appropriate, and any unresolved gaps. Schedule only when the applicable checks pass. If article or commercial records change, run the existing applicable source and built-output audits and `npm run build`, then verify the deployed article under the [established deployment workflow](../../README.md#production-deployment). Automated audits support this review; they do not establish fresh product availability or approve a Facebook post.
+
+**Engagement-only exemption:** Community questions, polls and conversation prompts that contain no product promotion, comparison or buying advice are exempt from this supporting-article and affiliate-opportunity gate. They still follow AHC accuracy, disclosure and brand standards. Adding product guidance makes the post product-focused, even if it also asks a question.
+
 ## 6. Interactive tools
 
 Interactive tools should follow a consistent experience where appropriate:
@@ -201,6 +215,7 @@ If not, it does not belong in the Planning Centre.
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| 1.4 | 14 October 2026 | Added the Facebook pre-scheduling editorial gate, engagement-only exemption and review evidence requirements using existing article and commercial standards. |
 | 1.3 | 5 August 2026 | Activated the commercial-link governance model and linked publication to the AHC Product Research approval gate. |
 | 1.2 | 24 July 2026 | Consolidated the canonical document set, confirmed public trust and commercial boundaries, and linked the current roadmaps and tool standards. |
 | 1.1 | 19 July 2026 | Parked the fridge-planner initiative and returned priority to evidence-led editorial work. |
