@@ -827,10 +827,10 @@
     {
       "guidePath": "/guides/fisher-paykel-precision-fit-fridge-preview/",
       "title": "Fisher & Paykel Precision Fit fridge: what to check before buying",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-15",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "55f4059a57a8f2cb52e194e12e8dacf89b05aa4c304bb4014b9386c722d40536",
+      "reviewedSourceSha256": "1f235e6b825ae8c77badd26ada8a28dd2e226a3c5e59c55a422632f6a6a5036f",
       "requiredProductTypes": [
         {
           "label": "Fisher & Paykel RF600AMPVG1",
@@ -840,7 +840,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. Pricing-only revision reviewed 11 October 2026: unverified retailer quote removed; preview intent and product placement unchanged."
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. Pricing-only revision reviewed 11 October 2026: unverified retailer quote removed; preview intent and product placement unchanged. Clearance-only correction reviewed 15 October 2026: top clearance changed to 50 mm from installation guide 433736A page 5; conflicting top-gap claims and calculated opening height removed. Topic, product placement and availability evidence unchanged."
     },
     {
       "guidePath": "/guides/fridge-dimensions-australia/",
