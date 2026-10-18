@@ -2,11 +2,13 @@
 
 ## Scope and publication status
 
-Prepared locally: four new exact-model Good Guys recommendations, two additional placements of the existing De’Longhi PACEM82K, updated buying comparisons and six stale coverage corrections. Publication and the first expanded secret-backed feed run remain pending. Do not describe these additions as live until deployment and production checks are recorded.
+Release approved and pushed in commit `8306107` on 18 October: four new exact-model Good Guys recommendations, two additional placements of the existing De’Longhi PACEM82K, updated buying comparisons and six stale coverage corrections. See the execution follow-up below; final deployment and production evidence is retained in the local release report.
 
 Research used clean direct URLs decoded offline, manufacturer documents, individual owner comments and Australian retailer listings. No affiliate redirects or tagged merchant links were requested. Retailer AI summaries were not used as owner evidence. Images are retailer-sourced exact-model photographs with provenance in the product catalogue; no Amazon photographs were copied. Local screenshots and source captures are in `tmp/appliance-gaps-2026-10-18/`.
 
 The four new listings displayed an orderable Australian offer and InStock structured data on 18 October. This is a dated observation, not a delivery promise for every postcode. Historical approved campaign terms saved on 7 October were checked for exclusions: Miele and Asko are excluded, as are supplier-shipped Fisher & Paykel/Smeg offers. Only the existing approved Good Guys campaign is used. No claim of a newly reverified commission rate or merchant attribution is made.
+
+**Availability correction after the real feed run:** Instant Duo Plus 8L and the existing GOAT O600 list online-only supplier ordering in visible retailer copy, despite InStock structured data. Both are now classified `available-to-order` and carry a visible delivery warning. They must not be described as immediately in stock.
 
 ## New recommendations
 
@@ -70,13 +72,21 @@ Corrected stale or overlapping entries for barbecue choices, self-emptying robot
 
 The revised monitor derives all approved Good Guys offers from primary and additional retailer records, deduplicated by decoded product URL. It includes the four new models automatically. It fails on missing products, out-of-stock observations, malformed feed values, campaign mismatch, duplicate destinations and changed product identity. Price-only changes are reported without a failed run. An identity fault persists across subsequent runs, including an intervening missing row. Reports are sanitised; no feed secret or affiliate referral is emitted.
 
-The first real expanded feed run still needs to execute after publication. Fixture tests and catalogue selection prove the local logic, not feed availability, current campaign acceptance or sales attribution. Existing source dates are preserved except the explicitly refreshed products. No all-retailer stock sweep was repeated; the prior eight-offer low-stock watchlist, GOAT O600 warranty clarification and unrelated missing images remain outstanding.
+Before publication, the expanded feed run was pending; its subsequent result is recorded below. Fixture tests and catalogue selection prove the local logic, not feed availability, current campaign acceptance or sales attribution. Existing source dates are preserved except the explicitly refreshed products. No all-retailer stock sweep was repeated; the prior eight-offer low-stock watchlist, GOAT O600 warranty clarification and unrelated missing images remain outstanding.
 
-## Local validation completed
+## Local validation before publication
 
 - Catalogue selection: 50 distinct approved Good Guys destinations, including primary and additional-retailer offers. Seven monitor tests passed, covering selection/deduplication, price changes, missing/out-of-stock recovery, malformed values, changed identity, legacy state and rejected destinations. The identity baseline survives an intervening missing row.
 - Full build and existing audit suite passed. Subsequent display-date and placement-wording corrections were rebuilt, reindexed and checked against the commercial and article-coverage audits.
 - Final blocked-network browser check: nine affected pages, 24 rendered product cards, 1440px and 390px widths, no horizontal page overflow, all expected images decoded, approved retailer artwork verified, purchase destinations/tracking/disclosures checked. Seventeen external/analytics requests were blocked. Screenshots inspected for the new cards and comparisons.
 - Contextual links from the sizing guide now lead into the format and climate comparisons. Review dates, source hashes and sitemap dates are synchronised.
 - Local coverage: 135 guide articles — 45 with recorded categories covered, 17 partial, 38 missing primary choices and 35 editorial-only. The full registry also includes one editorial policy page. These classifications are not a mandate to add products to every article.
-- Publication remains unperformed: automatic approval review rejected the attempted commit/push to `main` because it can deploy production and judged explicit publication approval unclear. No production or expanded live-feed success is claimed. Unrelated existing working-tree changes were preserved.
+- Publication was initially blocked: automatic approval review rejected the attempted commit/push to `main` because it can deploy production and judged explicit publication approval unclear. This was resolved by Shane's explicit approval below. Unrelated existing working-tree changes were preserved.
+
+## Approved publication and real monitor execution
+
+Shane explicitly approved publication and activation in the following turn. Commit `8306107` was pushed to main. [Monitor run 39100029058](https://github.com/Shamus-T/australian-home-collective/actions/runs/39100029058) executed its named **Check selected products** step, fetched the configured feed, matched all 50 selected offers and saved its comparison state and sanitised report. The secret was masked; no secret value was retrieved or disclosed.
+
+The check correctly returned failure for two Stock=No observations: GOAT O600 RTK and Instant Duo Plus 8L. The other 48 offers had no reported fault. This is a functioning monitor with review alerts, not a skipped or unconfigured run. Both clean retailer pages were rechecked at approximately 05:18 UTC: their visible copy states online-only supplier ordering and asks customers to check a delivery estimate. Add to Cart and InStock structured data remain present, but do not establish immediate stock. Product records and reader-facing summaries now make that distinction. No fixed lead time is promised. These brands are not the Fisher & Paykel/Smeg supplier-shipped exclusions in the saved terms.
+
+Feed alerts are retained rather than suppressed to obtain a green run. The four-hour schedule is enabled on main; a push-triggered execution is evidenced, not a future scheduled occurrence. Final production screenshots, deployment status and sanitised monitoring output are saved under `tmp/appliance-gaps-2026-10-18/` and reflected in the local outstanding-work report.
