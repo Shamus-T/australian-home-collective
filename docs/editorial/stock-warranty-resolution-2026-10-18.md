@@ -6,6 +6,8 @@ At 11:42 UTC (21:42 Brisbane), clean exact-product Good Guys pages for GOAT O600
 
 The feed's raw Stock=No is not rewritten to Yes. The monitor reports these as reviewed supplier orders through 21 October 2026 11:42 UTC (approximately 21:42 Brisbane). Reviews expire after three days and cannot last longer than seven. Missing/invalid feed rows, changed identity, an unreviewed No value and expired reviews remain faults. Price changes remain visible. Reader cards retain the delivery-estimate warning. This does not establish stock at any particular postcode or a dispatch date.
 
+Actual run 39125120868 confirmed feed identifiers GOAT-O600-RTK and 113-0063-01-AU. The bounded reviews match those model identifiers, not retailer listing IDs 50099701 and 50098032. This initial run failed closed on the identifier mismatch; the corrected configuration requires a successful subsequent real feed run.
+
 ## GOAT warranty
 
 Shane confirmed on 18 October that five independently checked sites all listed two years and instructed AHC to use two years. The guide and product card adopt that term. The Good Guys overview also states two years, although its specifications still state three. The manufacturer's generic Australian warranty page does not clearly name this model. The five sites were not supplied as a source list; do not claim the agent verified all five or obtained written manufacturer confirmation.
