@@ -83,7 +83,8 @@
     "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/",
     "/guides/air-conditioning-buying-guide/",
     "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
-    "/guides/everyday-kitchen-essentials-australian-homes/"
+    "/guides/everyday-kitchen-essentials-australian-homes/",
+    "/guides/evaporative-cooler-vs-refrigerated-air-conditioning/"
   ],
   "products": [
     {
@@ -12329,10 +12330,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-10-11",
+      "lastReviewedOn": "2026-10-18",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-10-11",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "available-to-order",
@@ -12367,7 +12368,7 @@
           "publisher": "De’Longhi",
           "sourceUrl": "https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html",
           "supports": "Confirms exact PACEM82K, 2.4kW, three fan speeds, timer, remote and included window kit. Manufacturer web data and retailer differ on dimensions/weight; those figures are not relied on. AU support and service-centre links available.",
-          "checkedOn": "2026-10-11"
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "technical-review",
@@ -12375,39 +12376,39 @@
           "publisher": "De’Longhi",
           "sourceUrl": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=265989&download=true",
           "supports": "Downloaded and read seven-page English instructions from exact model support page: minimum 600mm walls/obstacles, exhaust hose in cooling and dry modes, continuous condensate drainage option and end-of-season drain. Silent control applies to some models only; not claimed for PACEM82K.",
-          "checkedOn": "2026-10-11"
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "owner-feedback",
           "title": "PACEM82K individual purchaser reviews",
           "publisher": "The Good Guys",
           "sourceUrl": "https://www.thegoodguys.com.au/delonghi-24kw-portable-air-conditioner-pacem82k",
-          "supports": "Read 10 most recent reviews and all five one-star reviews from 82 total. Recurring cooling/ease reports coexist with noise and hose/window-panel limitations; low reviews include poor cooling, a service complaint and one short-cycling report. Sample is not all 82 reviews and may include incentives; no reliability or quietness guarantee.",
-          "checkedOn": "2026-10-11"
+          "supports": "Ten current comments read alongside the saved 11 October low-rating review. Cooling satisfaction coexists with noise and window-panel/hose-fit complaints. Do not copy owner suggestions to raise the unit on furniture or extend the hose; use the manufacturer setup. Potential incentives and limited sample prevent reliability claims.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "australian-availability-support",
           "title": "Exact-model Australian order and support check",
           "publisher": "The Good Guys",
           "sourceUrl": "https://www.thegoodguys.com.au/delonghi-24kw-portable-air-conditioner-pacem82k",
-          "supports": "Live exact model with enabled Add to Cart checked in browser on 11 October 2026. Retailer states two-year manufacturer warranty. Local delivery and collection depend on postcode; no nationwide stock claim.",
-          "checkedOn": "2026-10-11"
+          "supports": "Exact Australian PACEM82K listing and InStock offer checked 18 October; two-year retailer-listed warranty, with delivery/collection postcode dependent.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "regulator-recall-check",
           "title": "Portable AC model recall search",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "Searched exact DCP9C and PACEM82K plus brand/portable-air-conditioner recall terms on 11 October 2026. No matching indexed notice found. Reviewed Dimplex GDC18RWA/GDC18RBA 2016 recall: different models. Scoped search, not certification.",
-          "checkedOn": "2026-10-11"
+          "supports": "18 October DeLonghi RSS recall search found no PACEM82K match. Dated scoped search, not certification.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "seller-fulfilment",
           "title": "Exact Partnerize destination verification",
           "publisher": "The Good Guys / Partnerize",
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-24kw-portable-air-conditioner-pacem82k",
-          "supports": "Opened exact affiliate link in browser; correct model and retailer reached with clickref, rel, utm_source=Partner and utm_medium=shamus80 preserved. Enabled Add to Cart; no purchase made. QA click is not customer revenue.",
-          "checkedOn": "2026-10-11"
+          "supports": "Approved Partnerize destination decoded offline; clean exact PACEM82K listing remains InStock and orderable on 18 October. No referral requested. Earlier 11 October tagged QA is not customer activity.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -12419,7 +12420,7 @@
         "credit": "Product image sourced from The Good Guys website.",
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50077315_787160.png?v=1776228309",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
-        "checkedOn": "2026-10-11"
+        "checkedOn": "2026-10-18"
       }
     },
     {
@@ -18544,6 +18545,602 @@
         "credit": "Product image sourced from Joseph Joseph.",
         "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/81081_1_9484741b-3e8e-4535-bd85-22b4ba15a6cd.jpg?v=1735821888",
         "suppliedVia": "Manufacturer exact-model page: https://josephjoseph.com.au/products/nest-lock-5-piece-leakproof-container-set-multicolour",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-gap-integrated-smv4htx01a",
+      "guidePath": "/guides/dishwasher-sizes-australia/",
+      "name": "Bosch Series 4 SMV4HTX01A Fully Integrated Dishwasher",
+      "productType": "14-place fully integrated dishwasher",
+      "summary": "A cabinet-front dishwasher with adjustable upper basket, a lower cutlery basket and a floor light showing when it is running. It suits a planned integrated installation; the matching furniture door is a separate cabinetry job.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-series-4-60cm-fully-integrated-dishwasher-smv4htx01a",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The furniture panel is not included. Check its size and weight, plinth movement, fixings and service routes with the installer; a 600mm opening alone does not prove fit.",
+        "Extra Dry extends drying time. This is condensation drying rather than a promise of dry plastics on every cycle. A cutlery basket also takes space in the lower rack."
+      ],
+      "suitability": {
+        "suits": [
+          "a kitchen designed for a fully integrated dishwasher and a matching cabinet front"
+        ],
+        "mayNotSuit": [
+          "a freestanding replacement without cabinetry work, or buyers wanting a cutlery drawer"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Australian model instructions and specifications",
+          "publisher": "Bosch",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/specsheet/en-AU/SMV4HTX01A.pdf",
+          "supports": "SMV4HTX01A Australian specification pages 1–3 and current manufacturer page: 14 settings, adjustable basket, 598mm body width, 815–875mm height, 550mm depth; planning niche 600mm wide, 815–875mm high, minimum 550mm deep; 1155mm door-open depth. Page 3 drawing visually inspected. Separate installation instructions 9001999341_A govern panel, plinth, fixing and services. Manufacturer manual explains additional drying time and plastics limitations.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model owner comments",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-4-60cm-fully-integrated-dishwasher-smv4htx01a",
+          "supports": "All ten displayed exact-model owner comments read. Several discuss successful replacement, cleaning and low perceived noise; one two-star rating has no explanatory text. Comments may be incentivised and do not establish lifespan. No retailer AI summary used.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-4-60cm-fully-integrated-dishwasher-smv4htx01a",
+          "supports": "Exact SMV4HTX01A, SKU 50076488: InStock and Add to Cart on 18 October. Delivery/collection depend on postcode; not a national stock guarantee. Australian Bosch service route; retailer lists two-year manufacturer warranty.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall review",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Bosch RSS search inspected, including the 2000–2006 S9 dishwasher recall: its listed models do not include SMV4HTX01A.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved exact-model Good Guys destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-series-4-60cm-fully-integrated-dishwasher-smv4htx01a",
+          "supports": "Retailer SMV4HTX01A and SKU 50076488 matched offline. Approved campaign 1100l6vaUc; clean retailer URL researched, no affiliate redirect requested. Brand is not in saved campaign exclusions, and no in-store-only restriction. Historical commission terms are not a merchant attribution test.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-gap-integrated-640.webp",
+        "srcSet": "/images/products/tgg-gap-integrated-320.webp 320w, /images/products/tgg-gap-integrated-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Bosch Series 4 SMV4HTX01A Fully Integrated Dishwasher",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50076488_774589.png?v=1776229276",
+        "suppliedVia": "Exact-model retailer product listing: https://www.thegoodguys.com.au/bosch-series-4-60cm-fully-integrated-dishwasher-smv4htx01a",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-gap-haier-hrf510fhs",
+      "guidePath": "/guides/fridge-dimensions-australia/",
+      "name": "Haier HRF510FHS 509L French Door Fridge",
+      "productType": "French doors, freezer drawer and refillable water tank",
+      "summary": "A 790mm-wide French-door model with 372L of fridge space and 137L of freezer space. The water dispenser uses a refillable tank, so it avoids a plumbed-water connection; it still needs ventilation space and room for both doors and the freezer drawer.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fhaier-509l-french-door-refrigerator-hrf510fhs",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The smaller freezer favours households that prioritise fresh food. Owners mention frequent water-tank refilling and awkward ice-tray access; inspect the drawer and your usual containers before buying.",
+        "The 790mm body does not fit a 790mm cavity. Haier’s model-specific planning guide shows an 850mm-wide, 1775mm-high, 757mm-deep cavity; confirm the supplied instructions and door movement with the installer."
+      ],
+      "suitability": {
+        "suits": [
+          "fresh-food-focused households wanting French doors without a plumbed dispenser"
+        ],
+        "mayNotSuit": [
+          "bulk freezer storage, automatic ice, or a cavity measured only against the closed body"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Australian model instructions and specifications",
+          "publisher": "Haier",
+          "sourceUrl": "https://dam.fisherpaykel.com/KZ3PKN00/at/wfbv32nrz786q58pqt6wkwn/Haier-SpecificationGuide-en-HRF510FS-HRF510FHS-HRF510FHC-FrenchDoorRefrigeratorFreezer-0-90004643B-AU-NZ.pdf",
+          "supports": "Current Australian page confirms 509L total, 372L fridge/137L freezer and refillable water tank. Specification guide 90004643B page 3 gives body 790W × 1725H × 707D mm and cavity 850W × 1775H × 757D mm. User guide V2 page 33 specifically distinguishes French-door 30mm sides from bottom-mount 50mm sides; both need 50mm above/behind. Follow the model-specific instructions, not the broad introductory 5cm wording or obsolete no-gaps marketing. Planning sheet is not a complete installation instruction.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model owner comments",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/haier-509l-french-door-refrigerator-hrf510fhs",
+          "supports": "Read ten recent exact-model purchaser comments from 41 shown in the count. Storage layout and refillable water are useful to owners; drawbacks include frequent refilling and awkward access when inserting filled ice trays. This limited, potentially incentivised sample is not a failure-rate or longevity study.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/haier-509l-french-door-refrigerator-hrf510fhs",
+          "supports": "Exact HRF510FHS, SKU 50094832: InStock and Add to Cart on 18 October. Delivery/collection depend on postcode; not a national stock guarantee. Haier Australia specifies two years parts and labour; compressor extension is parts-only and is not whole-appliance cover.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall review",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Haier Australian recall RSS search returned no matching records; this is a dated search, not safety certification.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved exact-model Good Guys destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fhaier-509l-french-door-refrigerator-hrf510fhs",
+          "supports": "Retailer HRF510FHS and SKU 50094832 matched offline. Approved campaign 1100l6vaUc; clean retailer URL researched, no affiliate redirect requested. Brand is not in saved campaign exclusions, and no in-store-only restriction. Historical commission terms are not a merchant attribution test.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-gap-haier-640.webp",
+        "srcSet": "/images/products/tgg-gap-haier-320.webp 320w, /images/products/tgg-gap-haier-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Haier HRF510FHS 509L French Door Fridge",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50094832_964155.png?v=1776232427",
+        "suppliedVia": "Exact-model retailer product listing: https://www.thegoodguys.com.au/haier-509l-french-door-refrigerator-hrf510fhs",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-gap-multicooker-113-0063-01-au",
+      "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
+      "name": "Instant Pot Duo Plus 8L — 113-0063-01-AU",
+      "productType": "Larger pressure and slow cooker; no air frying",
+      "summary": "An 8L nominal-capacity pressure and slow cooker with a stainless-steel inner pot. It provides a larger batch-cooking option than the existing 6L Breville when the extra size earns its bench space; it cannot replace an air fryer or grill.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Finstant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Eight litres is not the permitted pressure-cooking fill. Follow the two-thirds maximum line, or the half-full limit for expanding or foaming foods, and the recipe’s liquid and release instructions.",
+        "Allow preheating and pressure release as well as the timer. An owner reports burn-warning interruptions; deglazing and enough thin liquid matter. Its 6.8kg empty weight and separate lid also need storage space."
+      ],
+      "suitability": {
+        "suits": [
+          "regular larger batches of soups, stews or pressure-cooked meals with room for the appliance"
+        ],
+        "mayNotSuit": [
+          "crisping, air frying, tiny portions or expecting an 8L usable pressure-cooking volume"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Australian model instructions and specifications",
+          "publisher": "Instant Pot",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0727/7264/9209/files/Instant_Pot_Duo_Plus_User_Manual_1.pdf?v=1749536651",
+          "supports": "Australian manufacturer listing identifies SKU 113-0063-01-AU. Linked Duo Plus 80 v2 manual: 8L nominal, 6.8kg, 33.5L × 38W × 36.5H cm, 220–240V; pages 24–26 give fill limits and 500mL pressure-cooking liquid unless recipe specifies otherwise. Manual table visually checked. The app is a recipe resource; remote appliance control and WhisperQuiet features from other versions are not claimed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model owner comments",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/instant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
+          "supports": "Read current retailer owner comments and earlier indexed exact-model comments. Owners describe useful batch size, steel-pot cleaning and pressure/slow-cooking functions; one reports a burn warning stopping cooking. A duplicated October comment is not counted twice. These accounts may be incentivised; timed marketing claims and retailer AI summaries are not adopted.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/instant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
+          "supports": "Exact 113-0063-01-AU, SKU 50098032: InStock and Add to Cart on 18 October. Delivery/collection depend on postcode; not a national stock guarantee. Australian Instant Pot site offers local support and 12-month warranty; manual supplies Australian distributor contact.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall review",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Instant brand Australian recall RSS search inspected; no matching Duo Plus 113-0063-01-AU notice found. Not a certification.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved exact-model Good Guys destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Finstant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
+          "supports": "Retailer 113-0063-01-AU and SKU 50098032 matched offline. Approved campaign 1100l6vaUc; clean retailer URL researched, no affiliate redirect requested. Brand is not in saved campaign exclusions, and no in-store-only restriction. Historical commission terms are not a merchant attribution test.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-gap-multicooker-640.webp",
+        "srcSet": "/images/products/tgg-gap-multicooker-320.webp 320w, /images/products/tgg-gap-multicooker-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Instant Pot Duo Plus 8L — 113-0063-01-AU",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50098032_1057319.png?v=1777340524",
+        "suppliedVia": "Exact-model retailer product listing: https://www.thegoodguys.com.au/instant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-gap-oil-trrs0715eg",
+      "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
+      "name": "De’Longhi Radia S Digital TRRS0715EG Oil Column Heater",
+      "productType": "1500W oil-filled heater with digital controls",
+      "summary": "A 1500W oil-filled option with thermostat and timer for an enclosed room where gradual warmth is suitable. Compare its output and safe floor footprint with the 2400W convector; the lower maximum wattage also means less maximum heat.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-1500w-radia-s-oil-column-heater-wtimer-trrs0715eg",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It takes time to warm the room and retains heat after switching off. Owners report expansion or switching clicks, so fan-free does not mean completely silent.",
+        "The casing can become hot. Keep it upright, uncovered and away from children, pets, furniture and bedding; plug directly into a suitable wall socket. Do not use it to dry washing or with an external timer."
+      ],
+      "suitability": {
+        "suits": [
+          "gradual warmth in a suitably sized enclosed room with a safe clear floor position"
+        ],
+        "mayNotSuit": [
+          "instant spot heat, large open rooms or unattended and overnight operation"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Australian model instructions and specifications",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://www.appliancesonline.com.au/public/manuals/Delonghi-TRRS0715EG-Radia-S-Digital-Oil-Column-Heater-User-Manual.pdf",
+          "supports": "Australian/New Zealand DeLonghi TRRS0715E instruction manual 5718510911/11.16, supplied under exact TRRS0715EG listing: thermostat, timer, three power levels, hot casing, upright use, no laundry drying/external timer, room at least 4m². Grey suffix is finish; do not transfer instructions from mechanical TRRS0715T. Existing article uses stricter one-metre fire-safety clearance. Retailer confirms 1500W exact AU model; no energy-saving percentage claimed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model owner comments",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-1500w-radia-s-oil-column-heater-wtimer-trrs0715eg",
+          "supports": "Ten recent exact-model retailer comments discuss heating, digital control and ease of use. One describes loud warming/cooling clicks and another timer-reset frustration; repeated same-author comments are not independent votes. ProductReview exact E.G owner accounts were also considered; unsafe nursery/pet assurances are rejected in favour of the manual.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-1500w-radia-s-oil-column-heater-wtimer-trrs0715eg",
+          "supports": "Exact TRRS0715EG, SKU 50045856: InStock and Add to Cart on 18 October. Delivery/collection depend on postcode; not a national stock guarantee. Australian distributor contact in manufacturer manual; current retailer lists seven-year manufacturer warranty. No promise of call-out coverage or lifetime durability.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall review",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "DeLonghi Australian recall RSS search inspected; no TRRS0715EG notice found. A dated search is not safety certification.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved exact-model Good Guys destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-1500w-radia-s-oil-column-heater-wtimer-trrs0715eg",
+          "supports": "Retailer TRRS0715EG and SKU 50045856 matched offline. Approved campaign 1100l6vaUc; clean retailer URL researched, no affiliate redirect requested. Brand is not in saved campaign exclusions, and no in-store-only restriction. Historical commission terms are not a merchant attribution test.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-gap-oil-640.webp",
+        "srcSet": "/images/products/tgg-gap-oil-320.webp 320w, /images/products/tgg-gap-oil-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "De’Longhi Radia S Digital TRRS0715EG Oil Column Heater",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50045856_489942_1fb079aa-a990-475d-abcf-a616fee1e5dd.png?v=1776230386",
+        "suppliedVia": "Exact-model retailer product listing: https://www.thegoodguys.com.au/delonghi-1500w-radia-s-oil-column-heater-wtimer-trrs0715eg",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-gap-portable-portable-vs-window-wall-vs-split-system-air-conditioner",
+      "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
+      "name": "De’Longhi Pinguino PACEM82K 2.4kW portable air conditioner",
+      "productType": "Portable refrigerated air conditioner",
+      "summary": "A cooling-only portable unit with three fan speeds, a remote and a 24-hour timer. Allow at least 600mm from walls and obstacles, and check the exhaust-window fit. Owners describe useful room cooling, but noise and hose setup remain significant limits.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-24kw-portable-air-conditioner-pacem82k",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow at least 600mm from walls and obstacles, with a short, unobstructed exhaust route to the window.",
+        "This model is not the similarly named Silent version. Owner feedback includes intrusive noise, weak cooling in some rooms and one short-cycling complaint.",
+        "Manufacturer and retailer weight and dimension listings differ. Confirm the current supplied unit before planning a tight storage position or lifting it upstairs.",
+        "Auto-evaporation is not a promise of zero draining. The manual provides continuous drainage for high humidity and draining instructions before storage."
+      ],
+      "suitability": {
+        "suits": [
+          "Occasional cooling of an enclosed room where a three-speed fan and timer are useful",
+          "A position with at least 600mm operating clearance and a compatible exhaust window"
+        ],
+        "mayNotSuit": [
+          "Light sleepers needing a quiet bedroom appliance",
+          "Large open-plan rooms or high windows beyond the supplied hose route",
+          "A tight cavity or routine carrying between floors"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "PACEM82K Australian product information",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html",
+          "supports": "Confirms exact PACEM82K, 2.4kW, three fan speeds, timer, remote and included window kit. Manufacturer web data and retailer differ on dimensions/weight; those figures are not relied on. AU support and service-centre links available.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "PAC EM instructions linked by PACEM82K support",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=265989&download=true",
+          "supports": "Downloaded and read seven-page English instructions from exact model support page: minimum 600mm walls/obstacles, exhaust hose in cooling and dry modes, continuous condensate drainage option and end-of-season drain. Silent control applies to some models only; not claimed for PACEM82K.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "PACEM82K individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-24kw-portable-air-conditioner-pacem82k",
+          "supports": "Ten current comments read alongside the saved 11 October low-rating review. Cooling satisfaction coexists with noise and window-panel/hose-fit complaints. Do not copy owner suggestions to raise the unit on furniture or extend the hose; use the manufacturer setup. Potential incentives and limited sample prevent reliability claims.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model Australian order and support check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-24kw-portable-air-conditioner-pacem82k",
+          "supports": "Exact Australian PACEM82K listing and InStock offer checked 18 October; two-year retailer-listed warranty, with delivery/collection postcode dependent.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Portable AC model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "18 October DeLonghi RSS recall search found no PACEM82K match. Dated scoped search, not certification.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Partnerize destination verification",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-24kw-portable-air-conditioner-pacem82k",
+          "supports": "Approved Partnerize destination decoded offline; clean exact PACEM82K listing remains InStock and orderable on 18 October. No referral requested. Earlier 11 October tagged QA is not customer activity.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/delonghi-pacem82k-good-guys-640.webp",
+        "srcSet": "/images/products/delonghi-pacem82k-good-guys-320.webp 320w, /images/products/delonghi-pacem82k-good-guys-640.webp 640w, /images/products/delonghi-pacem82k-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 1179,
+        "alt": "De’Longhi Pinguino PACEM82K 2.4kW portable air conditioner product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50077315_787160.png?v=1776228309",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-gap-portable-evaporative-cooler-vs-refrigerated-air-conditioning",
+      "guidePath": "/guides/evaporative-cooler-vs-refrigerated-air-conditioning/",
+      "name": "De’Longhi Pinguino PACEM82K 2.4kW portable air conditioner",
+      "productType": "Portable refrigerated air conditioner",
+      "summary": "A cooling-only portable unit with three fan speeds, a remote and a 24-hour timer. Allow at least 600mm from walls and obstacles, and check the exhaust-window fit. Owners describe useful room cooling, but noise and hose setup remain significant limits.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-24kw-portable-air-conditioner-pacem82k",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow at least 600mm from walls and obstacles, with a short, unobstructed exhaust route to the window.",
+        "This model is not the similarly named Silent version. Owner feedback includes intrusive noise, weak cooling in some rooms and one short-cycling complaint.",
+        "Manufacturer and retailer weight and dimension listings differ. Confirm the current supplied unit before planning a tight storage position or lifting it upstairs.",
+        "Auto-evaporation is not a promise of zero draining. The manual provides continuous drainage for high humidity and draining instructions before storage."
+      ],
+      "suitability": {
+        "suits": [
+          "Occasional cooling of an enclosed room where a three-speed fan and timer are useful",
+          "A position with at least 600mm operating clearance and a compatible exhaust window"
+        ],
+        "mayNotSuit": [
+          "Light sleepers needing a quiet bedroom appliance",
+          "Large open-plan rooms or high windows beyond the supplied hose route",
+          "A tight cavity or routine carrying between floors"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "PACEM82K Australian product information",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html",
+          "supports": "Confirms exact PACEM82K, 2.4kW, three fan speeds, timer, remote and included window kit. Manufacturer web data and retailer differ on dimensions/weight; those figures are not relied on. AU support and service-centre links available.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "PAC EM instructions linked by PACEM82K support",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=265989&download=true",
+          "supports": "Downloaded and read seven-page English instructions from exact model support page: minimum 600mm walls/obstacles, exhaust hose in cooling and dry modes, continuous condensate drainage option and end-of-season drain. Silent control applies to some models only; not claimed for PACEM82K.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "PACEM82K individual purchaser reviews",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-24kw-portable-air-conditioner-pacem82k",
+          "supports": "Ten current comments read alongside the saved 11 October low-rating review. Cooling satisfaction coexists with noise and window-panel/hose-fit complaints. Do not copy owner suggestions to raise the unit on furniture or extend the hose; use the manufacturer setup. Potential incentives and limited sample prevent reliability claims.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model Australian order and support check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-24kw-portable-air-conditioner-pacem82k",
+          "supports": "Exact Australian PACEM82K listing and InStock offer checked 18 October; two-year retailer-listed warranty, with delivery/collection postcode dependent.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Portable AC model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "18 October DeLonghi RSS recall search found no PACEM82K match. Dated scoped search, not certification.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Partnerize destination verification",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-24kw-portable-air-conditioner-pacem82k",
+          "supports": "Approved Partnerize destination decoded offline; clean exact PACEM82K listing remains InStock and orderable on 18 October. No referral requested. Earlier 11 October tagged QA is not customer activity.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/delonghi-pacem82k-good-guys-640.webp",
+        "srcSet": "/images/products/delonghi-pacem82k-good-guys-320.webp 320w, /images/products/delonghi-pacem82k-good-guys-640.webp 640w, /images/products/delonghi-pacem82k-good-guys-960.webp 960w",
+        "width": 640,
+        "height": 1179,
+        "alt": "De’Longhi Pinguino PACEM82K 2.4kW portable air conditioner product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50077315_787160.png?v=1776228309",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-18"
       }
     }

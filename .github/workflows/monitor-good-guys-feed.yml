@@ -4,6 +4,13 @@ on:
   schedule:
     - cron: "0 0,4,8,12,16,20 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/monitor-good-guys-feed.py
+      - tests/test_good_guys_feed.py
+      - src/data/commercial-products.json
+      - .github/workflows/monitor-good-guys-feed.yml
 
 permissions:
   contents: read
@@ -14,6 +21,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
+      - name: Test monitoring logic
+        run: python3 -m unittest discover -s tests -p test_good_guys_feed.py
       - name: Check feed configuration
         id: config
         env:
@@ -23,6 +32,7 @@ jobs:
             echo "ready=true" >> "$GITHUB_OUTPUT"
           else
             echo "Feed monitor awaiting GOOD_GUYS_FEED_URL repository secret." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
           fi
       - name: Restore previous selected-product state
         if: steps.config.outputs.ready == 'true'
@@ -48,3 +58,11 @@ jobs:
         with:
           path: .feed-monitor/previous.json
           key: good-guys-state-${{ github.run_id }}
+      - name: Save sanitised monitoring report
+        if: always() && steps.config.outputs.ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: good-guys-monitor-report
+          path: .feed-monitor/report.json
+          include-hidden-files: true
+          if-no-files-found: warn

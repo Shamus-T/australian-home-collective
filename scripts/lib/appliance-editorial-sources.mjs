@@ -7,6 +7,11 @@
 // LG evidence: docs/editorial/lg-fit-max-first-look-sources-2026-10-10.md
 // Washer update: docs/editorial/washer-affiliate-review-2026-10-10.json
 const reviewedSourceUrls = new Set([
+  // Exact fit and safety documents: appliance-gap-research-2026-10-18.md.
+  "https://media3.bsh-group.com/Documents/specsheet/en-AU/SMV4HTX01A.pdf",
+  "https://dam.fisherpaykel.com/KZ3PKN00/at/wfbv32nrz786q58pqt6wkwn/Haier-SpecificationGuide-en-HRF510FS-HRF510FHS-HRF510FHC-FrenchDoorRefrigeratorFreezer-0-90004643B-AU-NZ.pdf",
+  "https://dam.fisherpaykel.com/KZ3PKN00/at/75nf5nmpb38tc5h35w47vrx/Haier-UserGuide-en-HRF510BHC-HRF510BW-HRF510BS-HRF510FHC-HRF510FHS-HRF510FS-HRF510BEC-Refrigeration-0-V2-NZ-AU.pdf",
+  "https://cdn.shopify.com/s/files/1/0727/7264/9209/files/Instant_Pot_Duo_Plus_User_Manual_1.pdf?v=1749536651",
   // Exact care references: amazon-container-airer-research-2026-10-18.md.
   "https://josephjoseph.com.au/products/nest-lock-5-piece-leakproof-container-set-multicolour",
   "https://www.brabantia.com/uk/hangon-drying-rack-20-metres-matt-black/",

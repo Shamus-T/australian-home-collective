@@ -48,5 +48,15 @@
     "reason": "6kg vented for smaller, occasional loads when a suitable exhaust arrangement is available.",
     "fit": "600mm wide × 795mm high × 560mm deep body; installation needs more space.",
     "tradeoff": "Smaller capacity, two-star energy rating and moist exhaust. Confirm installed depth, ventilation, fitting and any optional vent kit before comparing total cost."
+  },
+  "tgg-gap-integrated-smv4htx01a": {
+    "reason": "A matching furniture door and hidden controls, with 14 place settings.",
+    "fit": "598mm body width; planning niche 600W × 815–875H × at least 550D mm.",
+    "tradeoff": "Cabinet panel is extra. Check panel weight, plinth movement, fixing and services; allow 1155mm door-open depth plus loading room."
+  },
+  "tgg-gap-haier-hrf510fhs": {
+    "reason": "372L fresh-food space and a 137L freezer, with refillable chilled water instead of plumbing.",
+    "fit": "790W × 1725H × 707D mm body; published cavity 850W × 1775H × 757D mm.",
+    "tradeoff": "Both doors and the drawer need operating space. Smaller freezer, manual ice and regular tank refilling; check large-container and ice-tray access."
   }
 }

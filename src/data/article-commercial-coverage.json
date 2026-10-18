@@ -89,7 +89,7 @@
         {
           "label": "Multi-split, ducted and window/wall systems",
           "productIds": [],
-          "gapReason": "Panasonic addition is a single-room split only; no exact-model shortlist for these other formats."
+          "gapReason": "Multi-split and ducted systems require a site-specific equipment and installation quote, not a generic shopping-card substitute. Window/wall DCB09 revision/specification conflict and limited Midea owner evidence remain unresolved; see 18 October appliance research."
         }
       ],
       "supportingProductIds": [],
@@ -99,7 +99,7 @@
         "/guides/how-to-keep-house-cooler-in-summer/",
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md. Gap reasons researched 18 October; no new product approval on this page."
     },
     {
       "guidePath": "/guides/australian-made-gift-ideas-under-100/",
@@ -206,11 +206,6 @@
       "reviewedSourceSha256": "137b6df4a1a002d3cbd2949d818b48c64c057eacb59ed39feadf73972a36684b",
       "requiredProductTypes": [
         {
-          "label": "Barbecues",
-          "productIds": [],
-          "gapReason": "No approved barbecue; appliance clearance and fuel instructions must be checked per model."
-        },
-        {
           "label": "Compact portable LPG barbecue",
           "productIds": [
             "tgg-bbq-small-barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear"
@@ -228,7 +223,7 @@
         "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. Coverage register reconciled 18 October against current approved placements: obsolete blanket gaps removed or narrowed. This correction does not refresh product availability dates."
     },
     {
       "guidePath": "/guides/bassinet-vs-cot/",
@@ -448,7 +443,7 @@
     {
       "guidePath": "/guides/bedroom-storage-ideas-small-australian-rooms/",
       "title": "Bedroom Storage Ideas for Small Australian Rooms",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "e6b306694ec9ee4043b2b45328ab888d733bb3061a3d3e9bdeb15e5d27f945c5",
@@ -456,7 +451,7 @@
         {
           "label": "Small-bedroom storage",
           "productIds": [],
-          "gapReason": "Linked wardrobe and under-bed guides have image gaps; do not duplicate incomplete cards."
+          "gapReason": "Focused wardrobe and under-bed guides now have approved options, including photographed vacuum bags. This overview still needs a deliberate selection for its own storage use cases; older image gaps in those guides do not invalidate all their options."
         }
       ],
       "supportingProductIds": [],
@@ -464,7 +459,7 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/under-bed-storage-what-to-measure-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. Coverage register reconciled 18 October against current approved placements: obsolete blanket gaps removed or narrowed. This correction does not refresh product availability dates."
     },
     {
       "guidePath": "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
@@ -751,10 +746,10 @@
     {
       "guidePath": "/guides/dishwasher-sizes-australia/",
       "title": "Dishwasher Sizes Australia: Measure Before You Buy",
-      "reviewedOn": "2026-10-12",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "8d8726ed0a52485e1321fc929281ffcbd80481196e7f8514f2c4d0e592aadb5b",
+      "reviewedSourceSha256": "f32030a3e7295ad238ef43fc2615f7cc0f544781b1780689e631852c4e8f0b25",
       "requiredProductTypes": [
         {
           "label": "60cm freestanding dishwasher",
@@ -769,14 +764,20 @@
           ]
         },
         {
-          "label": "Drawer and integrated dishwashers",
+          "label": "Fully integrated dishwasher",
+          "productIds": [
+            "tgg-gap-integrated-smv4htx01a"
+          ]
+        },
+        {
+          "label": "Drawer dishwasher",
           "productIds": [],
-          "gapReason": "Named Fisher & Paykel and Miele examples remain measuring references; not cleared buying recommendations."
+          "gapReason": "Fisher & Paykel DD60SCX9 is a measuring reference. Its supplier-agency offer has not cleared the campaign exclusion for supplier-shipped Fisher & Paykel products; no commission-eligible drawer alternative verified."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified affiliate offers. Unpaid retailer shopping alternatives removed on the same day; buying calls to action require approved affiliate tracking. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",
@@ -806,15 +807,21 @@
     {
       "guidePath": "/guides/evaporative-cooler-vs-refrigerated-air-conditioning/",
       "title": "Evaporative Cooler vs Refrigerated Air Conditioning: Which Works in Your Climate?",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "eb6e2a49538a9226dc37f3cc13da8d9dc6765be496f138cdba5df6f944773950",
+      "reviewedSourceSha256": "11b79f10e4abcd70b0ba1e8b20fb35feb59a765ea9845d3bd9552cd6855afbce",
       "requiredProductTypes": [
         {
-          "label": "Evaporative and refrigerated cooling examples",
+          "label": "Portable refrigerated cooling",
+          "productIds": [
+            "tgg-gap-portable-evaporative-cooler-vs-refrigerated-air-conditioning"
+          ]
+        },
+        {
+          "label": "Evaporative cooler",
           "productIds": [],
-          "gapReason": "No direct researched models; explanation and cross-links do not count as model coverage."
+          "gapReason": "Insta Chill ICHIL_09EX V3 has conflicting speed/coverage claims, repeated cooling/refill/noise complaints and insufficient exact-revision manufacturer evidence. No suitable option cleared; installed whole-home evaporative equipment requires site-specific assessment."
         }
       ],
       "supportingProductIds": [],
@@ -822,7 +829,7 @@
         "/guides/air-conditioner-dry-mode-humidity/",
         "/guides/portable-air-conditioners-australia/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
@@ -882,7 +889,7 @@
     {
       "guidePath": "/guides/fisher-paykel-precision-fit-fridge-preview/",
       "title": "Fisher & Paykel Precision Fit fridge: what to check before buying",
-      "reviewedOn": "2026-10-15",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "1f235e6b825ae8c77badd26ada8a28dd2e226a3c5e59c55a422632f6a6a5036f",
@@ -890,20 +897,20 @@
         {
           "label": "Fisher & Paykel RF600AMPVG1",
           "productIds": [],
-          "gapReason": "Preview status does not establish an orderable exact-model affiliate offer. No substitute model should appear as its purchase link."
+          "gapReason": "18 October check: exact RF600AMPVG1 appears at non-approved retailers and manufacturer coming-soon resources. No current Good Guys commission-eligible exact offer verified. Keep preview unmonetised rather than link a different model."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. Pricing-only revision reviewed 11 October 2026: unverified retailer quote removed; preview intent and product placement unchanged. Clearance-only correction reviewed 15 October 2026: top clearance changed to 50 mm from installation guide 433736A page 5; conflicting top-gap claims and calculated opening height removed. Topic, product placement and availability evidence unchanged."
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. Pricing-only revision reviewed 11 October 2026: unverified retailer quote removed; preview intent and product placement unchanged. Clearance-only correction reviewed 15 October 2026: top clearance changed to 50 mm from installation guide 433736A page 5; conflicting top-gap claims and calculated opening height removed. Topic, product placement and availability evidence unchanged. Gap reasons researched 18 October; no new product approval on this page."
     },
     {
       "guidePath": "/guides/fridge-dimensions-australia/",
       "title": "Fridge Dimensions Australia: What to Measure Before Buying",
-      "reviewedOn": "2026-10-12",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "8c1b21c340e41565cc21e75b391c939691f3a4757507a48750829c3801581435",
+      "reviewedSourceSha256": "08ecaf3924b5708d79104772bb7466dee9e3cc583c116a35a5a83680f1469cb2",
       "requiredProductTypes": [
         {
           "label": "Top mount fridge",
@@ -918,16 +925,17 @@
           ]
         },
         {
-          "label": "Other measured fridge models",
-          "productIds": [],
-          "gapReason": "Bosch and Fisher & Paykel remain measuring references; not assessed buying recommendations. The existing LG assessment is now directly placed here."
+          "label": "French-door fridge with non-plumbed water",
+          "productIds": [
+            "tgg-gap-haier-hrf510fhs"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "Buying journey and comparison reviewed 12 October 2026. Only approved Good Guys affiliate shopping links. Dryer adds researched EDV605H3WC with live direct availability and official installation/owner evidence; condenser remains an explicit gap. Fridge adds mm/cm dimensions chart and model-specific width checks from existing verified sources. Other product review dates retained."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
@@ -1085,10 +1093,10 @@
     {
       "guidePath": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
       "title": "Heat Pump vs Condenser vs Vented Dryers",
-      "reviewedOn": "2026-10-13",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "cd4b3af77014daaf276f1dea2b3e5858b6d1fb81b3d2fc5bc8664f088b3a3f70",
+      "reviewedSourceSha256": "c2994f8fba98451121b49e7ae80b2d6020284612d2e5aa0e42d5550c69af81c8",
       "requiredProductTypes": [
         {
           "label": "Heat pump clothes dryer",
@@ -1107,14 +1115,14 @@
         {
           "label": "Conventional condenser clothes dryer",
           "productIds": [],
-          "gapReason": "No conventional condenser model has cleared research for this guide."
+          "gapReason": "18 October Good Guys category returned washer–dryer combinations, not eligible standalone conventional condensers. Older Beko models have manufacturer pages but no verified current Good Guys orderable offer. No forced combo replacement."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "Buying journey and comparison reviewed 12 October 2026. Only approved Good Guys affiliate shopping links. Dryer adds researched EDV605H3WC with live direct availability and official installation/owner evidence; condenser remains an explicit gap. Fridge adds mm/cm dimensions chart and model-specific width checks from existing verified sources. Other product review dates retained. Stacking wording clarified 13 October 2026: purpose-designed appliance mats distinguished from model-required kits; Bosch WQG24201AU manual checked. Product availability dates retained. Replaced hypothetical energy example with EDV705H3WC / EDH803P5WC published RRP and energy comparison on 13 October 2026; 7kg versus 8kg test-load limit, reference-price provenance and assumed tariff are explicit. Cost examples are not new buying endorsements. Added exact-model Good Guys affiliate buttons to the energy comparison on 13 October 2026. Both direct listings offer Add to Cart; postcode availability remains a buyer check. These comparison-only placements retain research and tracking validation without duplicating the main recommendation cards. EDH803P5WC individual owner evidence remains unavailable; no reliability claim."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",
@@ -1893,10 +1901,10 @@
     {
       "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
       "title": "Oil Column Heater vs Panel Heater: Which Suits Your Room?",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "ad14d30b5177b4fc17f6f8ab021d2a97fc2fb3414164ab7c2b8dabf21d10931a",
+      "reviewedSourceSha256": "c941c1ef732580698caa05a66ab9ba8153710c973ce4497d79a65e8e4dc32cef",
       "requiredProductTypes": [
         {
           "label": "2400W slim convector heater with lateral fan",
@@ -1905,16 +1913,17 @@
           ]
         },
         {
-          "label": "Oil-column heaters",
-          "productIds": [],
-          "gapReason": "Only the slim convector remains approved; prior two-product seasonal coverage claim is stale."
+          "label": "1500W oil-column heater",
+          "productIds": [
+            "tgg-gap-oil-trrs0715eg"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/fan-heater-vs-ceramic-heater/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",
@@ -2081,14 +2090,14 @@
         {
           "label": "Pantry bins and shelf risers",
           "productIds": [],
-          "gapReason": "Added turntable and dry-food container do not cover all storage formats; existing shelf-riser image remains unresolved."
+          "gapReason": "Turntable and dry-food container are covered. The earlier Joseph Joseph shelf-riser offer is paused; an eligible, orderable exact offer or suitable alternative is needed, together with a permitted product image. Pantry bins also remain unassessed."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
+      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md. Coverage register reconciled 18 October against current approved placements: obsolete blanket gaps removed or narrowed. This correction does not refresh product availability dates."
     },
     {
       "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
@@ -2141,9 +2150,9 @@
       "reviewedSourceSha256": "6efefa0e73c22939b0b249bc5666950fb0192c812df0aa19bd79188d354efe04",
       "requiredProductTypes": [
         {
-          "label": "Pet cleaning gear",
+          "label": "Manual hair-removal tools and surface-specific cleaning solutions",
           "productIds": [],
-          "gapReason": "No approved cleaning product or tool with surface and pet-use instructions."
+          "gapReason": "Two wet spot cleaners are approved. No separate hair-removal hand tool or cleaning solution has cleared surface-compatibility and pet-use research."
         },
         {
           "label": "Compact wet spot cleaner",
@@ -2166,7 +2175,7 @@
         "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. Coverage register reconciled 18 October against current approved placements: obsolete blanket gaps removed or narrowed. This correction does not refresh product availability dates."
     },
     {
       "guidePath": "/guides/pet-essentials-for-australian-homes/",
@@ -2297,10 +2306,10 @@
     {
       "guidePath": "/guides/portable-air-conditioners-australia/",
       "title": "Portable Air Conditioners Australia: What to Know Before Buying",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "1c5fb2c85f62e0365fa777928c929f0a971959143990bb665c6401e583a520f0",
+      "reviewedSourceSha256": "19de7a33c611ce19ad77f13cfe1413cb11f221fb68494b9fca40aeaac5ca7bda",
       "requiredProductTypes": [
         {
           "label": "Portable refrigerated air conditioner",
@@ -2322,7 +2331,7 @@
       "contextualRoutes": [
         "/guides/air-conditioner-dry-mode-humidity/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
@@ -2330,7 +2339,7 @@
       "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "e21f9f9e4cd2df9dd400831b49b7b8bd521dd58eb934ae1dbe31282eff4dfeab",
+      "reviewedSourceSha256": "0e5f52fc3fdd59b92ce110cc549f11df6eae2b508244578af00b7ba6f195782e",
       "requiredProductTypes": [
         {
           "label": "Site-assessed single-room reverse-cycle split system",
@@ -2341,14 +2350,20 @@
         {
           "label": "Window/wall air conditioner",
           "productIds": [],
-          "gapReason": "No exact-model window/wall recommendation researched in this follow-up."
+          "gapReason": "Dimplex DCB09 retailer lists 2.6kW, while the current R32 specification uses the same model code for 2.7kW and different energy/noise figures. Supplied revision is unresolved. Midea candidates lack sufficient exact-model owner evidence; Westinghouse split systems remain excluded."
+        },
+        {
+          "label": "Portable refrigerated air conditioner",
+          "productIds": [
+            "tgg-gap-portable-portable-vs-window-wall-vs-split-system-air-conditioner"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/portable-air-conditioners-australia/"
       ],
-      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/prepare-outdoor-area-for-summer/",
@@ -2657,11 +2672,6 @@
       "reviewedSourceSha256": "5e5e787ba09c98df8fd0ad53702d4295b5e45892e0764aa912acd47912d36e99",
       "requiredProductTypes": [
         {
-          "label": "Self-emptying robot vacuum and mop",
-          "productIds": [],
-          "gapReason": "Offer paused after 18 October check; no verified orderable exact-model replacement. This product type remains an acknowledged coverage gap."
-        },
-        {
           "label": "Full-service robot vacuum and roller-mop system",
           "productIds": [
             "ecovacs-deebot-t80-omni"
@@ -2676,7 +2686,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. Coverage register reconciled 18 October against current approved placements: obsolete blanket gaps removed or narrowed. This correction does not refresh product availability dates."
     },
     {
       "guidePath": "/guides/shared-home-office-spaces-how-to-set-up-without-taking-over-the-room/",
@@ -2798,7 +2808,7 @@
       "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "9fd366de83647ec1750d0987c56902004a54b1e91f828958b1953c8d9cc49981",
+      "reviewedSourceSha256": "1a2b8d951a23a0397f3d46c6592ac661e9b30dfc9b62c32a5116443fb863596e",
       "requiredProductTypes": [
         {
           "label": "Air fryer — unequal dual baskets",
@@ -2837,9 +2847,10 @@
           ]
         },
         {
-          "label": "Multi-cooker — larger-household consolidation",
-          "productIds": [],
-          "gapReason": "Offer paused after 18 October check; no verified orderable exact-model replacement. This product type remains an acknowledged coverage gap."
+          "label": "Larger batch pressure and slow cooker (without air frying)",
+          "productIds": [
+            "tgg-gap-multicooker-113-0063-01-au"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -2849,7 +2860,7 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/convection-microwave-vs-air-fryer/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
@@ -3173,14 +3184,14 @@
     {
       "guidePath": "/guides/what-size-air-conditioner-do-i-need/",
       "title": "What Size Air Conditioner Do I Need? A Practical Australian Guide",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "editorial",
       "editorialReason": "Sizing assessment before selecting an installed air conditioner.",
-      "reviewedSourceSha256": "5a183175b0b6f98a7659f797c62fcf55f0f07bed2c018ca1c536292e91cdcbab",
+      "reviewedSourceSha256": "4fa565e5fe114a9f515c82566c0feae4a229edee6f8282a671b16bec186ecaf7",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October contextual format and climate links added to support the researched appliance comparisons; no products added to this sizing guide."
     }
   ]
 }
