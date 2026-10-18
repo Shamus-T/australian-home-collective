@@ -7,6 +7,9 @@
 // LG evidence: docs/editorial/lg-fit-max-first-look-sources-2026-10-10.md
 // Washer update: docs/editorial/washer-affiliate-review-2026-10-10.json
 const reviewedSourceUrls = new Set([
+  // Exact care references: amazon-container-airer-research-2026-10-18.md.
+  "https://josephjoseph.com.au/products/nest-lock-5-piece-leakproof-container-set-multicolour",
+  "https://www.brabantia.com/uk/hangon-drying-rack-20-metres-matt-black/",
   // Microwave evidence: docs/editorial/microwave-facebook-review-2026-10-14.md.
   // Exact manufacturer/manual and firsthand review citations; no retailer shopping-page exemption.
   "https://www.panasonic.com/au/consumer/household/microwave-ovens/convection-grill-microwaves/nn-cd88qsqpq.html",

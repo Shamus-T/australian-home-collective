@@ -519,10 +519,10 @@
     {
       "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
       "title": "Kitchen Storage That Makes Small Cupboards Easier to Use",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "979dc7051fb94989374b18e2964005954fd061f19b3ce0faf1cf9486ccf48419",
+      "reviewedSourceSha256": "5b7859b822620e34d28d142a163606f39830f84d7140d6af9b46c183ca51c4b0",
       "requiredProductTypes": [
         {
           "label": "Small-kitchen storage options",
@@ -535,7 +535,7 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Contextual internal links maintained after adding the everyday kitchen container option. No new product research on this supporting page."
     },
     {
       "guidePath": "/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
@@ -578,10 +578,10 @@
     {
       "guidePath": "/guides/christmas-at-home-australia/",
       "title": "Christmas at Home: Trees, Lights and Decorating",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "03ff49dd1250628b2c12b63271a4924a23e474aaf725cf97b910bf628193096c",
+      "reviewedSourceSha256": "961745b6593e9af13c6df5c80e88c98aec12a419d3255f28fee440acfd011705",
       "requiredProductTypes": [
         {
           "label": "Christmas trees and lights",
@@ -591,7 +591,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Contextual internal links maintained after adding the everyday kitchen container option. No new product research on this supporting page."
     },
     {
       "guidePath": "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
@@ -827,23 +827,30 @@
     {
       "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
       "title": "Everyday Kitchen Essentials for Australian Homes",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "8135ef5ddf60b67bf96bcfab0de5e748f26257947514a5c84180e5b109d5007c",
+      "reviewedSourceSha256": "b35f222f49dc7bb31edd41ccc3362ad7ad1ea746baafe348f982d95b7a5be60b",
       "requiredProductTypes": [
         {
           "label": "Everyday kitchen equipment",
           "productIds": [],
-          "gapReason": "Overview links to focused guides but has no direct researched buying examples."
+          "gapReason": "Food-storage example added; cookware, knives and other equipment remain routed to focused guides or unfilled."
+        },
+        {
+          "label": "Nesting leftover and freezer containers",
+          "productIds": [
+            "joseph-joseph-nest-lock-81081-everyday-kitchen-essentials-australian-homes"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/australian-made-gift-ideas-under-100/",
-        "/guides/cookware-materials-compared/"
+        "/guides/cookware-materials-compared/",
+        "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/fan-heater-vs-ceramic-heater/",
@@ -1424,10 +1431,10 @@
     {
       "guidePath": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
       "title": "Kitchen Containers Worth Sorting First",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "1471229f32ea396034b2a392d8a0e96ce6983e27a9b45905c97de3a8cd0e71a6",
+      "reviewedSourceSha256": "d2fa5a85e299405cd73cd3287ec0639f2f764aca4c205f3c3d9f194286c5b4f6",
       "requiredProductTypes": [
         {
           "label": "Single dry-food container",
@@ -1437,8 +1444,9 @@
         },
         {
           "label": "Meal-preparation, refrigerator and freezer containers",
-          "productIds": [],
-          "gapReason": "The added OXO container is for dry pantry food only."
+          "productIds": [
+            "joseph-joseph-nest-lock-81081-kitchen-container-storage-what-to-sort-before-buying-more-containers"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -1446,7 +1454,7 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
@@ -1541,10 +1549,10 @@
     {
       "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
       "title": "Drying Space That Works in Real Weather",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "52b65866a98371d21b4ada27308fb204696c1332f0ef75f85093c5160b7a2e8f",
+      "reviewedSourceSha256": "8a77b849839e7d578e4cc5273c9451fb32ec58bca9d906caa7c8be6804ce2f2d",
       "requiredProductTypes": [
         {
           "label": "Freestanding clothes airer",
@@ -1561,15 +1569,15 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/laundry-essentials-australian-homes/",
       "title": "Laundry Essentials for Australian Homes",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "71c57e2a96cd743967e1f6b80e475a1e4e52bea68adb39e9a31b5aa786660d77",
+      "reviewedSourceSha256": "6fbba95f7ad24981e5bebd663c299ede856d7f5e2502c34908b678fbb761d961",
       "requiredProductTypes": [
         {
           "label": "Foldable drying rack",
@@ -1593,7 +1601,7 @@
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
@@ -2053,10 +2061,10 @@
     {
       "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
       "title": "Pantry Storage Ideas for Australian Kitchens",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "7a62970e36aee53b6ba519ed26f74c134db446c836ed793f86d1041c91b563e9",
+      "reviewedSourceSha256": "36d8d0c7c532e1443c89f31f465f8c4bba51434a38c5deddcd5b14f6aa5282f9",
       "requiredProductTypes": [
         {
           "label": "11-inch pantry turntable",
@@ -2080,15 +2088,15 @@
       "contextualRoutes": [
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
       "title": "Pantry Organisers: What to Measure Before You Buy",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "5e8d00b74721bbf8d0ae7a88295bde5a98bc91766fae3d2a4484b112ecaa2e38",
+      "reviewedSourceSha256": "89707b3dd0cc2a2ff36c1a893595ee98e23fa32eefcc93f9682539fa79c2335f",
       "requiredProductTypes": [
         {
           "label": "11-inch pantry turntable",
@@ -2122,7 +2130,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
@@ -2595,7 +2603,7 @@
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/reverse-cycle-heating-explained/",

@@ -82,7 +82,8 @@
     "/guides/baby-monitors-australia/",
     "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/",
     "/guides/air-conditioning-buying-guide/",
-    "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/"
+    "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
+    "/guides/everyday-kitchen-essentials-australian-homes/"
   ],
   "products": [
     {
@@ -647,7 +648,7 @@
       "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
       "name": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
       "productType": "Single dry-food container",
-      "summary": "A single 2.6 L container for one regularly used dry staple, rather than a full matching set. Its approximately 16 × 16 × 16 cm footprint needs checking against the shelf and the packet you plan to empty.",
+      "summary": "A single dry-food container with a 16 × 16 × 16 cm footprint for one regularly used staple. Check packet volume and shelf clearance; this pantry option serves a different job from leftover and freezer containers.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -657,10 +658,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-10-07",
+      "lastReviewedOn": "2026-10-18",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-10-07",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -674,7 +675,8 @@
       "drawbacks": [
         "Litres do not tell you whether a particular weight of flour or cereal will fit. Check the packet and leave room for the lid.",
         "Carry it by the body, never by the lid; some owners report concerns about the seal.",
-        "Clean and dry the lid and seal carefully before refilling; keep food dates and allergen information."
+        "Clean and dry the lid and seal carefully before refilling; keep food dates and allergen information.",
+        "Top-rack dishwasher safe. This recommendation covers dry pantry food, not microwave reheating or freezer meal preparation."
       ],
       "suitability": {
         "suits": [
@@ -691,7 +693,7 @@
           "publisher": "OXO",
           "sourceUrl": "https://oxoaustralia.com.au/products/pop-2-0-big-square-short",
           "supports": "Official Australian 2.6 L Big Square Short product, dimensions 16 × 16 × 16 cm, dry-food use, top-rack dishwasher care and instruction not to carry by the lid.",
-          "checkedOn": "2026-10-07"
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "owner-feedback",
@@ -702,28 +704,36 @@
           "checkedOn": "2026-10-07"
         },
         {
-          "sourceType": "australian-availability-support",
-          "title": "Australian offer checked",
+          "sourceType": "owner-feedback",
+          "title": "Fresh exact-size owner feedback",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
-          "supports": "Selected product and variant were in stock with a purchase option, sold and dispatched by Amazon AU. Dated observation, not a continuing stock or delivery promise.",
-          "checkedOn": "2026-10-07"
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN",
+          "supports": "Australian BIG SQUARE / 2.6L / White reviews by Venus Spes (14 February 2026) and Dave C (21 June 2026) discuss cleaning, stacking and useful size. Duplicate renderings and other sizes excluded; older qualified seal concerns retained, not contradicted by a few positive comments.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian stock and seller check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN",
+          "supports": "ASIN B077VHCMRN, Big Square Short 2.6 L White, manufacturer SKU 48512. In stock, sold and dispatched by Amazon AU on 18 October 2026. Public offer used postcode 4556; availability and delivery elsewhere must be checked before ordering. No future stock or delivery promise.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Amazon AU offer and tracked destination",
+          "title": "Exact Amazon AU offer and affiliate structure",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
-          "supports": "Selected ASIN B077VHCMRN; sold and dispatched by Amazon AU. Public product checked without generating an affiliate referral; destination preserves ASIN and the account tracking tag ahc07-22.",
-          "checkedOn": "2026-10-07"
+          "supports": "Exact product and current Amazon AU seller/dispatch matched on the clean listing. Published destination retains ahc07-22; tracking syntax checked offline only. No tagged request, referral click or purchase was made.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Australian product recall search",
+          "title": "Australian recall search — 18 October 2026",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls?query=OXO",
-          "supports": "Official OXO recall search returned one unrelated Inokim OXO scooter entry; no matching POP container recall found. This is a dated recall search, not safety certification.",
-          "checkedOn": "2026-10-07"
+          "supports": "The sole result was an unrelated Inokim OX/ OXO electric scooter recall. Official filtered RSS results inspected after the interactive page failed to render. No matching product recall found in this dated check; this is not safety certification.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -5314,7 +5324,7 @@
       "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
       "name": "Brabantia HangOn Drying Rack 20m, Matt Black",
       "productType": "Foldable drying rack",
-      "summary": "A broad foldable rack with hanging bars and accessory space for households comparing usable line length rather than rail count alone.",
+      "summary": "The 20 m Matt Black HangOn (403408) has adjustable wings, six hanger hooks and a lock against accidental folding. Its folded dimensions are 98 × 59 × 5 cm; allow substantially more room with the wings open and clothes hanging.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -5324,10 +5334,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-22",
+      "lastReviewedOn": "2026-10-18",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -5339,73 +5349,58 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "The open footprint is substantial and needs a stable, ventilated position.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "The 98 × 59 × 5 cm measurement is folded, not its working footprint. Check the open wings, hanging clothes and walking clearance before buying.",
+        "Brabantia permits only limited outdoor use: do not leave it in rain or corrosive conditions, and bring it indoors after use.",
+        "20 m describes line length, not a verified wet-load weight. The Amazon listing’s 13 kg claim was not confirmed in the exact manufacturer guidance; do not treat it as an established load limit."
       ],
       "suitability": {
         "suits": [
-          "larger mixed loads and homes with a dedicated drying zone"
+          "a dedicated indoor drying zone with room for adjustable wings and folded storage"
         ],
         "mayNotSuit": [
-          "narrow passages or homes without folded storage space"
+          "exposed balconies, permanent outdoor use or narrow walking routes"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Brabantia HangOn Drying Rack 20m manufacturer information",
+          "title": "Exact HangOn 20 m Matt Black 403408 specifications and care",
           "publisher": "Brabantia",
-          "sourceUrl": "https://www.brabantia.com/int_en/laundry-drying/drying-racks/",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-22"
+          "sourceUrl": "https://www.brabantia.com/uk/hangon-drying-rack-20-metres-matt-black/",
+          "supports": "Exact 403408 manufacturer page: 20 m drying length, steel frame, 4.6 kg weight, six hanger hooks, adjustable wings, transport lock and lock against accidental folding; folded 98 × 59 × 5 cm. Limited outdoor use only: no rain or corrosive conditions. Available leg-cap and under-rack-bar spares documented. UK guarantee information is not a promise of Amazon AU warranty coverage. No confirmed 13 kg wet-load claim.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Brabantia HangOn Drying Rack 20m product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/brabantia-hangon-drying-rack-20m-fresh-white",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Exact 20 m variant owner comments",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC",
+          "supports": "Exact 20 m Matt Black overseas reviews by Mohammad Sabouni (29 November 2025) and Pitts HQ (3 September 2026) describe stability and ease of use. The Australian 25 m comments on wind and plastic joints concern another size and are not treated as exact-model evidence. Small anecdotal sample; no comparative durability or local long-term reliability claim.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Australian order availability",
+          "title": "Dated Australian stock and seller check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC",
+          "supports": "ASIN B0987Z4WWC, exact 403408 HangOn 20 m Matt Black. In stock, sold and dispatched by Amazon AU on 18 October 2026. Public offer used postcode 4556; availability and delivery elsewhere must be checked before ordering. No future stock or delivery promise.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Amazon AU offer and affiliate structure",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
-          "checkedOn": "2026-08-22"
+          "supports": "Exact product and current Amazon AU seller/dispatch matched on the clean listing. Published destination retains ahc07-22; tracking syntax checked offline only. No tagged request, referral click or purchase was made.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search — 18 October 2026",
           "publisher": "ACCC Product Safety",
-          "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Amazon Australia listing",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
-          "checkedOn": "2026-08-22"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B0987Z4WWC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
-          "checkedOn": "2026-10-07"
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Brabantia",
+          "supports": "The brand-filtered official RSS feed contained no recall items. Official filtered RSS results inspected after the interactive page failed to render. No matching product recall found in this dated check; this is not safety certification.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -13087,7 +13082,7 @@
       "guidePath": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
       "name": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
       "productType": "Single dry-food container",
-      "summary": "A single 2.6 L container for one regularly used dry staple, rather than a full matching set. Its approximately 16 × 16 × 16 cm footprint needs checking against the shelf and the packet you plan to empty.",
+      "summary": "A single dry-food container with a 16 × 16 × 16 cm footprint for one regularly used staple. Check packet volume and shelf clearance; this pantry option serves a different job from leftover and freezer containers.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -13097,10 +13092,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-10-07",
+      "lastReviewedOn": "2026-10-18",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-10-07",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -13114,7 +13109,8 @@
       "drawbacks": [
         "Litres do not tell you whether a particular weight of flour or cereal will fit. Check the packet and leave room for the lid.",
         "Carry it by the body, never by the lid; some owners report concerns about the seal.",
-        "Clean and dry the lid and seal carefully before refilling; keep food dates and allergen information."
+        "Clean and dry the lid and seal carefully before refilling; keep food dates and allergen information.",
+        "Top-rack dishwasher safe. This recommendation covers dry pantry food, not microwave reheating or freezer meal preparation."
       ],
       "suitability": {
         "suits": [
@@ -13131,7 +13127,7 @@
           "publisher": "OXO",
           "sourceUrl": "https://oxoaustralia.com.au/products/pop-2-0-big-square-short",
           "supports": "Official Australian 2.6 L Big Square Short product, dimensions 16 × 16 × 16 cm, dry-food use, top-rack dishwasher care and instruction not to carry by the lid.",
-          "checkedOn": "2026-10-07"
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "owner-feedback",
@@ -13142,28 +13138,36 @@
           "checkedOn": "2026-10-07"
         },
         {
-          "sourceType": "australian-availability-support",
-          "title": "Australian offer checked",
+          "sourceType": "owner-feedback",
+          "title": "Fresh exact-size owner feedback",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
-          "supports": "Selected product and variant were in stock with a purchase option, sold and dispatched by Amazon AU. Dated observation, not a continuing stock or delivery promise.",
-          "checkedOn": "2026-10-07"
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN",
+          "supports": "Australian BIG SQUARE / 2.6L / White reviews by Venus Spes (14 February 2026) and Dave C (21 June 2026) discuss cleaning, stacking and useful size. Duplicate renderings and other sizes excluded; older qualified seal concerns retained, not contradicted by a few positive comments.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian stock and seller check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN",
+          "supports": "ASIN B077VHCMRN, Big Square Short 2.6 L White, manufacturer SKU 48512. In stock, sold and dispatched by Amazon AU on 18 October 2026. Public offer used postcode 4556; availability and delivery elsewhere must be checked before ordering. No future stock or delivery promise.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Amazon AU offer and tracked destination",
+          "title": "Exact Amazon AU offer and affiliate structure",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
-          "supports": "Selected ASIN B077VHCMRN; sold and dispatched by Amazon AU. Public product checked without generating an affiliate referral; destination preserves ASIN and the account tracking tag ahc07-22.",
-          "checkedOn": "2026-10-07"
+          "supports": "Exact product and current Amazon AU seller/dispatch matched on the clean listing. Published destination retains ahc07-22; tracking syntax checked offline only. No tagged request, referral click or purchase was made.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Australian product recall search",
+          "title": "Australian recall search — 18 October 2026",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls?query=OXO",
-          "supports": "Official OXO recall search returned one unrelated Inokim OXO scooter entry; no matching POP container recall found. This is a dated recall search, not safety certification.",
-          "checkedOn": "2026-10-07"
+          "supports": "The sole result was an unrelated Inokim OX/ OXO electric scooter recall. Official filtered RSS results inspected after the interactive page failed to render. No matching product recall found in this dated check; this is not safety certification.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -13459,7 +13463,7 @@
       "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
       "name": "Brabantia HangOn Drying Rack 20m, Matt Black",
       "productType": "Foldable drying rack",
-      "summary": "A broad foldable rack with hanging bars and accessory space for households comparing usable line length rather than rail count alone.",
+      "summary": "The 20 m Matt Black HangOn (403408) has adjustable wings, six hanger hooks and a lock against accidental folding. Its folded dimensions are 98 × 59 × 5 cm; allow substantially more room with the wings open and clothes hanging.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -13469,10 +13473,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-22",
+      "lastReviewedOn": "2026-10-18",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -13484,73 +13488,58 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "The open footprint is substantial and needs a stable, ventilated position.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "The 98 × 59 × 5 cm measurement is folded, not its working footprint. Check the open wings, hanging clothes and walking clearance before buying.",
+        "Brabantia permits only limited outdoor use: do not leave it in rain or corrosive conditions, and bring it indoors after use.",
+        "20 m describes line length, not a verified wet-load weight. The Amazon listing’s 13 kg claim was not confirmed in the exact manufacturer guidance; do not treat it as an established load limit."
       ],
       "suitability": {
         "suits": [
-          "larger mixed loads and homes with a dedicated drying zone"
+          "a dedicated indoor drying zone with room for adjustable wings and folded storage"
         ],
         "mayNotSuit": [
-          "narrow passages or homes without folded storage space"
+          "exposed balconies, permanent outdoor use or narrow walking routes"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Brabantia HangOn Drying Rack 20m manufacturer information",
+          "title": "Exact HangOn 20 m Matt Black 403408 specifications and care",
           "publisher": "Brabantia",
-          "sourceUrl": "https://www.brabantia.com/int_en/laundry-drying/drying-racks/",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-22"
+          "sourceUrl": "https://www.brabantia.com/uk/hangon-drying-rack-20-metres-matt-black/",
+          "supports": "Exact 403408 manufacturer page: 20 m drying length, steel frame, 4.6 kg weight, six hanger hooks, adjustable wings, transport lock and lock against accidental folding; folded 98 × 59 × 5 cm. Limited outdoor use only: no rain or corrosive conditions. Available leg-cap and under-rack-bar spares documented. UK guarantee information is not a promise of Amazon AU warranty coverage. No confirmed 13 kg wet-load claim.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Brabantia HangOn Drying Rack 20m product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/brabantia-hangon-drying-rack-20m-fresh-white",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Exact 20 m variant owner comments",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC",
+          "supports": "Exact 20 m Matt Black overseas reviews by Mohammad Sabouni (29 November 2025) and Pitts HQ (3 September 2026) describe stability and ease of use. The Australian 25 m comments on wind and plastic joints concern another size and are not treated as exact-model evidence. Small anecdotal sample; no comparative durability or local long-term reliability claim.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Australian order availability",
+          "title": "Dated Australian stock and seller check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC",
+          "supports": "ASIN B0987Z4WWC, exact 403408 HangOn 20 m Matt Black. In stock, sold and dispatched by Amazon AU on 18 October 2026. Public offer used postcode 4556; availability and delivery elsewhere must be checked before ordering. No future stock or delivery promise.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Amazon AU offer and affiliate structure",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
-          "checkedOn": "2026-08-22"
+          "supports": "Exact product and current Amazon AU seller/dispatch matched on the clean listing. Published destination retains ahc07-22; tracking syntax checked offline only. No tagged request, referral click or purchase was made.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search — 18 October 2026",
           "publisher": "ACCC Product Safety",
-          "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Amazon Australia listing",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
-          "checkedOn": "2026-08-22"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B0987Z4WWC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
-          "checkedOn": "2026-10-07"
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Brabantia",
+          "supports": "The brand-filtered official RSS feed contained no recall items. Official filtered RSS results inspected after the interactive page failed to render. No matching product recall found in this dated check; this is not safety certification.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -14022,7 +14011,7 @@
       "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
       "name": "OXO Good Grips POP 2.0 Big Square Short 2.6 L Container",
       "productType": "Single dry-food container",
-      "summary": "A single 2.6 L container for one regularly used dry staple, rather than a full matching set. Its approximately 16 × 16 × 16 cm footprint needs checking against the shelf and the packet you plan to empty.",
+      "summary": "A single dry-food container with a 16 × 16 × 16 cm footprint for one regularly used staple. Check packet volume and shelf clearance; this pantry option serves a different job from leftover and freezer containers.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -14032,10 +14021,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-10-07",
+      "lastReviewedOn": "2026-10-18",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-10-07",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -14049,7 +14038,8 @@
       "drawbacks": [
         "Litres do not tell you whether a particular weight of flour or cereal will fit. Check the packet and leave room for the lid.",
         "Carry it by the body, never by the lid; some owners report concerns about the seal.",
-        "Clean and dry the lid and seal carefully before refilling; keep food dates and allergen information."
+        "Clean and dry the lid and seal carefully before refilling; keep food dates and allergen information.",
+        "Top-rack dishwasher safe. This recommendation covers dry pantry food, not microwave reheating or freezer meal preparation."
       ],
       "suitability": {
         "suits": [
@@ -14066,7 +14056,7 @@
           "publisher": "OXO",
           "sourceUrl": "https://oxoaustralia.com.au/products/pop-2-0-big-square-short",
           "supports": "Official Australian 2.6 L Big Square Short product, dimensions 16 × 16 × 16 cm, dry-food use, top-rack dishwasher care and instruction not to carry by the lid.",
-          "checkedOn": "2026-10-07"
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "owner-feedback",
@@ -14077,28 +14067,36 @@
           "checkedOn": "2026-10-07"
         },
         {
-          "sourceType": "australian-availability-support",
-          "title": "Australian offer checked",
+          "sourceType": "owner-feedback",
+          "title": "Fresh exact-size owner feedback",
           "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
-          "supports": "Selected product and variant were in stock with a purchase option, sold and dispatched by Amazon AU. Dated observation, not a continuing stock or delivery promise.",
-          "checkedOn": "2026-10-07"
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN",
+          "supports": "Australian BIG SQUARE / 2.6L / White reviews by Venus Spes (14 February 2026) and Dave C (21 June 2026) discuss cleaning, stacking and useful size. Duplicate renderings and other sizes excluded; older qualified seal concerns retained, not contradicted by a few positive comments.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian stock and seller check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN",
+          "supports": "ASIN B077VHCMRN, Big Square Short 2.6 L White, manufacturer SKU 48512. In stock, sold and dispatched by Amazon AU on 18 October 2026. Public offer used postcode 4556; availability and delivery elsewhere must be checked before ordering. No future stock or delivery promise.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Amazon AU offer and tracked destination",
+          "title": "Exact Amazon AU offer and affiliate structure",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B077VHCMRN?tag=ahc07-22",
-          "supports": "Selected ASIN B077VHCMRN; sold and dispatched by Amazon AU. Public product checked without generating an affiliate referral; destination preserves ASIN and the account tracking tag ahc07-22.",
-          "checkedOn": "2026-10-07"
+          "supports": "Exact product and current Amazon AU seller/dispatch matched on the clean listing. Published destination retains ahc07-22; tracking syntax checked offline only. No tagged request, referral click or purchase was made.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Australian product recall search",
+          "title": "Australian recall search — 18 October 2026",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls?query=OXO",
-          "supports": "Official OXO recall search returned one unrelated Inokim OXO scooter entry; no matching POP container recall found. This is a dated recall search, not safety certification.",
-          "checkedOn": "2026-10-07"
+          "supports": "The sole result was an unrelated Inokim OX/ OXO electric scooter recall. Official filtered RSS results inspected after the interactive page failed to render. No matching product recall found in this dated check; this is not safety certification.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -14118,7 +14116,7 @@
       "guidePath": "/guides/laundry-essentials-australian-homes/",
       "name": "Brabantia HangOn Drying Rack 20m, Matt Black",
       "productType": "Foldable drying rack",
-      "summary": "A broad foldable rack with hanging bars and accessory space for households comparing usable line length rather than rail count alone.",
+      "summary": "The 20 m Matt Black HangOn (403408) has adjustable wings, six hanger hooks and a lock against accidental folding. Its folded dimensions are 98 × 59 × 5 cm; allow substantially more room with the wings open and clothes hanging.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -14128,10 +14126,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-22",
+      "lastReviewedOn": "2026-10-18",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -14143,73 +14141,58 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "The open footprint is substantial and needs a stable, ventilated position.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "The 98 × 59 × 5 cm measurement is folded, not its working footprint. Check the open wings, hanging clothes and walking clearance before buying.",
+        "Brabantia permits only limited outdoor use: do not leave it in rain or corrosive conditions, and bring it indoors after use.",
+        "20 m describes line length, not a verified wet-load weight. The Amazon listing’s 13 kg claim was not confirmed in the exact manufacturer guidance; do not treat it as an established load limit."
       ],
       "suitability": {
         "suits": [
-          "larger mixed loads and homes with a dedicated drying zone"
+          "a dedicated indoor drying zone with room for adjustable wings and folded storage"
         ],
         "mayNotSuit": [
-          "narrow passages or homes without folded storage space"
+          "exposed balconies, permanent outdoor use or narrow walking routes"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Brabantia HangOn Drying Rack 20m manufacturer information",
+          "title": "Exact HangOn 20 m Matt Black 403408 specifications and care",
           "publisher": "Brabantia",
-          "sourceUrl": "https://www.brabantia.com/int_en/laundry-drying/drying-racks/",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-22"
+          "sourceUrl": "https://www.brabantia.com/uk/hangon-drying-rack-20-metres-matt-black/",
+          "supports": "Exact 403408 manufacturer page: 20 m drying length, steel frame, 4.6 kg weight, six hanger hooks, adjustable wings, transport lock and lock against accidental folding; folded 98 × 59 × 5 cm. Limited outdoor use only: no rain or corrosive conditions. Available leg-cap and under-rack-bar spares documented. UK guarantee information is not a promise of Amazon AU warranty coverage. No confirmed 13 kg wet-load claim.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Brabantia HangOn Drying Rack 20m product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/brabantia-hangon-drying-rack-20m-fresh-white",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Exact 20 m variant owner comments",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC",
+          "supports": "Exact 20 m Matt Black overseas reviews by Mohammad Sabouni (29 November 2025) and Pitts HQ (3 September 2026) describe stability and ease of use. The Australian 25 m comments on wind and plastic joints concern another size and are not treated as exact-model evidence. Small anecdotal sample; no comparative durability or local long-term reliability claim.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Australian order availability",
+          "title": "Dated Australian stock and seller check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC",
+          "supports": "ASIN B0987Z4WWC, exact 403408 HangOn 20 m Matt Black. In stock, sold and dispatched by Amazon AU on 18 October 2026. Public offer used postcode 4556; availability and delivery elsewhere must be checked before ordering. No future stock or delivery promise.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Amazon AU offer and affiliate structure",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
-          "checkedOn": "2026-08-22"
+          "supports": "Exact product and current Amazon AU seller/dispatch matched on the clean listing. Published destination retains ahc07-22; tracking syntax checked offline only. No tagged request, referral click or purchase was made.",
+          "checkedOn": "2026-10-18"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search — 18 October 2026",
           "publisher": "ACCC Product Safety",
-          "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Brabantia HangOn Drying Rack 20m, Matt Black Amazon Australia listing",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
-          "checkedOn": "2026-08-22"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B0987Z4WWC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0987Z4WWC?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
-          "checkedOn": "2026-10-07"
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Brabantia",
+          "supports": "The brand-filtered official RSS feed contained no recall items. Official filtered RSS results inspected after the interactive page failed to render. No matching product recall found in this dated check; this is not safety certification.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -18353,6 +18336,214 @@
         "credit": "Product image supplied by The Good Guys.",
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50099701_1082010.png?v=1785967718",
         "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/ecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "joseph-joseph-nest-lock-81081-kitchen-container-storage-what-to-sort-before-buying-more-containers",
+      "guidePath": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
+      "name": "Joseph Joseph Nest Lock 5-container Set — Multicolour (81081)",
+      "productType": "Nesting containers for leftovers and freezer storage",
+      "summary": "Five differently sized containers with matching colour-coded lids: 230 mL, 540 mL, 1.1 L, 1.85 L and 3 L. The bases nest and the lids clip together separately, helping reduce mismatched lids and empty-container clutter.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07FM7W3RK?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "This is five containers plus five lids, not ten containers. The varied sizes do not replace five equal-sized lunch portions; allow space for the separate lid stack.",
+        "Microwave with the lid removed and resting loosely on top, never fastened. Avoid overheating oily, fatty, sugary or strongly coloured food; staining or pitting can occur. No oven or grill use.",
+        "Lids can take effort to separate and fasten. If grip strength is limited, check that the clips are comfortable before relying on the set. Top-rack dishwasher only."
+      ],
+      "suitability": {
+        "suits": [
+          "households needing varied leftover portions and a tidier nest of empty containers"
+        ],
+        "mayNotSuit": [
+          "five identical meal-prep portions, oven use or hands that struggle with firm clips"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian Nest Lock 81081 capacities and care",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/nest-lock-5-piece-leakproof-container-set-multicolour",
+          "supports": "AU SKU 81081: five bases with matching lids, 230 mL, 540 mL, 1.1 L, 1.85 L, 3 L; stated set dimensions H24.5 × W16.3 × D20 cm. Freezer and top-rack dishwasher use; microwave lid loose, never closed; avoid overheating oil/fat/sugar/strong colourants; not oven/grill safe. Leakproof is a manufacturer claim, not AHC testing.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact multicolour owner feedback and range-level limitations",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07FM7W3RK",
+          "supports": "Australian Multicolour/Multi reviews discuss useful colour matching and nesting (2020–2023). An April 2022 owner explains that lids nest separately rather than all fitting inside the largest base. Reviews of other colours and pack sizes are not counted as exact 81081 evidence. No comparative longevity claim is supported.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Manufacturer-hosted range feedback",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/nest-lock-5-piece-leakproof-container-set-multicolour",
+          "supports": "Reviews are pooled across Nest Lock configurations. Heather S reports difficult lid separation and Prakash reports staining after microwaving; these are range-level anecdotes, not exact-SKU failure rates or a safety diagnosis. The care limitations remain important.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian stock and seller check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07FM7W3RK",
+          "supports": "ASIN B07FM7W3RK, GTIN 05028420810813, AU 81081 multicolour five-container set. In stock, sold and dispatched by Amazon AU on 18 October 2026. Public offer used postcode 4556; availability and delivery elsewhere must be checked before ordering. No future stock or delivery promise.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Amazon AU offer and affiliate structure",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07FM7W3RK?tag=ahc07-22",
+          "supports": "Exact product and current Amazon AU seller/dispatch matched on the clean listing. Published destination retains ahc07-22; tracking syntax checked offline only. No tagged request, referral click or purchase was made.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search — 18 October 2026",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
+          "supports": "Five results were unrelated relay, worklight, grease, coloured-sand and flashlight recalls; none was Nest Lock or a food-storage container. Official filtered RSS results inspected after the interactive page failed to render. No matching product recall found in this dated check; this is not safety certification.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-nest-lock-81081-640.webp",
+        "srcSet": "/images/products/joseph-joseph-nest-lock-81081-320.webp 320w, /images/products/joseph-joseph-nest-lock-81081-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph Nest Lock 81081 multicolour five-container set with matching lids.",
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/81081_1_9484741b-3e8e-4535-bd85-22b4ba15a6cd.jpg?v=1735821888",
+        "suppliedVia": "Manufacturer exact-model page: https://josephjoseph.com.au/products/nest-lock-5-piece-leakproof-container-set-multicolour",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "joseph-joseph-nest-lock-81081-everyday-kitchen-essentials-australian-homes",
+      "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
+      "name": "Joseph Joseph Nest Lock 5-container Set — Multicolour (81081)",
+      "productType": "Nesting containers for leftovers and freezer storage",
+      "summary": "Five differently sized containers with matching colour-coded lids: 230 mL, 540 mL, 1.1 L, 1.85 L and 3 L. The bases nest and the lids clip together separately, helping reduce mismatched lids and empty-container clutter.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07FM7W3RK?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "This is five containers plus five lids, not ten containers. The varied sizes do not replace five equal-sized lunch portions; allow space for the separate lid stack.",
+        "Microwave with the lid removed and resting loosely on top, never fastened. Avoid overheating oily, fatty, sugary or strongly coloured food; staining or pitting can occur. No oven or grill use.",
+        "Lids can take effort to separate and fasten. If grip strength is limited, check that the clips are comfortable before relying on the set. Top-rack dishwasher only."
+      ],
+      "suitability": {
+        "suits": [
+          "households needing varied leftover portions and a tidier nest of empty containers"
+        ],
+        "mayNotSuit": [
+          "five identical meal-prep portions, oven use or hands that struggle with firm clips"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian Nest Lock 81081 capacities and care",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/nest-lock-5-piece-leakproof-container-set-multicolour",
+          "supports": "AU SKU 81081: five bases with matching lids, 230 mL, 540 mL, 1.1 L, 1.85 L, 3 L; stated set dimensions H24.5 × W16.3 × D20 cm. Freezer and top-rack dishwasher use; microwave lid loose, never closed; avoid overheating oil/fat/sugar/strong colourants; not oven/grill safe. Leakproof is a manufacturer claim, not AHC testing.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact multicolour owner feedback and range-level limitations",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07FM7W3RK",
+          "supports": "Australian Multicolour/Multi reviews discuss useful colour matching and nesting (2020–2023). An April 2022 owner explains that lids nest separately rather than all fitting inside the largest base. Reviews of other colours and pack sizes are not counted as exact 81081 evidence. No comparative longevity claim is supported.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Manufacturer-hosted range feedback",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/nest-lock-5-piece-leakproof-container-set-multicolour",
+          "supports": "Reviews are pooled across Nest Lock configurations. Heather S reports difficult lid separation and Prakash reports staining after microwaving; these are range-level anecdotes, not exact-SKU failure rates or a safety diagnosis. The care limitations remain important.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian stock and seller check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07FM7W3RK",
+          "supports": "ASIN B07FM7W3RK, GTIN 05028420810813, AU 81081 multicolour five-container set. In stock, sold and dispatched by Amazon AU on 18 October 2026. Public offer used postcode 4556; availability and delivery elsewhere must be checked before ordering. No future stock or delivery promise.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Amazon AU offer and affiliate structure",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07FM7W3RK?tag=ahc07-22",
+          "supports": "Exact product and current Amazon AU seller/dispatch matched on the clean listing. Published destination retains ahc07-22; tracking syntax checked offline only. No tagged request, referral click or purchase was made.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search — 18 October 2026",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
+          "supports": "Five results were unrelated relay, worklight, grease, coloured-sand and flashlight recalls; none was Nest Lock or a food-storage container. Official filtered RSS results inspected after the interactive page failed to render. No matching product recall found in this dated check; this is not safety certification.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-nest-lock-81081-640.webp",
+        "srcSet": "/images/products/joseph-joseph-nest-lock-81081-320.webp 320w, /images/products/joseph-joseph-nest-lock-81081-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph Nest Lock 81081 multicolour five-container set with matching lids.",
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/81081_1_9484741b-3e8e-4535-bd85-22b4ba15a6cd.jpg?v=1735821888",
+        "suppliedVia": "Manufacturer exact-model page: https://josephjoseph.com.au/products/nest-lock-5-piece-leakproof-container-set-multicolour",
         "checkedOn": "2026-10-18"
       }
     }
