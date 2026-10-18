@@ -2638,7 +2638,7 @@
       "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "3dcc95c2241995281e1b96b9c3527c09d391035a57099ea58143c544e9a528fe",
+      "reviewedSourceSha256": "3b76836f3819e1f7ebf384f837a307c8bae92045edaa9b45418e30e27e94f88c",
       "requiredProductTypes": [
         {
           "label": "Camera navigation · 800 m² mapping limit",
@@ -2661,7 +2661,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md. Feed-run follow-up on 18 October: orderable supplier-stock offers distinguished from immediate stock; visible delivery caveat added to the product card. Feed alert retained."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md. Feed-run follow-up on 18 October: orderable supplier-stock offers distinguished from immediate stock; visible delivery caveat added to the product card. Feed alert retained. 18 October follow-up: two-year GOAT warranty adopted on Shane's explicit five-site verification; separate battery terms not inferred. Two known feed stock flags classified as time-bounded supplier-order observations, retaining raw No values and delivery caveats."
     },
     {
       "guidePath": "/guides/robot-vacuum-buying-guide-australia/",

@@ -18362,7 +18362,7 @@
       "drawbacks": [
         "An Australian hands-on review reports missed edges despite remapping; owner reports also describe docking trouble around barriers. Expect edge trimming and verify the difficult routes before relying on it.",
         "The manual rules out low-light mowing. A 45% working-slope limit is about 24°, not 45°; virtual boundaries must not be placed on slopes above 17%.",
-        "The retailer overview and specification table give different warranty periods. Confirm written Australian cover for the mower and battery before buying."
+        "The two-year warranty does not remove the need to check battery exclusions, consumable parts and the Australian claims process before buying."
       ],
       "suitability": {
         "suits": [
@@ -18394,7 +18394,7 @@
           "title": "Australian stock and support",
           "publisher": "The Good Guys",
           "sourceUrl": "https://www.thegoodguys.com.au/ecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
-          "supports": "Exact GOAT-O600-RTK, SKU 50099701. Australian retailer support route checked. 18 October 05:18 UTC clean page recheck: visible text says Online Only and ordered from supplier on purchase, with a postcode-dependent delivery estimate and Add to Cart. Structured data says InStock, while the authenticated campaign feed says Stock=No. Classified available-to-order, not immediately in stock; no guaranteed dispatch time. Feed alert remains active.",
+          "supports": "Exact GOAT-O600-RTK, SKU 50099701. Australian retailer support route checked. 18 October 11:42 UTC clean page recheck: visible text says Online Only and ordered from supplier on purchase, with a postcode-dependent delivery estimate and Add to Cart. Structured data says InStock, while the authenticated campaign feed says Stock=No. Classified available-to-order, not immediately in stock; no guaranteed dispatch time. Feed Stock=No is retained and classified as a reviewed supplier order until 21 October 11:42 UTC; expired reviews and identity changes require attention. This is not immediate-stock confirmation.",
           "checkedOn": "2026-10-18"
         },
         {
@@ -18423,10 +18423,10 @@
         },
         {
           "sourceType": "manufacturer-warranty",
-          "title": "Australian warranty scope remains to be confirmed for this model",
+          "title": "Australian warranty policy and publisher-confirmed two-year model term",
           "publisher": "Ecovacs Australia",
           "sourceUrl": "https://help.ecovacs.com/au/support/warranty",
-          "supports": "Australian support page is generic and does not clearly identify GOAT O600 coverage. Retailer overview says two years while its specification table says three. Neither period is promoted as verified; request written model-specific mower and battery cover before purchase. Overseas GOAT warranty terms are not substituted.",
+          "supports": "Generic Australian manufacturer policy does not separately identify GOAT O600 RTK. On 18 October 2026 Shane confirmed checking five separate sites, all stating two years, and instructed AHC to use that term. This is publisher-confirmed evidence, not written model-specific manufacturer confirmation. Retailer overview independently states two years; its specification table still says three. No separate battery, dock or RTK warranty period is inferred; check exclusions and claims terms. Overseas terms are not substituted.",
           "checkedOn": "2026-10-18"
         }
       ],
@@ -18903,7 +18903,7 @@
           "title": "Australian offer and support",
           "publisher": "The Good Guys",
           "sourceUrl": "https://www.thegoodguys.com.au/instant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
-          "supports": "Exact 113-0063-01-AU, SKU 50098032. Australian Instant Pot support and 12-month warranty were checked. 18 October 05:18 UTC clean page recheck: visible text says Online Only and ordered from supplier on purchase, with a postcode-dependent delivery estimate and Add to Cart. Structured data says InStock, while the authenticated campaign feed says Stock=No. Classified available-to-order, not immediately in stock; no guaranteed dispatch time. Feed alert remains active.",
+          "supports": "Exact 113-0063-01-AU, SKU 50098032. Australian Instant Pot support and 12-month warranty were checked. 18 October 11:42 UTC clean page recheck: visible text says Online Only and ordered from supplier on purchase, with a postcode-dependent delivery estimate and Add to Cart. Structured data says InStock, while the authenticated campaign feed says Stock=No. Classified available-to-order, not immediately in stock; no guaranteed dispatch time. Feed Stock=No is retained and classified as a reviewed supplier order until 21 October 11:42 UTC; expired reviews and identity changes require attention. This is not immediate-stock confirmation.",
           "checkedOn": "2026-10-18"
         },
         {

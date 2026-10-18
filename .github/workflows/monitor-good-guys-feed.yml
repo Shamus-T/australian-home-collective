@@ -9,6 +9,7 @@ on:
     paths:
       - scripts/monitor-good-guys-feed.py
       - tests/test_good_guys_feed.py
+      - docs/editorial/good-guys-stock-reviews.json
       - src/data/commercial-products.json
       - .github/workflows/monitor-good-guys-feed.yml
 

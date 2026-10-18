@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from datetime import datetime, timezone
 
 spec = importlib.util.spec_from_file_location('monitor', Path(__file__).resolve().parents[1]/'scripts/monitor-good-guys-feed.py')
 monitor = importlib.util.module_from_spec(spec)
@@ -37,13 +38,41 @@ class FeedMonitorTests(unittest.TestCase):
         self.previous = self.root/'previous.json'
         self.state = self.root/'current.json'
 
-    def run_feed(self, rows):
+    def run_feed(self, rows, **kwargs):
         feed = self.root/'feed.csv'
         with feed.open('w', newline='', encoding='utf-8') as handle:
             writer = csv.DictWriter(handle, fieldnames=list(row()), delimiter='|')
             writer.writeheader(); writer.writerows(rows)
         with contextlib.redirect_stdout(io.StringIO()):
-            return monitor.run(feed, self.previous, self.state, catalogue())
+            return monitor.run(feed, self.previous, self.state, catalogue(), **kwargs)
+
+    def test_supplier_order_review_is_bounded_and_preserves_raw_stock(self):
+        target = monitor.destination(offer()['destinationUrl'])[0]
+        review = {'classification': 'supplier-order', 'sku': 'example-model',
+                  'checkedAt': '2026-10-18T11:42:00Z', 'expiresAt': '2026-10-21T11:42:00Z',
+                  'evidence': 'Clean exact-model retailer page accepts supplier orders.'}
+        now = datetime(2026, 10, 19, tzinfo=timezone.utc)
+        self.assertEqual(self.run_feed([row(Stock='No'), row('second-model')], reviews={target: review}, now=now), 0)
+        self.assertEqual(json.loads(self.state.read_text())['products'][target]['stock'], 'No')
+        self.previous.write_text(self.state.read_text())
+        for rows in [[row(Stock='No', Title='Different model'), row('second-model')],
+                     [row(Stock='No', **{'SKU/Unique Identifier': 'wrong'}), row('second-model')],
+                     [row('second-model')], [row(Stock='No'), row(Stock='No'), row('second-model')],
+                     [row(Stock='No'), row('second-model', Stock='No')]]:
+            self.assertEqual(self.run_feed(rows, reviews={target: review}, now=now), 1)
+        self.assertEqual(self.run_feed([row(Stock='No'), row('second-model')], reviews={target: review},
+                                     now=datetime(2026, 10, 21, 11, 42, tzinfo=timezone.utc)), 1)
+        self.assertEqual(self.run_feed([row(), row('second-model')], reviews={target: review}, now=now), 0)
+
+    def test_supplier_review_rejects_future_or_overlong_window(self):
+        target = monitor.destination(offer()['destinationUrl'])[0]
+        review = {'classification': 'supplier-order', 'sku': 'example-model', 'checkedAt': '2026-10-18T00:00:00Z',
+                  'expiresAt': '2026-11-18T00:00:00Z', 'evidence': 'Exact product page'}
+        self.assertEqual(self.run_feed([row(Stock='No'), row('second-model')], reviews={target: review},
+                                     now=datetime(2026, 10, 19, tzinfo=timezone.utc)), 1)
+        review['expiresAt'] = '2026-10-21T00:00:00Z'
+        self.assertEqual(self.run_feed([row(Stock='No'), row('second-model')], reviews={target: review},
+                                     now=datetime(2026, 10, 17, tzinfo=timezone.utc)), 1)
 
     def test_selection_includes_additional_offers_and_deduplicates(self):
         selected, _ = monitor.selected_offers(catalogue())

@@ -8,6 +8,7 @@ import sys
 import urllib.error
 import urllib.request
 from decimal import Decimal, InvalidOperation
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -74,9 +75,11 @@ def safe_text(value):
     return re.sub(r'https?://\S+', '[link omitted]', str(value)).replace('\n', ' ').replace('\r', ' ').replace('::', ':')[:250]
 
 
-def run(source, previous, state_path, catalogue=None, report_path=None):
+def run(source, previous, state_path, catalogue=None, report_path=None, reviews=None, now=None):
     catalogue = catalogue or json.loads((ROOT / 'src/data/commercial-products.json').read_text(encoding='utf-8'))
     selected, campaign = selected_offers(catalogue)
+    reviews = reviews or {}
+    now = now or datetime.now(timezone.utc)
     found = {}
     with source.open(encoding='utf-8-sig', newline='') as handle:
         reader = csv.DictReader(handle, delimiter='|')
@@ -106,7 +109,7 @@ def run(source, previous, state_path, catalogue=None, report_path=None):
     old = prior_state.get('products', {}) if prior_state.get('version') == 2 else {}
     legacy = prior_state if 'version' not in prior_state else {}
     lines = ['## The Good Guys feed check', '', f'Checked {len(selected)} distinct approved offers, including additional retailer buttons and repeated article placements.', '', 'Feed values are observations, not live site prices. No affiliate destinations requested.', '']
-    products, faults, changes = {}, [], []
+    products, faults, changes, supplier_orders = {}, [], [], []
     for target, entry in selected.items():
         current = found.get(target, {'status': 'missing', 'reason': 'No matching product destination in feed'})
         prior = old.get(target) or legacy.get(current.get('sku'))
@@ -116,30 +119,44 @@ def run(source, previous, state_path, catalogue=None, report_path=None):
             products[target] = {**current, **{field: prior[field] for field in ('title', 'sku') if field in prior}}
         label = safe_text(entry['name'])
         changed_fields = [field for field in ('status', 'sku', 'price', 'stock', 'title') if prior is not None and field in prior and prior.get(field) != current.get(field)]
-        if current['status'] != 'ok' or current.get('stock') == 'No':
+        review = reviews.get(target, {})
+        acknowledged = False
+        if review and current['status'] == 'ok' and current.get('stock') == 'No':
+            checked = datetime.fromisoformat(review['checkedAt'].replace('Z', '+00:00'))
+            expires = datetime.fromisoformat(review['expiresAt'].replace('Z', '+00:00'))
+            acknowledged = (review.get('classification') == 'supplier-order'
+                            and review.get('sku') == current.get('sku')
+                            and bool(review.get('evidence'))
+                            and checked <= now < expires
+                            and 0 < (expires - checked).total_seconds() <= 7 * 86400
+                            and not any(field in changed_fields for field in ('title', 'sku')))
+        identity_changed = current['status'] == 'ok' and any(field in changed_fields for field in ('title', 'sku'))
+        if identity_changed:
+            faults.append({'name': entry['name'], 'guides': entry['guides'], 'reason': 'Feed identity changed; review exact model'})
+            products[target] = {**current, **{field: prior[field] for field in ('title', 'sku') if field in prior}}
+        if current['status'] != 'ok' or (current.get('stock') == 'No' and not acknowledged):
             reason = current.get('reason', 'Feed flags out of stock')
             faults.append({'name': entry['name'], 'guides': entry['guides'], 'reason': reason})
-            lines.append(f'- **Review required:** {label}: {reason}.')
-        elif changed_fields:
+            lines.append(f'- **Review required:** {label}: {reason}; SKU {safe_text(current.get("sku", "unknown"))}.')
+        elif acknowledged:
+            supplier_orders.append({'name': entry['name'], 'guides': entry['guides'], 'rawStock': 'No', 'reviewExpiresAt': review['expiresAt']})
+            lines.append(f'- **Reviewed supplier order:** {label}: feed Stock=No retained; retailer accepts supplier orders. Delivery not guaranteed. Recheck by {review["expiresAt"]}.')
+        if current['status'] == 'ok' and changed_fields:
             changes.append({'name': entry['name'], 'fields': changed_fields})
             detail = '; '.join(f'{field} {safe_text(prior.get(field))} → {safe_text(current.get(field))}' for field in changed_fields)
             lines.append(f'- {label}: {detail}.')
-            if any(field in changed_fields for field in ('title', 'sku')):
-                faults.append({'name': entry['name'], 'guides': entry['guides'], 'reason': 'Feed identity changed; review exact model'})
-                # Keep the approved identity until review; a second run must not silently clear it.
-                products[target] = {**current, **{field: prior[field] for field in ('title', 'sku') if field in prior}}
-        else:
+        elif current['status'] == 'ok' and current.get('stock') == 'Yes':
             lines.append(f'- {label}: {safe_text(current.get("sku", ""))}; '+('baseline recorded.' if prior is None else 'no change.'))
     state_path.parent.mkdir(parents=True, exist_ok=True)
     state_path.write_text(json.dumps({'version': 2, 'products': products}, indent=2)+'\n', encoding='utf-8')
-    summary = '\n'.join(lines) + f'\n\n{len(selected)} offers checked; {len(faults)} require review. Price-only changes do not fail the monitor.\n'
+    summary = '\n'.join(lines) + f'\n\n{len(selected)} offers checked; {len(faults)} require review; {len(supplier_orders)} reviewed supplier orders (not immediate stock). Price-only changes do not fail the monitor.\n'
     print(summary)
     if os.environ.get('GITHUB_STEP_SUMMARY'):
         with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as output:
             output.write(summary)
     if report_path:
         report_path.parent.mkdir(parents=True, exist_ok=True)
-        report_path.write_text(json.dumps({'selectedOffers': len(selected), 'matchedOffers': len(found), 'faults': faults, 'changes': changes}, indent=2)+'\n', encoding='utf-8')
+        report_path.write_text(json.dumps({'selectedOffers': len(selected), 'matchedOffers': len(found), 'faults': faults, 'changes': changes, 'supplierOrders': supplier_orders}, indent=2)+'\n', encoding='utf-8')
     return 1 if faults else 0
 
 
@@ -149,11 +166,13 @@ def main():
     parser.add_argument('--previous', default='.feed-monitor/previous.json')
     parser.add_argument('--state', default='.feed-monitor/current.json')
     parser.add_argument('--report', default='.feed-monitor/report.json')
+    parser.add_argument('--reviews', default=str(ROOT / 'docs/editorial/good-guys-stock-reviews.json'))
     args = parser.parse_args()
     source = None
     try:
         source = feed_file(args.feed)
-        return run(source, Path(args.previous), Path(args.state), report_path=Path(args.report))
+        reviews = json.loads(Path(args.reviews).read_text(encoding='utf-8'))
+        return run(source, Path(args.previous), Path(args.state), report_path=Path(args.report), reviews=reviews)
     except urllib.error.URLError:
         print('Good Guys feed check failed: feed download unavailable', file=sys.stderr)
         return 1
