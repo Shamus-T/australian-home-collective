@@ -1,0 +1,206 @@
+{
+  "checkedOn": "2026-10-18",
+  "scope": "Availability-only recheck of eight flagged offers plus exact-model image sourcing; not a complete fresh product safety/specification review.",
+  "imagesAdded": [
+    {
+      "id": "joseph-joseph-easystore-large-shower-caddy",
+      "file": "jjwhite-candidate.jpg",
+      "brand": "Joseph Joseph",
+      "model": "70548",
+      "alt": "Joseph Joseph EasyStore 70548 large white shower shelf with removable mirror; toiletries shown for illustration.",
+      "page": "https://eu.josephjoseph.com/products/easystore-large-shower-shelf-with-removable-mirror-white",
+      "url": "https://eu.josephjoseph.com/cdn/shop/products/Image_1_f42a7b1b-1631-4588-8e29-7285dbca5dec.jpg?v=1684233199",
+      "originalSha256": "6e315ce5e4b85150d993d8bbb387e30352f3a4e86bb4fa9455c82db3ce20b844"
+    },
+    {
+      "id": "coolaroo-original-elevated-pet-bed",
+      "file": "coolarooblue-candidate.jpg",
+      "brand": "Coolaroo",
+      "model": "459741",
+      "alt": "Coolaroo Original elevated dog bed, medium Aquatic Blue, model 459741, shown with a dog outdoors.",
+      "page": "https://www.coolaroousa.com/pet-products/elevated-dog-beds/Original-Elevated-Dog-Bed-Medium-Aquatic-Blue_459741",
+      "url": "https://www.coolaroousa.com/userfiles/images/Products/dogbed/og/459741-dogbed-og-med-aquaticblue-1.jpg",
+      "originalSha256": "1b3ac0d6e9720b7f2c2ed8a1cd99b5b845f33b16de467934a6906ab85f172163"
+    }
+  ],
+  "lowStockOffers": [
+    {
+      "id": "magnifica-luce-cordless-desk-lamp",
+      "name": "Magnifica Luce Rechargeable Cordless Desk Lamp",
+      "url": "https://www.amazon.com.au/dp/B0CXM6X9ZJ",
+      "asin": "B0CXM6X9ZJ",
+      "availability": "Only 1 left in stock.",
+      "checkedAt": "2026-10-18T08:54:51.613Z",
+      "productIds": [
+        "magnifica-luce-cordless-desk-lamp"
+      ]
+    },
+    {
+      "id": "coolaroo-original-elevated-pet-bed",
+      "name": "Coolaroo The Original Elevated Pet Bed, Medium",
+      "url": "https://www.amazon.com.au/dp/B07VKPQZX8",
+      "asin": "B07VKPQZX8",
+      "availability": "Only 2 left in stock.",
+      "checkedAt": "2026-10-18T08:54:51.768Z",
+      "productIds": [
+        "coolaroo-original-elevated-pet-bed"
+      ]
+    },
+    {
+      "id": "dreambaby-liberty-tall-gate",
+      "name": "Dreambaby Liberty Tall Security Gate",
+      "url": "https://www.amazon.com.au/dp/B00KWDURMG",
+      "asin": "B00KWDURMG",
+      "availability": "Only 1 left in stock.",
+      "checkedAt": "2026-10-18T08:54:55.499Z",
+      "productIds": [
+        "dreambaby-liberty-tall-gate"
+      ]
+    },
+    {
+      "id": "joseph-joseph-easystore-large-shower-caddy",
+      "name": "Joseph Joseph EasyStore Large Shower Caddy with Mirror",
+      "url": "https://www.amazon.com.au/dp/B08QJ1QP3N",
+      "asin": "B08QJ1QP3N",
+      "availability": "Only 4 left in stock.",
+      "checkedAt": "2026-10-18T08:54:55.574Z",
+      "productIds": [
+        "joseph-joseph-easystore-large-shower-caddy"
+      ]
+    },
+    {
+      "id": "flies-cowdroy-flyscreen-repair-patches",
+      "name": "Cowdroy Flyscreen Repair Patches 150 × 200 mm (Pack of 3)",
+      "url": "https://www.amazon.com.au/dp/B0BCW96CJW",
+      "asin": "B0BCW96CJW",
+      "availability": "Only 2 left in stock (more on the way).",
+      "checkedAt": "2026-10-18T08:54:57.523Z",
+      "productIds": [
+        "flies-cowdroy-flyscreen-repair-patches"
+      ]
+    },
+    {
+      "id": "brabantia-stackable-laundry-box-35l",
+      "name": "Brabantia Stackable Laundry Box 35L",
+      "url": "https://www.amazon.com.au/dp/B07J495PF8",
+      "asin": "B07J495PF8",
+      "availability": "Only 1 left in stock (more on the way).",
+      "checkedAt": "2026-10-18T08:54:57.530Z",
+      "productIds": [
+        "brabantia-stackable-laundry-box-35l"
+      ]
+    },
+    {
+      "id": "oxo-good-grips-11-inch-turntable",
+      "name": "OXO Good Grips 11-inch Turntable",
+      "url": "https://www.amazon.com.au/dp/B000WJQGMU",
+      "asin": "B000WJQGMU",
+      "availability": "Only 3 left in stock.",
+      "checkedAt": "2026-10-18T08:54:59.393Z",
+      "productIds": [
+        "oxo-good-grips-11-inch-turntable",
+        "renter-friendly-kitchen-storage-what-to-check-before-you-buy-option-2",
+        "pantry-storage-ideas-australian-kitchens-option-1"
+      ]
+    },
+    {
+      "id": "kitchen-youcopia-rollout-caddy-8-inch",
+      "name": "YouCopia RollOut Under Sink Caddy — 8-inch",
+      "url": "https://www.amazon.com.au/dp/B08B1T3KBN",
+      "asin": "B08B1T3KBN",
+      "availability": "Only 4 left in stock (more on the way).",
+      "checkedAt": "2026-10-18T08:54:59.527Z",
+      "productIds": [
+        "kitchen-youcopia-rollout-caddy-8-inch"
+      ]
+    }
+  ],
+  "blockedSource": {
+    "reportedOn": "2026-10-18",
+    "eventLocalTime": "18:55 Australia/Brisbane",
+    "domain": "www.ltwilliams.com.au",
+    "classification": "Trojan",
+    "action": "Blocked outbound HTTPS",
+    "process": "C:\\Program Files\\nodejs\\node.exe",
+    "evidence": "User-provided Malwarebytes protection event; corresponding manufacturer research result was TypeError: fetch failed.",
+    "containment": "Domain excluded from manufacturer research script; automatic redirects disabled. No protection bypass or alternate route to domain permitted.",
+    "localCheck": "No manufacturer-lt-williams response file saved; saved retailer text and HTML are from the separate Amazon product check. No product image present in catalogue. No domain match in source pages, source components or public assets.",
+    "interpretation": "Blocked request is not evidence of a successful infection. Domain classification has not been independently adjudicated."
+  },
+  "unresolvedImages": [
+    {
+      "id": "dreambaby-liberty-tall-gate",
+      "reason": "18 October: linked gate is F1961. Manufacturer current US page is L768 with different fit/stopper details; exact Australian F1961 photo not verified. Similar gate not used."
+    },
+    {
+      "id": "simplehouseware-three-tier-sliding-basket",
+      "reason": "18 October: manufacturer catalogue inspected; exact linked model and colour absent. Similar pink baskets and unrelated organisers rejected. No Amazon photograph used."
+    },
+    {
+      "id": "lt-williams-large-collapsible-clothes-airer-black",
+      "reason": "18 October 2026: manufacturer domain www.ltwilliams.com.au blocked by Malwarebytes under Trojan classification during a Node research request. Do not retry, bypass protection or obtain images from this domain. No manufacturer response or image saved by that request. An exact-model image from a separately permitted source is still required."
+    },
+    {
+      "id": "amazon-basics-five-shelf-caster-unit",
+      "reason": "Amazon-owned product; no independently permitted exact-product image located. Amazon listing/CDN photographs are prohibited by repository policy."
+    },
+    {
+      "id": "sterilite-51l-gasket-box",
+      "reason": "18 October: listing model 19344304; manufacturer gallery is replacement 39349004 with black latches. Legacy manufacturer product page returns 404. Variant substitution rejected."
+    },
+    {
+      "id": "traderight-garden-tool-storage-rack",
+      "reason": "18 October: manufacturer domain returned 403; exact permitted product image not verified."
+    },
+    {
+      "id": "magnifica-luce-cordless-desk-lamp",
+      "reason": "18 October: exact white rechargeable lamp lacks a verified permitted manufacturer image; similarly named lighting businesses do not establish exact product identity."
+    },
+    {
+      "id": "amazon-basics-underbed-fabric-bags",
+      "reason": "Amazon-owned product; no independently permitted exact-product image located. Amazon listing/CDN photographs are prohibited by repository policy."
+    },
+    {
+      "id": "amazon-basics-six-tier-hanging-shelf",
+      "reason": "Amazon-owned product; no independently permitted exact-product image located. Amazon listing/CDN photographs are prohibited by repository policy."
+    },
+    {
+      "id": "amazon-basics-hanging-shelf-drawers",
+      "reason": "Amazon-owned product; no independently permitted exact-product image located. Amazon listing/CDN photographs are prohibited by repository policy."
+    },
+    {
+      "id": "gift-taronga-almonds-flavoured-sampler",
+      "reason": "18 October: manufacturer product catalogue inspected (34 products); exact eight-flavour 8 x 100g sampler absent. Individual packs are not an exact image substitute."
+    },
+    {
+      "id": "bathroom-simplehouseware-expandable-under-sink",
+      "reason": "18 October: manufacturer catalogue inspected; exact linked model and colour absent. Similar pink baskets and unrelated organisers rejected. No Amazon photograph used."
+    },
+    {
+      "id": "bathroom-simplehouseware-pullout-under-sink",
+      "reason": "18 October: manufacturer catalogue inspected; exact linked model and colour absent. Similar pink baskets and unrelated organisers rejected. No Amazon photograph used."
+    },
+    {
+      "id": "laundry-simplehouseware-expandable-under-sink",
+      "reason": "18 October: manufacturer catalogue inspected; exact linked model and colour absent. Similar pink baskets and unrelated organisers rejected. No Amazon photograph used."
+    },
+    {
+      "id": "laundry-simplehouseware-pullout-under-sink",
+      "reason": "18 October: manufacturer catalogue inspected; exact linked model and colour absent. Similar pink baskets and unrelated organisers rejected. No Amazon photograph used."
+    },
+    {
+      "id": "kitchen-simplehouseware-expandable-under-sink",
+      "reason": "18 October: manufacturer catalogue inspected; exact linked model and colour absent. Similar pink baskets and unrelated organisers rejected. No Amazon photograph used."
+    },
+    {
+      "id": "kitchen-simplehouseware-pullout-under-sink",
+      "reason": "18 October: manufacturer catalogue inspected; exact linked model and colour absent. Similar pink baskets and unrelated organisers rejected. No Amazon photograph used."
+    }
+  ],
+  "illustrativeRetained": [
+    {
+      "id": "lg-wtx3-09g-good-guys",
+      "reason": "18 October: LG current WTX3-09G gallery and hero still depict a 15.0 kg panel. Retained clearly labelled AHC dimensions diagram instead of mismatched product photograph."
+    }
+  ]
+}

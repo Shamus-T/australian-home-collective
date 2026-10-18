@@ -537,6 +537,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU",
+          "supports": "Exact ASIN B000WJQGMU and intended variant matched. Listing displayed: Only 3 left in stock. Availability-only observation at 2026-10-18T08:54:59.393Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -1314,6 +1322,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
+          "supports": "Exact ASIN B07J495PF8 and intended variant matched. Listing displayed: Only 1 left in stock (more on the way). Availability-only observation at 2026-10-18T08:54:57.530Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -3575,8 +3591,27 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
           "supports": "Displayed seller: Amazon US. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8",
+          "supports": "Exact ASIN B07VKPQZX8 and intended variant matched. Listing displayed: Only 2 left in stock. Availability-only observation at 2026-10-18T08:54:51.768Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/products/coolaroo-original-elevated-pet-bed-640.webp",
+        "srcSet": "/images/products/coolaroo-original-elevated-pet-bed-320.webp 320w, /images/products/coolaroo-original-elevated-pet-bed-640.webp 640w, /images/products/coolaroo-original-elevated-pet-bed-960.webp 960w",
+        "width": 640,
+        "height": 480,
+        "alt": "Coolaroo Original elevated dog bed, medium Aquatic Blue, model 459741, shown with a dog outdoors.",
+        "credit": "Product image sourced from Coolaroo.",
+        "sourceUrl": "https://www.coolaroousa.com/userfiles/images/Products/dogbed/og/459741-dogbed-og-med-aquaticblue-1.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.coolaroousa.com/pet-products/elevated-dog-beds/Original-Elevated-Dog-Bed-Medium-Aquatic-Blue_459741. Exact model 459741 and colour matched to the approved listing.",
+        "checkedOn": "2026-10-18"
+      }
     },
     {
       "id": "babydan-flex-m-safety-gate",
@@ -3787,6 +3822,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00KWDURMG?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00KWDURMG",
+          "supports": "Exact ASIN B00KWDURMG and intended variant matched. Listing displayed: Only 1 left in stock. Availability-only observation at 2026-10-18T08:54:55.499Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
       ]
     },
@@ -4320,8 +4363,27 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B08QJ1QP3N?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QJ1QP3N",
+          "supports": "Exact ASIN B08QJ1QP3N and intended variant matched. Listing displayed: Only 4 left in stock. Availability-only observation at 2026-10-18T08:54:55.574Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-easystore-large-shower-caddy-640.webp",
+        "srcSet": "/images/products/joseph-joseph-easystore-large-shower-caddy-320.webp 320w, /images/products/joseph-joseph-easystore-large-shower-caddy-640.webp 640w",
+        "width": 640,
+        "height": 519,
+        "alt": "Joseph Joseph EasyStore 70548 large white shower shelf with removable mirror; toiletries shown for illustration.",
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://eu.josephjoseph.com/cdn/shop/products/Image_1_f42a7b1b-1631-4588-8e29-7285dbca5dec.jpg?v=1684233199",
+        "suppliedVia": "Manufacturer product page: https://eu.josephjoseph.com/products/easystore-large-shower-shelf-with-removable-mirror-white. Exact model 70548 and colour matched to the approved listing.",
+        "checkedOn": "2026-10-18"
+      }
     },
     {
       "id": "umbra-flex-shower-caddy",
@@ -6912,6 +6974,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0CXM6X9ZJ?tag=ahc07-22",
           "supports": "Displayed seller: Magnifica Luce. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CXM6X9ZJ",
+          "supports": "Exact ASIN B0CXM6X9ZJ and intended variant matched. Listing displayed: Only 1 left in stock. Availability-only observation at 2026-10-18T08:54:51.613Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
       ]
     },
@@ -9529,6 +9599,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW",
+          "supports": "Exact ASIN B0BCW96CJW and intended variant matched. Listing displayed: Only 2 left in stock (more on the way). Availability-only observation at 2026-10-18T08:54:57.523Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -13445,6 +13523,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
           "supports": "Exact linked variant inspected on Amazon Australia on 11 October 2026; only three left in stock displayed, enabled Add to cart, sold and shipped by Amazon AU. Availability-only check; earlier full research date retained. Stock can change.",
           "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU",
+          "supports": "Exact ASIN B000WJQGMU and intended variant matched. Listing displayed: Only 3 left in stock. Availability-only observation at 2026-10-18T08:54:59.393Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -13993,6 +14079,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000WJQGMU",
+          "supports": "Exact ASIN B000WJQGMU and intended variant matched. Listing displayed: Only 3 left in stock. Availability-only observation at 2026-10-18T08:54:59.393Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -14785,6 +14879,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls?query=YouCopia",
           "supports": "Official brand recall search returned no results on 11 October 2026. This is a dated search, not safety certification.",
           "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN",
+          "supports": "Exact ASIN B08B1T3KBN and intended variant matched. Listing displayed: Only 4 left in stock (more on the way). Availability-only observation at 2026-10-18T08:54:59.527Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
