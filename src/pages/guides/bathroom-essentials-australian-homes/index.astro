@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -63,7 +64,7 @@ const faqs = [
   category="Bathroom"
   faqs={faqs}
   date="Updated July 2026"
-  dateModified="2026-07-19"
+  dateModified="2026-10-18"
   readingTime="6 minute read"
   image="/images/guides/bathroom-essentials-australian-homes.webp"
   imageAlt="A practical bathroom with navy towels, a bath mat, plain soap dispensers, a small basket and spare toilet paper"
@@ -261,6 +262,16 @@ const faqs = [
     the longest essentials list. It is the one that can be used, dried and reset without the next
     person working around somebody else's things.
   </p>
+
+  <h2>One optional organiser for a shared vanity</h2>
+  <p>If several toothbrushes and toothpaste tubes are spreading across a shared vanity, the EasyStore Large 70510 provides a divided holder. Check its footprint before buying and plan regular hand washing. It is an optional convenience, not an essential purchase or a substitute for cupboard storage.</p>
+
+  <CommercialProductBlock
+    guidePath="/guides/bathroom-essentials-australian-homes/"
+    title="Options matched to this buying decision"
+    intro="Sort the daily oral-care items and measure a flat, accessible vanity space before buying. This holder is optional; keep an existing workable container if it already suits the routine. Compare the fit before choosing."
+    variant="comparison"
+  />
 
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>

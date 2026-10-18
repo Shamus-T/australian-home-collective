@@ -74,7 +74,13 @@
     "/guides/pantry-storage-ideas-australian-kitchens/",
     "/guides/laundry-essentials-australian-homes/",
     "/guides/fridge-dimensions-australia/",
-    "/guides/convection-microwave-vs-air-fryer/"
+    "/guides/convection-microwave-vs-air-fryer/",
+    "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
+    "/guides/bathroom-essentials-australian-homes/",
+    "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
+    "/guides/rangehood-buying-guide-australia/",
+    "/guides/baby-monitors-australia/",
+    "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/"
   ],
   "products": [
     {
@@ -1673,7 +1679,67 @@
         "sourceUrl": "https://images.philips.com/is/image/philipsconsumer/vrs_d50493d4_a662_4c98_a9df158e833d238b?$png$&wid=1200&hei=630",
         "suppliedVia": "Manufacturer product page: https://www.philips.com.au/c-p/EP5541_20/series-5500-fully-automatic-espresso-machine",
         "checkedOn": "2026-10-10"
-      }
+      },
+      "commission": {
+        "ratePercent": 10,
+        "checkedOn": "2026-10-18",
+        "validUntil": "2026-11-05",
+        "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
+        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Philips 5500 LatteGo EP5541/20; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "The Good Guys",
+          "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-5500-series-lattego-fully-automatic-espresso-machine-ep554120",
+          "linkLabel": "View at The Good Guys",
+          "affiliate": true,
+          "affiliateNetwork": "partnerize",
+          "approvedForAffiliateUse": true,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-18",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 2.5,
+            "checkedOn": "2026-10-07",
+            "validUntil": "2026-11-05",
+            "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
+            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to EP5541/20. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "manufacturer-specification",
+              "title": "Philips 5500 LatteGo EP5541/20",
+              "publisher": "Philips",
+              "sourceUrl": "https://www.philips.com.au/c-p/EP5541_20/series-5500-fully-automatic-espresso-machine",
+              "supports": "Exact Australian model and configuration cross-checked with the new retailer listing. EP5541/20 matches the existing Philips 5500 LatteGo. Add Good Guys to the existing model rather than adding a near-duplicate coffee recommendation.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model Good Guys offer",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-5500-series-lattego-fully-automatic-espresso-machine-ep554120",
+              "supports": "Clean listing identifies EP5541/20; sold by The Good Guys, with InStock structured offer and Australian ordering controls. Check postcode-specific fulfilment before purchase. Tracking structure verified offline only.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian retailer availability",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://www.thegoodguys.com.au/philips-5500-series-lattego-fully-automatic-espresso-machine-ep554120",
+              "supports": "Exact model listed as InStock with Australian delivery/pickup options; national listing evidence, not postcode-level stock assurance.",
+              "checkedOn": "2026-10-18"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "philips-3000-series-dual-basket-airfryer-na352-00",
@@ -1795,7 +1861,67 @@
         "sourceUrl": "https://images.philips.com/is/image/philipsconsumer/vrs_f3adf0fd_facf_44f4_9a4dc22cb87b7426?$png$&wid=1200&hei=630",
         "suppliedVia": "Manufacturer product page: https://www.philips.com.au/c-p/NA352_00/3000-series-dual-basket-airfryer",
         "checkedOn": "2026-10-10"
-      }
+      },
+      "commission": {
+        "ratePercent": 10,
+        "checkedOn": "2026-10-18",
+        "validUntil": "2026-11-05",
+        "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
+        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Philips 3000 Series Dual Basket Airfryer NA352/00; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "The Good Guys",
+          "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+          "linkLabel": "View at The Good Guys",
+          "affiliate": true,
+          "affiliateNetwork": "partnerize",
+          "approvedForAffiliateUse": true,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-18",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 2.5,
+            "checkedOn": "2026-10-07",
+            "validUntil": "2026-11-05",
+            "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
+            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to NA352/00. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "manufacturer-specification",
+              "title": "Philips 3000 Series Dual Basket Airfryer NA352/00",
+              "publisher": "Philips",
+              "sourceUrl": "https://www.philips.com.au/c-p/NA352_00/3000-series-dual-basket-airfryer",
+              "supports": "Exact Australian model and configuration cross-checked with the new retailer listing. Same Philips NA352/00 dual-basket air fryer. Add the retailer without duplicating the product. Also a useful standalone comparator to the combination microwave if measured bench space is explained.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model Good Guys offer",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+              "supports": "Clean listing identifies NA352/00; sold by The Good Guys, with InStock structured offer and Australian ordering controls. Check postcode-specific fulfilment before purchase. Tracking structure verified offline only.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian retailer availability",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://www.thegoodguys.com.au/philips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+              "supports": "Exact model listed as InStock with Australian delivery/pickup options; national listing evidence, not postcode-level stock assurance.",
+              "checkedOn": "2026-10-18"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ninja-foodi-max-xxxl-dual-zone-air-fryer-af400anz",
@@ -2166,7 +2292,67 @@
         "sourceUrl": "https://dam.delonghi.com/902x902/assets/242927",
         "suppliedVia": "Manufacturer product page: https://www.kenwoodworld.com/en-au/p/titanium-chef-baker-titanium-chef-baker-xl-black-kvl85.004bk/KVL85.004BK.html?pid=0W20011468",
         "checkedOn": "2026-10-10"
-      }
+      },
+      "commission": {
+        "ratePercent": 10,
+        "checkedOn": "2026-10-18",
+        "validUntil": "2026-11-05",
+        "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
+        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Kenwood Titanium Chef Baker XL KVL85.004BK; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "The Good Guys",
+          "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fkenwood-titanium-chef-baker-xl-stand-mixer-black-kvl85004bk",
+          "linkLabel": "View at The Good Guys",
+          "affiliate": true,
+          "affiliateNetwork": "partnerize",
+          "approvedForAffiliateUse": true,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-18",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 2.5,
+            "checkedOn": "2026-10-07",
+            "validUntil": "2026-11-05",
+            "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
+            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to KVL85004BK. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "manufacturer-specification",
+              "title": "Kenwood Titanium Chef Baker XL KVL85.004BK",
+              "publisher": "Kenwood",
+              "sourceUrl": "https://www.kenwoodworld.com/en-au/p/titanium-chef-baker-titanium-chef-baker-xl-black-kvl85.004bk/KVL85.004BK.html?pid=0W20011468",
+              "supports": "Exact Australian model and configuration cross-checked with the new retailer listing. KVL85004BK is the retailer’s punctuation-free form of KVL85.004BK; black XL model with 7L and 5L bowls. Keep exact bundle/accessories aligned.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model Good Guys offer",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fkenwood-titanium-chef-baker-xl-stand-mixer-black-kvl85004bk",
+              "supports": "Clean listing identifies KVL85004BK; sold by The Good Guys, with InStock structured offer and Australian ordering controls. Check postcode-specific fulfilment before purchase. Tracking structure verified offline only.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian retailer availability",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://www.thegoodguys.com.au/kenwood-titanium-chef-baker-xl-stand-mixer-black-kvl85004bk",
+              "supports": "Exact model listed as InStock with Australian delivery/pickup options; national listing evidence, not postcode-level stock assurance.",
+              "checkedOn": "2026-10-18"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "braun-powerblend-9-jug-blender-jb9040",
@@ -2566,7 +2752,67 @@
         "checkedOn": "2026-10-11",
         "reviewDueOn": "2026-11-01",
         "evidence": "Australian product page lists $339.00 and Add to cart at $339.00 for the brushed stainless steel Fast Slow GO. Not an RRP or a retailer comparison; delivery charges must be checked separately."
-      }
+      },
+      "commission": {
+        "ratePercent": 10,
+        "checkedOn": "2026-10-18",
+        "validUntil": "2026-11-05",
+        "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
+        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Breville the Fast Slow GO BPR680BSS; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "The Good Guys",
+          "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-the-fast-slow-go-pressure-cooker-bpr680bss",
+          "linkLabel": "View at The Good Guys",
+          "affiliate": true,
+          "affiliateNetwork": "partnerize",
+          "approvedForAffiliateUse": true,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-18",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 2.5,
+            "checkedOn": "2026-10-07",
+            "validUntil": "2026-11-05",
+            "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
+            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to BPR680BSS. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "manufacturer-specification",
+              "title": "Breville the Fast Slow GO BPR680BSS",
+              "publisher": "Breville",
+              "sourceUrl": "https://www.breville.com/en-au/product/BPR680?sku=BPR680BSS2JAN1",
+              "supports": "Exact Australian model and configuration cross-checked with the new retailer listing. Same Breville BPR680BSS already recommended. Add Good Guys to that card; it does not replace the missing Ninja’s larger capacity or air-fry functions.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model Good Guys offer",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-the-fast-slow-go-pressure-cooker-bpr680bss",
+              "supports": "Clean listing identifies BPR680BSS; sold by The Good Guys, with InStock structured offer and Australian ordering controls. Check postcode-specific fulfilment before purchase. Tracking structure verified offline only.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian retailer availability",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://www.thegoodguys.com.au/breville-the-fast-slow-go-pressure-cooker-bpr680bss",
+              "supports": "Exact model listed as InStock with Australian delivery/pickup options; national listing evidence, not postcode-level stock assurance.",
+              "checkedOn": "2026-10-18"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ninja-foodi-smartlid-multi-cooker-ol650anz",
@@ -2579,18 +2825,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-17",
-        "destinationStatus": "reachable",
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "unreachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "unknown",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -2684,6 +2930,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0B4HB4VV6?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Offer exception review, 18 October 2026",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0B4HB4VV6?tag=ahc07-22",
+          "supports": "The clean Amazon ASIN B0B4HB4VV6 returned HTTP 404 on two checks on 18 October 2026. No exact-model replacement offer verified.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -4710,11 +4964,11 @@
     {
       "id": "songmics-three-tier-over-toilet-organiser",
       "guidePath": "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/",
-      "name": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser — Cloud White",
+      "name": "SONGMICS UBTS001W02 Bamboo Over-Toilet Organiser — Cloud White / Natural Beige",
       "productType": "Freestanding over-toilet shelf",
       "summary": "A roughly 26 x 63 x 170 cm bamboo unit with an adjustable middle shelf and anti-tip kit, once cistern, seat, wall-fixing and walkway clearances have been checked.",
       "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0C9BZPRH7?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
@@ -4722,14 +4976,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-22",
+      "lastReviewedOn": "2026-10-18",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "unchanged",
+        "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -4804,12 +5058,36 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
           "supports": "Displayed seller: SONGMICS HOME AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact UBTS001W02 variant and existing image match",
+          "publisher": "SONGMICS HOME",
+          "sourceUrl": "https://www.songmics.com/products/songmics-3-tier-bamboo-bathroom-organizer-ubts001?variant=45339077574905",
+          "supports": "Manufacturer variant 45339077574905 identifies UBTS001W02, matching the current white/natural-beige photo and Amazon child ASIN. Earlier dimensions and anti-tip guidance retained.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Corrected child-ASIN offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C9BZPRH7?tag=ahc07-22",
+          "supports": "Clean B0C9BZPRH7 listing identifies UBTS001W02, Cloud White/Natural Beige; in stock, sold by SONGMICS HOME AU and dispatched by Amazon to the default Sunshine Coast 4556 location. No tagged URL was opened.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian child-ASIN availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C9BZPRH7?tag=ahc07-22",
+          "supports": "Orderable regular-price and Prime offers displayed for the exact child variant. Availability can change with location and seller.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
         "src": "/images/products/songmics-three-tier-over-toilet-organiser-640.webp",
         "srcSet": "/images/products/songmics-three-tier-over-toilet-organiser-320.webp 320w, /images/products/songmics-three-tier-over-toilet-organiser-640.webp 640w",
-        "alt": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser — Cloud White.",
+        "alt": "SONGMICS UBTS001W02 Bamboo Over-Toilet Organiser — Cloud White / Natural Beige",
         "width": 640,
         "height": 640,
         "credit": "Product image sourced from SONGMICS.",
@@ -8651,7 +8929,67 @@
         "sourceUrl": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BAD208/LAD208WHT2IAN1/pdp.jpg?pdp",
         "suppliedVia": "Manufacturer product page: https://www.breville.com/en-au/product/bad208",
         "checkedOn": "2026-10-10"
-      }
+      },
+      "commission": {
+        "ratePercent": 10,
+        "checkedOn": "2026-10-18",
+        "validUntil": "2026-11-05",
+        "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
+        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Breville the Smart Dry Connect Dehumidifier LAD208WHT; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "The Good Guys",
+          "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-the-smart-dry-dehumidifier-lad208wht",
+          "linkLabel": "View at The Good Guys",
+          "affiliate": true,
+          "affiliateNetwork": "partnerize",
+          "approvedForAffiliateUse": true,
+          "affiliateValidation": {
+            "checkedOn": "2026-10-18",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 3.5,
+            "checkedOn": "2026-10-07",
+            "validUntil": "2026-11-05",
+            "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
+            "applicability": "Dated signed-in campaign evidence from 7 October: Heating & Cooling 3.5% applies to LAD208WHT. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "manufacturer-specification",
+              "title": "Breville the Smart Dry Connect Dehumidifier LAD208WHT",
+              "publisher": "Breville",
+              "sourceUrl": "https://www.breville.com/en-au/product/bad208",
+              "supports": "Exact Australian model and configuration cross-checked with the new retailer listing. LAD208WHT matches the existing Amazon model. Add a second retailer to its existing card after offer registration; do not present a new recommendation or mould-remediation claim.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Exact-model Good Guys offer",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-the-smart-dry-dehumidifier-lad208wht",
+              "supports": "Clean listing identifies LAD208WHT; sold by The Good Guys, with InStock structured offer and Australian ordering controls. Check postcode-specific fulfilment before purchase. Tracking structure verified offline only.",
+              "checkedOn": "2026-10-18"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian retailer availability",
+              "publisher": "The Good Guys",
+              "sourceUrl": "https://www.thegoodguys.com.au/breville-the-smart-dry-dehumidifier-lad208wht",
+              "supports": "Exact model listed as InStock with Australian delivery/pickup options; national listing evidence, not postcode-level stock assurance.",
+              "checkedOn": "2026-10-18"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "summer-temppro-tp60b-indoor-outdoor-monitor",
@@ -8776,18 +9114,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-24",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-24",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "unknown",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -8863,6 +9201,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Offer exception review, 18 October 2026",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0000CBIFF?tag=ahc07-22",
+          "supports": "Amazon ASIN B0000CBIFF was reachable without a featured/orderable offer verified on 18 October 2026. Availability is unknown, not confirmed out of stock.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -10511,18 +10857,18 @@
       "linkLabel": "View current seller offers at Amazon Australia →",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-09-23",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-09-23",
+        "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "unknown",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -10608,6 +10954,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0F4CLCNJR?tag=ahc07-22",
           "supports": "Displayed seller: Roborock AU Official. Individual seller offers were inspected. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Offer exception review, 18 October 2026",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F4CLCNJR?tag=ahc07-22",
+          "supports": "The exact Amazon listing B0F4CLCNJR was reachable but showed See All Buying Options without a verified orderable seller offer. Availability is unknown, not confirmed out of stock.",
+          "checkedOn": "2026-10-18"
         }
       ],
       "image": {
@@ -15376,6 +15730,1946 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50093133_941217.png?v=1776396155",
         "suppliedVia": "The Good Guys exact-model NN-CD88QSQPQ product gallery, main image.",
         "checkedOn": "2026-10-14"
+      }
+    },
+    {
+      "id": "tgg-drawer-kitchen-drawer-storage-what-to-measure-before-buying-organisers",
+      "guidePath": "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
+      "name": "Joseph Joseph DrawerStore Compact 85119 — Grey",
+      "productType": "Narrow cutlery organiser",
+      "summary": "An 11 cm-wide organiser with overlapping cutlery slots for a narrow drawer. It needs at least 8 cm of internal drawer height, even though the empty organiser is 5.7 cm high.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-drawerstore-compact-cutlery-85119",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Hand wash and dry; it is not dishwasher-safe despite the retailer overview.",
+        "The 39.5 cm depth and overlapping slots will not suit every drawer or oversized utensil."
+      ],
+      "suitability": {
+        "suits": [
+          "narrow drawers holding ordinary cutlery"
+        ],
+        "mayNotSuit": [
+          "shallow drawers or bulky cooking utensils"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph DrawerStore Compact 85119 — Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://www.josephjoseph.com/products/drawerstore-compact-cutlery-organiser-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. An 11 cm-wide organiser with overlapping cutlery slots for a narrow drawer. It needs at least 8 cm of internal drawer height, even though the empty organiser is 5.7 cm high.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-drawerstore-compact-cutlery-85119",
+          "supports": "Four retailer reviews discuss narrow-drawer fit and saved space; two share an author/date and are not independent votes. Manufacturer feedback supplies a broader body; no durability score inferred.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-drawerstore-compact-cutlery-85119",
+          "supports": "Model 85119 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 85119. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-drawerstore-compact-cutlery-85119",
+          "supports": "Model 85119, SKU 50051985, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-drawer-640.webp",
+        "srcSet": "/images/products/tgg-drawer-320.webp 320w, /images/products/tgg-drawer-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph DrawerStore Compact 85119 — Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50051985_816762.png?v=1776227473",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-drawerstore-compact-cutlery-85119",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-drawer-renter-friendly-kitchen-storage-what-to-check-before-you-buy",
+      "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
+      "name": "Joseph Joseph DrawerStore Compact 85119 — Grey",
+      "productType": "Narrow cutlery organiser",
+      "summary": "An 11 cm-wide organiser with overlapping cutlery slots for a narrow drawer. It needs at least 8 cm of internal drawer height, even though the empty organiser is 5.7 cm high.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-drawerstore-compact-cutlery-85119",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Hand wash and dry; it is not dishwasher-safe despite the retailer overview.",
+        "The 39.5 cm depth and overlapping slots will not suit every drawer or oversized utensil."
+      ],
+      "suitability": {
+        "suits": [
+          "narrow drawers holding ordinary cutlery"
+        ],
+        "mayNotSuit": [
+          "shallow drawers or bulky cooking utensils"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph DrawerStore Compact 85119 — Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://www.josephjoseph.com/products/drawerstore-compact-cutlery-organiser-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. An 11 cm-wide organiser with overlapping cutlery slots for a narrow drawer. It needs at least 8 cm of internal drawer height, even though the empty organiser is 5.7 cm high.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-drawerstore-compact-cutlery-85119",
+          "supports": "Four retailer reviews discuss narrow-drawer fit and saved space; two share an author/date and are not independent votes. Manufacturer feedback supplies a broader body; no durability score inferred.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-drawerstore-compact-cutlery-85119",
+          "supports": "Model 85119 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 85119. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-drawerstore-compact-cutlery-85119",
+          "supports": "Model 85119, SKU 50051985, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-drawer-640.webp",
+        "srcSet": "/images/products/tgg-drawer-320.webp 320w, /images/products/tgg-drawer-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph DrawerStore Compact 85119 — Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50051985_816762.png?v=1776227473",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-drawerstore-compact-cutlery-85119",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-hamper-laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters",
+      "guidePath": "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+      "name": "Joseph Joseph Tota Twin 90 L 50003 — Grey",
+      "productType": "Two-compartment laundry sorter — grey",
+      "summary": "Two removable 45 L bags separate two washing groups. This is the grey 50003 variant, distinct from the black Tota offer; allow 71 cm height, 56 cm width and 39.5 cm depth.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-tota-90-litre-laundry-separation-basket-grey-50003",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Needs assembly and lid-opening space; a 90 L sorter is substantial in a narrow laundry.",
+        "Use the bags for dry laundry storage; follow bag labels for washing and wipe the exterior clean."
+      ],
+      "suitability": {
+        "suits": [
+          "households consistently sorting two wash groups"
+        ],
+        "mayNotSuit": [
+          "single-load routines or tight floorspace"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph Tota Twin 90 L 50003 — Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/tota-90l-laundry-separation-basket-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. Two removable 45 L bags separate two washing groups. This is the grey 50003 variant, distinct from the black Tota offer; allow 71 cm height, 56 cm width and 39.5 cm depth.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-tota-90-litre-laundry-separation-basket-grey-50003",
+          "supports": "Ten retailer reviews describe separation and removable-bag convenience. Manufacturer instructions and two-year guarantee take precedence over the retailer description claiming a one-month warranty.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-tota-90-litre-laundry-separation-basket-grey-50003",
+          "supports": "Model 50003 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 50003. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-tota-90-litre-laundry-separation-basket-grey-50003",
+          "supports": "Model 50003, SKU 50084826, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-hamper-640.webp",
+        "srcSet": "/images/products/tgg-hamper-320.webp 320w, /images/products/tgg-hamper-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph Tota Twin 90 L 50003 — Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50084826_851180.png?v=1776227143",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-tota-90-litre-laundry-separation-basket-grey-50003",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-basket-laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters",
+      "guidePath": "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+      "name": "Joseph Joseph Hold-All 35 L 50023 — Grey",
+      "productType": "Collapsible laundry carry basket — 35 L",
+      "summary": "A 35 L carry basket that folds to 2 cm high for storage. Open dimensions are 25 × 53 × 36 cm and the manufacturer limits the load to 9 kg; it is smaller than the 55 L Hold-All Max.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 53 × 36 cm footprint remains when folded.",
+        "It carries one load rather than separating several wash groups; follow its care label."
+      ],
+      "suitability": {
+        "suits": [
+          "small laundries that need a basket only when carrying a load"
+        ],
+        "mayNotSuit": [
+          "permanent multi-compartment sorting or loads over 9 kg"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph Hold-All 35 L 50023 — Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/hold-all-collapsible-laundry-basket-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A 35 L carry basket that folds to 2 cm high for storage. Open dimensions are 25 × 53 × 36 cm and the manufacturer limits the load to 9 kg; it is smaller than the 55 L Hold-All Max.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+          "supports": "Retailer feedback discusses folding and travel; the larger manufacturer review body also discusses carrying, straps and storage. These are user reports, not AHC load testing.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+          "supports": "Model 50023 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 50023. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+          "supports": "Model 50023, SKU 50084823, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-basket-640.webp",
+        "srcSet": "/images/products/tgg-basket-320.webp 320w, /images/products/tgg-basket-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph Hold-All 35 L 50023 — Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50084823_851182.png?v=1770773394",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-basket-small-laundry-storage-what-to-check-before-buying-organisers",
+      "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
+      "name": "Joseph Joseph Hold-All 35 L 50023 — Grey",
+      "productType": "Collapsible laundry carry basket — 35 L",
+      "summary": "A 35 L carry basket that folds to 2 cm high for storage. Open dimensions are 25 × 53 × 36 cm and the manufacturer limits the load to 9 kg; it is smaller than the 55 L Hold-All Max.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 53 × 36 cm footprint remains when folded.",
+        "It carries one load rather than separating several wash groups; follow its care label."
+      ],
+      "suitability": {
+        "suits": [
+          "small laundries that need a basket only when carrying a load"
+        ],
+        "mayNotSuit": [
+          "permanent multi-compartment sorting or loads over 9 kg"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph Hold-All 35 L 50023 — Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/hold-all-collapsible-laundry-basket-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A 35 L carry basket that folds to 2 cm high for storage. Open dimensions are 25 × 53 × 36 cm and the manufacturer limits the load to 9 kg; it is smaller than the 55 L Hold-All Max.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+          "supports": "Retailer feedback discusses folding and travel; the larger manufacturer review body also discusses carrying, straps and storage. These are user reports, not AHC load testing.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+          "supports": "Model 50023 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 50023. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+          "supports": "Model 50023, SKU 50084823, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-basket-640.webp",
+        "srcSet": "/images/products/tgg-basket-320.webp 320w, /images/products/tgg-basket-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph Hold-All 35 L 50023 — Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50084823_851182.png?v=1770773394",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-basket-renter-friendly-laundry-storage-what-to-check-before-you-buy",
+      "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
+      "name": "Joseph Joseph Hold-All 35 L 50023 — Grey",
+      "productType": "Collapsible laundry carry basket — 35 L",
+      "summary": "A 35 L carry basket that folds to 2 cm high for storage. Open dimensions are 25 × 53 × 36 cm and the manufacturer limits the load to 9 kg; it is smaller than the 55 L Hold-All Max.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 53 × 36 cm footprint remains when folded.",
+        "It carries one load rather than separating several wash groups; follow its care label."
+      ],
+      "suitability": {
+        "suits": [
+          "small laundries that need a basket only when carrying a load"
+        ],
+        "mayNotSuit": [
+          "permanent multi-compartment sorting or loads over 9 kg"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph Hold-All 35 L 50023 — Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/hold-all-collapsible-laundry-basket-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A 35 L carry basket that folds to 2 cm high for storage. Open dimensions are 25 × 53 × 36 cm and the manufacturer limits the load to 9 kg; it is smaller than the 55 L Hold-All Max.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+          "supports": "Retailer feedback discusses folding and travel; the larger manufacturer review body also discusses carrying, straps and storage. These are user reports, not AHC load testing.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+          "supports": "Model 50023 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 50023. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+          "supports": "Model 50023, SKU 50084823, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-basket-640.webp",
+        "srcSet": "/images/products/tgg-basket-320.webp 320w, /images/products/tgg-basket-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph Hold-All 35 L 50023 — Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50084823_851182.png?v=1770773394",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-35-litre-hold-all-collapsible-laundry-basket-grey-50023",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-trio-laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters",
+      "guidePath": "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
+      "name": "Joseph Joseph Tota Trio 90 L 50021 — Ecru",
+      "productType": "Three-compartment laundry sorter",
+      "summary": "Three removable 30 L bags suit three distinct wash groups. The ecru 50021 is 71 × 59.1 × 39.5 cm: the same total capacity as the Twin, divided into smaller bags.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-tota-trio-90-litre-laundry-separation-basket-ecru-50021",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Owner feedback repeatedly describes awkward assembly; allow time to fit the exterior correctly.",
+        "Three smaller bags are less useful when most washing belongs to one group; the ecru finish can look cooler than expected."
+      ],
+      "suitability": {
+        "suits": [
+          "households regularly separating three wash groups"
+        ],
+        "mayNotSuit": [
+          "larger single-category loads or very narrow spaces"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph Tota Trio 90 L 50021 — Ecru",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/tota-trio-90l-laundry-separation-basket-ecru",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. Three removable 30 L bags suit three distinct wash groups. The ecru 50021 is 71 × 59.1 × 39.5 cm: the same total capacity as the Twin, divided into smaller bags.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-tota-trio-90-litre-laundry-separation-basket-ecru-50021",
+          "supports": "Retailer reviews praise sorting but several explicitly report difficult assembly and loose fabric fitting; one notes cooler colour. Manufacturer confirms 50021 is ecru, overriding the retailer prose calling it grey.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-tota-trio-90-litre-laundry-separation-basket-ecru-50021",
+          "supports": "Model 50021 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 50021. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-tota-trio-90-litre-laundry-separation-basket-ecru-50021",
+          "supports": "Model 50021, SKU 50084821, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-trio-640.webp",
+        "srcSet": "/images/products/tgg-trio-320.webp 320w, /images/products/tgg-trio-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph Tota Trio 90 L 50021 — Ecru",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50084821_850752.png?v=1776229224",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-tota-trio-90-litre-laundry-separation-basket-ecru-50021",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-toothbrush-bathroom-vanity-storage-what-to-sort-before-buying-organisers",
+      "guidePath": "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
+      "name": "Joseph Joseph EasyStore Large 70510 — Light Grey",
+      "productType": "Divided toothbrush and toothpaste caddy",
+      "summary": "A divided oral-care holder measuring 12.8 cm high, 17.1 cm wide and 8.6 cm deep. It dismantles for hand cleaning and has ventilation and non-slip feet.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It still occupies vanity space and needs regular washing and drying.",
+        "This is a toothbrush holder, not a handled cleaning caddy or a replacement for shelves."
+      ],
+      "suitability": {
+        "suits": [
+          "shared vanities with several oral-care items"
+        ],
+        "mayNotSuit": [
+          "very small basins or storing bulky cleaning bottles"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph EasyStore Large 70510 — Light Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/easystore-large-toothbrush-holder-light-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A divided oral-care holder measuring 12.8 cm high, 17.1 cm wide and 8.6 cm deep. It dismantles for hand cleaning and has ventilation and non-slip feet.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+          "supports": "Retailer owners discuss capacity and finish; manufacturer reviews provide a wider sample on compartments and cleaning. No hygiene or germ-reduction claim is supported.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+          "supports": "Model 70510 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 70510. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+          "supports": "Model 70510, SKU 50084976, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-toothbrush-640.webp",
+        "srcSet": "/images/products/tgg-toothbrush-320.webp 320w, /images/products/tgg-toothbrush-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph EasyStore Large 70510 — Light Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50084976_852901.png?v=1776229557",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-toothbrush-bathroom-product-storage-what-to-sort-before-buying-organisers",
+      "guidePath": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
+      "name": "Joseph Joseph EasyStore Large 70510 — Light Grey",
+      "productType": "Divided toothbrush and toothpaste caddy",
+      "summary": "A divided oral-care holder measuring 12.8 cm high, 17.1 cm wide and 8.6 cm deep. It dismantles for hand cleaning and has ventilation and non-slip feet.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It still occupies vanity space and needs regular washing and drying.",
+        "This is a toothbrush holder, not a handled cleaning caddy or a replacement for shelves."
+      ],
+      "suitability": {
+        "suits": [
+          "shared vanities with several oral-care items"
+        ],
+        "mayNotSuit": [
+          "very small basins or storing bulky cleaning bottles"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph EasyStore Large 70510 — Light Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/easystore-large-toothbrush-holder-light-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A divided oral-care holder measuring 12.8 cm high, 17.1 cm wide and 8.6 cm deep. It dismantles for hand cleaning and has ventilation and non-slip feet.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+          "supports": "Retailer owners discuss capacity and finish; manufacturer reviews provide a wider sample on compartments and cleaning. No hygiene or germ-reduction claim is supported.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+          "supports": "Model 70510 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 70510. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+          "supports": "Model 70510, SKU 50084976, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-toothbrush-640.webp",
+        "srcSet": "/images/products/tgg-toothbrush-320.webp 320w, /images/products/tgg-toothbrush-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph EasyStore Large 70510 — Light Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50084976_852901.png?v=1776229557",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-toothbrush-bathroom-essentials-australian-homes",
+      "guidePath": "/guides/bathroom-essentials-australian-homes/",
+      "name": "Joseph Joseph EasyStore Large 70510 — Light Grey",
+      "productType": "Divided toothbrush and toothpaste caddy",
+      "summary": "A divided oral-care holder measuring 12.8 cm high, 17.1 cm wide and 8.6 cm deep. It dismantles for hand cleaning and has ventilation and non-slip feet.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It still occupies vanity space and needs regular washing and drying.",
+        "This is a toothbrush holder, not a handled cleaning caddy or a replacement for shelves."
+      ],
+      "suitability": {
+        "suits": [
+          "shared vanities with several oral-care items"
+        ],
+        "mayNotSuit": [
+          "very small basins or storing bulky cleaning bottles"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph EasyStore Large 70510 — Light Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/easystore-large-toothbrush-holder-light-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A divided oral-care holder measuring 12.8 cm high, 17.1 cm wide and 8.6 cm deep. It dismantles for hand cleaning and has ventilation and non-slip feet.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+          "supports": "Retailer owners discuss capacity and finish; manufacturer reviews provide a wider sample on compartments and cleaning. No hygiene or germ-reduction claim is supported.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+          "supports": "Model 70510 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 70510. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+          "supports": "Model 70510, SKU 50084976, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-toothbrush-640.webp",
+        "srcSet": "/images/products/tgg-toothbrush-320.webp 320w, /images/products/tgg-toothbrush-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph EasyStore Large 70510 — Light Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50084976_852901.png?v=1776229557",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-easystore-large-toothbrush-caddy-grey-70510",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-spot-mini-pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear",
+      "guidePath": "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
+      "name": "BISSELL SpotClean Mini 4149F",
+      "productType": "Compact wet spot cleaner",
+      "summary": "A 3.4 kg spot cleaner with 500 mL clean-water and 400 mL dirty-water tanks, suited to small spills on compatible carpets and upholstery. Check the textile care label before wet cleaning.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbissell-spotclean-mini-4149f",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Small tanks need more frequent filling and emptying; owner feedback includes a request for stronger suction.",
+        "Not suitable for delicate pure wool, viscose, jute, silk, velvet, leather or natural suede; do not treat it as a whole-room carpet washer."
+      ],
+      "suitability": {
+        "suits": [
+          "occasional small spills and limited storage space"
+        ],
+        "mayNotSuit": [
+          "large-area washing or delicate fabrics"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "BISSELL SpotClean Mini 4149F",
+          "publisher": "Bissell",
+          "sourceUrl": "https://bissell.com.au/products/spotclean-mini",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A 3.4 kg spot cleaner with 500 mL clean-water and 400 mL dirty-water tanks, suited to small spills on compatible carpets and upholstery. Check the textile care label before wet cleaning.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bissell-spotclean-mini-4149f",
+          "supports": "Exact-model retailer reviews discuss low weight and storage convenience, with a contrary suction complaint. The manufacturer sample is only one review, so no long-term reliability or performance ranking is inferred.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bissell-spotclean-mini-4149f",
+          "supports": "Model 4149F listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 4149F. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbissell-spotclean-mini-4149f",
+          "supports": "Model 4149F, SKU 50097934, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian instruction manual",
+          "publisher": "Bissell",
+          "sourceUrl": "https://bissell.com.au/cdn/shop/files/1658467_P3146_4149F_spotclean-mini_ug.pdf?v=7077597021752782812",
+          "supports": "Read the exact-model instructions for safe use, care, installation/mounting and Australian warranty limitations.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-spot-mini-640.webp",
+        "srcSet": "/images/products/tgg-spot-mini-320.webp 320w, /images/products/tgg-spot-mini-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "BISSELL SpotClean Mini 4149F",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50097934_1046561.png?v=1786595838",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/bissell-spotclean-mini-4149f",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-spot-turbo-pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear",
+      "guidePath": "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
+      "name": "BISSELL SpotClean Turbo 3911F",
+      "productType": "Larger-capacity wet spot cleaner",
+      "summary": "A 5.89 kg portable cleaner with a 1.9 L clean-water tank and 1.4 L dirty-water tank. Larger tanks reduce interruptions during multiple spot-cleaning jobs, at the cost of more carrying weight.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbissell-spotclean-turbo-carpet-cleaner-3911f",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Heavier and bulkier than the Mini, especially with filled tanks.",
+        "Treated fabric still needs drying time, and the hose and tanks need cleaning after use. Check fabric compatibility; avoid delicate materials excluded by BISSELL."
+      ],
+      "suitability": {
+        "suits": [
+          "repeated spot-cleaning jobs on compatible upholstery and carpets"
+        ],
+        "mayNotSuit": [
+          "dry-clean-only upholstery or buyers wanting a full-size carpet washer"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "BISSELL SpotClean Turbo 3911F",
+          "publisher": "Bissell",
+          "sourceUrl": "https://bissell.com.au/products/spotclean-turbo-3911f",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A 5.89 kg portable cleaner with a 1.9 L clean-water tank and 1.4 L dirty-water tank. Larger tanks reduce interruptions during multiple spot-cleaning jobs, at the cost of more carrying weight.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bissell-spotclean-turbo-carpet-cleaner-3911f",
+          "supports": "Exact-model retailer owners describe lifting dirt and remaining dampness; manufacturer feedback adds eleven reviews. Promotional-sounding reviews were not accepted as independent proof of superior suction or noise performance.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bissell-spotclean-turbo-carpet-cleaner-3911f",
+          "supports": "Model 3911F listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 3911F. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbissell-spotclean-turbo-carpet-cleaner-3911f",
+          "supports": "Model 3911F, SKU 50091629, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian instruction manual",
+          "publisher": "Bissell",
+          "sourceUrl": "https://bissell.com.au/cdn/shop/files/1639656_UG_P3126_SCT_BAU_0524_v5.pdf?v=3796989640049478110",
+          "supports": "Read the exact-model instructions for safe use, care, installation/mounting and Australian warranty limitations.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-spot-turbo-640.webp",
+        "srcSet": "/images/products/tgg-spot-turbo-320.webp 320w, /images/products/tgg-spot-turbo-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "BISSELL SpotClean Turbo 3911F",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091629_924522.png?v=1776749642",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/bissell-spotclean-turbo-carpet-cleaner-3911f",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-filter-coffee-coffee-machine-types-australia",
+      "guidePath": "/guides/coffee-machine-types-australia/",
+      "name": "Breville Aroma Style Electronic LCM700BSS",
+      "productType": "Drip filter coffee machine",
+      "summary": "A ground-coffee filter brewer with a glass carafe, reusable mesh filter and programmable start. Its 18.2 × 26.4 × 34 cm body suits batch brewing without an espresso grinder or milk system.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-the-aroma-style-electronic-lcm700bss2jan1",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The maker’s 12-cup label does not mean twelve full travel mugs.",
+        "A glass carafe and hotplate suit serving a batch; an owner reports wanting longer heat retention. It does not make espresso or texture milk."
+      ],
+      "suitability": {
+        "suits": [
+          "households wanting several cups of filter coffee together"
+        ],
+        "mayNotSuit": [
+          "espresso drinkers or long heat retention away from the hotplate"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Breville Aroma Style Electronic LCM700BSS",
+          "publisher": "Breville",
+          "sourceUrl": "https://www.breville.com/en-au/product/bcm700?sku=LCM700BSS2JAN1",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A ground-coffee filter brewer with a glass carafe, reusable mesh filter and programmable start. Its 18.2 × 26.4 × 34 cm body suits batch brewing without an espresso grinder or milk system.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/breville-the-aroma-style-electronic-lcm700bss2jan1",
+          "supports": "Retailer owner comments repeatedly discuss timer convenience and cleaning; one flags heat retention. The Australian manual covers grounds, filter cleaning and carafe handling.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/breville-the-aroma-style-electronic-lcm700bss2jan1",
+          "supports": "Model LCM700BSS2JAN1 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for LCM700BSS2JAN1. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-the-aroma-style-electronic-lcm700bss2jan1",
+          "supports": "Model LCM700BSS2JAN1, SKU 50075076, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian instruction manual",
+          "publisher": "Breville",
+          "sourceUrl": "https://assets.breville.com/BCM700/LCM700_ANZ_instruction-manual.pdf",
+          "supports": "Read the exact-model instructions for safe use, care, installation/mounting and Australian warranty limitations.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-filter-coffee-640.webp",
+        "srcSet": "/images/products/tgg-filter-coffee-320.webp 320w, /images/products/tgg-filter-coffee-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Breville Aroma Style Electronic LCM700BSS",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50075076_763936.png?v=1776227304",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/breville-the-aroma-style-electronic-lcm700bss2jan1",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-range-fixed-rangehood-buying-guide-australia",
+      "guidePath": "/guides/rangehood-buying-guide-australia/",
+      "name": "Westinghouse WRF610SA 60 cm Fixed Rangehood",
+      "productType": "Fixed under-cabinet rangehood",
+      "summary": "A fixed stainless-steel hood measuring 598 mm wide, 500 mm deep and 160 mm high, with three fan speeds. Check cabinet support, cooktop coverage and the planned exhaust route before ordering.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-60cm-fixed-rangehood-stainless-steel-wrf610sa",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The fixed 500 mm projection stays over the cooktop; nominal 60 cm width does not prove cabinet compatibility.",
+        "Recirculation accessories are optional and add cost. Manufacturer-rated airflow is modest; suitability depends on cooking load and the installed duct route."
+      ],
+      "suitability": {
+        "suits": [
+          "a measured under-cabinet replacement with a suitable air route"
+        ],
+        "mayNotSuit": [
+          "barbecue extraction or demanding cooking without an installer assessment"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Westinghouse WRF610SA 60 cm Fixed Rangehood",
+          "publisher": "Westinghouse",
+          "sourceUrl": "https://www.westinghouse.com.au/cooking/rangehoods/wrf610sa/",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A fixed stainless-steel hood measuring 598 mm wide, 500 mm deep and 160 mm high, with three fan speeds. Check cabinet support, cooktop coverage and the planned exhaust route before ordering.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-60cm-fixed-rangehood-stainless-steel-wrf610sa",
+          "supports": "Exact-model retailer reviews discuss compact replacement fit and cleaning. Owner descriptions of suction are subjective; no measured capture performance is claimed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-60cm-fixed-rangehood-stainless-steel-wrf610sa",
+          "supports": "Model WRF610SA listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for WRF610SA. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-60cm-fixed-rangehood-stainless-steel-wrf610sa",
+          "supports": "Model WRF610SA, SKU 50061667, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-range-fixed-640.webp",
+        "srcSet": "/images/products/tgg-range-fixed-320.webp 320w, /images/products/tgg-range-fixed-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Westinghouse WRF610SA 60 cm Fixed Rangehood",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50061667_591176.png?v=1776226986",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/westinghouse-60cm-fixed-rangehood-stainless-steel-wrf610sa",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-range-slide-rangehood-buying-guide-australia",
+      "guidePath": "/guides/rangehood-buying-guide-australia/",
+      "name": "Westinghouse WRR614SB 60 cm Slide-out Rangehood",
+      "productType": "Slide-out under-cabinet rangehood",
+      "summary": "A 598 mm-wide slide-out hood with a 300 mm closed depth and 175 mm body height. Two charcoal filters are included for front recirculation; ducting parts and installation are separate.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-60cm-slideout-rangehood-stainless-steel-fascia-wrr614sb",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Measure the extended drawer, fascia and fixing positions as well as the closed body.",
+        "Owner feedback includes noise and difficulty obtaining an installation kit. Confirm all required parts with the installer before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "cabinet layouts designed for a sliding hood and verified ducting or recirculation"
+        ],
+        "mayNotSuit": [
+          "buyers assuming every 60 cm hood is interchangeable"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Westinghouse WRR614SB 60 cm Slide-out Rangehood",
+          "publisher": "Westinghouse",
+          "sourceUrl": "https://www.westinghouse.com.au/cooking/rangehoods/wrr614sb/",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A 598 mm-wide slide-out hood with a 300 mm closed depth and 175 mm body height. Two charcoal filters are included for front recirculation; ducting parts and installation are separate.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-60cm-slideout-rangehood-stainless-steel-fascia-wrr614sb",
+          "supports": "Retailer owners discuss lighting and extraction, with explicit noise and parts-sourcing cautions. The exact Australian manual confirms model family WRR614*B and included carbon filters.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-60cm-slideout-rangehood-stainless-steel-fascia-wrr614sb",
+          "supports": "Model WRR614SB listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for WRR614SB. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-60cm-slideout-rangehood-stainless-steel-fascia-wrr614sb",
+          "supports": "Model WRR614SB, SKU 50069055, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-range-slide-640.webp",
+        "srcSet": "/images/products/tgg-range-slide-320.webp 320w, /images/products/tgg-range-slide-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Westinghouse WRR614SB 60 cm Slide-out Rangehood",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50069055_688696.png?v=1776229672",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/westinghouse-60cm-slideout-rangehood-stainless-steel-fascia-wrr614sb",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-monitor-small-baby-monitors-australia",
+      "guidePath": "/guides/baby-monitors-australia/",
+      "name": "Uniden BW2511 2.8-inch Baby Video Monitor",
+      "productType": "Compact dedicated-screen baby monitor",
+      "summary": "A compact 2.8-inch parent display with two-way talk and night vision. It provides an in-home camera view without relying on a phone app; the camera needs mains power.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Funiden-28-inches-colour-display-baby-monitor-bw2511",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A small screen shows less detail than a larger display; check signal through the actual walls in your home.",
+        "Keep the camera and all adaptor cords outside the child’s reach. It is not a medical monitor or a substitute for supervision."
+      ],
+      "suitability": {
+        "suits": [
+          "parents wanting a straightforward dedicated display"
+        ],
+        "mayNotSuit": [
+          "remote phone viewing or medical monitoring"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Uniden BW2511 2.8-inch Baby Video Monitor",
+          "publisher": "Uniden",
+          "sourceUrl": "https://uniden.com.au/products/bw-2511",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A compact 2.8-inch parent display with two-way talk and night vision. It provides an in-home camera view without relying on a phone app; the camera needs mains power.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/uniden-28-inches-colour-display-baby-monitor-bw2511",
+          "supports": "Exact-model retailer reviews repeatedly describe easy controls and a useful picture. These reports do not establish safe-sleep protection or guarantee wireless range in a particular home.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/uniden-28-inches-colour-display-baby-monitor-bw2511",
+          "supports": "Model BW2511 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for BW2511. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Funiden-28-inches-colour-display-baby-monitor-bw2511",
+          "supports": "Model BW2511, SKU 50091877, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian instruction manual",
+          "publisher": "Uniden",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0937/4495/5688/files/194976.pdf",
+          "supports": "Read the exact-model instructions for safe use, care, installation/mounting and Australian warranty limitations.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-monitor-small-640.webp",
+        "srcSet": "/images/products/tgg-monitor-small-320.webp 320w, /images/products/tgg-monitor-small-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Uniden BW2511 2.8-inch Baby Video Monitor",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091877_933776.png?v=1776749853",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/uniden-28-inches-colour-display-baby-monitor-bw2511",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-monitor-large-baby-monitors-australia",
+      "guidePath": "/guides/baby-monitors-australia/",
+      "name": "Uniden BW4501 4.3-inch Baby Video Monitor",
+      "productType": "Larger dedicated-screen monitor with battery-backup camera",
+      "summary": "A 4.3-inch display and clamp camera add a larger view and short-term battery operation. Select a stable mounting position that keeps the camera, clamp and cables away from the baby’s reach.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Funiden-43-full-hd-colour-baby-monitor-with-clamp-camera-bw4501",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Owner feedback raises short battery endurance and awkward notification controls; do not plan on all-night cordless use.",
+        "Some owners question picture detail. The camera’s Full HD specification is not proof of display quality; optional recording needs a separate microSD card."
+      ],
+      "suitability": {
+        "suits": [
+          "parents who need a larger screen and occasional repositioning"
+        ],
+        "mayNotSuit": [
+          "medical monitoring or uninterrupted cordless overnight use"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Uniden BW4501 4.3-inch Baby Video Monitor",
+          "publisher": "Uniden",
+          "sourceUrl": "https://uniden.com.au/products/bw-4501",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A 4.3-inch display and clamp camera add a larger view and short-term battery operation. Select a stable mounting position that keeps the camera, clamp and cables away from the baby’s reach.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/uniden-43-full-hd-colour-baby-monitor-with-clamp-camera-bw4501",
+          "supports": "Exact-model reviews are mixed on picture detail, battery duration and controls. These limitations are retained rather than repeating a universal reliability claim.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/uniden-43-full-hd-colour-baby-monitor-with-clamp-camera-bw4501",
+          "supports": "Model BW4501 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for BW4501. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Funiden-43-full-hd-colour-baby-monitor-with-clamp-camera-bw4501",
+          "supports": "Model BW4501, SKU 50091879, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian instruction manual",
+          "publisher": "Uniden",
+          "sourceUrl": "https://cdn.shopify.com/s/files/1/0937/4495/5688/files/194974.pdf",
+          "supports": "Read the exact-model instructions for safe use, care, installation/mounting and Australian warranty limitations.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-monitor-large-640.webp",
+        "srcSet": "/images/products/tgg-monitor-large-320.webp 320w, /images/products/tgg-monitor-large-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Uniden BW4501 4.3-inch Baby Video Monitor",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091879_933777.png?v=1776749822",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/uniden-43-full-hd-colour-baby-monitor-with-clamp-camera-bw4501",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-nonstick-cookware-materials-compared",
+      "guidePath": "/guides/cookware-materials-compared/",
+      "name": "Tefal Generous Cook C2780483 24 cm Frypan",
+      "productType": "Induction-compatible non-stick frypan",
+      "summary": "A 24 cm deep-sided non-stick pan for everyday hob cooking, including induction. It adds an easier-release surface alongside the stainless-steel and cast-iron options in this guide.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ftefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Tefal says metal utensils are not suitable; protect the coating and follow its heat and cleaning guidance.",
+        "The coating is a wear surface, so it is not a lifetime substitute for uncoated cookware or a high-heat searing recommendation."
+      ],
+      "suitability": {
+        "suits": [
+          "eggs and other foods where easy release matters"
+        ],
+        "mayNotSuit": [
+          "metal-utensil use or aggressive high-heat searing"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Tefal Generous Cook C2780483 24 cm Frypan",
+          "publisher": "Tefal",
+          "sourceUrl": "https://www.tefal.com.au/products/tefal-generous-cook-non-stick-induction-frypan-24cm",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A 24 cm deep-sided non-stick pan for everyday hob cooking, including induction. It adds an easier-release surface alongside the stainless-steel and cast-iron options in this guide.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/tefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+          "supports": "Exact-model retailer reviews describe release, cleaning and induction use. These are short owner reports, not proof of coating lifespan; no unsupported oven temperature is claimed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/tefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+          "supports": "Model C2780483 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for C2780483. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ftefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+          "supports": "Model C2780483, SKU 50075578, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-nonstick-640.webp",
+        "srcSet": "/images/products/tgg-nonstick-320.webp 320w, /images/products/tgg-nonstick-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Tefal Generous Cook C2780483 24 cm Frypan",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50075578_793776.png?v=1776231654",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/tefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-bbq-small-barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear",
+      "guidePath": "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/",
+      "name": "Weber Baby Q1000N LPG 27111024 — Midnight Black",
+      "productType": "Compact portable LPG barbecue",
+      "summary": "A single-burner LPG barbecue weighing 9.1 kg. With the lid open it measures 64 × 66 × 56 cm (H × W × D), before the required clearances and stand footprint.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fweber-baby-q1000n-lp-midnight-black-27111024",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Gas cylinder and supporting stand/cart are separate costs.",
+        "Outdoor use only; a compact body does not make an enclosed balcony or indoor area suitable. It must not be built into cabinetry."
+      ],
+      "suitability": {
+        "suits": [
+          "smaller outdoor cooking loads with a compliant open-air position"
+        ],
+        "mayNotSuit": [
+          "indoor use or a built-in installation"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Weber Baby Q1000N LPG 27111024 — Midnight Black",
+          "publisher": "Weber",
+          "sourceUrl": "https://anz.weber.com/en-au/products/baby-q-q1000n-lpg-gas-bbq-midnight-black",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A single-burner LPG barbecue weighing 9.1 kg. With the lid open it measures 64 × 66 × 56 cm (H × W × D), before the required clearances and stand footprint.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/weber-baby-q1000n-lp-midnight-black-27111024",
+          "supports": "Exact-model owners repeatedly mention compact storage and transport for outdoor use. These comments do not override the manual prohibition on operating inside caravans or vehicles.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/weber-baby-q1000n-lp-midnight-black-27111024",
+          "supports": "Model 27111024 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 27111024. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fweber-baby-q1000n-lp-midnight-black-27111024",
+          "supports": "Model 27111024, SKU 50085742, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-bbq-small-640.webp",
+        "srcSet": "/images/products/tgg-bbq-small-320.webp 320w, /images/products/tgg-bbq-small-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Weber Baby Q1000N LPG 27111024 — Midnight Black",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50085742_866165.png?v=1776228513",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/weber-baby-q1000n-lp-midnight-black-27111024",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-bbq-family-barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear",
+      "guidePath": "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/",
+      "name": "Weber Q2600N+ LPG 28510024 — Midnight Black",
+      "productType": "Larger two-burner LPG barbecue",
+      "summary": "A larger Q with a second burner and side tables. With the lid open and tables out it measures 73 × 126 × 61 cm (H × W × D); the 17 kg body is less convenient to carry than a Baby Q.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fweber-q-2600n-plus-lp-midnight-black-28510024",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Needs more setup width and a suitable stand/cart; cylinder and accessories are separate.",
+        "Outdoor use and clearance rules still apply. It is an LPG model, not a natural-gas or built-in appliance."
+      ],
+      "suitability": {
+        "suits": [
+          "larger outdoor cooking loads with room for the extended tables"
+        ],
+        "mayNotSuit": [
+          "tight outdoor walkways or frequent lightweight transport"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Weber Q2600N+ LPG 28510024 — Midnight Black",
+          "publisher": "Weber",
+          "sourceUrl": "https://anz.weber.com/en-au/products/weber-q-q2600n-plus-lpg-gas-bbq-midnight-black",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. A larger Q with a second burner and side tables. With the lid open and tables out it measures 73 × 126 × 61 cm (H × W × D); the 17 kg body is less convenient to carry than a Baby Q.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model owner feedback and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/weber-q-2600n-plus-lp-midnight-black-28510024",
+          "supports": "Exact-model owner comments discuss family-sized cooking, cleaning and bulk. Retailer service complaints were separated from appliance performance; no universal best-barbecue claim is made.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/weber-q-2600n-plus-lp-midnight-black-28510024",
+          "supports": "Model 28510024 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 18 October 2026; no matching Australian recall identified for 28510024. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fweber-q-2600n-plus-lp-midnight-black-28510024",
+          "supports": "Model 28510024, SKU 50085746, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-bbq-family-640.webp",
+        "srcSet": "/images/products/tgg-bbq-family-320.webp 320w, /images/products/tgg-bbq-family-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Weber Q2600N+ LPG 28510024 — Midnight Black",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50085746_866187.png?v=1776228548",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/weber-q-2600n-plus-lp-midnight-black-28510024",
+        "checkedOn": "2026-10-18"
       }
     }
   ]

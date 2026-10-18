@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import ComparisonTable from "../../../components/ComparisonTable.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -85,7 +86,7 @@ const relatedGuides = [
   description="Compare audio and video baby monitors, with or without Wi-Fi, including range, battery life, privacy and night vision."
   category="Nursery & Kids"
   date="Updated July 2026"
-  dateModified="2026-07-23"
+  dateModified="2026-10-18"
   faqs={faqs}
   readingTime="6 minute read"
   image="/images/guides/baby-monitors-australia.webp"
@@ -201,6 +202,16 @@ const relatedGuides = [
     monitor supports observation; it does not replace safe sleep guidance or direct caregiver
     supervision.
   </p>
+
+  <h2>Two dedicated displays with different compromises</h2>
+  <p>The BW2511 offers a compact 2.8-inch display and a mains-powered camera. The BW4501 gives a larger 4.3-inch display and short-term camera battery backup, but owner feedback raises battery endurance, notification controls and picture-detail concerns. Neither has been tested by AHC. Check range in the actual home, keep every camera and cable out of the child’s reach, and never treat either as a medical monitor or a replacement for caregiver supervision.</p>
+
+  <CommercialProductBlock
+    guidePath="/guides/baby-monitors-australia/"
+    title="Options matched to this buying decision"
+    intro="Check a safe camera position, cable routing and signal through the rooms before buying. Compare screen size and battery limitations, then confirm local availability. AHC has not tested these monitors firsthand. Compare the fit before choosing."
+    variant="comparison"
+  />
 
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>

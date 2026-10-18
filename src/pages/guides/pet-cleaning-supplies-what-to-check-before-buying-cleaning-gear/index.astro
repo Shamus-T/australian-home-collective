@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -81,7 +82,7 @@ const faqs = [
   description="Plan pet cleaning supplies around hair, mud, odour, bedding, floors, feeding areas and everyday mess before buying cleaning gear."
   category="Pets"
   date="Updated July 2026"
-  dateModified="2026-07-20"
+  dateModified="2026-10-18"
   faqs={faqs}
   readingTime="8 minute read"
   image="/images/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear.webp"
@@ -304,6 +305,16 @@ const faqs = [
     <a href="/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/">laundry drying guide</a>.
     Shared lounge areas are covered in <a href="/categories/living-spaces/">Living Spaces</a>.
   </p>
+
+  <h2>Compact spot cleaner or larger tanks?</h2>
+  <p>The SpotClean Mini 4149F suits small, occasional spills and easier carrying; the Turbo 3911F offers larger tanks for repeated patches but weighs more. Both wet the surface and require drying time and machine cleaning afterwards. Check the fabric label and BISSELL instructions first: these are not suitable for delicate wool, viscose, jute, silk, velvet, leather or natural suede. Neither replaces ordinary vacuuming or a full-size carpet washer for large rooms.</p>
+
+  <CommercialProductBlock
+    guidePath="/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/"
+    title="Options matched to this buying decision"
+    intro="Check the textile care label, compatible cleaning solution and drying space before buying. Compare carrying weight and tank capacity for the actual spill routine. AHC has not tested these cleaners firsthand. Compare the fit before choosing."
+    variant="comparison"
+  />
 
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>

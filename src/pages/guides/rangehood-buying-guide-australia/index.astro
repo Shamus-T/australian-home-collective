@@ -1,5 +1,6 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
@@ -18,7 +19,7 @@ const relatedGuides = [
   category="Kitchen"
   date="Published September 2026"
   datePublished="2026-09-12"
-  dateModified="2026-09-13"
+  dateModified="2026-10-18"
   readingTime="6 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/rangehood-buying-guide-australia.svg"
@@ -109,6 +110,16 @@ const relatedGuides = [
     <p>The <a href="/downloads/rangehood-measurement-worksheet.pdf" download data-measurement-download="rangehood" data-download-location="checklist">free AHC rangehood worksheet</a> includes a duct-route sketch box and separate spaces for measured dimensions and confirmed requirements. Leave unknowns blank.</p>
     <p>If you are rearranging several appliances, use the <a href="/guides/dishwasher-sizes-australia/">dishwasher measuring guide</a> to check how the rest of the kitchen will work while doors are open.</p>
   </section>
+
+  <h2>Two 60 cm formats to compare after measuring</h2>
+  <p>The fixed WRF610SA keeps its 500 mm projection in place. The WRR614SB slides out from a 300 mm-deep closed body, so its extended position and fixing diagram need checking. Both are 598 mm wide; that does not make them interchangeable. The manufacturer specifies at least 650 mm above gas and 600 mm above electric cooking surfaces; use any greater clearance required by the cooktop instructions and have the installer confirm the complete installation. The slide-out includes two charcoal filters; the fixed hood needs the relevant optional recirculation accessories. Ducting, labour and replacement filters affect the total cost.</p>
+
+  <CommercialProductBlock
+    guidePath="/guides/rangehood-buying-guide-australia/"
+    title="Options matched to this buying decision"
+    intro="Measure the cabinet, cooktop and air route, then have an installer confirm clearances and required parts before buying. These different formats are not interchangeable replacements. AHC has not tested them firsthand. Compare the fit before choosing."
+    variant="comparison"
+  />
 
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>

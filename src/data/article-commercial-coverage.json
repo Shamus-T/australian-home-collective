@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-10-14",
+  "updatedOn": "2026-10-18",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -36,7 +36,7 @@
     {
       "guidePath": "/guides/air-conditioner-dry-mode-humidity/",
       "title": "Air Conditioner Dry Mode & Humidity: What It Does and When to Use It",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "da27665d036e514da19773f1c51bd05673f3031dbe5b4b56a4f06bb4f1c54a34",
@@ -54,7 +54,7 @@
       "contextualRoutes": [
         "/guides/portable-air-conditioners-australia/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/air-conditioner-maintenance-before-summer/",
@@ -135,20 +135,27 @@
     {
       "guidePath": "/guides/baby-monitors-australia/",
       "title": "Baby Monitors for Australian Homes",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "88c5c79ff31797a6b140bb896ea1deac8bff4dfeed276ce440f29bc5ae66905e",
+      "reviewedSourceSha256": "24d87f8905fccf6863eace5634d0c9a9f5f02d60b9ccc2861bcf97a0c79d2919",
       "requiredProductTypes": [
         {
           "label": "Audio, local-video and connected baby monitors",
-          "productIds": [],
-          "gapReason": "No approved exact monitor with current privacy, range, support and owner evidence."
+          "productIds": [
+            "tgg-monitor-small-baby-monitors-australia"
+          ]
+        },
+        {
+          "label": "Larger dedicated-screen monitor with battery-backup camera",
+          "productIds": [
+            "tgg-monitor-large-baby-monitors-australia"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/baby-outing-essentials-what-to-pack-before-leaving-the-house/",
@@ -187,15 +194,27 @@
     {
       "guidePath": "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/",
       "title": "A Barbecue Area With Room to Cook and Serve",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "fb635c4643746cbe47d5e5ca98590c9ac5b30c6d19f3f766cba65d79d6dd18a3",
+      "reviewedSourceSha256": "137b6df4a1a002d3cbd2949d818b48c64c057eacb59ed39feadf73972a36684b",
       "requiredProductTypes": [
         {
           "label": "Barbecues",
           "productIds": [],
           "gapReason": "No approved barbecue; appliance clearance and fuel instructions must be checked per model."
+        },
+        {
+          "label": "Compact portable LPG barbecue",
+          "productIds": [
+            "tgg-bbq-small-barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear"
+          ]
+        },
+        {
+          "label": "Larger two-burner LPG barbecue",
+          "productIds": [
+            "tgg-bbq-family-barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -203,7 +222,7 @@
         "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/bassinet-vs-cot/",
@@ -226,15 +245,21 @@
     {
       "guidePath": "/guides/bathroom-essentials-australian-homes/",
       "title": "Bathroom Essentials for Australian Homes",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "1739470783eccf03e8c52dc8297a93f620cdb89302a840c84329cfcc29791c43",
+      "reviewedSourceSha256": "2c7b738fadfb90b9acb9c1b5506de04d06f0d8ae8454eb3e8f8604ffb8946152",
       "requiredProductTypes": [
         {
           "label": "Bath mats, towels, bins and hooks",
           "productIds": [],
           "gapReason": "A broad essentials guide still lacks researched buying examples for its recurring purchases."
+        },
+        {
+          "label": "Divided toothbrush and toothpaste caddy",
+          "productIds": [
+            "tgg-toothbrush-bathroom-essentials-australian-homes"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -243,15 +268,15 @@
         "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
       "title": "Bathroom Product Storage That Keeps Daily Items Easy to Find",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "bd279692f7adcbd080769012d78a720c2f496fd2fa3bf28808b26f65475a5e2a",
+      "reviewedSourceSha256": "0c678e3355fa9462828ca2c31c0e2c28aa609691b442b52df423dbd61f67b5cd",
       "requiredProductTypes": [
         {
           "label": "Portable bathroom caddy",
@@ -263,6 +288,12 @@
           "label": "Drawer organisers and reserve-product storage",
           "productIds": [],
           "gapReason": "The added caddy covers an active vanity collection only."
+        },
+        {
+          "label": "Divided toothbrush and toothpaste caddy",
+          "productIds": [
+            "tgg-toothbrush-bathroom-product-storage-what-to-sort-before-buying-organisers"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -272,7 +303,7 @@
         "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
@@ -297,10 +328,10 @@
     {
       "guidePath": "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
       "title": "How to Make Your Bathroom Vanity Easier to Use",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "44b306e5601742de7d4a668d1d554b2c8d85f55243f84d63c200c21c432915fa",
+      "reviewedSourceSha256": "97c06e81fb4b9c14a0695ea15abd6cbfd8a1c1a63788873dbd3b3ebe547c59bf",
       "requiredProductTypes": [
         {
           "label": "Portable bathroom caddy",
@@ -313,13 +344,19 @@
           "productIds": [
             "simplehouseware-three-tier-sliding-basket"
           ]
+        },
+        {
+          "label": "Divided toothbrush and toothpaste caddy",
+          "productIds": [
+            "tgg-toothbrush-bathroom-vanity-storage-what-to-sort-before-buying-organisers"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/bedding-and-linen-basics-for-australian-bedrooms/",
@@ -571,10 +608,10 @@
     {
       "guidePath": "/guides/coffee-machine-types-australia/",
       "title": "Coffee Machine Types Australia: Manual, Automatic, Pod and Filter",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "b7a985e46ddb73f5f8802dd14f6edf51b16c5c44c5a7c1deabc8ab4b40d78497",
+      "reviewedSourceSha256": "8968e419e611bf9c8e4b913b071294c0ab5ad0541d5079ad02739c4ab81cd8cf",
       "requiredProductTypes": [
         {
           "label": "Assisted manual espresso machine",
@@ -602,29 +639,31 @@
         },
         {
           "label": "Filter coffee machines",
-          "productIds": [],
-          "gapReason": "Manual espresso, automatic and capsule choices exist; filter format still lacks an approved option."
+          "productIds": [
+            "tgg-filter-coffee-coffee-machine-types-australia"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/condensation-and-mould-during-winter/",
       "title": "Condensation and Mould During Winter: What to Check Before It Spreads",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "editorial",
       "editorialReason": "Diagnose moisture and health concerns; selling a dehumidifier must not imply remediation.",
-      "reviewedSourceSha256": "1c2dad4206247c5905c54fff3ef3af883c1e1ce4d491678c60e6c41ef6f591ed",
+      "reviewedSourceSha256": "0e67524705b19430eff6a27deb425f47f6842b0b0e57d62fd24d882db4fab9d7",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
-        "/guides/air-conditioner-dry-mode-humidity/"
+        "/guides/air-conditioner-dry-mode-humidity/",
+        "/guides/bathroom-essentials-australian-homes/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Reviewed contextual route to the newly researched buying comparison; no product cards added to this editorial guide."
     },
     {
       "guidePath": "/guides/convection-microwave-vs-air-fryer/",
@@ -652,10 +691,10 @@
     {
       "guidePath": "/guides/cookware-materials-compared/",
       "title": "Cookware Materials Compared for Australian Kitchens",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "b4edb1be36e242df0b3c23ec73c346b7598e6eb53a9de1e7e2ca47e7db5b7f65",
+      "reviewedSourceSha256": "a12967f178f05b91730de5c4ad0b0b2487a5ee1da87d57fbc69eb17cb78939bc",
       "requiredProductTypes": [
         {
           "label": "Stainless-steel cookware set",
@@ -671,13 +710,14 @@
         },
         {
           "label": "Nonstick, carbon-steel and enamel cookware",
-          "productIds": [],
-          "gapReason": "Stainless steel and cast iron are covered; the other compared material types remain unrepresented."
+          "productIds": [
+            "tgg-nonstick-cookware-materials-compared"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/cordless-stick-vacuums-australia/",
@@ -1302,17 +1342,16 @@
     {
       "guidePath": "/guides/how-to-keep-house-cooler-in-summer/",
       "title": "How to Keep Your House Cooler in Summer — Before Buying a Bigger Air Conditioner",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "editorial",
       "editorialReason": "Passive cooling and diagnosis; condition monitors and seam tape are supporting tools.",
       "reviewedSourceSha256": "1ea7516c9e01ac354d9dccce53b3dbe35bab4ba36a517510c208e407b30600a9",
       "requiredProductTypes": [],
       "supportingProductIds": [
-        "summer-temppro-tp60b-indoor-outdoor-monitor",
-        "summer-3m-2110na-weather-sealing-tape"
+        "summer-temppro-tp60b-indoor-outdoor-monitor"
       ],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/keep-flies-mosquitoes-out-of-home/",
@@ -1356,10 +1395,10 @@
     {
       "guidePath": "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
       "title": "Kitchen Bench Space That Stays Clear",
-      "reviewedOn": "2026-10-14",
+      "reviewedOn": "2026-10-18",
       "intent": "editorial",
       "editorialReason": "Clear existing bench clutter before buying organisers.",
-      "reviewedSourceSha256": "e8893e012ec996dd14574b3696377d1b0de99eb54246ade4de149d4d285bfd46",
+      "reviewedSourceSha256": "fa94395c4b55829eecabc5a57e70d54c43f295b01e7869293ce9849976a2c594",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -1369,9 +1408,10 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
         "/guides/lg-fit-max-436l-fridge-first-look/",
-        "/guides/convection-microwave-vs-air-fryer/"
+        "/guides/convection-microwave-vs-air-fryer/",
+        "/guides/rangehood-buying-guide-australia/"
       ],
-      "reviewScope": "Reviewed added contextual comparison for microwave/air-fryer bench use, ventilation and sequential cooking. Editorial guide remains product-free."
+      "reviewScope": "Reviewed contextual route to the newly researched buying comparison; no product cards added to this editorial guide."
     },
     {
       "guidePath": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
@@ -1403,10 +1443,10 @@
     {
       "guidePath": "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
       "title": "Kitchen Drawers That Are Easier to Use",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "e1a202fb3bb8a1fad311f2b3158c68ae8a56da4a68cc74d100872f2b9877e1ff",
+      "reviewedSourceSha256": "b3fb47968f1dfc2f77e9e57f527611e5a1e03bf1a7d8e642a1c97d3a47267cb9",
       "requiredProductTypes": [
         {
           "label": "Expandable utensil drawer organiser",
@@ -1425,21 +1465,27 @@
           "productIds": [
             "oxo-large-expandable-kitchen-tool-drawer-organiser"
           ]
+        },
+        {
+          "label": "Narrow cutlery organiser",
+          "productIds": [
+            "tgg-drawer-kitchen-drawer-storage-what-to-measure-before-buying-organisers"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
       "title": "Laundry Baskets That Suit the Routine",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c833399b1df76d2a60b6c48d20050b2115d8876a3747dded85b81ce770ad74c7",
+      "reviewedSourceSha256": "6d51e22b64798029c95e668db10377f83fdb4fd0c2865c4dfc4530aaefc172ab",
       "requiredProductTypes": [
         {
           "label": "Two-compartment laundry separation basket",
@@ -1458,13 +1504,31 @@
           "productIds": [
             "brabantia-stackable-laundry-box-35l"
           ]
+        },
+        {
+          "label": "Two-compartment laundry sorter — grey",
+          "productIds": [
+            "tgg-hamper-laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters"
+          ]
+        },
+        {
+          "label": "Collapsible laundry carry basket — 35 L",
+          "productIds": [
+            "tgg-basket-laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters"
+          ]
+        },
+        {
+          "label": "Three-compartment laundry sorter",
+          "productIds": [
+            "tgg-trio-laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
@@ -1787,14 +1851,16 @@
     {
       "guidePath": "/guides/nursery-essentials-for-australian-homes/",
       "title": "Nursery Essentials for Australian Homes",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "editorial",
       "editorialReason": "Room layout and safe routines; model-specific baby gear needs separate research.",
-      "reviewedSourceSha256": "1687802cd841e55126747d2b4d0cc11d498b8e6b09498939ad2ef914dd9cd506",
+      "reviewedSourceSha256": "073d980929f93b37ba42c0c8c99aebcc1e2d3c94499762328aa631007b2f3794",
       "requiredProductTypes": [],
       "supportingProductIds": [],
-      "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "contextualRoutes": [
+        "/guides/baby-monitors-australia/"
+      ],
+      "reviewScope": "Reviewed contextual route to the newly researched buying comparison; no product cards added to this editorial guide."
     },
     {
       "guidePath": "/guides/nursery-storage-small-rooms/",
@@ -2053,15 +2119,27 @@
     {
       "guidePath": "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
       "title": "Pet Cleaning Supplies That Help With Hair, Mud and Odour",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "648305869b1788519bb77bb428001bfc8f69940797a1f3d6b5744f577f49ea6f",
+      "reviewedSourceSha256": "6efefa0e73c22939b0b249bc5666950fb0192c812df0aa19bd79188d354efe04",
       "requiredProductTypes": [
         {
           "label": "Pet cleaning gear",
           "productIds": [],
           "gapReason": "No approved cleaning product or tool with surface and pet-use instructions."
+        },
+        {
+          "label": "Compact wet spot cleaner",
+          "productIds": [
+            "tgg-spot-mini-pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear"
+          ]
+        },
+        {
+          "label": "Larger-capacity wet spot cleaner",
+          "productIds": [
+            "tgg-spot-turbo-pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -2072,7 +2150,7 @@
         "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/pet-essentials-for-australian-homes/",
@@ -2284,20 +2362,27 @@
     {
       "guidePath": "/guides/rangehood-buying-guide-australia/",
       "title": "Rangehoods in Australia: What to Measure and Check Before Buying",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "43e08a07fcc574e939bf1b65ea6f71a91dee9718e7522d5f5d831a3482346d2f",
+      "reviewedSourceSha256": "f5d622cadcf8d84e67aa1e422f0cf2f9a2df52ecf32b02152bfaedf04e077fc6",
       "requiredProductTypes": [
         {
           "label": "Rangehoods",
-          "productIds": [],
-          "gapReason": "Chef CRC612SB candidate held: its manufacturer page linked a CRR612 slide-out manual, not the CRC612 canopy model. Installation evidence must match before promotion."
+          "productIds": [
+            "tgg-range-fixed-rangehood-buying-guide-australia"
+          ]
+        },
+        {
+          "label": "Slide-out under-cabinet rangehood",
+          "productIds": [
+            "tgg-range-slide-rangehood-buying-guide-australia"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
@@ -2401,10 +2486,10 @@
     {
       "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
       "title": "Kitchen Storage for Renters",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "da9b6b14f45d22ad01684f65fa400b2e2368fe08f0df0bbbd7279ddf06eca47c",
+      "reviewedSourceSha256": "3f18b11cdbf3591f067259eae508c9c1014e02787b63fc424814d0fd7c299317",
       "requiredProductTypes": [
         {
           "label": "Expandable utensil drawer organiser",
@@ -2434,6 +2519,12 @@
           "label": "Other rental storage formats",
           "productIds": [],
           "gapReason": "Four researched options cover utensils, pantry jars, cookware and cleaning supplies. Over-door racks and trolleys remain unresearched; no placeholder retailer links added."
+        },
+        {
+          "label": "Narrow cutlery organiser",
+          "productIds": [
+            "tgg-drawer-renter-friendly-kitchen-storage-what-to-check-before-you-buy"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -2441,15 +2532,15 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "Two additional products fully researched on 11 October 2026, including exact-model manufacturer images, specifications, owner feedback, recall search and in-stock Amazon AU seller/fulfilment. Existing two products received availability-only checks; their earlier full research dates are retained."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
       "title": "Laundry Storage for Renters",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "e6fc4ee27b895e4d94d990651bec2a4593521bb7aaf0a35671a7f5bef0d46b04",
+      "reviewedSourceSha256": "831d298368200d8384d25b5a2f7951ea245e52e0f842f64595b6c59bfe34fb06",
       "requiredProductTypes": [
         {
           "label": "Foldable drying rack",
@@ -2467,6 +2558,12 @@
           "label": "Freestanding laundry organisers",
           "productIds": [],
           "gapReason": "Added airer and carry basket cover drying and carrying, not shelving or secure supplies."
+        },
+        {
+          "label": "Collapsible laundry carry basket — 35 L",
+          "productIds": [
+            "tgg-basket-renter-friendly-laundry-storage-what-to-check-before-you-buy"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -2476,7 +2573,7 @@
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/reverse-cycle-heating-explained/",
@@ -2518,16 +2615,15 @@
     {
       "guidePath": "/guides/robot-vacuum-buying-guide-australia/",
       "title": "Robot Vacuum Buying Guide Australia: Docks, Mopping and Navigation",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c122117913d05630a4761884f5f9e974bb1ff0ac950bec868a69e02d1d6f8671",
+      "reviewedSourceSha256": "5e5e787ba09c98df8fd0ad53702d4295b5e45892e0764aa912acd47912d36e99",
       "requiredProductTypes": [
         {
           "label": "Self-emptying robot vacuum and mop",
-          "productIds": [
-            "roborock-qrevo-l-robot-vacuum"
-          ]
+          "productIds": [],
+          "gapReason": "Offer paused after 18 October check; no verified orderable exact-model replacement. This product type remains an acknowledged coverage gap."
         },
         {
           "label": "Full-service robot vacuum and roller-mop system",
@@ -2544,7 +2640,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/shared-home-office-spaces-how-to-set-up-without-taking-over-the-room/",
@@ -2610,10 +2706,10 @@
     {
       "guidePath": "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/",
       "title": "Small Bathroom Storage That Actually Fits",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "03924fcadd15c00e4ef2dd6c1db042c08e4805b5a45692620913edd4f1985fb7",
+      "reviewedSourceSha256": "0a18358ab1274723fcd934acd1fbb3a5516a2efa2f1947e6e9ded3270eb34015",
       "requiredProductTypes": [
         {
           "label": "Freestanding vanity caddy",
@@ -2638,7 +2734,7 @@
       "contextualRoutes": [
         "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/small-garage-storage-what-to-check-before-buying-shelves-or-racks/",
@@ -2663,10 +2759,10 @@
     {
       "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
       "title": "Small Kitchen Appliances That Earn Their Bench Space",
-      "reviewedOn": "2026-10-14",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0258c6af68da83fee64100503dc572c869bd1abf7480d22230c75e976b8b302f",
+      "reviewedSourceSha256": "9fd366de83647ec1750d0987c56902004a54b1e91f828958b1953c8d9cc49981",
       "requiredProductTypes": [
         {
           "label": "Air fryer — unequal dual baskets",
@@ -2706,9 +2802,8 @@
         },
         {
           "label": "Multi-cooker — larger-household consolidation",
-          "productIds": [
-            "ninja-foodi-smartlid-multi-cooker-ol650anz"
-          ]
+          "productIds": [],
+          "gapReason": "Offer paused after 18 October check; no verified orderable exact-model replacement. This product type remains an acknowledged coverage gap."
         }
       ],
       "supportingProductIds": [],
@@ -2718,27 +2813,33 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/convection-microwave-vs-air-fryer/"
       ],
-      "reviewScope": "Added contextual comparison link after reviewing the microwave/air-fryer topic. Existing product review dates retained; no fresh full review of this guide's other products claimed."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
       "title": "Small Laundry Storage That Uses Tight Spaces Well",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "fe38ca529188ef771a51ce9c8a309e1136a229d67e3be0ef606871e2de7fcc0f",
+      "reviewedSourceSha256": "f99587857355b828a6ec86e1bfa6484e4c0a0463697feafb8b16eb96bf595100",
       "requiredProductTypes": [
         {
           "label": "Small-laundry organisers",
           "productIds": [],
           "gapReason": "No direct options fitting the specific narrow-space decision."
+        },
+        {
+          "label": "Collapsible laundry carry basket — 35 L",
+          "productIds": [
+            "tgg-basket-small-laundry-storage-what-to-check-before-buying-organisers"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
     },
     {
       "guidePath": "/guides/smart-home-office-setup-compatibility-power-and-privacy/",
