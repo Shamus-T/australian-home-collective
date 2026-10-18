@@ -16,7 +16,8 @@ if (args.includes('--changed')) {
   if (!/^[a-f0-9]{40}$/i.test(before ?? '') || /^0+$/.test(before)) {
     throw new Error('A valid prior commit is required; use explicit URLs for initial submission.');
   }
-  const git = argv => execFileSync('git', argv, { encoding: 'utf8' });
+  // The researched product catalogue exceeds Node's default 1 MiB stdout limit.
+  const git = argv => execFileSync('git', argv, { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 });
   const previous = file => JSON.parse(git(['show', before + ':' + file]));
   urls = changedUrls({
     files: git(['diff', '--name-only', before, 'HEAD']).trim().split(/\r?\n/), urls: allowed,
