@@ -9,5 +9,12 @@ export function hasExcludedCommercialIdentity(product) {
     ...offers.flatMap(offer => [offer.merchant, offer.destinationUrl]),
     ...(product.sourceRecords ?? []).filter(source => source.sourceType === "seller-fulfilment")
       .flatMap(source => [source.publisher, source.supports, source.sourceUrl])];
-  return identities.some(value => typeof value === "string" && excludedIdentity.test(value));
+  if (identities.some(value => typeof value === "string" && excludedIdentity.test(value))) return true;
+  // Shane's standing publisher exclusion, 18 October 2026. Applies to split
+  // systems only; it is not a published quality claim about other appliances.
+  const categoryIdentity = [...identities, product.productType].filter(value => typeof value === "string")
+    .map(value => { try { return decodeURIComponent(value); } catch { return value; } })
+    .join(" ").replace(/[_-]+/g, " ");
+  return /\bwestinghouse\b/i.test(categoryIdentity)
+    && /\bsplit\b|\bwsd\d/i.test(categoryIdentity);
 }

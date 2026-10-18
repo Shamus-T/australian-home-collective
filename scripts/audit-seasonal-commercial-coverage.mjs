@@ -3,6 +3,7 @@ import path from "node:path";
 import process from "node:process";
 import { analyseCommercialPlacement } from "./lib/analyse-commercial-placement.mjs";
 import { loadSeasonalGuideData } from "./lib/load-seasonal-guides.mjs";
+import { editorialDate } from "../src/lib/editorial-date.mjs";
 
 const root = process.cwd();
 const argumentValue = (name) => {
@@ -25,6 +26,24 @@ const { publishedSeasonalGuides } = await loadSeasonalGuideData(root);
 const errors = [];
 const placementDiagnostics = [];
 const reviewWarnings = [];
+const today = editorialDate();
+
+function approvedSeasonalDestination(product) {
+  if (product.affiliateNetwork === "amazon-australia") {
+    return /^https:\/\/www\.amazon\.com\.au\/dp\/[A-Z0-9]{10}\?tag=ahc07-22$/.test(product.destinationUrl ?? "");
+  }
+  if (product.affiliateNetwork !== "partnerize" || product.merchant !== "The Good Guys") return false;
+  const prefix = `https://prf.hn/click/camref:${catalogue.affiliatePrograms?.partnerize?.trackingValue}/creativeref:1011l64579/destination:`;
+  if (!product.destinationUrl?.startsWith(prefix)) return false;
+  try {
+    const encoded = product.destinationUrl.slice(prefix.length);
+    const destination = new URL(decodeURIComponent(encoded));
+    return encodeURIComponent(destination.href) === encoded
+      && destination.protocol === "https:" && destination.hostname === "www.thegoodguys.com.au"
+      && destination.pathname.length > 1 && !destination.search && !destination.hash
+      && !destination.username && !destination.password && !destination.port;
+  } catch { return false; }
+}
 
 const allowedClassifications = new Set([
   "monetised-correctly",
@@ -241,15 +260,19 @@ for (const guidePath of seasonalPaths) {
     }
 
     for (const product of approvedProducts) {
-      if (!/^https:\/\/www\.amazon\.com\.au\/dp\/[A-Z0-9]{10}\?tag=ahc07-22$/.test(product.destinationUrl ?? "")) {
-        addError(`${product.id} must use a canonical Amazon Australia /dp/ASIN?tag=ahc07-22 destination.`);
+      if (!approvedSeasonalDestination(product)) {
+        addError(`${product.id} must use a canonical approved Amazon or Good Guys affiliate destination.`);
       }
       const validation = product.affiliateValidation ?? {};
+      const reviewDate = product.lastReviewedOn;
+      const parsedDate = Date.parse(reviewDate);
       if (
-        product.lastReviewedOn !== coverage.updatedOn
-        || validation.checkedOn !== coverage.updatedOn
+        !/^\d{4}-\d{2}-\d{2}$/.test(reviewDate ?? "") || !Number.isFinite(parsedDate)
+        || new Date(parsedDate).toISOString().slice(0, 10) !== reviewDate
+        || reviewDate > today || Date.parse(today) - parsedDate > catalogue.reviewIntervalDays * 86400000
+        || validation.checkedOn !== reviewDate
       ) {
-        addError(`${product.id} must be reviewed and affiliate-validated on ${coverage.updatedOn}.`);
+        addError(`${product.id} must have a current product review date matching its affiliate validation date.`);
       }
       if (
         validation.destinationStatus !== "reachable"
@@ -264,10 +287,10 @@ for (const guidePath of seasonalPaths) {
       }
       for (const sourceType of requiredCurrentSourceTypes) {
         const currentRecord = (product.sourceRecords ?? []).find((record) =>
-          record.sourceType === sourceType && record.checkedOn === coverage.updatedOn
+          record.sourceType === sourceType && record.checkedOn === reviewDate
         );
         if (!currentRecord) {
-          addError(`${product.id} needs a current ${sourceType} record dated ${coverage.updatedOn}.`);
+          addError(`${product.id} needs a current ${sourceType} record dated ${reviewDate}.`);
         }
       }
     }

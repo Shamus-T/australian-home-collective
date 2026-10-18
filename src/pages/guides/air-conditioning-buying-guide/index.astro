@@ -1,6 +1,7 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -20,8 +21,9 @@ const relatedGuides = [
   seoTitle="Air Conditioning Buying Guide for Australian Homes"
   description="Compare split, multi-split, ducted, window and portable air conditioners. Check sizing, efficiency, installation, noise and climate suitability before buying."
   category="Living Spaces"
-  date="Published July 2026"
+  date="Updated October 2026"
   datePublished="2026-07-29"
+  dateModified="2026-10-18"
   readingTime="22 minute read"
   showAffiliateDisclosure={false}
   image="/images/air-conditioning-buying-guide.webp"
@@ -637,6 +639,15 @@ const relatedGuides = [
     <li>schedule installation before conditions become urgent</li>
   </ul>
   <p>Do not purchase solely because a unit is immediately available if its capacity, climate rating or installation requirements are unsuitable.</p>
+  <h2>A split-system example to take to the installer</h2>
+  <p>The Panasonic <strong>CS-Z35AKRW indoor / CU-Z35AKR outdoor</strong> pair provides a concrete option for a room assessed for this capacity. Panasonic Australia lists <strong>3.5 kW cooling and 4.0 kW heating</strong>. These are thermal capacities, not electrical consumption figures. The Good Guys listing uses CS/CU-Z35AKR as the package code; its title currently says 4.3 kW heating, which conflicts with the <ExternalLink href="https://www.panasonic.com/content/dam/panasonic/au/en/pim/dam/CS/CS-Z35/CS-Z35AKRW_CU-Z35AKR-PP/ast-2506169.pdf">manufacturer’s Australian specification table</ExternalLink>.</p>
+  <p>Use the manufacturer’s 4.0 kW figure and have the installer confirm both component codes on the quote. Check the local climate rating, indoor air distribution, outdoor location, drainage, electrical work and total installed price before buying. The body dimensions are not the installation clearances, and this example is not a shortlist for ducted or multi-split installations.</p>
+  <CommercialProductBlock
+    guidePath="/guides/air-conditioning-buying-guide/"
+    title="A researched single-room split-system option"
+    intro="First confirm the site-specific heating and cooling load with a licensed installer. Compare this exact Panasonic pair only if its capacity and installation requirements suit the room; allow for installation and any electrical work in the total cost. AHC has not tested it firsthand."
+  />
+
   <h2>Before You Buy Checklist</h2>
   <p>Before choosing an air-conditioning system, check:</p>
   <ul class="feature-list">

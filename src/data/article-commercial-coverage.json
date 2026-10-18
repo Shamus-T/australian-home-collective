@@ -75,15 +75,21 @@
     {
       "guidePath": "/guides/air-conditioning-buying-guide/",
       "title": "Air Conditioning Buying Guide: What to Check Before You Choose and Install",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "ad18172738d5c392d31af4006c79bfc1c5a3d1836d750b3c23e415579da0f621",
+      "reviewedSourceSha256": "afd4b0e32e66d5e9833fff8fad1101e63f50ac6109282168680f35c54f80dbc9",
       "requiredProductTypes": [
         {
-          "label": "Split-system, multi-split, ducted and window/wall air conditioners",
+          "label": "Site-assessed single-room reverse-cycle split system",
+          "productIds": [
+            "tgg-split-mid-air-conditioning-buying-guide"
+          ]
+        },
+        {
+          "label": "Multi-split, ducted and window/wall systems",
           "productIds": [],
-          "gapReason": "No current exact-model installed-system shortlist; previous Amazon-only exclusion is obsolete. Site-specific sizing remains necessary."
+          "gapReason": "Panasonic addition is a single-room split only; no exact-model shortlist for these other formats."
         }
       ],
       "supportingProductIds": [],
@@ -93,7 +99,7 @@
         "/guides/how-to-keep-house-cooler-in-summer/",
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/australian-made-gift-ideas-under-100/",
@@ -463,10 +469,10 @@
     {
       "guidePath": "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
       "title": "Wardrobe Storage for the Clothes You Actually Wear",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "348af650e57fa231468802b1778015452f82200543a7f0d40f6e89c07667e58d",
+      "reviewedSourceSha256": "d7df33a85cb18ec0a6fe0ccdcfd74f9af58c9c6965cfe6ef8fb12192affedc5f",
       "requiredProductTypes": [
         {
           "label": "Hanging wardrobe shelves",
@@ -481,11 +487,13 @@
           ]
         }
       ],
-      "supportingProductIds": [],
+      "supportingProductIds": [
+        "tgg-vacuum-bags-bedroom-wardrobe-organisation-what-to-sort-before-buying-storage"
+      ],
       "contextualRoutes": [
         "/guides/under-bed-storage-what-to-measure-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/bedside-table-setup-what-to-check-before-you-buy/",
@@ -2311,22 +2319,28 @@
     {
       "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
       "title": "Portable vs Window/Wall vs Split-System Air Conditioner: Which Should You Choose?",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "d906d8c4d6a280c91c1731d1c5e8f31a2fc1620b41f4f622f69c517eb55d6eb6",
+      "reviewedSourceSha256": "e21f9f9e4cd2df9dd400831b49b7b8bd521dd58eb934ae1dbe31282eff4dfeab",
       "requiredProductTypes": [
         {
-          "label": "Window/wall and split-system models",
+          "label": "Site-assessed single-room reverse-cycle split system",
+          "productIds": [
+            "tgg-split-mid-portable-vs-window-wall-vs-split-system-air-conditioner"
+          ]
+        },
+        {
+          "label": "Window/wall air conditioner",
           "productIds": [],
-          "gapReason": "Comparison has contextual portable-AC links but no direct models for its other main formats."
+          "gapReason": "No exact-model window/wall recommendation researched in this follow-up."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/portable-air-conditioners-australia/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/prepare-outdoor-area-for-summer/",
@@ -2399,10 +2413,10 @@
     {
       "guidePath": "/guides/reduce-pollen-dust-inside-home-spring/",
       "title": "How to Reduce Pollen and Dust Inside Your Home During Spring",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "d8928772e99d2d5dc119cecc069edff8a45173e50972c28fcbd713151954eebb",
+      "reviewedSourceSha256": "598eefebfab5ed43eaf9e4e399a0ddaf29921a42016736b2b803adaa5e0d38c4",
       "requiredProductTypes": [
         {
           "label": "Portable air purifier for a defined medium room",
@@ -2415,14 +2429,22 @@
           "productIds": [
             "pollen-levoit-core-300-air-purifier"
           ]
+        },
+        {
+          "label": "Compact automatic purifier — 130 m³/h CADR",
+          "productIds": [
+            "tgg-purifier-reduce-pollen-dust-inside-home-spring"
+          ]
         }
       ],
-      "supportingProductIds": [],
+      "supportingProductIds": [
+        "tgg-filter-reduce-pollen-dust-inside-home-spring"
+      ],
       "contextualRoutes": [
         "/guides/cordless-stick-vacuums-australia/",
         "/guides/robot-vacuum-buying-guide-australia/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/",
@@ -2590,10 +2612,10 @@
     {
       "guidePath": "/guides/robot-lawn-mower-buying-guide-australia/",
       "title": "Robot Lawn Mowers Australia: Will One Work in Your Yard?",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c4d0181a0b99b66dcfe13acbb79c8d39f26bb9742df889ec62dde15a0b35896d",
+      "reviewedSourceSha256": "3dcc95c2241995281e1b96b9c3527c09d391035a57099ea58143c544e9a528fe",
       "requiredProductTypes": [
         {
           "label": "Camera navigation · 800 m² mapping limit",
@@ -2606,11 +2628,17 @@
           "productIds": [
             "eufy-e18-robot-lawn-mower"
           ]
+        },
+        {
+          "label": "RTK navigation — 600 m² stated working capacity",
+          "productIds": [
+            "tgg-mower-rtk-robot-lawn-mower-buying-guide-australia"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/robot-vacuum-buying-guide-australia/",
@@ -3003,10 +3031,10 @@
     {
       "guidePath": "/guides/under-bed-storage-what-to-measure-before-you-buy/",
       "title": "Under-Bed Storage You Can Still Reach",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "77a19e27e7f1b212f95893beb0328b8c7c3e7b2f0852ae3b30e3d987aea899b4",
+      "reviewedSourceSha256": "111598b216c0ced88646230df0d1af773e9122c49174d61890abe933a762b11d",
       "requiredProductTypes": [
         {
           "label": "Low-profile under-bed bags",
@@ -3015,11 +3043,13 @@
           ]
         }
       ],
-      "supportingProductIds": [],
+      "supportingProductIds": [
+        "tgg-vacuum-bags-under-bed-storage-what-to-measure-before-you-buy"
+      ],
       "contextualRoutes": [
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
     },
     {
       "guidePath": "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/",

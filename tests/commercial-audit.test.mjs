@@ -449,6 +449,8 @@ test("reviewed manufacturer document queries do not permit different files or tr
 for (const [label, mutate] of [
   ["owned brand", product => { product.name = "Kogan Monitor Light"; }],
   ["owned retailer", product => { product.merchant = "Dick Smith"; }],
+  ["Westinghouse split system", product => { product.name = "Westinghouse Reverse Cycle Split System"; }],
+  ["Westinghouse split model", product => { product.name = "Westinghouse WSD27HWC Air Conditioner"; }],
   ["marketplace seller", product => { product.sourceRecords.find(s => s.sourceType === "seller-fulfilment").supports = "Displayed seller: KOGAN."; }],
 ]) {
   test("the audit rejects publisher-excluded " + label, () => {

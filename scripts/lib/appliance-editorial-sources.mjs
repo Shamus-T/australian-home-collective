@@ -66,7 +66,10 @@ const reviewedSourceUrls = new Set([
   "https://www.fisherpaykel.com/au/laundry/washing-machines/top-load/8kg-series-5-top-loader-washer-uv-sanitise-wl8058g1-92298.html",
   "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjM0Mjk1&lang=",
   "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjMxNzY1&lang=",
-  "https://www.westinghouse.com.au/fridges-and-freezers/fridges/wtm4302wd-r/"
+  "https://www.westinghouse.com.au/fridges-and-freezers/fridges/wtm4302wd-r/",
+  // Exact sources reviewed in unresolved-product-research-2026-10-18.md.
+  "https://www.panasonic.com/content/dam/panasonic/au/en/pim/dam/CS/CS-Z35/CS-Z35AKRW_CU-Z35AKR-PP/ast-2506169.pdf",
+  "https://www.digitalreviews.net/reviews/networking-and-smart-home/ecovacs-robotics-goat-o600-rtk-robot-lawn-mower/"
 ]);
 
 export function isReviewedApplianceSource(urlValue) {

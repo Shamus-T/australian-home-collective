@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-14",
+  "updatedOn": "2026-10-18",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -80,7 +80,9 @@
     "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
     "/guides/rangehood-buying-guide-australia/",
     "/guides/baby-monitors-australia/",
-    "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/"
+    "/guides/barbecue-area-setup-what-to-measure-before-buying-outdoor-cooking-gear/",
+    "/guides/air-conditioning-buying-guide/",
+    "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/"
   ],
   "products": [
     {
@@ -17669,6 +17671,688 @@
         "credit": "Product image supplied by The Good Guys.",
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50085746_866187.png?v=1776228548",
         "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/weber-q-2600n-plus-lp-midnight-black-28510024",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-split-mid-air-conditioning-buying-guide",
+      "guidePath": "/guides/air-conditioning-buying-guide/",
+      "name": "Panasonic CS-Z35AKRW / CU-Z35AKR Reverse-cycle Split System",
+      "productType": "3.5 kW cooling / 4.0 kW heating split system",
+      "summary": "An installed single-room system rated at 3.5 kW cooling and 4.0 kW heating by Panasonic Australia. Have a licensed installer confirm the heat load, unit positions, drainage and electrical work before ordering.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The retailer title says 4.3 kW heating; Panasonic’s Australian specification for this exact pair is 4.0 kW. Confirm CS-Z35AKRW indoors and CU-Z35AKR outdoors on the quote.",
+        "The appliance price is not an installed price. Room size alone cannot establish suitability, and filters and outdoor-unit access need ongoing maintenance."
+      ],
+      "suitability": {
+        "suits": [
+          "a single room whose assessed heating and cooling loads fit this exact system"
+        ],
+        "mayNotSuit": [
+          "DIY installation or assuming one unit will condition several closed rooms"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact-model specifications and limitations",
+          "publisher": "Panasonic Australia",
+          "sourceUrl": "https://www.panasonic.com/content/dam/panasonic/au/en/pim/dam/CS/CS-Z35/CS-Z35AKRW_CU-Z35AKR-PP/ast-2506169.pdf",
+          "supports": "Australian Z-series brochure, page 2: CS-Z35AKRW / CU-Z35AKR, 3.50 kW cooling (1.00–4.20), 4.00 kW heating (0.90–5.70). Visually checked specification table; current Australian product page agrees. Retailer title/URL 4.3 kW is overridden, not silently copied. No installation clearances or DIY installation instructions supplied; site-specific licensed assessment is required.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+          "supports": "Exact-model owner comments repeatedly discuss quiet operation, cooling and Wi-Fi convenience. Health anecdotes and an unsupported country-of-manufacture assertion were not accepted as evidence. Feedback does not establish measured efficiency or long-term reliability.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian stock and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+          "supports": "Exact model CS/CU-Z35AKR has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Dated brand/model search found no matching Australian recall for CS/CU-Z35AKR. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+          "supports": "Model CS/CU-Z35AKR, SKU 50091563, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-resolved-split-mid-640.webp",
+        "srcSet": "/images/products/tgg-resolved-split-mid-320.webp 320w, /images/products/tgg-resolved-split-mid-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Panasonic CS-Z35AKRW / CU-Z35AKR Reverse-cycle Split System",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091563_924164.png?v=1776228513",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/panasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-split-mid-portable-vs-window-wall-vs-split-system-air-conditioner",
+      "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
+      "name": "Panasonic CS-Z35AKRW / CU-Z35AKR Reverse-cycle Split System",
+      "productType": "3.5 kW cooling / 4.0 kW heating split system",
+      "summary": "An installed single-room system rated at 3.5 kW cooling and 4.0 kW heating by Panasonic Australia. Have a licensed installer confirm the heat load, unit positions, drainage and electrical work before ordering.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The retailer title says 4.3 kW heating; Panasonic’s Australian specification for this exact pair is 4.0 kW. Confirm CS-Z35AKRW indoors and CU-Z35AKR outdoors on the quote.",
+        "The appliance price is not an installed price. Room size alone cannot establish suitability, and filters and outdoor-unit access need ongoing maintenance."
+      ],
+      "suitability": {
+        "suits": [
+          "a single room whose assessed heating and cooling loads fit this exact system"
+        ],
+        "mayNotSuit": [
+          "DIY installation or assuming one unit will condition several closed rooms"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact-model specifications and limitations",
+          "publisher": "Panasonic Australia",
+          "sourceUrl": "https://www.panasonic.com/content/dam/panasonic/au/en/pim/dam/CS/CS-Z35/CS-Z35AKRW_CU-Z35AKR-PP/ast-2506169.pdf",
+          "supports": "Australian Z-series brochure, page 2: CS-Z35AKRW / CU-Z35AKR, 3.50 kW cooling (1.00–4.20), 4.00 kW heating (0.90–5.70). Visually checked specification table; current Australian product page agrees. Retailer title/URL 4.3 kW is overridden, not silently copied. No installation clearances or DIY installation instructions supplied; site-specific licensed assessment is required.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+          "supports": "Exact-model owner comments repeatedly discuss quiet operation, cooling and Wi-Fi convenience. Health anecdotes and an unsupported country-of-manufacture assertion were not accepted as evidence. Feedback does not establish measured efficiency or long-term reliability.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian stock and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+          "supports": "Exact model CS/CU-Z35AKR has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Dated brand/model search found no matching Australian recall for CS/CU-Z35AKR. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+          "supports": "Model CS/CU-Z35AKR, SKU 50091563, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-resolved-split-mid-640.webp",
+        "srcSet": "/images/products/tgg-resolved-split-mid-320.webp 320w, /images/products/tgg-resolved-split-mid-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Panasonic CS-Z35AKRW / CU-Z35AKR Reverse-cycle Split System",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091563_924164.png?v=1776228513",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/panasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-purifier-reduce-pollen-dust-inside-home-spring",
+      "guidePath": "/guides/reduce-pollen-dust-inside-home-spring/",
+      "name": "Breville Smart Air Viral Protect Compact LAP208WHT",
+      "productType": "Compact purifier — 130 m³/h CADR",
+      "summary": "A compact purifier with particle sensing, automatic mode and a stated 130 m³/h clean-air delivery rate. Compare that airflow with the actual room volume; its genuine replacement filter is LAP020, sold as LAP020BLU at The Good Guys.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-the-smart-air-viral-protect-compact-purifier-lap208wht",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The advertised up-to-28 m² coverage is not a like-for-like comparison with other brands’ area claims. Lower fan speeds reduce airflow; maximum CADR is not a sleep-mode figure.",
+        "Budget for replacement filters. Breville suggests six-month replacement for optimal performance, while its reminder is based on 4,320 hours; conditions affect filter life."
+      ],
+      "suitability": {
+        "suits": [
+          "a defined compact room needing particle filtration after cleaning and entry control"
+        ],
+        "mayNotSuit": [
+          "large connected spaces or buying on infection-prevention claims"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact-model specifications and limitations",
+          "publisher": "Breville",
+          "sourceUrl": "https://assets.breville.com/BAP208/LAP208_408_ANZ_IB_A22_FA.pdf",
+          "supports": "ANZ LAP208/LAP408 manual pages 2, 14–15: LAP208 CADR 130 m³/h; genuine filter LAP020; approximate 12 months at 12 hours/day or 4,320 hours, with six months suggested for optimal performance. Current product page gives different outer dimensions from manual, so no exact fit dimension is published. No medical, infection-prevention or clinical outcome claims.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/breville-the-smart-air-viral-protect-compact-purifier-lap208wht",
+          "supports": "Exact-model retailer owners repeatedly discuss compact size, quiet running and app/automatic controls. Self-reported breathing benefits are not treated as clinical evidence. Manufacturer CADR, rather than anecdotal dust reduction, supplies the capacity comparison.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian stock and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/breville-the-smart-air-viral-protect-compact-purifier-lap208wht",
+          "supports": "Exact model LAP208WHT has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Dated brand/model search found no matching Australian recall for LAP208WHT. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-the-smart-air-viral-protect-compact-purifier-lap208wht",
+          "supports": "Model LAP208WHT, SKU 50081769, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-resolved-purifier-640.webp",
+        "srcSet": "/images/products/tgg-resolved-purifier-320.webp 320w, /images/products/tgg-resolved-purifier-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Breville Smart Air Viral Protect Compact LAP208WHT",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50081769_821192.png?v=1776749810",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/breville-the-smart-air-viral-protect-compact-purifier-lap208wht",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-filter-reduce-pollen-dust-inside-home-spring",
+      "guidePath": "/guides/reduce-pollen-dust-inside-home-spring/",
+      "name": "Breville LAP020BLU Replacement Filter for LAP208",
+      "productType": "Replacement filter — LAP208 only",
+      "summary": "The genuine LAP020 filter specified for the LAP208 purifier, sold by The Good Guys as LAP020BLU. This is a replacement consumable, not another purifier; confirm the model on your appliance before buying.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-antiviral-hepa-13-filter-lap020blu",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It does not fit the larger LAP408, which uses LAP040.",
+        "Replacement is a recurring cost, and stock today does not guarantee future supply. Follow the purifier manual rather than treating the filter as washable."
+      ],
+      "suitability": {
+        "suits": [
+          "owners of a compatible LAP208 whose filter needs replacement"
+        ],
+        "mayNotSuit": [
+          "LAP408 owners or buyers needing a complete air purifier"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact-model specifications and limitations",
+          "publisher": "Breville",
+          "sourceUrl": "https://assets.breville.com/BAP208/LAP208_408_ANZ_IB_A22_FA.pdf",
+          "supports": "Exact compatibility table visually checked on manual page 15: LAP208 -> LAP020; LAP408 -> LAP040. Retailer LAP020BLU listing explicitly identifies LAP208 compatibility. No viral-risk-reduction promise is made.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/breville-antiviral-hepa-13-filter-lap020blu",
+          "supports": "Exact-model owners repeatedly describe straightforward replacement and fit; one flags price, and lifespan reports vary with use. Owner medical anecdotes are excluded from recommendations.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian stock and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/breville-antiviral-hepa-13-filter-lap020blu",
+          "supports": "Exact model LAP020BLU has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Dated brand/model search found no matching Australian recall for LAP020BLU. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbreville-antiviral-hepa-13-filter-lap020blu",
+          "supports": "Model LAP020BLU, SKU 50081773, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-resolved-filter-640.webp",
+        "srcSet": "/images/products/tgg-resolved-filter-320.webp 320w, /images/products/tgg-resolved-filter-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Breville LAP020BLU Replacement Filter for LAP208",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50081773_827638.png?v=1776228623",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/breville-antiviral-hepa-13-filter-lap020blu",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-vacuum-bags-under-bed-storage-what-to-measure-before-you-buy",
+      "guidePath": "/guides/under-bed-storage-what-to-measure-before-you-buy/",
+      "name": "Pacifica VL810 Large Vacuum Storage Bags — Pack of 2",
+      "productType": "Compression bags for occasional textile storage",
+      "summary": "Two large vacuum bags for clean, fully dry clothing or bedding whose care guidance permits compression. Measure the filled, compressed package before using an under-bed gap; the bag dimensions do not guarantee the finished height.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpacifica-vacuum-storage-bags-large-vl810",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "They need reopening and resealing, so they are less convenient for items used every week. Seals and valves need checking over time.",
+        "Compression does not provide a rigid container or solve dampness. Avoid compressing textiles whose care instructions prohibit it, and keep filled bags light enough to lift safely."
+      ],
+      "suitability": {
+        "suits": [
+          "occasional storage of compatible seasonal textiles"
+        ],
+        "mayNotSuit": [
+          "daily-access clothes, damp items or textiles that must keep their loft"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact-model specifications and limitations",
+          "publisher": "Pacifica",
+          "sourceUrl": "https://pacifica.net.au/product/vacuum-storage-bags-large/",
+          "supports": "Exact VL810 manufacturer page confirms two bags and 80 cm W × 38 cm H × 100 cm D nominal dimensions. These are not a promised compressed package size; no percentage space-saving, universal fabric suitability or long-term seal guarantee is adopted.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Six retailer comments from five named authors discuss useful size, sealing and ease of use; two comments share the same author and are not independent votes. This small body supports a bounded seasonal-storage use case, not a longevity guarantee.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian stock and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Exact model VL810 has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Dated brand/model search found no matching Australian recall for VL810. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Model VL810, SKU 50082509, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-resolved-vacuum-bags-640.webp",
+        "srcSet": "/images/products/tgg-resolved-vacuum-bags-320.webp 320w, /images/products/tgg-resolved-vacuum-bags-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Pacifica VL810 Large Vacuum Storage Bags — Pack of 2",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50082509_827940.png?v=1776229008",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-vacuum-bags-bedroom-wardrobe-organisation-what-to-sort-before-buying-storage",
+      "guidePath": "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+      "name": "Pacifica VL810 Large Vacuum Storage Bags — Pack of 2",
+      "productType": "Compression bags for occasional textile storage",
+      "summary": "Two large vacuum bags for clean, fully dry clothing or bedding whose care guidance permits compression. Measure the filled, compressed package before using an under-bed gap; the bag dimensions do not guarantee the finished height.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpacifica-vacuum-storage-bags-large-vl810",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "They need reopening and resealing, so they are less convenient for items used every week. Seals and valves need checking over time.",
+        "Compression does not provide a rigid container or solve dampness. Avoid compressing textiles whose care instructions prohibit it, and keep filled bags light enough to lift safely."
+      ],
+      "suitability": {
+        "suits": [
+          "occasional storage of compatible seasonal textiles"
+        ],
+        "mayNotSuit": [
+          "daily-access clothes, damp items or textiles that must keep their loft"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact-model specifications and limitations",
+          "publisher": "Pacifica",
+          "sourceUrl": "https://pacifica.net.au/product/vacuum-storage-bags-large/",
+          "supports": "Exact VL810 manufacturer page confirms two bags and 80 cm W × 38 cm H × 100 cm D nominal dimensions. These are not a promised compressed package size; no percentage space-saving, universal fabric suitability or long-term seal guarantee is adopted.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Six retailer comments from five named authors discuss useful size, sealing and ease of use; two comments share the same author and are not independent votes. This small body supports a bounded seasonal-storage use case, not a longevity guarantee.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian stock and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Exact model VL810 has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Dated brand/model search found no matching Australian recall for VL810. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Model VL810, SKU 50082509, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-resolved-vacuum-bags-640.webp",
+        "srcSet": "/images/products/tgg-resolved-vacuum-bags-320.webp 320w, /images/products/tgg-resolved-vacuum-bags-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Pacifica VL810 Large Vacuum Storage Bags — Pack of 2",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50082509_827940.png?v=1776229008",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-mower-rtk-robot-lawn-mower-buying-guide-australia",
+      "guidePath": "/guides/robot-lawn-mower-buying-guide-australia/",
+      "name": "Ecovacs GOAT O600 RTK Robot Lawn Mower",
+      "productType": "RTK navigation — up to 600 m² stated working area",
+      "summary": "An RTK-guided mower with a stated 600 m² working capacity, 19 cm cutting width and 30–80 mm cutting height. It adds a satellite-based option for a suitably mapped lawn with an open reference-station location and a clear route back to the dock.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "An Australian hands-on review reports missed edges despite remapping; owner reports also describe docking trouble around barriers. Expect edge trimming and verify the difficult routes before relying on it.",
+        "The manual rules out low-light mowing. A 45% working-slope limit is about 24°, not 45°; virtual boundaries must not be placed on slopes above 17%.",
+        "The retailer overview and specification table give different warranty periods. Confirm written Australian cover for the mower and battery before buying."
+      ],
+      "suitability": {
+        "suits": [
+          "a measured lawn with suitable satellite reception, straightforward docking access and daylight mowing time"
+        ],
+        "mayNotSuit": [
+          "low-light schedules, obstructed docking routes or expecting completely hands-off edge cutting"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact-model specifications and limitations",
+          "publisher": "Ecovacs",
+          "sourceUrl": "https://site-static.ecovacs.com/upload/file/support/2026/01/29/072658_2617$GOATO600RTKO800RTKInstructionManual-EMEA.pdf",
+          "supports": "Manual linked by the Australian exact-product page, English pages 3–35, checked for O600 (not O800): 600 m², 19 cm width, 30–80 mm height; daylight limitation page 33; station setup pages 16–19; virtual boundaries <=17% page 19, working slopes <=45% page 23. EMEA filename is retained as source provenance: no Australian radio/electrical approval inferred from regional technical tables.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience and limitations",
+          "publisher": "Reddit owners",
+          "sourceUrl": "https://www.reddit.com/r/ECOVACSGOATFamily/comments/1t3vbgx/docking_station/",
+          "supports": "Exact-model primary owner accounts report missed edges and return-to-dock problems around barriers. These are anecdotal overseas reports with unknown firmware/setup, not a failure-rate sample. Australian hands-on evidence separately reports useful mowing but persistent uncut edges.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian stock and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/ecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
+          "supports": "Exact model GOAT-O600-RTK has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Dated brand/model search found no matching Australian recall for GOAT-O600-RTK. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
+          "supports": "Model GOAT-O600-RTK, SKU 50099701, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Australian hands-on GOAT O600 RTK review",
+          "publisher": "Digital Reviews Network — Peter Bower",
+          "sourceUrl": "https://www.digitalreviews.net/reviews/networking-and-smart-home/ecovacs-robotics-goat-o600-rtk-robot-lawn-mower/",
+          "supports": "15 September 2026 review with a unit supplied by Ecovacs: more than twelve mowing runs, useful routine mowing but persistent missed edges despite remapping and slow manual app control. Not AHC testing, not proof of long-term reliability. Manual daylight and safety instructions override conflicting review suggestions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty scope remains to be confirmed for this model",
+          "publisher": "Ecovacs Australia",
+          "sourceUrl": "https://help.ecovacs.com/au/support/warranty",
+          "supports": "Australian support page is generic and does not clearly identify GOAT O600 coverage. Retailer overview says two years while its specification table says three. Neither period is promoted as verified; request written model-specific mower and battery cover before purchase. Overseas GOAT warranty terms are not substituted.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-resolved-mower-rtk-640.webp",
+        "srcSet": "/images/products/tgg-resolved-mower-rtk-320.webp 320w, /images/products/tgg-resolved-mower-rtk-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Ecovacs GOAT O600 RTK Robot Lawn Mower",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50099701_1082010.png?v=1785967718",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/ecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
         "checkedOn": "2026-10-18"
       }
     }

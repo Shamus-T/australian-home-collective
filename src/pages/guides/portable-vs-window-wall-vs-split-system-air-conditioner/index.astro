@@ -1,6 +1,7 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
+import CommercialProductBlock from "../../../components/CommercialProductBlock.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
 const relatedGuides = [
@@ -17,8 +18,9 @@ const relatedGuides = [
   seoTitle="Portable vs Window/Wall vs Split-System Air Conditioners"
   description="Compare portable, window/wall and split-system air conditioners for Australian rooms, including installation, noise, efficiency and renter suitability."
   category="Living Spaces"
-  date="Published August 2026"
+  date="Updated October 2026"
   datePublished="2026-08-19"
+  dateModified="2026-10-18"
   readingTime="5 minute read"
   showAffiliateDisclosure={false}
   image="/images/portable-vs-window-wall-vs-split-system-air-conditioner.webp"
@@ -100,6 +102,15 @@ const relatedGuides = [
   <h3>Drawbacks</h3>
   <p>A split system requires permanent professional installation, suitable indoor and outdoor positions, refrigerant pipework, condensate drainage and appropriate electrical work.</p>
   <p>Cost can change considerably depending on whether a simple back-to-back arrangement is possible or a longer, more difficult pipe route is required. Our guide to <a href="/guides/split-system-air-conditioner-installation-costs/">split-system installation costs</a> explains those quote variables.</p>
+
+  <h3>A specific split-system option after sizing</h3>
+  <p>The Panasonic CS-Z35AKRW / CU-Z35AKR is a <strong>3.5 kW cooling / 4.0 kW heating</strong> pair according to its <ExternalLink href="https://www.panasonic.com/content/dam/panasonic/au/en/pim/dam/CS/CS-Z35/CS-Z35AKRW_CU-Z35AKR-PP/ast-2506169.pdf">Australian manufacturer specification</ExternalLink>. The retailer package code is CS/CU-Z35AKR; its title currently says 4.3 kW heating. Confirm the component codes and use Panasonic’s 4.0 kW figure when discussing the quote.</p>
+  <p>This is an example for a room assessed for that capacity, not proof that a split of this size suits every bedroom or lounge. Compare the full installed price with the other formats, including approvals, electrical work and changes to the building. See the <a href="/guides/air-conditioning-buying-guide/">air-conditioning buying guide</a> for the full installation checklist.</p>
+  <CommercialProductBlock
+    guidePath="/guides/portable-vs-window-wall-vs-split-system-air-conditioner/"
+    title="A split-system option when permanent installation suits"
+    intro="Compare this model only after a licensed installer confirms the room load, component pair and suitable indoor and outdoor positions. It is not a portable or window/wall replacement that can simply be plugged in. AHC has not tested it firsthand."
+  />
 
   <h2>What if you rent?</h2>
   <p>For many renters, the available choices depend on what the property owner allows.</p>

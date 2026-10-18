@@ -10,17 +10,21 @@ const root = process.cwd();
 const coveragePath = path.join(root, "src", "data", "seasonal-commercial-coverage.json");
 const baseCoverage = JSON.parse(fs.readFileSync(coveragePath, "utf8"));
 
-function runWithCoverage(mutator) {
+function runWithCoverage(mutator, catalogueMutator = () => {}) {
   const temporaryDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "ahc-seasonal-commercial-"));
   const fixturePath = path.join(temporaryDirectory, "coverage.json");
   const coverage = structuredClone(baseCoverage);
   mutator(coverage);
   fs.writeFileSync(fixturePath, JSON.stringify(coverage), "utf8");
+  const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'src/data/commercial-products.json'), 'utf8'));
+  catalogueMutator(catalogue);
+  const cataloguePath = path.join(temporaryDirectory, 'catalogue.json');
+  fs.writeFileSync(cataloguePath, JSON.stringify(catalogue), 'utf8');
 
   try {
     return spawnSync(
       process.execPath,
-      ["scripts/audit-seasonal-commercial-coverage.mjs", `--coverage=${fixturePath}`],
+      ["scripts/audit-seasonal-commercial-coverage.mjs", `--coverage=${fixturePath}`, `--catalogue=${cataloguePath}`],
       { cwd: root, encoding: "utf8" },
     );
   } finally {
@@ -31,10 +35,26 @@ function runWithCoverage(mutator) {
 test("the complete seasonal commercial decision registry passes", () => {
   const result = runWithCoverage(() => {});
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /28 published routes: 8 with approved placements, 17 editorial exceptions and 3 open research gaps/);
+  assert.match(result.stdout, /28 published routes: 9 with approved placements, 17 editorial exceptions and 2 open research gaps/);
   assert.match(result.stdout, /Seasonal commercial placement diagnostics:/);
   assert.match(result.stdout, /\/guides\/reduce-pollen-dust-inside-home-spring\//);
 });
+
+for (const [name, mutate, expected] of [
+  ['wrong Good Guys campaign', p => { p.destinationUrl = p.destinationUrl.replace('1100l6vaUc', 'unapproved'); }, /canonical approved/],
+  ['Good Guys redirect to another merchant', p => { p.destinationUrl = p.destinationUrl.replace('www.thegoodguys.com.au', 'example.com'); }, /canonical approved/],
+  ['future review date', p => { p.lastReviewedOn = p.affiliateValidation.checkedOn = '2099-01-01'; }, /current product review date/],
+  ['mismatched validation date', p => { p.affiliateValidation.checkedOn = '2026-08-24'; }, /current product review date/],
+  ['old stock evidence under a new review date', p => { p.sourceRecords.find(s => s.sourceType === 'australian-availability-support').checkedOn = '2026-08-24'; }, /current australian-availability-support record/],
+]) {
+  test('seasonal audit rejects ' + name, () => {
+    const result = runWithCoverage(() => {}, catalogue => {
+      mutate(catalogue.products.find(p => p.id === 'tgg-purifier-reduce-pollen-dust-inside-home-spring'));
+    });
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, expected);
+  });
+}
 
 test("placement analysis warns when a commercial block follows sources in the final quarter", () => {
   const source = `---\nconst fixture = true;\n---\n<ArticleLayout>
