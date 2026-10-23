@@ -1,4 +1,4 @@
-name: Monitor Amazon product availability
+name: Audit Amazon affiliate links (offline)
 on:
   schedule:
     - cron: '30 20 * * *'
@@ -9,21 +9,19 @@ on:
       - scripts/monitor-offer-availability.mjs
       - scripts/lib/offer-availability.mjs
       - scripts/research-url.mjs
-      - scripts/publish-availability-alert.mjs
       - tests/offer-availability.test.mjs
       - tests/research-url.test.mjs
       - src/data/commercial-products.json
       - .github/workflows/monitor-amazon-availability.yml
 permissions:
   contents: read
-  issues: write
 concurrency:
   group: monitor-amazon
   cancel-in-progress: false
 jobs:
-  check-amazon:
+  audit-amazon-links:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
@@ -35,30 +33,7 @@ jobs:
         run: node --test tests/research-url.test.mjs tests/offer-availability.test.mjs
       - name: Audit approved affiliate destinations offline
         run: npm run audit:commercial
-      - uses: actions/cache/restore@v4
-        with:
-          path: .availability-monitor/amazon-previous.json
-          key: amazon-availability-${{ github.run_id }}
-          restore-keys: amazon-availability-
-      - name: Check Amazon clean product pages
-        run: node scripts/monitor-offer-availability.mjs --merchant="Amazon Australia" --previous=.availability-monitor/amazon-previous.json --output=.availability-monitor/amazon.json
-      - name: Publish actionable alert or close resolved alert
-        if: always()
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/publish-availability-alert.mjs .availability-monitor/amazon.json amazon
-      - name: Preserve comparison state
-        if: always()
-        run: test ! -f .availability-monitor/amazon.json || cp .availability-monitor/amazon.json .availability-monitor/amazon-previous.json
-      - uses: actions/cache/save@v4
-        if: always()
-        with:
-          path: .availability-monitor/amazon-previous.json
-          key: amazon-availability-${{ github.run_id }}
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: amazon-availability
-          path: .availability-monitor/amazon.json
-          include-hidden-files: true
-          if-no-files-found: error
+      - name: Explain separate local availability coverage
+        run: |
+          echo '## Amazon link structure checked offline' >> "$GITHUB_STEP_SUMMARY"
+          echo 'This is NOT a stock check. Amazon challenged the GitHub-hosted requests on 24 October 2026. Live availability is checked daily by the AHC affiliate availability follow-up on the local computer, using clean product URLs. Local results: tmp/availability-monitor/amazon.json. An unavailable computer or blocked retailer response must be reported as missing/unverified coverage, never as healthy stock.' >> "$GITHUB_STEP_SUMMARY"

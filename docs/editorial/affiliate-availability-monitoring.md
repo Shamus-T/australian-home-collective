@@ -5,9 +5,10 @@ Implemented 24 October 2026. This replaces the expired manual supplier-order exc
 ## Coverage and cadence
 
 - Good Guys: every four hours, all approved primary and additional retailer offers. Check the authenticated product feed and clean exact-product purchase pages. The catalogue currently contains 49 distinct active offers after pausing TRRS0715EG.
-- Amazon Australia: daily at 06:30 Australia/Brisbane, all 78 distinct approved ASINs, including additional retailer offers. Check primary ASIN, title, availability text and order control without activating it.
-- Both run on relevant main-branch changes and manual dispatch. Catalogue additions are selected automatically; no fixed shortlist to become stale.
-- Both run the offline commercial audit for approved affiliate IDs, destinations and catalogue validation. They do not exercise commission redirects: redirect operation and actual merchant attribution cannot be proved without producing a referral.
+- Amazon Australia: daily at 09:00 Australia/Brisbane through the local AHC affiliate availability follow-up, all 78 distinct approved ASINs, including additional retailer offers. Check primary ASIN, title, availability text and order control without activating it. This requires Shane's computer/Codex to be available; a missed or blocked run is a coverage gap, not a stock confirmation.
+- GitHub checks Amazon link structure offline daily at 06:30 Brisbane. The first cloud stock run was challenged on 76 listings and gave different availability on two; the cloud requests have been removed. Its green offline result must never be presented as a stock check. No proxies, CAPTCHA bypass or browser impersonation are used.
+- Both GitHub workflows run on relevant main-branch changes and manual dispatch. Catalogue additions are selected automatically; no fixed shortlist to become stale.
+- Both workflows run the offline commercial audit for approved affiliate IDs, destinations and catalogue validation. They do not exercise commission redirects: redirect operation and actual merchant attribution cannot be proved without producing a referral.
 
 ## Meaning of results
 
@@ -19,7 +20,7 @@ Previous listing titles remain the comparison baseline across failures and chang
 
 ## Response to problems
 
-Each execution saves a sanitised report artifact and summary. Failures open or update one owned GitHub issue per merchant, with product names and clean URLs. Unchanged faults do not generate repeated comments; a fully successful subsequent check closes the issue. Missing reports are monitoring failures, not a pass.
+Each Good Guys execution saves a sanitised report artifact and summary. Failures open or update one owned GitHub issue, with product names and clean URLs. Unchanged faults do not generate repeated comments; a fully successful subsequent check closes the issue. Missing reports are monitoring failures, not a pass. Amazon's daily local follow-up saves its current report and previous comparison at `tmp/availability-monitor/amazon.json` and `amazon-previous.json`, investigates faults and reports meaningful changes in this chat.
 
 Investigate reported faults against a clean direct listing. Pause a confirmed withdrawn offer and correct affected article wording/coverage; do not disable links solely because an automated request was blocked. Do not substitute another model without proper suitability research. Keep low-stock offers under observation and disclose a material wait where it affects suitability. Do not promise delivery.
 
@@ -40,3 +41,11 @@ AHC browser QA must use `?ahc_internal=1` with analytics and merchant requests b
 - Keter Borneo: Amazon dispatch stated 6–7 days. Updated both article placements with the dated dispatch caveat.
 
 Local evidence: `tmp/availability-2026-10-24/requests.json`, numbered raw HTML, and `all.json`. Images were not downloaded or modified. Scheduled-run verification is required separately from this local sweep.
+
+## Deployment and actual execution verification
+
+Commit `781cdf2` passed the full local build, GitHub build/audits and Cloudflare deployment. The five affected live pages were checked with internal/no-cache requests: withdrawn heater shopping link absent, corrected heater copy present, both Keter placements and Cowdroy dispatch caveats present, GOAT supplier-order caveat retained.
+
+[Good Guys run 40030935129](https://github.com/Shamus-T/australian-home-collective/actions/runs/40030935129) substantively checked 49 feed offers and 49 clean pages: 47 available, two supplier-order, zero unresolved faults. Raw feed Stock=No for GOAT is preserved and reconciled against its fresh exact-model supplier-order purchase page.
+
+[Initial Amazon cloud run 40030935087](https://github.com/Shamus-T/australian-home-collective/actions/runs/40030935087) failed honestly: 76 challenged pages and two different availability results from the cloud delivery context. This is not evidence of 78 unavailable products. That cloud stock fetch has been removed; the named daily local follow-up performs fresh checks instead. The GitHub workflow name now explicitly says offline, and its summary states that it does not verify stock.
