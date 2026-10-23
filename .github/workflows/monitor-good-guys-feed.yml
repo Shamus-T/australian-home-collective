@@ -8,6 +8,12 @@ on:
     branches: [main]
     paths:
       - scripts/monitor-good-guys-feed.py
+      - scripts/monitor-offer-availability.mjs
+      - scripts/lib/offer-availability.mjs
+      - scripts/research-url.mjs
+      - scripts/publish-availability-alert.mjs
+      - tests/offer-availability.test.mjs
+      - tests/research-url.test.mjs
       - tests/test_good_guys_feed.py
       - docs/editorial/good-guys-stock-reviews.json
       - src/data/commercial-products.json
@@ -15,13 +21,27 @@ on:
 
 permissions:
   contents: read
+  issues: write
+
+concurrency:
+  group: monitor-good-guys
+  cancel-in-progress: false
 
 jobs:
   check-feed:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Test no-click safety and availability decisions
+        run: node --test tests/research-url.test.mjs tests/offer-availability.test.mjs
+      - name: Audit approved affiliate destinations offline
+        run: npm run audit:commercial
       - name: Test monitoring logic
         run: python3 -m unittest discover -s tests -p test_good_guys_feed.py
       - name: Check feed configuration
@@ -39,31 +59,49 @@ jobs:
         if: steps.config.outputs.ready == 'true'
         uses: actions/cache/restore@v4
         with:
-          path: .feed-monitor/previous.json
+          path: |
+            .feed-monitor/previous.json
+            .availability-monitor/good-guys-previous.json
           key: good-guys-state-${{ github.run_id }}
           restore-keys: good-guys-state-
       - name: Check selected products
+        continue-on-error: true
         if: steps.config.outputs.ready == 'true'
         env:
           GOOD_GUYS_FEED_URL: ${{ secrets.GOOD_GUYS_FEED_URL }}
         run: python3 scripts/monitor-good-guys-feed.py --previous .feed-monitor/previous.json --state .feed-monitor/current.json
+      - name: Check clean product pages and reconcile feed alerts
+        if: steps.config.outputs.ready == 'true'
+        run: node scripts/monitor-offer-availability.mjs --merchant="The Good Guys" --previous=.availability-monitor/good-guys-previous.json --feed-report=.feed-monitor/report.json --output=.availability-monitor/good-guys.json
+      - name: Publish actionable alert or close resolved alert
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/publish-availability-alert.mjs .availability-monitor/good-guys.json good-guys
       - name: Prepare next comparison
         if: always() && steps.config.outputs.ready == 'true'
         run: |
           if [ -f .feed-monitor/current.json ]; then
             mv .feed-monitor/current.json .feed-monitor/previous.json
           fi
+          if [ -f .availability-monitor/good-guys.json ]; then
+            cp .availability-monitor/good-guys.json .availability-monitor/good-guys-previous.json
+          fi
       - name: Save selected-product state
         if: always() && steps.config.outputs.ready == 'true'
         uses: actions/cache/save@v4
         with:
-          path: .feed-monitor/previous.json
+          path: |
+            .feed-monitor/previous.json
+            .availability-monitor/good-guys-previous.json
           key: good-guys-state-${{ github.run_id }}
       - name: Save sanitised monitoring report
         if: always() && steps.config.outputs.ready == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: good-guys-monitor-report
-          path: .feed-monitor/report.json
+          path: |
+            .feed-monitor/report.json
+            .availability-monitor/good-guys.json
           include-hidden-files: true
           if-no-files-found: warn

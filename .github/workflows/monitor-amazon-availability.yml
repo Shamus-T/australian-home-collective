@@ -1,0 +1,64 @@
+name: Monitor Amazon product availability
+on:
+  schedule:
+    - cron: '30 20 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/monitor-offer-availability.mjs
+      - scripts/lib/offer-availability.mjs
+      - scripts/research-url.mjs
+      - scripts/publish-availability-alert.mjs
+      - tests/offer-availability.test.mjs
+      - tests/research-url.test.mjs
+      - src/data/commercial-products.json
+      - .github/workflows/monitor-amazon-availability.yml
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: monitor-amazon
+  cancel-in-progress: false
+jobs:
+  check-amazon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Test no-click safety and availability decisions
+        run: node --test tests/research-url.test.mjs tests/offer-availability.test.mjs
+      - name: Audit approved affiliate destinations offline
+        run: npm run audit:commercial
+      - uses: actions/cache/restore@v4
+        with:
+          path: .availability-monitor/amazon-previous.json
+          key: amazon-availability-${{ github.run_id }}
+          restore-keys: amazon-availability-
+      - name: Check Amazon clean product pages
+        run: node scripts/monitor-offer-availability.mjs --merchant="Amazon Australia" --previous=.availability-monitor/amazon-previous.json --output=.availability-monitor/amazon.json
+      - name: Publish actionable alert or close resolved alert
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/publish-availability-alert.mjs .availability-monitor/amazon.json amazon
+      - name: Preserve comparison state
+        if: always()
+        run: test ! -f .availability-monitor/amazon.json || cp .availability-monitor/amazon.json .availability-monitor/amazon-previous.json
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .availability-monitor/amazon-previous.json
+          key: amazon-availability-${{ github.run_id }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: amazon-availability
+          path: .availability-monitor/amazon.json
+          include-hidden-files: true
+          if-no-files-found: error

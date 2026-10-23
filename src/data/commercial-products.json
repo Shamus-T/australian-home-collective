@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-18",
+  "updatedOn": "2026-10-24",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -7973,7 +7973,7 @@
       "drawbacks": [
         "Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
         "The bulky box is expensive to move, and owner feedback includes concerns that should be checked against the current seller and model.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "The Amazon offer showed dispatch in 6–7 days on 24 October 2026. Confirm the selected variant, seller, freight and arrival estimate before ordering."
       ],
       "suitability": {
         "suits": [
@@ -8039,6 +8039,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
           "supports": "Displayed seller: EFI Global Store AU. Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated delayed-dispatch or supplier-order observation",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
+          "supports": "Clean exact-product page observed 24 October 2026: Usually dispatched within 6 to 7 days. Dated availability-only observation; not immediate stock or a postcode-specific delivery promise. Existing specification, safety and warranty review dates retained.",
+          "checkedOn": "2026-10-24"
         }
       ],
       "image": {
@@ -9533,7 +9541,7 @@
       "drawbacks": [
         "A patch is only a local repair; brittle, sagging or multiply damaged mesh is more likely to need replacement.",
         "It cannot correct loose spline, a bent frame, poor door closure or a gap around the opening.",
-        "The Amazon Australia listing showed limited stock at review, so availability may change quickly."
+        "The Amazon offer showed dispatch in 2–4 weeks on 24 October 2026. It may not suit an urgent repair; confirm the current delivery date before ordering."
       ],
       "suitability": {
         "suits": [
@@ -9607,6 +9615,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW",
           "supports": "Exact ASIN B0BCW96CJW and intended variant matched. Listing displayed: Only 2 left in stock (more on the way). Availability-only observation at 2026-10-18T08:54:57.523Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
           "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated delayed-dispatch or supplier-order observation",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW",
+          "supports": "Clean exact-product page observed 24 October 2026: Usually dispatched within 2 to 4 weeks. Dated availability-only observation; not immediate stock or a postcode-specific delivery promise. Existing specification, safety and warranty review dates retained.",
+          "checkedOn": "2026-10-24"
         }
       ],
       "image": {
@@ -13899,7 +13915,7 @@
       "drawbacks": [
         "Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
         "The bulky box is expensive to move, and owner feedback includes concerns that should be checked against the current seller and model.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "The Amazon offer showed dispatch in 6–7 days on 24 October 2026. Confirm the selected variant, seller, freight and arrival estimate before ordering."
       ],
       "suitability": {
         "suits": [
@@ -13965,6 +13981,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
           "supports": "Displayed seller: EFI Global Store AU. Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated delayed-dispatch or supplier-order observation",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
+          "supports": "Clean exact-product page observed 24 October 2026: Usually dispatched within 6 to 7 days. Dated availability-only observation; not immediate stock or a postcode-specific delivery promise. Existing specification, safety and warranty review dates retained.",
+          "checkedOn": "2026-10-24"
         }
       ],
       "image": {
@@ -18428,6 +18452,14 @@
           "sourceUrl": "https://help.ecovacs.com/au/support/warranty",
           "supports": "Generic Australian manufacturer policy does not separately identify GOAT O600 RTK. On 18 October 2026 Shane confirmed checking five separate sites, all stating two years, and instructed AHC to use that term. This is publisher-confirmed evidence, not written model-specific manufacturer confirmation. Retailer overview independently states two years; its specification table still says three. No separate battery, dock or RTK warranty period is inferred; check exclusions and claims terms. Overseas terms are not substituted.",
           "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated delayed-dispatch or supplier-order observation",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/ecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
+          "supports": "Clean exact-model purchase page on 24 October 2026 says ordered from supplier on purchase, check availability for a delivery estimate, and offers Add to Cart. Dated availability-only observation; not immediate stock or a postcode-specific delivery promise. Existing specification, safety and warranty review dates retained.",
+          "checkedOn": "2026-10-24"
         }
       ],
       "image": {
@@ -18921,6 +18953,14 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Finstant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
           "supports": "Exact Australian retailer model and SKU matched offline. Visible listing explicitly indicates online-only supplier ordering. These brands are not among the saved campaign supplier-shipped brand exclusions (Fisher & Paykel/Smeg), and no in-store-only offer is being promoted. Approved campaign structure verified offline; no affiliate redirect or merchant attribution test performed. Confirm delivery before purchase.",
           "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated delayed-dispatch or supplier-order observation",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/instant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
+          "supports": "Clean exact-model purchase page on 24 October 2026 says ordered from supplier on purchase, check availability for a delivery estimate, and offers Add to Cart. Dated availability-only observation; not immediate stock or a postcode-specific delivery promise. Existing specification, safety and warranty review dates retained.",
+          "checkedOn": "2026-10-24"
         }
       ],
       "image": {
@@ -18946,18 +18986,18 @@
       "linkLabel": "View at The Good Guys",
       "affiliate": true,
       "affiliateNetwork": "partnerize",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-10-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-10-18",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -19016,6 +19056,14 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-1500w-radia-s-oil-column-heater-wtimer-trrs0715eg",
           "supports": "Retailer TRRS0715EG and SKU 50045856 matched offline. Approved campaign 1100l6vaUc; clean retailer URL researched, no affiliate redirect requested. Brand is not in saved campaign exclusions, and no in-store-only restriction. Historical commission terms are not a merchant attribution test.",
           "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model offer withdrawn",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-1500w-radia-s-oil-column-heater-wtimer-trrs0715eg",
+          "supports": "24 October 2026 clean exact-model page states NOT AVAILABLE and This product is no longer available. Buying option paused; earlier technical research retained. No affiliate redirect requested.",
+          "checkedOn": "2026-10-24"
         }
       ],
       "image": {

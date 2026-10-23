@@ -1901,10 +1901,10 @@
     {
       "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
       "title": "Oil Column Heater vs Panel Heater: Which Suits Your Room?",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-24",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c941c1ef732580698caa05a66ab9ba8153710c973ce4497d79a65e8e4dc32cef",
+      "reviewedSourceSha256": "141c301be777cdf9265b5f719436ad84305490c2eece0c020319308de4d4b3f7",
       "requiredProductTypes": [
         {
           "label": "2400W slim convector heater with lateral fan",
@@ -1914,16 +1914,15 @@
         },
         {
           "label": "1500W oil-column heater",
-          "productIds": [
-            "tgg-gap-oil-trrs0715eg"
-          ]
+          "productIds": [],
+          "gapReason": "TRRS0715EG withdrawn by retailer on 24 October 2026. Buying link paused; suitable replacement oil-column offer remains a research gap."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/fan-heater-vs-ceramic-heater/"
       ],
-      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
+      "reviewScope": "24 October availability repair: removed unavailable TRRS0715EG promotion and retained the researched convector as a distinct option. No new specification, warranty or safety claims."
     },
     {
       "guidePath": "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",

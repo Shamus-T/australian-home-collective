@@ -132,11 +132,11 @@ def run(source, previous, state_path, catalogue=None, report_path=None, reviews=
                             and not any(field in changed_fields for field in ('title', 'sku')))
         identity_changed = current['status'] == 'ok' and any(field in changed_fields for field in ('title', 'sku'))
         if identity_changed:
-            faults.append({'name': entry['name'], 'guides': entry['guides'], 'reason': 'Feed identity changed; review exact model'})
+            faults.append({'name': entry['name'], 'guides': entry['guides'], 'url': target, 'sku': current.get('sku'), 'reason': 'Feed identity changed; review exact model'})
             products[target] = {**current, **{field: prior[field] for field in ('title', 'sku') if field in prior}}
         if current['status'] != 'ok' or (current.get('stock') == 'No' and not acknowledged):
             reason = current.get('reason', 'Feed flags out of stock')
-            faults.append({'name': entry['name'], 'guides': entry['guides'], 'reason': reason})
+            faults.append({'name': entry['name'], 'guides': entry['guides'], 'url': target, 'sku': current.get('sku'), 'reason': reason})
             lines.append(f'- **Review required:** {label}: {reason}; SKU {safe_text(current.get("sku", "unknown"))}.')
         elif acknowledged:
             supplier_orders.append({'name': entry['name'], 'guides': entry['guides'], 'rawStock': 'No', 'reviewExpiresAt': review['expiresAt']})
