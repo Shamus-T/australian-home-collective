@@ -873,7 +873,7 @@
       "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "895662b2f5f70ab6ecf0e088573fa5ad9e139b84a14c3859004659a5bde507b3",
+      "reviewedSourceSha256": "e98079339fe2102a202083844871b890ffaca802d0e167d96871c19308b5e9c9",
       "requiredProductTypes": [
         {
           "label": "Nesting leftover and freezer containers",
@@ -896,7 +896,13 @@
         {
           "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Pots, knives and other equipment remain unfilled; the two pans and existing food containers do not cover every kitchen task."
+          "gapReason": "Pots and other equipment remain unfilled; pans, one prep knife and food containers do not cover every kitchen task."
+        },
+        {
+          "label": "General-purpose 20cm kitchen knife",
+          "productIds": [
+            "gap-everyday-kitchen-essentials-australian-homes-b000iazc4q"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -905,7 +911,7 @@
         "/guides/cookware-materials-compared/",
         "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/"
       ],
-      "reviewScope": "26 October2026: exact Tefal20/24cm pans and Outward Hound51006 slow feeder added after manufacturer, owner, seller, availability and recall research. Other products retain prior dates. See docs/editorial/commercial-gap-kitchen-pet-feeding-2026-10-26.md."
+      "reviewScope": "26 October 2026: small-jar organiser 85145 and/or Victorinox 5.2063.20 researched and added, with seller/warranty limits and dimension reconciliation. Other products retain prior reviews. See docs/editorial/commercial-gap-pantry-prep-2026-10-26.md."
     },
     {
       "guidePath": "/guides/fan-heater-vs-ceramic-heater/",
@@ -2184,7 +2190,7 @@
       "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "2ac2c92fb120eb858b84b6f4a6b57fa6def2cd95f45aff8f7615912b6a88fb8e",
+      "reviewedSourceSha256": "ad8a311d86a625c8f682611009204c1065b4f135af3527ee30edc265d44a6271",
       "requiredProductTypes": [
         {
           "label": "11-inch pantry turntable",
@@ -2207,14 +2213,20 @@
         {
           "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "A suitable orderable shelf riser remains unfilled. Joseph Joseph85194 and85146 were unavailable at the26October2026 clean checks; both remain unpromoted."
+          "gapReason": "A broad freestanding shelf for larger canisters remains unfilled. The compact 85145 addresses small jars only; unavailable 85194 and 85146 remain unpromoted."
+        },
+        {
+          "label": "Compact small-jar riser with packet drawer",
+          "productIds": [
+            "gap-pantry-storage-ideas-australian-kitchens-b07r7r2sbq"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
+      "reviewScope": "26 October 2026: small-jar organiser 85145 and/or Victorinox 5.2063.20 researched and added, with seller/warranty limits and dimension reconciliation. Other products retain prior reviews. See docs/editorial/commercial-gap-pantry-prep-2026-10-26.md."
     },
     {
       "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
@@ -2222,7 +2234,7 @@
       "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "f389921c433216e117fbd6fcc32f4b6baa80f8e500a15ae9a15a7558c3fc17ea",
+      "reviewedSourceSha256": "6eb3d17917a10b1dcdfdb3df499a9126993a4c195ea3785a90574311a0b3183b",
       "requiredProductTypes": [
         {
           "label": "11-inch pantry turntable",
@@ -2233,7 +2245,7 @@
         {
           "label": "Freestanding cupboard shelf riser",
           "productIds": [],
-          "gapReason": "A suitable orderable shelf riser remains unfilled. Joseph Joseph85194 and85146 were unavailable at the26October2026 clean checks; both remain unpromoted."
+          "gapReason": "A broad freestanding shelf for larger canisters remains unfilled. The compact 85145 addresses small jars only; unavailable 85194 and 85146 remain unpromoted."
         },
         {
           "label": "Single dry-food container",
@@ -2258,11 +2270,17 @@
           "productIds": [
             "gap-pantry-storage-what-to-measure-before-buying-organisers-pantry"
           ]
+        },
+        {
+          "label": "Compact small-jar riser with packet drawer",
+          "productIds": [
+            "gap-pantry-storage-what-to-measure-before-buying-organisers-b07r7r2sbq"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
+      "reviewScope": "26 October 2026: small-jar organiser 85145 and/or Victorinox 5.2063.20 researched and added, with seller/warranty limits and dimension reconciliation. Other products retain prior reviews. See docs/editorial/commercial-gap-pantry-prep-2026-10-26.md."
     },
     {
       "guidePath": "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",

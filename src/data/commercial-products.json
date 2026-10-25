@@ -23939,6 +23939,323 @@
           "checkedOn": "2026-10-26"
         }
       ]
+    },
+    {
+      "id": "gap-everyday-kitchen-essentials-australian-homes-b000iazc4q",
+      "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
+      "name": "Victorinox Fibrox extra-wide cooks knife 20cm — 5.2063.20",
+      "productType": "General-purpose 20cm kitchen knife",
+      "summary": "A single broad-bladed knife for everyday slicing, chopping and dicing when a 20cm blade feels manageable. It can fill the main prep-knife role without buying a large set. Allow space on the board and protected storage; it is not a cleaver for bones or frozen food.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000IAZC4Q?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A 20cm blade and broad handle can feel cumbersome on a small board or in a smaller hand. One owner describes a forward-heavy feel; assess grip and clearance rather than buying by brand alone.",
+        "Needs sharpening and careful storage. Hand-wash and dry promptly; do not use it on bones, frozen food or as a pry tool. A textured handle does not make a sharp blade slip-proof.",
+        "Sold by GWT Global Trading and dispatched by Amazon at review. The seller’s manufacturer-authorised status was not confirmed, so do not assume Victorinox lifetime cover applies. Check the current seller and return terms before buying."
+      ],
+      "suitability": {
+        "suits": [
+          "households needing one general-purpose prep knife",
+          "cooks comfortable controlling a 20cm blade and maintaining its edge"
+        ],
+        "mayNotSuit": [
+          "bone chopping, frozen foods or prying",
+          "anyone needing a smaller blade or confirmed manufacturer-authorised seller cover"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model and specification reconciliation",
+          "publisher": "Victorinox",
+          "sourceUrl": "https://victorinox.com.au/products/fibrox-carving-knife-extra-wide-20cm",
+          "supports": "Exact model 5.2063.20 and 20cm title matched to Amazon model field and global official specification. Australian page blade-length field incorrectly says 20mm; official global page confirms 20cm. Global manufacturer says not forged and TPE handle, overriding Amazon forged/plastic metadata. Weight varies between source pages and is not published. Dishwasher capability is not used as a reason to recommend machine washing.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner reports and limitations",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000IAZC4Q",
+          "supports": "13 individual displayed entries reviewed, single-knife variant separated. Australian Joshua Michael reports good slicing/chopping but forward-heavy feel; Michael describes ongoing sharpening and possible size difficulty; Lauren B reports comfortable grip and everyday cutting. Do not adopt owner claims about guaranteed handle failure, user-height thresholds, sharpening intervals or slip-proof safety. Raw entries retained in exact-knife-offers.json.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000IAZC4Q",
+          "supports": "26 October Brisbane: primary availability and purchase control with exact model/ASIN inspected through clean anonymous HTML; raw evidence saved. Current offer sold by GWT Global Trading - GST Registered and dispatched by Amazon. Conditional 30-day original-condition change-of-mind returns and faulty-item remedy route displayed. Manufacturer-authorised seller status was not established, so no lifetime-warranty promise is made for this offer.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, dispatch and returns",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000IAZC4Q",
+          "supports": "Current offer sold by GWT Global Trading - GST Registered and dispatched by Amazon. Conditional 30-day original-condition change-of-mind returns and faulty-item remedy route displayed. Manufacturer-authorised seller status was not established, so no lifetime-warranty promise is made for this offer.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian support and warranty boundary",
+          "publisher": "Victorinox Australia",
+          "sourceUrl": "https://victorinox.com.au/pages/warranty",
+          "supports": "Australian manufacturer support and warranty page inspected: limited lifetime defect cover requires an authorised seller; wear, misuse and specified damage excluded. Selected seller authorisation remains unverified. Amazon order support/retailer remedies are the established route, not a guaranteed manufacturer claim.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Victorinox",
+          "supports": "Fresh brand RSS returned no entries, supplemental brand/model searches found no matching Australian recall. This is not certification.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000IAZC4Q?tag=ahc07-22",
+          "supports": "ASIN and approved ahc07-22 tag verified offline; tagged URL never requested. No commission attribution test performed.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Global exact-model dimensions and construction",
+          "publisher": "Victorinox",
+          "sourceUrl": "https://www.victorinox.com/en-CA/Products/Cutlery/Chef%27s-Knives/Fibrox%C2%AE-Chef%E2%80%99s-Knife-Extra-Wide/p/5.2063.20",
+          "supports": "Exact 5.2063.20:20cm straight blade, TPE handle, not forged; slicing/dicing/chopping. Used to resolve AU20mm typo and Amazon forged metadata; regional warranty promises are not transferred.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-pantry-storage-ideas-australian-kitchens-b07r7r2sbq",
+      "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
+      "name": "Joseph Joseph CupboardStore compact tiered organiser — Grey 85145",
+      "productType": "Compact small-jar riser with packet drawer",
+      "summary": "A narrow freestanding organiser that raises small jars and keeps stock cubes or sachets in a drawer. Reserve about 26cm of shelf depth, 17.1cm of width and 11cm of height before adding jars and hand clearance. It is a small-item organiser, not a broad extra shelf for large pantry canisters.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Small tiers suit spice-size jars and modest bottles. An Australian owner found it too small for much else; it will not replace a full-width shelf for bulk canisters.",
+        "The drawer slides without runners and needs a clear pull-out path. Measure around hinges and above the tallest jar; allow more than the bare organiser footprint. No tested maximum load was established.",
+        "The selected KG Superstore offer was low stock at review. Confirm the seller, delivery and returns for your address. A separately verified manufacturer warranty was not established for this offer."
+      ],
+      "suitability": {
+        "suits": [
+          "small pantry jars that disappear behind one another",
+          "stock cubes and sachets needing a small drawer without drilling"
+        ],
+        "mayNotSuit": [
+          "bulk food canisters, heavy stacks or full-width extra shelving",
+          "shelves less than 26cm deep or cupboards without drawer and hand clearance"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model and specification reconciliation",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.co.id/shop/cupboardstore-compact-tiered-organiser/",
+          "supports": "Exact grey 85145 and barcode 5028420000665 matched. Regional manufacturer page specifies H11 x W17 x D26cm and damp-cloth cleaning. Manufacturer 2021 catalogue lists H11 x W16.5 x D26cm; Amazon gives 26 x17.1 x10.8cm with inconsistent axis labels. Public copy reserves conservative 26cm depth/17.1cm width/11cm height plus contents and clearance; it does not repeat reversed retailer axes or promise a tight fit.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner reports and limitations",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ",
+          "supports": "Eight individual displayed reviews inspected, all compact grey style. Australian Lea reports useful sturdy construction but drawer has no runners; Lyn says it is too small for much beyond spice-size jars; Gary says it serves its purpose. UK JosieB describes small bottles and stock-cube drawer. Foreign-language/brief entries are not treated as extra performance proof. No load rating inferred from owner anecdotes.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ",
+          "supports": "26 October Brisbane: primary availability and purchase control with exact model/ASIN inspected through clean anonymous HTML; raw evidence saved. Exact offer sold and dispatched by KG Superstore, only five remaining in the anonymous context at review. Listing displays conditional 30-day original-condition returns, faulty-item remedy and a 12-month warranty statement; that statement is not independently verified manufacturer cover. No nationwide delivery or continuing stock promise.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, dispatch and returns",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ",
+          "supports": "Exact offer sold and dispatched by KG Superstore, only five remaining in the anonymous context at review. Listing displays conditional 30-day original-condition returns, faulty-item remedy and a 12-month warranty statement; that statement is not independently verified manufacturer cover. No nationwide delivery or continuing stock promise.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian support and warranty boundary",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "AU brand guarantee/contact route inspected; excludes unauthorised resellers and directs those rights to point of sale. Do not transfer its direct-shop minimum two years to this Amazon seller. Seller authorisation and express-warranty duration are not independently established; use Amazon order/seller support.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Joseph%20Joseph",
+          "supports": "Fresh brand RSS returned five unrelated entries; titles inspected, none matched Joseph Joseph or 85145. Supplemental exact-brand/model searches found no matching Australian recall. A broad search is not certification.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ?tag=ahc07-22",
+          "supports": "ASIN and approved ahc07-22 tag verified offline; tagged URL never requested. No commission attribution test performed.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-pantry-storage-what-to-measure-before-buying-organisers-b07r7r2sbq",
+      "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+      "name": "Joseph Joseph CupboardStore compact tiered organiser — Grey 85145",
+      "productType": "Compact small-jar riser with packet drawer",
+      "summary": "A compact riser to assess with actual spice jars and packets before repeating it across a pantry. Plan for roughly 26cm depth, 17.1cm width and 11cm height, then add jar height and room to reach and open the drawer. It does not provide a full-width shelf for larger containers.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Small tiers suit spice-size jars and modest bottles. An Australian owner found it too small for much else; it will not replace a full-width shelf for bulk canisters.",
+        "The drawer slides without runners and needs a clear pull-out path. Measure around hinges and above the tallest jar; allow more than the bare organiser footprint. No tested maximum load was established.",
+        "The selected KG Superstore offer was low stock at review. Confirm the seller, delivery and returns for your address. A separately verified manufacturer warranty was not established for this offer."
+      ],
+      "suitability": {
+        "suits": [
+          "small pantry jars that disappear behind one another",
+          "stock cubes and sachets needing a small drawer without drilling"
+        ],
+        "mayNotSuit": [
+          "bulk food canisters, heavy stacks or full-width extra shelving",
+          "shelves less than 26cm deep or cupboards without drawer and hand clearance"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model and specification reconciliation",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.co.id/shop/cupboardstore-compact-tiered-organiser/",
+          "supports": "Exact grey 85145 and barcode 5028420000665 matched. Regional manufacturer page specifies H11 x W17 x D26cm and damp-cloth cleaning. Manufacturer 2021 catalogue lists H11 x W16.5 x D26cm; Amazon gives 26 x17.1 x10.8cm with inconsistent axis labels. Public copy reserves conservative 26cm depth/17.1cm width/11cm height plus contents and clearance; it does not repeat reversed retailer axes or promise a tight fit.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner reports and limitations",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ",
+          "supports": "Eight individual displayed reviews inspected, all compact grey style. Australian Lea reports useful sturdy construction but drawer has no runners; Lyn says it is too small for much beyond spice-size jars; Gary says it serves its purpose. UK JosieB describes small bottles and stock-cube drawer. Foreign-language/brief entries are not treated as extra performance proof. No load rating inferred from owner anecdotes.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ",
+          "supports": "26 October Brisbane: primary availability and purchase control with exact model/ASIN inspected through clean anonymous HTML; raw evidence saved. Exact offer sold and dispatched by KG Superstore, only five remaining in the anonymous context at review. Listing displays conditional 30-day original-condition returns, faulty-item remedy and a 12-month warranty statement; that statement is not independently verified manufacturer cover. No nationwide delivery or continuing stock promise.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, dispatch and returns",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ",
+          "supports": "Exact offer sold and dispatched by KG Superstore, only five remaining in the anonymous context at review. Listing displays conditional 30-day original-condition returns, faulty-item remedy and a 12-month warranty statement; that statement is not independently verified manufacturer cover. No nationwide delivery or continuing stock promise.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian support and warranty boundary",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "AU brand guarantee/contact route inspected; excludes unauthorised resellers and directs those rights to point of sale. Do not transfer its direct-shop minimum two years to this Amazon seller. Seller authorisation and express-warranty duration are not independently established; use Amazon order/seller support.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Joseph%20Joseph",
+          "supports": "Fresh brand RSS returned five unrelated entries; titles inspected, none matched Joseph Joseph or 85145. Supplemental exact-brand/model searches found no matching Australian recall. A broad search is not certification.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ?tag=ahc07-22",
+          "supports": "ASIN and approved ahc07-22 tag verified offline; tagged URL never requested. No commission attribution test performed.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
     }
   ]
 }
