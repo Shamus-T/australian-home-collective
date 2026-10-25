@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-24",
+  "updatedOn": "2026-10-25",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -84,7 +84,9 @@
     "/guides/air-conditioning-buying-guide/",
     "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
     "/guides/everyday-kitchen-essentials-australian-homes/",
-    "/guides/evaporative-cooler-vs-refrigerated-air-conditioning/"
+    "/guides/evaporative-cooler-vs-refrigerated-air-conditioning/",
+    "/guides/home-heating-options-australia/",
+    "/guides/best-kitchen-storage-ideas-small-australian-homes/"
   ],
   "products": [
     {
@@ -17799,10 +17801,10 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-10-18",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-10-18",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "in-stock",
@@ -17832,7 +17834,7 @@
           "publisher": "Panasonic Australia",
           "sourceUrl": "https://www.panasonic.com/content/dam/panasonic/au/en/pim/dam/CS/CS-Z35/CS-Z35AKRW_CU-Z35AKR-PP/ast-2506169.pdf",
           "supports": "Australian Z-series brochure, page 2: CS-Z35AKRW / CU-Z35AKR, 3.50 kW cooling (1.00–4.20), 4.00 kW heating (0.90–5.70). Visually checked specification table; current Australian product page agrees. Retailer title/URL 4.3 kW is overridden, not silently copied. No installation clearances or DIY installation instructions supplied; site-specific licensed assessment is required.",
-          "checkedOn": "2026-10-18"
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
@@ -17840,15 +17842,15 @@
           "publisher": "The Good Guys",
           "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
           "supports": "Exact-model owner comments repeatedly discuss quiet operation, cooling and Wi-Fi convenience. Health anecdotes and an unsupported country-of-manufacture assertion were not accepted as evidence. Feedback does not establish measured efficiency or long-term reliability.",
-          "checkedOn": "2026-10-18"
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "australian-availability-support",
           "title": "Australian stock and support",
           "publisher": "The Good Guys",
           "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
-          "supports": "Exact model CS/CU-Z35AKR has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
-          "checkedOn": "2026-10-18"
+          "supports": "Exact model CS/CU-Z35AKR has an InStock offer and Australian ordering controls as checked 25 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
@@ -17856,7 +17858,7 @@
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "Dated brand/model search found no matching Australian recall for CS/CU-Z35AKR. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
-          "checkedOn": "2026-10-18"
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "seller-fulfilment",
@@ -17864,7 +17866,15 @@
           "publisher": "The Good Guys",
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-c35kw-h43kw-reverse-cycle-split-system-and-air-purifier-cscu-z35akr",
           "supports": "Model CS/CU-Z35AKR, SKU 50091563, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
-          "checkedOn": "2026-10-18"
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian air-conditioner warranty",
+          "publisher": "Panasonic",
+          "sourceUrl": "https://www.panasonic.com/content/dam/panasonic/au/en/support/manufacturers_warranty/PRO-031-F14-Warranty-Air-Conditioners_Iss5.pdf",
+          "supports": "Australian five-year parts and labour terms inspected; licensed installation, maintenance and service-area/access conditions apply. No promise of lifespan.",
+          "checkedOn": "2026-10-25"
         }
       ],
       "image": {
@@ -19422,6 +19432,1241 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50077315_787160.png?v=1776228309",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "tgg-ac-fujitsu-astg09kmtc-nxt",
+      "guidePath": "/guides/air-conditioning-buying-guide/",
+      "name": "Fujitsu Lifestyle Next SET-ASTG09KMTC-NXT — 2.5kW",
+      "productType": "2.5kW cooling / 3.2kW heating split system",
+      "summary": "A smaller-capacity reverse-cycle option for an enclosed bedroom or study when the assessed load suits 2.5kW cooling and 3.2kW heating. The NXT package includes the anywAiR Wi-Fi adaptor II; do not confuse it with the base package without NXT. Its indoor body is 834mm wide, before installation clearances.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A small-capacity system is not a whole-home cooling solution; confirm the heat load and winter climate performance before ordering.",
+        "Wi-Fi needs the included adaptor fitted and configured, a compatible network and an app account. It is not a reason to choose the wrong capacity.",
+        "Filters need routine cleaning and some filter elements need replacement. Installation, access and ongoing maintenance add to the equipment cost."
+      ],
+      "suitability": {
+        "suits": [
+          "a measured enclosed room with a suitable 2.5kW cooling load",
+          "buyers wanting app control in the exact NXT bundle"
+        ],
+        "mayNotSuit": [
+          "large connected living spaces or whole-home cooling",
+          "properties without permission and suitable indoor/outdoor installation positions"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model specifications",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/product/set-astg09kmtc-nxt",
+          "supports": "Exact NXT pair ASTG09KMTC / AOTG09KMTC: 2.50kW cooling, 3.20kW heating, indoor 270H × 834W × 222D mm. NXT includes anywAiR adaptor II, unlike base model. Average-climate cooling/heating stars 5/3. Manufacturer now publishes as GENERAL Airstage; exact retailer remains Fujitsu. No guaranteed floor-area coverage or measured AHC savings.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer operation and maintenance instructions",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/product-documents/operation-manual-pdf2394cae04faf48dea9c601649d84c7ca.pdf?download=true&sfvrsn=6d3b82f4_0",
+          "supports": "Manufacturer-linked manual, pages 9–10: filter-cleaning schedule and replacement elements; isolate before maintenance. Installation and servicing need qualified personnel. No DIY installation instructions reproduced.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty and service terms",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/terms-and-conditions/j004412-au-warranty-cards_%C6%92_screen.pdf?sfvrsn=25ab4870_1",
+          "supports": "Written Australian five-year parts/labour cover read. Correct licensed installation, maintenance and proof of purchase required; travel outside service areas and difficult access may cost extra. No promise of lifespan, immediate service or unrestricted cover.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "Read ten displayed individual reports of 67. Repeated useful cooling, quiet operation and convenient controls; two Tina entries with same purchase date are potentially duplicated. A follow-up inspection concern is installation context. Old-unit lifespan anecdotes are not evidence for this model. Incentives possible; no independent durability or efficiency test.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "Clean anonymous HTML 25 October: exact SET-ASTG09KMTC-NXT, SKU 50087940, InStock offer and active ordering control. No supplier-direct restriction identified. Postcode stock, installation availability and delivery dates not verified. Evidence: tmp/buying-options-2026-10-25/fujitsu-25.html.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian brand and model recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Fujitsu",
+          "supports": "Fresh filtered register returned old AOT45/54 LJAYL/LJBYL terminal-block recall and laptop batteries; neither matches this indoor/outdoor pair. No matching notice found. Dated search, not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact approved affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "Exact clean URL and model SET-ASTG09KMTC-NXT, SKU 50087940, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/ac-fujitsu-25-640.webp",
+        "srcSet": "/images/products/ac-fujitsu-25-320.webp 320w, /images/products/ac-fujitsu-25-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Fujitsu Lifestyle Next SET-ASTG09KMTC-NXT — 2.5kW indoor unit",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50087940_884097.png?v=1776228368",
+        "suppliedVia": "Exact-model retailer listing: https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
+      "id": "tgg-ac-hisense-hawu9kr",
+      "guidePath": "/guides/air-conditioning-buying-guide/",
+      "name": "Hisense Air Q HAWU9KR — 2.5kW",
+      "productType": "2.5kW cooling / 3.2kW heating split system",
+      "summary": "An alternative in the 2.5kW cooling / 3.2kW heating class, with built-in Wi-Fi and adjustable airflow. Compare its total installed quote with the Fujitsu, including local servicing. Our selection is based on room suitability and controls; it does not rely on air-purification health claims or a promised saving.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fhisense-25kw-air-q-series-reverse-cycle-split-system-hawu9kr",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The retailer lists five years of manufacturer cover while Hisense advertises seven. Confirm the applicable written terms and any registration conditions before relying on an extension.",
+        "An owner reports damaged delivery and delayed replacement support. Check the carton and model on arrival, and establish who handles installation and service locally.",
+        "The 2.5kW capacity will not suit every bedroom, and air-cleaning features do not replace ventilation or guarantee relief from allergies."
+      ],
+      "suitability": {
+        "suits": [
+          "an assessed small-room load where app and airflow controls are useful",
+          "buyers comparing installed costs and local support within the same capacity class"
+        ],
+        "mayNotSuit": [
+          "buyers relying on an unconfirmed extended warranty or health claims",
+          "large open-plan spaces or sites without installation approval"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model specifications",
+          "publisher": "Hisense",
+          "sourceUrl": "https://hisense.com.au/product/HAWU9KR/null",
+          "supports": "Official HAWU9KR page and exact-model specification sheet identify HAWU9KR-I / HAWU9KR-O, 2.5kW cooling, 3.2kW heating and built-in Wi-Fi. Manufacturer average cooling rating 7 differs from retailer 6.5; no star figure published here. Manufacturer advertises seven-year comprehensive cover while retailer says five; baseline five-year written manufacturer terms inspected, extension not promised. Direct manufacturer store unavailable does not invalidate fresh orderable Good Guys offer.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer operation and maintenance instructions",
+          "publisher": "Hisense",
+          "sourceUrl": "https://media.binglee.com.au/c/c/7/8/cc7868627549ce281989d1a40af6b9757fa8ec1f_HAWU9KR___User_Manual.pdf",
+          "supports": "Manufacturer document hosted by Bing Lee, version 4399449-01. Visually read printed pages 1 and 10: professional installation, R32 precautions, disconnect before maintenance, filter cleaning and clear access. No DIY refrigerant/electrical instructions reproduced.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty and service terms",
+          "publisher": "Hisense",
+          "sourceUrl": "https://manuals.plus/m/45a0d6adecad7f6b6fe041ee541bdc8b456fba9d46261fd3f8c9b09c8ba77326",
+          "supports": "Manufacturer-authored Australian terms version 1.719 mirrored by Manuals+: five years product, twelve months accessories, authorised-retailer purchase and licensed installation evidence. Current retailer also lists five. Official product page advertises seven; eligibility of extension not established and not promised. Australian customer support 1800 447 367. Travel/access/exclusion conditions apply.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/hisense-25kw-air-q-series-reverse-cycle-split-system-hawu9kr",
+          "supports": "Read ten displayed individual reports of 22. Recurring cooling, controls and quiet-use positives; Sarah reports damaged delivery and delayed replacement response. This is a fulfilment/support concern, not proof of a systemic compressor fault. Reject owner whole-house sizing and retailer AI health/efficiency claims. Long-term independent evidence remains limited.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/hisense-25kw-air-q-series-reverse-cycle-split-system-hawu9kr",
+          "supports": "Clean anonymous HTML 25 October: exact HAWU9KR, SKU 50096202, InStock offer and active ordering control. No supplier-direct restriction identified. Postcode stock, installation availability and delivery dates not verified. Evidence: tmp/buying-options-2026-10-25/hisense-25.html.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian brand and model recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Hisense",
+          "supports": "Fresh filtered register returned an unrelated Babysense monitor result; no HAWU9KR indoor/outdoor notice found. Dated search, not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact approved affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fhisense-25kw-air-q-series-reverse-cycle-split-system-hawu9kr",
+          "supports": "Exact clean URL and model HAWU9KR, SKU 50096202, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/ac-hisense-25-640.webp",
+        "srcSet": "/images/products/ac-hisense-25-320.webp 320w, /images/products/ac-hisense-25-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Hisense Air Q HAWU9KR — 2.5kW indoor unit",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50096202_1019568.png?v=1776662661",
+        "suppliedVia": "Exact-model retailer listing: https://www.thegoodguys.com.au/hisense-25kw-air-q-series-reverse-cycle-split-system-hawu9kr",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
+      "id": "tgg-ac-fujitsu-asth18kmtd-nxt",
+      "guidePath": "/guides/air-conditioning-buying-guide/",
+      "name": "Fujitsu Lifestyle Next SET-ASTH18KMTD-NXT — 5.0kW",
+      "productType": "5.0kW cooling / 6.0kW heating split system",
+      "summary": "A step up to 5.0kW cooling and 6.0kW heating for a living area whose calculated load needs that capacity. The NXT bundle includes the anywAiR Wi-Fi adaptor II. Allow for a 980mm-wide indoor body, additional clearances and a suitable outdoor location in the installation quote.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The indoor head is wider than the 2.5kW unit; body dimensions do not include service and airflow clearances.",
+        "One owner reports a unit fault and a three-week wait for manufacturer assessment. Confirm local service coverage and keep the installer and equipment warranty responsibilities clear.",
+        "Cold-climate heating needs its own assessment. A larger cooling number does not establish winter performance or lower running costs."
+      ],
+      "suitability": {
+        "suits": [
+          "a living area assessed for approximately this nominal capacity",
+          "households needing both heating and cooling with remote app access"
+        ],
+        "mayNotSuit": [
+          "small enclosed rooms where a lower capacity is appropriate",
+          "whole-home or multiple closed-room conditioning from one indoor head"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model specifications",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/product/set-asth18kmtd-nxt",
+          "supports": "Exact NXT pair ASTH18KMTD / AOTH18KMTD: 5.0kW cooling, 6.0kW heating; indoor 280H × 980W × 240D mm; anywAiR adaptor II included. Average-climate cooling/heating ratings 4.5/3; cold heating 2.5, not the hot-zone rating. Rated input is distinct from heat output. No guarantee that a stated floor area will suit.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer operation and maintenance instructions",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/product-documents/operation-manual-pdfb73c54d4c2f943baa3425cf5cc1a8336.pdf?download=true&sfvrsn=29c51758_0",
+          "supports": "Manufacturer-linked manual, pages 9–10: filter-cleaning schedule and replacement elements; isolate before maintenance. Installation and servicing need qualified personnel. No DIY installation instructions reproduced.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty and service terms",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/terms-and-conditions/j004412-au-warranty-cards_%C6%92_screen.pdf?sfvrsn=25ab4870_1",
+          "supports": "Written Australian five-year parts/labour cover read. Correct licensed installation, maintenance and proof of purchase required; travel outside service areas and difficult access may cost extra. No promise of lifespan, immediate service or unrestricted cover.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "Read ten displayed individual reports of 11. Quiet cooling and app convenience recur; Joan notes a control learning curve. Cody reports a non-working unit and a three-week wait for manufacturer verification: retained as a material support limitation. Single report does not establish a repeated serious reliability pattern; no measured cost or longevity claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "Clean anonymous HTML 25 October: exact SET-ASTH18KMTD-NXT, SKU 50087945, InStock offer and active ordering control. No supplier-direct restriction identified. Postcode stock, installation availability and delivery dates not verified. Evidence: tmp/buying-options-2026-10-25/fujitsu-50.html.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian brand and model recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Fujitsu",
+          "supports": "Fresh filtered register returned old AOT45/54 LJAYL/LJBYL terminal-block recall and laptop batteries; neither matches this indoor/outdoor pair. No matching notice found. Dated search, not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact approved affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "Exact clean URL and model SET-ASTH18KMTD-NXT, SKU 50087945, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/ac-fujitsu-50-640.webp",
+        "srcSet": "/images/products/ac-fujitsu-50-320.webp 320w, /images/products/ac-fujitsu-50-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Fujitsu Lifestyle Next SET-ASTH18KMTD-NXT — 5.0kW indoor unit",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50087945_884095.png?v=1776228608",
+        "suppliedVia": "Exact-model retailer listing: https://www.thegoodguys.com.au/fujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
+      "id": "tgg-ac-panasonic-z71akr",
+      "guidePath": "/guides/air-conditioning-buying-guide/",
+      "name": "Panasonic CS-Z71AKRW / CU-Z71AKR — 7.1kW",
+      "productType": "7.1kW cooling / 8.0kW heating split system",
+      "summary": "A larger single-room option with 7.1kW cooling and 8.0kW heating, built-in Wi-Fi and a 1040mm-wide indoor body. It may suit a larger connected living zone after a heat-load assessment; it is not a substitute for a multi-room design. Compare the installed cost and outdoor-unit position before ordering.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The larger indoor body and outdoor equipment need clear, serviceable positions. It is not automatically suitable because the living room is open plan.",
+        "Owner complaints include installation scheduling and extra-cost disputes. Obtain an itemised quote for electrical work, pipework, mounting, drainage and removal before buying.",
+        "Winter suitability varies by climate; compare heating performance as well as cooling. The purification feature does not establish a health benefit in your home."
+      ],
+      "suitability": {
+        "suits": [
+          "a larger single living zone whose assessed cooling load warrants 7.1kW",
+          "buyers wanting one fixed system for heating and cooling with app control"
+        ],
+        "mayNotSuit": [
+          "small rooms or several closed bedrooms served by one head",
+          "sites without sufficient installation space, electrical provision or permissions"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model specifications",
+          "publisher": "Panasonic",
+          "sourceUrl": "https://www.panasonic.com/content/dam/panasonic/au/en/pim/dam/CS/CS-Z35/CS-Z35AKRW_CU-Z35AKR-PP/ast-2506169.pdf",
+          "supports": "Australian Z-series brochure page 2 visually inspected: exact CS-Z71AKRW / CU-Z71AKR, 7.10kW cooling and 8.00kW heating; indoor 295H × 1040W × 244D mm; built-in Wi-Fi. Average cooling/heating 3.5/2.5, cold heating 2. No health, purification-effectiveness, 25m airflow (different model), or savings percentage claim accepted. Retailer 65dB sound power must not be compared with other products quiet sound-pressure figures.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty and service terms",
+          "publisher": "Panasonic",
+          "sourceUrl": "https://www.panasonic.com/content/dam/panasonic/au/en/support/manufacturers_warranty/PRO-031-F14-Warranty-Air-Conditioners_Iss5.pdf",
+          "supports": "Written Australian five-year parts/labour cover read. Correct licensed installation, maintenance and proof of purchase required; travel outside service areas and difficult access may cost extra. No promise of lifespan, immediate service or unrestricted cover.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+          "supports": "Read ten displayed individual reports of 23. Useful cooling, quiet operation and controls recur. Two low ratings concern retailer-appointed installation/upselling rather than established equipment faults; another account details postponed installation and refund difficulties. Itemised installation scope is material. No independent hands-on or lifetime efficiency conclusion.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+          "supports": "Clean anonymous HTML 25 October: exact CS/CU-Z71AKR, SKU 50091567, InStock offer and active ordering control. No supplier-direct restriction identified. Postcode stock, installation availability and delivery dates not verified. Evidence: tmp/buying-options-2026-10-25/panasonic-71.html.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian brand and model recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Panasonic",
+          "supports": "Fresh register includes old CU-A281KR/C281KR/A28BKP5/C28BKP5 recall, not CU-Z71AKR. Other returned notices are unrelated products. No matching notice found; not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact approved affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+          "supports": "Exact clean URL and model CS/CU-Z71AKR, SKU 50091567, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/ac-panasonic-71-640.webp",
+        "srcSet": "/images/products/ac-panasonic-71-320.webp 320w, /images/products/ac-panasonic-71-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Panasonic CS-Z71AKRW / CU-Z71AKR — 7.1kW indoor unit",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091567_924290.png?v=1776228368",
+        "suppliedVia": "Exact-model retailer listing: https://www.thegoodguys.com.au/panasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
+      "id": "heating-delonghi-trrse0715t",
+      "guidePath": "/guides/home-heating-options-australia/",
+      "name": "De’Longhi RadiaS Easytronic TRRSE0715T Oil Column Heater",
+      "productType": "1500W oil-filled heater with electronic thermostat",
+      "summary": "A fan-free 1500W oil-column heater for gradual warmth in an enclosed room. Its electronic thermostat and power-limit button help manage output; castors help with movement on a level floor. At about 9.9kg, it is less convenient to carry between floors. The Good Guys listed the exact white TRRSE0715T as available to order at our 25 October check; confirm delivery or collection for your postcode.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Lower maximum heat output than the 2400W convector: it will not solve a large or draughty room simply by running longer. Warm-up is gradual, and fan-free does not mean completely silent; owner feedback includes thermostat-switching noise.",
+        "The body remains hot after switching off. Keep it upright, uncovered and at least one metre from furniture, bedding and curtains; use a suitable wall socket directly. Switch it off before leaving the room or sleeping.",
+        "Controls need familiarisation: an owner reported incomplete instructions. The series manual says previous operating settings resume after a power interruption; turn the heater off at its own switch when finished."
+      ],
+      "suitability": {
+        "suits": [
+          "supervised background warmth in a suitably sized enclosed room with a clear, stable floor position",
+          "readers wanting an electronic thermostat and fan-free heating rather than instant hot airflow"
+        ],
+        "mayNotSuit": [
+          "large open-plan rooms, rapid spot heating or frequent carrying on stairs",
+          "unattended or overnight operation, or places where children or pets can touch the hot body"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model product and support page",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://www.delonghi.com/en-au/p/radias-radias-easytronic-oil-filled-radiator-trrse0715t/TRRSE0715T.html",
+          "supports": "Exact Australian white TRRSE0715T: 1500W and electronic temperature controls. Support page links TRRSE-series instructions 5718512070_01_0425. Used claims limited to verified power, thermostat, power-limit button, castors and gradual resistance heating. Do not transfer retailer 45m² claims, guarantee coverage or publish the marketing energy-saving percentage as a measured AHC result.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "TRRSE-series instructions linked by the Australian TRRSE0715T support centre",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=382735&download=true",
+          "supports": "Pages 4–9: upright setup, room floor area at least 4m², earthed socket matching rating/load, temperature control and power-limit function, restart in previous mode after power loss, overheat and tilt response, unplug/cool before cleaning. The 11 comfort temperatures plus antifreeze are not 12 temperatures between 14 and 28°C. Timer chapter explicitly names TRRSE0920T; do not copy model-specific timer instructions to this 1500W model. Public placement does not depend on a timer claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian oil-column heater warranty and support",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://www.delonghi.com/en-au/warranty",
+          "supports": "Written Australian warranty schedule gives new oil-column heaters seven years in normal domestic use (factory seconds three years). This corroborates the exact-model Good Guys seven-year listing; generic two-year website checkout text is not the category warranty. Exclusions and authorised service requirements apply; no promise of lifespan, call-out service or unrestricted coverage.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model individual purchaser reports",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+          "supports": "Read the ten displayed individual reviews from a total of 14, not the AI summary. Recurring positive reports concern useful room warmth and ease of everyday use; one buyer reports incomplete instructions and another calls it overpriced. Reviews may be incentivised. Reject owner or AI claims of cool-touch nursery safety, overnight safety and measured energy savings. No hands-on testing or proven long-term durability claimed.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Three manufacturer-origin owner reports on the exact model",
+          "publisher": "De’Longhi owners, syndicated by Appliances Online",
+          "sourceUrl": "https://www.appliancesonline.com.au/product/delonghi-radia-easytronic-1500w-oil-column-heater-trrse0715t/",
+          "supports": "Read the three individual reports shown by the web source: Eric, Manda and Cold frog, originally posted on De’Longhi. Reports discuss useful bedroom warmth and compact size; Cold frog notes thermostat-switching noise. Treat these as syndicated owner accounts, not independent expert testing; do not endorse overnight operation or subjective economical claims.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model Australian retail availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+          "supports": "Fresh clean anonymous HTML on 25 October: model TRRSE0715T, SKU 50097988, GTIN 8004399036635, InStock structured offer and active ADD TO CART. White 1500W model, listed weight 9.9kg, seven-year manufacturer warranty. Delivery and collection are postcode-dependent; no nationwide-stock promise. Raw HTML and observation saved under tmp/oil-replacement-2026-10-25/.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Filtered Australian DeLonghi recall register check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=DeLonghi",
+          "supports": "Fresh filtered register feed returned two Kenwood kitchen-appliance recalls and no matching TRRSE0715T or oil-column heater notice. Search-index exact TRRSE check also found no matching recall. Dated search only, not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Portable heater placement precautions",
+          "publisher": "Fire and Rescue NSW",
+          "sourceUrl": "https://www.fire.nsw.gov.au/fire-safety/home-fire-safety/topics/heaters-and-open-fires",
+          "supports": "Maintain one metre clearance, follow manufacturer instructions and supervise children around working heaters. Existing article precaution to switch off before leaving or sleeping retained; no reliance on retailer AI safety summaries.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved Good Guys exact-model affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+          "supports": "Destination generated and decoded offline; exact clean product URL, model and SKU matched to fresh listing. Existing approved campaign 1100l6vaUc and creative 1011l64579 retained. DeLonghi is not in the saved campaign brand exclusions and this offer is not in-store-only. No affiliate URL or tracking redirect requested; this verifies configuration, not earned commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/delonghi-trrse0715t-640.webp",
+        "srcSet": "/images/products/delonghi-trrse0715t-320.webp 320w, /images/products/delonghi-trrse0715t-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "White De’Longhi RadiaS Easytronic TRRSE0715T oil column heater",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50097988_1053219.png?v=1776232272",
+        "suppliedVia": "Exact-model retailer product listing: https://www.thegoodguys.com.au/delonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
+      "id": "heating-fujitsu-astg09kmtc-nxt",
+      "guidePath": "/guides/home-heating-options-australia/",
+      "name": "Fujitsu Lifestyle Next SET-ASTG09KMTC-NXT — 2.5kW",
+      "productType": "2.5kW cooling / 3.2kW heating split system",
+      "summary": "A smaller-capacity reverse-cycle option for an enclosed bedroom or study when the assessed load suits 2.5kW cooling and 3.2kW heating. The NXT package includes the anywAiR Wi-Fi adaptor II; do not confuse it with the base package without NXT. Its indoor body is 834mm wide, before installation clearances.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A small-capacity system is not a whole-home cooling solution; confirm the heat load and winter climate performance before ordering.",
+        "Wi-Fi needs the included adaptor fitted and configured, a compatible network and an app account. It is not a reason to choose the wrong capacity.",
+        "Filters need routine cleaning and some filter elements need replacement. Installation, access and ongoing maintenance add to the equipment cost."
+      ],
+      "suitability": {
+        "suits": [
+          "a measured enclosed room with a suitable 2.5kW cooling load",
+          "buyers wanting app control in the exact NXT bundle"
+        ],
+        "mayNotSuit": [
+          "large connected living spaces or whole-home cooling",
+          "properties without permission and suitable indoor/outdoor installation positions"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model specifications",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/product/set-astg09kmtc-nxt",
+          "supports": "Exact NXT pair ASTG09KMTC / AOTG09KMTC: 2.50kW cooling, 3.20kW heating, indoor 270H × 834W × 222D mm. NXT includes anywAiR adaptor II, unlike base model. Average-climate cooling/heating stars 5/3. Manufacturer now publishes as GENERAL Airstage; exact retailer remains Fujitsu. No guaranteed floor-area coverage or measured AHC savings.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer operation and maintenance instructions",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/product-documents/operation-manual-pdf2394cae04faf48dea9c601649d84c7ca.pdf?download=true&sfvrsn=6d3b82f4_0",
+          "supports": "Manufacturer-linked manual, pages 9–10: filter-cleaning schedule and replacement elements; isolate before maintenance. Installation and servicing need qualified personnel. No DIY installation instructions reproduced.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty and service terms",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/terms-and-conditions/j004412-au-warranty-cards_%C6%92_screen.pdf?sfvrsn=25ab4870_1",
+          "supports": "Written Australian five-year parts/labour cover read. Correct licensed installation, maintenance and proof of purchase required; travel outside service areas and difficult access may cost extra. No promise of lifespan, immediate service or unrestricted cover.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "Read ten displayed individual reports of 67. Repeated useful cooling, quiet operation and convenient controls; two Tina entries with same purchase date are potentially duplicated. A follow-up inspection concern is installation context. Old-unit lifespan anecdotes are not evidence for this model. Incentives possible; no independent durability or efficiency test.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "Clean anonymous HTML 25 October: exact SET-ASTG09KMTC-NXT, SKU 50087940, InStock offer and active ordering control. No supplier-direct restriction identified. Postcode stock, installation availability and delivery dates not verified. Evidence: tmp/buying-options-2026-10-25/fujitsu-25.html.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian brand and model recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Fujitsu",
+          "supports": "Fresh filtered register returned old AOT45/54 LJAYL/LJBYL terminal-block recall and laptop batteries; neither matches this indoor/outdoor pair. No matching notice found. Dated search, not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact approved affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "Exact clean URL and model SET-ASTG09KMTC-NXT, SKU 50087940, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/ac-fujitsu-25-640.webp",
+        "srcSet": "/images/products/ac-fujitsu-25-320.webp 320w, /images/products/ac-fujitsu-25-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Fujitsu Lifestyle Next SET-ASTG09KMTC-NXT — 2.5kW indoor unit",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50087940_884097.png?v=1776228368",
+        "suppliedVia": "Exact-model retailer listing: https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
+      "id": "heating-fujitsu-asth18kmtd-nxt",
+      "guidePath": "/guides/home-heating-options-australia/",
+      "name": "Fujitsu Lifestyle Next SET-ASTH18KMTD-NXT — 5.0kW",
+      "productType": "5.0kW cooling / 6.0kW heating split system",
+      "summary": "A step up to 5.0kW cooling and 6.0kW heating for a living area whose calculated load needs that capacity. The NXT bundle includes the anywAiR Wi-Fi adaptor II. Allow for a 980mm-wide indoor body, additional clearances and a suitable outdoor location in the installation quote.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The indoor head is wider than the 2.5kW unit; body dimensions do not include service and airflow clearances.",
+        "One owner reports a unit fault and a three-week wait for manufacturer assessment. Confirm local service coverage and keep the installer and equipment warranty responsibilities clear.",
+        "Cold-climate heating needs its own assessment. A larger cooling number does not establish winter performance or lower running costs."
+      ],
+      "suitability": {
+        "suits": [
+          "a living area assessed for approximately this nominal capacity",
+          "households needing both heating and cooling with remote app access"
+        ],
+        "mayNotSuit": [
+          "small enclosed rooms where a lower capacity is appropriate",
+          "whole-home or multiple closed-room conditioning from one indoor head"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model specifications",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/product/set-asth18kmtd-nxt",
+          "supports": "Exact NXT pair ASTH18KMTD / AOTH18KMTD: 5.0kW cooling, 6.0kW heating; indoor 280H × 980W × 240D mm; anywAiR adaptor II included. Average-climate cooling/heating ratings 4.5/3; cold heating 2.5, not the hot-zone rating. Rated input is distinct from heat output. No guarantee that a stated floor area will suit.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer operation and maintenance instructions",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/product-documents/operation-manual-pdfb73c54d4c2f943baa3425cf5cc1a8336.pdf?download=true&sfvrsn=29c51758_0",
+          "supports": "Manufacturer-linked manual, pages 9–10: filter-cleaning schedule and replacement elements; isolate before maintenance. Installation and servicing need qualified personnel. No DIY installation instructions reproduced.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty and service terms",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/terms-and-conditions/j004412-au-warranty-cards_%C6%92_screen.pdf?sfvrsn=25ab4870_1",
+          "supports": "Written Australian five-year parts/labour cover read. Correct licensed installation, maintenance and proof of purchase required; travel outside service areas and difficult access may cost extra. No promise of lifespan, immediate service or unrestricted cover.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "Read ten displayed individual reports of 11. Quiet cooling and app convenience recur; Joan notes a control learning curve. Cody reports a non-working unit and a three-week wait for manufacturer verification: retained as a material support limitation. Single report does not establish a repeated serious reliability pattern; no measured cost or longevity claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "Clean anonymous HTML 25 October: exact SET-ASTH18KMTD-NXT, SKU 50087945, InStock offer and active ordering control. No supplier-direct restriction identified. Postcode stock, installation availability and delivery dates not verified. Evidence: tmp/buying-options-2026-10-25/fujitsu-50.html.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian brand and model recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Fujitsu",
+          "supports": "Fresh filtered register returned old AOT45/54 LJAYL/LJBYL terminal-block recall and laptop batteries; neither matches this indoor/outdoor pair. No matching notice found. Dated search, not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact approved affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "Exact clean URL and model SET-ASTH18KMTD-NXT, SKU 50087945, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/ac-fujitsu-50-640.webp",
+        "srcSet": "/images/products/ac-fujitsu-50-320.webp 320w, /images/products/ac-fujitsu-50-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Fujitsu Lifestyle Next SET-ASTH18KMTD-NXT — 5.0kW indoor unit",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50087945_884095.png?v=1776228608",
+        "suppliedVia": "Exact-model retailer listing: https://www.thegoodguys.com.au/fujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
+      "id": "formats-fujitsu-astg09kmtc-nxt",
+      "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
+      "name": "Fujitsu Lifestyle Next SET-ASTG09KMTC-NXT — 2.5kW",
+      "productType": "2.5kW cooling / 3.2kW heating split system",
+      "summary": "A smaller-capacity reverse-cycle option for an enclosed bedroom or study when the assessed load suits 2.5kW cooling and 3.2kW heating. The NXT package includes the anywAiR Wi-Fi adaptor II; do not confuse it with the base package without NXT. Its indoor body is 834mm wide, before installation clearances.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A small-capacity system is not a whole-home cooling solution; confirm the heat load and winter climate performance before ordering.",
+        "Wi-Fi needs the included adaptor fitted and configured, a compatible network and an app account. It is not a reason to choose the wrong capacity.",
+        "Filters need routine cleaning and some filter elements need replacement. Installation, access and ongoing maintenance add to the equipment cost."
+      ],
+      "suitability": {
+        "suits": [
+          "a measured enclosed room with a suitable 2.5kW cooling load",
+          "buyers wanting app control in the exact NXT bundle"
+        ],
+        "mayNotSuit": [
+          "large connected living spaces or whole-home cooling",
+          "properties without permission and suitable indoor/outdoor installation positions"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model specifications",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/product/set-astg09kmtc-nxt",
+          "supports": "Exact NXT pair ASTG09KMTC / AOTG09KMTC: 2.50kW cooling, 3.20kW heating, indoor 270H × 834W × 222D mm. NXT includes anywAiR adaptor II, unlike base model. Average-climate cooling/heating stars 5/3. Manufacturer now publishes as GENERAL Airstage; exact retailer remains Fujitsu. No guaranteed floor-area coverage or measured AHC savings.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer operation and maintenance instructions",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/product-documents/operation-manual-pdf2394cae04faf48dea9c601649d84c7ca.pdf?download=true&sfvrsn=6d3b82f4_0",
+          "supports": "Manufacturer-linked manual, pages 9–10: filter-cleaning schedule and replacement elements; isolate before maintenance. Installation and servicing need qualified personnel. No DIY installation instructions reproduced.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty and service terms",
+          "publisher": "Fujitsu",
+          "sourceUrl": "https://www.generalairstage.com.au/docs/default-source/terms-and-conditions/j004412-au-warranty-cards_%C6%92_screen.pdf?sfvrsn=25ab4870_1",
+          "supports": "Written Australian five-year parts/labour cover read. Correct licensed installation, maintenance and proof of purchase required; travel outside service areas and difficult access may cost extra. No promise of lifespan, immediate service or unrestricted cover.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "Read ten displayed individual reports of 67. Repeated useful cooling, quiet operation and convenient controls; two Tina entries with same purchase date are potentially duplicated. A follow-up inspection concern is installation context. Old-unit lifespan anecdotes are not evidence for this model. Incentives possible; no independent durability or efficiency test.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "Clean anonymous HTML 25 October: exact SET-ASTG09KMTC-NXT, SKU 50087940, InStock offer and active ordering control. No supplier-direct restriction identified. Postcode stock, installation availability and delivery dates not verified. Evidence: tmp/buying-options-2026-10-25/fujitsu-25.html.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian brand and model recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Fujitsu",
+          "supports": "Fresh filtered register returned old AOT45/54 LJAYL/LJBYL terminal-block recall and laptop batteries; neither matches this indoor/outdoor pair. No matching notice found. Dated search, not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact approved affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "Exact clean URL and model SET-ASTG09KMTC-NXT, SKU 50087940, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/ac-fujitsu-25-640.webp",
+        "srcSet": "/images/products/ac-fujitsu-25-320.webp 320w, /images/products/ac-fujitsu-25-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Fujitsu Lifestyle Next SET-ASTG09KMTC-NXT — 2.5kW indoor unit",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50087940_884097.png?v=1776228368",
+        "suppliedVia": "Exact-model retailer listing: https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
+      "id": "formats-panasonic-z71akr",
+      "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
+      "name": "Panasonic CS-Z71AKRW / CU-Z71AKR — 7.1kW",
+      "productType": "7.1kW cooling / 8.0kW heating split system",
+      "summary": "A larger single-room option with 7.1kW cooling and 8.0kW heating, built-in Wi-Fi and a 1040mm-wide indoor body. It may suit a larger connected living zone after a heat-load assessment; it is not a substitute for a multi-room design. Compare the installed cost and outdoor-unit position before ordering.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The larger indoor body and outdoor equipment need clear, serviceable positions. It is not automatically suitable because the living room is open plan.",
+        "Owner complaints include installation scheduling and extra-cost disputes. Obtain an itemised quote for electrical work, pipework, mounting, drainage and removal before buying.",
+        "Winter suitability varies by climate; compare heating performance as well as cooling. The purification feature does not establish a health benefit in your home."
+      ],
+      "suitability": {
+        "suits": [
+          "a larger single living zone whose assessed cooling load warrants 7.1kW",
+          "buyers wanting one fixed system for heating and cooling with app control"
+        ],
+        "mayNotSuit": [
+          "small rooms or several closed bedrooms served by one head",
+          "sites without sufficient installation space, electrical provision or permissions"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model specifications",
+          "publisher": "Panasonic",
+          "sourceUrl": "https://www.panasonic.com/content/dam/panasonic/au/en/pim/dam/CS/CS-Z35/CS-Z35AKRW_CU-Z35AKR-PP/ast-2506169.pdf",
+          "supports": "Australian Z-series brochure page 2 visually inspected: exact CS-Z71AKRW / CU-Z71AKR, 7.10kW cooling and 8.00kW heating; indoor 295H × 1040W × 244D mm; built-in Wi-Fi. Average cooling/heating 3.5/2.5, cold heating 2. No health, purification-effectiveness, 25m airflow (different model), or savings percentage claim accepted. Retailer 65dB sound power must not be compared with other products quiet sound-pressure figures.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty and service terms",
+          "publisher": "Panasonic",
+          "sourceUrl": "https://www.panasonic.com/content/dam/panasonic/au/en/support/manufacturers_warranty/PRO-031-F14-Warranty-Air-Conditioners_Iss5.pdf",
+          "supports": "Written Australian five-year parts/labour cover read. Correct licensed installation, maintenance and proof of purchase required; travel outside service areas and difficult access may cost extra. No promise of lifespan, immediate service or unrestricted cover.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual exact-model purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+          "supports": "Read ten displayed individual reports of 23. Useful cooling, quiet operation and controls recur. Two low ratings concern retailer-appointed installation/upselling rather than established equipment faults; another account details postponed installation and refund difficulties. Itemised installation scope is material. No independent hands-on or lifetime efficiency conclusion.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+          "supports": "Clean anonymous HTML 25 October: exact CS/CU-Z71AKR, SKU 50091567, InStock offer and active ordering control. No supplier-direct restriction identified. Postcode stock, installation availability and delivery dates not verified. Evidence: tmp/buying-options-2026-10-25/panasonic-71.html.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian brand and model recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Panasonic",
+          "supports": "Fresh register includes old CU-A281KR/C281KR/A28BKP5/C28BKP5 recall, not CU-Z71AKR. Other returned notices are unrelated products. No matching notice found; not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact approved affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+          "supports": "Exact clean URL and model CS/CU-Z71AKR, SKU 50091567, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/ac-panasonic-71-640.webp",
+        "srcSet": "/images/products/ac-panasonic-71-320.webp 320w, /images/products/ac-panasonic-71-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Panasonic CS-Z71AKRW / CU-Z71AKR — 7.1kW indoor unit",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091567_924290.png?v=1776228368",
+        "suppliedVia": "Exact-model retailer listing: https://www.thegoodguys.com.au/panasonic-c71kw-h80kw-reverse-cycle-split-system-and-air-purifier-cscu-z71akr",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
+      "id": "small-kitchen-drawerstore-85119",
+      "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
+      "name": "Joseph Joseph DrawerStore Compact 85119 — Grey",
+      "productType": "Narrow cutlery organiser",
+      "summary": "An 11 cm-wide organiser with overlapping cutlery slots for a narrow drawer. It needs at least 8 cm of internal drawer height, even though the empty organiser is 5.7 cm high.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-drawerstore-compact-cutlery-85119",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Hand wash and dry; it is not dishwasher-safe despite the retailer overview.",
+        "The 39.5 cm depth and overlapping slots will not suit every drawer or oversized utensil.",
+        "An owner reports cutlery catching when opening the drawer. Check clearance with your longest and tallest cutlery in place, not just the empty tray."
+      ],
+      "suitability": {
+        "suits": [
+          "narrow drawers holding ordinary cutlery"
+        ],
+        "mayNotSuit": [
+          "shallow drawers or bulky cooking utensils"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph DrawerStore Compact 85119 — Grey",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://www.josephjoseph.com/products/drawerstore-compact-cutlery-organiser-grey",
+          "supports": "Exact model, format, dimensions, care and practical limitations checked. An 11 cm-wide organiser with overlapping cutlery slots for a narrow drawer. It needs at least 8 cm of internal drawer height, even though the empty organiser is 5.7 cm high.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/joseph-joseph-drawerstore-compact-cutlery-85119",
+          "supports": "Model 85119 listed InStock by the Australian retailer. Australian retailer support and manufacturer support route checked. Delivery/pickup remains postcode-dependent; no checkout or purchase performed.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brand and model search reviewed on 25 October 2026; no matching Australian recall identified for 85119. This is a dated search result, not a safety certification. Applicable instructions remain necessary.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer listing",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fjoseph-joseph-drawerstore-compact-cutlery-85119",
+          "supports": "Model 85119, SKU 50051985, exact listed variant matched. Retailer offer shows InStock and Australian ordering controls; postcode stock not guaranteed. Affiliate campaign/destination validated offline without opening a tracking link.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual manufacturer and retailer feedback",
+          "publisher": "Joseph Joseph / The Good Guys",
+          "sourceUrl": "https://www.josephjoseph.com/products/drawerstore-compact-cutlery-organiser-grey",
+          "supports": "Ten displayed manufacturer reviews of 225 and four retailer reviews read. Space saving and access recur; one owner reports cutlery catching and jamming the drawer. Two retailer entries share an author/date and are not independent. Delivery complaint is not a product defect. No claim that it fits all drawers.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian retailer-purchase support",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Retailer customers can make a fault claim with receipt, batch code and photographs. Direct-site minimum two-year wording is not transferred to this retailer purchase.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-drawer-640.webp",
+        "srcSet": "/images/products/tgg-drawer-320.webp 320w, /images/products/tgg-drawer-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Joseph Joseph DrawerStore Compact 85119 — Grey",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50051985_816762.png?v=1776227473",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/joseph-joseph-drawerstore-compact-cutlery-85119",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "small-kitchen-cupboardstore-8500002",
+      "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
+      "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+      "productType": "Freestanding cleaning-supply caddy",
+      "summary": "A single-tier caddy with rear wheels and a front handle brings cleaning bottles forward from a deep cupboard. It needs no fixed runners, but the large footprint makes door and pipe clearance especially important.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow 30.5 cm width and 46.5 cm depth, including room for the cupboard door to close. The empty caddy is 11 cm high; bottles need extra headroom beneath pipes or shelves.",
+        "This is a loose caddy, not a fitted drawer: keep it on a level surface and control the pull so it cannot roll off the cupboard edge.",
+        "The open compartments do not provide child-resistant storage. Keep cleaning products securely stored and follow their labels; wipe the caddy clean."
+      ],
+      "suitability": {
+        "suits": [
+          "deep cupboards with a clear path for bringing cleaning bottles and cloths forward"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards or layouts obstructed by plumbing",
+          "households expecting a fixed pull-out drawer or lockable chemical storage"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Manufacturer model 8500002 (Stone), H11 x W30.5 x D46.5 cm; rear wheels, front handle and divided compartments, wipe-clean care. Amazon Item details confirmed model 8500002 and Large variant. Amazon transposes the dimension axes; published measurements follow the manufacturer. No load rating verified.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Variant-specific owner feedback",
+          "publisher": "Joseph Joseph Australia and Amazon Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Read ten displayed manufacturer reviews of 13. Capacity and access recur; one owner lacked width for two side by side, and another found depth prevented door closure. No pooled Amazon review total used or durability claim made.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "Fresh clean untagged ASIN B0F847ZC6G HTML: In stock, active purchase control, model 8500002 and Large selected variant. Shipper / Seller Amazon AU. Dated observation; no postcode delivery guarantee. No cookies, retailer scripts or affiliate requests.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU offer and tracked destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Exact selected variant inspected. Shipper / Seller: Amazon AU; 30-day change-of-mind return eligibility displayed. Destination retains ASIN B0F847ZC6G and tracking tag ahc07-22. This verifies link construction, not earned commission.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian guarantee and retailer claim process",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Manufacturer describes faults/workmanship cover and a separate retailer claim process requiring proof of purchase, batch code and photos. The minimum two-year wording is explicitly for direct purchases; no unverified Amazon-specific warranty duration is claimed.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
+          "supports": "Official Joseph Joseph search inspected on 25 October 2026. Five unrelated results (flashlight, coloured sand, grease, worklight and relay); no matching kitchen organiser recall found. Dated recall search, not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp",
+        "srcSet": "/images/products/renter-joseph-joseph-large-wheeled-caddy-320.webp 320w, /images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp 640w, /images/products/renter-joseph-joseph-large-wheeled-caddy-960.webp 960w",
+        "alt": "Stone-coloured Joseph Joseph large wheeled caddy holding cleaning supplies at the front of a cupboard.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph’s website.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+        "checkedOn": "2026-10-11"
       }
     }
   ]

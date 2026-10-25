@@ -75,15 +75,19 @@
     {
       "guidePath": "/guides/air-conditioning-buying-guide/",
       "title": "Air Conditioning Buying Guide: What to Check Before You Choose and Install",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "afd4b0e32e66d5e9833fff8fad1101e63f50ac6109282168680f35c54f80dbc9",
+      "reviewedSourceSha256": "9c09d172e1fa74b0e1bfa714ecf1efa4606b02039bd08edf9636880091d89fbc",
       "requiredProductTypes": [
         {
           "label": "Site-assessed single-room reverse-cycle split system",
           "productIds": [
-            "tgg-split-mid-air-conditioning-buying-guide"
+            "tgg-split-mid-air-conditioning-buying-guide",
+            "tgg-ac-fujitsu-astg09kmtc-nxt",
+            "tgg-ac-hisense-hawu9kr",
+            "tgg-ac-fujitsu-asth18kmtd-nxt",
+            "tgg-ac-panasonic-z71akr"
           ]
         },
         {
@@ -99,7 +103,7 @@
         "/guides/how-to-keep-house-cooler-in-summer/",
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md. Gap reasons researched 18 October; no new product approval on this page."
+      "reviewScope": "25 October exact-model research and fresh clean retailer offers for new placements; manufacturer specifications, warranty, owner limitations and recalls recorded in docs/editorial/buying-options-expansion-2026-10-25.md. Earlier reviews of unchanged products remain dated. No affiliate requests or artificial clicks."
     },
     {
       "guidePath": "/guides/australian-made-gift-ideas-under-100/",
@@ -514,15 +518,17 @@
     {
       "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
       "title": "Kitchen Storage That Makes Small Cupboards Easier to Use",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "5b7859b822620e34d28d142a163606f39830f84d7140d6af9b46c183ca51c4b0",
+      "reviewedSourceSha256": "5f275bb39ed5bd4c6c5103360c66a21bbe4f27220a16f009d382d2f7fa8085c8",
       "requiredProductTypes": [
         {
-          "label": "Small-kitchen storage options",
-          "productIds": [],
-          "gapReason": "Direct buying choices are missing; existing focused storage guides are contextual routes only."
+          "label": "Narrow cutlery and deep-cupboard access options",
+          "productIds": [
+            "small-kitchen-drawerstore-85119",
+            "small-kitchen-cupboardstore-8500002"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -530,7 +536,7 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "Contextual internal links maintained after adding the everyday kitchen container option. No new product research on this supporting page."
+      "reviewScope": "25 October exact-model research and fresh clean retailer offers for new placements; manufacturer specifications, warranty, owner limitations and recalls recorded in docs/editorial/buying-options-expansion-2026-10-25.md. Earlier reviews of unchanged products remain dated. No affiliate requests or artificial clicks."
     },
     {
       "guidePath": "/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
@@ -1155,15 +1161,28 @@
     {
       "guidePath": "/guides/home-heating-options-australia/",
       "title": "Home Heating Options in Australia: What to Check Before You Choose",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "f8ae31e9102c7bd346b19ab502040371818a594cf859f6006c9c3a30bed3d555",
+      "reviewedSourceSha256": "d6f3eed1f7a543c826520dd08365b15fe0c98321907607716a0de90eeb7ca51d",
       "requiredProductTypes": [
         {
-          "label": "Installed and portable heating choices",
+          "label": "Portable oil-column heater",
+          "productIds": [
+            "heating-delonghi-trrse0715t"
+          ]
+        },
+        {
+          "label": "Site-assessed single-room heat pump",
+          "productIds": [
+            "heating-fujitsu-astg09kmtc-nxt",
+            "heating-fujitsu-asth18kmtd-nxt"
+          ]
+        },
+        {
+          "label": "Personal, ducted and other fixed heating formats",
           "productIds": [],
-          "gapReason": "Broad category explanation is not a current researched shortlist; old Amazon-only rationale is obsolete."
+          "gapReason": "Personal heating needs separate fit and safety checks; ducted, hydronic and fuel systems need a site-specific design. These examples do not cover every heating type."
         }
       ],
       "supportingProductIds": [],
@@ -1172,7 +1191,7 @@
         "/guides/oil-column-heater-vs-panel-heater/",
         "/guides/electric-blankets-vs-heated-throws/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October exact-model research and fresh clean retailer offers for new placements; manufacturer specifications, warranty, owner limitations and recalls recorded in docs/editorial/buying-options-expansion-2026-10-25.md. Earlier reviews of unchanged products remain dated. No affiliate requests or artificial clicks."
     },
     {
       "guidePath": "/guides/home-insulation-basics/",
@@ -1418,10 +1437,10 @@
     {
       "guidePath": "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
       "title": "Kitchen Bench Space That Stays Clear",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "editorial",
       "editorialReason": "Clear existing bench clutter before buying organisers.",
-      "reviewedSourceSha256": "fa94395c4b55829eecabc5a57e70d54c43f295b01e7869293ce9849976a2c594",
+      "reviewedSourceSha256": "851c96ae28d0c4fa5100c952724a5913213c2100488da7a0f59f806557668623",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -1434,7 +1453,7 @@
         "/guides/convection-microwave-vs-air-fryer/",
         "/guides/rangehood-buying-guide-australia/"
       ],
-      "reviewScope": "Reviewed contextual route to the newly researched buying comparison; no product cards added to this editorial guide."
+      "reviewScope": "25 October contextual links to cookware and kitchen essentials for worn equipment revealed during sorting. Remains editorial; no product cards or new product research on this page."
     },
     {
       "guidePath": "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/",
@@ -2336,15 +2355,17 @@
     {
       "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
       "title": "Portable vs Window/Wall vs Split-System Air Conditioner: Which Should You Choose?",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0e5f52fc3fdd59b92ce110cc549f11df6eae2b508244578af00b7ba6f195782e",
+      "reviewedSourceSha256": "0416215fa65c4a55b0d3df52037b8775cfadaa974a2d357d4e3765e96cee3580",
       "requiredProductTypes": [
         {
           "label": "Site-assessed single-room reverse-cycle split system",
           "productIds": [
-            "tgg-split-mid-portable-vs-window-wall-vs-split-system-air-conditioner"
+            "tgg-split-mid-portable-vs-window-wall-vs-split-system-air-conditioner",
+            "formats-fujitsu-astg09kmtc-nxt",
+            "formats-panasonic-z71akr"
           ]
         },
         {
@@ -2363,7 +2384,7 @@
       "contextualRoutes": [
         "/guides/portable-air-conditioners-australia/"
       ],
-      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
+      "reviewScope": "25 October exact-model research and fresh clean retailer offers for new placements; manufacturer specifications, warranty, owner limitations and recalls recorded in docs/editorial/buying-options-expansion-2026-10-25.md. Earlier reviews of unchanged products remain dated. No affiliate requests or artificial clicks."
     },
     {
       "guidePath": "/guides/prepare-outdoor-area-for-summer/",

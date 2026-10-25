@@ -4,7 +4,7 @@ Implemented 24 October 2026. This replaces the expired manual supplier-order exc
 
 ## Coverage and cadence
 
-- Good Guys: every four hours, all approved primary and additional retailer offers. Check the authenticated product feed and clean exact-product purchase pages. The catalogue currently contains 49 distinct active offers after pausing TRRS0715EG.
+- Good Guys: every four hours, all approved primary and additional retailer offers. Check the authenticated product feed and clean exact-product purchase pages. As of 25 October the catalogue contains 54 distinct active offers: the TRRSE0715T replacement and four researched split systems have been added after pausing TRRS0715EG. The monitor derives coverage from the current catalogue; no fixed SKU list needs updating.
 - Amazon Australia: daily at 09:00 Australia/Brisbane through the local AHC affiliate availability follow-up, all 78 distinct approved ASINs, including additional retailer offers. Check primary ASIN, title, availability text and order control without activating it. This requires Shane's computer/Codex to be available; a missed or blocked run is a coverage gap, not a stock confirmation.
 - GitHub checks Amazon link structure offline daily at 06:30 Brisbane. The first cloud stock run was challenged on 76 listings and gave different availability on two; the cloud requests have been removed. Its green offline result must never be presented as a stock check. No proxies, CAPTCHA bypass or browser impersonation are used.
 - Both GitHub workflows run on relevant main-branch changes and manual dispatch. Catalogue additions are selected automatically; no fixed shortlist to become stale.

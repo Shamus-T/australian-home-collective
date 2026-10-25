@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-08-24",
+  "updatedOn": "2026-10-25",
   "reviews": [
     {
       "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
@@ -138,8 +138,8 @@
           "asin": "B076HM1GN5",
           "category": "portable oil column heater",
           "availabilityAtReview": "limited-stock",
-          "outcome": "approved",
-          "evidenceFinding": "The exact Amazon listing had limited stock and is supported by manufacturer specifications, an established owner record and Australian model support.",
+          "outcome": "historical-only",
+          "evidenceFinding": "Historical candidate evidence retained. This is no longer the oil-column offer currently published; see the 25 October TRRSE0715T replacement research. Do not interpret old availability as current.",
           "safetyFinding": "The 2400W load, hot body, weight, floor space, clearance and supervised-use requirements are material limitations retained in the product record."
         },
         {
@@ -159,11 +159,20 @@
           "outcome": "not-cleared",
           "evidenceFinding": "Manufacturer and Australian retail information exists, but the exact Amazon page exposed no current buying availability and had a sparse owner record.",
           "safetyFinding": "Portable and wall-mounted configurations have different installation and castor requirements, so the listing could not be promoted without clear current fulfilment and exact configuration evidence."
+        },
+        {
+          "name": "De’Longhi RadiaS Easytronic TRRSE0715T",
+          "asin": null,
+          "category": "portable 1500W oil column heater",
+          "availabilityAtReview": "available-to-order",
+          "outcome": "approved",
+          "evidenceFinding": "Fresh 25 October exact Good Guys model and SKU, official Australian specifications, manual and warranty plus individual owner accounts. See oil-heater-replacement-2026-10-25.md and the central product record.",
+          "safetyFinding": "Hot body, gradual warm-up, direct suitable wall power and supervised use. Switch off before leaving or sleeping. No generic cool-touch, unattended safety or measured savings claims."
         }
       ],
       "canRecommendTwo": true,
       "decision": "monetise",
-      "articleSpecificReason": "The approved oil column and slim convector are current, exact portable products that illustrate the route's real trade-offs without implying that either suits every room or unattended operation."
+      "articleSpecificReason": "The current approved TRRSE0715T oil column and HSX3324FTS convector illustrate different portable heating formats and outputs. The new oil-column research was completed 25 October; earlier unchanged convector research retains its original date in the central catalogue."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",

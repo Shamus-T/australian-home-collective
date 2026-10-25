@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-08-24",
+  "updatedOn": "2026-10-25",
   "decisions": [
     {
       "guidePath": "/guides/spring-cleaning-checklist/",
@@ -60,7 +60,7 @@
       "guidePath": "/guides/air-conditioning-buying-guide/",
       "classification": "monetised-correctly",
       "reasonCode": "verified-product-set",
-      "reason": "Panasonic CS-Z35AKRW / CU-Z35AKR added on 18 October as a researched single-room example with manufacturer-corrected capacity and licensed installation guidance. Multi-split, ducted and window/wall model gaps remain explicit in the article coverage registry."
+      "reason": "25 October shortlist: five exact splits across Fujitsu, Panasonic and Hisense, four cooling-capacity classes, matched official output figures and clear installation/warranty limitations. Multi-split, ducted and window/wall gaps remain recorded."
     },
     {
       "guidePath": "/guides/ceiling-fans-before-you-buy/",
@@ -112,9 +112,9 @@
     },
     {
       "guidePath": "/guides/home-heating-options-australia/",
-      "classification": "research-gap",
-      "reasonCode": "no-cohesive-two-product-decision",
-      "reason": "Open product-research gap: the overview has not yet established a current shortlist across its installed and portable heating categories. Amazon-only catalogue limits are no longer an adequate rationale."
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "25 October research supports one portable oil-column heater and two site-assessed Fujitsu split systems. The direct buying examples distinguish heating methods; remaining personal, ducted and other fixed formats are explicit gaps in the article coverage registry."
     },
     {
       "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
@@ -150,7 +150,7 @@
       "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
       "classification": "monetised-correctly",
       "reasonCode": "verified-product-set",
-      "reason": "Only the slim convector remains approved. The oil-column category is an explicit open research gap in the sitewide article coverage registry; this placement is not a complete two-format product comparison."
+      "reason": "25 October TRRSE0715T research and published replacement restore a 1500W oil-column option alongside the 2400W convector. Withdrawn TRRS0715EG remains paused; neither model is presented as suitable for unattended operation."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",
