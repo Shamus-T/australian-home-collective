@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-10-18",
+  "updatedOn": "2026-10-25",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -1901,10 +1901,10 @@
     {
       "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
       "title": "Oil Column Heater vs Panel Heater: Which Suits Your Room?",
-      "reviewedOn": "2026-10-24",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "141c301be777cdf9265b5f719436ad84305490c2eece0c020319308de4d4b3f7",
+      "reviewedSourceSha256": "04c386682954c74ef00d78b9c46ca9638d10c9df2717172f4954690765e62a33",
       "requiredProductTypes": [
         {
           "label": "2400W slim convector heater with lateral fan",
@@ -1914,15 +1914,16 @@
         },
         {
           "label": "1500W oil-column heater",
-          "productIds": [],
-          "gapReason": "TRRS0715EG withdrawn by retailer on 24 October 2026. Buying link paused; suitable replacement oil-column offer remains a research gap."
+          "productIds": [
+            "tgg-oil-delonghi-trrse0715t"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/fan-heater-vs-ceramic-heater/"
       ],
-      "reviewScope": "24 October availability repair: removed unavailable TRRS0715EG promotion and retained the researched convector as a distinct option. No new specification, warranty or safety claims."
+      "reviewScope": "25 October: researched and added the exact TRRSE0715T 1500W replacement with approved Good Guys affiliate link, permitted exact-model image, current availability, manufacturer instructions, warranty, owner feedback and recall check. Clarified output and control limits against existing 2400W convector. Withdrawn TRRS0715EG remains paused."
     },
     {
       "guidePath": "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",

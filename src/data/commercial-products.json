@@ -19079,6 +19079,136 @@
       }
     },
     {
+      "id": "tgg-oil-delonghi-trrse0715t",
+      "guidePath": "/guides/oil-column-heater-vs-panel-heater/",
+      "name": "De’Longhi RadiaS Easytronic TRRSE0715T Oil Column Heater",
+      "productType": "1500W oil-filled heater with electronic thermostat",
+      "summary": "A fan-free 1500W oil-column heater for gradual warmth in an enclosed room. Its electronic thermostat and power-limit button help manage output; castors help with movement on a level floor. At about 9.9kg, it is less convenient to carry between floors. The Good Guys listed the exact white TRRSE0715T as available to order at our 25 October check; confirm delivery or collection for your postcode.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Lower maximum heat output than the 2400W convector: it will not solve a large or draughty room simply by running longer. Warm-up is gradual, and fan-free does not mean completely silent; owner feedback includes thermostat-switching noise.",
+        "The body remains hot after switching off. Keep it upright, uncovered and at least one metre from furniture, bedding and curtains; use a suitable wall socket directly. Switch it off before leaving the room or sleeping.",
+        "Controls need familiarisation: an owner reported incomplete instructions. The series manual says previous operating settings resume after a power interruption; turn the heater off at its own switch when finished."
+      ],
+      "suitability": {
+        "suits": [
+          "supervised background warmth in a suitably sized enclosed room with a clear, stable floor position",
+          "readers wanting an electronic thermostat and fan-free heating rather than instant hot airflow"
+        ],
+        "mayNotSuit": [
+          "large open-plan rooms, rapid spot heating or frequent carrying on stairs",
+          "unattended or overnight operation, or places where children or pets can touch the hot body"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian exact-model product and support page",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://www.delonghi.com/en-au/p/radias-radias-easytronic-oil-filled-radiator-trrse0715t/TRRSE0715T.html",
+          "supports": "Exact Australian white TRRSE0715T: 1500W and electronic temperature controls. Support page links TRRSE-series instructions 5718512070_01_0425. Used claims limited to verified power, thermostat, power-limit button, castors and gradual resistance heating. Do not transfer retailer 45m² claims, guarantee coverage or publish the marketing energy-saving percentage as a measured AHC result.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "TRRSE-series instructions linked by the Australian TRRSE0715T support centre",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=382735&download=true",
+          "supports": "Pages 4–9: upright setup, room floor area at least 4m², earthed socket matching rating/load, temperature control and power-limit function, restart in previous mode after power loss, overheat and tilt response, unplug/cool before cleaning. The 11 comfort temperatures plus antifreeze are not 12 temperatures between 14 and 28°C. Timer chapter explicitly names TRRSE0920T; do not copy model-specific timer instructions to this 1500W model. Public placement does not depend on a timer claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian oil-column heater warranty and support",
+          "publisher": "De’Longhi",
+          "sourceUrl": "https://www.delonghi.com/en-au/warranty",
+          "supports": "Written Australian warranty schedule gives new oil-column heaters seven years in normal domestic use (factory seconds three years). This corroborates the exact-model Good Guys seven-year listing; generic two-year website checkout text is not the category warranty. Exclusions and authorised service requirements apply; no promise of lifespan, call-out service or unrestricted coverage.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-model individual purchaser reports",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+          "supports": "Read the ten displayed individual reviews from a total of 14, not the AI summary. Recurring positive reports concern useful room warmth and ease of everyday use; one buyer reports incomplete instructions and another calls it overpriced. Reviews may be incentivised. Reject owner or AI claims of cool-touch nursery safety, overnight safety and measured energy savings. No hands-on testing or proven long-term durability claimed.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Three manufacturer-origin owner reports on the exact model",
+          "publisher": "De’Longhi owners, syndicated by Appliances Online",
+          "sourceUrl": "https://www.appliancesonline.com.au/product/delonghi-radia-easytronic-1500w-oil-column-heater-trrse0715t/",
+          "supports": "Read the three individual reports shown by the web source: Eric, Manda and Cold frog, originally posted on De’Longhi. Reports discuss useful bedroom warmth and compact size; Cold frog notes thermostat-switching noise. Treat these as syndicated owner accounts, not independent expert testing; do not endorse overnight operation or subjective economical claims.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model Australian retail availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/delonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+          "supports": "Fresh clean anonymous HTML on 25 October: model TRRSE0715T, SKU 50097988, GTIN 8004399036635, InStock structured offer and active ADD TO CART. White 1500W model, listed weight 9.9kg, seven-year manufacturer warranty. Delivery and collection are postcode-dependent; no nationwide-stock promise. Raw HTML and observation saved under tmp/oil-replacement-2026-10-25/.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Filtered Australian DeLonghi recall register check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=DeLonghi",
+          "supports": "Fresh filtered register feed returned two Kenwood kitchen-appliance recalls and no matching TRRSE0715T or oil-column heater notice. Search-index exact TRRSE check also found no matching recall. Dated search only, not safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Portable heater placement precautions",
+          "publisher": "Fire and Rescue NSW",
+          "sourceUrl": "https://www.fire.nsw.gov.au/fire-safety/home-fire-safety/topics/heaters-and-open-fires",
+          "supports": "Maintain one metre clearance, follow manufacturer instructions and supervise children around working heaters. Existing article precaution to switch off before leaving or sleeping retained; no reliance on retailer AI safety summaries.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved Good Guys exact-model affiliate destination",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fdelonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+          "supports": "Destination generated and decoded offline; exact clean product URL, model and SKU matched to fresh listing. Existing approved campaign 1100l6vaUc and creative 1011l64579 retained. DeLonghi is not in the saved campaign brand exclusions and this offer is not in-store-only. No affiliate URL or tracking redirect requested; this verifies configuration, not earned commission attribution.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/delonghi-trrse0715t-640.webp",
+        "srcSet": "/images/products/delonghi-trrse0715t-320.webp 320w, /images/products/delonghi-trrse0715t-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "White De’Longhi RadiaS Easytronic TRRSE0715T oil column heater",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50097988_1053219.png?v=1776232272",
+        "suppliedVia": "Exact-model retailer product listing: https://www.thegoodguys.com.au/delonghi-1500w-radias-easytronic-oil-column-heater-trrse0715t",
+        "checkedOn": "2026-10-25"
+      }
+    },
+    {
       "id": "tgg-gap-portable-portable-vs-window-wall-vs-split-system-air-conditioner",
       "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
       "name": "De’Longhi Pinguino PACEM82K 2.4kW portable air conditioner",
