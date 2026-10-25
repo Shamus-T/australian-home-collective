@@ -441,20 +441,26 @@
     {
       "guidePath": "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
       "title": "Bedroom Lighting and Window Coverings for Real Routines",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "5ff0005b2859fb34fac190e3e90eeb68e48417c40635683e1bd2325125fab068",
+      "reviewedSourceSha256": "844b03197810cd87e32a43603c2e3abce89f124e6c3d2ba13d785f2282256b65",
       "requiredProductTypes": [
         {
-          "label": "Bedside lighting and window coverings",
+          "label": "Portable ambient table lamp",
+          "productIds": [
+            "gap-bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy-hue"
+          ]
+        },
+        {
+          "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "No approved lighting or covering options; measure fit and check cord safety per product."
+          "gapReason": "Dedicated reading lights, general lighting and window coverings remain unfilled; the lamp does not provide blackout or privacy."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October 2026: fresh exact offer, manufacturer documentation, owner/technical feedback and Australian support review. See docs/editorial/commercial-gap-lighting-shelving-2026-10-25.md. Broader categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/bedroom-storage-ideas-small-australian-rooms/",
@@ -964,10 +970,10 @@
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
       "title": "Garage Shelving That Fits the Space and the Load",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "29411261ec6f0b3b9cbdb58b97efdd6dde8ebca56d938a805cc064f1f0e105da",
+      "reviewedSourceSha256": "7272877e876b01a4c0086beaf6cc5bb2dcd90b42482418df9f994920812b4b31",
       "requiredProductTypes": [
         {
           "label": "Mobile wire shelving unit",
@@ -980,7 +986,7 @@
       "contextualRoutes": [
         "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October 2026: fresh exact offer, manufacturer documentation, owner/technical feedback and Australian support review. See docs/editorial/commercial-gap-lighting-shelving-2026-10-25.md. Broader categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
@@ -1015,7 +1021,7 @@
       "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "ece547a3c1e59bde8d9c29d412a4f54db14fc258994071ea093bf6ec17a82573",
+      "reviewedSourceSha256": "e062562bf323447e99955a6fa536207e43171bc5d45f16d185c4fd3d541a34d8",
       "requiredProductTypes": [
         {
           "label": "Portable ten-cup small-parts organiser",
@@ -1024,9 +1030,15 @@
           ]
         },
         {
-          "label": "Remaining storage categories",
+          "label": "Shallow wire shelving with required restraint",
+          "productIds": [
+            "gap-garage-storage-what-to-measure-and-check-before-you-buy-shelf"
+          ]
+        },
+        {
+          "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Garage shelving, bulk tubs, wall systems and overhead racks remain unfilled; this case solves only small-parts organisation."
+          "gapReason": "Bulk tubs, wall systems, overhead racks and secure hazardous-product storage remain unfilled."
         }
       ],
       "supportingProductIds": [],
@@ -1036,7 +1048,7 @@
         "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
         "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/"
       ],
-      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
+      "reviewScope": "25 October 2026: fresh exact offer, manufacturer documentation, owner/technical feedback and Australian support review. See docs/editorial/commercial-gap-lighting-shelving-2026-10-25.md. Broader categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/",
@@ -1811,22 +1823,28 @@
     {
       "guidePath": "/guides/living-room-lighting-ideas-for-australian-homes/",
       "title": "Living Room Lighting Ideas for Australian Homes",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "78c977c2628d1a677625abf2ce6386a69e6c5955ca92c2f9ec6a0ef0171cc04a",
+      "reviewedSourceSha256": "dc50a0c3b23da60940bdd888960858d302b2132069e23c66fcb761c0651cbf44",
       "requiredProductTypes": [
         {
-          "label": "Living-room lights",
+          "label": "Portable ambient table lamp",
+          "productIds": [
+            "gap-living-room-lighting-ideas-for-australian-homes-hue"
+          ]
+        },
+        {
+          "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "No approved lamp or lighting product with current electrical and owner evidence."
+          "gapReason": "Directional reading lamps, floor lamps and main-room lighting remain unfilled; this portable accent lamp covers only the ambient layer."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/home-office-lighting-what-to-compare-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October 2026: fresh exact offer, manufacturer documentation, owner/technical feedback and Australian support review. See docs/editorial/commercial-gap-lighting-shelving-2026-10-25.md. Broader categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/living-room-rug-size-and-placement-what-to-check-before-you-buy/",
@@ -2595,7 +2613,7 @@
       "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "3e147d01c63df3d79af1ce8dca947078c3c05d4d49d5e3992a300ec83959b29f",
+      "reviewedSourceSha256": "6e1b123c8b3d8f305282bcd9debefe0f528e62c5a48f98a4da83e06f099313d7",
       "requiredProductTypes": [
         {
           "label": "Portable ten-cup small-parts organiser",
@@ -2604,16 +2622,22 @@
           ]
         },
         {
-          "label": "Remaining storage categories",
+          "label": "Shallow wire shelving with required restraint",
+          "productIds": [
+            "gap-renter-friendly-garage-storage-what-to-check-before-you-buy-shelf"
+          ]
+        },
+        {
+          "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Rental shelving, bulk tubs and racks remain unfilled; the researched case covers small repair parts only."
+          "gapReason": "Bulk tubs and shelving that suits households unable to install the prescribed restraint remain unfilled."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/"
       ],
-      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
+      "reviewScope": "25 October 2026: fresh exact offer, manufacturer documentation, owner/technical feedback and Australian support review. See docs/editorial/commercial-gap-lighting-shelving-2026-10-25.md. Broader categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
@@ -2887,19 +2911,25 @@
       "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "4b3aba998aaa7376ad7a4ae86bd8a70c9ca87f1d5490ecd7c3e8a0bd35bbb520",
+      "reviewedSourceSha256": "1f07bade38c6668afba7f4e2e517ba21a321b58f19b282b5e1994b945ba9e92e",
       "requiredProductTypes": [
         {
-          "label": "Small-garage shelves and racks",
+          "label": "Shallow wire shelving with required restraint",
+          "productIds": [
+            "gap-small-garage-storage-what-to-check-before-buying-shelves-or-racks-shelf"
+          ]
+        },
+        {
+          "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "No direct options; related shelving route has unresolved media."
+          "gapReason": "Alternative rack widths, bulky sports storage and overhead systems remain unfilled; this unit is only suitable for boxes that fit its shallow shelves."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/garage-shelving-what-to-measure-before-buying-storage-units/"
       ],
-      "reviewScope": "25 October: useful contextual links to related storage fit, access and buying decisions; no product assessment or commercial status changed."
+      "reviewScope": "25 October 2026: fresh exact offer, manufacturer documentation, owner/technical feedback and Australian support review. See docs/editorial/commercial-gap-lighting-shelving-2026-10-25.md. Broader categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
@@ -3047,10 +3077,10 @@
     {
       "guidePath": "/guides/sports-gear-storage-what-to-check-before-buying-hooks-racks-or-bins/",
       "title": "Sports Gear Storage That Is Easy to Put Away",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "7054dff7c4e9e881cdccace26f748de15815c2d7ea0cbb127c30c542c42325c9",
+      "reviewedSourceSha256": "c723b3c61349f4291a4fa718e302da91d0eddc3d8941965a88d831beb7d47a9f",
       "requiredProductTypes": [
         {
           "label": "Sports racks, hooks and bins",
@@ -3062,7 +3092,7 @@
       "contextualRoutes": [
         "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October: contextual links for measured sports-equipment storage, rental restraints, dry containers and repair tools; no direct sports-rack recommendation added."
     },
     {
       "guidePath": "/guides/spring-cleaning-checklist/",

@@ -92,7 +92,10 @@
     "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
     "/guides/renter-friendly-bathroom-storage-what-to-check-before-you-buy/",
     "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
-    "/guides/garage-storage-what-to-measure-and-check-before-you-buy/"
+    "/guides/garage-storage-what-to-measure-and-check-before-you-buy/",
+    "/guides/living-room-lighting-ideas-for-australian-homes/",
+    "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
+    "/guides/small-garage-storage-what-to-check-before-buying-shelves-or-racks/"
   ],
   "products": [
     {
@@ -5686,9 +5689,9 @@
     {
       "id": "amazon-basics-five-shelf-caster-unit",
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
-      "name": "Amazon Basics 5-Shelf Shelving Unit on Castors",
+      "name": "Amazon Basics 5-Shelf Wire Unit WI143060BW — Black",
       "productType": "Mobile wire shelving unit",
-      "summary": "A five-tier wire unit on castors for dry garages where the floor is level and the loaded dimensions suit the planned aisle.",
+      "summary": "A shallow five-tier rack for dry garage storage: 76.2cm wide, 35.6cm deep and 164.5cm high. Supplied feet and castors have different load limits. Follow the manual’s anti-tip restraint requirements; it is not automatically a no-fixing rental solution.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -5698,88 +5701,92 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
-        "safetyComplianceStatus": "not-applicable",
+        "safetyComplianceStatus": "matched",
         "trackingStatus": "verified"
       },
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "Castors reduce static stability and the open wire shelves do not contain small items.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "The manufacturer instructions require a tipping restraint. If the wall or tenancy arrangements cannot accommodate the prescribed fixing, choose a different storage approach. Wheel brakes do not replace the restraint.",
+        "Load ratings fall when castors are fitted: the manual specifies 300kg total stationary and 200kg total moving, compared with 680kg on levelling feet. Loads must be evenly distributed; those limits are not sensible personal pushing or lifting targets.",
+        "Changing a lower shelf’s height means unloading and removing the shelves above it. Owners also mention a fiddly first shelf during assembly; the manual calls for two adults.",
+        "Open wire shelves neither contain small loose parts nor protect against dust, water or chemical leaks. Use in a dry position, keep heavy items low and leave room for the car and safe access."
       ],
       "suitability": {
         "suits": [
-          "dry garages needing adjustable mobile shelving"
+          "dry garages needing shallow shelving for measured boxes and everyday supplies",
+          "households able to fit the prescribed restraint and use the correct evenly distributed load limits"
         ],
         "mayNotSuit": [
-          "uneven floors or storage requiring enclosed dust protection"
+          "rentals or walls where the required restraint cannot be installed",
+          "uneven floors, exposed outdoor storage, very large tubs or hazardous-product containment"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Amazon Basics 5-Shelf Shelving Unit on Castors manufacturer information",
-          "publisher": "Amazon",
-          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "Exact Amazon Basics rack specifications",
+          "publisher": "Amazon Basics",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "25 October brand-owned listing: WI143060BW, Black, five shelves, UPC840569100472. Width76.2 × depth35.6 × height164.5cm. Listing transposes D/W labels and has a per-shelf “60 centimeters” typo: use manufacturer manual, not that typo. No maximum-load performance test by AHC.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer-authored five-shelf manual (third-party copy)",
+          "publisher": "Amazon Basics / Manuals+",
+          "sourceUrl": "https://manuals.plus/amazon-basics/b071dzhlxh-adjustable-5-shelf-storage-rack-manual",
+          "supports": "Exact B071DZHLXH/B071DZHMVN instructions. Two adults, heavy items low, evenly distributed loads, anti-tip restraint required. On wheels300kg static/200kg moving total and60kg per shelf; on feet680kg total/136kg per shelf. No claim about outdoor corrosion resistance. Copy hosted by Manuals+, not an independent load test.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Amazon Basics 5-Shelf Shelving Unit on Castors product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/amazonbasics-5-shelf-shelving-unit-on-4in-casters-black",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Individual five-shelf owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "Thirteen entries inspected. Seven Australian five-shelf entries inform assessment: Jamie Black; Ben, James, H.D, Tara, Carlie’s Mum and Bob Chrome. Exclude four-shelf variants; Chrome feedback informs shared assembly/access only, not Black finish durability. Positives: small-space fit and adjustable storage. Ben notes first-shelf assembly difficulty and need to dismantle upper shelves to change lower spacing. No pooled star-average or long-term reliability conclusion.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Amazon Basics 5-Shelf Shelving Unit on Castors Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/amazonbasics-5-shelf-shelving-unit-on-4in-casters-black",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Fresh exact Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "2026-10-25T12:34:53.737Z: exact Black WI143060BW/ASIN B071DZHLXH in stock, active purchase control, shipped/sold Amazon AU. This is a dated offer observation, not nationwide stock or delivery assurance.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian seller and support route",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "Amazon AU seller; conditional30-day change-of-mind return route and separate faulty-item remedy route displayed. Australian purchase support through Amazon. Do not transfer the US manual’s phone number or promise an unverified express warranty duration.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
-          "checkedOn": "2026-08-18"
+          "supports": "25 October searches for Amazon Basics shelving and exact B071DZHLXH identified no matching Australian recall. Not a safety certification.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "seller-fulfilment",
-          "title": "Amazon Basics 5-Shelf Shelving Unit on Castors Amazon Australia listing",
-          "publisher": "Amazon Australia",
+          "title": "Published affiliate destination verified offline",
+          "publisher": "AHC",
           "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B071DZHLXH: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
-          "checkedOn": "2026-10-07"
+          "supports": "Approved ahc07-22 tag and exact ASIN validated offline. Live seller and availability checks used the clean /dp/ASIN URL with no query string; the affiliate destination was never requested. See the separate dated offer and distributor records.",
+          "checkedOn": "2026-10-25"
         }
       ]
     },
@@ -22198,6 +22205,558 @@
         "suppliedVia": "Manufacturer product page: https://www.stanleytools.com.au/en-au/product/fmst82967-1/pro-stack-10-cup-organiser",
         "checkedOn": "2026-10-10"
       }
+    },
+    {
+      "id": "gap-living-room-lighting-ideas-for-australian-homes-hue",
+      "guidePath": "/guides/living-room-lighting-ideas-for-australian-homes/",
+      "name": "Philips Hue Go Portable Table Lamp — White HUEGOTBL",
+      "productType": "Rechargeable ambient table lamp",
+      "summary": "A portable white lamp with a sage-green grip for adjustable ambient light. The Australian model is 35cm high with a 14.2cm footprint; Bluetooth provides local app control, while a separate Hue Bridge enables additional connected features. It is a premium mood-lighting option, not a replacement for a dedicated reading lamp.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0DD6XMGLM?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "An Australian owner and an independent hands-on reviewer found reading brightness or positioning limiting. The low shade and downward light suit ambience better than illuminating a whole room or sustained close work.",
+        "Battery life depends heavily on brightness and colour. Do not interpret the advertised maximum runtime as full-brightness reading time; the light output also changes when removed from its charging base.",
+        "The charging dock can be knocked out of alignment. Place it on a stable surface away from edges; the app does not provide a useful remaining-battery gauge in the reviewed version.",
+        "The LED is integrated. The Australian two-year limited hardware warranty excludes batteries and does not replace statutory rights; retain proof of purchase and use the Australian seller/support route. A basic mains lamp may be better value if portability and smart control will go unused."
+      ],
+      "suitability": {
+        "suits": [
+          "people wanting portable colour-adjustable accent light beside a sofa or bed",
+          "existing Hue users who will use connected controls as well as the lamp itself"
+        ],
+        "mayNotSuit": [
+          "buyers needing a bright directional reading or whole-room light",
+          "buyers seeking a low-cost lamp, replaceable bulb or predictable all-night full-brightness battery operation"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian white table-lamp specifications",
+          "publisher": "Philips Hue",
+          "sourceUrl": "https://www.philips-hue.com/en-au/p/hue-white-and-color-ambiance-hue-go-portable-table-lamp/8719514404618",
+          "supports": "Exact AU EAN8719514404618 /929003128801, white/sage grip,35cm high,14.2cm width/depth,1.277kg,Type I two-pin plug,220–240V,6W,370lm2700K/530lm4000K,integrated LED,Bluetooth/Zigbee. Manufacturer direct store says item no longer available; this does not describe distributor stock. No discontinued-status or full-brightness battery claim inferred. Retailer measurement fields45.1×39×43.9cm/8.03kg are not used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Australian HUEGOTBL identity cross-check",
+          "publisher": "Harvey Norman",
+          "sourceUrl": "https://www.harveynorman.com.au/philips-hue-6w-go-portable-table-lamp.html",
+          "supports": "Retailer independently maps HUEGOTBL to exact EAN8719514404618, White35cm and24-month manufacturer express warranty. Research source only; no non-affiliate shopping link is added to an article.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact Australian offer and related-model owner feedback",
+          "publisher": "Amazon Australia / Philips Hue",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DD6XMGLM",
+          "supports": "Two individual AU offer reviews read: Peter Flanagan24Nov2024 likes bedside colour/dimming but reports inadequate book-reading brightness; Rohan12Sep2024 likes construction and Hue sync. Four displayed US manufacturer entries were also read as shared-design context only: sturdy construction/bedside use, loose grip, brief off/on when undocking and one no-response fault. Regional power/plug/warranty evidence is taken only from AU sources; no failure-rate claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Hands-on review of the same table-lamp design",
+          "publisher": "TechRadar",
+          "sourceUrl": "https://www.techradar.com/reviews/philips-hue-go-portable-table-lamp-a-fantastic-starter-piece-for-smart-homes",
+          "supports": "Reviewer tested Black table lamp, not bowl-shaped Hue Go2. Observed restricted reading placement, dock instability, no battery gauge and much shorter battery life at bright settings than dim scenes. Design context only; not proof of AU White durability or a fresh firmware test. AHC has not tested it.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty conditions",
+          "publisher": "Philips Hue",
+          "sourceUrl": "https://www.philips-hue.com/en-au/support/legal/warranty",
+          "supports": "Two-year limited hardware cover, receipt/defective product required; batteries excluded, statutory rights unaffected. Contact dealer/Philips consumer care. Not a two-year battery-capacity guarantee.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian distributor offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DD6XMGLM",
+          "supports": "2026-10-25T12:29:34Z: White HUEGOTBL ASINB0DD6XMGLM in stock, sold Powermove Distribution Pty Ltd and shipped Amazon; A$289 observed, not published as a live price. Conditional30-day returns and separate faulty-item remedy route. No tagged URL or seller cookies used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian distributor identity",
+          "publisher": "Powermove Distribution",
+          "sourceUrl": "https://www.powermove.com.au/pages/smart-lighting",
+          "supports": "Powermove’s own Australian site identifies Philips Hue as a distributed smart-lighting brand. Exact Amazon offer names Powermove Distribution Pty Ltd; AU manufacturer support and seller route checked, not an unknown overseas importer.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October Philips Hue Go/HUEGOTBL/table-lamp searches identified no matching Australian recall. Do not conflate older outdoor-power-supply replacement programmes with this lamp. No safety certification inferred.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination verified offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DD6XMGLM?tag=ahc07-22",
+          "supports": "Approved ahc07-22 tag and exact ASIN validated offline. Live seller and availability checks used the clean /dp/ASIN URL with no query string; the affiliate destination was never requested. See the separate dated offer and distributor records.",
+          "checkedOn": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "gap-bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy-hue",
+      "guidePath": "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
+      "name": "Philips Hue Go Portable Table Lamp — White HUEGOTBL",
+      "productType": "Rechargeable ambient table lamp",
+      "summary": "A portable white lamp with a sage-green grip for adjustable ambient light. The Australian model is 35cm high with a 14.2cm footprint; Bluetooth provides local app control, while a separate Hue Bridge enables additional connected features. It is a premium mood-lighting option, not a replacement for a dedicated reading lamp.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0DD6XMGLM?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "An Australian owner and an independent hands-on reviewer found reading brightness or positioning limiting. The low shade and downward light suit ambience better than illuminating a whole room or sustained close work.",
+        "Battery life depends heavily on brightness and colour. Do not interpret the advertised maximum runtime as full-brightness reading time; the light output also changes when removed from its charging base.",
+        "The charging dock can be knocked out of alignment. Place it on a stable surface away from edges; the app does not provide a useful remaining-battery gauge in the reviewed version.",
+        "The LED is integrated. The Australian two-year limited hardware warranty excludes batteries and does not replace statutory rights; retain proof of purchase and use the Australian seller/support route. A basic mains lamp may be better value if portability and smart control will go unused."
+      ],
+      "suitability": {
+        "suits": [
+          "people wanting portable colour-adjustable accent light beside a sofa or bed",
+          "existing Hue users who will use connected controls as well as the lamp itself"
+        ],
+        "mayNotSuit": [
+          "buyers needing a bright directional reading or whole-room light",
+          "buyers seeking a low-cost lamp, replaceable bulb or predictable all-night full-brightness battery operation"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian white table-lamp specifications",
+          "publisher": "Philips Hue",
+          "sourceUrl": "https://www.philips-hue.com/en-au/p/hue-white-and-color-ambiance-hue-go-portable-table-lamp/8719514404618",
+          "supports": "Exact AU EAN8719514404618 /929003128801, white/sage grip,35cm high,14.2cm width/depth,1.277kg,Type I two-pin plug,220–240V,6W,370lm2700K/530lm4000K,integrated LED,Bluetooth/Zigbee. Manufacturer direct store says item no longer available; this does not describe distributor stock. No discontinued-status or full-brightness battery claim inferred. Retailer measurement fields45.1×39×43.9cm/8.03kg are not used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Australian HUEGOTBL identity cross-check",
+          "publisher": "Harvey Norman",
+          "sourceUrl": "https://www.harveynorman.com.au/philips-hue-6w-go-portable-table-lamp.html",
+          "supports": "Retailer independently maps HUEGOTBL to exact EAN8719514404618, White35cm and24-month manufacturer express warranty. Research source only; no non-affiliate shopping link is added to an article.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact Australian offer and related-model owner feedback",
+          "publisher": "Amazon Australia / Philips Hue",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DD6XMGLM",
+          "supports": "Two individual AU offer reviews read: Peter Flanagan24Nov2024 likes bedside colour/dimming but reports inadequate book-reading brightness; Rohan12Sep2024 likes construction and Hue sync. Four displayed US manufacturer entries were also read as shared-design context only: sturdy construction/bedside use, loose grip, brief off/on when undocking and one no-response fault. Regional power/plug/warranty evidence is taken only from AU sources; no failure-rate claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Hands-on review of the same table-lamp design",
+          "publisher": "TechRadar",
+          "sourceUrl": "https://www.techradar.com/reviews/philips-hue-go-portable-table-lamp-a-fantastic-starter-piece-for-smart-homes",
+          "supports": "Reviewer tested Black table lamp, not bowl-shaped Hue Go2. Observed restricted reading placement, dock instability, no battery gauge and much shorter battery life at bright settings than dim scenes. Design context only; not proof of AU White durability or a fresh firmware test. AHC has not tested it.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty conditions",
+          "publisher": "Philips Hue",
+          "sourceUrl": "https://www.philips-hue.com/en-au/support/legal/warranty",
+          "supports": "Two-year limited hardware cover, receipt/defective product required; batteries excluded, statutory rights unaffected. Contact dealer/Philips consumer care. Not a two-year battery-capacity guarantee.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh Australian distributor offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DD6XMGLM",
+          "supports": "2026-10-25T12:29:34Z: White HUEGOTBL ASINB0DD6XMGLM in stock, sold Powermove Distribution Pty Ltd and shipped Amazon; A$289 observed, not published as a live price. Conditional30-day returns and separate faulty-item remedy route. No tagged URL or seller cookies used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian distributor identity",
+          "publisher": "Powermove Distribution",
+          "sourceUrl": "https://www.powermove.com.au/pages/smart-lighting",
+          "supports": "Powermove’s own Australian site identifies Philips Hue as a distributed smart-lighting brand. Exact Amazon offer names Powermove Distribution Pty Ltd; AU manufacturer support and seller route checked, not an unknown overseas importer.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October Philips Hue Go/HUEGOTBL/table-lamp searches identified no matching Australian recall. Do not conflate older outdoor-power-supply replacement programmes with this lamp. No safety certification inferred.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination verified offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DD6XMGLM?tag=ahc07-22",
+          "supports": "Approved ahc07-22 tag and exact ASIN validated offline. Live seller and availability checks used the clean /dp/ASIN URL with no query string; the affiliate destination was never requested. See the separate dated offer and distributor records.",
+          "checkedOn": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "gap-small-garage-storage-what-to-check-before-buying-shelves-or-racks-shelf",
+      "guidePath": "/guides/small-garage-storage-what-to-check-before-buying-shelves-or-racks/",
+      "name": "Amazon Basics 5-Shelf Wire Unit WI143060BW — Black",
+      "productType": "Mobile wire shelving unit",
+      "summary": "A 35.6cm-deep rack for smaller boxes in a narrow garage. Check its 76.2cm width and 164.5cm height with the car parked and doors open. Follow the required anti-tip installation and the separate load limits for feet and castors.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The manufacturer instructions require a tipping restraint. If the wall or tenancy arrangements cannot accommodate the prescribed fixing, choose a different storage approach. Wheel brakes do not replace the restraint.",
+        "Load ratings fall when castors are fitted: the manual specifies 300kg total stationary and 200kg total moving, compared with 680kg on levelling feet. Loads must be evenly distributed; those limits are not sensible personal pushing or lifting targets.",
+        "Changing a lower shelf’s height means unloading and removing the shelves above it. Owners also mention a fiddly first shelf during assembly; the manual calls for two adults.",
+        "Open wire shelves neither contain small loose parts nor protect against dust, water or chemical leaks. Use in a dry position, keep heavy items low and leave room for the car and safe access."
+      ],
+      "suitability": {
+        "suits": [
+          "dry garages needing shallow shelving for measured boxes and everyday supplies",
+          "households able to fit the prescribed restraint and use the correct evenly distributed load limits"
+        ],
+        "mayNotSuit": [
+          "rentals or walls where the required restraint cannot be installed",
+          "uneven floors, exposed outdoor storage, very large tubs or hazardous-product containment"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Amazon Basics rack specifications",
+          "publisher": "Amazon Basics",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "25 October brand-owned listing: WI143060BW, Black, five shelves, UPC840569100472. Width76.2 × depth35.6 × height164.5cm. Listing transposes D/W labels and has a per-shelf “60 centimeters” typo: use manufacturer manual, not that typo. No maximum-load performance test by AHC.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer-authored five-shelf manual (third-party copy)",
+          "publisher": "Amazon Basics / Manuals+",
+          "sourceUrl": "https://manuals.plus/amazon-basics/b071dzhlxh-adjustable-5-shelf-storage-rack-manual",
+          "supports": "Exact B071DZHLXH/B071DZHMVN instructions. Two adults, heavy items low, evenly distributed loads, anti-tip restraint required. On wheels300kg static/200kg moving total and60kg per shelf; on feet680kg total/136kg per shelf. No claim about outdoor corrosion resistance. Copy hosted by Manuals+, not an independent load test.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual five-shelf owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "Thirteen entries inspected. Seven Australian five-shelf entries inform assessment: Jamie Black; Ben, James, H.D, Tara, Carlie’s Mum and Bob Chrome. Exclude four-shelf variants; Chrome feedback informs shared assembly/access only, not Black finish durability. Positives: small-space fit and adjustable storage. Ben notes first-shelf assembly difficulty and need to dismantle upper shelves to change lower spacing. No pooled star-average or long-term reliability conclusion.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "2026-10-25T12:34:53.737Z: exact Black WI143060BW/ASIN B071DZHLXH in stock, active purchase control, shipped/sold Amazon AU. This is a dated offer observation, not nationwide stock or delivery assurance.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian seller and support route",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "Amazon AU seller; conditional30-day change-of-mind return route and separate faulty-item remedy route displayed. Australian purchase support through Amazon. Do not transfer the US manual’s phone number or promise an unverified express warranty duration.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October searches for Amazon Basics shelving and exact B071DZHLXH identified no matching Australian recall. Not a safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination verified offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
+          "supports": "Approved ahc07-22 tag and exact ASIN validated offline. Live seller and availability checks used the clean /dp/ASIN URL with no query string; the affiliate destination was never requested. See the separate dated offer and distributor records.",
+          "checkedOn": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "gap-garage-storage-what-to-measure-and-check-before-you-buy-shelf",
+      "guidePath": "/guides/garage-storage-what-to-measure-and-check-before-you-buy/",
+      "name": "Amazon Basics 5-Shelf Wire Unit WI143060BW — Black",
+      "productType": "Mobile wire shelving unit",
+      "summary": "Five adjustable shelves can organise a defined collection of ordinary garage boxes. Set shelf spacing before assembly and keep heavier loads low; this open rack does not secure chemicals or stop leaks.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The manufacturer instructions require a tipping restraint. If the wall or tenancy arrangements cannot accommodate the prescribed fixing, choose a different storage approach. Wheel brakes do not replace the restraint.",
+        "Load ratings fall when castors are fitted: the manual specifies 300kg total stationary and 200kg total moving, compared with 680kg on levelling feet. Loads must be evenly distributed; those limits are not sensible personal pushing or lifting targets.",
+        "Changing a lower shelf’s height means unloading and removing the shelves above it. Owners also mention a fiddly first shelf during assembly; the manual calls for two adults.",
+        "Open wire shelves neither contain small loose parts nor protect against dust, water or chemical leaks. Use in a dry position, keep heavy items low and leave room for the car and safe access."
+      ],
+      "suitability": {
+        "suits": [
+          "dry garages needing shallow shelving for measured boxes and everyday supplies",
+          "households able to fit the prescribed restraint and use the correct evenly distributed load limits"
+        ],
+        "mayNotSuit": [
+          "rentals or walls where the required restraint cannot be installed",
+          "uneven floors, exposed outdoor storage, very large tubs or hazardous-product containment"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Amazon Basics rack specifications",
+          "publisher": "Amazon Basics",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "25 October brand-owned listing: WI143060BW, Black, five shelves, UPC840569100472. Width76.2 × depth35.6 × height164.5cm. Listing transposes D/W labels and has a per-shelf “60 centimeters” typo: use manufacturer manual, not that typo. No maximum-load performance test by AHC.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer-authored five-shelf manual (third-party copy)",
+          "publisher": "Amazon Basics / Manuals+",
+          "sourceUrl": "https://manuals.plus/amazon-basics/b071dzhlxh-adjustable-5-shelf-storage-rack-manual",
+          "supports": "Exact B071DZHLXH/B071DZHMVN instructions. Two adults, heavy items low, evenly distributed loads, anti-tip restraint required. On wheels300kg static/200kg moving total and60kg per shelf; on feet680kg total/136kg per shelf. No claim about outdoor corrosion resistance. Copy hosted by Manuals+, not an independent load test.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual five-shelf owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "Thirteen entries inspected. Seven Australian five-shelf entries inform assessment: Jamie Black; Ben, James, H.D, Tara, Carlie’s Mum and Bob Chrome. Exclude four-shelf variants; Chrome feedback informs shared assembly/access only, not Black finish durability. Positives: small-space fit and adjustable storage. Ben notes first-shelf assembly difficulty and need to dismantle upper shelves to change lower spacing. No pooled star-average or long-term reliability conclusion.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "2026-10-25T12:34:53.737Z: exact Black WI143060BW/ASIN B071DZHLXH in stock, active purchase control, shipped/sold Amazon AU. This is a dated offer observation, not nationwide stock or delivery assurance.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian seller and support route",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "Amazon AU seller; conditional30-day change-of-mind return route and separate faulty-item remedy route displayed. Australian purchase support through Amazon. Do not transfer the US manual’s phone number or promise an unverified express warranty duration.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October searches for Amazon Basics shelving and exact B071DZHLXH identified no matching Australian recall. Not a safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination verified offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
+          "supports": "Approved ahc07-22 tag and exact ASIN validated offline. Live seller and availability checks used the clean /dp/ASIN URL with no query string; the affiliate destination was never requested. See the separate dated offer and distributor records.",
+          "checkedOn": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "gap-renter-friendly-garage-storage-what-to-check-before-you-buy-shelf",
+      "guidePath": "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
+      "name": "Amazon Basics 5-Shelf Wire Unit WI143060BW — Black",
+      "productType": "Mobile wire shelving unit",
+      "summary": "A dismantlable five-shelf rack for a rental garage only where its required anti-tip restraint can be installed. Check the 76.2 × 35.6cm footprint against parking and box access; keeping the parts and instructions helps when moving.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The manufacturer instructions require a tipping restraint. If the wall or tenancy arrangements cannot accommodate the prescribed fixing, choose a different storage approach. Wheel brakes do not replace the restraint.",
+        "Load ratings fall when castors are fitted: the manual specifies 300kg total stationary and 200kg total moving, compared with 680kg on levelling feet. Loads must be evenly distributed; those limits are not sensible personal pushing or lifting targets.",
+        "Changing a lower shelf’s height means unloading and removing the shelves above it. Owners also mention a fiddly first shelf during assembly; the manual calls for two adults.",
+        "Open wire shelves neither contain small loose parts nor protect against dust, water or chemical leaks. Use in a dry position, keep heavy items low and leave room for the car and safe access."
+      ],
+      "suitability": {
+        "suits": [
+          "dry garages needing shallow shelving for measured boxes and everyday supplies",
+          "households able to fit the prescribed restraint and use the correct evenly distributed load limits"
+        ],
+        "mayNotSuit": [
+          "rentals or walls where the required restraint cannot be installed",
+          "uneven floors, exposed outdoor storage, very large tubs or hazardous-product containment"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Amazon Basics rack specifications",
+          "publisher": "Amazon Basics",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "25 October brand-owned listing: WI143060BW, Black, five shelves, UPC840569100472. Width76.2 × depth35.6 × height164.5cm. Listing transposes D/W labels and has a per-shelf “60 centimeters” typo: use manufacturer manual, not that typo. No maximum-load performance test by AHC.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer-authored five-shelf manual (third-party copy)",
+          "publisher": "Amazon Basics / Manuals+",
+          "sourceUrl": "https://manuals.plus/amazon-basics/b071dzhlxh-adjustable-5-shelf-storage-rack-manual",
+          "supports": "Exact B071DZHLXH/B071DZHMVN instructions. Two adults, heavy items low, evenly distributed loads, anti-tip restraint required. On wheels300kg static/200kg moving total and60kg per shelf; on feet680kg total/136kg per shelf. No claim about outdoor corrosion resistance. Copy hosted by Manuals+, not an independent load test.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual five-shelf owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "Thirteen entries inspected. Seven Australian five-shelf entries inform assessment: Jamie Black; Ben, James, H.D, Tara, Carlie’s Mum and Bob Chrome. Exclude four-shelf variants; Chrome feedback informs shared assembly/access only, not Black finish durability. Positives: small-space fit and adjustable storage. Ben notes first-shelf assembly difficulty and need to dismantle upper shelves to change lower spacing. No pooled star-average or long-term reliability conclusion.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "2026-10-25T12:34:53.737Z: exact Black WI143060BW/ASIN B071DZHLXH in stock, active purchase control, shipped/sold Amazon AU. This is a dated offer observation, not nationwide stock or delivery assurance.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian seller and support route",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH",
+          "supports": "Amazon AU seller; conditional30-day change-of-mind return route and separate faulty-item remedy route displayed. Australian purchase support through Amazon. Do not transfer the US manual’s phone number or promise an unverified express warranty duration.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October searches for Amazon Basics shelving and exact B071DZHLXH identified no matching Australian recall. Not a safety certification.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination verified offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
+          "supports": "Approved ahc07-22 tag and exact ASIN validated offline. Live seller and availability checks used the clean /dp/ASIN URL with no query string; the affiliate destination was never requested. See the separate dated offer and distributor records.",
+          "checkedOn": "2026-10-25"
+        }
+      ]
     }
   ]
 }
