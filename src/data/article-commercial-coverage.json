@@ -420,10 +420,10 @@
     {
       "guidePath": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
       "title": "Bedroom Essentials for a More Comfortable Home",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "8cfcd01401ac9bd5d04af0f2ee3628f1210708b29e2311bc6e42b96767bc0b9e",
+      "reviewedSourceSha256": "39a016776274f436edc9eb16c52f6c980427d55326f0c8b6649f1bb8cc935a81",
       "requiredProductTypes": [
         {
           "label": "Bedding, bedside lights and window coverings",
@@ -436,7 +436,7 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/under-bed-storage-what-to-measure-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "26 October2026: contextual mattress-size link added; existing editorial coverage retained."
     },
     {
       "guidePath": "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
@@ -583,22 +583,23 @@
     {
       "guidePath": "/guides/ceiling-fans-before-you-buy/",
       "title": "Ceiling Fans Before You Buy: What to Measure and Check",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "af95fc7b5a02977fe96e8365ad62a1161e002face4712f132bfba714d7599fe1",
+      "reviewedSourceSha256": "b76a61714c591958dc49e9442d33b9ea76b3e8e3a48cb769a63870150d8dbd69",
       "requiredProductTypes": [
         {
-          "label": "Ceiling fans",
-          "productIds": [],
-          "gapReason": "25 October: Mercator FC708134WH withheld. Retailer lists five-speed FRM123, current manufacturer six-speed FRM124 under the same model code; supplied revision and light-timer functionality unresolved."
+          "label": "132cm DC ceiling fan without light",
+          "productIds": [
+            "gap-ceiling-fans-before-you-buy-b0f2m58b3g"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "26 October2026: exact Hunter Pacific Next Creation V2 DC 52-inch White — NC2151 researched, seller/returns/warranty and model differences reviewed, primary buying option added. One model does not cover all sizes, budgets or installations. See docs/editorial/commercial-gap-mattress-fan-2026-10-26.md."
     },
     {
       "guidePath": "/guides/christmas-at-home-australia/",
@@ -1929,20 +1930,21 @@
     {
       "guidePath": "/guides/mattress-sizes-australia/",
       "title": "Mattress Sizes Australia: Room, Base and Buying Guide",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "a844e9dad8015e978e45d3863e68725c28e5a225b3e1f83a57a62450e519cfbb",
+      "reviewedSourceSha256": "c204a29f2905bc614fb7198fd6f92e2f31b62741b22ec4973d5efe4723d9112a",
       "requiredProductTypes": [
         {
-          "label": "Mattresses",
-          "productIds": [],
-          "gapReason": "Dimension reference has no approved mattress model; brand applications do not establish approval."
+          "label": "Queen pocket-spring mattress",
+          "productIds": [
+            "gap-mattress-sizes-australia-b0dpf84t8y"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "26 October2026: exact Giselle Bedding Solene Queen 34cm — MATTRESS-B-LT34-Q researched, seller/returns/warranty and model differences reviewed, primary buying option added. One model does not cover all sizes, budgets or installations. See docs/editorial/commercial-gap-mattress-fan-2026-10-26.md."
     },
     {
       "guidePath": "/guides/nappy-change-station-checklist/",

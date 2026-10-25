@@ -99,7 +99,9 @@
     "/guides/home-office-chair-and-seating-what-to-check-before-you-buy/",
     "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
     "/guides/pet-essentials-for-australian-homes/",
-    "/guides/pet-feeding-station-ideas-for-australian-homes/"
+    "/guides/pet-feeding-station-ideas-for-australian-homes/",
+    "/guides/mattress-sizes-australia/",
+    "/guides/ceiling-fans-before-you-buy/"
   ],
   "products": [
     {
@@ -24253,6 +24255,231 @@
           "publisher": "AHC",
           "sourceUrl": "https://www.amazon.com.au/dp/B07R7R2SBQ?tag=ahc07-22",
           "supports": "ASIN and approved ahc07-22 tag verified offline; tagged URL never requested. No commission attribution test performed.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-mattress-sizes-australia-b0dpf84t8y",
+      "guidePath": "/guides/mattress-sizes-australia/",
+      "name": "Giselle Bedding Solene Queen 34cm — MATTRESS-B-LT34-Q",
+      "productType": "Queen pocket-spring mattress",
+      "summary": "A budget queen-size candidate with a Euro Top and medium-firm manufacturer rating. Its stated 153 × 203cm footprint and 34cm height need checking against your base, sheet depth and finished bed height. Choose it only if you are comfortable buying without a verified at-home sleep trial; comfort and temperature are personal.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0DPF84T8Y?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 34cm depth increases finished bed height and needs sufficiently deep fitted sheets. Check your base’s support instructions and access route; a queen label alone does not establish a fit.",
+        "Displayed owner feedback is mainly other sizes in the Solene family. Comfort reports are positive overall, but one Single owner reports overheating. AHC has not tested comfort, cooling or long-term durability.",
+        "No opened-mattress sleep trial was verified. The reviewed Artiss Furnishings offer states five years warranty; defects and change-of-mind returns are different. Confirm return collection and costs before opening a bulky mattress."
+      ],
+      "suitability": {
+        "suits": [
+          "adults seeking a budget queen mattress after checking the exact base dimensions",
+          "buyers comfortable with a medium-firm manufacturer description and no verified sleep trial"
+        ],
+        "mayNotSuit": [
+          "buyers who need to trial firmness at home with guaranteed free collection",
+          "hot sleepers relying on proven cooling, or people needing established long-term edge-support evidence",
+          "children under three years, as excluded by the manufacturer"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model and resolved specifications",
+          "publisher": "Giselle Bedding",
+          "sourceUrl": "https://gisellebedding.com.au/products/bed-mattress-giselle-34cm-queen",
+          "supports": "Exact MATTRESS-B-LT34-Q / Solene matched to Amazon model number, 153 x203 x34cm, five-zone pocket springs, Euro Top and medium-firm description. Both exact pages specify five years warranty. Do not mix this SKU with older Algarve/Luna 34cm listings. Amazon adds a four-in-one foam description not present in the brand page: omitted rather than treating revisions as identical. No medical, cooling, hypoallergenic or quantified motion-isolation claims adopted.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner evidence and limitations",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DPF84T8Y",
+          "supports": "Eight individual Australian entries inspected. Seven identify Single, King Single or Double; Louise has no displayed size. Positive comfort reports are family-level context, not Queen-specific testing. Chan (Single, 2 May 2026) reports overheating. No independent long-term durability evidence found. Raw entries in final-candidate-offers.json. No pooled-star claim, medical benefit or guaranteed cool sleep.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DPF84T8Y",
+          "supports": "Fresh exact offer sold and dispatched by Artiss Furnishings. Seller profile names Giselle Bedding among its brands, provides Australian warranty support and directs claims through Amazon; street address required for bulky items. Amazon displays conditional 30-day original-condition returns. That is not evidence of an opened-mattress sleep trial. Availability is anonymous-context only, not nationwide stock.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and support inspected",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DPF84T8Y",
+          "supports": "Fresh exact offer sold and dispatched by Artiss Furnishings. Seller profile names Giselle Bedding among its brands, provides Australian warranty support and directs claims through Amazon; street address required for bulky items. Amazon displays conditional 30-day original-condition returns. That is not evidence of an opened-mattress sleep trial. Availability is anonymous-context only, not nationwide stock.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Warranty scope and claim limitations",
+          "publisher": "Giselle Bedding",
+          "sourceUrl": "https://gisellebedding.com.au/pages/warranty-and-refunds",
+          "supports": "Exact manufacturer and Amazon model listing agree on five years defect warranty. Manufacturer policy extends warranties to its retailers’ customers; proof of purchase and evidence of defect required. Misuse/improper installation excluded. Amazon Artiss order support is the claim route for this offer. Do not apply direct-site return fees or advertise optional registration extensions to this Amazon purchase. No sleep-trial promise.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Giselle",
+          "supports": "Fresh brand RSS contained no items; supplemental exact brand/model search found no matching recall. This is not independent certification.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Affiliate structure verified offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0DPF84T8Y?tag=ahc07-22",
+          "supports": "Exact ASIN and approved ahc07-22 tag checked offline. No affiliate request, referral or attribution test made.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-ceiling-fans-before-you-buy-b0f2m58b3g",
+      "guidePath": "/guides/ceiling-fans-before-you-buy/",
+      "name": "Hunter Pacific Next Creation V2 DC 52-inch White — NC2151",
+      "productType": "132cm DC ceiling fan without light",
+      "summary": "A 132cm four-blade DC fan for a room that already has lighting. The exact white NC2151 includes a nine-speed reversing remote. Have an electrician confirm the blade sweep, structure and floor clearance before purchase; Wi-Fi, wall controls and pitched-ceiling accessories are separate options.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F2M58B3G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "No light is included. Smart modules, wall controls and the 38-degree pitched-ceiling kit cost extra and need installer confirmation; the standard fan is not an out-of-box answer to every sloping ceiling.",
+        "Requires licensed electrical installation, structural support and at least 2.1m blade-to-floor clearance. Covered outdoor use must remain protected from wind and rain; do not treat it as an exposed-weather fan.",
+        "The reviewed Amazon seller is Sparky Mate; its manufacturer-authorised status was not established. Confirm eligibility before relying on Hunter Pacific cover. The seven-year headline is not seven years of whole-fan in-home service.",
+        "Owner reports inspected are dated 2020–2023. They do not prove current-batch noise, reliability or bedroom suitability, and AHC has not tested this fan."
+      ],
+      "suitability": {
+        "suits": [
+          "rooms with separate lighting and space for a 132cm blade sweep",
+          "buyers wanting remote speed selection and reversal with professional installation"
+        ],
+        "mayNotSuit": [
+          "rooms needing an integrated light or a smaller blade sweep",
+          "exposed outdoor positions or unapproved wall controls",
+          "buyers needing confirmed manufacturer-authorised seller cover without further checking"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model and resolved specifications",
+          "publisher": "Hunter Pacific International",
+          "sourceUrl": "https://hunterpacificinternational.com.au/product/next-creation-v2-dc/",
+          "supports": "NC2151 is white 132cm /52in no-light model, not NCL2155 LED. Official datasheet and installation manual agree on nine-speed handset, reversing and four ABS blades. Ignore Amazon 35x35x12cm metadata as installation dimensions. Optional Wi-Fi/Pixie modules are not built in. Current datasheet gives speed-three power9.7W, correcting retailer97W typo; avoid unnecessary performance/running-cost claims.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner evidence and limitations",
+          "publisher": "Fansonline individual owners",
+          "sourceUrl": "https://fansonline.com.au/product/hunter-pacific-next-creation-v2-dc-ceiling-fan-white-52",
+          "supports": "Ten individual entries on Fansonline exact NC2151 page inspected (2020–2023): Ricky Howard reports easy controls/quiet operation, Sally useful airflow, Jason electrician-installed suitability. David and Sharon provide little detail. These are dated retailer-hosted owner accounts, not measured noise or evidence of current-batch longevity. No reviews displayed on current Amazon ASIN; confidence moderate.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F2M58B3G",
+          "supports": "Sold and dispatched by Sparky Mate on fresh exact Amazon offer. Seller profile inspected with Australian Amazon return/A-to-z support; no manufacturer-authorised reseller confirmation found. Do not promise Hunter Pacific warranty eligibility for this seller. Confirm seller authorisation before relying on manufacturer cover. In-stock primary ASIN and order control present; no nationwide or delivery guarantee.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and support inspected",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F2M58B3G",
+          "supports": "Sold and dispatched by Sparky Mate on fresh exact Amazon offer. Seller profile inspected with Australian Amazon return/A-to-z support; no manufacturer-authorised reseller confirmation found. Do not promise Hunter Pacific warranty eligibility for this seller. Confirm seller authorisation before relying on manufacturer cover. In-stock primary ASIN and order control present; no nationwide or delivery guarantee.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Warranty scope and claim limitations",
+          "publisher": "Hunter Pacific International",
+          "sourceUrl": "https://hunterpacificinternational.com.au/warranty-terms-conditions/",
+          "supports": "Post-July2023 domestic terms: three years in-home mechanical/motor, then four motor-parts-only; DC electronics two years, handset parts-only. Authorised reseller and licensed installation required. Service access/travel limits apply. Seller authorisation remains unverified, so warranty eligibility is explicitly conditional, not represented as confirmed. Retain purchase/electrician details; obtain approval before warranty work.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall check",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Hunter%20Pacific",
+          "supports": "Fresh broad brand RSS contained20 unrelated items; titles inspected, none matched Hunter Pacific or NC2151. Supplemental exact-model search found no matching recall. Installation manual reviewed; no independent certification claim.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Affiliate structure verified offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F2M58B3G?tag=ahc07-22",
+          "supports": "Exact ASIN and approved ahc07-22 tag checked offline. No affiliate request, referral or attribution test made.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "No-light specification sheet",
+          "publisher": "Hunter Pacific International",
+          "sourceUrl": "https://hunterpacificinternational.com.au/downloads/datasheets/NextcreationV2_132cm_nolight.pdf",
+          "supports": "Exact NC2151:132cm blade span, nine speeds, no light; optional modules/38-degree kit.9.7W speed3, not97W. Packaging dimensions are not installation clearances.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "NC2151 installation manual",
+          "publisher": "Hunter Pacific International",
+          "sourceUrl": "https://hunterpacificinternational.com.au/downloads/installation/Next-Creation-V2-installation-instruction-manual-NC-V2-IUM-v2-0_05-2022.pdf",
+          "supports": "Licensed installation, approved controls, structure and isolation; minimum2.1m blade-to-floor clearance. Protected outdoor location only. Installer documentation essential. Current manufacturer warranty terms were checked separately from the installation instructions. No installation instructions rewritten as DIY advice.",
           "checkedOn": "2026-10-26"
         }
       ]

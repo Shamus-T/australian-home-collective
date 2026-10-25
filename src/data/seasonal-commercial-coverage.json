@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-10-25",
+  "updatedOn": "2026-10-26",
   "decisions": [
     {
       "guidePath": "/guides/spring-cleaning-checklist/",
@@ -64,9 +64,9 @@
     },
     {
       "guidePath": "/guides/ceiling-fans-before-you-buy/",
-      "classification": "research-gap",
-      "reasonCode": "licensed-electrical-installation",
-      "reason": "Open product-research gap: no current exact fan model is cleared yet. Licensed installation and measured mounting clearances are conditions of a recommendation, not reasons to exclude all product links."
+      "classification": "monetised-correctly",
+      "reasonCode": "verified-product-set",
+      "reason": "26 October: exact Hunter Pacific NC2151 no-light option with nine-speed manual/spec match, licensed installation and clearance conditions, dated owner evidence and Amazon seller support. Manufacturer warranty eligibility is conditional on authorised purchase, which is not confirmed for this seller; no unconditional manufacturer-cover claim."
     },
     {
       "guidePath": "/guides/how-to-keep-house-cooler-in-summer/",

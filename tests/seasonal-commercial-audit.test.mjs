@@ -35,7 +35,7 @@ function runWithCoverage(mutator, catalogueMutator = () => {}) {
 test("the complete seasonal commercial decision registry passes", () => {
   const result = runWithCoverage(() => {});
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /28 published routes: 10 with approved placements, 17 editorial exceptions and 1 open research gaps/);
+  assert.match(result.stdout, /28 published routes: 11 with approved placements, 17 editorial exceptions and 0 open research gaps/);
   assert.match(result.stdout, /Seasonal commercial placement diagnostics:/);
   assert.match(result.stdout, /\/guides\/reduce-pollen-dust-inside-home-spring\//);
 });
