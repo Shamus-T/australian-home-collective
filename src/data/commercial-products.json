@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-25",
+  "updatedOn": "2026-10-26",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -95,7 +95,10 @@
     "/guides/garage-storage-what-to-measure-and-check-before-you-buy/",
     "/guides/living-room-lighting-ideas-for-australian-homes/",
     "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
-    "/guides/small-garage-storage-what-to-check-before-buying-shelves-or-racks/"
+    "/guides/small-garage-storage-what-to-check-before-buying-shelves-or-racks/",
+    "/guides/home-office-chair-and-seating-what-to-check-before-you-buy/",
+    "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
+    "/guides/pet-essentials-for-australian-homes/"
   ],
   "products": [
     {
@@ -22755,6 +22758,750 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B071DZHLXH?tag=ahc07-22",
           "supports": "Approved ahc07-22 tag and exact ASIN validated offline. Live seller and availability checks used the clean /dp/ASIN URL with no query string; the affiliate destination was never requested. See the separate dated offer and distributor records.",
           "checkedOn": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "gap-home-office-chair-and-seating-what-to-check-before-you-buy-chair",
+      "guidePath": "/guides/home-office-chair-and-seating-what-to-check-before-you-buy/",
+      "name": "SIHOO M57 Mesh Office Chair — Black",
+      "productType": "Adjustable mesh office chair",
+      "summary": "A full-mesh chair with adjustable lumbar support, headrest and 3D armrests for upright desk work. Consider it only after checking the fixed seat fit and arm clearance: the firm lumbar pad and seat edges are not comfortable for everyone.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07BDFW1Y7?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The seat does not slide to adjust depth. Owners describe pressure from the seat edges and lumbar pad; a height recommendation alone cannot establish fit. Try the chair where possible and check your thighs, knee clearance and headrest position.",
+        "A hands-on reviewer around 183cm tall found support limiting. Some owners report squeaks, basic castors and a firm headrest. These are reasons to check fit and construction, not evidence of a measured failure rate.",
+        "Assembly can be fiddly. Change-of-mind returns are conditional; an Australian owner reported expensive return freight. Do not assume a free assembled-chair trial.",
+        "SIHOO Australia states three-year defect cover for this model and coverage through its listed official marketplaces. Keep proof of purchase and use the SIHOO AU seller/support route; normal wear and misuse are excluded."
+      ],
+      "suitability": {
+        "suits": [
+          "desk users who prefer breathable mesh and firm, adjustable lumbar support",
+          "buyers able to check fit and the seller’s return conditions before assembly"
+        ],
+        "mayNotSuit": [
+          "taller or broader users needing more headrest reach or a sliding seat",
+          "people seeking soft cushioning, gentle lumbar contact or a guaranteed free home trial"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian M57 features",
+          "publisher": "SIHOO Australia",
+          "sourceUrl": "https://sihoo.com.au/products/sihoo-m57-ergonomic-office-chair",
+          "supports": "Original M57 mesh design, 3D armrests, adjustable lumbar and headrest; do not conflate newer M57 Pro/footrest models or borrow their 4D arms and height range. No claimed therapeutic benefit or universal height fit.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian defect cover",
+          "publisher": "SIHOO Australia",
+          "sourceUrl": "https://sihoo.com.au/pages/warranty-policy",
+          "supports": "Three-year parts/workmanship cover, proof of purchase, excludes wear/misuse/unauthorised sellers. Local email and phone support.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Official marketplace support",
+          "publisher": "SIHOO Australia",
+          "sourceUrl": "https://sihoo.com.au/pages/repair-request",
+          "supports": "FAQ explicitly includes Amazon Australia among official marketplaces covered by standard warranty. Replacement-parts support route is provided. Does not establish free change-of-mind freight.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "M57 individual owner feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07BDFW1Y7",
+          "supports": "13 displayed entries read, including Australian Black/Grey variants. Court reports assembly and mesh positives; Demon reports lumbar padding pressure; Waqar reports squeak/castor/lumbar concerns and later seller resolution; Alfred at 180cm/80kg reports hard seat edges, poor headrest reach and costly return freight. Grey shared-design feedback not proof of Black finish durability. Exclude medical outcome claims and suspicious templated foreign text; no star-average inference.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Hands-on M57 review",
+          "publisher": "TechRadar",
+          "sourceUrl": "https://www.techradar.com/reviews/sihoo-m57-review-functional-but-unspectacular",
+          "supports": "2023 hands-on assessment: useful lumbar adjustment and mesh, fiddly assembly, ordinary armrests, restricted fit for taller reviewer. Historical design context, not current Australian price/support or AHC testing.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07BDFW1Y7",
+          "supports": "2026-10-25T20:59:59.745Z: exact ASIN and current selected variant verified, in stock with purchase control. Anonymous untagged request. Dated observation, not nationwide availability or delivery assurance.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, fulfilment and Australian purchase support",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07BDFW1Y7",
+          "supports": "Sold by SIHOO AU, fulfilled by Amazon. Conditional 30-day change-of-mind returns and separate faulty-item remedy route displayed. Prime-only price observed; no price or free-return claim published.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "26 October brand/model Product Safety Australia searches identified no matching recall. No-match is not certification. KONG HandiPOD/laser notices concern different products, not this rubber Classic.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07BDFW1Y7?tag=ahc07-22",
+          "supports": "Exact ASIN and approved ahc07-22 tag checked offline. The tagged destination was not requested; research used the clean canonical product URL without cookies or scripts. This does not prove merchant attribution.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-home-office-desk-setup-what-to-measure-before-you-buy-desk",
+      "guidePath": "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
+      "name": "Desky Single Sit Stand Desk — White 120 × 75cm, Black Frame",
+      "productType": "Single-motor sit-stand desk",
+      "summary": "A 120 × 75cm single-motor desk for a measured home-office setup. Its 73–123cm frame range excludes the 2.5cm top, making the working surface approximately 75.5–125.5cm high. That minimum can be too high for seated typing, especially for shorter users.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0CJL3Z3C8?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The frame minimum is not the worktop minimum. Check seated elbow height with feet supported before buying; raising a chair to compensate can create another fit problem.",
+        "One owner reported more movement at full height and adhesive cable holders losing grip. The rated 80kg lift capacity is not a guarantee of vibration-free work; allow cable slack and keep the moving desk clear of obstacles.",
+        "Assembly takes space and care. Owners vary on difficulty; the exact Amazon page includes a missing/broken-part and screw-alignment complaint. Check supplied parts before building and obtain replacement parts rather than improvising.",
+        "The Amazon offer specifies a three-year supplier warranty. Desky’s separate direct-store policy has channel-specific conditions; do not assume its ten-year banner or direct-store return benefits apply. Confirm delivered cost and change-of-mind freight for your address."
+      ],
+      "suitability": {
+        "suits": [
+          "users whose measured seated and standing elbow heights fit the actual worktop range",
+          "a modest monitor-and-keyboard setup that fits a 120 × 75cm surface"
+        ],
+        "mayNotSuit": [
+          "shorter users needing a lower worktop or households sharing the desk across very different heights",
+          "buyers wanting a wide multi-monitor surface or minimal movement at maximum extension"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian Single desk specifications",
+          "publisher": "Desky",
+          "sourceUrl": "https://desky.com.au/products/single-electric-sit-stand-desk",
+          "supports": "Exact White1200x750/Black configuration available in model family. 73–123cm to underside, 25mm melamine top, 80kg lift, single motor, height memory. Derived top range75.5–125.5cm. Avoid marketing claims of universal stability, productivity or health improvement.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Australian Single desk owner entries",
+          "publisher": "Desky",
+          "sourceUrl": "https://desky.com.au/products/single-electric-sit-stand-desk",
+          "supports": "Twelve individual displayed entries read. Lucas/Ridge/Sandipan report solid feel and smooth movement; Savannah assembly hours/delivery delay; Assumpta warns short-user fit; Nina reports wobble high and adhesive cable holder failure; Stuart describes cable tension. Same Single family, various sizes/finishes, not all exact120cm. Do not endorse owner wiring modifications or health claims.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact offer assembly complaint",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CJL3Z3C8",
+          "supports": "Only one full displayed review: Geek, US21Feb2024, broken gasket, missing screw and mismatched holes. Not sufficient alone for quality approval; combined with manufacturer-hosted owners and explicit assembly caveat. No estimated defect rate.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Channel-specific warranty limitation",
+          "publisher": "Desky",
+          "sourceUrl": "https://desky.com.au/pages/warranty-policy",
+          "supports": "Direct-store warranty explicitly applies to original purchasers through desky.com.au. Amazon’s brand-seller offer independently specifies3-year supplier warranty; do not assert direct-store ten-year protection. Local Desky help and Brisbane phone/showroom identified on product page.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CJL3Z3C8",
+          "supports": "2026-10-25T21:05:15.705Z: exact ASIN and current selected variant verified, in stock with purchase control. Anonymous untagged request. Dated observation, not nationwide availability or delivery assurance.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, fulfilment and Australian purchase support",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CJL3Z3C8",
+          "supports": "Shipped and sold by Desky Australia. Exact listing specifies 3 Years Supplier Warranty and conditional 30-day returns. Manufacturer direct-web warranty separately limits its policy to direct purchases; do not transfer its headline ten-year cover to this Amazon offer. Use Desky Australia seller support and retain listing/order evidence.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "26 October brand/model Product Safety Australia searches identified no matching recall. No-match is not certification. KONG HandiPOD/laser notices concern different products, not this rubber Classic.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CJL3Z3C8?tag=ahc07-22",
+          "supports": "Exact ASIN and approved ahc07-22 tag checked offline. The tagged destination was not requested; research used the clean canonical product URL without cookies or scripts. This does not prove merchant attribution.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-living-room-lighting-ideas-for-australian-homes-light",
+      "guidePath": "/guides/living-room-lighting-ideas-for-australian-homes/",
+      "name": "Glocusent Original Neck Reading Light — Grey GLCSNTBL001",
+      "productType": "Rechargeable personal reading light",
+      "summary": "A rechargeable neck light with two flexible arms and separate brightness controls, useful for reading on a sofa or in bed without finding space for a lamp base. It lights the page rather than the room; comfort against the neck is personal.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "One Australian owner wanted cushioning around the neck. Adjust both arms before a longer session; a clip or table lamp may suit better if the wearable shape is uncomfortable.",
+        "The advertised maximum runtime is for a low-output, single-head setting. Brighter settings and both heads reduce runtime; AHC has not measured it.",
+        "A USB-C cable is supplied but a mains adaptor is not. Use a suitable power source and the supplied instructions. No waterproof, eye-health or guaranteed no-disturbance claim is made.",
+        "The seller specifies 24-month cover. Keep proof of purchase; the manufacturer’s warranty process has exclusions and possible international return costs. For an Australian purchase, start with the seller’s Amazon support route."
+      ],
+      "suitability": {
+        "suits": [
+          "readers wanting hands-free light over a book or small craft project",
+          "small bedside or sofa spaces without room for a lamp base"
+        ],
+        "mayNotSuit": [
+          "people who dislike weight or contact around the neck",
+          "whole-room lighting, a fixed desk work surface or guaranteed all-night maximum brightness"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Original neck-light specifications",
+          "publisher": "Glocusent",
+          "sourceUrl": "https://glocusent.com/products/glocusent-eyecaring-led-neck-reading-light-gray",
+          "supports": "Current original Grey GLCSNTBL001 page, not newer timer/slimmer model. Two bendable arms, three colour settings, separate intensity controls, USB-C cable, no mains adaptor. Maximum advertised80h is conditional, not full-output use.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Official Amazon warranty route",
+          "publisher": "Glocusent",
+          "sourceUrl": "https://glocusent.com/pages/glocusent-return-and-exchange",
+          "supports": "Manufacturer accepts quality-related claims for official Amazon shops. Proof required; certain international return shipping costs borne by buyer. Refund requests go to original retailer. Exact AU offer states24months; no overseas consumer-policy promise imported.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual Australian reading-light feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ",
+          "supports": "13 displayed entries read; eight Australian entries include Grey and other colours of shared design. Jennah/Cassandra positive use/charging; Nikchorse flexible hands-free use but no red setting; Caz neck-contact discomfort; Liz/Rici/Melanie reading/craft utility. Other-colour feedback only for shared functions. No star-average, clinical eye claim or measured runtime inference.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ",
+          "supports": "2026-10-25T21:05:18.999Z: exact ASIN and current selected variant verified, in stock with purchase control. Anonymous untagged request. Dated observation, not nationwide availability or delivery assurance.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, fulfilment and Australian purchase support",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ",
+          "supports": "Glocusent-au seller, Amazon fulfilment, conditional 30-day returns. Exact listing states 24-month warranty; manufacturer accepts quality claims for official Amazon-store purchases. No local repair workshop or free international warranty freight is promised.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "26 October brand/model Product Safety Australia searches identified no matching recall. No-match is not certification. KONG HandiPOD/laser notices concern different products, not this rubber Classic.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ?tag=ahc07-22",
+          "supports": "Exact ASIN and approved ahc07-22 tag checked offline. The tagged destination was not requested; research used the clean canonical product URL without cookies or scripts. This does not prove merchant attribution.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy-light",
+      "guidePath": "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
+      "name": "Glocusent Original Neck Reading Light — Grey GLCSNTBL001",
+      "productType": "Rechargeable personal reading light",
+      "summary": "A personal reading light for a small bedside setup: flexible arms put light over a book while leaving the table clear. Check neck comfort and aim the beams carefully around a sleeping partner; it does not replace general lighting or window coverings.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "One Australian owner wanted cushioning around the neck. Adjust both arms before a longer session; a clip or table lamp may suit better if the wearable shape is uncomfortable.",
+        "The advertised maximum runtime is for a low-output, single-head setting. Brighter settings and both heads reduce runtime; AHC has not measured it.",
+        "A USB-C cable is supplied but a mains adaptor is not. Use a suitable power source and the supplied instructions. No waterproof, eye-health or guaranteed no-disturbance claim is made.",
+        "The seller specifies 24-month cover. Keep proof of purchase; the manufacturer’s warranty process has exclusions and possible international return costs. For an Australian purchase, start with the seller’s Amazon support route."
+      ],
+      "suitability": {
+        "suits": [
+          "readers wanting hands-free light over a book or small craft project",
+          "small bedside or sofa spaces without room for a lamp base"
+        ],
+        "mayNotSuit": [
+          "people who dislike weight or contact around the neck",
+          "whole-room lighting, a fixed desk work surface or guaranteed all-night maximum brightness"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Original neck-light specifications",
+          "publisher": "Glocusent",
+          "sourceUrl": "https://glocusent.com/products/glocusent-eyecaring-led-neck-reading-light-gray",
+          "supports": "Current original Grey GLCSNTBL001 page, not newer timer/slimmer model. Two bendable arms, three colour settings, separate intensity controls, USB-C cable, no mains adaptor. Maximum advertised80h is conditional, not full-output use.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Official Amazon warranty route",
+          "publisher": "Glocusent",
+          "sourceUrl": "https://glocusent.com/pages/glocusent-return-and-exchange",
+          "supports": "Manufacturer accepts quality-related claims for official Amazon shops. Proof required; certain international return shipping costs borne by buyer. Refund requests go to original retailer. Exact AU offer states24months; no overseas consumer-policy promise imported.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual Australian reading-light feedback",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ",
+          "supports": "13 displayed entries read; eight Australian entries include Grey and other colours of shared design. Jennah/Cassandra positive use/charging; Nikchorse flexible hands-free use but no red setting; Caz neck-contact discomfort; Liz/Rici/Melanie reading/craft utility. Other-colour feedback only for shared functions. No star-average, clinical eye claim or measured runtime inference.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ",
+          "supports": "2026-10-25T21:05:18.999Z: exact ASIN and current selected variant verified, in stock with purchase control. Anonymous untagged request. Dated observation, not nationwide availability or delivery assurance.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, fulfilment and Australian purchase support",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ",
+          "supports": "Glocusent-au seller, Amazon fulfilment, conditional 30-day returns. Exact listing states 24-month warranty; manufacturer accepts quality claims for official Amazon-store purchases. No local repair workshop or free international warranty freight is promised.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "26 October brand/model Product Safety Australia searches identified no matching recall. No-match is not certification. KONG HandiPOD/laser notices concern different products, not this rubber Classic.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07WNRN9WQ?tag=ahc07-22",
+          "supports": "Exact ASIN and approved ahc07-22 tag checked offline. The tagged destination was not requested; research used the clean canonical product URL without cookies or scripts. This does not prove merchant attribution.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-pantry-storage-ideas-australian-kitchens-pantry",
+      "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
+      "name": "iDesign Fridge + Pantry Binz 71230 — Clear 20.3cm Square",
+      "productType": "Open pantry grouping bin",
+      "summary": "An open clear bin for keeping a small group of packets together. The nominal footprint is 20.3 × 20.3cm and height 15.2cm; measure the cupboard opening and loaded hand clearance before buying. It groups packaged food rather than sealing loose ingredients.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B007EEE5HY?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It has no lid or airtight seal. Keep food in its appropriate packaging; this bin does not provide pest-proof or moisture-proof storage.",
+        "Published measurements are nominal external dimensions. Check the actual packets, opening and grip space; an owner found the bin smaller than expected.",
+        "Hand-wash with mild soap and water; the manufacturer says not to use a dishwasher. An owner also reported stubborn label adhesive.",
+        "There is no verified carrying-load rating in the reviewed evidence. Avoid overloading the handles, especially with heavy tins or bottles; owner comments do not establish a safe load limit."
+      ],
+      "suitability": {
+        "suits": [
+          "one pantry routine such as lunchbox packets or small baking supplies",
+          "shelves where a compact handled bin can be withdrawn without catching hinges"
+        ],
+        "mayNotSuit": [
+          "bulk flour or rice needing airtight storage",
+          "dishwasher cleaning, tall packages or a fully loaded heavy-can carrier"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact71230 dimensions and care",
+          "publisher": "iDesign / InterDesign",
+          "sourceUrl": "https://idesignhome.com/products/71230-fridge-pantry-binz-8-x-8-x-6-clear",
+          "supports": "SKU71230,8x8x6in, clear open plastic bin with handles. Mild soap/water, no dishwasher. Nominal metric conversion20.32x20.32x15.24cm. US direct store is sold out; current Amazon AU stock independently verified. No load or airtight claim.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact bin owner entries",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B007EEE5HY",
+          "supports": "Five single-bin entries read: Mimi warns small size; Scanta reports cupboard/packet grouping and hand cleaning; gimmielinda reports handles/visibility and hard-to-remove label glue; Sergio organisation; tinkink ordinary snack use and concern about heavy handle loads. All international and several old; limited durability evidence, moderate confidence for simple packet grouping only.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B007EEE5HY",
+          "supports": "2026-10-25T21:07:25.143Z: exact ASIN and current selected variant verified, in stock with purchase control. Anonymous untagged request. Dated observation, not nationwide availability or delivery assurance.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, fulfilment and Australian purchase support",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B007EEE5HY",
+          "supports": "Shipped and sold by Amazon AU; conditional 30-day change-of-mind return and separate faulty-item remedy routes. Australian seller handles purchase support. No unverified express warranty duration or US direct-store return promise.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "26 October brand/model Product Safety Australia searches identified no matching recall. No-match is not certification. KONG HandiPOD/laser notices concern different products, not this rubber Classic.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B007EEE5HY?tag=ahc07-22",
+          "supports": "Exact ASIN and approved ahc07-22 tag checked offline. The tagged destination was not requested; research used the clean canonical product URL without cookies or scripts. This does not prove merchant attribution.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-pantry-storage-what-to-measure-before-buying-organisers-pantry",
+      "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
+      "name": "iDesign Fridge + Pantry Binz 71230 — Clear 20.3cm Square",
+      "productType": "Open pantry grouping bin",
+      "summary": "A compact open bin to test against hinge clearance and packet sizes: nominal external dimensions 20.3 × 20.3 × 15.2cm. Allow extra grip space and keep food packaged; it is not an airtight container or a rated heavy-load carrier.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B007EEE5HY?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It has no lid or airtight seal. Keep food in its appropriate packaging; this bin does not provide pest-proof or moisture-proof storage.",
+        "Published measurements are nominal external dimensions. Check the actual packets, opening and grip space; an owner found the bin smaller than expected.",
+        "Hand-wash with mild soap and water; the manufacturer says not to use a dishwasher. An owner also reported stubborn label adhesive.",
+        "There is no verified carrying-load rating in the reviewed evidence. Avoid overloading the handles, especially with heavy tins or bottles; owner comments do not establish a safe load limit."
+      ],
+      "suitability": {
+        "suits": [
+          "one pantry routine such as lunchbox packets or small baking supplies",
+          "shelves where a compact handled bin can be withdrawn without catching hinges"
+        ],
+        "mayNotSuit": [
+          "bulk flour or rice needing airtight storage",
+          "dishwasher cleaning, tall packages or a fully loaded heavy-can carrier"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact71230 dimensions and care",
+          "publisher": "iDesign / InterDesign",
+          "sourceUrl": "https://idesignhome.com/products/71230-fridge-pantry-binz-8-x-8-x-6-clear",
+          "supports": "SKU71230,8x8x6in, clear open plastic bin with handles. Mild soap/water, no dishwasher. Nominal metric conversion20.32x20.32x15.24cm. US direct store is sold out; current Amazon AU stock independently verified. No load or airtight claim.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact bin owner entries",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B007EEE5HY",
+          "supports": "Five single-bin entries read: Mimi warns small size; Scanta reports cupboard/packet grouping and hand cleaning; gimmielinda reports handles/visibility and hard-to-remove label glue; Sergio organisation; tinkink ordinary snack use and concern about heavy handle loads. All international and several old; limited durability evidence, moderate confidence for simple packet grouping only.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B007EEE5HY",
+          "supports": "2026-10-25T21:07:25.143Z: exact ASIN and current selected variant verified, in stock with purchase control. Anonymous untagged request. Dated observation, not nationwide availability or delivery assurance.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, fulfilment and Australian purchase support",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B007EEE5HY",
+          "supports": "Shipped and sold by Amazon AU; conditional 30-day change-of-mind return and separate faulty-item remedy routes. Australian seller handles purchase support. No unverified express warranty duration or US direct-store return promise.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "26 October brand/model Product Safety Australia searches identified no matching recall. No-match is not certification. KONG HandiPOD/laser notices concern different products, not this rubber Classic.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B007EEE5HY?tag=ahc07-22",
+          "supports": "Exact ASIN and approved ahc07-22 tag checked offline. The tagged destination was not requested; research used the clean canonical product URL without cookies or scripts. This does not prove merchant attribution.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-pet-essentials-for-australian-homes-pet",
+      "guidePath": "/guides/pet-essentials-for-australian-homes/",
+      "name": "KONG Classic Medium — Red Natural Rubber T2",
+      "productType": "Supervised adult-dog enrichment toy",
+      "summary": "A stuffable natural-rubber toy for supervised play by an adult dog whose mouth size and chewing style suit the Medium Classic. Choose fit before price: the red Classic is for average chewers and is not the softer Puppy model.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000AYN7LU?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Medium is not a universal dog size. Follow KONG’s sizing guide and size up when uncertain; the widest part must be larger than the back of the dog’s mouth. In a multi-dog household size for the largest dog.",
+        "No rubber toy is indestructible. Supervise, inspect before and during use, and remove it if damaged. Power chewers may need a different rubber strength and size.",
+        "Food must be appropriate for the individual dog and counted within its feeding routine. Clean out retained food; this is not a replacement for a bowl, balanced diet or veterinary advice.",
+        "Owner feedback spans multiple sizes. Medium owners report useful play, but that does not establish lifespan for your dog; no anxiety-treatment, dental-health or chew-proof claim is made."
+      ],
+      "suitability": {
+        "suits": [
+          "adult dogs whose mouth size fits the Medium and whose chewing style suits Classic rubber",
+          "supervised food enrichment or short play sessions followed by cleaning and inspection"
+        ],
+        "mayNotSuit": [
+          "teething puppies needing an age-appropriate softer toy",
+          "power chewers, dogs able to fit the whole toy in their mouth, or unattended use"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Classic Medium specifications and warnings",
+          "publisher": "KONG",
+          "sourceUrl": "https://www.kongcompany.com/kong-classic/",
+          "supports": "Medium T2 UPC035585111216, natural red rubber, average chewers, supervised use, discard damaged. Manufacturer lists2.25x2.25x3.5in forMedium. AmazonT2E is regional listing code; do not use default T4/XS dimensions from manufacturer page.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Choosing the correct rubber and size",
+          "publisher": "KONG",
+          "sourceUrl": "https://www.kongcompany.com/choosing-the-right-kong/",
+          "supports": "Classic red for average adult chewers, Puppy distinct softer rubber. Size for mouth and chewing style, size up where uncertain, largest dog in shared household. Noindestructibility or unsupervised-use claim.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Cleaning and selection guidance",
+          "publisher": "KONG",
+          "sourceUrl": "https://www.kongcompany.com/faq/",
+          "supports": "Manufacturer sizing/user guides, inspection and cleaning guidance. General family instructions not an Australian warranty-duration statement.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Classic individual owner entries",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000AYN7LU",
+          "supports": "13 entries inspected. ExactMedium GailJohnston10Oct2026, AntiAnti21Jan2026 and vas5Jul2026 report play/durability utility; other-size entries retained only as sizing caution and family context. Do not pool sizes for durability. Exclude owner indestructible, medical, tied-cord and unsupervised-use suggestions.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000AYN7LU",
+          "supports": "2026-10-25T21:00:07.957Z: exact ASIN and current selected variant verified, in stock with purchase control. Anonymous untagged request. Dated observation, not nationwide availability or delivery assurance.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, fulfilment and Australian purchase support",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000AYN7LU",
+          "supports": "Pattern Products AU seller, Amazon fulfilment. Conditional30-day returns and separate faulty-item remedies shown. Use original seller/Amazon for Australian purchase support; no imported lifetime/US guarantee or chew-proof replacement promise.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand and model recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "26 October brand/model Product Safety Australia searches identified no matching recall. No-match is not certification. KONG HandiPOD/laser notices concern different products, not this rubber Classic.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Published affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000AYN7LU?tag=ahc07-22",
+          "supports": "Exact ASIN and approved ahc07-22 tag checked offline. The tagged destination was not requested; research used the clean canonical product URL without cookies or scripts. This does not prove merchant attribution.",
+          "checkedOn": "2026-10-26"
         }
       ]
     }

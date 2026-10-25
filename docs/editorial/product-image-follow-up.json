@@ -1,5 +1,5 @@
 {
-  "checkedOn": "2026-10-18",
+  "checkedOn": "2026-10-26",
   "note": "Unresolved exact-model image gaps after manufacturer-source review. Amazon photographs remain prohibited. Do not substitute other models, sizes or colours.",
   "products": [
     {
@@ -89,6 +89,34 @@
     {
       "id": "gap-renter-friendly-garage-storage-what-to-check-before-you-buy-shelf",
       "reason": "25 October: additional placement of existing Amazon Basics WI143060BW. Same unresolved exact-product permission gap as amazon-basics-five-shelf-caster-unit; Amazon listing/CDN photographs remain prohibited."
+    },
+    {
+      "id": "gap-home-office-chair-and-seating-what-to-check-before-you-buy-chair",
+      "reason": "26 October: researched exact product approved; no product-image reuse permission established. Preserve approved Amazon retailer artwork; no Amazon listing/CDN photographs or substitute product images."
+    },
+    {
+      "id": "gap-home-office-desk-setup-what-to-measure-before-you-buy-desk",
+      "reason": "26 October: researched exact product approved; no product-image reuse permission established. Preserve approved Amazon retailer artwork; no Amazon listing/CDN photographs or substitute product images."
+    },
+    {
+      "id": "gap-living-room-lighting-ideas-for-australian-homes-light",
+      "reason": "26 October: researched exact product approved; no product-image reuse permission established. Preserve approved Amazon retailer artwork; no Amazon listing/CDN photographs or substitute product images."
+    },
+    {
+      "id": "gap-bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy-light",
+      "reason": "26 October: researched exact product approved; no product-image reuse permission established. Preserve approved Amazon retailer artwork; no Amazon listing/CDN photographs or substitute product images."
+    },
+    {
+      "id": "gap-pantry-storage-ideas-australian-kitchens-pantry",
+      "reason": "26 October: researched exact product approved; no product-image reuse permission established. Preserve approved Amazon retailer artwork; no Amazon listing/CDN photographs or substitute product images."
+    },
+    {
+      "id": "gap-pantry-storage-what-to-measure-before-buying-organisers-pantry",
+      "reason": "26 October: researched exact product approved; no product-image reuse permission established. Preserve approved Amazon retailer artwork; no Amazon listing/CDN photographs or substitute product images."
+    },
+    {
+      "id": "gap-pet-essentials-for-australian-homes-pet",
+      "reason": "26 October: researched exact product approved; no product-image reuse permission established. Preserve approved Amazon retailer artwork; no Amazon listing/CDN photographs or substitute product images."
     }
   ],
   "illustrative": [

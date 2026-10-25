@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-10-25",
+  "updatedOn": "2026-10-26",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -441,10 +441,10 @@
     {
       "guidePath": "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
       "title": "Bedroom Lighting and Window Coverings for Real Routines",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "844b03197810cd87e32a43603c2e3abce89f124e6c3d2ba13d785f2282256b65",
+      "reviewedSourceSha256": "799a181a70902f018df66f0f33ab86913c31a9bb82071f55ebf2918f9f54f05a",
       "requiredProductTypes": [
         {
           "label": "Portable ambient table lamp",
@@ -453,14 +453,20 @@
           ]
         },
         {
+          "label": "Rechargeable personal reading light",
+          "productIds": [
+            "gap-bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy-light"
+          ]
+        },
+        {
           "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Dedicated reading lights, general lighting and window coverings remain unfilled; the lamp does not provide blackout or privacy."
+          "gapReason": "Conventional reading lamps, general lighting and window coverings remain unfilled."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "25 October 2026: fresh exact offer, manufacturer documentation, owner/technical feedback and Australian support review. See docs/editorial/commercial-gap-lighting-shelving-2026-10-25.md. Broader categories remain explicit gaps."
+      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
     },
     {
       "guidePath": "/guides/bedroom-storage-ideas-small-australian-rooms/",
@@ -1274,15 +1280,16 @@
     {
       "guidePath": "/guides/home-office-chair-and-seating-what-to-check-before-you-buy/",
       "title": "An Office Chair That Fits Under the Desk",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "9bac6979790aa0f0180a92670de8d559ed3ba04eca8840d2f08decf71f1dd1dd",
+      "reviewedSourceSha256": "8b3ccb4abecf1c273a969f2e4ffc11cd9e23f714fe8eb65af78cbac980e22e5b",
       "requiredProductTypes": [
         {
-          "label": "Office chairs",
-          "productIds": [],
-          "gapReason": "No approved chair with adjustment, fit, warranty and owner evidence."
+          "label": "Adjustable mesh office chair",
+          "productIds": [
+            "gap-home-office-chair-and-seating-what-to-check-before-you-buy-chair"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -1290,27 +1297,28 @@
         "/guides/home-office-lighting-what-to-compare-before-you-buy/",
         "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
     },
     {
       "guidePath": "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
       "title": "Home Office Desk Setup: What to Measure Before You Buy",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c0a3d73cbda47ecab9698d80eb385443b4ee73be8d538f146764db28a1d9979e",
+      "reviewedSourceSha256": "b2846b3d0a893008cfaf8473b6fd04fae8db360d0ce0d382fc716f2621ef190f",
       "requiredProductTypes": [
         {
-          "label": "Office desks",
-          "productIds": [],
-          "gapReason": "No approved desk with working dimensions, stability and load information."
+          "label": "Single-motor sit-stand desk",
+          "productIds": [
+            "gap-home-office-desk-setup-what-to-measure-before-you-buy-desk"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
     },
     {
       "guidePath": "/guides/home-office-lighting-what-to-compare-before-you-buy/",
@@ -1823,10 +1831,10 @@
     {
       "guidePath": "/guides/living-room-lighting-ideas-for-australian-homes/",
       "title": "Living Room Lighting Ideas for Australian Homes",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "dc50a0c3b23da60940bdd888960858d302b2132069e23c66fcb761c0651cbf44",
+      "reviewedSourceSha256": "5768b3fa8b25a621936a964cc4ef8e0b8f739c0775aca72bf33610de38bf13c1",
       "requiredProductTypes": [
         {
           "label": "Portable ambient table lamp",
@@ -1835,16 +1843,22 @@
           ]
         },
         {
+          "label": "Rechargeable personal reading light",
+          "productIds": [
+            "gap-living-room-lighting-ideas-for-australian-homes-light"
+          ]
+        },
+        {
           "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Directional reading lamps, floor lamps and main-room lighting remain unfilled; this portable accent lamp covers only the ambient layer."
+          "gapReason": "Floor lamps and main-room lighting remain unfilled; a wearable reading light does not replace those layers."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/home-office-lighting-what-to-compare-before-you-buy/"
       ],
-      "reviewScope": "25 October 2026: fresh exact offer, manufacturer documentation, owner/technical feedback and Australian support review. See docs/editorial/commercial-gap-lighting-shelving-2026-10-25.md. Broader categories remain explicit gaps."
+      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
     },
     {
       "guidePath": "/guides/living-room-rug-size-and-placement-what-to-check-before-you-buy/",
@@ -2155,10 +2169,10 @@
     {
       "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
       "title": "Pantry Storage Ideas for Australian Kitchens",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "36d8d0c7c532e1443c89f31f465f8c4bba51434a38c5deddcd5b14f6aa5282f9",
+      "reviewedSourceSha256": "2ac2c92fb120eb858b84b6f4a6b57fa6def2cd95f45aff8f7615912b6a88fb8e",
       "requiredProductTypes": [
         {
           "label": "11-inch pantry turntable",
@@ -2173,24 +2187,30 @@
           ]
         },
         {
-          "label": "Pantry bins and shelf risers",
+          "label": "Open pantry grouping bin",
+          "productIds": [
+            "gap-pantry-storage-ideas-australian-kitchens-pantry"
+          ]
+        },
+        {
+          "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Turntable and dry-food container are covered. The earlier Joseph Joseph shelf-riser offer is paused; an eligible, orderable exact offer or suitable alternative is needed, together with a permitted product image. Pantry bins also remain unassessed."
+          "gapReason": "A suitable orderable shelf riser remains unfilled. Joseph Joseph85194 and85146 were unavailable at the26October2026 clean checks; both remain unpromoted."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md. Coverage register reconciled 18 October against current approved placements: obsolete blanket gaps removed or narrowed. This correction does not refresh product availability dates."
+      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
     },
     {
       "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
       "title": "Pantry Organisers: What to Measure Before You Buy",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "89707b3dd0cc2a2ff36c1a893595ee98e23fa32eefcc93f9682539fa79c2335f",
+      "reviewedSourceSha256": "f389921c433216e117fbd6fcc32f4b6baa80f8e500a15ae9a15a7558c3fc17ea",
       "requiredProductTypes": [
         {
           "label": "11-inch pantry turntable",
@@ -2201,7 +2221,7 @@
         {
           "label": "Freestanding cupboard shelf riser",
           "productIds": [],
-          "gapReason": "The previously researched Joseph Joseph 85194 shelf is currently unavailable on Amazon at the 11 October 2026 recheck. Promotion paused pending an orderable, verified offer or researched replacement."
+          "gapReason": "A suitable orderable shelf riser remains unfilled. Joseph Joseph85194 and85146 were unavailable at the26October2026 clean checks; both remain unpromoted."
         },
         {
           "label": "Single dry-food container",
@@ -2220,11 +2240,17 @@
           "productIds": [
             "joseph-joseph-cupboardstore-under-shelf-spice-rack"
           ]
+        },
+        {
+          "label": "Open pantry grouping bin",
+          "productIds": [
+            "gap-pantry-storage-what-to-measure-before-buying-organisers-pantry"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
+      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
     },
     {
       "guidePath": "/guides/pet-cleaning-supplies-what-to-check-before-buying-cleaning-gear/",
@@ -2265,15 +2291,21 @@
     {
       "guidePath": "/guides/pet-essentials-for-australian-homes/",
       "title": "Pet Essentials for Australian Homes: What to Buy First",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "a3efc905abf71b87ac1906ca0aac95f866fdc0ca7fc5d0b0c94be3b907dfe0cf",
+      "reviewedSourceSha256": "cc90ea379cd28086eb9b94512ee5c97d337260ef8fae85634171115b24f4dc01",
       "requiredProductTypes": [
         {
-          "label": "Pet essentials",
+          "label": "Supervised adult-dog enrichment toy",
+          "productIds": [
+            "gap-pet-essentials-for-australian-homes-pet"
+          ]
+        },
+        {
+          "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Focused guides offer some products, but the overview has no direct buying examples."
+          "gapReason": "Bowls, cat-specific essentials, puppy toys and travel restraints still need separate suitable products; this adult-dog toy does not cover them."
         }
       ],
       "supportingProductIds": [],
@@ -2283,7 +2315,7 @@
         "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
         "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
     },
     {
       "guidePath": "/guides/pet-feeding-station-ideas-for-australian-homes/",
