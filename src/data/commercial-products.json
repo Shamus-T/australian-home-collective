@@ -98,7 +98,8 @@
     "/guides/small-garage-storage-what-to-check-before-buying-shelves-or-racks/",
     "/guides/home-office-chair-and-seating-what-to-check-before-you-buy/",
     "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
-    "/guides/pet-essentials-for-australian-homes/"
+    "/guides/pet-essentials-for-australian-homes/",
+    "/guides/pet-feeding-station-ideas-for-australian-homes/"
   ],
   "products": [
     {
@@ -23501,6 +23502,440 @@
           "publisher": "AHC",
           "sourceUrl": "https://www.amazon.com.au/dp/B000AYN7LU?tag=ahc07-22",
           "supports": "Exact ASIN and approved ahc07-22 tag checked offline. The tagged destination was not requested; research used the clean canonical product URL without cookies or scripts. This does not prove merchant attribution.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-everyday-kitchen-essentials-australian-homes-b4850217",
+      "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
+      "name": "Tefal Gourmet Hard Anodised Non-Stick Frypan 20cm — B4850217",
+      "productType": "Small non-induction frypan",
+      "summary": "A compact 20cm non-stick pan for a small breakfast or side dish on gas, electric or ceramic cooktops. It does not work on induction. The nominal diameter is not the flat cooking area, so check the portion and burner support before choosing it.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ftefal-20cm-gourmet-hard-anodised-non-stick-frypan-b4850217",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Not induction-compatible: one owner bought it expecting otherwise. Verify the hob type before ordering.",
+        "Seven displayed owner entries include praise for compact size and cleaning, but one reports severe sticking, burning and staining. These accounts do not establish a defect rate or guarantee non-stick performance.",
+        "The coating needs care: use suitable non-metal utensils, avoid overheating and follow the supplied washing instructions. A metal handle can become hot; use appropriate protection.",
+        "Tefal’s two-year Australian cookware guarantee covers material/manufacturing faults, with exclusions including wear, scratches and overheating. Keep proof of purchase; consumer guarantees apply separately."
+      ],
+      "suitability": {
+        "suits": [
+          "small portions on a compatible non-induction cooktop",
+          "households replacing one worn pan rather than buying a full set"
+        ],
+        "mayNotSuit": [
+          "induction cooktops or large batch cooking",
+          "high-heat searing or anyone wanting an uncoated cooking surface"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer specification and variant boundaries",
+          "publisher": "Tefal Australia",
+          "sourceUrl": "https://www.tefal.com.au/products/tefal-gourmet-hard-anodised-non-stick-frypan-20cm",
+          "supports": "Exact B4850217:20cm hard-anodised aluminium, titanium-reinforced non-stick, riveted stainless handle; gas/electric/ceramic but NOT induction; metal utensils not permitted. No oven temperature inferred from generic family guidance.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner accounts and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/tefal-20cm-gourmet-hard-anodised-non-stick-frypan-b4850217",
+          "supports": "Seven individual Good Guys entries read. Rienzie John compact size; Deb induction misunderstanding; Ned burning/sticking/staining; Eric and Silvio cleaning/food release; Sakshi omelette use; Tony quick heating. Retailer says reviews may be incentivised. No AI review-summary claims used. No universal stay-cool handle, measured lifespan or health claims.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian purchase offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/tefal-20cm-gourmet-hard-anodised-non-stick-frypan-b4850217",
+          "supports": "26October2026 Brisbane: clean anonymous page, exact model/ASIN, primary stock signal and purchase control inspected. No cart, scripts, cookies or affiliate redirect requested. Not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and purchase support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/tefal-20cm-gourmet-hard-anodised-non-stick-frypan-b4850217",
+          "supports": "Exact direct Good Guys listing accepts ordering; postcode-specific stock/delivery not checked. No selected-product agency or supplier-dispatch flag observed. Tefal AU directs retailer purchases to point of sale for cookware claims.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall register brand search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Tefal",
+          "supports": "Fresh26October brand query returned no matching recall entries; rawRSS saved. Supplemented by brand/model web searches. A no-match is not a safety certification.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ftefal-20cm-gourmet-hard-anodised-non-stick-frypan-b4850217",
+          "supports": "Existing approved Good Guys camref1100l6vaUc/creative1011l64579 reused with exact clean product destination, encoded offline. No referral request; actual merchant attribution is not tested.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian cookware guarantee",
+          "publisher": "Tefal",
+          "sourceUrl": "https://dam.groupeseb.com/m/5c15e066afa851d9/original/Text-Cookware-Bakeware-Pressure-Cookers-TEF-enAU-pdf.pdf",
+          "supports": "Two-year material/manufacturing guarantee; proof required; normal wear,scratches,overheating and misuse excluded. Australian consumer guarantees preserved.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Current cookware use and care instructions",
+          "publisher": "Tefal",
+          "sourceUrl": "https://dam.groupeseb.com/m/18f14d46dc950989/original/Cookware-Use-And-Care-Guide-en-pdf.pdf",
+          "supports": "Avoid overheating, do not leave cooking unattended, protect from hot metal handles; product-specific instructions govern oven and dishwasher use. No generic stay-cool assertion.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-everyday-kitchen-essentials-australian-homes-c2780483",
+      "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
+      "name": "Tefal Generous Cook Induction Non-Stick Frypan 24cm — C2780483",
+      "productType": "Induction-compatible everyday frypan",
+      "summary": "A deeper 24cm non-stick frypan for everyday meals, compatible with induction as well as gas, electric and ceramic cooktops. Check the base against the hob’s minimum pan size and allow cupboard space for its fixed handle; it is not a substitute for an uncoated searing pan.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ftefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Nominal diameter does not equal usable base size. Check the hob’s pan-detection requirements and the portion you normally cook.",
+        "Use suitable non-metal utensils and avoid overheating. The coating will not last indefinitely; clean according to the supplied instructions and do not treat the heat indicator as an automatic temperature control.",
+        "Displayed owner feedback is mainly positive but limited; two entries share the same purchaser and purchase date. AHC has not tested heat distribution or long-term coating durability.",
+        "Tefal provides a two-year Australian cookware guarantee for material/manufacturing faults, subject to exclusions. Normal wear, scratching and overheating are not a promise of free replacement."
+      ],
+      "suitability": {
+        "suits": [
+          "everyday cooking on induction or other supported hob types",
+          "cooks wanting a deeper pan for vegetables or meals with a sauce"
+        ],
+        "mayNotSuit": [
+          "high-heat searing, metal-utensil use or buyers avoiding non-stick coatings",
+          "large batch cooking or cupboards that cannot accommodate the fixed handle"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer specification and variant boundaries",
+          "publisher": "Tefal Australia",
+          "sourceUrl": "https://www.tefal.com.au/products/tefal-generous-cook-non-stick-induction-frypan-24cm",
+          "supports": "Exact Australian C2780483 manufacturer page:24cm Generous Cook, non-stick coating, deeper shape, induction/gas/electric/ceramic compatibility, heat indicator and no metal utensils. No pan capacity, measured heat uniformity or oven limit inferred.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner accounts and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/tefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+          "supports": "Ten displayed individual Good Guys entries inspected; two Elle entries share5June2025 purchase date and are not independent owners. Arun cleaning/non-stick; Lia induction compatibility/solid feel; Belinda heating; Tony quick heating. Several brief entries add little detail. Retailer incentive disclosure retained; no AI-summary, pooled star-rating or lifetime-performance inference.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian purchase offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/tefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+          "supports": "26October2026 Brisbane: clean anonymous page, exact model/ASIN, primary stock signal and purchase control inspected. No cart, scripts, cookies or affiliate redirect requested. Not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and purchase support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/tefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+          "supports": "Exact direct Good Guys listing accepts ordering; postcode-specific stock/delivery not checked. No selected-product agency or supplier-dispatch flag observed. Tefal AU directs retailer purchases to point of sale for cookware claims.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall register brand search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Tefal",
+          "supports": "Fresh26October brand query returned no matching recall entries; rawRSS saved. Supplemented by brand/model web searches. A no-match is not a safety certification.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ftefal-generous-cook-induction-non-stick-frypan-24cm-c2780483",
+          "supports": "Existing approved Good Guys camref1100l6vaUc/creative1011l64579 reused with exact clean product destination, encoded offline. No referral request; actual merchant attribution is not tested.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian cookware guarantee",
+          "publisher": "Tefal",
+          "sourceUrl": "https://dam.groupeseb.com/m/5c15e066afa851d9/original/Text-Cookware-Bakeware-Pressure-Cookers-TEF-enAU-pdf.pdf",
+          "supports": "Two-year material/manufacturing guarantee; proof required; normal wear,scratches,overheating and misuse excluded. Australian consumer guarantees preserved.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Current cookware use and care instructions",
+          "publisher": "Tefal",
+          "sourceUrl": "https://dam.groupeseb.com/m/18f14d46dc950989/original/Cookware-Use-And-Care-Guide-en-pdf.pdf",
+          "supports": "Avoid overheating, do not leave cooking unattended, protect from hot metal handles; product-specific instructions govern oven and dishwasher use. No generic stay-cool assertion.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-pet-feeding-station-ideas-for-australian-homes-b00l3o4ji6",
+      "guidePath": "/guides/pet-feeding-station-ideas-for-australian-homes/",
+      "name": "Outward Hound Fun Feeder Slo Bowl Medium/Mini — Turquoise 51006",
+      "productType": "Two-cup slow-feeding dog bowl",
+      "summary": "A two-cup maze bowl for a dog that eats quickly and can comfortably reach the channels. This is the Turquoise Medium/Mini 51006, approximately 22.2 × 22.2 × 5.7cm. Introduce it under supervision and stop if it causes frustration, chewing or difficulty accessing food.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B00L3O4JI6?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The two-cup figure is nominal bowl capacity, not a recommended serving. Measure the normal food allowance separately; kibble size and food texture affect access.",
+        "One Australian Medium/Turquoise owner described frustration and grinding against the bowl before adaptation. Supervise use, remove it after meals and replace it if damaged; it is not a chew toy.",
+        "It is top-rack dishwasher-safe, but food can remain in the channels. Inspect and clean the whole bowl after each meal; the non-slip base does not guarantee it will stay put on every floor.",
+        "The maze will not suit every muzzle or eating style. No claim is made that it prevents bloat, obesity, regurgitation or other illness. Persistent eating difficulties need veterinary advice.",
+        "The reviewed offer is sold and shipped by Amazon AU, with conditional returns and a faulty-item support route. No separate Australian manufacturer warranty duration was established."
+      ],
+      "suitability": {
+        "suits": [
+          "dogs that gulp meals and can reach the maze comfortably",
+          "feeding areas with room to lift and clean a roughly 22cm bowl"
+        ],
+        "mayNotSuit": [
+          "dogs that chew bowls or struggle to reach food between ridges",
+          "water service, a universal puppy bowl or treatment for digestive or swallowing problems"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer specification and variant boundaries",
+          "publisher": "Outward Hound",
+          "sourceUrl": "https://outwardhound.com/fun-feeder-slo-bowl-slow-feeder-dog-bowl/",
+          "supports": "Official family page supports medium2-cup capacity and top-rack cleaning, but its default selection is another variant: do not import default3-cup/shallow claims. Exact Amazon AU ASIN and manufacturer part51006 identify Medium/Turquoise Drop,22.2×22.2×5.7cm. Brand family marketing on disease prevention and10x eating time is not adopted.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner accounts and limitations",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00L3O4JI6",
+          "supports": "13 Amazon entries inspected with variants separated. ExactMedium/Turquoise: Mith10May2021 reports slower eating plus frustration/grinding initially; James28June2025 describes size and paced access;2March2026 brief positive entry. Larger/purple/orange variants are contextual only, not pooled performance proof. Excluded owner medical, indestructibility and unsupervised-use claims.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian purchase offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00L3O4JI6",
+          "supports": "26October2026 Brisbane: clean anonymous page, exact model/ASIN, primary stock signal and purchase control inspected. No cart, scripts, cookies or affiliate redirect requested. Not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and purchase support",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00L3O4JI6",
+          "supports": "Fresh offer sold and shipped by Amazon AU. Conditional30-day change-of-mind returns and separate faulty-item remedy route displayed; no invented manufacturer warranty duration.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall register brand search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Outward%20Hound",
+          "supports": "Fresh26October brand query returned no matching recall entries; rawRSS saved. Supplemented by brand/model web searches. A no-match is not a safety certification.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00L3O4JI6?tag=ahc07-22",
+          "supports": "ExactASIN and approved ahc07-22 tag verified offline; taggedURL never requested.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Manufacturer contact and retailer support boundary",
+          "publisher": "Outward Hound",
+          "sourceUrl": "https://outwardhound.com/customer-service/",
+          "supports": "Brand contact route exists; do not transfer US direct-shop terms or claim an Australian express-warranty period. The selected AmazonAU seller handles order/return issues.",
+          "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "gap-pet-essentials-for-australian-homes-b00l3o4ji6",
+      "guidePath": "/guides/pet-essentials-for-australian-homes/",
+      "name": "Outward Hound Fun Feeder Slo Bowl Medium/Mini — Turquoise 51006",
+      "productType": "Two-cup slow-feeding dog bowl",
+      "summary": "An optional two-cup maze bowl for a dog that rushes meals, rather than an essential for every pet. The Turquoise Medium/Mini 51006 needs about 22.2 × 22.2cm of floor space and a muzzle that can reach its channels. Start with supervised use; keep ordinary water access separate.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B00L3O4JI6?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-26",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-26",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The two-cup figure is nominal bowl capacity, not a recommended serving. Measure the normal food allowance separately; kibble size and food texture affect access.",
+        "One Australian Medium/Turquoise owner described frustration and grinding against the bowl before adaptation. Supervise use, remove it after meals and replace it if damaged; it is not a chew toy.",
+        "It is top-rack dishwasher-safe, but food can remain in the channels. Inspect and clean the whole bowl after each meal; the non-slip base does not guarantee it will stay put on every floor.",
+        "The maze will not suit every muzzle or eating style. No claim is made that it prevents bloat, obesity, regurgitation or other illness. Persistent eating difficulties need veterinary advice.",
+        "The reviewed offer is sold and shipped by Amazon AU, with conditional returns and a faulty-item support route. No separate Australian manufacturer warranty duration was established."
+      ],
+      "suitability": {
+        "suits": [
+          "dogs that gulp meals and can reach the maze comfortably",
+          "feeding areas with room to lift and clean a roughly 22cm bowl"
+        ],
+        "mayNotSuit": [
+          "dogs that chew bowls or struggle to reach food between ridges",
+          "water service, a universal puppy bowl or treatment for digestive or swallowing problems"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Manufacturer specification and variant boundaries",
+          "publisher": "Outward Hound",
+          "sourceUrl": "https://outwardhound.com/fun-feeder-slo-bowl-slow-feeder-dog-bowl/",
+          "supports": "Official family page supports medium2-cup capacity and top-rack cleaning, but its default selection is another variant: do not import default3-cup/shallow claims. Exact Amazon AU ASIN and manufacturer part51006 identify Medium/Turquoise Drop,22.2×22.2×5.7cm. Brand family marketing on disease prevention and10x eating time is not adopted.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner accounts and limitations",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00L3O4JI6",
+          "supports": "13 Amazon entries inspected with variants separated. ExactMedium/Turquoise: Mith10May2021 reports slower eating plus frustration/grinding initially; James28June2025 describes size and paced access;2March2026 brief positive entry. Larger/purple/orange variants are contextual only, not pooled performance proof. Excluded owner medical, indestructibility and unsupervised-use claims.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact Australian purchase offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00L3O4JI6",
+          "supports": "26October2026 Brisbane: clean anonymous page, exact model/ASIN, primary stock signal and purchase control inspected. No cart, scripts, cookies or affiliate redirect requested. Not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and purchase support",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00L3O4JI6",
+          "supports": "Fresh offer sold and shipped by Amazon AU. Conditional30-day change-of-mind returns and separate faulty-item remedy route displayed; no invented manufacturer warranty duration.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall register brand search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Outward%20Hound",
+          "supports": "Fresh26October brand query returned no matching recall entries; rawRSS saved. Supplemented by brand/model web searches. A no-match is not a safety certification.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved affiliate destination checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00L3O4JI6?tag=ahc07-22",
+          "supports": "ExactASIN and approved ahc07-22 tag verified offline; taggedURL never requested.",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Manufacturer contact and retailer support boundary",
+          "publisher": "Outward Hound",
+          "sourceUrl": "https://outwardhound.com/customer-service/",
+          "supports": "Brand contact route exists; do not transfer US direct-shop terms or claim an Australian express-warranty period. The selected AmazonAU seller handles order/return issues.",
           "checkedOn": "2026-10-26"
         }
       ]

@@ -870,21 +870,33 @@
     {
       "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
       "title": "Everyday Kitchen Essentials for Australian Homes",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "b35f222f49dc7bb31edd41ccc3362ad7ad1ea746baafe348f982d95b7a5be60b",
+      "reviewedSourceSha256": "895662b2f5f70ab6ecf0e088573fa5ad9e139b84a14c3859004659a5bde507b3",
       "requiredProductTypes": [
-        {
-          "label": "Everyday kitchen equipment",
-          "productIds": [],
-          "gapReason": "Food-storage example added; cookware, knives and other equipment remain routed to focused guides or unfilled."
-        },
         {
           "label": "Nesting leftover and freezer containers",
           "productIds": [
             "joseph-joseph-nest-lock-81081-everyday-kitchen-essentials-australian-homes"
           ]
+        },
+        {
+          "label": "Small non-induction frypan",
+          "productIds": [
+            "gap-everyday-kitchen-essentials-australian-homes-b4850217"
+          ]
+        },
+        {
+          "label": "Induction-compatible everyday frypan",
+          "productIds": [
+            "gap-everyday-kitchen-essentials-australian-homes-c2780483"
+          ]
+        },
+        {
+          "label": "Remaining product categories",
+          "productIds": [],
+          "gapReason": "Pots, knives and other equipment remain unfilled; the two pans and existing food containers do not cover every kitchen task."
         }
       ],
       "supportingProductIds": [],
@@ -893,7 +905,7 @@
         "/guides/cookware-materials-compared/",
         "/guides/kitchen-container-storage-what-to-sort-before-buying-more-containers/"
       ],
-      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
+      "reviewScope": "26 October2026: exact Tefal20/24cm pans and Outward Hound51006 slow feeder added after manufacturer, owner, seller, availability and recall research. Other products retain prior dates. See docs/editorial/commercial-gap-kitchen-pet-feeding-2026-10-26.md."
     },
     {
       "guidePath": "/guides/fan-heater-vs-ceramic-heater/",
@@ -1941,10 +1953,10 @@
     {
       "guidePath": "/guides/new-puppy-essentials/",
       "title": "New Puppy Essentials Australia: What You Need for the First Weeks",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "189f21765c386d1db5ce3d7a1e6558fbfc1b56cd908f5dacf7de4cb97aff577e",
+      "reviewedSourceSha256": "eb85d586c78d0674c7f3510c80dd2c3d6a48e17a4ee776ea4468892e19a9f7b2",
       "requiredProductTypes": [
         {
           "label": "Puppy beds, gates and feeding gear",
@@ -1957,7 +1969,7 @@
         "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/",
         "/guides/how-to-choose-the-right-dog-bed-for-your-home/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "26 October2026: added contextual feeding-station link, explicitly treating specialist feeders as optional. No new puppy product approval."
     },
     {
       "guidePath": "/guides/newborn-essentials/",
@@ -2294,7 +2306,7 @@
       "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "cc90ea379cd28086eb9b94512ee5c97d337260ef8fae85634171115b24f4dc01",
+      "reviewedSourceSha256": "6e5446dbe711faf24ad519cfe7bb469e8933129436f26846dab6cc9c443992ad",
       "requiredProductTypes": [
         {
           "label": "Supervised adult-dog enrichment toy",
@@ -2303,9 +2315,15 @@
           ]
         },
         {
+          "label": "Two-cup slow-feeding dog bowl",
+          "productIds": [
+            "gap-pet-essentials-for-australian-homes-b00l3o4ji6"
+          ]
+        },
+        {
           "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Bowls, cat-specific essentials, puppy toys and travel restraints still need separate suitable products; this adult-dog toy does not cover them."
+          "gapReason": "Ordinary food/water bowls, cat-specific essentials, puppy toys and travel restraints still need separate suitable products."
         }
       ],
       "supportingProductIds": [],
@@ -2315,20 +2333,26 @@
         "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
         "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/"
       ],
-      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
+      "reviewScope": "26 October2026: exact Tefal20/24cm pans and Outward Hound51006 slow feeder added after manufacturer, owner, seller, availability and recall research. Other products retain prior dates. See docs/editorial/commercial-gap-kitchen-pet-feeding-2026-10-26.md."
     },
     {
       "guidePath": "/guides/pet-feeding-station-ideas-for-australian-homes/",
       "title": "Pet Feeding Station Ideas for Australian Homes",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-26",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0a4cdb7f2a3b04fa51fb153fc3b26826ee0a4df1f7da6e339ee41762100dc57d",
+      "reviewedSourceSha256": "98ae0bbe4c7bd06cdc7a682fee421a4633308afb900bde6d214b62fcf38d258c",
       "requiredProductTypes": [
         {
-          "label": "Pet bowls and feeding mats",
+          "label": "Two-cup slow-feeding dog bowl",
+          "productIds": [
+            "gap-pet-feeding-station-ideas-for-australian-homes-b00l3o4ji6"
+          ]
+        },
+        {
+          "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Food-storage container links do not cover the feeding station itself."
+          "gapReason": "Ordinary food/water bowls and feeding mats remain unfilled. The slow feeder is a specialist option, not the general starting point."
         }
       ],
       "supportingProductIds": [],
@@ -2337,7 +2361,7 @@
         "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
         "/guides/pet-food-storage-what-to-check-before-buying-containers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "26 October2026: exact Tefal20/24cm pans and Outward Hound51006 slow feeder added after manufacturer, owner, seller, availability and recall research. Other products retain prior dates. See docs/editorial/commercial-gap-kitchen-pet-feeding-2026-10-26.md."
     },
     {
       "guidePath": "/guides/pet-food-storage-what-to-check-before-buying-containers/",
