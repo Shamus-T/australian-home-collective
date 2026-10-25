@@ -278,10 +278,10 @@
     {
       "guidePath": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
       "title": "Bathroom Product Storage That Keeps Daily Items Easy to Find",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0c678e3355fa9462828ca2c31c0e2c28aa609691b442b52df423dbd61f67b5cd",
+      "reviewedSourceSha256": "25abf109fbaf6d35e0e20acc7875ac1e42feba14280916279ffb5138cee54fa0",
       "requiredProductTypes": [
         {
           "label": "Portable bathroom caddy",
@@ -308,35 +308,47 @@
         "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
     },
     {
       "guidePath": "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
       "title": "Bathroom Storage That Works in Real Homes",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "53624aef0b5ab9aeda083d772e19b6a0e8d4bde516b20c914c1dce8a5b48ed5e",
+      "reviewedSourceSha256": "75a482617a2cf8b601b0f1afb8faf4473f30944c139e6a64a64293bb50703066",
       "requiredProductTypes": [
         {
-          "label": "Bathroom shelves, towel storage and organisers",
+          "label": "Freestanding daily-toiletries organiser",
+          "productIds": [
+            "gap-bathroom-storage-what-to-measure-and-check-before-you-buy-easystore"
+          ]
+        },
+        {
+          "label": "Hanging shower bottle caddy",
+          "productIds": [
+            "gap-bathroom-storage-what-to-measure-and-check-before-you-buy-umbra"
+          ]
+        },
+        {
+          "label": "Remaining storage categories",
           "productIds": [],
-          "gapReason": "Links to narrower guides are useful but do not provide buying options on this page."
+          "gapReason": "Towel rails, bathroom shelving and secure storage remain unfilled; two small organisers do not cover every bathroom storage job."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
       "title": "How to Make Your Bathroom Vanity Easier to Use",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "97c06e81fb4b9c14a0695ea15abd6cbfd8a1c1a63788873dbd3b3ebe547c59bf",
+      "reviewedSourceSha256": "d68d5cd3d9f1b69e819837ca33bd480d24f1c6be6a73ad4513fb32f8e0fc60b9",
       "requiredProductTypes": [
         {
           "label": "Portable bathroom caddy",
@@ -361,7 +373,7 @@
       "contextualRoutes": [
         "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
     },
     {
       "guidePath": "/guides/bedding-and-linen-basics-for-australian-bedrooms/",
@@ -536,7 +548,7 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "25 October exact-model research and fresh clean retailer offers for new placements; manufacturer specifications, warranty, owner limitations and recalls recorded in docs/editorial/buying-options-expansion-2026-10-25.md. Earlier reviews of unchanged products remain dated. No affiliate requests or artificial clicks."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
     },
     {
       "guidePath": "/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
@@ -567,7 +579,7 @@
         {
           "label": "Ceiling fans",
           "productIds": [],
-          "gapReason": "No approved fan models; licensed installation is a requirement, not a blanket ban on suitable product links."
+          "gapReason": "25 October: Mercator FC708134WH withheld. Retailer lists five-speed FRM123, current manufacturer six-speed FRM124 under the same model code; supplied revision and light-timer functionality unresolved."
         }
       ],
       "supportingProductIds": [],
@@ -597,22 +609,28 @@
     {
       "guidePath": "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
       "title": "Cleaning Product Storage That Keeps Supplies Under Control",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c8ff84ff7f9fc4540fe78eca23f5aa34fb400c2aa8606588509ee8ca565ee424",
+      "reviewedSourceSha256": "5578b0dfe7969f437fece8a84289f96d18e6759dd29014bf50db8e6943f3205a",
       "requiredProductTypes": [
         {
-          "label": "Cleaning caddies and secure cabinets",
+          "label": "Loose large wheeled cupboard caddy",
+          "productIds": [
+            "gap-cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies-caddy"
+          ]
+        },
+        {
+          "label": "Remaining storage categories",
           "productIds": [],
-          "gapReason": "No exact storage product assessed for its intended load and safe access."
+          "gapReason": "Secure cleaning-product cabinets remain unfilled: an open wheeled caddy is not child-resistant or certified chemical containment."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/coffee-machine-types-australia/",
@@ -994,15 +1012,21 @@
     {
       "guidePath": "/guides/garage-storage-what-to-measure-and-check-before-you-buy/",
       "title": "Garage Storage Planning Checklist",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "aa6057c05856713a7c5d20c0f66f310b171853096e76e224a247e46db6fce6de",
+      "reviewedSourceSha256": "ece547a3c1e59bde8d9c29d412a4f54db14fc258994071ea093bf6ec17a82573",
       "requiredProductTypes": [
         {
-          "label": "Garage storage options",
+          "label": "Portable ten-cup small-parts organiser",
+          "productIds": [
+            "gap-garage-storage-what-to-measure-and-check-before-you-buy-stanley"
+          ]
+        },
+        {
+          "label": "Remaining storage categories",
           "productIds": [],
-          "gapReason": "Focused shelving and tub links exist, but exact direct examples and their missing media need work."
+          "gapReason": "Garage shelving, bulk tubs, wall systems and overhead racks remain unfilled; this case solves only small-parts organisation."
         }
       ],
       "supportingProductIds": [],
@@ -1012,15 +1036,15 @@
         "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
         "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/",
       "title": "Garage Tool Storage That Starts With Sorting",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "ff9788e85f85a1c6fd4287a770aca11f01d2e7657abbb1017264afae3b2a1cff",
+      "reviewedSourceSha256": "2a77bd2603216319c0f209bdc27bdebe75eea4afe749374290d8be6c26bd01cb",
       "requiredProductTypes": [
         {
           "label": "Portable parts organiser",
@@ -1039,7 +1063,7 @@
       "contextualRoutes": [
         "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
     },
     {
       "guidePath": "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
@@ -1525,10 +1549,10 @@
     {
       "guidePath": "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
       "title": "Laundry Baskets That Suit the Routine",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "6d51e22b64798029c95e668db10377f83fdb4fd0c2865c4dfc4530aaefc172ab",
+      "reviewedSourceSha256": "f7643504b99b14597145050b8e777a11fcc89c73b7851d1381307a543e263233",
       "requiredProductTypes": [
         {
           "label": "Two-compartment laundry separation basket",
@@ -1571,7 +1595,7 @@
       "contextualRoutes": [
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
     },
     {
       "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
@@ -1601,10 +1625,10 @@
     {
       "guidePath": "/guides/laundry-essentials-australian-homes/",
       "title": "Laundry Essentials for Australian Homes",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "6fbba95f7ad24981e5bebd663c299ede856d7f5e2502c34908b678fbb761d961",
+      "reviewedSourceSha256": "9ca797343d144ed150d6e231e9a3b523ac7ef49b8640de2e989d8e85fc16ecba",
       "requiredProductTypes": [
         {
           "label": "Foldable drying rack",
@@ -1619,29 +1643,53 @@
           ]
         },
         {
-          "label": "Laundry sorting and secure supply storage",
+          "label": "Two-compartment 90L laundry sorting hamper",
+          "productIds": [
+            "gap-laundry-essentials-australian-homes-tota"
+          ]
+        },
+        {
+          "label": "Remaining storage categories",
           "productIds": [],
-          "gapReason": "Airer and carry-basket options added; these do not cover every laundry storage job."
+          "gapReason": "Secure laundry-supply storage remains unfilled; a sorting hamper does not control access to detergents."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
       "title": "Laundry Storage That Keeps Everyday Items Within Reach",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "ef9b29e5297732fc57e4fc0d08c9ebd55c1fcc031f6377ce6e820c6a01d2f020",
+      "reviewedSourceSha256": "3467c14998d587f511b27f34002366ab23a590fa4cadfd8a561dc9f41a87b556",
       "requiredProductTypes": [
         {
-          "label": "Laundry storage options",
+          "label": "Two-compartment 90L laundry sorting hamper",
+          "productIds": [
+            "gap-laundry-storage-what-to-measure-and-check-before-you-buy-tota"
+          ]
+        },
+        {
+          "label": "Compact front-access 35L sorting box",
+          "productIds": [
+            "gap-laundry-storage-what-to-measure-and-check-before-you-buy-brabantia"
+          ]
+        },
+        {
+          "label": "Loose large wheeled cupboard caddy",
+          "productIds": [
+            "gap-laundry-storage-what-to-measure-and-check-before-you-buy-caddy"
+          ]
+        },
+        {
+          "label": "Remaining storage categories",
           "productIds": [],
-          "gapReason": "No direct researched storage examples; appliance links cannot stand in for organisers."
+          "gapReason": "Shelving and secure supply cabinets still need exact-model research; these options cover sorting and loose cupboard access only."
         }
       ],
       "supportingProductIds": [],
@@ -1649,7 +1697,7 @@
         "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/",
@@ -1815,10 +1863,10 @@
     {
       "guidePath": "/guides/lower-waste-laundry-essentials/",
       "title": "A Lower-Waste Laundry Routine",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "editorial",
       "editorialReason": "Use existing laundry supplies and reduce waste.",
-      "reviewedSourceSha256": "804fbfdf0a3da53fee9ad2b76160c409e7603861fed74fe27deebee58a435c5a",
+      "reviewedSourceSha256": "f9e414266149607b34712ef9456ca8c7d493a9dd2b7240aef19c19cedc9dabcd",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -1826,7 +1874,7 @@
         "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
         "/guides/laundry-essentials-australian-homes/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October: useful contextual links to related storage fit, access and buying decisions; no product assessment or commercial status changed."
     },
     {
       "guidePath": "/guides/mattress-sizes-australia/",
@@ -2509,15 +2557,27 @@
     {
       "guidePath": "/guides/renter-friendly-bathroom-storage-what-to-check-before-you-buy/",
       "title": "Bathroom Storage for Renters",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c9dfeabdb8db3dbf879e37d7f1de8baada4bb2e5234db7f448c94faa0258dc59",
+      "reviewedSourceSha256": "a3bf9dbf7986790753100150e9d86034341123ce3cdb0e5493fe4ade8955ab5f",
       "requiredProductTypes": [
         {
-          "label": "Rental bathroom storage",
+          "label": "Freestanding daily-toiletries organiser",
+          "productIds": [
+            "gap-renter-friendly-bathroom-storage-what-to-check-before-you-buy-easystore"
+          ]
+        },
+        {
+          "label": "Hanging shower bottle caddy",
+          "productIds": [
+            "gap-renter-friendly-bathroom-storage-what-to-check-before-you-buy-umbra"
+          ]
+        },
+        {
+          "label": "Remaining storage categories",
           "productIds": [],
-          "gapReason": "No direct choices; surface suitability and removal remain product-specific."
+          "gapReason": "Towel storage and freestanding bathroom shelving remain unfilled pending exact fit, stability and surface research."
         }
       ],
       "supportingProductIds": [],
@@ -2527,35 +2587,41 @@
         "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
         "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
       "title": "Garage Storage for Renters",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "b4c1c4c97a80767dc72d1d0e3068875ded5fd0a0ff4b95de98f05fe442df9f46",
+      "reviewedSourceSha256": "3e147d01c63df3d79af1ce8dca947078c3c05d4d49d5e3992a300ec83959b29f",
       "requiredProductTypes": [
         {
-          "label": "Rental garage storage",
+          "label": "Portable ten-cup small-parts organiser",
+          "productIds": [
+            "gap-renter-friendly-garage-storage-what-to-check-before-you-buy-stanley"
+          ]
+        },
+        {
+          "label": "Remaining storage categories",
           "productIds": [],
-          "gapReason": "Current shelving imagery is incomplete; no direct image-ready shortlist on this page."
+          "gapReason": "Rental shelving, bulk tubs and racks remain unfilled; the researched case covers small repair parts only."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
       "title": "Kitchen Storage for Renters",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "3f18b11cdbf3591f067259eae508c9c1014e02787b63fc424814d0fd7c299317",
+      "reviewedSourceSha256": "e77975468443b74633116a5cf220f6937e7fd83df99066fc03abf6c25b9cc91b",
       "requiredProductTypes": [
         {
           "label": "Expandable utensil drawer organiser",
@@ -2598,15 +2664,15 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
     },
     {
       "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
       "title": "Laundry Storage for Renters",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "831d298368200d8384d25b5a2f7951ea245e52e0f842f64595b6c59bfe34fb06",
+      "reviewedSourceSha256": "6db8fab412ffa977a961d5fe333f5f943ce1bbaa73bbdeb5477c0bd7ace963b9",
       "requiredProductTypes": [
         {
           "label": "Foldable drying rack",
@@ -2621,15 +2687,27 @@
           ]
         },
         {
-          "label": "Freestanding laundry organisers",
-          "productIds": [],
-          "gapReason": "Added airer and carry basket cover drying and carrying, not shelving or secure supplies."
-        },
-        {
           "label": "Collapsible laundry carry basket — 35 L",
           "productIds": [
             "tgg-basket-renter-friendly-laundry-storage-what-to-check-before-you-buy"
           ]
+        },
+        {
+          "label": "Compact front-access 35L sorting box",
+          "productIds": [
+            "gap-renter-friendly-laundry-storage-what-to-check-before-you-buy-brabantia"
+          ]
+        },
+        {
+          "label": "Loose large wheeled cupboard caddy",
+          "productIds": [
+            "gap-renter-friendly-laundry-storage-what-to-check-before-you-buy-caddy"
+          ]
+        },
+        {
+          "label": "Remaining storage categories",
+          "productIds": [],
+          "gapReason": "Secure supply cabinets and freestanding shelving remain unfilled; removable baskets and caddies do not cover those jobs."
         }
       ],
       "supportingProductIds": [],
@@ -2639,7 +2717,7 @@
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/reverse-cycle-heating-explained/",
@@ -2728,10 +2806,10 @@
     {
       "guidePath": "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
       "title": "Shower Storage That Does Not Get in the Way",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "b8ecc21bc33b203839b1e67d47c191204202c559cef5643860216a84300fde84",
+      "reviewedSourceSha256": "29fdca4a460336e6a6164fe3ef97650b4424593c633ad40ffce1dbaca1388e65",
       "requiredProductTypes": [
         {
           "label": "Wall-mounted shower caddy",
@@ -2750,7 +2828,7 @@
       "contextualRoutes": [
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. Exact-model manufacturer image and clean retailer low-stock observation checked on 18 October 2026; earlier full product review dates retained."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
     },
     {
       "guidePath": "/guides/side-tables-coffee-tables-and-console-tables-what-to-compare-before-you-buy/",
@@ -2806,10 +2884,10 @@
     {
       "guidePath": "/guides/small-garage-storage-what-to-check-before-buying-shelves-or-racks/",
       "title": "Small Garage Storage That Still Leaves Room to Move",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "dfd442a273c37ad401874d3d6551bac50bb4d1b24f46a1788792c315aebe57ca",
+      "reviewedSourceSha256": "4b3aba998aaa7376ad7a4ae86bd8a70c9ca87f1d5490ecd7c3e8a0bd35bbb520",
       "requiredProductTypes": [
         {
           "label": "Small-garage shelves and racks",
@@ -2821,7 +2899,7 @@
       "contextualRoutes": [
         "/guides/garage-shelving-what-to-measure-before-buying-storage-units/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October: useful contextual links to related storage fit, access and buying decisions; no product assessment or commercial status changed."
     },
     {
       "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
@@ -2886,28 +2964,40 @@
     {
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
       "title": "Small Laundry Storage That Uses Tight Spaces Well",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "f99587857355b828a6ec86e1bfa6484e4c0a0463697feafb8b16eb96bf595100",
+      "reviewedSourceSha256": "0fcdbdae967a0119c4b7f63d71d6e5095e6bb6a45f786697af68595496e6686e",
       "requiredProductTypes": [
-        {
-          "label": "Small-laundry organisers",
-          "productIds": [],
-          "gapReason": "No direct options fitting the specific narrow-space decision."
-        },
         {
           "label": "Collapsible laundry carry basket — 35 L",
           "productIds": [
             "tgg-basket-small-laundry-storage-what-to-check-before-buying-organisers"
           ]
+        },
+        {
+          "label": "Compact front-access 35L sorting box",
+          "productIds": [
+            "gap-small-laundry-storage-what-to-check-before-buying-organisers-brabantia"
+          ]
+        },
+        {
+          "label": "Loose large wheeled cupboard caddy",
+          "productIds": [
+            "gap-small-laundry-storage-what-to-check-before-buying-organisers-caddy"
+          ]
+        },
+        {
+          "label": "Remaining storage categories",
+          "productIds": [],
+          "gapReason": "Purpose-built narrow-gap organisers and secure supply cabinets remain unfilled; a 46.5cm-deep loose caddy is not a universal small-laundry solution."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
     },
     {
       "guidePath": "/guides/smart-home-office-setup-compatibility-power-and-privacy/",
@@ -3021,10 +3111,10 @@
     {
       "guidePath": "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/",
       "title": "Towel Storage That Helps Towels Dry Properly",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "9dc39ab8ebc8d3b9aebc1ca1be88609d5e0b4eab16e0af99ca61f46c86392e89",
+      "reviewedSourceSha256": "2ca3e07b5228c7756ea0644e2402ef7cf37d304c48fcbdeed6cee99abb616e80",
       "requiredProductTypes": [
         {
           "label": "Towel rails, hooks and shelves",
@@ -3036,7 +3126,7 @@
       "contextualRoutes": [
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "25 October: useful contextual links to related storage fit, access and buying decisions; no product assessment or commercial status changed."
     },
     {
       "guidePath": "/guides/toy-blanket-and-everyday-clutter-control-for-living-rooms/",
@@ -3121,10 +3211,10 @@
     {
       "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
       "title": "Storage Under the Kitchen Sink",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-25",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "aa2e650d8045f106f8aea46461f5783beb6a0a1266aca1c249856e72c89252ab",
+      "reviewedSourceSha256": "6843603dfae91bb90bb7298b6d062efdb867e5ed60a85217be5a52f7b36ffbc0",
       "requiredProductTypes": [
         {
           "label": "Expandable under-sink shelf",
@@ -3157,7 +3247,7 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
       ],
-      "reviewScope": "Added two researched caddies, exact-model photos for all four options and specific fit checks. YouCopia fully assessed and Joseph Joseph assessment reused from the same date. Existing Simple Houseware products received current listing, image and owner-feedback checks; earlier full-review dates retained."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
     },
     {
       "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",

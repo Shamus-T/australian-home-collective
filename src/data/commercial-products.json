@@ -86,7 +86,13 @@
     "/guides/everyday-kitchen-essentials-australian-homes/",
     "/guides/evaporative-cooler-vs-refrigerated-air-conditioning/",
     "/guides/home-heating-options-australia/",
-    "/guides/best-kitchen-storage-ideas-small-australian-homes/"
+    "/guides/best-kitchen-storage-ideas-small-australian-homes/",
+    "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
+    "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
+    "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
+    "/guides/renter-friendly-bathroom-storage-what-to-check-before-you-buy/",
+    "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
+    "/guides/garage-storage-what-to-measure-and-check-before-you-buy/"
   ],
   "products": [
     {
@@ -1000,7 +1006,7 @@
       "guidePath": "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
       "name": "Joseph Joseph Tota 90L Laundry Separation Basket",
       "productType": "Two-compartment laundry separation basket",
-      "summary": "A lidded, two-compartment 90 L hamper with removable carry bags for households that already separate regular wash groups and have room for its full footprint.",
+      "summary": "A two-compartment 90L hamper for households that already separate two wash groups. Its removable 45L bags carry washing to the machine; allow a 56 × 39.5cm floor footprint and room above the 71cm-high body to lift them out.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -1010,14 +1016,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-04",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-04",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -1025,76 +1031,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "At 90 L it needs a deliberate, clear place rather than a narrow walkway or appliance gap.",
-        "It is assembled from a flat pack and the fabric exterior needs wipe-clean care.",
-        "The lid is better for dry washing; damp clothes should be aired rather than sealed away."
+        "Several owners found the taut fabric and frame difficult to assemble. It may be a poor choice if hand strength or fiddly assembly is a concern.",
+        "Replacement bags are listed, but the manufacturer says lids, poles and rims are not sold separately. Consider that repairability limit before paying for the design.",
+        "The large footprint can obstruct a small laundry. Air damp clothes before storing them; follow the bag care label and wipe-clean instructions for the exterior."
       ],
       "suitability": {
         "suits": [
-          "households that consistently separate two repeat wash groups before laundry day",
-          "bedrooms, bathrooms or laundries with room for a 71 x 56 x 39.5 cm footprint"
+          "households consistently separating two wash groups",
+          "a clear 56 × 39.5cm floor space with access above the 71cm body"
         ],
         "mayNotSuit": [
-          "small routes where a large lidded basket would obstruct a door or appliance",
-          "households that do not sort washing before it reaches the machine"
+          "narrow appliance gaps or households needing one simple carry basket",
+          "buyers needing easy assembly or separately replaceable frame and lid parts"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Tota 90L Laundry Separation Basket - Black",
-          "publisher": "Joseph Joseph Australia",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
           "sourceUrl": "https://josephjoseph.com.au/products/tota-90l-laundry-separation-basket-black",
-          "supports": "Australian dimensions, dual removable bags, care information, assembly requirements and replacement-bag support.",
-          "checkedOn": "2026-08-04"
+          "supports": "Exact Black 50004, two 45L removable totes, H71 × W56 × D39.5cm; floor footprint is 56 × 39.5cm, not three dimensions. Bag care follows label with plastic trim removed; exterior wipe clean. Manufacturer FAQ offers replacement bags but not lids, poles or rims separately.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Tota 90L Laundry Separation Basket - Grey",
-          "publisher": "Joseph Joseph Australia",
-          "sourceUrl": "https://josephjoseph.com.au/products/tota-90l-laundry-separation-basket-grey",
-          "supports": "Recurring owner-feedback themes on sorting convenience, assembly, size and occasional concerns about frame or cover durability.",
-          "checkedOn": "2026-08-04"
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR",
+          "supports": "Ten individual manufacturer reviews read, plus current Amazon 90L entries; exclude pooled 60L variants and duplicate Steven entry. Sorting and removable bags help; repeated difficult fabric/frame assembly, one damaged plastic screw, one unavailable replacement lid. Different 90L colours inform construction, not Black colour durability. No long-term reliability claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Tota 90L Laundry Separation Basket - Black",
-          "publisher": "Joseph Joseph Australia",
-          "sourceUrl": "https://josephjoseph.com.au/products/tota-90l-laundry-separation-basket-black",
-          "supports": "Current Australian availability, delivery information and two-year guarantee checked.",
-          "checkedOn": "2026-08-04"
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR",
+          "supports": "2026-10-25T11:54:14.053Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "Recall search completed for the named product and brand; no active matching recall was identified at review.",
-          "checkedOn": "2026-08-04"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Joseph Joseph Tota 90-litre Laundry Separation Basket - Black",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
-          "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
-          "checkedOn": "2026-08-04"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B08QM7SRZR: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
-          "checkedOn": "2026-10-07"
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph Tota 90L Laundry Separation Basket. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
         }
       ],
       "image": {
@@ -1229,7 +1227,7 @@
       "guidePath": "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
       "name": "Brabantia Stackable Laundry Box 35L",
       "productType": "Stackable 35 L laundry sorter",
-      "summary": "A stackable, front-loading 35 L sorter for homes that separate smaller loads and have vertical clearance for the boxes to be safely stacked.",
+      "summary": "A compact 35L fabric sorter with front and top openings that folds flat when empty. Allow 32 × 37cm floor space and about 45cm height. It is most useful when front access matters, rather than as a cheaper substitute for a basic basket.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -1239,14 +1237,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-04",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-04",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -1254,84 +1252,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "One 35 L box may be too small for a large household's usual wash load.",
-        "Stacking adds vertical clearance and can make the upper opening less convenient.",
-        "It helps only when the household actually uses the separate loads rather than letting them accumulate."
+        "One 35L box may be too small for a household wash load, and the front-access design costs more than a simple open basket.",
+        "Although marketed as stackable, an owner reports unstable stacking and the front panel coming out. Start with a single box; follow the supplied arrangement and check loaded stability before stacking.",
+        "Fabric storage is not spill containment or a secure chemical cabinet. Keep it dry and clear of appliance ventilation."
       ],
       "suitability": {
         "suits": [
-          "households separating compact repeat loads in a laundry with usable vertical space",
-          "a system that benefits from front loading and flat storage when a box is empty"
+          "smaller sorting categories where front access is useful",
+          "renters who need a fabric box that folds away when empty"
         ],
         "mayNotSuit": [
-          "large mixed loads or households that do not sort before washing",
-          "spaces where stacked boxes would obstruct a bench, appliance or walkway"
+          "large loads or buyers wanting the lowest-cost basket",
+          "a tall stack relied on for stability without checking it under load"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Stackable Laundry Box 35L",
-          "publisher": "Brabantia Australia",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Brabantia",
           "sourceUrl": "https://brabantia.com.au/products/laundry-ironing-stackable-laundry-box-35l-pepper-black",
-          "supports": "Australian dimensions, capacity, stackable design, folding storage and care information.",
-          "checkedOn": "2026-08-04"
+          "supports": "Pepper Black 35L; AU SKU02006 and global SKU120442 share EAN8710755120442. Global H44.5 × W32 × D37cm; AU rounds height to45cm. Fabric, front/top access, folds flat. AU page states two-year guarantee; domestic proper use and proof of purchase apply.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Brabantia Stackable Laundry Box 35L Grey",
-          "publisher": "Brabantia Australia",
-          "sourceUrl": "https://brabantia.com.au/laundry-ironing/stackable-laundry-box-35l-grey/",
-          "supports": "Product-page feedback and practical product information checked; no recurring serious reliability issue was identified at review.",
-          "checkedOn": "2026-08-04"
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Brabantia / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
+          "supports": "Seven individual Amazon reviews read across colours. Exact Pepper Black: Mick likes sorting/stacking but wants more capacity; Julia reports unstable stacking and a front panel coming out. Other colours support folding/access, not proof of a stable tower. Use a single floor-standing box in new placements. No long-term durability conclusion.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://service.brabantia.com/hc/en-us/articles/4407519559185-Am-I-entitled-to-a-warranty",
+          "supports": "Pepper Black 35L; AU SKU02006 and global SKU120442 share EAN8710755120442. Global H44.5 × W32 × D37cm; AU rounds height to45cm. Fabric, front/top access, folds flat. AU page states two-year guarantee; domestic proper use and proof of purchase apply.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Stackable Laundry Box 35L",
-          "publisher": "Brabantia Australia",
-          "sourceUrl": "https://brabantia.com.au/products/laundry-ironing-stackable-laundry-box-35l-pepper-black",
-          "supports": "Current Australian availability, local support and two-year guarantee checked.",
-          "checkedOn": "2026-08-04"
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
+          "supports": "2026-10-25T11:54:17.358Z: exact ASIN and variant, Only 1 left in stock (more on the way)., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "Recall search completed for the named product and brand; no active matching recall was identified at review.",
-          "checkedOn": "2026-08-04"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Brabantia Stackable Laundry Box, 35 Litre Capacity, Pepper Black",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
-          "supports": "Current Australian affiliate destination and retailer fulfilment details checked before approval.",
-          "checkedOn": "2026-08-04"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B07J495PF8: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "18 October low-stock recheck",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
-          "supports": "Exact ASIN B07J495PF8 and intended variant matched. Listing displayed: Only 1 left in stock (more on the way). Availability-only observation at 2026-10-18T08:54:57.530Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
-          "checkedOn": "2026-10-18"
+          "supports": "25 October brand/model search found no matching recall for Brabantia Stackable Laundry Box 35L. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
         }
       ],
       "image": {
@@ -4392,7 +4374,7 @@
       "guidePath": "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
       "name": "Umbra Flex Shower Caddy",
       "productType": "Hanging flexible shower caddy",
-      "summary": "A flexible hanging caddy that can sit over a shower head or screen once clearance, hose movement and load are checked.",
+      "summary": "A White hanging shower caddy with two shelves and flexible retaining bands. It may suit a shower with a manufacturer-permitted support and enough clearance for the loaded bottles, controls and hose. Check the supplied mounting instructions before fitting it.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
       "linkLabel": "View current seller offers at Amazon Australia →",
@@ -4402,14 +4384,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -4417,74 +4399,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "The offers checked were international imports. Compare delivery dates, returns and the delivered total before ordering.",
-        "A loaded hanging caddy can crowd controls or move on an unsuitable shower head.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "Owners report weak suction, flexible construction and tall bottles falling out. Check bottle height, stability and support under the intended load.",
+        "Use only a suitable shower-head or curtain-rod arrangement allowed by the instructions. Do not assume a frameless screen, hose or unsupported fitting can carry it.",
+        "Manufacturer dimension fields differ across current colour selections. Confirm the exact White unit dimensions if clearance is tight; lift it for regular cleaning and drainage."
       ],
       "suitability": {
         "suits": [
-          "showers where drilling or adhesive mounting is undesirable"
+          "showers with a suitable permitted support where drilling is undesirable",
+          "a modest collection of bottles that sits securely within the retaining bands"
         ],
         "mayNotSuit": [
-          "compact shower heads or layouts with limited control clearance"
+          "unsupported fittings, cramped controls or tall bottles that tip out",
+          "buyers needing a rigid shelf with a verified load rating"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Umbra Flex Shower Caddy manufacturer information",
+          "title": "Exact model, dimensions and care",
           "publisher": "Umbra",
           "sourceUrl": "https://www.umbra.com/products/flex-shower-caddy",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "supports": "White023460-660; two shelves, flexible retaining bands and drainage. Manufacturer permits hanging over a suitable shower head or curtain rod. Current colour-selector dimensions differ from descriptive dimensions, so no precise fit envelope is promised. Do not transfer recycled-content or colour claims from newer Slate Blue. AU FAQs identify IsAlbi distribution and one-year limited defect cover with receipt and exclusions.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Umbra Flex Shower Caddy product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/umbra-flex-shower-caddy-white",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Umbra / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4",
+          "supports": "Thirteen individual Amazon reviews read, including Australian White reviews. Organisation and cleanability recur; Craig finds it flimsy, Lena reports tall bottles falling out, Marie reports weak suction. Do not turn owner any-showerhead claims into universal compatibility. No mould-free, weight-capacity or durability guarantee.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Umbra",
+          "sourceUrl": "https://umbra.com.au/pages/faqs",
+          "supports": "White023460-660; two shelves, flexible retaining bands and drainage. Manufacturer permits hanging over a suitable shower head or curtain rod. Current colour-selector dimensions differ from descriptive dimensions, so no precise fit envelope is promised. Do not transfer recycled-content or colour claims from newer Slate Blue. AU FAQs identify IsAlbi distribution and one-year limited defect cover with receipt and exclusions.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Umbra Flex Shower Caddy Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/au/product/umbra-flex-shower-caddy-white",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4",
+          "supports": "2026-10-25T11:54:24.105Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Umbra Flex Shower Caddy Amazon Australia listing",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B01ARNUTL4: An orderable offer was displayed. The offers checked were international imports. Compare delivery dates, returns and the delivered total before ordering. This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon UK. Individual seller offers were inspected. The offers checked were international imports. Compare delivery dates, returns and the delivered total before ordering.",
-          "checkedOn": "2026-10-07"
+          "supports": "25 October brand/model search found no matching recall for Umbra Flex Shower Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
         }
       ],
       "image": {
@@ -4736,7 +4712,7 @@
       "guidePath": "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
       "name": "Joseph Joseph EasyStore Bathroom Caddy",
       "productType": "Portable bathroom caddy",
-      "summary": "A divided handled caddy for grouping daily toiletries before deciding whether fixed vanity dividers are necessary.",
+      "summary": "A freestanding Ecru organiser for a small daily toiletries collection. Its 24.9 × 11.9cm footprint and fixed compartments can keep a vanity clear, provided your bottles fit and the base can be lifted for cleaning.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -4746,14 +4722,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -4761,73 +4737,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "Its fixed compartments will not suit every bottle diameter or tall pump.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "Fixed compartments, especially the shallow front sections, may not suit tall toothbrushes, wide bottles or large pumps. Measure your own items.",
+        "Hand-wash and dry it, and clean underneath rather than leaving water trapped on the vanity.",
+        "This is an open countertop organiser, not a medicine lockbox, sealed container or handled carry basket."
       ],
       "suitability": {
         "suits": [
-          "shared bathrooms where a portable daily kit is useful"
+          "small daily toiletries that fit the fixed compartments",
+          "renters wanting a loose organiser without wall fixings"
         ],
         "mayNotSuit": [
-          "large bottles or owners needing sealed storage"
+          "large bottles, tall items needing deeper support or sealed storage",
+          "medicines or chemicals that require secure access"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Joseph Joseph EasyStore Bathroom Caddy manufacturer information",
-          "publisher": "Joseph",
-          "sourceUrl": "https://josephjoseph.com.au/collections/bathroom-storage",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://www.josephjoseph.com/products/easystore-bathroom-caddy-ecru",
+          "supports": "Exact Ecru70576 freestanding compartment organiser, H11.6 × W24.9 × D11.9cm. Non-slip base, hand-wash and dry. It is not a handled carry caddy or sealed storage.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Joseph Joseph EasyStore Bathroom Caddy product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/joseph-joseph-easystore-bathroom-caddy-ecru-",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55",
+          "supports": "Ten displayed manufacturer reviews and thirteen Amazon review entries read. Amazon pools colours; use only shared design observations. Organisation/cleaning positives recur; Jans and Riva find front compartments shallow/small. White-variant sunlight discolouration is not evidence about Ecru. Reviewer usernames are not review complaints. No long-term colour claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Joseph Joseph EasyStore Bathroom Caddy Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/joseph-joseph-easystore-bathroom-caddy-ecru-",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55",
+          "supports": "2026-10-25T11:54:20.782Z: exact ASIN and variant, Only 5 left in stock., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Joseph Joseph EasyStore Bathroom Caddy Amazon Australia listing",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B0BS1LWL55: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
-          "checkedOn": "2026-10-07"
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph EasyStore Bathroom Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
         }
       ],
       "image": {
@@ -6339,7 +6310,7 @@
       "guidePath": "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/",
       "name": "STANLEY FATMAX PRO-STACK 10-Cup Organiser",
       "productType": "Portable parts organiser",
-      "summary": "A 44 x 33.7 x 11.9 cm lidded organiser with ten removable cups for small hardware that moves between garage storage and a work area.",
+      "summary": "A 44 × 33.7 × 11.9cm lidded organiser with ten removable cups for screws, fixings and small repair parts. It can move between a shelf and a work area without permanent fittings; PRO-STACK connections matter mainly if you already use that system.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -6349,13 +6320,13 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-22",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
+        "australianAvailabilityStatus": "available-to-order",
         "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -6364,73 +6335,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "It organises small parts rather than long hand tools and becomes heavy when every cup is densely loaded.",
-        "Its PRO-STACK compatibility adds little value unless the household already uses or plans that modular system."
+        "Dense fasteners make the case heavy well before every compartment is full. Keep the carried load comfortable rather than aiming for the maximum rating.",
+        "It does not replace storage for long tools, bulky garage gear or hazardous products, and no weatherproof or airtight claim is made.",
+        "The modular connections add little value if you only need a simple occasional-use parts box. Compare the delivered cost with that actual need."
       ],
       "suitability": {
         "suits": [
-          "fasteners and small repair parts that need removable categories and portable storage"
+          "households regularly sorting and carrying small repair parts",
+          "renters wanting a removable small-parts case without wall fixings"
         ],
         "mayNotSuit": [
-          "large hand tools, fixed wall display or buyers who do not need a modular case"
+          "large hand tools, bulky garage equipment or chemical storage",
+          "occasional users who would get equal benefit from a simpler inexpensive organiser"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "STANLEY FATMAX PRO-STACK 10-Cup Organiser",
-          "publisher": "STANLEY Tools Australia",
-          "sourceUrl": "https://www.stanleytools.com.au/product/fmst82967-1/stanley-fatmax-pro-stack-10-cup-organiser",
-          "supports": "Current dimensions, ten removable cups, capacity, load guidance, lid, latches and PRO-STACK compatibility.",
-          "checkedOn": "2026-08-22"
+          "title": "Exact model, dimensions and care",
+          "publisher": "STANLEY",
+          "sourceUrl": "https://www.stanleytools.com.au/en-au/product/fmst82967-1/pro-stack-10-cup-organiser",
+          "supports": "Exact FMST82967-1. AU manufacturer outer44 ×33.7 ×11.9cm, inner42.1 ×28.5 ×6.5cm, ten removable cups,7.8L, PRO-STACK connectors and padlock eye. Use manufacturer larger planning envelope rather than rounded Amazon43.5 ×33.5 ×11.8.20kg rating is not a recommended personal lifting load. One-year limited manufacturer warranty.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "STANLEY FATMAX PRO-STACK 10-Cup Organiser owner-feedback record",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
-          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
-          "checkedOn": "2026-08-22"
+          "title": "Individual owner feedback reviewed",
+          "publisher": "STANLEY / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1",
+          "supports": "Five displayed individual Amazon entries read: small-parts organisation and construction positives; one generic tool-brand review carries little exact-model weight. Short owner sample supports practical use, not proven long-term durability or a universal load claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "STANLEY",
+          "sourceUrl": "https://www.stanleytools.com.au/en-au/product/fmst82967-1/pro-stack-10-cup-organiser",
+          "supports": "Exact FMST82967-1. AU manufacturer outer44 ×33.7 ×11.9cm, inner42.1 ×28.5 ×6.5cm, ten removable cups,7.8L, PRO-STACK connectors and padlock eye. Use manufacturer larger planning envelope rather than rounded Amazon43.5 ×33.5 ×11.8.20kg rating is not a recommended personal lifting load. One-year limited manufacturer warranty.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "STANLEY FATMAX PRO-STACK 10-Cup Organiser Australian order availability",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1",
+          "supports": "2026-10-25T11:54:30.780Z: exact ASIN and variant, Only 5 left in stock., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
-          "checkedOn": "2026-08-22"
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "STANLEY FATMAX PRO-STACK 10-Cup Organiser Amazon Australia listing",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
-          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
-          "checkedOn": "2026-08-22"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B083ZPBYN1: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
-          "checkedOn": "2026-10-07"
+          "supports": "25 October brand/model search found no matching recall for STANLEY FATMAX PRO-STACK 10-Cup Organiser. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
         }
       ],
       "image": {
@@ -13068,7 +13034,7 @@
       "guidePath": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
       "name": "Joseph Joseph EasyStore Bathroom Caddy",
       "productType": "Portable bathroom caddy",
-      "summary": "A divided handled caddy for grouping daily toiletries before deciding whether fixed vanity dividers are necessary.",
+      "summary": "A freestanding Ecru organiser for a small daily toiletries collection. Its 24.9 × 11.9cm footprint and fixed compartments can keep a vanity clear, provided your bottles fit and the base can be lifted for cleaning.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -13078,14 +13044,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-18",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
         "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -13093,73 +13059,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "Its fixed compartments will not suit every bottle diameter or tall pump.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "Fixed compartments, especially the shallow front sections, may not suit tall toothbrushes, wide bottles or large pumps. Measure your own items.",
+        "Hand-wash and dry it, and clean underneath rather than leaving water trapped on the vanity.",
+        "This is an open countertop organiser, not a medicine lockbox, sealed container or handled carry basket."
       ],
       "suitability": {
         "suits": [
-          "shared bathrooms where a portable daily kit is useful"
+          "small daily toiletries that fit the fixed compartments",
+          "renters wanting a loose organiser without wall fixings"
         ],
         "mayNotSuit": [
-          "large bottles or owners needing sealed storage"
+          "large bottles, tall items needing deeper support or sealed storage",
+          "medicines or chemicals that require secure access"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Joseph Joseph EasyStore Bathroom Caddy manufacturer information",
-          "publisher": "Joseph",
-          "sourceUrl": "https://josephjoseph.com.au/collections/bathroom-storage",
-          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
-          "checkedOn": "2026-08-18"
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://www.josephjoseph.com/products/easystore-bathroom-caddy-ecru",
+          "supports": "Exact Ecru70576 freestanding compartment organiser, H11.6 × W24.9 × D11.9cm. Non-slip base, hand-wash and dry. It is not a handled carry caddy or sealed storage.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Joseph Joseph EasyStore Bathroom Caddy product and owner-feedback record",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/joseph-joseph-easystore-bathroom-caddy-ecru-",
-          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
-          "checkedOn": "2026-08-18"
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55",
+          "supports": "Ten displayed manufacturer reviews and thirteen Amazon review entries read. Amazon pools colours; use only shared design observations. Organisation/cleaning positives recur; Jans and Riva find front compartments shallow/small. White-variant sunlight discolouration is not evidence about Ecru. Reviewer usernames are not review complaints. No long-term colour claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Joseph Joseph EasyStore Bathroom Caddy Australian availability",
-          "publisher": "BuyWisely Australia",
-          "sourceUrl": "https://buywisely.com.au/product/joseph-joseph-easystore-bathroom-caddy-ecru-",
-          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
-          "checkedOn": "2026-08-18"
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55",
+          "supports": "2026-10-25T11:54:20.782Z: exact ASIN and variant, Only 5 left in stock., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Product Safety Recalls",
+          "title": "Australian recall search",
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
-          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Joseph Joseph EasyStore Bathroom Caddy Amazon Australia listing",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
-          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
-          "checkedOn": "2026-08-18"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Dated Australian offer check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
-          "supports": "Availability-only check of ASIN B0BS1LWL55: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
-          "checkedOn": "2026-10-07"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Dated seller and fulfilment check",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
-          "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
-          "checkedOn": "2026-10-07"
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph EasyStore Bathroom Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
         }
       ],
       "image": {
@@ -14577,7 +14538,7 @@
       "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A single-tier caddy with rear wheels and a front handle brings cleaning bottles forward from a deep cupboard. It needs no fixed runners, but the large footprint makes door and pipe clearance especially important.",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -14587,14 +14548,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-10-11",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-10-11",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -14602,83 +14563,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "Allow 30.5 cm width and 46.5 cm depth, including room for the cupboard door to close. The empty caddy is 11 cm high; bottles need extra headroom beneath pipes or shelves.",
-        "This is a loose caddy, not a fitted drawer: keep it on a level surface and control the pull so it cannot roll off the cupboard edge.",
-        "The open compartments do not provide child-resistant storage. Keep cleaning products securely stored and follow their labels; wipe the caddy clean."
+        "The 46.5cm depth can stop a cupboard door closing. Check hinges, plumbing and the entire pull-out path before buying.",
+        "Control the pull on a level shelf so the loose caddy cannot roll over its edge; it is not a fixed drawer.",
+        "Open compartments are not child-resistant storage or certified leak containment. Follow product labels, keep chemicals secure and wipe the caddy clean."
       ],
       "suitability": {
         "suits": [
-          "deep cupboards with a clear path for bringing cleaning bottles and cloths forward"
+          "deep cupboards with a clear rolling path for everyday supplies",
+          "renters who need loose cupboard storage that can leave with them"
         ],
         "mayNotSuit": [
-          "shallow cupboards or layouts obstructed by plumbing",
-          "households expecting a fixed pull-out drawer or lockable chemical storage"
+          "shallow cupboards, narrow appliance gaps or plumbing-obstructed openings",
+          "households expecting lockable chemical storage or a fixed pull-out drawer"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
-          "publisher": "Joseph Joseph Australia",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
           "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
-          "supports": "Manufacturer model 8500002 (Stone), H11 x W30.5 x D46.5 cm; rear wheels, front handle and divided compartments, wipe-clean care. Amazon Item details confirmed model 8500002 and Large variant. Amazon transposes the dimension axes; published measurements follow the manufacturer. No load rating verified.",
-          "checkedOn": "2026-10-11"
+          "supports": "Exact Large Stone8500002, H11 × W30.5 × D46.5cm; rear wheels, front handle, divided open body, wipe clean. A loose caddy, not fixed runners, a locking cabinet or certified chemical containment.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Variant-specific owner feedback",
-          "publisher": "Joseph Joseph Australia and Amazon Australia",
-          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
-          "supports": "Read ten displayed manufacturer reviews, including praise for access and capacity and reports of excessive depth preventing a cupboard door closing or width preventing two side by side. Read two Amazon reviews explicitly labelled Large (one Australian and one UK); both describe useful access. Excluded pooled Regular and 2-tier reviews and aggregate star claims. Long-term independent evidence is limited; no firsthand AHC testing.",
-          "checkedOn": "2026-10-11"
-        },
-        {
-          "sourceType": "owner-feedback",
-          "title": "Amazon selected-variant owner reviews",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
-          "supports": "Read ten displayed manufacturer reviews, including praise for access and capacity and reports of excessive depth preventing a cupboard door closing or width preventing two side by side. Read two Amazon reviews explicitly labelled Large (one Australian and one UK); both describe useful access. Excluded pooled Regular and 2-tier reviews and aggregate star claims. Long-term independent evidence is limited; no firsthand AHC testing.",
-          "checkedOn": "2026-10-11"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Australian offer checked",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
-          "supports": "Selected ASIN B0F847ZC6G, model 8500002, was in stock with an enabled purchase option. Sold and shipped by Amazon AU. This is a dated observation, not an ongoing stock or delivery promise.",
-          "checkedOn": "2026-10-11"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Amazon AU offer and tracked destination",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
-          "supports": "Exact selected variant inspected. Shipper / Seller: Amazon AU; 30-day change-of-mind return eligibility displayed. Destination retains ASIN B0F847ZC6G and tracking tag ahc07-22. This verifies link construction, not earned commission.",
-          "checkedOn": "2026-10-11"
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "Ten individual manufacturer reviews read; access/capacity recur, Pearl cannot fit two across cupboard, Penny cannot close door because of depth. Current Amazon sample has one clearly Large review (Dani); exclude Regular and 2-Tier entries. No pooled star total or durable-load claim.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "manufacturer-warranty",
-          "title": "Australian guarantee and retailer claim process",
-          "publisher": "Joseph Joseph Australia",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
           "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
-          "supports": "Manufacturer describes faults/workmanship cover and a separate retailer claim process requiring proof of purchase, batch code and photos. The minimum two-year wording is explicitly for direct purchases; no unverified Amazon-specific warranty duration is claimed.",
-          "checkedOn": "2026-10-11"
-        },
-        {
-          "sourceType": "regulator-recall-check",
-          "title": "Australian product recall search",
-          "publisher": "ACCC Product Safety",
-          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
-          "supports": "Official Joseph Joseph search inspected on 11 October 2026. Five unrelated results (flashlight, coloured sand, grease, worklight and relay); no matching kitchen organiser recall found. Dated recall search, not safety certification.",
-          "checkedOn": "2026-10-11"
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "australian-availability-support",
-          "title": "Kitchen campaign pre-publication availability check",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "2026-10-25T11:54:34.308Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
           "publisher": "Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
-          "supports": "Exact linked variant inspected on Amazon Australia on 11 October 2026; in stock displayed, enabled Add to cart, sold and shipped by Amazon AU. Availability-only check; earlier full research date retained. Stock can change.",
-          "checkedOn": "2026-10-11"
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
         }
       ],
       "image": {
@@ -14698,7 +14644,7 @@
       "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A single-tier caddy with rear wheels and a front handle brings cleaning bottles forward from a deep cupboard. It needs no fixed runners, but the large footprint makes door and pipe clearance especially important.",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -14708,14 +14654,14 @@
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-10-11",
+      "lastReviewedOn": "2026-10-25",
       "approvedForAffiliateUse": true,
       "affiliateValidation": {
-        "checkedOn": "2026-10-11",
+        "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -14723,75 +14669,68 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "Allow 30.5 cm width and 46.5 cm depth, including room for the cupboard door to close. The empty caddy is 11 cm high; bottles need extra headroom beneath pipes or shelves.",
-        "This is a loose caddy, not a fitted drawer: keep it on a level surface and control the pull so it cannot roll off the cupboard edge.",
-        "The open compartments do not provide child-resistant storage. Keep cleaning products securely stored and follow their labels; wipe the caddy clean."
+        "The 46.5cm depth can stop a cupboard door closing. Check hinges, plumbing and the entire pull-out path before buying.",
+        "Control the pull on a level shelf so the loose caddy cannot roll over its edge; it is not a fixed drawer.",
+        "Open compartments are not child-resistant storage or certified leak containment. Follow product labels, keep chemicals secure and wipe the caddy clean."
       ],
       "suitability": {
         "suits": [
-          "deep cupboards with a clear path for bringing cleaning bottles and cloths forward"
+          "deep cupboards with a clear rolling path for everyday supplies",
+          "renters who need loose cupboard storage that can leave with them"
         ],
         "mayNotSuit": [
-          "shallow cupboards or layouts obstructed by plumbing",
-          "households expecting a fixed pull-out drawer or lockable chemical storage"
+          "shallow cupboards, narrow appliance gaps or plumbing-obstructed openings",
+          "households expecting lockable chemical storage or a fixed pull-out drawer"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
-          "publisher": "Joseph Joseph Australia",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
           "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
-          "supports": "Manufacturer model 8500002 (Stone), H11 x W30.5 x D46.5 cm; rear wheels, front handle and divided compartments, wipe-clean care. Amazon Item details confirmed model 8500002 and Large variant. Amazon transposes the dimension axes; published measurements follow the manufacturer. No load rating verified.",
-          "checkedOn": "2026-10-11"
+          "supports": "Exact Large Stone8500002, H11 × W30.5 × D46.5cm; rear wheels, front handle, divided open body, wipe clean. A loose caddy, not fixed runners, a locking cabinet or certified chemical containment.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Variant-specific owner feedback",
-          "publisher": "Joseph Joseph Australia and Amazon Australia",
-          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
-          "supports": "Read ten displayed manufacturer reviews, including praise for access and capacity and reports of excessive depth preventing a cupboard door closing or width preventing two side by side. Read two Amazon reviews explicitly labelled Large (one Australian and one UK); both describe useful access. Excluded pooled Regular and 2-tier reviews and aggregate star claims. Long-term independent evidence is limited; no firsthand AHC testing.",
-          "checkedOn": "2026-10-11"
-        },
-        {
-          "sourceType": "owner-feedback",
-          "title": "Amazon selected-variant owner reviews",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
-          "supports": "Read ten displayed manufacturer reviews, including praise for access and capacity and reports of excessive depth preventing a cupboard door closing or width preventing two side by side. Read two Amazon reviews explicitly labelled Large (one Australian and one UK); both describe useful access. Excluded pooled Regular and 2-tier reviews and aggregate star claims. Long-term independent evidence is limited; no firsthand AHC testing.",
-          "checkedOn": "2026-10-11"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Australian offer checked",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
-          "supports": "Selected ASIN B0F847ZC6G, model 8500002, was in stock with an enabled purchase option. Sold and shipped by Amazon AU. This is a dated observation, not an ongoing stock or delivery promise.",
-          "checkedOn": "2026-10-11"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Amazon AU offer and tracked destination",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
-          "supports": "Exact selected variant inspected. Shipper / Seller: Amazon AU; 30-day change-of-mind return eligibility displayed. Destination retains ASIN B0F847ZC6G and tracking tag ahc07-22. This verifies link construction, not earned commission.",
-          "checkedOn": "2026-10-11"
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "Ten individual manufacturer reviews read; access/capacity recur, Pearl cannot fit two across cupboard, Penny cannot close door because of depth. Current Amazon sample has one clearly Large review (Dani); exclude Regular and 2-Tier entries. No pooled star total or durable-load claim.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "manufacturer-warranty",
-          "title": "Australian guarantee and retailer claim process",
-          "publisher": "Joseph Joseph Australia",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
           "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
-          "supports": "Manufacturer describes faults/workmanship cover and a separate retailer claim process requiring proof of purchase, batch code and photos. The minimum two-year wording is explicitly for direct purchases; no unverified Amazon-specific warranty duration is claimed.",
-          "checkedOn": "2026-10-11"
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "2026-10-25T11:54:34.308Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Australian product recall search",
+          "title": "Australian recall search",
           "publisher": "ACCC Product Safety",
-          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
-          "supports": "Official Joseph Joseph search inspected on 11 October 2026. Five unrelated results (flashlight, coloured sand, grease, worklight and relay); no matching kitchen organiser recall found. Dated recall search, not safety certification.",
-          "checkedOn": "2026-10-11"
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
         }
       ],
       "image": {
@@ -20569,7 +20508,7 @@
       "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A single-tier caddy with rear wheels and a front handle brings cleaning bottles forward from a deep cupboard. It needs no fixed runners, but the large footprint makes door and pipe clearance especially important.",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -20585,8 +20524,8 @@
         "checkedOn": "2026-10-25",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -20594,66 +20533,67 @@
       "testingStatus": "research-only",
       "testingNotes": "",
       "drawbacks": [
-        "Allow 30.5 cm width and 46.5 cm depth, including room for the cupboard door to close. The empty caddy is 11 cm high; bottles need extra headroom beneath pipes or shelves.",
-        "This is a loose caddy, not a fitted drawer: keep it on a level surface and control the pull so it cannot roll off the cupboard edge.",
-        "The open compartments do not provide child-resistant storage. Keep cleaning products securely stored and follow their labels; wipe the caddy clean."
+        "The 46.5cm depth can stop a cupboard door closing. Check hinges, plumbing and the entire pull-out path before buying.",
+        "Control the pull on a level shelf so the loose caddy cannot roll over its edge; it is not a fixed drawer.",
+        "Open compartments are not child-resistant storage or certified leak containment. Follow product labels, keep chemicals secure and wipe the caddy clean."
       ],
       "suitability": {
         "suits": [
-          "deep cupboards with a clear path for bringing cleaning bottles and cloths forward"
+          "deep cupboards with a clear rolling path for everyday supplies",
+          "renters who need loose cupboard storage that can leave with them"
         ],
         "mayNotSuit": [
-          "shallow cupboards or layouts obstructed by plumbing",
-          "households expecting a fixed pull-out drawer or lockable chemical storage"
+          "shallow cupboards, narrow appliance gaps or plumbing-obstructed openings",
+          "households expecting lockable chemical storage or a fixed pull-out drawer"
         ]
       },
       "sourceRecords": [
         {
           "sourceType": "manufacturer-specification",
-          "title": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
-          "publisher": "Joseph Joseph Australia",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
           "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
-          "supports": "Manufacturer model 8500002 (Stone), H11 x W30.5 x D46.5 cm; rear wheels, front handle and divided compartments, wipe-clean care. Amazon Item details confirmed model 8500002 and Large variant. Amazon transposes the dimension axes; published measurements follow the manufacturer. No load rating verified.",
+          "supports": "Exact Large Stone8500002, H11 × W30.5 × D46.5cm; rear wheels, front handle, divided open body, wipe clean. A loose caddy, not fixed runners, a locking cabinet or certified chemical containment.",
           "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "owner-feedback",
-          "title": "Variant-specific owner feedback",
-          "publisher": "Joseph Joseph Australia and Amazon Australia",
-          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
-          "supports": "Read ten displayed manufacturer reviews of 13. Capacity and access recur; one owner lacked width for two side by side, and another found depth prevented door closure. No pooled Amazon review total used or durability claim made.",
-          "checkedOn": "2026-10-25"
-        },
-        {
-          "sourceType": "australian-availability-support",
-          "title": "Australian offer checked",
-          "publisher": "Amazon Australia",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
           "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
-          "supports": "Fresh clean untagged ASIN B0F847ZC6G HTML: In stock, active purchase control, model 8500002 and Large selected variant. Shipper / Seller Amazon AU. Dated observation; no postcode delivery guarantee. No cookies, retailer scripts or affiliate requests.",
-          "checkedOn": "2026-10-25"
-        },
-        {
-          "sourceType": "seller-fulfilment",
-          "title": "Amazon AU offer and tracked destination",
-          "publisher": "Amazon Australia",
-          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
-          "supports": "Exact selected variant inspected. Shipper / Seller: Amazon AU; 30-day change-of-mind return eligibility displayed. Destination retains ASIN B0F847ZC6G and tracking tag ahc07-22. This verifies link construction, not earned commission.",
+          "supports": "Ten individual manufacturer reviews read; access/capacity recur, Pearl cannot fit two across cupboard, Penny cannot close door because of depth. Current Amazon sample has one clearly Large review (Dani); exclude Regular and 2-Tier entries. No pooled star total or durable-load claim.",
           "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "manufacturer-warranty",
-          "title": "Australian guarantee and retailer claim process",
-          "publisher": "Joseph Joseph Australia",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
           "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
-          "supports": "Manufacturer describes faults/workmanship cover and a separate retailer claim process requiring proof of purchase, batch code and photos. The minimum two-year wording is explicitly for direct purchases; no unverified Amazon-specific warranty duration is claimed.",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "2026-10-25T11:54:34.308Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
           "checkedOn": "2026-10-25"
         },
         {
           "sourceType": "regulator-recall-check",
-          "title": "Australian product recall search",
+          "title": "Australian recall search",
           "publisher": "ACCC Product Safety",
-          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Joseph%20Joseph",
-          "supports": "Official Joseph Joseph search inspected on 25 October 2026. Five unrelated results (flashlight, coloured sand, grease, worklight and relay); no matching kitchen organiser recall found. Dated recall search, not safety certification.",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
         }
       ],
@@ -20667,6 +20607,1596 @@
         "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
         "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
         "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "gap-cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies-caddy",
+      "guidePath": "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
+      "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+      "productType": "Freestanding cleaning-supply caddy",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 46.5cm depth can stop a cupboard door closing. Check hinges, plumbing and the entire pull-out path before buying.",
+        "Control the pull on a level shelf so the loose caddy cannot roll over its edge; it is not a fixed drawer.",
+        "Open compartments are not child-resistant storage or certified leak containment. Follow product labels, keep chemicals secure and wipe the caddy clean."
+      ],
+      "suitability": {
+        "suits": [
+          "deep cupboards with a clear rolling path for everyday supplies",
+          "renters who need loose cupboard storage that can leave with them"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards, narrow appliance gaps or plumbing-obstructed openings",
+          "households expecting lockable chemical storage or a fixed pull-out drawer"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Exact Large Stone8500002, H11 × W30.5 × D46.5cm; rear wheels, front handle, divided open body, wipe clean. A loose caddy, not fixed runners, a locking cabinet or certified chemical containment.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "Ten individual manufacturer reviews read; access/capacity recur, Pearl cannot fit two across cupboard, Penny cannot close door because of depth. Current Amazon sample has one clearly Large review (Dani); exclude Regular and 2-Tier entries. No pooled star total or durable-load claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "2026-10-25T11:54:34.308Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp",
+        "srcSet": "/images/products/renter-joseph-joseph-large-wheeled-caddy-320.webp 320w, /images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp 640w, /images/products/renter-joseph-joseph-large-wheeled-caddy-960.webp 960w",
+        "alt": "Stone-coloured Joseph Joseph large wheeled caddy holding cleaning supplies at the front of a cupboard.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph’s website.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "gap-laundry-storage-what-to-measure-and-check-before-you-buy-tota",
+      "guidePath": "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
+      "name": "Joseph Joseph Tota 90L Laundry Separation Basket",
+      "productType": "Two-compartment laundry separation basket",
+      "summary": "A two-compartment 90L hamper for households that already separate two wash groups. Its removable 45L bags carry washing to the machine; allow a 56 × 39.5cm floor footprint and room above the 71cm-high body to lift them out.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Several owners found the taut fabric and frame difficult to assemble. It may be a poor choice if hand strength or fiddly assembly is a concern.",
+        "Replacement bags are listed, but the manufacturer says lids, poles and rims are not sold separately. Consider that repairability limit before paying for the design.",
+        "The large footprint can obstruct a small laundry. Air damp clothes before storing them; follow the bag care label and wipe-clean instructions for the exterior."
+      ],
+      "suitability": {
+        "suits": [
+          "households consistently separating two wash groups",
+          "a clear 56 × 39.5cm floor space with access above the 71cm body"
+        ],
+        "mayNotSuit": [
+          "narrow appliance gaps or households needing one simple carry basket",
+          "buyers needing easy assembly or separately replaceable frame and lid parts"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/tota-90l-laundry-separation-basket-black",
+          "supports": "Exact Black 50004, two 45L removable totes, H71 × W56 × D39.5cm; floor footprint is 56 × 39.5cm, not three dimensions. Bag care follows label with plastic trim removed; exterior wipe clean. Manufacturer FAQ offers replacement bags but not lids, poles or rims separately.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR",
+          "supports": "Ten individual manufacturer reviews read, plus current Amazon 90L entries; exclude pooled 60L variants and duplicate Steven entry. Sorting and removable bags help; repeated difficult fabric/frame assembly, one damaged plastic screw, one unavailable replacement lid. Different 90L colours inform construction, not Black colour durability. No long-term reliability claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR",
+          "supports": "2026-10-25T11:54:14.053Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph Tota 90L Laundry Separation Basket. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-tota-90l-laundry-separation-basket-640.webp",
+        "srcSet": "/images/products/joseph-joseph-tota-90l-laundry-separation-basket-320.webp 320w, /images/products/joseph-joseph-tota-90l-laundry-separation-basket-640.webp 640w",
+        "alt": "Joseph Joseph Tota 90L Laundry Separation Basket.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/products/50004_Media_01.webp?v=1680170492",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/tota-90l-laundry-separation-basket-black",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-laundry-storage-what-to-measure-and-check-before-you-buy-brabantia",
+      "guidePath": "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
+      "name": "Brabantia Stackable Laundry Box 35L",
+      "productType": "Stackable 35 L laundry sorter",
+      "summary": "A compact 35L fabric sorter with front and top openings that folds flat when empty. Allow 32 × 37cm floor space and about 45cm height. It is most useful when front access matters, rather than as a cheaper substitute for a basic basket.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "One 35L box may be too small for a household wash load, and the front-access design costs more than a simple open basket.",
+        "Although marketed as stackable, an owner reports unstable stacking and the front panel coming out. Start with a single box; follow the supplied arrangement and check loaded stability before stacking.",
+        "Fabric storage is not spill containment or a secure chemical cabinet. Keep it dry and clear of appliance ventilation."
+      ],
+      "suitability": {
+        "suits": [
+          "smaller sorting categories where front access is useful",
+          "renters who need a fabric box that folds away when empty"
+        ],
+        "mayNotSuit": [
+          "large loads or buyers wanting the lowest-cost basket",
+          "a tall stack relied on for stability without checking it under load"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://brabantia.com.au/products/laundry-ironing-stackable-laundry-box-35l-pepper-black",
+          "supports": "Pepper Black 35L; AU SKU02006 and global SKU120442 share EAN8710755120442. Global H44.5 × W32 × D37cm; AU rounds height to45cm. Fabric, front/top access, folds flat. AU page states two-year guarantee; domestic proper use and proof of purchase apply.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Brabantia / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
+          "supports": "Seven individual Amazon reviews read across colours. Exact Pepper Black: Mick likes sorting/stacking but wants more capacity; Julia reports unstable stacking and a front panel coming out. Other colours support folding/access, not proof of a stable tower. Use a single floor-standing box in new placements. No long-term durability conclusion.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://service.brabantia.com/hc/en-us/articles/4407519559185-Am-I-entitled-to-a-warranty",
+          "supports": "Pepper Black 35L; AU SKU02006 and global SKU120442 share EAN8710755120442. Global H44.5 × W32 × D37cm; AU rounds height to45cm. Fabric, front/top access, folds flat. AU page states two-year guarantee; domestic proper use and proof of purchase apply.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
+          "supports": "2026-10-25T11:54:17.358Z: exact ASIN and variant, Only 1 left in stock (more on the way)., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Brabantia Stackable Laundry Box 35L. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/brabantia-stackable-laundry-box-35l-640.webp",
+        "srcSet": "/images/products/brabantia-stackable-laundry-box-35l-320.webp 320w, /images/products/brabantia-stackable-laundry-box-35l-640.webp 640w",
+        "alt": "Brabantia Stackable Laundry Box 35L.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from Brabantia.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0716/6459/9222/files/02006_1.jpg?v=1790898187",
+        "suppliedVia": "Manufacturer product page: https://brabantia.com.au/products/laundry-ironing-stackable-laundry-box-35l-pepper-black",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-laundry-storage-what-to-measure-and-check-before-you-buy-caddy",
+      "guidePath": "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
+      "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+      "productType": "Freestanding cleaning-supply caddy",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 46.5cm depth can stop a cupboard door closing. Check hinges, plumbing and the entire pull-out path before buying.",
+        "Control the pull on a level shelf so the loose caddy cannot roll over its edge; it is not a fixed drawer.",
+        "Open compartments are not child-resistant storage or certified leak containment. Follow product labels, keep chemicals secure and wipe the caddy clean."
+      ],
+      "suitability": {
+        "suits": [
+          "deep cupboards with a clear rolling path for everyday supplies",
+          "renters who need loose cupboard storage that can leave with them"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards, narrow appliance gaps or plumbing-obstructed openings",
+          "households expecting lockable chemical storage or a fixed pull-out drawer"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Exact Large Stone8500002, H11 × W30.5 × D46.5cm; rear wheels, front handle, divided open body, wipe clean. A loose caddy, not fixed runners, a locking cabinet or certified chemical containment.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "Ten individual manufacturer reviews read; access/capacity recur, Pearl cannot fit two across cupboard, Penny cannot close door because of depth. Current Amazon sample has one clearly Large review (Dani); exclude Regular and 2-Tier entries. No pooled star total or durable-load claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "2026-10-25T11:54:34.308Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp",
+        "srcSet": "/images/products/renter-joseph-joseph-large-wheeled-caddy-320.webp 320w, /images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp 640w, /images/products/renter-joseph-joseph-large-wheeled-caddy-960.webp 960w",
+        "alt": "Stone-coloured Joseph Joseph large wheeled caddy holding cleaning supplies at the front of a cupboard.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph’s website.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "gap-small-laundry-storage-what-to-check-before-buying-organisers-brabantia",
+      "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
+      "name": "Brabantia Stackable Laundry Box 35L",
+      "productType": "Stackable 35 L laundry sorter",
+      "summary": "A compact 35L fabric sorter with front and top openings that folds flat when empty. Allow 32 × 37cm floor space and about 45cm height. It is most useful when front access matters, rather than as a cheaper substitute for a basic basket.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "One 35L box may be too small for a household wash load, and the front-access design costs more than a simple open basket.",
+        "Although marketed as stackable, an owner reports unstable stacking and the front panel coming out. Start with a single box; follow the supplied arrangement and check loaded stability before stacking.",
+        "Fabric storage is not spill containment or a secure chemical cabinet. Keep it dry and clear of appliance ventilation."
+      ],
+      "suitability": {
+        "suits": [
+          "smaller sorting categories where front access is useful",
+          "renters who need a fabric box that folds away when empty"
+        ],
+        "mayNotSuit": [
+          "large loads or buyers wanting the lowest-cost basket",
+          "a tall stack relied on for stability without checking it under load"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://brabantia.com.au/products/laundry-ironing-stackable-laundry-box-35l-pepper-black",
+          "supports": "Pepper Black 35L; AU SKU02006 and global SKU120442 share EAN8710755120442. Global H44.5 × W32 × D37cm; AU rounds height to45cm. Fabric, front/top access, folds flat. AU page states two-year guarantee; domestic proper use and proof of purchase apply.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Brabantia / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
+          "supports": "Seven individual Amazon reviews read across colours. Exact Pepper Black: Mick likes sorting/stacking but wants more capacity; Julia reports unstable stacking and a front panel coming out. Other colours support folding/access, not proof of a stable tower. Use a single floor-standing box in new placements. No long-term durability conclusion.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://service.brabantia.com/hc/en-us/articles/4407519559185-Am-I-entitled-to-a-warranty",
+          "supports": "Pepper Black 35L; AU SKU02006 and global SKU120442 share EAN8710755120442. Global H44.5 × W32 × D37cm; AU rounds height to45cm. Fabric, front/top access, folds flat. AU page states two-year guarantee; domestic proper use and proof of purchase apply.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
+          "supports": "2026-10-25T11:54:17.358Z: exact ASIN and variant, Only 1 left in stock (more on the way)., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Brabantia Stackable Laundry Box 35L. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/brabantia-stackable-laundry-box-35l-640.webp",
+        "srcSet": "/images/products/brabantia-stackable-laundry-box-35l-320.webp 320w, /images/products/brabantia-stackable-laundry-box-35l-640.webp 640w",
+        "alt": "Brabantia Stackable Laundry Box 35L.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from Brabantia.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0716/6459/9222/files/02006_1.jpg?v=1790898187",
+        "suppliedVia": "Manufacturer product page: https://brabantia.com.au/products/laundry-ironing-stackable-laundry-box-35l-pepper-black",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-small-laundry-storage-what-to-check-before-buying-organisers-caddy",
+      "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
+      "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+      "productType": "Freestanding cleaning-supply caddy",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 46.5cm depth can stop a cupboard door closing. Check hinges, plumbing and the entire pull-out path before buying.",
+        "Control the pull on a level shelf so the loose caddy cannot roll over its edge; it is not a fixed drawer.",
+        "Open compartments are not child-resistant storage or certified leak containment. Follow product labels, keep chemicals secure and wipe the caddy clean."
+      ],
+      "suitability": {
+        "suits": [
+          "deep cupboards with a clear rolling path for everyday supplies",
+          "renters who need loose cupboard storage that can leave with them"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards, narrow appliance gaps or plumbing-obstructed openings",
+          "households expecting lockable chemical storage or a fixed pull-out drawer"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Exact Large Stone8500002, H11 × W30.5 × D46.5cm; rear wheels, front handle, divided open body, wipe clean. A loose caddy, not fixed runners, a locking cabinet or certified chemical containment.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "Ten individual manufacturer reviews read; access/capacity recur, Pearl cannot fit two across cupboard, Penny cannot close door because of depth. Current Amazon sample has one clearly Large review (Dani); exclude Regular and 2-Tier entries. No pooled star total or durable-load claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "2026-10-25T11:54:34.308Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp",
+        "srcSet": "/images/products/renter-joseph-joseph-large-wheeled-caddy-320.webp 320w, /images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp 640w, /images/products/renter-joseph-joseph-large-wheeled-caddy-960.webp 960w",
+        "alt": "Stone-coloured Joseph Joseph large wheeled caddy holding cleaning supplies at the front of a cupboard.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph’s website.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "gap-renter-friendly-laundry-storage-what-to-check-before-you-buy-brabantia",
+      "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
+      "name": "Brabantia Stackable Laundry Box 35L",
+      "productType": "Stackable 35 L laundry sorter",
+      "summary": "A front-opening 35L fabric sorting box that can fold flat between tenancies. Reserve 32 × 37cm of floor space and about 45cm height at the current address, then check that the front opening remains accessible beside the washer. Treat it as a single loose box unless loaded stacking stability is confirmed.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "One 35L box may be too small for a household wash load, and the front-access design costs more than a simple open basket.",
+        "Although marketed as stackable, an owner reports unstable stacking and the front panel coming out. Start with a single box; follow the supplied arrangement and check loaded stability before stacking.",
+        "Fabric storage is not spill containment or a secure chemical cabinet. Keep it dry and clear of appliance ventilation."
+      ],
+      "suitability": {
+        "suits": [
+          "smaller sorting categories where front access is useful",
+          "renters who need a fabric box that folds away when empty"
+        ],
+        "mayNotSuit": [
+          "large loads or buyers wanting the lowest-cost basket",
+          "a tall stack relied on for stability without checking it under load"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://brabantia.com.au/products/laundry-ironing-stackable-laundry-box-35l-pepper-black",
+          "supports": "Pepper Black 35L; AU SKU02006 and global SKU120442 share EAN8710755120442. Global H44.5 × W32 × D37cm; AU rounds height to45cm. Fabric, front/top access, folds flat. AU page states two-year guarantee; domestic proper use and proof of purchase apply.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Brabantia / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
+          "supports": "Seven individual Amazon reviews read across colours. Exact Pepper Black: Mick likes sorting/stacking but wants more capacity; Julia reports unstable stacking and a front panel coming out. Other colours support folding/access, not proof of a stable tower. Use a single floor-standing box in new placements. No long-term durability conclusion.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://service.brabantia.com/hc/en-us/articles/4407519559185-Am-I-entitled-to-a-warranty",
+          "supports": "Pepper Black 35L; AU SKU02006 and global SKU120442 share EAN8710755120442. Global H44.5 × W32 × D37cm; AU rounds height to45cm. Fabric, front/top access, folds flat. AU page states two-year guarantee; domestic proper use and proof of purchase apply.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8",
+          "supports": "2026-10-25T11:54:17.358Z: exact ASIN and variant, Only 1 left in stock (more on the way)., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07J495PF8?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Brabantia Stackable Laundry Box 35L. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/brabantia-stackable-laundry-box-35l-640.webp",
+        "srcSet": "/images/products/brabantia-stackable-laundry-box-35l-320.webp 320w, /images/products/brabantia-stackable-laundry-box-35l-640.webp 640w",
+        "alt": "Brabantia Stackable Laundry Box 35L.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from Brabantia.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0716/6459/9222/files/02006_1.jpg?v=1790898187",
+        "suppliedVia": "Manufacturer product page: https://brabantia.com.au/products/laundry-ironing-stackable-laundry-box-35l-pepper-black",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-renter-friendly-laundry-storage-what-to-check-before-you-buy-caddy",
+      "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
+      "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
+      "productType": "Freestanding cleaning-supply caddy",
+      "summary": "A removable cupboard caddy for renters who cannot fit permanent drawer runners. Its rear wheels bring supplies forward, but the 30.5 × 46.5cm footprint must clear this property’s hinges and plumbing; a fit here does not guarantee a fit after moving. Allow bottle headroom above its 11cm-high body.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 46.5cm depth can stop a cupboard door closing. Check hinges, plumbing and the entire pull-out path before buying.",
+        "Control the pull on a level shelf so the loose caddy cannot roll over its edge; it is not a fixed drawer.",
+        "Open compartments are not child-resistant storage or certified leak containment. Follow product labels, keep chemicals secure and wipe the caddy clean."
+      ],
+      "suitability": {
+        "suits": [
+          "deep cupboards with a clear rolling path for everyday supplies",
+          "renters who need loose cupboard storage that can leave with them"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards, narrow appliance gaps or plumbing-obstructed openings",
+          "households expecting lockable chemical storage or a fixed pull-out drawer"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+          "supports": "Exact Large Stone8500002, H11 × W30.5 × D46.5cm; rear wheels, front handle, divided open body, wipe clean. A loose caddy, not fixed runners, a locking cabinet or certified chemical containment.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "Ten individual manufacturer reviews read; access/capacity recur, Pearl cannot fit two across cupboard, Penny cannot close door because of depth. Current Amazon sample has one clearly Large review (Dani); exclude Regular and 2-Tier entries. No pooled star total or durable-load claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "supports": "2026-10-25T11:54:34.308Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp",
+        "srcSet": "/images/products/renter-joseph-joseph-large-wheeled-caddy-320.webp 320w, /images/products/renter-joseph-joseph-large-wheeled-caddy-640.webp 640w, /images/products/renter-joseph-joseph-large-wheeled-caddy-960.webp 960w",
+        "alt": "Stone-coloured Joseph Joseph large wheeled caddy holding cleaning supplies at the front of a cupboard.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph’s website.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/files/8500002_11.jpg?v=1748958635&width=1300",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/cupboardstore-large-easy-access-storage-caddy-stone",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "gap-laundry-essentials-australian-homes-tota",
+      "guidePath": "/guides/laundry-essentials-australian-homes/",
+      "name": "Joseph Joseph Tota 90L Laundry Separation Basket",
+      "productType": "Two-compartment laundry separation basket",
+      "summary": "A two-compartment 90L hamper for households that already separate two wash groups. Its removable 45L bags carry washing to the machine; allow a 56 × 39.5cm floor footprint and room above the 71cm-high body to lift them out.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Several owners found the taut fabric and frame difficult to assemble. It may be a poor choice if hand strength or fiddly assembly is a concern.",
+        "Replacement bags are listed, but the manufacturer says lids, poles and rims are not sold separately. Consider that repairability limit before paying for the design.",
+        "The large footprint can obstruct a small laundry. Air damp clothes before storing them; follow the bag care label and wipe-clean instructions for the exterior."
+      ],
+      "suitability": {
+        "suits": [
+          "households consistently separating two wash groups",
+          "a clear 56 × 39.5cm floor space with access above the 71cm body"
+        ],
+        "mayNotSuit": [
+          "narrow appliance gaps or households needing one simple carry basket",
+          "buyers needing easy assembly or separately replaceable frame and lid parts"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/products/tota-90l-laundry-separation-basket-black",
+          "supports": "Exact Black 50004, two 45L removable totes, H71 × W56 × D39.5cm; floor footprint is 56 × 39.5cm, not three dimensions. Bag care follows label with plastic trim removed; exterior wipe clean. Manufacturer FAQ offers replacement bags but not lids, poles or rims separately.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR",
+          "supports": "Ten individual manufacturer reviews read, plus current Amazon 90L entries; exclude pooled 60L variants and duplicate Steven entry. Sorting and removable bags help; repeated difficult fabric/frame assembly, one damaged plastic screw, one unavailable replacement lid. Different 90L colours inform construction, not Black colour durability. No long-term reliability claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR",
+          "supports": "2026-10-25T11:54:14.053Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08QM7SRZR?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph Tota 90L Laundry Separation Basket. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-tota-90l-laundry-separation-basket-640.webp",
+        "srcSet": "/images/products/joseph-joseph-tota-90l-laundry-separation-basket-320.webp 320w, /images/products/joseph-joseph-tota-90l-laundry-separation-basket-640.webp 640w",
+        "alt": "Joseph Joseph Tota 90L Laundry Separation Basket.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://josephjoseph.com.au/cdn/shop/products/50004_Media_01.webp?v=1680170492",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/tota-90l-laundry-separation-basket-black",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-bathroom-storage-what-to-measure-and-check-before-you-buy-easystore",
+      "guidePath": "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
+      "name": "Joseph Joseph EasyStore Bathroom Caddy",
+      "productType": "Portable bathroom caddy",
+      "summary": "A freestanding Ecru organiser for a small daily toiletries collection. Its 24.9 × 11.9cm footprint and fixed compartments can keep a vanity clear, provided your bottles fit and the base can be lifted for cleaning.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Fixed compartments, especially the shallow front sections, may not suit tall toothbrushes, wide bottles or large pumps. Measure your own items.",
+        "Hand-wash and dry it, and clean underneath rather than leaving water trapped on the vanity.",
+        "This is an open countertop organiser, not a medicine lockbox, sealed container or handled carry basket."
+      ],
+      "suitability": {
+        "suits": [
+          "small daily toiletries that fit the fixed compartments",
+          "renters wanting a loose organiser without wall fixings"
+        ],
+        "mayNotSuit": [
+          "large bottles, tall items needing deeper support or sealed storage",
+          "medicines or chemicals that require secure access"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://www.josephjoseph.com/products/easystore-bathroom-caddy-ecru",
+          "supports": "Exact Ecru70576 freestanding compartment organiser, H11.6 × W24.9 × D11.9cm. Non-slip base, hand-wash and dry. It is not a handled carry caddy or sealed storage.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55",
+          "supports": "Ten displayed manufacturer reviews and thirteen Amazon review entries read. Amazon pools colours; use only shared design observations. Organisation/cleaning positives recur; Jans and Riva find front compartments shallow/small. White-variant sunlight discolouration is not evidence about Ecru. Reviewer usernames are not review complaints. No long-term colour claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55",
+          "supports": "2026-10-25T11:54:20.782Z: exact ASIN and variant, Only 5 left in stock., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph EasyStore Bathroom Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-easystore-bathroom-caddy-640.webp",
+        "srcSet": "/images/products/joseph-joseph-easystore-bathroom-caddy-320.webp 320w, /images/products/joseph-joseph-easystore-bathroom-caddy-640.webp 640w",
+        "alt": "Joseph Joseph EasyStore Bathroom Caddy.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0523/0516/6495/products/70576_PDP_01.jpg?v=1680170520",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/easystore-bathroom-caddy-ecru",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-bathroom-storage-what-to-measure-and-check-before-you-buy-umbra",
+      "guidePath": "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
+      "name": "Umbra Flex Shower Caddy",
+      "productType": "Hanging flexible shower caddy",
+      "summary": "A White hanging shower caddy with two shelves and flexible retaining bands. It may suit a shower with a manufacturer-permitted support and enough clearance for the loaded bottles, controls and hose. Check the supplied mounting instructions before fitting it.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
+      "linkLabel": "View current seller offers at Amazon Australia →",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Owners report weak suction, flexible construction and tall bottles falling out. Check bottle height, stability and support under the intended load.",
+        "Use only a suitable shower-head or curtain-rod arrangement allowed by the instructions. Do not assume a frameless screen, hose or unsupported fitting can carry it.",
+        "Manufacturer dimension fields differ across current colour selections. Confirm the exact White unit dimensions if clearance is tight; lift it for regular cleaning and drainage."
+      ],
+      "suitability": {
+        "suits": [
+          "showers with a suitable permitted support where drilling is undesirable",
+          "a modest collection of bottles that sits securely within the retaining bands"
+        ],
+        "mayNotSuit": [
+          "unsupported fittings, cramped controls or tall bottles that tip out",
+          "buyers needing a rigid shelf with a verified load rating"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Umbra",
+          "sourceUrl": "https://www.umbra.com/products/flex-shower-caddy",
+          "supports": "White023460-660; two shelves, flexible retaining bands and drainage. Manufacturer permits hanging over a suitable shower head or curtain rod. Current colour-selector dimensions differ from descriptive dimensions, so no precise fit envelope is promised. Do not transfer recycled-content or colour claims from newer Slate Blue. AU FAQs identify IsAlbi distribution and one-year limited defect cover with receipt and exclusions.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Umbra / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4",
+          "supports": "Thirteen individual Amazon reviews read, including Australian White reviews. Organisation and cleanability recur; Craig finds it flimsy, Lena reports tall bottles falling out, Marie reports weak suction. Do not turn owner any-showerhead claims into universal compatibility. No mould-free, weight-capacity or durability guarantee.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Umbra",
+          "sourceUrl": "https://umbra.com.au/pages/faqs",
+          "supports": "White023460-660; two shelves, flexible retaining bands and drainage. Manufacturer permits hanging over a suitable shower head or curtain rod. Current colour-selector dimensions differ from descriptive dimensions, so no precise fit envelope is promised. Do not transfer recycled-content or colour claims from newer Slate Blue. AU FAQs identify IsAlbi distribution and one-year limited defect cover with receipt and exclusions.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4",
+          "supports": "2026-10-25T11:54:24.105Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Umbra Flex Shower Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/umbra-flex-shower-caddy-640.webp",
+        "srcSet": "/images/products/umbra-flex-shower-caddy-320.webp 320w, /images/products/umbra-flex-shower-caddy-640.webp 640w",
+        "alt": "Umbra Flex Shower Caddy.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from Umbra.",
+        "sourceUrl": "https://www.umbra.com/cdn/shop/files/hr8p4awswtcvhx7lqtwf_8c52c45b-1e79-4b39-aa24-23d2fcffaa1a.png?crop=center&height=1200&v=1776747523&width=1200",
+        "suppliedVia": "Manufacturer product page: https://www.umbra.com/products/flex-shower-caddy",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-renter-friendly-bathroom-storage-what-to-check-before-you-buy-easystore",
+      "guidePath": "/guides/renter-friendly-bathroom-storage-what-to-check-before-you-buy/",
+      "name": "Joseph Joseph EasyStore Bathroom Caddy",
+      "productType": "Portable bathroom caddy",
+      "summary": "A freestanding Ecru organiser for a small daily toiletries collection. Its 24.9 × 11.9cm footprint and fixed compartments can keep a vanity clear, provided your bottles fit and the base can be lifted for cleaning.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Fixed compartments, especially the shallow front sections, may not suit tall toothbrushes, wide bottles or large pumps. Measure your own items.",
+        "Hand-wash and dry it, and clean underneath rather than leaving water trapped on the vanity.",
+        "This is an open countertop organiser, not a medicine lockbox, sealed container or handled carry basket."
+      ],
+      "suitability": {
+        "suits": [
+          "small daily toiletries that fit the fixed compartments",
+          "renters wanting a loose organiser without wall fixings"
+        ],
+        "mayNotSuit": [
+          "large bottles, tall items needing deeper support or sealed storage",
+          "medicines or chemicals that require secure access"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://www.josephjoseph.com/products/easystore-bathroom-caddy-ecru",
+          "supports": "Exact Ecru70576 freestanding compartment organiser, H11.6 × W24.9 × D11.9cm. Non-slip base, hand-wash and dry. It is not a handled carry caddy or sealed storage.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Joseph Joseph / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55",
+          "supports": "Ten displayed manufacturer reviews and thirteen Amazon review entries read. Amazon pools colours; use only shared design observations. Organisation/cleaning positives recur; Jans and Riva find front compartments shallow/small. White-variant sunlight discolouration is not evidence about Ecru. Reviewer usernames are not review complaints. No long-term colour claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Joseph Joseph",
+          "sourceUrl": "https://josephjoseph.com.au/pages/guarantee",
+          "supports": "Australian retailer-purchase fault process requires receipt, batch code and photographs. Direct-store two-year wording is not automatically transferred to an Amazon purchase.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55",
+          "supports": "2026-10-25T11:54:20.782Z: exact ASIN and variant, Only 5 left in stock., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BS1LWL55?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Joseph Joseph EasyStore Bathroom Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/joseph-joseph-easystore-bathroom-caddy-640.webp",
+        "srcSet": "/images/products/joseph-joseph-easystore-bathroom-caddy-320.webp 320w, /images/products/joseph-joseph-easystore-bathroom-caddy-640.webp 640w",
+        "alt": "Joseph Joseph EasyStore Bathroom Caddy.",
+        "width": 640,
+        "height": 519,
+        "credit": "Product image sourced from Joseph Joseph.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0523/0516/6495/products/70576_PDP_01.jpg?v=1680170520",
+        "suppliedVia": "Manufacturer product page: https://josephjoseph.com.au/products/easystore-bathroom-caddy-ecru",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-renter-friendly-bathroom-storage-what-to-check-before-you-buy-umbra",
+      "guidePath": "/guides/renter-friendly-bathroom-storage-what-to-check-before-you-buy/",
+      "name": "Umbra Flex Shower Caddy",
+      "productType": "Hanging flexible shower caddy",
+      "summary": "A White hanging shower caddy with two shelves and flexible retaining bands. It may suit a shower with a manufacturer-permitted support and enough clearance for the loaded bottles, controls and hose. Check the supplied mounting instructions before fitting it.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
+      "linkLabel": "View current seller offers at Amazon Australia →",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Owners report weak suction, flexible construction and tall bottles falling out. Check bottle height, stability and support under the intended load.",
+        "Use only a suitable shower-head or curtain-rod arrangement allowed by the instructions. Do not assume a frameless screen, hose or unsupported fitting can carry it.",
+        "Manufacturer dimension fields differ across current colour selections. Confirm the exact White unit dimensions if clearance is tight; lift it for regular cleaning and drainage."
+      ],
+      "suitability": {
+        "suits": [
+          "showers with a suitable permitted support where drilling is undesirable",
+          "a modest collection of bottles that sits securely within the retaining bands"
+        ],
+        "mayNotSuit": [
+          "unsupported fittings, cramped controls or tall bottles that tip out",
+          "buyers needing a rigid shelf with a verified load rating"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "Umbra",
+          "sourceUrl": "https://www.umbra.com/products/flex-shower-caddy",
+          "supports": "White023460-660; two shelves, flexible retaining bands and drainage. Manufacturer permits hanging over a suitable shower head or curtain rod. Current colour-selector dimensions differ from descriptive dimensions, so no precise fit envelope is promised. Do not transfer recycled-content or colour claims from newer Slate Blue. AU FAQs identify IsAlbi distribution and one-year limited defect cover with receipt and exclusions.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "Umbra / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4",
+          "supports": "Thirteen individual Amazon reviews read, including Australian White reviews. Organisation and cleanability recur; Craig finds it flimsy, Lena reports tall bottles falling out, Marie reports weak suction. Do not turn owner any-showerhead claims into universal compatibility. No mould-free, weight-capacity or durability guarantee.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "Umbra",
+          "sourceUrl": "https://umbra.com.au/pages/faqs",
+          "supports": "White023460-660; two shelves, flexible retaining bands and drainage. Manufacturer permits hanging over a suitable shower head or curtain rod. Current colour-selector dimensions differ from descriptive dimensions, so no precise fit envelope is promised. Do not transfer recycled-content or colour claims from newer Slate Blue. AU FAQs identify IsAlbi distribution and one-year limited defect cover with receipt and exclusions.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4",
+          "supports": "2026-10-25T11:54:24.105Z: exact ASIN and variant, In stock, active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01ARNUTL4?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for Umbra Flex Shower Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/umbra-flex-shower-caddy-640.webp",
+        "srcSet": "/images/products/umbra-flex-shower-caddy-320.webp 320w, /images/products/umbra-flex-shower-caddy-640.webp 640w",
+        "alt": "Umbra Flex Shower Caddy.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from Umbra.",
+        "sourceUrl": "https://www.umbra.com/cdn/shop/files/hr8p4awswtcvhx7lqtwf_8c52c45b-1e79-4b39-aa24-23d2fcffaa1a.png?crop=center&height=1200&v=1776747523&width=1200",
+        "suppliedVia": "Manufacturer product page: https://www.umbra.com/products/flex-shower-caddy",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-renter-friendly-garage-storage-what-to-check-before-you-buy-stanley",
+      "guidePath": "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
+      "name": "STANLEY FATMAX PRO-STACK 10-Cup Organiser",
+      "productType": "Portable parts organiser",
+      "summary": "A 44 × 33.7 × 11.9cm lidded organiser with ten removable cups for screws, fixings and small repair parts. It can move between a shelf and a work area without permanent fittings; PRO-STACK connections matter mainly if you already use that system.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Dense fasteners make the case heavy well before every compartment is full. Keep the carried load comfortable rather than aiming for the maximum rating.",
+        "It does not replace storage for long tools, bulky garage gear or hazardous products, and no weatherproof or airtight claim is made.",
+        "The modular connections add little value if you only need a simple occasional-use parts box. Compare the delivered cost with that actual need."
+      ],
+      "suitability": {
+        "suits": [
+          "households regularly sorting and carrying small repair parts",
+          "renters wanting a removable small-parts case without wall fixings"
+        ],
+        "mayNotSuit": [
+          "large hand tools, bulky garage equipment or chemical storage",
+          "occasional users who would get equal benefit from a simpler inexpensive organiser"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "STANLEY",
+          "sourceUrl": "https://www.stanleytools.com.au/en-au/product/fmst82967-1/pro-stack-10-cup-organiser",
+          "supports": "Exact FMST82967-1. AU manufacturer outer44 ×33.7 ×11.9cm, inner42.1 ×28.5 ×6.5cm, ten removable cups,7.8L, PRO-STACK connectors and padlock eye. Use manufacturer larger planning envelope rather than rounded Amazon43.5 ×33.5 ×11.8.20kg rating is not a recommended personal lifting load. One-year limited manufacturer warranty.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "STANLEY / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1",
+          "supports": "Five displayed individual Amazon entries read: small-parts organisation and construction positives; one generic tool-brand review carries little exact-model weight. Short owner sample supports practical use, not proven long-term durability or a universal load claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "STANLEY",
+          "sourceUrl": "https://www.stanleytools.com.au/en-au/product/fmst82967-1/pro-stack-10-cup-organiser",
+          "supports": "Exact FMST82967-1. AU manufacturer outer44 ×33.7 ×11.9cm, inner42.1 ×28.5 ×6.5cm, ten removable cups,7.8L, PRO-STACK connectors and padlock eye. Use manufacturer larger planning envelope rather than rounded Amazon43.5 ×33.5 ×11.8.20kg rating is not a recommended personal lifting load. One-year limited manufacturer warranty.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1",
+          "supports": "2026-10-25T11:54:30.780Z: exact ASIN and variant, Only 5 left in stock., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for STANLEY FATMAX PRO-STACK 10-Cup Organiser. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/stanley-fatmax-pro-stack-ten-cup-organiser-640.webp",
+        "srcSet": "/images/products/stanley-fatmax-pro-stack-ten-cup-organiser-320.webp 320w, /images/products/stanley-fatmax-pro-stack-ten-cup-organiser-640.webp 640w",
+        "alt": "STANLEY FATMAX PRO-STACK 10-Cup Organiser.",
+        "width": 640,
+        "height": 589,
+        "credit": "Product image sourced from STANLEY.",
+        "sourceUrl": "https://assets.stanleytools.com.au/EMEA/PRODUCT/IMAGES/HIRES/WHITEBG/FMST82967-1_1_1280.webp",
+        "suppliedVia": "Manufacturer product page: https://www.stanleytools.com.au/en-au/product/fmst82967-1/pro-stack-10-cup-organiser",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "gap-garage-storage-what-to-measure-and-check-before-you-buy-stanley",
+      "guidePath": "/guides/garage-storage-what-to-measure-and-check-before-you-buy/",
+      "name": "STANLEY FATMAX PRO-STACK 10-Cup Organiser",
+      "productType": "Portable parts organiser",
+      "summary": "A 44 × 33.7 × 11.9cm lidded organiser with ten removable cups for screws, fixings and small repair parts. It can move between a shelf and a work area without permanent fittings; PRO-STACK connections matter mainly if you already use that system.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-25",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-25",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Dense fasteners make the case heavy well before every compartment is full. Keep the carried load comfortable rather than aiming for the maximum rating.",
+        "It does not replace storage for long tools, bulky garage gear or hazardous products, and no weatherproof or airtight claim is made.",
+        "The modular connections add little value if you only need a simple occasional-use parts box. Compare the delivered cost with that actual need."
+      ],
+      "suitability": {
+        "suits": [
+          "households regularly sorting and carrying small repair parts",
+          "renters wanting a removable small-parts case without wall fixings"
+        ],
+        "mayNotSuit": [
+          "large hand tools, bulky garage equipment or chemical storage",
+          "occasional users who would get equal benefit from a simpler inexpensive organiser"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact model, dimensions and care",
+          "publisher": "STANLEY",
+          "sourceUrl": "https://www.stanleytools.com.au/en-au/product/fmst82967-1/pro-stack-10-cup-organiser",
+          "supports": "Exact FMST82967-1. AU manufacturer outer44 ×33.7 ×11.9cm, inner42.1 ×28.5 ×6.5cm, ten removable cups,7.8L, PRO-STACK connectors and padlock eye. Use manufacturer larger planning envelope rather than rounded Amazon43.5 ×33.5 ×11.8.20kg rating is not a recommended personal lifting load. One-year limited manufacturer warranty.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual owner feedback reviewed",
+          "publisher": "STANLEY / Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1",
+          "supports": "Five displayed individual Amazon entries read: small-parts organisation and construction positives; one generic tool-brand review carries little exact-model weight. Short owner sample supports practical use, not proven long-term durability or a universal load claim.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Written support and warranty scope",
+          "publisher": "STANLEY",
+          "sourceUrl": "https://www.stanleytools.com.au/en-au/product/fmst82967-1/pro-stack-10-cup-organiser",
+          "supports": "Exact FMST82967-1. AU manufacturer outer44 ×33.7 ×11.9cm, inner42.1 ×28.5 ×6.5cm, ten removable cups,7.8L, PRO-STACK connectors and padlock eye. Use manufacturer larger planning envelope rather than rounded Amazon43.5 ×33.5 ×11.8.20kg rating is not a recommended personal lifting load. One-year limited manufacturer warranty.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh clean Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1",
+          "supports": "2026-10-25T11:54:30.780Z: exact ASIN and variant, Only 5 left in stock., active purchase control. Shipped and sold by Amazon AU. Location-specific estimate is not nationwide stock or guaranteed delivery.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller and returns checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B083ZPBYN1?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU; change-of-mind return route displayed with conditions, faulty-product remedies separate. Check delivery and current returns at checkout. No cookies, retailer scripts or tagged URLs used.",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "25 October brand/model search found no matching recall for STANLEY FATMAX PRO-STACK 10-Cup Organiser. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "image": {
+        "src": "/images/products/stanley-fatmax-pro-stack-ten-cup-organiser-640.webp",
+        "srcSet": "/images/products/stanley-fatmax-pro-stack-ten-cup-organiser-320.webp 320w, /images/products/stanley-fatmax-pro-stack-ten-cup-organiser-640.webp 640w",
+        "alt": "STANLEY FATMAX PRO-STACK 10-Cup Organiser.",
+        "width": 640,
+        "height": 589,
+        "credit": "Product image sourced from STANLEY.",
+        "sourceUrl": "https://assets.stanleytools.com.au/EMEA/PRODUCT/IMAGES/HIRES/WHITEBG/FMST82967-1_1_1280.webp",
+        "suppliedVia": "Manufacturer product page: https://www.stanleytools.com.au/en-au/product/fmst82967-1/pro-stack-10-cup-organiser",
+        "checkedOn": "2026-10-10"
       }
     }
   ]
