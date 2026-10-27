@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-27",
+  "updatedOn": "2026-10-28",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -9650,7 +9650,7 @@
       "drawbacks": [
         "A patch is only a local repair; brittle, sagging or multiply damaged mesh is more likely to need replacement.",
         "It cannot correct loose spline, a bent frame, poor door closure or a gap around the opening.",
-        "The Amazon offer showed dispatch in 2–4 weeks on 24 October 2026. It may not suit an urgent repair; confirm the current delivery date before ordering."
+        "Confirm availability and the delivery estimate for your postcode before buying, especially for an urgent repair."
       ],
       "suitability": {
         "suits": [
@@ -9732,6 +9732,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW",
           "supports": "Clean exact-product page observed 24 October 2026: Usually dispatched within 2 to 4 weeks. Dated availability-only observation; not immediate stock or a postcode-specific delivery promise. Existing specification, safety and warranty review dates retained.",
           "checkedOn": "2026-10-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "28 October availability-only recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCW96CJW",
+          "supports": "Fresh daily clean-URL sweep and a separate check at 2026-10-27T23:07:00.057Z matched exact ASIN and 150 x 200 mm three-pack title, with primary In stock status and order control. Removed superseded 2–4-week dispatch warning. Anonymous delivery context only; no guaranteed arrival or new specification, safety, seller or warranty review. No affiliate navigation or cart action.",
+          "checkedOn": "2026-10-28"
         }
       ],
       "image": {
