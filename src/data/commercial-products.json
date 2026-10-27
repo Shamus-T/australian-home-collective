@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-26",
+  "updatedOn": "2026-10-27",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -5263,6 +5263,125 @@
         "suppliedVia": "Manufacturer product page: https://www.command.pl/3M/pl_PL/p/d/v000532639/",
         "checkedOn": "2026-10-10"
       }
+    },
+    {
+      "id": "joseph-joseph-airframe-max-21m-5000020",
+      "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
+      "name": "Joseph Joseph AirFrame Max 21m — Black 5000020",
+      "productType": "Indoor folding tower with long-garment rails",
+      "summary": "An indoor alternative with eight long-garment rails and a 70 × 90cm open footprint. The manufacturer specifies 155cm open height, a 15kg evenly distributed maximum load and a 76 × 66 × 10cm folded size. Check your reach and storage route before choosing this taller design.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0G3XC7MJG?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-27",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-27",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Indoor use only, on a flat surface. Spread the load evenly, engage the lock and keep fingers clear of the folding mechanism; do not use it as an exposed-balcony airer.",
+        "A premium-priced, tall frame may not suit limited reach or frequent carrying. Owners mention its weight and learning the opening action; the manufacturer lists 6.9kg. AHC has not tested lifting effort, stability or durability.",
+        "The new Amazon AU offer showed delivery on 30 October to postcode 4556 when checked on 27 October 2026. This was sooner than the delayed L.T. Williams offer, but check your own postcode, seller and current arrival estimate.",
+        "This assessment covers a new item sold and dispatched by Amazon AU. Keep the receipt and use Amazon AU for order or fault support. Joseph Joseph lists one-year defect cover for authorised-retailer purchases; its two-year direct-site guarantee must not be assumed for a marketplace or resale offer."
+      ],
+      "suitability": {
+        "suits": [
+          "indoor laundry zones needing long-garment rails with less floor width than a broad winged airer",
+          "households able to reach and handle a tall folding frame and justify its higher purchase cost"
+        ],
+        "mayNotSuit": [
+          "outdoor drying, limited upper reach, a lightweight rack for frequent carrying or a tight budget"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Australian 5000020 dimensions and operating limits",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/airframe-max-21m-folding-airer-with-long-garment-hanging-rails-black",
+          "supports": "Black Max 21m, eight long rails; open H155 W70 D90cm, closed H76 W66 D10cm, 6.9kg, 15kg maximum evenly distributed load. Indoor only, flat surface, pinch-point and child-play precautions. Amazon summary dimensions 10D x70W x76H and 8.1kg are not used as the open footprint or product mass; manufacturer centimetres control. AU page inch conversion for height is inconsistent, so inches omitted. No faster-drying or comparative durability claim.",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact-size owner feedback separated from pooled variants",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0G3XC7MJG",
+          "supports": "Australian 21m owners S L Nance (28 August 2026) and Sarah (30 September 2026) describe useful capacity/folding; Sarah notes larger-than-expected size. Five overseas 21m accounts support solid feel and folding but are not local long-term tests. The 2 October side-joint failure is explicitly 16m and is retained as range context, not misreported as a Max failure. No failure rate, star-based recommendation or superiority claim.",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual manufacturer-hosted comments",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/products/airframe-max-21m-folding-airer-with-long-garment-hanging-rails-black",
+          "supports": "Individual comments on the Max page mention weight, cost and learning the opening mechanism. These may be pooled and selected by the brand, so are supporting context only; AI-generated summary and durability predictions not adopted. Exact-model retailer feedback separately inspected.",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "New Amazon AU stock and postcode-specific arrival comparison",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0G3XC7MJG",
+          "supports": "27 October 2026, 08:35 UTC: primary ASIN and model 5000020 match. Buy New offer in stock, sold and dispatched by Amazon AU, displayed delivery Friday 30 October to Sunshine Coast 4556. Separate same-context L.T. Williams ASIN B0FJ7ZMN4H still stated 1–3 weeks dispatch. Search and new-offer detail both agreed. Lower-priced Amazon Resale box is a separate used offer, not the selected seller. Dated price $220.45 is evidence only, not published as a current price.",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "New offer, returns and Australian claim route",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0G3XC7MJG",
+          "supports": "Primary Buy New panel names Amazon AU as both seller and dispatcher. Conditional original-condition change-of-mind returns within 30 days; listing also states damaged/defective items may have remedies after that period. This is not a 30-day durability warranty. Start order/fault support through Amazon AU. No foreign seller, marketplace or resale offer approved by this assessment; seller choice can change.",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian retail warranty scope and support",
+          "publisher": "Joseph Joseph Australia",
+          "sourceUrl": "https://josephjoseph.com.au/pages/faq",
+          "supports": "Current AU FAQ: authorised-retailer purchases have one year against manufacturing defects, unless otherwise stated; direct-site purchases have two years. Claims require proof of purchase and product/batch details. Guarantee excludes wear, misuse, unauthorised repairs and pre-owned/refurbished/unauthorised resale. Australian support contact info.au@josephjoseph.com. Exact Amazon AU seller support independently verified. No special AirFrame extension or blanket two-year Amazon guarantee claimed.",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search and access limitation",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "27 October indexed searches restricted to productsafety.gov.au for Joseph Joseph and AirFrame found no matching recall. Direct filtered RSS returned HTTP403 and was not bypassed; no claim of exhaustive live database clearance. Manufacturer care warnings reviewed. No matching Australian recall or specific Max mechanical defect advisory found; absence of a search result is not safety certification.",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Regional chemical disclosure considered",
+          "publisher": "Joseph Joseph US",
+          "sourceUrl": "https://us.josephjoseph.com/pages/chemical-disclosure",
+          "supports": "US disclosure lists SKU5000020 under a California Proposition65 1,3-butadiene warning. OEHHA FAQ says a warning does not itself establish violation of safety standards. No product-specific exposure assessment or Australian recall was found; neither toxicity-free nor health-risk claims are made. Australian care instructions control use; regional disclosure is retained rather than erased.",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Affiliate syntax checked offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0G3XC7MJG?tag=ahc07-22",
+          "supports": "Exact ASIN with approved ahc07-22 tag. No affiliate redirect or tagged request, cart action, purchase or attribution test was made.",
+          "checkedOn": "2026-10-27"
+        }
+      ]
     },
     {
       "id": "lt-williams-large-collapsible-clothes-airer-black",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-10-26",
+  "updatedOn": "2026-10-27",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -1639,14 +1639,15 @@
     {
       "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
       "title": "Drying Space That Works in Real Weather",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-27",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "8a77b849839e7d578e4cc5273c9451fb32ec58bca9d906caa7c8be6804ce2f2d",
+      "reviewedSourceSha256": "188bd0ae89e9a810d6dbf6e05e5a088e9eae39b5dde66f0b23ddcd44becb06da",
       "requiredProductTypes": [
         {
           "label": "Freestanding clothes airer",
           "productIds": [
+            "joseph-joseph-airframe-max-21m-5000020",
             "lt-williams-large-collapsible-clothes-airer-black"
           ]
         },
@@ -1659,7 +1660,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "18 October Amazon alternatives: exact Joseph Joseph 81081 added where appropriate; OXO 48512 and Brabantia 403408 rechecked against manufacturer guidance, variant-specific owner feedback, clean Amazon AU seller/stock offers and official recall RSS results. Other products retain their prior review dates. No affiliate referrals generated. See docs/editorial/amazon-container-airer-research-2026-10-18.md. 27 October availability-only follow-up: fresh exact-offer checks removed the Instant Pot supplier-order description and added the L.T. Williams airer 1–3-week dispatch warning where applicable. Source article, primary-product coverage, images and prior specification/warranty research are unchanged; evidence in tmp/availability-2026-10-27/."
+      "reviewScope": "27 October: researched AirFrame Max 21m 5000020 as a sooner-available indoor alternative; exact new Amazon AU seller, local arrival example, manufacturer dimensions/load, warranty scope and owner evidence checked. L.T. Williams remains available-to-order with its delay warning; Brabantia retained. Regional disclosure and limited recall-search access recorded in docs/editorial/airer-alternative-2026-10-27.json. Other products retain prior full-review dates."
     },
     {
       "guidePath": "/guides/laundry-essentials-australian-homes/",

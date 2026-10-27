@@ -1,0 +1,119 @@
+{
+  "reviewedOn": "2026-10-27",
+  "outcome": "research-supported",
+  "selected": "joseph-joseph-airframe-max-21m-5000020",
+  "evidenceDirectory": "tmp/airer-alternative-2026-10-27/",
+  "selectionReason": "New Amazon AU offer arrives sooner in the observed postcode, exact AU instructions and support route, useful narrower floor footprint with long-garment rails. Premium price and indoor-only use disclosed.",
+  "alternatives": [
+    {
+      "name": "Hills 19M 3 Tier Airer 80157585",
+      "asin": "B0FB2Z1VPT",
+      "decision": "Not selected for urgency: displayed arrival 9 November to the same postcode despite In Stock status."
+    },
+    {
+      "name": "Joseph Joseph Eclipse 50055",
+      "asin": "B0D8BF9K9D",
+      "decision": "Orderable sooner, but screened design adds cost and complexity; 14m drying capacity. AirFrame Max fits this mixed-load comparison better."
+    },
+    {
+      "name": "Brabantia HangOn 20m",
+      "asin": "B0987Z4WWC",
+      "decision": "Existing researched option; rechecked orderable, not duplicated."
+    }
+  ],
+  "specificationResolution": "Manufacturer AU centimetre measurements and load limits used. Amazon folded-like dimensions and 8.1kg weight not substituted; no assumption that the latter is packaging. Incorrect AU manufacturer inch conversion omitted.",
+  "warranty": "One year authorised-retailer defect-cover policy, not direct-site two years. New Amazon AU seller/claim route verified; do not extend claims to marketplace or used offers.",
+  "safetySearchLimitations": "Official-domain indexed searches found no matching recall; direct RSS blocked. US Proposition65 disclosure recorded with official regulator context; no chemical safety certification or risk assessment claimed.",
+  "sourceRecords": [
+    {
+      "sourceType": "manufacturer-specification",
+      "title": "Exact Australian 5000020 dimensions and operating limits",
+      "publisher": "Joseph Joseph Australia",
+      "sourceUrl": "https://josephjoseph.com.au/products/airframe-max-21m-folding-airer-with-long-garment-hanging-rails-black",
+      "supports": "Black Max 21m, eight long rails; open H155 W70 D90cm, closed H76 W66 D10cm, 6.9kg, 15kg maximum evenly distributed load. Indoor only, flat surface, pinch-point and child-play precautions. Amazon summary dimensions 10D x70W x76H and 8.1kg are not used as the open footprint or product mass; manufacturer centimetres control. AU page inch conversion for height is inconsistent, so inches omitted. No faster-drying or comparative durability claim.",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "sourceType": "owner-feedback",
+      "title": "Exact-size owner feedback separated from pooled variants",
+      "publisher": "Amazon Australia",
+      "sourceUrl": "https://www.amazon.com.au/dp/B0G3XC7MJG",
+      "supports": "Australian 21m owners S L Nance (28 August 2026) and Sarah (30 September 2026) describe useful capacity/folding; Sarah notes larger-than-expected size. Five overseas 21m accounts support solid feel and folding but are not local long-term tests. The 2 October side-joint failure is explicitly 16m and is retained as range context, not misreported as a Max failure. No failure rate, star-based recommendation or superiority claim.",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "sourceType": "owner-feedback",
+      "title": "Individual manufacturer-hosted comments",
+      "publisher": "Joseph Joseph Australia",
+      "sourceUrl": "https://josephjoseph.com.au/products/airframe-max-21m-folding-airer-with-long-garment-hanging-rails-black",
+      "supports": "Individual comments on the Max page mention weight, cost and learning the opening mechanism. These may be pooled and selected by the brand, so are supporting context only; AI-generated summary and durability predictions not adopted. Exact-model retailer feedback separately inspected.",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "sourceType": "australian-availability-support",
+      "title": "New Amazon AU stock and postcode-specific arrival comparison",
+      "publisher": "Amazon Australia",
+      "sourceUrl": "https://www.amazon.com.au/dp/B0G3XC7MJG",
+      "supports": "27 October 2026, 08:35 UTC: primary ASIN and model 5000020 match. Buy New offer in stock, sold and dispatched by Amazon AU, displayed delivery Friday 30 October to Sunshine Coast 4556. Separate same-context L.T. Williams ASIN B0FJ7ZMN4H still stated 1–3 weeks dispatch. Search and new-offer detail both agreed. Lower-priced Amazon Resale box is a separate used offer, not the selected seller. Dated price $220.45 is evidence only, not published as a current price.",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "sourceType": "seller-fulfilment",
+      "title": "New offer, returns and Australian claim route",
+      "publisher": "Amazon Australia",
+      "sourceUrl": "https://www.amazon.com.au/dp/B0G3XC7MJG",
+      "supports": "Primary Buy New panel names Amazon AU as both seller and dispatcher. Conditional original-condition change-of-mind returns within 30 days; listing also states damaged/defective items may have remedies after that period. This is not a 30-day durability warranty. Start order/fault support through Amazon AU. No foreign seller, marketplace or resale offer approved by this assessment; seller choice can change.",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "sourceType": "manufacturer-warranty",
+      "title": "Australian retail warranty scope and support",
+      "publisher": "Joseph Joseph Australia",
+      "sourceUrl": "https://josephjoseph.com.au/pages/faq",
+      "supports": "Current AU FAQ: authorised-retailer purchases have one year against manufacturing defects, unless otherwise stated; direct-site purchases have two years. Claims require proof of purchase and product/batch details. Guarantee excludes wear, misuse, unauthorised repairs and pre-owned/refurbished/unauthorised resale. Australian support contact info.au@josephjoseph.com. Exact Amazon AU seller support independently verified. No special AirFrame extension or blanket two-year Amazon guarantee claimed.",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "sourceType": "regulator-recall-check",
+      "title": "Dated Australian recall search and access limitation",
+      "publisher": "ACCC Product Safety",
+      "sourceUrl": "https://www.productsafety.gov.au/recalls",
+      "supports": "27 October indexed searches restricted to productsafety.gov.au for Joseph Joseph and AirFrame found no matching recall. Direct filtered RSS returned HTTP403 and was not bypassed; no claim of exhaustive live database clearance. Manufacturer care warnings reviewed. No matching Australian recall or specific Max mechanical defect advisory found; absence of a search result is not safety certification.",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "sourceType": "manufacturer-specification",
+      "title": "Regional chemical disclosure considered",
+      "publisher": "Joseph Joseph US",
+      "sourceUrl": "https://us.josephjoseph.com/pages/chemical-disclosure",
+      "supports": "US disclosure lists SKU5000020 under a California Proposition65 1,3-butadiene warning. OEHHA FAQ says a warning does not itself establish violation of safety standards. No product-specific exposure assessment or Australian recall was found; neither toxicity-free nor health-risk claims are made. Australian care instructions control use; regional disclosure is retained rather than erased.",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "sourceType": "seller-fulfilment",
+      "title": "Affiliate syntax checked offline",
+      "publisher": "AHC",
+      "sourceUrl": "https://www.amazon.com.au/dp/B0G3XC7MJG?tag=ahc07-22",
+      "supports": "Exact ASIN with approved ahc07-22 tag. No affiliate redirect or tagged request, cart action, purchase or attribution test was made.",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "image": {
+    "id": "joseph-joseph-airframe-max-21m-5000020",
+    "reason": "27 October: AirFrame Max Black 5000020 added without a product photograph. Manufacturer site terms require permission for commercial image reuse; no permission established. No Amazon photographs copied. Approved Amazon retailer artwork retained."
+  },
+  "validation": {
+    "localBuild": "passed",
+    "commercialAndCoverageAudits": "passed",
+    "desktopAndMobile": "passed at 1440px and 390px; approved Amazon artwork visually inspected",
+    "affiliateCheck": "approved ahc07-22 destination and sponsored/nofollow inspected without clicking",
+    "localEvidence": "tmp/airer-alternative-2026-10-27/local-verification.json",
+    "liveEvidence": "tmp/airer-alternative-2026-10-27/live-verification.json (created only after deployment verification)"
+  },
+  "monitoring": {
+    "selectedAmazonOffers": 90,
+    "newOfferAutomaticallySelected": true,
+    "coverageEvidence": "tmp/airer-alternative-2026-10-27/monitor-coverage.json",
+    "note": "Offline inclusion count, not a fresh stock result for all 90 offers."
+  }
+}
