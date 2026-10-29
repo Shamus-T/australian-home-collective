@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-10-28",
+  "updatedOn": "2026-10-30",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -1742,16 +1742,15 @@
     {
       "guidePath": "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/",
       "title": "Laundry Tub Storage That Works Around Pipes",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-30",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "85900059deb5d4ba127b8e5466f8b7259de0397a5530fa9d454e460795933496",
+      "reviewedSourceSha256": "44bba7f667b4c5d5c6bb80bcc348fa9442c87bb40ffd568ff7b69c9aa5b4a935",
       "requiredProductTypes": [
         {
           "label": "Expandable under-sink shelf",
-          "productIds": [
-            "laundry-simplehouseware-expandable-under-sink"
-          ]
+          "productIds": [],
+          "gapReason": "30 October: the approved SimpleHouseware expandable shelf ASIN returns HTTP404 in two clean checks; buying offer paused. No replacement expandable shelf approved."
         },
         {
           "label": "Two-tier pull-out organiser",
@@ -1762,7 +1761,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "30 October availability repair: paused the missing SimpleHouseware B081K723P2 offer and corrected the buying-section count/intro to match remaining approved products. Expandable-shelf coverage is an explicit gap. Original fit advice, other product research, images and approved retailer artwork preserved. Evidence: tmp/availability-2026-10-30/."
     },
     {
       "guidePath": "/guides/lawn-care-basics/",
@@ -2130,10 +2129,10 @@
     {
       "guidePath": "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
       "title": "Small Outdoor Storage That Leaves the Backyard Usable",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-30",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "6fe8d7c83d497dc6b69c620e0584ab7e62ff90d7526935ff968d33dadfd74764",
+      "reviewedSourceSha256": "1d9b39f65837ea59fe8b59f57f19e86f9fe48c6a7aecc66223ec47bc925b1c7a",
       "requiredProductTypes": [
         {
           "label": "Compact outdoor storage box",
@@ -2152,15 +2151,15 @@
       "contextualRoutes": [
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "30 October: availability-only update of the existing Keter Borneo offer from 6–7 to 3–4 day dispatch, based on a fresh clean exact-ASIN check. Other product claims, images and retailer artwork preserved. Evidence: tmp/availability-2026-10-30/amazon.json."
     },
     {
       "guidePath": "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
       "title": "Outdoor Storage Ideas for Australian Patios, Balconies and Gardens",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-30",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "6edc50c84404f06f70bf5cf8e3babf5d95010e2849c1f709e99638ee42de0a39",
+      "reviewedSourceSha256": "a86114f718bc3c2ba8dca514138aea47195d30dbb8adcb84c509075c90890ce0",
       "requiredProductTypes": [
         {
           "label": "Compact outdoor storage box",
@@ -2185,7 +2184,7 @@
         "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "30 October: availability-only update of the existing Keter Borneo offer from 6–7 to 3–4 day dispatch, based on a fresh clean exact-ASIN check. Other product claims, images and retailer artwork preserved. Evidence: tmp/availability-2026-10-30/amazon.json."
     },
     {
       "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
@@ -3291,16 +3290,15 @@
     {
       "guidePath": "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/",
       "title": "How to Use Awkward Under-Sink Bathroom Space",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-10-30",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "6218bc5420eb43e254dab1855b819ce4d526f8cf8f62acf5f9701ee7b8956143",
+      "reviewedSourceSha256": "4e62619917c4bae25c9f76c16d178141d37470b923fa2a9c57ecb93f3b6d259f",
       "requiredProductTypes": [
         {
           "label": "Expandable under-sink shelf",
-          "productIds": [
-            "bathroom-simplehouseware-expandable-under-sink"
-          ]
+          "productIds": [],
+          "gapReason": "30 October: the approved SimpleHouseware expandable shelf ASIN returns HTTP404 in two clean checks; buying offer paused. No replacement expandable shelf approved."
         },
         {
           "label": "Two-tier pull-out organiser",
@@ -3313,21 +3311,20 @@
       "contextualRoutes": [
         "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "30 October availability repair: paused the missing SimpleHouseware B081K723P2 offer and corrected the buying-section count/intro to match remaining approved products. Expandable-shelf coverage is an explicit gap. Original fit advice, other product research, images and approved retailer artwork preserved. Evidence: tmp/availability-2026-10-30/."
     },
     {
       "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
       "title": "Storage Under the Kitchen Sink",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-10-30",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "6843603dfae91bb90bb7298b6d062efdb867e5ed60a85217be5a52f7b36ffbc0",
+      "reviewedSourceSha256": "fd222bba19b1505fd8a60edbff65f7c50f31cb54b041df13bf97853071a62320",
       "requiredProductTypes": [
         {
           "label": "Expandable under-sink shelf",
-          "productIds": [
-            "kitchen-simplehouseware-expandable-under-sink"
-          ]
+          "productIds": [],
+          "gapReason": "30 October: the approved SimpleHouseware expandable shelf ASIN returns HTTP404 in two clean checks; buying offer paused. No replacement expandable shelf approved."
         },
         {
           "label": "Two-tier pull-out organiser",
@@ -3354,7 +3351,7 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
       ],
-      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
+      "reviewScope": "30 October availability repair: paused the missing SimpleHouseware B081K723P2 offer and corrected the buying-section count/intro to match remaining approved products. Expandable-shelf coverage is an explicit gap. Original fit advice, other product research, images and approved retailer artwork preserved. Evidence: tmp/availability-2026-10-30/."
     },
     {
       "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",

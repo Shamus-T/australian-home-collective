@@ -49,3 +49,11 @@ Commit `781cdf2` passed the full local build, GitHub build/audits and Cloudflare
 [Good Guys run 40030935129](https://github.com/Shamus-T/australian-home-collective/actions/runs/40030935129) substantively checked 49 feed offers and 49 clean pages: 47 available, two supplier-order, zero unresolved faults. Raw feed Stock=No for GOAT is preserved and reconciled against its fresh exact-model supplier-order purchase page.
 
 [Initial Amazon cloud run 40030935087](https://github.com/Shamus-T/australian-home-collective/actions/runs/40030935087) failed honestly: 76 challenged pages and two different availability results from the cloud delivery context. This is not evidence of 78 unavailable products. That cloud stock fetch has been removed; the named daily local follow-up performs fresh checks instead. The GitHub workflow name now explicitly says offline, and its summary states that it does not verify stock.
+
+## 30 October availability repair
+
+A fresh local sweep checked all 90 then-approved Amazon offers. The SimpleHouseware expandable under-sink shelf (ASIN B081K723P2) returned HTTP 404, confirmed by a separate clean request. Its three bathroom, laundry-tub and kitchen placements were paused; the remaining approved buying options were retained and the expandable-shelf coverage gaps recorded explicitly. This establishes that the listed destination is unavailable, not that the product is discontinued. No replacement model was added.
+
+The other 89 Amazon offers were orderable in the observed anonymous delivery context: 77 available, ten low-stock and two with dispatch delays. Keter Borneo changed from 6–7 to 3–4 day dispatch; both dated reader notes were updated. The L.T. Williams airer still showed 1–3 weeks, with its existing reader warning retained. Images and approved retailer artwork were preserved. No affiliate links were requested.
+
+Evidence: `tmp/availability-2026-10-30/amazon.json`, `simplehouseware-recheck.json`, `review.json` and the local/live verification reports. The sweep predates the catalogue pause; ongoing selection is now 89 approved unique Amazon offers. The original 90-offer report is retained without rewriting its coverage or fault history.

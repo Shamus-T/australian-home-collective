@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-28",
+  "updatedOn": "2026-10-30",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -4495,18 +4495,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
-        "destinationStatus": "reachable",
-        "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "checkedOn": "2026-10-30",
+        "destinationStatus": "unreachable",
+        "productIdentityStatus": "unverified",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -4597,6 +4597,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
           "supports": "Sold by EP Family AP Direct, shipped by Amazon; 30-day change-of-mind return eligibility displayed. ASIN and ahc07-22 tag retained.",
           "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "30 October missing exact-product destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2",
+          "supports": "Daily clean-URL sweep and separate recheck at 2026-10-29T23:02:41.305Z both returned HTTP404 for the previously approved ASIN. Buying option paused across all three placements. This confirms the listed destination is unavailable, not that the manufacturer discontinued the product. Historical research and images retained; no replacement model or affiliate navigation.",
+          "checkedOn": "2026-10-30"
         }
       ]
     },
@@ -5599,18 +5607,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
-        "destinationStatus": "reachable",
-        "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "checkedOn": "2026-10-30",
+        "destinationStatus": "unreachable",
+        "productIdentityStatus": "unverified",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -5701,6 +5709,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
           "supports": "Sold by EP Family AP Direct, shipped by Amazon; 30-day change-of-mind return eligibility displayed. ASIN and ahc07-22 tag retained.",
           "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "30 October missing exact-product destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2",
+          "supports": "Daily clean-URL sweep and separate recheck at 2026-10-29T23:02:41.305Z both returned HTTP404 for the previously approved ASIN. Buying option paused across all three placements. This confirms the listed destination is unavailable, not that the manufacturer discontinued the product. Historical research and images retained; no replacement model or affiliate navigation.",
+          "checkedOn": "2026-10-30"
         }
       ]
     },
@@ -8082,7 +8098,7 @@
       "drawbacks": [
         "Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
         "The bulky box is expensive to move, and owner feedback includes concerns that should be checked against the current seller and model.",
-        "The Amazon offer showed dispatch in 6–7 days on 24 October 2026. Confirm the selected variant, seller, freight and arrival estimate before ordering."
+        "The Amazon offer showed dispatch in 3–4 days on 30 October 2026. Confirm the selected variant, seller, freight and arrival estimate before ordering."
       ],
       "suitability": {
         "suits": [
@@ -8156,6 +8172,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
           "supports": "Clean exact-product page observed 24 October 2026: Usually dispatched within 6 to 7 days. Dated availability-only observation; not immediate stock or a postcode-specific delivery promise. Existing specification, safety and warranty review dates retained.",
           "checkedOn": "2026-10-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "30 October dispatch estimate",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
+          "supports": "Fresh clean exact-ASIN check showed Usually dispatched within 3 to 4 days. This is a dated dispatch observation, not nationwide stock or a postcode-specific delivery promise. Existing specification, warranty and safety review dates retained.",
+          "checkedOn": "2026-10-30"
         }
       ],
       "image": {
@@ -8404,18 +8428,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
-        "destinationStatus": "reachable",
-        "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "checkedOn": "2026-10-30",
+        "destinationStatus": "unreachable",
+        "productIdentityStatus": "unverified",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -8523,6 +8547,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2?tag=ahc07-22",
           "supports": "Read two Australian and five overseas displayed owner reviews. Useful adjustment around plumbing recurs; drawbacks include insufficient panel coverage, difficult screws, warped panels and bowing at full extension. Did not adopt user modifications as installation instructions.",
           "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "30 October missing exact-product destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B081K723P2",
+          "supports": "Daily clean-URL sweep and separate recheck at 2026-10-29T23:02:41.305Z both returned HTTP404 for the previously approved ASIN. Buying option paused across all three placements. This confirms the listed destination is unavailable, not that the manufacturer discontinued the product. Historical research and images retained; no replacement model or affiliate navigation.",
+          "checkedOn": "2026-10-30"
         }
       ]
     },
@@ -14027,7 +14059,7 @@
       "drawbacks": [
         "Check the total including freight and the seller’s delivery and return arrangements; delivery can add substantially to the price.",
         "The bulky box is expensive to move, and owner feedback includes concerns that should be checked against the current seller and model.",
-        "The Amazon offer showed dispatch in 6–7 days on 24 October 2026. Confirm the selected variant, seller, freight and arrival estimate before ordering."
+        "The Amazon offer showed dispatch in 3–4 days on 30 October 2026. Confirm the selected variant, seller, freight and arrival estimate before ordering."
       ],
       "suitability": {
         "suits": [
@@ -14101,6 +14133,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
           "supports": "Clean exact-product page observed 24 October 2026: Usually dispatched within 6 to 7 days. Dated availability-only observation; not immediate stock or a postcode-specific delivery promise. Existing specification, safety and warranty review dates retained.",
           "checkedOn": "2026-10-24"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "30 October dispatch estimate",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
+          "supports": "Fresh clean exact-ASIN check showed Usually dispatched within 3 to 4 days. This is a dated dispatch observation, not nationwide stock or a postcode-specific delivery promise. Existing specification, warranty and safety review dates retained.",
+          "checkedOn": "2026-10-30"
         }
       ],
       "image": {
