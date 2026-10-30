@@ -51,7 +51,7 @@ const faqs = [
   description="Compare fridge dimensions in mm and cm, with a model size chart, cavity widths and clearance checks. Measure door swing and delivery access before buying."
   category="Kitchen"
   date="Updated October 2026"
-  dateModified="2026-10-18"
+  dateModified="2026-10-31"
   datePublished="2026-07-23"
   readingTime="10 minute read"
   faqs={faqs}
@@ -71,25 +71,45 @@ const faqs = [
     noticeably different external dimensions.
   </p>
 
+  <nav aria-label="Start your fridge comparison">
+    <p><strong>What do you need next?</strong> <a href="#fridge-size-chart-heading">Check the size chart</a>, <a href="#fridge-shortlist-route-heading">choose a layout to compare</a> or <a href="#fridge-measurements-heading">measure your opening first</a>.</p>
+  </nav>
+
   <section aria-labelledby="fridge-size-chart-heading">
     <h2 id="fridge-size-chart-heading">Fridge size chart: body dimensions are not cavity sizes</h2>
-    <p>There is no single standard fridge size in Australia. These two researched options show why even a similar body width does not mean the same opening will work. Measurements below are <strong>width × height × depth</strong>.</p>
+    <p>There is no single standard fridge size in Australia. These three researched options show why body width alone cannot confirm fit. Measurements below are <strong>width × height × depth</strong>.</p>
     <p class="table-hint">Swipe sideways to compare the full table.</p>
     <div class="comparison-wrap" tabindex="0" role="region" aria-label="Fridge sizes in millimetres and centimetres">
       <table class="comparison-table">
-        <caption>Two fridge sizes and their model-specific width checks</caption>
+        <caption>Three fridge sizes and their model-specific width checks</caption>
         <thead><tr><th scope="col">Model and layout</th><th scope="col">Body dimensions in mm</th><th scope="col">The same size in cm</th><th scope="col">Width including stated side gaps</th></tr></thead>
         <tbody>
           <tr><th scope="row"><a href="#product-lg-gb-b400ps-fridge-fit-good-guys">LG GB-B400PS</a><br />436L bottom freezer</th><td>697 × 1,740 × 696</td><td>69.7 × 174 × 69.6</td><td>705mm (70.5cm), using 4mm each side. A 700mm opening is too narrow.</td></tr>
           <tr><th scope="row"><a href="#product-westinghouse-wtm4302wd-r-good-guys">Westinghouse WTM4302WD-R</a><br />431L top freezer</th><td>699 × 1,725 × 723</td><td>69.9 × 172.5 × 72.3</td><td>759mm (75.9cm), using 30mm each side in the documented arrangement.</td></tr>
+          <tr><th scope="row"><a href="#product-tgg-gap-haier-hrf510fhs">Haier HRF510FHS</a><br />509L French door</th><td>790 × 1,725 × 707</td><td>79 × 172.5 × 70.7</td><td>850mm (85cm) in Haier's planning sheet, including 30mm each side.</td></tr>
         </tbody>
       </table>
     </div>
-    <p>Those final figures check width only. Both models still need rear and overhead ventilation, levelling and door access; a nearby wall may need much more room. Follow the <a href="#fridge-shortlist-heading">LG fit notes</a> or <a href="#top-mount-choice-heading">Westinghouse installation notes</a> before shortlisting.</p>
+    <p>Those final figures check width only. All three still need rear and overhead ventilation, levelling and door access; a nearby wall may need much more room. Read the <a href="#fridge-shortlist-heading">LG fit notes</a>, <a href="#top-mount-choice-heading">Westinghouse installation notes</a> or <a href="#french-door-choice-heading">Haier planning notes</a> before ordering.</p>
     <p><strong>Working in centimetres?</strong> Multiply by 10 to get millimetres: a 70cm opening is 700mm. A “60cm fridge” or “900mm opening” is only a starting description, not confirmation that an exact model fits.</p>
   </section>
 
   <MeasurementWorksheetLink appliance="fridge" />
+
+  <section aria-labelledby="fridge-shortlist-route-heading">
+    <h2 id="fridge-shortlist-route-heading">Which fridge is worth checking for your kitchen?</h2>
+    <p>First rule out models that cannot meet the installation requirements. Then compare where you want the freezer, how much fresh and frozen food you store, and whether a water dispenser is useful.</p>
+    <ul class="feature-list">
+      <li><strong>Small side gaps and a bottom freezer:</strong> consider the <a href="#product-lg-gb-b400ps-fridge-fit-good-guys">LG GB-B400PS</a>. It has 308L of fridge space and a 128L freezer. Its 705mm width check does not solve a shallow cavity: it still needs more than 50mm behind, overhead space and room to use the doors.</li>
+      <li><strong>A top freezer and more fresh-food space than the LG:</strong> compare the <a href="#product-westinghouse-wtm4302wd-r-good-guys">Westinghouse WTM4302WD-R</a>, with a 329L fridge and 102L freezer. Allow for its wider ventilation gaps and right-hinge door; it is not an alternative for the same narrow opening.</li>
+      <li><strong>French doors and water without a plumbed connection:</strong> compare the <a href="#product-tgg-gap-haier-hrf510fhs">Haier HRF510FHS</a>, with a 372L fridge and 137L freezer. Start with its 850mm-wide planning cavity, then check both door arcs and drawer access. The water tank needs refilling and cleaning; it does not provide automatic ice.</li>
+    </ul>
+    <p><strong>If none fits, keep looking.</strong> A 700mm opening is too narrow for all three under these width checks. A wider opening alone does not guarantee fit either. Use the <a href="#fridge-measurements-heading">measurement checks below</a> to identify the limiting dimension before choosing another model.</p>
+  </section>
+
+  <CommercialProductBlock guidePath="/guides/fridge-dimensions-australia/" title="Compare the three models and check current prices" intro="First compare the fit checks and trade-offs below to narrow your shortlist, then check the exact model's current price and postcode delivery options at the retailer. These are research-based options, not firsthand AHC tests or a promise that a model fits your kitchen." variant="comparison" comparisonDetails={applianceComparisons} />
+
+  <p><strong>Before placing an order:</strong> match the full model code and finish, confirm the installation drawing and delivery route, and compare <a href="#fridge-order-heading">delivery, removal and setup costs</a>. Do not reduce the specified ventilation gaps to make a model fit.</p>
 
   <nav aria-label="Fridge measuring guide sections">
     <p><strong>Go straight to your next check:</strong></p>
@@ -97,7 +117,8 @@ const faqs = [
       <li><a href="#fridge-measurements-heading">Check the measurements that decide fit</a></li>
       <li><a href="#fridge-shortlist-heading">Check a narrow-gap fridge before shortlisting</a></li>
       <li><a href="#top-mount-choice-heading">Compare a top-freezer alternative</a></li>
-      <li><a href="#commercial-products-fridge-dimensions-australia">Compare fridge layouts and retailers</a></li>
+      <li><a href="#french-door-choice-heading">Check the French-door cavity and water tank</a></li>
+      <li><a href="#commercial-products-fridge-dimensions-australia">Return to the model and price comparison</a></li>
       <li><a href="#fridge-order-heading">Check the total delivered cost</a></li>
       <li><a href="#fridge-measurement-resource">Follow the measuring diagrams</a></li>
       <li><a href="#current-fridge-examples-heading">Compare real model and installation dimensions</a></li>
@@ -174,17 +195,16 @@ const faqs = [
     <p>This is the white, <strong>right-hinge</strong> version. In the corner arrangement shown by Westinghouse, allow 430mm on the hinge side so shelves can be removed. Check the <a href="#current-fridge-examples-heading">installation drawings and cupboard airflow notes below</a>; do not assume the doors can sit flush with the cabinets or that this exact version is reversible.</p>
   </section>
 
-  <h3>A narrower French-door option still needs side space</h3>
+  <h2 id="french-door-choice-heading">A narrower French-door option still needs side space</h2>
   <p>The Haier HRF510FHS has a 790mm body, but its <a href="https://dam.fisherpaykel.com/KZ3PKN00/at/wfbv32nrz786q58pqt6wkwn/Haier-SpecificationGuide-en-HRF510FS-HRF510FHS-HRF510FHC-FrenchDoorRefrigeratorFreezer-0-90004643B-AU-NZ.pdf" target="_blank" rel="noopener noreferrer">model-specific planning sheet</a> shows an 850mm-wide cavity. The <a href="https://dam.fisherpaykel.com/KZ3PKN00/at/75nf5nmpb38tc5h35w47vrx/Haier-UserGuide-en-HRF510BHC-HRF510BW-HRF510BS-HRF510FHC-HRF510FHS-HRF510FS-HRF510BEC-Refrigeration-0-V2-NZ-AU.pdf" target="_blank" rel="noopener noreferrer">user guide, page 33</a>, specifies 30mm at each side for this French-door family and 50mm above and behind. Do not copy the 50mm side requirement from the bottom-mount diagram beside it. Check the supplied instructions, both door arcs and drawer access before ordering.</p>
   <p>Its refillable water tank avoids a water connection, but needs refilling and cleaning. The 372L fridge and 137L freezer prioritise fresh food. Owners mention convenient storage alongside frequent refilling and awkward ice-tray access, so compare those jobs with your weekly routine.</p>
 
-  <CommercialProductBlock guidePath="/guides/fridge-dimensions-australia/" title="Compare top-mount, bottom-mount and French-door layouts" intro="Before choosing a layout, compare usable fridge and freezer capacity, the full installation and everyday access. The Haier adds French doors and refillable water; the LG and Westinghouse suit different freezer positions. These assessments use documents and owner evidence, not firsthand AHC testing." variant="comparison" comparisonDetails={applianceComparisons} />
-
   <section aria-labelledby="fridge-order-heading">
     <h2 id="fridge-order-heading">Compare the delivered fridge cost</h2>
-    <p>Use the full model code and finish when comparing retailers: the Westinghouse here is the white right-hinge WTM4302WD-R, while the LG is stainless GB-B400PS. A cheaper different hinge or finish may not be a useful alternative.</p>
+    <p>Use the full model code and finish when comparing prices: the Westinghouse here is the white right-hinge WTM4302WD-R, the LG is stainless GB-B400PS and the Haier is Satina HRF510FHS. A cheaper different hinge or finish may not be a useful alternative.</p>
     <p>Add delivery, stairs or difficult access, old-fridge removal and any required door reversal to the comparison. Confirm that the delivery team can take the packed fridge through your route and what setup is included. Ask for the actual delivery date for your postcode.</p>
-    <p>The Good Guys links are affiliate links. Listings checked 12 October 2026; confirm the current price, availability and delivery or installation options for your postcode before ordering.</p>
+    <p>The Good Guys links are affiliate links. The three exact-model listings were rechecked on <time datetime="2026-10-31">31 October 2026</time> and offered ordering in the retailer's default delivery context. Confirm current availability, the actual delivery date and any installation service for your postcode before paying.</p>
+    <p><a href="#commercial-products-fridge-dimensions-australia">Return to the three-model comparison and retailer links</a> once your measurements and delivery plan are ready.</p>
   </section>
 
   <FridgeMeasurementResource />

@@ -962,10 +962,10 @@
     {
       "guidePath": "/guides/fridge-dimensions-australia/",
       "title": "Fridge Dimensions Australia: What to Measure Before Buying",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-31",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "08ecaf3924b5708d79104772bb7466dee9e3cc583c116a35a5a83680f1469cb2",
+      "reviewedSourceSha256": "cf054cc3cb98346139a13e6c233c646d02516de0a976e958dec2fa3df8df2e88",
       "requiredProductTypes": [
         {
           "label": "Top mount fridge",
@@ -990,7 +990,7 @@
       "contextualRoutes": [
         "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md. 31 October buying-journey edit: expanded opening chart to all three existing approved models; added need-led shortlist and moved the existing affiliate comparison earlier. Preserved detailed installation requirements and retailer artwork. Fresh anonymous clean-page checks matched all three exact Good Guys models with InStock/order controls; postcode stock and delivery unverified. LG official specs rechecked; refreshed Haier planning PDF SHA-256 matches the 18 October research copy. Original full product research dates retained. See tmp/fridge-journey-2026-10-31/."
     },
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",

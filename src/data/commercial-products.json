@@ -15279,6 +15279,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "Exact-model indexed search restricted to productsafety.gov.au on 12 October returned no matching recall notice. This is not a complete register inspection or a safety certification; no safety performance claim is made.",
           "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fridge buying-journey exact-offer recheck",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-431l-top-mount-refrigerator-wtm4302wd-r",
+          "checkedOn": "2026-10-31",
+          "supports": "Clean anonymous product HTML rechecked: exact model, structured InStock and purchase control. No affiliate redirect requested, no cookies or retailer scripts used. Postcode delivery and national stock are not verified. This refresh is offer availability only; original full research review date remains."
         }
       ],
       "image": {
@@ -15665,6 +15673,14 @@
           "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
           "checkedOn": "2026-10-12",
           "supports": "Live direct listing inspected 12 October 2026: exact stainless GB-B400PS, 308L fridge plus 128L freezer, and Add to Cart. Existing authorised affiliate URL reused without generating a QA referral. Postcode stock and delivery not guaranteed; the prior model assessment and image provenance are retained."
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fridge buying-journey exact-offer recheck",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/lg-436l-fitandmax-bottom-mount-refrigerator-gb-b400ps",
+          "checkedOn": "2026-10-31",
+          "supports": "Clean anonymous product HTML rechecked: exact model, structured InStock and purchase control. No affiliate redirect requested, no cookies or retailer scripts used. Postcode delivery and national stock are not verified. This refresh is offer availability only; original full research review date remains."
         }
       ],
       "image": {
@@ -18996,6 +19012,14 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fhaier-509l-french-door-refrigerator-hrf510fhs",
           "supports": "Retailer HRF510FHS and SKU 50094832 matched offline. Approved campaign 1100l6vaUc; clean retailer URL researched, no affiliate redirect requested. Brand is not in saved campaign exclusions, and no in-store-only restriction. Historical commission terms are not a merchant attribution test.",
           "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fridge buying-journey exact-offer recheck",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/haier-509l-french-door-refrigerator-hrf510fhs",
+          "checkedOn": "2026-10-31",
+          "supports": "Clean anonymous product HTML rechecked: exact model, structured InStock and purchase control. No affiliate redirect requested, no cookies or retailer scripts used. Postcode delivery and national stock are not verified. This refresh is offer availability only; original full research review date remains."
         }
       ],
       "image": {
