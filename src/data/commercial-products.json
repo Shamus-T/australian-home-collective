@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-30",
+  "updatedOn": "2026-10-31",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -19577,7 +19577,7 @@
       "productType": "2.5kW cooling / 3.2kW heating split system",
       "summary": "A smaller-capacity reverse-cycle option for an enclosed bedroom or study when the assessed load suits 2.5kW cooling and 3.2kW heating. The NXT package includes the anywAiR Wi-Fi adaptor II; do not confuse it with the base package without NXT. Its indoor body is 834mm wide, before installation clearances.",
       "merchant": "The Good Guys",
-      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-lifestyle-next-reverse-cycle-split-system-set-astg09kmtc-nxt",
       "linkLabel": "View at The Good Guys",
       "affiliate": true,
       "affiliateNetwork": "partnerize",
@@ -19670,6 +19670,22 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
           "supports": "Exact clean URL and model SET-ASTG09KMTC-NXT, SKU 50087940, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "31 October exact-model retailer address repair",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-lifestyle-next-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "The old clean product address returned HTTP301 with a new same-retailer product path. The separately checked clean canonical page returns HTTP200, exact model SET-ASTG09KMTC-NXT, original SKU 50087940, InStock metadata and an ordering control. Approved affiliate campaign and creative were retained and the destination generated offline. No affiliate redirect or retailer redirect was followed. Existing specifications, warranty, product research and images preserved; no postcode-specific delivery or commission-attribution claim. Evidence: tmp/availability-2026-10-31/.",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Canonical exact-model affiliate destination repair",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-lifestyle-next-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "31 October: the new clean canonical product page matches the original model and SKU and offers ordering through The Good Guys. Retained approved campaign 1100l6vaUc and creative 1011l64579; regenerated the destination offline. No affiliate redirect request or commission-attribution test. Earlier specifications, owner feedback and warranty research retain their original dates.",
+          "checkedOn": "2026-10-31"
         }
       ],
       "image": {
@@ -19805,7 +19821,7 @@
       "productType": "5.0kW cooling / 6.0kW heating split system",
       "summary": "A step up to 5.0kW cooling and 6.0kW heating for a living area whose calculated load needs that capacity. The NXT bundle includes the anywAiR Wi-Fi adaptor II. Allow for a 980mm-wide indoor body, additional clearances and a suitable outdoor location in the installation quote.",
       "merchant": "The Good Guys",
-      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-lifestyle-next-reverse-cycle-split-system-set-asth18kmtd-nxt",
       "linkLabel": "View at The Good Guys",
       "affiliate": true,
       "affiliateNetwork": "partnerize",
@@ -19898,6 +19914,22 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
           "supports": "Exact clean URL and model SET-ASTH18KMTD-NXT, SKU 50087945, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "31 October exact-model retailer address repair",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c50kw-h60kw-lifestyle-next-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "The old clean product address returned HTTP301 with a new same-retailer product path. The separately checked clean canonical page returns HTTP200, exact model SET-ASTH18KMTD-NXT, original SKU 50087945, InStock metadata and an ordering control. Approved affiliate campaign and creative were retained and the destination generated offline. No affiliate redirect or retailer redirect was followed. Existing specifications, warranty, product research and images preserved; no postcode-specific delivery or commission-attribution claim. Evidence: tmp/availability-2026-10-31/.",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Canonical exact-model affiliate destination repair",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-lifestyle-next-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "31 October: the new clean canonical product page matches the original model and SKU and offers ordering through The Good Guys. Retained approved campaign 1100l6vaUc and creative 1011l64579; regenerated the destination offline. No affiliate redirect request or commission-attribution test. Earlier specifications, owner feedback and warranty research retain their original dates.",
+          "checkedOn": "2026-10-31"
         }
       ],
       "image": {
@@ -20155,7 +20187,7 @@
       "productType": "2.5kW cooling / 3.2kW heating split system",
       "summary": "A smaller-capacity reverse-cycle option for an enclosed bedroom or study when the assessed load suits 2.5kW cooling and 3.2kW heating. The NXT package includes the anywAiR Wi-Fi adaptor II; do not confuse it with the base package without NXT. Its indoor body is 834mm wide, before installation clearances.",
       "merchant": "The Good Guys",
-      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-lifestyle-next-reverse-cycle-split-system-set-astg09kmtc-nxt",
       "linkLabel": "View at The Good Guys",
       "affiliate": true,
       "affiliateNetwork": "partnerize",
@@ -20248,6 +20280,22 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
           "supports": "Exact clean URL and model SET-ASTG09KMTC-NXT, SKU 50087940, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "31 October exact-model retailer address repair",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-lifestyle-next-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "The old clean product address returned HTTP301 with a new same-retailer product path. The separately checked clean canonical page returns HTTP200, exact model SET-ASTG09KMTC-NXT, original SKU 50087940, InStock metadata and an ordering control. Approved affiliate campaign and creative were retained and the destination generated offline. No affiliate redirect or retailer redirect was followed. Existing specifications, warranty, product research and images preserved; no postcode-specific delivery or commission-attribution claim. Evidence: tmp/availability-2026-10-31/.",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Canonical exact-model affiliate destination repair",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-lifestyle-next-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "31 October: the new clean canonical product page matches the original model and SKU and offers ordering through The Good Guys. Retained approved campaign 1100l6vaUc and creative 1011l64579; regenerated the destination offline. No affiliate redirect request or commission-attribution test. Earlier specifications, owner feedback and warranty research retain their original dates.",
+          "checkedOn": "2026-10-31"
         }
       ],
       "image": {
@@ -20269,7 +20317,7 @@
       "productType": "5.0kW cooling / 6.0kW heating split system",
       "summary": "A step up to 5.0kW cooling and 6.0kW heating for a living area whose calculated load needs that capacity. The NXT bundle includes the anywAiR Wi-Fi adaptor II. Allow for a 980mm-wide indoor body, additional clearances and a suitable outdoor location in the installation quote.",
       "merchant": "The Good Guys",
-      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-lifestyle-next-reverse-cycle-split-system-set-asth18kmtd-nxt",
       "linkLabel": "View at The Good Guys",
       "affiliate": true,
       "affiliateNetwork": "partnerize",
@@ -20362,6 +20410,22 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-reverse-cycle-split-system-set-asth18kmtd-nxt",
           "supports": "Exact clean URL and model SET-ASTH18KMTD-NXT, SKU 50087945, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "31 October exact-model retailer address repair",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c50kw-h60kw-lifestyle-next-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "The old clean product address returned HTTP301 with a new same-retailer product path. The separately checked clean canonical page returns HTTP200, exact model SET-ASTH18KMTD-NXT, original SKU 50087945, InStock metadata and an ordering control. Approved affiliate campaign and creative were retained and the destination generated offline. No affiliate redirect or retailer redirect was followed. Existing specifications, warranty, product research and images preserved; no postcode-specific delivery or commission-attribution claim. Evidence: tmp/availability-2026-10-31/.",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Canonical exact-model affiliate destination repair",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c50kw-h60kw-lifestyle-next-reverse-cycle-split-system-set-asth18kmtd-nxt",
+          "supports": "31 October: the new clean canonical product page matches the original model and SKU and offers ordering through The Good Guys. Retained approved campaign 1100l6vaUc and creative 1011l64579; regenerated the destination offline. No affiliate redirect request or commission-attribution test. Earlier specifications, owner feedback and warranty research retain their original dates.",
+          "checkedOn": "2026-10-31"
         }
       ],
       "image": {
@@ -20383,7 +20447,7 @@
       "productType": "2.5kW cooling / 3.2kW heating split system",
       "summary": "A smaller-capacity reverse-cycle option for an enclosed bedroom or study when the assessed load suits 2.5kW cooling and 3.2kW heating. The NXT package includes the anywAiR Wi-Fi adaptor II; do not confuse it with the base package without NXT. Its indoor body is 834mm wide, before installation clearances.",
       "merchant": "The Good Guys",
-      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-lifestyle-next-reverse-cycle-split-system-set-astg09kmtc-nxt",
       "linkLabel": "View at The Good Guys",
       "affiliate": true,
       "affiliateNetwork": "partnerize",
@@ -20476,6 +20540,22 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-reverse-cycle-split-system-set-astg09kmtc-nxt",
           "supports": "Exact clean URL and model SET-ASTG09KMTC-NXT, SKU 50087940, matched; campaign 1100l6vaUc / creative 1011l64579 generated and validated offline. No affiliate redirect requested. Listed brand is outside the saved campaign exclusions; no in-store-only or supplier-direct restriction found. This verifies configuration, not commission attribution.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "31 October exact-model retailer address repair",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/fujitsu-c25kw-h32kw-lifestyle-next-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "The old clean product address returned HTTP301 with a new same-retailer product path. The separately checked clean canonical page returns HTTP200, exact model SET-ASTG09KMTC-NXT, original SKU 50087940, InStock metadata and an ordering control. Approved affiliate campaign and creative were retained and the destination generated offline. No affiliate redirect or retailer redirect was followed. Existing specifications, warranty, product research and images preserved; no postcode-specific delivery or commission-attribution claim. Evidence: tmp/availability-2026-10-31/.",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Canonical exact-model affiliate destination repair",
+          "publisher": "The Good Guys / Partnerize",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Ffujitsu-c25kw-h32kw-lifestyle-next-reverse-cycle-split-system-set-astg09kmtc-nxt",
+          "supports": "31 October: the new clean canonical product page matches the original model and SKU and offers ordering through The Good Guys. Retained approved campaign 1100l6vaUc and creative 1011l64579; regenerated the destination offline. No affiliate redirect request or commission-attribution test. Earlier specifications, owner feedback and warranty research retain their original dates.",
+          "checkedOn": "2026-10-31"
         }
       ],
       "image": {

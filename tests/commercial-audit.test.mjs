@@ -459,3 +459,24 @@ for (const [label, mutate] of [
     assert.match(result.stderr, /publisher brand exclusion/);
   });
 }
+
+test('later exact-destination evidence preserves the full product review date', () => {
+  const result = runAudit(product => {
+    const previousDay = new Date(Date.parse(today) - 86400000).toISOString().slice(0, 10);
+    product.lastReviewedOn = product.affiliateValidation.checkedOn = previousDay;
+    product.sourceRecords.forEach(source => { source.checkedOn = previousDay; });
+    product.sourceRecords.find(source => source.sourceType === 'seller-fulfilment').checkedOn = today;
+  });
+  assert.equal(result.status, 0, result.stderr);
+});
+
+for (const dateOffset of [-1, 1]) {
+  test('destination evidence rejects ' + (dateOffset < 0 ? 'stale' : 'future') + ' dates', () => {
+    const result = runAudit(product => {
+      product.sourceRecords.find(source => source.sourceType === 'seller-fulfilment').checkedOn =
+        new Date(Date.parse(today) + dateOffset * 86400000).toISOString().slice(0, 10);
+    });
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, dateOffset < 0 ? /seller-fulfilment record for the exact affiliate destination/ : /cannot be in the future/);
+  });
+}

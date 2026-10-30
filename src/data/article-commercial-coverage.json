@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-10-30",
+  "updatedOn": "2026-10-31",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -75,10 +75,10 @@
     {
       "guidePath": "/guides/air-conditioning-buying-guide/",
       "title": "Air Conditioning Buying Guide: What to Check Before You Choose and Install",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-10-31",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "9c09d172e1fa74b0e1bfa714ecf1efa4606b02039bd08edf9636880091d89fbc",
+      "reviewedSourceSha256": "df22ff6215b16939b539c323fec7f9a5856db42cd449d69f70c07a6b1da4865c",
       "requiredProductTypes": [
         {
           "label": "Site-assessed single-room reverse-cycle split system",
@@ -103,7 +103,7 @@
         "/guides/how-to-keep-house-cooler-in-summer/",
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "25 October exact-model research and fresh clean retailer offers for new placements; manufacturer specifications, warranty, owner limitations and recalls recorded in docs/editorial/buying-options-expansion-2026-10-25.md. Earlier reviews of unchanged products remain dated. No affiliate requests or artificial clicks."
+      "reviewScope": "31 October: repaired the existing Fujitsu NXT Good Guys buying destinations after the retailer changed canonical paths. Exact model and original SKU verified against clean purchase-page metadata. Approved campaign and creative, suitability research, warranty claims, images and retailer artwork preserved. Availability-only check; no new models or commission-attribution claim. Evidence: tmp/availability-2026-10-31/."
     },
     {
       "guidePath": "/guides/australian-made-gift-ideas-under-100/",
@@ -1222,10 +1222,10 @@
     {
       "guidePath": "/guides/home-heating-options-australia/",
       "title": "Home Heating Options in Australia: What to Check Before You Choose",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-10-31",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "d6f3eed1f7a543c826520dd08365b15fe0c98321907607716a0de90eeb7ca51d",
+      "reviewedSourceSha256": "256a56db4c33eb3fb68b7e7b9f167830b2e709ae1eb1657b467384be3ec755f6",
       "requiredProductTypes": [
         {
           "label": "Portable oil-column heater",
@@ -1252,7 +1252,7 @@
         "/guides/oil-column-heater-vs-panel-heater/",
         "/guides/electric-blankets-vs-heated-throws/"
       ],
-      "reviewScope": "25 October exact-model research and fresh clean retailer offers for new placements; manufacturer specifications, warranty, owner limitations and recalls recorded in docs/editorial/buying-options-expansion-2026-10-25.md. Earlier reviews of unchanged products remain dated. No affiliate requests or artificial clicks."
+      "reviewScope": "31 October: repaired the existing Fujitsu NXT Good Guys buying destinations after the retailer changed canonical paths. Exact model and original SKU verified against clean purchase-page metadata. Approved campaign and creative, suitability research, warranty claims, images and retailer artwork preserved. Availability-only check; no new models or commission-attribution claim. Evidence: tmp/availability-2026-10-31/."
     },
     {
       "guidePath": "/guides/home-insulation-basics/",
@@ -2497,10 +2497,10 @@
     {
       "guidePath": "/guides/portable-vs-window-wall-vs-split-system-air-conditioner/",
       "title": "Portable vs Window/Wall vs Split-System Air Conditioner: Which Should You Choose?",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-10-31",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0416215fa65c4a55b0d3df52037b8775cfadaa974a2d357d4e3765e96cee3580",
+      "reviewedSourceSha256": "e4ef43086bdc5522c73cece627f1dab59abebec60525e547d1913835233010c4",
       "requiredProductTypes": [
         {
           "label": "Site-assessed single-room reverse-cycle split system",
@@ -2526,7 +2526,7 @@
       "contextualRoutes": [
         "/guides/portable-air-conditioners-australia/"
       ],
-      "reviewScope": "25 October exact-model research and fresh clean retailer offers for new placements; manufacturer specifications, warranty, owner limitations and recalls recorded in docs/editorial/buying-options-expansion-2026-10-25.md. Earlier reviews of unchanged products remain dated. No affiliate requests or artificial clicks."
+      "reviewScope": "31 October: repaired the existing Fujitsu NXT Good Guys buying destinations after the retailer changed canonical paths. Exact model and original SKU verified against clean purchase-page metadata. Approved campaign and creative, suitability research, warranty claims, images and retailer artwork preserved. Availability-only check; no new models or commission-attribution claim. Evidence: tmp/availability-2026-10-31/."
     },
     {
       "guidePath": "/guides/prepare-outdoor-area-for-summer/",

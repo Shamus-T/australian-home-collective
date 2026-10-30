@@ -715,8 +715,11 @@ for (const [index, product] of products.entries()) {
         const currentValidationSources = records.filter(
           (source) => source.checkedOn === validation.checkedOn,
         );
-        const exactListingRecords = currentValidationSources.filter(
+        // A separately dated destination repair can follow the full product review.
+        // Source dates are validated above; the underlying research still expires normally.
+        const exactListingRecords = records.filter(
           (source) => source.sourceType === "seller-fulfilment"
+            && source.checkedOn >= validation.checkedOn
             && source.sourceUrl === product.destinationUrl,
         );
         if (exactListingRecords.length === 0) {
