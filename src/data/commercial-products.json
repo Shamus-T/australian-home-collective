@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-10-31",
+  "updatedOn": "2026-11-01",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -2764,6 +2764,16 @@
         "sourceUrl": "https://assets-dam.foodthinkers.com/ZKCA55LU/at/fnkgkg8m7vb3536qtt5f8h9/BPR680_BSS_USC_Product_Front_View_01_RGB_v1.png?pdp",
         "suppliedVia": "Manufacturer product page: https://www.breville.com/en-au/product/BPR680?sku=BPR680BSS2JAN1",
         "checkedOn": "2026-10-10"
+      },
+      "manufacturerPrice": {
+        "amount": 339,
+        "currency": "AUD",
+        "kind": "manufacturer-direct",
+        "manufacturer": "Breville Australia",
+        "sourceUrl": "https://www.breville.com/en-au/product/bpr680",
+        "checkedOn": "2026-11-01",
+        "reviewDueOn": "2026-12-01",
+        "evidence": "Rechecked 1 November 2026: Breville Australia Fast Slow GO page lists $339.00 with Add to cart at $339.00 and Brushed Stainless Steel construction. Exact BPR680BSS product; no RRP, crossed-out price or retailer quote used. Delivery charges must be checked separately."
       },
       "commission": {
         "ratePercent": 10,
