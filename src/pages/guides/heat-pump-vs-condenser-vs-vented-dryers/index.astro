@@ -15,7 +15,6 @@ const comparedDryers = ["electrolux-edv705h3wc-good-guys", "electrolux-edh803p5w
 });
 
 const { vented, heatPump, tariffAudPerKwh: tariff, labelLoadsPerYear } = dryerEnergy;
-const rrpPremium = heatPump.publishedRrpAud - vented.publishedRrpAud;
 const labelSaving = vented.annualKwh - heatPump.annualKwh;
 const money = (amount: number) => new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(amount);
 const annualExamples = dryerEnergy.loadsPerWeek.map(loads => ({
@@ -23,7 +22,6 @@ const annualExamples = dryerEnergy.loadsPerWeek.map(loads => ({
   ventedCost: vented.annualKwh * loads * tariff,
   heatPumpCost: heatPump.annualKwh * loads * tariff,
   saving: labelSaving * loads * tariff,
-  payback: rrpPremium / (labelSaving * loads * tariff),
 }));
 
 const relatedGuides = [
@@ -72,7 +70,7 @@ const faqs = [
   category="Laundry"
   date="Updated October 2026"
   datePublished="2026-07-23"
-  dateModified="2026-10-18"
+  dateModified="2026-11-01"
   readingTime="8 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
@@ -161,31 +159,22 @@ const faqs = [
     test or a measurement made by AHC.
   </p>
   <p class="table-hint">Swipe sideways to compare the full table.</p>
-  <div class="comparison-wrap" role="region" aria-label="Electrolux dryer RRP and energy comparison" tabindex="0">
+  <div class="comparison-wrap" role="region" aria-label="Electrolux dryer energy comparison" tabindex="0">
     <table class="comparison-table" data-commercial-comparison>
       <caption>Electrolux EDV705H3WC versus EDH803P5WC: published specifications and calculated costs</caption>
       <thead><tr><th scope="col">Measure</th><th scope="col">EDV705H3WC vented</th><th scope="col">EDH803P5WC heat pump</th></tr></thead>
       <tbody>
         <tr><th scope="row">Rated capacity</th><td>{vented.capacityKg}kg</td><td>{heatPump.capacityKg}kg</td></tr>
-        <tr><th scope="row">Published RRP reference</th><td>{money(vented.publishedRrpAud)}</td><td>{money(heatPump.publishedRrpAud)}</td></tr>
         <tr><th scope="row">Energy rating</th><td>{vented.stars} stars</td><td>{heatPump.stars} stars</td></tr>
         <tr><th scope="row">Annual label energy, one full load/week</th><td>{vented.annualKwh}kWh</td><td>{heatPump.annualKwh}kWh</td></tr>
         <tr><th scope="row">Calculated energy per full rated load</th><td>About {(vented.annualKwh / labelLoadsPerYear).toFixed(2)}kWh</td><td>About {(heatPump.annualKwh / labelLoadsPerYear).toFixed(2)}kWh</td></tr>
         <tr><th scope="row">Calculated electricity cost per full rated load, 30c/kWh</th><td>{money(vented.annualKwh / labelLoadsPerYear * tariff)}</td><td>{money(heatPump.annualKwh / labelLoadsPerYear * tariff)}</td></tr>
-        <tr><th scope="row">Check current price and availability</th>{comparedDryers.map(product => <td><CommercialRetailerLinks product={product} offers={getRetailersForProduct(product)} placement="comparison" /></td>)}</tr>
+        <tr><th scope="row">Check current retailer prices and availability</th>{comparedDryers.map(product => <td><CommercialRetailerLinks product={product} offers={getRetailersForProduct(product)} placement="comparison" /></td>)}</tr>
       </tbody>
     </table>
   </div>
-  <p>
-    <strong>Price basis:</strong> {money(vented.publishedRrpAud)} and {money(heatPump.publishedRrpAud)} are the Australian RRPs
-    printed in Electrolux's retailer-hosted fact sheets, a {money(rrpPremium)} difference. They are
-    reference prices, not current offers. Electrolux's current downloadable sheets omit prices;
-    retailer discounts, delivery and installation can change the amount you actually pay.
-    Sources checked 13 October 2026.
-  </p>
-
   <section aria-labelledby="dryer-payback-heading">
-    <h3 id="dryer-payback-heading">How quickly could the $700 RRP difference be recovered?</h3>
+    <h3 id="dryer-payback-heading">How does drying frequency affect electricity costs?</h3>
     <p>
       At 30c/kWh, the label figures imply roughly <strong>{money(labelSaving / labelLoadsPerYear * tariff)} less electricity
       per full rated-load cycle</strong> for the heat pump. More frequent drying makes that saving
@@ -193,28 +182,28 @@ const faqs = [
       throughout a 52-week year, at their different rated capacities.
     </p>
     <p class="table-hint">Swipe sideways to compare the full table.</p>
-    <div class="comparison-wrap" role="region" aria-label="Dryer annual electricity cost and RRP payback scenarios" tabindex="0">
+    <div class="comparison-wrap" role="region" aria-label="Dryer annual electricity cost scenarios" tabindex="0">
       <table class="comparison-table">
-        <caption>Label-based estimates at 30c/kWh; electricity savings recover the $700 RRP premium</caption>
-        <thead><tr><th scope="col">Full cycles per week</th><th scope="col">Vented electricity/year</th><th scope="col">Heat pump electricity/year</th><th scope="col">Saving/year</th><th scope="col">Simple RRP payback</th></tr></thead>
+        <caption>Label-based annual electricity estimates at 30c/kWh</caption>
+        <thead><tr><th scope="col">Full cycles per week</th><th scope="col">Vented electricity/year</th><th scope="col">Heat pump electricity/year</th><th scope="col">Saving/year</th></tr></thead>
         <tbody>{annualExamples.map(example => <tr>
           <th scope="row">{example.loads}</th>
           <td>{money(example.ventedCost)}</td><td>{money(example.heatPumpCost)}</td>
-          <td>{money(example.saving)}</td><td>About {example.payback.toFixed(1)} years</td>
+          <td>{money(example.saving)}</td>
         </tr>)}</tbody>
       </table>
     </div>
     <p>
-      <strong>For regular drying, the running-cost advantage is meaningful:</strong> at five full cycles
-      a week, this calculation saves {money(labelSaving * 5 * tariff)} a year and recovers the RRP premium in about {(rrpPremium / (labelSaving * 5 * tariff)).toFixed(1)} years. For occasional use, one full cycle a week saves {money(labelSaving * tariff)} a year, so electricity savings alone take much longer to cover that premium.
-      At 40c/kWh, three full cycles a week would save {money(labelSaving * 3 * 0.40)} a year, shortening the same
-      RRP payback to about {(rrpPremium / (labelSaving * 3 * 0.40)).toFixed(1)} years.
+      <strong>For regular drying, the estimated electricity-cost difference is meaningful:</strong> at five full cycles
+      a week, this calculation gives {money(labelSaving * 5 * tariff)} less electricity cost a year.
+      At one full cycle a week, the estimated annual difference is {money(labelSaving * tariff)}.
+      At 40c/kWh, three full cycles a week gives an estimated difference of {money(labelSaving * 3 * 0.40)} a year.
     </p>
     <p>
       Use the electricity usage tariff on your bill, excluding the daily supply charge. For this
       label-based estimate, annual saving is <strong>185kWh × full cycles per week × tariff</strong>;
       divide the difference in your actual delivered and installed prices by that saving to estimate
-      your own payback. Discounts can change the result substantially.
+      your own simple payback. Use current quotes including delivery and installation for this calculation.
     </p>
     <p>
       Actual consumption varies with the load, program, incoming moisture, room conditions and
@@ -226,9 +215,6 @@ const faqs = [
     <p class="source-note">
       Energy and capacity: <a href={vented.specificationUrl} target="_blank" rel="noopener noreferrer">Electrolux EDV705H3WC specifications</a>{" "}
       and <a href={heatPump.specificationUrl} target="_blank" rel="noopener noreferrer">EDH803P5WC specifications</a>.
-      RRP evidence: Electrolux's <a href={vented.rrpSourceUrl} target="_blank" rel="noopener noreferrer">EDV705H3WC fact sheet (PDF)</a>{" "}
-      and <a href={heatPump.rrpSourceUrl} target="_blank" rel="noopener noreferrer">EDH803P5WC fact sheet (PDF)</a>, hosted by Bing Lee.
-      These are source documents, not shopping links.
     </p>
   </section>
 

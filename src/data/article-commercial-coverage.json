@@ -1160,10 +1160,10 @@
     {
       "guidePath": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
       "title": "Heat Pump vs Condenser vs Vented Dryers",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-11-01",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c2994f8fba98451121b49e7ae80b2d6020284612d2e5aa0e42d5550c69af81c8",
+      "reviewedSourceSha256": "56848d3c1f16bcbc659c12a92e43c3314d11b524556c052b12d0d3fae8989571",
       "requiredProductTypes": [
         {
           "label": "Heat pump clothes dryer",
@@ -1189,7 +1189,7 @@
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md. Monthly pricing review 1 November 2026: removed RRP references and RRP payback; energy estimates and product placement retained."
     },
     {
       "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",
@@ -3065,7 +3065,7 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/convection-microwave-vs-air-fryer/"
       ],
-      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md. Feed-run follow-up on 18 October: orderable supplier-stock offers distinguished from immediate stock; visible delivery caveat added to the product card. Feed alert retained. 27 October availability-only follow-up: fresh exact-offer checks removed the Instant Pot supplier-order description and added the L.T. Williams airer 1–3-week dispatch warning where applicable. Source article, primary-product coverage, images and prior specification/warranty research are unchanged; evidence in tmp/availability-2026-10-27/. Maintenance 1 November 2026: removed the expired optional Breville BPR680BSS manufacturer-direct price. No new price or full product re-review claimed; approved affiliate offers and imagery retained. Availability follow-up 1 November 2026: fresh exact-model Good Guys workflow evidence restored the Instant Duo Plus 8L supplier-order warning. Specifications, warranty, images and approved affiliate destinations unchanged."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md. Feed-run follow-up on 18 October: orderable supplier-stock offers distinguished from immediate stock; visible delivery caveat added to the product card. Feed alert retained. 27 October availability-only follow-up: fresh exact-offer checks removed the Instant Pot supplier-order description and added the L.T. Williams airer 1–3-week dispatch warning where applicable. Source article, primary-product coverage, images and prior specification/warranty research are unchanged; evidence in tmp/availability-2026-10-27/. Maintenance 1 November 2026: removed the expired optional Breville BPR680BSS manufacturer-direct price. No new price or full product re-review claimed; approved affiliate offers and imagery retained. Availability follow-up 1 November 2026: fresh exact-model Good Guys workflow evidence restored the Instant Duo Plus 8L supplier-order warning. Specifications, warranty, images and approved affiliate destinations unchanged. Monthly pricing verification 1 November 2026: reinstated the optional AUD 339 Breville BPR680BSS manufacturer-direct price after fresh official-source verification; next review due 1 December 2026."
     },
     {
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
