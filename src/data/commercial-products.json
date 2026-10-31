@@ -5413,7 +5413,7 @@
       "drawbacks": [
         "Its 178 cm open width needs substantially more floor space than a compact tower or concertina airer.",
         "The light aluminium frame still needs stable, level placement and should be folded away before it obstructs a laundry route.",
-        "The Amazon offer showed dispatch in 1–3 weeks on 27 October 2026. It may not suit an urgent laundry setup; confirm the current arrival estimate before ordering."
+        "The Amazon offer showed dispatch in 2–4 weeks on 1 November 2026. It may not suit an urgent laundry setup; dispatch is not arrival, so confirm the current delivery estimate for your postcode before ordering."
       ],
       "suitability": {
         "suits": [
@@ -5487,6 +5487,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H",
           "supports": "27 October 2026 Brisbane: primary ASIN B0FJ7ZMN4H and title match the approved black 20-rail airer; active order control with usually dispatched within 1 to 3 weeks. Fresh full-catalogue sweep flagged the change and a separate clean anonymous exact-ASIN recheck confirmed it. Added reader advice that it may not suit urgent use. Availability-only check; specifications, seller eligibility and warranty were not re-reviewed. Evidence: tmp/availability-2026-10-27/airer-recheck.json. Manufacturer domain was not accessed.",
           "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh dispatch-delay follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H",
+          "supports": "1 November 2026 Brisbane: fresh all-offer sweep and independent clean exact-ASIN recheck both showed usual dispatch within 2 to 4 weeks and an order control. Exact ASIN/title unchanged. Updated dated reader advice; no postcode arrival promise, seller/warranty re-review or manufacturer-domain access. Evidence: tmp/availability-2026-11-01/airer-recheck.json.",
+          "checkedOn": "2026-11-01"
         }
       ]
     },
@@ -19117,7 +19125,7 @@
       "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
       "name": "Instant Pot Duo Plus 8L — 113-0063-01-AU",
       "productType": "Larger pressure and slow cooker; no air frying",
-      "summary": "An 8L nominal-capacity pressure and slow cooker with a stainless-steel inner pot. It provides a larger batch-cooking option than the existing 6L Breville when the extra size earns its bench space; it cannot replace an air fryer or grill. Confirm availability and the delivery estimate for your postcode before buying.",
+      "summary": "An 8L nominal-capacity pressure and slow cooker with a stainless-steel inner pot. It provides a larger batch-cooking option than the existing 6L Breville when the extra size earns its bench space; it cannot replace an air fryer or grill. The retailer currently orders this model from its supplier on purchase; confirm the delivery estimate for your postcode before buying.",
       "merchant": "The Good Guys",
       "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Finstant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
       "linkLabel": "View at The Good Guys",
@@ -19209,6 +19217,14 @@
           "sourceUrl": "https://www.thegoodguys.com.au/instant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
           "supports": "27 October 2026 Brisbane: clean exact-model page identifies 113-0063-01-AU, structured InStock and Add to Cart. The previous supplier-order notice is absent. Matches the latest successful feed/page workflow 40370958865. Removed the current-tense supplier-order description, retaining postcode-specific availability/delivery advice. This is an availability-only check, not a new specification, warranty or nationwide-stock claim. Evidence: tmp/availability-2026-10-27/instant-recheck.json and instant-clean.html.",
           "checkedOn": "2026-10-27"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Supplier-order notice returned on exact-model purchase page",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/instant-8-litre-duo-plus-multi-cooker-113-0063-01-au",
+          "supports": "1 November 2026 Brisbane: successful workflow 41250744007 freshly checked the feed and exact-model clean page. Model 113-0063-01-AU, supplier-order notice and purchase control verified in the SHA256-verified sanitised artifact. Restored explicit supplier-order reader advice; no immediate-stock or delivery promise. Existing specification and warranty research dates retained.",
+          "checkedOn": "2026-11-01"
         }
       ],
       "image": {
