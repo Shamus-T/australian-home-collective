@@ -3356,10 +3356,10 @@
     {
       "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
       "title": "Washing Machine Dimensions Australia: What to Measure Before Buying",
-      "reviewedOn": "2026-10-12",
+      "reviewedOn": "2026-10-31",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "461d1cac559c5c89d67d58b3d2fe2ded49c99f7b5109262c9b5a25fb78240897",
+      "reviewedSourceSha256": "a1368d96bc7efb7781a7489b8ef8a23d748bba0dde6dfeab537da1c2f635b1a3",
       "requiredProductTypes": [
         {
           "label": "Front load washing machine",
@@ -3378,15 +3378,10 @@
           "productIds": [
             "lg-wtx3-09g-good-guys"
           ]
-        },
-        {
-          "label": "Heat pump dryer fit and stacking example",
-          "productIds": [
-            "bosch-wqg24201au-laundry-fit-good-guys"
-          ]
         }
       ],
       "supportingProductIds": [
+        "bosch-wqg24201au-laundry-fit-good-guys",
         "bosch-wtz11400-good-guys"
       ],
       "contextualRoutes": [
@@ -3394,7 +3389,7 @@
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "Buying journey review 12 October: decision tables, total delivered/installed cost guidance and verified affiliate offers. Unpaid retailer shopping alternatives removed on the same day; buying calls to action require approved affiliate tracking. Prior ownership and manufacturer assessments retained. Primary affiliate offers refreshed in browser; no artificial affiliate clicks. Evidence: docs/editorial/appliance-buying-journey-2026-10-12.json."
+      "reviewScope": "Laundry buying-journey revision: early front-/top-loader routes, washer-only comparison and separate optional Bosch dryer/kit. Manufacturer capacity, depth, dosing and LG stacking/lid constraints rechecked; original full product-review dates retained. All five clean Good Guys exact-model listings rechecked on 31 October 2026 with InStock offers and purchase controls; postcode delivery and installation not verified. No affiliate redirects requested. The optional dryer is recorded as supporting the washer setup, not as a primary washer choice."
     },
     {
       "guidePath": "/guides/what-size-air-conditioner-do-i-need/",
