@@ -783,10 +783,10 @@
     {
       "guidePath": "/guides/dishwasher-sizes-australia/",
       "title": "Dishwasher Sizes Australia: Measure Before You Buy",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-10-31",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "f32030a3e7295ad238ef43fc2615f7cc0f544781b1780689e631852c4e8f0b25",
+      "reviewedSourceSha256": "463465f9ec97d9b05ff7d2766a16e1c467117a8a9ef8119f7e5dcb9952725e47",
       "requiredProductTypes": [
         {
           "label": "60cm freestanding dishwasher",
@@ -814,7 +814,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md."
+      "reviewScope": "Dishwasher buying journey: early 60cm freestanding, 45cm slimline and fully integrated routes; comparison before general measurement advice; clearer capacity, cutlery layout and installed-cost tradeoffs. Exact Australian Bosch sheets rechecked for highlighted claims, and all three approved Good Guys offers rechecked via clean anonymous URLs on 31 October 2026. Original full research dates retained; no new models, affiliate destinations or artwork. Postcode delivery/installation unverified; no affiliate requests generated."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",

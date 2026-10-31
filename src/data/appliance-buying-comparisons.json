@@ -20,14 +20,14 @@
     "tradeoff": "Allow 1,096mm door-open depth and maintenance access. Expect long cycles; budget for the approved kit and fitting if stacking."
   },
   "bosch-sms6hci02a-good-guys": {
-    "reason": "A full-width freestanding replacement when the cabinet and loading space suit a 60cm machine.",
+    "reason": "A full-width freestanding replacement with 15 place settings, adjustable baskets and a separate cutlery tray.",
     "fit": "600mm wide × 845mm high × 600mm deep body.",
-    "tradeoff": "Door-open depth is 1,155mm before standing room. Confirm cavity dimensions and worktop arrangements; this is not an integrated cabinet-door model."
+    "tradeoff": "Allow 1,155mm door-open depth plus standing room. Check tall items beneath the tray, the cavity and worktop arrangement; no matching cabinet-door installation."
   },
   "bosch-sps6iki01a-good-guys": {
-    "reason": "A 45cm freestanding option where a full-width dishwasher cannot fit; 10 place settings.",
+    "reason": "A narrow freestanding installation: 10 place settings and an upper cutlery/knife rack, not a full third drawer.",
     "fit": "450mm wide × 845mm high × 600mm deep body.",
-    "tradeoff": "The narrower racks sacrifice room for bulky cookware. Check your largest pans, the required cavity and hose route; body width alone does not prove fit."
+    "tradeoff": "Less rack room for bulky cookware. Check your pans, cavity and hose route; the 450mm body width alone does not prove fit. Postcode delivery needs checking."
   },
   "westinghouse-wtm4302wd-r-good-guys": {
     "reason": "A top freezer with 329L fridge space and 102L freezer space; useful if fresh-food capacity takes priority.",
@@ -50,7 +50,7 @@
     "tradeoff": "Smaller capacity, two-star energy rating and moist exhaust. Confirm installed depth, ventilation, fitting and any optional vent kit before comparing total cost."
   },
   "tgg-gap-integrated-smv4htx01a": {
-    "reason": "A matching furniture door and hidden controls, with 14 place settings.",
+    "reason": "A matching furniture door and hidden controls, with 14 place settings and a lower cutlery basket.",
     "fit": "598mm body width; planning niche 600W × 815–875H × at least 550D mm.",
     "tradeoff": "Cabinet panel is extra. Check panel weight, plinth movement, fixing and services; allow 1155mm door-open depth plus loading room."
   },

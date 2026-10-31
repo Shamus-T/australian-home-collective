@@ -12998,6 +12998,22 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-series-6-freestanding-dishwasher-stainless-steel-sms6hci02a",
           "supports": "Opened this exact affiliate destination in browser on 11 October 2026. Correct model and enabled Add to Cart; clickref, rel, utm_source=Partner and utm_medium=shamus80 preserved. No order placed; QA click is not reader revenue.",
           "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model offer recheck for dishwasher buying journey",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-6-freestanding-dishwasher-stainless-steel-sms6hci02a",
+          "supports": "Exact SMS6HCI02A listing showed InStock and purchase control on 31 October 2026. Anonymous clean URL only; no affiliate redirect requested. Postcode stock, dispatch, delivery and installation not verified.",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Capacity and rack-layout recheck for buying comparison",
+          "publisher": "Bosch Australia",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/specsheet/en-AU/SMS6HCI02A.pdf",
+          "supports": "Exact sheet confirms 15 place settings, separate VarioDrawer cutlery level, adjustable upper basket, 600 x 845 x 600mm W x H x D body and 1155mm open-door depth.",
+          "checkedOn": "2026-10-31"
         }
       ],
       "image": {
@@ -15180,6 +15196,22 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "Exact-model indexed search restricted to productsafety.gov.au on 12 October returned no matching recall notice. This is not a complete register inspection or a safety certification; no safety performance claim is made.",
           "checkedOn": "2026-10-12"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model offer recheck for dishwasher buying journey",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-6-45cm-freestanding-dishwasher-sps6iki01a",
+          "supports": "Exact SPS6IKI01A listing showed InStock and purchase control on 31 October 2026. Anonymous clean URL only; no affiliate redirect requested. Postcode stock, dispatch, delivery and installation not verified.",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Capacity and rack-layout recheck for buying comparison",
+          "publisher": "Bosch Australia",
+          "sourceUrl": "https://media3.bosch-home.com/Documents/specsheet/en-AU/SPS6IKI01A.pdf",
+          "supports": "Exact sheet confirms 10 place settings, upper cutlery/knife rack rather than a full third drawer, 450 x 845 x 600mm W x H x D body.",
+          "checkedOn": "2026-10-31"
         }
       ],
       "image": {
@@ -18957,6 +18989,22 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fbosch-series-4-60cm-fully-integrated-dishwasher-smv4htx01a",
           "supports": "Retailer SMV4HTX01A and SKU 50076488 matched offline. Approved campaign 1100l6vaUc; clean retailer URL researched, no affiliate redirect requested. Brand is not in saved campaign exclusions, and no in-store-only restriction. Historical commission terms are not a merchant attribution test.",
           "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-model offer recheck for dishwasher buying journey",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/bosch-series-4-60cm-fully-integrated-dishwasher-smv4htx01a",
+          "supports": "Exact SMV4HTX01A listing showed InStock and purchase control on 31 October 2026. Anonymous clean URL only; no affiliate redirect requested. Postcode stock, dispatch, delivery and installation not verified.",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Capacity and rack-layout recheck for buying comparison",
+          "publisher": "Bosch Australia",
+          "sourceUrl": "https://media3.bsh-group.com/Documents/specsheet/en-AU/SMV4HTX01A.pdf",
+          "supports": "Exact sheet confirms 14 place settings, hidden controls, lower cutlery basket, niche 600mm W x 815–875mm H x 550mm minimum D. Cabinet panel and installation checks remain required.",
+          "checkedOn": "2026-10-31"
         }
       ],
       "image": {
