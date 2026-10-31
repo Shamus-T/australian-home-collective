@@ -2765,16 +2765,6 @@
         "suppliedVia": "Manufacturer product page: https://www.breville.com/en-au/product/BPR680?sku=BPR680BSS2JAN1",
         "checkedOn": "2026-10-10"
       },
-      "manufacturerPrice": {
-        "amount": 339,
-        "currency": "AUD",
-        "kind": "manufacturer-direct",
-        "manufacturer": "Breville Australia",
-        "sourceUrl": "https://www.breville.com/en-au/product/bpr680",
-        "checkedOn": "2026-10-11",
-        "reviewDueOn": "2026-11-01",
-        "evidence": "Australian product page lists $339.00 and Add to cart at $339.00 for the brushed stainless steel Fast Slow GO. Not an RRP or a retailer comparison; delivery charges must be checked separately."
-      },
       "commission": {
         "ratePercent": 10,
         "checkedOn": "2026-10-18",
