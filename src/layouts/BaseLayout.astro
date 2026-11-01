@@ -157,8 +157,10 @@ const jsonLd = JSON.stringify({
     {isIndexable && <script is:inline type="application/ld+json" set:html={jsonLd} />}
     <script>
       import { initialiseGoogleAnalytics } from "../scripts/google-analytics.js";
+      import { initialiseBuyingJourney } from "../scripts/buying-journey-tracker.js";
 
       initialiseGoogleAnalytics();
+      initialiseBuyingJourney();
     </script>
     <title>{pageTitle}</title>
   </head>

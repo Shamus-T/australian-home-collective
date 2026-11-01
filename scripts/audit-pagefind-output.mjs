@@ -315,6 +315,7 @@ const functionsFiles = walk(path.join(root, "functions"))
   .sort();
 const approvedFunctionsFiles = [
   "functions/api/affiliate-click.js",
+  "functions/api/buying-journey.js",
   "functions/api/contact.js",
   "functions/api/search-analytics.js",
 ];
@@ -327,10 +328,10 @@ try {
   const routes = JSON.parse(read(routesPath));
   if (
     routes.version !== 1
-    || JSON.stringify(routes.include) !== JSON.stringify(["/api/contact", "/api/search-analytics", "/api/affiliate-click"])
+    || JSON.stringify(routes.include) !== JSON.stringify(["/api/contact", "/api/search-analytics", "/api/affiliate-click", "/api/buying-journey"])
     || JSON.stringify(routes.exclude) !== JSON.stringify([])
   ) {
-    addError("public/_routes.json must retain only the approved contact, search-analytics and affiliate-click Function includes.");
+    addError("public/_routes.json must retain only the approved contact, search-analytics, affiliate-click and buying-journey Function includes.");
   }
 } catch {
   addError("public/_routes.json is missing or invalid JSON.");

@@ -78,7 +78,7 @@ export function createAffiliateClickTracker({
         device: typeof device === "function" ? device() : device,
       });
       if (!event) return false;
-      recordEvent(event);
+      recordEvent(event, link);
       return true;
     },
   };

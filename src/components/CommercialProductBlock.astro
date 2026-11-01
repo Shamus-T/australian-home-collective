@@ -183,6 +183,7 @@ const formatDate = (date: string) =>
     sendGoogleAnalyticsEvent,
   } from "../scripts/google-analytics.js";
   import { shouldTrackAnalytics } from "../scripts/analytics-preference.js";
+  import { recordBuyingJourneyClick } from "../scripts/buying-journey-tracker.js";
 
   const analyticsSessionId = () => {
     try {
@@ -225,8 +226,9 @@ const formatDate = (date: string) =>
     }).catch(() => {});
   };
 
-  const recordAffiliateClick = (event: Record<string, string>) => {
+  const recordAffiliateClick = (event: Record<string, string>, link: HTMLAnchorElement) => {
     sendAffiliateClick(event);
+    recordBuyingJourneyClick(event, link);
     sendGoogleAnalyticsEvent(AFFILIATE_CLICK_EVENT_NAME, {
       affiliate_network: event.affiliateNetwork,
       guide_path: event.guidePath,

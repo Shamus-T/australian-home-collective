@@ -41,6 +41,9 @@ export function applyInternalAnalyticsPreference({ location, storage, history } 
 
 export function shouldTrackAnalytics(windowObject = globalThis.window) {
   if (!windowObject?.location) return false;
+  try {
+    if (/^(qa|test|internal)/i.test(windowObject.sessionStorage?.getItem('ahc-search-session') || '')) return false;
+  } catch { /* Storage access can be denied. The opt-out query still applies. */ }
   let storage;
   try {
     storage = windowObject.localStorage;

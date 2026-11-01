@@ -39,6 +39,9 @@ jobs:
       - name: Build website
         run: npm run build
 
+      - name: Test buying-journey collection and reporting
+        run: node --test tests/buying-journey.test.mjs
+
       - name: Audit rendered site quality
         run: npm run audit:site:dist
 
