@@ -1,6 +1,6 @@
 # Appliance buying-journey measurement
 
-Scope: fridge dimensions, washer/laundry space, dishwasher sizes. Buying-journey content was published 31 October 2026; instrumentation is a separate release prepared on 1 November, pending database access and publication. Version `appliance-2026-11-01-v1`. The actual release and verification must be recorded in the publication receipt before collection is described as live. Do not backfill stages or attribute previous traffic gains to this instrumentation.
+Scope: fridge dimensions, washer/laundry space, dishwasher sizes. Buying-journey content was published 31 October 2026; instrumentation was published and verified on 1 November in revision `5eea8ef1ee9d71eaa1417c5aeaa5854d3224216c`. Version `appliance-2026-11-01-v1`. Three labelled page-view receipts were verified in D1 and all three excluded by the shared reporting predicate. Desktop/mobile production checks emitted no collector events and sent no merchant requests. The publication receipt holds the timestamps and evidence. Do not backfill stages or attribute previous traffic gains to this instrumentation.
 
 ## Measures
 

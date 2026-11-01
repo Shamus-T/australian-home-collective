@@ -1,13 +1,67 @@
 {
   "version": "appliance-2026-11-01-v1",
   "timezone": "Australia/Brisbane",
-  "status": "prepared-awaiting-database-and-publication",
+  "status": "live-verified",
   "contentChangedOn": "2026-10-31",
-  "instrumentationDeployedAt": null,
-  "releaseRevision": null,
-  "guides": ["/guides/fridge-dimensions-australia/", "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/", "/guides/dishwasher-sizes-australia/"],
-  "matchedLegacyWindows": {"before": ["2026-10-17", "2026-10-30"], "after": ["2026-11-02", "2026-11-15"], "baselineCollection": "not-yet-collected; obtain source-native account reports, preserve timezone/exclusion limits"},
-  "newStageWindows": {"first": ["2026-11-02", "2026-11-15"], "second": ["2026-11-16", "2026-11-29"], "firstSettledReview": "2026-11-18", "secondSettledReview": "2026-12-02"},
-  "historicalContext": {"dates": ["2026-10-13", "2026-10-26"], "evidence": "tmp/australian-commercial-2026-10-31/assessment.json", "australianAffiliateEvents": {"dishwasher": 6, "laundry": 5, "fridge": 4}, "notNewWindowBaseline": true, "exposureStages": null},
-  "rules": ["First full window must start after deployment; shift the plan if release is delayed beyond 1 November", "No reconstructed pre-change funnel", "Raw events, known tests and unclassified activity separate", "Country from Cloudflare; source is coarse first observed tab attribution, not GA4 session source", "Merchant reports determine orders and commission; shared account results cannot be assigned to guides", "Do not add D1, GA4 and merchant click counts together", "No affiliate redirects during research or QA"]
+  "instrumentationDeployedAt": "2026-11-01T06:02:24.2171827Z",
+  "releaseRevision": "5eea8ef1ee9d71eaa1417c5aeaa5854d3224216c",
+  "guides": [
+    "/guides/fridge-dimensions-australia/",
+    "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
+    "/guides/dishwasher-sizes-australia/"
+  ],
+  "matchedLegacyWindows": {
+    "before": [
+      "2026-10-17",
+      "2026-10-30"
+    ],
+    "after": [
+      "2026-11-02",
+      "2026-11-15"
+    ],
+    "baselineCollection": "not-yet-collected; obtain source-native account reports, preserve timezone/exclusion limits"
+  },
+  "newStageWindows": {
+    "first": [
+      "2026-11-02",
+      "2026-11-15"
+    ],
+    "second": [
+      "2026-11-16",
+      "2026-11-29"
+    ],
+    "firstSettledReview": "2026-11-18",
+    "secondSettledReview": "2026-12-02"
+  },
+  "historicalContext": {
+    "dates": [
+      "2026-10-13",
+      "2026-10-26"
+    ],
+    "evidence": "tmp/australian-commercial-2026-10-31/assessment.json",
+    "australianAffiliateEvents": {
+      "dishwasher": 6,
+      "laundry": 5,
+      "fridge": 4
+    },
+    "notNewWindowBaseline": true,
+    "exposureStages": null
+  },
+  "rules": [
+    "First full window must start after deployment; shift the plan if release is delayed beyond 1 November",
+    "No reconstructed pre-change funnel",
+    "Raw events, known tests and unclassified activity separate",
+    "Country from Cloudflare; source is coarse first observed tab attribution, not GA4 session source",
+    "Merchant reports determine orders and commission; shared account results cannot be assigned to guides",
+    "Do not add D1, GA4 and merchant click counts together",
+    "No affiliate redirects during research or QA"
+  ],
+  "deploymentTimeMeaning": "First verified live observation; actual Cloudflare completion was at or before this time.",
+  "verifiedQa": {
+    "storedEvents": 3,
+    "excludedTestEvents": 3,
+    "merchantRequests": 0,
+    "evidence": "tmp/buying-journey-2026-11-01/live-qa-receipt-d1.txt"
+  }
 }
+
