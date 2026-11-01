@@ -58,5 +58,15 @@
     "reason": "372L fresh-food space and a 137L freezer, with refillable chilled water instead of plumbing.",
     "fit": "790W × 1725H × 707D mm body; published cavity 850W × 1775H × 757D mm.",
     "tradeoff": "Both doors and the drawer need operating space. Smaller freezer, manual ice and regular tank refilling; check large-container and ice-tray access."
+  },
+  "westinghouse-wtm3100wl-x-good-guys": {
+    "reason": "A narrower top-freezer option: 238L fridge and 74L freezer capacity.",
+    "fit": "598mm body width; 658mm including 30mm each side.",
+    "tradeoff": "Allow 90mm above and 50mm behind. A corner needs 350mm hinge-side access for shelf removal. Smaller freezer; optional kit for door reversal."
+  },
+  "westinghouse-wsf6602xc-good-guys": {
+    "reason": "A simpler 14-place full-width option with six programs and a lower cutlery basket.",
+    "fit": "598 × 845 × 598mm body; check the 600 × 850 × 580mm cut-out drawing.",
+    "tradeoff": "No full third cutlery drawer. Allow 1175mm open-door depth. Mixed owner feedback includes panel-legibility and service complaints."
   }
 }

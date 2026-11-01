@@ -911,6 +911,8 @@ if (checkDist) {
     const renderedDestinationsByProduct = new Map();
     const comparisonGuidePaths = new Set();
     const accessoryProductIds = new Set();
+    const stackProductIds = ['bosch-wgg244a1au-good-guys', 'bosch-wqg24201au-laundry-fit-good-guys', 'bosch-wtz11400-good-guys'];
+    const completeStack = stackProductIds.every(id => promotableById.has(id));
     let builtPageCount = 0;
     let builtExternalLinkCount = 0;
 
@@ -961,7 +963,7 @@ if (checkDist) {
           continue;
         }
         const placement = attributeValue(anchor, "data-commercial-placement");
-        if (!["card", "comparison", "comparison-name"].includes(placement)) {
+        if (!["card", "comparison", "comparison-name", "stack"].includes(placement)) {
           addError(relativePath + " product " + productId + " has an unknown link placement.");
         }
         const placementKey = productId + ":" + placement;
@@ -1071,9 +1073,11 @@ if (checkDist) {
       if (getRetailerOfferErrors(product, { today, reviewIntervalDays: catalogue.reviewIntervalDays }).length) continue;
       const expectedDestinations = getOrderedRetailers(product, { today, reviewIntervalDays: catalogue.reviewIntervalDays })
         .map((offer) => offer.destinationUrl);
-      for (const placement of ["card", "comparison", "comparison-name"]) {
+      for (const placement of ["card", "comparison", "comparison-name", "stack"]) {
         const shownInComparison = comparisonGuidePaths.has(product.guidePath) && !accessoryProductIds.has(product.id);
-        const expected = product.presentation === "comparison-only"
+        const expected = placement === "stack"
+          ? (completeStack && stackProductIds.includes(product.id) ? expectedDestinations : [])
+          : product.presentation === "comparison-only"
           ? (placement === "comparison" ? expectedDestinations : [])
           : placement === "comparison-name"
           ? (shownInComparison ? expectedDestinations.slice(0, 1) : [])

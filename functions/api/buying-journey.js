@@ -10,7 +10,7 @@ export function validateJourney(p) {
     || !['desktop', 'mobile', 'tablet', 'unknown'].includes(p.device)) return false;
   const productStage = ['product_view', 'retailer_click'].includes(p.stage);
   if (productStage ? !JOURNEY_GUIDES[p.guidePath].includes(p.productId) : p.productId !== '') return false;
-  return p.stage === 'retailer_click' ? ['comparison', 'card', 'other'].includes(p.placement) : p.placement === '';
+  return p.stage === 'retailer_click' ? ['comparison', 'card', 'stack', 'other'].includes(p.placement) : p.placement === '';
 }
 export async function onRequestPost({ request, env }) {
   if (request.headers.get('Origin') !== new URL(request.url).origin) return json(403, 'Origin not accepted.');

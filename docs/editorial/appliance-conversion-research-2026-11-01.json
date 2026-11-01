@@ -1,0 +1,77 @@
+[
+  {
+    "id": "westinghouse-wtm3100wl-x-good-guys",
+    "guidePath": "/guides/fridge-dimensions-australia/",
+    "key": "westinghouse-wtm3100wl-x",
+    "name": "Westinghouse WTM3100WL-X 312L top mount fridge",
+    "productType": "312L top freezer fridge · Narrow body",
+    "summary": "A smaller white top-mount option with 238L fresh-food and 74L freezer capacity. Its 598mm body and specified side gaps suit a narrower opening than the larger fridges here. It trades capacity for a compact footprint; check corner access before choosing it.",
+    "official": "https://www.westinghouse.com.au/fridges-and-freezers/fridges/wtm3100wl-x/",
+    "drawing": "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjM0MzU1&lang=",
+    "specification": "Exact WTM3100WL-X Australian page: 312L total, 238L fridge and 74L freezer; 598 W × 1646 H × 650 D mm; frost free, manual ice tray, optional door-reversal kit. Two-year domestic warranty. No extension from another model carried over.",
+    "installation": "Visually inspected Nov24 dimension sheet linked from exact suffix page: WTM3100WL family, 30mm each side, 90mm above, 50mm behind; 1199mm depth at 90-degree opening; 350mm hinge-side corner space for shelf removal. Doors project beyond cabinetry. 658mm is width only, not a complete cavity specification.",
+    "feedback": "Read ten rendered entries and individual JSON-LD reviews; three identical anonymous two-star empty reviews counted once and no cause inferred. Distinct owners Maree, Fran and Di praise useful storage in a small fridge; Di dislikes the open meat shelf. Recent owners praise freshness/value. Empty reviews and AI summary excluded from thematic findings; possible incentives and limited long-term evidence.",
+    "drawbacks": [
+      "The 598mm body needs 30mm at each side, 90mm above and 50mm behind in the dimension drawing. A 658mm width check does not guarantee complete fit.",
+      "Near a corner wall, allow the specified 350mm hinge-side space for shelf removal. The doors project beyond cabinetry; door reversal needs an optional kit and correct fitting.",
+      "The freezer is only 74L. Large batch-cooking households may need more capacity; fresh-food access involves bending.",
+      "An owner dislikes the open meat shelf. The small review sample and possible incentives do not establish long-term reliability."
+    ],
+    "suits": [
+      "A smaller household needing a narrower top-freezer fridge with useful fresh-food storage",
+      "A kitchen that provides the full ventilation and door-opening space"
+    ],
+    "mayNotSuit": [
+      "Large frozen-food loads or a flush cabinet installation",
+      "A tight corner without the specified hinge-side door access"
+    ],
+    "price": "849.00",
+    "compare": {
+      "reason": "A narrower top-freezer option: 238L fridge and 74L freezer capacity.",
+      "fit": "598mm body width; 658mm including 30mm each side.",
+      "tradeoff": "Allow 90mm above and 50mm behind. A corner needs 350mm hinge-side access for shelf removal. Smaller freezer; optional kit for door reversal."
+    }
+  },
+  {
+    "id": "westinghouse-wsf6602xc-good-guys",
+    "guidePath": "/guides/dishwasher-sizes-australia/",
+    "key": "westinghouse-wsf6602xc",
+    "name": "Westinghouse WSF6602XC 60cm dishwasher",
+    "productType": "60cm freestanding dishwasher · Cutlery basket",
+    "summary": "A simpler full-width alternative with 14 place settings, six programs and a lower cutlery basket. Consider it when the delivered price matters more than a separate cutlery drawer. Check panel legibility and rack fit in person; owner feedback includes service complaints as well as praise for everyday cleaning.",
+    "official": "https://www.westinghouse.com.au/dishwashing/dishwashers/wsf6602xc/",
+    "drawing": "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9Njc1NTQ1&lang=",
+    "specification": "Exact Australian model: 598 W × 845 H × 598 D mm, 14 place settings, six programs, 47dBA, lower cutlery basket and upper knife shelf, height-adjustable upper basket, FastDry. Two-year domestic warranty. No third cutlery drawer claim. No consumption claim based on conflicting cached listing values.",
+    "installation": "Visually inspected Aug25 WSF6602XC dimension sheet: cut-out 600 W × 850 H × 580 D mm, body 598 W × 845 H × 598 D, open-door depth 1175mm. 580mm is the cut-out drawing depth, not total appliance depth or flush-installation promise. Installer must verify projection, services and worktop arrangement.",
+    "feedback": "Ten displayed entries inspected individually. Dianne, Anthony and Belinda praise operation, quick cycle and cleaning/value. Helen reports a hard-to-read panel and a leak needing adjustment. Gerry reports early dissatisfaction and delayed service. Excluded an oven review and store-credit complaint; Edwin names an Electrolux dishwasher, so excluded from exact-model fault evidence. Possible incentives, contamination and limited sample mean no reliability rate inferred.",
+    "drawbacks": [
+      "Uses a lower cutlery basket and upper knife shelf, not a full third cutlery drawer. Check bulky pots and tall glasses against the actual racks.",
+      "The manufacturer drawing specifies a 600 × 850 × 580mm cut-out; the 598mm-deep body projects farther. Allow 1175mm open-door depth plus standing room and service space.",
+      "Individual feedback includes a hard-to-read panel, a leak requiring adjustment and a complaint about early problems and delayed service. Other owners praise everyday cleaning; this is not a proven reliability upgrade.",
+      "The stated operating noise is 47dBA. Check suitability for an open-plan room and compare the full delivered and installed quote."
+    ],
+    "suits": [
+      "A standard-width replacement where a simpler basket layout and lower upfront price are priorities",
+      "A kitchen that meets the exact installation drawing and service requirements"
+    ],
+    "mayNotSuit": [
+      "Buyers wanting a full third cutlery drawer or matching cabinet door",
+      "Those prioritising proven long-term reliability over initial price"
+    ],
+    "price": "749.00",
+    "compare": {
+      "reason": "A simpler 14-place full-width option with six programs and a lower cutlery basket.",
+      "fit": "598 × 845 × 598mm body; check the 600 × 850 × 580mm cut-out drawing.",
+      "tradeoff": "No full third cutlery drawer. Allow 1175mm open-door depth. Mixed owner feedback includes panel-legibility and service complaints."
+    },
+    "manualReview": {
+      "url": "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjY2OTI1&lang=",
+      "pages": [
+        11,
+        12,
+        26
+      ],
+      "finding": "850mm cut-out is for complete appliance; manual 820mm underbench drawing follows removal of the top. No unqualified 820mm-fit claim. Two-year domestic warranty verified."
+    }
+  }
+]

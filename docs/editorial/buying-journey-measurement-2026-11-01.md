@@ -4,6 +4,8 @@ Scope: fridge dimensions, washer/laundry space, dishwasher sizes. Buying-journey
 
 ## Measures
 
+Content follow-up on 1 November adds a narrower fridge, a simpler full-width dishwasher, grouped Bosch stack purchase links and shorter chooser copy. The 2–15 November window measures the combined 31 October/1 November intervention, not an isolated effect of either edit. `stack` is an additional retailer-click placement; existing stage definitions and test exclusions remain. New product IDs are admitted by the collector. Record the follow-up release and live verification in `tmp/appliance-conversion-2026-11-01/` before treating the window as covered.
+
 - `guide_view`: page is visible, once per page load. Not proof of a human or a landing session.
 - `engaged_10s`: ten accumulated seconds in a visible tab. Not proof of reading or purchase intent.
 - `comparison_view`: at least half of the first comparison option heading is visible continuously for one second. Whole tall mobile tables are not used as the visibility target.

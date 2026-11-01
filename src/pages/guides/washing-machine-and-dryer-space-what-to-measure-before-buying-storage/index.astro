@@ -1,4 +1,5 @@
 ---
+import LaundryStackBuyingLinks from "../../../components/LaundryStackBuyingLinks.astro";
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
 import applianceComparisons from "../../../data/appliance-buying-comparisons.json";
@@ -71,8 +72,8 @@ const faqs = [
   description="Compare washing machine width, depth and height in Australia, then check door or lid clearance, dryer fit, services and delivery access before buying."
   category="Laundry"
   faqs={faqs}
-  date="Updated October 2026"
-  dateModified="2026-10-31"
+  date="Updated November 2026"
+  dateModified="2026-11-01"
   readingTime="13 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage.webp"
@@ -83,17 +84,7 @@ const faqs = [
     <strong>600 mm (60 cm) wide and 850 mm (85 cm) high</strong>. Depth varies much more between makes and models, and the installed
     depth can increase once the door, hoses, taps and other connections are included.
   </p>
-  <p>
-    Treat those figures as a common front-loader pattern, not a standard opening size. An individual
-    machine can be slightly narrower than 600 mm, exactly 600 mm or a little wider. Record the exact
-    width, height and depth of the model, then follow its installation instructions for hoses, taps,
-    door opening, ventilation, required clearances and service access.
-  </p>
-  <p>
-    A cupboard laundry has different space needs from a room with a top loader or a washer and
-    dryer placed next to each other. Start with the appliances, then allow for doors, hoses and
-    enough room to use them comfortably.
-  </p>
+  <p>Use the exact model’s installed depth, door or lid clearance and service space. A cupboard, a top-loader position and a stacked setup need different layouts; nominal body dimensions are not an opening specification.</p>
 
   <nav aria-label="Washing machine buying and measuring guide sections">
     <p><strong>Find the next step for your laundry:</strong></p>
@@ -111,11 +102,11 @@ const faqs = [
     <p>Start with the loading access and space available, then compare capacity, features and the delivered price. These three washers suit different layouts; they are not ranked as overall winners. Check the <a href="#current-washer-examples-heading">exact dimensions and installation gaps</a> before ordering.</p>
     <h3 id="front-loader-shortlist">Front loaders: shallow depth or more capacity with automatic dosing?</h3>
     <ul class="feature-list">
-      <li><strong>Limited depth, with no dryer stacked above:</strong> Consider the <a href="#product-lg-wx3-1208w-good-guys">LG WX3-1208W 8kg slim front loader</a>. Its body is 475mm deep, or 535mm including the closed door. Allow the specified 100mm rear and 20mm side gaps as well as door-opening space. Detergent dosing is manual, and this model cannot take a stacked dryer.</li>
-      <li><strong>A 9kg front loader with automatic liquid-detergent dosing:</strong> Compare the <a href="#product-bosch-wgg244a1au-good-guys">Bosch WGG244A1AU</a>. It has more depth to accommodate: 636mm with the door closed, before allowing for connections. If a dryer needs to sit above it, check the <a href="#bosch-stack-heading">model-specific Bosch stack</a> before buying the separate dryer and kit.</li>
+      <li><strong>Limited depth, with no dryer stacked above:</strong> the <a href="#product-lg-wx3-1208w-good-guys">LG WX3-1208W 8kg slim front loader</a> uses manual dosing and a shallower body. It cannot take a stacked dryer. Check its installed depth in the table below.</li>
+      <li><strong>9kg capacity, automatic liquid-detergent dosing or a planned stack:</strong> compare the <a href="#product-bosch-wgg244a1au-good-guys">Bosch WGG244A1AU</a>. It needs more depth than the slim LG. The <a href="#bosch-stack-heading">Bosch stack section</a> puts the compatible washer, dryer and kit links together.</li>
     </ul>
     <h3 id="top-loader-shortlist">Top loader: open space above and a comfortable drum reach</h3>
-    <p>The <a href="#product-lg-wtx3-09g-good-guys">LG WTX3-09G 9kg top loader</a> is the option here for loading from above. Its fully open lid reaches 1,339mm high; it needs 100mm behind and 20mm at each side. Rule it out beneath a fixed benchtop or stacked dryer. Check that you can reach the bottom of the drum comfortably and that the controls and gentle-cycle options suit your laundry.</p>
+    <p>The <a href="#product-lg-wtx3-09g-good-guys">LG WTX3-09G 9kg top loader</a> needs clear space for its lid and a comfortable reach to the drum bottom. Rule it out under a fixed benchtop or dryer; check the controls and gentle-cycle choices in person.</p>
     <p><strong>Only a 600mm-wide opening?</strong> Neither LG example fits once its specified side gaps are included. The Bosch manual describes a 600mm niche for a particular under-worktop arrangement; check the full installation requirements rather than choosing by body width alone.</p>
     <p><a href="#commercial-products-washing-machine-and-dryer-space-what-to-measure-before-buying-storage">Compare the three washers and check retailer prices below</a>. Need to measure first? Use the <a href="#washing-machine-measurement-resource">laundry measuring guide</a>.</p>
   </section>
@@ -124,7 +115,7 @@ const faqs = [
     guidePath="/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
     variant="comparison" comparisonDetails={applianceComparisons}
     title="Compare front- and top-loading washing machines"
-    intro="Compare these three washers after checking which loading style suits your space. Each retailer link opens the exact model for current pricing and postcode availability. The optional Bosch dryer and stacking kit are separate purchases below the washer details. These are research-based assessments, not firsthand tests."
+    intro="Compare these three washers after checking which loading style suits your space. Each retailer link opens the exact model for current pricing and postcode availability. The optional dryer and kit are separate purchases; the stack section also groups all three buying links. These are research-based assessments, not firsthand tests."
     accessoryProductIds={["bosch-wqg24201au-laundry-fit-good-guys", "bosch-wtz11400-good-guys"]}
     accessoryTitle="Optional Bosch dryer and stacking kit"
     accessoryIntro="These are separate purchases for the Bosch setup described in the compatibility section below, not washer alternatives or a bundled price. The WQG24201AU is the dryer; WTZ11400 is the stacking kit with a pull-out shelf. Confirm the full model revisions and installation requirements. The kit is not needed for a side-by-side layout; neither item makes either LG washer stackable."
@@ -162,14 +153,15 @@ const faqs = [
       <li><strong>Check daily use:</strong> You must reach the dryer controls, water tank, filters and maintenance points. Bosch specifies a 5–35°C operating environment; a closed cupboard needs the required airflow and access.</li>
     </ul>
     <p>The dryer is worth considering if low-temperature heat-pump drying suits your routine. Allow for long cycles, possible extra drying of bulky loads and filter/heat-exchanger maintenance; it does not have a self-cleaning condenser. Our <a href="/guides/heat-pump-vs-condenser-vs-vented-dryers/">dryer-type comparison</a> explains the wider tradeoffs. The kit's shelf can help with loading, but does not solve an inaccessible or unstable installation.</p>
+    <LaundryStackBuyingLinks />
   </section>
 
 
   <section aria-labelledby="laundry-order-heading">
     <h2 id="laundry-order-heading">Compare the complete laundry order</h2>
     <p>Compare the exact model and finish, then the total after delivery, connection and removal of your old appliance. Enter your postcode at each retailer; a headline delivery offer does not confirm service at your home.</p>
-    <p><strong>Buying the Bosch stack?</strong> Price the washer, dryer and WTZ11400 kit separately, then ask whether the quote includes fitting the kit and lifting and securing the dryer. Basic appliance connection is not the same service as stacking installation. Confirm the full model revisions with the installer before paying.</p>
-    <p>The Good Guys links are affiliate links. All five exact-model listings were rechecked on 31 October 2026 and showed an available offer, without a postcode check; confirm the current price, availability and delivery or installation options for your postcode before ordering.</p>
+
+    <p>The Good Guys links are affiliate links. All five exact-model listings were rechecked on 1 November 2026 and showed an available offer, without a postcode check; confirm the current price, availability and delivery or installation options for your postcode before ordering.</p>
   </section>
 
   <h3>What the owner feedback adds</h3>

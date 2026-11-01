@@ -86,6 +86,6 @@ export function initialiseBuyingJourney({ windowObject = globalThis.window, docu
 
 export function recordBuyingJourneyClick(event, link) {
   if (!activeJourney || event.guidePath !== activeJourney.guidePath) return;
-  const placement = link.closest('.commercial-product-comparison') ? 'comparison' : link.closest('[data-commercial-product-card]') ? 'card' : 'other';
+  const placement = link.dataset.commercialPlacement === 'stack' ? 'stack' : link.closest('.commercial-product-comparison') ? 'comparison' : link.closest('[data-commercial-product-card]') ? 'card' : 'other';
   activeJourney.record('retailer_click', event.productId, placement, event.eventId);
 }

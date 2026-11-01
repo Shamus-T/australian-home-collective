@@ -7,6 +7,12 @@
 // LG evidence: docs/editorial/lg-fit-max-first-look-sources-2026-10-10.md
 // Washer update: docs/editorial/washer-affiliate-review-2026-10-10.json
 const reviewedSourceUrls = new Set([
+  "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjY2OTI1&lang=",
+  // Exact model documents: appliance-conversion-research-2026-11-01.json.
+  "https://www.westinghouse.com.au/fridges-and-freezers/fridges/wtm3100wl-x/",
+  "https://www.westinghouse.com.au/dishwashing/dishwashers/wsf6602xc/",
+  "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjM0MzU1&lang=",
+  "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9Njc1NTQ1&lang=",
   // Exact fit and safety documents: appliance-gap-research-2026-10-18.md.
   "https://media3.bsh-group.com/Documents/specsheet/en-AU/SMV4HTX01A.pdf",
   "https://dam.fisherpaykel.com/KZ3PKN00/at/wfbv32nrz786q58pqt6wkwn/Haier-SpecificationGuide-en-HRF510FS-HRF510FHS-HRF510FHC-FrenchDoorRefrigeratorFreezer-0-90004643B-AU-NZ.pdf",

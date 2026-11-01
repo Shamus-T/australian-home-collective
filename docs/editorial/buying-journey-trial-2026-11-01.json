@@ -2,7 +2,7 @@
   "version": "appliance-2026-11-01-v1",
   "timezone": "Australia/Brisbane",
   "status": "live-verified",
-  "contentChangedOn": "2026-10-31",
+  "contentChangedOn": "2026-11-01",
   "instrumentationDeployedAt": "2026-11-01T06:02:24.2171827Z",
   "releaseRevision": "5eea8ef1ee9d71eaa1417c5aeaa5854d3224216c",
   "guides": [
@@ -62,6 +62,15 @@
     "excludedTestEvents": 3,
     "merchantRequests": 0,
     "evidence": "tmp/buying-journey-2026-11-01/live-qa-receipt-d1.txt"
-  }
+  },
+  "contentChanges": [
+    {
+      "date": "2026-10-31",
+      "scope": "Initial fridge, laundry and dishwasher buying-journey changes"
+    },
+    {
+      "date": "2026-11-01",
+      "scope": "Narrow fridge and simpler full-width dishwasher added; grouped Bosch stack links and repetition reduced. Combined intervention for after window; stack click placement added."
+    }
+  ]
 }
-

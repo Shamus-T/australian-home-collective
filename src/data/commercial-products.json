@@ -12915,6 +12915,129 @@
       }
     },
     {
+      "id": "westinghouse-wsf6602xc-good-guys",
+      "guidePath": "/guides/dishwasher-sizes-australia/",
+      "name": "Westinghouse WSF6602XC 60cm dishwasher",
+      "productType": "60cm freestanding dishwasher · Cutlery basket",
+      "summary": "A simpler full-width alternative with 14 place settings, six programs and a lower cutlery basket. Consider it when the delivered price matters more than a separate cutlery drawer. Check panel legibility and rack fit in person; owner feedback includes service complaints as well as praise for everyday cleaning.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-60cm-silver-14-place-freestanding-dishwasher-wsf6602xc",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-01",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-01",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Uses a lower cutlery basket and upper knife shelf, not a full third cutlery drawer. Check bulky pots and tall glasses against the actual racks.",
+        "The manufacturer drawing specifies a 600 × 850 × 580mm cut-out; the 598mm-deep body projects farther. Allow 1175mm open-door depth plus standing room and service space.",
+        "Individual feedback includes a hard-to-read panel, a leak requiring adjustment and a complaint about early problems and delayed service. Other owners praise everyday cleaning; this is not a proven reliability upgrade.",
+        "The stated operating noise is 47dBA. Check suitability for an open-plan room and compare the full delivered and installed quote."
+      ],
+      "suitability": {
+        "suits": [
+          "A standard-width replacement where a simpler basket layout and lower upfront price are priorities",
+          "A kitchen that meets the exact installation drawing and service requirements"
+        ],
+        "mayNotSuit": [
+          "Buyers wanting a full third cutlery drawer or matching cabinet door",
+          "Those prioritising proven long-term reliability over initial price"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Australian model specifications",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/dishwashing/dishwashers/wsf6602xc/",
+          "supports": "Exact Australian model: 598 W × 845 H × 598 D mm, 14 place settings, six programs, 47dBA, lower cutlery basket and upper knife shelf, height-adjustable upper basket, FastDry. Two-year domestic warranty. No third cutlery drawer claim. No consumption claim based on conflicting cached listing values.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Model-specific installation drawing",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9Njc1NTQ1&lang=",
+          "supports": "Visually inspected Aug25 WSF6602XC dimension sheet: cut-out 600 W × 850 H × 580 D mm, body 598 W × 845 H × 598 D, open-door depth 1175mm. 580mm is the cut-out drawing depth, not total appliance depth or flush-installation promise. Installer must verify projection, services and worktop arrangement.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian domestic warranty",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/dishwashing/dishwashers/wsf6602xc/",
+          "supports": "Exact model page specifies two years domestic warranty; no extended whole-appliance cover inferred.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual purchaser feedback, duplicates and unrelated entries excluded",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-60cm-silver-14-place-freestanding-dishwasher-wsf6602xc",
+          "supports": "Ten displayed entries inspected individually. Dianne, Anthony and Belinda praise operation, quick cycle and cleaning/value. Helen reports a hard-to-read panel and a leak needing adjustment. Gerry reports early dissatisfaction and delayed service. Excluded an oven review and store-credit complaint; Edwin names an Electrolux dishwasher, so excluded from exact-model fault evidence. Possible incentives, contamination and limited sample mean no reliability rate inferred.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Clean exact-model offer check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-60cm-silver-14-place-freestanding-dishwasher-wsf6602xc",
+          "supports": "1 November 2026 anonymous clean listing: exact model, InStock, purchase control and seller The Good Guys. AUD 749.00 observed, not a future-price promise. No postcode, nationwide stock or guaranteed delivery verification.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved AHC tracking destination",
+          "publisher": "The Good Guys / AHC",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-60cm-silver-14-place-freestanding-dishwasher-wsf6602xc",
+          "supports": "Existing authorised camref 1100l6vaUc and creativeref 1011l64579; exact destination constructed and decoded offline. Clean listing verified seller; no affiliate request or test referral. Does not establish live commission attribution.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Scoped Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Exact model and brand/category indexed searches restricted to productsafety.gov.au on 1 November returned no matching model recall notice. This is not a complete register inspection or safety certification.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "User manual installation and warranty",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjY2OTI1&lang=",
+          "checkedOn": "2026-11-01",
+          "supports": "Visually inspected pages 11-12 and 26: professional connections, levelling and hose routing; separate 820mm underbench drawing follows permitted top removal, unlike 850mm full-appliance cut-out in dimension sheet. Two-year domestic warranty, subject to terms, additional to statutory rights. Neither height is substituted for the other."
+        }
+      ],
+      "image": {
+        "src": "/images/products/westinghouse-wsf6602xc-640.webp",
+        "srcSet": "/images/products/westinghouse-wsf6602xc-320.webp 320w, /images/products/westinghouse-wsf6602xc-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Westinghouse WSF6602XC 60cm dishwasher exact-model product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50096222_1013528.png?v=1776660829",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
       "id": "bosch-sms6hci02a-good-guys",
       "guidePath": "/guides/dishwasher-sizes-australia/",
       "name": "Bosch SMS6HCI02A Series 6 freestanding dishwasher",
@@ -15232,6 +15355,121 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50074928_772014.png?v=1776229440",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-12"
+      }
+    },
+    {
+      "id": "westinghouse-wtm3100wl-x-good-guys",
+      "guidePath": "/guides/fridge-dimensions-australia/",
+      "name": "Westinghouse WTM3100WL-X 312L top mount fridge",
+      "productType": "312L top freezer fridge · Narrow body",
+      "summary": "A smaller white top-mount option with 238L fresh-food and 74L freezer capacity. Its 598mm body and specified side gaps suit a narrower opening than the larger fridges here. It trades capacity for a compact footprint; check corner access before choosing it.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-312l-top-mount-refrigerator-wtm3100wl-x",
+      "linkLabel": "Check current price at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-01",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-01",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 598mm body needs 30mm at each side, 90mm above and 50mm behind in the dimension drawing. A 658mm width check does not guarantee complete fit.",
+        "Near a corner wall, allow the specified 350mm hinge-side space for shelf removal. The doors project beyond cabinetry; door reversal needs an optional kit and correct fitting.",
+        "The freezer is only 74L. Large batch-cooking households may need more capacity; fresh-food access involves bending.",
+        "An owner dislikes the open meat shelf. The small review sample and possible incentives do not establish long-term reliability."
+      ],
+      "suitability": {
+        "suits": [
+          "A smaller household needing a narrower top-freezer fridge with useful fresh-food storage",
+          "A kitchen that provides the full ventilation and door-opening space"
+        ],
+        "mayNotSuit": [
+          "Large frozen-food loads or a flush cabinet installation",
+          "A tight corner without the specified hinge-side door access"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact Australian model specifications",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/fridges-and-freezers/fridges/wtm3100wl-x/",
+          "supports": "Exact WTM3100WL-X Australian page: 312L total, 238L fridge and 74L freezer; 598 W × 1646 H × 650 D mm; frost free, manual ice tray, optional door-reversal kit. Two-year domestic warranty. No extension from another model carried over.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "technical-review",
+          "title": "Model-specific installation drawing",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjM0MzU1&lang=",
+          "supports": "Visually inspected Nov24 dimension sheet linked from exact suffix page: WTM3100WL family, 30mm each side, 90mm above, 50mm behind; 1199mm depth at 90-degree opening; 350mm hinge-side corner space for shelf removal. Doors project beyond cabinetry. 658mm is width only, not a complete cavity specification.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian domestic warranty",
+          "publisher": "Westinghouse Australia",
+          "sourceUrl": "https://www.westinghouse.com.au/fridges-and-freezers/fridges/wtm3100wl-x/",
+          "supports": "Exact model page specifies two years domestic warranty; no extended whole-appliance cover inferred.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual purchaser feedback, duplicates and unrelated entries excluded",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-312l-top-mount-refrigerator-wtm3100wl-x",
+          "supports": "Read ten rendered entries and individual JSON-LD reviews; three identical anonymous two-star empty reviews counted once and no cause inferred. Distinct owners Maree, Fran and Di praise useful storage in a small fridge; Di dislikes the open meat shelf. Recent owners praise freshness/value. Empty reviews and AI summary excluded from thematic findings; possible incentives and limited long-term evidence.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Clean exact-model offer check",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-312l-top-mount-refrigerator-wtm3100wl-x",
+          "supports": "1 November 2026 anonymous clean listing: exact model, InStock, purchase control and seller The Good Guys. AUD 849.00 observed, not a future-price promise. No postcode, nationwide stock or guaranteed delivery verification.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved AHC tracking destination",
+          "publisher": "The Good Guys / AHC",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-312l-top-mount-refrigerator-wtm3100wl-x",
+          "supports": "Existing authorised camref 1100l6vaUc and creativeref 1011l64579; exact destination constructed and decoded offline. Clean listing verified seller; no affiliate request or test referral. Does not establish live commission attribution.",
+          "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Scoped Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Exact model and brand/category indexed searches restricted to productsafety.gov.au on 1 November returned no matching model recall notice. This is not a complete register inspection or safety certification.",
+          "checkedOn": "2026-11-01"
+        }
+      ],
+      "image": {
+        "src": "/images/products/westinghouse-wtm3100wl-x-640.webp",
+        "srcSet": "/images/products/westinghouse-wtm3100wl-x-320.webp 320w, /images/products/westinghouse-wtm3100wl-x-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Westinghouse WTM3100WL-X 312L top mount fridge exact-model product view.",
+        "credit": "Product image sourced from The Good Guys website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50094051_949005.png?v=1776389088",
+        "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
+        "checkedOn": "2026-11-01"
       }
     },
     {

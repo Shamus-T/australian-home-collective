@@ -14,6 +14,8 @@ test('exact approved product membership, stage identity and bounded input enforc
  assert.ok(validateJourney(event));
  for(const change of [{guidePath:'/guides/other/'},{source:'secret@example.com'},{stage:'purchase'},{elapsedMs:-1},{productId:'anything'},{version:'old'},{pageId:'bad'},{sessionId:''}])assert.equal(validateJourney({...event,...change}),false);
  assert.ok(validateJourney({...event,stage:'retailer_click',productId:JOURNEY_GUIDES[event.guidePath][0],placement:'comparison'}));
+ assert.ok(validateJourney({...event,guidePath:'/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/',stage:'retailer_click',productId:'bosch-wtz11400-good-guys',placement:'stack'}));
+ assert.equal(validateJourney({...event,stage:'retailer_click',productId:JOURNEY_GUIDES[event.guidePath][0],placement:'unknown-location'}),false);
  const catalogue=JSON.parse(fs.readFileSync('src/data/commercial-products.json'));
  for(const [path, ids] of Object.entries(JOURNEY_GUIDES))assert.deepEqual(ids.slice().sort(),catalogue.products.filter(p=>p.guidePath===path&&p.editorialStatus==='approved'&&p.presentation!=='comparison-only').map(p=>p.id).sort());
 });

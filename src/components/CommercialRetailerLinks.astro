@@ -5,7 +5,7 @@ import type { CommercialProduct, CommercialRetailerOffer } from "../types/commer
 interface Props {
   product: CommercialProduct;
   offers: CommercialRetailerOffer[];
-  placement: "card" | "comparison";
+  placement: "card" | "comparison" | "stack";
 }
 
 const { product, offers, placement } = Astro.props;
@@ -16,7 +16,7 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
 ---
 
 <div class={`commercial-retailers commercial-retailers--${placement}`} aria-label={`${product.name} retailers`}>
-  {placement === "card" && <p class="commercial-retailers-label">Check current retailer prices and availability:</p>}
+  {placement === "card" && <p class="commercial-retailers-label">Check today’s price and postcode delivery:</p>}
   <ul class="commercial-retailer-links" role="list">
     {offers.map((offer) => (
       <li>

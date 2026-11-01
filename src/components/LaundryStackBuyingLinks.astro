@@ -1,0 +1,36 @@
+---
+import { getApprovedProductsForGuide, getRetailersForProduct } from "../lib/commercial-products";
+import CommercialRetailerLinks from "./CommercialRetailerLinks.astro";
+
+const guidePath = "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/";
+const approved = getApprovedProductsForGuide(guidePath);
+const items = [
+  { id: "bosch-wgg244a1au-good-guys", role: "1. Washer", note: "WGG244A1AU · 9kg front loader" },
+  { id: "bosch-wqg24201au-laundry-fit-good-guys", role: "2. Dryer", note: "WQG24201AU · 9kg heat pump dryer" },
+  { id: "bosch-wtz11400-good-guys", role: "3. Stacking kit", note: "WTZ11400 · Pull-out shelf kit" },
+].map(item => ({ ...item, product: approved.find(product => product.id === item.id) }));
+// Do not present an incomplete stack as a purchasable setup if an offer is paused.
+const complete = items.every(item => item.product);
+---
+
+{complete && <div class="stack-buying-links" aria-labelledby="stack-order-heading">
+  <h3 id="stack-order-heading">Price the three parts of this Bosch stack</h3>
+  <p>These are separate purchases, not a bundle. Check each current price and postcode delivery date, then ask for a quote covering kit fitting and lifting and securing the dryer. Basic connection is not stacking installation.</p>
+  <p>We may earn commission through these affiliate links at no extra cost to you.</p>
+  <div class="stack-buying-grid">
+    {items.map(({ role, note, product }) => <div class="stack-buying-item">
+      <h4>{role}</h4>
+      <p><a href={`#product-${product!.id}`}>{note}</a></p>
+      <CommercialRetailerLinks product={product!} offers={getRetailersForProduct(product!)} placement="stack" />
+    </div>)}
+  </div>
+</div>}
+
+<style>
+  .stack-buying-links { margin-block: 24px; padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: #f5f7f2; }
+  .stack-buying-grid { display: grid; gap: 16px; }
+  .stack-buying-item { min-width: 0; padding: 16px; background: white; border: 1px solid var(--line); border-radius: 8px; }
+  .stack-buying-item h4 { margin: 0; }
+  .stack-buying-item p { margin-block: 8px 16px; }
+  @media (min-width: 1000px) { .stack-buying-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+</style>
