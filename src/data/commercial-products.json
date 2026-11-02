@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-11-01",
+  "updatedOn": "2026-11-03",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -2067,18 +2067,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-17",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-17",
+        "checkedOn": "2026-11-03",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -2172,6 +2172,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0FD93C954?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "3 November exact-ASIN availability recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FD93C954",
+          "supports": "Fresh daily sweep and independent clean request both found the exact KSM195 ASIN B0FD93C954 marked currently unavailable, with no restock estimate. Buying option paused; this does not establish that the model is discontinued. Historical research and images retained; no affiliate redirects or replacement model used.",
+          "checkedOn": "2026-11-03"
         }
       ],
       "image": {
@@ -5423,7 +5431,7 @@
       "drawbacks": [
         "Its 178 cm open width needs substantially more floor space than a compact tower or concertina airer.",
         "The light aluminium frame still needs stable, level placement and should be folded away before it obstructs a laundry route.",
-        "The Amazon offer showed dispatch in 2–4 weeks on 1 November 2026. It may not suit an urgent laundry setup; dispatch is not arrival, so confirm the current delivery estimate for your postcode before ordering."
+        "The Amazon offer showed dispatch in 2–5 weeks on 3 November 2026. It may not suit an urgent laundry setup; dispatch is not arrival, so confirm the current delivery estimate for your postcode before ordering."
       ],
       "suitability": {
         "suits": [
@@ -5505,6 +5513,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H",
           "supports": "1 November 2026 Brisbane: fresh all-offer sweep and independent clean exact-ASIN recheck both showed usual dispatch within 2 to 4 weeks and an order control. Exact ASIN/title unchanged. Updated dated reader advice; no postcode arrival promise, seller/warranty re-review or manufacturer-domain access. Evidence: tmp/availability-2026-11-01/airer-recheck.json.",
           "checkedOn": "2026-11-01"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "3 November delayed-dispatch recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H",
+          "supports": "Fresh exact-ASIN sweep and independent clean request show 2–5 weeks dispatch. This is dispatch, not arrival; the dated reader warning was updated without changing the product, affiliate link or images.",
+          "checkedOn": "2026-11-03"
         }
       ]
     },

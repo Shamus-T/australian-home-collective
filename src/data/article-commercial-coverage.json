@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-01",
+  "updatedOn": "2026-11-03",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -1641,10 +1641,10 @@
     {
       "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
       "title": "Drying Space That Works in Real Weather",
-      "reviewedOn": "2026-11-01",
+      "reviewedOn": "2026-11-03",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "07226f6e56c410dd09511e110887fe9ac30def5581b8a08d7258651b46ca3181",
+      "reviewedSourceSha256": "a02cc2ae29bad62b7eb0415f46b1349772be5912d8d6ea553592b23e2ffa4fb4",
       "requiredProductTypes": [
         {
           "label": "Freestanding clothes airer",
@@ -1662,7 +1662,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "27 October: researched AirFrame Max 21m 5000020 as a sooner-available indoor alternative; exact new Amazon AU seller, local arrival example, manufacturer dimensions/load, warranty scope and owner evidence checked. L.T. Williams remains available-to-order with its delay warning; Brabantia retained. Regional disclosure and limited recall-search access recorded in docs/editorial/airer-alternative-2026-10-27.json. Other products retain prior full-review dates. Availability follow-up 1 November 2026: fresh exact-ASIN sweep and separate recheck confirmed L.T. Williams dispatch extended to 2–4 weeks. Updated card and article advice; AirFrame listing showed in-stock in the same sweep without postcode confirmation. Existing specifications, suitability, images and affiliate destinations retained."
+      "reviewScope": "3 November availability maintenance: independently confirmed L.T. Williams 2–5 week dispatch and updated dated reader caveats. Existing AirFrame option, product research and images retained. Evidence: tmp/availability-2026-11-03/airer-recheck.json."
     },
     {
       "guidePath": "/guides/laundry-essentials-australian-homes/",
@@ -3012,10 +3012,10 @@
     {
       "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
       "title": "Small Kitchen Appliances That Earn Their Bench Space",
-      "reviewedOn": "2026-11-01",
+      "reviewedOn": "2026-11-03",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "1a2b8d951a23a0397f3d46c6592ac661e9b30dfc9b62c32a5116443fb863596e",
+      "reviewedSourceSha256": "5dc17f806d0532f8762920381cc86acb7611bf8ae1be8a4295aa3e7608702e44",
       "requiredProductTypes": [
         {
           "label": "Air fryer — unequal dual baskets",
@@ -3025,9 +3025,8 @@
         },
         {
           "label": "Stand mixer — regular home baking",
-          "productIds": [
-            "kitchenaid-artisan-tilt-head-stand-mixer-ksm195"
-          ]
+          "productIds": [],
+          "gapReason": "3 November: the approved KitchenAid KSM195 Amazon ASIN is currently unavailable in the fresh sweep and separate recheck; buying option paused. Medium-bowl regular-baking alternative remains a research gap. The existing Kenwood XL is not a compact like-for-like substitute."
         },
         {
           "label": "Stand mixer — large-batch baking",
@@ -3067,7 +3066,7 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/convection-microwave-vs-air-fryer/"
       ],
-      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md. Feed-run follow-up on 18 October: orderable supplier-stock offers distinguished from immediate stock; visible delivery caveat added to the product card. Feed alert retained. 27 October availability-only follow-up: fresh exact-offer checks removed the Instant Pot supplier-order description and added the L.T. Williams airer 1–3-week dispatch warning where applicable. Source article, primary-product coverage, images and prior specification/warranty research are unchanged; evidence in tmp/availability-2026-10-27/. Maintenance 1 November 2026: removed the expired optional Breville BPR680BSS manufacturer-direct price. No new price or full product re-review claimed; approved affiliate offers and imagery retained. Availability follow-up 1 November 2026: fresh exact-model Good Guys workflow evidence restored the Instant Duo Plus 8L supplier-order warning. Specifications, warranty, images and approved affiliate destinations unchanged. Monthly pricing verification 1 November 2026: reinstated the optional AUD 339 Breville BPR680BSS manufacturer-direct price after fresh official-source verification; next review due 1 December 2026."
+      "reviewScope": "3 November availability repair: paused the confirmed unavailable KitchenAid KSM195 B0FD93C954 offer, recorded the medium-bowl mixer gap and clarified the remaining Kenwood XL fit. Other approved options, images, retailer artwork and historical specification evidence preserved. Evidence: tmp/availability-2026-11-03/."
     },
     {
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
