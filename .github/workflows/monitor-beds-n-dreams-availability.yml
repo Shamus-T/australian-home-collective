@@ -1,4 +1,4 @@
-name: Monitor Beds n Dreams availability
+name: Monitor Beds n Dreams product identities
 
 on:
   schedule:
@@ -46,8 +46,8 @@ jobs:
           path: .availability-monitor/beds-n-dreams-previous.json
           key: beds-n-dreams-state-${{ github.run_id }}
           restore-keys: beds-n-dreams-state-
-      - name: Check exact variants on clean retailer pages
-        run: node scripts/monitor-offer-availability.mjs --merchant="Beds n Dreams" --previous=.availability-monitor/beds-n-dreams-previous.json --output=.availability-monitor/beds-n-dreams.json
+      - name: Check exact product identities (stock requires local Australian sweep)
+        run: node scripts/monitor-offer-availability.mjs --merchant="Beds n Dreams" --identity-only --previous=.availability-monitor/beds-n-dreams-previous.json --output=.availability-monitor/beds-n-dreams.json
       - name: Publish actionable alert or close resolved alert
         if: always()
         env:

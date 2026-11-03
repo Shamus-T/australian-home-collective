@@ -39,7 +39,13 @@ Campaign terms section 2.3 permit only creative assets supplied through Partneri
 
 No permitted exact-product photograph was positively identified among the supplied creatives. The campaign feed was marked Not Processed and its supplied endpoint returned 404. New image gaps are recorded; public product images were not copied. No tracking pixel or creative remote request is added to AHC.
 
-The new four-hour monitor reads only exact clean product pages, never affiliate redirects. It requires matching variant and regional delivery evidence; stale InStock schema cannot override an out-of-stock message. Access challenges, redirects, missing variant data and dispatch estimates requiring review remain alerts, not healthy-stock claims. One owned GitHub issue is maintained per changed fault state. Regions are recorded in reports, and no automatic product removal is inferred from blocked requests.
+The four-hour cloud monitor reads exact clean product pages for identity and destination checks only, never affiliate redirects. The existing daily local follow-up now also checks Beds n Dreams stock. It requires matching variant and recognised Australian regional delivery evidence; stale InStock schema cannot override an out-of-stock message. Access challenges, redirects, missing variant data and dispatch estimates requiring review remain alerts, not healthy-stock claims. One owned GitHub issue is maintained per changed cloud fault state. Regions are recorded in reports, and no automatic product removal is inferred from blocked requests.
+
+### Launch verification and foreign-region correction
+
+Commit be67b395513387d1e3523164b961956c4f11bba9 passed GitHub build and audit run 41649676908. All four live pages passed desktop/mobile checks, exact approved destination checks and the unchanged supplied artwork checksum, with merchant and analytics requests blocked. The first cloud monitor run 41649677027 completed, but inspection of its report (artifact SHA256 049da35fffb3c76b9389bcb5ae7fe0044c834876747db8a4b3704cd7b832abbd) showed region OR. Its three available counts must **not** be used as Australian stock evidence. The original artifact is retained unchanged in `tmp/beds-n-dreams-2026-11-03/cloud-monitor/`.
+
+On 4 November Brisbane time, the parser was corrected to reject non-Australian delivery contexts and the cloud workflow was explicitly limited to identity checks. Regression tests cover foreign-region stock and both reporting modes. The existing 09:00 local follow-up was extended for a fresh Beds n Dreams sweep each day; its prior Amazon/Good Guys scope and quiet notification rules are preserved. No geolocation spoofing, retailer cookies or scripted cart interactions were introduced.
 
 ## Evidence and verification
 

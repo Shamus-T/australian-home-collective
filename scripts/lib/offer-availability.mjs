@@ -101,6 +101,7 @@ export function inspectProduct(url, {status,html}) {
     const delivery = primary.match(/Delivering from (.*?) Change Delivery (.*)$/i);
     if (!delivery || !offer) return {...result,reason:'Selected offer or regional delivery text missing'};
     result.region = delivery[1]; result.availability = delivery[2].trim();
+    if (!/^(?:Queensland|New South Wales|Victoria|Tasmania|South Australia|Western Australia|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|TAS|SA|WA|NT|ACT)$/i.test(result.region)) return {...result,reason:'Delivery context is not a recognised Australian region; local stock check required'};
     if (/out of stock|unavailable/i.test(result.availability)) return {...result,status:'unavailable',reason:'Selected product is unavailable in the displayed region; not a nationwide withdrawal'};
     if (/GET IT NOW/i.test(result.availability) && /\/InStock$/.test(offer.availability??'')) return {...result,status:'available',reason:'Selected variant, regional delivery text and offer agree; postcode not checked'};
     return {...result,reason:'Regional delivery estimate needs review; structured stock alone is insufficient'};
