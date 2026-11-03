@@ -105,7 +105,8 @@
     "/guides/ceiling-fans-before-you-buy/",
     "/guides/bedside-table-setup-what-to-check-before-you-buy/",
     "/guides/bedroom-storage-ideas-small-australian-rooms/",
-    "/guides/bedroom-essentials-for-a-more-comfortable-home/"
+    "/guides/bedroom-essentials-for-a-more-comfortable-home/",
+    "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/"
   ],
   "products": [
     {
@@ -25822,6 +25823,482 @@
           "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fcapri-bedside-table%3Fvariant%3D43488987086941",
           "supports": "User confirmed partnership acceptance. Signed-in Partnerize campaign 1101l6580 active; tracking page generated bnd.prf.hn/click/camref:1110lSAJY with encoded destination. Exact variant appended using that observed structure. Link inspected offline; never followed. Default 2% CPA, 30-day cookie, exclusions and reversals apply. No commission attribution test.",
           "checkedOn": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "bnd-memphis-queen-under-bed-storage-what-to-measure-before-you-buy",
+      "guidePath": "/guides/under-bed-storage-what-to-measure-before-you-buy/",
+      "name": "Memphis Queen bed frame with drawer storage",
+      "productType": "Queen drawer-storage bed frame",
+      "summary": "A replacement queen frame with built-in drawer storage, measuring 166 × 218cm overall with a 125cm headboard. Consider it when the bed itself needs replacing and the drawers can open fully; it is not an economical substitute for a few storage bags.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fmemphis-bed%3Fvariant%3D40861805248605",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-04",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Drawer internal dimensions, full extension, platform height and load limits were not published. Confirm these, the mattress support requirements and assembly instructions before ordering; no specific mattress pairing is verified.",
+        "The 166 × 218cm footprint excludes open drawers and standing space. Confirm the current production dimensions: older search results show a smaller footprint than the fresh exact-variant listing.",
+        "Owner feedback is pooled across the Memphis range and includes service-only comments. It does not establish drawer durability or a Queen-specific load rating."
+      ],
+      "suitability": {
+        "suits": [
+          "households already replacing a queen frame and needing occasional linen storage",
+          "rooms with space for the full frame, open drawers and normal walkways"
+        ],
+        "mayNotSuit": [
+          "rooms where drawers cannot open fully",
+          "buyers only needing inexpensive storage beneath a usable existing bed"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact selected product specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/memphis-bed?variant=40861805248605",
+          "supports": "Exact Queen variant 40861805248605, selected Queen. Current main and range tables agree: H1250 W1660 L2180mm; 60kg listed. Australian Messmate hardwood and hardwood veneers, resin bedhead inlay varies. Current exact product table takes precedence over stale indexed 1620 x 2070mm figures. Packaging repeated 900 x 400 x 40mm is implausible for a whole bed and is excluded. No drawer volume, extension, platform height, load rating or mattress compatibility inferred.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Product-specific manufacturer warranty",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/memphis-bed?variant=40861805248605",
+          "supports": "Two-year manufacturer warranty stated for this exact product. Memphis and Capri explicitly describe repair of manufacturing faults; Florida Coast states two-year cover without a full model-specific booklet. Confirm installation, care and claim conditions with retailer; no lifespan guarantee. Consumer rights remain separate.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted owner feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/memphis-bed?variant=40861805248605",
+          "supports": "Eight retailer-hosted range reviews inspected, including bed appearance/construction and service comments, plus bedside/suite comments. No repeated serious bed defect identified in this small sample. Pooled reviews are not eight exact Queen drawer-bed tests; no long-term durability claim.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-variant Australian delivery check",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/memphis-bed?variant=40861805248605",
+          "supports": "Fresh anonymous HTML on 4 November Brisbane time: selected variant, Product offer and Queensland GET IT NOW agree. No postcode quote, nationwide stock or guaranteed dispatch claim. Saved in tmp/bnd-bedroom-2026-11-04/exact-offers.json.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Delivery and assembly service",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/delivery-and-returns",
+          "supports": "Retailer says bedroom furniture includes assembly instructions. Paid assembly depends on location and contractor delivery; not offered directly in WA/SA. No TAS/NT delivery stated. Confirm postcode service, stairs, assembly and packaging removal before paying.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Purchase and cancellation terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Change-of-mind returns generally not accepted and cancellation charges may apply. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated recall and safety review",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Beds%20n%20Dreams",
+          "supports": "Official RSS returned unrelated recalls; exact brand/model web searches found no matching recall in inspected results. Limited dated search, not safety certification. No load, stability or compliance certification asserted.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fmemphis-bed%3Fvariant%3D40861805248605",
+          "supports": "Existing approved Beds n Dreams campaign 1101l6580 and observed camref 1110lSAJY reused. Exact destination and selected variant validated offline against the campaign registry. No affiliate request or commission-attribution test.",
+          "checkedOn": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "bnd-memphis-queen-bedroom-essentials-for-a-more-comfortable-home",
+      "guidePath": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
+      "name": "Memphis Queen bed frame with drawer storage",
+      "productType": "Queen drawer-storage bed frame",
+      "summary": "A replacement queen frame with built-in drawer storage, measuring 166 × 218cm overall with a 125cm headboard. Consider it when the bed itself needs replacing and the drawers can open fully; it is not an economical substitute for a few storage bags.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fmemphis-bed%3Fvariant%3D40861805248605",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-04",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Drawer internal dimensions, full extension, platform height and load limits were not published. Confirm these, the mattress support requirements and assembly instructions before ordering; no specific mattress pairing is verified.",
+        "The 166 × 218cm footprint excludes open drawers and standing space. Confirm the current production dimensions: older search results show a smaller footprint than the fresh exact-variant listing.",
+        "Owner feedback is pooled across the Memphis range and includes service-only comments. It does not establish drawer durability or a Queen-specific load rating."
+      ],
+      "suitability": {
+        "suits": [
+          "households already replacing a queen frame and needing occasional linen storage",
+          "rooms with space for the full frame, open drawers and normal walkways"
+        ],
+        "mayNotSuit": [
+          "rooms where drawers cannot open fully",
+          "buyers only needing inexpensive storage beneath a usable existing bed"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact selected product specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/memphis-bed?variant=40861805248605",
+          "supports": "Exact Queen variant 40861805248605, selected Queen. Current main and range tables agree: H1250 W1660 L2180mm; 60kg listed. Australian Messmate hardwood and hardwood veneers, resin bedhead inlay varies. Current exact product table takes precedence over stale indexed 1620 x 2070mm figures. Packaging repeated 900 x 400 x 40mm is implausible for a whole bed and is excluded. No drawer volume, extension, platform height, load rating or mattress compatibility inferred.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Product-specific manufacturer warranty",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/memphis-bed?variant=40861805248605",
+          "supports": "Two-year manufacturer warranty stated for this exact product. Memphis and Capri explicitly describe repair of manufacturing faults; Florida Coast states two-year cover without a full model-specific booklet. Confirm installation, care and claim conditions with retailer; no lifespan guarantee. Consumer rights remain separate.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted owner feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/memphis-bed?variant=40861805248605",
+          "supports": "Eight retailer-hosted range reviews inspected, including bed appearance/construction and service comments, plus bedside/suite comments. No repeated serious bed defect identified in this small sample. Pooled reviews are not eight exact Queen drawer-bed tests; no long-term durability claim.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-variant Australian delivery check",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/memphis-bed?variant=40861805248605",
+          "supports": "Fresh anonymous HTML on 4 November Brisbane time: selected variant, Product offer and Queensland GET IT NOW agree. No postcode quote, nationwide stock or guaranteed dispatch claim. Saved in tmp/bnd-bedroom-2026-11-04/exact-offers.json.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Delivery and assembly service",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/delivery-and-returns",
+          "supports": "Retailer says bedroom furniture includes assembly instructions. Paid assembly depends on location and contractor delivery; not offered directly in WA/SA. No TAS/NT delivery stated. Confirm postcode service, stairs, assembly and packaging removal before paying.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Purchase and cancellation terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Change-of-mind returns generally not accepted and cancellation charges may apply. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated recall and safety review",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Beds%20n%20Dreams",
+          "supports": "Official RSS returned unrelated recalls; exact brand/model web searches found no matching recall in inspected results. Limited dated search, not safety certification. No load, stability or compliance certification asserted.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fmemphis-bed%3Fvariant%3D40861805248605",
+          "supports": "Existing approved Beds n Dreams campaign 1101l6580 and observed camref 1110lSAJY reused. Exact destination and selected variant validated offline against the campaign registry. No affiliate request or commission-attribution test.",
+          "checkedOn": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "bnd-capri-tallboy-bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy",
+      "guidePath": "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
+      "name": "Capri Natural five-drawer tallboy",
+      "productType": "Five-drawer tallboy",
+      "summary": "Five drawers in a 100cm-wide, 48cm-deep cabinet that stands 120cm high. Its paper-veneered composite timber has a natural timber look; the Ash option label does not mean solid ash. Plan wall anchoring before choosing it.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fcapri-tallboy%3Fvariant%3D43488987185245",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-04",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "It is 100cm wide, so it is not a narrow-gap unit. Internal drawer dimensions, load ratings and full extension were not published; check these against folded clothes and the walkway.",
+        "At 120cm high it needs secure anchoring. Ask for the exact installation instructions, attachment points and suitable wall fixings before purchase; an included anchoring kit was not verified. Do not use it unsecured.",
+        "Paper veneer over composite timber needs protection from moisture and damage. Two retailer-hosted reviews mention smooth drawers, but this small sample cannot establish long-term runner or finish durability."
+      ],
+      "suitability": {
+        "suits": [
+          "sorted folded-clothing categories where a 100 × 48cm footprint and open drawers fit",
+          "homes able to anchor the unit securely and keep heavy contents low"
+        ],
+        "mayNotSuit": [
+          "narrow wall gaps or a room where anchoring cannot be arranged",
+          "buyers requiring solid timber or verified heavy drawer loads"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact selected product specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-tallboy?variant=43488987185245",
+          "supports": "Natural/Ash variant 43488987185245: H1200 W1000 D480mm,84kg, five drawers; composite timber with paper veneer. Do not reinterpret Ash as material. Exact drawer capacities and included wall hardware not stated.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Product-specific manufacturer warranty",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-tallboy?variant=43488987185245",
+          "supports": "Two-year manufacturer warranty stated for this exact product. Memphis and Capri explicitly describe repair of manufacturing faults; Florida Coast states two-year cover without a full model-specific booklet. Confirm installation, care and claim conditions with retailer; no lifespan guarantee. Consumer rights remain separate.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted owner feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-tallboy?variant=43488987185245",
+          "supports": "Two verified-buyer entries inspected; both mention drawers/gliders positively, one also discusses a mattress. Mattress comment excluded. Small retailer-hosted sample gives limited usability context, not independent stability or durability evidence.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-variant Australian delivery check",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-tallboy?variant=43488987185245",
+          "supports": "Fresh anonymous HTML on 4 November Brisbane time: selected variant, Product offer and Queensland GET IT NOW agree. No postcode quote, nationwide stock or guaranteed dispatch claim. Saved in tmp/bnd-bedroom-2026-11-04/exact-offers.json.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Delivery and assembly service",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/delivery-and-returns",
+          "supports": "Retailer says bedroom furniture includes assembly instructions. Paid assembly depends on location and contractor delivery; not offered directly in WA/SA. No TAS/NT delivery stated. Confirm postcode service, stairs, assembly and packaging removal before paying.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Purchase and cancellation terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Change-of-mind returns generally not accepted and cancellation charges may apply. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated recall and safety review",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Beds%20n%20Dreams",
+          "supports": "Official RSS returned unrelated recalls; exact brand/model web searches found no matching recall in inspected results. Limited dated search, not safety certification. No load, stability or compliance certification asserted.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fcapri-tallboy%3Fvariant%3D43488987185245",
+          "supports": "Existing approved Beds n Dreams campaign 1101l6580 and observed camref 1110lSAJY reused. Exact destination and selected variant validated offline against the campaign registry. No affiliate request or commission-attribution test.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Retailer anchoring guidance",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/bedroom-furniture/tallboys",
+          "supports": "Retailer category guidance says anchor furniture to the wall according to instructions and prevent climbing. Exact model-specific hardware and downloadable instructions were not located; no claim they were verified. Promotion is limited to households able to obtain and follow the exact setup method before use.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Toppling prevention and purchase checks",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/consumers/be-safe-around-the-home/use-products-inside-the-home-safely/toppling-furniture-and-televisions-guide",
+          "supports": "ACCC recommends planning anchoring, checking warnings, drawer stops and instructions; secure furniture to suitable wall/floor fixings. No independent stability test or legal-compliance conclusion about these products.",
+          "checkedOn": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "bnd-florida-dresser-bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy",
+      "guidePath": "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
+      "name": "Florida Coast dresser with mirror",
+      "productType": "Wide dresser with mirror",
+      "summary": "A 150cm-wide, 45cm-deep dresser-and-mirror combination for a wider wall. The listed 185cm height includes the mirror, not just the cabinet. It uses pine and combination timbers; do not assume the complete unit is solid pine.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fflorida-coast-dresser-with-mirror%3Fvariant%3D40861795647581",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-04",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "matched",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Cabinet-only height, internal drawer dimensions, extension and load limits were not established. Check these before assuming the top fits below a window or the drawers hold bulky linen.",
+        "Confirm the mirror attachment, wall anchoring, fixings and assembly scope before payment. The 185cm overall height and 66kg listed weight do not make it safe to leave unsecured; no included anchor kit is claimed.",
+        "Range reviews include one detailed suite report of a marked mirror, sticky runners and an initial finish smell, plus a separate assembly-instruction complaint whose exact item is unclear. Inspect delivery promptly and obtain retailer assembly/care advice; AHC has not tested the finish or runners."
+      ],
+      "suitability": {
+        "suits": [
+          "a room with a 150cm wall space, mirror clearance and room for fully open drawers",
+          "buyers wanting a wider dressing surface who can arrange safe assembly and anchoring"
+        ],
+        "mayNotSuit": [
+          "narrow bedrooms, low windows or buyers who only need a small tallboy",
+          "buyers expecting fully assembled delivery or proven long-term drawer durability"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact selected product specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/florida-coast-dresser-with-mirror?variant=40861795647581",
+          "supports": "Exact variant 40861795647581: H1850 W1500 D450mm overall with mirror,66kg listed. Pine and combination timber; no all-solid, sustainability-certification or cabinet-only height claim. Mirror and cabinet are separate packages; do not infer cabinet height from packaging.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Product-specific manufacturer warranty",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/florida-coast-dresser-with-mirror?variant=40861795647581",
+          "supports": "Two-year manufacturer warranty stated for this exact product. Memphis and Capri explicitly describe repair of manufacturing faults; Florida Coast states two-year cover without a full model-specific booklet. Confirm installation, care and claim conditions with retailer; no lifespan guarantee. Consumer rights remain separate.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted owner feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/florida-coast-dresser-with-mirror?variant=40861795647581",
+          "supports": "Sixteen pooled Florida Coast reviews inspected; many discuss beds or service, not this dresser. Detailed suite owner identifies mirror pitting/replacement, some sticky runners and a dissipating smell. Another assembly complaint is not clearly model-specific. No recurring serious dresser failure established, but sample is small and retailer-hosted; no rating or durability inference.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact-variant Australian delivery check",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/florida-coast-dresser-with-mirror?variant=40861795647581",
+          "supports": "Fresh anonymous HTML on 4 November Brisbane time: selected variant, Product offer and Queensland GET IT NOW agree. No postcode quote, nationwide stock or guaranteed dispatch claim. Saved in tmp/bnd-bedroom-2026-11-04/exact-offers.json.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Delivery and assembly service",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/delivery-and-returns",
+          "supports": "Retailer says bedroom furniture includes assembly instructions. Paid assembly depends on location and contractor delivery; not offered directly in WA/SA. No TAS/NT delivery stated. Confirm postcode service, stairs, assembly and packaging removal before paying.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Purchase and cancellation terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Change-of-mind returns generally not accepted and cancellation charges may apply. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated recall and safety review",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Beds%20n%20Dreams",
+          "supports": "Official RSS returned unrelated recalls; exact brand/model web searches found no matching recall in inspected results. Limited dated search, not safety certification. No load, stability or compliance certification asserted.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fflorida-coast-dresser-with-mirror%3Fvariant%3D40861795647581",
+          "supports": "Existing approved Beds n Dreams campaign 1101l6580 and observed camref 1110lSAJY reused. Exact destination and selected variant validated offline against the campaign registry. No affiliate request or commission-attribution test.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Retailer anchoring guidance",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/bedroom-furniture/tallboys",
+          "supports": "Retailer category guidance says anchor furniture to the wall according to instructions and prevent climbing. Exact model-specific hardware and downloadable instructions were not located; no claim they were verified. Promotion is limited to households able to obtain and follow the exact setup method before use.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Toppling prevention and purchase checks",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/consumers/be-safe-around-the-home/use-products-inside-the-home-safely/toppling-furniture-and-televisions-guide",
+          "supports": "ACCC recommends planning anchoring, checking warnings, drawer stops and instructions; secure furniture to suitable wall/floor fixings. No independent stability test or legal-compliance conclusion about these products.",
+          "checkedOn": "2026-11-04"
         }
       ]
     }

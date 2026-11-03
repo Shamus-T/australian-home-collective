@@ -378,10 +378,10 @@
     {
       "guidePath": "/guides/bedding-and-linen-basics-for-australian-bedrooms/",
       "title": "Bedding and Linen Basics for Australian Bedrooms",
-      "reviewedOn": "2026-11-03",
+      "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "d752c269389e4bf97856735415c6403ff3ae437482b4c4b57d1a0e580c0ded73",
+      "reviewedSourceSha256": "066bf9b02b7b3502536c1e7077787105415d5d18f13659ec65a5f2a4d5f0a49a",
       "requiredProductTypes": [
         {
           "label": "Sheets, quilts and linen",
@@ -395,20 +395,22 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/mattress-sizes-australia/"
       ],
-      "reviewScope": "3 November 2026: contextual mattress-size/profile link added beside fitted-sheet depth guidance. Existing product gaps retained; no new bedding recommendation."
+      "reviewScope": "4 November: contextual bedside-reach and small-room storage links added to support bedding height and linen overflow decisions. Bedding product research gaps retained."
     },
     {
       "guidePath": "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
       "title": "Bedroom Drawers That Open Without Crowding the Room",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "063ef2483bc4bd5a37ae51644d2d020f39b41523cf210562ddc2d062999a854e",
+      "reviewedSourceSha256": "fe5b162469527c8c4c92719e41c63719a20b75f8ef000ab8aee1ed5ea71bd0e2",
       "requiredProductTypes": [
         {
-          "label": "Tallboys and dressers",
-          "productIds": [],
-          "gapReason": "No researched furniture option with anchoring requirements and exact dimensions."
+          "label": "Anchored tallboy and dresser with mirror",
+          "productIds": [
+            "bnd-capri-tallboy-bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy",
+            "bnd-florida-dresser-bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -416,15 +418,15 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/under-bed-storage-what-to-measure-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "4 November: exact Beds n Dreams product variants, current Queensland order availability, dimensions, construction, two-year warranty, limited range reviews and safety/setup boundaries reviewed. Three selected products added; no universal compatibility or nationwide stock claim. See docs/editorial/beds-n-dreams-bedroom-research-2026-11-04.md. Other product dates retained."
     },
     {
       "guidePath": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
       "title": "Bedroom Essentials for a More Comfortable Home",
-      "reviewedOn": "2026-11-03",
+      "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "dba7ec45bad0ee84f53a24850b4b724a5dfe493a717b17ddffd47424744a268d",
+      "reviewedSourceSha256": "7ab798a82ddfd12c83090a8413c55e1ec3c9f5a233f8f9779860d04ad463eabb",
       "requiredProductTypes": [
         {
           "label": "Bedding, bedside lights and window coverings",
@@ -437,6 +439,12 @@
             "bnd-orlando-bedroom-essentials-for-a-more-comfortable-home",
             "bnd-capri-bedroom-essentials-for-a-more-comfortable-home"
           ]
+        },
+        {
+          "label": "Replacement queen drawer-storage frame",
+          "productIds": [
+            "bnd-memphis-queen-bedroom-essentials-for-a-more-comfortable-home"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -444,7 +452,7 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/under-bed-storage-what-to-measure-before-you-buy/"
       ],
-      "reviewScope": "3 November 2026: approved Beds n Dreams campaign, exact variants, dimensions, materials, warranty limitations, owner feedback, recall search and Queensland availability checked. Buying choices added without hands-on or nationwide-stock claims; older unrelated product research dates retained. See docs/editorial/beds-n-dreams-launch-2026-11-03.md."
+      "reviewScope": "4 November: exact Beds n Dreams product variants, current Queensland order availability, dimensions, construction, two-year warranty, limited range reviews and safety/setup boundaries reviewed. Three selected products added; no universal compatibility or nationwide stock claim. See docs/editorial/beds-n-dreams-bedroom-research-2026-11-04.md. Other product dates retained."
     },
     {
       "guidePath": "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
@@ -3286,15 +3294,21 @@
     {
       "guidePath": "/guides/under-bed-storage-what-to-measure-before-you-buy/",
       "title": "Under-Bed Storage You Can Still Reach",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "111598b216c0ced88646230df0d1af773e9122c49174d61890abe933a762b11d",
+      "reviewedSourceSha256": "920bc9a343572ec5134f3bce6aba4aa5924a0408dc0a5eda93014c456d7bb045",
       "requiredProductTypes": [
         {
           "label": "Low-profile under-bed bags",
           "productIds": [
             "amazon-basics-underbed-fabric-bags"
+          ]
+        },
+        {
+          "label": "Replacement queen drawer-storage frame",
+          "productIds": [
+            "bnd-memphis-queen-under-bed-storage-what-to-measure-before-you-buy"
           ]
         }
       ],
@@ -3304,7 +3318,7 @@
       "contextualRoutes": [
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/"
       ],
-      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
+      "reviewScope": "4 November: exact Beds n Dreams product variants, current Queensland order availability, dimensions, construction, two-year warranty, limited range reviews and safety/setup boundaries reviewed. Three selected products added; no universal compatibility or nationwide stock claim. See docs/editorial/beds-n-dreams-bedroom-research-2026-11-04.md. Other product dates retained."
     },
     {
       "guidePath": "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/",
