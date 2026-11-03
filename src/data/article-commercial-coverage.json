@@ -3015,7 +3015,7 @@
       "reviewedOn": "2026-11-03",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "5dc17f806d0532f8762920381cc86acb7611bf8ae1be8a4295aa3e7608702e44",
+      "reviewedSourceSha256": "0b46792e15961d811e85fe27306cb763c33f28802cc5438a961248f98e6eaa63",
       "requiredProductTypes": [
         {
           "label": "Air fryer — unequal dual baskets",
@@ -3025,8 +3025,9 @@
         },
         {
           "label": "Stand mixer — regular home baking",
-          "productIds": [],
-          "gapReason": "3 November: the approved KitchenAid KSM195 Amazon ASIN is currently unavailable in the fresh sweep and separate recheck; buying option paused. Medium-bowl regular-baking alternative remains a research gap. The existing Kenwood XL is not a compact like-for-like substitute."
+          "productIds": [
+            "kitchenaid-artisan-tilt-head-stand-mixer-ksm195"
+          ]
         },
         {
           "label": "Stand mixer — large-batch baking",
@@ -3066,7 +3067,7 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/convection-microwave-vs-air-fryer/"
       ],
-      "reviewScope": "3 November availability repair: paused the confirmed unavailable KitchenAid KSM195 B0FD93C954 offer, recorded the medium-bowl mixer gap and clarified the remaining Kenwood XL fit. Other approved options, images, retailer artwork and historical specification evidence preserved. Evidence: tmp/availability-2026-11-03/."
+      "reviewScope": "3 November availability repair: paused the confirmed unavailable KitchenAid KSM195 B0FD93C954 offer, recorded the medium-bowl mixer gap and clarified the remaining Kenwood XL fit. Other approved options, images, retailer artwork and historical specification evidence preserved. Evidence: tmp/availability-2026-11-03/. Follow-up: restored the existing KSM195 recommendation through The Good Guys exact Porcelain White model 5KSM195PSAPL, with verified specifications, warranty, anonymous availability and approved affiliate destination. Updated colour-matched retailer image and medium/XL comparison. Amazon offer remains absent. Evidence: tmp/ksm195-good-guys-2026-11-03/."
     },
     {
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",

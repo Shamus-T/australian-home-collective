@@ -2059,26 +2059,26 @@
     {
       "id": "kitchenaid-artisan-tilt-head-stand-mixer-ksm195",
       "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
-      "name": "KitchenAid Artisan Tilt-Head Stand Mixer KSM195",
+      "name": "KitchenAid Artisan KSM195 Stand Mixer — Porcelain White 5KSM195PSAPL",
       "productType": "Stand mixer — regular home baking",
-      "summary": "A metal tilt-head mixer supplied with 4.7 L and 2.8 L bowls for regular cakes, biscuits, smaller doughs and recipes that benefit from switching bowls.",
-      "merchant": "Amazon Australia",
-      "destinationUrl": "https://www.amazon.com.au/dp/B0FD93C954?tag=ahc07-22",
-      "linkLabel": "View at Amazon Australia",
+      "summary": "A Porcelain White tilt-head mixer with 4.7 L and 2.8 L bowls for regular cakes, biscuits and moderate dough batches. The linked 5KSM195PSAPL includes a whisk, flex-edge beater, dough hook, pastry beater and pouring shield.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fkitchenaid-artisan-stand-mixer-porcelain-5ksm195psapl",
+      "linkLabel": "Check current price at The Good Guys",
       "affiliate": true,
-      "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "paused",
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
-      "lastReviewedOn": "2026-08-17",
-      "approvedForAffiliateUse": false,
+      "lastReviewedOn": "2026-11-03",
+      "approvedForAffiliateUse": true,
       "affiliateValidation": {
         "checkedOn": "2026-11-03",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "unavailable",
-        "listingStatus": "materially-changed",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -2088,7 +2088,8 @@
       "drawbacks": [
         "At about 11 kg, it is awkward to retrieve from a high or deep cupboard for occasional use.",
         "The 4.7 L main bowl is less suitable for very large dough batches than an XL machine.",
-        "Optional hub attachments add cost and need their own safe storage."
+        "Optional hub attachments add cost and need their own safe storage.",
+        "Allow clearance to raise the head above its 34.3 cm closed height. The Australian five-year household parts-and-labour warranty covers manufacturing faults; check the current terms and care instructions."
       ],
       "suitability": {
         "suits": [
@@ -2180,18 +2181,74 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0FD93C954",
           "supports": "Fresh daily sweep and independent clean request both found the exact KSM195 ASIN B0FD93C954 marked currently unavailable, with no restock estimate. Buying option paused; this does not establish that the model is discontinued. Historical research and images retained; no affiliate redirects or replacement model used.",
           "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "KSM195 Australian specifications and included accessories",
+          "publisher": "KitchenAid Australia",
+          "sourceUrl": "https://kitchenaid.com.au/products/ksm195-stand-mixer",
+          "supports": "3 November: manufacturer confirms 4.7 L and 2.8 L bowls, ten speeds, 300 W, 34.3 H x 21.1 W x 33.8 D cm and 11 kg. Retailer exact Porcelain 5KSM195PSAPL specification and accessory list agree. Model-family suitability retained; no hands-on testing claimed.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "KSM195 household warranty",
+          "publisher": "KitchenAid Australia",
+          "sourceUrl": "https://kitchenaid.com.au/products/ksm195-stand-mixer",
+          "supports": "Manufacturer states full five years parts and labour against manufacturing faults for household use. Retailer exact variant also lists five years. No commercial-use warranty inferred.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Porcelain White KSM195 offer at The Good Guys",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/kitchenaid-artisan-stand-mixer-porcelain-5ksm195psapl",
+          "supports": "3 November clean direct listing: exact model 5KSM195PSAPL, SKU 50091825, new condition, seller The Good Guys, InStock metadata and Add to Cart. AUD729 observed as dated evidence only; delivery and collection depend on postcode. Existing approved camref 1100l6vaUc and creative1011l64579 encoded and checked offline, never requested.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Replacement retailer for the existing KSM195 recommendation",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/kitchenaid-artisan-stand-mixer-porcelain-5ksm195psapl",
+          "supports": "The Good Guys Porcelain White KSM195 is available to order. Unavailable Amazon ASIN B0FD93C954 is not restored. Earlier evidence retains its original dates; exact variant, specifications, warranty, owner feedback and targeted recall searches were refreshed for this retailer change.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved affiliate destination verified offline",
+          "publisher": "AHC",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fkitchenaid-artisan-stand-mixer-porcelain-5ksm195psapl",
+          "supports": "Exact Good Guys 5KSM195PSAPL destination encoded offline using the existing approved camref1100l6vaUc and creative1011l64579. Live clean-page availability and seller checked separately; no affiliate redirect requested and no merchant attribution test performed.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Exact Porcelain KSM195 purchaser feedback",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/kitchenaid-artisan-stand-mixer-porcelain-5ksm195psapl",
+          "supports": "Individual retailer reviews describe regular baking use, useful accessories and weight limiting portability. Positive durability claims are owner opinions, not AHC measurements; no lifespan guarantee or aggregate rating used as proof of performance. Earlier independent evidence retained with original dates.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Targeted Australian recall searches",
+          "publisher": "ACCC Product Safety / KitchenAid Australia",
+          "sourceUrl": "https://kitchenaid.com.au/pages/product-safety-recall",
+          "supports": "3 November targeted indexed searches for KitchenAid KSM195 and Product Safety Australia returned no matching mixer recall. Manufacturer recall notice concerns KEK1722 kettles, not KSM195. Indexed search has coverage limitations and is not a safety certification.",
+          "checkedOn": "2026-11-03"
         }
       ],
       "image": {
-        "src": "/images/products/kitchenaid-artisan-tilt-head-stand-mixer-ksm195-640.webp",
-        "srcSet": "/images/products/kitchenaid-artisan-tilt-head-stand-mixer-ksm195-320.webp 320w, /images/products/kitchenaid-artisan-tilt-head-stand-mixer-ksm195-640.webp 640w",
-        "alt": "KitchenAid Artisan Tilt-Head Stand Mixer KSM195.",
+        "src": "/images/products/kitchenaid-5ksm195psapl-good-guys-640.webp",
+        "srcSet": "/images/products/kitchenaid-5ksm195psapl-good-guys-320.webp 320w, /images/products/kitchenaid-5ksm195psapl-good-guys-640.webp 640w",
+        "alt": "KitchenAid Artisan KSM195 stand mixer in Porcelain White, model 5KSM195PSAPL.",
         "width": 640,
-        "height": 448,
-        "credit": "Product image sourced from KitchenAid.",
-        "sourceUrl": "https://cdn.shopify.com/s/files/1/0172/8692/2294/files/OB_KSM195_03_5e3cc0eb-0c4a-4dbb-b39d-39b5f05307ec.jpg?v=1763599758",
-        "suppliedVia": "Manufacturer product page: https://kitchenaid.com.au/products/ksm195-stand-mixer?variant=39479790960712",
-        "checkedOn": "2026-10-10"
+        "height": 640,
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091825_926080.png?v=1776661512",
+        "suppliedVia": "Approved retailer exact-model product page: https://www.thegoodguys.com.au/kitchenaid-artisan-stand-mixer-porcelain-5ksm195psapl",
+        "checkedOn": "2026-11-03"
       }
     },
     {
