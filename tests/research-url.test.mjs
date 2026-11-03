@@ -25,7 +25,9 @@ test('all currently approved catalogue offers have an offline research destinati
   for (const product of catalogue.products) {
     for (const offer of getRegisteredRetailers(product).filter(offer => offer.affiliate && offer.approvedForAffiliateUse)) {
       const clean = researchUrl(offer.destinationUrl);
-      assert.ok(!clean.includes('?') && !clean.includes('prf.hn'));
+      assert.ok(!clean.includes('prf.hn'));
+      const parsed = new URL(clean);
+      assert.ok(!parsed.search || (parsed.hostname === 'www.bedsndreams.com.au' && /^\?variant=\d+$/.test(parsed.search)));
       checked++;
     }
   }

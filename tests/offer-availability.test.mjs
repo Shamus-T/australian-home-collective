@@ -21,6 +21,26 @@ test('research refuses tagged URLs and never follows redirects or sends cookies'
  assert.equal((await fetchProduct(amazon,mock)).status,302);assert.equal(calls,1);
 });
 const gg='https://www.thegoodguys.com.au/exact-model-abc';
+const bnd='https://www.bedsndreams.com.au/products/example-mattress?variant=123';
+const bndListing=(delivery,variant='123',schemaStock='InStock')=>{
+ const values=['selectedVariant',{'_0':2},'gid://shopify/ProductVariant/'+variant];
+ return `<title>Example mattress</title><script type="application/ld+json">${JSON.stringify({'@type':'Product',name:'Example mattress',url:bnd.split('?')[0],offers:[{url:bnd,availability:'https://schema.org/'+schemaStock}]})}</script><h1>Example mattress</h1>Delivering from Queensland Change Delivery ${delivery} Try in store<script>streamController.enqueue(${JSON.stringify(JSON.stringify(values))})</script>`;
+};
+test('Beds n Dreams requires selected variant and regional delivery, not aggregate schema stock',()=>{
+ assert.equal(inspectProduct(bnd,{status:200,html:bndListing('GET IT NOW')}).status,'available');
+ assert.equal(inspectProduct(bnd,{status:200,html:bndListing('Out of stock')}).status,'unavailable');
+ assert.equal(inspectProduct(bnd,{status:200,html:bndListing('Available in 8 weeks')}).status,'unverified');
+ assert.equal(inspectProduct(bnd,{status:200,html:bndListing('GET IT NOW','999')}).status,'identity-mismatch');
+ assert.equal(inspectProduct(bnd,{status:200,html:bndListing('GET IT NOW','123','OutOfStock')}).status,'unverified');
+ assert.equal(inspectProduct(bnd,{status:200,html:bndListing('GET IT NOW').replace('Delivering from','Region hidden')}).status,'unverified');
+ assert.equal(inspectProduct(bnd,{status:200,html:bndListing('GET IT NOW').replace('streamController.enqueue','doNotExecute')}).status,'identity-mismatch');
+});
+test('Beds n Dreams availability fetch rejects commission redirects and preserves safe variant',async()=>{
+ let calls=0;
+ const mock=async(url,options)=>{calls++;assert.equal(url,bnd);assert.equal(options.redirect,'manual');assert.equal(options.credentials,'omit');return {status:302};};
+ await assert.rejects(()=>fetchProduct('https://bnd.prf.hn/click/camref:1110lSAJY/destination:'+encodeURIComponent(bnd),mock));
+ assert.equal(calls,0);assert.equal((await fetchProduct(bnd,mock)).status,302);assert.equal(calls,1);
+});
 const ggListing=body=>`<title>Exact Product</title><script type="application/ld+json">${JSON.stringify({'@type':'Product',model:'ABC',offers:{url:gg,availability:'https://schema.org/InStock'}})}</script><h1>Exact Product</h1>${body}`;
 test('Good Guys discontinued status overrides stale structured stock; supplier order is distinct',()=>{
  assert.equal(inspectProduct(gg,{status:200,html:ggListing('NOT AVAILABLE This product is no longer available')}).status,'unavailable');

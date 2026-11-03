@@ -1,4 +1,5 @@
 import { manufacturerPriceErrors } from "../src/lib/manufacturer-price.mjs";
+import { partnerizeLinkError } from "../src/lib/partnerize-campaigns.mjs";
 import { editorialDate } from "../src/lib/editorial-date.mjs";
 import { hasExcludedCommercialIdentity } from "../src/lib/commercial-exclusions.mjs";
 import fs from "node:fs";
@@ -366,7 +367,7 @@ function affiliateProgramForUrl(urlValue) {
   return null;
 }
 
-function validateAffiliateTracking(urlValue, network, prefix) {
+function validateAffiliateTracking(urlValue, network, prefix, merchant) {
   const config = catalogue.affiliatePrograms?.[network];
   if (!config) {
     addError(prefix + " uses affiliate network \"" + network + "\" without a tracking configuration.");
@@ -382,10 +383,8 @@ function validateAffiliateTracking(urlValue, network, prefix) {
     addError(prefix + " does not use an allowed host for " + network + ": " + urlValue);
   }
   if (network === "partnerize") {
-    if (!url.pathname.startsWith(`/click/camref:${config.trackingValue}/`)
-      || !url.pathname.includes("/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2F")) {
-      addError(prefix + " must have the configured Partnerize camref and an encoded Good Guys destination.");
-    }
+    const issue = partnerizeLinkError(urlValue, merchant);
+    if (issue) addError(prefix + " must have the configured Partnerize camref and an approved encoded destination: " + issue);
   } else if (url.searchParams.get(config.trackingParameter) !== config.trackingValue) {
     addError(
       prefix + " is missing the current " + network + " tracking value "
@@ -486,7 +485,7 @@ for (const [index, product] of products.entries()) {
   }
   for (const offer of getRegisteredRetailers(product).slice(1)) {
     if (offer?.destinationUrl && offer.affiliate) {
-      validateAffiliateTracking(offer.destinationUrl, offer.affiliateNetwork, prefix + ".additionalRetailers");
+      validateAffiliateTracking(offer.destinationUrl, offer.affiliateNetwork, prefix + ".additionalRetailers", offer.merchant);
     }
   }
 
@@ -544,7 +543,7 @@ for (const [index, product] of products.entries()) {
       addError(prefix + ".affiliateNetwork is required for an affiliate link.");
     }
     if (product.destinationUrl) {
-      validateAffiliateTracking(product.destinationUrl, product.affiliateNetwork, prefix + ".destinationUrl");
+      validateAffiliateTracking(product.destinationUrl, product.affiliateNetwork, prefix + ".destinationUrl", product.merchant);
     }
     const validation = product.affiliateValidation;
     if (!validation || typeof validation !== "object" || Array.isArray(validation)) {
@@ -1007,7 +1006,7 @@ if (checkDist) {
               );
             }
           }
-          validateAffiliateTracking(href, offer.affiliateNetwork, relativePath + " product " + productId);
+          validateAffiliateTracking(href, offer.affiliateNetwork, relativePath + " product " + productId, offer.merchant);
         } else if (attributeValue(anchor, "data-affiliate-trackable") === "true") {
           addError(relativePath + " non-affiliate product " + productId + " is marked for affiliate tracking.");
         }

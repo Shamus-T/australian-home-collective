@@ -1,5 +1,11 @@
 # Affiliate availability monitoring
 
+## Beds n Dreams — added 3 November 2026
+
+The approved Beds n Dreams campaign now has a separate four-hour clean-page workflow, `monitor-beds-n-dreams-availability.yml`. It selects approved offers from the catalogue, deduplicates identical exact-variant destinations and records the retailer's displayed delivery region. The initial three variants are Orlando Queen Firm, Capri Natural bedside and Brooklyn bedside. The local launch check found all three available in the anonymous Queensland context; that is not postcode or nationwide stock assurance.
+
+The parser requires matching selected variant, offer and visible regional delivery text. InStock schema alone cannot clear an unavailable regional offer. Delays, mismatched identity, redirects and access failures remain review items. It never executes retailer scripts, sends cookies, follows affiliate redirects or performs cart actions. The Partnerize product feed was Not Processed and returned 404 at launch, so this workflow explicitly checks clean pages rather than claiming feed coverage. It saves sanitised reports and maintains one owned `beds-n-dreams` availability issue. See `beds-n-dreams-launch-2026-11-03.md` for campaign, source and artwork evidence.
+
 Implemented 24 October 2026. This replaces the expired manual supplier-order exceptions; it does not change affiliate link destinations or image assets.
 
 ## Coverage and cadence

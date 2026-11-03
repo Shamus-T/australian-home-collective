@@ -75,6 +75,36 @@ export function inspectProduct(url, {status,html}) {
   }
   const p=ld.find(n=>n['@type']==='Product'),h1=nodes.find(n=>n.name==='h1');
   result.title=clean(text(h1??{}));
+  if (new URL(url).hostname === 'www.bedsndreams.com.au') {
+    const expected = new URL(url);
+    if (!h1 || !p?.url || !p?.name) return {...result,reason:'Primary product identity missing'};
+    try { if (new URL(p.url).origin + new URL(p.url).pathname !== expected.origin + expected.pathname) return {...result,status:'identity-mismatch',reason:'Product metadata points to another model'}; } catch { return result; }
+    // Decode inert server data only; never execute retailer JavaScript or cart actions.
+    const variants = [];
+    for (const match of html.matchAll(/streamController\.enqueue\(("(?:\\.|[^"\\])*")\)/g)) {
+      try {
+        const values = JSON.parse(JSON.parse(match[1]));
+        if (!Array.isArray(values)) continue;
+        const key = '_' + values.indexOf('selectedVariant');
+        for (const item of values) if (item && !Array.isArray(item) && typeof item === 'object' && key in item) {
+          const id = values[item[key]];
+          if (typeof id === 'string' && /^gid:\/\/shopify\/ProductVariant\/\d+$/.test(id)) variants.push(id.split('/').at(-1));
+        }
+      } catch { /* A non-JSON streamed fragment is not product evidence. */ }
+    }
+    const selected = variants[0];
+    if (!selected || (expected.searchParams.has('variant') && selected !== expected.searchParams.get('variant'))) return {...result,status:'identity-mismatch',reason:'Selected product variant missing or differs from approved variant'};
+    result.identity = `${expected.pathname.split('/').at(-1)}:${selected}`;
+    const offers = Array.isArray(p.offers) ? p.offers : [p.offers];
+    const offer = offers.find(o=>{try{return new URL(o.url).searchParams.get('variant')===selected;}catch{return false;}});
+    const primary = clean(text(parse(html.slice(h1.loc[0].start)))).split('Try in store')[0];
+    const delivery = primary.match(/Delivering from (.*?) Change Delivery (.*)$/i);
+    if (!delivery || !offer) return {...result,reason:'Selected offer or regional delivery text missing'};
+    result.region = delivery[1]; result.availability = delivery[2].trim();
+    if (/out of stock|unavailable/i.test(result.availability)) return {...result,status:'unavailable',reason:'Selected product is unavailable in the displayed region; not a nationwide withdrawal'};
+    if (/GET IT NOW/i.test(result.availability) && /\/InStock$/.test(offer.availability??'')) return {...result,status:'available',reason:'Selected variant, regional delivery text and offer agree; postcode not checked'};
+    return {...result,reason:'Regional delivery estimate needs review; structured stock alone is insufficient'};
+  }
   if (!p?.model || !h1) return {...result,reason:'Exact retailer product identity missing'};
   const offers=Array.isArray(p.offers)?p.offers:[p.offers];
   const declared=p.url??offers.find(o=>o?.url)?.url;

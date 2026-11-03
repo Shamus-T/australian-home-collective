@@ -25,6 +25,7 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
             "commercial-retailer-link",
             { "commercial-retailer-link--amazon": offer.affiliateNetwork === "amazon-australia" },
             { "commercial-retailer-link--good-guys": isGoodGuys(offer) },
+            { "commercial-retailer-link--beds-n-dreams": offer.merchant === "Beds n Dreams" && offer.affiliateNetwork === "partnerize" },
           ]}
           href={offer.destinationUrl}
           target="_blank"
@@ -47,6 +48,8 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
             </svg>
           ) : offer.affiliateNetwork === "amazon-australia" ? (
             <img class="commercial-retailer-badge" src="/images/retailers/amazon-available-official.png" alt="Available at Amazon" width="1500" height="242" loading="eager" />
+          ) : offer.merchant === "Beds n Dreams" && offer.affiliateNetwork === "partnerize" ? (
+            <><img class="commercial-retailer-badge" src="/images/retailers/beds-n-dreams-partnerize.png" alt="Beds n Dreams" width="1504" height="1091" loading="eager" /><span class="commercial-retailer-action">Check price</span></>
           ) : (
             <span class="commercial-retailer-name">{offer.merchant === "Amazon Australia" ? "Amazon" : offer.merchant}</span>
           )}

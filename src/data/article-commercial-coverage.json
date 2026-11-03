@@ -378,10 +378,10 @@
     {
       "guidePath": "/guides/bedding-and-linen-basics-for-australian-bedrooms/",
       "title": "Bedding and Linen Basics for Australian Bedrooms",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-03",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "f12e6fa737bf8dbb5dd3ef362606114de75c4f914fe7b663e03b346666500c35",
+      "reviewedSourceSha256": "d752c269389e4bf97856735415c6403ff3ae437482b4c4b57d1a0e580c0ded73",
       "requiredProductTypes": [
         {
           "label": "Sheets, quilts and linen",
@@ -392,9 +392,10 @@
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/under-bed-storage-what-to-measure-before-you-buy/",
-        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/"
+        "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
+        "/guides/mattress-sizes-australia/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "3 November 2026: contextual mattress-size/profile link added beside fitted-sheet depth guidance. Existing product gaps retained; no new bedding recommendation."
     },
     {
       "guidePath": "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
@@ -420,15 +421,22 @@
     {
       "guidePath": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
       "title": "Bedroom Essentials for a More Comfortable Home",
-      "reviewedOn": "2026-10-26",
+      "reviewedOn": "2026-11-03",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "39a016776274f436edc9eb16c52f6c980427d55326f0c8b6649f1bb8cc935a81",
+      "reviewedSourceSha256": "dba7ec45bad0ee84f53a24850b4b724a5dfe493a717b17ddffd47424744a268d",
       "requiredProductTypes": [
         {
           "label": "Bedding, bedside lights and window coverings",
           "productIds": [],
           "gapReason": "Related articles do not establish product coverage for these purchases."
+        },
+        {
+          "label": "Queen mattress and bedside storage",
+          "productIds": [
+            "bnd-orlando-bedroom-essentials-for-a-more-comfortable-home",
+            "bnd-capri-bedroom-essentials-for-a-more-comfortable-home"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -436,7 +444,7 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/under-bed-storage-what-to-measure-before-you-buy/"
       ],
-      "reviewScope": "26 October2026: contextual mattress-size link added; existing editorial coverage retained."
+      "reviewScope": "3 November 2026: approved Beds n Dreams campaign, exact variants, dimensions, materials, warranty limitations, owner feedback, recall search and Queensland availability checked. Buying choices added without hands-on or nationwide-stock claims; older unrelated product research dates retained. See docs/editorial/beds-n-dreams-launch-2026-11-03.md."
     },
     {
       "guidePath": "/guides/bedroom-lighting-and-window-coverings-what-to-compare-before-you-buy/",
@@ -471,15 +479,21 @@
     {
       "guidePath": "/guides/bedroom-storage-ideas-small-australian-rooms/",
       "title": "Bedroom Storage Ideas for Small Australian Rooms",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-11-03",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "e6b306694ec9ee4043b2b45328ab888d733bb3061a3d3e9bdeb15e5d27f945c5",
+      "reviewedSourceSha256": "9974d79a41c2355f274a414ace20db4a427617113e55d25cdb771019456e1476",
       "requiredProductTypes": [
         {
-          "label": "Small-bedroom storage",
+          "label": "Two-drawer bedside storage",
+          "productIds": [
+            "bnd-capri-bedroom-storage-ideas-small-australian-rooms"
+          ]
+        },
+        {
+          "label": "Other small-bedroom storage needs",
           "productIds": [],
-          "gapReason": "Focused wardrobe and under-bed guides now have approved options, including photographed vacuum bags. This overview still needs a deliberate selection for its own storage use cases; older image gaps in those guides do not invalidate all their options."
+          "gapReason": "No new tallboy, bed frame or under-bed product added. Focused wardrobe and under-bed guides retain their separate selections."
         }
       ],
       "supportingProductIds": [],
@@ -487,7 +501,7 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/under-bed-storage-what-to-measure-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. Coverage register reconciled 18 October against current approved placements: obsolete blanket gaps removed or narrowed. This correction does not refresh product availability dates."
+      "reviewScope": "3 November 2026: approved Beds n Dreams campaign, exact variants, dimensions, materials, warranty limitations, owner feedback, recall search and Queensland availability checked. Buying choices added without hands-on or nationwide-stock claims; older unrelated product research dates retained. See docs/editorial/beds-n-dreams-launch-2026-11-03.md."
     },
     {
       "guidePath": "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
@@ -521,15 +535,17 @@
     {
       "guidePath": "/guides/bedside-table-setup-what-to-check-before-you-buy/",
       "title": "A Bedside Table That Fits the Room and Routine",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-03",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "092e747ffc8e7cfe1957b2d48fc6f28ef5a272380f7b4a80b4737cc75d5f2881",
+      "reviewedSourceSha256": "3f8c6b531abe464399a8537741f4468b53aee0da01a3597d73b2efa2138b9dde",
       "requiredProductTypes": [
         {
-          "label": "Bedside tables",
-          "productIds": [],
-          "gapReason": "No assessed exact table with reach, dimensions and stability evidence."
+          "label": "Bedside tables for lower and higher mattress setups",
+          "productIds": [
+            "bnd-capri-bedside-table-setup-what-to-check-before-you-buy",
+            "bnd-brooklyn-bedside-table-setup-what-to-check-before-you-buy"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -537,7 +553,7 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/under-bed-storage-what-to-measure-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "3 November 2026: approved Beds n Dreams campaign, exact variants, dimensions, materials, warranty limitations, owner feedback, recall search and Queensland availability checked. Buying choices added without hands-on or nationwide-stock claims; older unrelated product research dates retained. See docs/editorial/beds-n-dreams-launch-2026-11-03.md."
     },
     {
       "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
@@ -1932,21 +1948,22 @@
     {
       "guidePath": "/guides/mattress-sizes-australia/",
       "title": "Mattress Sizes Australia: Room, Base and Buying Guide",
-      "reviewedOn": "2026-10-26",
+      "reviewedOn": "2026-11-03",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c204a29f2905bc614fb7198fd6f92e2f31b62741b22ec4973d5efe4723d9112a",
+      "reviewedSourceSha256": "c0d0895fb31c0106fb1527997b146d3f6c7acf02d6b57db7db1f1fc96c144cf9",
       "requiredProductTypes": [
         {
           "label": "Queen pocket-spring mattress",
           "productIds": [
-            "gap-mattress-sizes-australia-b0dpf84t8y"
+            "gap-mattress-sizes-australia-b0dpf84t8y",
+            "bnd-orlando-mattress-sizes-australia"
           ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "26 October2026: exact Giselle Bedding Solene Queen 34cm — MATTRESS-B-LT34-Q researched, seller/returns/warranty and model differences reviewed, primary buying option added. One model does not cover all sizes, budgets or installations. See docs/editorial/commercial-gap-mattress-fan-2026-10-26.md."
+      "reviewScope": "3 November 2026: approved Beds n Dreams campaign, exact variants, dimensions, materials, warranty limitations, owner feedback, recall search and Queensland availability checked. Buying choices added without hands-on or nationwide-stock claims; older unrelated product research dates retained. See docs/editorial/beds-n-dreams-launch-2026-11-03.md."
     },
     {
       "guidePath": "/guides/nappy-change-station-checklist/",

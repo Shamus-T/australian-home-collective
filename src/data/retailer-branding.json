@@ -10,5 +10,11 @@
     "sha256": "6f9e98270f10c6c5b3d1ceb73bfc277d3188cd367bae09beb959a1d1eac9b73d",
     "width": 1500,
     "height": 242
+  },
+  "bedsNDreams": {
+    "src": "/images/retailers/beds-n-dreams-partnerize.png",
+    "sha256": "ef9a7720a8af0ec9ed37f5cad4d3ea44d1f1e681d50c34e1b12e7634cb635257",
+    "width": 1504,
+    "height": 1091
   }
 }

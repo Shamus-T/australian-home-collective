@@ -6,7 +6,7 @@ const JSON_HEADERS = {
 const DEVICE_TYPES = new Set(["desktop", "mobile", "tablet", "unknown"]);
 const AFFILIATE_NETWORKS = new Set(["amazon-australia", "partnerize", "commission-factory", "direct", "other"]);
 const AMAZON_AU_HOSTS = new Set(["amazon.com.au", "www.amazon.com.au"]);
-const PARTNERIZE_HOSTS = new Set(["prf.hn"]);
+const PARTNERIZE_HOSTS = new Set(["prf.hn", "bnd.prf.hn"]);
 const MAX_BODY_BYTES = 4096;
 
 function json(status, body) {

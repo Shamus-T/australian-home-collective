@@ -16,7 +16,8 @@
       "trackingParameter": "camref",
       "trackingValue": "1100l6vaUc",
       "allowedHosts": [
-        "prf.hn"
+        "prf.hn",
+        "bnd.prf.hn"
       ]
     }
   },
@@ -101,7 +102,10 @@
     "/guides/pet-essentials-for-australian-homes/",
     "/guides/pet-feeding-station-ideas-for-australian-homes/",
     "/guides/mattress-sizes-australia/",
-    "/guides/ceiling-fans-before-you-buy/"
+    "/guides/ceiling-fans-before-you-buy/",
+    "/guides/bedside-table-setup-what-to-check-before-you-buy/",
+    "/guides/bedroom-storage-ideas-small-australian-rooms/",
+    "/guides/bedroom-essentials-for-a-more-comfortable-home/"
   ],
   "products": [
     {
@@ -25184,6 +25188,640 @@
           "sourceUrl": "https://hunterpacificinternational.com.au/downloads/installation/Next-Creation-V2-installation-instruction-manual-NC-V2-IUM-v2-0_05-2022.pdf",
           "supports": "Licensed installation, approved controls, structure and isolation; minimum2.1m blade-to-floor clearance. Protected outdoor location only. Installer documentation essential. Current manufacturer warranty terms were checked separately from the installation instructions. No installation instructions rewritten as DIY advice.",
           "checkedOn": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "bnd-orlando-mattress-sizes-australia",
+      "guidePath": "/guides/mattress-sizes-australia/",
+      "name": "Englander Orlando Queen Firm mattress",
+      "productType": "Queen pocket-spring mattress",
+      "summary": "A 153 × 203cm queen with a 28cm profile and five-zone pocket springs. The linked variant is Queen Firm; use it as an in-store comfort shortlist after measuring your base, rather than assuming another brand’s firm rating feels the same.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fenglander-orlando-mattress%3Fvariant%3D41363083821149",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-03",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-03",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "No opened-mattress sleep trial was verified. Try the exact firmness where possible and confirm delivery, return and cancellation terms before paying.",
+        "At 36.7kg, this queen needs a suitable base and a planned delivery route. Ask for the exact support, care and warranty conditions; a ten-year warranty is not a ten-year comfort guarantee.",
+        "Owner reviews cover the Orlando family, not only Queen Firm. One reports slow delivery and sliding on a base. AHC has not tested comfort, temperature or long-term durability."
+      ],
+      "suitability": {
+        "suits": [
+          "adults seeking a lower-profile queen than a 34cm Euro Top",
+          "buyers able to try the Firm feel and confirm the base requirements before ordering"
+        ],
+        "mayNotSuit": [
+          "buyers needing a verified at-home comfort trial",
+          "buyers assuming firm labels, cooling claims or warranty length prove personal comfort"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact product and variant specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/englander-orlando-mattress?variant=41363083821149",
+          "supports": "Exact Queen Firm variant 41363083821149: W1530 × L2030 × H280mm, 36.7kg, five-zone pocket springs; ten-year manufacturer warranty. Page’s materials paragraph mistakenly names Seattle: excluded all claims from that paragraph, including certification and detailed foam-layer claims. Other exact Orlando sections and independent Bedbuyer review corroborate the retained features.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Listed manufacturer warranty and purchase terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/englander-orlando-mattress?variant=41363083821149",
+          "supports": "Ten-year manufacturer warranty shown for Orlando. Claim through retailer with proof of purchase; obtain exact base/support, care and defect exclusions before buying. See retailer terms; no comfort guarantee or unrestricted change-of-mind return inferred.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted verified-buyer feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/englander-orlando-mattress?variant=41363083821149",
+          "supports": "86 pooled family reviews displayed; latest 20 inspected. Several report comfort, many are service-only; one reports a long delivery wait and mattress sliding on its base. Firmness/size not consistently identified: no Queen Firm-specific rating or durability conclusion. Evidence saved in tmp/beds-n-dreams-2026-11-03. Ratings are not independent testing.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact-variant regional delivery observation",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/englander-orlando-mattress?variant=41363083821149",
+          "supports": "Exact selected variant and structured offer agree. Anonymous Queensland context showed GET IT NOW on 3 November. No postcode delivery quote, nationwide stock or guaranteed dispatch claim. Clean HTML only; no cookies, scripts or affiliate requests.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Retailer delivery and return limitations",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Beds n Dreams direct retailer. Confirm postcode delivery, stairs/access, assembly and removal charges before payment. Change-of-mind returns generally not accepted; cancellation charges may apply. Do not promise a mattress sleep trial. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Englander",
+          "supports": "Official RSS and exact brand/model search reviewed. Results included unrelated recalls; no matching exact product recall found. This is a limited search, not independent safety certification. Follow manufacturer setup, care and any anchoring instructions.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fenglander-orlando-mattress%3Fvariant%3D41363083821149",
+          "supports": "User confirmed partnership acceptance. Signed-in Partnerize campaign 1101l6580 active; tracking page generated bnd.prf.hn/click/camref:1110lSAJY with encoded destination. Exact variant appended using that observed structure. Link inspected offline; never followed. Default 2% CPA, 30-day cookie, exclusions and reversals apply. No commission attribution test.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Independent hands-on Orlando review",
+          "publisher": "Bedbuyer",
+          "sourceUrl": "https://bedbuyer.com.au/review/englander-orlando/",
+          "supports": "Independent publisher reports testing Firm, Medium and Plush; corroborates five-zone pocket springs, 28cm Queen dimensions and ten-year warranty. Publisher also uses affiliate links. No medical benefit or long-term lifespan inferred; AHC has not conducted this testing.",
+          "checkedOn": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "bnd-capri-bedside-table-setup-what-to-check-before-you-buy",
+      "guidePath": "/guides/bedside-table-setup-what-to-check-before-you-buy/",
+      "name": "Capri Natural bedside table",
+      "productType": "Two-drawer bedside table",
+      "summary": "A lower bedside option at 50cm high, with a 54 × 44cm footprint and two drawers. Its paper-veneered composite timber construction suits buyers who want the natural-look finish without expecting solid timber.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fcapri-bedside-table%3Fvariant%3D43488987086941",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-03",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-03",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 50cm top may sit too low beside a tall base and deep mattress; test your reach first.",
+        "Composite timber with paper veneer is not solid ash. Protect the finish from spills and confirm care instructions.",
+        "Drawer internal dimensions and load limits were not published. Measure the open-drawer path and confirm assembly and any anchoring requirements before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "lower beds where a 50cm surface is comfortably reachable",
+          "a small, defined bedside storage need that fits within a 54cm-wide footprint"
+        ],
+        "mayNotSuit": [
+          "very narrow bedside gaps or high mattresses",
+          "buyers seeking solid-timber construction or verified heavy drawer loads"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact product and variant specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Natural variant 43488987086941: W540 × D440 × H500mm, 25kg, two drawers, composite timber with paper veneer. The option label Ash is not evidence of solid ash. Two-year manufacturer defect warranty. No drawer-load rating or verified included anchor kit claimed.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Listed manufacturer warranty and purchase terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Two-year manufacturer warranty for defects in materials/workmanship stated on product page; confirm care and installation conditions with the retailer. See retailer terms; no comfort guarantee or unrestricted change-of-mind return inferred.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted verified-buyer feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Three verified-buyer reviews inspected. Comments mention appearance, storage, sturdiness and delivery; one also discusses a tallboy bought with it. Small retailer-hosted sample cannot establish long-term drawer or finish durability. Evidence saved in tmp/beds-n-dreams-2026-11-03. Ratings are not independent testing.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact-variant regional delivery observation",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Exact selected variant and structured offer agree. Anonymous Queensland context showed GET IT NOW on 3 November. No postcode delivery quote, nationwide stock or guaranteed dispatch claim. Clean HTML only; no cookies, scripts or affiliate requests.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Retailer delivery and return limitations",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Beds n Dreams direct retailer. Confirm postcode delivery, stairs/access, assembly and removal charges before payment. Change-of-mind returns generally not accepted; cancellation charges may apply. Do not promise a mattress sleep trial. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Beds%20n%20Dreams",
+          "supports": "Official RSS and exact brand/model search reviewed. Results included unrelated recalls; no matching exact product recall found. This is a limited search, not independent safety certification. Follow manufacturer setup, care and any anchoring instructions.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fcapri-bedside-table%3Fvariant%3D43488987086941",
+          "supports": "User confirmed partnership acceptance. Signed-in Partnerize campaign 1101l6580 active; tracking page generated bnd.prf.hn/click/camref:1110lSAJY with encoded destination. Exact variant appended using that observed structure. Link inspected offline; never followed. Default 2% CPA, 30-day cookie, exclusions and reversals apply. No commission attribution test.",
+          "checkedOn": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "bnd-brooklyn-bedside-table-setup-what-to-check-before-you-buy",
+      "guidePath": "/guides/bedside-table-setup-what-to-check-before-you-buy/",
+      "name": "Brooklyn bedside table",
+      "productType": "Two-drawer bedside table",
+      "summary": "A taller bedside option at 61cm, with a 58 × 40cm footprint and two drawers. Solid Mountain Ash is combined with veneer and composite timber; the whole unit is not solid timber.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fbrooklyn-bedside-table%3Fvariant%3D43488986890333",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-03",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-03",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "At 58cm wide it needs more side clearance than the Capri, despite being 4cm shallower.",
+        "The 61cm top may be too high for a low bed. Measure to the mattress top and check reach while lying down.",
+        "Internal drawer dimensions, load ratings and included anchoring were not established. Confirm these and the delivered assembly state before purchase."
+      ],
+      "suitability": {
+        "suits": [
+          "higher mattress setups where a 61cm surface is reachable",
+          "rooms with 58cm of furniture width available and limited depth"
+        ],
+        "mayNotSuit": [
+          "low beds or narrow side gaps",
+          "buyers requiring an entirely solid-timber unit or established long-term durability evidence"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact product and variant specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/brooklyn-bedside-table?variant=43488986890333",
+          "supports": "Variant 43488986890333: W580 × D400 × H610mm, two drawers; solid Mountain Ash, veneer and composite timber. Two-year manufacturer defect warranty. Not described as all solid timber.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Listed manufacturer warranty and purchase terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/brooklyn-bedside-table?variant=43488986890333",
+          "supports": "Two-year manufacturer warranty for defects in materials/workmanship stated on product page; confirm care and installation conditions with the retailer. See retailer terms; no comfort guarantee or unrestricted change-of-mind return inferred.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted verified-buyer feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/brooklyn-bedside-table?variant=43488986890333",
+          "supports": "Four verified-buyer entries inspected: two specifically mention spacious lined drawers, one is a short Good comment and one discusses a bed light from the suite. The bed-light comment is not evidence about this table. No pooled rating or long-term durability claim. Evidence saved in tmp/beds-n-dreams-2026-11-03. Ratings are not independent testing.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact-variant regional delivery observation",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/brooklyn-bedside-table?variant=43488986890333",
+          "supports": "Exact selected variant and structured offer agree. Anonymous Queensland context showed GET IT NOW on 3 November. No postcode delivery quote, nationwide stock or guaranteed dispatch claim. Clean HTML only; no cookies, scripts or affiliate requests.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Retailer delivery and return limitations",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Beds n Dreams direct retailer. Confirm postcode delivery, stairs/access, assembly and removal charges before payment. Change-of-mind returns generally not accepted; cancellation charges may apply. Do not promise a mattress sleep trial. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Beds%20n%20Dreams",
+          "supports": "Official RSS and exact brand/model search reviewed. Results included unrelated recalls; no matching exact product recall found. This is a limited search, not independent safety certification. Follow manufacturer setup, care and any anchoring instructions.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fbrooklyn-bedside-table%3Fvariant%3D43488986890333",
+          "supports": "User confirmed partnership acceptance. Signed-in Partnerize campaign 1101l6580 active; tracking page generated bnd.prf.hn/click/camref:1110lSAJY with encoded destination. Exact variant appended using that observed structure. Link inspected offline; never followed. Default 2% CPA, 30-day cookie, exclusions and reversals apply. No commission attribution test.",
+          "checkedOn": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "bnd-capri-bedroom-storage-ideas-small-australian-rooms",
+      "guidePath": "/guides/bedroom-storage-ideas-small-australian-rooms/",
+      "name": "Capri Natural bedside table",
+      "productType": "Two-drawer bedside table",
+      "summary": "A lower bedside option at 50cm high, with a 54 × 44cm footprint and two drawers. Its paper-veneered composite timber construction suits buyers who want the natural-look finish without expecting solid timber.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fcapri-bedside-table%3Fvariant%3D43488987086941",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-03",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-03",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 50cm top may sit too low beside a tall base and deep mattress; test your reach first.",
+        "Composite timber with paper veneer is not solid ash. Protect the finish from spills and confirm care instructions.",
+        "Drawer internal dimensions and load limits were not published. Measure the open-drawer path and confirm assembly and any anchoring requirements before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "lower beds where a 50cm surface is comfortably reachable",
+          "a small, defined bedside storage need that fits within a 54cm-wide footprint"
+        ],
+        "mayNotSuit": [
+          "very narrow bedside gaps or high mattresses",
+          "buyers seeking solid-timber construction or verified heavy drawer loads"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact product and variant specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Natural variant 43488987086941: W540 × D440 × H500mm, 25kg, two drawers, composite timber with paper veneer. The option label Ash is not evidence of solid ash. Two-year manufacturer defect warranty. No drawer-load rating or verified included anchor kit claimed.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Listed manufacturer warranty and purchase terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Two-year manufacturer warranty for defects in materials/workmanship stated on product page; confirm care and installation conditions with the retailer. See retailer terms; no comfort guarantee or unrestricted change-of-mind return inferred.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted verified-buyer feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Three verified-buyer reviews inspected. Comments mention appearance, storage, sturdiness and delivery; one also discusses a tallboy bought with it. Small retailer-hosted sample cannot establish long-term drawer or finish durability. Evidence saved in tmp/beds-n-dreams-2026-11-03. Ratings are not independent testing.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact-variant regional delivery observation",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Exact selected variant and structured offer agree. Anonymous Queensland context showed GET IT NOW on 3 November. No postcode delivery quote, nationwide stock or guaranteed dispatch claim. Clean HTML only; no cookies, scripts or affiliate requests.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Retailer delivery and return limitations",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Beds n Dreams direct retailer. Confirm postcode delivery, stairs/access, assembly and removal charges before payment. Change-of-mind returns generally not accepted; cancellation charges may apply. Do not promise a mattress sleep trial. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Beds%20n%20Dreams",
+          "supports": "Official RSS and exact brand/model search reviewed. Results included unrelated recalls; no matching exact product recall found. This is a limited search, not independent safety certification. Follow manufacturer setup, care and any anchoring instructions.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fcapri-bedside-table%3Fvariant%3D43488987086941",
+          "supports": "User confirmed partnership acceptance. Signed-in Partnerize campaign 1101l6580 active; tracking page generated bnd.prf.hn/click/camref:1110lSAJY with encoded destination. Exact variant appended using that observed structure. Link inspected offline; never followed. Default 2% CPA, 30-day cookie, exclusions and reversals apply. No commission attribution test.",
+          "checkedOn": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "bnd-orlando-bedroom-essentials-for-a-more-comfortable-home",
+      "guidePath": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
+      "name": "Englander Orlando Queen Firm mattress",
+      "productType": "Queen pocket-spring mattress",
+      "summary": "A 153 × 203cm queen with a 28cm profile and five-zone pocket springs. The linked variant is Queen Firm; use it as an in-store comfort shortlist after measuring your base, rather than assuming another brand’s firm rating feels the same.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fenglander-orlando-mattress%3Fvariant%3D41363083821149",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-03",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-03",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "No opened-mattress sleep trial was verified. Try the exact firmness where possible and confirm delivery, return and cancellation terms before paying.",
+        "At 36.7kg, this queen needs a suitable base and a planned delivery route. Ask for the exact support, care and warranty conditions; a ten-year warranty is not a ten-year comfort guarantee.",
+        "Owner reviews cover the Orlando family, not only Queen Firm. One reports slow delivery and sliding on a base. AHC has not tested comfort, temperature or long-term durability."
+      ],
+      "suitability": {
+        "suits": [
+          "adults seeking a lower-profile queen than a 34cm Euro Top",
+          "buyers able to try the Firm feel and confirm the base requirements before ordering"
+        ],
+        "mayNotSuit": [
+          "buyers needing a verified at-home comfort trial",
+          "buyers assuming firm labels, cooling claims or warranty length prove personal comfort"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact product and variant specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/englander-orlando-mattress?variant=41363083821149",
+          "supports": "Exact Queen Firm variant 41363083821149: W1530 × L2030 × H280mm, 36.7kg, five-zone pocket springs; ten-year manufacturer warranty. Page’s materials paragraph mistakenly names Seattle: excluded all claims from that paragraph, including certification and detailed foam-layer claims. Other exact Orlando sections and independent Bedbuyer review corroborate the retained features.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Listed manufacturer warranty and purchase terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/englander-orlando-mattress?variant=41363083821149",
+          "supports": "Ten-year manufacturer warranty shown for Orlando. Claim through retailer with proof of purchase; obtain exact base/support, care and defect exclusions before buying. See retailer terms; no comfort guarantee or unrestricted change-of-mind return inferred.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted verified-buyer feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/englander-orlando-mattress?variant=41363083821149",
+          "supports": "86 pooled family reviews displayed; latest 20 inspected. Several report comfort, many are service-only; one reports a long delivery wait and mattress sliding on its base. Firmness/size not consistently identified: no Queen Firm-specific rating or durability conclusion. Evidence saved in tmp/beds-n-dreams-2026-11-03. Ratings are not independent testing.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact-variant regional delivery observation",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/englander-orlando-mattress?variant=41363083821149",
+          "supports": "Exact selected variant and structured offer agree. Anonymous Queensland context showed GET IT NOW on 3 November. No postcode delivery quote, nationwide stock or guaranteed dispatch claim. Clean HTML only; no cookies, scripts or affiliate requests.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Retailer delivery and return limitations",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Beds n Dreams direct retailer. Confirm postcode delivery, stairs/access, assembly and removal charges before payment. Change-of-mind returns generally not accepted; cancellation charges may apply. Do not promise a mattress sleep trial. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Englander",
+          "supports": "Official RSS and exact brand/model search reviewed. Results included unrelated recalls; no matching exact product recall found. This is a limited search, not independent safety certification. Follow manufacturer setup, care and any anchoring instructions.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fenglander-orlando-mattress%3Fvariant%3D41363083821149",
+          "supports": "User confirmed partnership acceptance. Signed-in Partnerize campaign 1101l6580 active; tracking page generated bnd.prf.hn/click/camref:1110lSAJY with encoded destination. Exact variant appended using that observed structure. Link inspected offline; never followed. Default 2% CPA, 30-day cookie, exclusions and reversals apply. No commission attribution test.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Independent hands-on Orlando review",
+          "publisher": "Bedbuyer",
+          "sourceUrl": "https://bedbuyer.com.au/review/englander-orlando/",
+          "supports": "Independent publisher reports testing Firm, Medium and Plush; corroborates five-zone pocket springs, 28cm Queen dimensions and ten-year warranty. Publisher also uses affiliate links. No medical benefit or long-term lifespan inferred; AHC has not conducted this testing.",
+          "checkedOn": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "bnd-capri-bedroom-essentials-for-a-more-comfortable-home",
+      "guidePath": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
+      "name": "Capri Natural bedside table",
+      "productType": "Two-drawer bedside table",
+      "summary": "A lower bedside option at 50cm high, with a 54 × 44cm footprint and two drawers. Its paper-veneered composite timber construction suits buyers who want the natural-look finish without expecting solid timber.",
+      "merchant": "Beds n Dreams",
+      "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fcapri-bedside-table%3Fvariant%3D43488987086941",
+      "linkLabel": "Check at Beds n Dreams",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-03",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-03",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 50cm top may sit too low beside a tall base and deep mattress; test your reach first.",
+        "Composite timber with paper veneer is not solid ash. Protect the finish from spills and confirm care instructions.",
+        "Drawer internal dimensions and load limits were not published. Measure the open-drawer path and confirm assembly and any anchoring requirements before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "lower beds where a 50cm surface is comfortably reachable",
+          "a small, defined bedside storage need that fits within a 54cm-wide footprint"
+        ],
+        "mayNotSuit": [
+          "very narrow bedside gaps or high mattresses",
+          "buyers seeking solid-timber construction or verified heavy drawer loads"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact product and variant specifications",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Natural variant 43488987086941: W540 × D440 × H500mm, 25kg, two drawers, composite timber with paper veneer. The option label Ash is not evidence of solid ash. Two-year manufacturer defect warranty. No drawer-load rating or verified included anchor kit claimed.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Listed manufacturer warranty and purchase terms",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Two-year manufacturer warranty for defects in materials/workmanship stated on product page; confirm care and installation conditions with the retailer. See retailer terms; no comfort guarantee or unrestricted change-of-mind return inferred.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Individual retailer-hosted verified-buyer feedback",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Three verified-buyer reviews inspected. Comments mention appearance, storage, sturdiness and delivery; one also discusses a tallboy bought with it. Small retailer-hosted sample cannot establish long-term drawer or finish durability. Evidence saved in tmp/beds-n-dreams-2026-11-03. Ratings are not independent testing.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Fresh exact-variant regional delivery observation",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/capri-bedside-table?variant=43488987086941",
+          "supports": "Exact selected variant and structured offer agree. Anonymous Queensland context showed GET IT NOW on 3 November. No postcode delivery quote, nationwide stock or guaranteed dispatch claim. Clean HTML only; no cookies, scripts or affiliate requests.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Retailer delivery and return limitations",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/terms-conditions",
+          "supports": "Beds n Dreams direct retailer. Confirm postcode delivery, stairs/access, assembly and removal charges before payment. Change-of-mind returns generally not accepted; cancellation charges may apply. Do not promise a mattress sleep trial. Manufacturer warranty does not replace Australian Consumer Law rights.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Dated Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Beds%20n%20Dreams",
+          "supports": "Official RSS and exact brand/model search reviewed. Results included unrelated recalls; no matching exact product recall found. This is a limited search, not independent safety certification. Follow manufacturer setup, care and any anchoring instructions.",
+          "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved campaign and exact destination checked offline",
+          "publisher": "AHC / Partnerize",
+          "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fcapri-bedside-table%3Fvariant%3D43488987086941",
+          "supports": "User confirmed partnership acceptance. Signed-in Partnerize campaign 1101l6580 active; tracking page generated bnd.prf.hn/click/camref:1110lSAJY with encoded destination. Exact variant appended using that observed structure. Link inspected offline; never followed. Default 2% CPA, 30-day cookie, exclusions and reversals apply. No commission attribution test.",
+          "checkedOn": "2026-11-03"
         }
       ]
     }

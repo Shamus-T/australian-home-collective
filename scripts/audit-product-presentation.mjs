@@ -41,6 +41,11 @@ for(const file of pages){const html=fs.readFileSync(file,'utf8');const article=h
       if(!embedded || digest(Buffer.from(embedded[1],'base64'))!==branding.goodGuys.sha256) errors.push(file+': Good Guys must render the exact approved embedded artwork; text or legacy logos do not pass');
       if(!svg?.[1].includes('viewBox="0 0 868 185"')) errors.push(file+': approved logo proportions missing');
       if(a[2].includes('commercial-retailer-fallback')) errors.push(file+': text fallback must not substitute for approved artwork');
+    } else if(attrs.includes('commercial-retailer-link--beds-n-dreams')) {
+      const img=a[2].match(/<img\b([^>]+)>/);
+      const src=img?.[1].match(/src="([^"]+)"/)?.[1];
+      if(src!==branding.bedsNDreams.src||!fs.existsSync(path.join(dist,src))) errors.push(file+': supplied Beds n Dreams artwork missing');
+      if(!img?.[1].includes('loading="eager"')||!img?.[1].includes('alt="Beds n Dreams"')) errors.push(file+': Beds n Dreams artwork needs eager loading and alt text');
     } else if(attrs.includes('commercial-retailer-link--amazon')) {
       const img=a[2].match(/<img\b([^>]+)>/);
       const src=img?.[1].match(/src="([^"]+)"/)?.[1];

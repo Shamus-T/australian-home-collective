@@ -76,6 +76,9 @@ test("accepts Partnerize clicks only for its tracking host", () => {
   };
   assert.deepEqual(__test.validateEvent(partnerizeClick).event, partnerizeClick);
   assert.ok(__test.validateEvent({ ...partnerizeClick, destinationHost: "example.com" }).error);
+  const bedsClick = {...partnerizeClick, merchant: "Beds n Dreams", destinationHost: "bnd.prf.hn"};
+  assert.deepEqual(__test.validateEvent(bedsClick).event, bedsClick);
+  assert.ok(__test.validateEvent({...bedsClick, destinationHost: "bnd.prf.hn.evil.example"}).error);
 });
 
 test("stores the required click fields without request IP or user-agent data", async () => {

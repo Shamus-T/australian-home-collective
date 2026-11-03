@@ -1,0 +1,74 @@
+name: Monitor Beds n Dreams availability
+
+on:
+  schedule:
+    - cron: '20 0,4,8,12,16,20 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/monitor-beds-n-dreams-availability.yml
+      - src/data/commercial-products.json
+      - src/lib/partnerize-campaigns.mjs
+      - scripts/research-url.mjs
+      - scripts/monitor-offer-availability.mjs
+      - scripts/lib/offer-availability.mjs
+      - scripts/publish-availability-alert.mjs
+      - tests/partnerize-campaigns.test.mjs
+      - tests/offer-availability.test.mjs
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: monitor-beds-n-dreams
+  cancel-in-progress: false
+
+jobs:
+  check-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Test approved campaigns and no-click availability checks
+        run: node --test tests/partnerize-campaigns.test.mjs tests/research-url.test.mjs tests/offer-availability.test.mjs
+      - name: Audit approved affiliate destinations offline
+        run: npm run audit:commercial
+      - name: Restore previous observations
+        uses: actions/cache/restore@v4
+        with:
+          path: .availability-monitor/beds-n-dreams-previous.json
+          key: beds-n-dreams-state-${{ github.run_id }}
+          restore-keys: beds-n-dreams-state-
+      - name: Check exact variants on clean retailer pages
+        run: node scripts/monitor-offer-availability.mjs --merchant="Beds n Dreams" --previous=.availability-monitor/beds-n-dreams-previous.json --output=.availability-monitor/beds-n-dreams.json
+      - name: Publish actionable alert or close resolved alert
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/publish-availability-alert.mjs .availability-monitor/beds-n-dreams.json beds-n-dreams
+      - name: Preserve current observations
+        if: always()
+        run: |
+          if [ -f .availability-monitor/beds-n-dreams.json ]; then
+            cp .availability-monitor/beds-n-dreams.json .availability-monitor/beds-n-dreams-previous.json
+          fi
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .availability-monitor/beds-n-dreams-previous.json
+          key: beds-n-dreams-state-${{ github.run_id }}
+      - name: Save sanitised availability evidence
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: beds-n-dreams-availability
+          path: .availability-monitor/beds-n-dreams.json
+          if-no-files-found: error
+          retention-days: 30

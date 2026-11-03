@@ -7,7 +7,7 @@ export function researchUrl(input, depth = 0) {
   if (url.protocol !== 'https:' || url.username || url.password || url.port) {
     throw new Error('A plain HTTPS product URL is required.');
   }
-  if (url.hostname === 'prf.hn') {
+  if (['prf.hn', 'bnd.prf.hn'].includes(url.hostname)) {
     const destination = url.pathname.match(/^\/click\/[^?]*\/destination:([^/]+)$/);
     if (!destination || url.search || url.hash) throw new Error('Cannot safely decode this tracking link offline. Find a direct product URL.');
     return researchUrl(decodeURIComponent(destination[1]), depth + 1);
@@ -22,6 +22,12 @@ export function researchUrl(input, depth = 0) {
       throw new Error('Expected a direct Good Guys product path.');
     }
     return `https://www.thegoodguys.com.au${url.pathname}`;
+  }
+  if (url.hostname === 'www.bedsndreams.com.au') {
+    if (!/^\/products\/[a-z0-9]+(?:-[a-z0-9]+)*\/?$/.test(url.pathname)) throw new Error('Expected an exact Beds n Dreams product path.');
+    const variants = url.searchParams.getAll('variant');
+    if (variants.length > 1 || (variants.length && !/^\d+$/.test(variants[0]))) throw new Error('Ambiguous Beds n Dreams variant.');
+    return `https://www.bedsndreams.com.au${url.pathname.replace(/\/$/, '')}${variants.length ? '?variant=' + variants[0] : ''}`;
   }
   throw new Error('Unsupported research host. Obtain and inspect a direct manufacturer/retailer product URL; do not resolve a tracking or short link.');
 }

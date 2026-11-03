@@ -1402,6 +1402,23 @@ h3 {
 .commercial-retailer-link--amazon { background: #232f3e; color: #fff; }
 .commercial-retailer-link--good-guys { background: #0871b4; color: #fff; }
 
+.commercial-retailer-links a.commercial-retailer-link--beds-n-dreams {
+  width: 212px;
+  height: 56px;
+  border-radius: 7px;
+  overflow: hidden;
+  background: #33124f;
+  color: #fff;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.commercial-retailer-link--beds-n-dreams .commercial-retailer-badge {
+  width: auto;
+  height: 56px;
+  flex: 0 0 auto;
+}
+.commercial-retailer-action { font-size: 0.875rem; font-weight: 600; }
+
 .commercial-retailer-links a:is(.commercial-retailer-link--amazon, .commercial-retailer-link--good-guys) {
   display: grid;
   place-items: center;

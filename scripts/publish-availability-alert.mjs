@@ -2,7 +2,7 @@
 import fs from 'node:fs/promises';
 import crypto from 'node:crypto';
 const [reportPath,key]=process.argv.slice(2);
-if(!['amazon','good-guys'].includes(key))throw new Error('Unknown monitor');
+if(!['amazon','good-guys','beds-n-dreams'].includes(key))throw new Error('Unknown monitor');
 let report;try{report=JSON.parse(await fs.readFile(reportPath,'utf8'));}catch{report={faults:[{status:'monitor-error',reason:'No current report produced. Inspect the workflow logs.'}]};}
 const faults=Array.isArray(report.faults)?report.faults:[{status:'monitor-error',reason:'Invalid report'}];
 const marker=`<!-- ahc-availability:${key} -->`;
