@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-11-03",
+  "updatedOn": "2026-11-05",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -6131,7 +6131,7 @@
       "guidePath": "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
       "name": "Sterilite 51L Gasket Box",
       "productType": "Gasket-sealed storage tub",
-      "summary": "A clear gasket-sealed tub measuring about 58.7 x 39.7 x 33 cm, suited to long-term garage storage once shelf depth and safe loaded lifting have been checked.",
+      "summary": "A clear gasket-sealed tub measuring about 58.7 x 39.7 x 33 cm, suited to long-term garage storage once shelf depth and safe loaded lifting have been checked. As checked on 5 November 2026, Amazon accepts backorders but lists this tub as temporarily out of stock, with no delivery estimate. It is not suitable for an urgent storage job.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -6223,6 +6223,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0",
+          "checkedOn": "2026-11-05",
+          "supports": "As checked on 5 November 2026, Amazon accepts backorders but lists this tub as temporarily out of stock, with no delivery estimate. It is not suitable for an urgent storage job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ]
     },
@@ -6453,7 +6461,7 @@
       "guidePath": "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
       "name": "Traderight Garden Tool Storage Rack",
       "productType": "Freestanding long-tool rack",
-      "summary": "A freestanding rack for consolidating long-handled tools without loading a wall, once the base footprint and tool count are checked.",
+      "summary": "A freestanding rack for consolidating long-handled tools without loading a wall, once the base footprint and tool count are checked. Availability was unverified on 5 November 2026: Amazon showed buying options without a primary stock statement. Confirm the exact offer, seller and delivery timing before ordering.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B08CDC4SRT?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -6545,6 +6553,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B08CDC4SRT?tag=ahc07-22",
           "supports": "Displayed seller: Sello-Products. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08CDC4SRT",
+          "checkedOn": "2026-11-05",
+          "supports": "Availability was unverified on 5 November 2026: Amazon showed buying options without a primary stock statement. Confirm the exact offer, seller and delivery timing before ordering. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ]
     },
@@ -11436,18 +11452,18 @@
       "linkLabel": "Check current price at The Good Guys",
       "affiliate": true,
       "affiliateNetwork": "partnerize",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-10-09",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-10-09",
-        "destinationStatus": "reachable",
-        "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "baseline-recorded",
+        "checkedOn": "2026-11-05",
+        "destinationStatus": "unreachable",
+        "productIdentityStatus": "unverified",
+        "australianAvailabilityStatus": "unknown",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -11510,6 +11526,14 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Froborock-qrevo-edge-c-robotic-vacuum-rr-qrec02-03-wht",
           "supports": "Feed link contains this campaign camref and the exact Australian Good Guys destination; same campaign redirect format was tested. Online checkout eligibility applies.",
           "checkedOn": "2026-10-09"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November exact destination withdrawn to robot-vacuum category",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/roborock-qrevo-edge-c-robotic-vacuum-rr-qrec02-03-wht",
+          "checkedOn": "2026-11-05",
+          "supports": "Latest scheduled feed/page report had no matching destination and HTTP 301. Two independent anonymous clean requests confirmed the exact product address redirects to the robot-vacuum category; redirects were not followed. Buying option paused because no current exact-model retail destination was verified. Search-index product snippets and the separate commercial portal do not establish an approved retail offer. This does not establish that the model is discontinued or out of stock everywhere. Historical research, image and tracking URL retained."
         }
       ],
       "image": {
@@ -14976,7 +15000,7 @@
       "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves. Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -15063,6 +15087,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ],
       "image": {
@@ -15082,7 +15114,7 @@
       "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves. Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -15169,6 +15201,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ],
       "image": {
@@ -21229,7 +21269,7 @@
       "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves. Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -21316,6 +21356,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ],
       "image": {
@@ -21335,7 +21383,7 @@
       "guidePath": "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves. Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -21422,6 +21470,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ],
       "image": {
@@ -21653,7 +21709,7 @@
       "guidePath": "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves. Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -21740,6 +21796,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ],
       "image": {
@@ -21865,7 +21929,7 @@
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves.",
+      "summary": "A loose caddy with rear wheels brings everyday supplies forward from a deep cupboard. Allow 30.5cm width and 46.5cm depth, plus clearance above the 11cm-high body for bottles, pipes and shelves. Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -21952,6 +22016,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ],
       "image": {
@@ -22077,7 +22149,7 @@
       "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
       "name": "Joseph Joseph CupboardStore Large Easy-Access Caddy",
       "productType": "Freestanding cleaning-supply caddy",
-      "summary": "A removable cupboard caddy for renters who cannot fit permanent drawer runners. Its rear wheels bring supplies forward, but the 30.5 × 46.5cm footprint must clear this property’s hinges and plumbing; a fit here does not guarantee a fit after moving. Allow bottle headroom above its 11cm-high body.",
+      "summary": "A removable cupboard caddy for renters who cannot fit permanent drawer runners. Its rear wheels bring supplies forward, but the 30.5 × 46.5cm footprint must clear this property’s hinges and plumbing; a fit here does not guarantee a fit after moving. Allow bottle headroom above its 11cm-high body. Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B0F847ZC6G?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -22164,6 +22236,14 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ],
       "image": {

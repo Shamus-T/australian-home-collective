@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-04",
+  "updatedOn": "2026-11-05",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -566,7 +566,7 @@
     {
       "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
       "title": "Kitchen Storage That Makes Small Cupboards Easier to Use",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "5f275bb39ed5bd4c6c5103360c66a21bbe4f27220a16f009d382d2f7fa8085c8",
@@ -584,7 +584,7 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
     },
     {
       "guidePath": "/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
@@ -646,7 +646,7 @@
     {
       "guidePath": "/guides/cleaning-product-storage-what-to-check-before-buying-cabinets-or-caddies/",
       "title": "Cleaning Product Storage That Keeps Supplies Under Control",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "5578b0dfe7969f437fece8a84289f96d18e6759dd29014bf50db8e6943f3205a",
@@ -667,7 +667,7 @@
       "contextualRoutes": [
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
     },
     {
       "guidePath": "/guides/coffee-machine-types-australia/",
@@ -1042,7 +1042,7 @@
     {
       "guidePath": "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
       "title": "Garage Storage Tubs Worth Sorting Before Buying More",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "cdfc8a5f9cba0dc7c7711f4a9f6035ebe6fe92b4418e97d8209091dee3a691a8",
@@ -1064,7 +1064,7 @@
       "contextualRoutes": [
         "/guides/garage-shelving-what-to-measure-before-buying-storage-units/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
     },
     {
       "guidePath": "/guides/garage-storage-what-to-measure-and-check-before-you-buy/",
@@ -1131,7 +1131,7 @@
     {
       "guidePath": "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
       "title": "Garage Wall Storage That Keeps Gear Visible",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "f094ebc3dd2297e8ac5ca874d9eda34100537c54913e888deecb248deb5a7655",
@@ -1153,7 +1153,7 @@
       "contextualRoutes": [
         "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
     },
     {
       "guidePath": "/guides/garden-tool-care-and-seasonal-outdoor-reset/",
@@ -1729,7 +1729,7 @@
     {
       "guidePath": "/guides/laundry-storage-what-to-measure-and-check-before-you-buy/",
       "title": "Laundry Storage That Keeps Everyday Items Within Reach",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "3467c14998d587f511b27f34002366ab23a590fa4cadfd8a561dc9f41a87b556",
@@ -1763,7 +1763,7 @@
         "/guides/laundry-basket-storage-what-to-sort-before-buying-hampers-or-sorters/",
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
     },
     {
       "guidePath": "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/",
@@ -2746,7 +2746,7 @@
     {
       "guidePath": "/guides/renter-friendly-kitchen-storage-what-to-check-before-you-buy/",
       "title": "Kitchen Storage for Renters",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "e77975468443b74633116a5cf220f6937e7fd83df99066fc03abf6c25b9cc91b",
@@ -2792,12 +2792,12 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
     },
     {
       "guidePath": "/guides/renter-friendly-laundry-storage-what-to-check-before-you-buy/",
       "title": "Laundry Storage for Renters",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "6db8fab412ffa977a961d5fe333f5f943ce1bbaa73bbdeb5477c0bd7ace963b9",
@@ -2845,7 +2845,7 @@
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
     },
     {
       "guidePath": "/guides/reverse-cycle-heating-explained/",
@@ -2893,10 +2893,10 @@
     {
       "guidePath": "/guides/robot-vacuum-buying-guide-australia/",
       "title": "Robot Vacuum Buying Guide Australia: Docks, Mopping and Navigation",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "5e5e787ba09c98df8fd0ad53702d4295b5e45892e0764aa912acd47912d36e99",
+      "reviewedSourceSha256": "d74979f9f14025474f0a4fc6b95d0126ff956a641b08e5b8c4ef7659a22c384f",
       "requiredProductTypes": [
         {
           "label": "Full-service robot vacuum and roller-mop system",
@@ -2906,14 +2906,13 @@
         },
         {
           "label": "Robot vacuum and mop with self-cleaning dock",
-          "productIds": [
-            "roborock-qrevo-edge-c-good-guys"
-          ]
+          "productIds": [],
+          "gapReason": "5 November: Roborock exact Good Guys product URL redirects to a category and is absent from the monitored feed. Offer paused pending a verified exact-model approved destination or separately authorised replacement research. No claim of worldwide unavailability or discontinuation."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. Coverage register reconciled 18 October against current approved placements: obsolete blanket gaps removed or narrowed. This correction does not refresh product availability dates."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. Coverage register reconciled 18 October against current approved placements: obsolete blanket gaps removed or narrowed. This correction does not refresh product availability dates. 5 November availability maintenance: pause category-redirecting Roborock offer, retain Ecovacs and all artwork, record unresolved exact-model buying option. Evidence tmp/availability-2026-11-05/."
     },
     {
       "guidePath": "/guides/shared-home-office-spaces-how-to-set-up-without-taking-over-the-room/",
@@ -3098,7 +3097,7 @@
     {
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",
       "title": "Small Laundry Storage That Uses Tight Spaces Well",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "0fcdbdae967a0119c4b7f63d71d6e5095e6bb6a45f786697af68595496e6686e",
@@ -3131,7 +3130,7 @@
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps."
+      "reviewScope": "25 October 2026: direct buying options added after fresh exact-model specifications, owner feedback, Australian seller/support, recall and clean availability review. See docs/editorial/commercial-gap-priorities-2026-10-25.md. Broader unsupported storage categories remain explicit gaps. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
     },
     {
       "guidePath": "/guides/smart-home-office-setup-compatibility-power-and-privacy/",
@@ -3350,7 +3349,7 @@
     {
       "guidePath": "/guides/under-sink-kitchen-storage-what-to-check-before-you-buy/",
       "title": "Storage Under the Kitchen Sink",
-      "reviewedOn": "2026-10-30",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
       "reviewedSourceSha256": "fd222bba19b1505fd8a60edbff65f7c50f31cb54b041df13bf97853071a62320",
@@ -3385,7 +3384,7 @@
         "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
         "/guides/small-kitchen-appliances-what-to-check-before-you-buy/"
       ],
-      "reviewScope": "30 October availability repair: paused the missing SimpleHouseware B081K723P2 offer and corrected the buying-section count/intro to match remaining approved products. Expandable-shelf coverage is an explicit gap. Original fit advice, other product research, images and approved retailer artwork preserved. Evidence: tmp/availability-2026-10-30/."
+      "reviewScope": "30 October availability repair: paused the missing SimpleHouseware B081K723P2 offer and corrected the buying-section count/intro to match remaining approved products. Expandable-shelf coverage is an explicit gap. Original fit advice, other product research, images and approved retailer artwork preserved. Evidence: tmp/availability-2026-10-30/. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
     },
     {
       "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",

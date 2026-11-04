@@ -1,5 +1,7 @@
 # Affiliate availability monitoring
 
+Latest maintenance: [5 November destination and availability follow-up](availability-repair-2026-11-05.md).
+
 ## Beds n Dreams — added 3 November 2026
 
 The approved Beds n Dreams campaign has a separate four-hour **identity-only** clean-page workflow, `monitor-beds-n-dreams-availability.yml`. It selects approved offers from the catalogue and deduplicates identical exact-variant destinations. The initial three variants are Orlando Queen Firm, Capri Natural bedside and Brooklyn bedside. Stock is checked by the existing daily local availability follow-up, with `node scripts/monitor-offer-availability.mjs --merchant="Beds n Dreams" --previous=tmp/availability-monitor/beds-n-dreams-previous.json --output=tmp/availability-monitor/beds-n-dreams.json`. Preserve the previous valid report, retain dated copies and verify fresh complete coverage. The local launch check found all three available in the anonymous Queensland context; that is not postcode or nationwide stock assurance.
