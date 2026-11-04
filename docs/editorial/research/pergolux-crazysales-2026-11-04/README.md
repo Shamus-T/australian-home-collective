@@ -4,6 +4,16 @@ The resulting public guide is `/guides/louvred-pergolas-australia/`. It is indep
 
 No Pergolux or Crazy Sales product recommendation is approved by this review. NNE Living remains excluded. The buying guide retains an explicit primary-product gap in `article-commercial-coverage.json`; it is not marked commercially complete.
 
+## Commission Factory integration preparation — 4 November 2026
+
+The signed-in AHC account's Text Links generator was used to generate and read all three Series 4 model links, with the website traffic-source option selected and no custom identifiers. None was navigated, fetched, previewed or resolved. Each encoded destination was checked offline against the clean Australian model page. Account approval, active commission rules and additional terms were also read; commercial terms remain in the private working evidence, not article copy.
+
+The central catalogue now retains three **paused** research records with the actual account-issued destinations. Commission Factory's publisher and advertiser identifiers are in its URL path; the audit validates that path, the exact tracking host and the three allowed model destinations. The research URL helper decodes these links without a network request. Tests cover incorrect publishers, advertiser substitution, destination ambiguity and redirects. URL validation establishes intended routing only, never a sale or attribution result.
+
+Fresh clean-page checks confirmed the named Series 4 identities and the limited operation/lighting distinctions. The product pages still describe five-year mechanism cover and a one-year installation deadline, while the dedicated Australian warranty policy specifies two-year moving-part cover and installation within six months. This has not been reconciled. Existing engineering and anchoring evidence gaps remain open; no contrary safety finding is inferred. Model-selector links do not prove stock for every size or finish. Current exact-variant availability, permitted product artwork and complete approval evidence must be assessed before changing the records to approved.
+
+The guide remains outside `enabledGuidePaths`, the records have `approvedForAffiliateUse: false`, and no new public shopping links are rendered. The public article's disclosures, research-only wording, warranty table and installation limits remain intact. This preparation does not close the publication gate or authorise a merge/deployment of shopping placements.
+
 ## Public evidence retained
 
 - `variant-snapshot.json`: clean Australian storefront product JSON, including exact model/variant/SKU, listed price and availability flag. A storefront flag is not warehouse verification or postcode delivery assurance.

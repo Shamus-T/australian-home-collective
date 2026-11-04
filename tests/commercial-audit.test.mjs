@@ -73,6 +73,26 @@ function validProduct() {
   };
 }
 
+test('commercial audit rejects a wrong Commission Factory publisher on a paused record', () => {
+  const result = runAudit(product => {
+    product.merchant = 'Pergolux AU';
+    product.affiliateNetwork = 'commission-factory';
+    product.destinationUrl = 'https://t.cfjump.com/12345/t/93696?Url=https%3a%2f%2fpergolux.au%2fproducts%2fpergola';
+    product.editorialStatus = 'paused';
+    product.approvedForAffiliateUse = false;
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /invalid Commission Factory tracking/);
+});
+
+test('commercial audit rejects drifting Commission Factory configuration', () => {
+  const result = runAudit(() => {}, catalogue => {
+    catalogue.affiliatePrograms['commission-factory'].trackingValue = '12345';
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /verified publisher path/);
+});
+
 function runAudit(productMutator, catalogueMutator = () => {}) {
   const temporaryDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "ahc-commercial-audit-"));
   const fixturePath = path.join(temporaryDirectory, "catalogue.json");
