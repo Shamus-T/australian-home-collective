@@ -807,10 +807,10 @@
     {
       "guidePath": "/guides/dishwasher-sizes-australia/",
       "title": "Dishwasher Sizes Australia: Measure Before You Buy",
-      "reviewedOn": "2026-11-01",
+      "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "055a8df01b376b0c7f4da91512844e05ffb386c211ff2789f298fa6551964ae7",
+      "reviewedSourceSha256": "0f2cff15948a23d4af416e4373d2a54349da314ac216e1e071fc1a330b1aa25b",
       "requiredProductTypes": [
         {
           "label": "60cm freestanding dishwasher",
@@ -839,7 +839,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed."
+      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed. 4 November dishwasher mobile follow-up: direct installation/rack-layout jumps to the existing four approved models, compact mobile comparison and shorter repeated chooser prose. Preserved old section anchors, full installation constraints, approved affiliate destinations and artwork. No new product/stock claims; see docs/editorial/dishwasher-mobile-buying-journey-2026-11-04.md."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",

@@ -1,4 +1,5 @@
 ---
+import BuyingJourneyNav from "../../../components/BuyingJourneyNav.astro";
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
 import applianceComparisons from "../../../data/appliance-buying-comparisons.json";
@@ -52,7 +53,7 @@ const faqs = [
   category="Kitchen"
   date="Updated November 2026"
   datePublished="2026-07-23"
-  dateModified="2026-11-01"
+  dateModified="2026-11-04"
   readingTime="10 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
@@ -71,34 +72,26 @@ const faqs = [
     it or the open door blocks the only kitchen walkway.
   </p>
 
-  <nav aria-label="Dishwasher buying and measuring guide sections">
-    <p><strong>Find the option for your kitchen:</strong></p>
-    <ul>
-      <li><a href="#dishwasher-full-width">60cm freestanding replacement</a></li>
-      <li><a href="#dishwasher-slimline">45cm slimline for a narrow space</a></li>
-      <li><a href="#dishwasher-integrated">Fully integrated behind a cabinet door</a></li>
-      <li><a href="#commercial-products-dishwasher-sizes-australia">Compare the models and retailer prices</a></li>
-      <li><a href="#dishwasher-dimensions-heading">Measure the opening before ordering</a></li>
-    </ul>
-  </nav>
+  <BuyingJourneyNav title="Find a dishwasher for your kitchen" links={[
+    { href: "#compare-westinghouse-wsf6602xc-good-guys", label: "60cm · cutlery basket", detail: "Westinghouse · 14 place settings" },
+    { href: "#compare-bosch-sms6hci02a-good-guys", label: "60cm · cutlery tray", detail: "Bosch · 15 place settings" },
+    { href: "#compare-bosch-sps6iki01a-good-guys", label: "45cm · slimline", detail: "Bosch · 10 place settings" },
+    { href: "#compare-tgg-gap-integrated-smv4htx01a", label: "Fully integrated", detail: "Bosch · cabinet panel extra" },
+  ]} />
+  <p><strong>Nominal width does not confirm fit.</strong> <a href="#dishwasher-dimensions-heading">Measure the opening and door clearance</a> before ordering. The two 60cm options and slimline have visible appliance fronts; the integrated model needs a matching cabinet panel and suitable cabinetry.</p>
+
+  <CommercialProductBlock guidePath="/guides/dishwasher-sizes-australia/" title="Compare slimline, full-width and integrated dishwashers" intro="Compare the model that matches your installation first, then check rack space and the total installed price. The retailer links open the exact models for current prices and postcode availability. These are research-based assessments, not firsthand tests; check the installation drawing before ordering." variant="comparison" compactComparison comparisonDetails={applianceComparisons} />
 
   <section aria-labelledby="dishwasher-choice-heading">
-    <h2 id="dishwasher-choice-heading">Choose the installation type, then the rack layout</h2>
-    <p>Start with the finished opening and whether you need a visible appliance front or a matching cabinet door. These four options cover three installation formats; they are not ranked as overall winners. Product dimensions alone do not establish a suitable cavity.</p>
-    <h3 id="dishwasher-full-width">60cm freestanding: simpler basket or separate cutlery tray</h3>
-    <ul class="feature-list">
-      <li><strong>Simpler basket layout and lower upfront cost:</strong> compare the <a href="#product-westinghouse-wsf6602xc-good-guys">Westinghouse WSF6602XC</a>, with 14 place settings and six programs. It uses a lower cutlery basket and upper knife shelf, not a full third drawer. It was cheaper than the Bosch at our 1 November check; compare current delivered quotes. Owner feedback includes panel-legibility and service complaints.</li>
-      <li><strong>Separate cutlery tray and 15 place settings:</strong> compare the <a href="#product-bosch-sms6hci02a-good-guys">Bosch SMS6HCI02A</a>. Check tall glasses below the tray and allow its 1,155mm open-door depth plus standing room. Neither the extra capacity nor the tray guarantees a better fit for your cookware.</li>
-    </ul>
-    <h3 id="dishwasher-slimline">45cm slimline: save width, with less room for large cookware</h3>
-    <p>The <a href="#product-bosch-sps6iki01a-good-guys">Bosch SPS6IKI01A</a> trades rack capacity for a 450mm-wide body and 10 place settings. Its upper knife rack is not a full cutlery drawer. Check your largest pans against the narrower baskets; slimline does not necessarily mean cheaper.</p>
-    <h3 id="dishwasher-integrated">Fully integrated: match the cabinetry and budget for the panel</h3>
-    <p>Consider the <a href="#product-tgg-gap-integrated-smv4htx01a">Bosch SMV4HTX01A</a> when the kitchen is designed for a matching cabinet front and hidden controls. It has 14 place settings and a lower cutlery basket. The furniture panel is extra; have the installer check the specified niche, panel, plinth and fixings. It is not a direct swap for a freestanding machine without considering the cabinetry.</p>
-    <p><strong>Need a drawer dishwasher or a different built-under arrangement?</strong> Use the <a href="#dishwasher-types-heading">format guide</a> and <a href="#current-dishwasher-examples-heading">measuring examples</a> first. The drawer and Miele examples are installation references, not additional buying recommendations.</p>
-    <p><a href="#commercial-products-dishwasher-sizes-australia">Compare these four options and check current retailer prices below</a>. Before paying, check the <a href="#dishwasher-order-heading">complete installed cost</a>.</p>
+    <h2 id="dishwasher-choice-heading">Check rack layout and installation before choosing</h2>
+    <h3 id="dishwasher-full-width">60cm freestanding: basket or separate cutlery tray?</h3>
+    <p>The Westinghouse WSF6602XC has a lower cutlery basket and upper knife shelf; the Bosch SMS6HCI02A has a separate cutlery tray. Check tall glasses beneath the tray and your largest cookware in either layout. More place settings do not guarantee a better fit. Compare <a href="#dishwasher-order-heading">delivered and installed prices</a>, not just the appliance price.</p>
+    <h3 id="dishwasher-slimline">45cm slimline: narrower baskets</h3>
+    <p>The Bosch SPS6IKI01A saves width but leaves less room for bulky pans. Its upper knife rack is not a full cutlery drawer, and slimline does not necessarily mean cheaper.</p>
+    <h3 id="dishwasher-integrated">Fully integrated: include the panel and fitting</h3>
+    <p>The Bosch SMV4HTX01A needs a separately supplied furniture panel. Have the installer check the niche, panel weight, plinth and fixings; it is not a direct freestanding replacement without considering cabinetry.</p>
+    <p><strong>Need a drawer dishwasher or a different built-under arrangement?</strong> Use the <a href="#dishwasher-types-heading">format guide</a> and <a href="#current-dishwasher-examples-heading">measuring examples</a>. The drawer and Miele examples are installation references, not additional buying recommendations.</p>
   </section>
-
-  <CommercialProductBlock guidePath="/guides/dishwasher-sizes-australia/" title="Compare slimline, full-width and integrated dishwashers" intro="Compare the model that matches your installation first, then check rack space and the total installed price. The retailer links open the exact models for current prices and postcode availability. These are research-based assessments, not firsthand tests; check the installation drawing before ordering." variant="comparison" comparisonDetails={applianceComparisons} />
 
   <h3>Check the Westinghouse cut-out, not just its body size</h3>
   <p>Westinghouse’s <a href="https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9Njc1NTQ1&lang=" target="_blank" rel="noopener noreferrer">WSF6602XC installation drawing</a> specifies a 600mm-wide × 850mm-high × 580mm-deep cut-out. The appliance itself is 598mm deep, so that cut-out figure is not a promise of a flush front. Allow 1,175mm depth with the door open plus loading room. The <a href="https://www.westinghouse.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjY2OTI1&lang=" target="_blank" rel="noopener noreferrer">manual, page 12</a>, separately shows an 820mm underbench opening with the removable top taken off. Do not apply that height to the complete 845mm-high appliance. Have the installer confirm the permitted arrangement, services and front projection.</p>

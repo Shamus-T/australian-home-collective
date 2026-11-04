@@ -34,4 +34,6 @@ Live browser QA must use `ahc_internal=1` and block analytics and merchants befo
 
 Evidence, deploy time, schema receipt and QA are recorded in `tmp/buying-journey-2026-11-01/`. Before treating any window as covered, verify the collector is receiving unclassified events, the table and production binding exist, and the deployed revision matches. Absence of events alone is not proof of no readers.
 
+Additional 4 November content intervention: the dishwasher mobile comparison was brought forward, with direct model/installation jumps and shorter repeated advice. Read `dishwasher-mobile-buying-journey-2026-11-04.md` and `tmp/dishwasher-mobile-2026-11-04/publication.json` for verification and the deployment boundary. This follows the fridge/laundry mobile changes; retain both release boundaries when interpreting the first window. No new tracking definitions were introduced by the dishwasher content edit.
+
 Follow-up automation: `ahc-appliance-buying-journey-review`, Wednesdays and Saturdays at 09:30 Australia/Brisbane. It also checks that publication actually occurred before analysing collection. Existing availability and commercial-trial automations remain separate.
