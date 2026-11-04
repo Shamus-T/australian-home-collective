@@ -2129,10 +2129,10 @@
     {
       "guidePath": "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
       "title": "Outdoor Shade for the Place the Sun Actually Hits",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "73d40ed6aace4da38313fca41ccb34474cab5c76775fff9189f5e84ad4602177",
+      "reviewedSourceSha256": "aae9adfc3b836faf9bf3e761a398df094063d857203cad8777fdaf2ab732e1d5",
       "requiredProductTypes": [
         {
           "label": "Rectangular shade sail",
@@ -2149,9 +2149,10 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
-        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/"
+        "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+        "/guides/louvred-pergolas-australia/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Added permanent louvred pergola planning context and internal guide link; clarified supporting documentation and foundation assessment. Existing commercial product records and their review dates retained; no new stock verification of those existing products."
     },
     {
       "guidePath": "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
@@ -3435,6 +3436,28 @@
       "supportingProductIds": [],
       "contextualRoutes": [],
       "reviewScope": "18 October contextual format and climate links added to support the researched appliance comparisons; no products added to this sizing guide."
+    },
+    {
+      "guidePath": "/guides/louvred-pergolas-australia/",
+      "title": "Louvred Pergolas in Australia: What to Know Before Buying",
+      "reviewedOn": "2026-11-04",
+      "intent": "buying",
+      "editorialReason": null,
+      "reviewedSourceSha256": "700cf217000fd58ea0854d2ca66436db3177e3b2d07858fe21300a7b9335a018",
+      "requiredProductTypes": [
+        {
+          "label": "Manual and motorised louvred pergola systems",
+          "productIds": [],
+          "gapReason": "Research-only guide. Pergolux Australian Series 4 engineering, anchoring and warranty contradictions remain unresolved; no product recommendation or merchant placement approved. Account-issued links inspected without clicks, but attribution and complete product research not verified."
+        }
+      ],
+      "supportingProductIds": [],
+      "contextualRoutes": [
+        "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/",
+        "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",
+        "/guides/gutter-maintenance-guide/"
+      ],
+      "reviewScope": "Independent buying guidance with official Australian planning and consumer sources; no claimed hands-on testing, numerical wind ratings or product recommendation. Primary product gap intentionally remains open."
     }
   ]
 }

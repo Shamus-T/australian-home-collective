@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Measure the roof, the posts and the movement</title>
+  <desc id="desc">Conceptual pergola planning illustration. A blue louvred roof sits over four posts and an outdoor dining table. Dotted outlines distinguish the outside footprint and the usable space. Not a construction drawing.</desc>
+  <defs>
+    <pattern id="slats" width="32" height="32" patternUnits="userSpaceOnUse"><rect width="32" height="32" fill="#486f86"/><path d="M0 5H32M0 13H32" stroke="#aec9d4" stroke-width="4"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="none" stroke="#b95437" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="1200" height="900" rx="30" fill="#f5f3ed"/>
+  <path d="M80 665L675 800L1130 567L545 440Z" fill="#e4ddd0"/>
+  <path d="M190 645L680 750L1030 567L545 465Z" fill="none" stroke="#b95437" stroke-width="4" stroke-dasharray="13 10"/>
+  <path d="M307 640L662 715L910 584L555 510Z" fill="#c2cec1" fill-opacity=".5" stroke="#56785c" stroke-width="3" stroke-dasharray="8 8"/>
+  <g fill="#243f50"><path d="M218 355L242 359V644L218 639Z"/><path d="M626 446L652 451V733L626 728Z"/><path d="M990 268L1014 264V551L990 562Z"/><path d="M570 185L593 191V477L570 472Z"/></g>
+  <path d="M207 331L581 148L1025 245L649 441Z" fill="url(#slats)" stroke="#243f50" stroke-width="14"/>
+  <path d="M208 331L650 429V464L208 365Z" fill="#35586c"/>
+  <path d="M650 429L1025 245V281L650 464Z" fill="#243f50"/>
+  <g stroke="#78523e" stroke-width="10" fill="none"><path d="M470 571V642M728 605V668M597 510V580M856 546V606"/></g>
+  <path d="M450 560L596 487L874 547L728 622Z" fill="#bc805b" stroke="#875d43" stroke-width="4"/>
+  <g fill="#c1a045" stroke="#897230" stroke-width="4"><path d="M406 599L453 575L509 587L463 613Z"/><path d="M584 638L632 615L687 627L640 652Z"/><path d="M646 474L694 452L747 464L701 489Z"/><path d="M818 511L866 488L921 500L875 525Z"/></g>
+  <path d="M150 684L634 791" stroke="#b95437" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <path d="M1073 241V163" stroke="#b95437" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <g font-family="Arial, sans-serif" fill="#233b32">
+    <text x="68" y="82" font-size="38" font-weight="700">Make room for the whole structure</text>
+    <text x="68" y="123" font-size="24">Roof footprint · space between posts · moving blades</text>
+    <text x="78" y="815" font-size="25" fill="#99432c">Outside footprint</text>
+    <text x="745" y="745" font-size="25" fill="#426448">Usable space</text>
+    <text x="1045" y="140" text-anchor="end" font-size="23">Check open height</text>
+    <text x="68" y="865" font-size="20" fill="#59655e">AHC planning illustration · not to scale or an installation design</text>
+  </g>
+</svg>

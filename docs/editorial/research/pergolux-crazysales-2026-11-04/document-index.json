@@ -1,0 +1,726 @@
+{
+  "reviewedOn": "2026-11-04",
+  "scope": "42 size and mount drawings; 12 manuals covering 3x3 and 4x6 freestanding and wall mounted across three Series 4 models. Global official assembly portal, not a verified Australian engineering approval. Dimensions extracted from labelled drawing fields; do not treat nominal sizes as exact footprint. Representative 3x3 drawings visually checked. Labelled L/W fields are preserved as printed, not certified outside dimensions. Manual 3x6 freestanding PN-200002870 prints L=5640 but 5960 outside base plates; reconcile with manufacturer before use.",
+  "documents": [
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a917d6ff1ff1f3de6d33265_3x3_P_FS_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-0-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "9427769bf6963c7895555899a9a4a31aa8f2ae8afd12e98f1babb5a4a6f2a544"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f19352e6a466cfa5bea3_PERGOLA%204%20-%203X3%20FREESTANDING%20-%20PN-200002992.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-1-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "e2239b0252617ad2fe71e87f8e4e10d9d758a7508a30bdb18412d73efc37434c",
+      "extractedIdentity": "PERGOLA 4 - 3X3 FREESTANDING",
+      "sku": "PER_MA_GL_XXX_3X3_FRE_04",
+      "massKg": 176,
+      "labelledDimensionsMm": {
+        "length": 3000,
+        "width": 3000,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a9181801c3a21abbe102b6e_3X3_P_WM_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-2-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "f7688294ae656f017b3feb88b6ce22e2cd3244eba8ddb15edc5329235b3265ec"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f154ffb6667560ee2d37_PERGOLA%204%20-%203X3%20WALLMOUNTED%20-%20PN-200003013.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-3-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "2f5043b147841accaf0c7a93bf4047e7fd533c66bcf60d512481a5b35e0b5b61",
+      "extractedIdentity": "PERGOLA 4 - 3X3 WALLMOUNTED",
+      "sku": "PER_MA_GL_XXX_3X3_WAL_04",
+      "massKg": 151,
+      "labelledDimensionsMm": {
+        "length": 2880,
+        "width": 3000,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f18bae11cc89bd018399_PERGOLA%204%20-%203X4%20FREESTANDING%20-%20PN-200002702.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-5-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "1067468304ddf28368e828516ac9aed90e15f64246cd6274670e64fd11767474",
+      "extractedIdentity": "PERGOLA 4 - 3X4 FREESTANDING",
+      "sku": "PER_MA_GL_XXX_3X4_FRE_04",
+      "massKg": 209,
+      "labelledDimensionsMm": {
+        "length": 3900,
+        "width": 3000,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f1457b184da1ab76a157_PERGOLA%204%20-%203X4%20WALLMOUNTED%20-%20PN-200002790.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-7-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "0bb13e5fce381e20750b840b3b743bb660d2d0d3fade879089d2a146542da861",
+      "extractedIdentity": "PERGOLA 4 - 3X4 WALLMOUNTED",
+      "sku": "PER_MA_GL_XXX_3X4_WAL_04",
+      "massKg": 186,
+      "labelledDimensionsMm": {
+        "length": 3900,
+        "width": 2880,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f1827c74310652a9bcb7_PERGOLA%204%20-%203X5%20FREESTANDING%20-%20PN-200002997.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-9-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "64b78c0261a8fbfa2327dbdb57b1554688b51b50ccdcd923f8dc199c12f452df",
+      "extractedIdentity": "PERGOLA 4 - 3X5 FREESTANDING",
+      "sku": "PER_MA_GL_XXX_3X5_FRE_04",
+      "massKg": 242,
+      "labelledDimensionsMm": {
+        "length": 4800,
+        "width": 3000,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f13edca286f2ec756e81_PERGOLA%204%20-%203X5%20WALLMOUNTED%20-%20PN-200003010.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-11-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "95f4bfdb2e44208b32f87b3f9539d8426aa466b7cf4898e68be523ac89e11909",
+      "extractedIdentity": "PERGOLA 4 - 3X5 WALLMOUNTED",
+      "sku": "PER_MA_GL_XXX_3X5_WAL_04",
+      "massKg": 215,
+      "labelledDimensionsMm": {
+        "length": 4800,
+        "width": 2880,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f175c8860ee2dd88ee32_PERGOLA%204%20-%203X6%20FREESTANDING%20-%20PN-200002870.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-13-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "6667091cf5853236fb239e2a74e53f776b8f615f783915c1519733dd4fab71e1",
+      "extractedIdentity": "PERGOLA 4 - 3X6 FREESTANDING",
+      "sku": "PER_MA_GL_XXX_3X6_FRE_04",
+      "massKg": 307,
+      "labelledDimensionsMm": {
+        "length": 5640,
+        "width": 3000,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f137441e930caf8f5ae1_PERGOLA%204%20-%203X6%20WALLMOUNTED%20-%20PN-200002874.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-15-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "6c24f3fd69db4e765df9319cbab0f1649d513b5e22a2ed2967177cf01daa62d8",
+      "extractedIdentity": "PERGOLA 4 - 3X6 WALLMOUNTED",
+      "sku": "PER_MA_GL_XXX_3X6_WAL_04",
+      "massKg": 272,
+      "labelledDimensionsMm": {
+        "length": 5880,
+        "width": 2880,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f16f6c9254538c25d833_PERGOLA%204%20-%204X4%20FREESTANDING%20-%20PN-200002998.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-17-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "de19a00d8d179bfdc0656f265d3a88e42d29b34059d076e173bff70c23c5435e",
+      "extractedIdentity": "PERGOLA 4 - 4X4 FREESTANDING",
+      "sku": "PER_MA_GL_XXX_4X4_FRE_04",
+      "massKg": 247,
+      "labelledDimensionsMm": {
+        "length": 3900,
+        "width": 3900,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f12c4a7346a752bbd234_PERGOLA%204%20-%204X4%20WALLMOUNTED%20-%20PN-200003014.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-19-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "6e1a6b3a9c133803dec616e263c14c11870da46f9b6144e2b0280422f0fc393d",
+      "extractedIdentity": "PERGOLA 4 - 4X4 WALLMOUNTED",
+      "sku": "PER_MA_GL_XXX_4X4_WAL_04",
+      "massKg": 222,
+      "labelledDimensionsMm": {
+        "length": 3900,
+        "width": 3780,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f164c2feaedc774e024d_PERGOLA%204%20-%204X5%20FREESTANDING%20-%20PN-200003015.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-21-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "0e2eec74cab51723e83cd0af2c02d3d5949da9ed2c420929f52f8f9303bdff28",
+      "extractedIdentity": "PERGOLA 4 - 4X5 FREESTANDING",
+      "sku": "PER_MA_GL_XXX_4X5_FRE_04",
+      "massKg": 289,
+      "labelledDimensionsMm": {
+        "length": 4800,
+        "width": 3900,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f1227792f958172fe167_PERGOLA%204%20-%204X5%20WALLMOUNTED%20-%20PN-200002950.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-23-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "b0072c379563e343eb558aacbde0265d9174c76af39c0603fdd205c687ac928d",
+      "extractedIdentity": "PERGOLA 4 - 4X5 WALLMOUNTED",
+      "sku": "PER_MA_GL_XXX_4X5_WAL_04",
+      "massKg": 262,
+      "labelledDimensionsMm": {
+        "length": 4800,
+        "width": 3780,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a91815e3853166aa9fc2004_4X6_P_FS_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-24-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "81e5f3e8417a7cdd3e1d42ea4d41e82ffa5296d53cfd9eae459f11872f15fff5"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f15ea9139c3c33cc9d71_PERGOLA%204%20-%204X6%20FREESTANDING%20-%20PN-200003016.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-25-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "c76d4befb513789e968fa13c5ab63632d6495fbf4696012518b79f4e35756971",
+      "extractedIdentity": "PERGOLA 4 - 4X6 FREESTANDING",
+      "sku": "PER_MA_GL_XXX_4X6_FRE_04",
+      "massKg": 363,
+      "labelledDimensionsMm": {
+        "length": 5880,
+        "width": 3900,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a9181ec1c3a21abbe1077f5_4X6_P_WM_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-26-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "4728d02d1e61e64be1dca39a6f818f1ca05c590c1f587f5da78cf1ea51d64817"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f119441e930caf8f4e12_PERGOLA%204%20-%204X6%20WALLMOUNTED%20-%20PN-200002891.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-27-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4",
+      "sha256": "1570e1bbbdc0ea88a2877d8897ce557a15bfeb6959be9d1ed333e20d51cd5969",
+      "extractedIdentity": "PERGOLA 4 - 4X6 WALLMOUNTED",
+      "sku": "PER_MA_GL_XXX_4X6_WAL_04",
+      "massKg": 324,
+      "labelledDimensionsMm": {
+        "length": 5880,
+        "width": 3780,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a918236ebaa997fed2efb9d_3x3_PERGOLA_PRO_FS_ENGLISH_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-pro-0-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "cdc9315df0a152073d06fe1dd1bd8a4a3d1af83b825f0a446d550ce415cd2216"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f0f424d3eca916af63f4_PERGOLA%204%20PRO%20-%203X3%20FREESTANDING%20-%20PN-200002951.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-1-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "dc1fcfd5aef7f09692ec27a4a2973eb3103fc175e80af003e432e48ae1783bca",
+      "extractedIdentity": "PERGOLA 4 PRO - 3X3 FREESTANDING",
+      "sku": "SUN_MA_GL_XXX_3X3_FRE_04",
+      "massKg": 213,
+      "labelledDimensionsMm": {
+        "length": 3000,
+        "width": 3000,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a91836c52548156b183dc2c_3X3_PERGOLA_PRO_ENGLISH_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-pro-2-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "fb6240c5a56105fbeb16e1666b8c73d09bd26b3fa466033e54fd78876ab112b8"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f0a4ca47f88c72d82c80_PERGOLA%204%20PRO%20-%203X3%20WALLMOUNTED%20-%20PN-200002968.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-3-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "09ec3e5c2dc09161db4102cbfc5a0948f62821ae2051500d9561ff176e1fe936",
+      "extractedIdentity": "PERGOLA 4 PRO - 3X3 WALLMOUNTED",
+      "sku": "SUN_MA_GL_XXX_3X3_WAL_04",
+      "massKg": 186,
+      "labelledDimensionsMm": {
+        "length": 3000,
+        "width": 2880,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f0ea8aabbeec5140e0b6_PERGOLA%204%20PRO%20-%203X4%20FREESTANDING%20-%20PN-200002628.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-5-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "99239de84b122a3baf56ffd4a2a7d1b1115a72bf20d8f9ad45951a1305313f40",
+      "extractedIdentity": "PERGOLA 4 PRO - 3X4 FREESTANDING",
+      "sku": "SUN_MA_GL_XXX_3X4_FRE_04",
+      "massKg": 257,
+      "labelledDimensionsMm": {
+        "length": 3900,
+        "width": 3000,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f09b8ee7300fa8b7dcc6_PERGOLA%204%20PRO%20-%203X4%20WALLMOUNTED%20-%20PN-200002809.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-7-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "95d0172a5ce803bf1203a1ca0acb8e094ac7d84596a17cab680a14b9478426b0",
+      "extractedIdentity": "PERGOLA 4 PRO - 3X4 WALLMOUNTED",
+      "sku": "SUN_MA_GL_XXX_3X4_WAL_04",
+      "massKg": 228,
+      "labelledDimensionsMm": {
+        "length": 3900,
+        "width": 2880,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f0de37aa92ea35c86bb1_PERGOLA%204%20PRO%20-%203X5%20FREESTANDING%20-%20PN-200002955.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-9-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "e6b5ecdd021d3993ae6a0fcbcac0c087a3478bbe7823d76e236683c0a5c4fca1",
+      "extractedIdentity": "PERGOLA 4 PRO - 3X5 FREESTANDING",
+      "sku": "SUN_MA_GL_XXX_3X5_FRE_04",
+      "massKg": 301,
+      "labelledDimensionsMm": {
+        "length": 4800,
+        "width": 3000,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f0932b99d53ca1bcf06a_PERGOLA%204%20PRO%20-%203X5%20WALLMOUNTED%20-%20PN-200002970.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-11-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "8073df364164913896cd53886c7f6cd792e31b2a36e7ee455a61ecce91cf85e1",
+      "extractedIdentity": "PERGOLA 4 PRO - 3X5 WALLMOUNTED",
+      "sku": "SUN_MA_GL_XXX_3X5_WAL_04",
+      "massKg": 271,
+      "labelledDimensionsMm": {
+        "length": 4800,
+        "width": 2880,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f0d8c4e2717582dc3375_PERGOLA%204%20PRO%20-%203X6%20FREESTANDING%20-%20PN-200002864.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-13-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "71ecf417ea2da7f7504caa4e151b68824b24e536acd3ef561ccb6d4540fcd5b2",
+      "extractedIdentity": "PERGOLA 4 PRO - 3X6 FREESTANDING",
+      "sku": "SUN_MA_GL_XXX_3X6_FRE_04",
+      "massKg": 378,
+      "labelledDimensionsMm": {
+        "length": 5880,
+        "width": 3000,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f07ddcf1601663221a0a_PERGOLA%204%20PRO%20-%203X6%20WALLMOUNTED%20-%20PN-200002877.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-15-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "f6bd79c0c562e1784371f6593748d9f9bc4ff3ed7e98a174517eeef74bca3321",
+      "extractedIdentity": "PERGOLA 4 PRO - 3X6 WALLMOUNTED",
+      "sku": "SUN_MA_GL_XXX_3X6_WAL_04",
+      "massKg": 335,
+      "labelledDimensionsMm": {
+        "length": 5880,
+        "width": 2880,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f0d173617640b91a53cb_PERGOLA%204%20PRO%20-%204X4%20FREESTANDING%20-%20PN-200002978.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-17-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "b0dc025fc09b49cd7448e57100fbebeda8f8e9956ad9401c6a119c4783992a2b",
+      "extractedIdentity": "PERGOLA 4 PRO - 4X4 FREESTANDING",
+      "sku": "SUN_MA_GL_XXX_4X4_FRE_04",
+      "massKg": 310,
+      "labelledDimensionsMm": {
+        "length": 3900,
+        "width": 3900,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f07468651f786aed62b6_PERGOLA%204%20PRO%20-%204X4%20WALLMOUNTED%20-%20PN-200002977.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-19-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "fb79414c46b75cd5c62e4db0be0ea7b56f7f75f4e4b09cb7188037f6c152d199",
+      "extractedIdentity": "PERGOLA 4 PRO - 4X4 WALLMOUNTED",
+      "sku": "SUN_MA_GL_XXX_4X4_WAL_04",
+      "massKg": 281,
+      "labelledDimensionsMm": {
+        "length": 3900,
+        "width": 3780,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f0c79221ccec6660a8be_PERGOLA%204%20PRO%20-%204X5%20FREESTANDING%20-%20PN-200002986.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-21-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "993bce261925d93e34c973e66b75aa2f539e4d74cacd9156bd6528bd6b4fe3c0",
+      "extractedIdentity": "PERGOLA 4 PRO - 4X5 FREESTANDING",
+      "sku": "SUN_MA_GL_XXX_4X5_FRE_04",
+      "massKg": 364,
+      "labelledDimensionsMm": {
+        "length": 4800,
+        "width": 3900,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f069028ebdbbbdd51932_PERGOLA%204%20PRO%20-%204X5%20WALLMOUNTED%20-%20PN-200002976.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-23-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "12353b49914f76cd3e986e2d0077eb68f5dc888dcb4b4271931edd6ef7520f03",
+      "extractedIdentity": "PERGOLA 4 PRO - 4X5 WALLMOUNTED",
+      "sku": "SUN_MA_GL_XXX_4X5_WAL_04",
+      "massKg": 333,
+      "labelledDimensionsMm": {
+        "length": 4800,
+        "width": 3780,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a91834f53c1bcac61199af9_4X6_PERGOLA_PRO_FS_ENGLISH_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-pro-24-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "f04a7f15a8e7d68dc0dc68ce9cba7d6d252d66ef6651bfc01f54b5e7c9c0c3d9"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f0bff0a48e852fe6002c_PERGOLA%204%20PRO%20-%204X6%20FREESTANDING%20-%20PN-200002987.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-25-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "1785277312b2e706bb3afb78f79462034f52a56b148fc2b0abb901225f0d43fa",
+      "extractedIdentity": "PERGOLA 4 PRO - 4X6 FREESTANDING",
+      "sku": "SUN_MA_GL_XXX_4X6_FRE_04",
+      "massKg": 455,
+      "labelledDimensionsMm": {
+        "length": 5880,
+        "width": 3900,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a9183e84f3865f13a6e6bd2_4x6_PERGOLA_PRO_ENGLISH_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-pro-26-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "a2fed2cab3422dfa3de579289e4dc20567be8f78c65088f34110de461e646506"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0f05f6eab67b41ae57fdb_PERGOLA%204%20PRO%20-%204X6%20WALLMOUNTED%20-%20PN-200002882.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-27-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro",
+      "sha256": "def6ac31f53111411b30132de744e754e68034afc4c0940d185f796bcda74545",
+      "extractedIdentity": "PERGOLA 4 PRO - 4X6 WALLMOUNTED",
+      "sku": "SUN_MA_GL_XXX_4X6_WAL_04",
+      "massKg": 414,
+      "labelledDimensionsMm": {
+        "length": 5880,
+        "width": 3780,
+        "heightClosed": 2525
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a918b25dc6434c9faea84ec_3X3_PPM_FS_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-pro-max-0-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "ab9acfce394e3cdde349595f873e0930b8b7bc88c82840e93402a062ffc203be"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e31ba3c7f0b39a455a5d_PERGOLA%204%20PRO%20MAX%20-%203X3%20FREESTANDING%20-%20PN-200003563.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-1-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "d8a26b7079e824f742da55176ba692a61b907bf5d2421eedae648e72527750d7",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 3X3 FREESTANDING",
+      "sku": "SKY_MA_GL_XXX_3X3_FRE_04",
+      "massKg": 315,
+      "labelledDimensionsMm": {
+        "length": 3060,
+        "width": 3060,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a918e747e6462733b6f25d6_3X3_PPM_WM_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-pro-max-2-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "3a8691a056e8cb55ec672e6f2b962743342207e63b9895051281db2688b1d95b"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e269ffc058b8ba68aaa9_PERGOLA%204%20PRO%20MAX%20-%203X3%20WALLMOUNTED%20-%20PN-200003564.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-3-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "2ce64a487be7f878f7de974d9899cfd66371648dcdd2e2fb444e19979c785b10",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 3X3 WALLMOUNTED",
+      "sku": "SKY_MA_GL_XXX_3X3_WAL_04",
+      "massKg": 270,
+      "labelledDimensionsMm": {
+        "length": 3060,
+        "width": 2910,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e2f0ee239ea5aa2627eb_PERGOLA%204%20PRO%20MAX%20-%203X4%20FREESTANDING%20-%20PN-200003598.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-5-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "d48c6e6539a09d522423435002ed9f8e53409505616a725257524677a0aa09c7",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 3X4 FREESTANDING",
+      "sku": "SKY_MA_GL_XXX_3X4_FRE_04",
+      "massKg": 374,
+      "labelledDimensionsMm": {
+        "length": 3960,
+        "width": 3060,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e22867c5f301b89e0b70_PERGOLA%204%20PRO%20MAX%20-%203X4%20WALLMOUNTED%20-%20PN-200003577.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-7-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "d6274f451e6bace471bc9efc09f20c4068aae43a8a04b775f2e3885c1e9ec395",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 3X4 WALLMOUNTED",
+      "sku": "SKY_MA_GL_XXX_3X4_WAL_04",
+      "massKg": 327,
+      "labelledDimensionsMm": {
+        "length": 3960,
+        "width": 2910,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e30effceb7a105127227_PERGOLA%204%20PRO%20MAX%20-%203X5%20FREESTANDING%20-%20PN-200003599.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-9-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "743f46671b361754f4b3f85a4ba431224916931d043a0fd711517cac55578a96",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 3X5 FREESTANDING",
+      "sku": "SKY_MA_GL_XXX_3X5_FRE_04",
+      "massKg": 434,
+      "labelledDimensionsMm": {
+        "length": 4860,
+        "width": 3060,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e21dd593822bf612699b_PERGOLA%204%20PRO%20MAX%20-%203X5%20WALLMOUNTED%20-%20PN-200003578.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-11-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "77e51fa8e4e48accd69184c0763ac57d1507bbe61e81bef01973d05519942ea3",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 3X5 WALLMOUNTED",
+      "sku": "SKY_MA_GL_XXX_3X5_WAL_04",
+      "massKg": 384,
+      "labelledDimensionsMm": {
+        "length": 4860,
+        "width": 2910,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e2cf26fa771f649c26ee_PERGOLA%204%20PRO%20MAX%20-%203X6%20FREESTANDING%20-%20PN-200003600.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-13-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "bfb0b2fdb03f627baf99558ef0aae0c22e89b44600750a2e14ce01f0cc2e1986",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 3X6 FREESTANDING",
+      "sku": "SKY_MA_GL_XXX_3X6_FRE_04",
+      "massKg": 493,
+      "labelledDimensionsMm": {
+        "length": 5760,
+        "width": 3060,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e2167f8af6177f545e7c_PERGOLA%204%20PRO%20MAX%20-%203X6%20WALLMOUNTED%20-%20PN-200003579.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-15-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "13388a56be4d6a81d51069c035c57027ba77d1bf3cf20dd627236a78df91f4a8",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 3X6 WALLMOUNTED",
+      "sku": "SKY_MA_GL_XXX_3X6_WAL_04",
+      "massKg": 442,
+      "labelledDimensionsMm": {
+        "length": 5760,
+        "width": 2910,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e2c7d669c48489b5ee1c_PERGOLA%204%20PRO%20MAX%20-%204X4%20FREESTANDING%20-%20PN-200002361.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-17-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "58e003ac8f6af0061ab3f9cd0b154918640cb90bc78168eb10fc3dab31cf8c6a",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 4X4 FREESTANDING",
+      "sku": "SKY_MA_GL_XXX_4X4_FRE_04",
+      "massKg": 443,
+      "labelledDimensionsMm": {
+        "length": 3960,
+        "width": 3960,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e20fdca286f2ec71577a_PERGOLA%204%20PRO%20MAX%20-%204X4%20WALLMOUNTED%20-%20PN-200002377.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-19-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "7485814b2810e18ea654063bbba5bf7d8f9e68b2f2d4e9b9814617bccfe555d6",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 4X4 WALLMOUNTED",
+      "sku": "SKY_MA_GL_XXX_4X4_WAL_04",
+      "massKg": 398,
+      "labelledDimensionsMm": {
+        "length": 3960,
+        "width": 3810,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e2b1032b7a20c55ba184_PERGOLA%204%20PRO%20MAX%20-%204X5%20FREESTANDING%20-%20PN-200002480.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-21-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "f5d8584faf4b0001072fea3ebf66906f703218a6e02cfa1e225b5bd1714599cf",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 4X5 FREESTANDING",
+      "sku": "SKY_MA_GL_XXX_4X5_FRE_04",
+      "massKg": 518,
+      "labelledDimensionsMm": {
+        "length": 4860,
+        "width": 3960,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e1f6e4e1bba9de82af2c_PERGOLA%204%20PRO%20MAX%20-%204X5%20WALLMOUNTED%20-%20PN-200002502.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-23-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "b57e116f74bc1036217a186d58802b460657cf05fadc25b0f9098d76e77b68a1",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 4X5 WALLMOUNTED",
+      "sku": "SKY_MA_GL_XXX_4X5_WAL_04",
+      "massKg": 469,
+      "labelledDimensionsMm": {
+        "length": 4860,
+        "width": 3810,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a918e5b2ff6e43a3580d5a0_4X6_PPM_FS_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-pro-max-24-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "0c61d8e4a7f0d6c79d89b2e2b43684b54dad4ce7a5b092f0afcfa3bd58188693"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e2a6dfa88db7e8d82888_PERGOLA%204%20PRO%20MAX%20-%204X6%20FREESTANDING%20-%20PN-200002481.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-25-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "baecb99247fae58de23032690f3f5c5c780ad331a1087b2f497129e2462265b0",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 4X6 FREESTANDING",
+      "sku": "SKY_MA_GL_XXX_4X6_FRE_04",
+      "massKg": 591,
+      "labelledDimensionsMm": {
+        "length": 5760,
+        "width": 3960,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a918f03b879e9158596d9fe_4X6_PPM_WM_COMPRESS.pdf",
+      "label": "Manual",
+      "file": "pergolux-pergola-4-pro-max-26-manual.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "ce277bdaa1832b3368853c3f16a159617daa433d258117d954bd040b6f22534b"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/69e0e1b237d1e8e66346df6d_PERGOLA%204%20PRO%20MAX%20-%204X6%20WALLMOUNTED.pdf",
+      "label": "Drawing",
+      "file": "pergolux-pergola-4-pro-max-27-drawing.pdf",
+      "sourcePage": "https://www.pergolux.app/products/pergolux-pergola-4-pro-max",
+      "sha256": "fc2b4c9b7534d767361ed8df87e45a02e0716b046390bb3a3ba37fa9fbbd9778",
+      "extractedIdentity": "PERGOLA 4 PRO MAX - 4X6 WALLMOUNTED",
+      "sku": "SKY_MA_GL_XXX_4X6_WAL_04",
+      "massKg": 540,
+      "labelledDimensionsMm": {
+        "length": 5760,
+        "width": 3810,
+        "heightClosed": 2630
+      }
+    },
+    {
+      "label": "Australian limited warranty, effective January 2025",
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/AU_-_PERGOLUX_-_LIMITED_WARRANTY.pdf?v=1756684356",
+      "sha256": "93e3925cba3c68d60c80e3e21da871cf6e0a541a86c8d2aff4757399d021cbc3",
+      "scope": "Older product names; current Series 4 applicability and marketing inconsistencies unresolved."
+    }
+  ]
+}

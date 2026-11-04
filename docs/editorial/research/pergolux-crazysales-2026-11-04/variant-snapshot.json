@@ -1,0 +1,1198 @@
+{
+  "reviewedOn": "2026-11-04",
+  "timezone": "Australia/Brisbane",
+  "method": "Anonymous clean public Shopify product JSON; no checkout, affiliate redirect or postcode test. Available is the storefront flag, not verified warehouse stock or delivery.",
+  "publicationStatus": "research-only; no products approved",
+  "products": [
+    {
+      "handle": "pergola",
+      "available": true,
+      "variants": [
+        {
+          "id": 53471686263150,
+          "title": "Anthracite / 3x3m / Freestanding",
+          "sku": "PER_MA_GL_ANT_3X3_FRE_04",
+          "available": true,
+          "priceAUD": 4799
+        },
+        {
+          "id": 53471686295918,
+          "title": "Anthracite / 3x3m / Wall Mounted",
+          "sku": "PER_MA_GL_ANT_3X3_WAL_04",
+          "available": true,
+          "priceAUD": 4799
+        },
+        {
+          "id": 53471686328686,
+          "title": "Anthracite / 3x4m / Freestanding",
+          "sku": "PER_MA_GL_ANT_3X4_FRE_04",
+          "available": true,
+          "priceAUD": 6399
+        },
+        {
+          "id": 53471686361454,
+          "title": "Anthracite / 3x4m / Wall Mounted",
+          "sku": "PER_MA_GL_ANT_3X4_WAL_04",
+          "available": true,
+          "priceAUD": 6399
+        },
+        {
+          "id": 53471686394222,
+          "title": "Anthracite / 3x5m / Freestanding",
+          "sku": "PER_MA_GL_ANT_3X5_FRE_04",
+          "available": true,
+          "priceAUD": 8299
+        },
+        {
+          "id": 53471686426990,
+          "title": "Anthracite / 3x5m / Wall Mounted",
+          "sku": "PER_MA_GL_ANT_3X5_WAL_04",
+          "available": true,
+          "priceAUD": 8299
+        },
+        {
+          "id": 53471686459758,
+          "title": "Anthracite / 3x6m / Freestanding",
+          "sku": "PER_MA_GL_ANT_3X6_FRE_04",
+          "available": true,
+          "priceAUD": 10099
+        },
+        {
+          "id": 53471686492526,
+          "title": "Anthracite / 3x6m / Wall Mounted",
+          "sku": "PER_MA_GL_ANT_3X6_WAL_04",
+          "available": true,
+          "priceAUD": 10099
+        },
+        {
+          "id": 53471686525294,
+          "title": "Anthracite / 4x4m / Freestanding",
+          "sku": "PER_MA_GL_ANT_4X4_FRE_04",
+          "available": true,
+          "priceAUD": 9899
+        },
+        {
+          "id": 53471686558062,
+          "title": "Anthracite / 4x4m / Wall Mounted",
+          "sku": "PER_MA_GL_ANT_4X4_WAL_04",
+          "available": true,
+          "priceAUD": 9899
+        },
+        {
+          "id": 53471686590830,
+          "title": "Anthracite / 4x5m / Freestanding",
+          "sku": "PER_MA_GL_ANT_4X5_FRE_04",
+          "available": true,
+          "priceAUD": 10749
+        },
+        {
+          "id": 53471686623598,
+          "title": "Anthracite / 4x5m / Wall Mounted",
+          "sku": "PER_MA_GL_ANT_4X5_WAL_04",
+          "available": true,
+          "priceAUD": 10749
+        },
+        {
+          "id": 53471686656366,
+          "title": "Anthracite / 4x6m / Freestanding",
+          "sku": "PER_MA_GL_ANT_4X6_FRE_04",
+          "available": true,
+          "priceAUD": 12199
+        },
+        {
+          "id": 53471686689134,
+          "title": "Anthracite / 4x6m / Wall Mounted",
+          "sku": "PER_MA_GL_ANT_4X6_WAL_04",
+          "available": true,
+          "priceAUD": 12199
+        },
+        {
+          "id": 53471686721902,
+          "title": "White / 3x3m / Freestanding",
+          "sku": "PER_MA_GL_WHI_3X3_FRE_04",
+          "available": true,
+          "priceAUD": 4799
+        },
+        {
+          "id": 53471686754670,
+          "title": "White / 3x3m / Wall Mounted",
+          "sku": "PER_MA_GL_WHI_3X3_WAL_04",
+          "available": true,
+          "priceAUD": 4799
+        },
+        {
+          "id": 53471686787438,
+          "title": "White / 3x4m / Freestanding",
+          "sku": "PER_MA_GL_WHI_3X4_FRE_04",
+          "available": true,
+          "priceAUD": 6399
+        },
+        {
+          "id": 53471686820206,
+          "title": "White / 3x4m / Wall Mounted",
+          "sku": "PER_MA_GL_WHI_3X4_WAL_04",
+          "available": true,
+          "priceAUD": 6399
+        },
+        {
+          "id": 53471686852974,
+          "title": "White / 3x5m / Freestanding",
+          "sku": "PER_MA_GL_WHI_3X5_FRE_04",
+          "available": true,
+          "priceAUD": 8299
+        },
+        {
+          "id": 53471686885742,
+          "title": "White / 3x5m / Wall Mounted",
+          "sku": "PER_MA_GL_WHI_3X5_WAL_04",
+          "available": true,
+          "priceAUD": 8299
+        },
+        {
+          "id": 53471686918510,
+          "title": "White / 3x6m / Freestanding",
+          "sku": "PER_MA_GL_WHI_3X6_FRE_04",
+          "available": true,
+          "priceAUD": 10099
+        },
+        {
+          "id": 53471686951278,
+          "title": "White / 3x6m / Wall Mounted",
+          "sku": "PER_MA_GL_WHI_3X6_WAL_04",
+          "available": true,
+          "priceAUD": 10099
+        },
+        {
+          "id": 53471686984046,
+          "title": "White / 4x4m / Freestanding",
+          "sku": "PER_MA_GL_WHI_4X4_FRE_04",
+          "available": true,
+          "priceAUD": 9899
+        },
+        {
+          "id": 53471687016814,
+          "title": "White / 4x4m / Wall Mounted",
+          "sku": "PER_MA_GL_WHI_4X4_WAL_04",
+          "available": true,
+          "priceAUD": 9899
+        },
+        {
+          "id": 53471687049582,
+          "title": "White / 4x5m / Freestanding",
+          "sku": "PER_MA_GL_WHI_4X5_FRE_04",
+          "available": true,
+          "priceAUD": 10749
+        },
+        {
+          "id": 53471687082350,
+          "title": "White / 4x5m / Wall Mounted",
+          "sku": "PER_MA_GL_WHI_4X5_WAL_04",
+          "available": true,
+          "priceAUD": 10749
+        },
+        {
+          "id": 53471687115118,
+          "title": "White / 4x6m / Freestanding",
+          "sku": "PER_MA_GL_WHI_4X6_FRE_04",
+          "available": true,
+          "priceAUD": 12199
+        },
+        {
+          "id": 53471687147886,
+          "title": "White / 4x6m / Wall Mounted",
+          "sku": "PER_MA_GL_WHI_4X6_WAL_04",
+          "available": true,
+          "priceAUD": 12199
+        },
+        {
+          "id": 53471687180654,
+          "title": "Anthracite with white louvers / 3x3m / Freestanding",
+          "sku": "PER_MA_GL_ANW_3X3_FRE_04",
+          "available": true,
+          "priceAUD": 4799
+        },
+        {
+          "id": 53471687213422,
+          "title": "Anthracite with white louvers / 3x3m / Wall Mounted",
+          "sku": "PER_MA_GL_ANW_3X3_WAL_04",
+          "available": true,
+          "priceAUD": 4799
+        },
+        {
+          "id": 53471687246190,
+          "title": "Anthracite with white louvers / 3x4m / Freestanding",
+          "sku": "PER_MA_GL_ANW_3X4_FRE_04",
+          "available": true,
+          "priceAUD": 6399
+        },
+        {
+          "id": 53471687278958,
+          "title": "Anthracite with white louvers / 3x4m / Wall Mounted",
+          "sku": "PER_MA_GL_ANW_3X4_WAL_04",
+          "available": true,
+          "priceAUD": 6399
+        },
+        {
+          "id": 53471687311726,
+          "title": "Anthracite with white louvers / 3x5m / Freestanding",
+          "sku": "PER_MA_GL_ANW_3X5_FRE_04",
+          "available": true,
+          "priceAUD": 8299
+        },
+        {
+          "id": 53471687344494,
+          "title": "Anthracite with white louvers / 3x5m / Wall Mounted",
+          "sku": "PER_MA_GL_ANW_3X5_WAL_04",
+          "available": true,
+          "priceAUD": 8299
+        },
+        {
+          "id": 53471687377262,
+          "title": "Anthracite with white louvers / 3x6m / Freestanding",
+          "sku": "PER_MA_GL_ANW_3X6_FRE_04",
+          "available": true,
+          "priceAUD": 10099
+        },
+        {
+          "id": 53471687410030,
+          "title": "Anthracite with white louvers / 3x6m / Wall Mounted",
+          "sku": "PER_MA_GL_ANW_3X6_WAL_04",
+          "available": true,
+          "priceAUD": 10099
+        },
+        {
+          "id": 53471687442798,
+          "title": "Anthracite with white louvers / 4x4m / Freestanding",
+          "sku": "PER_MA_GL_ANW_4X4_FRE_04",
+          "available": true,
+          "priceAUD": 9899
+        },
+        {
+          "id": 53471687475566,
+          "title": "Anthracite with white louvers / 4x4m / Wall Mounted",
+          "sku": "PER_MA_GL_ANW_4X4_WAL_04",
+          "available": true,
+          "priceAUD": 9899
+        },
+        {
+          "id": 53471687508334,
+          "title": "Anthracite with white louvers / 4x5m / Freestanding",
+          "sku": "PER_MA_GL_ANW_4X5_FRE_04",
+          "available": true,
+          "priceAUD": 10749
+        },
+        {
+          "id": 53471687541102,
+          "title": "Anthracite with white louvers / 4x5m / Wall Mounted",
+          "sku": "PER_MA_GL_ANW_4X5_WAL_04",
+          "available": true,
+          "priceAUD": 10749
+        },
+        {
+          "id": 53471687573870,
+          "title": "Anthracite with white louvers / 4x6m / Freestanding",
+          "sku": "PER_MA_GL_ANW_4X6_FRE_04",
+          "available": true,
+          "priceAUD": 12199
+        },
+        {
+          "id": 53471687606638,
+          "title": "Anthracite with white louvers / 4x6m / Wall Mounted",
+          "sku": "PER_MA_GL_ANW_4X6_WAL_04",
+          "available": true,
+          "priceAUD": 12199
+        }
+      ],
+      "source": "https://pergolux.au/products/pergola.js"
+    },
+    {
+      "handle": "pergola-pro",
+      "available": true,
+      "variants": [
+        {
+          "id": 53471683838318,
+          "title": "Anthracite / 3x3m / Freestanding",
+          "sku": "SUN_MA_GL_ANT_3X3_FRE_04",
+          "available": true,
+          "priceAUD": 6299
+        },
+        {
+          "id": 53471683871086,
+          "title": "Anthracite / 3x3m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANT_3X3_WAL_04",
+          "available": true,
+          "priceAUD": 6299
+        },
+        {
+          "id": 53471683903854,
+          "title": "Anthracite / 3x4m / Freestanding",
+          "sku": "SUN_MA_GL_ANT_3X4_FRE_04",
+          "available": true,
+          "priceAUD": 7899
+        },
+        {
+          "id": 53471683936622,
+          "title": "Anthracite / 3x4m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANT_3X4_WAL_04",
+          "available": true,
+          "priceAUD": 7899
+        },
+        {
+          "id": 53471683969390,
+          "title": "Anthracite / 3x5m / Freestanding",
+          "sku": "SUN_MA_GL_ANT_3X5_FRE_04",
+          "available": true,
+          "priceAUD": 10349
+        },
+        {
+          "id": 53471684002158,
+          "title": "Anthracite / 3x5m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANT_3X5_WAL_04",
+          "available": true,
+          "priceAUD": 10349
+        },
+        {
+          "id": 53471684034926,
+          "title": "Anthracite / 3x6m / Freestanding",
+          "sku": "SUN_MA_GL_ANT_3X6_FRE_04",
+          "available": true,
+          "priceAUD": 11849
+        },
+        {
+          "id": 53471684067694,
+          "title": "Anthracite / 3x6m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANT_3X6_WAL_04",
+          "available": true,
+          "priceAUD": 11849
+        },
+        {
+          "id": 53471684100462,
+          "title": "Anthracite / 4x4m / Freestanding",
+          "sku": "SUN_MA_GL_ANT_4X4_FRE_04",
+          "available": true,
+          "priceAUD": 10899
+        },
+        {
+          "id": 53471684133230,
+          "title": "Anthracite / 4x4m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANT_4X4_WAL_04",
+          "available": true,
+          "priceAUD": 10899
+        },
+        {
+          "id": 53471684165998,
+          "title": "Anthracite / 4x5m / Freestanding",
+          "sku": "SUN_MA_GL_ANT_4X5_FRE_04",
+          "available": true,
+          "priceAUD": 13299
+        },
+        {
+          "id": 53471684198766,
+          "title": "Anthracite / 4x5m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANT_4X5_WAL_04",
+          "available": true,
+          "priceAUD": 13299
+        },
+        {
+          "id": 53471684231534,
+          "title": "Anthracite / 4x6m / Freestanding",
+          "sku": "SUN_MA_GL_ANT_4X6_FRE_04",
+          "available": true,
+          "priceAUD": 14599
+        },
+        {
+          "id": 53471684264302,
+          "title": "Anthracite / 4x6m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANT_4X6_WAL_04",
+          "available": true,
+          "priceAUD": 14599
+        },
+        {
+          "id": 53471684297070,
+          "title": "White / 3x3m / Freestanding",
+          "sku": "SUN_MA_GL_WHI_3X3_FRE_04",
+          "available": true,
+          "priceAUD": 6299
+        },
+        {
+          "id": 53471684329838,
+          "title": "White / 3x3m / Wall Mounted",
+          "sku": "SUN_MA_GL_WHI_3X3_WAL_04",
+          "available": true,
+          "priceAUD": 6299
+        },
+        {
+          "id": 53471684362606,
+          "title": "White / 3x4m / Freestanding",
+          "sku": "SUN_MA_GL_WHI_3X4_FRE_04",
+          "available": true,
+          "priceAUD": 7899
+        },
+        {
+          "id": 53471684395374,
+          "title": "White / 3x4m / Wall Mounted",
+          "sku": "SUN_MA_GL_WHI_3X4_WAL_04",
+          "available": true,
+          "priceAUD": 7899
+        },
+        {
+          "id": 53471684428142,
+          "title": "White / 3x5m / Freestanding",
+          "sku": "SUN_MA_GL_WHI_3X5_FRE_04",
+          "available": true,
+          "priceAUD": 10349
+        },
+        {
+          "id": 53471684460910,
+          "title": "White / 3x5m / Wall Mounted",
+          "sku": "SUN_MA_GL_WHI_3X5_WAL_04",
+          "available": true,
+          "priceAUD": 10349
+        },
+        {
+          "id": 53471684493678,
+          "title": "White / 3x6m / Freestanding",
+          "sku": "SUN_MA_GL_WHI_3X6_FRE_04",
+          "available": true,
+          "priceAUD": 11849
+        },
+        {
+          "id": 53471684526446,
+          "title": "White / 3x6m / Wall Mounted",
+          "sku": "SUN_MA_GL_WHI_3X6_WAL_04",
+          "available": true,
+          "priceAUD": 11849
+        },
+        {
+          "id": 53471684559214,
+          "title": "White / 4x4m / Freestanding",
+          "sku": "SUN_MA_GL_WHI_4X4_FRE_04",
+          "available": true,
+          "priceAUD": 10899
+        },
+        {
+          "id": 53471684591982,
+          "title": "White / 4x4m / Wall Mounted",
+          "sku": "SUN_MA_GL_WHI_4X4_WAL_04",
+          "available": true,
+          "priceAUD": 10899
+        },
+        {
+          "id": 53471684624750,
+          "title": "White / 4x5m / Freestanding",
+          "sku": "SUN_MA_GL_WHI_4X5_FRE_04",
+          "available": true,
+          "priceAUD": 13299
+        },
+        {
+          "id": 53471684657518,
+          "title": "White / 4x5m / Wall Mounted",
+          "sku": "SUN_MA_GL_WHI_4X5_WAL_04",
+          "available": true,
+          "priceAUD": 13299
+        },
+        {
+          "id": 53471684690286,
+          "title": "White / 4x6m / Freestanding",
+          "sku": "SUN_MA_GL_WHI_4X6_FRE_04",
+          "available": true,
+          "priceAUD": 14599
+        },
+        {
+          "id": 53471684723054,
+          "title": "White / 4x6m / Wall Mounted",
+          "sku": "SUN_MA_GL_WHI_4X6_WAL_04",
+          "available": true,
+          "priceAUD": 14599
+        },
+        {
+          "id": 53471684755822,
+          "title": "Anthracite with white louvres / 3x3m / Freestanding",
+          "sku": "SUN_MA_GL_ANW_3X3_FRE_04",
+          "available": true,
+          "priceAUD": 6299
+        },
+        {
+          "id": 53471684788590,
+          "title": "Anthracite with white louvres / 3x3m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANW_3X3_WAL_04",
+          "available": true,
+          "priceAUD": 6299
+        },
+        {
+          "id": 53471684821358,
+          "title": "Anthracite with white louvres / 3x4m / Freestanding",
+          "sku": "SUN_MA_GL_ANW_3X4_FRE_04",
+          "available": true,
+          "priceAUD": 7899
+        },
+        {
+          "id": 53471684854126,
+          "title": "Anthracite with white louvres / 3x4m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANW_3X4_WAL_04",
+          "available": true,
+          "priceAUD": 7899
+        },
+        {
+          "id": 53471684886894,
+          "title": "Anthracite with white louvres / 3x5m / Freestanding",
+          "sku": "SUN_MA_GL_ANW_3X5_FRE_04",
+          "available": true,
+          "priceAUD": 10349
+        },
+        {
+          "id": 53471684919662,
+          "title": "Anthracite with white louvres / 3x5m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANW_3X5_WAL_04",
+          "available": true,
+          "priceAUD": 10349
+        },
+        {
+          "id": 53471684952430,
+          "title": "Anthracite with white louvres / 3x6m / Freestanding",
+          "sku": "SUN_MA_GL_ANW_3X6_FRE_04",
+          "available": true,
+          "priceAUD": 11849
+        },
+        {
+          "id": 53471684985198,
+          "title": "Anthracite with white louvres / 3x6m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANW_3X6_WAL_04",
+          "available": true,
+          "priceAUD": 11849
+        },
+        {
+          "id": 53471685017966,
+          "title": "Anthracite with white louvres / 4x4m / Freestanding",
+          "sku": "SUN_MA_GL_ANW_4X4_FRE_04",
+          "available": true,
+          "priceAUD": 10899
+        },
+        {
+          "id": 53471685050734,
+          "title": "Anthracite with white louvres / 4x4m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANW_4X4_WAL_04",
+          "available": true,
+          "priceAUD": 10899
+        },
+        {
+          "id": 53471685083502,
+          "title": "Anthracite with white louvres / 4x5m / Freestanding",
+          "sku": "SUN_MA_GL_ANW_4X5_FRE_04",
+          "available": true,
+          "priceAUD": 13299
+        },
+        {
+          "id": 53471685116270,
+          "title": "Anthracite with white louvres / 4x5m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANW_4X5_WAL_04",
+          "available": true,
+          "priceAUD": 13299
+        },
+        {
+          "id": 53471685149038,
+          "title": "Anthracite with white louvres / 4x6m / Freestanding",
+          "sku": "SUN_MA_GL_ANW_4X6_FRE_04",
+          "available": true,
+          "priceAUD": 14599
+        },
+        {
+          "id": 53471685181806,
+          "title": "Anthracite with white louvres / 4x6m / Wall Mounted",
+          "sku": "SUN_MA_GL_ANW_4X6_WAL_04",
+          "available": true,
+          "priceAUD": 14599
+        }
+      ],
+      "source": "https://pergolux.au/products/pergola-pro.js"
+    },
+    {
+      "handle": "pergola-pro-max",
+      "available": true,
+      "variants": [
+        {
+          "id": 53471682003310,
+          "title": "Anthracite / 3x3m / Freestanding",
+          "sku": "SKY_MA_GL_ANT_3X3_FRE_04",
+          "available": true,
+          "priceAUD": 8549
+        },
+        {
+          "id": 53471682036078,
+          "title": "Anthracite / 3x3m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANT_3X3_WAL_04",
+          "available": true,
+          "priceAUD": 8549
+        },
+        {
+          "id": 53471682068846,
+          "title": "Anthracite / 3x4m / Freestanding",
+          "sku": "SKY_MA_GL_ANT_3X4_FRE_04",
+          "available": true,
+          "priceAUD": 11449
+        },
+        {
+          "id": 53471682101614,
+          "title": "Anthracite / 3x4m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANT_3X4_WAL_04",
+          "available": true,
+          "priceAUD": 11449
+        },
+        {
+          "id": 53471682134382,
+          "title": "Anthracite / 3x5m / Freestanding",
+          "sku": "SKY_MA_GL_ANT_3X5_FRE_04",
+          "available": true,
+          "priceAUD": 13989
+        },
+        {
+          "id": 53471682167150,
+          "title": "Anthracite / 3x5m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANT_3X5_WAL_04",
+          "available": true,
+          "priceAUD": 13989
+        },
+        {
+          "id": 53471682396526,
+          "title": "Anthracite / 3x6m / Freestanding",
+          "sku": "SKY_MA_GL_ANT_3X6_FRE_04",
+          "available": true,
+          "priceAUD": 16159
+        },
+        {
+          "id": 53471682429294,
+          "title": "Anthracite / 3x6m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANT_3X6_WAL_04",
+          "available": true,
+          "priceAUD": 16159
+        },
+        {
+          "id": 53471682199918,
+          "title": "Anthracite / 4x4m / Freestanding",
+          "sku": "SKY_MA_GL_ANT_4X4_FRE_04",
+          "available": true,
+          "priceAUD": 16549
+        },
+        {
+          "id": 53471682232686,
+          "title": "Anthracite / 4x4m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANT_4X4_WAL_04",
+          "available": true,
+          "priceAUD": 16549
+        },
+        {
+          "id": 53471682265454,
+          "title": "Anthracite / 4x5m / Freestanding",
+          "sku": "SKY_MA_GL_ANT_4X5_FRE_04",
+          "available": true,
+          "priceAUD": 18999
+        },
+        {
+          "id": 53471682298222,
+          "title": "Anthracite / 4x5m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANT_4X5_WAL_04",
+          "available": true,
+          "priceAUD": 18999
+        },
+        {
+          "id": 53471682330990,
+          "title": "Anthracite / 4x6m / Freestanding",
+          "sku": "SKY_MA_GL_ANT_4X6_FRE_04",
+          "available": true,
+          "priceAUD": 21249
+        },
+        {
+          "id": 53471682363758,
+          "title": "Anthracite / 4x6m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANT_4X6_WAL_04",
+          "available": true,
+          "priceAUD": 21249
+        },
+        {
+          "id": 53471682462062,
+          "title": "White / 3x3m / Freestanding",
+          "sku": "SKY_MA_GL_WHI_3X3_FRE_04",
+          "available": true,
+          "priceAUD": 8549
+        },
+        {
+          "id": 53471682494830,
+          "title": "White / 3x3m / Wall Mounted",
+          "sku": "SKY_MA_GL_WHI_3X3_WAL_04",
+          "available": true,
+          "priceAUD": 8549
+        },
+        {
+          "id": 53471682527598,
+          "title": "White / 3x4m / Freestanding",
+          "sku": "SKY_MA_GL_WHI_3X4_FRE_04",
+          "available": true,
+          "priceAUD": 11449
+        },
+        {
+          "id": 53471682560366,
+          "title": "White / 3x4m / Wall Mounted",
+          "sku": "SKY_MA_GL_WHI_3X4_WAL_04",
+          "available": true,
+          "priceAUD": 11449
+        },
+        {
+          "id": 53471682593134,
+          "title": "White / 3x5m / Freestanding",
+          "sku": "SKY_MA_GL_WHI_3X5_FRE_04",
+          "available": true,
+          "priceAUD": 13989
+        },
+        {
+          "id": 53471682625902,
+          "title": "White / 3x5m / Wall Mounted",
+          "sku": "SKY_MA_GL_WHI_3X5_WAL_04",
+          "available": true,
+          "priceAUD": 13989
+        },
+        {
+          "id": 53471682855278,
+          "title": "White / 3x6m / Freestanding",
+          "sku": "SKY_MA_GL_WHI_3X6_FRE_04",
+          "available": true,
+          "priceAUD": 16159
+        },
+        {
+          "id": 53471682888046,
+          "title": "White / 3x6m / Wall Mounted",
+          "sku": "SKY_MA_GL_WHI_3X6_WAL_04",
+          "available": true,
+          "priceAUD": 16159
+        },
+        {
+          "id": 53471682658670,
+          "title": "White / 4x4m / Freestanding",
+          "sku": "SKY_MA_GL_WHI_4X4_FRE_04",
+          "available": true,
+          "priceAUD": 16549
+        },
+        {
+          "id": 53471682691438,
+          "title": "White / 4x4m / Wall Mounted",
+          "sku": "SKY_MA_GL_WHI_4X4_WAL_04",
+          "available": true,
+          "priceAUD": 16549
+        },
+        {
+          "id": 53471682724206,
+          "title": "White / 4x5m / Freestanding",
+          "sku": "SKY_MA_GL_WHI_4X5_FRE_04",
+          "available": true,
+          "priceAUD": 18999
+        },
+        {
+          "id": 53471682756974,
+          "title": "White / 4x5m / Wall Mounted",
+          "sku": "SKY_MA_GL_WHI_4X5_WAL_04",
+          "available": true,
+          "priceAUD": 18999
+        },
+        {
+          "id": 53471682789742,
+          "title": "White / 4x6m / Freestanding",
+          "sku": "SKY_MA_GL_WHI_4X6_FRE_04",
+          "available": true,
+          "priceAUD": 21249
+        },
+        {
+          "id": 53471682822510,
+          "title": "White / 4x6m / Wall Mounted",
+          "sku": "SKY_MA_GL_WHI_4X6_WAL_04",
+          "available": true,
+          "priceAUD": 21249
+        },
+        {
+          "id": 53471682920814,
+          "title": "Anthracite with white louvers / 3x3m / Freestanding",
+          "sku": "SKY_MA_GL_ANW_3X3_FRE_04",
+          "available": true,
+          "priceAUD": 8549
+        },
+        {
+          "id": 53471682953582,
+          "title": "Anthracite with white louvers / 3x3m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANW_3X3_WAL_04",
+          "available": true,
+          "priceAUD": 8549
+        },
+        {
+          "id": 53471682986350,
+          "title": "Anthracite with white louvers / 3x4m / Freestanding",
+          "sku": "SKY_MA_GL_ANW_3X4_FRE_04",
+          "available": true,
+          "priceAUD": 11449
+        },
+        {
+          "id": 53471683019118,
+          "title": "Anthracite with white louvers / 3x4m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANW_3X4_WAL_04",
+          "available": true,
+          "priceAUD": 11449
+        },
+        {
+          "id": 53471683051886,
+          "title": "Anthracite with white louvers / 3x5m / Freestanding",
+          "sku": "SKY_MA_GL_ANW_3X5_FRE_04",
+          "available": true,
+          "priceAUD": 13989
+        },
+        {
+          "id": 53471683084654,
+          "title": "Anthracite with white louvers / 3x5m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANW_3X5_WAL_04",
+          "available": true,
+          "priceAUD": 13989
+        },
+        {
+          "id": 53471683314030,
+          "title": "Anthracite with white louvers / 3x6m / Freestanding",
+          "sku": "SKY_MA_GL_ANW_3X6_FRE_04",
+          "available": true,
+          "priceAUD": 16159
+        },
+        {
+          "id": 53471683346798,
+          "title": "Anthracite with white louvers / 3x6m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANW_3X6_WAL_04",
+          "available": true,
+          "priceAUD": 16159
+        },
+        {
+          "id": 53471683117422,
+          "title": "Anthracite with white louvers / 4x4m / Freestanding",
+          "sku": "SKY_MA_GL_ANW_4X4_FRE_04",
+          "available": true,
+          "priceAUD": 16549
+        },
+        {
+          "id": 53471683150190,
+          "title": "Anthracite with white louvers / 4x4m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANW_4X4_WAL_04",
+          "available": true,
+          "priceAUD": 16549
+        },
+        {
+          "id": 53471683182958,
+          "title": "Anthracite with white louvers / 4x5m / Freestanding",
+          "sku": "SKY_MA_GL_ANW_4X5_FRE_04",
+          "available": true,
+          "priceAUD": 18999
+        },
+        {
+          "id": 53471683215726,
+          "title": "Anthracite with white louvers / 4x5m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANW_4X5_WAL_04",
+          "available": true,
+          "priceAUD": 18999
+        },
+        {
+          "id": 53471683248494,
+          "title": "Anthracite with white louvers / 4x6m / Freestanding",
+          "sku": "SKY_MA_GL_ANW_4X6_FRE_04",
+          "available": true,
+          "priceAUD": 21249
+        },
+        {
+          "id": 53471683281262,
+          "title": "Anthracite with white louvers / 4x6m / Wall Mounted",
+          "sku": "SKY_MA_GL_ANW_4X6_WAL_04",
+          "available": true,
+          "priceAUD": 21249
+        }
+      ],
+      "source": "https://pergolux.au/products/pergola-pro-max.js"
+    },
+    {
+      "handle": "awnings",
+      "available": true,
+      "variants": [
+        {
+          "id": 54403824877934,
+          "title": "2m x 1.5m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_2015_GRY_01",
+          "available": true,
+          "priceAUD": 1399
+        },
+        {
+          "id": 54403824910702,
+          "title": "2m x 1.5m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_2015_BEG_01",
+          "available": true,
+          "priceAUD": 1399
+        },
+        {
+          "id": 54403824943470,
+          "title": "2m x 1.5m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_2015_GRY_01",
+          "available": true,
+          "priceAUD": 1399
+        },
+        {
+          "id": 54403824976238,
+          "title": "2m x 1.5m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_2015_BEG_01",
+          "available": true,
+          "priceAUD": 1399
+        },
+        {
+          "id": 54214526370158,
+          "title": "3m  x 2m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_3020_GRY_01",
+          "available": true,
+          "priceAUD": 1599
+        },
+        {
+          "id": 54214526402926,
+          "title": "3m  x 2m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_3020_BEG_01",
+          "available": true,
+          "priceAUD": 1599
+        },
+        {
+          "id": 54214526435694,
+          "title": "3m  x 2m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_3020_GRY_01",
+          "available": true,
+          "priceAUD": 1599
+        },
+        {
+          "id": 54214526468462,
+          "title": "3m  x 2m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_3020_BEG_01",
+          "available": true,
+          "priceAUD": 1599
+        },
+        {
+          "id": 54214526501230,
+          "title": "3m x 2.5m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_3025_GRY_01",
+          "available": true,
+          "priceAUD": 1669
+        },
+        {
+          "id": 54214526533998,
+          "title": "3m x 2.5m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_3025_BEG_01",
+          "available": true,
+          "priceAUD": 1669
+        },
+        {
+          "id": 54214526566766,
+          "title": "3m x 2.5m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_3025_GRY_01",
+          "available": true,
+          "priceAUD": 1669
+        },
+        {
+          "id": 54214526599534,
+          "title": "3m x 2.5m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_3025_BEG_01",
+          "available": true,
+          "priceAUD": 1669
+        },
+        {
+          "id": 54214526632302,
+          "title": "3.5m x 2.5m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_3525_GRY_01",
+          "available": true,
+          "priceAUD": 1879
+        },
+        {
+          "id": 54214526665070,
+          "title": "3.5m x 2.5m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_3525_BEG_01",
+          "available": true,
+          "priceAUD": 1879
+        },
+        {
+          "id": 54214526697838,
+          "title": "3.5m x 2.5m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_3525_GRY_01",
+          "available": true,
+          "priceAUD": 1879
+        },
+        {
+          "id": 54214526730606,
+          "title": "3.5m x 2.5m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_3525_BEG_01",
+          "available": true,
+          "priceAUD": 1879
+        },
+        {
+          "id": 54214526763374,
+          "title": "3.5m x 3m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_3530_GRY_01",
+          "available": true,
+          "priceAUD": 2019
+        },
+        {
+          "id": 54214526796142,
+          "title": "3.5m x 3m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_3530_BEG_01",
+          "available": true,
+          "priceAUD": 2019
+        },
+        {
+          "id": 54214526828910,
+          "title": "3.5m x 3m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_3530_GRY_01",
+          "available": true,
+          "priceAUD": 2019
+        },
+        {
+          "id": 54214526861678,
+          "title": "3.5m x 3m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_3530_BEG_01",
+          "available": true,
+          "priceAUD": 2019
+        },
+        {
+          "id": 54214527025518,
+          "title": "4m x 3m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_4030_GRY_01",
+          "available": true,
+          "priceAUD": 2299
+        },
+        {
+          "id": 54214527058286,
+          "title": "4m x 3m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_4030_BEG_01",
+          "available": true,
+          "priceAUD": 2299
+        },
+        {
+          "id": 54214527091054,
+          "title": "4m x 3m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_4030_GRY_01",
+          "available": true,
+          "priceAUD": 2299
+        },
+        {
+          "id": 54214527123822,
+          "title": "4m x 3m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_4030_BEG_01",
+          "available": true,
+          "priceAUD": 2299
+        },
+        {
+          "id": 54413827047790,
+          "title": "4m x 3.5m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_4035_GRY_01",
+          "available": true,
+          "priceAUD": 2439
+        },
+        {
+          "id": 54413827080558,
+          "title": "4m x 3.5m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_4035_BEG_01",
+          "available": true,
+          "priceAUD": 2439
+        },
+        {
+          "id": 54413827113326,
+          "title": "4m x 3.5m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_4035_GRY_01",
+          "available": true,
+          "priceAUD": 2439
+        },
+        {
+          "id": 54413827146094,
+          "title": "4m x 3.5m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_4035_BEG_01",
+          "available": true,
+          "priceAUD": 2439
+        },
+        {
+          "id": 54218504438126,
+          "title": "5m x 3m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_5030_GRY_01",
+          "available": true,
+          "priceAUD": 2699
+        },
+        {
+          "id": 54218504470894,
+          "title": "5m x 3m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_5030_BEG_01",
+          "available": true,
+          "priceAUD": 2699
+        },
+        {
+          "id": 54218504503662,
+          "title": "5m x 3m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_5030_GRY_01",
+          "available": true,
+          "priceAUD": 2699
+        },
+        {
+          "id": 54218504536430,
+          "title": "5m x 3m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_5030_BEG_01",
+          "available": true,
+          "priceAUD": 2699
+        },
+        {
+          "id": 54413827178862,
+          "title": "5m x 3.5m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_5035_GRY_01",
+          "available": true,
+          "priceAUD": 2999
+        },
+        {
+          "id": 54413827211630,
+          "title": "5m x 3.5m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_5035_BEG_01",
+          "available": true,
+          "priceAUD": 2999
+        },
+        {
+          "id": 54413827244398,
+          "title": "5m x 3.5m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_5035_GRY_01",
+          "available": true,
+          "priceAUD": 2999
+        },
+        {
+          "id": 54413827277166,
+          "title": "5m x 3.5m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_5035_BEG_01",
+          "available": true,
+          "priceAUD": 2999
+        },
+        {
+          "id": 54403817832814,
+          "title": "6m x 3m / Anthracite / Grey",
+          "sku": "AWN_MA_AU_ANT_6030_GRY_01",
+          "available": true,
+          "priceAUD": 3199
+        },
+        {
+          "id": 54403817865582,
+          "title": "6m x 3m / Anthracite / Beige",
+          "sku": "AWN_MA_AU_ANT_6030_BEG_01",
+          "available": true,
+          "priceAUD": 3199
+        },
+        {
+          "id": 54403817898350,
+          "title": "6m x 3m / White / Grey",
+          "sku": "AWN_MA_AU_WHI_6030_GRY_01",
+          "available": true,
+          "priceAUD": 3199
+        },
+        {
+          "id": 54403817931118,
+          "title": "6m x 3m / White / Beige",
+          "sku": "AWN_MA_AU_WHI_6030_BEG_01",
+          "available": true,
+          "priceAUD": 3199
+        }
+      ],
+      "source": "https://pergolux.au/products/awnings.js"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "reviewedOn": "2026-11-04",
+  "sourcePage": "https://pergolux.au/products/awnings",
+  "publicationStatus": "research only; not approved",
+  "documents": [
+    {
+      "url": "https://cdn.prod.website-files.com/66274d78bcacbd61469f757b/6a423bad15a419c5d6fc78d2_awning_compress.pdf",
+      "file": "awning-0.pdf",
+      "sha256": "75b5bc500c95fad13d3e5be9df30cbb85fa81c4996abb8c8d9f26ca376bb8b31",
+      "modelRegionStatus": "Global assembly manual; AU applicability requires confirmation"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_2X1.5_-_PN-200004054___MERGED.pdf?v=1785417768",
+      "file": "awning-1.pdf",
+      "sha256": "e4a40af0f98b80b11a501cc204d3c6c40d353c36a1150534917c1ce33f4fcb5c",
+      "extractedSku": "AWN_MA_EU_XXX_2015_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_3X2_-_PN-200003804___MERGED.pdf?v=1785417768",
+      "file": "awning-2.pdf",
+      "sha256": "ea313219b7290ac3ba06ec31a904348b95ab0e9ce5bd356d90f3281a9332a462",
+      "extractedSku": "AWN_MA_EU_XXX_3020_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_3X2.5_-_PN-200003798___MERGED.pdf?v=1785417768",
+      "file": "awning-3.pdf",
+      "sha256": "6f490b77415084f6370ad682c222acdab80c86b56a126bca88b99936563a1040",
+      "extractedSku": "AWN_MA_EU_XXX_3025_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_3.5X2.5_-_PN-200003799___MERGED.pdf?v=1785417770",
+      "file": "awning-4.pdf",
+      "sha256": "f1d87cad9bc9c65c3d81c9bdfc980267f3f35854042fd16f55aa35934204076b",
+      "extractedSku": "AWN_MA_EU_XXX_3525_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_3.5X3_-_PN-200003949___MERGED.pdf?v=1785417768",
+      "file": "awning-5.pdf",
+      "sha256": "8854fb2f3d58d6817304530e181b1cc91c79f390253be39408079d6eb4ebf1a5",
+      "extractedSku": "AWN_MA_EU_XXX_3530_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_4X3_-_PN-200003952___MERGED.pdf?v=1785417768",
+      "file": "awning-6.pdf",
+      "sha256": "4319087485bdae889e498d7cb1a96be1773c8129dfaefab857f1994f1501f4a9",
+      "extractedSku": "AWN_MA_EU_XXX_4030_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_4X3.5_-_PN-200004055___MERGED.pdf?v=1785417768",
+      "file": "awning-7.pdf",
+      "sha256": "ba79de1209d2f232b06628b98982da6ec1c760690af355685ed8b5301e86a283",
+      "extractedSku": "AWN_MA_EU_XXX_4035_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_5X3_-_PN-200003955___MERGED.pdf?v=1785417768",
+      "file": "awning-8.pdf",
+      "sha256": "0e1a733ac3e2ff95f75ddcc94f2ab05bb58d753eb5d7fd0e807c9a2dc12d7612",
+      "extractedSku": "AWN_MA_EU_XXX_5030_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_5X3.5_-_PN-200004056___MERGED.pdf?v=1785417768",
+      "file": "awning-9.pdf",
+      "sha256": "39e060819a28d2f34b0b191709cc2133bb08eeb56d0ee366e3f7d0747115a462",
+      "extractedSku": "AWN_MA_EU_XXX_5035_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/PERGOLUX_AWNING_-_6X3_-_PN-200004057___MERGED.pdf?v=1785417768",
+      "file": "awning-10.pdf",
+      "sha256": "60f2d2144ac5db9f1f60469805aeac8207563c0173325d0674aef4d6a82d3093",
+      "extractedSku": "AWN_MA_EU_XXX_6030_XXX_01",
+      "modelRegionStatus": "EU code printed; AU variant applicability unresolved"
+    }
+  ]
+}
