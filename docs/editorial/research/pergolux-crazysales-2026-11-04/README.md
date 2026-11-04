@@ -48,3 +48,11 @@ Only these five exact clean source URLs are added to the existing editorial sour
 ## Illustration provenance
 
 `public/images/guides/louvred-pergolas-australia.svg` is an original AHC conceptual planning illustration made for this guide. It is labelled not to scale and is not an engineering drawing, product photograph or representation of a specific manufacturer's system.
+
+## Article readability and document clarification — 4 November 2026
+
+The original AHC conceptual measurement illustration remains in the featured guide's required hero position, preserving the site's established layout and featured-image audit. Five in-page links provide direct access to measurements, engineering, the Series 4 comparison, warranty and the supplier checklist; the existing `#pergolux-series-4` and `#pergolux-warranty` anchors remain stable.
+
+The three manufacturer-supported Series 4 feature descriptions were reformatted as responsive comparison cards, with model checks separated from features. Source links remain explicitly non-transactional references. No affiliate product placement, price, wind rating or unverified approval statement was introduced.
+
+The linked January 2025 Australian warranty PDF expressly names the Pergola, Sundream and Skydance families but not the 2026 Series 4 Pro and Pro Max. The current website also specifies `pergoluxshop.au` on the warranty page while product sales occur at `pergolux.au`. The public article now advises readers to confirm the current applicable terms in writing, and does not use older PDF load tables as Series 4 structural evidence. This does not diminish statutory Australian Consumer Law guarantees.
