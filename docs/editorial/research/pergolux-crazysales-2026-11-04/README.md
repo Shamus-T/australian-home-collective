@@ -56,3 +56,12 @@ The original AHC conceptual measurement illustration remains in the featured gui
 The three manufacturer-supported Series 4 feature descriptions were reformatted as responsive comparison cards, with model checks separated from features. Source links remain explicitly non-transactional references. No affiliate product placement, price, wind rating or unverified approval statement was introduced.
 
 The linked January 2025 Australian warranty PDF expressly names the Pergola, Sundream and Skydance families but not the 2026 Series 4 Pro and Pro Max. The current website also specifies `pergoluxshop.au` on the warranty page while product sales occur at `pergolux.au`. The public article now advises readers to confirm the current applicable terms in writing, and does not use older PDF load tables as Series 4 structural evidence. This does not diminish statutory Australian Consumer Law guarantees.
+
+
+## Diagram correction and reading flow — 4 November 2026
+
+A reader reported that a foreground pergola post was incorrectly drawn behind the dining table. The original vector illustration was corrected by drawing rear posts behind the roof and furniture, then drawing the two foreground posts after the table and chairs. Its dimensions, explanatory labels, colour scheme, conceptual nature and external image path were preserved.
+
+The guide now opens with a short decision-focused summary and keeps the existing five-section contents navigation. The manufacturer-supported Pergolux Series 4 comparison was moved closer to the introduction, before detailed engineering and approval sections. Redundant manual-versus-motorised comparison material was condensed into a specific controls/power-failure check. Other sections were tightened while retaining site-specific engineering, foundations, approvals, rainwater, electrical safety, written warranty clarification and Australian Consumer Law guidance, plus the supporting authoritative source links.
+
+The article-body copy was recalculated at approximately 1,722 words including navigation and model-card text, yielding an approximate eight-minute reading time at 225 words/minute. This is a display estimate, not a measured completion time. The article title, route, publication/modified dates, illustration asset URL and existing deep links remain unchanged. No new product-level affiliate recommendation, verified wind rating, installed-price claim or test claim was added; the commercial product research gap remains open.
