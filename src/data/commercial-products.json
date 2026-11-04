@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-11-03",
+  "updatedOn": "2026-11-04",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -18,6 +18,13 @@
       "allowedHosts": [
         "prf.hn",
         "bnd.prf.hn"
+      ]
+    },
+    "commission-factory": {
+      "trackingParameter": "publisher-path",
+      "trackingValue": "94708",
+      "allowedHosts": [
+        "t.cfjump.com"
       ]
     }
   },
@@ -26298,6 +26305,192 @@
           "publisher": "ACCC Product Safety",
           "sourceUrl": "https://www.productsafety.gov.au/consumers/be-safe-around-the-home/use-products-inside-the-home-safely/toppling-furniture-and-televisions-guide",
           "supports": "ACCC recommends planning anchoring, checking warnings, drawer stops and instructions; secure furniture to suitable wall/floor fixings. No independent stability test or legal-compliance conclusion about these products.",
+          "checkedOn": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "pergolux-pergola-4",
+      "guidePath": "/guides/louvred-pergolas-australia/",
+      "name": "Pergolux Pergola 4",
+      "productType": "Manual louvred pergola",
+      "summary": "Manual crank-operated louvres; optional lighting accessories.",
+      "merchant": "Pergolux AU",
+      "destinationUrl": "https://t.cfjump.com/94708/t/93696?Url=https%3a%2f%2fpergolux.au%2fproducts%2fpergola",
+      "linkLabel": "View model options at Pergolux AU",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "paused",
+      "researchOutcome": "mixed-not-promoted",
+      "evidenceConfidence": "low",
+      "recallSafetyStatus": "check-required",
+      "lastReviewedOn": "2026-11-04",
+      "approvedForAffiliateUse": false,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "unknown",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "unverified",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The product-page and dedicated Australian warranty terms conflict on moving-part cover and installation deadlines.",
+        "Current Australian configuration-specific engineering and fixing evidence has not been reconciled; no wind or load rating is endorsed.",
+        "This link opens the model selector, not a selected size, finish or mounting variant. Exact availability, delivery and complete installed cost require confirmation.",
+        "Permitted exact-model product artwork and a completed current recall and owner-evidence assessment remain required before promotional approval."
+      ],
+      "suitability": {
+        "suits": [
+          "Potential research candidate for a permanent patio structure once model, site, warranty and installation checks are resolved."
+        ],
+        "mayNotSuit": [
+          "Readers who need a recommendation with resolved warranty terms or a verified structure and fixing design for their property."
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Pergola 4 Australian product page",
+          "publisher": "Pergolux Australia",
+          "sourceUrl": "https://pergolux.au/products/pergola",
+          "supports": "Clean page reachable and identifies this Series 4 model; documents the limited operation and lighting features stated here. Routing was generated in the signed-in Commission Factory website-source form and decoded offline. No tracking request or attribution test was made. No exact-variant availability or engineering approval is claimed.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty policy",
+          "publisher": "Pergolux Australia",
+          "sourceUrl": "https://pergolux.au/pages/10-year-warranty",
+          "supports": "Policy states two-year moving-part cover and installation within six months; product pages state five-year mechanisms and one-year installation limit. Conflict remains unresolved, preventing editorial approval under the current methodology.",
+          "checkedOn": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "pergolux-pergola-4-pro",
+      "guidePath": "/guides/louvred-pergolas-australia/",
+      "name": "Pergolux Pergola 4 Pro",
+      "productType": "Motorised louvred pergola",
+      "summary": "Motorised louvres with remote, Bluetooth and compatible smart-home controls; dimmable beam lighting.",
+      "merchant": "Pergolux AU",
+      "destinationUrl": "https://t.cfjump.com/94708/t/93696?Url=https%3a%2f%2fpergolux.au%2fproducts%2fpergola-pro",
+      "linkLabel": "View model options at Pergolux AU",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "paused",
+      "researchOutcome": "mixed-not-promoted",
+      "evidenceConfidence": "low",
+      "recallSafetyStatus": "check-required",
+      "lastReviewedOn": "2026-11-04",
+      "approvedForAffiliateUse": false,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "unknown",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "unverified",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The product-page and dedicated Australian warranty terms conflict on moving-part cover and installation deadlines.",
+        "Current Australian configuration-specific engineering and fixing evidence has not been reconciled; no wind or load rating is endorsed.",
+        "This link opens the model selector, not a selected size, finish or mounting variant. Exact availability, delivery and complete installed cost require confirmation.",
+        "Permitted exact-model product artwork and a completed current recall and owner-evidence assessment remain required before promotional approval."
+      ],
+      "suitability": {
+        "suits": [
+          "Potential research candidate for a permanent patio structure once model, site, warranty and installation checks are resolved."
+        ],
+        "mayNotSuit": [
+          "Readers who need a recommendation with resolved warranty terms or a verified structure and fixing design for their property."
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Pergola 4 Pro Australian product page",
+          "publisher": "Pergolux Australia",
+          "sourceUrl": "https://pergolux.au/products/pergola-pro",
+          "supports": "Clean page reachable and identifies this Series 4 model; documents the limited operation and lighting features stated here. Routing was generated in the signed-in Commission Factory website-source form and decoded offline. No tracking request or attribution test was made. No exact-variant availability or engineering approval is claimed.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty policy",
+          "publisher": "Pergolux Australia",
+          "sourceUrl": "https://pergolux.au/pages/10-year-warranty",
+          "supports": "Policy states two-year moving-part cover and installation within six months; product pages state five-year mechanisms and one-year installation limit. Conflict remains unresolved, preventing editorial approval under the current methodology.",
+          "checkedOn": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "pergolux-pergola-4-pro-max",
+      "guidePath": "/guides/louvred-pergolas-australia/",
+      "name": "Pergolux Pergola 4 Pro Max",
+      "productType": "Motorised louvred pergola",
+      "summary": "Motorised wider louvres with integrated louvre lighting.",
+      "merchant": "Pergolux AU",
+      "destinationUrl": "https://t.cfjump.com/94708/t/93696?Url=https%3a%2f%2fpergolux.au%2fproducts%2fpergola-pro-max",
+      "linkLabel": "View model options at Pergolux AU",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "paused",
+      "researchOutcome": "mixed-not-promoted",
+      "evidenceConfidence": "low",
+      "recallSafetyStatus": "check-required",
+      "lastReviewedOn": "2026-11-04",
+      "approvedForAffiliateUse": false,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-04",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "unknown",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "unverified",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The product-page and dedicated Australian warranty terms conflict on moving-part cover and installation deadlines.",
+        "Current Australian configuration-specific engineering and fixing evidence has not been reconciled; no wind or load rating is endorsed.",
+        "This link opens the model selector, not a selected size, finish or mounting variant. Exact availability, delivery and complete installed cost require confirmation.",
+        "Permitted exact-model product artwork and a completed current recall and owner-evidence assessment remain required before promotional approval."
+      ],
+      "suitability": {
+        "suits": [
+          "Potential research candidate for a permanent patio structure once model, site, warranty and installation checks are resolved."
+        ],
+        "mayNotSuit": [
+          "Readers who need a recommendation with resolved warranty terms or a verified structure and fixing design for their property."
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Pergola 4 Pro Max Australian product page",
+          "publisher": "Pergolux Australia",
+          "sourceUrl": "https://pergolux.au/products/pergola-pro-max",
+          "supports": "Clean page reachable and identifies this Series 4 model; documents the limited operation and lighting features stated here. Routing was generated in the signed-in Commission Factory website-source form and decoded offline. No tracking request or attribution test was made. No exact-variant availability or engineering approval is claimed.",
+          "checkedOn": "2026-11-04"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Australian warranty policy",
+          "publisher": "Pergolux Australia",
+          "sourceUrl": "https://pergolux.au/pages/10-year-warranty",
+          "supports": "Policy states two-year moving-part cover and installation within six months; product pages state five-year mechanisms and one-year installation limit. Conflict remains unresolved, preventing editorial approval under the current methodology.",
           "checkedOn": "2026-11-04"
         }
       ]
