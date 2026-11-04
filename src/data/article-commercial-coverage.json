@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-03",
+  "updatedOn": "2026-11-04",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -987,10 +987,10 @@
     {
       "guidePath": "/guides/fridge-dimensions-australia/",
       "title": "Fridge Dimensions Australia: What to Measure Before Buying",
-      "reviewedOn": "2026-11-01",
+      "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "231314a61e284b73c18161dc52eddcbecfdd99feccc7674fc84cbf8df3ac0125",
+      "reviewedSourceSha256": "fa2929f19afd1655070e16a29cd032453876bd6c66b55c12625aacaed9e87b23",
       "requiredProductTypes": [
         {
           "label": "Top mount fridge",
@@ -1016,7 +1016,7 @@
       "contextualRoutes": [
         "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed."
+      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed. 4 November mobile buying-journey follow-up: shortened repeated pre-comparison advice, added need-led comparison jumps and retained exact-model installation limits, existing approved offers and artwork. Product selection/specifications unchanged; this is a presentation review, not a fresh stock check. See docs/editorial/mobile-buying-journey-2026-11-04.md."
     },
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",
@@ -3389,10 +3389,10 @@
     {
       "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
       "title": "Washing Machine Dimensions Australia: What to Measure Before Buying",
-      "reviewedOn": "2026-11-01",
+      "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "4b38aa80d608d0782328d674a2b4487341e41bca5e2861689f24f51c58e74e3f",
+      "reviewedSourceSha256": "078b49819809b8ecf3a676ca8c1c384777a9b4615cd6f272a8cf72832446c91c",
       "requiredProductTypes": [
         {
           "label": "Front load washing machine",
@@ -3422,7 +3422,7 @@
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed."
+      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed. 4 November mobile buying-journey follow-up: shortened repeated pre-comparison advice, added need-led comparison jumps and retained exact-model installation limits, existing approved offers and artwork. Product selection/specifications unchanged; this is a presentation review, not a fresh stock check. See docs/editorial/mobile-buying-journey-2026-11-04.md."
     },
     {
       "guidePath": "/guides/what-size-air-conditioner-do-i-need/",

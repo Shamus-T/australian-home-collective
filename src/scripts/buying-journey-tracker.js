@@ -76,7 +76,9 @@ export function initialiseBuyingJourney({ windowObject = globalThis.window, docu
       if (d.visibilityState === 'visible') for (const el of visible) watch(el);
     });
     // Observe short headings, not whole cards/tables which can exceed a mobile viewport.
-    for (const el of d.querySelectorAll('[data-commercial-product-block] .commercial-product-comparison tbody tr:first-child th, [data-commercial-product-card] > h3')) observer.observe(el);
+    // A reader may jump directly to a later model. Each heading can establish
+    // comparison exposure; record() still deduplicates it once per page.
+    for (const el of d.querySelectorAll('[data-commercial-product-block] .commercial-product-comparison tbody tr th, [data-commercial-product-card] > h3')) observer.observe(el);
   }
   activeJourney = { record, guidePath };
   w.addEventListener('pageshow', event => { if (event.persisted) { previous = w.performance.now(); wasVisible = d.visibilityState === 'visible'; } });

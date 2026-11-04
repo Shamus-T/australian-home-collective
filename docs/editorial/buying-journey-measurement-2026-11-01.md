@@ -8,7 +8,7 @@ Content follow-up on 1 November adds a narrower fridge, a simpler full-width dis
 
 - `guide_view`: page is visible, once per page load. Not proof of a human or a landing session.
 - `engaged_10s`: ten accumulated seconds in a visible tab. Not proof of reading or purchase intent.
-- `comparison_view`: at least half of the first comparison option heading is visible continuously for one second. Whole tall mobile tables are not used as the visibility target.
+- `comparison_view`: at least half of a comparison option heading is visible continuously for one second, once per page. Initially only the first row was observed; the 4 November mobile follow-up observes all rows to include direct jumps to later options. Whole tall mobile tables are not used as the visibility target. See `mobile-buying-journey-2026-11-04.md` and its publication receipt for the release boundary; do not reconstruct earlier exposure or attribute the definition change to improved reader behaviour.
 - `product_view`: at least half of a product-card heading is visible continuously for one second, once per model/page.
 - `retailer_click`: the existing approved-link handler records a click, once per model/placement/page in the funnel. Shares its event ID with the existing raw affiliate record; does not create a second merchant navigation or duplicate GA4 affiliate event. Raw affiliate-click totals can exceed funnel clicks because repeats are deduplicated here.
 

@@ -22,6 +22,7 @@ interface Props {
   accessoryTitle?: string;
   accessoryIntro?: string;
   comparisonDetails?: Record<string, { reason: string; fit: string; tradeoff: string }>;
+  compactComparison?: boolean;
 }
 
 const {
@@ -31,6 +32,7 @@ const {
   variant = "solution",
   accessoryProductIds = [],
   comparisonDetails = {},
+  compactComparison = false,
   accessoryTitle = "Optional setup accessories",
   accessoryIntro = "These do not replace the appliance. Check what is included and buy an extra only when it solves a specific setup problem.",
 } = Astro.props;
@@ -60,7 +62,7 @@ const formatDate = (date: string) =>
 
 {products.length > 0 && (
   <section
-    class:list={[`commercial-product-block commercial-product-block--${displayVariant}`, { 'commercial-product-block--appliance': Object.keys(comparisonDetails).length > 0 }]}
+    class:list={[`commercial-product-block commercial-product-block--${displayVariant}`, { 'commercial-product-block--appliance': Object.keys(comparisonDetails).length > 0, 'commercial-product-block--compact': compactComparison }]}
     aria-labelledby={sectionId}
     data-commercial-product-block
     data-accessory-product-ids={accessoryProductIds.join(" ")}
@@ -85,7 +87,7 @@ const formatDate = (date: string) =>
           <thead><tr><th scope="col">Option</th><th scope="col">May suit</th><th scope="col">Check first</th><th scope="col">Retailer prices and availability</th></tr></thead>
           <tbody>
             {primaryProducts.map((product) => (
-              <tr>
+              <tr id={`compare-${product.id}`}>
                 <th scope="row">
                   {product.image && (
                     <img class="commercial-product-thumbnail" src={product.image.src}
@@ -93,8 +95,8 @@ const formatDate = (date: string) =>
                       width={product.image.width} height={product.image.height}
                       loading="lazy" decoding="async" />
                   )}
-                  <CommercialProductNameLink product={product} offer={retailers.get(product.id)![0]} />{" "}
-                  <span class="commercial-comparison-type">{product.productType}</span>
+                  <span class="commercial-comparison-identity"><CommercialProductNameLink product={product} offer={retailers.get(product.id)![0]} />{" "}
+                  <span class="commercial-comparison-type">{product.productType}</span></span>
                 </th>
                 <td data-label="May suit">{comparisonDetails[product.id]?.reason ?? product.suitability.suits[0]}</td>
                 <td data-label="Check first">
@@ -113,6 +115,7 @@ const formatDate = (date: string) =>
       </div>
       </>
     )}
+    <slot name="after-comparison" />
     {showComparison && <h3 class="commercial-product-details-heading">More about each option</h3>}
     {productGroups.map((group, index) => (<>
     {index > 0 && <>
@@ -279,6 +282,9 @@ const formatDate = (date: string) =>
     .commercial-product-block--appliance .commercial-product-comparison th { background: #e8eee5; border-top: 0; }
     .commercial-product-block--appliance .commercial-product-comparison td::before { content: attr(data-label); display: block; font-weight: 700; color: var(--green-dark); margin-bottom: 6px; }
     .commercial-product-block--appliance .commercial-product-comparison td:last-child { text-align: center; }
+    .commercial-product-block--compact .commercial-product-comparison th { display: flex; align-items: center; gap: 12px; }
+    .commercial-product-block--compact .commercial-product-thumbnail { width: 64px; height: 80px; flex: 0 0 64px; margin: 0; object-fit: contain; }
+    .commercial-product-block--compact .commercial-comparison-identity { min-width: 0; }
   }
   @media (min-width: 900px) {
     .commercial-product-grid[data-product-count="4"] {

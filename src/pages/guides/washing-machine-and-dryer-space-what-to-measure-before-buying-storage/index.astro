@@ -1,4 +1,5 @@
 ---
+import BuyingJourneyNav from "../../../components/BuyingJourneyNav.astro";
 import LaundryStackBuyingLinks from "../../../components/LaundryStackBuyingLinks.astro";
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
@@ -73,7 +74,7 @@ const faqs = [
   category="Laundry"
   faqs={faqs}
   date="Updated November 2026"
-  dateModified="2026-11-01"
+  dateModified="2026-11-04"
   readingTime="13 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage.webp"
@@ -86,36 +87,20 @@ const faqs = [
   </p>
   <p>Use the exact model’s installed depth, door or lid clearance and service space. A cupboard, a top-loader position and a stacked setup need different layouts; nominal body dimensions are not an opening specification.</p>
 
-  <nav aria-label="Washing machine buying and measuring guide sections">
-    <p><strong>Find the next step for your laundry:</strong></p>
-    <ul>
-      <li><a href="#front-loader-shortlist">Compare the two front loaders</a></li>
-      <li><a href="#top-loader-shortlist">Find the top-loader option</a></li>
-      <li><a href="#current-washer-examples-heading">Check exact dimensions and installation gaps</a></li>
-      <li><a href="#bosch-stack-heading">Plan a compatible washer and dryer stack</a></li>
-      <li><a href="#washing-machine-measurement-resource">Use the measuring diagrams and checklist</a></li>
-    </ul>
-  </nav>
+  <BuyingJourneyNav title="Find the right laundry setup" links={[
+    { href: "#compare-lg-wx3-1208w-good-guys", label: "Shallower front loader", detail: "LG 8kg · no stacked dryer" },
+    { href: "#compare-bosch-wgg244a1au-good-guys", label: "Larger front loader", detail: "Bosch 9kg · automatic dosing" },
+    { href: "#compare-lg-wtx3-09g-good-guys", label: "Top loader", detail: "LG 9kg · clear space above" },
+    { href: "#bosch-stack-heading", label: "Washer + dryer stack", detail: "Bosch washer, dryer and kit" },
+  ]} />
+  <p><strong>Only a 600mm-wide opening?</strong> Neither LG example fits with its specified side gaps. Bosch describes a 600mm niche only for a particular under-worktop arrangement. <a href="#current-washer-examples-heading">Check the exact dimensions and installation gaps</a> or use the <a href="#washing-machine-measurement-resource">measuring checklist</a>.</p>
 
-  <section aria-labelledby="washer-shortlist-heading">
-    <h2 id="washer-shortlist-heading">Choose a front loader or top loader for your space</h2>
-    <p>Start with the loading access and space available, then compare capacity, features and the delivered price. These three washers suit different layouts; they are not ranked as overall winners. Check the <a href="#current-washer-examples-heading">exact dimensions and installation gaps</a> before ordering.</p>
-    <h3 id="front-loader-shortlist">Front loaders: shallow depth or more capacity with automatic dosing?</h3>
-    <ul class="feature-list">
-      <li><strong>Limited depth, with no dryer stacked above:</strong> the <a href="#product-lg-wx3-1208w-good-guys">LG WX3-1208W 8kg slim front loader</a> uses manual dosing and a shallower body. It cannot take a stacked dryer. Check its installed depth in the table below.</li>
-      <li><strong>9kg capacity, automatic liquid-detergent dosing or a planned stack:</strong> compare the <a href="#product-bosch-wgg244a1au-good-guys">Bosch WGG244A1AU</a>. It needs more depth than the slim LG. The <a href="#bosch-stack-heading">Bosch stack section</a> puts the compatible washer, dryer and kit links together.</li>
-    </ul>
-    <h3 id="top-loader-shortlist">Top loader: open space above and a comfortable drum reach</h3>
-    <p>The <a href="#product-lg-wtx3-09g-good-guys">LG WTX3-09G 9kg top loader</a> needs clear space for its lid and a comfortable reach to the drum bottom. Rule it out under a fixed benchtop or dryer; check the controls and gentle-cycle choices in person.</p>
-    <p><strong>Only a 600mm-wide opening?</strong> Neither LG example fits once its specified side gaps are included. The Bosch manual describes a 600mm niche for a particular under-worktop arrangement; check the full installation requirements rather than choosing by body width alone.</p>
-    <p><a href="#commercial-products-washing-machine-and-dryer-space-what-to-measure-before-buying-storage">Compare the three washers and check retailer prices below</a>. Need to measure first? Use the <a href="#washing-machine-measurement-resource">laundry measuring guide</a>.</p>
-  </section>
-
+  <span id="washer-shortlist-heading"></span><span id="front-loader-shortlist"></span><span id="top-loader-shortlist"></span>
   <CommercialProductBlock
     guidePath="/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
-    variant="comparison" comparisonDetails={applianceComparisons}
+    variant="comparison" compactComparison comparisonDetails={applianceComparisons}
     title="Compare front- and top-loading washing machines"
-    intro="Compare these three washers after checking which loading style suits your space. Each retailer link opens the exact model for current pricing and postcode availability. The optional dryer and kit are separate purchases; the stack section also groups all three buying links. These are research-based assessments, not firsthand tests."
+    intro="First choose by loading access, installed depth and capacity, then use The Good Guys button for the exact model’s current price and postcode delivery. Compare the total including connection and removal. These are researched options, not firsthand tests."
     accessoryProductIds={["bosch-wqg24201au-laundry-fit-good-guys", "bosch-wtz11400-good-guys"]}
     accessoryTitle="Optional Bosch dryer and stacking kit"
     accessoryIntro="These are separate purchases for the Bosch setup described in the compatibility section below, not washer alternatives or a bundled price. The WQG24201AU is the dryer; WTZ11400 is the stacking kit with a pull-out shelf. Confirm the full model revisions and installation requirements. The kit is not needed for a side-by-side layout; neither item makes either LG washer stackable."
