@@ -18,7 +18,32 @@ The manufacturer material did not establish a reconciled current Australian mode
 
 Account approvals, commission exceptions, generated-link inspection, retailer fulfilment gaps and independent owner-feedback assessments are recorded in a separate private working report. No account-specific terms or tracking links are published here. Link generation establishes intended routing only; it is not an attribution test or earned commission.
 
-The public guide instead cites Australian Government Your Home, QBCC, NSW Planning and ACCC sources and gives a practical supplier/installer document checklist. Product promotion must wait for the full research, exact-identity, safety, availability, approved tracking and permitted-image gates. Crazy Sales' potentially relevant airer/storage inventory overlaps existing guides, so advertiser approval alone does not justify a new retailer-led article.
+The public guide cites Australian Government Your Home, QBCC, NSW Planning and ACCC sources and gives a practical supplier/installer document checklist. It also includes the limited factual Pergolux comparison and warranty explanation authorised below. Product promotion must wait for the full research, exact-identity, safety, availability, approved tracking and permitted-image gates. Crazy Sales' potentially relevant airer/storage inventory overlaps existing guides, so advertiser approval alone does not justify a new retailer-led article.
+
+## Authorised factual inclusion and warranty clarification — 4 November 2026
+
+The user expressly requested adding the warranty discrepancy explanation and including Pergolux where claims are substantiated, excluding unverified wind ratings. This permits this named, non-promotional editorial comparison and its source citations despite the general restriction on named-product inclusion. It does not approve affiliate recommendations, change the site-wide methodology, or close the commercial research gap. No commercial product is marked approved and no purchase button or tracked merchant link is added. A single relationship disclosure accompanies the comparison.
+
+Fresh Australian product-page checks support the following limited claims:
+
+| Model | Included facts | Source |
+| --- | --- | --- |
+| Pergola 4 / Series 4 manual | Crank-operated louvres | https://pergolux.au/products/pergola |
+| Pergola 4 Pro / Series 4 | Motorised roof, double-walled louvres, dimmable beam lighting | https://pergolux.au/products/pergola-pro |
+| Pergola 4 Pro Max / Series 4 | Motorised roof, wider louvres, louvre-integrated lighting | https://pergolux.au/products/pergola-pro-max |
+
+These are manufacturer-documented features, not AHC testing results. Earlier exact-variant snapshots and manuals remain the supporting identity record. No price, stock promise, load capacity, waterproofness, assembly-time, comparative-strength or local compliance claim is made. Retractable awnings remain outside the comparison.
+
+The dedicated Australian warranty page explicitly advertises 10 years for structure, 5 for coating and 2 for moving/electrical parts across its structures. This corrects any earlier implication that no Series 4 warranty coverage could be established. The remaining uncertainty is conflicting provisions, not absence of a warranty:
+
+- Dedicated policy: moving parts 2 years; Pro product page: mechanisms 5 years.
+- Dedicated policy: installation within 6 months of purchase; Pro product page: exclusion after 1 year.
+- Dedicated policy: processing within 10 days; linked PDF clause 3.8: 180 days.
+- Dedicated policy claim instructions: report within 7 days; PDF clause 3.1: 30 days after discovering the defect.
+
+Sources: https://pergolux.au/pages/10-year-warranty and https://cdn.shopify.com/s/files/1/0644/4777/4878/files/AU_-_PERGOLUX_-_LIMITED_WARRANTY.pdf?v=1756684356, plus the Pro page above. Different update dates are a possible explanation only; no manufacturer reconciliation has been received. The article asks buyers to obtain dated applicable terms and keeps ACL rights separate. This is not a finding of unsafe construction, nor does it verify engineering or anchoring suitability.
+
+Only these five exact clean source URLs are added to the existing editorial source checks. No broad manufacturer or Shopify domain allowance is introduced. Shared layout/header and commercial approval gates remain unchanged.
 
 ## Illustration provenance
 

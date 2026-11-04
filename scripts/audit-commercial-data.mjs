@@ -324,6 +324,16 @@ function isTrustedEditorialUrl(urlValue) {
   const host = normalizedHost(urlValue);
   return [...trustedEditorialDomains].some((domain) => hostMatches(host, domain))
     || isReviewedApplianceSource(urlValue)
+    // Exact sources for the user-authorised factual comparison and warranty explanation.
+    // Evidence and publication boundary: docs/editorial/research/pergolux-crazysales-2026-11-04/README.md.
+    // No domain-wide, affiliate-query or other shopping-page exemption.
+    || [
+      "https://pergolux.au/products/pergola",
+      "https://pergolux.au/products/pergola-pro",
+      "https://pergolux.au/products/pergola-pro-max",
+      "https://pergolux.au/pages/10-year-warranty",
+      "https://cdn.shopify.com/s/files/1/0644/4777/4878/files/AU_-_PERGOLUX_-_LIMITED_WARRANTY.pdf?v=1756684356",
+    ].includes(urlValue)
     // Exact manufacturer guidance reviewed in docs/editorial/christmas-guide-sources-2026-10-10.json.
     // This does not allow other retailer pages, shopping links or tracking parameters.
     || urlValue === "https://www.balsamhill.com.au/inspiration/how-to-choose-the-right-artificial-tree";

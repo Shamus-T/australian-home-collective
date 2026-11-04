@@ -3443,12 +3443,12 @@
       "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "700cf217000fd58ea0854d2ca66436db3177e3b2d07858fe21300a7b9335a018",
+      "reviewedSourceSha256": "8d6efd419bca143bc5bb0c5bf2fa5dcbb5b36ebba2ac41c5ef9c0189e4e68845",
       "requiredProductTypes": [
         {
           "label": "Manual and motorised louvred pergola systems",
           "productIds": [],
-          "gapReason": "Research-only guide. Pergolux Australian Series 4 engineering, anchoring and warranty contradictions remain unresolved; no product recommendation or merchant placement approved. Account-issued links inspected without clicks, but attribution and complete product research not verified."
+          "gapReason": "Factual Pergolux inclusion authorised separately from affiliate approval. Headline warranty is documented; conflicting provisions are explained. Configuration-specific engineering and anchoring evidence remains unreconciled. No product approved for promotional placement. Account-issued links inspected without clicks; attribution not tested."
         }
       ],
       "supportingProductIds": [],
@@ -3457,7 +3457,7 @@
         "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",
         "/guides/gutter-maintenance-guide/"
       ],
-      "reviewScope": "Independent buying guidance with official Australian planning and consumer sources; no claimed hands-on testing, numerical wind ratings or product recommendation. Primary product gap intentionally remains open."
+      "reviewScope": "User-authorised factual Series 4 manual/Pro/Pro Max comparison and sourced warranty discrepancy explanation added. Manufacturer-documented features only, relationship disclosed, clean source links only. No hands-on testing, numerical wind claims, commercial endorsement or affiliate placement. Primary product gap remains open."
     }
   ]
 }
