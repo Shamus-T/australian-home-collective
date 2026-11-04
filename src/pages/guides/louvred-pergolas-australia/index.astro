@@ -25,7 +25,7 @@ const relatedGuides = [
   showAffiliateDisclosure={false}
   image="/images/guides/louvred-pergolas-australia.svg"
   imageAlt="Planning diagram of a louvred pergola showing its outer footprint, usable space between posts and roof movement"
-  imagePresentation="product"
+  imagePresentation="inline"
   imageWidth="1200"
   imageHeight="900"
   faqs={faqs}
@@ -33,12 +33,27 @@ const relatedGuides = [
   <p>A louvred pergola can let you adjust overhead shade without moving the furniture. The harder buying questions sit below the roof: whether the posts leave enough room for chairs, what carries the loads into the ground, where rainwater goes and who takes responsibility for the finished installation.</p>
   <p>Start with a measured layout and a written installation scope. A kit price, a nominal size and an impressive wind headline do not answer those questions. This is a research-based planning guide; AHC has not installed or tested the systems discussed here.</p>
 
+  <figure class="pergola-planning-diagram">
+    <img src="/images/guides/louvred-pergolas-australia.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Diagram showing a pergola's outside footprint, space between posts and clearance above open louvres" />
+    <figcaption>Measure the full footprint, usable space between posts and open roof height. AHC planning illustration, not to scale or an engineering design.</figcaption>
+  </figure>
+  <nav class="pergola-guide-contents" aria-label="On this page">
+    <strong>Find the information you need</strong>
+    <ul>
+      <li><a href="#measure-the-space">Measurements</a></li>
+      <li><a href="#engineering-and-wind">Engineering and wind claims</a></li>
+      <li><a href="#pergolux-series-4">Pergolux Series 4 comparison</a></li>
+      <li><a href="#pergolux-warranty">Pergolux warranty</a></li>
+      <li><a href="#supplier-checklist">Supplier checklist</a></li>
+    </ul>
+  </nav>
+
   <h2>Decide What the Roof Needs to Do</h2>
   <p>Louvres are adjustable blades. On many systems they rotate to change light and ventilation while the frame stays in place. A rotating roof does not necessarily retract out of view. If an open sky is important, check exactly what remains overhead when the roof is fully open.</p>
   <p>Observe the patio at the time you use it, including the lower sun later in the day. A roof may shade the table at lunch yet leave the western seats exposed at dinner. Also consider the effect on daylight and winter sun in adjacent rooms. The Australian Government's <a href="https://www.yourhome.gov.au/passive-design/shading" target="_blank" rel="noopener noreferrer">Your Home shading guidance</a> explains why orientation, season and climate need to shape the solution.</p>
   <p>Compare the permanent structure with the alternatives in our <a href="/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/">outdoor shade guide</a>. An umbrella may suit occasional shade; a retractable fabric awning may suit a clear patio floor and an unobstructed sky when packed away. Both still need suitable support and operating limits. A permanent roof is a larger commitment when the furniture layout or use of the space is likely to change.</p>
 
-  <h2>Measure Three Different Spaces</h2>
+  <h2 id="measure-the-space">Measure Three Different Spaces</h2>
   <p>A size in the product name is a starting point. Obtain a dimensioned drawing for the exact model, generation, size and freestanding or wall-mounted version. Then mark these three spaces on the ground and against the house:</p>
   <ol class="feature-list">
     <li><strong>The complete footprint:</strong> outside edges of beams, posts and base plates, plus any required foundation or installation space.</li>
@@ -48,7 +63,7 @@ const relatedGuides = [
   <p>Put the table and chairs inside the clear dimensions, pull the chairs out and walk past them. A base plate on the main route can matter more than a few extra centimetres of roof. Check the <a href="/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/">outdoor dining layout</a> before choosing the next size up.</p>
   <p>For an attached system, include eaves, gutters, doors, downpipes and the available wall height in the survey. Check delivery access separately: the longest beam or heaviest package has to reach the assembly area without being forced around an impossible corner.</p>
 
-  <h2>Ask What the Wind Claim Actually Covers</h2>
+  <h2 id="engineering-and-wind">Ask What the Wind Claim Actually Covers</h2>
   <p>A headline wind speed is not enough to decide whether a structure suits your home. The useful evidence must connect the proposed configuration to its installation conditions. Ask the supplier for the current engineering or test documentation, then have the relevant qualified professional confirm its application to your site.</p>
   <ul class="feature-list">
     <li>Which exact models, spans, sizes and mounting arrangements are covered?</li>
@@ -141,7 +156,7 @@ const relatedGuides = [
   <p>Separate comments about ordering and delivery from accounts of an installed roof after several seasons. Look for the exact generation, size, installation type, location and ownership period. A review of an older manual system cannot establish the reliability of a newly released motorised one.</p>
   <p>Repeated descriptions of a problem can suggest questions to investigate, but a review is not an engineering test or a measured failure rate. Ask how a reported issue was resolved, whether parts were available and who paid the labour. Manufacturer testimonials and independent reviews are both incomplete views of the ownership experience.</p>
 
-  <h2>Take This Brief to the Supplier and Installer</h2>
+  <h2 id="supplier-checklist">Take This Brief to the Supplier and Installer</h2>
   <p>Before committing, bring a marked-up plan of the furniture, routes, house openings and proposed post positions. Ask for these five items to accompany the quote:</p>
   <ol class="feature-list">
     <li>The exact product and configuration drawings, including base plates and open-blade height.</li>
@@ -156,10 +171,27 @@ const relatedGuides = [
 </ArticleLayout>
 
 <style>
-  #pergolux-series-4,
-  #pergolux-warranty { scroll-margin-top: 8rem; }
-  @media (max-width: 767px) {
-    #pergolux-series-4,
-    #pergolux-warranty { scroll-margin-top: 16rem; }
+  .pergola-planning-diagram { margin: 2rem 0 1.5rem; }
+  .pergola-planning-diagram img { display: block; width: 100%; height: auto; border: 1px solid #ded9cd; border-radius: 10px; background: #f5f3ed; }
+  .pergola-planning-diagram figcaption { margin-top: .65rem; color: #536156; font-size: .9rem; line-height: 1.5; }
+  .pergola-guide-contents { margin: 1.5rem 0 2.25rem; padding: 1.2rem 1.4rem; border-left: 3px solid #c99724; border-radius: 0 8px 8px 0; background: #f5f3ed; }
+  .pergola-guide-contents strong { display: block; margin-bottom: .6rem; }
+  .pergola-guide-contents ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.4rem; row-gap: .5rem; padding-left: 1.25rem; margin: 0; }
+  .pergola-guide-contents a { text-underline-offset: .2em; }
+  .pergola-model-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; margin: 1.5rem 0; }
+  .pergola-model { min-width: 0; border: 1px solid #d9d8d0; border-radius: 10px; padding: 1.1rem; background: #faf8f1; }
+  .pergola-model h3 { margin: 0 0 .2rem; font-size: 1.25rem; }
+  .pergola-model-type { margin: 0 0 1rem; color: #3b5a45; font-weight: 700; }
+  .pergola-model dl, .pergola-model dd { margin: 0; }
+  .pergola-model dl > div + div { margin-top: .85rem; padding-top: .75rem; border-top: 1px solid #e2ded4; }
+  .pergola-model dt { font-size: .82rem; font-weight: 700; letter-spacing: .01em; color: #435746; }
+  .pergola-model dd { margin-top: .25rem; line-height: 1.55; }
+  .pergola-source-note { font-size: .92rem; line-height: 1.6; }
+  #measure-the-space, #engineering-and-wind, #pergolux-series-4,
+  #pergolux-warranty, #supplier-checklist { scroll-margin-top: 8rem; }
+  @media (max-width: 760px) {
+    .pergola-guide-contents ul, .pergola-model-grid { grid-template-columns: 1fr; }
+    #measure-the-space, #engineering-and-wind, #pergolux-series-4,
+    #pergolux-warranty, #supplier-checklist { scroll-margin-top: 10rem; }
   }
 </style>
