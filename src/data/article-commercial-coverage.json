@@ -3443,7 +3443,7 @@
       "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "8d6efd419bca143bc5bb0c5bf2fa5dcbb5b36ebba2ac41c5ef9c0189e4e68845",
+      "reviewedSourceSha256": "ec0caf0cf93db0afbce41c346fb1c03e605116039ddfcdae4f124b4dcad92bd6",
       "requiredProductTypes": [
         {
           "label": "Manual and motorised louvred pergola systems",
@@ -3457,7 +3457,7 @@
         "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",
         "/guides/gutter-maintenance-guide/"
       ],
-      "reviewScope": "User-authorised factual Series 4 manual/Pro/Pro Max comparison and sourced warranty discrepancy explanation added. Manufacturer-documented features only, relationship disclosed, clean source links only. No hands-on testing, numerical wind claims, commercial endorsement or affiliate placement. Primary product gap remains open."
+      "reviewScope": "4 November editorial re-review of the published guide: moved the original planning illustration inline, added accessible section navigation, presented the already sourced Series 4 features in three readable comparison cards, and clarified the January 2025 PDF's product-family scope. No new affiliate recommendations or tracking, and prior product coverage gap and engineering/anchoring blockers remain open."
     }
   ]
 }
