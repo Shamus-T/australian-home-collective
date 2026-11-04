@@ -3443,7 +3443,7 @@
       "reviewedOn": "2026-11-04",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "099de2b45b3a33db5d7992e37606ef0f63083c9e245c660884b6f2699619d3fc",
+      "reviewedSourceSha256": "94935e961a51441c4a7caaa0ea1a2cde9dbe5de442175f435103c8b7fe4a2ec9",
       "requiredProductTypes": [
         {
           "label": "Manual and motorised louvred pergola systems",
@@ -3457,7 +3457,7 @@
         "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",
         "/guides/gutter-maintenance-guide/"
       ],
-      "reviewScope": "4 November editorial re-review of the published guide: moved the original planning illustration inline, added accessible section navigation, presented the already sourced Series 4 features in three readable comparison cards, and clarified the January 2025 PDF's product-family scope. No new affiliate recommendations or tracking, and prior product coverage gap and engineering/anchoring blockers remain open."
+      "reviewScope": "4 November review: kept the required conceptual hero image, added accessible section navigation, improved the Series 4 comparison layout and clarified the January 2025 warranty document's scope. AHC has not approved commercial product placement; engineering and anchoring gaps remain. No new price, stock, tracking or performance claims."
     }
   ]
 }
