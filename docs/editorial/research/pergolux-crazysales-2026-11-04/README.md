@@ -51,7 +51,7 @@ Only these five exact clean source URLs are added to the existing editorial sour
 
 ## Article readability and document clarification — 4 November 2026
 
-The buying guide was revised after publication to use the standard article header without stretching the conceptual measurement diagram into a product-style hero. The original AHC SVG now appears as a labelled, responsive inline figure. Five in-page links provide direct access to measurements, engineering, the Series 4 comparison, warranty and the supplier checklist; the existing `#pergolux-series-4` and `#pergolux-warranty` anchors remain stable.
+The original AHC conceptual measurement illustration remains in the featured guide's required hero position, preserving the site's established layout and featured-image audit. Five in-page links provide direct access to measurements, engineering, the Series 4 comparison, warranty and the supplier checklist; the existing `#pergolux-series-4` and `#pergolux-warranty` anchors remain stable.
 
 The three manufacturer-supported Series 4 feature descriptions were reformatted as responsive comparison cards, with model checks separated from features. Source links remain explicitly non-transactional references. No affiliate product placement, price, wind rating or unverified approval statement was introduced.
 
