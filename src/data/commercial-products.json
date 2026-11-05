@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-11-05",
+  "updatedOn": "2026-11-06",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -1716,10 +1716,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Philips 5500 LatteGo EP5541/20; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Philips 5500 LatteGo EP5541/20 is classified under Kitchen & Dining. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -1741,10 +1741,10 @@
           },
           "commission": {
             "ratePercent": 2.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to EP5541/20. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Small Kitchen Appliances rate is 2.5% for Philips 5500 LatteGo EP5541/20. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {
@@ -1898,10 +1898,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Philips 3000 Series Dual Basket Airfryer NA352/00; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Philips 3000 Series Dual Basket Airfryer NA352/00 is classified under Home. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -1923,10 +1923,10 @@
           },
           "commission": {
             "ratePercent": 2.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to NA352/00. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Small Kitchen Appliances rate is 2.5% for Philips 3000 Series Dual Basket Airfryer NA352/00. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {
@@ -2394,10 +2394,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Kenwood Titanium Chef Baker XL KVL85.004BK; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Kenwood Titanium Chef Baker XL KVL85.004BK is classified under Home. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -2419,10 +2419,10 @@
           },
           "commission": {
             "ratePercent": 2.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to KVL85004BK. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Small Kitchen Appliances rate is 2.5% for Kenwood Titanium Chef Baker XL KVL85.004BK. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {
@@ -2854,10 +2854,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Breville the Fast Slow GO BPR680BSS; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Breville the Fast Slow GO BPR680BSS is classified under Home. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -2879,10 +2879,10 @@
           },
           "commission": {
             "ratePercent": 2.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to BPR680BSS. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Small Kitchen Appliances rate is 2.5% for Breville the Fast Slow GO BPR680BSS. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {
@@ -5479,18 +5479,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-22",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-11-06",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "unchanged",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -5590,6 +5590,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H",
           "supports": "Fresh exact-ASIN sweep and independent clean request show 2–5 weeks dispatch. This is dispatch, not arrival; the dated reader warning was updated without changing the product, affiliate link or images.",
           "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "6 November 2026 exact airer availability check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H",
+          "checkedOn": "2026-11-06",
+          "supports": "Two clean checks identified the exact ASIN and found an explicit unavailable notice, no restock date and no order control. The previously observed delayed order is no longer offered."
         }
       ]
     },
@@ -9258,10 +9266,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Breville the Smart Dry Connect Dehumidifier LAD208WHT; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Breville the Smart Dry Connect Dehumidifier LAD208WHT is classified under Home. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -9283,10 +9291,10 @@
           },
           "commission": {
             "ratePercent": 3.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Heating & Cooling 3.5% applies to LAD208WHT. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Heating & Cooling rate is 3.5% for Breville the Smart Dry Connect Dehumidifier LAD208WHT. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {

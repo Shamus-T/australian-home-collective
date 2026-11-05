@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-05",
+  "updatedOn": "2026-11-06",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -1677,16 +1677,15 @@
     {
       "guidePath": "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
       "title": "Drying Space That Works in Real Weather",
-      "reviewedOn": "2026-11-03",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "a02cc2ae29bad62b7eb0415f46b1349772be5912d8d6ea553592b23e2ffa4fb4",
+      "reviewedSourceSha256": "685398b71a31d81f40018abcce7aca68fafe507e48e43278ebea4235602d2436",
       "requiredProductTypes": [
         {
           "label": "Freestanding clothes airer",
           "productIds": [
-            "joseph-joseph-airframe-max-21m-5000020",
-            "lt-williams-large-collapsible-clothes-airer-black"
+            "joseph-joseph-airframe-max-21m-5000020"
           ]
         },
         {
@@ -1698,7 +1697,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "3 November availability maintenance: independently confirmed L.T. Williams 2–5 week dispatch and updated dated reader caveats. Existing AirFrame option, product research and images retained. Evidence: tmp/availability-2026-11-03/airer-recheck.json."
+      "reviewScope": "6 November availability maintenance. Paused the unavailable L.T. Williams Amazon offer after two exact-product checks. The AirFrame Max and Brabantia HangOn still cover the freestanding and folding rack choices. Evidence is in tmp/availability-2026-11-06/."
     },
     {
       "guidePath": "/guides/laundry-essentials-australian-homes/",
