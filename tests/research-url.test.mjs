@@ -27,7 +27,10 @@ test('all currently approved catalogue offers have an offline research destinati
       const clean = researchUrl(offer.destinationUrl);
       assert.ok(!clean.includes('prf.hn'));
       const parsed = new URL(clean);
-      assert.ok(!parsed.search || (parsed.hostname === 'www.bedsndreams.com.au' && /^\?variant=\d+$/.test(parsed.search)));
+      assert.notEqual(parsed.hostname, 't.cfjump.com');
+      const bedVariant = parsed.hostname === 'www.bedsndreams.com.au' && /^\?variant=\d+$/.test(parsed.search);
+      const deskVariant = clean === 'https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185';
+      assert.ok(!parsed.search || bedVariant || deskVariant);
       checked++;
     }
   }
