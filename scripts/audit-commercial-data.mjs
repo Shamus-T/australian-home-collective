@@ -1,5 +1,6 @@
 import { manufacturerPriceErrors } from "../src/lib/manufacturer-price.mjs";
 import { partnerizeLinkError } from "../src/lib/partnerize-campaigns.mjs";
+import { commissionFactoryLinkError, commissionFactoryPublisher } from "../src/lib/commission-factory-links.mjs";
 import { editorialDate } from "../src/lib/editorial-date.mjs";
 import { hasExcludedCommercialIdentity } from "../src/lib/commercial-exclusions.mjs";
 import fs from "node:fs";
@@ -395,6 +396,9 @@ function validateAffiliateTracking(urlValue, network, prefix, merchant) {
   if (network === "partnerize") {
     const issue = partnerizeLinkError(urlValue, merchant);
     if (issue) addError(prefix + " must have the configured Partnerize camref and an approved encoded destination: " + issue);
+  } else if (network === "commission-factory") {
+    const issue = commissionFactoryLinkError(urlValue, merchant);
+    if (issue) addError(prefix + " has invalid Commission Factory tracking: " + issue);
   } else if (url.searchParams.get(config.trackingParameter) !== config.trackingValue) {
     addError(
       prefix + " is missing the current " + network + " tracking value "
@@ -440,6 +444,13 @@ for (const [network, config] of Object.entries(catalogue.affiliatePrograms ?? {}
   }
 }
 const amazonProgram = catalogue.affiliatePrograms?.["amazon-australia"];
+const commissionFactoryProgram = catalogue.affiliatePrograms?.["commission-factory"];
+// Commission Factory encodes the publisher in the path, not a query parameter.
+if (commissionFactoryProgram && (commissionFactoryProgram.trackingParameter !== "publisher-path"
+  || commissionFactoryProgram.trackingValue !== commissionFactoryPublisher
+  || JSON.stringify(commissionFactoryProgram.allowedHosts) !== JSON.stringify(["t.cfjump.com"]))) {
+  addError("Commission Factory must use the verified publisher path and exact tracking host.");
+}
 if (
   !amazonProgram
   || amazonProgram.trackingParameter !== "tag"

@@ -755,10 +755,10 @@
     {
       "guidePath": "/guides/cookware-materials-compared/",
       "title": "Cookware Materials Compared for Australian Kitchens",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "a12967f178f05b91730de5c4ad0b0b2487a5ee1da87d57fbc69eb17cb78939bc",
+      "reviewedSourceSha256": "efd6dec0e216b609478d9bfb2a77ec442404f0cb2055beae64f785e8b2a8a29c",
       "requiredProductTypes": [
         {
           "label": "Stainless-steel cookware set",
@@ -777,11 +777,17 @@
           "productIds": [
             "tgg-nonstick-cookware-materials-compared"
           ]
+        },
+        {
+          "label": "Uncoated stainless-steel frypan",
+          "productIds": [
+            "raco-eversteel-stainless-steel-frypan-28cm"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. 5 November: reviewed Raco Eversteel 28 cm Stainless Steel Induction Frypan and its Cookware Brands placement, including the exact product, suitability, delivery and offline affiliate destination check."
     },
     {
       "guidePath": "/guides/cordless-stick-vacuums-australia/",
@@ -1347,15 +1353,21 @@
     {
       "guidePath": "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
       "title": "Home Office Desk Setup: What to Measure Before You Buy",
-      "reviewedOn": "2026-10-26",
+      "reviewedOn": "2026-11-05",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "b2846b3d0a893008cfaf8473b6fd04fae8db360d0ce0d382fc716f2621ef190f",
+      "reviewedSourceSha256": "19ac2ae005ec616c5877dfaa587f01ea2d8b635ae7ff0a69c6ca7f6bf3b5feac",
       "requiredProductTypes": [
         {
           "label": "Single-motor sit-stand desk",
           "productIds": [
             "gap-home-office-desk-setup-what-to-measure-before-you-buy-desk"
+          ]
+        },
+        {
+          "label": "Dual-motor sit-stand desk",
+          "productIds": [
+            "updown-pro-plus-white-melamine-120x75-black"
           ]
         }
       ],
@@ -1363,7 +1375,7 @@
       "contextualRoutes": [
         "/guides/home-office-cable-management-what-to-plan-before-buying-organisers/"
       ],
-      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md."
+      "reviewScope": "26 October2026: selected chair, desk, reading light, pantry bin and adult-dog enrichment research and placements. Existing unrelated products retain their prior review dates. See docs/editorial/commercial-gap-five-categories-2026-10-26.md. 5 November: reviewed UpDown PRO+ Melamine Standing Desk, 120 × 75 cm and its UpDown Desk placement, including the exact product, suitability, delivery and offline affiliate destination check."
     },
     {
       "guidePath": "/guides/home-office-lighting-what-to-compare-before-you-buy/",

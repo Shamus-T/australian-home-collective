@@ -1,6 +1,23 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { productLinkErrors } from '../scripts/lib/product-link-audit.mjs';
+import { commissionFactoryDestination } from '../src/lib/commission-factory-links.mjs';
+import { researchUrl } from '../scripts/research-url.mjs';
+
+test('Commission Factory product links keep the approved retailer and exact variant', () => {
+  const desk = 'https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185';
+  const pan = 'https://www.cookwarebrands.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm';
+  const deskLink = 'https://t.cfjump.com/94708/t/77799?Url=' + encodeURIComponent(desk);
+  const panLink = 'https://t.cfjump.com/94708/t/31577?Url=' + encodeURIComponent(pan);
+  assert.equal(researchUrl(deskLink), desk);
+  assert.equal(commissionFactoryDestination(panLink, 'Cookware Brands'), pan);
+  assert.throws(() => commissionFactoryDestination(panLink, 'Raco'));
+  for (const invalid of [deskLink.replace('94708', '1'), deskLink.replace('77799', '31577'),
+    deskLink.replace('46231092822185', '123'), deskLink + '&Url=' + encodeURIComponent(desk),
+    'https://prf.hn/click/camref:example/destination:' + encodeURIComponent(deskLink)]) {
+    assert.throws(() => researchUrl(invalid));
+  }
+});
 
 const product = { id: 'dryer', affiliate: true, approvedForAffiliateUse: true,
   destinationUrl: 'https://prf.hn/click/camref:approved/destination:retailer' };

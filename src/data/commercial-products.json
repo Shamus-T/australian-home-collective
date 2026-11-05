@@ -19,6 +19,13 @@
         "prf.hn",
         "bnd.prf.hn"
       ]
+    },
+    "commission-factory": {
+      "trackingParameter": "publisher-path",
+      "trackingValue": "94708",
+      "allowedHosts": [
+        "t.cfjump.com"
+      ]
     }
   },
   "enabledGuidePaths": [
@@ -26381,6 +26388,204 @@
           "checkedOn": "2026-11-04"
         }
       ]
+    },
+    {
+      "id": "updown-pro-plus-white-melamine-120x75-black",
+      "guidePath": "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
+      "name": "UpDown PRO+ Melamine Standing Desk, 120 × 75 cm",
+      "productType": "Dual-motor sit-stand desk",
+      "summary": "A black frame with a white melamine top for a compact workstation. The 64 cm minimum surface height is worth comparing with your seated elbow height.",
+      "merchant": "UpDown Desk",
+      "destinationUrl": "https://t.cfjump.com/94708/t/77799?Url=https%3a%2f%2fupdowndesk.com.au%2fproducts%2fpro-plus-series-melamine-standing-desks%3fvariant%3d46231092822185",
+      "linkLabel": "View at UpDown Desk",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-05",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-05",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 75 cm depth still needs chair clearance behind it and cable slack through the full 64–129 cm travel.",
+        "Return freight is at the buyer’s expense under the change-of-mind policy."
+      ],
+      "suitability": {
+        "suits": [
+          "people who need a low seated position and can fit a 120 × 75 cm top"
+        ],
+        "mayNotSuit": [
+          "anyone who needs a surface below 64 cm or more width for two monitors"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "UpDown PRO+ Melamine Standing Desk, 120 × 75 cm specifications",
+          "publisher": "UpDown Desk",
+          "sourceUrl": "https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185",
+          "supports": "Exact white 120 × 75 cm melamine top, black frame, variant 46231092822185 and surface height range with standard top.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Change-of-mind returns",
+          "publisher": "UpDown Desk",
+          "sourceUrl": "https://updowndesk.com.au/pages/returns",
+          "supports": "Buyer pays the return shipping costs.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "UpDown Desk owner reports",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/updown-desk",
+          "supports": "Brand and earlier PRO-series owner accounts provide context on handling and assembly. Model-specific PRO+ performance has not been independently established here.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian product offer",
+          "publisher": "UpDown Desk",
+          "sourceUrl": "https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185",
+          "supports": "Matched the selected Australian store variant and confirmed an orderable offer. Standard freight checked for Brisbane CBD 4000.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall notices",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search for the named brand and model on the Australian regulator website found no matching recall notice at review.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Reviewed offer and account-issued destination",
+          "publisher": "UpDown Desk",
+          "sourceUrl": "https://t.cfjump.com/94708/t/77799?Url=https%3a%2f%2fupdowndesk.com.au%2fproducts%2fpro-plus-series-melamine-standing-desks%3fvariant%3d46231092822185",
+          "supports": "Checked the clean retailer offer and standard delivery terms. Matched the account-issued link to this exact destination offline.",
+          "checkedOn": "2026-11-05"
+        }
+      ],
+      "image": {
+        "src": "/images/products/updown-pro-plus-white-melamine-120x75-black-640.webp",
+        "srcSet": "/images/products/updown-pro-plus-white-melamine-120x75-black-320.webp 320w, /images/products/updown-pro-plus-white-melamine-120x75-black-640.webp 640w",
+        "alt": "UpDown PRO+ with a white rectangular top and black adjustable frame.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from UpDown Desk.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0399/1086/7094/files/PP-B_120WhiteMel_8c920a71-b426-4208-b65e-5a213781ee7b.jpg?v=1779945144",
+        "suppliedVia": "Manufacturer product page: https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185",
+        "checkedOn": "2026-11-05"
+      }
+    },
+    {
+      "id": "raco-eversteel-stainless-steel-frypan-28cm",
+      "guidePath": "/guides/cookware-materials-compared/",
+      "name": "Raco Eversteel 28 cm Stainless Steel Induction Frypan",
+      "productType": "Uncoated stainless-steel frypan",
+      "summary": "A single induction-compatible frypan for browning and making pan sauces when the saucepans you already own still suit your cooking.",
+      "merchant": "Cookware Brands",
+      "destinationUrl": "https://t.cfjump.com/94708/t/31577?Url=https%3a%2f%2fwww.cookwarebrands.com.au%2fproducts%2fraco-eversteel-stainless-steel-induction-frypan-28cm",
+      "linkLabel": "View at Cookware Brands",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-05",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-05",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The empty pan weighs 1.55 kg. Allow for the extra weight of food when lifting it.",
+        "The 180°C oven limit restricts hotter oven finishes."
+      ],
+      "suitability": {
+        "suits": [
+          "cooks who want one uncoated frypan for searing on induction"
+        ],
+        "mayNotSuit": [
+          "anyone who prefers a light pan, easy-release coating or hotter oven finishes"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Raco Eversteel 28 cm Stainless Steel Induction Frypan specifications",
+          "publisher": "Raco",
+          "sourceUrl": "https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Eversteel 28 cm, SKU 755090, uncoated stainless steel, induction suitability, listed dimensions and weight, and 180°C oven limit.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Eversteel product customer reviews",
+          "publisher": "Raco",
+          "sourceUrl": "https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Customer feedback on the product listing is retailer-hosted. The fit assessment relies on published dimensions, weight and care limits.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian product offer",
+          "publisher": "Cookware Brands",
+          "sourceUrl": "https://www.cookwarebrands.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Matched the selected Australian store variant and confirmed an orderable offer. Standard freight checked for Brisbane CBD 4000.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall notices",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search for the named brand and model on the Australian regulator website found no matching recall notice at review.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Reviewed offer and account-issued destination",
+          "publisher": "Cookware Brands",
+          "sourceUrl": "https://t.cfjump.com/94708/t/31577?Url=https%3a%2f%2fwww.cookwarebrands.com.au%2fproducts%2fraco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Checked the clean retailer offer and standard delivery terms. Matched the account-issued link to this exact destination offline.",
+          "checkedOn": "2026-11-05"
+        }
+      ],
+      "image": {
+        "src": "/images/products/raco-eversteel-stainless-steel-frypan-28cm-640.webp",
+        "srcSet": "/images/products/raco-eversteel-stainless-steel-frypan-28cm-320.webp 320w, /images/products/raco-eversteel-stainless-steel-frypan-28cm-640.webp 640w",
+        "alt": "Raco Eversteel 28 cm stainless-steel frypan with a long handle.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from Raco.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0659/3527/8307/files/755090_stainless_steel_frypan_28cm_1.jpg?v=1752025603",
+        "suppliedVia": "Manufacturer product page: https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+        "checkedOn": "2026-11-05"
+      }
     }
   ]
 }
