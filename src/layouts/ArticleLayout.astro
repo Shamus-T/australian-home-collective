@@ -71,7 +71,11 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const organizationId = `${siteUrl}/#organization`;
 const categoryPath = getCategoryPath(category);
 const currentPath = Astro.url.pathname.endsWith("/") ? Astro.url.pathname : `${Astro.url.pathname}/`;
-const hasProductOptions = isCommercialGuide(currentPath) && getApprovedProductsForGuide(currentPath).length > 0;
+const productOptions = isCommercialGuide(currentPath) ? getApprovedProductsForGuide(currentPath) : [];
+const cardProducts = productOptions.filter(product => product.presentation !== "comparison-only");
+const shoppingShortcut = cardProducts.length === 1
+  ? `See ${cardProducts[0].name} and retailer availability`
+  : "Compare product fit and check retailer availability";
 const guideNavigation = getGuideNavigation(currentPath, category, categoryPath);
 const breadcrumbItems = categoryPath
   ? [
@@ -177,9 +181,9 @@ const isGuideRoute = Astro.url.pathname.startsWith("/guides/");
     )}
   </header>
   <article class="content narrow">
-      {hasProductOptions && (
+      {productOptions.length > 0 && (
         <p class="commercial-product-shortcut">
-          <a href={`#${getCommercialSectionId(currentPath)}`}>Jump to our researched options <span aria-hidden="true">↓</span></a>
+          <a href={`#${getCommercialSectionId(currentPath)}`}>{shoppingShortcut} <span aria-hidden="true">↓</span></a>
         </p>
       )}
     <slot />

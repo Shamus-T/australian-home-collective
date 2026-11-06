@@ -80,7 +80,7 @@ const formatDate = (date: string) =>
     )}
     {showComparison && (
       <>
-      <p class="commercial-comparison-hint" id={`${sectionId}-hint`}>{Object.keys(comparisonDetails).length ? "Compare the fit and main trade-off, then check the exact model at the retailer. On a small screen, each option appears as a separate comparison." : "Compare the fit and main trade-off. On a small screen, scroll across the table for retailer links."}</p>
+      <p class="commercial-comparison-hint" id={`${sectionId}-hint`}>Compare the fit, main drawback and retailer availability for each option.</p>
       <div class="commercial-product-comparison-wrap" role="region" aria-label={`${title} comparison`} aria-describedby={`${sectionId}-hint`} tabindex="0">
         <table class="commercial-product-comparison">
           <caption>Compare these researched options</caption>
@@ -269,19 +269,20 @@ const formatDate = (date: string) =>
 <style>
   .commercial-product-block--appliance .commercial-product-comparison { min-width: 0; }
   .commercial-product-block--appliance .commercial-product-comparison thead th:last-child { width: 240px; }
-  @media (max-width: 767px) {
-    .commercial-product-block--appliance .commercial-product-comparison-wrap { overflow: visible; border: 0; }
-    .commercial-product-block--appliance .commercial-product-comparison,
-    .commercial-product-block--appliance .commercial-product-comparison caption,
-    .commercial-product-block--appliance .commercial-product-comparison tbody,
-    .commercial-product-block--appliance .commercial-product-comparison tr,
-    .commercial-product-block--appliance .commercial-product-comparison th,
-    .commercial-product-block--appliance .commercial-product-comparison td { display: block; width: 100%; box-sizing: border-box; }
-    .commercial-product-block--appliance .commercial-product-comparison thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
-    .commercial-product-block--appliance .commercial-product-comparison tr { margin-bottom: 20px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
-    .commercial-product-block--appliance .commercial-product-comparison th { background: #e8eee5; border-top: 0; }
-    .commercial-product-block--appliance .commercial-product-comparison td::before { content: attr(data-label); display: block; font-weight: 700; color: var(--green-dark); margin-bottom: 6px; }
-    .commercial-product-block--appliance .commercial-product-comparison td:last-child { text-align: center; }
+  @media (max-width: 899px) {
+    .commercial-product-block .commercial-product-comparison-wrap { overflow: visible; border: 0; }
+    .commercial-product-block .commercial-product-comparison { min-width: 0; }
+    .commercial-product-block .commercial-product-comparison,
+    .commercial-product-block .commercial-product-comparison caption,
+    .commercial-product-block .commercial-product-comparison tbody,
+    .commercial-product-block .commercial-product-comparison tr,
+    .commercial-product-block .commercial-product-comparison th,
+    .commercial-product-block .commercial-product-comparison td { display: block; width: 100%; box-sizing: border-box; }
+    .commercial-product-block .commercial-product-comparison thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+    .commercial-product-block .commercial-product-comparison tr { margin-bottom: 20px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+    .commercial-product-block .commercial-product-comparison th { background: #e8eee5; border-top: 0; }
+    .commercial-product-block .commercial-product-comparison td::before { content: attr(data-label); display: block; font-weight: 700; color: var(--green-dark); margin-bottom: 6px; }
+    .commercial-product-block .commercial-product-comparison td:last-child { text-align: center; }
     .commercial-product-block--compact .commercial-product-comparison th { display: flex; align-items: center; gap: 12px; }
     .commercial-product-block--compact .commercial-product-thumbnail { width: 64px; height: 80px; flex: 0 0 64px; margin: 0; object-fit: contain; }
     .commercial-product-block--compact .commercial-comparison-identity { min-width: 0; }

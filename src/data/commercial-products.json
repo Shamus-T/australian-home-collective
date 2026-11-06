@@ -114,7 +114,8 @@
     "/guides/bedroom-storage-ideas-small-australian-rooms/",
     "/guides/bedroom-essentials-for-a-more-comfortable-home/",
     "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
-    "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/"
+    "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/",
+    "/guides/sports-gear-storage-what-to-check-before-buying-hooks-racks-or-bins/"
   ],
   "products": [
     {
@@ -27648,6 +27649,565 @@
         "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
         "suppliedVia": "Original AHC diagram based on published product specifications.",
         "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "raco-eversteel-28cm-kitchen-essentials",
+      "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
+      "name": "Raco Eversteel 28 cm Stainless Steel Induction Frypan",
+      "productType": "Uncoated stainless-steel frypan",
+      "summary": "A single induction-compatible frypan for browning and making pan sauces when the saucepans you already own still suit your cooking.",
+      "merchant": "Cookware Brands",
+      "destinationUrl": "https://t.cfjump.com/94708/t/31577?Url=https%3a%2f%2fwww.cookwarebrands.com.au%2fproducts%2fraco-eversteel-stainless-steel-induction-frypan-28cm",
+      "linkLabel": "View at Cookware Brands",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-05",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-05",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The empty pan weighs 1.55 kg. Allow for the extra weight of food when lifting it.",
+        "The 180°C oven limit restricts hotter oven finishes."
+      ],
+      "suitability": {
+        "suits": [
+          "cooks who want one uncoated frypan for searing on induction"
+        ],
+        "mayNotSuit": [
+          "anyone who prefers a light pan, easy-release coating or hotter oven finishes"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Raco Eversteel 28 cm Stainless Steel Induction Frypan specifications",
+          "publisher": "Raco",
+          "sourceUrl": "https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Eversteel 28 cm, SKU 755090, uncoated stainless steel, induction suitability, listed dimensions and weight, and 180°C oven limit.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Eversteel product customer reviews",
+          "publisher": "Raco",
+          "sourceUrl": "https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Customer feedback on the product listing is retailer-hosted. The fit assessment relies on published dimensions, weight and care limits.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian product offer",
+          "publisher": "Cookware Brands",
+          "sourceUrl": "https://www.cookwarebrands.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Matched the selected Australian store variant and confirmed an orderable offer. Standard freight checked for Brisbane CBD 4000.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall notices",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search for the named brand and model on the Australian regulator website found no matching recall notice at review.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Reviewed offer and account-issued destination",
+          "publisher": "Cookware Brands",
+          "sourceUrl": "https://t.cfjump.com/94708/t/31577?Url=https%3a%2f%2fwww.cookwarebrands.com.au%2fproducts%2fraco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Checked the clean retailer offer and standard delivery terms. Matched the account-issued link to this exact destination offline.",
+          "checkedOn": "2026-11-05"
+        }
+      ],
+      "image": {
+        "src": "/images/products/raco-eversteel-stainless-steel-frypan-28cm-640.webp",
+        "srcSet": "/images/products/raco-eversteel-stainless-steel-frypan-28cm-320.webp 320w, /images/products/raco-eversteel-stainless-steel-frypan-28cm-640.webp 640w",
+        "alt": "Raco Eversteel 28 cm stainless-steel frypan with a long handle.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from Raco.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0659/3527/8307/files/755090_stainless_steel_frypan_28cm_1.jpg?v=1752025603",
+        "suppliedVia": "Manufacturer product page: https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+        "checkedOn": "2026-11-05"
+      }
+    },
+    {
+      "id": "onebed-essential-queen-bedroom-essentials",
+      "guidePath": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
+      "name": "Onebed Essential Queen, 25 cm foam mattress",
+      "productType": "Lower-profile foam queen mattress",
+      "summary": "A 153 × 203 cm foam queen with a 25 cm profile. On the same base its surface sits 9 cm lower than the Solene and 3 cm lower than the Orlando Firm.",
+      "merchant": "OneBed Mattress",
+      "destinationUrl": "https://t.cfjump.com/94708/t/72641?Url=https%3a%2f%2fonebed.com.au%2fproducts%2fonebed-essential-10%3fvariant%3d43278119207021",
+      "linkLabel": "Check price at OneBed Mattress",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Check the support and ventilation of your base; it affects both mattress care and warranty eligibility.",
+        "The trial starts at purchase, requires at least 30 nights of use and only accepts a mattress in donatable condition."
+      ],
+      "suitability": {
+        "suits": [
+          "a household keeping a queen base and looking for a lower finished bed height"
+        ],
+        "mayNotSuit": [
+          "an unsupported base or a sleeper who wants pocket springs"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Onebed Essential Queen, 25 cm foam mattress specifications",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+          "supports": "OB-ESS-Q; retailer variant 43278119207021, 153 cm wide by 203 cm long by 25 cm deep. Ten-year limited manufacturer warranty and conditional 125-night trial.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/onebed-mattress-essential-queen",
+          "supports": "Queen owner accounts describe both satisfactory use and issues with warmth, edges or uneven support. Some reviews were incentivised. The reports do not identify every product revision.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://t.cfjump.com/94708/t/72641?Url=https%3a%2f%2fonebed.com.au%2fproducts%2fonebed-essential-10%3fvariant%3d43278119207021",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Onebed limited warranty",
+          "publisher": "Onebed",
+          "sourceUrl": "https://onebed.com.au/pages/warranty",
+          "supports": "Ten-year Essential limited warranty; change of mind is separate.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Sleep trial",
+          "publisher": "Onebed",
+          "sourceUrl": "https://onebed.com.au/pages/125-night-trial",
+          "supports": "Check purchase date, 30-night minimum, RMA, exclusions and collection.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/onebed-essential-queen-25cm-640.webp",
+        "srcSet": "/images/products/onebed-essential-queen-25cm-320.webp 320w, /images/products/onebed-essential-queen-25cm-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Queen mattress footprint diagram, 153 by 203 cm with a 25 cm profile.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "youcopia-rollout-8-bathroom",
+      "guidePath": "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/",
+      "name": "YouCopia RollOut Under Sink Caddy — 8-inch",
+      "productType": "Narrow wheeled caddy with dividers",
+      "summary": "A narrower rolling bin with two movable dividers for keeping bottles upright. Handles let you lift it out, while a removable basket holds smaller items. Owners like the access, but the extra basket can make it too long for a cupboard.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow about 20 cm width, 42 cm depth and 13.5 cm empty height. The end-mounted basket increases depth to about 54 cm; moving it to a side increases width instead. Add bottle headroom.",
+        "Lift the front slightly to roll it; this is not a fitted drawer on runners. Keep its travel path clear and control it near the cupboard edge.",
+        "Hand-wash only. The open bin is not child-resistant storage; keep cleaning products in their original containers and securely stored."
+      ],
+      "suitability": {
+        "suits": [
+          "a narrow, deep pocket beside plumbing where a loose caddy is easier to remove than a shelf"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards when the extra basket is fitted on an end",
+          "households needing fixed runners or enclosed chemical storage"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "RollOut Under Sink Caddy 8-inch, model 50261",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/products/rollout-under-sink-caddy",
+          "supports": "Manufacturer specifies 7.7 W x 5.3 H x 16.4 D inches, 21.3 inches deep with basket, two dividers, rear wheels and hand washing. Instructions require lifting the front slightly to roll. Rounded planning dimensions allow for the small 7.8/16.3-inch listing variation; Amazon manufacturer part number 50261 matches the manufacturer SKU.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Selected RollOut Caddy owner reviews",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Read one Australian and five overseas displayed reviews for the RollOut Caddy variant. Recurring useful storage/rolling access; an owner could not fit the end basket, another described a cracked first delivery replaced by the retailer, and one found it expensive. No repeated serious failure pattern in the inspected sample, but long-term independent testing remains limited.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Exact eight-inch white ASIN B08B1T3KBN, manufacturer part 50261, in stock with Add to cart enabled. Sold and shipped by Amazon AU, with 30-day change-of-mind return eligibility displayed. Manufacturer-direct US stock is separate and was sold out.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU seller and tracked link",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU verified on 11 October 2026. Australian delivery offer displayed; selected ASIN and tracking tag ahc07-22 preserved. Link verification is not a claim of sales attribution.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Retailer returns and manufacturer warranty scope",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/warranty",
+          "supports": "Manufacturer directs purchases from other retailers back to that retailer. The two-year manufacturing-defect wording applies to YouCopia.com purchases, so it is not promised for this Amazon AU offer. Amazon AU is the verified local retailer and returns route.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian distributor listed by manufacturer",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/where-to-buy",
+          "supports": "Manufacturer lists Donaldson as its Australian distributor; this establishes an Australian brand presence but does not prove distributor coverage for the selected Amazon offer.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "YouCopia recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=YouCopia",
+          "supports": "Official brand recall search returned no results on 11 October 2026. This is a dated search, not safety certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN",
+          "supports": "Exact ASIN B08B1T3KBN and intended variant matched. Listing displayed: Only 4 left in stock (more on the way). Availability-only observation at 2026-10-18T08:54:59.527Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp",
+        "srcSet": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-320.webp 320w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp 640w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-960.webp 960w",
+        "alt": "White YouCopia RollOut eight-inch caddy with adjustable dividers and a removable front basket.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from YouCopia’s website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/2534/0342/files/RollOut-Under-Sink-8in-Caddy-Propped-Silo.png?v=1748026634",
+        "suppliedVia": "Manufacturer product page: https://youcopia.com/products/rollout-under-sink-caddy",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "youcopia-rollout-8-laundry",
+      "guidePath": "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/",
+      "name": "YouCopia RollOut Under Sink Caddy — 8-inch",
+      "productType": "Narrow wheeled caddy with dividers",
+      "summary": "A narrower rolling bin with two movable dividers for keeping bottles upright. Handles let you lift it out, while a removable basket holds smaller items. Owners like the access, but the extra basket can make it too long for a cupboard.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow about 20 cm width, 42 cm depth and 13.5 cm empty height. The end-mounted basket increases depth to about 54 cm; moving it to a side increases width instead. Add bottle headroom.",
+        "Lift the front slightly to roll it; this is not a fitted drawer on runners. Keep its travel path clear and control it near the cupboard edge.",
+        "Hand-wash only. The open bin is not child-resistant storage; keep cleaning products in their original containers and securely stored."
+      ],
+      "suitability": {
+        "suits": [
+          "a narrow, deep pocket beside plumbing where a loose caddy is easier to remove than a shelf"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards when the extra basket is fitted on an end",
+          "households needing fixed runners or enclosed chemical storage"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "RollOut Under Sink Caddy 8-inch, model 50261",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/products/rollout-under-sink-caddy",
+          "supports": "Manufacturer specifies 7.7 W x 5.3 H x 16.4 D inches, 21.3 inches deep with basket, two dividers, rear wheels and hand washing. Instructions require lifting the front slightly to roll. Rounded planning dimensions allow for the small 7.8/16.3-inch listing variation; Amazon manufacturer part number 50261 matches the manufacturer SKU.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Selected RollOut Caddy owner reviews",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Read one Australian and five overseas displayed reviews for the RollOut Caddy variant. Recurring useful storage/rolling access; an owner could not fit the end basket, another described a cracked first delivery replaced by the retailer, and one found it expensive. No repeated serious failure pattern in the inspected sample, but long-term independent testing remains limited.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Exact eight-inch white ASIN B08B1T3KBN, manufacturer part 50261, in stock with Add to cart enabled. Sold and shipped by Amazon AU, with 30-day change-of-mind return eligibility displayed. Manufacturer-direct US stock is separate and was sold out.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU seller and tracked link",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU verified on 11 October 2026. Australian delivery offer displayed; selected ASIN and tracking tag ahc07-22 preserved. Link verification is not a claim of sales attribution.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Retailer returns and manufacturer warranty scope",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/warranty",
+          "supports": "Manufacturer directs purchases from other retailers back to that retailer. The two-year manufacturing-defect wording applies to YouCopia.com purchases, so it is not promised for this Amazon AU offer. Amazon AU is the verified local retailer and returns route.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian distributor listed by manufacturer",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/where-to-buy",
+          "supports": "Manufacturer lists Donaldson as its Australian distributor; this establishes an Australian brand presence but does not prove distributor coverage for the selected Amazon offer.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "YouCopia recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=YouCopia",
+          "supports": "Official brand recall search returned no results on 11 October 2026. This is a dated search, not safety certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN",
+          "supports": "Exact ASIN B08B1T3KBN and intended variant matched. Listing displayed: Only 4 left in stock (more on the way). Availability-only observation at 2026-10-18T08:54:59.527Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp",
+        "srcSet": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-320.webp 320w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp 640w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-960.webp 960w",
+        "alt": "White YouCopia RollOut eight-inch caddy with adjustable dividers and a removable front basket.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from YouCopia’s website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/2534/0342/files/RollOut-Under-Sink-8in-Caddy-Propped-Silo.png?v=1748026634",
+        "suppliedVia": "Manufacturer product page: https://youcopia.com/products/rollout-under-sink-caddy",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "really-useful-19l-dry-sports-kit",
+      "guidePath": "/guides/sports-gear-storage-what-to-check-before-buying-hooks-racks-or-bins/",
+      "name": "Really Useful Box 19L Clear",
+      "productType": "Stackable lidded storage box",
+      "summary": "A clear lidded 19 L box for separate dry items such as a pump, spare grips and cones. Measure the longest item against the inside of the box and check that the lid can lift clear of the shelf.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-22",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-22",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Nineteen litres is too small for bulky equipment and the tapered internal shape reduces usable space.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "small parts, cleaning refills and hobby supplies"
+        ],
+        "mayNotSuit": [
+          "bulky sporting gear or heavy power tools"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Really Useful Box 19L Clear manufacturer information",
+          "publisher": "Really",
+          "sourceUrl": "https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Really Useful Box 19L Clear product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/really-useful-box-19-litre-clear",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Really Useful Box 19L Clear Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Really Useful Box 19L Clear Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000YXLJ7G: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Displayed seller: MplusL. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/really-useful-box-19l-clear-250.webp",
+        "srcSet": "/images/products/really-useful-box-19l-clear-250.webp 250w",
+        "alt": "Really Useful Box 19L Clear shown with example contents.",
+        "width": 250,
+        "height": 250,
+        "credit": "Product image sourced from Really Useful Products.",
+        "sourceUrl": "https://www.reallyusefulproducts.co.uk/images/onlineshop/rub/fullsize/b19_0litre3.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
+        "checkedOn": "2026-10-10"
       }
     }
   ]

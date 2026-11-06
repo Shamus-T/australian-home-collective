@@ -51,7 +51,7 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
           ) : offer.merchant === "Beds n Dreams" && offer.affiliateNetwork === "partnerize" ? (
             <><img class="commercial-retailer-badge" src="/images/retailers/beds-n-dreams-partnerize.png" alt="Beds n Dreams" width="1504" height="1091" loading="eager" /><span class="commercial-retailer-action">Check price</span></>
           ) : (
-            <span class="commercial-retailer-name">{offer.merchant === "Amazon Australia" ? "Amazon" : offer.merchant}</span>
+            <span class="commercial-retailer-name">Check price at {offer.merchant}</span>
           )}
         </a>
       </li>
