@@ -1,5 +1,4 @@
 ---
-import BuyingJourneyNav from "../../../components/BuyingJourneyNav.astro";
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import FridgeMeasurementResource from "../../../components/FridgeMeasurementResource.astro";
 import applianceComparisons from "../../../data/appliance-buying-comparisons.json";
@@ -52,7 +51,7 @@ const faqs = [
   description="Compare fridge dimensions in mm and cm, with a model size chart, cavity widths and clearance checks. Measure door swing and delivery access before buying."
   category="Kitchen"
   date="Updated November 2026"
-  dateModified="2026-11-04"
+  dateModified="2026-11-06"
   datePublished="2026-07-23"
   readingTime="10 minute read"
   faqs={faqs}
@@ -61,28 +60,15 @@ const faqs = [
   imageAlt="An open bottom mount refrigerator in a warm Australian kitchen showing the surrounding cabinetry and walking space"
   imagePosition="42% 28%"
 >
-  <p>
-    Fridge capacity is measured in litres, but litres do not tell you whether the appliance will
-    fit the kitchen. Width, total depth, door swing, ventilation and the delivery route can rule
-    out a model before its internal layout matters.
-  </p>
-  <p>
-    Start with the finished opening and the path into the house. Then compare it with the exact
-    manufacturer's planning and installation documents. Fridges with similar capacities can have
-    noticeably different external dimensions.
-  </p>
+  <nav class="fridge-compare-bar" aria-label="Fridge guide shortcuts">
+    <a href="#commercial-products-fridge-dimensions-australia" data-fridge-shortcut="comparison">Compare fridges</a>
+    <a href="#fridge-size-chart-heading" data-fridge-shortcut="measure">Size chart</a>
+  </nav>
 
-  <BuyingJourneyNav title="Choose a fridge layout to compare" links={[
-    { href: "#compare-westinghouse-wtm3100wl-x-good-guys", label: "Narrower top freezer", detail: "312L · 658mm width with side gaps" },
-    { href: "#compare-lg-gb-b400ps-fridge-fit-good-guys", label: "Bottom freezer", detail: "436L · 705mm width with side gaps" },
-    { href: "#compare-westinghouse-wtm4302wd-r-good-guys", label: "Larger top freezer", detail: "431L · 759mm width with side gaps" },
-    { href: "#compare-tgg-gap-haier-hrf510fhs", label: "French doors", detail: "509L · 850mm planned cavity width" },
-  ]} />
-  <p id="fridge-shortlist-route-heading"><strong>These widths are not fit guarantees.</strong> Check height, depth, ventilation and door swing too. <a href="#fridge-size-chart-heading">See the full size chart</a> or <a href="#fridge-measurements-heading">measure your opening first</a>. For a 700mm-wide opening, only the smaller Westinghouse passes the width calculation.</p>
-
-  <CommercialProductBlock guidePath="/guides/fridge-dimensions-australia/" title="Compare four fridge options and check current prices" intro="First compare the layout and fit limits, then use The Good Guys button to check the exact model’s current price and postcode delivery. These are researched options, not firsthand AHC tests." variant="comparison" compactComparison comparisonDetails={applianceComparisons}>
+  <CommercialProductBlock guidePath="/guides/fridge-dimensions-australia/" title="Compare four fridges by fit" intro="First compare widths with side gaps. Check height, depth and door swing before ordering. Tap a row for the exact model’s price and delivery options at The Good Guys." variant="comparison" compactComparison comparisonDetails={applianceComparisons}>
     <Fragment slot="after-comparison">
   <section aria-labelledby="fridge-size-chart-heading">
+    <p id="fridge-shortlist-route-heading">For a 700 mm opening, only the 312 L Westinghouse clears the width check. Check the other dimensions against <a href="#fridge-measurements-heading">your measurements</a> before ordering.</p>
     <h2 id="fridge-size-chart-heading">Fridge size chart: body dimensions are not cavity sizes</h2>
     <p>There is no single standard fridge size in Australia. These four researched options show why body width alone cannot confirm fit. Measurements below are <strong>width × height × depth</strong>.</p>
     <p class="table-hint">Swipe sideways to compare the full table.</p>
@@ -316,3 +302,43 @@ const faqs = [
     :global(html) { scroll-padding-top: 8rem; }
   }
 </style>
+
+<style>
+  .fridge-compare-bar { display: none; }
+  :global(article:has(.fridge-compare-bar) .commercial-product-comparison tbody tr) { position: relative; }
+  :global(article:has(.fridge-compare-bar) .commercial-product-comparison a[data-commercial-placement="comparison-name"]::after) { content: ""; position: absolute; inset: 0; z-index: 1; }
+  :global(article:has(.fridge-compare-bar) .commercial-product-comparison a[data-commercial-placement="comparison"]) { position: relative; z-index: 2; }
+  :global(article:has(.fridge-compare-bar) .commercial-product-comparison tr:focus-within) { outline: 2px solid var(--green-dark); outline-offset: -2px; }
+  @media (max-width: 767px) {
+    :global(body:has(.fridge-compare-bar) .article-header) { min-height: 0; padding: 12px 0; }
+    :global(body:has(.fridge-compare-bar) .article-header .narrow) { padding-block: 0; }
+    :global(body:has(.fridge-compare-bar) .article-header h1) { font-size: clamp(1.5rem, 6vw, 2.25rem); line-height: 1.12; margin: 4px 0; }
+    :global(body:has(.fridge-compare-bar) .article-header :is(.breadcrumbs,.eyebrow,.lead)) { display: none; }
+    :global(body:has(.fridge-compare-bar) .article-header .article-meta) { margin: 4px 0 0; font-size: .8rem; }
+    :global(article:has(.fridge-compare-bar) > .commercial-product-shortcut) { display: none; }
+    :global(article:has(.fridge-compare-bar) .commercial-product-block) { margin-top: 0; }
+    :global(article:has(.fridge-compare-bar) .commercial-product-block > h2) { margin-top: 0; }
+    :global(article:has(.fridge-compare-bar) .commercial-comparison-hint) { display: none; }
+    :global(article:has(.fridge-compare-bar)) { padding-top: 4px; }
+    :global(article:has(.fridge-compare-bar) .commercial-product-block > h2) { font-size: 1.35rem; line-height: 1.15; margin-bottom: 6px; }
+    :global(article:has(.fridge-compare-bar) .commercial-product-context),
+    :global(article:has(.fridge-compare-bar) .commercial-product-disclosure) { font-size: .93rem; line-height: 1.4; margin: 8px 0; }
+    :global(article:has(.fridge-compare-bar) .commercial-product-comparison) { position: relative; }
+    :global(article:has(.fridge-compare-bar) .commercial-product-comparison caption) { position: absolute; top: 0; left: 0; padding: 0; margin: 0; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+    .fridge-compare-bar { display: flex; position: fixed; z-index: 9; bottom: 0; inset-inline: 0; justify-content: center; align-items: center; gap: .75rem; background: #fffdf6; border-top: 1px solid var(--line); padding: 4px 12px max(4px, env(safe-area-inset-bottom)); }
+    .fridge-compare-bar a { padding: 10px 14px; min-height: 44px; display: inline-flex; align-items: center; color: var(--green-dark); }
+    .fridge-compare-bar a:first-child { background: var(--green-dark); color: white; border-radius: 6px; }
+    :global(body:has(.fridge-compare-bar)) { padding-bottom: calc(55px + env(safe-area-inset-bottom)); }
+    :global(html:has(.fridge-compare-bar)) { scroll-padding-bottom: calc(60px + env(safe-area-inset-bottom)); }
+    #fridge-size-chart-heading { scroll-margin-top: 195px; }
+  }
+</style>
+<script>
+  import { shouldTrackAnalytics } from "../../../scripts/analytics-preference.js";
+  import { sendGoogleAnalyticsEvent } from "../../../scripts/google-analytics.js";
+  document.querySelectorAll<HTMLAnchorElement>("[data-fridge-shortcut]").forEach(link => {
+    link.addEventListener("click", () => {
+      if (shouldTrackAnalytics(window)) sendGoogleAnalyticsEvent("guide_shortcut", { guide_path: location.pathname, placement: "sticky", target_section: link.dataset.fridgeShortcut });
+    });
+  });
+</script>
