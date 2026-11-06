@@ -4,6 +4,29 @@ import CommercialProductBlock from "../../../components/CommercialProductBlock.a
 import ExternalLink from "../../../components/ExternalLink.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
+const mealComparisons = {
+  "panasonic-nn-cd88qsqpq": {
+    "reason": "You want a larger single cavity for sequential cooking.",
+    "fit": "34 L cavity · 560 mm wide",
+    "tradeoff": "Check your roasting dish, room to open the door and the model-specific ventilation requirements."
+  },
+  "panasonic-cd58-combi-microwave": {
+    "reason": "One permanent benchtop position for reheating and occasional air frying in sequence.",
+    "fit": "27 L cavity · 340 mm turntable",
+    "tradeoff": "Compare your largest dish with the 340 mm turntable. Panasonic specifies countertop use only."
+  },
+  "philips-na220-single-basket": {
+    "reason": "Small portions cooked alongside a dish heating in the microwave.",
+    "fit": "One 4.2 L drawer",
+    "tradeoff": "There is one cooking zone. Check the usable basket area for your usual portion and allow space to pull the drawer forward."
+  },
+  "philips-na352-dual-basket": {
+    "reason": "A main and a smaller side cooked separately while the microwave stays free.",
+    "fit": "Separate 6 L and 3 L drawers",
+    "tradeoff": "The 9 L total is split across unequal drawers. Check whether your side fits the 3 L drawer and allow room to pull both drawers out."
+  }
+};
+
 const relatedGuides = [
   { href: "/guides/small-kitchen-appliances-what-to-check-before-you-buy/", title: "Small Kitchen Appliances That Earn Their Bench Space", description: "Compare separate air fryers and other appliances around the jobs you actually do." },
   { href: "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/", title: "Kitchen Bench Space That Stays Clear", description: "Plan operating space, food preparation and appliance storage together." },
@@ -24,6 +47,7 @@ const faqs = [
   category="Kitchen"
   date="Published October 2026"
   datePublished="2026-10-14"
+  dateModified="2026-11-06"
   readingTime="7 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
@@ -37,6 +61,25 @@ const faqs = [
   <p>A microwave and an air fryer can crowd a kitchen bench before the kettle and toaster arrive. A convection microwave with an air-fry mode offers another approach: reheating, baking, grilling and crisping in one appliance. Whether that improves your kitchen depends on the meals you cook and the space the appliance needs while operating.</p>
   <p><strong>A combination appliance may replace two machines, but it still has one cooking cavity.</strong> If you often microwave vegetables while an air fryer cooks the main course, combining those jobs can introduce a queue. If you mainly reheat lunch and occasionally bake or roast a small meal, the same trade-off may be worthwhile.</p>
 
+  <section aria-labelledby="choose-a-cooking-setup">
+    <h2 id="choose-a-cooking-setup">Choose around the meal you cook most often</h2>
+    <ul class="meal-routes">
+      <li><strong>Replace the microwave and cook in stages.</strong> Compare the <a href="#compare-panasonic-cd58-combi-microwave">27 L Panasonic</a> and <a href="#compare-panasonic-nn-cd88qsqpq">34 L Panasonic</a>. Measure your widest dish as well as the bench space for the door and ventilation.</li>
+      <li><strong>Keep the microwave and crisp a side.</strong> The <a href="#compare-philips-na220-single-basket">Philips 4.2 L single drawer</a> lets you cook a small batch while the microwave reheats the rest of dinner.</li>
+      <li><strong>Cook a main and a side at different settings.</strong> The <a href="#compare-philips-na352-dual-basket">Philips 6 L + 3 L dual drawer</a> gives each food its own space. Check whether the smaller drawer fits your usual side.</li>
+    </ul>
+    <p>If your current setup already handles these meals, start by <a href="/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/">clearing the prep space</a> before replacing either appliance.</p>
+  </section>
+
+  <CommercialProductBlock
+    guidePath="/guides/convection-microwave-vs-air-fryer/"
+    variant="comparison"
+    comparisonDetails={mealComparisons}
+    compactComparison={true}
+    title="Compare combination microwaves and basket air fryers"
+    intro="First decide which foods need to cook at the same time. Compare a combination oven for meals cooked in stages, or a separate drawer for use alongside your microwave. Check your own dish or portion size before ordering."
+  />
+
   <h2>What the cooking modes actually mean</h2>
   <ul>
     <li><strong>Microwave:</strong> useful for reheating, defrosting and cooking with microwave energy. It does not provide the same dry surface browning as an oven or grill.</li>
@@ -47,20 +90,12 @@ const faqs = [
   </ul>
   <p>A basket air fryer offers a pull-out drawer for loading and shaking food. A microwave-style oven normally involves opening a door and handling a hot basket, rack or tray. Try those movements in a showroom if grip, reach or lifting is a concern.</p>
 
-  <h2>Choose around a normal dinner</h2>
-  <h3>One appliance may suit</h3>
-  <p>You need to replace a microwave, want occasional oven or grill cooking, and usually cook those jobs one after another. You have a permanent operating position with the required ventilation and somewhere to store the unused accessories. The value comes from using several functions regularly.</p>
-  <h3>Separate appliances may suit</h3>
-  <p>You regularly cook two foods at once, prefer the drawer-and-shake routine, or already have an air fryer that produces results you like. A dual-drawer model can also offer separate settings for each compartment. Our <a href="/guides/small-kitchen-appliances-what-to-check-before-you-buy/">small kitchen appliance guide</a> explains equal and unequal basket layouts and the measurements to check.</p>
-  <h3>Keeping what you own may suit</h3>
-  <p>If both appliances work and there is enough safe operating space, replacement may solve very little. Clear the preparation area first with our <a href="/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/">bench-space guide</a>. Remember that one larger appliance can still occupy more usable bench than expected once its door and ventilation are included.</p>
-
   <h2>Measure tray space, not just litres</h2>
   <p>A 34-litre oven cavity and a basket air fryer's advertised capacity are different shapes. Neither figure tells you how many pieces can sit in a useful single layer. Measure your dinner plate, roasting dish and handles; check that the dish can rotate where required. Rack height and clearance above the food matter too.</p>
   <p>Check the recipe's stated food weight and arrangement. A deeper pile may need turning, shaking or several batches. Include preheating, loading, turning, standing time and washing up when comparing the two routines. We have not measured comparative cooking times or electricity consumption, so this guide makes no blanket speed or energy-saving claim.</p>
 
   <h2>Ventilation can decide whether it fits</h2>
-  <p>The Panasonic NN-CD88QSQPQ example below measures 560 mm wide, 343 mm high and 450 mm deep before operating clearances. It weighs 18 kg, making a permanent position more practical than daily lifting. Those are appliance dimensions, not a cabinet opening specification.</p>
+  <p>The Panasonic NN-CD88QSQPQ measures 560 mm wide, 343 mm high and 450 mm deep before operating clearances. It weighs 18 kg, making a permanent position more practical than daily lifting. Those are appliance dimensions, not a cabinet opening specification.</p>
   <p>Its Australian manual specifies 150 mm above and 100 mm behind for counter-top placement, with a side-clearance/open-space condition that must also be followed. Do not treat those two measurements as a complete installation plan. Read the full placement instructions on page 10. Built-in installation requires Panasonic's specified trim kit and its separate instructions; a closed cupboard is not a substitute.</p>
   <p>For any model, check the open door, plug, vents and a safe landing area for hot dishes. Do not use another model's clearances or block vents with stored accessories.</p>
 
@@ -68,14 +103,7 @@ const faqs = [
   <p>Microwave-safe plastic is not automatically suitable for oven heat. Likewise, a metal baking tray that works in convection mode may be prohibited when microwaves are active. Supplied metal accessories have their own mode restrictions; their inclusion does not make arbitrary metal cookware safe.</p>
   <p>For example, Panasonic's chart on page 13 permits its air-fry basket in grill and convection/air-fry modes, but not microwave or combination modes. Its supplied enamel tray and wire rack have different permissions. Check the exact chart before cooking, use appropriate oven gloves and let hot accessories cool before cleaning. Our <a href="/guides/cookware-materials-compared/">cookware materials guide</a> provides broader context, but the appliance and cookware instructions govern compatibility.</p>
 
-  <CommercialProductBlock
-    guidePath="/guides/convection-microwave-vs-air-fryer/"
-    variant="quick"
-    title="A researched combination option"
-    intro="This shortlist currently contains one combination microwave that meets our evidence checks. Consider it if several cooking functions suit your routine; it is not a recommendation to replace a working air fryer. Check current stock and delivery for your postcode."
-  />
-
-  <h2>What the evidence does—and does not—show</h2>
+  <h2>Evidence for the Panasonic NN-CD88QSQPQ</h2>
   <p>Australian purchaser comments at The Good Guys describe useful reheating, baking and roasting versatility. Some reviewers are still learning the functions, and the retailer says reviews may be incentivised. Those reports help identify ownership considerations; they do not prove long-term reliability or performance in your kitchen.</p>
   <p>Rachel Ogden's firsthand Tech Advisor review of the UK NN-CD88 family found a large footprint, a learning curve and variable crisping results. That supports caution about transferring air-fryer recipes unchanged. It is not a test of the exact Australian suffix, and we have used the Australian manual—not the review's cooking setup—for accessory and installation instructions.</p>
   <p>AHC has not cooked with this model. Our confidence is moderate. We checked Australian specifications, the manual, warranty and support information, owner feedback, the recall register and the exact retailer offer on 14 October 2026. The Good Guys displayed delivery to a Brisbane 4000 test postcode and local stock; this does not establish nationwide stock or a future delivery promise. Panasonic lists a 12-month small-appliance manufacturer warranty; read its terms and keep proof of purchase.</p>
@@ -90,13 +118,21 @@ const faqs = [
   </ol>
 
   <h2>Sources and review notes</h2>
-  <p>Sources checked 14 October 2026. Specifications establish features, not a promise of cooking results.</p>
+  <p>The original NN-CD88QSQPQ review dates from 14 October. On 6 November we checked the three additions against their Australian specifications and retailer listings.</p>
   <ul>
     <li><ExternalLink href="https://www.panasonic.com/au/consumer/household/microwave-ovens/convection-grill-microwaves/nn-cd88qsqpq.html">Panasonic Australia: NN-CD88QSQPQ product information and support</ExternalLink>.</li>
     <li><ExternalLink href="https://www.panasonic.com/content/dam/panasonic/au/en/PDF/Operating-Instructions-NN-CD88QSQPQ.pdf">Panasonic Australian operating instructions (PDF)</ExternalLink>: placement page 10; cookware chart page 13.</li>
     <li><ExternalLink href="https://www.panasonic.com/au/support/manufacturers-warranties.html">Panasonic Australia manufacturer warranties</ExternalLink>.</li>
+    <li>Panasonic Australia: 27 L NN-CD58RSQPQ dimensions, accessories and benchtop installation.</li>
+    <li>Philips Australia: <ExternalLink href="https://www.philips.com.au/c-p/NA220_00/2000-series-airfryer-2000-series-42l">4.2 L single drawer</ExternalLink> and <ExternalLink href="https://www.philips.com.au/c-p/NA352_00/3000-series-dual-basket-airfryer">6 L + 3 L dual drawer</ExternalLink>.</li>
     <li><ExternalLink href="https://www.techadvisor.com/article/2642825/panasonic-4-in-1-combi-microwave-air-fryer-oven-review.html">Tech Advisor: Rachel Ogden's NN-CD88 review</ExternalLink>, 21 March 2025; UK model family.</li>
     <li><ExternalLink href="https://www.productsafety.gov.au/recalls?query=NN-CD88">ACCC Product Safety recall search</ExternalLink>: no matching NN-CD88 result identified at review; this is not safety certification.</li>
   </ul>
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>
+
+<style>
+  .meal-routes li + li { margin-top: .6rem; }
+  :global(.commercial-product-comparison tr[id]) { scroll-margin-top: 120px; }
+  @media (max-width: 767px) { :global(.commercial-product-comparison tr[id]) { scroll-margin-top: 240px; } }
+</style>

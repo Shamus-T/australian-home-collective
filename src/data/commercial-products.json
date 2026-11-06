@@ -16442,6 +16442,288 @@
       }
     },
     {
+      "id": "panasonic-cd58-combi-microwave",
+      "guidePath": "/guides/convection-microwave-vs-air-fryer/",
+      "name": "Panasonic NN-CD58RSQPQ 27 L combination microwave",
+      "productType": "27 L combination microwave",
+      "summary": "Replace a microwave and air fry in the same cavity. The 27 L Panasonic includes an air-fry basket, wire rack and enamel tray. Its turntable is 340 mm across.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Compare your largest dish with the 340 mm turntable. Panasonic specifies countertop use only."
+      ],
+      "suitability": {
+        "suits": [
+          "one permanent benchtop position for reheating and occasional air frying in sequence"
+        ],
+        "mayNotSuit": [
+          "a built-in cavity or meals that need the microwave and a separate air fryer at the same time"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "NN-CD58RSQPQ Australian product specifications",
+          "publisher": "Panasonic",
+          "sourceUrl": "https://store.apac.panasonic.com/au/nn-cd58rsqpq.html",
+          "supports": "Replace a microwave and air fry in the same cavity. The 27 L Panasonic includes an air-fry basket, wire rack and enamel tray. Its turntable is 340 mm across. Compare your largest dish with the 340 mm turntable. Panasonic specifies countertop use only.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Australian retailer feedback for NN-CD58RSQPQ",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+          "supports": "Owners describe using the microwave and convection functions in place of separate appliances; comments on space and controls are subjective.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and product identity",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+          "supports": "Clean listing for NN-CD58RSQPQ displayed an InStock offer and a purchase control on 6 November. Delivery depends on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for NN-CD58RSQPQ",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/consumers/respond-to-recalls-and-unsafe-products/search-product-recalls",
+          "supports": "Brand and exact-model searches of indexed Australian recall notices on 6 November returned no matching notice. Direct register query was inaccessible. This check is not safety certification.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian SKU 50099436",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+          "supports": "Clean retailer page, exact model NN-CD58RSQPQ and SKU 50099436 checked together. Approved campaign and encoded destination validated offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/nn-cd58rsqpq-tgg-640.webp",
+        "srcSet": "/images/products/nn-cd58rsqpq-tgg-320.webp 320w, /images/products/nn-cd58rsqpq-tgg-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Panasonic NN-CD58RSQPQ 27 L combination microwave",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50099436_1079619.png?v=1786595690",
+        "suppliedVia": "The Good Guys exact-model listing: https://www.thegoodguys.com.au/panasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "philips-na220-single-basket",
+      "guidePath": "/guides/convection-microwave-vs-air-fryer/",
+      "name": "Philips NA220/00 4.2 L single-basket air fryer",
+      "productType": "4.2 L single-basket air fryer",
+      "summary": "Keep your working microwave and use a separate 4.2 L drawer for chips or a side dish. A window lets you check browning without pulling the drawer out.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-2000-series-42-litre-large-airfryer-black-na22000",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "There is one cooking zone. Check the usable basket area for your usual portion and allow space to pull the drawer forward."
+      ],
+      "suitability": {
+        "suits": [
+          "small portions cooked alongside a dish heating in the microwave"
+        ],
+        "mayNotSuit": [
+          "two foods that need different temperatures in the air fryer at the same time"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "NA220/00 Australian product specifications",
+          "publisher": "Philips",
+          "sourceUrl": "https://www.philips.com.au/c-p/NA220_00/2000-series-airfryer-2000-series-42l",
+          "supports": "Keep your working microwave and use a separate 4.2 L drawer for chips or a side dish. A window lets you check browning without pulling the drawer out. There is one cooking zone. Check the usable basket area for your usual portion and allow space to pull the drawer forward.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Australian retailer feedback for NA220/00",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/philips-2000-series-42-litre-large-airfryer-black-na22000",
+          "supports": "Owners mention the simple controls and use for quick meals. Actual batch time depends on the food and load.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and product identity",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/philips-2000-series-42-litre-large-airfryer-black-na22000",
+          "supports": "Clean listing for NA220/00 displayed an InStock offer and a purchase control on 6 November. Delivery depends on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for NA220/00",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/consumers/respond-to-recalls-and-unsafe-products/search-product-recalls",
+          "supports": "Brand and exact-model searches of indexed Australian recall notices on 6 November returned no matching notice. Direct register query was inaccessible. This check is not safety certification.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian SKU 50091323",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-2000-series-42-litre-large-airfryer-black-na22000",
+          "supports": "Clean retailer page, exact model NA220/00 and SKU 50091323 checked together. Approved campaign and encoded destination validated offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/na220-00-tgg-640.webp",
+        "srcSet": "/images/products/na220-00-tgg-320.webp 320w, /images/products/na220-00-tgg-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Philips NA220/00 4.2 L single-basket air fryer",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091323_919482.png?v=1776227312",
+        "suppliedVia": "The Good Guys exact-model listing: https://www.thegoodguys.com.au/philips-2000-series-42-litre-large-airfryer-black-na22000",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "philips-na352-dual-basket",
+      "guidePath": "/guides/convection-microwave-vs-air-fryer/",
+      "name": "Philips NA352/00 6 L + 3 L dual-basket air fryer",
+      "productType": "6 L + 3 L dual-basket air fryer",
+      "summary": "The 6 L drawer can cook a main while the 3 L drawer handles a side at a different setting. SyncFinish lets the two drawers finish together.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 9 L total is split across unequal drawers. Check whether your side fits the 3 L drawer and allow room to pull both drawers out."
+      ],
+      "suitability": {
+        "suits": [
+          "a main and a smaller side cooked separately while the microwave stays free"
+        ],
+        "mayNotSuit": [
+          "two equally large portions or one wide dish that needs a single cooking surface"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "NA352/00 Australian product specifications",
+          "publisher": "Philips",
+          "sourceUrl": "https://www.philips.com.au/c-p/NA352_00/3000-series-dual-basket-airfryer",
+          "supports": "The 6 L drawer can cook a main while the 3 L drawer handles a side at a different setting. SyncFinish lets the two drawers finish together. The 9 L total is split across unequal drawers. Check whether your side fits the 3 L drawer and allow room to pull both drawers out.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Australian retailer feedback for NA352/00",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/philips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+          "supports": "Owners report using the separate compartments for mains and sides; feedback does not establish cooking performance for a particular load.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and product identity",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/philips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+          "supports": "Clean listing for NA352/00 displayed an InStock offer and a purchase control on 6 November. Delivery depends on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for NA352/00",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/consumers/respond-to-recalls-and-unsafe-products/search-product-recalls",
+          "supports": "Brand and exact-model searches of indexed Australian recall notices on 6 November returned no matching notice. Direct register query was inaccessible. This check is not safety certification.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian SKU 50090105",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+          "supports": "Clean retailer page, exact model NA352/00 and SKU 50090105 checked together. Approved campaign and encoded destination validated offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/na352-00-tgg-640.webp",
+        "srcSet": "/images/products/na352-00-tgg-320.webp 320w, /images/products/na352-00-tgg-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Philips NA352/00 6 L + 3 L dual-basket air fryer",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50090105_908755.png?v=1776228164",
+        "suppliedVia": "The Good Guys exact-model listing: https://www.thegoodguys.com.au/philips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
       "id": "tgg-drawer-kitchen-drawer-storage-what-to-measure-before-buying-organisers",
       "guidePath": "/guides/kitchen-drawer-storage-what-to-measure-before-buying-organisers/",
       "name": "Joseph Joseph DrawerStore Compact 85119 — Grey",

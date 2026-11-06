@@ -732,15 +732,28 @@
     {
       "guidePath": "/guides/convection-microwave-vs-air-fryer/",
       "title": "Convection Microwave vs Air Fryer: Can One Appliance Replace Two?",
-      "reviewedOn": "2026-10-14",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "02ba5f77a29daed48a0f6fe745f07d5bbfb8c320bd778f1124d65fb5d58497a9",
+      "reviewedSourceSha256": "ef1a8b922c1c36bd167cea50015dc1246fd0d5b2b59a17702db9a0e79c9ca40c",
       "requiredProductTypes": [
         {
           "label": "Combination microwave with air-fry mode",
           "productIds": [
-            "panasonic-nn-cd88qsqpq"
+            "panasonic-nn-cd88qsqpq",
+            "panasonic-cd58-combi-microwave"
+          ]
+        },
+        {
+          "label": "Single-basket air fryer",
+          "productIds": [
+            "philips-na220-single-basket"
+          ]
+        },
+        {
+          "label": "Dual-basket air fryer",
+          "productIds": [
+            "philips-na352-dual-basket"
           ]
         }
       ],
@@ -750,7 +763,7 @@
         "/guides/kitchen-bench-space-what-to-clear-before-buying-more-storage/",
         "/guides/cookware-materials-compared/"
       ],
-      "reviewScope": "New comparison guide, technical/manual review, live Australian offer and affiliate redirect check, permitted exact-model image and reciprocal navigation. One combination option approved; Sharp R321CAFST withheld because published fit specifications conflict, Breville BMO870 excluded after repeated reliability concerns. Separate-appliance route linked contextually without duplicating product records."
+      "reviewScope": "Four exact Good Guys offers reviewed for availability on 6 November; new model evidence distinguishes single-cavity sequential cooking, one drawer and independently set drawers."
     },
     {
       "guidePath": "/guides/cookware-materials-compared/",
