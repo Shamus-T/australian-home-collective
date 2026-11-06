@@ -1,6 +1,7 @@
 const categoryPaths: Record<string, string> = {
   Bathroom: "/categories/bathroom/",
   Bedroom: "/categories/bedroom/",
+  "Home Entertainment": "/categories/home-entertainment/",
   "Garage & Storage": "/categories/garage-storage/",
   "Garage Storage": "/categories/garage-storage/",
   "Home Office": "/categories/home-office/",
