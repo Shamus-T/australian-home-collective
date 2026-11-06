@@ -4,6 +4,39 @@ import CommercialProductBlock from "../../../components/CommercialProductBlock.a
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import RelatedGuidesBlock from "../../../components/RelatedGuidesBlock.astro";
 
+const replacementComparisons = {
+  "tgg-range-fixed-rangehood-buying-guide-australia": {
+    "reason": "A measured under-cabinet replacement with a suitable air route",
+    "fit": "598 mm wide × 500 mm deep",
+    "tradeoff": "The fixed 500 mm projection stays over the cooktop; nominal 60 cm width does not prove cabinet compatibility."
+  },
+  "tgg-range-slide-rangehood-buying-guide-australia": {
+    "reason": "Cabinet layouts designed for a sliding hood and verified ducting or recirculation",
+    "fit": "598 mm wide × 300 mm deep when closed",
+    "tradeoff": "Measure the extended drawer, fascia and fixing positions as well as the closed body."
+  },
+  "westinghouse-wrr904sb": {
+    "reason": "A wide pull-out hood fitted beneath existing cupboards",
+    "fit": "898 mm wide × 300 mm deep when closed",
+    "tradeoff": "Measure the space in front of the fascia with the hood fully extended and check the outlet position."
+  },
+  "schweigen-gg-6c": {
+    "reason": "A concealed hood in a nominal 60 cm cabinet",
+    "fit": "525 mm body width",
+    "tradeoff": "Compare the cabinet cut-out with the installation drawing and allow room above the hood for the air outlet."
+  },
+  "schweigen-gg-901": {
+    "reason": "A wider cooktop with custom overhead cabinetry",
+    "fit": "About 864 mm body width",
+    "tradeoff": "Check the cut-out and shelf space against the drawing. Listen at your usual fan setting if noise matters in an open kitchen."
+  },
+  "westinghouse-wrc904sd": {
+    "reason": "A cooktop against a wall with room above for the chimney cover",
+    "fit": "900 mm wide × 500 mm deep, with a 150 mm duct",
+    "tradeoff": "Check the ceiling height, duct route and headroom at the front edge of the canopy."
+  }
+};
+
 const relatedGuides = [
   { href: "/categories/kitchen/", title: "Kitchen", description: "Plan appliances, cooking space and storage around your kitchen." },
   { href: "/guides/fridge-dimensions-australia/", title: "Fridge Dimensions Australia", description: "Check the opening, ventilation, doors and delivery route." },
@@ -19,7 +52,7 @@ const relatedGuides = [
   category="Kitchen"
   date="Published September 2026"
   datePublished="2026-09-12"
-  dateModified="2026-10-18"
+  dateModified="2026-11-06"
   readingTime="6 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/rangehood-buying-guide-australia.svg"
@@ -28,6 +61,17 @@ const relatedGuides = [
 >
   <p>A rangehood can fit the cupboard and still be a poor match for the kitchen. The intake may miss the front cooking zones, the duct may not fit through the available space, or replacement filters may add costs you had not allowed for.</p>
   <p>Start with the cooktop, cabinetry and air route. Then compare extraction, noise and controls. This guide helps you prepare for buying and an installer discussion; it does not determine installation compliance.</p>
+
+  <section aria-labelledby="replacement-type">
+    <h2 id="replacement-type">What type of rangehood are you replacing?</h2>
+    <ul class="replacement-routes">
+      <li><strong>Fixed beneath a cupboard.</strong> If the hood stays in place when you cook, compare the <a href="#compare-tgg-range-fixed-rangehood-buying-guide-australia">60 cm Westinghouse WRF610SA</a>. Its front edge projects 500 mm at all times.</li>
+      <li><strong>Slide-out beneath a cupboard.</strong> Match the width of the pull-out unit. Compare the <a href="#compare-tgg-range-slide-rangehood-buying-guide-australia">60 cm Westinghouse WRR614SB</a> or the <a href="#compare-westinghouse-wrr904sb">90 cm Westinghouse WRR904SB</a>. Measure with the fascia both closed and fully extended.</li>
+      <li><strong>Concealed inside a cupboard.</strong> Compare the <a href="#compare-schweigen-gg-6c">60 cm Schweigen GG-6C</a> or <a href="#compare-schweigen-gg-901">90 cm Schweigen GG-901</a>. Use the model drawing to match the cabinet cut-out, including the depth above the hood.</li>
+      <li><strong>Canopy on an exposed wall.</strong> Compare the <a href="#compare-westinghouse-wrc904sd">90 cm Westinghouse WRC904SD</a>. Check the chimney-cover height, wall support and route outdoors.</li>
+    </ul>
+    <p>For a cooktop on an island, start with <a href="#hood-format">island and ceiling formats</a>. These six models are designed for a wall or a cupboard.</p>
+  </section>
 
   <MeasurementWorksheetLink appliance="rangehood" />
 
@@ -63,6 +107,15 @@ const relatedGuides = [
       <figcaption>Record the space you have, then copy the exact model's requirements separately. Original AHC diagram; illustrative only, not to scale.</figcaption>
     </figure>
   </section>
+
+  <CommercialProductBlock
+    guidePath="/guides/rangehood-buying-guide-australia/"
+    title="Compare rangehoods by replacement type"
+    intro="First measure the opening and trace the air route. Compare the models that suit your existing installation, then check the retailer for current pricing and delivery to your postcode. These choices are based on product research."
+    variant="comparison"
+    comparisonDetails={replacementComparisons}
+    compactComparison={true}
+  />
 
   <section aria-labelledby="cooktop-type">
     <h2 id="cooktop-type">Match extraction to the cooktop and how you cook</h2>
@@ -111,20 +164,13 @@ const relatedGuides = [
     <p>If you are rearranging several appliances, use the <a href="/guides/dishwasher-sizes-australia/">dishwasher measuring guide</a> to check how the rest of the kitchen will work while doors are open.</p>
   </section>
 
-  <h2>Two 60 cm formats to compare after measuring</h2>
-  <p>The fixed WRF610SA keeps its 500 mm projection in place. The WRR614SB slides out from a 300 mm-deep closed body, so its extended position and fixing diagram need checking. Both are 598 mm wide; that does not make them interchangeable. The manufacturer specifies at least 650 mm above gas and 600 mm above electric cooking surfaces; use any greater clearance required by the cooktop instructions and have the installer confirm the complete installation. The slide-out includes two charcoal filters; the fixed hood needs the relevant optional recirculation accessories. Ducting, labour and replacement filters affect the total cost.</p>
-
-  <CommercialProductBlock
-    guidePath="/guides/rangehood-buying-guide-australia/"
-    title="Options matched to this buying decision"
-    intro="Measure the cabinet, cooktop and air route, then have an installer confirm clearances and required parts before buying. These different formats are not interchangeable replacements. AHC has not tested them firsthand. Compare the fit before choosing."
-    variant="comparison"
-  />
-
   <RelatedGuidesBlock guides={relatedGuides} />
 </ArticleLayout>
 
 <style>
+  :global(.commercial-product-comparison tr[id]) { scroll-margin-top: 120px; }
+  @media (max-width: 767px) { :global(.commercial-product-comparison tr[id]) { scroll-margin-top: 240px; } }
+  .replacement-routes li + li { margin-top: .6rem; }
   .rangehood-figure { margin: 1.5rem 0; }
   .rangehood-figure img { display: block; width: 100%; height: auto; border: 1px solid #d5e1dc; border-radius: 12px; }
   .rangehood-figure figcaption { margin-top: 0.7rem; font-size: 0.9rem; line-height: 1.6; color: #4c625b; }

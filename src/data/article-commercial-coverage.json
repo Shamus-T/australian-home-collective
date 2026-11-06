@@ -2601,27 +2601,41 @@
     {
       "guidePath": "/guides/rangehood-buying-guide-australia/",
       "title": "Rangehoods in Australia: What to Measure and Check Before Buying",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "f5d622cadcf8d84e67aa1e422f0cf2f9a2df52ecf32b02152bfaedf04e077fc6",
+      "reviewedSourceSha256": "ef0a6fe65805fb94eb1a5594394b47f6c9827bd5a9aad7eb058c6323b004bb21",
       "requiredProductTypes": [
         {
-          "label": "Rangehoods",
+          "label": "Fixed under-cabinet",
           "productIds": [
             "tgg-range-fixed-rangehood-buying-guide-australia"
           ]
         },
         {
-          "label": "Slide-out under-cabinet rangehood",
+          "label": "Slide-out under-cabinet",
           "productIds": [
-            "tgg-range-slide-rangehood-buying-guide-australia"
+            "tgg-range-slide-rangehood-buying-guide-australia",
+            "westinghouse-wrr904sb"
+          ]
+        },
+        {
+          "label": "Concealed undermount",
+          "productIds": [
+            "schweigen-gg-6c",
+            "schweigen-gg-901"
+          ]
+        },
+        {
+          "label": "Wall canopy",
+          "productIds": [
+            "westinghouse-wrc904sd"
           ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "Six model-specific Good Guys offers, grouped by existing installation type. Four new AU models verified on 6 November. Recheck postcode delivery, cabinet cut-outs and duct route before purchase."
     },
     {
       "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
