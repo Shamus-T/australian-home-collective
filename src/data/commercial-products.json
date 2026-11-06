@@ -28209,6 +28209,562 @@
         "suppliedVia": "Manufacturer product page: https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
         "checkedOn": "2026-10-10"
       }
+    },
+    {
+      "id": "brabantia-newicon-112126-white-3l",
+      "guidePath": "/guides/bathroom-essentials-australian-homes/",
+      "name": "Brabantia NewIcon 3 L pedal bin, white",
+      "productType": "Compact pedal bin",
+      "summary": "At 16.8 cm wide and 23.5 cm deep including the pedal, this three-litre bin fits some narrow gaps beside a vanity. The removable bucket lifts straight up for emptying.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B01LXCYQLR?tag=ahc07-22",
+      "linkLabel": "Check price at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Three litres fills quickly in a shared bathroom. Check clearance above the closed height of 26.4 cm for the lid and bucket.",
+        "The reviewed white offer was sold and shipped by Amazon UK through Amazon Australia. Compare the delivered total and estimated arrival for your postcode."
+      ],
+      "suitability": {
+        "suits": [
+          "a small ensuite with low-volume dry waste and room to open a pedal lid"
+        ],
+        "mayNotSuit": [
+          "a shared bathroom that needs more capacity or a position beneath a low shelf"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "White 3L NewIcon specifications",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://www.brabantia.com/uk/newicon-pedal-bin-3-litre-soft-closing-plastic-inner-bucket-white/",
+          "supports": "Exact model 112126. Capacity 3 L, width 16.8 cm, depth 23.5 cm, height 26.4 cm and removable inner bucket.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Customer reviews and shared-variant limitation",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01LXCYQLR",
+          "supports": "The listing combines reviews of multiple variants. They are not independent white-model durability evidence.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "White bin Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01LXCYQLR",
+          "supports": "Product title, model and buy box checked. In stock, sold and shipped by Amazon UK on Amazon Australia. Postcode freight is not verified.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Checked Australian account destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01LXCYQLR?tag=ahc07-22",
+          "supports": "Confirmed the exact ASIN and established AU Associates tag offline. Seller location and delivered total may change.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brabantia returned zero. The sole numeric 112126 match was a Holden vehicle.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/brabantia-newicon-white-3l-640.webp",
+        "srcSet": "/images/products/brabantia-newicon-white-3l-320.webp 320w, /images/products/brabantia-newicon-white-3l-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Footprint planning diagram for a 16.8 cm wide and 23.5 cm deep bin.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://www.brabantia.com/uk/newicon-pedal-bin-3-litre-soft-closing-plastic-inner-bucket-white/",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "songmics-three-tier-general-bathroom",
+      "guidePath": "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
+      "name": "SONGMICS UBTS001W02 Bamboo Over-Toilet Organiser — Cloud White / Natural Beige",
+      "productType": "Freestanding over-toilet shelf",
+      "summary": "A roughly 26 x 63 x 170 cm bamboo unit with an adjustable middle shelf and anti-tip kit, once cistern, seat, wall-fixing and walkway clearances have been checked.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0C9BZPRH7?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The bamboo finish is not waterproof, so splashes and persistent bathroom moisture need prompt drying.",
+        "It requires assembly and the supplied anti-tip restraint; the 63 cm width and rear bar will not clear every toilet or plumbing layout."
+      ],
+      "suitability": {
+        "suits": [
+          "small bathrooms with measured vertical space and a suitable anti-tip fixing point"
+        ],
+        "mayNotSuit": [
+          "renters unable to secure furniture or toilets with tight side and cistern clearances"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "SONGMICS 3-Tier Bamboo Over Toilet Bathroom Organizer with Adjustable Shelf",
+          "publisher": "SONGMICS HOME",
+          "sourceUrl": "https://www.songmics.com/products/songmics-3-tier-bamboo-bathroom-organizer-ubts001?variant=45339077574905",
+          "supports": "Current dimensions, bamboo construction, adjustable shelf, load guidance, assembly requirements and anti-tip kit.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser owner-feedback record",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07TBDS9BC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "Displayed seller: SONGMICS HOME AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact UBTS001W02 variant and existing image match",
+          "publisher": "SONGMICS HOME",
+          "sourceUrl": "https://www.songmics.com/products/songmics-3-tier-bamboo-bathroom-organizer-ubts001?variant=45339077574905",
+          "supports": "Manufacturer variant 45339077574905 identifies UBTS001W02, matching the current white/natural-beige photo and Amazon child ASIN. Earlier dimensions and anti-tip guidance retained.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Corrected child-ASIN offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C9BZPRH7?tag=ahc07-22",
+          "supports": "Clean B0C9BZPRH7 listing identifies UBTS001W02, Cloud White/Natural Beige; in stock, sold by SONGMICS HOME AU and dispatched by Amazon to the default Sunshine Coast 4556 location. No tagged URL was opened.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian child-ASIN availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C9BZPRH7?tag=ahc07-22",
+          "supports": "Orderable regular-price and Prime offers displayed for the exact child variant. Availability can change with location and seller.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/songmics-three-tier-over-toilet-organiser-640.webp",
+        "srcSet": "/images/products/songmics-three-tier-over-toilet-organiser-320.webp 320w, /images/products/songmics-three-tier-over-toilet-organiser-640.webp 640w",
+        "alt": "SONGMICS UBTS001W02 Bamboo Over-Toilet Organiser — Cloud White / Natural Beige",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from SONGMICS.",
+        "sourceUrl": "https://www.songmics.com/cdn/shop/files/UBTS001W02-1_1200x1200.jpg?v=1781582496",
+        "suppliedVia": "Manufacturer product page: https://www.songmics.com/products/songmics-3-tier-bamboo-bathroom-organizer-ubts001?variant=45339077574905",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "vacuum-bags-small-bedroom",
+      "guidePath": "/guides/bedroom-storage-ideas-small-australian-rooms/",
+      "name": "Pacifica VL810 Large Vacuum Storage Bags — Pack of 2",
+      "productType": "Compression bags for occasional textile storage",
+      "summary": "Two large vacuum bags for clean, fully dry clothing or bedding whose care guidance permits compression. Measure the filled, compressed package before using an under-bed gap; the bag dimensions do not guarantee the finished height.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpacifica-vacuum-storage-bags-large-vl810",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "They need reopening and resealing, so they are less convenient for items used every week. Seals and valves need checking over time.",
+        "Compression does not provide a rigid container or solve dampness. Avoid compressing textiles whose care instructions prohibit it, and keep filled bags light enough to lift safely."
+      ],
+      "suitability": {
+        "suits": [
+          "occasional storage of compatible seasonal textiles"
+        ],
+        "mayNotSuit": [
+          "daily-access clothes, damp items or textiles that must keep their loft"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact-model specifications and limitations",
+          "publisher": "Pacifica",
+          "sourceUrl": "https://pacifica.net.au/product/vacuum-storage-bags-large/",
+          "supports": "Exact VL810 manufacturer page confirms two bags and 80 cm W × 38 cm H × 100 cm D nominal dimensions. These are not a promised compressed package size; no percentage space-saving, universal fabric suitability or long-term seal guarantee is adopted.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Six retailer comments from five named authors discuss useful size, sealing and ease of use; two comments share the same author and are not independent votes. This small body supports a bounded seasonal-storage use case, not a longevity guarantee.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian stock and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Exact model VL810 has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Dated brand/model search found no matching Australian recall for VL810. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Model VL810, SKU 50082509, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-resolved-vacuum-bags-640.webp",
+        "srcSet": "/images/products/tgg-resolved-vacuum-bags-320.webp 320w, /images/products/tgg-resolved-vacuum-bags-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Pacifica VL810 Large Vacuum Storage Bags — Pack of 2",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50082509_827940.png?v=1776229008",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "really-useful-box-renter-garage",
+      "guidePath": "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
+      "name": "Really Useful Box 19L Clear",
+      "productType": "Stackable lidded storage box",
+      "summary": "A rigid clear box with clip handles for smaller garage categories that need visible, repeatable stack dimensions.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-22",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-22",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Nineteen litres is too small for bulky equipment and the tapered internal shape reduces usable space.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "small parts, cleaning refills and hobby supplies"
+        ],
+        "mayNotSuit": [
+          "bulky sporting gear or heavy power tools"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Really Useful Box 19L Clear manufacturer information",
+          "publisher": "Really",
+          "sourceUrl": "https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Really Useful Box 19L Clear product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/really-useful-box-19-litre-clear",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Really Useful Box 19L Clear Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Really Useful Box 19L Clear Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000YXLJ7G: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Displayed seller: MplusL. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/really-useful-box-19l-clear-250.webp",
+        "srcSet": "/images/products/really-useful-box-19l-clear-250.webp 250w",
+        "alt": "Really Useful Box 19L Clear shown with example contents.",
+        "width": 250,
+        "height": 250,
+        "credit": "Product image sourced from Really Useful Products.",
+        "sourceUrl": "https://www.reallyusefulproducts.co.uk/images/onlineshop/rub/fullsize/b19_0litre3.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "coolaroo-adult-dog-pet-essentials",
+      "guidePath": "/guides/pet-essentials-for-australian-homes/",
+      "name": "Coolaroo The Original Elevated Pet Bed, Medium",
+      "productType": "Elevated mesh dog bed",
+      "summary": "A ventilated raised bed for dogs and rooms where airflow and wipe-clean access matter more than deep cushioning.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+        "An elevated mesh surface does not provide the pressure-relieving cushioning some older dogs need.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "warm rooms and dogs that prefer a firmer raised surface"
+        ],
+        "mayNotSuit": [
+          "dogs needing thick orthopaedic cushioning"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Coolaroo The Original Elevated Pet Bed, Medium manufacturer information",
+          "publisher": "Coolaroo",
+          "sourceUrl": "https://www.coolaroo.com/product/original-elevated-pet-bed",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Coolaroo The Original Elevated Pet Bed, Medium product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/the-original-coolaroo-elevated-pet-bed-medium-aquatic-blue-aquatic-blue",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Coolaroo The Original Elevated Pet Bed, Medium Australian availability",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/the-original-coolaroo-elevated-pet-bed-medium-aquatic-blue-aquatic-blue",
+          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Coolaroo The Original Elevated Pet Bed, Medium Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07VKPQZX8: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon US. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8",
+          "supports": "Exact ASIN B07VKPQZX8 and intended variant matched. Listing displayed: Only 2 left in stock. Availability-only observation at 2026-10-18T08:54:51.768Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/coolaroo-original-elevated-pet-bed-640.webp",
+        "srcSet": "/images/products/coolaroo-original-elevated-pet-bed-320.webp 320w, /images/products/coolaroo-original-elevated-pet-bed-640.webp 640w, /images/products/coolaroo-original-elevated-pet-bed-960.webp 960w",
+        "width": 640,
+        "height": 480,
+        "alt": "Coolaroo Original elevated dog bed, medium Aquatic Blue, model 459741, shown with a dog outdoors.",
+        "credit": "Product image sourced from Coolaroo.",
+        "sourceUrl": "https://www.coolaroousa.com/userfiles/images/Products/dogbed/og/459741-dogbed-og-med-aquaticblue-1.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.coolaroousa.com/pet-products/elevated-dog-beds/Original-Elevated-Dog-Bed-Medium-Aquatic-Blue_459741. Exact model 459741 and colour matched to the approved listing.",
+        "checkedOn": "2026-10-18"
+      }
     }
   ]
 }

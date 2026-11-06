@@ -253,10 +253,10 @@
       "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "57de17247ba651a1de60c9abfab389cf8facadc7d90bac2720ac3a8f9dc647eb",
+      "reviewedSourceSha256": "ee41927036c25d5d497132e5eb4d5ba672ed84451641e0053930dce4682007a5",
       "requiredProductTypes": [
         {
-          "label": "Bath mats, towels and bins",
+          "label": "Bath mats and towels",
           "productIds": [],
           "gapReason": "A hook answers hanging storage. The remaining essentials need their own verified products."
         },
@@ -270,6 +270,12 @@
           "label": "Wall-mounted robe and hand-towel hook",
           "productIds": [
             "macho-ac6507-chrome-bathroom"
+          ]
+        },
+        {
+          "label": "Compact pedal bin",
+          "productIds": [
+            "brabantia-newicon-112126-white-3l"
           ]
         }
       ],
@@ -322,7 +328,7 @@
       "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "2217d98092893d588ce09782b3fafd3942f778137cae2a85388cc43bcaf9cbef",
+      "reviewedSourceSha256": "3f0d7d70637b57a9a28cca6fe21cf60a78893bba6649b6a72aa7bad8dc0c9ccd",
       "requiredProductTypes": [
         {
           "label": "Freestanding daily-toiletries organiser",
@@ -339,7 +345,13 @@
         {
           "label": "Remaining storage categories",
           "productIds": [],
-          "gapReason": "Towel rails, bathroom shelving and secure storage remain unfilled; two small organisers do not cover every bathroom storage job."
+          "gapReason": "Towel rails and secure storage remain unfilled. The verified shelf requires an anti-tip fixing."
+        },
+        {
+          "label": "Freestanding over-toilet shelf",
+          "productIds": [
+            "songmics-three-tier-general-bathroom"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -502,7 +514,7 @@
       "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "bc7de73b8a352d6a811be46b9114438a1d9522fbd998c8b24b07e88b09685774",
+      "reviewedSourceSha256": "5961602eb2ecb67ad1b097d0b70867f833d12604725e3d0de81bed3b029bacd7",
       "requiredProductTypes": [
         {
           "label": "Two-drawer bedside storage",
@@ -513,7 +525,13 @@
         {
           "label": "Other small-bedroom storage needs",
           "productIds": [],
-          "gapReason": "No new tallboy, bed frame or under-bed product added. Focused wardrobe and under-bed guides retain their separate selections."
+          "gapReason": "Tallboys and storage bed frames still need exact fit, access and delivery checks."
+        },
+        {
+          "label": "Compression bags for occasional textile storage",
+          "productIds": [
+            "vacuum-bags-small-bedroom"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -601,15 +619,15 @@
     {
       "guidePath": "/guides/cat-litter-tray-setup-what-to-plan-before-you-buy/",
       "title": "Cat Litter Trays in Australia: How to Choose Size and Style",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "b43fa18afb2c91399a354f7163c84e8c110fb6bb7d4f5be39a934663c30b1380",
+      "reviewedSourceSha256": "0688772069e66cddcc51bf2c72ab3ad90050a3e4e91347d44c19c331db7f574c",
       "requiredProductTypes": [
         {
           "label": "Cat litter trays",
           "productIds": [],
-          "gapReason": "No researched exact tray; food-storage products do not answer this decision."
+          "gapReason": "Two exact open trays compared. The Australian Petmate Giant offer was substantially more expensive than the locally listed PaWz alternative. No paid placement selected."
         }
       ],
       "supportingProductIds": [],
@@ -2412,7 +2430,7 @@
       "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "6415578a1556d6285ee02791d77747c32dec4e8123edf11e6792bbe8b361270a",
+      "reviewedSourceSha256": "0ebcbc93c096918f9580a48e435abe9147b0c8ce85aa5181debd0e6b408ea651",
       "requiredProductTypes": [
         {
           "label": "Supervised adult-dog enrichment toy",
@@ -2429,7 +2447,13 @@
         {
           "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Ordinary food/water bowls, cat-specific essentials, puppy toys and travel restraints still need separate suitable products."
+          "gapReason": "Ordinary food/water bowls, cat essentials, puppy toys and travel restraints still need separate suitable products."
+        },
+        {
+          "label": "Elevated mesh dog bed",
+          "productIds": [
+            "coolaroo-adult-dog-pet-essentials"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -2786,10 +2810,10 @@
     {
       "guidePath": "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
       "title": "Garage Storage for Renters",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "6e1b123c8b3d8f305282bcd9debefe0f528e62c5a48f98a4da83e06f099313d7",
+      "reviewedSourceSha256": "2c99320d678fca2581e57c4e58398e311a17b7e5fbf1a68321128c4e42aa7222",
       "requiredProductTypes": [
         {
           "label": "Portable ten-cup small-parts organiser",
@@ -2806,7 +2830,13 @@
         {
           "label": "Remaining product categories",
           "productIds": [],
-          "gapReason": "Bulk tubs and shelving that suits households unable to install the prescribed restraint remain unfilled."
+          "gapReason": "Bulk tubs and shelves suitable without a restraint remain unfilled."
+        },
+        {
+          "label": "Stackable lidded storage box",
+          "productIds": [
+            "really-useful-box-renter-garage"
+          ]
         }
       ],
       "supportingProductIds": [],
