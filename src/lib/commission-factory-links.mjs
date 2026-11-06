@@ -4,11 +4,22 @@ export const commissionFactoryPublisher = '94708';
 const placements = new Map([
   ['77799', {
     merchant: 'UpDown Desk',
-    destination: 'https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185',
+    destinations: ['https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185'],
   }],
   ['31577', {
     merchant: 'Cookware Brands',
-    destination: 'https://www.cookwarebrands.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm',
+    destinations: ['https://www.cookwarebrands.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm'],
+  }],
+  ['92323', {
+    merchant: 'MyHomeware',
+    destinations: [
+      'https://www.myhomeware.com.au/products/bathroom-shower-shelf-satin-stainless-steel',
+      'https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012',
+    ],
+  }],
+  ['72641', {
+    merchant: 'OneBed Mattress',
+    destinations: ['https://onebed.com.au/products/onebed-essential-10?variant=43278119207021'],
   }],
 ]);
 
@@ -23,10 +34,11 @@ export function commissionFactoryDestination(value, merchant) {
   if (merchant !== undefined && merchant !== placement.merchant) {
     throw new Error('Advertiser does not match the selected retailer.');
   }
-  if (url.searchParams.size !== 1 || url.searchParams.get('Url') !== placement.destination) {
+  const destination = url.searchParams.get('Url');
+  if (url.searchParams.size !== 1 || !placement.destinations.includes(destination)) {
     throw new Error('Destination does not match the reviewed product and variant.');
   }
-  return placement.destination;
+  return destination;
 }
 
 export function commissionFactoryLinkError(value, merchant) {

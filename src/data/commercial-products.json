@@ -113,7 +113,8 @@
     "/guides/bedside-table-setup-what-to-check-before-you-buy/",
     "/guides/bedroom-storage-ideas-small-australian-rooms/",
     "/guides/bedroom-essentials-for-a-more-comfortable-home/",
-    "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/"
+    "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
+    "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/"
   ],
   "products": [
     {
@@ -6152,17 +6153,17 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-22",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-11-06",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
+        "australianAvailabilityStatus": "unavailable",
         "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -6482,17 +6483,17 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-11-06",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
+        "australianAvailabilityStatus": "unknown",
         "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -27251,6 +27252,402 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0659/3527/8307/files/755090_stainless_steel_frypan_28cm_1.jpg?v=1752025603",
         "suppliedVia": "Manufacturer product page: https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
         "checkedOn": "2026-11-05"
+      }
+    },
+    {
+      "id": "macho-ac6507-chrome-bathroom",
+      "guidePath": "/guides/bathroom-essentials-australian-homes/",
+      "name": "Macho AC6507 Single Robe Hook, Chrome",
+      "productType": "Wall-mounted robe and hand-towel hook",
+      "summary": "A single 304 stainless-steel hook for a robe or hand towel beside a basin. Check door swing and wall suitability with the fabric hanging at full length.",
+      "merchant": "MyHomeware",
+      "destinationUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fsingle-robe-hook-stainless-steel-various-colour%3fvariant%3d44701610148012",
+      "linkLabel": "Check price at MyHomeware",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A hook bunches a wet bath towel. Use a rail if the fabric needs to spread out to dry.",
+        "Installation accessories are supplied. Wall suitability and load capacity still need checking before fixing it."
+      ],
+      "suitability": {
+        "suits": [
+          "one frequently used robe or hand towel with clear space beneath it"
+        ],
+        "mayNotSuit": [
+          "a wet bath sheet that stays bunched on a hook or a rental wall you cannot alter"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Macho AC6507 Single Robe Hook, Chrome specifications",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+          "supports": "Macho specifies chrome variant AC6507, 304 stainless steel, wall mounting and supplied installation accessories.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/my-homeware/q-and-a",
+          "supports": "The exact listing has no customer reviews. Retailer-level feedback concerns ordering and delivery and cannot establish the strength of this hook.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fsingle-robe-hook-stainless-steel-various-colour%3fvariant%3d44701610148012",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/macho-ac6507-hook-640.webp",
+        "srcSet": "/images/products/macho-ac6507-hook-320.webp 320w, /images/products/macho-ac6507-hook-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Planning diagram showing a towel hanging clear of the wall. Illustrative, not to scale.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "macho-ac6507-chrome-towel",
+      "guidePath": "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/",
+      "name": "Macho AC6507 Single Robe Hook, Chrome",
+      "productType": "Wall-mounted robe and hand-towel hook",
+      "summary": "A single 304 stainless-steel hook for a robe or hand towel beside a basin. Check door swing and wall suitability with the fabric hanging at full length.",
+      "merchant": "MyHomeware",
+      "destinationUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fsingle-robe-hook-stainless-steel-various-colour%3fvariant%3d44701610148012",
+      "linkLabel": "Check price at MyHomeware",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A hook bunches a wet bath towel. Use a rail if the fabric needs to spread out to dry.",
+        "Installation accessories are supplied. Wall suitability and load capacity still need checking before fixing it."
+      ],
+      "suitability": {
+        "suits": [
+          "one frequently used robe or hand towel with clear space beneath it"
+        ],
+        "mayNotSuit": [
+          "a wet bath sheet that stays bunched on a hook or a rental wall you cannot alter"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Macho AC6507 Single Robe Hook, Chrome specifications",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+          "supports": "Macho specifies chrome variant AC6507, 304 stainless steel, wall mounting and supplied installation accessories.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/my-homeware/q-and-a",
+          "supports": "The exact listing has no customer reviews. Retailer-level feedback concerns ordering and delivery and cannot establish the strength of this hook.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fsingle-robe-hook-stainless-steel-various-colour%3fvariant%3d44701610148012",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/macho-ac6507-hook-640.webp",
+        "srcSet": "/images/products/macho-ac6507-hook-320.webp 320w, /images/products/macho-ac6507-hook-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Planning diagram showing a towel hanging clear of the wall. Illustrative, not to scale.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "poseidon-map-1009-shower-shelf",
+      "guidePath": "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+      "name": "Poseidon MAP-1009 Stainless Steel Shower Shelf",
+      "productType": "Screw-fixed shower shelf",
+      "summary": "A 350 mm wide shelf with integral brackets that projects 125 mm into the shower. Check shoulder and elbow clearance with your bottles in position before drilling.",
+      "merchant": "MyHomeware",
+      "destinationUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fbathroom-shower-shelf-satin-stainless-steel",
+      "linkLabel": "Check price at MyHomeware",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The shelf projects 125 mm into the enclosure and requires screws. Check the wall and waterproofing before installation.",
+        "There is no verified load rating for this shelf. Do not use it as a handhold."
+      ],
+      "suitability": {
+        "suits": [
+          "a permanent shower where suitable wall fixings and wet-area installation are possible"
+        ],
+        "mayNotSuit": [
+          "renters who cannot drill or anyone looking for a grab rail"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Poseidon MAP-1009 Stainless Steel Shower Shelf specifications",
+          "publisher": "Poseidon",
+          "sourceUrl": "https://www.poseidonbk.com.au/wp-content/uploads/2024/07/Poseidon-2024-all-in-one-catalogue-digital-ver.pdf",
+          "supports": "Poseidon model MAP-1009; 350 mm wide, 125 mm deep, 95 mm high; surface-mounted, integral brackets, supplied screws. Retailer lists one-year replacement parts or product cover.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/my-homeware/q-and-a",
+          "supports": "Retailer-level reports include delivery delays. These do not demonstrate shelf-specific durability, load capacity or long-term resistance to corrosion.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/bathroom-shower-shelf-satin-stainless-steel",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fbathroom-shower-shelf-satin-stainless-steel",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/poseidon-map-1009-shower-shelf-640.webp",
+        "srcSet": "/images/products/poseidon-map-1009-shower-shelf-320.webp 320w, /images/products/poseidon-map-1009-shower-shelf-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Top-view size diagram of the Poseidon shelf, 350 mm wide and 125 mm deep.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://www.poseidonbk.com.au/wp-content/uploads/2024/07/Poseidon-2024-all-in-one-catalogue-digital-ver.pdf",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "onebed-essential-queen-25cm",
+      "guidePath": "/guides/mattress-sizes-australia/",
+      "name": "Onebed Essential Queen, 25 cm foam mattress",
+      "productType": "Lower-profile foam queen mattress",
+      "summary": "A 153 × 203 cm foam queen with a 25 cm profile. On the same base its surface sits 9 cm lower than the Solene and 3 cm lower than the Orlando Firm.",
+      "merchant": "OneBed Mattress",
+      "destinationUrl": "https://t.cfjump.com/94708/t/72641?Url=https%3a%2f%2fonebed.com.au%2fproducts%2fonebed-essential-10%3fvariant%3d43278119207021",
+      "linkLabel": "Check price at OneBed Mattress",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Check the support and ventilation of your base; it affects both mattress care and warranty eligibility.",
+        "The trial starts at purchase, requires at least 30 nights of use and only accepts a mattress in donatable condition."
+      ],
+      "suitability": {
+        "suits": [
+          "a household keeping a queen base and looking for a lower finished bed height"
+        ],
+        "mayNotSuit": [
+          "an unsupported base or a sleeper who wants pocket springs"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Onebed Essential Queen, 25 cm foam mattress specifications",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+          "supports": "OB-ESS-Q; retailer variant 43278119207021, 153 cm wide by 203 cm long by 25 cm deep. Ten-year limited manufacturer warranty and conditional 125-night trial.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/onebed-mattress-essential-queen",
+          "supports": "Queen owner accounts describe both satisfactory use and issues with warmth, edges or uneven support. Some reviews were incentivised. The reports do not identify every product revision.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://t.cfjump.com/94708/t/72641?Url=https%3a%2f%2fonebed.com.au%2fproducts%2fonebed-essential-10%3fvariant%3d43278119207021",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Onebed limited warranty",
+          "publisher": "Onebed",
+          "sourceUrl": "https://onebed.com.au/pages/warranty",
+          "supports": "Ten-year Essential limited warranty; change of mind is separate.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Sleep trial",
+          "publisher": "Onebed",
+          "sourceUrl": "https://onebed.com.au/pages/125-night-trial",
+          "supports": "Check purchase date, 30-night minimum, RMA, exclusions and collection.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/onebed-essential-queen-25cm-640.webp",
+        "srcSet": "/images/products/onebed-essential-queen-25cm-320.webp 320w, /images/products/onebed-essential-queen-25cm-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Queen mattress footprint diagram, 153 by 203 cm with a 25 cm profile.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
       }
     }
   ]

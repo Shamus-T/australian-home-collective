@@ -19,10 +19,10 @@
     {
       "guidePath": "/guides/20-minute-spring-reset/",
       "title": "The 20-Minute Spring Reset: 12 Small Jobs That Make Your Home Feel Better",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-06",
       "intent": "editorial",
       "editorialReason": "Time-boxed use-what-you-own reset.",
-      "reviewedSourceSha256": "5a57a1b0454aab3a232b2e5283494020917a08eac011a0bd639479b685e73441",
+      "reviewedSourceSha256": "4211574886231794606109596f0391986ad6ed70191a2d468fb2c4452cb13d66",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -250,20 +250,26 @@
     {
       "guidePath": "/guides/bathroom-essentials-australian-homes/",
       "title": "Bathroom Essentials for Australian Homes",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "2c7b738fadfb90b9acb9c1b5506de04d06f0d8ae8454eb3e8f8604ffb8946152",
+      "reviewedSourceSha256": "57de17247ba651a1de60c9abfab389cf8facadc7d90bac2720ac3a8f9dc647eb",
       "requiredProductTypes": [
         {
-          "label": "Bath mats, towels, bins and hooks",
+          "label": "Bath mats, towels and bins",
           "productIds": [],
-          "gapReason": "A broad essentials guide still lacks researched buying examples for its recurring purchases."
+          "gapReason": "A hook answers hanging storage. The remaining essentials need their own verified products."
         },
         {
           "label": "Divided toothbrush and toothpaste caddy",
           "productIds": [
             "tgg-toothbrush-bathroom-essentials-australian-homes"
+          ]
+        },
+        {
+          "label": "Wall-mounted robe and hand-towel hook",
+          "productIds": [
+            "macho-ac6507-chrome-bathroom"
           ]
         }
       ],
@@ -273,7 +279,7 @@
         "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. 6 November: Macho AC6507 Single Robe Hook, Chrome reviewed for this buying decision; account-issued deep link verified offline."
     },
     {
       "guidePath": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
@@ -1061,16 +1067,15 @@
     {
       "guidePath": "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
       "title": "Garage Storage Tubs Worth Sorting Before Buying More",
-      "reviewedOn": "2026-11-05",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "cdfc8a5f9cba0dc7c7711f4a9f6035ebe6fe92b4418e97d8209091dee3a691a8",
+      "reviewedSourceSha256": "43787598b92de11080b345579444b42b6bcb1ec205da9b926f08c3b67b7f2667",
       "requiredProductTypes": [
         {
           "label": "Gasket-sealed storage tub",
-          "productIds": [
-            "sterilite-51l-gasket-box"
-          ]
+          "productIds": [],
+          "gapReason": "The exact AU offer reports temporarily out of stock without a delivery date."
         },
         {
           "label": "Stackable lidded storage box",
@@ -1083,7 +1088,7 @@
       "contextualRoutes": [
         "/guides/garage-shelving-what-to-measure-before-buying-storage-units/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json. 6 November: The exact AU offer reports temporarily out of stock without a delivery date."
     },
     {
       "guidePath": "/guides/garage-storage-what-to-measure-and-check-before-you-buy/",
@@ -1150,10 +1155,10 @@
     {
       "guidePath": "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
       "title": "Garage Wall Storage That Keeps Gear Visible",
-      "reviewedOn": "2026-11-05",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "f094ebc3dd2297e8ac5ca874d9eda34100537c54913e888deecb248deb5a7655",
+      "reviewedSourceSha256": "0972504d4b3c528c48a8da5fef966e001d82c11ad58411936a2efdb905310759",
       "requiredProductTypes": [
         {
           "label": "Adhesive tool gripper",
@@ -1163,16 +1168,15 @@
         },
         {
           "label": "Freestanding long-tool rack",
-          "productIds": [
-            "traderight-garden-tool-storage-rack"
-          ]
+          "productIds": [],
+          "gapReason": "The AU retail page did not establish an orderable offer for this rack."
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/garage-tool-storage-what-to-sort-before-buying-cabinets-or-pegboards/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json."
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. 5 November availability maintenance: dated card advice now discloses the independently rechecked backorder, dispatch delay or unverified primary offer as applicable. Existing suitability, approved links and images retained. See tmp/availability-2026-11-05/amazon-advice.json. 6 November: The AU retail page did not establish an orderable offer for this rack."
     },
     {
       "guidePath": "/guides/garden-tool-care-and-seasonal-outdoor-reset/",
@@ -1980,10 +1984,10 @@
     {
       "guidePath": "/guides/mattress-sizes-australia/",
       "title": "Mattress Sizes Australia: Room, Base and Buying Guide",
-      "reviewedOn": "2026-11-03",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "c0d0895fb31c0106fb1527997b146d3f6c7acf02d6b57db7db1f1fc96c144cf9",
+      "reviewedSourceSha256": "a86098588ddd0aa5c0aa7e3e429a367de554bf9769ffe230720a346356915f87",
       "requiredProductTypes": [
         {
           "label": "Queen pocket-spring mattress",
@@ -1991,11 +1995,17 @@
             "gap-mattress-sizes-australia-b0dpf84t8y",
             "bnd-orlando-mattress-sizes-australia"
           ]
+        },
+        {
+          "label": "Lower-profile foam queen mattress",
+          "productIds": [
+            "onebed-essential-queen-25cm"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "3 November 2026: approved Beds n Dreams campaign, exact variants, dimensions, materials, warranty limitations, owner feedback, recall search and Queensland availability checked. Buying choices added without hands-on or nationwide-stock claims; older unrelated product research dates retained. See docs/editorial/beds-n-dreams-launch-2026-11-03.md."
+      "reviewScope": "3 November 2026: approved Beds n Dreams campaign, exact variants, dimensions, materials, warranty limitations, owner feedback, recall search and Queensland availability checked. Buying choices added without hands-on or nationwide-stock claims; older unrelated product research dates retained. See docs/editorial/beds-n-dreams-launch-2026-11-03.md. 6 November: Onebed Essential Queen, 25 cm foam mattress reviewed for this buying decision; account-issued deep link verified offline."
     },
     {
       "guidePath": "/guides/nappy-change-station-checklist/",
@@ -2971,10 +2981,10 @@
     {
       "guidePath": "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
       "title": "Shower Storage That Does Not Get in the Way",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "29fdca4a460336e6a6164fe3ef97650b4424593c633ad40ffce1dbaca1388e65",
+      "reviewedSourceSha256": "3e96734321c95266835cb8d350ac1b1048b7984aa03081ebf39eae8f82fc00fb",
       "requiredProductTypes": [
         {
           "label": "Wall-mounted shower caddy",
@@ -2987,13 +2997,19 @@
           "productIds": [
             "umbra-flex-shower-caddy"
           ]
+        },
+        {
+          "label": "Screw-fixed shower shelf",
+          "productIds": [
+            "poseidon-map-1009-shower-shelf"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged."
+      "reviewScope": "25 October: refreshed only the matching six-model subset documented in docs/editorial/commercial-gap-priorities-2026-10-25.md; corrected fit, support and owner limitations. Other products retain their own dated reviews. Original article guidance otherwise unchanged. 6 November: Poseidon MAP-1009 Stainless Steel Shower Shelf reviewed for this buying decision; account-issued deep link verified offline."
     },
     {
       "guidePath": "/guides/side-tables-coffee-tables-and-console-tables-what-to-compare-before-you-buy/",
@@ -3238,10 +3254,10 @@
     {
       "guidePath": "/guides/spring-cleaning-checklist/",
       "title": "Spring Cleaning Checklist: A Practical Australian Room-by-Room Reset",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-06",
       "intent": "editorial",
       "editorialReason": "Use-what-you-own cleaning and sorting checklist.",
-      "reviewedSourceSha256": "59a442bcad0dee838dbffd57590c8cbb812235c9d3e3ec364a90f9baadc15f13",
+      "reviewedSourceSha256": "9466b9a72c74ec517197f8f598965dc6d36df13d434ef83879bea4f627930585",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -3282,22 +3298,28 @@
     {
       "guidePath": "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/",
       "title": "Towel Storage That Helps Towels Dry Properly",
-      "reviewedOn": "2026-10-25",
+      "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "2ca3e07b5228c7756ea0644e2402ef7cf37d304c48fcbdeed6cee99abb616e80",
+      "reviewedSourceSha256": "deeb652607008efa559f278a1e2420825ad577b9b7d5ac08601439b240d86441",
       "requiredProductTypes": [
         {
-          "label": "Towel rails, hooks and shelves",
+          "label": "Rails and dry-towel shelves",
           "productIds": [],
-          "gapReason": "No approved exact towel-storage products; shower caddies do not cover drying towels."
+          "gapReason": "A single hook does not replace a rail for drying a spread-out bath towel."
+        },
+        {
+          "label": "Wall-mounted robe and hand-towel hook",
+          "productIds": [
+            "macho-ac6507-chrome-towel"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "25 October: useful contextual links to related storage fit, access and buying decisions; no product assessment or commercial status changed."
+      "reviewScope": "25 October: useful contextual links to related storage fit, access and buying decisions; no product assessment or commercial status changed. 6 November: Macho AC6507 Single Robe Hook, Chrome reviewed for this buying decision; account-issued deep link verified offline."
     },
     {
       "guidePath": "/guides/toy-blanket-and-everyday-clutter-control-for-living-rooms/",
