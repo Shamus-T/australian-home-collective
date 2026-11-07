@@ -28,12 +28,16 @@
   "bosch-sms6hci02a-good-guys": {
     "reason": "A full-width freestanding replacement with 15 place settings, adjustable baskets and a separate cutlery tray.",
     "fit": "600mm wide × 845mm high × 600mm deep body.",
-    "tradeoff": "Allow 1,155mm door-open depth plus standing room. Check tall items beneath the tray, the cavity and worktop arrangement; no matching cabinet-door installation."
+    "tradeoff": "Allow 1,155mm door-open depth plus standing room. Check tall items beneath the tray, the cavity and worktop arrangement; no matching cabinet-door installation.",
+    "jumpLabel": "60 cm · cutlery tray",
+    "decisionLabel": "Separate cutlery tray · 845 mm high with worktop fitted"
   },
   "bosch-sps6iki01a-good-guys": {
     "reason": "A narrow freestanding installation: 10 place settings and an upper cutlery/knife rack, not a full third drawer.",
-    "fit": "450mm wide × 845mm high × 600mm deep body.",
-    "tradeoff": "Less rack room for bulky cookware. Check your pans, cavity and hose route; the 450mm body width alone does not prove fit. Postcode delivery needs checking."
+    "fit": "With the worktop fitted the body is 450 mm wide, 845 mm high and 600 mm deep. Check the installation drawing against the narrowest point of your opening and leave room for hoses and loading.",
+    "tradeoff": "The narrower baskets take less bulky cookware. Check your largest pan against the rack.",
+    "jumpLabel": "45 cm slimline",
+    "decisionLabel": "Slimline · 450 mm body, 1,155 mm deep with door open"
   },
   "westinghouse-wtm4302wd-r-good-guys": {
     "reason": "Top freezer with 329 L of fresh-food space, 21 L more than the LG.",
@@ -59,8 +63,10 @@
   },
   "tgg-gap-integrated-smv4htx01a": {
     "reason": "A matching furniture door and hidden controls, with 14 place settings and a lower cutlery basket.",
-    "fit": "598mm body width; planning niche 600W × 815–875H × at least 550D mm.",
-    "tradeoff": "Cabinet panel is extra. Check panel weight, plinth movement, fixing and services; allow 1155mm door-open depth plus loading room."
+    "fit": "Allow at least 550 mm of cabinet depth and 1,155 mm with the door open. The matching front panel is a separate purchase.",
+    "tradeoff": "Have the installer check panel weight, kickboard clearance, fixing points and hoses.",
+    "jumpLabel": "Matching cabinet door",
+    "decisionLabel": "Fully integrated · 600 mm wide × 815–875 mm high opening"
   },
   "tgg-gap-haier-hrf510fhs": {
     "reason": "French doors, a lower freezer drawer and a refillable water tank.",
@@ -76,7 +82,9 @@
   },
   "westinghouse-wsf6602xc-good-guys": {
     "reason": "A simpler 14-place full-width option with six programs and a lower cutlery basket.",
-    "fit": "598 × 845 × 598mm body; check the 600 × 850 × 580mm cut-out drawing.",
-    "tradeoff": "No full third cutlery drawer. Allow 1175mm open-door depth. Mixed owner feedback includes panel-legibility and service complaints."
+    "fit": "The drawing specifies a cut-out 580 mm deep. The body is 598 mm deep, so the front can project beyond the cabinet. Allow 1,175 mm with the door open, plus space to load it.",
+    "tradeoff": "A lower cutlery basket takes up some plate space.",
+    "jumpLabel": "60 cm · cutlery basket",
+    "decisionLabel": "Cutlery basket · 600 mm wide × 850 mm high cut-out"
   }
 }

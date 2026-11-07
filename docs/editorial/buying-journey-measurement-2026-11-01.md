@@ -45,3 +45,7 @@ During the first trial window the fridge comparison was ordered by opening width
 ## Laundry comparison follow-up, 8 November
 
 For 2–7 November (complete Brisbane days), the Australian washer guide recorded 24 unclassified mobile visits, 12 with comparison exposure and two with retailer clicks. On desktop the counts were 19, 17 and three. The six click events across those five visits came from comparison links for the two front loaders. No labelled tests were identified in that cohort. The 8 November revision pairs mobile buying buttons with decision measurements and brings forward the stack links. Split later observations at the verified live timestamp in `tmp/laundry-fit-review-2026-11-08/publication.json`. Keep the existing event and visit definitions.
+
+## Dishwasher comparison follow-up, 8 November
+
+For 2–7 November (complete Brisbane days), Australian mobile visits went from ten guide entries to seven comparison views and one clicking visit. Desktop recorded 13 entries, 11 comparisons and five clicking visits. One tablet visit reached the comparison without clicking. The six raw retailer click events included zero known or labelled tests. The remaining traffic is unclassified. Five clicks were for the Bosch slimline and one was for the Westinghouse. This period spans the 4 November layout change. Use the verified live timestamp in `tmp/dishwasher-fit-review-2026-11-08/publication.json` to separate the new fit-led comparison from the earlier layout. Stage definitions are unchanged.
