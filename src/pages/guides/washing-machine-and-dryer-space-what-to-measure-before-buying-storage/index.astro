@@ -1,5 +1,4 @@
 ---
-import BuyingJourneyNav from "../../../components/BuyingJourneyNav.astro";
 import LaundryStackBuyingLinks from "../../../components/LaundryStackBuyingLinks.astro";
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
@@ -74,41 +73,28 @@ const faqs = [
   category="Laundry"
   faqs={faqs}
   date="Updated November 2026"
-  dateModified="2026-11-04"
+  dateModified="2026-11-08"
   readingTime="13 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage.webp"
   imageAlt="A practical laundry room with warm finishes, baskets and tidy everyday storage"
 >
-  <p>
-    For a quick planning answer, many front-loading washing machines sold in Australia are about
-    <strong>600 mm (60 cm) wide and 850 mm (85 cm) high</strong>. Depth varies much more between makes and models, and the installed
-    depth can increase once the door, hoses, taps and other connections are included.
-  </p>
-  <p>Use the exact model’s installed depth, door or lid clearance and service space. A cupboard, a top-loader position and a stacked setup need different layouts; nominal body dimensions are not an opening specification.</p>
-
-  <BuyingJourneyNav title="Find the right laundry setup" links={[
-    { href: "#compare-lg-wx3-1208w-good-guys", label: "Shallower front loader", detail: "LG 8kg · no stacked dryer" },
-    { href: "#compare-bosch-wgg244a1au-good-guys", label: "Larger front loader", detail: "Bosch 9kg · automatic dosing" },
-    { href: "#compare-lg-wtx3-09g-good-guys", label: "Top loader", detail: "LG 9kg · clear space above" },
-    { href: "#bosch-stack-heading", label: "Washer + dryer stack", detail: "Bosch washer, dryer and kit" },
-  ]} />
-  <p><strong>Only a 600mm-wide opening?</strong> Neither LG example fits with its specified side gaps. Bosch describes a 600mm niche only for a particular under-worktop arrangement. <a href="#current-washer-examples-heading">Check the exact dimensions and installation gaps</a> or use the <a href="#washing-machine-measurement-resource">measuring checklist</a>.</p>
-
   <span id="washer-shortlist-heading"></span><span id="front-loader-shortlist"></span><span id="top-loader-shortlist"></span>
   <CommercialProductBlock
     guidePath="/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
     variant="comparison" compactComparison comparisonDetails={applianceComparisons}
-    title="Compare front- and top-loading washing machines"
-    intro="First choose by loading access, installed depth and capacity, then use The Good Guys button for the exact model’s current price and postcode delivery. Compare the total including connection and removal. These are researched options, not firsthand tests."
+    title="Which washer fits your laundry?"
+    intro="Start with your tightest measurement. Many front loaders are about 600 mm wide and 850 mm high. Compare the space for the hoses and open door, or the height under your shelf for a top loader."
     accessoryProductIds={["bosch-wqg24201au-laundry-fit-good-guys", "bosch-wtz11400-good-guys"]}
     accessoryTitle="Optional Bosch dryer and stacking kit"
     accessoryIntro="These are separate purchases for the Bosch setup described in the compatibility section below, not washer alternatives or a bundled price. The WQG24201AU is the dryer; WTZ11400 is the stacking kit with a pull-out shelf. Confirm the full model revisions and installation requirements. The kit is not needed for a side-by-side layout; neither item makes either LG washer stackable."
-  />
+  >
+    <a slot="setup-link" href="#bosch-stack-heading">Bosch washer + dryer stack</a>
+  </CommercialProductBlock>
 
   <section aria-labelledby="current-washer-examples-heading" data-appliance-model-examples="washing-machine">
-    <h2 id="current-washer-examples-heading">Three washing machines to compare for fit</h2>
-    <p>A conventional front loader, a shallower front loader and a top loader solve different space problems. These are the same three models compared above, with retailer links and ownership drawbacks. Dimensions were checked against Australian specifications and installation manuals on <time datetime="2026-10-10">10 October 2026</time>. AHC has not tested these washers firsthand.</p>
+    <h2 id="current-washer-examples-heading">Check the full washer measurements</h2>
+    <p>Only 600 mm between cabinets? Neither LG model has enough side clearance. Bosch specifies a 600 mm niche under a continuous worktop secured to the adjacent cabinets. Check your installation against its manual. Dimensions were checked against Australian specifications and installation manuals on <time datetime="2026-10-10">10 October 2026</time>. AHC has not tested these washers firsthand.</p>
     <p>All figures are in millimetres. Three-number dimensions are <strong>width × height × depth</strong>; body size does not include all the space needed to install and use a machine.</p>
     <p class="table-hint">Swipe sideways to compare the full table.</p>
     <div class="comparison-wrap" tabindex="0" role="region" aria-label="Washing machine dimensions and installation requirements">
@@ -116,9 +102,9 @@ const faqs = [
         <caption>Compare product dimensions, door access and installation clearances</caption>
         <thead><tr><th scope="col">Model and buying notes</th><th scope="col">Published dimensions (mm)</th><th scope="col">Space to allow</th></tr></thead>
         <tbody>
-          <tr><th scope="row"><a href="#product-bosch-wgg244a1au-good-guys">Bosch WGG244A1AU</a><br />9kg front loader</th><td>598 × 848 × 590 body.<br />636 deep with the door closed; 1,073 with it open.</td><td>The manual specifies a 600mm niche width beneath a continuous worktop secured to adjacent cabinets. This is not a complete cavity specification: allow for hoses, levelling, door swing and service access.</td></tr>
-          <tr><th scope="row"><a href="#product-lg-wx3-1208w-good-guys">LG WX3-1208W</a><br />8kg slim front loader</th><td>600 × 850 × 475 body.<br />535 deep with the door closed; 1,015 with it open.</td><td>LG specifies at least 20mm on each side and 100mm behind. The shallow body still needs that installation space. <strong>Not stacking-kit compatible.</strong></td></tr>
-          <tr><th scope="row"><a href="#product-lg-wtx3-09g-good-guys">LG WTX3-09G</a><br />9kg top loader</th><td>590 × 1,043 × 645 overall.<br />The fully open lid reaches 1,339 high.</td><td>Allow 100mm behind, 20mm at each side and unobstructed lid movement, as specified in the model manual.</td></tr>
+          <tr><th scope="row"><a href="#compare-bosch-wgg244a1au-good-guys">Bosch WGG244A1AU</a><br />9kg front loader</th><td>598 × 848 × 590 body.<br />636 deep with the door closed; 1,073 with it open.</td><td>The manual specifies a 600mm niche width beneath a continuous worktop secured to adjacent cabinets. This is not a complete cavity specification: allow for hoses, levelling, door swing and service access.</td></tr>
+          <tr><th scope="row"><a href="#compare-lg-wx3-1208w-good-guys">LG WX3-1208W</a><br />8kg slim front loader</th><td>600 × 850 × 475 body.<br />535 deep with the door closed; 1,015 with it open.</td><td>LG specifies at least 20mm on each side and 100mm behind. The shallow body still needs that installation space. <strong>Not stacking-kit compatible.</strong></td></tr>
+          <tr><th scope="row"><a href="#compare-lg-wtx3-09g-good-guys">LG WTX3-09G</a><br />9kg top loader</th><td>590 × 1,043 × 645 overall.<br />The fully open lid reaches 1,339 high.</td><td>Allow 100mm behind, 20mm at each side and unobstructed lid movement, as specified in the model manual.</td></tr>
         </tbody>
       </table>
     </div>
@@ -131,6 +117,7 @@ const faqs = [
     <h2 id="bosch-stack-heading">A Bosch washer, dryer and stacking kit to consider together</h2>
     <p>For a full-size stack, assess the <a href="#product-bosch-wgg244a1au-good-guys">WGG244A1AU 9kg washer</a>, <a href="#product-bosch-wqg24201au-laundry-fit-good-guys">WQG24201AU 9kg heat pump dryer</a> and <a href="#product-bosch-wtz11400-good-guys">WTZ11400 kit with pull-out shelf</a>. The dryer sits above the washer.</p>
     <p>The <a href="https://media3.bsh-group.com/Documents/9001730323_C.pdf#page=22" target="_blank" rel="noopener noreferrer">dryer manual names WTZ11400</a>. The <a href="https://media3.bosch-home.com/Documents/26140678_BH6387B_2024_Laundry_Catalogue_FA_1.pdf#page=29" target="_blank" rel="noopener noreferrer">catalogue currently linked by Bosch Australia, page 29</a>, supports that kit with this dryer and Bosch washers other than WAN24126AU. The WGG244A1AU meets the kit's full-size washer requirement. This is a document-based compatibility assessment, not a physical fitting test: have the installer confirm both appliances' complete E-Nr model revisions against the supplied kit instructions.</p>
+    <LaundryStackBuyingLinks />
     <ul class="feature-list">
       <li><strong>Measure the completed stack:</strong> The washer and dryer bodies alone total 1,690mm in height. The kit, levelling and required clearances still need to be included; that sum is not the finished installation height.</li>
       <li><strong>Allow for the deeper dryer:</strong> Its body is 598mm wide × 842mm high × 613mm deep, increasing to 648mm deep with the door closed and 1,096mm with it open. Leave room for services and the pull-out shelf.</li>
@@ -138,7 +125,6 @@ const faqs = [
       <li><strong>Check daily use:</strong> You must reach the dryer controls, water tank, filters and maintenance points. Bosch specifies a 5–35°C operating environment; a closed cupboard needs the required airflow and access.</li>
     </ul>
     <p>The dryer is worth considering if low-temperature heat-pump drying suits your routine. Allow for long cycles, possible extra drying of bulky loads and filter/heat-exchanger maintenance; it does not have a self-cleaning condenser. Our <a href="/guides/heat-pump-vs-condenser-vs-vented-dryers/">dryer-type comparison</a> explains the wider tradeoffs. The kit's shelf can help with loading, but does not solve an inaccessible or unstable installation.</p>
-    <LaundryStackBuyingLinks />
   </section>
 
 
@@ -421,5 +407,18 @@ const faqs = [
   :global(html) { scroll-padding-top: 14rem; }
   @media (min-width: 901px) {
     :global(html) { scroll-padding-top: 8rem; }
+  }
+  @media (max-width: 767px) {
+    :global(body:has(#washer-shortlist-heading) .article-header) { min-height: 0; padding: 12px 0; }
+    :global(body:has(#washer-shortlist-heading) .article-header .narrow) { padding-block: 0; }
+    :global(body:has(#washer-shortlist-heading) .article-header h1) { font-size: clamp(1.5rem, 6vw, 2.25rem); line-height: 1.12; margin: 4px 0; }
+    :global(body:has(#washer-shortlist-heading) .article-header :is(.breadcrumbs,.eyebrow,.lead)),
+    :global(article:has(#washer-shortlist-heading) > .commercial-product-shortcut),
+    :global(article:has(#washer-shortlist-heading) .commercial-comparison-hint) { display: none; }
+    :global(article:has(#washer-shortlist-heading)) { padding-top: 4px; }
+    :global(article:has(#washer-shortlist-heading) .commercial-product-block),
+    :global(article:has(#washer-shortlist-heading) .commercial-product-block > h2) { margin-top: 0; }
+    :global(article:has(#washer-shortlist-heading) .commercial-product-context),
+    :global(article:has(#washer-shortlist-heading) .commercial-product-disclosure) { font-size: .93rem; line-height: 1.4; margin-block: 8px; }
   }
 </style>

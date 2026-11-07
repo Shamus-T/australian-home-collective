@@ -41,3 +41,7 @@ Follow-up automation: `ahc-appliance-buying-journey-review`, Wednesdays and Satu
 ## Fridge comparison follow-up, 7 November
 
 During the first trial window the fridge comparison was ordered by opening width, with links to each model’s installation notes and its exact buying option. On phones the retailer button now follows the model and minimum width. The preceding five complete Brisbane days (2–6 November) contained 25 unclassified Australian measured fridge visits, 17 with comparison exposure and one with a retailer click. That click preceded both this change and the late 6 November layout release. Use the verified live timestamp in `tmp/fridge-fit-review-2026-11-07/publication.json` to distinguish the layouts in later reviews. The visit and click definitions are unchanged.
+
+## Laundry comparison follow-up, 8 November
+
+For 2–7 November (complete Brisbane days), the Australian washer guide recorded 24 unclassified mobile visits, 12 with comparison exposure and two with retailer clicks. On desktop the counts were 19, 17 and three. The six click events across those five visits came from comparison links for the two front loaders. No labelled tests were identified in that cohort. The 8 November revision pairs mobile buying buttons with decision measurements and brings forward the stack links. Split later observations at the verified live timestamp in `tmp/laundry-fit-review-2026-11-08/publication.json`. Keep the existing event and visit definitions.

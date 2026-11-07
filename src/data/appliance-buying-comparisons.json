@@ -1,18 +1,24 @@
 {
   "bosch-wgg244a1au-good-guys": {
     "reason": "9kg front loading with automatic liquid-detergent dosing; the washer to assess for the Bosch stack below.",
-    "fit": "598mm wide; 636mm deep with the door closed.",
-    "tradeoff": "Allow 1,073mm with the door open plus usable loading space. Dosing needs the right settings and cleaning; a stacked dryer and kit cost extra."
+    "fit": "Allow rear space for hoses. Bosch specifies a 600 mm niche only beneath a continuous worktop secured to the adjoining cabinets.",
+    "tradeoff": "Allow 1,073mm with the door open plus usable loading space. Dosing needs the right settings and cleaning; a stacked dryer and kit cost extra.",
+    "decisionLabel": "9 kg front loader · 636 mm deep with door closed",
+    "jumpLabel": "Full-size front loader"
   },
   "lg-wx3-1208w-good-guys": {
     "reason": "8kg loads where front-to-back space is limited and the dryer can go elsewhere.",
-    "fit": "600mm wide; 535mm deep with the door closed.",
-    "tradeoff": "Allow 20mm each side and 100mm behind. It cannot support a stacking kit; owner reports on noise vary."
+    "fit": "The 635 mm includes the 535 mm closed-door depth and 100 mm rear gap. Allow more for projecting taps or hoses. The open door extends 1,015 mm from the back of the washer.",
+    "tradeoff": "The width includes 20 mm each side. This model cannot take a stacking kit.",
+    "decisionLabel": "Shallow front loader · allow 640 mm wide × 635 mm deep",
+    "jumpLabel": "Shallow front loader"
   },
   "lg-wtx3-09g-good-guys": {
     "reason": "9kg loads and top access, with no benchtop or dryer above the washer.",
-    "fit": "590mm wide; fully open lid reaches 1,339mm high.",
-    "tradeoff": "Allow 20mm each side and 100mm behind. Check drum reach and gentle-cycle controls in person."
+    "fit": "Allow at least 630 mm across (590 mm body plus 20 mm each side) and 100 mm behind the 645 mm body. Measure to the underside of the lowest shelf.",
+    "tradeoff": "Check that you can reach the bottom of the drum.",
+    "decisionLabel": "Top loader · allow 1,339 mm for the open lid",
+    "jumpLabel": "Top loader"
   },
   "bosch-wqg24201au-laundry-fit-good-guys": {
     "reason": "A separate 9kg heat pump dryer for floor-standing use or the documented Bosch stack.",

@@ -21,7 +21,7 @@ interface Props {
   accessoryProductIds?: string[];
   accessoryTitle?: string;
   accessoryIntro?: string;
-  comparisonDetails?: Record<string, { reason: string; fit: string; tradeoff: string; minimumWidthMm?: number }>;
+  comparisonDetails?: Record<string, { reason: string; fit: string; tradeoff: string; minimumWidthMm?: number; decisionLabel?: string; jumpLabel?: string }>;
   compactComparison?: boolean;
 }
 
@@ -44,6 +44,8 @@ const hasMultipleRetailers = [...retailers.values()].some((offers) => offers.len
 const sectionId = getCommercialSectionId(guidePath);
 const primaryProducts = products.filter(product => !accessoryProductIds.includes(product.id));
 const compareByWidth = primaryProducts.length > 0 && primaryProducts.every(product => comparisonDetails[product.id]?.minimumWidthMm);
+const compareBySetup = primaryProducts.length > 0 && primaryProducts.every(product => comparisonDetails[product.id]?.decisionLabel && comparisonDetails[product.id]?.jumpLabel);
+const showFitNotes = compareByWidth || compareBySetup;
 const comparisonProducts = compareByWidth
   ? [...primaryProducts].sort((a, b) => comparisonDetails[a.id].minimumWidthMm! - comparisonDetails[b.id].minimumWidthMm!)
   : primaryProducts;
@@ -66,7 +68,7 @@ const formatDate = (date: string) =>
 
 {products.length > 0 && (
   <section
-    class:list={[`commercial-product-block commercial-product-block--${displayVariant}`, { 'commercial-product-block--appliance': Object.keys(comparisonDetails).length > 0, 'commercial-product-block--compact': compactComparison, 'commercial-product-block--widths': compareByWidth }]}
+    class:list={[`commercial-product-block commercial-product-block--${displayVariant}`, { 'commercial-product-block--appliance': Object.keys(comparisonDetails).length > 0, 'commercial-product-block--compact': compactComparison, 'commercial-product-block--widths': compareByWidth, 'commercial-product-block--fit': showFitNotes }]}
     aria-labelledby={sectionId}
     data-commercial-product-block
     data-accessory-product-ids={accessoryProductIds.join(" ")}
@@ -85,6 +87,12 @@ const formatDate = (date: string) =>
     {showComparison && (
       <>
       <p class="commercial-comparison-hint" id={`${sectionId}-hint`}>Compare the fit, main drawback and retailer availability for each option.</p>
+      {compareBySetup && (
+        <nav class="washer-routes" aria-label="Choose a washer setup">
+          {comparisonProducts.map(product => <a href={`#compare-${product.id}`}>{comparisonDetails[product.id].jumpLabel}</a>)}
+          <slot name="setup-link" />
+        </nav>
+      )}
       {compareByWidth && (
         <nav class="opening-widths" aria-label="Jump to a model by minimum opening width">
           <span>Minimum opening width</span>
@@ -107,12 +115,13 @@ const formatDate = (date: string) =>
                   )}
                   <span class="commercial-comparison-identity">
                     {compareByWidth && <strong class="opening-width">{comparisonDetails[product.id].minimumWidthMm} mm minimum width&nbsp;</strong>}
+                    {compareBySetup && <strong class="opening-width">{comparisonDetails[product.id].decisionLabel}&nbsp;</strong>}
                     <CommercialProductNameLink product={product} offer={retailers.get(product.id)![0]} />{" "}
-                  {!compareByWidth && <span class="commercial-comparison-type">{product.productType}</span>}</span>
+                  {!showFitNotes && <span class="commercial-comparison-type">{product.productType}</span>}</span>
                 </th>
                 <td data-label="May suit">{comparisonDetails[product.id]?.reason ?? product.suitability.suits[0]}</td>
-                <td class:list={[{ "width-fit-cell": compareByWidth }]} data-label="Check first">
-                  {compareByWidth ? <details class="fit-notes">
+                <td class:list={[{ "fit-cell": showFitNotes }]} data-label="Check first">
+                  {showFitNotes ? <details class="fit-notes">
                     <summary>Check installation details</summary>
                     <p>{comparisonDetails[product.id].fit} {comparisonDetails[product.id].tradeoff}</p>
                   </details> : comparisonDetails[product.id] ? <>
@@ -120,7 +129,7 @@ const formatDate = (date: string) =>
                     {comparisonDetails[product.id].tradeoff}
                   </> : product.drawbacks[0]}
                 </td>
-                <td data-label={compareByWidth ? "Check price and postcode delivery" : "Retailer prices and availability"} id={compareByWidth ? `offer-${product.id}` : undefined}>
+                <td data-label={showFitNotes ? "Check price and postcode delivery" : "Retailer prices and availability"} id={showFitNotes ? `offer-${product.id}` : undefined}>
                   <CommercialRetailerLinks product={product} offers={retailers.get(product.id)!} placement="comparison" />
                 </td>
               </tr>
@@ -285,6 +294,8 @@ const formatDate = (date: string) =>
   .opening-widths { display: flex; align-items: center; flex-wrap: wrap; column-gap: .7rem; margin-bottom: .5rem; }
   .opening-widths span, .opening-width { display: block; font-weight: 700; }
   .opening-widths a { display: inline-flex; align-items: center; min-height: 44px; }
+  .washer-routes { display: flex; flex-wrap: wrap; gap: 0 1rem; margin-bottom: .5rem; }
+  .washer-routes :global(a) { display: inline-flex; align-items: center; min-height: 44px; }
   .fit-notes { position: relative; z-index: 2; }
   .fit-notes summary { color: var(--green-dark); cursor: pointer; font-weight: 700; padding: .55rem 0; }
   .opening-width { color: var(--green-dark); }
@@ -312,11 +323,11 @@ const formatDate = (date: string) =>
   @media (max-width: 767px) {
     .commercial-product-block--widths .opening-widths { gap: 0 .8rem; }
     .commercial-product-block--widths .opening-widths span { display: none; }
-    .commercial-product-block--widths .commercial-product-comparison tbody tr { display: flex; flex-direction: column; }
-    .commercial-product-block--widths .commercial-product-comparison tbody th { order: -3; }
-    .commercial-product-block--widths .commercial-product-comparison .width-fit-cell { order: -1; padding-block: 0; }
-    .commercial-product-block--widths .commercial-product-comparison .width-fit-cell::before { display: none; }
-    .commercial-product-block--widths .commercial-product-comparison tbody td:last-child {
+    .commercial-product-block--fit .commercial-product-comparison tbody tr { display: flex; flex-direction: column; }
+    .commercial-product-block--fit .commercial-product-comparison tbody th { order: -3; }
+    .commercial-product-block--fit .commercial-product-comparison .fit-cell { order: -1; padding-block: 0; }
+    .commercial-product-block--fit .commercial-product-comparison .fit-cell::before { display: none; }
+    .commercial-product-block--fit .commercial-product-comparison tbody td:last-child {
       order: -2;
       display: flex;
       flex-direction: column;
