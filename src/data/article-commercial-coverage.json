@@ -1042,10 +1042,10 @@
     {
       "guidePath": "/guides/fridge-dimensions-australia/",
       "title": "Fridge Dimensions Australia: What to Measure Before Buying",
-      "reviewedOn": "2026-11-06",
+      "reviewedOn": "2026-11-07",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "cc3af58287c2b16546974b1c77a508e14223c2c93b7f163e9cf8af8694bc38be",
+      "reviewedSourceSha256": "c6896038b5172134af57fc17ced74120c8b4b6cd13577104ddf71802a0b71d6e",
       "requiredProductTypes": [
         {
           "label": "Top mount fridge",
@@ -1071,7 +1071,7 @@
       "contextualRoutes": [
         "/guides/lg-fit-max-436l-fridge-first-look/"
       ],
-      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed. 4 November mobile buying-journey follow-up: shortened repeated pre-comparison advice, added need-led comparison jumps and retained exact-model installation limits, existing approved offers and artwork. Product selection/specifications unchanged; this is a presentation review, not a fresh stock check. See docs/editorial/mobile-buying-journey-2026-11-04.md. 6 November: mobile comparison first, labelled whole-row retailer links and internal comparison/size-chart shortcuts. Original product review dates retained."
+      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed. 4 November mobile buying-journey follow-up: shortened repeated pre-comparison advice, added need-led comparison jumps and retained exact-model installation limits, existing approved offers and artwork. Product selection/specifications unchanged; this is a presentation review, not a fresh stock check. See docs/editorial/mobile-buying-journey-2026-11-04.md. 6 November: mobile comparison first, labelled whole-row retailer links and internal comparison/size-chart shortcuts. Original product review dates retained. 7 November: reviewed four opening widths and exact retailer destinations; linked fit checks and offers in both directions."
     },
     {
       "guidePath": "/guides/garage-shelving-what-to-measure-before-buying-storage-units/",

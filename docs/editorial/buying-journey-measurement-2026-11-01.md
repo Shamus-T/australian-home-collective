@@ -37,3 +37,7 @@ Evidence, deploy time, schema receipt and QA are recorded in `tmp/buying-journey
 Additional 4 November content intervention: the dishwasher mobile comparison was brought forward, with direct model/installation jumps and shorter repeated advice. Read `dishwasher-mobile-buying-journey-2026-11-04.md` and `tmp/dishwasher-mobile-2026-11-04/publication.json` for verification and the deployment boundary. This follows the fridge/laundry mobile changes; retain both release boundaries when interpreting the first window. No new tracking definitions were introduced by the dishwasher content edit.
 
 Follow-up automation: `ahc-appliance-buying-journey-review`, Wednesdays and Saturdays at 09:30 Australia/Brisbane. It also checks that publication actually occurred before analysing collection. Existing availability and commercial-trial automations remain separate.
+
+## Fridge comparison follow-up, 7 November
+
+During the first trial window the fridge comparison was ordered by opening width, with links to each model’s installation notes and its exact buying option. On phones the retailer button now follows the model and minimum width. The preceding five complete Brisbane days (2–6 November) contained 25 unclassified Australian measured fridge visits, 17 with comparison exposure and one with a retailer click. That click preceded both this change and the late 6 November layout release. Use the verified live timestamp in `tmp/fridge-fit-review-2026-11-07/publication.json` to distinguish the layouts in later reviews. The visit and click definitions are unchanged.
