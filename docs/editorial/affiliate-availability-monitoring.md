@@ -1,5 +1,7 @@
 # Affiliate availability monitoring
 
+Latest maintenance: [5 November destination and availability follow-up](availability-repair-2026-11-05.md).
+
 ## Beds n Dreams — added 3 November 2026
 
 The approved Beds n Dreams campaign has a separate four-hour **identity-only** clean-page workflow, `monitor-beds-n-dreams-availability.yml`. It selects approved offers from the catalogue and deduplicates identical exact-variant destinations. The initial three variants are Orlando Queen Firm, Capri Natural bedside and Brooklyn bedside. Stock is checked by the existing daily local availability follow-up, with `node scripts/monitor-offer-availability.mjs --merchant="Beds n Dreams" --previous=tmp/availability-monitor/beds-n-dreams-previous.json --output=tmp/availability-monitor/beds-n-dreams.json`. Preserve the previous valid report, retain dated copies and verify fresh complete coverage. The local launch check found all three available in the anonymous Queensland context; that is not postcode or nationwide stock assurance.
@@ -89,3 +91,11 @@ The fresh local sweep covered all 89 approved Amazon offers at run start: 75 ava
 The L.T. Williams airer dispatch estimate increased from 2–4 to 2–5 weeks, confirmed separately. The dated card and article warnings were updated. The existing AirFrame offer remained in stock in the sweep, without postcode delivery verification. Other low-stock and dispatch observations remain watch items.
 
 Good Guys run 41523485157 completed all substantive named steps and matched 57/57 offers. Its verified sanitised artifact reported 55 available and the same two supplier-order offers, with no unresolved faults; owned issue #3 remained closed. Evidence: `tmp/availability-2026-11-03/`, including fresh timestamps, exact catalogue coverage, independent rechecks and local/live verification. No affiliate referrals were generated.
+
+## 6 November airer and monitoring repair
+
+Two independent clean checks of Amazon ASIN B0FJ7ZMN4H showed the exact L.T. Williams black airer with an explicit unavailable notice and no ordering control. Its buying link was paused. The guide now directs readers to the existing AirFrame Max and Brabantia HangOn options, both observed in stock. The complete run covered the 88 approved Amazon offers at its start. The catalogue contains 87 after the pause. A network failure on the Glocusent reading light cleared on a separate exact-ASIN check. The Sterilite backorder and unverified Traderight listing retain their dated notices. All six Beds n Dreams variants showed stock in the anonymous Queensland context.
+
+Good Guys run 42090622817 and Beds n Dreams run 42118616748 stopped before collecting evidence when retailer commission records for five dual-retailer products reached their review deadline. No sanitised stock or identity reports were produced by those runs. The signed-in Partnerize Good Guys campaign showed the active small kitchen appliances rate of 2.5%, heating and cooling rate of 3.5%, and the online sale, brand and supplier-shipping exclusions. The five models were checked against these terms. Amazon Australia's standard schedule showed 10% for the applicable Home and Kitchen categories. Each exact listing's category was checked against its product information. Only commission evidence was renewed using 5 December as the next editorial deadline. The campaign, eligibility checks and retailer ordering rules are preserved.
+
+Run-start evidence, preserved prior reports, full sweeps, separate rechecks, cloud monitor evidence and publication checks are stored under `tmp/availability-2026-11-06/`.

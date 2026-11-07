@@ -1,31 +1,61 @@
-// Verified in AHC's signed-in Text Links generator on 4 November 2026.
-// Pure URL inspection: never fetch or resolve an affiliate URL.
 export const commissionFactoryPublisher = '94708';
-const pergoluxPaths = new Set([
-  '/products/pergola', '/products/pergola-pro', '/products/pergola-pro-max',
+
+// Account-issued routes only. URL validation does not grant editorial approval.
+// Placement approval is enforced separately by the commercial registry and audit.
+const placements = new Map([
+  ['93696', {
+    merchant: 'Pergolux AU',
+    // Prepared research links remain paused until the full product review passes.
+    destinations: [
+      'https://pergolux.au/products/pergola',
+      'https://pergolux.au/products/pergola-pro',
+      'https://pergolux.au/products/pergola-pro-max',
+    ],
+  }],
+  ['77799', {
+    merchant: 'UpDown Desk',
+    destinations: ['https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185'],
+  }],
+  ['31577', {
+    merchant: 'Cookware Brands',
+    destinations: ['https://www.cookwarebrands.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm'],
+  }],
+  ['92323', {
+    merchant: 'MyHomeware',
+    destinations: [
+      'https://www.myhomeware.com.au/products/bathroom-shower-shelf-satin-stainless-steel',
+      'https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012',
+    ],
+  }],
+  ['72641', {
+    merchant: 'OneBed Mattress',
+    destinations: ['https://onebed.com.au/products/onebed-essential-10?variant=43278119207021'],
+  }],
 ]);
 
-export function commissionFactoryDestination(value, merchant = 'Pergolux AU') {
+export function commissionFactoryDestination(value, merchant) {
   const url = new URL(value);
-  if (merchant !== 'Pergolux AU' || url.protocol !== 'https:'
-    || url.hostname !== 't.cfjump.com' || url.username || url.password || url.port
-    || url.hash || url.pathname !== `/${commissionFactoryPublisher}/t/93696`) {
-    throw new Error('Unapproved Commission Factory publisher, advertiser or tracking host');
+  const path = url.pathname.split('/');
+  const placement = placements.get(path[3]);
+  if (url.origin !== 'https://t.cfjump.com' || url.username || url.password || url.hash
+    || path.length !== 4 || path[1] !== commissionFactoryPublisher || path[2] !== 't' || !placement) {
+    throw new Error('Expected an approved Commission Factory publisher and advertiser path.');
   }
-  const entries = [...url.searchParams];
-  if (entries.length !== 1 || entries[0][0] !== 'Url') {
-    throw new Error('Expected exactly one account-generated Url destination');
+  if (merchant !== undefined && merchant !== placement.merchant) {
+    throw new Error('Advertiser does not match the selected retailer.');
   }
-  const destination = new URL(entries[0][1]);
-  if (destination.protocol !== 'https:' || destination.hostname !== 'pergolux.au'
-    || destination.username || destination.password || destination.port
-    || destination.search || destination.hash || !pergoluxPaths.has(destination.pathname)) {
-    throw new Error('Expected one of the three verified Pergolux Series 4 model pages');
+  const destination = url.searchParams.get('Url');
+  if (url.searchParams.size !== 1 || !placement.destinations.includes(destination)) {
+    throw new Error('Destination does not match the reviewed product and variant.');
   }
-  return destination.href;
+  return destination;
 }
 
 export function commissionFactoryLinkError(value, merchant) {
-  try { commissionFactoryDestination(value, merchant); return null; }
-  catch (error) { return error.message; }
+  try {
+    commissionFactoryDestination(value, merchant);
+    return null;
+  } catch (error) {
+    return error.message;
+  }
 }

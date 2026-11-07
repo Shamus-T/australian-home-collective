@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-11-04",
+  "updatedOn": "2026-11-07",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -113,7 +113,9 @@
     "/guides/bedside-table-setup-what-to-check-before-you-buy/",
     "/guides/bedroom-storage-ideas-small-australian-rooms/",
     "/guides/bedroom-essentials-for-a-more-comfortable-home/",
-    "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/"
+    "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
+    "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/",
+    "/guides/sports-gear-storage-what-to-check-before-buying-hooks-racks-or-bins/"
   ],
   "products": [
     {
@@ -1716,10 +1718,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Philips 5500 LatteGo EP5541/20; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Philips 5500 LatteGo EP5541/20 is classified under Kitchen & Dining. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -1741,10 +1743,10 @@
           },
           "commission": {
             "ratePercent": 2.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to EP5541/20. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Small Kitchen Appliances rate is 2.5% for Philips 5500 LatteGo EP5541/20. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {
@@ -1898,10 +1900,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Philips 3000 Series Dual Basket Airfryer NA352/00; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Philips 3000 Series Dual Basket Airfryer NA352/00 is classified under Home. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -1923,10 +1925,10 @@
           },
           "commission": {
             "ratePercent": 2.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to NA352/00. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Small Kitchen Appliances rate is 2.5% for Philips 3000 Series Dual Basket Airfryer NA352/00. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {
@@ -2394,10 +2396,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Kenwood Titanium Chef Baker XL KVL85.004BK; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Kenwood Titanium Chef Baker XL KVL85.004BK is classified under Home. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -2419,10 +2421,10 @@
           },
           "commission": {
             "ratePercent": 2.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to KVL85004BK. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Small Kitchen Appliances rate is 2.5% for Kenwood Titanium Chef Baker XL KVL85.004BK. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {
@@ -2854,10 +2856,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Breville the Fast Slow GO BPR680BSS; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Breville the Fast Slow GO BPR680BSS is classified under Home. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -2879,10 +2881,10 @@
           },
           "commission": {
             "ratePercent": 2.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Small Kitchen Appliances 2.5% applies to BPR680BSS. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Small Kitchen Appliances rate is 2.5% for Breville the Fast Slow GO BPR680BSS. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {
@@ -5479,18 +5481,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-22",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-11-06",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "unchanged",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -5590,6 +5592,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H",
           "supports": "Fresh exact-ASIN sweep and independent clean request show 2–5 weeks dispatch. This is dispatch, not arrival; the dated reader warning was updated without changing the product, affiliate link or images.",
           "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "6 November 2026 exact airer availability check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0FJ7ZMN4H",
+          "checkedOn": "2026-11-06",
+          "supports": "Two clean checks identified the exact ASIN and found an explicit unavailable notice, no restock date and no order control. The previously observed delayed order is no longer offered."
         }
       ]
     },
@@ -6138,23 +6148,23 @@
       "guidePath": "/guides/garage-storage-tubs-what-to-sort-before-buying-more-containers/",
       "name": "Sterilite 51L Gasket Box",
       "productType": "Gasket-sealed storage tub",
-      "summary": "A clear gasket-sealed tub measuring about 58.7 x 39.7 x 33 cm, suited to long-term garage storage once shelf depth and safe loaded lifting have been checked.",
+      "summary": "A clear gasket-sealed tub measuring about 58.7 x 39.7 x 33 cm, suited to long-term garage storage once shelf depth and safe loaded lifting have been checked. As checked on 5 November 2026, Amazon accepts backorders but lists this tub as temporarily out of stock, with no delivery estimate. It is not suitable for an urgent storage job.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-22",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-22",
+        "checkedOn": "2026-11-06",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
+        "australianAvailabilityStatus": "unavailable",
         "listingStatus": "unchanged",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -6230,6 +6240,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00LHZFKC0",
+          "checkedOn": "2026-11-05",
+          "supports": "As checked on 5 November 2026, Amazon accepts backorders but lists this tub as temporarily out of stock, with no delivery estimate. It is not suitable for an urgent storage job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ]
     },
@@ -6460,23 +6478,23 @@
       "guidePath": "/guides/garage-wall-storage-what-to-check-before-buying-hooks-rails-or-panels/",
       "name": "Traderight Garden Tool Storage Rack",
       "productType": "Freestanding long-tool rack",
-      "summary": "A freestanding rack for consolidating long-handled tools without loading a wall, once the base footprint and tool count are checked.",
+      "summary": "A freestanding rack for consolidating long-handled tools without loading a wall, once the base footprint and tool count are checked. Availability was unverified on 5 November 2026: Amazon showed buying options without a primary stock statement. Confirm the exact offer, seller and delivery timing before ordering.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B08CDC4SRT?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-18",
+        "checkedOn": "2026-11-06",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
+        "australianAvailabilityStatus": "unknown",
         "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -6552,6 +6570,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B08CDC4SRT?tag=ahc07-22",
           "supports": "Displayed seller: Sello-Products. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08CDC4SRT",
+          "checkedOn": "2026-11-05",
+          "supports": "Availability was unverified on 5 November 2026: Amazon showed buying options without a primary stock statement. Confirm the exact offer, seller and delivery timing before ordering. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
         }
       ]
     },
@@ -9242,10 +9268,10 @@
       },
       "commission": {
         "ratePercent": 10,
-        "checkedOn": "2026-10-18",
-        "validUntil": "2026-11-05",
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
         "sourceUrl": "https://affiliate-program.amazon.com.au/help/node/topic/GRXPHT8U84RAYDXZ",
-        "applicability": "Amazon AU standard Home/Kitchen and Small Appliances rate for Breville the Smart Dry Connect Dehumidifier LAD208WHT; not the onsite rate, no temporary promotion assumed. Check category assignment and future schedule changes."
+        "applicability": "Amazon AU standard schedule checked 6 November 2026. The exact Australian listing for Breville the Smart Dry Connect Dehumidifier LAD208WHT is classified under Home. The applicable standard category rate is 10% of qualifying revenue. Actual commission depends on Amazon attribution and eligibility."
       },
       "additionalRetailers": [
         {
@@ -9267,10 +9293,10 @@
           },
           "commission": {
             "ratePercent": 3.5,
-            "checkedOn": "2026-10-07",
-            "validUntil": "2026-11-05",
+            "checkedOn": "2026-11-06",
+            "validUntil": "2026-12-05",
             "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
-            "applicability": "Dated signed-in campaign evidence from 7 October: Heating & Cooling 3.5% applies to LAD208WHT. Brand and supplier-shipped exclusions checked; this is not an excluded Apple, gaming, Asko, Miele, Loewe, Fisher & Paykel or Smeg offer. Valid-until is AHC's review deadline, not a promised merchant rate."
+            "applicability": "Signed-in Good Guys Australia campaign 1101l4116 checked 6 November 2026. The active Heating & Cooling rate is 3.5% for Breville the Smart Dry Connect Dehumidifier LAD208WHT. The listed brand, product and supplier-shipped exclusions do not cover this model. Online purchase conditions apply. The expiry is the editorial review deadline."
           },
           "sourceRecords": [
             {
@@ -11443,18 +11469,18 @@
       "linkLabel": "Check current price at The Good Guys",
       "affiliate": true,
       "affiliateNetwork": "partnerize",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-10-09",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-10-09",
-        "destinationStatus": "reachable",
-        "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "baseline-recorded",
+        "checkedOn": "2026-11-05",
+        "destinationStatus": "unreachable",
+        "productIdentityStatus": "unverified",
+        "australianAvailabilityStatus": "unknown",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -11517,6 +11543,14 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Froborock-qrevo-edge-c-robotic-vacuum-rr-qrec02-03-wht",
           "supports": "Feed link contains this campaign camref and the exact Australian Good Guys destination; same campaign redirect format was tested. Online checkout eligibility applies.",
           "checkedOn": "2026-10-09"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November exact destination withdrawn to robot-vacuum category",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/roborock-qrevo-edge-c-robotic-vacuum-rr-qrec02-03-wht",
+          "checkedOn": "2026-11-05",
+          "supports": "Latest scheduled feed/page report had no matching destination and HTTP 301. Two independent anonymous clean requests confirmed the exact product address redirects to the robot-vacuum category; redirects were not followed. Buying option paused because no current exact-model retail destination was verified. Search-index product snippets and the separate commercial portal do not establish an approved retail offer. This does not establish that the model is discontinued or out of stock everywhere. Historical research, image and tracking URL retained."
         }
       ],
       "image": {
@@ -15070,6 +15104,22 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "7 November 2026 Amazon Australia availability check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-07",
+          "supports": "The local catalogue sweep and an independent clean check of ASIN B0F847ZC6G both showed in stock. Neither supplied a postcode delivery date."
         }
       ],
       "image": {
@@ -15176,6 +15226,22 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "7 November 2026 Amazon Australia availability check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-07",
+          "supports": "The local catalogue sweep and an independent clean check of ASIN B0F847ZC6G both showed in stock. Neither supplied a postcode delivery date."
         }
       ],
       "image": {
@@ -16391,6 +16457,288 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50093133_941217.png?v=1776396155",
         "suppliedVia": "The Good Guys exact-model NN-CD88QSQPQ product gallery, main image.",
         "checkedOn": "2026-10-14"
+      }
+    },
+    {
+      "id": "panasonic-cd58-combi-microwave",
+      "guidePath": "/guides/convection-microwave-vs-air-fryer/",
+      "name": "Panasonic NN-CD58RSQPQ 27 L combination microwave",
+      "productType": "27 L combination microwave",
+      "summary": "Replace a microwave and air fry in the same cavity. The 27 L Panasonic includes an air-fry basket, wire rack and enamel tray. Its turntable is 340 mm across.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Compare your largest dish with the 340 mm turntable. Panasonic specifies countertop use only."
+      ],
+      "suitability": {
+        "suits": [
+          "one permanent benchtop position for reheating and occasional air frying in sequence"
+        ],
+        "mayNotSuit": [
+          "a built-in cavity or meals that need the microwave and a separate air fryer at the same time"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "NN-CD58RSQPQ Australian product specifications",
+          "publisher": "Panasonic",
+          "sourceUrl": "https://store.apac.panasonic.com/au/nn-cd58rsqpq.html",
+          "supports": "Replace a microwave and air fry in the same cavity. The 27 L Panasonic includes an air-fry basket, wire rack and enamel tray. Its turntable is 340 mm across. Compare your largest dish with the 340 mm turntable. Panasonic specifies countertop use only.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Australian retailer feedback for NN-CD58RSQPQ",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+          "supports": "Owners describe using the microwave and convection functions in place of separate appliances; comments on space and controls are subjective.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and product identity",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/panasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+          "supports": "Clean listing for NN-CD58RSQPQ displayed an InStock offer and a purchase control on 6 November. Delivery depends on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for NN-CD58RSQPQ",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/consumers/respond-to-recalls-and-unsafe-products/search-product-recalls",
+          "supports": "Brand and exact-model searches of indexed Australian recall notices on 6 November returned no matching notice. Direct register query was inaccessible. This check is not safety certification.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian SKU 50099436",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpanasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+          "supports": "Clean retailer page, exact model NN-CD58RSQPQ and SKU 50099436 checked together. Approved campaign and encoded destination validated offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/nn-cd58rsqpq-tgg-640.webp",
+        "srcSet": "/images/products/nn-cd58rsqpq-tgg-320.webp 320w, /images/products/nn-cd58rsqpq-tgg-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Panasonic NN-CD58RSQPQ 27 L combination microwave",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50099436_1079619.png?v=1786595690",
+        "suppliedVia": "The Good Guys exact-model listing: https://www.thegoodguys.com.au/panasonic-27l-1000w-4-in-1-air-fryer-convection-microwave-oven-nn-cd58rsqpq",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "philips-na220-single-basket",
+      "guidePath": "/guides/convection-microwave-vs-air-fryer/",
+      "name": "Philips NA220/00 4.2 L single-basket air fryer",
+      "productType": "4.2 L single-basket air fryer",
+      "summary": "Keep your working microwave and use a separate 4.2 L drawer for chips or a side dish. A window lets you check browning without pulling the drawer out.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-2000-series-42-litre-large-airfryer-black-na22000",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "There is one cooking zone. Check the usable basket area for your usual portion and allow space to pull the drawer forward."
+      ],
+      "suitability": {
+        "suits": [
+          "small portions cooked alongside a dish heating in the microwave"
+        ],
+        "mayNotSuit": [
+          "two foods that need different temperatures in the air fryer at the same time"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "NA220/00 Australian product specifications",
+          "publisher": "Philips",
+          "sourceUrl": "https://www.philips.com.au/c-p/NA220_00/2000-series-airfryer-2000-series-42l",
+          "supports": "Keep your working microwave and use a separate 4.2 L drawer for chips or a side dish. A window lets you check browning without pulling the drawer out. There is one cooking zone. Check the usable basket area for your usual portion and allow space to pull the drawer forward.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Australian retailer feedback for NA220/00",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/philips-2000-series-42-litre-large-airfryer-black-na22000",
+          "supports": "Owners mention the simple controls and use for quick meals. Actual batch time depends on the food and load.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and product identity",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/philips-2000-series-42-litre-large-airfryer-black-na22000",
+          "supports": "Clean listing for NA220/00 displayed an InStock offer and a purchase control on 6 November. Delivery depends on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for NA220/00",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/consumers/respond-to-recalls-and-unsafe-products/search-product-recalls",
+          "supports": "Brand and exact-model searches of indexed Australian recall notices on 6 November returned no matching notice. Direct register query was inaccessible. This check is not safety certification.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian SKU 50091323",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-2000-series-42-litre-large-airfryer-black-na22000",
+          "supports": "Clean retailer page, exact model NA220/00 and SKU 50091323 checked together. Approved campaign and encoded destination validated offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/na220-00-tgg-640.webp",
+        "srcSet": "/images/products/na220-00-tgg-320.webp 320w, /images/products/na220-00-tgg-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Philips NA220/00 4.2 L single-basket air fryer",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091323_919482.png?v=1776227312",
+        "suppliedVia": "The Good Guys exact-model listing: https://www.thegoodguys.com.au/philips-2000-series-42-litre-large-airfryer-black-na22000",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "philips-na352-dual-basket",
+      "guidePath": "/guides/convection-microwave-vs-air-fryer/",
+      "name": "Philips NA352/00 6 L + 3 L dual-basket air fryer",
+      "productType": "6 L + 3 L dual-basket air fryer",
+      "summary": "The 6 L drawer can cook a main while the 3 L drawer handles a side at a different setting. SyncFinish lets the two drawers finish together.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 9 L total is split across unequal drawers. Check whether your side fits the 3 L drawer and allow room to pull both drawers out."
+      ],
+      "suitability": {
+        "suits": [
+          "a main and a smaller side cooked separately while the microwave stays free"
+        ],
+        "mayNotSuit": [
+          "two equally large portions or one wide dish that needs a single cooking surface"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "NA352/00 Australian product specifications",
+          "publisher": "Philips",
+          "sourceUrl": "https://www.philips.com.au/c-p/NA352_00/3000-series-dual-basket-airfryer",
+          "supports": "The 6 L drawer can cook a main while the 3 L drawer handles a side at a different setting. SyncFinish lets the two drawers finish together. The 9 L total is split across unequal drawers. Check whether your side fits the 3 L drawer and allow room to pull both drawers out.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Australian retailer feedback for NA352/00",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/philips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+          "supports": "Owners report using the separate compartments for mains and sides; feedback does not establish cooking performance for a particular load.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian ordering and product identity",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/philips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+          "supports": "Clean listing for NA352/00 displayed an InStock offer and a purchase control on 6 November. Delivery depends on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search for NA352/00",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/consumers/respond-to-recalls-and-unsafe-products/search-product-recalls",
+          "supports": "Brand and exact-model searches of indexed Australian recall notices on 6 November returned no matching notice. Direct register query was inaccessible. This check is not safety certification.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Australian SKU 50090105",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fphilips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+          "supports": "Clean retailer page, exact model NA352/00 and SKU 50090105 checked together. Approved campaign and encoded destination validated offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/na352-00-tgg-640.webp",
+        "srcSet": "/images/products/na352-00-tgg-320.webp 320w, /images/products/na352-00-tgg-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Philips NA352/00 6 L + 3 L dual-basket air fryer",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50090105_908755.png?v=1776228164",
+        "suppliedVia": "The Good Guys exact-model listing: https://www.thegoodguys.com.au/philips-series-3000-dual-basket-airfryer-xxl-blackcopper-na35200",
+        "checkedOn": "2026-11-06"
       }
     },
     {
@@ -17840,6 +18188,382 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50069055_688696.png?v=1776229672",
         "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/westinghouse-60cm-slideout-rangehood-stainless-steel-fascia-wrr614sb",
         "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "westinghouse-wrr904sb",
+      "guidePath": "/guides/rangehood-buying-guide-australia/",
+      "name": "Westinghouse WRR904SB 90 cm slide-out",
+      "productType": "90 cm slide-out",
+      "summary": "The hood is 898 mm wide and 300 mm deep when closed. Its pull-out section extends over the cooking area.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-90cm-slideout-rangehood-stainless-steel-fascia-wrr904sb",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Measure the space in front of the fascia with the hood fully extended and check the outlet position."
+      ],
+      "suitability": {
+        "suits": [
+          "a wide pull-out hood fitted beneath existing cupboards"
+        ],
+        "mayNotSuit": [
+          "a fixed opening sized for a 60 cm slide-out"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "WRR904SB Australian specifications",
+          "publisher": "Westinghouse",
+          "sourceUrl": "https://www.westinghouse.com.au/cooking/rangehoods/wrr904sb/",
+          "supports": "The hood is 898 mm wide and 300 mm deep when closed. Its pull-out section extends over the cooking area. Measure the space in front of the fascia with the hood fully extended and check the outlet position.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WRR904SB feedback from owners",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-90cm-slideout-rangehood-stainless-steel-fascia-wrr904sb",
+          "supports": "Owners describe the sliding action and the way the controls operate. Check that the pull-out action suits the intended user.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-90cm-slideout-rangehood-stainless-steel-fascia-wrr904sb",
+          "supports": "Exact Australian listing showed InStock and an order control on 6 November. Delivery and collection depend on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Australian exact-model recall search on 6 November found no match for WRR904SB. Observe the Australian installation instructions.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact model and retailer SKU",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-90cm-slideout-rangehood-stainless-steel-fascia-wrr904sb",
+          "supports": "The Good Guys Australian SKU 50069058 matched model WRR904SB. Affiliate campaign and encoded destination verified offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/wrr904sb-good-guys-640.webp",
+        "srcSet": "/images/products/wrr904sb-good-guys-320.webp 320w, /images/products/wrr904sb-good-guys-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Westinghouse WRR904SB 90 cm slide-out",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50069058_688761.png?v=1776227191",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/westinghouse-90cm-slideout-rangehood-stainless-steel-fascia-wrr904sb",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "schweigen-gg-6c",
+      "guidePath": "/guides/rangehood-buying-guide-australia/",
+      "name": "Schweigen GG-6C 60 cm concealed undermount",
+      "productType": "60 cm concealed undermount",
+      "summary": "The 525 mm-wide body sits inside the overhead cupboard. The motor is built into the hood.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fschweigen-60cm-non-silent-undermount-rangehood-stainless-steel-gg-6c",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Compare the cabinet cut-out with the installation drawing and allow room above the hood for the air outlet."
+      ],
+      "suitability": {
+        "suits": [
+          "a concealed hood in a nominal 60 cm cabinet"
+        ],
+        "mayNotSuit": [
+          "a kitchen where keeping the whole cupboard for storage is a priority"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "GG-6C Australian specifications",
+          "publisher": "Schweigen",
+          "sourceUrl": "https://www.schweigen.com.au/catalogue/gg-6c",
+          "supports": "The 525 mm-wide body sits inside the overhead cupboard. The motor is built into the hood. Compare the cabinet cut-out with the installation drawing and allow room above the hood for the air outlet.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "GG-6C feedback from owners",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/schweigen-60cm-non-silent-undermount-rangehood-stainless-steel-gg-6c",
+          "supports": "Owner feedback mentions the concealed fit and the separate cost of charcoal filters for recirculation.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/schweigen-60cm-non-silent-undermount-rangehood-stainless-steel-gg-6c",
+          "supports": "Exact Australian listing showed InStock and an order control on 6 November. Delivery and collection depend on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Australian exact-model recall search on 6 November found no match for GG-6C. Observe the Australian installation instructions.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact model and retailer SKU",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fschweigen-60cm-non-silent-undermount-rangehood-stainless-steel-gg-6c",
+          "supports": "The Good Guys Australian SKU 50045604 matched model GG-6C. Affiliate campaign and encoded destination verified offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/gg-6c-good-guys-640.webp",
+        "srcSet": "/images/products/gg-6c-good-guys-320.webp 320w, /images/products/gg-6c-good-guys-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Schweigen GG-6C 60 cm concealed undermount",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50045604_485664.png?v=1776733454",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/schweigen-60cm-non-silent-undermount-rangehood-stainless-steel-gg-6c",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "schweigen-gg-901",
+      "guidePath": "/guides/rangehood-buying-guide-australia/",
+      "name": "Schweigen GG-901 90 cm concealed undermount",
+      "productType": "90 cm concealed undermount",
+      "summary": "At about 864 mm wide, the body provides a wider intake than the GG-6C. Both have the same manufacturer-rated maximum airflow and an internal motor.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fschweigen-90cm-non-silent-undermount-rangehood-stainless-steel-gg-901",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Check the cut-out and shelf space against the drawing. Listen at your usual fan setting if noise matters in an open kitchen."
+      ],
+      "suitability": {
+        "suits": [
+          "a wider cooktop with custom overhead cabinetry"
+        ],
+        "mayNotSuit": [
+          "a narrow cabinet or an installation that requires an external motor"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "GG-901 Australian specifications",
+          "publisher": "Schweigen",
+          "sourceUrl": "https://www.schweigen.com.au/catalogue/gg-901",
+          "supports": "At about 864 mm wide, the body provides a wider intake than the GG-6C. Both have the same manufacturer-rated maximum airflow and an internal motor. Check the cut-out and shelf space against the drawing. Listen at your usual fan setting if noise matters in an open kitchen.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "GG-901 feedback from owners",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/schweigen-90cm-non-silent-undermount-rangehood-stainless-steel-gg-901",
+          "supports": "Owners differ on perceived noise. The retailer reviews do not establish a measured noise level.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/schweigen-90cm-non-silent-undermount-rangehood-stainless-steel-gg-901",
+          "supports": "Exact Australian listing showed InStock and an order control on 6 November. Delivery and collection depend on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Australian exact-model recall search on 6 November found no match for GG-901. Observe the Australian installation instructions.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact model and retailer SKU",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fschweigen-90cm-non-silent-undermount-rangehood-stainless-steel-gg-901",
+          "supports": "The Good Guys Australian SKU 50027047 matched model GG-901. Affiliate campaign and encoded destination verified offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/gg-901-good-guys-640.webp",
+        "srcSet": "/images/products/gg-901-good-guys-320.webp 320w, /images/products/gg-901-good-guys-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Schweigen GG-901 90 cm concealed undermount",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50027047_772255.png?v=1776732821",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/schweigen-90cm-non-silent-undermount-rangehood-stainless-steel-gg-901",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "westinghouse-wrc904sd",
+      "guidePath": "/guides/rangehood-buying-guide-australia/",
+      "name": "Westinghouse WRC904SD 90 cm wall canopy",
+      "productType": "90 cm wall canopy",
+      "summary": "The canopy is 900 mm wide and projects 500 mm from the wall. The exhaust connection takes a 150 mm duct.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-90cm-canopy-rangehood-stainless-steel-wrc904sd",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Check the ceiling height, duct route and headroom at the front edge of the canopy."
+      ],
+      "suitability": {
+        "suits": [
+          "a cooktop against a wall with room above for the chimney cover"
+        ],
+        "mayNotSuit": [
+          "an island cooktop or a cupboard that needs to stay above the hob"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "WRC904SD Australian specifications",
+          "publisher": "Westinghouse",
+          "sourceUrl": "https://www.westinghouse.com.au/cooking/rangehoods/wrc904sd/",
+          "supports": "The canopy is 900 mm wide and projects 500 mm from the wall. The exhaust connection takes a 150 mm duct. Check the ceiling height, duct route and headroom at the front edge of the canopy.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "WRC904SD feedback from owners",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-90cm-canopy-rangehood-stainless-steel-wrc904sd",
+          "supports": "Owners discuss price, fit and lamp brightness. A replacement may need a different ceiling opening.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian order availability",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-90cm-canopy-rangehood-stainless-steel-wrc904sd",
+          "supports": "Exact Australian listing showed InStock and an order control on 6 November. Delivery and collection depend on postcode.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Australian exact-model recall search on 6 November found no match for WRC904SD. Observe the Australian installation instructions.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact model and retailer SKU",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-90cm-canopy-rangehood-stainless-steel-wrc904sd",
+          "supports": "The Good Guys Australian SKU 50086420 matched model WRC904SD. Affiliate campaign and encoded destination verified offline.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/wrc904sd-good-guys-640.webp",
+        "srcSet": "/images/products/wrc904sd-good-guys-320.webp 320w, /images/products/wrc904sd-good-guys-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Westinghouse WRC904SD 90 cm wall canopy",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50086420_867845.png?v=1776230973",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/westinghouse-90cm-canopy-rangehood-stainless-steel-wrc904sd",
+        "checkedOn": "2026-11-06"
       }
     },
     {
@@ -21323,6 +22047,22 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "7 November 2026 Amazon Australia availability check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-07",
+          "supports": "The local catalogue sweep and an independent clean check of ASIN B0F847ZC6G both showed in stock. Neither supplied a postcode delivery date."
         }
       ],
       "image": {
@@ -21429,6 +22169,22 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "7 November 2026 Amazon Australia availability check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-07",
+          "supports": "The local catalogue sweep and an independent clean check of ASIN B0F847ZC6G both showed in stock. Neither supplied a postcode delivery date."
         }
       ],
       "image": {
@@ -21747,6 +22503,22 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "7 November 2026 Amazon Australia availability check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-07",
+          "supports": "The local catalogue sweep and an independent clean check of ASIN B0F847ZC6G both showed in stock. Neither supplied a postcode delivery date."
         }
       ],
       "image": {
@@ -21959,6 +22731,22 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "7 November 2026 Amazon Australia availability check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-07",
+          "supports": "The local catalogue sweep and an independent clean check of ASIN B0F847ZC6G both showed in stock. Neither supplied a postcode delivery date."
         }
       ],
       "image": {
@@ -22171,6 +22959,22 @@
           "sourceUrl": "https://www.productsafety.gov.au/recalls",
           "supports": "25 October brand/model search found no matching recall for Joseph Joseph CupboardStore Large Easy-Access Caddy. Unrelated brand search results were excluded. Absence of a search match is not safety certification.",
           "checkedOn": "2026-10-25"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "5 November clean exact-ASIN availability follow-up",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-05",
+          "supports": "Amazon showed dispatch within 3–4 days on 5 November 2026. This is dispatch, not arrival; check the delivery estimate before relying on it for a dated job. Confirmed in the fresh whole-catalogue sweep and independent clean-page recheck. No affiliate redirect, seller-offer interaction or cart request. Historical full research and affiliate-validation dates retained."
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "7 November 2026 Amazon Australia availability check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0F847ZC6G",
+          "checkedOn": "2026-11-07",
+          "supports": "The local catalogue sweep and an independent clean check of ASIN B0F847ZC6G both showed in stock. Neither supplied a postcode delivery date."
         }
       ],
       "image": {
@@ -26308,6 +27112,1715 @@
           "checkedOn": "2026-11-04"
         }
       ]
+    },
+    {
+      "id": "updown-pro-plus-white-melamine-120x75-black",
+      "guidePath": "/guides/home-office-desk-setup-what-to-measure-before-you-buy/",
+      "name": "UpDown PRO+ Melamine Standing Desk, 120 × 75 cm",
+      "productType": "Dual-motor sit-stand desk",
+      "summary": "A black frame with a white melamine top for a compact workstation. The 64 cm minimum surface height is worth comparing with your seated elbow height.",
+      "merchant": "UpDown Desk",
+      "destinationUrl": "https://t.cfjump.com/94708/t/77799?Url=https%3a%2f%2fupdowndesk.com.au%2fproducts%2fpro-plus-series-melamine-standing-desks%3fvariant%3d46231092822185",
+      "linkLabel": "View at UpDown Desk",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-05",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-05",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The 75 cm depth still needs chair clearance behind it and cable slack through the full 64–129 cm travel.",
+        "Return freight is at the buyer’s expense under the change-of-mind policy."
+      ],
+      "suitability": {
+        "suits": [
+          "people who need a low seated position and can fit a 120 × 75 cm top"
+        ],
+        "mayNotSuit": [
+          "anyone who needs a surface below 64 cm or more width for two monitors"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "UpDown PRO+ Melamine Standing Desk, 120 × 75 cm specifications",
+          "publisher": "UpDown Desk",
+          "sourceUrl": "https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185",
+          "supports": "Exact white 120 × 75 cm melamine top, black frame, variant 46231092822185 and surface height range with standard top.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Change-of-mind returns",
+          "publisher": "UpDown Desk",
+          "sourceUrl": "https://updowndesk.com.au/pages/returns",
+          "supports": "Buyer pays the return shipping costs.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "UpDown Desk owner reports",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/updown-desk",
+          "supports": "Brand and earlier PRO-series owner accounts provide context on handling and assembly. Model-specific PRO+ performance has not been independently established here.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian product offer",
+          "publisher": "UpDown Desk",
+          "sourceUrl": "https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185",
+          "supports": "Matched the selected Australian store variant and confirmed an orderable offer. Standard freight checked for Brisbane CBD 4000.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall notices",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search for the named brand and model on the Australian regulator website found no matching recall notice at review.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Reviewed offer and account-issued destination",
+          "publisher": "UpDown Desk",
+          "sourceUrl": "https://t.cfjump.com/94708/t/77799?Url=https%3a%2f%2fupdowndesk.com.au%2fproducts%2fpro-plus-series-melamine-standing-desks%3fvariant%3d46231092822185",
+          "supports": "Checked the clean retailer offer and standard delivery terms. Matched the account-issued link to this exact destination offline.",
+          "checkedOn": "2026-11-05"
+        }
+      ],
+      "image": {
+        "src": "/images/products/updown-pro-plus-white-melamine-120x75-black-640.webp",
+        "srcSet": "/images/products/updown-pro-plus-white-melamine-120x75-black-320.webp 320w, /images/products/updown-pro-plus-white-melamine-120x75-black-640.webp 640w",
+        "alt": "UpDown PRO+ with a white rectangular top and black adjustable frame.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from UpDown Desk.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0399/1086/7094/files/PP-B_120WhiteMel_8c920a71-b426-4208-b65e-5a213781ee7b.jpg?v=1779945144",
+        "suppliedVia": "Manufacturer product page: https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185",
+        "checkedOn": "2026-11-05"
+      }
+    },
+    {
+      "id": "raco-eversteel-stainless-steel-frypan-28cm",
+      "guidePath": "/guides/cookware-materials-compared/",
+      "name": "Raco Eversteel 28 cm Stainless Steel Induction Frypan",
+      "productType": "Uncoated stainless-steel frypan",
+      "summary": "A single induction-compatible frypan for browning and making pan sauces when the saucepans you already own still suit your cooking.",
+      "merchant": "Cookware Brands",
+      "destinationUrl": "https://t.cfjump.com/94708/t/31577?Url=https%3a%2f%2fwww.cookwarebrands.com.au%2fproducts%2fraco-eversteel-stainless-steel-induction-frypan-28cm",
+      "linkLabel": "View at Cookware Brands",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-05",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-05",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The empty pan weighs 1.55 kg. Allow for the extra weight of food when lifting it.",
+        "The 180°C oven limit restricts hotter oven finishes."
+      ],
+      "suitability": {
+        "suits": [
+          "cooks who want one uncoated frypan for searing on induction"
+        ],
+        "mayNotSuit": [
+          "anyone who prefers a light pan, easy-release coating or hotter oven finishes"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Raco Eversteel 28 cm Stainless Steel Induction Frypan specifications",
+          "publisher": "Raco",
+          "sourceUrl": "https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Eversteel 28 cm, SKU 755090, uncoated stainless steel, induction suitability, listed dimensions and weight, and 180°C oven limit.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Eversteel product customer reviews",
+          "publisher": "Raco",
+          "sourceUrl": "https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Customer feedback on the product listing is retailer-hosted. The fit assessment relies on published dimensions, weight and care limits.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian product offer",
+          "publisher": "Cookware Brands",
+          "sourceUrl": "https://www.cookwarebrands.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Matched the selected Australian store variant and confirmed an orderable offer. Standard freight checked for Brisbane CBD 4000.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall notices",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search for the named brand and model on the Australian regulator website found no matching recall notice at review.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Reviewed offer and account-issued destination",
+          "publisher": "Cookware Brands",
+          "sourceUrl": "https://t.cfjump.com/94708/t/31577?Url=https%3a%2f%2fwww.cookwarebrands.com.au%2fproducts%2fraco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Checked the clean retailer offer and standard delivery terms. Matched the account-issued link to this exact destination offline.",
+          "checkedOn": "2026-11-05"
+        }
+      ],
+      "image": {
+        "src": "/images/products/raco-eversteel-stainless-steel-frypan-28cm-640.webp",
+        "srcSet": "/images/products/raco-eversteel-stainless-steel-frypan-28cm-320.webp 320w, /images/products/raco-eversteel-stainless-steel-frypan-28cm-640.webp 640w",
+        "alt": "Raco Eversteel 28 cm stainless-steel frypan with a long handle.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from Raco.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0659/3527/8307/files/755090_stainless_steel_frypan_28cm_1.jpg?v=1752025603",
+        "suppliedVia": "Manufacturer product page: https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+        "checkedOn": "2026-11-05"
+      }
+    },
+    {
+      "id": "macho-ac6507-chrome-bathroom",
+      "guidePath": "/guides/bathroom-essentials-australian-homes/",
+      "name": "Macho AC6507 Single Robe Hook, Chrome",
+      "productType": "Wall-mounted robe and hand-towel hook",
+      "summary": "A single 304 stainless-steel hook for a robe or hand towel beside a basin. Check door swing and wall suitability with the fabric hanging at full length.",
+      "merchant": "MyHomeware",
+      "destinationUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fsingle-robe-hook-stainless-steel-various-colour%3fvariant%3d44701610148012",
+      "linkLabel": "Check price at MyHomeware",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A hook bunches a wet bath towel. Use a rail if the fabric needs to spread out to dry.",
+        "Installation accessories are supplied. Wall suitability and load capacity still need checking before fixing it."
+      ],
+      "suitability": {
+        "suits": [
+          "one frequently used robe or hand towel with clear space beneath it"
+        ],
+        "mayNotSuit": [
+          "a wet bath sheet that stays bunched on a hook or a rental wall you cannot alter"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Macho AC6507 Single Robe Hook, Chrome specifications",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+          "supports": "Macho specifies chrome variant AC6507, 304 stainless steel, wall mounting and supplied installation accessories.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/my-homeware/q-and-a",
+          "supports": "The exact listing has no customer reviews. Retailer-level feedback concerns ordering and delivery and cannot establish the strength of this hook.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fsingle-robe-hook-stainless-steel-various-colour%3fvariant%3d44701610148012",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/macho-ac6507-hook-640.webp",
+        "srcSet": "/images/products/macho-ac6507-hook-320.webp 320w, /images/products/macho-ac6507-hook-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Planning diagram showing a towel hanging clear of the wall. Illustrative, not to scale.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "macho-ac6507-chrome-towel",
+      "guidePath": "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/",
+      "name": "Macho AC6507 Single Robe Hook, Chrome",
+      "productType": "Wall-mounted robe and hand-towel hook",
+      "summary": "A single 304 stainless-steel hook for a robe or hand towel beside a basin. Check door swing and wall suitability with the fabric hanging at full length.",
+      "merchant": "MyHomeware",
+      "destinationUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fsingle-robe-hook-stainless-steel-various-colour%3fvariant%3d44701610148012",
+      "linkLabel": "Check price at MyHomeware",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "A hook bunches a wet bath towel. Use a rail if the fabric needs to spread out to dry.",
+        "Installation accessories are supplied. Wall suitability and load capacity still need checking before fixing it."
+      ],
+      "suitability": {
+        "suits": [
+          "one frequently used robe or hand towel with clear space beneath it"
+        ],
+        "mayNotSuit": [
+          "a wet bath sheet that stays bunched on a hook or a rental wall you cannot alter"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Macho AC6507 Single Robe Hook, Chrome specifications",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+          "supports": "Macho specifies chrome variant AC6507, 304 stainless steel, wall mounting and supplied installation accessories.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/my-homeware/q-and-a",
+          "supports": "The exact listing has no customer reviews. Retailer-level feedback concerns ordering and delivery and cannot establish the strength of this hook.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fsingle-robe-hook-stainless-steel-various-colour%3fvariant%3d44701610148012",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/macho-ac6507-hook-640.webp",
+        "srcSet": "/images/products/macho-ac6507-hook-320.webp 320w, /images/products/macho-ac6507-hook-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Planning diagram showing a towel hanging clear of the wall. Illustrative, not to scale.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://www.myhomeware.com.au/products/single-robe-hook-stainless-steel-various-colour?variant=44701610148012",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "poseidon-map-1009-shower-shelf",
+      "guidePath": "/guides/shower-storage-what-to-check-before-buying-caddies-or-shelves/",
+      "name": "Poseidon MAP-1009 Stainless Steel Shower Shelf",
+      "productType": "Screw-fixed shower shelf",
+      "summary": "A 350 mm wide shelf with integral brackets that projects 125 mm into the shower. Check shoulder and elbow clearance with your bottles in position before drilling.",
+      "merchant": "MyHomeware",
+      "destinationUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fbathroom-shower-shelf-satin-stainless-steel",
+      "linkLabel": "Check price at MyHomeware",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The shelf projects 125 mm into the enclosure and requires screws. Check the wall and waterproofing before installation.",
+        "There is no verified load rating for this shelf. Do not use it as a handhold."
+      ],
+      "suitability": {
+        "suits": [
+          "a permanent shower where suitable wall fixings and wet-area installation are possible"
+        ],
+        "mayNotSuit": [
+          "renters who cannot drill or anyone looking for a grab rail"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Poseidon MAP-1009 Stainless Steel Shower Shelf specifications",
+          "publisher": "Poseidon",
+          "sourceUrl": "https://www.poseidonbk.com.au/wp-content/uploads/2024/07/Poseidon-2024-all-in-one-catalogue-digital-ver.pdf",
+          "supports": "Poseidon model MAP-1009; 350 mm wide, 125 mm deep, 95 mm high; surface-mounted, integral brackets, supplied screws. Retailer lists one-year replacement parts or product cover.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/my-homeware/q-and-a",
+          "supports": "Retailer-level reports include delivery delays. These do not demonstrate shelf-specific durability, load capacity or long-term resistance to corrosion.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://www.myhomeware.com.au/products/bathroom-shower-shelf-satin-stainless-steel",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "MyHomeware",
+          "sourceUrl": "https://t.cfjump.com/94708/t/92323?Url=https%3a%2f%2fwww.myhomeware.com.au%2fproducts%2fbathroom-shower-shelf-satin-stainless-steel",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/poseidon-map-1009-shower-shelf-640.webp",
+        "srcSet": "/images/products/poseidon-map-1009-shower-shelf-320.webp 320w, /images/products/poseidon-map-1009-shower-shelf-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Top-view size diagram of the Poseidon shelf, 350 mm wide and 125 mm deep.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://www.poseidonbk.com.au/wp-content/uploads/2024/07/Poseidon-2024-all-in-one-catalogue-digital-ver.pdf",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "onebed-essential-queen-25cm",
+      "guidePath": "/guides/mattress-sizes-australia/",
+      "name": "Onebed Essential Queen, 25 cm foam mattress",
+      "productType": "Lower-profile foam queen mattress",
+      "summary": "A 153 × 203 cm foam queen with a 25 cm profile. On the same base its surface sits 9 cm lower than the Solene and 3 cm lower than the Orlando Firm.",
+      "merchant": "OneBed Mattress",
+      "destinationUrl": "https://t.cfjump.com/94708/t/72641?Url=https%3a%2f%2fonebed.com.au%2fproducts%2fonebed-essential-10%3fvariant%3d43278119207021",
+      "linkLabel": "Check price at OneBed Mattress",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Check the support and ventilation of your base; it affects both mattress care and warranty eligibility.",
+        "The trial starts at purchase, requires at least 30 nights of use and only accepts a mattress in donatable condition."
+      ],
+      "suitability": {
+        "suits": [
+          "a household keeping a queen base and looking for a lower finished bed height"
+        ],
+        "mayNotSuit": [
+          "an unsupported base or a sleeper who wants pocket springs"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Onebed Essential Queen, 25 cm foam mattress specifications",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+          "supports": "OB-ESS-Q; retailer variant 43278119207021, 153 cm wide by 203 cm long by 25 cm deep. Ten-year limited manufacturer warranty and conditional 125-night trial.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/onebed-mattress-essential-queen",
+          "supports": "Queen owner accounts describe both satisfactory use and issues with warmth, edges or uneven support. Some reviews were incentivised. The reports do not identify every product revision.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://t.cfjump.com/94708/t/72641?Url=https%3a%2f%2fonebed.com.au%2fproducts%2fonebed-essential-10%3fvariant%3d43278119207021",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Onebed limited warranty",
+          "publisher": "Onebed",
+          "sourceUrl": "https://onebed.com.au/pages/warranty",
+          "supports": "Ten-year Essential limited warranty; change of mind is separate.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Sleep trial",
+          "publisher": "Onebed",
+          "sourceUrl": "https://onebed.com.au/pages/125-night-trial",
+          "supports": "Check purchase date, 30-night minimum, RMA, exclusions and collection.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/onebed-essential-queen-25cm-640.webp",
+        "srcSet": "/images/products/onebed-essential-queen-25cm-320.webp 320w, /images/products/onebed-essential-queen-25cm-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Queen mattress footprint diagram, 153 by 203 cm with a 25 cm profile.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "raco-eversteel-28cm-kitchen-essentials",
+      "guidePath": "/guides/everyday-kitchen-essentials-australian-homes/",
+      "name": "Raco Eversteel 28 cm Stainless Steel Induction Frypan",
+      "productType": "Uncoated stainless-steel frypan",
+      "summary": "A single induction-compatible frypan for browning and making pan sauces when the saucepans you already own still suit your cooking.",
+      "merchant": "Cookware Brands",
+      "destinationUrl": "https://t.cfjump.com/94708/t/31577?Url=https%3a%2f%2fwww.cookwarebrands.com.au%2fproducts%2fraco-eversteel-stainless-steel-induction-frypan-28cm",
+      "linkLabel": "View at Cookware Brands",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-05",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-05",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The empty pan weighs 1.55 kg. Allow for the extra weight of food when lifting it.",
+        "The 180°C oven limit restricts hotter oven finishes."
+      ],
+      "suitability": {
+        "suits": [
+          "cooks who want one uncoated frypan for searing on induction"
+        ],
+        "mayNotSuit": [
+          "anyone who prefers a light pan, easy-release coating or hotter oven finishes"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Raco Eversteel 28 cm Stainless Steel Induction Frypan specifications",
+          "publisher": "Raco",
+          "sourceUrl": "https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Eversteel 28 cm, SKU 755090, uncoated stainless steel, induction suitability, listed dimensions and weight, and 180°C oven limit.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Eversteel product customer reviews",
+          "publisher": "Raco",
+          "sourceUrl": "https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Customer feedback on the product listing is retailer-hosted. The fit assessment relies on published dimensions, weight and care limits.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian product offer",
+          "publisher": "Cookware Brands",
+          "sourceUrl": "https://www.cookwarebrands.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Matched the selected Australian store variant and confirmed an orderable offer. Standard freight checked for Brisbane CBD 4000.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall notices",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Search for the named brand and model on the Australian regulator website found no matching recall notice at review.",
+          "checkedOn": "2026-11-05"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Reviewed offer and account-issued destination",
+          "publisher": "Cookware Brands",
+          "sourceUrl": "https://t.cfjump.com/94708/t/31577?Url=https%3a%2f%2fwww.cookwarebrands.com.au%2fproducts%2fraco-eversteel-stainless-steel-induction-frypan-28cm",
+          "supports": "Checked the clean retailer offer and standard delivery terms. Matched the account-issued link to this exact destination offline.",
+          "checkedOn": "2026-11-05"
+        }
+      ],
+      "image": {
+        "src": "/images/products/raco-eversteel-stainless-steel-frypan-28cm-640.webp",
+        "srcSet": "/images/products/raco-eversteel-stainless-steel-frypan-28cm-320.webp 320w, /images/products/raco-eversteel-stainless-steel-frypan-28cm-640.webp 640w",
+        "alt": "Raco Eversteel 28 cm stainless-steel frypan with a long handle.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from Raco.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0659/3527/8307/files/755090_stainless_steel_frypan_28cm_1.jpg?v=1752025603",
+        "suppliedVia": "Manufacturer product page: https://www.raco.com.au/products/raco-eversteel-stainless-steel-induction-frypan-28cm",
+        "checkedOn": "2026-11-05"
+      }
+    },
+    {
+      "id": "onebed-essential-queen-bedroom-essentials",
+      "guidePath": "/guides/bedroom-essentials-for-a-more-comfortable-home/",
+      "name": "Onebed Essential Queen, 25 cm foam mattress",
+      "productType": "Lower-profile foam queen mattress",
+      "summary": "A 153 × 203 cm foam queen with a 25 cm profile. On the same base its surface sits 9 cm lower than the Solene and 3 cm lower than the Orlando Firm.",
+      "merchant": "OneBed Mattress",
+      "destinationUrl": "https://t.cfjump.com/94708/t/72641?Url=https%3a%2f%2fonebed.com.au%2fproducts%2fonebed-essential-10%3fvariant%3d43278119207021",
+      "linkLabel": "Check price at OneBed Mattress",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Check the support and ventilation of your base; it affects both mattress care and warranty eligibility.",
+        "The trial starts at purchase, requires at least 30 nights of use and only accepts a mattress in donatable condition."
+      ],
+      "suitability": {
+        "suits": [
+          "a household keeping a queen base and looking for a lower finished bed height"
+        ],
+        "mayNotSuit": [
+          "an unsupported base or a sleeper who wants pocket springs"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Onebed Essential Queen, 25 cm foam mattress specifications",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+          "supports": "OB-ESS-Q; retailer variant 43278119207021, 153 cm wide by 203 cm long by 25 cm deep. Ten-year limited manufacturer warranty and conditional 125-night trial.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner evidence and its limits",
+          "publisher": "ProductReview.com.au",
+          "sourceUrl": "https://www.productreview.com.au/listings/onebed-mattress-essential-queen",
+          "supports": "Queen owner accounts describe both satisfactory use and issues with warmth, edges or uneven support. Some reviews were incentivised. The reports do not identify every product revision.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact AU product variant",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+          "supports": "Reviewed the selected Australian product and its orderable retailer variant.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Approved seller and destination",
+          "publisher": "OneBed Mattress",
+          "sourceUrl": "https://t.cfjump.com/94708/t/72641?Url=https%3a%2f%2fonebed.com.au%2fproducts%2fonebed-essential-10%3fvariant%3d43278119207021",
+          "supports": "Matched the exact registered product URL with the account-issued tracking text without opening the affiliate link.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Official recall feed returned no record for the searched model or brand on review date.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Onebed limited warranty",
+          "publisher": "Onebed",
+          "sourceUrl": "https://onebed.com.au/pages/warranty",
+          "supports": "Ten-year Essential limited warranty; change of mind is separate.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Sleep trial",
+          "publisher": "Onebed",
+          "sourceUrl": "https://onebed.com.au/pages/125-night-trial",
+          "supports": "Check purchase date, 30-night minimum, RMA, exclusions and collection.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/onebed-essential-queen-25cm-640.webp",
+        "srcSet": "/images/products/onebed-essential-queen-25cm-320.webp 320w, /images/products/onebed-essential-queen-25cm-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Queen mattress footprint diagram, 153 by 203 cm with a 25 cm profile.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://onebed.com.au/products/onebed-essential-10?variant=43278119207021",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "youcopia-rollout-8-bathroom",
+      "guidePath": "/guides/under-sink-bathroom-storage-what-to-check-before-buying-organisers/",
+      "name": "YouCopia RollOut Under Sink Caddy — 8-inch",
+      "productType": "Narrow wheeled caddy with dividers",
+      "summary": "A narrower rolling bin with two movable dividers for keeping bottles upright. Handles let you lift it out, while a removable basket holds smaller items. Owners like the access, but the extra basket can make it too long for a cupboard.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow about 20 cm width, 42 cm depth and 13.5 cm empty height. The end-mounted basket increases depth to about 54 cm; moving it to a side increases width instead. Add bottle headroom.",
+        "Lift the front slightly to roll it; this is not a fitted drawer on runners. Keep its travel path clear and control it near the cupboard edge.",
+        "Hand-wash only. The open bin is not child-resistant storage; keep cleaning products in their original containers and securely stored."
+      ],
+      "suitability": {
+        "suits": [
+          "a narrow, deep pocket beside plumbing where a loose caddy is easier to remove than a shelf"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards when the extra basket is fitted on an end",
+          "households needing fixed runners or enclosed chemical storage"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "RollOut Under Sink Caddy 8-inch, model 50261",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/products/rollout-under-sink-caddy",
+          "supports": "Manufacturer specifies 7.7 W x 5.3 H x 16.4 D inches, 21.3 inches deep with basket, two dividers, rear wheels and hand washing. Instructions require lifting the front slightly to roll. Rounded planning dimensions allow for the small 7.8/16.3-inch listing variation; Amazon manufacturer part number 50261 matches the manufacturer SKU.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Selected RollOut Caddy owner reviews",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Read one Australian and five overseas displayed reviews for the RollOut Caddy variant. Recurring useful storage/rolling access; an owner could not fit the end basket, another described a cracked first delivery replaced by the retailer, and one found it expensive. No repeated serious failure pattern in the inspected sample, but long-term independent testing remains limited.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Exact eight-inch white ASIN B08B1T3KBN, manufacturer part 50261, in stock with Add to cart enabled. Sold and shipped by Amazon AU, with 30-day change-of-mind return eligibility displayed. Manufacturer-direct US stock is separate and was sold out.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU seller and tracked link",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU verified on 11 October 2026. Australian delivery offer displayed; selected ASIN and tracking tag ahc07-22 preserved. Link verification is not a claim of sales attribution.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Retailer returns and manufacturer warranty scope",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/warranty",
+          "supports": "Manufacturer directs purchases from other retailers back to that retailer. The two-year manufacturing-defect wording applies to YouCopia.com purchases, so it is not promised for this Amazon AU offer. Amazon AU is the verified local retailer and returns route.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian distributor listed by manufacturer",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/where-to-buy",
+          "supports": "Manufacturer lists Donaldson as its Australian distributor; this establishes an Australian brand presence but does not prove distributor coverage for the selected Amazon offer.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "YouCopia recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=YouCopia",
+          "supports": "Official brand recall search returned no results on 11 October 2026. This is a dated search, not safety certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN",
+          "supports": "Exact ASIN B08B1T3KBN and intended variant matched. Listing displayed: Only 4 left in stock (more on the way). Availability-only observation at 2026-10-18T08:54:59.527Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp",
+        "srcSet": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-320.webp 320w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp 640w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-960.webp 960w",
+        "alt": "White YouCopia RollOut eight-inch caddy with adjustable dividers and a removable front basket.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from YouCopia’s website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/2534/0342/files/RollOut-Under-Sink-8in-Caddy-Propped-Silo.png?v=1748026634",
+        "suppliedVia": "Manufacturer product page: https://youcopia.com/products/rollout-under-sink-caddy",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "youcopia-rollout-8-laundry",
+      "guidePath": "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/",
+      "name": "YouCopia RollOut Under Sink Caddy — 8-inch",
+      "productType": "Narrow wheeled caddy with dividers",
+      "summary": "A narrower rolling bin with two movable dividers for keeping bottles upright. Handles let you lift it out, while a removable basket holds smaller items. Owners like the access, but the extra basket can make it too long for a cupboard.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-11",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-11",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Allow about 20 cm width, 42 cm depth and 13.5 cm empty height. The end-mounted basket increases depth to about 54 cm; moving it to a side increases width instead. Add bottle headroom.",
+        "Lift the front slightly to roll it; this is not a fitted drawer on runners. Keep its travel path clear and control it near the cupboard edge.",
+        "Hand-wash only. The open bin is not child-resistant storage; keep cleaning products in their original containers and securely stored."
+      ],
+      "suitability": {
+        "suits": [
+          "a narrow, deep pocket beside plumbing where a loose caddy is easier to remove than a shelf"
+        ],
+        "mayNotSuit": [
+          "shallow cupboards when the extra basket is fitted on an end",
+          "households needing fixed runners or enclosed chemical storage"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "RollOut Under Sink Caddy 8-inch, model 50261",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/products/rollout-under-sink-caddy",
+          "supports": "Manufacturer specifies 7.7 W x 5.3 H x 16.4 D inches, 21.3 inches deep with basket, two dividers, rear wheels and hand washing. Instructions require lifting the front slightly to roll. Rounded planning dimensions allow for the small 7.8/16.3-inch listing variation; Amazon manufacturer part number 50261 matches the manufacturer SKU.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Selected RollOut Caddy owner reviews",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Read one Australian and five overseas displayed reviews for the RollOut Caddy variant. Recurring useful storage/rolling access; an owner could not fit the end basket, another described a cracked first delivery replaced by the retailer, and one found it expensive. No repeated serious failure pattern in the inspected sample, but long-term independent testing remains limited.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian offer checked",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Exact eight-inch white ASIN B08B1T3KBN, manufacturer part 50261, in stock with Add to cart enabled. Sold and shipped by Amazon AU, with 30-day change-of-mind return eligibility displayed. Manufacturer-direct US stock is separate and was sold out.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Amazon AU seller and tracked link",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN?tag=ahc07-22",
+          "supports": "Shipper / Seller Amazon AU verified on 11 October 2026. Australian delivery offer displayed; selected ASIN and tracking tag ahc07-22 preserved. Link verification is not a claim of sales attribution.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "manufacturer-warranty",
+          "title": "Retailer returns and manufacturer warranty scope",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/warranty",
+          "supports": "Manufacturer directs purchases from other retailers back to that retailer. The two-year manufacturing-defect wording applies to YouCopia.com purchases, so it is not promised for this Amazon AU offer. Amazon AU is the verified local retailer and returns route.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian distributor listed by manufacturer",
+          "publisher": "YouCopia",
+          "sourceUrl": "https://youcopia.com/pages/where-to-buy",
+          "supports": "Manufacturer lists Donaldson as its Australian distributor; this establishes an Australian brand presence but does not prove distributor coverage for the selected Amazon offer.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "YouCopia recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=YouCopia",
+          "supports": "Official brand recall search returned no results on 11 October 2026. This is a dated search, not safety certification.",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B08B1T3KBN",
+          "supports": "Exact ASIN B08B1T3KBN and intended variant matched. Listing displayed: Only 4 left in stock (more on the way). Availability-only observation at 2026-10-18T08:54:59.527Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp",
+        "srcSet": "/images/products/youcopia-rollout-under-sink-caddy-8-inch-320.webp 320w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-640.webp 640w, /images/products/youcopia-rollout-under-sink-caddy-8-inch-960.webp 960w",
+        "alt": "White YouCopia RollOut eight-inch caddy with adjustable dividers and a removable front basket.",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from YouCopia’s website.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/2534/0342/files/RollOut-Under-Sink-8in-Caddy-Propped-Silo.png?v=1748026634",
+        "suppliedVia": "Manufacturer product page: https://youcopia.com/products/rollout-under-sink-caddy",
+        "checkedOn": "2026-10-11"
+      }
+    },
+    {
+      "id": "really-useful-19l-dry-sports-kit",
+      "guidePath": "/guides/sports-gear-storage-what-to-check-before-buying-hooks-racks-or-bins/",
+      "name": "Really Useful Box 19L Clear",
+      "productType": "Stackable lidded storage box",
+      "summary": "A clear lidded 19 L box for separate dry items such as a pump, spare grips and cones. Measure the longest item against the inside of the box and check that the lid can lift clear of the shelf.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-22",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-22",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Nineteen litres is too small for bulky equipment and the tapered internal shape reduces usable space.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "small parts, cleaning refills and hobby supplies"
+        ],
+        "mayNotSuit": [
+          "bulky sporting gear or heavy power tools"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Really Useful Box 19L Clear manufacturer information",
+          "publisher": "Really",
+          "sourceUrl": "https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Really Useful Box 19L Clear product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/really-useful-box-19-litre-clear",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Really Useful Box 19L Clear Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Really Useful Box 19L Clear Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000YXLJ7G: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Displayed seller: MplusL. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/really-useful-box-19l-clear-250.webp",
+        "srcSet": "/images/products/really-useful-box-19l-clear-250.webp 250w",
+        "alt": "Really Useful Box 19L Clear shown with example contents.",
+        "width": 250,
+        "height": 250,
+        "credit": "Product image sourced from Really Useful Products.",
+        "sourceUrl": "https://www.reallyusefulproducts.co.uk/images/onlineshop/rub/fullsize/b19_0litre3.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "brabantia-newicon-112126-white-3l",
+      "guidePath": "/guides/bathroom-essentials-australian-homes/",
+      "name": "Brabantia NewIcon 3 L pedal bin, white",
+      "productType": "Compact pedal bin",
+      "summary": "At 16.8 cm wide and 23.5 cm deep including the pedal, this three-litre bin fits some narrow gaps beside a vanity. The removable bucket lifts straight up for emptying.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B01LXCYQLR?tag=ahc07-22",
+      "linkLabel": "Check price at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-06",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-06",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Three litres fills quickly in a shared bathroom. Check clearance above the closed height of 26.4 cm for the lid and bucket.",
+        "The reviewed white offer was sold and shipped by Amazon UK through Amazon Australia. Compare the delivered total and estimated arrival for your postcode."
+      ],
+      "suitability": {
+        "suits": [
+          "a small ensuite with low-volume dry waste and room to open a pedal lid"
+        ],
+        "mayNotSuit": [
+          "a shared bathroom that needs more capacity or a position beneath a low shelf"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "White 3L NewIcon specifications",
+          "publisher": "Brabantia",
+          "sourceUrl": "https://www.brabantia.com/uk/newicon-pedal-bin-3-litre-soft-closing-plastic-inner-bucket-white/",
+          "supports": "Exact model 112126. Capacity 3 L, width 16.8 cm, depth 23.5 cm, height 26.4 cm and removable inner bucket.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Customer reviews and shared-variant limitation",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01LXCYQLR",
+          "supports": "The listing combines reviews of multiple variants. They are not independent white-model durability evidence.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "White bin Australian offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01LXCYQLR",
+          "supports": "Product title, model and buy box checked. In stock, sold and shipped by Amazon UK on Amazon Australia. Postcode freight is not verified.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Checked Australian account destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B01LXCYQLR?tag=ahc07-22",
+          "supports": "Confirmed the exact ASIN and established AU Associates tag offline. Seller location and delivered total may change.",
+          "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Brabantia returned zero. The sole numeric 112126 match was a Holden vehicle.",
+          "checkedOn": "2026-11-06"
+        }
+      ],
+      "image": {
+        "src": "/images/products/brabantia-newicon-white-3l-640.webp",
+        "srcSet": "/images/products/brabantia-newicon-white-3l-320.webp 320w, /images/products/brabantia-newicon-white-3l-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Footprint planning diagram for a 16.8 cm wide and 23.5 cm deep bin.",
+        "credit": "AHC planning diagram. Not a product photograph.",
+        "sourceUrl": "https://www.brabantia.com/uk/newicon-pedal-bin-3-litre-soft-closing-plastic-inner-bucket-white/",
+        "suppliedVia": "Original AHC diagram based on published product specifications.",
+        "checkedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "songmics-three-tier-general-bathroom",
+      "guidePath": "/guides/bathroom-storage-what-to-measure-and-check-before-you-buy/",
+      "name": "SONGMICS UBTS001W02 Bamboo Over-Toilet Organiser — Cloud White / Natural Beige",
+      "productType": "Freestanding over-toilet shelf",
+      "summary": "A roughly 26 x 63 x 170 cm bamboo unit with an adjustable middle shelf and anti-tip kit, once cistern, seat, wall-fixing and walkway clearances have been checked.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0C9BZPRH7?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The bamboo finish is not waterproof, so splashes and persistent bathroom moisture need prompt drying.",
+        "It requires assembly and the supplied anti-tip restraint; the 63 cm width and rear bar will not clear every toilet or plumbing layout."
+      ],
+      "suitability": {
+        "suits": [
+          "small bathrooms with measured vertical space and a suitable anti-tip fixing point"
+        ],
+        "mayNotSuit": [
+          "renters unable to secure furniture or toilets with tight side and cistern clearances"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "SONGMICS 3-Tier Bamboo Over Toilet Bathroom Organizer with Adjustable Shelf",
+          "publisher": "SONGMICS HOME",
+          "sourceUrl": "https://www.songmics.com/products/songmics-3-tier-bamboo-bathroom-organizer-ubts001?variant=45339077574905",
+          "supports": "Current dimensions, bamboo construction, adjustable shelf, load guidance, assembly requirements and anti-tip kit.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser owner-feedback record",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "Recurring owner-feedback themes on the current product listing were reviewed for practical fit concerns; retailer ratings and rankings were not treated as proof of suitability.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "SONGMICS 3-Tier Bamboo Over-Toilet Organiser Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07TBDS9BC: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07TBDS9BC?tag=ahc07-22",
+          "supports": "Displayed seller: SONGMICS HOME AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact UBTS001W02 variant and existing image match",
+          "publisher": "SONGMICS HOME",
+          "sourceUrl": "https://www.songmics.com/products/songmics-3-tier-bamboo-bathroom-organizer-ubts001?variant=45339077574905",
+          "supports": "Manufacturer variant 45339077574905 identifies UBTS001W02, matching the current white/natural-beige photo and Amazon child ASIN. Earlier dimensions and anti-tip guidance retained.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Corrected child-ASIN offer",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C9BZPRH7?tag=ahc07-22",
+          "supports": "Clean B0C9BZPRH7 listing identifies UBTS001W02, Cloud White/Natural Beige; in stock, sold by SONGMICS HOME AU and dispatched by Amazon to the default Sunshine Coast 4556 location. No tagged URL was opened.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian child-ASIN availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0C9BZPRH7?tag=ahc07-22",
+          "supports": "Orderable regular-price and Prime offers displayed for the exact child variant. Availability can change with location and seller.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/songmics-three-tier-over-toilet-organiser-640.webp",
+        "srcSet": "/images/products/songmics-three-tier-over-toilet-organiser-320.webp 320w, /images/products/songmics-three-tier-over-toilet-organiser-640.webp 640w",
+        "alt": "SONGMICS UBTS001W02 Bamboo Over-Toilet Organiser — Cloud White / Natural Beige",
+        "width": 640,
+        "height": 640,
+        "credit": "Product image sourced from SONGMICS.",
+        "sourceUrl": "https://www.songmics.com/cdn/shop/files/UBTS001W02-1_1200x1200.jpg?v=1781582496",
+        "suppliedVia": "Manufacturer product page: https://www.songmics.com/products/songmics-3-tier-bamboo-bathroom-organizer-ubts001?variant=45339077574905",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "vacuum-bags-small-bedroom",
+      "guidePath": "/guides/bedroom-storage-ideas-small-australian-rooms/",
+      "name": "Pacifica VL810 Large Vacuum Storage Bags — Pack of 2",
+      "productType": "Compression bags for occasional textile storage",
+      "summary": "Two large vacuum bags for clean, fully dry clothing or bedding whose care guidance permits compression. Measure the filled, compressed package before using an under-bed gap; the bag dimensions do not guarantee the finished height.",
+      "merchant": "The Good Guys",
+      "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpacifica-vacuum-storage-bags-large-vl810",
+      "linkLabel": "View at The Good Guys",
+      "affiliate": true,
+      "affiliateNetwork": "partnerize",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-10-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-10-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "They need reopening and resealing, so they are less convenient for items used every week. Seals and valves need checking over time.",
+        "Compression does not provide a rigid container or solve dampness. Avoid compressing textiles whose care instructions prohibit it, and keep filled bags light enough to lift safely."
+      ],
+      "suitability": {
+        "suits": [
+          "occasional storage of compatible seasonal textiles"
+        ],
+        "mayNotSuit": [
+          "daily-access clothes, damp items or textiles that must keep their loft"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Exact-model specifications and limitations",
+          "publisher": "Pacifica",
+          "sourceUrl": "https://pacifica.net.au/product/vacuum-storage-bags-large/",
+          "supports": "Exact VL810 manufacturer page confirms two bags and 80 cm W × 38 cm H × 100 cm D nominal dimensions. These are not a promised compressed package size; no percentage space-saving, universal fabric suitability or long-term seal guarantee is adopted.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience and limitations",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Six retailer comments from five named authors discuss useful size, sealing and ease of use; two comments share the same author and are not independent votes. This small body supports a bounded seasonal-storage use case, not a longevity guarantee.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian stock and support",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Exact model VL810 has an InStock offer and Australian ordering controls as checked 18 October. National listing only: delivery/pickup depends on postcode. Australian retailer support is available; no guarantee of future stock.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Dated brand/model search found no matching Australian recall for VL810. Absence from this search is not safety certification; follow the supplied Australian unit instructions.",
+          "checkedOn": "2026-10-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact Australian retailer offer",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fpacifica-vacuum-storage-bags-large-vl810",
+          "supports": "Model VL810, SKU 50082509, matched to the source. Retailer listing orderable; no supplier-direct indication found in the product offer. Approved campaign structure checked offline only; no affiliate redirect requested.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/tgg-resolved-vacuum-bags-640.webp",
+        "srcSet": "/images/products/tgg-resolved-vacuum-bags-320.webp 320w, /images/products/tgg-resolved-vacuum-bags-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Pacifica VL810 Large Vacuum Storage Bags — Pack of 2",
+        "credit": "Product image supplied by The Good Guys.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50082509_827940.png?v=1776229008",
+        "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/pacifica-vacuum-storage-bags-large-vl810",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "id": "really-useful-box-renter-garage",
+      "guidePath": "/guides/renter-friendly-garage-storage-what-to-check-before-you-buy/",
+      "name": "Really Useful Box 19L Clear",
+      "productType": "Stackable lidded storage box",
+      "summary": "A rigid clear box with clip handles for smaller garage categories that need visible, repeatable stack dimensions.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-22",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-22",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "unchanged",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Nineteen litres is too small for bulky equipment and the tapered internal shape reduces usable space.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "small parts, cleaning refills and hobby supplies"
+        ],
+        "mayNotSuit": [
+          "bulky sporting gear or heavy power tools"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Really Useful Box 19L Clear manufacturer information",
+          "publisher": "Really",
+          "sourceUrl": "https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Really Useful Box 19L Clear product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/really-useful-box-19-litre-clear",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Really Useful Box 19L Clear Australian order availability",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN showed the intended product with a current Australian buy box and in-stock or orderable status at review.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active matching recall was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Really Useful Box 19L Clear Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "The exact Amazon Australia ASIN, intended model or variant, current buy box, Australian availability and affiliate tag were checked before approval; a reachable URL alone was not accepted.",
+          "checkedOn": "2026-08-22"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B000YXLJ7G: An orderable offer was displayed.  This does not replace the earlier full specification and safety review.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B000YXLJ7G?tag=ahc07-22",
+          "supports": "Displayed seller: MplusL. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        }
+      ],
+      "image": {
+        "src": "/images/products/really-useful-box-19l-clear-250.webp",
+        "srcSet": "/images/products/really-useful-box-19l-clear-250.webp 250w",
+        "alt": "Really Useful Box 19L Clear shown with example contents.",
+        "width": 250,
+        "height": 250,
+        "credit": "Product image sourced from Really Useful Products.",
+        "sourceUrl": "https://www.reallyusefulproducts.co.uk/images/onlineshop/rub/fullsize/b19_0litre3.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.reallyusefulproducts.co.uk/uk/html/onlineshop/rub/b19_0litre.php",
+        "checkedOn": "2026-10-10"
+      }
+    },
+    {
+      "id": "coolaroo-adult-dog-pet-essentials",
+      "guidePath": "/guides/pet-essentials-for-australian-homes/",
+      "name": "Coolaroo The Original Elevated Pet Bed, Medium",
+      "productType": "Elevated mesh dog bed",
+      "summary": "A ventilated raised bed for dogs and rooms where airflow and wipe-clean access matter more than deep cushioning.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-08-18",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-08-18",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+        "An elevated mesh surface does not provide the pressure-relieving cushioning some older dogs need.",
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+      ],
+      "suitability": {
+        "suits": [
+          "warm rooms and dogs that prefer a firmer raised surface"
+        ],
+        "mayNotSuit": [
+          "dogs needing thick orthopaedic cushioning"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Coolaroo The Original Elevated Pet Bed, Medium manufacturer information",
+          "publisher": "Coolaroo",
+          "sourceUrl": "https://www.coolaroo.com/product/original-elevated-pet-bed",
+          "supports": "Brand or manufacturer specifications, construction and care guidance used in the fit assessment.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Coolaroo The Original Elevated Pet Bed, Medium product and owner-feedback record",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/the-original-coolaroo-elevated-pet-bed-medium-aquatic-blue-aquatic-blue",
+          "supports": "Recurring owner-feedback themes and practical fit limitations were checked for the named product.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Coolaroo The Original Elevated Pet Bed, Medium Australian availability",
+          "publisher": "BuyWisely Australia",
+          "sourceUrl": "https://buywisely.com.au/au/product/the-original-coolaroo-elevated-pet-bed-medium-aquatic-blue-aquatic-blue",
+          "supports": "A current or recent Amazon Australia offer matching the named product and ASIN was checked.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Product Safety Recalls",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "The Australian recall register was checked for the named product and brand; no active match was identified at review.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Coolaroo The Original Elevated Pet Bed, Medium Amazon Australia listing",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+          "supports": "The Amazon Australia destination, exact ASIN, affiliate tag and seller or fulfilment details were checked before approval.",
+          "checkedOn": "2026-08-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Australian offer check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+          "supports": "Availability-only check of ASIN B07VKPQZX8: An orderable offer was displayed.  This does not replace the earlier full specification and safety review. The checked offer was an international import. Check the exact variant, delivery dates, return terms and total cost before buying.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Dated seller and fulfilment check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8?tag=ahc07-22",
+          "supports": "Displayed seller: Amazon US. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
+          "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "18 October low-stock recheck",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B07VKPQZX8",
+          "supports": "Exact ASIN B07VKPQZX8 and intended variant matched. Listing displayed: Only 2 left in stock. Availability-only observation at 2026-10-18T08:54:51.768Z; not a new specifications, recall or owner-feedback review. No affiliate link followed.",
+          "checkedOn": "2026-10-18"
+        }
+      ],
+      "image": {
+        "src": "/images/products/coolaroo-original-elevated-pet-bed-640.webp",
+        "srcSet": "/images/products/coolaroo-original-elevated-pet-bed-320.webp 320w, /images/products/coolaroo-original-elevated-pet-bed-640.webp 640w, /images/products/coolaroo-original-elevated-pet-bed-960.webp 960w",
+        "width": 640,
+        "height": 480,
+        "alt": "Coolaroo Original elevated dog bed, medium Aquatic Blue, model 459741, shown with a dog outdoors.",
+        "credit": "Product image sourced from Coolaroo.",
+        "sourceUrl": "https://www.coolaroousa.com/userfiles/images/Products/dogbed/og/459741-dogbed-og-med-aquaticblue-1.jpg",
+        "suppliedVia": "Manufacturer product page: https://www.coolaroousa.com/pet-products/elevated-dog-beds/Original-Elevated-Dog-Bed-Medium-Aquatic-Blue_459741. Exact model 459741 and colour matched to the approved listing.",
+        "checkedOn": "2026-10-18"
+      }
     },
     {
       "id": "pergolux-pergola-4",

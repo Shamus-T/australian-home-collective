@@ -13,7 +13,10 @@ export function researchUrl(input, depth = 0) {
     if (!destination || url.search || url.hash) throw new Error('Cannot safely decode this tracking link offline. Find a direct product URL.');
     return researchUrl(decodeURIComponent(destination[1]), depth + 1);
   }
-  if (url.hostname === 't.cfjump.com') return commissionFactoryDestination(input);
+  if (url.hostname === 't.cfjump.com') {
+    if (depth) throw new Error('Nested tracking redirects are not permitted.');
+    return commissionFactoryDestination(input);
+  }
   if (['amazon.com.au', 'www.amazon.com.au'].includes(url.hostname)) {
     const asin = url.pathname.match(/\/(?:dp|gp\/product)\/([A-Z0-9]{10})(?:\/|$)/i)?.[1];
     if (!asin) throw new Error('An exact Amazon product ASIN is required; search/redirect/short URLs are not permitted.');

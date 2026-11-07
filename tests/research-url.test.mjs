@@ -27,7 +27,10 @@ test('all currently approved catalogue offers have an offline research destinati
       const clean = researchUrl(offer.destinationUrl);
       assert.ok(!clean.includes('prf.hn'));
       const parsed = new URL(clean);
-      assert.ok(!parsed.search || (parsed.hostname === 'www.bedsndreams.com.au' && /^\?variant=\d+$/.test(parsed.search)));
+      assert.notEqual(parsed.hostname, 't.cfjump.com');
+      const bedVariant = parsed.hostname === 'www.bedsndreams.com.au' && /^\?variant=\d+$/.test(parsed.search);
+      const approvedVariant = offer.affiliateNetwork === 'commission-factory' && /^\?variant=\d+$/.test(parsed.search);
+      assert.ok(!parsed.search || bedVariant || approvedVariant);
       checked++;
     }
   }

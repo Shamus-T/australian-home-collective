@@ -34,7 +34,7 @@ test('rejects wrong publishers, merchants, nested redirects and ambiguous destin
 
 test('verified routing does not grant editorial or affiliate placement approval', () => {
   const catalogue = JSON.parse(readFileSync(new URL('../src/data/commercial-products.json', import.meta.url)));
-  const products = catalogue.products.filter(p => p.affiliateNetwork === 'commission-factory');
+  const products = catalogue.products.filter(p => p.merchant === 'Pergolux AU');
   assert.equal(products.length, 3);
   for (const product of products) {
     assert.equal(commissionFactoryLinkError(product.destinationUrl, product.merchant), null);

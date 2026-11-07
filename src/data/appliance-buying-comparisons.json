@@ -30,14 +30,16 @@
     "tradeoff": "Less rack room for bulky cookware. Check your pans, cavity and hose route; the 450mm body width alone does not prove fit. Postcode delivery needs checking."
   },
   "westinghouse-wtm4302wd-r-good-guys": {
-    "reason": "A top freezer with 329L fridge space and 102L freezer space; useful if fresh-food capacity takes priority.",
-    "fit": "699mm body width; 759mm including the two 30mm side gaps.",
-    "tradeoff": "Allow 90mm above and 50mm behind in the documented arrangement. This white right-hinge model needs extra hinge-side room for shelf removal near a wall."
+    "reason": "Top freezer with 329 L of fresh-food space, 21 L more than the LG.",
+    "fit": "Allow 90 mm above and 50 mm behind.",
+    "tradeoff": "This model hinges on the right. A corner wall needs 430 mm on that side for shelf removal.",
+    "minimumWidthMm": 759
   },
   "lg-gb-b400ps-fridge-fit-good-guys": {
-    "reason": "A bottom freezer with 308L fridge space and 128L freezer space; compare when side clearance is tight.",
-    "fit": "697mm body width; 705mm including two 4mm side gaps.",
-    "tradeoff": "Still needs more than 50mm behind, overhead clearance and door access. The small side gap is not permission to push it against the back wall."
+    "reason": "Bottom freezer with 128 L for frozen food. A 700 mm opening is 5 mm too narrow.",
+    "fit": "Allow more than 50 mm behind the 696 mm deep fridge.",
+    "tradeoff": "Check overhead clearance, door swing and drawer access.",
+    "minimumWidthMm": 705
   },
   "bosch-wqg24201au-good-guys": {
     "reason": "9kg heat pump for regular, larger loads where energy use matters more than quick cycles.",
@@ -55,14 +57,16 @@
     "tradeoff": "Cabinet panel is extra. Check panel weight, plinth movement, fixing and services; allow 1155mm door-open depth plus loading room."
   },
   "tgg-gap-haier-hrf510fhs": {
-    "reason": "372L fresh-food space and a 137L freezer, with refillable chilled water instead of plumbing.",
-    "fit": "790W × 1725H × 707D mm body; published cavity 850W × 1775H × 757D mm.",
-    "tradeoff": "Both doors and the drawer need operating space. Smaller freezer, manual ice and regular tank refilling; check large-container and ice-tray access."
+    "reason": "French doors, a lower freezer drawer and a refillable water tank.",
+    "fit": "Haier specifies a cavity 850 mm wide, 1,775 mm high and 757 mm deep.",
+    "tradeoff": "Check that both doors can open and the freezer drawer clears the island.",
+    "minimumWidthMm": 850
   },
   "westinghouse-wtm3100wl-x-good-guys": {
-    "reason": "A narrower top-freezer option: 238L fridge and 74L freezer capacity.",
-    "fit": "598mm body width; 658mm including 30mm each side.",
-    "tradeoff": "Allow 90mm above and 50mm behind. A corner needs 350mm hinge-side access for shelf removal. Smaller freezer; optional kit for door reversal."
+    "reason": "Top freezer with 238 L for fresh food and 74 L for frozen food.",
+    "fit": "Allow 90 mm above and 50 mm behind.",
+    "tradeoff": "Beside a corner wall, the hinge side needs 350 mm for shelf removal.",
+    "minimumWidthMm": 658
   },
   "westinghouse-wsf6602xc-good-guys": {
     "reason": "A simpler 14-place full-width option with six programs and a lower cutlery basket.",
