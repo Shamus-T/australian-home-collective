@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-06",
+  "updatedOn": "2026-11-07",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -3571,15 +3571,15 @@
     {
       "guidePath": "/guides/louvred-pergolas-australia/",
       "title": "Louvred Pergolas in Australia: What to Know Before Buying",
-      "reviewedOn": "2026-11-06",
+      "reviewedOn": "2026-11-07",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "38acb572c76aa868ca89935e85abf51d2f712279884102ea2f6d47de7dbb1af2",
+      "reviewedSourceSha256": "978b4f842e7bd8cb59809eda97500c877859c1658bd7a23e33743c067a2935c9",
       "requiredProductTypes": [
         {
           "label": "Manual and motorised louvred pergola systems",
           "productIds": [],
-          "gapReason": "Factual Pergolux inclusion authorised separately from affiliate approval. Headline warranty is documented; conflicting provisions are explained. Configuration-specific engineering and anchoring evidence remains unreconciled. No product approved for promotional placement. Account-issued links inspected without clicks; attribution not tested."
+          "gapReason": "Factual Pergolux inclusion remains separate from affiliate approval. Detailed warranty comparisons have been removed at the publisher’s request, not reconciled. Configuration-specific engineering and anchoring evidence, current exact-variant availability, recall and owner evidence, and permitted artwork remain incomplete. No product approved for promotional placement. Account-issued links inspected offline; attribution not tested."
         }
       ],
       "supportingProductIds": [],
@@ -3588,7 +3588,7 @@
         "/guides/outdoor-dining-area-setup-what-to-measure-before-buying-furniture/",
         "/guides/gutter-maintenance-guide/"
       ],
-      "reviewScope": "4 November substantive editorial review: corrected the concept illustration's foreground-post layering, introduced a short buying summary, moved the evidence-limited Series 4 model comparison higher, simplified duplicate controls material and tightened other buying sections. Recalculated the displayed 8-minute reading time. Engineering, anchoring and approval requirements, manufacturer warranty contradictions, ACL and source attribution remain; no new affiliate purchase placement or claim of hands-on testing. Commercial product evidence gap remains open. 6 November: the Decide What the Roof Needs to Do section now routes to the exact reviewed OZtrail Commercial Deluxe 3.0 Gazebo where the reader faces that decision."
+      "reviewScope": "4 November substantive editorial review: corrected the concept illustration's foreground-post layering, introduced a short buying summary, moved the evidence-limited Series 4 model comparison higher, simplified duplicate controls material and tightened other buying sections. Recalculated the displayed 8-minute reading time. Engineering, anchoring and approval requirements, manufacturer warranty contradictions, ACL and source attribution remain; no new affiliate purchase placement or claim of hands-on testing. Commercial product evidence gap remains open. 6 November: the Decide What the Roof Needs to Do section now routes to the exact reviewed OZtrail Commercial Deluxe 3.0 Gazebo where the reader faces that decision. 7 November: removed the detailed manufacturer warranty comparison, coverage periods, conflicting deadlines and older-PDF discussion at the publisher’s request. Kept a short current-policy reference, Australian Consumer Law guidance and all installation/engineering limits. Recalculated the 7-minute reading estimate. Prepared tracking records remain paused; removal of public detail does not complete product approval."
     }
   ]
 }

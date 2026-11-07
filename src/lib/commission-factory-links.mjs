@@ -1,7 +1,17 @@
 export const commissionFactoryPublisher = '94708';
 
-// Only account-issued destinations that have passed the editorial review.
+// Account-issued routes only. URL validation does not grant editorial approval.
+// Placement approval is enforced separately by the commercial registry and audit.
 const placements = new Map([
+  ['93696', {
+    merchant: 'Pergolux AU',
+    // Prepared research links remain paused until the full product review passes.
+    destinations: [
+      'https://pergolux.au/products/pergola',
+      'https://pergolux.au/products/pergola-pro',
+      'https://pergolux.au/products/pergola-pro-max',
+    ],
+  }],
   ['77799', {
     merchant: 'UpDown Desk',
     destinations: ['https://updowndesk.com.au/products/pro-plus-series-melamine-standing-desks?variant=46231092822185'],

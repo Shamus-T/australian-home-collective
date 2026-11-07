@@ -4,6 +4,16 @@ The resulting public guide is `/guides/louvred-pergolas-australia/`. It is indep
 
 No Pergolux or Crazy Sales product recommendation is approved by this review. NNE Living remains excluded. The buying guide retains an explicit primary-product gap in `article-commercial-coverage.json`; it is not marked commercially complete.
 
+## Commission Factory integration preparation — 4 November 2026
+
+The signed-in AHC account's Text Links generator was used to generate and read all three Series 4 model links, with the website traffic-source option selected and no custom identifiers. None was navigated, fetched, previewed or resolved. Each encoded destination was checked offline against the clean Australian model page. Account approval, active commission rules and additional terms were also read; commercial terms remain in the private working evidence, not article copy.
+
+The central catalogue now retains three **paused** research records with the actual account-issued destinations. Commission Factory's publisher and advertiser identifiers are in its URL path; the audit validates that path, the exact tracking host and the three allowed model destinations. The research URL helper decodes these links without a network request. Tests cover incorrect publishers, advertiser substitution, destination ambiguity and redirects. URL validation establishes intended routing only, never a sale or attribution result.
+
+Fresh clean-page checks confirmed the named Series 4 identities and the limited operation/lighting distinctions. The product pages still describe five-year mechanism cover and a one-year installation deadline, while the dedicated Australian warranty policy specifies two-year moving-part cover and installation within six months. This has not been reconciled. Existing engineering and anchoring evidence gaps remain open; no contrary safety finding is inferred. Model-selector links do not prove stock for every size or finish. Current exact-variant availability, permitted product artwork and complete approval evidence must be assessed before changing the records to approved.
+
+The guide remains outside `enabledGuidePaths`, the records have `approvedForAffiliateUse: false`, and no new public shopping links are rendered. The public article's disclosures, research-only wording, warranty table and installation limits remain intact. This preparation does not close the publication gate or authorise a merge/deployment of shopping placements.
+
 ## Public evidence retained
 
 - `variant-snapshot.json`: clean Australian storefront product JSON, including exact model/variant/SKU, listed price and availability flag. A storefront flag is not warehouse verification or postcode delivery assurance.
@@ -65,3 +75,10 @@ A reader reported that a foreground pergola post was incorrectly drawn behind th
 The guide now opens with a short decision-focused summary and keeps the existing five-section contents navigation. The manufacturer-supported Pergolux Series 4 comparison was moved closer to the introduction, before detailed engineering and approval sections. Redundant manual-versus-motorised comparison material was condensed into a specific controls/power-failure check. Other sections were tightened while retaining site-specific engineering, foundations, approvals, rainwater, electrical safety, written warranty clarification and Australian Consumer Law guidance, plus the supporting authoritative source links.
 
 The article-body copy was recalculated at approximately 1,722 words including navigation and model-card text, yielding an approximate eight-minute reading time at 225 words/minute. This is a display estimate, not a measured completion time. The article title, route, publication/modified dates, illustration asset URL and existing deep links remain unchanged. No new product-level affiliate recommendation, verified wind rating, installed-price claim or test claim was added; the commercial product research gap remains open.
+
+
+## Warranty simplification and publication — 7 November 2026
+
+The publisher requested removal of the extra warranty details and publication. The public guide now retains a short link to the current Australian warranty policy and asks readers to confirm the applicable terms with the supplier. The component-period summary, discrepancy table, competing deadlines and older-PDF discussion have been removed. The existing warranty anchor and Australian Consumer Law guidance remain. The reading estimate is now seven minutes.
+
+This is a copy simplification, not a manufacturer reconciliation or a completed product review. Earlier observations above remain historical evidence. The prepared account-issued routes have been integrated with the newer Commission Factory validator without replacing other advertisers or their exact destinations. The three Pergolux catalogue records remain paused and are not rendered as shopping links. Current exact-variant availability, recall and owner evidence, permitted artwork, applicable warranty support and the unresolved engineering/anchoring evidence still prevent promotional approval under the existing methodology. No wind rating, load rating or property-specific safety claim has been added.
