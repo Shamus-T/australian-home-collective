@@ -3521,10 +3521,10 @@
     {
       "guidePath": "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/",
       "title": "Washing Machine Dimensions Australia: What to Measure Before Buying",
-      "reviewedOn": "2026-11-04",
+      "reviewedOn": "2026-11-08",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "078b49819809b8ecf3a676ca8c1c384777a9b4615cd6f272a8cf72832446c91c",
+      "reviewedSourceSha256": "b64d705c84b557d8a50f638bcc4ffb7e77f9cc565fc99afe2f2516707a27b0cb",
       "requiredProductTypes": [
         {
           "label": "Front load washing machine",
@@ -3554,7 +3554,7 @@
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
         "/guides/laundry-tub-storage-what-to-check-before-buying-under-sink-organisers/"
       ],
-      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed. 4 November mobile buying-journey follow-up: shortened repeated pre-comparison advice, added need-led comparison jumps and retained exact-model installation limits, existing approved offers and artwork. Product selection/specifications unchanged; this is a presentation review, not a fresh stock check. See docs/editorial/mobile-buying-journey-2026-11-04.md."
+      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed. 4 November mobile buying-journey follow-up: shortened repeated pre-comparison advice, added need-led comparison jumps and retained exact-model installation limits, existing approved offers and artwork. Product selection/specifications unchanged; this is a presentation review, not a fresh stock check. See docs/editorial/mobile-buying-journey-2026-11-04.md. 8 November: checked washer fit figures and brought approved retailer buttons alongside the mobile fit decision."
     },
     {
       "guidePath": "/guides/what-size-air-conditioner-do-i-need/",
