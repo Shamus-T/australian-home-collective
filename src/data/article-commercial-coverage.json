@@ -856,10 +856,10 @@
     {
       "guidePath": "/guides/dishwasher-sizes-australia/",
       "title": "Dishwasher Sizes Australia: Measure Before You Buy",
-      "reviewedOn": "2026-11-04",
+      "reviewedOn": "2026-11-08",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0f2cff15948a23d4af416e4373d2a54349da314ac216e1e071fc1a330b1aa25b",
+      "reviewedSourceSha256": "2806b1084943fab4c932a2a2d57deb5a43532f84dfc383bb938918a8051c825b",
       "requiredProductTypes": [
         {
           "label": "60cm freestanding dishwasher",
@@ -888,7 +888,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed. 4 November dishwasher mobile follow-up: direct installation/rack-layout jumps to the existing four approved models, compact mobile comparison and shorter repeated chooser prose. Preserved old section anchors, full installation constraints, approved affiliate destinations and artwork. No new product/stock claims; see docs/editorial/dishwasher-mobile-buying-journey-2026-11-04.md."
+      "reviewScope": "1 November conversion follow-up: exact narrow-fridge and standard dishwasher research, clean retailer availability checks for all offers in these three guides, shorter chooser copy and grouped approved Bosch stack links. Existing product technical evidence retained unless explicitly refreshed. 4 November dishwasher mobile follow-up: direct installation/rack-layout jumps to the existing four approved models, compact mobile comparison and shorter repeated chooser prose. Preserved old section anchors, full installation constraints, approved affiliate destinations and artwork. No new product/stock claims; see docs/editorial/dishwasher-mobile-buying-journey-2026-11-04.md. 8 November: mobile comparison revised around the existing four approved dishwasher models, body and cut-out measurements, door travel and cabinet fronts. Existing product approval and offer checks retained."
     },
     {
       "guidePath": "/guides/electric-blankets-vs-heated-throws/",

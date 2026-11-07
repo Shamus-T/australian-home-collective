@@ -1,5 +1,4 @@
 ---
-import BuyingJourneyNav from "../../../components/BuyingJourneyNav.astro";
 import MeasurementWorksheetLink from "../../../components/MeasurementWorksheetLink.astro";
 import ApplianceMeasurementResource from "../../../components/ApplianceMeasurementResource.astro";
 import applianceComparisons from "../../../data/appliance-buying-comparisons.json";
@@ -53,7 +52,7 @@ const faqs = [
   category="Kitchen"
   date="Updated November 2026"
   datePublished="2026-07-23"
-  dateModified="2026-11-04"
+  dateModified="2026-11-08"
   readingTime="10 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
@@ -61,26 +60,14 @@ const faqs = [
   imageAlt="An open stainless steel dishwasher installed below a kitchen bench showing racks, cabinetry and door clearance"
   imagePosition="center 62%"
 >
-  <p>
-    Most Australian kitchens are planned around a nominal 600 mm dishwasher space. That is a useful
-    starting point, not a guarantee. Full size bodies are commonly just under or at 600 mm wide,
-    while height, feet, hoses and open door measurements differ.
-  </p>
-  <p>
-    Measure the finished opening before comparing programs. A quiet machine with flexible racks is
-    still the wrong purchase if its feet cannot level within the height, the hose is pinched behind
-    it or the open door blocks the only kitchen walkway.
-  </p>
-
-  <BuyingJourneyNav title="Find a dishwasher for your kitchen" links={[
-    { href: "#compare-westinghouse-wsf6602xc-good-guys", label: "60cm · cutlery basket", detail: "Westinghouse · 14 place settings" },
-    { href: "#compare-bosch-sms6hci02a-good-guys", label: "60cm · cutlery tray", detail: "Bosch · 15 place settings" },
-    { href: "#compare-bosch-sps6iki01a-good-guys", label: "45cm · slimline", detail: "Bosch · 10 place settings" },
-    { href: "#compare-tgg-gap-integrated-smv4htx01a", label: "Fully integrated", detail: "Bosch · cabinet panel extra" },
-  ]} />
-  <p><strong>Nominal width does not confirm fit.</strong> <a href="#dishwasher-dimensions-heading">Measure the opening and door clearance</a> before ordering. The two 60cm options and slimline have visible appliance fronts; the integrated model needs a matching cabinet panel and suitable cabinetry.</p>
-
-  <CommercialProductBlock guidePath="/guides/dishwasher-sizes-australia/" title="Compare slimline, full-width and integrated dishwashers" intro="Compare the model that matches your installation first, then check rack space and the total installed price. The retailer links open the exact models for current prices and postcode availability. These are research-based assessments, not firsthand tests; check the installation drawing before ordering." variant="comparison" compactComparison comparisonDetails={applianceComparisons} />
+  <CommercialProductBlock
+    guidePath="/guides/dishwasher-sizes-australia/"
+    title="Which dishwasher fits your opening?"
+    intro="First measure the narrowest width and the height under your bench. For a visible appliance front, compare the 45 cm slimline and two 60 cm models. For a matching cabinet door, start with the integrated model."
+    variant="comparison" compactComparison comparisonDetails={applianceComparisons}
+  >
+    <p slot="after-comparison">Still measuring? <a href="#dishwasher-dimensions-heading">Check the cavity, hose route and door swing</a>. For a drawer or built-under replacement, <a href="#dishwasher-types-heading">check the installation type</a> before choosing.</p>
+  </CommercialProductBlock>
 
   <section aria-labelledby="dishwasher-choice-heading">
     <h2 id="dishwasher-choice-heading">Check rack layout and installation before choosing</h2>
@@ -309,5 +296,18 @@ const faqs = [
   :global(html) { scroll-padding-top: 14rem; }
   @media (min-width: 901px) {
     :global(html) { scroll-padding-top: 8rem; }
+  }
+  @media (max-width: 767px) {
+    :global(body:has(#commercial-products-dishwasher-sizes-australia) .article-header) { min-height: 0; padding: 12px 0; }
+    :global(body:has(#commercial-products-dishwasher-sizes-australia) .article-header .narrow) { padding-block: 0; }
+    :global(body:has(#commercial-products-dishwasher-sizes-australia) .article-header h1) { font-size: clamp(1.5rem, 6vw, 2.25rem); line-height: 1.12; margin: 4px 0; }
+    :global(body:has(#commercial-products-dishwasher-sizes-australia) .article-header :is(.breadcrumbs,.eyebrow,.lead)),
+    :global(article:has(#commercial-products-dishwasher-sizes-australia) > .commercial-product-shortcut),
+    :global(article:has(#commercial-products-dishwasher-sizes-australia) .commercial-comparison-hint) { display: none; }
+    :global(article:has(#commercial-products-dishwasher-sizes-australia)) { padding-top: 4px; }
+    :global(article:has(#commercial-products-dishwasher-sizes-australia) .commercial-product-block),
+    :global(article:has(#commercial-products-dishwasher-sizes-australia) .commercial-product-block > h2) { margin-top: 0; }
+    :global(article:has(#commercial-products-dishwasher-sizes-australia) .commercial-product-context),
+    :global(article:has(#commercial-products-dishwasher-sizes-australia) .commercial-product-disclosure) { font-size: .93rem; line-height: 1.4; margin-block: 8px; }
   }
 </style>

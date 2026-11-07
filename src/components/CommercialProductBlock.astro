@@ -88,7 +88,7 @@ const formatDate = (date: string) =>
       <>
       <p class="commercial-comparison-hint" id={`${sectionId}-hint`}>Compare the fit, main drawback and retailer availability for each option.</p>
       {compareBySetup && (
-        <nav class="washer-routes" aria-label="Choose a washer setup">
+        <nav class="setup-routes" aria-label="Jump to a model by setup">
           {comparisonProducts.map(product => <a href={`#compare-${product.id}`}>{comparisonDetails[product.id].jumpLabel}</a>)}
           <slot name="setup-link" />
         </nav>
@@ -294,8 +294,8 @@ const formatDate = (date: string) =>
   .opening-widths { display: flex; align-items: center; flex-wrap: wrap; column-gap: .7rem; margin-bottom: .5rem; }
   .opening-widths span, .opening-width { display: block; font-weight: 700; }
   .opening-widths a { display: inline-flex; align-items: center; min-height: 44px; }
-  .washer-routes { display: flex; flex-wrap: wrap; gap: 0 1rem; margin-bottom: .5rem; }
-  .washer-routes :global(a) { display: inline-flex; align-items: center; min-height: 44px; }
+  .setup-routes { display: flex; flex-wrap: wrap; gap: 0 1rem; margin-bottom: .5rem; }
+  .setup-routes :global(a) { display: inline-flex; align-items: center; min-height: 44px; }
   .fit-notes { position: relative; z-index: 2; }
   .fit-notes summary { color: var(--green-dark); cursor: pointer; font-weight: 700; padding: .55rem 0; }
   .opening-width { color: var(--green-dark); }
