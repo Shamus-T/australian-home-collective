@@ -2480,15 +2480,21 @@
     {
       "guidePath": "/guides/pet-feeding-station-ideas-for-australian-homes/",
       "title": "Pet Feeding Station Ideas for Australian Homes",
-      "reviewedOn": "2026-11-06",
+      "reviewedOn": "2026-11-09",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "48c24e885adeddcc238c92ab77f56a1c44767ab1c5f11eee3da090f50d07a65f",
+      "reviewedSourceSha256": "6c6a38fc11ec36ae058daa91caa7685d756c087d457611bf4f3c77940c020492",
       "requiredProductTypes": [
         {
           "label": "Two-cup slow-feeding dog bowl",
           "productIds": [
             "gap-pet-feeding-station-ideas-for-australian-homes-b00l3o4ji6"
+          ]
+        },
+        {
+          "label": "Optional drinking fountain with replaceable filters",
+          "productIds": [
+            "advwin-4l-fountain-filter-bundle"
           ]
         },
         {
@@ -2503,7 +2509,7 @@
         "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
         "/guides/pet-food-storage-what-to-check-before-buying-containers/"
       ],
-      "reviewScope": "26 October2026: exact Tefal20/24cm pans and Outward Hound51006 slow feeder added after manufacturer, owner, seller, availability and recall research. Other products retain prior dates. See docs/editorial/commercial-gap-kitchen-pet-feeding-2026-10-26.md. 6 November: moved the existing buying section after the relevant setup checks and made its shopping decision explicit."
+      "reviewScope": "26 October2026: exact Tefal20/24cm pans and Outward Hound51006 slow feeder added after manufacturer, owner, seller, availability and recall research. Other products retain prior dates. See docs/editorial/commercial-gap-kitchen-pet-feeding-2026-10-26.md. 6 November: moved the existing buying section after the relevant setup checks and made its shopping decision explicit. 9 November 2026: verified the Advwin 4 L bundle, matching refill listing, owner concerns, Sydney 2000 basket freight and exact account-issued link."
     },
     {
       "guidePath": "/guides/pet-food-storage-what-to-check-before-buying-containers/",

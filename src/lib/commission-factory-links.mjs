@@ -3,6 +3,10 @@ export const commissionFactoryPublisher = '94708';
 // Account-issued routes only. URL validation does not grant editorial approval.
 // Placement approval is enforced separately by the commercial registry and audit.
 const placements = new Map([
+  ['87838', {
+    merchant: 'Advwin',
+    destinations: ['https://www.advwin.com.au/products/advwin-4l-pet-fountain-4-set-filter-replacement-620300400-620300900'],
+  }],
   ['92170', {
     merchant: 'Good Buyz',
     destinations: ['https://goodbuyz.com.au/products/locknlock-rice-case-w-cup-12l'],
