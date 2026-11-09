@@ -174,7 +174,7 @@ const faqs = [
   </div>
   <div class="dryer-retailer-options" data-commercial-comparison aria-label="Retailers for the two dryers above">
     {comparedDryers.map(product => (
-      <div>
+      <div id={`product-${product.id}`}>
         <p><strong>{product.name}</strong></p>
         <CommercialRetailerLinks product={product} offers={getRetailersForProduct(product)} placement="comparison" />
       </div>

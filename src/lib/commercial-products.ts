@@ -76,3 +76,18 @@ export function getApprovedProductsForGuide(guidePath: string): CommercialProduc
     (product) => product.guidePath === guidePath && canRenderProduct(product),
   );
 }
+
+export function getResearchedProducts(): CommercialProduct[] {
+  const byDestination = new Map<string, CommercialProduct>();
+  for (const guidePath of catalogue.enabledGuidePaths) {
+    for (const product of getApprovedProductsForGuide(guidePath)) {
+      const offers = getRetailersForProduct(product);
+      if (!offers.length) continue;
+      const existing = byDestination.get(product.destinationUrl);
+      if (!existing || offers.length > getRetailersForProduct(existing).length) {
+        byDestination.set(product.destinationUrl, product);
+      }
+    }
+  }
+  return [...byDestination.values()];
+}

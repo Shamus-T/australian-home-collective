@@ -117,6 +117,10 @@ export function isActiveGuideHref(href: string): boolean {
   return guideByHref.has(href);
 }
 
+export function getGuideInfo(href: string) {
+  return guideByHref.get(href);
+}
+
 export function getGuideCategoryLink(
   currentPath: string,
 ): GuideNavigationItem | undefined {

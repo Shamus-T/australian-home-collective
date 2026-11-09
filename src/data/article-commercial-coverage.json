@@ -1248,7 +1248,7 @@
       "reviewedOn": "2026-11-06",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "8786575824f6787ec3676fd67b985ba654fd944eaf499c55e143b3cea059c2d6",
+      "reviewedSourceSha256": "0bf229f78c02ba301d1768f56d8bfada126af2b55e173be57b9d1d10ba0df3a3",
       "requiredProductTypes": [
         {
           "label": "Heat pump clothes dryer",
@@ -3167,7 +3167,7 @@
       "reviewedOn": "2026-11-09",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "65d4c2631eb880271e21e3cfbfd6afbf5589f0f9c6f9ecd7e5d51e408dab556f",
+      "reviewedSourceSha256": "2d23be25a14ca36b0f9a9b37a99afbf62125486d29e4e6be8305862100ffc7d3",
       "requiredProductTypes": [
         {
           "label": "Air fryer — unequal dual baskets",

@@ -6,6 +6,7 @@ import {
   researchOutcomeLabels,
 } from "../lib/commercial-products";
 import ManufacturerPrice from "./ManufacturerPrice.astro";
+import { Fragment as NoWrapper } from "astro/jsx-runtime";
 import CommercialRetailerLinks from "./CommercialRetailerLinks.astro";
 import CommercialProductNameLink from "./CommercialProductNameLink.astro";
 import {
@@ -21,6 +22,7 @@ interface Props {
   accessoryProductIds?: string[];
   accessoryTitle?: string;
   accessoryIntro?: string;
+  shortlist?: Record<string, string>;
   comparisonDetails?: Record<string, { reason: string; fit: string; tradeoff: string; minimumWidthMm?: number; decisionLabel?: string; jumpLabel?: string }>;
   compactComparison?: boolean;
 }
@@ -31,6 +33,7 @@ const {
   intro = "These options have been checked against the measurements and buying questions in this guide.",
   variant = "solution",
   accessoryProductIds = [],
+  shortlist,
   comparisonDetails = {},
   compactComparison = false,
   accessoryTitle = "Optional setup accessories",
@@ -53,7 +56,12 @@ const accessories = products.filter(product => accessoryProductIds.includes(prod
 if (accessoryProductIds.some(id => !accessories.some(product => product.id === id)) || (accessories.length && !primaryProducts.length)) {
   throw new Error('Accessory groups require valid local product IDs and at least one primary product.');
 }
-const productGroups = [primaryProducts, ...(accessories.length ? [accessories] : [])];
+const featured = shortlist ? primaryProducts.filter(product => Object.hasOwn(shortlist, product.id)) : primaryProducts;
+if (shortlist && (featured.length !== Object.keys(shortlist).length || featured.length < 1 || featured.length > 6)) {
+  throw new Error("A shortlist requires one to six distinct approved products from this guide.");
+}
+const further = shortlist ? primaryProducts.filter(product => !Object.hasOwn(shortlist, product.id)) : [];
+const productGroups = [featured, ...(further.length ? [further] : []), ...(accessories.length ? [accessories] : [])];
 const showComparison = variant === "comparison" && primaryProducts.length > 1;
 const displayVariant = variant === "comparison" && !showComparison ? "quick" : variant;
 
@@ -141,15 +149,21 @@ const formatDate = (date: string) =>
     )}
     <slot name="after-comparison" />
     {showComparison && <h3 class="commercial-product-details-heading">More about each option</h3>}
-    {productGroups.map((group, index) => (<>
-    {index > 0 && <>
+    {shortlist && <nav class="shortlist-jumps" aria-label="Choose an appliance by task">
+      {featured.map(product => <a href={`#product-${product.id}`}>{shortlist[product.id]}</a>)}
+    </nav>}
+    {productGroups.map(group => {
+    const Wrapper = group === further ? "details" : NoWrapper;
+    return (<Wrapper class={group === further ? "further-models" : undefined}>
+    {group === further && <summary>Further models compared in this guide ({further.length})</summary>}
+    {group === accessories && <>
       <h3 class="commercial-product-details-heading">{accessoryTitle}</h3>
       <p>{accessoryIntro}</p>
     </>}
-    <div class="commercial-product-grid" data-product-count={group.length} data-product-role={index > 0 ? "accessory" : "primary"}>
+    <div class="commercial-product-grid" data-product-count={group.length} data-product-role={group === accessories ? "accessory" : "primary"} data-research-shortlist={shortlist && group === featured ? "" : undefined}>
       {group.map((product) => (
         <article id={`product-${product.id}`} class="commercial-product-card" data-commercial-product-card>
-          <p class="commercial-product-type">{product.productType}</p>
+          <p class="commercial-product-type">{shortlist?.[product.id] ?? product.productType}</p>
           <h3>{product.name}</h3>
           {product.image && (
             <figure class="commercial-product-media">
@@ -195,7 +209,8 @@ const formatDate = (date: string) =>
         </article>
       ))}
     </div>
-    </>))}
+    {group === featured && <slot name="browse-products" />}
+    </Wrapper>);})}
   </section>
 )}
 
@@ -291,6 +306,10 @@ const formatDate = (date: string) =>
 </script>
 
 <style>
+  .shortlist-jumps { display:flex; flex-wrap:wrap; gap:.5rem 1.4rem; margin:1rem 0 1.5rem; }
+  .shortlist-jumps a { padding:.3rem 0; }
+  .further-models { margin:1.4rem 0 0; }
+  .further-models > summary { cursor:pointer; font-weight:700; padding:.7rem 0; color:var(--green-dark); }
   .opening-widths { display: flex; align-items: center; flex-wrap: wrap; column-gap: .7rem; margin-bottom: .5rem; }
   .opening-widths span, .opening-width { display: block; font-weight: 700; }
   .opening-widths a { display: inline-flex; align-items: center; min-height: 44px; }

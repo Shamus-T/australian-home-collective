@@ -1,0 +1,102 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getGuideInfo } from "../../data/guideNavigation";
+import { getCategoryPath } from "../../data/categories";
+import { getResearchedProducts } from "../../lib/commercial-products";
+import type { CommercialProduct } from "../../types/commercial-product";
+
+const kitchenGuide = "/guides/small-kitchen-appliances-what-to-check-before-you-buy/";
+const products = getResearchedProducts().sort((a, b) => a.name.localeCompare(b.name, "en-AU"));
+const byCategory = new Map<string, { id: string; name: string; products: CommercialProduct[] }>();
+for (const product of products) {
+  const category = getGuideInfo(product.guidePath)?.category;
+  const path = category && getCategoryPath(category);
+  if (!category || !path) throw new Error("Missing directory category for " + product.guidePath);
+  const group = byCategory.get(path) ?? {
+    id: path.split("/").filter(Boolean).at(-1)!, name: category === "Garage Storage" ? "Garage & Storage" : category, products: [],
+  };
+  group.products.push(product);
+  byCategory.set(path, group);
+}
+const categories = [...byCategory.values()].sort((a, b) =>
+  Number(b.name === "Kitchen") - Number(a.name === "Kitchen") || a.name.localeCompare(b.name, "en-AU"));
+---
+
+<BaseLayout title="Browse researched products" description="Browse AHC’s researched products by category. Find the model you need, check who it suits and compare retailer options in the original buying guide.">
+  <div class="container directory">
+    <header class="page-intro">
+      <h1>Browse researched products</h1>
+      <p>Explore {products.length} products from AHC’s buying guides. Choose a model to see who it suits, what to check and where to buy it. Each guide identifies any affiliate links.</p>
+    </header>
+    <div class="tools">
+      <label for="product-search" hidden data-search-label>Find a model or product type</label>
+      <input id="product-search" hidden type="search" placeholder="e.g. stand mixer or Braun" />
+      <nav aria-label="Browse products by category">
+        {categories.map(category => <a href={`#${category.id}`}>{category.name}</a>)}
+      </nav>
+      <p role="status" class="filter-status"></p>
+    </div>
+    {categories.map(category => {
+      const groups = category.name === "Kitchen" ? [
+        { heading: "Small kitchen appliances", id: "small-kitchen-appliances", items: category.products.filter(p => p.guidePath === kitchenGuide) },
+        { heading: "More kitchen products", id: "more-kitchen-products", items: category.products.filter(p => p.guidePath !== kitchenGuide) },
+      ] : [{ heading: "", id: undefined, items: category.products }];
+      return <section id={category.id} data-category aria-label={category.name}>
+        <h2>{category.name}</h2>
+        {groups.filter(group => group.items.length).map(group => <div data-group id={group.id}>
+          {group.heading && <h3>{group.heading}</h3>}
+          <ul>{group.items.map(product => <li data-entry data-product-type={product.productType}>
+            <a href={`${product.guidePath}#product-${product.id}`}>{product.name}</a>
+            <p>{product.suitability.suits[0]}</p>
+          </li>)}</ul>
+        </div>)}
+      </section>;
+    })}
+  </div>
+</BaseLayout>
+
+<script>
+  const search = document.querySelector<HTMLInputElement>("#product-search")!;
+  const categories = [...document.querySelectorAll<HTMLElement>("[data-category]")];
+  const status = document.querySelector<HTMLElement>(".filter-status")!;
+  search.hidden = false;
+  document.querySelector<HTMLElement>("[data-search-label]")!.hidden = false;
+  search.addEventListener("input", () => {
+    const terms = search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    let count = 0;
+    for (const category of categories) {
+      for (const group of category.querySelectorAll<HTMLElement>("[data-group]")) {
+        for (const item of group.querySelectorAll<HTMLElement>("[data-entry]")) {
+          const text = [category.getAttribute("aria-label"), group.querySelector("h3")?.textContent,
+            item.dataset.productType, item.textContent].join(" ").toLowerCase();
+          item.hidden = !terms.every(term => text.includes(term));
+          if (!item.hidden) count++;
+        }
+        group.hidden = !group.querySelector("[data-entry]:not([hidden])");
+      }
+      category.hidden = !category.querySelector("[data-group]:not([hidden])");
+      document.querySelector<HTMLAnchorElement>(`.tools a[href="#${category.id}"]`)!.hidden = category.hidden;
+    }
+    status.textContent = terms.length ? (count ? `${count} matching ${count === 1 ? "product" : "products"}` : "No matching products. Try a brand or a shorter model name.") : "";
+  });
+</script>
+
+<style>
+  .directory { padding-block:2.5rem 4rem; }
+  .page-intro { max-width:54rem; }
+  .tools { border-block:1px solid #c8d2c9; padding:1rem 0; }
+  label { font-weight:700; }
+  input { display:block; width:min(100%,30rem); margin:.4rem 0 1rem; padding:.65rem .8rem; font:inherit; border:1px solid #718275; border-radius:.35rem; }
+  nav { display:flex; gap:.35rem 1.25rem; flex-wrap:wrap; }
+  nav a { padding:.3rem 0; }
+  .filter-status:empty { margin:0; }
+  section { margin-top:2.5rem; }
+  [id] { scroll-margin-top:5rem; }
+  h3 { margin-top:1.5rem; }
+  ul { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr)); gap:0 1.6rem; }
+  li { min-width:0; overflow-wrap:anywhere; padding:1rem 0; border-top:1px solid #d3dad2; }
+  li a { font-weight:700; }
+  li p { margin:.4rem 0 0; }
+  li p::first-letter { text-transform:uppercase; }
+  [hidden] { display:none !important; }
+</style>
