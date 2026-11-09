@@ -2299,10 +2299,10 @@
     {
       "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
       "title": "Pantry Storage Ideas for Australian Kitchens",
-      "reviewedOn": "2026-10-26",
+      "reviewedOn": "2026-11-09",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "ad8a311d86a625c8f682611009204c1065b4f135af3527ee30edc265d44a6271",
+      "reviewedSourceSha256": "b276d74356f9164287f80b8a227068a20859f7997e9681c4b6531cf2d9973a6c",
       "requiredProductTypes": [
         {
           "label": "11-inch pantry turntable",
@@ -2332,13 +2332,19 @@
           "productIds": [
             "gap-pantry-storage-ideas-australian-kitchens-b07r7r2sbq"
           ]
+        },
+        {
+          "label": "Bulk rice case with serving hatch",
+          "productIds": [
+            "locknlock-hpl510-rice-case-12l"
+          ]
         }
       ],
       "supportingProductIds": [],
       "contextualRoutes": [
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/"
       ],
-      "reviewScope": "26 October 2026: small-jar organiser 85145 and/or Victorinox 5.2063.20 researched and added, with seller/warranty limits and dimension reconciliation. Other products retain prior reviews. See docs/editorial/commercial-gap-pantry-prep-2026-10-26.md."
+      "reviewScope": "26 October 2026: small-jar organiser 85145 and/or Victorinox 5.2063.20 researched and added, with seller/warranty limits and dimension reconciliation. Other products retain prior reviews. See docs/editorial/commercial-gap-pantry-prep-2026-10-26.md. 9 November 2026: checked the HPL510 bulk rice case, lid clearance, AU supplier identity, postcode freight and exact account-issued Good Buyz link."
     },
     {
       "guidePath": "/guides/pantry-storage-what-to-measure-before-buying-organisers/",

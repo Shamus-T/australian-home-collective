@@ -3,6 +3,10 @@ export const commissionFactoryPublisher = '94708';
 // Account-issued routes only. URL validation does not grant editorial approval.
 // Placement approval is enforced separately by the commercial registry and audit.
 const placements = new Map([
+  ['92170', {
+    merchant: 'Good Buyz',
+    destinations: ['https://goodbuyz.com.au/products/locknlock-rice-case-w-cup-12l'],
+  }],
   ['90706', {
     merchant: 'Braun Household',
     destinations: ['https://www.braunhousehold.com/en-au/p/multiquick-3-multiquick-3-hand-blender-mq-30202m-black/MQ30202MBK.html?pid=0X22111593'],
