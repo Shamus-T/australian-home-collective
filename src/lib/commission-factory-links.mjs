@@ -3,6 +3,14 @@ export const commissionFactoryPublisher = '94708';
 // Account-issued routes only. URL validation does not grant editorial approval.
 // Placement approval is enforced separately by the commercial registry and audit.
 const placements = new Map([
+  ['78836', {
+    merchant: 'ECOVACS',
+    destinations: ['https://www.ecovacs.com/au/shop/goat-robotic-lawn-mower/goat-o600-rtk'],
+  }],
+  ['92873', {
+    merchant: 'Lorraine Lea',
+    destinations: ['https://lorrainelea.com.au/products/cooper-bath-towel-rust'],
+  }],
   ['93696', {
     merchant: 'Pergolux AU',
     // Prepared research links remain paused until the full product review passes.

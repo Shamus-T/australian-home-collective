@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-07",
+  "updatedOn": "2026-11-09",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -250,15 +250,15 @@
     {
       "guidePath": "/guides/bathroom-essentials-australian-homes/",
       "title": "Bathroom Essentials for Australian Homes",
-      "reviewedOn": "2026-11-06",
+      "reviewedOn": "2026-11-09",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "ee41927036c25d5d497132e5eb4d5ba672ed84451641e0053930dce4682007a5",
+      "reviewedSourceSha256": "f559dc2f71df307040266089af429d2f676b08f5a3fea44069a8d45a123fae59",
       "requiredProductTypes": [
         {
-          "label": "Bath mats and towels",
+          "label": "Bath mat",
           "productIds": [],
-          "gapReason": "A hook answers hanging storage. The remaining essentials need their own verified products."
+          "gapReason": "A bath mat still needs a verified exact product and seller."
         },
         {
           "label": "Divided toothbrush and toothpaste caddy",
@@ -277,6 +277,12 @@
           "productIds": [
             "brabantia-newicon-112126-white-3l"
           ]
+        },
+        {
+          "label": "Cotton bath towel",
+          "productIds": [
+            "lorraine-lea-cooper-bath-towel-rust"
+          ]
         }
       ],
       "supportingProductIds": [],
@@ -285,7 +291,7 @@
         "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. 6 November: Macho AC6507 Single Robe Hook, Chrome reviewed for this buying decision; account-issued deep link verified offline."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. 6 November: Macho AC6507 Single Robe Hook, Chrome reviewed for this buying decision; account-issued deep link verified offline. 9 November: Cooper bath towel sizing, single-item Brisbane standard delivery and approved Lorraine Lea link checked."
     },
     {
       "guidePath": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",
@@ -2964,10 +2970,10 @@
     {
       "guidePath": "/guides/robot-lawn-mower-buying-guide-australia/",
       "title": "Robot Lawn Mowers Australia: Will One Work in Your Yard?",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-11-09",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "3b76836f3819e1f7ebf384f837a307c8bae92045edaa9b45418e30e27e94f88c",
+      "reviewedSourceSha256": "3d9c322d3ee9f71514604a46c18c63174dfece0c56745c94c2787925d29db6ac",
       "requiredProductTypes": [
         {
           "label": "Camera navigation · 800 m² mapping limit",
@@ -2990,7 +2996,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md. Feed-run follow-up on 18 October: orderable supplier-stock offers distinguished from immediate stock; visible delivery caveat added to the product card. Feed alert retained. 18 October follow-up: two-year GOAT warranty adopted on Shane's explicit five-site verification; separate battery terms not inferred. Two known feed stock flags classified as time-bounded supplier-order observations, retaining raw No values and delivery caveats."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md. Feed-run follow-up on 18 October: orderable supplier-stock offers distinguished from immediate stock; visible delivery caveat added to the product card. Feed alert retained. 18 October follow-up: two-year GOAT warranty adopted on Shane's explicit five-site verification; separate battery terms not inferred. Two known feed stock flags classified as time-bounded supplier-order observations, retaining raw No values and delivery caveats. 9 November: ECOVACS direct standalone checkout checked for Brisbane 4000 alongside the existing supplier-order listing. Both retailer categories and applicable rates reviewed."
     },
     {
       "guidePath": "/guides/robot-vacuum-buying-guide-australia/",

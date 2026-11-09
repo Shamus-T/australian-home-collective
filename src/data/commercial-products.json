@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-11-07",
+  "updatedOn": "2026-11-09",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -19640,7 +19640,7 @@
       "guidePath": "/guides/robot-lawn-mower-buying-guide-australia/",
       "name": "Ecovacs GOAT O600 RTK Robot Lawn Mower",
       "productType": "RTK navigation — up to 600 m² stated working area",
-      "summary": "An RTK-guided mower with a stated 600 m² working capacity, 19 cm cutting width and 30–80 mm cutting height. It adds a satellite-based option for a suitably mapped lawn with an open reference-station location and a clear route back to the dock. The retailer lists this as an online-only supplier-order item; confirm the delivery estimate before buying.",
+      "summary": "An RTK-guided mower with a stated 600 m² working capacity, 19 cm cutting width and 30–80 mm cutting height. It adds a satellite-based option for a suitably mapped lawn with an open reference-station location and a clear route back to the dock. ECOVACS sells the standalone mower direct. The Good Guys lists it as an online supplier order.",
       "merchant": "The Good Guys",
       "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
       "linkLabel": "View at The Good Guys",
@@ -19753,7 +19753,75 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50099701_1082010.png?v=1785967718",
         "suppliedVia": "The Good Guys exact-model product listing: https://www.thegoodguys.com.au/ecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
         "checkedOn": "2026-10-18"
-      }
+      },
+      "commission": {
+        "ratePercent": 3.5,
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
+        "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
+        "applicability": "The signed-in campaign rate table captured on 6 November showed Smart Home active at 3.5%. The exact SKU 50099701 breadcrumb checked on 9 November is Smart Home / Automatic Lawn Mowers / Robot Lawn Mowers. ECOVACS is outside the named supplier-shipped brand exclusions. Review date is an editorial deadline."
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "ECOVACS",
+          "destinationUrl": "https://t.cfjump.com/94708/t/78836?Url=https%3a%2f%2fwww.ecovacs.com%2fau%2fshop%2fgoat-robotic-lawn-mower%2fgoat-o600-rtk",
+          "linkLabel": "Check price at ECOVACS",
+          "affiliate": true,
+          "approvedForAffiliateUse": true,
+          "affiliateNetwork": "commission-factory",
+          "affiliateValidation": {
+            "checkedOn": "2026-11-09",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 5,
+            "checkedOn": "2026-11-09",
+            "validUntil": "2026-12-05",
+            "sourceUrl": "https://dashboard.commissionfactory.com/Affiliate/94708/Merchants/78836/CommissionRates/",
+            "applicability": "One active 5% sale rule for all affiliates without conditions. No category or GOAT exclusions listed. AHC is approved for Content Site traffic. Review date is an editorial deadline."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "ECOVACS direct standalone mower offer",
+              "publisher": "ECOVACS",
+              "sourceUrl": "https://t.cfjump.com/94708/t/78836?Url=https%3a%2f%2fwww.ecovacs.com%2fau%2fshop%2fgoat-robotic-lawn-mower%2fgoat-o600-rtk",
+              "supports": "Commission Factory issued this exact AHC content-site product link. Publisher, advertiser and Australian standalone mower destination were checked as text.",
+              "checkedOn": "2026-11-09"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian standalone GOAT order and Brisbane delivery",
+              "publisher": "ECOVACS",
+              "sourceUrl": "https://www.ecovacs.com/au/shop/goat-robotic-lawn-mower/goat-o600-rtk",
+              "supports": "The Australian listing marked the standalone mower in stock. Checkout with Brisbane City QLD 4000 entered showed one GOAT O600 RTK at AUD1,299 and AUD0 shipping. The AUD1,399 accessory bundle is a separate selection.",
+              "checkedOn": "2026-11-09"
+            },
+            {
+              "sourceType": "manufacturer-specification",
+              "title": "GOAT O600 RTK Australian product page",
+              "publisher": "ECOVACS",
+              "sourceUrl": "https://www.ecovacs.com/au/shop/goat-robotic-lawn-mower/goat-o600-rtk",
+              "supports": "Matched standalone O600 RTK, stated 600 square metre lawn capacity and RTK positioning to the existing product assessment.",
+              "checkedOn": "2026-11-09"
+            },
+            {
+              "sourceType": "regulator-recall-check",
+              "title": "Australian product recall search",
+              "publisher": "Product Safety Australia",
+              "sourceUrl": "https://www.productsafety.gov.au/recalls",
+              "supports": "Search for ECOVACS returned no recall entries on the review date.",
+              "checkedOn": "2026-11-09"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "joseph-joseph-nest-lock-81081-kitchen-container-storage-what-to-sort-before-buying-more-containers",
@@ -29007,6 +29075,101 @@
           "checkedOn": "2026-11-04"
         }
       ]
+    },
+    {
+      "id": "lorraine-lea-cooper-bath-towel-rust",
+      "guidePath": "/guides/bathroom-essentials-australian-homes/",
+      "name": "Lorraine Lea Cooper Bath Towel in Rust",
+      "productType": "Cotton bath towel, 150 × 70 cm",
+      "summary": "One zero-twist cotton bath towel. Allow 70 cm of clear rail to hang it across its width and compare its 150 cm length with a towel you already use.",
+      "merchant": "Lorraine Lea",
+      "destinationUrl": "https://t.cfjump.com/94708/t/92873?Url=https%3a%2f%2florrainelea.com.au%2fproducts%2fcooper-bath-towel-rust",
+      "linkLabel": "Check price at Lorraine Lea",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-09",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-09",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "If your usual bath sheet is longer than 150 cm, check how much wrap you would lose.",
+        "A single towel attracts standard freight. Include delivery when comparing it with a towel you can collect locally."
+      ],
+      "suitability": {
+        "suits": [
+          "a bathroom with 70 cm of free rail and someone who likes a 150 cm wrap length"
+        ],
+        "mayNotSuit": [
+          "anyone who prefers a wider bath sheet or shares one short rail between several wet towels"
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Cooper Bath Towel in Rust, measurements and care",
+          "publisher": "Lorraine Lea",
+          "sourceUrl": "https://lorrainelea.com.au/products/cooper-bath-towel-rust",
+          "supports": "The brand lists 150 × 70 cm and zero-twist cotton. Warm wash separately before first use.",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Customer reviews on the Rust listing",
+          "publisher": "Lorraine Lea customers",
+          "sourceUrl": "https://lorrainelea.com.au/products/cooper-bath-towel-rust",
+          "supports": "The small retailer-hosted review sample includes a size concern and favourable comments on feel. It does not establish drying time or long-term performance.",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian Rust variant and standard delivery",
+          "publisher": "Lorraine Lea",
+          "sourceUrl": "https://lorrainelea.com.au/products/cooper-bath-towel-rust",
+          "supports": "Orderable Rust bath towel BMBLL1357RUS, variant 47410305138966. One towel AUD30. The store quoted its AUD11.95 flat standard rate for Brisbane City QLD 4000, totalling AUD41.95.",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Exact approved Rust product link",
+          "publisher": "Lorraine Lea",
+          "sourceUrl": "https://t.cfjump.com/94708/t/92873?Url=https%3a%2f%2florrainelea.com.au%2fproducts%2fcooper-bath-towel-rust",
+          "supports": "Commission Factory issued the product-specific text link for the approved AHC website. The publisher, advertiser and decoded Rust destination were inspected offline.",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall search",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls",
+          "supports": "Lorraine Lea and Cooper Bath Towel searches returned no matching towel notice. The battery control returned records.",
+          "checkedOn": "2026-11-09"
+        }
+      ],
+      "image": {
+        "src": "/images/products/cooper-bath-towel-rust-640.webp",
+        "srcSet": "/images/products/cooper-bath-towel-rust-320.webp 320w, /images/products/cooper-bath-towel-rust-640.webp 640w",
+        "width": 640,
+        "height": 320,
+        "alt": "Dimension drawing showing the bath towel laid flat, 150 cm long and 70 cm wide.",
+        "credit": "AHC dimension drawing.",
+        "sourceUrl": "https://lorrainelea.com.au/products/cooper-bath-towel-rust",
+        "suppliedVia": "Original AHC drawing using the published measurements.",
+        "checkedOn": "2026-11-09"
+      }
     }
   ]
 }
