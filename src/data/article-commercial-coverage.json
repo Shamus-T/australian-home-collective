@@ -3152,10 +3152,10 @@
     {
       "guidePath": "/guides/small-kitchen-appliances-what-to-check-before-you-buy/",
       "title": "Small Kitchen Appliances That Earn Their Bench Space",
-      "reviewedOn": "2026-11-03",
+      "reviewedOn": "2026-11-09",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0b46792e15961d811e85fe27306cb763c33f28802cc5438a961248f98e6eaa63",
+      "reviewedSourceSha256": "65d4c2631eb880271e21e3cfbfd6afbf5589f0f9c6f9ecd7e5d51e408dab556f",
       "requiredProductTypes": [
         {
           "label": "Air fryer — unequal dual baskets",
@@ -3173,6 +3173,12 @@
           "label": "Stand mixer — large-batch baking",
           "productIds": [
             "kenwood-titanium-chef-baker-xl-kvl85-004bk"
+          ]
+        },
+        {
+          "label": "Hand blender for small batches",
+          "productIds": [
+            "braun-multiquick-3-mq30202mbk"
           ]
         },
         {
@@ -3207,7 +3213,7 @@
         "/guides/pantry-storage-what-to-measure-before-buying-organisers/",
         "/guides/convection-microwave-vs-air-fryer/"
       ],
-      "reviewScope": "3 November availability repair: paused the confirmed unavailable KitchenAid KSM195 B0FD93C954 offer, recorded the medium-bowl mixer gap and clarified the remaining Kenwood XL fit. Other approved options, images, retailer artwork and historical specification evidence preserved. Evidence: tmp/availability-2026-11-03/. Follow-up: restored the existing KSM195 recommendation through The Good Guys exact Porcelain White model 5KSM195PSAPL, with verified specifications, warranty, anonymous availability and approved affiliate destination. Updated colour-matched retailer image and medium/XL comparison. Amazon offer remains absent. Evidence: tmp/ksm195-good-guys-2026-11-03/."
+      "reviewScope": "3 November availability repair: paused the confirmed unavailable KitchenAid KSM195 B0FD93C954 offer, recorded the medium-bowl mixer gap and clarified the remaining Kenwood XL fit. Other approved options, images, retailer artwork and historical specification evidence preserved. Evidence: tmp/availability-2026-11-03/. Follow-up: restored the existing KSM195 recommendation through The Good Guys exact Porcelain White model 5KSM195PSAPL, with verified specifications, warranty, anonymous availability and approved affiliate destination. Updated colour-matched retailer image and medium/XL comparison. Amazon offer remains absent. Evidence: tmp/ksm195-good-guys-2026-11-03/. 9 November: verified the black MQ30202MBK kit, 350 mL chopper and single-item standard delivery against the existing jug-blender choice. Reviewed the Braun website programme and verified the account-issued exact destination offline."
     },
     {
       "guidePath": "/guides/small-laundry-storage-what-to-check-before-buying-organisers/",

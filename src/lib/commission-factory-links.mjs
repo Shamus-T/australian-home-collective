@@ -3,6 +3,10 @@ export const commissionFactoryPublisher = '94708';
 // Account-issued routes only. URL validation does not grant editorial approval.
 // Placement approval is enforced separately by the commercial registry and audit.
 const placements = new Map([
+  ['90706', {
+    merchant: 'Braun Household',
+    destinations: ['https://www.braunhousehold.com/en-au/p/multiquick-3-multiquick-3-hand-blender-mq-30202m-black/MQ30202MBK.html?pid=0X22111593'],
+  }],
   ['78836', {
     merchant: 'ECOVACS',
     destinations: ['https://www.ecovacs.com/au/shop/goat-robotic-lawn-mower/goat-o600-rtk'],
