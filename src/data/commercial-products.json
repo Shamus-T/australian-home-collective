@@ -8309,7 +8309,7 @@
       "guidePath": "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
       "name": "Keter Borneo Outdoor Storage Box",
       "productType": "Large outdoor deck box",
-      "summary": "A larger resin deck box for cushions and bulky outdoor items where lid clearance, delivery access and the full footprint fit.",
+      "summary": "A larger resin deck box for cushions and bulky outdoor items where lid clearance, delivery access and the full footprint fit. On 11 November we could not confirm a dispatch date on Amazon Australia. Check the seller, delivered price and delivery estimate under “See All Buying Options”.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -8418,6 +8418,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
           "supports": "Fresh clean exact-ASIN check showed Usually dispatched within 3 to 4 days. This is a dated dispatch observation, not nationwide stock or a postcode-specific delivery promise. Existing specification, warranty and safety review dates retained.",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Amazon buying-options check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
+          "supports": "The exact ASIN matched in two anonymous checks. The primary offer had no confirmed dispatch date. The listing presented buying options. Seller-specific availability and delivery were unverified.",
+          "checkedOn": "2026-11-11"
         }
       ],
       "image": {
@@ -14441,7 +14449,7 @@
       "guidePath": "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
       "name": "Keter Borneo Outdoor Storage Box",
       "productType": "Large outdoor deck box",
-      "summary": "A larger resin deck box for cushions and bulky outdoor items where lid clearance, delivery access and the full footprint fit.",
+      "summary": "A larger resin deck box for cushions and bulky outdoor items where lid clearance, delivery access and the full footprint fit. On 11 November we could not confirm a dispatch date on Amazon Australia. Check the seller, delivered price and delivery estimate under “See All Buying Options”.",
       "merchant": "Amazon Australia",
       "destinationUrl": "https://www.amazon.com.au/dp/B00CX4VMVM?tag=ahc07-22",
       "linkLabel": "View at Amazon Australia",
@@ -14550,6 +14558,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
           "supports": "Fresh clean exact-ASIN check showed Usually dispatched within 3 to 4 days. This is a dated dispatch observation, not nationwide stock or a postcode-specific delivery promise. Existing specification, warranty and safety review dates retained.",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Dated Amazon buying-options check",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B00CX4VMVM",
+          "supports": "The exact ASIN matched in two anonymous checks. The primary offer had no confirmed dispatch date. The listing presented buying options. Seller-specific availability and delivery were unverified.",
+          "checkedOn": "2026-11-11"
         }
       ],
       "image": {
@@ -18723,7 +18739,7 @@
       "guidePath": "/guides/rangehood-buying-guide-australia/",
       "name": "Westinghouse WRC904SD 90 cm wall canopy",
       "productType": "90 cm wall canopy",
-      "summary": "The canopy is 900 mm wide and projects 500 mm from the wall. The exhaust connection takes a 150 mm duct.",
+      "summary": "The canopy is 900 mm wide and projects 500 mm from the wall. The exhaust connection takes a 150 mm duct. On 11 November The Good Guys listed this model as a supplier order. Ask for a delivery estimate before booking installation.",
       "merchant": "The Good Guys",
       "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-90cm-canopy-rangehood-stainless-steel-wrc904sd",
       "linkLabel": "View at The Good Guys",
@@ -18739,7 +18755,7 @@
         "checkedOn": "2026-11-06",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
+        "australianAvailabilityStatus": "available-to-order",
         "listingStatus": "baseline-recorded",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
@@ -18798,6 +18814,14 @@
           "sourceUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fwestinghouse-90cm-canopy-rangehood-stainless-steel-wrc904sd",
           "supports": "The Good Guys Australian SKU 50086420 matched model WRC904SD. Affiliate campaign and encoded destination verified offline.",
           "checkedOn": "2026-11-06"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Supplier-order notice on the WRC904SD purchase page",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/westinghouse-90cm-canopy-rangehood-stainless-steel-wrc904sd",
+          "supports": "On 11 November the exact Australian WRC904SD page said the retailer orders it from the supplier after purchase. A separate anonymous check confirmed the notice. A postcode delivery date was unavailable.",
+          "checkedOn": "2026-11-11"
         }
       ],
       "image": {

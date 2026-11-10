@@ -2239,10 +2239,10 @@
     {
       "guidePath": "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
       "title": "Small Outdoor Storage That Leaves the Backyard Usable",
-      "reviewedOn": "2026-10-30",
+      "reviewedOn": "2026-11-11",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "1d9b39f65837ea59fe8b59f57f19e86f9fe48c6a7aecc66223ec47bc925b1c7a",
+      "reviewedSourceSha256": "08d07a4a894dccfca2931e34d79277a0a9e364e5b3d700092930a738bb6758df",
       "requiredProductTypes": [
         {
           "label": "Compact outdoor storage box",
@@ -2261,15 +2261,15 @@
       "contextualRoutes": [
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "30 October: availability-only update of the existing Keter Borneo offer from 6–7 to 3–4 day dispatch, based on a fresh clean exact-ASIN check. Other product claims, images and retailer artwork preserved. Evidence: tmp/availability-2026-10-30/amazon.json."
+      "reviewScope": "30 October: availability-only update of the existing Keter Borneo offer from 6–7 to 3–4 day dispatch, based on a fresh clean exact-ASIN check. Other product claims, images and retailer artwork preserved. Evidence: tmp/availability-2026-10-30/amazon.json. 11 November: added a dated seller and delivery check for the Keter Borneo. The primary offer had no verified dispatch date."
     },
     {
       "guidePath": "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
       "title": "Outdoor Storage Ideas for Australian Patios, Balconies and Gardens",
-      "reviewedOn": "2026-10-30",
+      "reviewedOn": "2026-11-11",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "a86114f718bc3c2ba8dca514138aea47195d30dbb8adcb84c509075c90890ce0",
+      "reviewedSourceSha256": "d0546cff66aa1104026939b1ee5038420b82d4bda27009847bf7898e3c6434e8",
       "requiredProductTypes": [
         {
           "label": "Compact outdoor storage box",
@@ -2294,7 +2294,7 @@
         "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "30 October: availability-only update of the existing Keter Borneo offer from 6–7 to 3–4 day dispatch, based on a fresh clean exact-ASIN check. Other product claims, images and retailer artwork preserved. Evidence: tmp/availability-2026-10-30/amazon.json."
+      "reviewScope": "30 October: availability-only update of the existing Keter Borneo offer from 6–7 to 3–4 day dispatch, based on a fresh clean exact-ASIN check. Other product claims, images and retailer artwork preserved. Evidence: tmp/availability-2026-10-30/amazon.json. 11 November: added a dated seller and delivery check for the Keter Borneo. The primary offer had no verified dispatch date."
     },
     {
       "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",
@@ -2690,10 +2690,10 @@
     {
       "guidePath": "/guides/rangehood-buying-guide-australia/",
       "title": "Rangehoods in Australia: What to Measure and Check Before Buying",
-      "reviewedOn": "2026-11-06",
+      "reviewedOn": "2026-11-11",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "ef0a6fe65805fb94eb1a5594394b47f6c9827bd5a9aad7eb058c6323b004bb21",
+      "reviewedSourceSha256": "e2decaed1c2082fe75c4b0610b3aa5d68e655dbe738c0a935590c22b5c44403c",
       "requiredProductTypes": [
         {
           "label": "Fixed under-cabinet",
@@ -2724,7 +2724,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Six model-specific Good Guys offers, grouped by existing installation type. Four new AU models verified on 6 November. Recheck postcode delivery, cabinet cut-outs and duct route before purchase."
+      "reviewScope": "Six model-specific Good Guys offers, grouped by existing installation type. Four new AU models verified on 6 November. Recheck postcode delivery, cabinet cut-outs and duct route before purchase. 11 November: supplier-order notice confirmed for WRC904SD and added to comparison and card."
     },
     {
       "guidePath": "/guides/reduce-draughts-before-buying-bigger-heater/",
