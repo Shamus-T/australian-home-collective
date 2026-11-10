@@ -175,7 +175,7 @@ const formatDate = (date: string) =>
             </figure>
           )}
           <p class="commercial-product-summary">{product.summary}</p>
-          <ManufacturerPrice product={product} />
+          {!shortlist && <ManufacturerPrice product={product} />}
           <CommercialRetailerLinks product={product} offers={retailers.get(product.id)!} placement="card" />
           <div class="commercial-product-fit">
             <p><strong>Good fit for</strong><br />{product.suitability.suits[0]}</p>
@@ -306,6 +306,16 @@ const formatDate = (date: string) =>
 </script>
 
 <style>
+  [data-research-shortlist] > .commercial-product-card {
+    display: flex;
+    flex-direction: column;
+    grid-row: auto;
+    align-self: start;
+  }
+  [data-research-shortlist] .commercial-product-media img {
+    height: auto;
+    max-height: 240px;
+  }
   .shortlist-jumps { display:flex; flex-wrap:wrap; gap:.5rem 1.4rem; margin:1rem 0 1.5rem; }
   .shortlist-jumps a { padding:.3rem 0; }
   .further-models { margin:1.4rem 0 0; }
