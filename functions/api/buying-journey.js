@@ -1,9 +1,9 @@
-import { JOURNEY_VERSION, JOURNEY_GUIDES, JOURNEY_STAGES, JOURNEY_SOURCES, JOURNEY_MEDIA } from '../../src/lib/buying-journey.mjs';
+import { journeyVersionForGuide, JOURNEY_GUIDES, JOURNEY_STAGES, JOURNEY_SOURCES, JOURNEY_MEDIA } from '../../src/lib/buying-journey.mjs';
 const headers = { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' };
 const json = (status, message) => new Response(JSON.stringify({ message }), { status, headers });
 const uuid = v => typeof v === 'string' && /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(v);
 export function validateJourney(p) {
-  if (!p || p.version !== JOURNEY_VERSION || !Object.hasOwn(JOURNEY_GUIDES, p.guidePath ?? '') || !JOURNEY_STAGES.includes(p.stage)
+  if (!p || p.version !== journeyVersionForGuide(p.guidePath) || !Object.hasOwn(JOURNEY_GUIDES, p.guidePath ?? '') || !JOURNEY_STAGES.includes(p.stage)
     || !uuid(p.eventId) || !uuid(p.pageId) || typeof p.sessionId !== 'string' || !/^[A-Za-z0-9_-]{8,80}$/.test(p.sessionId)
     || !JOURNEY_SOURCES.includes(p.source) || !JOURNEY_MEDIA.includes(p.medium)
     || !Number.isSafeInteger(p.elapsedMs) || p.elapsedMs < 0 || p.elapsedMs > 86400000

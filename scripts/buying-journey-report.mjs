@@ -1,10 +1,12 @@
 import { testEventSql } from '../apps/control-centre/src/traffic-quality.js';
-import { JOURNEY_VERSION } from '../src/lib/buying-journey.mjs';
-export function journeyQuery(start, end) {
+import { JOURNEY_VERSION, DRYER_VERSION } from '../src/lib/buying-journey.mjs';
+export function journeyQuery(start, end, cohort = 'appliances') {
+  if (!['appliances', 'dryer'].includes(cohort)) throw Error('Unknown buying-journey cohort');
+  const version = cohort === 'dryer' ? DRYER_VERSION : JOURNEY_VERSION;
   for (const value of [start, end]) if (!/^\d{4}-\d{2}-\d{2}$/.test(value || '') || !Number.isFinite(Date.parse(value)) || new Date(value).toISOString().slice(0, 10) !== value) throw Error('Use valid YYYY-MM-DD dates');
   if (start > end) throw Error('Start must not follow end');
   const from = new Date(`${start}T00:00:00+10:00`).toISOString(), until = new Date(Date.parse(`${end}T00:00:00+10:00`) + 86400000).toISOString();
-  const filtered = `SELECT *, CASE WHEN ${testEventSql()} THEN 1 ELSE 0 END AS is_test FROM buying_journey_events WHERE occurred_at >= '${from}' AND occurred_at < '${until}' AND version = '${JOURNEY_VERSION}'`;
+  const filtered = `SELECT *, CASE WHEN ${testEventSql()} THEN 1 ELSE 0 END AS is_test FROM buying_journey_events WHERE occurred_at >= '${from}' AND occurred_at < '${until}' AND version = '${version}'`;
   return `-- Inclusive Brisbane dates ${start} to ${end}. Country XX is unknown. Sources are first observed in this browser tab, not GA4 attribution.
 -- Raw, identified tests and unclassified evidence remain separate. No sale conversion inferred.
 WITH events AS (${filtered})
@@ -49,6 +51,6 @@ FROM events x WHERE is_test=0 AND stage!='guide_view' AND NOT EXISTS(SELECT 1 FR
 `;
 }
 if (process.argv[1]?.replaceAll('\\', '/').endsWith('/buying-journey-report.mjs')) {
-  try { if (process.argv.length !== 4) throw Error('Usage: node scripts/buying-journey-report.mjs YYYY-MM-DD YYYY-MM-DD'); console.log(journeyQuery(...process.argv.slice(2))); }
+  try { if (process.argv.length < 4 || process.argv.length > 5) throw Error('Usage: node scripts/buying-journey-report.mjs YYYY-MM-DD YYYY-MM-DD [dryer]'); console.log(journeyQuery(...process.argv.slice(2))); }
   catch (e) { console.error(e.message); process.exitCode = 1; }
 }

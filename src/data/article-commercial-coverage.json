@@ -1245,10 +1245,10 @@
     {
       "guidePath": "/guides/heat-pump-vs-condenser-vs-vented-dryers/",
       "title": "Heat Pump vs Condenser vs Vented Dryers",
-      "reviewedOn": "2026-11-06",
+      "reviewedOn": "2026-11-11",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0bf229f78c02ba301d1768f56d8bfada126af2b55e173be57b9d1d10ba0df3a3",
+      "reviewedSourceSha256": "9ef5dbf91f11ec8c929d8c81385d2794e4dcdc20c636107beaf6193bfafc7f34",
       "requiredProductTypes": [
         {
           "label": "Heat pump clothes dryer",
@@ -1274,7 +1274,7 @@
       "contextualRoutes": [
         "/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/"
       ],
-      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md. Monthly pricing review 1 November 2026: removed RRP references and RRP payback; energy estimates and product placement retained."
+      "reviewScope": "18 October appliance-gap research and placement: manufacturer manuals, model-specific fit, individual owner evidence, clean Australian retailer offers and recall checks. Only new/refreshed products have new availability dates; other records retain their dates. No affiliate referrals generated. See docs/editorial/appliance-gap-research-2026-10-18.md. Monthly pricing review 1 November 2026: removed RRP references and RRP payback; energy estimates and product placement retained. 11 November: revised phone shortlist by ventilation, load and installation. Retained both approved energy-comparison models and checked their body dimensions against Electrolux Australia."
     },
     {
       "guidePath": "/guides/heating-a-bedroom-overnight-comfort/",

@@ -1,7 +1,7 @@
 import { shouldTrackAnalytics } from './analytics-preference.js';
 import { ANALYTICS_SESSION_KEY } from './affiliate-click-tracker.js';
 import { sendGoogleAnalyticsEvent } from './google-analytics.js';
-import { JOURNEY_VERSION, JOURNEY_GUIDES, classifyJourneySource } from '../lib/buying-journey.mjs';
+import { journeyVersionForGuide, JOURNEY_GUIDES, classifyJourneySource } from '../lib/buying-journey.mjs';
 
 const SOURCE_KEY = 'ahc-journey-source-v1';
 let activeJourney;
@@ -21,6 +21,7 @@ export function initialiseBuyingJourney({ windowObject = globalThis.window, docu
   }
   const guidePath = w.location.pathname.replace(/\/?$/, '/');
   if (!JOURNEY_GUIDES[guidePath] || activeJourney) return false;
+  const version = journeyVersionForGuide(guidePath);
   const pageId = w.crypto.randomUUID(), started = w.performance.now(), sent = new Set();
   let visibleMs = 0, previous = started, wasVisible = d.visibilityState === 'visible';
   function record(stage, productId = '', placement = '', eventId = w.crypto.randomUUID()) {
@@ -28,7 +29,7 @@ export function initialiseBuyingJourney({ windowObject = globalThis.window, docu
     const key = `${stage}:${productId}:${placement}`;
     if (sent.has(key)) return false;
     sent.add(key);
-    const payload = { eventId, sessionId, pageId, guidePath, version: JOURNEY_VERSION, stage, productId, placement,
+    const payload = { eventId, sessionId, pageId, guidePath, version, stage, productId, placement,
       source: attribution.source, medium: attribution.medium, elapsedMs: Math.round(w.performance.now() - started),
       device: w.matchMedia('(max-width: 767px)').matches ? 'mobile' : w.matchMedia('(max-width: 1023px)').matches ? 'tablet' : 'desktop' };
     const body = JSON.stringify(payload);
@@ -38,7 +39,7 @@ export function initialiseBuyingJourney({ windowObject = globalThis.window, docu
       }
     } catch { /* Measurement must not interrupt the page or shopping links. */ }
     // Do not duplicate the existing affiliate_click GA4 event or send session/page IDs to GA4.
-    if (stage !== 'retailer_click') sendGoogleAnalyticsEvent(`buying_${stage}`, { guide_path: guidePath, item_id: productId || undefined, journey_version: JOURNEY_VERSION }, w.gtag);
+    if (stage !== 'retailer_click') sendGoogleAnalyticsEvent(`buying_${stage}`, { guide_path: guidePath, item_id: productId || undefined, journey_version: version }, w.gtag);
     return true;
   }
   function tick() {
@@ -67,7 +68,8 @@ export function initialiseBuyingJourney({ windowObject = globalThis.window, docu
         timers.delete(el);
         if (!visible.has(el) || d.visibilityState !== 'visible') return;
         const card = el.closest('[data-commercial-product-card]');
-        record(card ? 'product_view' : 'comparison_view', card ? card.id.replace(/^product-/, '') : '');
+        const productId = el.dataset.journeyProduct || card?.id.replace(/^product-/, '') || '';
+        record(productId ? 'product_view' : 'comparison_view', productId);
       }, 1000));
     }
     d.addEventListener('visibilitychange', () => {
@@ -78,7 +80,7 @@ export function initialiseBuyingJourney({ windowObject = globalThis.window, docu
     // Observe short headings, not whole cards/tables which can exceed a mobile viewport.
     // A reader may jump directly to a later model. Each heading can establish
     // comparison exposure; record() still deduplicates it once per page.
-    for (const el of d.querySelectorAll('[data-commercial-product-block] .commercial-product-comparison tbody tr th, [data-commercial-product-card] > h3')) observer.observe(el);
+    for (const el of d.querySelectorAll('[data-commercial-product-block] .commercial-product-comparison tbody tr th, [data-commercial-product-card] > h3, [data-journey-product], [data-journey-comparison]')) observer.observe(el);
   }
   activeJourney = { record, guidePath };
   w.addEventListener('pageshow', event => { if (event.persisted) { previous = w.performance.now(); wasVisible = d.visibilityState === 'visible'; } });
@@ -88,6 +90,6 @@ export function initialiseBuyingJourney({ windowObject = globalThis.window, docu
 
 export function recordBuyingJourneyClick(event, link) {
   if (!activeJourney || event.guidePath !== activeJourney.guidePath) return;
-  const placement = link.dataset.commercialPlacement === 'stack' ? 'stack' : link.closest('.commercial-product-comparison') ? 'comparison' : link.closest('[data-commercial-product-card]') ? 'card' : 'other';
+  const placement = link.dataset.commercialPlacement === 'stack' ? 'stack' : link.closest('[data-commercial-comparison], .commercial-product-comparison') ? 'comparison' : link.closest('[data-commercial-product-card]') ? 'card' : 'other';
   activeJourney.record('retailer_click', event.productId, placement, event.eventId);
 }

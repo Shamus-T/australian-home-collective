@@ -1,8 +1,14 @@
 export const JOURNEY_VERSION = 'appliance-2026-11-01-v1';
+export const DRYER_GUIDE = '/guides/heat-pump-vs-condenser-vs-vented-dryers/';
+export const DRYER_VERSION = 'dryer-2026-11-11-v1';
+export function journeyVersionForGuide(guidePath) {
+  return guidePath === DRYER_GUIDE ? DRYER_VERSION : JOURNEY_VERSION;
+}
 export const JOURNEY_GUIDES = {
   '/guides/fridge-dimensions-australia/': ['westinghouse-wtm3100wl-x-good-guys', 'westinghouse-wtm4302wd-r-good-guys', 'lg-gb-b400ps-fridge-fit-good-guys', 'tgg-gap-haier-hrf510fhs'],
   '/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/': ['bosch-wgg244a1au-good-guys', 'lg-wx3-1208w-good-guys', 'lg-wtx3-09g-good-guys', 'bosch-wtz11400-good-guys', 'bosch-wqg24201au-laundry-fit-good-guys'],
   '/guides/dishwasher-sizes-australia/': ['westinghouse-wsf6602xc-good-guys', 'bosch-sms6hci02a-good-guys', 'bosch-sps6iki01a-good-guys', 'tgg-gap-integrated-smv4htx01a'],
+  [DRYER_GUIDE]: ['bosch-wqg24201au-good-guys', 'electrolux-edv605h3wc-good-guys', 'electrolux-edv705h3wc-good-guys', 'electrolux-edh803p5wc-good-guys'],
 };
 export const JOURNEY_STAGES = ['guide_view', 'engaged_10s', 'comparison_view', 'product_view', 'retailer_click'];
 export const JOURNEY_SOURCES = ['google', 'bing', 'yahoo', 'duckduckgo', 'facebook', 'instagram', 'chatgpt', 'email', 'direct', 'internal_unknown', 'other_referral', 'other_campaign'];

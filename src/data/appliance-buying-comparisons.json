@@ -54,12 +54,16 @@
   "bosch-wqg24201au-good-guys": {
     "reason": "9kg heat pump for regular, larger loads where energy use matters more than quick cycles.",
     "fit": "598mm wide × 842mm high; 648mm closed-door depth.",
-    "tradeoff": "Allow 1,096mm door-open depth and maintenance access. Higher upfront cost, long cycles and filter/heat-exchanger care; not wall mountable."
+    "tradeoff": "Allow 1,096mm door-open depth and maintenance access. Higher upfront cost, long cycles and filter/heat-exchanger care; not wall mountable.",
+    "jumpLabel": "No exhaust duct · 9 kg",
+    "decisionLabel": "Frequent loads · 648 mm deep with door closed"
   },
   "electrolux-edv605h3wc-good-guys": {
     "reason": "6kg vented for smaller, occasional loads when a suitable exhaust arrangement is available.",
     "fit": "600mm wide × 795mm high × 560mm deep body; installation needs more space.",
-    "tradeoff": "Smaller capacity, two-star energy rating and moist exhaust. Confirm installed depth, ventilation, fitting and any optional vent kit before comparing total cost."
+    "tradeoff": "Smaller capacity, two-star energy rating and moist exhaust. Confirm installed depth, ventilation, fitting and any optional vent kit before comparing total cost.",
+    "jumpLabel": "Vented or wall mounted · 6 kg",
+    "decisionLabel": "Occasional loads · check ventilation and wall fixings"
   },
   "tgg-gap-integrated-smv4htx01a": {
     "reason": "A matching furniture door and hidden controls, with 14 place settings and a lower cutlery basket.",

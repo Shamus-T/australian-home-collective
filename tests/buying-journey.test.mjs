@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
-import { JOURNEY_VERSION, JOURNEY_GUIDES, classifyJourneySource } from '../src/lib/buying-journey.mjs';
+import { JOURNEY_VERSION, DRYER_VERSION, DRYER_GUIDE, JOURNEY_GUIDES, classifyJourneySource } from '../src/lib/buying-journey.mjs';
 import { validateJourney, onRequestPost } from '../functions/api/buying-journey.js';
 import { shouldTrackAnalytics } from '../src/scripts/analytics-preference.js';
 import { journeyQuery } from '../scripts/buying-journey-report.mjs';
@@ -17,7 +17,18 @@ test('exact approved product membership, stage identity and bounded input enforc
  assert.ok(validateJourney({...event,guidePath:'/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage/',stage:'retailer_click',productId:'bosch-wtz11400-good-guys',placement:'stack'}));
  assert.equal(validateJourney({...event,stage:'retailer_click',productId:JOURNEY_GUIDES[event.guidePath][0],placement:'unknown-location'}),false);
  const catalogue=JSON.parse(fs.readFileSync('src/data/commercial-products.json'));
- for(const [path, ids] of Object.entries(JOURNEY_GUIDES))assert.deepEqual(ids.slice().sort(),catalogue.products.filter(p=>p.guidePath===path&&p.editorialStatus==='approved'&&p.presentation!=='comparison-only').map(p=>p.id).sort());
+ for(const [path, ids] of Object.entries(JOURNEY_GUIDES))assert.deepEqual(ids.slice().sort(),catalogue.products.filter(p=>p.guidePath===path&&p.editorialStatus==='approved'&&p.approvedForAffiliateUse).map(p=>p.id).sort());
+});
+test('dryer events and reports stay separate from the original three guides', () => {
+  const dryer = {...event, guidePath: DRYER_GUIDE, version: DRYER_VERSION};
+  assert.ok(validateJourney(dryer));
+  assert.equal(validateJourney({...dryer, version: JOURNEY_VERSION}), false);
+  assert.equal(validateJourney({...event, version: DRYER_VERSION}), false);
+  for (const productId of JOURNEY_GUIDES[DRYER_GUIDE]) {
+    assert.ok(validateJourney({...dryer, stage: 'retailer_click', placement: 'comparison', productId}));
+  }
+  assert.ok(journeyQuery('2026-11-12', '2026-11-25', 'dryer').includes(DRYER_VERSION));
+  assert.ok(!journeyQuery('2026-11-12', '2026-11-25').includes(DRYER_VERSION));
 });
 test('internal query, stored optout, labelled sessions and previews never track',()=>{
  const w={location:{href:'https://australianhomecollective.com.au/?ahc_internal=1',hostname:'australianhomecollective.com.au'}};

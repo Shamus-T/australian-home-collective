@@ -66,47 +66,32 @@ const faqs = [
 <ArticleLayout
   title="Heat Pump vs Condenser vs Vented Dryers"
   seoTitle="Heat Pump vs Condenser vs Vented Dryers: Costs & Fit"
-  description="Choose a dryer for your Australian laundry. Compare heat pump, condenser and vented types, energy costs, venting, capacity and two researched models."
+  description="Choose a dryer for your Australian laundry. Compare heat pump, condenser and vented types, energy costs, venting, capacity and four Australian models."
   category="Laundry"
   date="Updated November 2026"
   datePublished="2026-07-23"
-  dateModified="2026-11-06"
+  dateModified="2026-11-11"
   readingTime="8 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
   image="/images/guides/dryer-types-australia.webp"
   imageAlt="A front loading washer and dryer side by side in a practical Australian laundry with towels and clear floor space"
 >
-  <p>
-    A dryer type changes more than the electricity bill. It affects room ventilation, cycle time,
-    purchase price, installation options and the amount of heat released into the laundry.
-  </p>
-  <p>
-    Heat pump dryers usually use much less electricity, but they are not the only sensible choice.
-    The better fit depends on how often the dryer runs, whether moist air can be
-    ducted outside, how quickly loads need to finish and what the household can spend upfront.
-  </p>
-
-  <section aria-labelledby="dryer-choice-heading">
-    <h2 id="dryer-choice-heading">Which dryer type should you shortlist?</h2>
-    <ul class="feature-list">
-      <li><strong>Frequent loads, no exhaust duct:</strong> start with heat pump if you can afford the higher purchase price and allow longer cycles.</li>
-      <li><strong>Occasional loads, a smaller budget:</strong> consider vented if the room and exhaust arrangement meet the manual. Some models also permit wall mounting.</li>
-      <li><strong>No vent path, heat pump beyond budget:</strong> compare conventional condenser, allowing for room heat and higher electricity use. Our October retailer check did not find an orderable conventional standalone condenser that cleared the research and affiliate checks. Washer–dryer combinations listed under a condenser category are not equivalent substitutes for a separate dryer.</li>
-    </ul>
-    <p>First rule out anything that cannot handle your usual load or fit safely. Then compare the total installed price and the cost of the drying you actually do.</p>
-  </section>
-  <nav aria-label="Dryer buying guide sections">
-    <ul>
-      <li><a href="#dryer-comparison-heading">Compare all three dryer types</a></li>
-      <li><a href="#commercial-products-heat-pump-vs-condenser-vs-vented-dryers">Compare two researched dryers</a></li>
-      <li><a href="#dryer-running-cost-heading">Work out running costs</a></li>
-      <li><a href="#dryer-order-heading">Check installation and delivered cost</a></li>
-    </ul>
-  </nav>
+  <CommercialProductBlock
+    guidePath="/guides/heat-pump-vs-condenser-vs-vented-dryers/"
+    title="Which dryer suits your laundry?"
+    intro="Start with where the moist air can go. For regular loads without an exhaust duct, consider a heat pump. For occasional loads in a laundry with suitable ventilation, a vented dryer may cost less upfront."
+    variant="comparison" compactComparison comparisonDetails={applianceComparisons}
+  >
+    <a slot="setup-link" href="#dryer-running-cost-heading">7 kg vs 8 kg running costs</a>
+    <a slot="setup-link" href="#dryer-choice-heading">Conventional condenser</a>
+    <p slot="after-comparison">Planning to stack? <a href="#stacking-requirements">Check the exact washer, dryer and kit</a> before ordering. For wall mounting or a tight cupboard, <a href="#dryer-order-heading">check the wall, duct and door clearance</a>.</p>
+  </CommercialProductBlock>
 
   <section aria-labelledby="dryer-comparison-heading">
     <h2 id="dryer-comparison-heading">Dryer types compared</h2>
+    <h3 id="dryer-choice-heading">When would a conventional condenser make sense?</h3>
+    <p>If moist air cannot exhaust outside and a heat pump costs more than you want to spend, a standalone condenser collects water in a tank or drain. Allow for room heat, ventilation and typically higher electricity use than a heat pump. We have no shortlisted standalone conventional condenser. A washer–dryer combination also replaces your washer.</p>
     <p class="table-hint">Swipe sideways to compare the full table.</p>
     <div class="comparison-wrap">
       <table class="comparison-table">
@@ -143,9 +128,8 @@ const faqs = [
     </div>
   </section>
 
-  <CommercialProductBlock guidePath="/guides/heat-pump-vs-condenser-vs-vented-dryers/" title="Two dryers for different laundry routines" intro="Before you compare prices, check capacity, installed depth and ventilation. The 9kg Bosch heat pump suits larger, regular loads; consider the 6kg Electrolux vented model for smaller, occasional loads with suitable exhaust. They are different capacities, not a like-for-like efficiency contest. Both assessments use documents and owner feedback, not firsthand AHC testing." variant="comparison" comparisonDetails={applianceComparisons} />
 
-  <h2 id="dryer-running-cost-heading">Heat pump versus vented: what do the running costs look like?</h2>
+  <h2 id="dryer-running-cost-heading" data-journey-comparison>Heat pump versus vented: what do the running costs look like?</h2>
   <p>
     The energy difference can be substantial. Electrolux publishes {vented.annualKwh}kWh/year for its {vented.capacityKg}kg {vented.model} vented dryer and {heatPump.annualKwh}kWh/year for its {heatPump.capacityKg}kg {heatPump.model} heat pump dryer. That is <strong>about {Math.round(labelSaving / vented.annualKwh * 100)}% less
     energy on the published figures</strong>, despite the heat pump model's larger rated capacity.
@@ -175,7 +159,10 @@ const faqs = [
   <div class="dryer-retailer-options" data-commercial-comparison aria-label="Retailers for the two dryers above">
     {comparedDryers.map(product => (
       <div id={`product-${product.id}`}>
-        <p><strong>{product.name}</strong></p>
+        <h3 data-journey-product={product.id}>{product.name}</h3>
+        <p>{product.id === comparedDryers[0].id
+          ? "For a larger vented load than the 6 kg model. The 7 kg body is 600 mm wide × 795 mm high × 600 mm deep. Allow extra space for exhaust and the open door."
+          : "For regular loads without an exhaust duct. The 8 kg body is 596 mm wide × 850 mm high × 662 mm deep. Check ventilation, door travel and access to the tank or drain."}</p>
         <CommercialRetailerLinks product={product} offers={getRetailersForProduct(product)} placement="comparison" />
       </div>
     ))}
@@ -233,7 +220,7 @@ const faqs = [
       <li><strong>For the Electrolux vent:</strong> a cupboard or small unvented laundry requires a venting kit. The manual specifies a maximum 2m exhaust duct at 100mm diameter, with clear inlet airflow. Check the duct route before buying.</li>
       <li><strong>If wall mounting:</strong> Electrolux supplies a mounting kit, but suitable wall construction, fitting and the illustrated clearances still need checking. Neither model may be placed on a washer without an approved combination and kit.</li>
     </ul>
-    <p>Compare the exact model's current price plus delivery, old-appliance removal, any vent or stacking kit and installation. Enter your postcode to confirm stock and delivery dates.</p>
+    <p>Once the installation checks out, <a href="#commercial-products-heat-pump-vs-condenser-vs-vented-dryers">return to the dryer shortlist</a>. Compare the exact model's current price plus delivery, old-appliance removal, any vent or stacking kit and installation. Enter your postcode to confirm stock and delivery dates.</p>
     <p>Installation sources: <a href="https://media3.bsh-group.com/Documents/9001730323_C.pdf" target="_blank" rel="noopener noreferrer">Bosch instructions</a>; <a href="https://www.electrolux.com.au/laundry/dryers/edv605h3wc/" target="_blank" rel="noopener noreferrer">Electrolux specifications</a> and <a href="https://www.electrolux.com.au/documenthandler.ashx?file=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9QdWJsaWMvRmlsZS8_SWQ9NjcyMTg1&amp;lang=#page=8" target="_blank" rel="noopener noreferrer">its installation manual, pages 8–10</a>. Electrolux documents and Australian listing checked 12 October 2026; Bosch assessment checked 11 October.</p>
   </section>
 
@@ -311,4 +298,17 @@ const faqs = [
   .dryer-retailer-options > div { padding: 14px; border: 1px solid var(--line); border-radius: 8px; }
   :global(html) { scroll-padding-top: 14rem; }
   @media (min-width: 901px) { :global(html) { scroll-padding-top: 8rem; } }
+  @media (max-width: 767px) {
+    :global(body:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) .article-header) { min-height: 0; padding: 12px 0; }
+    :global(body:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) .article-header .narrow) { padding-block: 0; }
+    :global(body:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) .article-header h1) { font-size: clamp(1.5rem, 6vw, 2.25rem); line-height: 1.12; margin: 4px 0; }
+    :global(body:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) .article-header :is(.breadcrumbs,.eyebrow,.lead)),
+    :global(article:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) > .commercial-product-shortcut),
+    :global(article:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) .commercial-comparison-hint) { display: none; }
+    :global(article:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers)) { padding-top: 4px; }
+    :global(article:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) .commercial-product-block),
+    :global(article:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) .commercial-product-block > h2) { margin-top: 0; }
+    :global(article:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) .commercial-product-context),
+    :global(article:has(#commercial-products-heat-pump-vs-condenser-vs-vented-dryers) .commercial-product-disclosure) { font-size: .93rem; line-height: 1.4; margin-block: 8px; }
+  }
 </style>
