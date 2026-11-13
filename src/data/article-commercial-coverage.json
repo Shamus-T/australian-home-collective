@@ -2239,10 +2239,10 @@
     {
       "guidePath": "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
       "title": "Small Outdoor Storage That Leaves the Backyard Usable",
-      "reviewedOn": "2026-11-11",
+      "reviewedOn": "2026-11-13",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "08d07a4a894dccfca2931e34d79277a0a9e364e5b3d700092930a738bb6758df",
+      "reviewedSourceSha256": "fa7478825f57ab3d129fbebbe4ff0dd7d8ba44c80c1922f16ff2abc30ed25199",
       "requiredProductTypes": [
         {
           "label": "Compact outdoor storage box",
@@ -2253,7 +2253,7 @@
         {
           "label": "Large outdoor deck box",
           "productIds": [
-            "keter-borneo-outdoor-storage-box"
+            "livsip-490l-black-grey-small-backyards"
           ]
         }
       ],
@@ -2261,15 +2261,15 @@
       "contextualRoutes": [
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "30 October: availability-only update of the existing Keter Borneo offer from 6–7 to 3–4 day dispatch, based on a fresh clean exact-ASIN check. Other product claims, images and retailer artwork preserved. Evidence: tmp/availability-2026-10-30/amazon.json. 11 November: added a dated seller and delivery check for the Keter Borneo. The primary offer had no verified dispatch date."
+      "reviewScope": "13 November: retained the compact 90 L option and replaced the Borneo with the Livsip 490 L black/grey for light bulky items. Compared same-postcode delivered prices and checked exact identity, primary offer, footprint and owner feedback."
     },
     {
       "guidePath": "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
       "title": "Outdoor Storage Ideas for Australian Patios, Balconies and Gardens",
-      "reviewedOn": "2026-11-11",
+      "reviewedOn": "2026-11-13",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "d0546cff66aa1104026939b1ee5038420b82d4bda27009847bf7898e3c6434e8",
+      "reviewedSourceSha256": "1b3ea6be6bbd81da7f87aac24bd0ef707b620ac6d7ca9c8ad98463b55bc598ba",
       "requiredProductTypes": [
         {
           "label": "Compact outdoor storage box",
@@ -2280,7 +2280,7 @@
         {
           "label": "Large outdoor deck box",
           "productIds": [
-            "outdoor-storage-ideas-australian-patios-balconies-gardens-option-2"
+            "livsip-490l-black-grey-patios-gardens"
           ]
         },
         {
@@ -2294,7 +2294,7 @@
         "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
         "/guides/outdoor-shade-setup-for-patios-and-backyards-what-to-check-before-buying/"
       ],
-      "reviewScope": "30 October: availability-only update of the existing Keter Borneo offer from 6–7 to 3–4 day dispatch, based on a fresh clean exact-ASIN check. Other product claims, images and retailer artwork preserved. Evidence: tmp/availability-2026-10-30/amazon.json. 11 November: added a dated seller and delivery check for the Keter Borneo. The primary offer had no verified dispatch date."
+      "reviewScope": "13 November: retained the compact 90 L option and replaced the Borneo with the Livsip 490 L black/grey for light bulky items. Compared same-postcode delivered prices and checked exact identity, primary offer, footprint and owner feedback."
     },
     {
       "guidePath": "/guides/pantry-storage-ideas-australian-kitchens/",

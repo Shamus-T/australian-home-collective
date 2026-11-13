@@ -8315,12 +8315,12 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-08-18",
         "destinationStatus": "reachable",
@@ -8439,6 +8439,90 @@
         "suppliedVia": "Manufacturer product page: https://www.keter.com/fr-fr/rangement-exterieur/coffre-de-jardin-borneo-416l-graphite-247607.html",
         "checkedOn": "2026-10-10"
       }
+    },
+    {
+      "id": "livsip-490l-black-grey-small-backyards",
+      "guidePath": "/guides/outdoor-storage-for-small-australian-backyards-what-to-plan-before-buying/",
+      "name": "Livsip 490 L Outdoor Storage Box – Black and Grey",
+      "productType": "Large outdoor deck box",
+      "summary": "A hinged polypropylene box for bulky outdoor cushions and light pool gear. Its 146.5 × 60 cm footprint works along a wall where the 61 cm-high lid has room to open. Check your largest cushion against the usable interior before ordering.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0CG1Q35ZT?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-13",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-13",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Owners disagree on panel rigidity. Choose a firmer chest for heavy or sharp tools, and use separate seating.",
+        "The dimensions are external. Store cushions dry, allow room behind the hinge and position the empty box on a level base before loading. A padlock is sold separately."
+      ],
+      "suitability": {
+        "suits": [
+          "Bulky dry cushions and light garden gear on a sheltered patio with a clear 146.5 cm run."
+        ],
+        "mayNotSuit": [
+          "Tight balconies, heavy tools or households wanting a load-bearing bench. Check the delivered price for your postcode."
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Livsip 490 L black/grey specifications supplied by Oikos",
+          "publisher": "Kamprad’s Oikos 1943 via Mighty Ape Australia",
+          "sourceUrl": "https://www.mightyape.com.au/ma/buy/kamprads-oikos-1943-livsip-outdoor-storage-box-490l-osbo-490l-bkgy/",
+          "supports": "Supplier SKU OSBO-490L-BKGY: external size 146.5 × 60 × 61 cm, polypropylene, hinged lid and lock provision. Amazon lists the same dimensions with horizontal axes reversed. Internal dimensions and independent water-ingress testing were not established.",
+          "checkedOn": "2026-11-13"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Australian buyer accounts for the black and grey variant",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CG1Q35ZT",
+          "supports": "Three identified Black & Gray verified-purchase accounts describe useful capacity, easy installation and difficulty moving it when full, with one strong complaint about thin panels. Other colours and their ratings were not treated as evidence for this exact variant.",
+          "checkedOn": "2026-11-13"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Livsip",
+          "supports": "Filtered Australian recall feeds for Livsip, Oikos and OSBO-490L-BKGY each returned zero items on 13 November.",
+          "checkedOn": "2026-11-13"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact black/grey 490 L listing and delivery observation",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CG1Q35ZT",
+          "supports": "Exact ASIN confirmed, primary offer in stock for Sunshine Coast 4575, with order controls. The item was A$122.33 plus free delivery, estimated 26 November. Specific to this observation.",
+          "checkedOn": "2026-11-13"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, fulfilment and approved destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CG1Q35ZT?tag=ahc07-22",
+          "supports": "Sold by Oikos 1943 and dispatched by Amazon. The exact clean ASIN was checked anonymously. Approved ahc07-22 tag and destination verified offline. Compare postcode totals again before purchase.",
+          "checkedOn": "2026-11-13"
+        }
+      ]
     },
     {
       "id": "scanpan-impact-six-piece-cookware-set",
@@ -14455,12 +14539,12 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-18",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
         "checkedOn": "2026-08-18",
         "destinationStatus": "reachable",
@@ -14579,6 +14663,90 @@
         "suppliedVia": "Manufacturer product page: https://www.keter.com/fr-fr/rangement-exterieur/coffre-de-jardin-borneo-416l-graphite-247607.html",
         "checkedOn": "2026-10-10"
       }
+    },
+    {
+      "id": "livsip-490l-black-grey-patios-gardens",
+      "guidePath": "/guides/outdoor-storage-ideas-australian-patios-balconies-gardens/",
+      "name": "Livsip 490 L Outdoor Storage Box – Black and Grey",
+      "productType": "Large outdoor deck box",
+      "summary": "A hinged polypropylene box for bulky outdoor cushions and light pool gear. Its 146.5 × 60 cm footprint works along a wall where the 61 cm-high lid has room to open. Check your largest cushion against the usable interior before ordering.",
+      "merchant": "Amazon Australia",
+      "destinationUrl": "https://www.amazon.com.au/dp/B0CG1Q35ZT?tag=ahc07-22",
+      "linkLabel": "View at Amazon Australia",
+      "affiliate": true,
+      "affiliateNetwork": "amazon-australia",
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-13",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-13",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "available-to-order",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Owners disagree on panel rigidity. Choose a firmer chest for heavy or sharp tools, and use separate seating.",
+        "The dimensions are external. Store cushions dry, allow room behind the hinge and position the empty box on a level base before loading. A padlock is sold separately."
+      ],
+      "suitability": {
+        "suits": [
+          "Bulky dry cushions and light garden gear on a sheltered patio with a clear 146.5 cm run."
+        ],
+        "mayNotSuit": [
+          "Tight balconies, heavy tools or households wanting a load-bearing bench. Check the delivered price for your postcode."
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Livsip 490 L black/grey specifications supplied by Oikos",
+          "publisher": "Kamprad’s Oikos 1943 via Mighty Ape Australia",
+          "sourceUrl": "https://www.mightyape.com.au/ma/buy/kamprads-oikos-1943-livsip-outdoor-storage-box-490l-osbo-490l-bkgy/",
+          "supports": "Supplier SKU OSBO-490L-BKGY: external size 146.5 × 60 × 61 cm, polypropylene, hinged lid and lock provision. Amazon lists the same dimensions with horizontal axes reversed. Internal dimensions and independent water-ingress testing were not established.",
+          "checkedOn": "2026-11-13"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Australian buyer accounts for the black and grey variant",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CG1Q35ZT",
+          "supports": "Three identified Black & Gray verified-purchase accounts describe useful capacity, easy installation and difficulty moving it when full, with one strong complaint about thin panels. Other colours and their ratings were not treated as evidence for this exact variant.",
+          "checkedOn": "2026-11-13"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian product recall register search",
+          "publisher": "ACCC Product Safety",
+          "sourceUrl": "https://www.productsafety.gov.au/rss/feed.xml/psa_recall?query=Livsip",
+          "supports": "Filtered Australian recall feeds for Livsip, Oikos and OSBO-490L-BKGY each returned zero items on 13 November.",
+          "checkedOn": "2026-11-13"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact black/grey 490 L listing and delivery observation",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CG1Q35ZT",
+          "supports": "Exact ASIN confirmed, primary offer in stock for Sunshine Coast 4575, with order controls. The item was A$122.33 plus free delivery, estimated 26 November. Specific to this observation.",
+          "checkedOn": "2026-11-13"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Seller, fulfilment and approved destination",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0CG1Q35ZT?tag=ahc07-22",
+          "supports": "Sold by Oikos 1943 and dispatched by Amazon. The exact clean ASIN was checked anonymously. Approved ahc07-22 tag and destination verified offline. Compare postcode totals again before purchase.",
+          "checkedOn": "2026-11-13"
+        }
+      ]
     },
     {
       "id": "locknlock-hpl510-rice-case-12l",
