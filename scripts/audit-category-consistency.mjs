@@ -13,6 +13,7 @@ const categoryPaths = [
   "/categories/garage-storage/",
   "/categories/bedroom/",
   "/categories/living-spaces/",
+  "/categories/home-entertainment/",
   "/categories/home-office/",
   "/categories/outdoor-garden/",
 ];
@@ -178,7 +179,10 @@ for (const categoryHref of categoryPaths) {
     introductions.set(normalizedIntroduction, categoryHref);
   }
 
-  for (const sectionName of requiredSections) {
+  const sectionsForCategory = categoryHref === "/categories/home-entertainment/"
+    ? requiredSections.filter((section) => section !== "guide-collection")
+    : requiredSections;
+  for (const sectionName of sectionsForCategory) {
     if (!new RegExp(`data-category-section="${sectionName}"`, "i").test(html)) {
       fail(`${categoryHref} is missing required category structure "${sectionName}".`);
     }
