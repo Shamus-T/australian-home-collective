@@ -27079,7 +27079,7 @@
       "guidePath": "/guides/bedside-table-setup-what-to-check-before-you-buy/",
       "name": "Brooklyn bedside table",
       "productType": "Two-drawer bedside table",
-      "summary": "A taller bedside option at 61cm, with a 58 × 40cm footprint and two drawers. Solid Mountain Ash is combined with veneer and composite timber; the whole unit is not solid timber.",
+      "summary": "A taller bedside option at 61cm, with a 58 × 40cm footprint and two drawers. Solid Mountain Ash is combined with veneer and composite timber; the whole unit is not solid timber. On 15 November 2026, Beds n Dreams showed the Brooklyn as out of stock for Queensland. Check availability for your delivery postcode.",
       "merchant": "Beds n Dreams",
       "destinationUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fbrooklyn-bedside-table%3Fvariant%3D43488986890333",
       "linkLabel": "Check at Beds n Dreams",
@@ -27174,6 +27174,14 @@
           "sourceUrl": "https://bnd.prf.hn/click/camref:1110lSAJY/destination:https%3A%2F%2Fwww.bedsndreams.com.au%2Fproducts%2Fbrooklyn-bedside-table%3Fvariant%3D43488986890333",
           "supports": "User confirmed partnership acceptance. Signed-in Partnerize campaign 1101l6580 active; tracking page generated bnd.prf.hn/click/camref:1110lSAJY with encoded destination. Exact variant appended using that observed structure. Link inspected offline; never followed. Default 2% CPA, 30-day cookie, exclusions and reversals apply. No commission attribution test.",
           "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Queensland availability recheck",
+          "publisher": "Beds n Dreams",
+          "sourceUrl": "https://www.bedsndreams.com.au/products/brooklyn-bedside-table?variant=43488986890333",
+          "supports": "Two anonymous checks of variant 43488986890333 showed Out of Stock in Queensland. Availability in other states and a restock date were not established.",
+          "checkedOn": "2026-11-15"
         }
       ]
     },

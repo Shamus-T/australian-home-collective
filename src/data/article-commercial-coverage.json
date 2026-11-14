@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-14",
+  "updatedOn": "2026-11-15",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -586,10 +586,10 @@
     {
       "guidePath": "/guides/bedside-table-setup-what-to-check-before-you-buy/",
       "title": "A Bedside Table That Fits the Room and Routine",
-      "reviewedOn": "2026-11-03",
+      "reviewedOn": "2026-11-15",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "3f8c6b531abe464399a8537741f4468b53aee0da01a3597d73b2efa2138b9dde",
+      "reviewedSourceSha256": "fd0e523190a3033f68002c0b9b4a26ebad467edaeb84eed1bcbf25d7a804934c",
       "requiredProductTypes": [
         {
           "label": "Bedside tables for lower and higher mattress setups",
@@ -604,7 +604,7 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/under-bed-storage-what-to-measure-before-you-buy/"
       ],
-      "reviewScope": "3 November 2026: approved Beds n Dreams campaign, exact variants, dimensions, materials, warranty limitations, owner feedback, recall search and Queensland availability checked. Buying choices added without hands-on or nationwide-stock claims; older unrelated product research dates retained. See docs/editorial/beds-n-dreams-launch-2026-11-03.md."
+      "reviewScope": "3 November 2026: approved Beds n Dreams campaign, exact variants, dimensions, materials, warranty limitations, owner feedback, recall search and Queensland availability checked. Buying choices added without hands-on or nationwide-stock claims; older unrelated product research dates retained. See docs/editorial/beds-n-dreams-launch-2026-11-03.md. 15 November: Queensland stock rechecked for both bedside options. Regional warning added for Brooklyn."
     },
     {
       "guidePath": "/guides/best-kitchen-storage-ideas-small-australian-homes/",
