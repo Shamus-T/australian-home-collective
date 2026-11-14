@@ -1,7 +1,7 @@
 {
   "$schema": "./commercial-products.schema.json",
   "version": 3,
-  "updatedOn": "2026-11-09",
+  "updatedOn": "2026-11-14",
   "reviewIntervalDays": 180,
   "affiliatePrograms": {
     "amazon-australia": {
@@ -2450,6 +2450,57 @@
               "sourceUrl": "https://www.thegoodguys.com.au/kenwood-titanium-chef-baker-xl-stand-mixer-black-kvl85004bk",
               "supports": "Exact model listed as InStock with Australian delivery/pickup options; national listing evidence, not postcode-level stock assurance.",
               "checkedOn": "2026-10-18"
+            }
+          ]
+        },
+        {
+          "merchant": "Kenwood",
+          "destinationUrl": "https://t.cfjump.com/94708/p/263889999",
+          "linkLabel": "Check price at Kenwood",
+          "affiliate": true,
+          "affiliateNetwork": "commission-factory",
+          "approvedForAffiliateUse": true,
+          "affiliateValidation": {
+            "checkedOn": "2026-11-14",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 5,
+            "checkedOn": "2026-11-14",
+            "validUntil": "2026-12-13",
+            "sourceUrl": "https://dashboard.commissionfactory.com/Affiliate/94708/Merchants/90096/CommissionRates/",
+            "applicability": "One new black KVL85.004BK, SKU 0W20011468, without a code qualifies at the default rate. Cart item value above AUD 5,000 and coupons starting 2026KW, FLASH or WELCOME pay zero. Tracking and validation are each 30 days."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "AHC website tracking link",
+              "publisher": "Kenwood",
+              "sourceUrl": "https://t.cfjump.com/94708/p/263889999",
+              "supports": "The advertiser’s Australian Commission Factory feed pairs this publisher 94708 product link with the exact OriginalUrl and SKU. The tracking link was read offline.",
+              "checkedOn": "2026-11-14"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian direct listing and exact variant",
+              "publisher": "Kenwood",
+              "sourceUrl": "https://www.kenwoodworld.com/en-au/p/titanium-chef-baker-titanium-chef-baker-xl-black-kvl85.004bk/KVL85.004BK.html?pid=0W20011468",
+              "supports": "The Australian product listing marked this model in stock at AUD 698.00 including GST.",
+              "checkedOn": "2026-11-14"
+            },
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Standard delivery to Brisbane City QLD 4000",
+              "publisher": "Kenwood",
+              "sourceUrl": "https://www.kenwoodworld.com/en-au/shipping-returns-policy",
+              "supports": "Standard shipping is free over AUD 100. Brisbane 4000 is within the service area. One unit at AUD 698.00 with free standard delivery totals AUD 698.00 to postcode 4000, calculated from the published policy.",
+              "checkedOn": "2026-11-14"
             }
           ]
         }
@@ -13026,7 +13077,67 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50077315_787160.png?v=1776228309",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-18"
-      }
+      },
+      "commission": {
+        "ratePercent": 3.5,
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
+        "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
+        "applicability": "The Good Guys campaign rate table checked 6 November 2026 sets Heating & Cooling at 3.5%. PACEM82K is sold in Portable Air Conditioners and the existing approved placement passed the listed brand and supplier exclusions. Online purchase conditions apply."
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "De'Longhi",
+          "destinationUrl": "https://t.cfjump.com/94708/p/261410236",
+          "linkLabel": "Check price at De'Longhi",
+          "affiliate": true,
+          "affiliateNetwork": "commission-factory",
+          "approvedForAffiliateUse": true,
+          "affiliateValidation": {
+            "checkedOn": "2026-11-14",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 7.5,
+            "checkedOn": "2026-11-14",
+            "validUntil": "2026-12-13",
+            "sourceUrl": "https://dashboard.commissionfactory.com/Affiliate/94708/Merchants/89239/CommissionRates/",
+            "applicability": "The new PACEM82K SKU 0151457015 qualifies at the default rate for one unit without a code. Zero for carton-damaged X/x SKUs, cart item value above AUD 5,000, coupons starting 2026DL, FLASH or WELCOME, and codes TREAT150 or FOOTYDEALS. Tracking and validation are each 30 days."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "AHC website tracking link",
+              "publisher": "De'Longhi",
+              "sourceUrl": "https://t.cfjump.com/94708/p/261410236",
+              "supports": "The advertiser’s Australian Commission Factory feed pairs this publisher 94708 product link with the exact OriginalUrl and SKU. The tracking link was read offline.",
+              "checkedOn": "2026-11-14"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian direct listing and exact variant",
+              "publisher": "De'Longhi",
+              "sourceUrl": "https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html?pid=0151457015",
+              "supports": "The Australian product listing marked this model in stock at AUD 849.00 including GST.",
+              "checkedOn": "2026-11-14"
+            },
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Standard delivery to Brisbane City QLD 4000",
+              "publisher": "De'Longhi",
+              "sourceUrl": "https://www.delonghi.com/en-au/shipping-return-policy",
+              "supports": "Standard shipping is free over AUD 100. Brisbane 4000 is within the service area. One unit at AUD 849.00 with free standard delivery totals AUD 849.00 to postcode 4000, calculated from the published policy.",
+              "checkedOn": "2026-11-14"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "bosch-wqg24201au-good-guys",
@@ -21141,7 +21252,67 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50077315_787160.png?v=1776228309",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-18"
-      }
+      },
+      "commission": {
+        "ratePercent": 3.5,
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
+        "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
+        "applicability": "The Good Guys campaign rate table checked 6 November 2026 sets Heating & Cooling at 3.5%. PACEM82K is sold in Portable Air Conditioners and the existing approved placement passed the listed brand and supplier exclusions. Online purchase conditions apply."
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "De'Longhi",
+          "destinationUrl": "https://t.cfjump.com/94708/p/261410236",
+          "linkLabel": "Check price at De'Longhi",
+          "affiliate": true,
+          "affiliateNetwork": "commission-factory",
+          "approvedForAffiliateUse": true,
+          "affiliateValidation": {
+            "checkedOn": "2026-11-14",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 7.5,
+            "checkedOn": "2026-11-14",
+            "validUntil": "2026-12-13",
+            "sourceUrl": "https://dashboard.commissionfactory.com/Affiliate/94708/Merchants/89239/CommissionRates/",
+            "applicability": "The new PACEM82K SKU 0151457015 qualifies at the default rate for one unit without a code. Zero for carton-damaged X/x SKUs, cart item value above AUD 5,000, coupons starting 2026DL, FLASH or WELCOME, and codes TREAT150 or FOOTYDEALS. Tracking and validation are each 30 days."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "AHC website tracking link",
+              "publisher": "De'Longhi",
+              "sourceUrl": "https://t.cfjump.com/94708/p/261410236",
+              "supports": "The advertiser’s Australian Commission Factory feed pairs this publisher 94708 product link with the exact OriginalUrl and SKU. The tracking link was read offline.",
+              "checkedOn": "2026-11-14"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian direct listing and exact variant",
+              "publisher": "De'Longhi",
+              "sourceUrl": "https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html?pid=0151457015",
+              "supports": "The Australian product listing marked this model in stock at AUD 849.00 including GST.",
+              "checkedOn": "2026-11-14"
+            },
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Standard delivery to Brisbane City QLD 4000",
+              "publisher": "De'Longhi",
+              "sourceUrl": "https://www.delonghi.com/en-au/shipping-return-policy",
+              "supports": "Standard shipping is free over AUD 100. Brisbane 4000 is within the service area. One unit at AUD 849.00 with free standard delivery totals AUD 849.00 to postcode 4000, calculated from the published policy.",
+              "checkedOn": "2026-11-14"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "tgg-gap-portable-evaporative-cooler-vs-refrigerated-air-conditioning",
@@ -21249,7 +21420,67 @@
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50077315_787160.png?v=1776228309",
         "suppliedVia": "Public exact-model retailer listing, not supplied directly to AHC.",
         "checkedOn": "2026-10-18"
-      }
+      },
+      "commission": {
+        "ratePercent": 3.5,
+        "checkedOn": "2026-11-06",
+        "validUntil": "2026-12-05",
+        "sourceUrl": "https://console.partnerize.com/campaigns/manage-campaigns/campaign-details/1101l4116",
+        "applicability": "The Good Guys campaign rate table checked 6 November 2026 sets Heating & Cooling at 3.5%. PACEM82K is sold in Portable Air Conditioners and the existing approved placement passed the listed brand and supplier exclusions. Online purchase conditions apply."
+      },
+      "additionalRetailers": [
+        {
+          "merchant": "De'Longhi",
+          "destinationUrl": "https://t.cfjump.com/94708/p/261410236",
+          "linkLabel": "Check price at De'Longhi",
+          "affiliate": true,
+          "affiliateNetwork": "commission-factory",
+          "approvedForAffiliateUse": true,
+          "affiliateValidation": {
+            "checkedOn": "2026-11-14",
+            "destinationStatus": "reachable",
+            "productIdentityStatus": "verified",
+            "australianAvailabilityStatus": "in-stock",
+            "listingStatus": "baseline-recorded",
+            "specificationsStatus": "matched",
+            "safetyComplianceStatus": "not-applicable",
+            "trackingStatus": "verified"
+          },
+          "commission": {
+            "ratePercent": 7.5,
+            "checkedOn": "2026-11-14",
+            "validUntil": "2026-12-13",
+            "sourceUrl": "https://dashboard.commissionfactory.com/Affiliate/94708/Merchants/89239/CommissionRates/",
+            "applicability": "The new PACEM82K SKU 0151457015 qualifies at the default rate for one unit without a code. Zero for carton-damaged X/x SKUs, cart item value above AUD 5,000, coupons starting 2026DL, FLASH or WELCOME, and codes TREAT150 or FOOTYDEALS. Tracking and validation are each 30 days."
+          },
+          "sourceRecords": [
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "AHC website tracking link",
+              "publisher": "De'Longhi",
+              "sourceUrl": "https://t.cfjump.com/94708/p/261410236",
+              "supports": "The advertiser’s Australian Commission Factory feed pairs this publisher 94708 product link with the exact OriginalUrl and SKU. The tracking link was read offline.",
+              "checkedOn": "2026-11-14"
+            },
+            {
+              "sourceType": "australian-availability-support",
+              "title": "Australian direct listing and exact variant",
+              "publisher": "De'Longhi",
+              "sourceUrl": "https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html?pid=0151457015",
+              "supports": "The Australian product listing marked this model in stock at AUD 849.00 including GST.",
+              "checkedOn": "2026-11-14"
+            },
+            {
+              "sourceType": "seller-fulfilment",
+              "title": "Standard delivery to Brisbane City QLD 4000",
+              "publisher": "De'Longhi",
+              "sourceUrl": "https://www.delonghi.com/en-au/shipping-return-policy",
+              "supports": "Standard shipping is free over AUD 100. Brisbane 4000 is within the service area. One unit at AUD 849.00 with free standard delivery totals AUD 849.00 to postcode 4000, calculated from the published policy.",
+              "checkedOn": "2026-11-14"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "tgg-ac-fujitsu-astg09kmtc-nxt",
@@ -29726,6 +29957,132 @@
         "sourceUrl": "https://lorrainelea.com.au/products/cooper-bath-towel-rust",
         "suppliedVia": "Original AHC drawing using the published measurements.",
         "checkedOn": "2026-11-09"
+      }
+    },
+    {
+      "id": "petsafe-5-meal-pfd11-13707",
+      "guidePath": "/guides/pet-feeding-station-ideas-for-australian-homes/",
+      "name": "PetSafe 5 Meal Pet Feeder PFD11-13707",
+      "productType": "Timed portion feeder for cats and small dogs",
+      "summary": "One portion is open at setup. The rotating tray serves four later meals on a daily schedule. Each compartment holds up to 236 mL of dry or semi-moist food.",
+      "merchant": "PetSafe",
+      "destinationUrl": "https://t.cfjump.com/94708/t/92274?Url=https%3a%2f%2fwww.petsafe.com%2fau%2fp%2f5-meal-pet-feeder%2fPFD11-13707%2f",
+      "linkLabel": "Check price at PetSafe",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-14",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "commission": {
+        "ratePercent": 8,
+        "checkedOn": "2026-11-14",
+        "validUntil": "2026-12-13",
+        "sourceUrl": "https://dashboard.commissionfactory.com/Affiliate/94708/Merchants/92274/CommissionRates/",
+        "applicability": "The signed-in rate table has one unconditional rule for all affiliates, including this regular PFD11-13707 feeder. Tracking and validation are each 30 days."
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "AHC website tracking link",
+          "publisher": "PetSafe",
+          "sourceUrl": "https://t.cfjump.com/94708/t/92274?Url=https%3a%2f%2fwww.petsafe.com%2fau%2fp%2f5-meal-pet-feeder%2fPFD11-13707%2f",
+          "supports": "Commission Factory’s website link builder returned this tracking URL for advertiser 92274 and the exact Australian PFD11-13707 page. The destination was decoded offline.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Australian direct listing and exact variant",
+          "publisher": "PetSafe",
+          "sourceUrl": "https://www.petsafe.com/au/p/5-meal-pet-feeder/PFD11-13707/",
+          "supports": "The Australian product listing marked this model in stock at AUD 121.89 including GST.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "Standard delivery to Brisbane City QLD 4000",
+          "publisher": "PetSafe",
+          "sourceUrl": "https://www.petsafe.com/au/support/policies-and-terms/shipping-policy/",
+          "supports": "The retailer ships across Australia and its product listing offers free shipping over AUD 75. One unit at AUD 121.89 with free standard delivery totals AUD 121.89 to postcode 4000, calculated from the published policy.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Australian feeder specifications",
+          "publisher": "PetSafe",
+          "sourceUrl": "https://www.petsafe.com/au/p/5-meal-pet-feeder/PFD11-13707/",
+          "supports": "The Australian PFD11-13707 uses four D alkaline batteries, has five 236 mL compartments and a removable top-rack dishwasher-safe tray. One compartment is exposed at setup.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "independent-expert-review",
+          "title": "Hands-on comparison of the PetSafe Eatwell 5-Meal",
+          "publisher": "Cats.com",
+          "sourceUrl": "https://cats.com/best-automatic-cat-feeder",
+          "supports": "The reviewer found the dish feeder dispensed pre-portioned meals and noted it lacks cooling packs. The AU manufacturer specifies dry or semi-moist food.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner experience with the five-meal tray",
+          "publisher": "SCHEELS",
+          "sourceUrl": "https://www.scheels.com/p/72984913707/",
+          "supports": "An owner of two units reported missed rotations and poor alignment. This is an individual experience, not an estimate of the failure rate.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Troubleshooting tray rotation",
+          "publisher": "PetSafe support",
+          "sourceUrl": "https://support.petsafe.net/articles/the-tray-will-not-rotate-in-my-petsafe-5-meal-pet-feeder/",
+          "supports": "The manufacturer provides tray and battery checks if the tray does not rotate. Confirm operation while present.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian recall search",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=PetSafe",
+          "supports": "The brand search returned one detachable AC plug adaptor recall. This four-D-cell battery feeder does not use that adaptor. No matching feeder recall was identified in the model and brand searches.",
+          "checkedOn": "2026-11-14"
+        }
+      ],
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-14",
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Four D alkaline batteries are required and sold separately.",
+        "A poorly seated tray can miss a meal. Run a supervised cycle after refilling. The tray has no cooling pack."
+      ],
+      "suitability": {
+        "suits": [
+          "A cat or small dog that needs measured portions at set times during the day."
+        ],
+        "mayNotSuit": [
+          "Pets that need chilled food, larger portions or separate access in a shared feeding area."
+        ]
+      },
+      "image": {
+        "src": "/images/products/petsafe-5-meal-pfd11-13707-640.webp",
+        "srcSet": "/images/products/petsafe-5-meal-pfd11-13707-320.webp 320w, /images/products/petsafe-5-meal-pfd11-13707-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "PetSafe five-meal feeder with its portion tray and lid.",
+        "credit": "Product photo from PetSafe Australia.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0469/7879/3634/products/PetSafe_PFD11-13707_5_Meal_Pet_Feeder_PD_Angle_Left_Dog_Food_And_Treats.png?v=1750399417",
+        "suppliedVia": "Exact Australian PFD11-13707 product page image.",
+        "checkedOn": "2026-11-14"
       }
     }
   ]

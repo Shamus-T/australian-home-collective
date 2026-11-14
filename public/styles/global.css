@@ -1418,6 +1418,22 @@ h3 {
   flex: 0 0 auto;
 }
 .commercial-retailer-action { font-size: 0.875rem; font-weight: 600; }
+.commercial-retailer-links a.commercial-retailer-link--partner-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: min(212px, 100%);
+  height: 56px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: white;
+  color: var(--green-dark);
+}
+.commercial-retailer-link--partner-logo .commercial-retailer-badge {
+  width: 48px;
+  height: 48px;
+}
 
 .commercial-retailer-links a:is(.commercial-retailer-link--amazon, .commercial-retailer-link--good-guys) {
   display: grid;

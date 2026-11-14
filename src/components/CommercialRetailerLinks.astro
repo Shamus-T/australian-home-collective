@@ -1,5 +1,6 @@
 ---
 import { goodGuysArtworkDataUrl } from "../lib/retailer-artwork";
+import branding from "../data/retailer-branding.json";
 import type { CommercialProduct, CommercialRetailerOffer } from "../types/commercial-product";
 
 interface Props {
@@ -13,6 +14,11 @@ const disclosureId = `retailer-disclosure-${placement}-${product.id}`;
 const showDisclosure = placement === "card" && offers.some((offer) => offer.affiliate);
 const isGoodGuys = (offer: CommercialRetailerOffer) =>
   offer.merchant === "The Good Guys" && offer.affiliateNetwork === "partnerize";
+const partnerLogos: Record<string, string> = {
+  "De'Longhi": branding.delonghi.src,
+  Kenwood: branding.kenwood.src,
+  PetSafe: branding.petsafe.src,
+};
 ---
 
 <div class={`commercial-retailers commercial-retailers--${placement}`} aria-label={`${product.name} retailers`}>
@@ -25,6 +31,7 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
             "commercial-retailer-link",
             { "commercial-retailer-link--amazon": offer.affiliateNetwork === "amazon-australia" },
             { "commercial-retailer-link--good-guys": isGoodGuys(offer) },
+            { "commercial-retailer-link--partner-logo": offer.affiliateNetwork === "commission-factory" && partnerLogos[offer.merchant] },
             { "commercial-retailer-link--beds-n-dreams": offer.merchant === "Beds n Dreams" && offer.affiliateNetwork === "partnerize" },
           ]}
           href={offer.destinationUrl}
@@ -50,6 +57,8 @@ const isGoodGuys = (offer: CommercialRetailerOffer) =>
             <img class="commercial-retailer-badge" src="/images/retailers/amazon-available-official.png" alt="Available at Amazon" width="1500" height="242" loading="eager" />
           ) : offer.merchant === "Beds n Dreams" && offer.affiliateNetwork === "partnerize" ? (
             <><img class="commercial-retailer-badge" src="/images/retailers/beds-n-dreams-partnerize.png" alt="Beds n Dreams" width="1504" height="1091" loading="eager" /><span class="commercial-retailer-action">Check price</span></>
+          ) : offer.affiliateNetwork === "commission-factory" && partnerLogos[offer.merchant] ? (
+            <><img class="commercial-retailer-badge" src={partnerLogos[offer.merchant]} alt="" width="48" height="48" /><span class="commercial-retailer-action">{offer.merchant}</span></>
           ) : (
             <span class="commercial-retailer-name">Check price at {offer.merchant}</span>
           )}

@@ -16,5 +16,23 @@
     "sha256": "ef9a7720a8af0ec9ed37f5cad4d3ea44d1f1e681d50c34e1b12e7634cb635257",
     "width": 1504,
     "height": 1091
+  },
+  "delonghi": {
+    "src": "/images/retailers/delonghi-cf.png",
+    "sha256": "270212b706b40f29fe7808b7933c24c80c88d625334ad7190b14bb2cb9734f26",
+    "width": 250,
+    "height": 250
+  },
+  "kenwood": {
+    "src": "/images/retailers/kenwood-cf.png",
+    "sha256": "834ed8d0fd15b3cc40f138ce89b5137145b8f06c6794a2769bd02a24d1e14c06",
+    "width": 512,
+    "height": 512
+  },
+  "petsafe": {
+    "src": "/images/retailers/petsafe-cf.png",
+    "sha256": "b3b1d0589b915675c6bbfabddec8b378d56351b81d2d27095c1f4d6c59710626",
+    "width": 250,
+    "height": 250
   }
 }

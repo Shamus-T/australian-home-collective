@@ -5,6 +5,14 @@ import { commissionFactoryDestination, commissionFactoryLinkError } from '../src
 import { researchUrl } from '../scripts/research-url.mjs';
 
 const prefix = 'https://t.cfjump.com/94708/t/93696?Url=';
+test('only registered product feed IDs match their retailer and original destination', () => {
+  const url = 'https://t.cfjump.com/94708/p/261410236';
+  assert.equal(new URL(commissionFactoryDestination(url, "De'Longhi")).searchParams.get('pid'), '0151457015');
+  for (const invalid of [url + '1', url + '?Url=https://example.com', url.replace('94708', '12345')]) {
+    assert.throws(() => researchUrl(invalid));
+  }
+  assert.throws(() => commissionFactoryDestination(url, 'Kenwood'));
+});
 const manual = prefix + 'https%3a%2f%2fpergolux.au%2fproducts%2fpergola';
 test('account-issued links decode offline to each exact model page', () => {
   for (const suffix of ['', '-pro', '-pro-max']) {

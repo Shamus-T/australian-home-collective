@@ -3,6 +3,10 @@ export const commissionFactoryPublisher = '94708';
 // Account-issued routes only. URL validation does not grant editorial approval.
 // Placement approval is enforced separately by the commercial registry and audit.
 const placements = new Map([
+  ['92274', {
+    merchant: 'PetSafe',
+    destinations: ['https://www.petsafe.com/au/p/5-meal-pet-feeder/PFD11-13707/'],
+  }],
   ['87838', {
     merchant: 'Advwin',
     destinations: ['https://www.advwin.com.au/products/advwin-4l-pet-fountain-4-set-filter-replacement-620300400-620300900'],
@@ -53,12 +57,28 @@ const placements = new Map([
   }],
 ]);
 
+// The AU product feed supplies opaque product IDs and their exact original URLs.
+const feedProducts = new Map([
+  ['261410236', {merchant: "De'Longhi", destination: 'https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html?pid=0151457015'}],
+  ['263889999', {merchant: 'Kenwood', destination: 'https://www.kenwoodworld.com/en-au/p/titanium-chef-baker-titanium-chef-baker-xl-black-kvl85.004bk/KVL85.004BK.html?pid=0W20011468'}],
+]);
+
 export function commissionFactoryDestination(value, merchant) {
   const url = new URL(value);
   const path = url.pathname.split('/');
-  const placement = placements.get(path[3]);
   if (url.origin !== 'https://t.cfjump.com' || url.username || url.password || url.hash
-    || path.length !== 4 || path[1] !== commissionFactoryPublisher || path[2] !== 't' || !placement) {
+    || path.length !== 4 || path[1] !== commissionFactoryPublisher) {
+    throw new Error('Expected an approved Commission Factory publisher and advertiser path.');
+  }
+  if (path[2] === 'p') {
+    const product = feedProducts.get(path[3]);
+    if (!product || url.search || (merchant !== undefined && merchant !== product.merchant)) {
+      throw new Error('Unrecognised product feed link or retailer.');
+    }
+    return product.destination;
+  }
+  const placement = placements.get(path[3]);
+  if (path[2] !== 't' || !placement) {
     throw new Error('Expected an approved Commission Factory publisher and advertiser path.');
   }
   if (merchant !== undefined && merchant !== placement.merchant) {

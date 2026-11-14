@@ -34,7 +34,11 @@ test('all currently approved catalogue offers have an offline research destinati
         && parsed.hostname === 'www.braunhousehold.com'
         && parsed.pathname.endsWith('/MQ30202MBK.html')
         && parsed.search === '?pid=0X22111593';
-      assert.ok(!parsed.search || bedVariant || approvedVariant || braunProduct);
+      const feedProduct = offer.affiliateNetwork === 'commission-factory' && (
+        (parsed.hostname === 'www.delonghi.com' && parsed.pathname.endsWith('/PACEM82K.html') && parsed.search === '?pid=0151457015')
+        || (parsed.hostname === 'www.kenwoodworld.com' && parsed.pathname.endsWith('/KVL85.004BK.html') && parsed.search === '?pid=0W20011468')
+      );
+      assert.ok(!parsed.search || bedVariant || approvedVariant || braunProduct || feedProduct);
       checked++;
     }
   }
