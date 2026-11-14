@@ -30305,6 +30305,116 @@
         "suppliedVia": "Eiderdown Australia Commission Factory product feed, queen SKU 30102013.",
         "checkedOn": "2026-11-14"
       }
+    },
+    {
+      "id": "bambury-microplush-navy-50x80",
+      "guidePath": "/guides/bathroom-essentials-australian-homes/",
+      "name": "Bambury Microplush Bath Mat – navy, 50 × 80 cm",
+      "productType": "Washable bath mat",
+      "summary": "A rectangular mat with tufted microfibre underfoot and a thermoplastic rubber backing. Its 50 × 80 cm footprint gives you a specific size to test outside the shower.",
+      "merchant": "LivingStyles",
+      "destinationUrl": "https://t.cfjump.com/94708/p/259239380",
+      "linkLabel": "Check price at LivingStyles",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-14",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "commission": {
+        "ratePercent": 3,
+        "checkedOn": "2026-11-14",
+        "validUntil": "2026-12-13",
+        "sourceUrl": "https://dashboard.commissionfactory.com/Affiliate/94708/Merchants/11771/CommissionRates/",
+        "applicability": "The signed-in rate table has one unconditional 3% rule for all affiliates. Content sites are permitted. Paid search, content syndication, product and deal aggregators, media buying, display networks, mobile apps and abandonment traffic are excluded. Tracking and validation are each 30 days. The profile introduction quotes 3.5%, superseded here by the active rate table."
+      },
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-14",
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Warm gentle machine wash, then dry flat. Bambury advises against tumble drying.",
+        "The tufted pile needs clearance under any door that opens across the mat."
+      ],
+      "suitability": {
+        "suits": [
+          "A bathroom with a clear 50 × 80 cm landing outside the shower and space to dry the mat flat."
+        ],
+        "mayNotSuit": [
+          "Tight door swings or households that need a mat they can tumble dry after washing."
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "seller-fulfilment",
+          "publisher": "Commission Factory",
+          "sourceUrl": "https://t.cfjump.com/94708/p/259239380",
+          "title": "AHC product feed for the navy 50 × 80 cm mat",
+          "supports": "Advertiser 11771 pairs publisher product link 259239380 with retailer SKU LSPR-ID7572927 and manufacturer code BABMMPLNAV. The exact Australian product path was compared offline after omitting marketing parameters.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "publisher": "Bambury",
+          "sourceUrl": "https://bambury.com.au/products/microplush-bath-mat",
+          "title": "Microplush range dimensions, backing and laundry care",
+          "supports": "The bath mat measures 50 × 80 cm. The manufacturer specifies tufted microfibre with TPR backing, gentle warm washing and flat drying. No tumble drying.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "publisher": "Bambury customer reviews",
+          "sourceUrl": "https://bambury.com.au/products/microplush-bath-mat",
+          "title": "Microplush range owner feedback",
+          "supports": "A customer discussed the weight of the giant mat, which the manufacturer acknowledged in its reply. Reviews span several sizes and colours, so the giant mat’s weight is not attributed to this smaller navy mat.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "publisher": "LivingStyles",
+          "sourceUrl": "https://www.livingstyles.com.au/bambury-microplush-bath-mat-50x80cm-navy/",
+          "title": "Australian stock and model identity",
+          "supports": "In stock. LivingStyles lists BABMMPLNAV in navy, 50 × 80 cm, at AUD 23.95. The exact SKU was available in the one-item cart.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "publisher": "LivingStyles",
+          "sourceUrl": "https://www.livingstyles.com.au/checkout/cart/",
+          "title": "One-item Brisbane City QLD 4000 cart estimate",
+          "supports": "The product calculator and cart both quoted AUD 15 delivery to Brisbane City 4000. The one-item cart showed AUD 23.95 plus AUD 15.00, total AUD 38.95. Final postage is calculated at checkout.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Bambury",
+          "title": "Australian recall check",
+          "supports": "The Bambury brand search returned a V-Lite Blanket recall. No matching bath mat recall appeared.",
+          "checkedOn": "2026-11-14"
+        }
+      ],
+      "image": {
+        "src": "/images/products/bambury-microplush-navy-50x80-640.webp",
+        "srcSet": "/images/products/bambury-microplush-navy-50x80-320.webp 320w, /images/products/bambury-microplush-navy-50x80-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Navy Bambury Microplush rectangular bath mat with banded ends.",
+        "credit": "Product photo supplied by LivingStyles.",
+        "sourceUrl": "https://c.cfjump.com/Products/11771/259239380.jpg",
+        "suppliedVia": "LivingStyles.com.au Commission Factory Australian product feed, item 259239380.",
+        "checkedOn": "2026-11-14"
+      }
     }
   ]
 }

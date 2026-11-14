@@ -46,5 +46,11 @@
     "sha256": "2834de9697d6c8451bcfb8d2a418bd487f7d9780b3cbbcad2a8f62f8fec7ae5c",
     "width": 512,
     "height": 115
+  },
+  "livingstyles": {
+    "src": "/images/retailers/livingstyles-cf.png",
+    "width": 300,
+    "height": 109,
+    "sha256": "ae072b85d199e12c5946c5fa510d6ea5de699ed73a4ab4002bd5756c8b22e062"
   }
 }

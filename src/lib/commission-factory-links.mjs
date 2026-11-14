@@ -63,6 +63,7 @@ const placements = new Map([
 
 // The AU product feed supplies opaque product IDs and their exact original URLs.
 const feedProducts = new Map([
+  ['259239380', {merchant: 'LivingStyles', destination: 'https://www.livingstyles.com.au/bambury-microplush-bath-mat-50x80cm-navy/'}],
   ['280219337', {merchant: 'Eiderdown Australia', destination: 'https://www.eiderdown.com.au/products/wool-150gsm-summer-weight-quilt?variant=43318107570426'}],
   ['261410236', {merchant: "De'Longhi", destination: 'https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html?pid=0151457015'}],
   ['263889999', {merchant: 'Kenwood', destination: 'https://www.kenwoodworld.com/en-au/p/titanium-chef-baker-titanium-chef-baker-xl-black-kvl85.004bk/KVL85.004BK.html?pid=0W20011468'}],

@@ -250,15 +250,16 @@
     {
       "guidePath": "/guides/bathroom-essentials-australian-homes/",
       "title": "Bathroom Essentials for Australian Homes",
-      "reviewedOn": "2026-11-09",
+      "reviewedOn": "2026-11-14",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "f559dc2f71df307040266089af429d2f676b08f5a3fea44069a8d45a123fae59",
+      "reviewedSourceSha256": "1be7acebfdd7fa725d8fa0ccf72e5629b0642e508e2be6817ee2c34160f348a2",
       "requiredProductTypes": [
         {
           "label": "Bath mat",
-          "productIds": [],
-          "gapReason": "A bath mat still needs a verified exact product and seller."
+          "productIds": [
+            "bambury-microplush-navy-50x80"
+          ]
         },
         {
           "label": "Divided toothbrush and toothpaste caddy",
@@ -291,7 +292,7 @@
         "/guides/bathroom-vanity-storage-what-to-sort-before-buying-organisers/",
         "/guides/small-bathroom-storage-what-to-check-before-buying-shelves-or-caddies/"
       ],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. 6 November: Macho AC6507 Single Robe Hook, Chrome reviewed for this buying decision; account-issued deep link verified offline. 9 November: Cooper bath towel sizing, single-item Brisbane standard delivery and approved Lorraine Lea link checked."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. 6 November: Macho AC6507 Single Robe Hook, Chrome reviewed for this buying decision; account-issued deep link verified offline. 9 November: Cooper bath towel sizing, single-item Brisbane standard delivery and approved Lorraine Lea link checked. 14 November: the navy Bambury Microplush fills the bath-mat gap, with measured fit, manufacturer care, cart postage and exact feed link checked."
     },
     {
       "guidePath": "/guides/bathroom-product-storage-what-to-sort-before-buying-organisers/",

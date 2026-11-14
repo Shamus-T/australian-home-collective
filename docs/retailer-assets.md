@@ -29,3 +29,4 @@ ratios inside the existing 212 × 56 retailer-button layout.
 | PetSafe | Commission Factory publisher library 6413, advertiser 92274, original file `PS LOGO.png` |
 | Kurgo | Commission Factory publisher library 6412, advertiser 92275, original file `Kurgo Logo.png` |
 | Eiderdown Australia | [Commission Factory advertiser profile logo](https://c.cfjump.com/Avatars/6f996d89-bc4f-41aa-b509-d57cd81e7611.png) |
+| LivingStyles | [Commission Factory advertiser profile logo](https://c.cfjump.com/Avatars/ba5e59c4-6db7-4fc7-b17f-76d7ac8aeeef.png) |
