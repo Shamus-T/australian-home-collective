@@ -22,7 +22,7 @@
       "reviewedOn": "2026-11-06",
       "intent": "editorial",
       "editorialReason": "Time-boxed use-what-you-own reset.",
-      "reviewedSourceSha256": "4211574886231794606109596f0391986ad6ed70191a2d468fb2c4452cb13d66",
+      "reviewedSourceSha256": "fa6feef17fd964f704062022ad8d03bbff270ff4bc829e438c05400956882c92",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -1288,7 +1288,7 @@
       "reviewedOn": "2026-10-11",
       "intent": "editorial",
       "editorialReason": "Bedroom comfort and safe heating choices; focused buying comparisons are linked.",
-      "reviewedSourceSha256": "7862541fad27a9ac18eb5f6320ee2083f0076adc059ff5d626c8230bdb38ad34",
+      "reviewedSourceSha256": "cd6e36a75d808443be47e3dd1a9b7732e77ba735451e7582ad43abb6d9b59311",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -2009,7 +2009,7 @@
       "reviewedOn": "2026-11-06",
       "intent": "editorial",
       "editorialReason": "Household sorting and return routines across a whole living room.",
-      "reviewedSourceSha256": "cff9e88e9261528dc5b81e4eda7ee9ad78314fc253508432719fd5327d7cdb52",
+      "reviewedSourceSha256": "664a3503eeebd062b9e1150691ca2929d870ac66f9281372dd4c7e47abe61089",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
@@ -3053,7 +3053,7 @@
       "reviewedOn": "2026-11-06",
       "intent": "editorial",
       "editorialReason": "Shared-room layout and reset routine.",
-      "reviewedSourceSha256": "4f8f1411caab26f38373ef4a20f75ebca8b146d6cadf3ace328e72a8c1acccbb",
+      "reviewedSourceSha256": "74fabdaf36a616277ca75a12233de84d2b2e20d8f9584c8cbc7e3d16997f0590",
       "requiredProductTypes": [],
       "supportingProductIds": [],
       "contextualRoutes": [
