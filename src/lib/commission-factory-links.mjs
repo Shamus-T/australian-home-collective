@@ -3,6 +3,10 @@ export const commissionFactoryPublisher = '94708';
 // Account-issued routes only. URL validation does not grant editorial approval.
 // Placement approval is enforced separately by the commercial registry and audit.
 const placements = new Map([
+  ['92275', {
+    merchant: 'Kurgo',
+    destinations: ['https://kurgo.com.au/products/wander-bench-seat-cover-black'],
+  }],
   ['92274', {
     merchant: 'PetSafe',
     destinations: ['https://www.petsafe.com/au/p/5-meal-pet-feeder/PFD11-13707/'],
@@ -59,6 +63,7 @@ const placements = new Map([
 
 // The AU product feed supplies opaque product IDs and their exact original URLs.
 const feedProducts = new Map([
+  ['280219337', {merchant: 'Eiderdown Australia', destination: 'https://www.eiderdown.com.au/products/wool-150gsm-summer-weight-quilt?variant=43318107570426'}],
   ['261410236', {merchant: "De'Longhi", destination: 'https://www.delonghi.com/en-au/p/portable-air-conditioners-pinguino-portable-air-conditioner-pacem82k/PACEM82K.html?pid=0151457015'}],
   ['263889999', {merchant: 'Kenwood', destination: 'https://www.kenwoodworld.com/en-au/p/titanium-chef-baker-titanium-chef-baker-xl-black-kvl85.004bk/KVL85.004BK.html?pid=0W20011468'}],
 ]);

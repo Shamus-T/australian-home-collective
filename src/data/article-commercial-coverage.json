@@ -402,15 +402,21 @@
     {
       "guidePath": "/guides/bedding-and-linen-basics-for-australian-bedrooms/",
       "title": "Bedding and Linen Basics for Australian Bedrooms",
-      "reviewedOn": "2026-11-06",
+      "reviewedOn": "2026-11-14",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "eaa3738bd30c7ced6b34612469b40e2386a1efe1e3249b0d165726e636bafb6f",
+      "reviewedSourceSha256": "db5b4117b4466b6f978dbfb0416bb1616421425694a5509792e2535de5876974",
       "requiredProductTypes": [
         {
-          "label": "Sheets, quilts and linen",
+          "label": "Queen summer-weight quilt",
+          "productIds": [
+            "eiderdown-wool-150gsm-queen"
+          ]
+        },
+        {
+          "label": "Sheets and other bed linen",
           "productIds": [],
-          "gapReason": "No approved size-specific bedding with current care, material and owner evidence."
+          "gapReason": "No reviewed size-specific sheet set is available for this guide."
         }
       ],
       "supportingProductIds": [],
@@ -419,7 +425,7 @@
         "/guides/bedroom-wardrobe-organisation-what-to-sort-before-buying-storage/",
         "/guides/mattress-sizes-australia/"
       ],
-      "reviewScope": "4 November: contextual bedside-reach and small-room storage links added to support bedding height and linen overflow decisions. Bedding product research gaps retained. 6 November: the Check Every Layer for Fit and Care section now routes to the exact reviewed Onebed Essential Queen, 25 cm foam mattress where the reader faces that decision."
+      "reviewScope": "4 November: contextual bedside-reach and small-room storage links added to support bedding height and linen overflow decisions. Bedding product research gaps retained. 6 November: the Check Every Layer for Fit and Care section now routes to the exact reviewed Onebed Essential Queen, 25 cm foam mattress where the reader faces that decision. Added the 150 gsm wool queen with verified dimensions and laundering limits."
     },
     {
       "guidePath": "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
@@ -2576,10 +2582,10 @@
     {
       "guidePath": "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
       "title": "Pet Travel Essentials for Cars, Vet Visits and Short Trips",
-      "reviewedOn": "2026-10-11",
+      "reviewedOn": "2026-11-14",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "0c6d2ff56328c73a15badb8016f03ce09121f1a77cad561f1d70d6907357c12e",
+      "reviewedSourceSha256": "5c1bbf267c5b6e6aabdc45665a804742161007000b823f53fa9b61ffab875391",
       "requiredProductTypes": [
         {
           "label": "Vehicle restraints and pet carriers",
@@ -2588,7 +2594,8 @@
         }
       ],
       "supportingProductIds": [
-        "edog-waterproof-car-hammock"
+        "edog-waterproof-car-hammock",
+        "kurgo-wander-bench-seat-cover-black"
       ],
       "contextualRoutes": [
         "/guides/laundry-drying-space-what-to-measure-before-buying-airers-or-racks/",
@@ -2596,7 +2603,7 @@
         "/guides/how-to-choose-the-right-dog-bed-for-your-home/",
         "/guides/pet-gates-barriers-and-room-separation-what-to-check-before-you-buy/"
       ],
-      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing."
+      "reviewScope": "Source topic, product placement and known image coverage. Existing product review dates retained; this is not a fresh live availability check of every retailer listing. Added the black Kurgo bench cover as a measured upholstery option."
     },
     {
       "guidePath": "/guides/portable-air-conditioners-australia/",

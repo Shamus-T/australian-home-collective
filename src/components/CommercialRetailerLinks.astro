@@ -15,6 +15,8 @@ const showDisclosure = placement === "card" && offers.some((offer) => offer.affi
 const isGoodGuys = (offer: CommercialRetailerOffer) =>
   offer.merchant === "The Good Guys" && offer.affiliateNetwork === "partnerize";
 const partnerLogos: Record<string, string> = {
+  Kurgo: branding.kurgo.src,
+  "Eiderdown Australia": branding.eiderdown.src,
   "De'Longhi": branding.delonghi.src,
   Kenwood: branding.kenwood.src,
   PetSafe: branding.petsafe.src,
@@ -57,6 +59,8 @@ const partnerLogos: Record<string, string> = {
             <img class="commercial-retailer-badge" src="/images/retailers/amazon-available-official.png" alt="Available at Amazon" width="1500" height="242" loading="eager" />
           ) : offer.merchant === "Beds n Dreams" && offer.affiliateNetwork === "partnerize" ? (
             <><img class="commercial-retailer-badge" src="/images/retailers/beds-n-dreams-partnerize.png" alt="Beds n Dreams" width="1504" height="1091" loading="eager" /><span class="commercial-retailer-action">Check price</span></>
+          ) : offer.affiliateNetwork === "commission-factory" && offer.merchant === "Eiderdown Australia" ? (
+            <img class="commercial-retailer-badge" src={branding.eiderdown.src} style="width: 180px; height: auto; max-height: 48px;" alt="Eiderdown Australia" width={branding.eiderdown.width} height={branding.eiderdown.height} />
           ) : offer.affiliateNetwork === "commission-factory" && partnerLogos[offer.merchant] ? (
             <><img class="commercial-retailer-badge" src={partnerLogos[offer.merchant]} alt="" width="48" height="48" /><span class="commercial-retailer-action">{offer.merchant}</span></>
           ) : (

@@ -34,5 +34,17 @@
     "sha256": "b3b1d0589b915675c6bbfabddec8b378d56351b81d2d27095c1f4d6c59710626",
     "width": 250,
     "height": 250
+  },
+  "kurgo": {
+    "src": "/images/retailers/kurgo-cf.png",
+    "sha256": "8343b189b862d5773de9153964e2e20865b2a629bdffcb67b030c85bd9a84dcc",
+    "width": 250,
+    "height": 250
+  },
+  "eiderdown": {
+    "src": "/images/retailers/eiderdown-cf.png",
+    "sha256": "2834de9697d6c8451bcfb8d2a418bd487f7d9780b3cbbcad2a8f62f8fec7ae5c",
+    "width": 512,
+    "height": 115
   }
 }

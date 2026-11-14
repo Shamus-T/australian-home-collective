@@ -27,3 +27,5 @@ ratios inside the existing 212 × 56 retailer-button layout.
 | De’Longhi | [Commission Factory advertiser profile logo](https://c.cfjump.com/Avatars/08771b58-c777-4c6f-a124-8e1ba201d261.png) |
 | Kenwood | [Commission Factory advertiser profile logo](https://c.cfjump.com/Avatars/20151f2c-7466-478b-9b62-e838ca018266.png) |
 | PetSafe | Commission Factory publisher library 6413, advertiser 92274, original file `PS LOGO.png` |
+| Kurgo | Commission Factory publisher library 6412, advertiser 92275, original file `Kurgo Logo.png` |
+| Eiderdown Australia | [Commission Factory advertiser profile logo](https://c.cfjump.com/Avatars/6f996d89-bc4f-41aa-b509-d57cd81e7611.png) |

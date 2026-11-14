@@ -115,7 +115,8 @@
     "/guides/bedroom-essentials-for-a-more-comfortable-home/",
     "/guides/bedroom-drawers-tallboys-and-dressers-what-to-check-before-you-buy/",
     "/guides/towel-storage-what-to-measure-before-buying-rails-hooks-or-shelves/",
-    "/guides/sports-gear-storage-what-to-check-before-buying-hooks-racks-or-bins/"
+    "/guides/sports-gear-storage-what-to-check-before-buying-hooks-racks-or-bins/",
+    "/guides/bedding-and-linen-basics-for-australian-bedrooms/"
   ],
   "products": [
     {
@@ -30082,6 +30083,226 @@
         "credit": "Product photo from PetSafe Australia.",
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0469/7879/3634/products/PetSafe_PFD11-13707_5_Meal_Pet_Feeder_PD_Angle_Left_Dog_Food_And_Treats.png?v=1750399417",
         "suppliedVia": "Exact Australian PFD11-13707 product page image.",
+        "checkedOn": "2026-11-14"
+      }
+    },
+    {
+      "id": "kurgo-wander-bench-seat-cover-black",
+      "guidePath": "/guides/pet-travel-essentials-what-to-check-before-buying-car-travel-gear/",
+      "name": "Kurgo Wander Bench Seat Cover – black, standard",
+      "productType": "Rear bench upholstery cover",
+      "summary": "The 139.7 cm cover follows the backrest and bench, leaving the rear footwell open. Piped edges catch dirt and the hook-and-loop openings give access to seatbelt buckles.",
+      "merchant": "Kurgo",
+      "destinationUrl": "https://t.cfjump.com/94708/t/92275?Url=https%3a%2f%2fkurgo.com.au%2fproducts%2fwander-bench-seat-cover-black",
+      "linkLabel": "Check price at Kurgo",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-14",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "commission": {
+        "ratePercent": 8,
+        "checkedOn": "2026-11-14",
+        "validUntil": "2026-12-13",
+        "sourceUrl": "https://dashboard.commissionfactory.com/Affiliate/94708/Merchants/92275/CommissionRates/",
+        "applicability": "One unconditional rate for all affiliates in the signed-in rate table. Applies to the selected item. Tracking and validation are each 30 days."
+      },
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-14",
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "The rear and under-seat attachments need clearance. Check where you can reach behind and beneath your bench.",
+        "The cover provides no restraint for a dog. Keep the restraint attachment and any passenger buckles accessible."
+      ],
+      "suitability": {
+        "suits": [
+          "Drivers who want to protect a rear bench from wet paws while keeping the footwell available."
+        ],
+        "mayNotSuit": [
+          "Vehicles where the cover openings miss the buckles or straps would interfere with the seat hardware."
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "AHC exact-product link",
+          "publisher": "Commission Factory",
+          "sourceUrl": "https://t.cfjump.com/94708/t/92275?Url=https%3a%2f%2fkurgo.com.au%2fproducts%2fwander-bench-seat-cover-black",
+          "supports": "The AHC website link builder issued this exact route for the black Wander Bench Seat Cover. Its destination was decoded offline.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact Australian item and stock",
+          "publisher": "Kurgo",
+          "sourceUrl": "https://kurgo.com.au/products/wander-bench-seat-cover-black",
+          "supports": "Kurgo’s single-item Australian cart reported black SKU K01189, variant 43033738805420, AUD 49.99.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "One-item cart rate for Brisbane City QLD 4000",
+          "publisher": "Kurgo",
+          "sourceUrl": "https://kurgo.com.au/cart/shipping_rates.json?shipping_address%5Bzip%5D=4000&shipping_address%5Bcountry%5D=Australia&shipping_address%5Bprovince%5D=Queensland",
+          "supports": "The one-cover cart returned Standard Delivery AUD 0.00 for Brisbane QLD 4000, total AUD 49.99. The item FAQ also mentions AUD 9.90. The postcode-specific quote was used.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Standard width, coverage and anchor points",
+          "publisher": "Kurgo",
+          "sourceUrl": "https://kurgo.com.au/products/wander-bench-seat-cover-black",
+          "supports": "The standard cover is 139.7 cm wide and includes belt openings, rear attachments and an under-seat cord.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Owner-reported bench fit",
+          "publisher": "Kurgo customer reviews",
+          "sourceUrl": "https://kurgo.com.au/products/wander-bench-seat-cover-black#reviews",
+          "supports": "A verified Wander buyer reported a good fit in their vehicle. The reviews do not establish compatibility with a particular bench or buckle layout.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand recall check",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Kurgo",
+          "supports": "No matching product appeared in the Australian brand recall search on the review date.",
+          "checkedOn": "2026-11-14"
+        }
+      ],
+      "image": {
+        "src": "/images/products/kurgo-wander-bench-seat-cover-black-640.webp",
+        "srcSet": "/images/products/kurgo-wander-bench-seat-cover-black-320.webp 320w, /images/products/kurgo-wander-bench-seat-cover-black-640.webp 640w",
+        "width": 640,
+        "height": 640,
+        "alt": "Black Kurgo Wander cover fitted over a rear bench seat.",
+        "credit": "Product photo from Kurgo.",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0449/2276/5466/files/Kurgo_K01189_Wander_Bench_BLK_LS_Hero_02_1x1_jpg.png?v=1750396947",
+        "suppliedVia": "Official Australian listing, hero image for black SKU K01189.",
+        "checkedOn": "2026-11-14"
+      }
+    },
+    {
+      "id": "eiderdown-wool-150gsm-queen",
+      "guidePath": "/guides/bedding-and-linen-basics-for-australian-bedrooms/",
+      "name": "Eiderdown 150 gsm summer wool quilt – queen",
+      "productType": "Lightweight wool quilt inner",
+      "summary": "This 210 × 210 cm summer inner has 150 g of New Zealand wool per square metre inside a cotton cover. It suits a warm bedroom where a winter doona feels too heavy.",
+      "merchant": "Eiderdown Australia",
+      "destinationUrl": "https://t.cfjump.com/94708/p/280219337",
+      "linkLabel": "Check price at Eiderdown Australia",
+      "affiliate": true,
+      "affiliateNetwork": "commission-factory",
+      "approvedForAffiliateUse": true,
+      "affiliateValidation": {
+        "checkedOn": "2026-11-14",
+        "destinationStatus": "reachable",
+        "productIdentityStatus": "verified",
+        "australianAvailabilityStatus": "in-stock",
+        "listingStatus": "baseline-recorded",
+        "specificationsStatus": "matched",
+        "safetyComplianceStatus": "not-applicable",
+        "trackingStatus": "verified"
+      },
+      "commission": {
+        "ratePercent": 5,
+        "checkedOn": "2026-11-14",
+        "validUntil": "2026-12-13",
+        "sourceUrl": "https://dashboard.commissionfactory.com/Affiliate/94708/Merchants/92695/CommissionRates/",
+        "applicability": "One unconditional rate for all affiliates in the signed-in rate table. Applies to the selected item. Tracking and validation are each 30 days."
+      },
+      "editorialStatus": "approved",
+      "researchOutcome": "research-supported",
+      "evidenceConfidence": "moderate",
+      "recallSafetyStatus": "clear",
+      "lastReviewedOn": "2026-11-14",
+      "testingStatus": "research-only",
+      "testingNotes": "",
+      "drawbacks": [
+        "Eiderdown rules out top-loading washing machines. Use a gentle or wool cycle up to 40°C and allow space for the quilt to dry.",
+        "A 210 cm square inner may leave too little overhang on a tall mattress. Measure your current cover and compare the drop on each side."
+      ],
+      "suitability": {
+        "suits": [
+          "Someone who likes the feel of a quilt on warm nights and already has a 210 × 210 cm cover."
+        ],
+        "mayNotSuit": [
+          "Cold bedrooms that need more insulation, or households relying on a top-loader without access to another machine."
+        ]
+      },
+      "sourceRecords": [
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "AHC exact-product link",
+          "publisher": "Commission Factory",
+          "sourceUrl": "https://t.cfjump.com/94708/p/280219337",
+          "supports": "AHC product-feed link 280219337 pairs with variant 43318107570426. The Australian storefront identifies it as queen 210 × 210 cm, SKU 30102013.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Exact Australian item and stock",
+          "publisher": "Eiderdown Australia",
+          "sourceUrl": "https://www.eiderdown.com.au/products/wool-150gsm-summer-weight-quilt?variant=43318107570426",
+          "supports": "The Australian store marked the exact queen variant available, AUD 539.99. One queen was accepted into the cart at that subtotal.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "seller-fulfilment",
+          "title": "One-item cart rate for Brisbane City QLD 4000",
+          "publisher": "Eiderdown Australia",
+          "sourceUrl": "https://www.eiderdown.com.au/cart/shipping_rates.json?shipping_address%5Bzip%5D=4000&shipping_address%5Bcountry%5D=Australia&shipping_address%5Bprovince%5D=Queensland",
+          "supports": "The one-queen cart returned Free Shipping AUD 0.00 for Queensland 4000, giving a delivered total of AUD 539.99.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "manufacturer-specification",
+          "title": "Queen dimensions, wool fill and care",
+          "publisher": "Eiderdown Australia",
+          "sourceUrl": "https://www.eiderdown.com.au/products/wool-150gsm-summer-weight-quilt?variant=43318107570426",
+          "supports": "Queen 210 × 210 cm, cotton cambric shell and 150 gsm New Zealand wool. Maximum wash temperature 40°C on gentle or wool cycle. The manufacturer excludes top-loaders.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "owner-feedback",
+          "title": "Customer experience with the 150 gsm wool summer inner",
+          "publisher": "Trustpilot",
+          "sourceUrl": "https://uk.trustpilot.com/review/www.eiderdown.co.nz?page=6",
+          "supports": "Gray Gilbert named the 150 gsm wool model and found its weight comfortable with ducted cooling. This individual account did not specify a bed size.",
+          "checkedOn": "2026-11-14"
+        },
+        {
+          "sourceType": "regulator-recall-check",
+          "title": "Australian brand recall check",
+          "publisher": "Product Safety Australia",
+          "sourceUrl": "https://www.productsafety.gov.au/recalls?query=Eiderdown",
+          "supports": "No matching product appeared in the Australian brand recall search on the review date.",
+          "checkedOn": "2026-11-14"
+        }
+      ],
+      "image": {
+        "src": "/images/products/eiderdown-wool-150gsm-queen-640.webp",
+        "srcSet": "/images/products/eiderdown-wool-150gsm-queen-320.webp 320w, /images/products/eiderdown-wool-150gsm-queen-640.webp 640w",
+        "width": 640,
+        "height": 427,
+        "alt": "Eiderdown summer-weight wool quilt with its white cotton cover.",
+        "credit": "Product photo from Eiderdown Australia.",
+        "sourceUrl": "https://c.cfjump.com/Products/92695/280219337.jpg",
+        "suppliedVia": "Eiderdown Australia Commission Factory product feed, queen SKU 30102013.",
         "checkedOn": "2026-11-14"
       }
     }
