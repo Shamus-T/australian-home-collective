@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-15",
+  "updatedOn": "2026-11-18",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -2996,10 +2996,10 @@
     {
       "guidePath": "/guides/robot-lawn-mower-buying-guide-australia/",
       "title": "Robot Lawn Mowers Australia: Will One Work in Your Yard?",
-      "reviewedOn": "2026-11-09",
+      "reviewedOn": "2026-11-18",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "3d9c322d3ee9f71514604a46c18c63174dfece0c56745c94c2787925d29db6ac",
+      "reviewedSourceSha256": "1aba938248ed276969b3a63bcaf8c6c52a4d8a889ee926264f38b69fdb0254e8",
       "requiredProductTypes": [
         {
           "label": "Camera navigation · 800 m² mapping limit",
@@ -3022,7 +3022,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md. Feed-run follow-up on 18 October: orderable supplier-stock offers distinguished from immediate stock; visible delivery caveat added to the product card. Feed alert retained. 18 October follow-up: two-year GOAT warranty adopted on Shane's explicit five-site verification; separate battery terms not inferred. Two known feed stock flags classified as time-bounded supplier-order observations, retaining raw No values and delivery caveats. 9 November: ECOVACS direct standalone checkout checked for Brisbane 4000 alongside the existing supplier-order listing. Both retailer categories and applicable rates reviewed."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md. Feed-run follow-up on 18 October: orderable supplier-stock offers distinguished from immediate stock; visible delivery caveat added to the product card. Feed alert retained. 18 October follow-up: two-year GOAT warranty adopted on Shane's explicit five-site verification; separate battery terms not inferred. Two known feed stock flags classified as time-bounded supplier-order observations, retaining raw No values and delivery caveats. 9 November: ECOVACS direct standalone checkout checked for Brisbane 4000 alongside the existing supplier-order listing. Both retailer categories and applicable rates reviewed. 18 November: independently confirmed the GOAT supplier-order notice had cleared at The Good Guys; refreshed availability wording only."
     },
     {
       "guidePath": "/guides/robot-vacuum-buying-guide-australia/",
