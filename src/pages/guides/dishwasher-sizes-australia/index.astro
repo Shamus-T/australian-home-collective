@@ -52,7 +52,7 @@ const faqs = [
   category="Kitchen"
   date="Updated November 2026"
   datePublished="2026-07-23"
-  dateModified="2026-11-08"
+  dateModified="2026-11-18"
   readingTime="10 minute read"
   faqs={faqs}
   showAffiliateDisclosure={false}
@@ -66,17 +66,19 @@ const faqs = [
     intro="First measure the narrowest width and the height under your bench. For a visible appliance front, compare the 45 cm slimline and two 60 cm models. For a matching cabinet door, start with the integrated model."
     variant="comparison" compactComparison comparisonDetails={applianceComparisons}
   >
-    <p slot="after-comparison">Still measuring? <a href="#dishwasher-dimensions-heading">Check the cavity, hose route and door swing</a>. For a drawer or built-under replacement, <a href="#dishwasher-types-heading">check the installation type</a> before choosing.</p>
-  </CommercialProductBlock>
-
+    <Fragment slot="after-comparison">
+    <p>Still measuring? <a href="#dishwasher-dimensions-heading">Check the cavity, hose route and door swing</a>. For a drawer or built-under replacement, <a href="#dishwasher-types-heading">check the installation type</a> before choosing.</p>
   <section aria-labelledby="dishwasher-choice-heading">
     <h2 id="dishwasher-choice-heading">Check rack layout and installation before choosing</h2>
     <h3 id="dishwasher-full-width">60cm freestanding: basket or separate cutlery tray?</h3>
     <p>The Westinghouse WSF6602XC has a lower cutlery basket and upper knife shelf; the Bosch SMS6HCI02A has a separate cutlery tray. Check tall glasses beneath the tray and your largest cookware in either layout. More place settings do not guarantee a better fit. Compare <a href="#dishwasher-order-heading">delivered and installed prices</a>, not just the appliance price.</p>
+    <p><a href="#compare-westinghouse-wsf6602xc-good-guys">Check the basket model and price</a> · <a href="#compare-bosch-sms6hci02a-good-guys">Check the tray model and price</a></p>
     <h3 id="dishwasher-slimline">45cm slimline: narrower baskets</h3>
     <p>The Bosch SPS6IKI01A saves width but leaves less room for bulky pans. Its upper knife rack is not a full cutlery drawer, and slimline does not necessarily mean cheaper.</p>
+    <p><a href="#compare-bosch-sps6iki01a-good-guys">Check the slimline model and price</a></p>
     <h3 id="dishwasher-integrated">Fully integrated: include the panel and fitting</h3>
     <p>The Bosch SMV4HTX01A needs a separately supplied furniture panel. Have the installer check the niche, panel weight, plinth and fixings; it is not a direct freestanding replacement without considering cabinetry.</p>
+    <p><a href="#compare-tgg-gap-integrated-smv4htx01a">Check the integrated model and price</a></p>
     <p><strong>Need a drawer dishwasher or a different built-under arrangement?</strong> Use the <a href="#dishwasher-types-heading">format guide</a> and <a href="#current-dishwasher-examples-heading">measuring examples</a>. The drawer and Miele examples are installation references, not additional buying recommendations.</p>
   </section>
 
@@ -87,8 +89,8 @@ const faqs = [
   <h3>Check the integrated model's niche and cabinet panel</h3>
   <p>The SMV4HTX01A furniture panel is not supplied. Bosch's <a href="https://media3.bsh-group.com/Documents/specsheet/en-AU/SMV4HTX01A.pdf" target="_blank" rel="noopener noreferrer">Australian specification drawing</a> shows a 600mm-wide niche, 815–875mm height and at least 550mm depth. The installer must also check panel weight, plinth clearance, fixings and hose routing. Allow space to stand beyond the open door; cavity size alone does not complete the installation plan.</p>
   <p>Capacity and rack descriptions for the shortlist were rechecked against Bosch's Australian sheets on <time datetime="2026-10-31">31 October 2026</time>: <a href="https://media3.bsh-group.com/Documents/specsheet/en-AU/SMS6HCI02A.pdf" target="_blank" rel="noopener noreferrer">SMS6HCI02A</a>, <a href="https://media3.bosch-home.com/Documents/specsheet/en-AU/SPS6IKI01A.pdf" target="_blank" rel="noopener noreferrer">SPS6IKI01A</a> and <a href="https://media3.bsh-group.com/Documents/specsheet/en-AU/SMV4HTX01A.pdf" target="_blank" rel="noopener noreferrer">SMV4HTX01A</a>. Place settings do not tell you whether your largest cookware will fit; check the actual rack layout.</p>
-
-
+    </Fragment>
+  </CommercialProductBlock>
 
   <section aria-labelledby="dishwasher-order-heading">
     <h2 id="dishwasher-order-heading">Compare the installed price, not just the dishwasher</h2>

@@ -4,21 +4,24 @@
     "fit": "Allow rear space for hoses. Bosch specifies a 600 mm niche only beneath a continuous worktop secured to the adjoining cabinets.",
     "tradeoff": "Allow 1,073mm with the door open plus usable loading space. Dosing needs the right settings and cleaning; a stacked dryer and kit cost extra.",
     "decisionLabel": "9 kg front loader · 636 mm deep with door closed",
-    "jumpLabel": "Full-size front loader"
+    "jumpLabel": "Full-size front loader",
+    "essentialFit": "For the Bosch stack below. A 600 mm niche applies only under the continuous, secured worktop specified by Bosch; leave room for hoses and the door."
   },
   "lg-wx3-1208w-good-guys": {
     "reason": "8kg loads where front-to-back space is limited and the dryer can go elsewhere.",
     "fit": "The 635 mm includes the 535 mm closed-door depth and 100 mm rear gap. Allow more for projecting taps or hoses. The open door extends 1,015 mm from the back of the washer.",
     "tradeoff": "The width includes 20 mm each side. This model cannot take a stacking kit.",
     "decisionLabel": "Shallow front loader · allow 640 mm wide × 635 mm deep",
-    "jumpLabel": "Shallow front loader"
+    "jumpLabel": "Shallow front loader",
+    "essentialFit": "Allow at least 640 mm width and 635 mm depth before extra tap or hose projections. Cannot take a stacking kit."
   },
   "lg-wtx3-09g-good-guys": {
     "reason": "9kg loads and top access, with no benchtop or dryer above the washer.",
     "fit": "Allow at least 630 mm across (590 mm body plus 20 mm each side) and 100 mm behind the 645 mm body. Measure to the underside of the lowest shelf.",
     "tradeoff": "Check that you can reach the bottom of the drum.",
     "decisionLabel": "Top loader · allow 1,339 mm for the open lid",
-    "jumpLabel": "Top loader"
+    "jumpLabel": "Top loader",
+    "essentialFit": "Allow at least 630 mm width, 745 mm depth and 1,339 mm for the open lid. Not for under a bench or a stacked dryer."
   },
   "bosch-wqg24201au-laundry-fit-good-guys": {
     "reason": "A separate 9kg heat pump dryer for floor-standing use or the documented Bosch stack.",
@@ -30,14 +33,16 @@
     "fit": "600mm wide × 845mm high × 600mm deep body.",
     "tradeoff": "Allow 1,155mm door-open depth plus standing room. Check tall items beneath the tray, the cavity and worktop arrangement; no matching cabinet-door installation.",
     "jumpLabel": "60 cm · cutlery tray",
-    "decisionLabel": "Separate cutlery tray · 845 mm high with worktop fitted"
+    "decisionLabel": "Separate cutlery tray · 845 mm high with worktop fitted",
+    "essentialFit": "Visible appliance front. 845 mm high with its worktop fitted; confirm the permitted underbench arrangement before ordering."
   },
   "bosch-sps6iki01a-good-guys": {
     "reason": "A narrow freestanding installation: 10 place settings and an upper cutlery/knife rack, not a full third drawer.",
     "fit": "With the worktop fitted the body is 450 mm wide, 845 mm high and 600 mm deep. Check the installation drawing against the narrowest point of your opening and leave room for hoses and loading.",
     "tradeoff": "The narrower baskets take less bulky cookware. Check your largest pan against the rack.",
     "jumpLabel": "45 cm slimline",
-    "decisionLabel": "Slimline · 450 mm body, 1,155 mm deep with door open"
+    "decisionLabel": "Slimline · 450 mm body, 1,155 mm deep with door open",
+    "essentialFit": "Visible appliance front, 450 mm body width and 845 mm height with worktop fitted. Confirm the cavity and hose route; not a cabinet-panel model."
   },
   "westinghouse-wtm4302wd-r-good-guys": {
     "reason": "Top freezer with 329 L of fresh-food space, 21 L more than the LG.",
@@ -70,7 +75,8 @@
     "fit": "Allow at least 550 mm of cabinet depth and 1,155 mm with the door open. The matching front panel is a separate purchase.",
     "tradeoff": "Have the installer check panel weight, kickboard clearance, fixing points and hoses.",
     "jumpLabel": "Matching cabinet door",
-    "decisionLabel": "Fully integrated · 600 mm wide × 815–875 mm high opening"
+    "decisionLabel": "Fully integrated · 600 mm wide × 815–875 mm high opening",
+    "essentialFit": "For a matching cabinet door: needs a separately supplied furniture panel and fitting. Not a finished-front freestanding replacement."
   },
   "tgg-gap-haier-hrf510fhs": {
     "reason": "French doors, a lower freezer drawer and a refillable water tank.",
@@ -89,6 +95,7 @@
     "fit": "The drawing specifies a cut-out 580 mm deep. The body is 598 mm deep, so the front can project beyond the cabinet. Allow 1,175 mm with the door open, plus space to load it.",
     "tradeoff": "A lower cutlery basket takes up some plate space.",
     "jumpLabel": "60 cm · cutlery basket",
-    "decisionLabel": "Cutlery basket · 600 mm wide × 850 mm high cut-out"
+    "decisionLabel": "Cutlery basket · 600 mm wide × 850 mm high cut-out",
+    "essentialFit": "The complete appliance needs the 850 mm-high cut-out shown by Westinghouse. The 820 mm underbench arrangement requires its removable top to be taken off."
   }
 }

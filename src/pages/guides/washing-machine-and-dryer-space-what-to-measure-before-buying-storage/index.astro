@@ -73,7 +73,7 @@ const faqs = [
   category="Laundry"
   faqs={faqs}
   date="Updated November 2026"
-  dateModified="2026-11-08"
+  dateModified="2026-11-18"
   readingTime="13 minute read"
   showAffiliateDisclosure={false}
   image="/images/guides/washing-machine-and-dryer-space-what-to-measure-before-buying-storage.webp"
@@ -89,9 +89,8 @@ const faqs = [
     accessoryTitle="Optional Bosch dryer and stacking kit"
     accessoryIntro="These are separate purchases for the Bosch setup described in the compatibility section below, not washer alternatives or a bundled price. The WQG24201AU is the dryer; WTZ11400 is the stacking kit with a pull-out shelf. Confirm the full model revisions and installation requirements. The kit is not needed for a side-by-side layout; neither item makes either LG washer stackable."
   >
-    <a slot="setup-link" href="#bosch-stack-heading">Bosch washer + dryer stack</a>
-  </CommercialProductBlock>
-
+    <Fragment slot="setup-link"><a href="#current-washer-examples-heading">Full measurements</a><a href="#bosch-stack-heading">Bosch washer + dryer stack</a></Fragment>
+    <Fragment slot="after-comparison">
   <section aria-labelledby="current-washer-examples-heading" data-appliance-model-examples="washing-machine">
     <h2 id="current-washer-examples-heading">Check the full washer measurements</h2>
     <p>Only 600 mm between cabinets? Neither LG model has enough side clearance. Bosch specifies a 600 mm niche under a continuous worktop secured to the adjacent cabinets. Check your installation against its manual. Dimensions were checked against Australian specifications and installation manuals on <time datetime="2026-10-10">10 October 2026</time>. AHC has not tested these washers firsthand.</p>
@@ -108,6 +107,7 @@ const faqs = [
         </tbody>
       </table>
     </div>
+    <p><a href="#commercial-products-washing-machine-and-dryer-space-what-to-measure-before-buying-storage">Back to the washer comparison and retailer prices</a></p>
     <h3>Depth is the difference that is easiest to miss</h3>
     <p>The LG slim front loader saves 115mm of body depth compared with the Bosch, but neither can be planned from that figure alone. Measure from the wall past the connections to the closed door, then check the door-open position against the walkway. A top loader trades front door swing for clear space above and a comfortable reach into the drum.</p>
     <p>If a dryer must sit on top, rule out the LG slim washer and the top loader. The Bosch combination below is supported by published compatibility guidance; matching widths alone do not establish compatibility.</p>
@@ -126,7 +126,8 @@ const faqs = [
     </ul>
     <p>The dryer is worth considering if low-temperature heat-pump drying suits your routine. Allow for long cycles, possible extra drying of bulky loads and filter/heat-exchanger maintenance; it does not have a self-cleaning condenser. Our <a href="/guides/heat-pump-vs-condenser-vs-vented-dryers/">dryer-type comparison</a> explains the wider tradeoffs. The kit's shelf can help with loading, but does not solve an inaccessible or unstable installation.</p>
   </section>
-
+    </Fragment>
+  </CommercialProductBlock>
 
   <section aria-labelledby="laundry-order-heading">
     <h2 id="laundry-order-heading">Compare the complete laundry order</h2>
