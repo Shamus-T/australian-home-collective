@@ -20190,7 +20190,7 @@
       "guidePath": "/guides/robot-lawn-mower-buying-guide-australia/",
       "name": "Ecovacs GOAT O600 RTK Robot Lawn Mower",
       "productType": "RTK navigation — up to 600 m² stated working area",
-      "summary": "An RTK-guided mower with a stated 600 m² working capacity, 19 cm cutting width and 30–80 mm cutting height. It adds a satellite-based option for a suitably mapped lawn with an open reference-station location and a clear route back to the dock. ECOVACS sells the standalone mower direct. The Good Guys showed an in-stock offer on 18 November 2026. Confirm delivery timing for your postcode.",
+      "summary": "An RTK-guided mower with a stated 600 m² working capacity, 19 cm cutting width and 30–80 mm cutting height. It adds a satellite-based option for a suitably mapped lawn with an open reference-station location and a clear route back to the dock. ECOVACS sells the standalone mower direct. The Good Guys orders this mower from its supplier after purchase. Confirm the delivery estimate for your postcode before ordering.",
       "merchant": "The Good Guys",
       "destinationUrl": "https://prf.hn/click/camref:1100l6vaUc/creativeref:1011l64579/destination:https%3A%2F%2Fwww.thegoodguys.com.au%2Fecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
       "linkLabel": "View at The Good Guys",
@@ -20299,6 +20299,14 @@
           "sourceUrl": "https://www.thegoodguys.com.au/ecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
           "supports": "Scheduled feed/page report and independent anonymous check matched GOAT-O600-RTK, InStock structured offer and order control. The previous supplier-order notice was absent. Delivery timing and postcode-specific stock were not verified.",
           "checkedOn": "2026-11-18"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "Good Guys exact-model supplier-order recheck",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/ecovacs-goat-o600-rtk-robotic-lawn-mower-goat-o600-rtk",
+          "supports": "Scheduled clean-page report and independent anonymous check matched GOAT-O600-RTK and the visible supplier-order purchase notice. It is orderable from the supplier; postcode-specific delivery time was not established. Supersedes the 18 November stock observation without changing model or warranty evidence.",
+          "checkedOn": "2026-11-20"
         }
       ],
       "image": {
