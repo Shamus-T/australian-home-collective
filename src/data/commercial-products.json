@@ -10291,18 +10291,18 @@
       "linkLabel": "View at Amazon Australia",
       "affiliate": true,
       "affiliateNetwork": "amazon-australia",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-08-24",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-08-24",
+        "checkedOn": "2026-11-21",
         "destinationStatus": "reachable",
         "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "in-stock",
-        "listingStatus": "baseline-recorded",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -10386,6 +10386,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B0BCHWLXW5?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "21 November exact-ASIN temporary stock loss",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B0BCHWLXW5",
+          "checkedOn": "2026-11-21",
+          "supports": "The fresh full-catalogue sweep and independent clean HTTP 200 recheck matched ASIN B0BCHWLXW5 and explicitly stated temporarily out of stock, with no restock date. Paused the buying offer. This does not establish discontinuation or refresh specification, safety or warranty research. Evidence: tmp/availability-2026-11-21/amazon.json and amazon-rechecks.json."
         }
       ],
       "image": {

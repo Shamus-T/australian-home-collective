@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-20",
+  "updatedOn": "2026-11-21",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -2755,16 +2755,15 @@
     {
       "guidePath": "/guides/reduce-pollen-dust-inside-home-spring/",
       "title": "How to Reduce Pollen and Dust Inside Your Home During Spring",
-      "reviewedOn": "2026-10-18",
+      "reviewedOn": "2026-11-21",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "598eefebfab5ed43eaf9e4e399a0ddaf29921a42016736b2b803adaa5e0d38c4",
+      "reviewedSourceSha256": "94e4ebb53b4e49b093b47c94d9fe43a8ab2d41c539f65e70304ed9b091a44312",
       "requiredProductTypes": [
         {
           "label": "Portable air purifier for a defined medium room",
-          "productIds": [
-            "pollen-philips-ac1715-70-air-purifier"
-          ]
+          "productIds": [],
+          "gapReason": "Philips AC1715/70 Amazon offer temporarily out of stock on 21 November 2026, confirmed twice. Buying link paused; the lower-CADR Levoit and Breville are not equivalent medium-room replacements."
         },
         {
           "label": "Compact portable air purifier for a measured room",
@@ -2786,7 +2785,7 @@
         "/guides/cordless-stick-vacuums-australia/",
         "/guides/robot-vacuum-buying-guide-australia/"
       ],
-      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md."
+      "reviewScope": "Follow-up research of unresolved 18 October candidates: exact-model manufacturer specifications, instructions, owner limitations, clean Australian retailer listings and permitted images. New additions checked 18 October; existing product review dates retained. No affiliate redirects followed. See docs/editorial/unresolved-product-research-2026-10-18.md. 21 November availability maintenance: paused the temporarily unavailable Philips offer after two clean exact-ASIN checks, retained its specification reference with a clear notice and recorded the medium-room gap. Remaining approved links and image assets unchanged."
     },
     {
       "guidePath": "/guides/rental-friendly-pet-setup-what-to-check-before-buying-pet-gear/",

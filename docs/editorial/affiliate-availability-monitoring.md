@@ -10,6 +10,14 @@ The stock parser requires matching selected variant, offer and visible delivery 
 
 Implemented 24 October 2026. This replaces the expired manual supplier-order exceptions; it does not change affiliate link destinations or image assets.
 
+## 21 November temporary stock loss
+
+The fresh local Amazon sweep covered all 86 approved unique offers at run start: 71 available, 12 low-stock, two unverified and one unavailable. A separate exact-ASIN check confirmed that the Philips AC1715/70 (B0BCHWLXW5) is temporarily out of stock. Its offer is paused, its pollen-and-dust guide comparison is labelled as a specification reference, and the medium-room coverage gap is recorded. The existing lower-CADR Levoit and Breville options are not presented as equivalent replacements. Images, approved retailer artwork and retained destination records are unchanged. The active Amazon selection is now 85; the original 86-offer evidence is preserved. Re-enabling the Philips offer requires a fresh exact-product availability check.
+
+The vidaXL 90L box and Giselle Solene Queen retained exact identities but lacked clear availability text on both checks. Their status remains unverified, not confirmed withdrawn. All six Beds n Dreams variants were checked in the anonymous Queensland context: five available and the already-disclosed Brooklyn bedside unavailable. These are not nationwide or postcode-specific guarantees.
+
+Good Guys run 44828658230 completed its substantive steps and checked all 63 feed/page offers: 60 available and three supplier-order, with no unresolved faults. The Westinghouse WRC904SD, GOAT O600 RTK and Instant Duo Plus 8L retain their supplier-order advice. Beds cloud run 44779218455 verified all six identities only; stock came from the fresh local Australian-region sweep. Sanitised artifact hashes and current-catalogue URL selections were verified. Evidence: `tmp/availability-2026-11-21/`, including preserved prior reports, fresh sweeps, independent rechecks, named cloud steps, artifacts and publication checks. No affiliate or analytics requests were generated.
+
 ## Coverage and cadence
 
 - Good Guys: every four hours, all approved primary and additional retailer offers. Check the authenticated product feed and clean exact-product purchase pages. As of 26 October the catalogue contains 55 distinct active offers, including the freshly researched Tefal B4850217 pan. C2780483 was already monitored; its new kitchen placement does not add a second unique offer. The monitor derives coverage from the current catalogue; no fixed SKU list needs updating.
