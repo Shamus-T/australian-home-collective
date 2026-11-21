@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedOn": "2026-11-21",
+  "updatedOn": "2026-11-22",
   "articles": [
     {
       "guidePath": "/australian-status-labels/",
@@ -811,10 +811,10 @@
     {
       "guidePath": "/guides/cookware-materials-compared/",
       "title": "Cookware Materials Compared for Australian Kitchens",
-      "reviewedOn": "2026-11-06",
+      "reviewedOn": "2026-11-22",
       "intent": "buying",
       "editorialReason": null,
-      "reviewedSourceSha256": "ff40e1924727a3452ae9914d59c47f07422e40a0ac2dc4a5dbd95532ce034f13",
+      "reviewedSourceSha256": "e3afda603212269f68b77d513adb04d9daf4614dff30d0ae9ae6005dabb1b0af",
       "requiredProductTypes": [
         {
           "label": "Stainless-steel cookware set",
@@ -843,7 +843,7 @@
       ],
       "supportingProductIds": [],
       "contextualRoutes": [],
-      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. 5 November: reviewed Raco Eversteel 28 cm Stainless Steel Induction Frypan and its Cookware Brands placement, including the exact product, suitability, delivery and offline affiliate destination check. 6 November: moved the existing buying section after the relevant setup checks and made its shopping decision explicit."
+      "reviewScope": "Approved 18 October commercial repair: clean destination and stock review, exact-model retailer additions where applicable, researched product/variant selection and practical comparisons. Existing unrelated product research dates retained. National retailer listing availability is not postcode-level stock assurance. No affiliate redirects opened. 5 November: reviewed Raco Eversteel 28 cm Stainless Steel Induction Frypan and its Cookware Brands placement, including the exact product, suitability, delivery and offline affiliate destination check. 6 November: moved the existing buying section after the relevant setup checks and made its shopping decision explicit. 22 November availability-only maintenance: disclosed the Scanpan set’s observed 1–2 month dispatch wait and unverified follow-up. Approved model, links, image and earlier specification research retained."
     },
     {
       "guidePath": "/guides/cordless-stick-vacuums-australia/",

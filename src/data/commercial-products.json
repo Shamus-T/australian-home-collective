@@ -8607,7 +8607,8 @@
       "testingNotes": "",
       "drawbacks": [
         "A six-piece set consumes substantial cupboard space and may duplicate pans already owned.",
-        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering."
+        "Current dimensions, variant, price, stock and seller details should be rechecked before ordering.",
+        "On 22 November 2026, Amazon listed usual dispatch in 1–2 months. Availability could not be reconfirmed in a follow-up check. This offer may not suit an urgent purchase; dispatch is not arrival, so check the current delivery estimate for your address before ordering."
       ],
       "suitability": {
         "suits": [
@@ -8673,6 +8674,14 @@
           "sourceUrl": "https://www.amazon.com.au/dp/B077DRGRG6?tag=ahc07-22",
           "supports": "Displayed seller: Amazon AU. Buying options and delivery terms were inspected; seller, stock and delivery can change before purchase.",
           "checkedOn": "2026-10-07"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "22 November Scanpan delayed-dispatch observation",
+          "publisher": "Amazon Australia",
+          "sourceUrl": "https://www.amazon.com.au/dp/B077DRGRG6",
+          "checkedOn": "2026-11-22",
+          "supports": "The fresh full-catalogue sweep matched the exact ASIN/title and an order control, with usual dispatch within 1 to 2 months. A separate clean recheck returned an access challenge, so the delay is a dated observation rather than independently reconfirmed current availability. Added reader advice without pausing the offer or changing its approved destination, specifications or images. Evidence: tmp/availability-2026-11-22/amazon.json and scanpan-recheck.json."
         }
       ],
       "image": {
