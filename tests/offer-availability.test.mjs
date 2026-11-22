@@ -6,7 +6,7 @@ import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {fetchProduct,inspectProduct,reconcileFeed,selectOffers} from '../scripts/lib/offer-availability.mjs';
 const amazon='https://www.amazon.com.au/dp/B000000001';
-const listing=(stock,asin='B000000001')=>`<title>Product</title><input id="ASIN" value="${asin}"><span id="productTitle">Exact product</span><div id="availability">${stock}</div><input id="add-to-cart-button"><div>Recommendations currently unavailable</div>`;
+const listing=(stock,asin='B000000001',region='Australia')=>`<title>Product</title><input id="ASIN" value="${asin}"><span id="productTitle">Exact product</span><span id="glow-ingress-line2">${region}</span><div id="availability">${stock}</div><input id="add-to-cart-button"><div>Recommendations currently unavailable</div>`;
 test('availability comes from the exact ASIN purchase section, not recommendations',()=>{
  assert.equal(inspectProduct(amazon,{status:200,html:listing('In stock')}).status,'available');
  assert.equal(inspectProduct(amazon,{status:200,html:listing('Only 2 left in stock')}).status,'low-stock');
@@ -15,6 +15,21 @@ test('availability comes from the exact ASIN purchase section, not recommendatio
  assert.equal(inspectProduct(amazon,{status:200,html:'<title>Robot Check</title>'+listing('In stock')}).status,'unverified');
  assert.equal(inspectProduct(amazon,{status:503,html:listing('In stock')}).status,'unverified');
  assert.equal(inspectProduct(amazon,{status:200,html:listing('')}).status,'unverified');
+});
+test('Amazon foreign or missing delivery context cannot establish Australian stock or withdrawal',()=>{
+ for(const region of ['United States','CA','','London 2000']){
+  for(const stock of ['In stock','Only 2 left in stock','Temporarily out of stock','Usually dispatched within 1 to 2 months']){
+   const result=inspectProduct(amazon,{status:200,html:listing(stock,'B000000001',region)});
+   assert.equal(result.status,'unverified');assert.equal(result.region,region);
+   assert.equal(result.identity,'B000000001');assert.equal(result.availability,stock);
+  }
+ }
+ for(const region of ['Australia','Brisbane 4000','Sydney 2000','Fortitude Valley QLD 4006']){
+  assert.equal(inspectProduct(amazon,{status:200,html:listing('In stock','B000000001',region)}).status,'available');
+  assert.equal(inspectProduct(amazon,{status:200,html:listing('Currently unavailable','B000000001',region)}).status,'unavailable');
+ }
+ const missing=listing('In stock').replace(/<span id="glow-ingress-line2">.*?<\/span>/,'');
+ assert.equal(inspectProduct(amazon,{status:200,html:missing}).status,'unverified');
 });
 test('research refuses tagged URLs and never follows redirects or sends cookies',async()=>{
  let calls=0;

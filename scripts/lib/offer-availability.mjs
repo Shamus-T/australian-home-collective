@@ -59,6 +59,14 @@ export function inspectProduct(url, {status,html}) {
     // Never scan recommendations or generic hidden error templates for stock phrases.
     const availability=clean(text(byId('availability')??byId('outOfStock')??{}));
     result.availability=availability.slice(0,500);
+    // The AU storefront can default anonymous requests to an overseas address.
+    // Its purchase section then describes delivery eligibility there, not AU stock.
+    const region=clean(text(byId('glow-ingress-line2')??{}));
+    result.region=region;
+    const australianRegion=/^Australia$/i.test(region) ||
+      /^(?:[A-Za-z .'-]+\s+)?(?:NSW|VIC|QLD|SA|WA|TAS|NT|ACT)\s+\d{4}$/i.test(region) ||
+      /^(?:Sydney|Melbourne|Brisbane|Adelaide|Perth|Hobart|Darwin|Canberra)\s+\d{4}$/i.test(region);
+    if (!australianRegion) return {...result,reason:'Delivery context is missing or not a recognised Australian region; stock unverified'};
     const cart=byId('add-to-cart-button');
     const canOrder=cart && !('disabled' in cart.attributes) && cart.attributes['aria-disabled']!=='true';
     if (/currently unavailable|temporarily out of stock|out of stock|not available/i.test(availability)) {
