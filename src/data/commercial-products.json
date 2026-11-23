@@ -2082,18 +2082,18 @@
       "linkLabel": "Check current price at The Good Guys",
       "affiliate": true,
       "affiliateNetwork": "partnerize",
-      "editorialStatus": "approved",
+      "editorialStatus": "paused",
       "researchOutcome": "research-supported",
       "evidenceConfidence": "moderate",
       "recallSafetyStatus": "clear",
       "lastReviewedOn": "2026-11-03",
-      "approvedForAffiliateUse": true,
+      "approvedForAffiliateUse": false,
       "affiliateValidation": {
-        "checkedOn": "2026-11-03",
-        "destinationStatus": "reachable",
-        "productIdentityStatus": "verified",
-        "australianAvailabilityStatus": "available-to-order",
-        "listingStatus": "baseline-recorded",
+        "checkedOn": "2026-11-24",
+        "destinationStatus": "unreachable",
+        "productIdentityStatus": "unverified",
+        "australianAvailabilityStatus": "unavailable",
+        "listingStatus": "materially-changed",
         "specificationsStatus": "matched",
         "safetyComplianceStatus": "not-applicable",
         "trackingStatus": "verified"
@@ -2252,6 +2252,14 @@
           "sourceUrl": "https://kitchenaid.com.au/pages/product-safety-recall",
           "supports": "3 November targeted indexed searches for KitchenAid KSM195 and Product Safety Australia returned no matching mixer recall. Manufacturer recall notice concerns KEK1722 kettles, not KSM195. Indexed search has coverage limitations and is not a safety certification.",
           "checkedOn": "2026-11-03"
+        },
+        {
+          "sourceType": "australian-availability-support",
+          "title": "24 November exact listing withdrawn to category",
+          "publisher": "The Good Guys",
+          "sourceUrl": "https://www.thegoodguys.com.au/kitchenaid-artisan-stand-mixer-porcelain-5ksm195psapl",
+          "checkedOn": "2026-11-24",
+          "supports": "Scheduled run 45249954161 found HTTP 301 and no matching feed destination. Independent anonymous request confirmed HTTP 301 with Location /small-kitchen-appliances/mixers-and-food-processors/stand-mixers; the redirect was not followed. Paused the unusable exact-product buying destination. This establishes listing withdrawal, not nationwide stock loss or model discontinuation. Existing specifications, warranty, imagery and retained affiliate destination are unchanged. Evidence: tmp/availability-2026-11-24/kitchenaid-redirect.json and verified cloud artifact."
         }
       ],
       "image": {
